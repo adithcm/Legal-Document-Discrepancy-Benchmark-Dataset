@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Unless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates\nand charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on\nfile with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the\nmaximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto.",
+                "changed_text": "Unless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates\nand charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on\nfile with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the\nmaximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto. All invoices are due and payable within 60 days of the invoice date.",
+                "explanation": "Paragraph 9 specifies how rates are determined but doesn't define payment terms. By adding 'All invoices are due and payable within 60 days of the invoice date' to paragraph 9, we introduce a payment deadline. Then, in paragraph 12, we add another payment deadline that conflicts with paragraph 9.",
+                "location": "9"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate\nSchedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time\nto time. Transporter may file and seek Commission approval under Section 4 of the Natural Gas Act (NGA) at any time and from\ntime to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the\n\"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the\nright to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes\nand any such changes",
+                "changed_text": "This Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate\nSchedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time\nto time. Transporter may file and seek Commission approval under Section 4 of the Natural Gas Act (NGA) at any time and from\ntime to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the\n\"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the\nright to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes\nand any such changes. Payment for services rendered under this agreement is due within 30 days of invoice date.",
+                "explanation": "Paragraph 12 incorporates the FERC Gas Tariff. By adding 'Payment for services rendered under this agreement is due within 30 days of invoice date' to paragraph 12, we introduce a payment deadline of 30 days. This conflicts with the 60-day payment deadline established in paragraph 9, creating ambiguity about when payment is actually due. This in-text contradiction introduces uncertainty and potential disputes.",
+                "location": "12"
+            }
+        ]
+    }
+]

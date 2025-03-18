@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.10 \"Improvement\" or \"Improvements\" means any modification of a process or other technology described in a Patent, and any\nmodification to Technical Information.",
+                "changed_text": "2.10 \"Improvement\" or \"Improvements\" means any *significant* modification of a process or other technology described in a Patent, and any modification to Technical Information that *materially enhances* its utility.",
+                "explanation": "By adding 'significant' and 'materially enhances,' we restrict the definition of 'Improvement' in Section 2.10 to only those modifications that are substantial or notably enhance the utility of Technical Information. This contrasts with the broader language used later in Article 5 regarding ownership and licensing of Improvements, where any modification is considered, irrespective of its significance or impact. This could lead to disputes over whether minor modifications are subject to the same ownership and licensing terms as major ones.",
+                "location": "Article II, Section 2.10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.01 Investor shall own all right, title and interest in any Improvement made or acquired by the Investor (\"Investor Improvement\").",
+                "changed_text": "5.01 Investor shall own all right, title and interest in any Improvement made or acquired by the Investor (\"Investor Improvement\"), *provided such Improvement is directly related to the commercialization of rare earth minerals*. Investor hereby agrees to grant to Company a non-exclusive, irrevocable, royalty-free license under any Investor Improvement and any patent claiming such Investor Improvement, solely for use in rare earth mineral processing and rare earth separation, to make and have made, use, offer to\nsell, sell and import products made using the Investor Improvements. Such rights to Investor Improvements shall be solely for use by the Company\nand its Affiliates and shall not be transferable to any Third Party, except in connection with a merger, consolidation, or the sale or transfer of\nsubstantially all of Company's assets associated with performance under this IP Agreement.",
+                "explanation": "By adding the condition that Investor Improvements must be 'directly related to the commercialization of rare earth minerals' to be owned by the Investor, we create a conflict with the definition of Improvement in Section 2.10. Section 2.10 defines Improvement as any modification to a Patent or Technical Information. This creates a contradiction: what happens if an Improvement, as defined in Section 2.10, is made by the Investor, but it is not directly related to the commercialization of rare earth minerals? Does the Investor still own it per Section 2.10, or does it not because of the modification to Section 5.01? This creates ambiguity in ownership rights.",
+                "location": "Article V, Section 5.01"
+            }
+        ]
+    }
+]

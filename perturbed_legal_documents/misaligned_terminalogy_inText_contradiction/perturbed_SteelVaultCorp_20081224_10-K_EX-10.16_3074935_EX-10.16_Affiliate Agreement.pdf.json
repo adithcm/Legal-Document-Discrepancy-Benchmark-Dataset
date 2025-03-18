@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "SteelVaultCorp_20081224_10-K_EX-10.16_3074935_EX-10.16_Affiliate Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Marketing Affiliate shall be responsible for collecting all amounts due directly from the Consumer and shall bear sole responsibility for non-payment of any fees charged to the Consumer. Marketing Affiliate shall pay to Equidata, as compensation for its providing of Services under this agreement, such amounts as outlined and detailed in Exhibit A attached hereto.",
+                "changed_text": "The Partner shall be responsible for collecting all amounts due directly from the Consumer and shall bear sole responsibility for non-payment of any fees charged to the Consumer. The Partner shall pay to Equidata, as compensation for its providing of Services under this agreement, such amounts as outlined and detailed in Exhibit A attached hereto.",
+                "explanation": "Replaced 'Marketing Affiliate' with 'Partner' without defining 'Partner'. This creates confusion as to whether 'Partner' is the same entity as 'Marketing Affiliate', potentially creating disputes over payment responsibilities. While the agreement defines 'Marketing Affiliate', it doesn't define 'Partner', potentially leading to a legal challenge.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Audit. Equidata may audit, at Equidata’s expense, the Marketing Affiliate’s marketing, practices and activities for the purpose of assuring compliance with this Agreement. Equidata reserves the right to site inspect Marketing Affiliate’s physical location of business at any time.",
+                "changed_text": "Audit. Equidata may audit, at Equidata’s expense, the Vendor's marketing, practices and activities for the purpose of assuring compliance with this Agreement. Equidata reserves the right to site inspect the Vendor’s physical location of business at any time.",
+                "explanation": "Replaced 'Marketing Affiliate' with 'Vendor' without defining 'Vendor'. This creates confusion as to whether 'Vendor' is the same entity as 'Marketing Affiliate', potentially creating disputes over compliance procedures and inspection rights. It's now unclear to whom these audit rights apply, potentially weakening Equidata's position.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_Endorsement Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Base Salary\" means the Employee's total base salary as of each January 1st exclusive of special payments such as bonuses or\ncommissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "changed_text": "\"Base Salary\" means the Employee's total base salary, excluding bonuses and commissions. However, for the purposes of calculating death benefits under Article IV, Base Salary shall include bonuses earned in the prior fiscal year.",
+                "explanation": "This change creates a conflict in the definition of 'Base Salary'. Article I defines it excluding bonuses, while a modified version implicitly includes bonuses when calculating death benefits in Article IV. This introduces ambiguity and potential disputes regarding the calculation of death benefits, particularly if the employee earned significant bonuses in the prior year.",
+                "location": "Article I"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page\n6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an\namount equal to the lesser of: (a) (two (2) times the Employee's annualized base salary at the time of death as provided by the Employer's payroll\ndepartment) plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk.",
+                "changed_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page\n6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an\namount equal to the lesser of: (a) two (2) times the Employee's annualized base salary plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) an amount determined at the sole discretion of the Employer, not to exceed the Net Amount At Risk.",
+                "explanation": "This change gives the Employer discretionary power over the death benefit amount up to the Net Amount at Risk, contradicting the original fixed formula of two times the base salary plus $100,000. This undermines the predictability of the death benefit and creates uncertainty for the beneficiary. While it specifies the maximum payout, it does not define how the discretionary amount is calculated or determined.",
+                "location": "Article IV"
+            }
+        ]
+    }
+]

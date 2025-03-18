@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "OLDAPIWIND-DOWNLTD_01_08_2016-EX-1.3-AGENCY AGREEMENT2.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In connection with the offer and sale in the United States of common shares (the “Securities”) of Tribute Pharmaceuticals Inc. (the “Corporation”) to Accredited Investors pursuant to a Subscription Agreement dated as of May 22, 2015, and pursuant to an agency agreement (the “Agency Agreement”) dated as of May 22, 2015 between the Corporation and the agents named therein, [ ] (the “Agent”) and [ ] (the “U.S. Affiliate”), the U.S. registered broker-dealer affiliate of the Agent, hereby certify as follows:",
+                "changed_text": "In connection with the offer and sale in the United States of common shares (the “Securities”) of Tribute Pharmaceuticals Inc. (the “Corporation”) to Accredited Investors pursuant to a Subscription Agreement dated as of May 22, 2015, and pursuant to an agency agreement (the “Agency Agreement”) dated as of May 22, 2015 between the Corporation and the intermediaries named therein, [ ] (the “Agent”) and [ ] (the “U.S. Affiliate”), the U.S. registered broker-dealer affiliate of the Agent, hereby certify as follows:",
+                "explanation": "Replaced 'agents' with 'intermediaries'. The contract only defines 'Agent', leading to confusion about whether 'intermediaries' has the same meaning or carries different obligations. This creates an internal contradiction as the rest of the agreement refers to Agents, and it's not clear if those sections apply to entities now referred to as intermediaries.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "(viii) the offering of the Securities in the United States has been conducted by us in accordance with the terms of the Agency Agreement, including Schedule A attached hereto.",
+                "changed_text": "(viii) the offering of the Securities in the United States has been conducted by us in accordance with the terms of the Distribution Agreement, including Schedule A attached hereto.",
+                "explanation": "Replaced 'Agency Agreement' with 'Distribution Agreement'. The contract defines the specific agreement as the 'Agency Agreement'. By referring to it as the 'Distribution Agreement' in one section, the contract now has conflicting statements about which agreement is being followed. This creates internal confusion as enforcement mechanisms might be tied to one agreement but not the other.",
+                "location": "Paragraph (viii)"
+            }
+        ]
+    }
+]

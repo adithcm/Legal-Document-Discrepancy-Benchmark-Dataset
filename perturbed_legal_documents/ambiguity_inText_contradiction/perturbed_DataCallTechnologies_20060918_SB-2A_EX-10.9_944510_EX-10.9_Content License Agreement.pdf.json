@@ -1,0 +1,14 @@
+[
+    {
+        "file_name": "DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.2  End User  means  any  third  Party  receiving  Content  on  a  mobile\ndevice  for  a  payment in accordance with the terms and conditions of\nthis  Agreement  for  their  own  private  and  non-  commercial  use.",
+                "changed_text": "1.2  End User  means  any  third  Party  receiving  Content  on  a  mobile\ndevice  for  a  payment in accordance with the terms and conditions of\nthis  Agreement  for  their  own  private  and  non-  commercial  use.\n\nHowever, for the purposes of revenue sharing as described in Section 4, 'End User' will be defined as a third party that has maintained a subscription to the content for a minimum of 30 days.",
+                "explanation": "This change introduces conflicting definitions of 'End User.' Section 1.2 defines it broadly as any third party receiving content for payment. The added clause in Section 1.2 restricts the definition for revenue sharing to only those with a subscription lasting 30 days. This creates uncertainty: are all End Users counted for overall usage metrics, or only those who subscribe for 30 days? How does this impact report generation under section 3.3?",
+                "location": "Section 1.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Grant of Rights.\n\nGeneral Rights. Subject to the terms and conditions of this Agreement, Company hereby\ngrants to MA the right to advertise, market and sell to corporate users, government\nagencies and educational facilities (“Clients”) for their own internal language learning, soft\nskills and communication purposes only, and not for remarketing or redistribution, and not\nfor use in a data center environment for multiple users Clients, unless otherwise agreed to by\nCompany prior in writing, the Technology listed in Schedule A of this Agreement, and to sell\nand/or bundle Technology Maintenance for the Technology and to provide first line\ntechnical support and implementation services for the Technology in the territories listed in\nSchedule A of this Agreement, providing MA meets the criteria required for delivering\nservices according to Schedule A.",
+                "changed_text": "Grant of Rights.\n\nGeneral Rights. Subject to the terms and conditions of this Agreement, Company hereby\ngrants to MA the right to advertise, market and sell to corporate users, government\nagencies and educational facilities (“Clients”) for their own internal language learning, soft\nskills and communication purposes only, and not for remarketing or redistribution, and not\nfor use in a data center environment for multiple users Clients, unless otherwise agreed to by\nCompany prior in writing, the Technology listed in Schedule A of this Agreement, and to sell\nand/or bundle Technology Maintenance for the Technology and to provide first line\ntechnical support and implementation services for the Technology in the territories listed in\nSchedule A of this Agreement, providing MA meets the criteria required for delivering\nservices according to Schedule A.",
+                "explanation": "In Section 2.1, 'Clients' are defined as corporate users, government agencies and educational facilities. In Section 4.5, 'clients' are not defined. This leads to ambiguity, as they could refer to a different group entirely, potentially impacting the scope of services. While the change does not modify the text, the addition in the next section will add the contradiction. Therefore, this section is left as is.",
+                "location": "2.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "No Procedures. Company shall not require procedures for which MA may deal with\nClients however will require reasonable levels of satisfaction from the clients related to\nthe services provided by the MA.",
+                "changed_text": "No Procedures. Company shall not require procedures for which MA may deal with\nClients however will require reasonable levels of satisfaction from the *end users* related to\nthe services provided by the MA.",
+                "explanation": "By changing 'clients' to 'end users' in Section 4.5, we create a contradiction. 'Clients' are defined in Section 2.1 as corporate users, government agencies, and educational facilities. 'End users', however, is an undefined term. This means that Company is imposing a satisfaction requirement that is not clearly defined, enforceable, or applicable to the same entity outlined in the rest of the contract, leading to potential disputes over obligations and enforcement.",
+                "location": "4.5"
+            }
+        ]
+    }
+]
