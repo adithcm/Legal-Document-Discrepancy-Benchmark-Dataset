@@ -2,8 +2,7 @@ import os
 import re
 
 base_dir = 'perturbed_legal_documents'
-# PERTURBATION_TYPES = ['ambiguity', 'inconsistencies', 'misaligned_terminalogy', 'omission', 'structural_flaws']
-PERTURBATION_TYPES = ['ambiguity']
+PERTURBATION_TYPES = ['ambiguity', 'inconsistencies', 'misaligned_terminalogy', 'omission', 'structural_flaws']
 CATEGORIES = ['inText', 'legal']
 TAG_PATTERN = r'<\*\$p\$\*>' 
 
