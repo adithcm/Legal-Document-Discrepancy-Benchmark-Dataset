@@ -2,7 +2,8 @@ import os
 import re
 
 base_dir = 'perturbed_legal_documents'
-PERTURBATION_TYPES = ['ambiguity', 'inconsistencies', 'misaligned_terminalogy', 'omission', 'structural_flaws']
+# PERTURBATION_TYPES = ['ambiguity', 'inconsistencies', 'misaligned_terminalogy', 'omission', 'structural_flaws']
+PERTURBATION_TYPES = ['ambiguity']
 CATEGORIES = ['inText', 'legal']
 TAG_PATTERN = r'<\*\$p\$\*>' 
 
@@ -18,20 +19,21 @@ for p_type in PERTURBATION_TYPES:
         
         for filename in os.listdir(tagged_path):
             if filename.endswith('.txt'):
-                input_file = os.path.join(tagged_path, filename)
-                output_file = os.path.join(output_path, filename)
+                # Using absolute path to avoid issues with path name length
+                input_file = r"\\?\\" + os.path.abspath(os.path.join(tagged_path, filename))
+                output_file = r"\\?\\" + os.path.abspath(os.path.join(output_path, filename))
                 
-                try:        # DEBUG: try doing this without the try catch. some weird error with some files...
-                    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-                    
-                    with open(input_file, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                    
-                    cleaned_content = remove_tag(content, TAG_PATTERN)
-                    
-                    with open(output_file, 'w', encoding='utf-8') as f:
-                        f.write(cleaned_content)
-                    
-                    print(f'Processed: {filename}')
-                except Exception:
-                    pass
+                # try:        
+                os.makedirs(os.path.dirname(output_file), exist_ok=True)
+                
+                with open(input_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                cleaned_content = remove_tag(content, TAG_PATTERN)
+                
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    f.write(cleaned_content)
+                
+                print(f'Processed: {filename}')
+                # except Exception:
+                #     pass
