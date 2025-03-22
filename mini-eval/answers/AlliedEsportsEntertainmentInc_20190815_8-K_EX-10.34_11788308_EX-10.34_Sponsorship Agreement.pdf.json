@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.2 Newegg shall provide to Allied the Sponsorship Benefits set out in Schedule 3, including paying the Sponsorship Fee as provided in that Schedule. Any value-added, goods and services, or similar tax or duty imposed by any government or tax authority on any Sponsorship Benefit shall be borne solely by Allied.",
+                "changed_text": "4.2 Newegg shall provide to Allied the Sponsorship Benefits set out in Schedule 3, including paying the Sponsorship Fee as provided in that Schedule. Any value-added, goods and services, or similar tax or duty imposed by any government or tax authority on any Sponsorship Benefit shall be borne solely by Allied. Newegg has 60 days from the invoice date to remit payment.",
+                "explanation": "This change adds a specific payment deadline of 60 days in Section 4.2. This contradicts Section 14.4 which discusses potential defaults by Newegg and a 15-day cure period. It is now unclear if Newegg has 15 days to cure a payment default (as implied by 14.4) or 60 days to make the initial payment (as stated in 4.2). This ambiguity could lead to disputes about when a payment is officially late and when a default occurs.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "14.4 During the first two (2) contract years of Term (i.e., February 1, 2019 through January 31, 2020 (“Contract Year 1”) and February 1, 2020 through January 31, 2021 (“Contract Year 2”)) and notwithstanding any other provisions of this Agreement, if Newegg defaults on or breaches any its obligations under the Agreement for any reason and fails to cure such default or breach within fifteen (15) days following receipt of Allied’s written notice of such default or breach, the Parties acknowledge and agree that (i) Newegg shall remain responsible and/or liable for the full payment or, if applicable, the remaining portion of the Sponsorship Fee for Contract Year 1 and Contract Year 2, and (ii) Allied shall have the right to pursue any additional legal and equitable remedies in connection with the Agreement.",
+                "changed_text": "14.4 During the first two (2) contract years of Term (i.e., February 1, 2019 through January 31, 2020 (“Contract Year 1”) and February 1, 2020 through January 31, 2021 (“Contract Year 2”)) and notwithstanding any other provisions of this Agreement, if Newegg defaults on or breaches any its obligations under the Agreement for any reason and fails to cure such default or breach within fifteen (15) days following receipt of Allied’s written notice of such default or breach, except for instances of late payment, the Parties acknowledge and agree that (i) Newegg shall remain responsible and/or liable for the full payment or, if applicable, the remaining portion of the Sponsorship Fee for Contract Year 1 and Contract Year 2, and (ii) Allied shall have the right to pursue any additional legal and equitable remedies in connection with the Agreement.",
+                "explanation": "By adding \"except for instances of late payment,\" this section now creates an exception to the 15-day cure period specifically for late payments. However, it does not explicitly state what the cure period *is* for late payments, leading to potential confusion. Given the change in Section 4.2 which grants 60 days, the question of the actual deadline to cure a payment is questionable and could lead to disputes.",
+                "location": "Section 14.4"
+            }
+        ]
+    }
+]
