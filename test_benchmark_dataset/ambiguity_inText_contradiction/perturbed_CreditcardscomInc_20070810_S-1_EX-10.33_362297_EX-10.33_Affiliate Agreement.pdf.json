@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4. Approved Account\n\nFor purposes of determining Affiliate’s Commission, an “Approved Account” means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Affiliate’s Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Affiliate.",
+                "changed_text": "4. Approved Account\n\nFor purposes of determining Affiliate’s Commission, an “Approved Account” means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Affiliate’s Website; (ii) is approved by Chase and the applicant maintains a balance of at least $500 for 90 days; and (iii) is reported as approved by Chase to Affiliate.",
+                "explanation": "The original definition of 'Approved Account' requires only submission, Chase approval, and reporting. The modified definition adds a requirement that the applicant maintain a $500 balance for 90 days after approval. This creates a contradiction because an account could be 'Approved' under the original definition, but not under the new, more restrictive definition. This affects when an affiliate receives their commission and introduces ambiguity into the payment structure.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "13. Commercial Use\n\nThis program is intended for commercial use only. Commissions are payable for Approved Accounts to third parties who access the Chase URL's (marketing pages) through the Links located on Affiliate’s sponsoring Web site. Affiliates who use this program to apply for credit cards for their own use are NOT in violation of this Agreement.",
+                "changed_text": "13. Commercial Use\n\nThis program is intended for commercial use only. Commissions are payable for Approved Accounts to third parties who access the Chase URL's (marketing pages) through the Links located on Affiliate’s sponsoring Web site. Affiliates who use this program to apply for credit cards for their own use ARE in violation of this Agreement.",
+                "explanation": "The original definition explicitly states that affiliates using the program for their own credit card applications are NOT in violation. The modified version directly contradicts this, stating they ARE in violation. This creates uncertainty about whether an affiliate can receive commissions for their own credit card application through their own affiliate link. This could lead to disputes about eligibility and the purpose of the affiliate program.",
+                "location": "Section 13"
+            }
+        ]
+    }
+]
