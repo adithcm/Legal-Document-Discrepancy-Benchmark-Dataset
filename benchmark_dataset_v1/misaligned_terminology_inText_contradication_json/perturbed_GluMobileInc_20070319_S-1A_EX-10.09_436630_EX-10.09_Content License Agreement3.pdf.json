@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement3.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Reference is hereby made to that certain fully executed Wireless Content License Agreement Number 12965 dated as of December\n16, 2004, as amended November 11, 2005, (“Agreement”), between Fox Mobile Entertainment, Inc. (“Fox”), as Administrator for\nTwentieth Century Fox Film Corporation (“Trademark Licensor”) and Glu Mobile, Inc. f/k/a Sorrent, Inc. (“Licensee”).",
+                "changed_text": "Reference is hereby made to that certain fully executed Wireless Content License Agreement Number 12965 dated as of December\n16, 2004, as amended November 11, 2005, (“Agreement”), between Fox Mobile Entertainment, Inc. (“Fox”), as Administrator for\nTwentieth Century Fox Film Corporation (“Trademark Licensor”) and Glu Mobile, Inc. f/k/a Sorrent, Inc. (“Distributor”).",
+                "explanation": "Changing 'Licensee' to 'Distributor' introduces ambiguity. It's unclear if 'Licensee' and 'Distributor' refer to the same entity throughout the document, potentially impacting liability and obligations.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Royalty: In consideration of the rights granted to Licensee pursuant to this Amendment 2, Licensee shall pay to Fox, or\nsuch other party as Fox may designate in writing, a royalty in the following amount:\n(a) From the first unit sold, Fox shall earn a royalty at the rate of ***** percent (*****%) of Licensee’s Gross Receipts\n(as defined in the Agreement) from Licensee’s sale and distribution of the IA2 Audio and Video Wireless Products.",
+                "changed_text": "Royalty: In consideration of the rights granted to Licensee pursuant to this Amendment 2, Vendor shall pay to Fox, or\nsuch other party as Fox may designate in writing, a royalty in the following amount:\n(a) From the first unit sold, Fox shall earn a royalty at the rate of ***** percent (*****%) of Vendor’s Gross Receipts\n(as defined in the Agreement) from Vendor’s sale and distribution of the IA2 Audio and Video Wireless Products.",
+                "explanation": "Substituting 'Licensee' with 'Vendor' in the royalty clause creates confusion.  The contract now refers to both 'Licensee' and 'Vendor', but doesn't clarify if they are the same entity. This makes determining who is responsible for paying royalties uncertain, especially in light of the earlier change to 'Distributor'.",
+                "location": "Section B.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Licensee shall not be entitled to receive a share of any revenues and shall\nhave no claim to any revenues earned and collected by Fox, or a third-party Fox designates, for the IA2 Audio and Video\nWireless Products which Fox distributes through its and its assigns’ direct-to-consumer distribution channels.",
+                "changed_text": "Partner shall not be entitled to receive a share of any revenues and shall\nhave no claim to any revenues earned and collected by Fox, or a third-party Fox designates, for the IA2 Audio and Video\nWireless Products which Fox distributes through its and its assigns’ direct-to-consumer distribution channels.",
+                "explanation": "By introducing 'Partner', the document now uses 'Licensee', 'Vendor', 'Distributor', and 'Partner' without defining their relationship. This makes it difficult to determine which entity the revenue restriction applies to, and impacts enforceability of the entire section. Is it the original 'Licensee', or this new undefined 'Partner'?",
+                "location": "Section B.3"
+            }
+        ]
+    }
+]
