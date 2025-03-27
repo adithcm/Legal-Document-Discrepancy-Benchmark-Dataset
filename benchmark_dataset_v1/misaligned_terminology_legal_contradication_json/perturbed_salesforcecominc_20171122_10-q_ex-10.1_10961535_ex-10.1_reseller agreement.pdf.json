@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may resell such Services to any entity. Reseller must ensure that Sub-Reseller complies with some of the terms of the Agreement applicable to Reseller and a breach by Sub-Reseller of the Agreement will not be deemed a breach by Reseller. Sub-Reseller is a third-party beneficiary of the Agreement.",
+                "explanation": "This change introduces several contradictions. First, it changes the definition of who the Sub-Reseller can resell to, from 'Customer' to 'any entity,' contradicting the original agreement's intent. Second, it alters the compliance requirement, stating that the Sub-Reseller only needs to comply with 'some' terms, creating ambiguity and weakening enforcement. Finally, by stating the Sub-Reseller *is* a third-party beneficiary, it gives them rights they were explicitly denied in the original agreement.",
+                "contradicted_law": "Contract Law, Third-Party Beneficiary Rules, Resale Restrictions",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "Entire Agreement. The terms and conditions herein contained may not constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and do not supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "explanation": "The original clause clearly states that the Sub-Reseller Agreement constitutes the 'entire agreement'. The modified clause negates this by stating the terms and conditions 'may not constitute' the entire agreement and the original clause does not supersede previous agreements. This introduces ambiguity and undermines the 'entire agreement' clause, weakening the contract's enforceability.",
+                "contradicted_law": "Contract Law - Integration Clause",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

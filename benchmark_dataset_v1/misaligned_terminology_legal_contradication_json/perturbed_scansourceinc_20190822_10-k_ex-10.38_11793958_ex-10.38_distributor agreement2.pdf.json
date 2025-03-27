@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Customer's license to use the Software shall be limited to, and Customer shall not use the Software in excess of, a single hardware chassis or card or that number of agent(s), concurrent users, sessions, IP addresses, port(s), seat(s), server(s) or site(s), as set forth in the applicable Purchase Order which has been accepted by Cisco and for which Customer has paid to Cisco the required license fee.",
+                "changed_text": "Customer's license to use the Software shall be limited to a single hardware chassis or card, or to that number of users as Customer deems necessary, notwithstanding the Purchase Order, provided Customer notifies Cisco of such usage.",
+                "explanation": "The original text clearly defines the limits of software usage based on the Purchase Order. The modification introduces ambiguity by allowing the Customer to determine usage based on their 'needs,' overriding the agreed-upon limits specified in the Purchase Order. This contradicts contract law principles requiring adherence to agreed-upon terms and introduces uncertainty in enforcement.",
+                "contradicted_law": "Contract Law - Principles of Agreement",
+                "location": "License Section"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Customer agrees that aspects of the Software and associated Documentation, including the specific design and structure of individual programs, are trade secrets and/or copyrighted materials of Cisco, its suppliers or licensors. Customer shall not disclose, provide, or otherwise make available such trade secrets or copyrighted material in any form to any third party without the prior written consent of Cisco. Customer shall implement reasonable security measures to protect such trade secrets and copyrighted materials. Title to Software and Documentation shall remain solely with Cisco, its suppliers or licensors.",
+                "changed_text": "Customer acknowledges that the Software and Documentation contain confidential information. Customer may disclose this information to third parties with a legitimate need to know, provided they are informed of its confidential nature. Title to Software and Documentation is transferred to the Customer upon full payment of the license fee.",
+                "explanation": "The original text firmly establishes the Software and Documentation as trade secrets/copyrighted material belonging to Cisco and prohibits disclosure without consent. The modified text weakens this protection by allowing disclosure to third parties with a 'legitimate need to know' without defining this term and claiming title is transferred after payment. This contradicts intellectual property law principles and creates uncertainty about ownership and confidentiality obligations.",
+                "contradicted_law": "Intellectual Property Law - Trade Secrets and Copyright",
+                "location": "Protection of Information Section"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more than ninety (90) days after original shipment by Cisco), and continuing for a period of the longer of (a) ninety (90) days or (b) the software warranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be free of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications. The date of shipment of a Product by Cisco is set forth on the packaging material in which the Product is shipped. Except for the foregoing, the Software is provided AS IS.",
+                "changed_text": "Cisco warrants that the Software will function as expected under normal conditions. This warranty is valid only if the Customer has not modified the software. Other than this guarantee, the Software is sold AS IS. No other guarantees are given.",
+                "explanation": "The original warranty specifies a clear timeframe and criteria for the warranty, including conformity to published specifications. The modified text provides a vague warranty of 'functioning as expected' and doesn't say how long that will be. This contradicts warranty law, which mandates clarity on duration and scope and replaces that clarity with a subjective expectation. This opens the door to interpretation, making the contract unenforceable, and removes conformity to published specifications.",
+                "contradicted_law": "Warranty Law - Uniform Commercial Code (UCC)",
+                "location": "Limited Warranty Section"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "usioinc_20040428_sb-2_ex-10.11_1723988_ex-10.11_affiliate agreement 2.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS, the Network 1 desires to locate individuals to market Services as Contractor(s) (the \"Contractors\") of Network 1;",
+                "changed_text": "WHEREAS, the Network 1 desires to locate individuals to market Services as Staff (the \"Contractors\") of Network 1;",
+                "explanation": "The term 'Contractor' has a specific legal meaning related to independent contractors, which implies certain rights and responsibilities. Replacing it with 'Staff' suggests an employer-employee relationship, which contradicts the later stated intention of an independent contractor relationship and creates ambiguity under labor laws.",
+                "contradicted_law": "Fair Labor Standards Act (FLSA), IRS guidelines on independent contractor vs. employee classification.",
+                "location": "Recitals"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.01 CONTRACTORS. Affiliate shall use its best efforts to market and sell to commercial businesses the Services of Network 1 and Network 1's subsidiaries and to locate individuals who are willing and capable of acting as Contractors of Network 1 and Affiliate subject to the approval of all such individuals by Network 1 as set out in Section 2.01 [CONTRACTORS]. All such Contractors must process Merchant applications and transactions exclusively through Network 1. Network 1 consents to waive said exclusivity requirement with respect to specific Merchants in the event Network 1 (i) is unable to process for such specific Merchant, and (ii) the declined Merchant is not accepted for processing by a provider that Network 1 designates for specific Merchant's that are declined by Network 1 (\"B Bank Source\"). Affiliate shall disclose to Network 1 all information known to Affiliate with respect to the background, character, employment history, business experience and other information regarding each prospective Contractor relevant to Network 1's determination whether to accept or not accept each prospective Contractor.",
+                "changed_text": "1.01 STAFF. Affiliate shall use its best efforts to market and sell to commercial businesses the Services of Network 1 and Network 1's subsidiaries and to locate individuals who are willing and capable of acting as Contractors of Network 1 and Affiliate subject to the approval of all such individuals by Network 1 as set out in Section 2.01 [CONTRACTORS]. All such individuals must process Merchant applications and transactions exclusively through Network 1. Network 1 may waive said exclusivity requirement with respect to specific Merchants. Affiliate needs no disclose any information to Network 1.",
+                "explanation": "The text creates legal uncertainty. By changing 'Contractors' to 'Staff' and eliminating the due diligence requirement and the ability to waive exclusivity, the responsibilities significantly differs. By stating they don't need to disclose any information this goes against what any normal employee relationship should be.",
+                "contradicted_law": "Fair Labor Standards Act (FLSA), IRS guidelines on independent contractor vs. employee classification.",
+                "location": "Article I"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "6.01 NO EMPLOYER-EMPLOYEE RELATIONSHIP. Nothing in this contract or its fulfillment is intended to create an employer-employee relationship between Affiliate and contractors located by Affiliate and Network 1. You must not take a position contrary to your status as an independent contractor. YOU agree to accept the responsibilities placed on an independent contractor by federal and state law, regulation, and rule or otherwise.",
+                "changed_text": "6.01 NO EMPLOYER-EMPLOYEE RELATIONSHIP. Nothing in this contract or its fulfillment is intended to create an employer-employee relationship between Affiliate and staff located by Affiliate and Network 1. You must act as an employee. YOU are not responsible for any duties or responsibilities placed on an independent contractor by federal and state law, regulation, and rule or otherwise.",
+                "explanation": "This directly contradicts the earlier clauses specifying 'Contractors' and their responsibilities as independent entities. By stating that the located individuals 'must act as an employee' and are not responsible for duties, it directly challenges the independent contractor status and raises questions about liability and tax obligations under employment law.",
+                "contradicted_law": "Fair Labor Standards Act (FLSA), IRS guidelines on independent contractor vs. employee classification.",
+                "location": "Article VI"
+            }
+        ]
+    }
+]

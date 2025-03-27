@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "soupmaninc_20150814_8-k_ex-10.1_9230148_ex-10.1_franchise agreement3.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Master Franchise Agreement provides for termination upon bankruptcy. This provision may not be enforceable under Federal Bankruptcy Law (11 U.S.C.A. Sec. 101 et seq. ).",
+                "changed_text": "The Master Franchise Agreement provides for termination upon bankruptcy. This provision is fully enforceable under Federal Bankruptcy Law (11 U.S.C.A. Sec. 101 et seq. ).",
+                "explanation": "The original text acknowledges potential unenforceability under Federal Bankruptcy Law. The modified text directly contradicts this by stating it *is* fully enforceable, which is legally dubious given automatic stay provisions and potential for assumption/rejection of executory contracts in bankruptcy.",
+                "contradicted_law": "11 U.S.C.A. Sec. 362 (Automatic Stay), 11 U.S.C.A. Sec. 365 (Executory Contracts)",
+                "location": "2"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Master Franchise Agreement contains covenants not to compete which extend beyond the termination of the agreement. These provisions may not be enforceable under California law.",
+                "changed_text": "The Master Franchise Agreement contains covenants not to compete which extend beyond the termination of the agreement. These provisions are fully enforceable under California law.",
+                "explanation": "The original acknowledges that non-compete clauses might not be enforceable under California law. The modified version asserts the opposite, directly contradicting established California Business and Professions Code Section 16600 which generally prohibits non-compete agreements.",
+                "contradicted_law": "California Business and Professions Code Section 16600",
+                "location": "3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Master Franchise Agreement requires application of the laws of New York. This provision may not be enforceable under California law.",
+                "changed_text": "The Master Franchise Agreement requires application of the laws of New York. This provision is fully enforceable under California law.",
+                "explanation": "The original text recognizes that applying New York law might not be enforceable under California law, specifically concerning franchise agreements. The modification states it *is* fully enforceable, contradicting California's interest in protecting its franchisees and potentially invalidating choice-of-law provisions that undermine California law.",
+                "contradicted_law": "California Corporations Code Section 31512, California Business and Professions Code Section 20010",
+                "location": "7"
+            }
+        ]
+    }
+]

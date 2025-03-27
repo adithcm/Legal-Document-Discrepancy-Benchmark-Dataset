@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "legacyeducationallianceinc_20200330_10-k_ex-10.18_12090678_ex-10.18_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.2. The term “Affiliate” means an entity controlling, controlled, or under common control with a party. For these purposes, “control” means: (a) the possession, directly or indirectly, of the power to direct the management or policies of an entity, whether through the ownership of voting securities, by contract or otherwise; or (b) the ownership, directly or indirectly, of at least fifty percent (50%) of the voting securities or other ownership interest of an entity.",
+                "changed_text": "1.2. The term “Affiliate” means an entity somehow related to a party. For these purposes, “control” means: (a) influence over the decisions of an entity, whether through relationship or otherwise; or (b) the relationship of the other.",
+                "explanation": "The original definition of \"Affiliate\" provided a clear threshold of 50% ownership for establishing control. The modified definition introduces ambiguity by using terms like \"somehow related to\" and \"influence,\" which lack specific legal meaning. This creates uncertainty about which entities are considered affiliates, impacting clauses that depend on this definition, such as those related to royalty payments or restrictions on competitive activities.",
+                "contradicted_law": "Corporate law principles defining 'control' and 'affiliate' based on quantifiable ownership or contractual rights.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.4. The term “Confidential Information” means any and all information which is not readily ascertainable by proper means and which derives economic value, actual or potential from not being generally known and which has been the subject of efforts that are reasonable under the circumstances to maintain its secrecy.",
+                "changed_text": "1.4. The term “Confidential Information” means any information that one party considers secret. The receiving party should make an effort to keep this information confidential.",
+                "explanation": "The original definition of \"Confidential Information\" included specific criteria like \"not readily ascertainable by proper means\" and \"derives economic value,\" aligning with trade secret law. The modified definition eliminates these criteria, making the scope of confidential information overly broad and subjective. This could make enforcement difficult because any information one party deems secret, regardless of its actual value or accessibility, is considered confidential, contradicting established legal standards for trade secret protection.",
+                "contradicted_law": "Trade secret law, specifically the requirement that confidential information must derive economic value from not being generally known.",
+                "location": "Section 1.4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "3.3 T&B shall not, during the Term, grant any third party a license to use the Licensed Intellectual Property within the Exclusive Field of Use. Further, during the Term, except as otherwise provided herein, neither T&B nor any of its Affiliates may (1) offer to sell or sell any product or service that is the same or similar to the Products in the Exclusive Field of Use, or (2) contact, solicit, or direct any person or entity to contact or solicit, any of the customers of (or customers set forth in the Customer Data) for the purpose of providing any products or services that are the same or similar to the Products",
+                "changed_text": "3.3 T&B shall endeavor not to grant any third party a license to use the Licensed Intellectual Property within the Exclusive Field of Use. Further, during the Term, except as otherwise provided herein, T&B nor any of its close associates may (1) consider offering to sell or sell any product or service that is broadly related to the Products in the Exclusive Field of Use, or (2) generally contact any person for any purpose of providing any products or services",
+                "explanation": "The original clause created a clear restriction on T&B licensing IP and soliciting customers. The modified version uses weaker language like \"endeavor not to\" and \"consider offering\", and replaces \"Affiliates\" with \"close associates\", which lacks a legal definition. By making the restrictions less definitive and using vague terms, the enforceability of the exclusivity provision is significantly weakened. The prohibition on contacting any person \"for any purpose\" is overly broad and could be deemed unenforceable.",
+                "contradicted_law": "Contract law principles requiring clear and definite terms for enforceable restrictive covenants.",
+                "location": "Section 3.3"
+            }
+        ]
+    }
+]

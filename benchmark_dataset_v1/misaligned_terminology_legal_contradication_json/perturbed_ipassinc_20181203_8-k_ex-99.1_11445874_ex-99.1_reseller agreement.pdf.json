@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ipassinc_20181203_8-k_ex-99.1_11445874_ex-99.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "“End Users” or “User” means is any person who has an eligible subscriber ID that allows them to access the iPass Services and iPass Network.",
+                "changed_text": "“End Users” or “User” means any person, regardless of subscriber status, who attempts to access the iPass Services and iPass Network.",
+                "explanation": "The original definition requires an 'eligible subscriber ID,' implying a contractual or established right to access the services. The modification broadens this to anyone who 'attempts to access' regardless of authorization. This creates a conflict because it suggests unauthorized users are also 'End Users,' which contradicts standard interpretations of user agreements and access control under the Computer Fraud and Abuse Act (CFAA).",
+                "contradicted_law": "Computer Fraud and Abuse Act (CFAA)",
+                "location": "Exhibit A - Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Channel Partner agrees to pay for usage of the Service on a monthly basis in accordance with the pricing set forth in Exhibit C.",
+                "changed_text": "Channel Partner agrees to attempt to pay for usage of the Service on a monthly basis according to estimated pricing.",
+                "explanation": "The initial text clearly states an agreement to pay. The modified version uses 'attempt to pay' and 'estimated pricing,' which removes the binding obligation to pay the agreed-upon price. This contradicts contract law principles that require a clear agreement on price and payment terms, making the contract unenforceable.",
+                "contradicted_law": "General Contract Law - Offer, Acceptance, Consideration",
+                "location": "Section 3.1 - Fees"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Channel Partner will comply with all applicable laws and regulations, including privacy, data protection, and exportation, regarding its activities related to this Agreement.",
+                "changed_text": "Channel Partner will generally adhere to most laws and regulations, including privacy, data protection, and exportation, unless business conditions dictate otherwise regarding its activities related to this Agreement.",
+                "explanation": "The original clause mandates compliance with all applicable laws. The modified version introduces an 'unless business conditions dictate otherwise' clause, which allows Channel Partner to selectively ignore legal obligations. This directly contradicts the principle of legal compliance and could expose iPass to liability for Channel Partner's non-compliance with laws and regulations.",
+                "contradicted_law": "General Contract Law - Legality of Purpose",
+                "location": "Section 12.8"
+            }
+        ]
+    }
+]

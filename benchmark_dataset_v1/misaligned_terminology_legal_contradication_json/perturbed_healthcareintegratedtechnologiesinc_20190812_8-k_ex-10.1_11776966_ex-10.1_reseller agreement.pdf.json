@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "healthcareintegratedtechnologiesinc_20190812_8-k_ex-10.1_11776966_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "“Customer” means a third party who purchases the Products from Reseller within the Territory, for its internal use\nonly (including for the personal use of its End Users), such as nursing homes.",
+                "changed_text": "“Customer” means any party who obtains the Products from Reseller within the Territory, with no limitations on use, such as nursing homes.",
+                "explanation": "The original definition restricts the Customer's use of the Products to 'internal use only.' The modified definition removes this restriction, contradicting standard interpretations of resale agreements where limitations on use are critical for maintaining market control and preventing unauthorized distribution, as regulated under contract and antitrust laws.",
+                "contradicted_law": "Contract Law, Antitrust Law",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Reseller is an independent contractor and is not\nthe legal representative, agent, joint venture, partner, or employee of Supplier. Reseller may describe itself as Supplier’s\n‘authorized distributor’, but may not hold itself out as the Supplier’s agent. Reseller has no authority to assume or\ncreate any obligations of any kind or to make any representations or warranties, whether express or implied, on behalf\nof the Supplier, nor to bind the Supplier in any respect.",
+                "changed_text": "Reseller acts as an authorized representative of the Supplier with the authority to create obligations and make representations on behalf of the Supplier. Reseller has full authority to make representations or warranties, whether express or implied, on behalf of the Supplier, and can bind the Supplier in any respect.",
+                "explanation": "The original clause explicitly states the Reseller is an independent contractor without authority to bind the Supplier. The modification reverses this, granting the Reseller full authority to act on behalf of the Supplier, which contradicts the definition of an 'independent contractor' and could create agency relationships with potential liability issues for the Supplier under agency law.",
+                "contradicted_law": "Agency Law, Contract Law",
+                "location": "Section 14.2"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Confidential Information. Each Party agrees that it will maintain the confidentiality of all electronic, oral, and written\ncommunications from the other Party which should reasonably be regarded in the normal commercial view, as\nconstituting confidential information, trade secrets or proprietary information (“Confidential Information”) and use\nsuch Confidential Information only as necessary to exercise a Party’s rights or perform a Party’s obligations under this\nAgreement.",
+                "changed_text": "Confidential Information. Each Party agrees that it will use communications from the other Party as they see fit for business use or outside of business use, regardless of if it is deemed confidential information, trade secrets, or proprietary information. Each Party's information under this agreement will be considered public domain.",
+                "explanation": "The original definition of Confidential Information requires parties to maintain confidentiality. The modified clause allows unrestricted use and disclosure of all communications, effectively nullifying any confidentiality obligations. This contradicts standard business practices and trade secret laws, which protect proprietary information from unauthorized use or disclosure.",
+                "contradicted_law": "Trade Secret Law, Contract Law",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

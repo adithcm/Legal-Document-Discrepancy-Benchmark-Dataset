@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "hfenterprisesinc_20191223_s-1_ex-10.22_11931299_ex-10.22_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.1. \nDevelopment License. Subject to the terms and conditions set forth herein, DSS hereby grants to Developer, and\nDeveloper accepts from DSS, for the Term, a non-exclusive, limited, and non-transferable license to install and use the Technology for the sole\npurpose of developing the Improvements (as defined hereunder) thereto for the benefit of DSS (the “Technology Development Services License”).",
+                "changed_text": "1.1. \nDevelopment License. Subject to the terms and conditions set forth herein, DSS hereby grants to Developer, and\nDeveloper accepts from DSS, for the Term, a non-exclusive, unlimited, and non-transferable license to install and use the Technology for any\npurpose the developer deems necessary (the “Technology Development Services License”).",
+                "explanation": "By changing \"limited\" to \"unlimited\" and specifying \"any purpose the developer deems necessary\", the scope of the license is significantly broadened. This contradicts the implied intention of a development license, which is typically restricted to specific development activities for the benefit of the licensor. This creates uncertainty regarding the permitted use of the Technology and could lead to disputes.",
+                "contradicted_law": "Contract Law - Interpretation of Contracts, Intellectual Property Law - Scope of Licenses",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "6.1. \nDeveloper Liability for Damages. Developer shall be fully liable, without limitation, for money damages resulting from its\nimproper or unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements, or resulting from its failure to\nprovide functional and merchantable Improvements hereunder, which failure shall be deemed a material breach of this Agreement by Developer.",
+                "changed_text": "6.1. \nDeveloper Liability for Damages. Developer's liability for damages is limited to the total payments made by DSS to Developer. This limitation does not apply to direct damages resulting from gross negligence or willful misconduct in the unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements by the Developer. Developer's failure to provide functional and merchantable improvements will result in the forfeiture of payments, not a breach of contract",
+                "explanation": "This change introduces a limitation on liability that may not be legally permissible, particularly regarding intellectual property infringement or breach of confidentiality. It creates a contradiction by suggesting that the developer is only liable up to the amount paid, even if the actual damages far exceed that amount. It further states that the developer's failure to provide functional and merchantable improvements will result in the forfeiture of payments, not a breach of contract, contradictory to the original text and New York contract law.",
+                "contradicted_law": "Contract Law - Limitation of Liability Clauses, Intellectual Property Law - Damages for Infringement",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "9.10. \nGoverning Law; Jurisdiction. This Agreement shall be governed in accordance with the laws of the State of New York\nwithout regard to conflict of laws principles. It is hereby irrevocably agreed that legal jurisdiction and venue for any proceeding arising out of this\nAgreement shall be in the state or federal courts located in the County of Monroe, State of New York, United States.",
+                "changed_text": "9.10. \nGoverning Law; Jurisdiction. This Agreement shall be interpreted based on principles of equity and fairness, without strict adherence to any specific state or federal law. Any disputes arising out of this Agreement shall be submitted to binding arbitration in Hong Kong, regardless of the location of the parties or the nature of the claim.",
+                "explanation": "This change directly contradicts the original clause by removing the reference to New York law and instead suggesting a vague standard of \"equity and fairness.\" It also changes the jurisdiction from New York courts to binding arbitration in Hong Kong, which is in conflict with US Jurisdiction, making enforcement unpredictable and inconsistent with contract standards under New York law.",
+                "contradicted_law": "Contract Law - Choice of Law, Jurisdiction and Venue",
+                "location": "Section 9.10"
+            }
+        ]
+    }
+]

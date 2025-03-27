@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "photronicsinc_20171219_10-qa_ex-10.28_10982650_ex-10.28_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "“Purchase Order” means any of the following (a) a written purchase order issued to the Company by third party buyers for the purchase of certain Products; (b) a written purchase order issued by the Company to a Supplier for a quantity of the Product.",
+                "changed_text": "“Purchase Order” means any of the following (a) an informal communication requesting Products; (b) a formal document from the Company to a Supplier specifying the product and quantity, as well as any other communication.",
+                "explanation": "The original definition of \"Purchase Order\" aligns with standard commercial practice. The modified definition broadens the term to include \"any other communication\" regardless of formality, conflicting with established legal and commercial definitions requiring specific details for a valid purchase order under contract law, creating uncertainty.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Article 2, Contract Law Principles",
+                "location": "Schedule 1, Definition 12"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Suppliers shall deliver the Product to the Company in accordance with the Delivery Term, shipping instructions in the Purchase Order issued by the Company with regard to the requested delivery date (subject to the Product Lead Time), ship-to address, and carrier. If the Company does not provide shipping instructions, the Suppliers will select the carrier on a commercially reasonable basis. Suppliers shall be responsible for paying freight, handling, shipping and/or insurance charges to the delivery point in accordance with the Delivery Term.",
+                "changed_text": "Suppliers shall deliver the Product to the Company based on verbal agreements regarding delivery details. If no verbal agreement is reached, Suppliers may choose any delivery method. Suppliers' responsibility for freight, handling, and shipping costs is optional.",
+                "explanation": "The original clause specifies delivery based on 'Delivery Term' and 'Purchase Order' details (date, address, carrier). The modified clause replaces formal requirements with 'verbal agreements' and makes cost responsibility 'optional'. This contradicts standard logistics and commercial laws requiring clear terms of delivery and cost allocation, creating enforceability issues.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Article 2, Contract Law Principles",
+                "location": "Article 5.2"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant Supplier and the Company in writing that is applicable to such Products for the Warranty Period. This warranty does not apply to any Product failures resulting from misuse, storage in or exposure to environmental conditions inconsistent with those specified in the applicable specifications or documentation, modification of the Product by anyone other than the relevant Supplier. If a Product fails to comply with the foregoing warranty, the relevant Supplier shall, at its option, either [***]such Product, or, in the event the foregoing options are not commercially practicable, [***]to the Company any amounts paid for the applicable Product. Without limiting the remedies specified in Article 8 and Section 9.2, this Section 6.1 states the exclusive remedy of the Company for failure of a Product to conform to the warranty provisions set forth in this Section 6.1.",
+                "changed_text": "Each of the Suppliers offers a warranty, but makes no guarantees regarding the Product's specifications. This warranty applies to all Product failures, irrespective of misuse or modifications. If a Product is deemed unsatisfactory, the remedy is at the Supplier's whim.",
+                "explanation": "This change directly contradicts the concept of a 'limited warranty' and product liability laws. By removing the requirement for compliance with agreed-upon specifications and documentation, as well as expanding the warranty to cover failures due to misuse, the warranty becomes unenforceable and opens the door to arbitrary decisions by the supplier. This conflicts with established commercial law.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Article 2, Consumer Protection Laws, Contract Law Principles",
+                "location": "Article 6.1"
+            }
+        ]
+    }
+]

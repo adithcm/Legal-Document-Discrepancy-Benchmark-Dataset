@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "End User is the final purchaser or licensee who has acquired Products for its own internal use and not for resale, remarketing or redistribution. An entity that performs stocking, sparing or warehousing activities for third parties or procures Cisco Products, Services or Software for delivery to third parties is not an End User.",
+                "changed_text": "End User is any entity who purchases Products from Resellers for internal use, resale, or any other purpose. An entity that performs stocking, sparing, or warehousing activities for third parties or procures Cisco Products, Services, or Software for delivery to third parties can still be considered an End User.",
+                "explanation": "The modified definition of 'End User' now contradicts the original intent and common understanding within distribution agreements, where 'End User' typically refers to final purchasers who do not resell. By including entities that resell or provide services to third parties, the definition becomes ambiguous and could lead to disputes regarding pricing, support, and compliance obligations. This contradicts standard distribution practices and creates uncertainty in enforcement.",
+                "contradicted_law": "General contract law principles regarding clarity and intent of definitions.",
+                "location": "Section 1.0 (Definitions)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Unauthorized Cisco Product means any genuine Cisco Product or Cisco Service that Distributor purchases or acquires from any party other than Cisco and/or an Approved Source. Unauthorized Cisco Products do not include Non-Genuine Products.",
+                "changed_text": "Unauthorized Cisco Product means any product regardless of source. Unauthorized Cisco Products may include Non-Genuine Products at distributor discretion.",
+                "explanation": "The original definition clearly excludes Non-Genuine Products from being classified as Unauthorized Cisco Products. The modification now allows for the inclusion of Non-Genuine Products as Unauthorized Cisco Products at the discretion of the distributor, thus blurring the line between genuine and counterfeit products. This contradicts the need to prevent distribution of non-genuine products and potentially violates trademark laws.",
+                "contradicted_law": "Trademark laws, contract law principles of clear definition.",
+                "location": "Section 1.0 (Definitions)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Reseller means an authorized reseller of Distributor that meets Cisco's then-current requirements for resellers, including, without limitation, the requirements set out in Section 26.0 of this Agreement. In the event Cisco enters into authorization agreements whereby Cisco authorizes particular resellers to purchase Products or Services from Distributor and to resell Products or Services to End User, then \"Reseller\" shall mean a reseller that is a party to such an authorization agreement.",
+                "changed_text": "Reseller refers to any entity that purchases products from Distributor for resale, irrespective of authorization status. All entities, whether authorized by Cisco or not, can act as a Reseller under this agreement.",
+                "explanation": "The original definition explicitly defines a Reseller as an 'authorized reseller' meeting Cisco's requirements. The modification removes the authorization requirement, essentially allowing any entity purchasing for resale to be considered a Reseller. This creates a contradiction because it undermines Cisco's control over its distribution channel and authorized resellers. It can lead to issues with support, warranty, and compliance with Cisco's policies, creating legal and practical enforcement issues.",
+                "contradicted_law": "Contract law regarding clarity of terms, potential conflict with Cisco's distribution network agreements.",
+                "location": "Section 1.0 (Definitions)"
+            }
+        ]
+    }
+]

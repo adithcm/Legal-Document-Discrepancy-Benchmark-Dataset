@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "cybergyholdingsinc_20140520_10-q_ex-10.27_8605784_ex-10.27_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "MA shall be deemed to be an independent contractor in its relationship with Company. MA shall not hold itself out as an employee or agent of Company other than for the limited purposes of marketing the Technology. No debts or obligations shall be incurred by either party in the other party’s name, including execution of the Client Registration Agreements. MA shall have the right to perform certain services for its Clients, such as training, installation and non-contract support and bill its Clients directly for such services. MA specifically understand and agrees that it shall not be treated as an employee with respect to such services as are performed for any applicable tax purposes; and it is further agreed that this Agreement shall not bring MA under the provisions of any local, state, provincial, federal, national, and international regulation wherein coverage thereunder is based upon the relationship of employer and employee.",
+                "changed_text": "MA shall be deemed to be an independent contractor in its relationship with Company. MA shall not hold itself out as an employee or agent of Company other than for the limited purposes of marketing the Technology. No debts or obligations shall be incurred by either party in the other party’s name, including execution of the Client Registration Agreements. MA shall have the right to perform certain services for its Clients, such as training, installation and non-contract support and bill its Clients directly for such services. MA understands and agrees that it may be treated as an employee with respect to such services as are performed for any applicable tax purposes; and it is further agreed that this Agreement may bring MA under the provisions of any local, state, provincial, federal, national, and international regulation wherein coverage thereunder is based upon the relationship of employer and employee.",
+                "explanation": "By modifying 'shall not be treated' to 'may be treated', and 'shall not bring MA' to 'may bring MA', the contract creates uncertainty about the classification of MA. This introduces ambiguity regarding whether MA is truly an independent contractor or could be considered an employee under various labor and tax laws. This uncertainty makes the contract difficult to enforce since the legal status, and thus rights/responsibilities are blurred.",
+                "contradicted_law": "IRS guidelines for independent contractor vs. employee classification; various state and federal labor laws.",
+                "location": "14"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Company shall supply MA access to all major published modifications or upgrades to the Technology, which add enhancements to or correct known errors in the Technology.",
+                "changed_text": "Company shall supply MA access to optional modifications or upgrades to the Technology, which add enhancements to or correct known errors in the Technology.",
+                "explanation": "By changing 'all major published modifications or upgrades' to 'optional modifications or upgrades', this clause now contradicts the general expectations of software licensing agreements. Standard software agreements provide for updates to resolve bugs or security flaws, and by labeling it as optional it goes against the established understanding. This introduces uncertainty about the level of support and reliability that MA is entitled to. This misaligned terminology creates an enforcement problem, because it could suggest that updates containing security patches are not guaranteed, thus failing to comply with standards of reasonable care.",
+                "contradicted_law": "Industry standards for software maintenance and reasonable security practices.",
+                "location": "8.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "EXCEPT AS EXCLUSIVELY SET FORTH IN THIS PARAGRAPH, COMPANY DOES NOT MAKE ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT RESTRICTED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WHICH WARRANTIES ARE HEREBY DISCLAIMED.",
+                "changed_text": "EXCEPT AS SET FORTH IN THIS PARAGRAPH, COMPANY DOES NOT GUARANTEE ANY WARRANTIES, INCLUDING WARRANTIES OF MERCHANTABILITY.",
+                "explanation": "By removing the words \"EXCLUSIVELY\", and \"RESTRICTED\", and replacing the second half of the sentence with the term \"DOES NOT GUARANTEE\", the term is now more ambiguous. It's not clear if the warranties are waived entirely, and by removing 'fitness for a particular purpose' a critical component of what makes a warrantable object is now removed. This creates an enforcement problem, because the warranties given have been modified with wording that is now vague.",
+                "contradicted_law": "Uniform Commercial Code (UCC) regarding implied warranties.",
+                "location": "16.1"
+            }
+        ]
+    }
+]

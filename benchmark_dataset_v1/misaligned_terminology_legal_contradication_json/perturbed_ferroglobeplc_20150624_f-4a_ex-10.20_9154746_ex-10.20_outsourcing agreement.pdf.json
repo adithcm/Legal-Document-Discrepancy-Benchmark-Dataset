@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ferroglobeplc_20150624_f-4a_ex-10.20_9154746_ex-10.20_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by, and construed in accordance with the laws of Spain.",
+                "changed_text": "This Agreement shall be governed by, and construed in accordance with principles of fairness.",
+                "explanation": "The original clause mandates Spanish law, providing a clear legal framework. The modified clause replaces this with 'principles of fairness,' which is subjective and lacks a precise legal definition. This creates uncertainty because 'fairness' is open to interpretation and may not align with established legal standards or precedents under Spanish law, leading to disputes over which laws apply.",
+                "contradicted_law": "Spanish Civil Code and other Spanish laws",
+                "location": "Section 17.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "EIT commits to hand over to the Customer, on this date, all the data and its copies, in the frame of the provision of services.",
+                "changed_text": "EIT commits to discuss handing over data to the Customer, if deemed relevant.",
+                "explanation": "The original clause mandates EIT to hand over all data and copies to the Customer upon termination or expiration. The modified clause changes this from a mandatory handover to a discussion, dependent on EIT's discretion about what is 'relevant'. This contradicts established data protection laws (like GDPR if applicable due to the Spanish location) which define the rights of data ownership and transfer upon contract termination. The change introduces uncertainty, making data accessibility a matter of negotiation rather than a legal right.",
+                "contradicted_law": "Data Protection Act (Spain) and potentially GDPR if applicable.",
+                "location": "Section 15.3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Confidential Information means any information disclosed by either party in the frame of this Agreement. In consequence, each party agrees not to use, disclose, publish or disseminate any Confidential Information of the other party for any purpose except to perform its obligations or exercise its rights under this Agreement, except:\n\n\n11.1.1.1.\tFollowing prior consent of the other party, or\n\n\n11.1.1.2.\tIf the information was in the public domain at the time it was disclosed or becomes in the public domain through no act or omission of the Receiving Party.",
+                "changed_text": "Confidential Information may be information disclosed by either party. Each party agrees to try not to disclose Confidential Information, unless deemed necessary.",
+                "explanation": "The original clause provides a clear definition of 'Confidential Information' and strict obligations regarding its use and disclosure. The modified version introduces ambiguity by weakening the definition ('may be') and the obligation ('try not to disclose'). The addition of 'unless deemed necessary' introduces a broad exception, controlled by the disclosing party, which undermines the confidentiality agreement. This creates legal uncertainty, potentially violating trade secret laws or contract laws that require clear and enforceable confidentiality provisions.",
+                "contradicted_law": "Spanish Trade Secrets Act and contract law regarding confidentiality.",
+                "location": "Section 11.1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.19\nError - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software unusable for its intended\npurpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is seriously inconvenient and the\nvalue to Bank of America of the use of the Software is substantially reduced. All other Errors are Class 3 Errors.",
+                "changed_text": "1.19\nError - an instance of failure of Software to be Operative. An Error is a Class 1 Error if it renders the Software mostly unusable for its intended\npurpose. An Error is a Class 2 Error if the Software is still usable for its intended purpose, but such use is somewhat inconvenient. All other Errors are Class 3 Errors.",
+                "explanation": "The definitions of Class 1 and Class 2 Errors were made more ambiguous by replacing 'unusable' with 'mostly unusable', 'seriously inconvenient' with 'somewhat inconvenient', leading to subjectivity and difficulty in determining the severity of errors. This creates a misalignment as the contract now uses vague terms that deviate from potentially more legally precise meanings of 'unusable' and 'seriously inconvenient.'",
+                "contradicted_law": "Breach of Contract Law - Ambiguous Contractual Terms",
+                "location": "Section 1.0 - Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.27\nMaintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed\nProgram including telephone consultation, online and on-site technical support, Error correction and the provision of Updates.",
+                "changed_text": "1.27\nMaintenance Services - the services described in SCHEDULE D or in any Product License Schedule or Order with respect to any Licensed\nProgram including telephone consultation, occasional online and on-site technical support, Error patching and the optional provision of Updates.",
+                "explanation": "The term 'Error correction' was replaced with 'Error Patching', and 'online and on-site technical support' was replaced with 'occasional online and on-site technical support', and 'the provision of Updates' with 'the optional provision of Updates'. Error correction has a different meaning than Error Patching. Error patching may mean only providing a quick fix rather than a proper error correction. These modifications diminish Supplier's responsibility and make enforcement uncertain.",
+                "contradicted_law": "Breach of Contract Law - Duty of Care",
+                "location": "Section 1.0 - Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "D.\nFor Class 3 Errors, Supplier shall correct the Errors by all reasonable means. Supplier shall correct the Errors and distribute the modified\nSoftware to Bank of America no later than the next Update, unless Supplier has scheduled release of such Update less than thirty (30)\ncalendar days after Bank of America’s notice, in which case Supplier shall correct the Error no later than the following Update.",
+                "changed_text": "D.\nFor Class 3 Errors, Supplier shall attempt to correct the Errors by some means. Supplier may correct the Errors and distribute the modified\nSoftware to Bank of America at their discretion, unless Supplier has scheduled release of such Update less than thirty (30)\ncalendar days after Bank of America’s notice, in which case Supplier may or may not correct the Error no later than the following Update.",
+                "explanation": "The language describing the handling of Class 3 errors was changed from 'shall correct the Errors by all reasonable means' to 'shall attempt to correct the Errors by some means'. Furthermore, 'shall correct the Errors and distribute the modified Software' was replaced with 'may correct the Errors and distribute the modified Software at their discretion'. These alterations replace definitive obligations with discretionary actions, creating uncertainty about the level of service to be provided and contradict legal expectations of diligent performance in service agreements.",
+                "contradicted_law": "Breach of Contract Law - Good Faith and Fair Dealing",
+                "location": "Schedule D - Maintenance Services - Error Correction"
+            }
+        ]
+    }
+]

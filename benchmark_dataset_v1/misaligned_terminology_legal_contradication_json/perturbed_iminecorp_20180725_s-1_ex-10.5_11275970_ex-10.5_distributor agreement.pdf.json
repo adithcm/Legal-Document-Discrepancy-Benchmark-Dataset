@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "iminecorp_20180725_s-1_ex-10.5_11275970_ex-10.5_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.8 “Territory” shall mean the geographic area of Taiwan.",
+                "changed_text": "1.8 “Territory” shall mean the geographic area of Taipei.",
+                "explanation": "The original definition of 'Territory' is Taiwan. Changing this to Taipei creates a contradiction, as the agreement later refers to sales and compliance within the 'Territory.' Limiting the territory to Taipei when the rest of the contract implies Taiwan creates uncertainty and potential breach of contract.",
+                "contradicted_law": "Contract Law, International Trade Regulations (if sales outside Taipei occur)",
+                "location": "Section 1.8"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "10. LIMITED WARRANTY\n10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE\nPROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR\nCUSTOMERS.\n10.2 Warranty Period. JRVS shall NOT provide a warranty of any kind for each of the Products against defects in material\nand workmanship under normal use and service from the date of delivery to the Distributor.\n10.3 No Other Warranty. EXCEPT AS EXPRESSLY PROVIDED IN THIS SECTION 10, JRVS PROVIDES NO WARRANTY,\nEXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, AND SPECIFICALLY DISCLAIMS ANY WARRANTY OF\nMERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE PRODUCT AND\nDOCUMENTATION.",
+                "changed_text": "10. LIMITED WARRANTY\n10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE\nPROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR\nCUSTOMERS.\n10.2 Warranty Period. JRVS may provide a warranty of any kind for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor, if and only if JRVS sees fit.\n10.3 No Other Warranty. EXCEPT AS EXPRESSLY PROVIDED IN THIS SECTION 10, JRVS PROVIDES NO WARRANTY,\nEXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, AND SPECIFICALLY DISCLAIMS ANY WARRANTY OF\nMERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE PRODUCT AND\nDOCUMENTATION.",
+                "explanation": "By changing \"JRVS shall NOT provide a warranty\" to \"JRVS may provide a warranty of any kind for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor, if and only if JRVS sees fit\", the contract now contradicts itself. Section 10.1 says there's no warranty from JRVS, but 10.2 implies a discretionary warranty, against Taiwan's Consumer Protection Act which has mandatory warranty regulations for products sold in Taiwan.",
+                "contradicted_law": "Taiwan Consumer Protection Act (Article 7-10 pertaining to product liability and implied warranties)",
+                "location": "Section 10"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "5.4 Taxes. All JRVS Prices are exclusive of any export, withholding, federal, state and local taxes, duties or excises other than taxes based on JRVS’s net income. If JRVS pays any taxes, duties or excises which are not included in the fees charged for the Product, JRVS shall itemize such taxes, duties or excises as a separate item on its invoices to the Distributor, and the Distributor shall reimburse JRVS for such taxes, duties or excises; provided, that the Distributor shall not be required to make any such reimbursement if it provides a valid tax exemption certificate to JRVS prior to shipment.",
+                "changed_text": "5.4 Taxes. All JRVS Prices are inclusive of any export, withholding, federal, state and local taxes, duties or excises other than taxes based on JRVS’s net income. If JRVS pays any taxes, duties or excises which are not included in the fees charged for the Product, JRVS may or may not itemize such taxes, duties or excises as a separate item on its invoices to the Distributor, and the Distributor shall reimburse JRVS for such taxes, duties or excises; provided, that the Distributor shall not be required to make any such reimbursement if it provides a tax waiver form to JRVS prior to delivery.",
+                "explanation": "Initially, the contract specified that prices are 'exclusive' of taxes, and if JRVS pays those taxes, they must itemize them. Changing 'exclusive' to 'inclusive' and 'shall itemize' to 'may or may not itemize' creates contradiction. Furthermore, changing 'valid tax exemption certificate' to 'tax waiver form' creates further ambiguity as tax exemption certificates are legally recognized documents, whereas tax waiver form is not. This creates legal uncertainty in regards to tax responsibilities under Taiwan's tax laws.",
+                "contradicted_law": "Taiwan Tax Laws (Value-Added Tax Act, Income Tax Act)",
+                "location": "Section 5.4"
+            }
+        ]
+    }
+]

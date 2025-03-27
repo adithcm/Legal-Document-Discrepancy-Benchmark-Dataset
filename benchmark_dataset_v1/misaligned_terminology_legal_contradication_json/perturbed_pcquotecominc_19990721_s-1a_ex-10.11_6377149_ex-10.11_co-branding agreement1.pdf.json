@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "pcquotecominc_19990721_s-1a_ex-10.11_6377149_ex-10.11_co-branding agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "SOFTWARE\nPC QUOTE 6.0-TM- for Windows on the Internet is a software application that\ndisplays market data information, provided via the digital Hyperfeed, in the\nform of quotes, charts, graphs, tables, board views, tickers and other\nanalytical tools.",
+                "changed_text": "SOFTWARE\nPC QUOTE 6.0-TM- for Windows on the Internet is a digital application that\ndisplays market data information, provided via the digital Hyperfeed, in the\nform of numbers, charts, graphs, tables, board views, tickers and other informational tools.",
+                "explanation": "The definition of 'software' is modified to 'digital application' and 'analytical tools' is changed to 'informational tools,' creating ambiguity. The original contract specifies it to be a 'software application'. The change could lead to disputes about whether the service falls under specific software regulations or if it should be considered an alternative type of application that is not regulated.",
+                "contradicted_law": "Various software licensing and intellectual property laws may apply specifically to 'software applications' but not to 'digital applications'.",
+                "location": "Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "HYPERFEED\nThe PC Quote proprietary digital data feed transmitted via satellite, land\nline, or Internet with advanced compression technology, containing financial\nmarket information obtained by PCQ from the institutions and exchanges listed\nin Section 5 of this Agreement.  This market data includes stock quotes,\nfutures and options trading, commodities, and other related information.",
+                "changed_text": "HYPERFEED\nThe PC Quote data stream transmitted via methods including satellite, land\nline, or Internet, containing market information. This data includes stock data,\ncommodities, and related data.",
+                "explanation": "The term 'proprietary digital data feed transmitted via satellite, land line, or Internet with advanced compression technology, containing financial market information obtained by PCQ from the institutions and exchanges listed in Section 5 of this Agreement.' was replaced with 'data stream transmitted via methods including satellite, land line, or Internet, containing market information. This data includes stock data, commodities, and related data.' This creates legal uncertainty. The specific and limiting language of 'proprietary digital data feed' has implications for data security and intellectual property law, whereas the vague term 'data stream' and 'stock data' could be interpreted as not providing the same level of security, which could potentially run afoul of financial regulations.",
+                "contradicted_law": "Securities and Exchange Commission (SEC) regulations regarding data security and integrity for financial market information.",
+                "location": "Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Any payments which have not been received by PCQ within thirty (30)\ndays of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month\nwhich is a corresponding ANNUAL\nPERCENTAGE RATE of 12% on the outstanding balance.",
+                "changed_text": "Any payments which have not been received by PCQ within thirty (30)\ndays of the Invoice date shall be subject to a LATE FEE of 1.0% per month\nwhich is a corresponding percentage of 12% on the outstanding balance.",
+                "explanation": "The term 'finance charge' is replaced with 'late fee' and 'annual percentage rate' is replaced with 'percentage.' Under US law, 'finance charge' and 'annual percentage rate' are legally defined terms with specific disclosure requirements (Truth in Lending Act). Using 'late fee' and omitting 'annual' circumvents these requirements, potentially misleading the other party and creating a legal contradiction.",
+                "contradicted_law": "Truth in Lending Act (TILA)",
+                "location": "Section 3. Payment For Service, D."
+            }
+        ]
+    }
+]

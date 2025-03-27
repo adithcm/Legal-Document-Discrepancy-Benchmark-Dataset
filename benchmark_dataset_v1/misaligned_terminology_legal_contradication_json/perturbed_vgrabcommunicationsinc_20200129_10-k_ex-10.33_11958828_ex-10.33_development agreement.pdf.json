@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "vgrabcommunicationsinc_20200129_10-k_ex-10.33_11958828_ex-10.33_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Whereas, VAL wishes to engage the Developer for services as an independent contractor for the sole purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone, iPad, Android (Hereinafter called as the “Project”) developed as per the requirements specifications by VAL within this mobile application development agreement",
+                "changed_text": "Whereas, VAL wishes to engage the Developer for services as a worker for the sole purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone, iPad, Android (Hereinafter called as the “Project”) developed as per the requirements specifications by VAL within this mobile application development agreement",
+                "explanation": "Changing 'independent contractor' to 'worker' creates ambiguity. While the contract intends an independent contractor relationship, 'worker' has a broader legal definition under Hong Kong employment law. This misclassification could lead to disputes over employment rights and responsibilities, such as mandatory provident fund contributions or severance pay, which are not typically applicable to independent contractors but might be argued for 'workers'.",
+                "contradicted_law": "Hong Kong Employment Ordinance (Cap. 57), specifically sections regarding the definition of 'employee' and 'independent contractor'.",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL.\nAll rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+                "changed_text": "All Intellectual Property created during the project is owned by VAL, but the Developer retains usage rights unless otherwise stated, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL.\nAll rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement. The Developer retains the right to showcase the project in their portfolio.",
+                "explanation": "Adding that the 'Developer retains usage rights unless otherwise stated' and 'The Developer retains the right to showcase the project in their portfolio' conflicts with the initial statement that 'All Intellectual Property during the project is owned by VAL'. Hong Kong's intellectual property laws do not automatically grant usage rights to developers when IP is assigned; this needs to be explicitly agreed upon. This creates confusion about the extent of VAL's ownership and the Developer's rights.",
+                "contradicted_law": "Hong Kong Copyright Ordinance (Cap. 528) and Registered Designs Ordinance (Cap. 522) regarding ownership and assignment of intellectual property rights.",
+                "location": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to the binding laws of Hong Kong as a first attempt at formal resolution. Should arbitration fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted within the binding laws of Hong Kong.",
+                "changed_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to non-binding mediation in Hong Kong as a first attempt at formal resolution. Should mediation fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted under principles of fairness and mutual agreement.",
+                "explanation": "Replacing 'binding laws of Hong Kong' with 'non-binding mediation' significantly alters the legal recourse available. Hong Kong law provides a robust legal framework for contract disputes; replacing this with 'principles of fairness and mutual agreement' makes enforcement uncertain. This contradicts the initial governing law provision and undermines the contract's enforceability under Hong Kong law.",
+                "contradicted_law": "Hong Kong Arbitration Ordinance (Cap. 609) and the Contract Law principles related to governing law and dispute resolution.",
+                "location": "ENTIRE AGREEMENT AND GOVERNING LAW AND JURISDICTION"
+            }
+        ]
+    }
+]

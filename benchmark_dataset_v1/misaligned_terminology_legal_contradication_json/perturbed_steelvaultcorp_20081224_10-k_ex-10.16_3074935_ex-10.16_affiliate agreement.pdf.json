@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "steelvaultcorp_20081224_10-k_ex-10.16_3074935_ex-10.16_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Marketing Affiliate shall be responsible for collecting all amounts due directly from the Consumer and shall bear sole responsibility for non-payment of any fees charged to the Consumer.",
+                "changed_text": "Marketing Affiliate is encouraged to collect amounts due from the Consumer, but assumes no responsibility for non-payment.",
+                "explanation": "This change directly contradicts the initial agreement, which states the Marketing Affiliate 'shall be responsible' for collecting payments. By changing it to 'encouraged,' the obligation is removed, creating uncertainty and conflicting terms regarding financial responsibilities.",
+                "contradicted_law": "General Contract Law - creates ambiguity in contract enforceability due to conflicting terms.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Such disputes shall be settled by arbitration in the City of Newport News, Virginia.",
+                "changed_text": "Such disputes may be settled by a method of dispute resolution chosen by Equidata.",
+                "explanation": "The original text clearly states that disputes will be settled by arbitration in Newport News, Virginia. The modified text introduces ambiguity by allowing Equidata to choose the method of dispute resolution, potentially overriding the agreed-upon arbitration clause. This creates a contradiction and uncertainty in the enforcement of dispute resolution.",
+                "contradicted_law": "Virginia state law regarding arbitration agreements, altering the mandatory arbitration agreement to discretionary.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement is governed by and construed in accordance with the laws of the State of Virginia.",
+                "changed_text": "This Agreement is governed by the laws of the jurisdiction determined by the location of the consumer.",
+                "explanation": "By changing the governing law from the State of Virginia to the 'jurisdiction determined by the location of the consumer,' the contract introduces uncertainty. The original text specifies a clear legal framework, while the altered text makes it ambiguous and dependent on the consumer's location, which might change over time or be difficult to ascertain. This contradicts the initial agreement and can lead to enforcement issues.",
+                "contradicted_law": "Principles of Contract Law regarding Choice of Law - creating ambiguity.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

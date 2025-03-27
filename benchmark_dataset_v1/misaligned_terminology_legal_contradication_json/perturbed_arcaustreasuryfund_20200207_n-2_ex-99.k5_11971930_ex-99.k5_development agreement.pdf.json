@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "arcaustreasuryfund_20200207_n-2_ex-99.k5_11971930_ex-99.k5_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital securities and administration of the smart contracts underlying the Fund’s digital securities in the manner and on the terms set forth herein;",
+                "changed_text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital securities and generalized ledger maintenance in the manner and on the terms set forth herein;",
+                "explanation": "The term 'generalized ledger maintenance' replaces 'administration of smart contracts,' introducing ambiguity. Smart contracts have a specific meaning under securities and contract law, whereas 'generalized ledger maintenance' is vague and undefined. This creates uncertainty about the scope of the Blockchain Administrator's responsibilities and contradicts the intended specificity of dealing with digital securities.",
+                "contradicted_law": "Investment Company Act of 1940 (Rule 23c-3)",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative services necessary for the issuance of the Fund’s shares as ERC-1404 compatible digital securities (“Shares”) and the on-going maintenance and administration of the smart contracts underlying such Shares.",
+                "changed_text": "(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative services necessary for the issuance of the Fund’s shares as ERC-1404 compatible digital securities (“Shares”) and the periodic review and occasional updates of the ledger entries.",
+                "explanation": "The original text clearly defines the Blockchain Administrator's duty to maintain and administer the smart contracts underlying the Shares. Replacing this with 'periodic review and occasional updates of the ledger entries' significantly reduces the explicitly defined obligations. 'Ledger entries' lack the robust legal definition of 'smart contracts' within the context of digital securities, creating uncertainty about the required level of active management and security.",
+                "contradicted_law": "Investment Company Act of 1940, Securities Act of 1933",
+                "location": "Section 1(c)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(d) The Blockchain Administrator shall also, on behalf of the Fund, conduct relations with custodians, depositories, transfer agents, dividend disbursing agents, other stockholder servicing agents, accountants, attorneys, underwriters, brokers and dealers, corporate fiduciaries, insurers, banks and such other persons as the Blockchain Administrator shall deem to be necessary or desirable in connection with the issuance and transfer of the Fund’s ERC-1404 compatible digital security,.",
+                "changed_text": "(d) The Blockchain Administrator shall also, on behalf of the Fund, conduct relations with service providers as needed, in connection with the issuance and transfer of the Fund’s digital assets.",
+                "explanation": "By replacing specific roles like 'custodians, depositories, transfer agents, dividend disbursing agents' with the generic term 'service providers,' the contract introduces ambiguity and weakens the Fund's protection. Each of the listed entities has legally defined roles and responsibilities under securities law, especially regarding the handling of digital securities. 'Service providers' lacks this defined framework, potentially leading to inadequate oversight and regulatory compliance issues. Also, replacing 'ERC-1404 compatible digital security' with 'digital assets' broadens the scope without definition, causing confusion as to the extent of what the administrator is responsible for.",
+                "contradicted_law": "Securities Exchange Act of 1934, Investment Company Act of 1940",
+                "location": "Section 1(d)"
+            }
+        ]
+    }
+]
