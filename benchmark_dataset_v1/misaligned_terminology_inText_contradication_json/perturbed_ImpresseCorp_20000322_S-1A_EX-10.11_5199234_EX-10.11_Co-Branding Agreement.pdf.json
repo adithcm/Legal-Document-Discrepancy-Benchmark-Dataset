@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "VerticalNet shall be responsible for: (a) the design, layout, development, hosting and maintenance of the VerticalNet Area of the Co-Branded Site; and (b) the design, layout, development, hosting and maintenance of the V-Solutions Link.",
+                "changed_text": "VerticalNet is in charge of: (a) the design, layout, development, hosting and maintenance of the VerticalNet Area of the Co-Branded Site; and (b) Impresse is responsible for the design, layout, development, hosting and maintenance of the V-Solutions Link.",
+                "explanation": "Changing 'shall be responsible for' to 'is in charge of' for VerticalNet in part (a) but then assigning responsibility to Impresse in part (b) creates ambiguity. It's unclear who ultimately bears the responsibility for the V-Solutions Link. It also uses different terms such as 'shall be responsible for' and 'in charge of', to describe the same concept but assigns it to different entities, creating a contradiction.",
+                "location": "2.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Impresse shall pay VerticalNet [*]of Impresse VerticalNet Revenue accruing during the term of this Agreement, payable to VerticalNet on or before the thirtieth day of the calendar quarter immediately following the quarter in which such revenue was collected by Impresse.",
+                "changed_text": "Impresse may provide VerticalNet [*]of Impresse VerticalNet Revenue accruing during the term of this Agreement, payable to VerticalNet at a mutually agreed upon date. Such payments will be provided with a report of the details regarding the type and amount of transactions.",
+                "explanation": "The modification of 'shall pay' to 'may provide' reduces the obligation of Impresse to pay and makes it permissive. Also, the term 'payable to VerticalNet on or before the thirtieth day of the calendar quarter' is changed to 'payable to VerticalNet at a mutually agreed upon date'. This creates uncertainty of payment obligation. It also changes the term 'statement' to a 'report' for describing transaction details.",
+                "location": "4.6"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "All payments not paid by the date such payments are due shall bear interest from the due date to the date payments are actually paid at the lower of (i) 1% per month or (ii) the maximum rate permitted by law.",
+                "changed_text": "Late payments will be subject to a late fee from the due date until the date the dues are satisfied. The late fee can vary. The fee will be the lower of (i) 1% per month or (ii) a reasonable charge amount.",
+                "explanation": "Changing 'shall bear interest' to 'will be subject to a late fee' changes the term used. Additionally, changing 'the maximum rate permitted by law' to 'a reasonable charge amount' introduces ambiguity as 'reasonable charge' is subjective and undefined. It changes 'payments' to 'dues' and 'date payments are actually paid' to 'date the dues are satisfied'.",
+                "location": "4.9"
+            }
+        ]
+    }
+]

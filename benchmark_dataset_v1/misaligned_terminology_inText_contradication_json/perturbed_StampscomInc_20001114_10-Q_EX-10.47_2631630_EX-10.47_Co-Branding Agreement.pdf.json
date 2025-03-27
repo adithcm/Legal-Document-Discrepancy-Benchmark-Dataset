@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "StampscomInc_20001114_10-Q_EX-10.47_2631630_EX-10.47_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Company shall maintain complete and accurate records of the number of packages shipped by the MBE Centers using the Service and all payments due or accrued to the Company by MBE Centers hereunder. MBE shall, at any time during the term of this Agreement, be entitled to audit all such records upon ten (10) days written notice to the Company, in order to confirm the accuracy of such records and conformance with the terms and conditions of this Agreement;\nprovided, however, that no more than one (1) such audit may be conducted in any\nninety (90)-day period.",
+                "changed_text": "The Company shall maintain complete and accurate records of the number of packages shipped by the MBE Centers using the Service and all payments due or accrued to the Company by MBE Centers hereunder. MBE shall, at its discretion during the term of this Agreement, be entitled to review all such records upon ten (10) days written notice to the Company, in order to generally understand the performance of the service. For clarity, 'review' is defined as a high-level check to ensure general data integrity, whereas a formal 'audit' is explicitly disallowed.",
+                "explanation": "The original text allows MBE to 'audit' records, whereas the modified text changes 'audit' to 'review' and explicitly disallows a formal audit. This creates a contradiction regarding the extent and frequency of MBE's access to company records.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Within thirty (30) days after the Termination Completion Date, each party shall, at its own expense, destroy or return to the Company and make no further use of, any property, materials or other items of the other party and shall certify, in writing that it has done so",
+                "changed_text": "Within thirty (30) days after the Termination Completion Date, each party shall, at its own expense, either destroy or return to the Company, at its sole discretion, any property, materials or other items of the other party and may or may not provide written certification.",
+                "explanation": "Original text mandates destruction *or* return *and* written certification. The modified text grants discretion to destroy *or* return *and* makes certification optional, directly contradicting the original obligation.",
+                "location": "Section 15(d)(ii)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Each MBE Center shall be responsible for obtaining, installing and maintaining the Authorized Equipment at its sole cost and expense. The Subscription Agreement shall provide that an MBE Center that accesses or uses the Service on any hardware or other equipment, or in conjunction with any software, that does not constitute Authorized Equipment does so as its own risk, and the Company shall not be liable for any failure of the Service on hardware or other equipment, or in conjunction with any software, that does not constitute Authorized Equipment.",
+                "changed_text": "Each MBE Center may be responsible for procuring, setting up, and looking after the Authorized Equipment contingent on its Subscription Agreement at its sole cost and expense. The Subscription Agreement may provide that an MBE Center that accesses or uses the Service on alternative hardware or other tools, or in conjunction with varying software, that does not constitute Authorized Equipment proceeds at its own risk, but the Company may be liable for service disruption.",
+                "explanation": "The original states MBE *shall* be responsible and the company *shall not* be liable, whereas the modified text states MBE *may* be responsible contingent on the subscription and the Company *may* be liable for disruptions. This creates uncertainty.",
+                "location": "Section 3(c)"
+            }
+        ]
+    }
+]

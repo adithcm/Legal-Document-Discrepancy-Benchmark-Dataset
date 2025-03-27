@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This agreement (\"Agreement\") is entered into as of the 16th day of February, 2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\" or \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and e-centives, Inc., (\"Application Provider\" or \"e-centives\"), a Delaware corporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817.",
+                "changed_text": "This agreement (\"Agreement\") is entered into as of the 16th day of February, 2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\" or \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and e-centives, Inc., (\"Content Distributor\" or \"e-centives\"), a Delaware corporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817.",
+                "explanation": "Changing \"Application Provider\" to \"Content Distributor\" in the opening paragraph creates ambiguity. Throughout the document, the original term \"Application Provider\" is used, but this initial change introduces a conflicting identifier, which could lead to disputes regarding responsibilities tied to the original designation. The change creates confusion as to whether the agreement applies to the same entity under a different designation.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The term of this Agreement will begin on the Effective Date and will end three (3) years from the date the Co-Branded Application becomes accessible to Excite@Home Members (\"Launch Date\").",
+                "changed_text": "The term of this Agreement will begin on the Effective Date and will end three (3) years from the date the Co-Branded Service becomes accessible to Excite@Home Members (\"Go-Live Date\").",
+                "explanation": "Changing \"Launch Date\" to \"Go-Live Date\" and \"Co-Branded Application\" to \"Co-Branded Service\" creates confusion about the contract duration. The original term \"Launch Date\" is used extensively. Introducing \"Go-Live Date\" and 'Co-Branded Service' without clarifying whether they refer to the same event and entity introduces inconsistency and could lead to disagreements on the agreement's expiration.",
+                "location": "Section 15"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Application Provider will retain all right, title and interest in and to its trademarks, service marks and trade names worldwide, subject to the limited license granted to Excite@Home in Section 11(c)  [TRADEMARK OWNERSHIP AND LICENSE] below.\n     b)   Excite@Home will retain all right, title and interest in and to its trademarks, service marks and trade names worldwide, subject to the limited license granted to Application Provider in Section 11(c)  [TRADEMARK OWNERSHIP AND LICENSE] below.",
+                "changed_text": "Content Distributor will retain all right, title and interest in and to its trademarks, service marks and trade names worldwide, subject to the limited license granted to Excite@Home in Section 11(c)  [TRADEMARK OWNERSHIP AND LICENSE] below.\n     b)   Excite@Home will retain all right, title and interest in and to its trademarks, service marks and trade names worldwide, subject to the limited license granted to E-centives in Section 11(c)  [TRADEMARK OWNERSHIP AND LICENSE] below.",
+                "explanation": "Changing the term 'Application Provider' to 'Content Distributor' in Section 11(a) while retaining 'Application Provider' in 11(b) creates a conflict regarding trademark licenses. It is unclear which entity is granted the license from Excite@Home, leading to uncertainty in trademark usage rights. This can create disputes over intellectual property ownership and usage.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

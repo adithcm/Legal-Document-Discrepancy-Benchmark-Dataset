@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This agreement is made effective   Oct. 11, 1996 by and between PC QUOTE, INC. (hereinafter referred to as \"PCQ\"), a Delaware Corporation with its principal place of business at 300 South Wacker Drive, Chicago, Illinois 60605 and AB Wately, Inc. (hereinafter referred to as \"ABW\") with its principal place of business at 33 West 17th Street, New York, NY  10011. This agreement shall apply to said ABW and all of its subsidiaries and related companies.",
+                "changed_text": "This agreement is made effective   Oct. 11, 1996 by and between PC QUOTE, INC. (hereinafter referred to as \"PCQ\"), a Delaware Corporation with its principal place of business at 300 South Wacker Drive, Chicago, Illinois 60605 and AB Wately, Inc. (hereinafter referred to as \"the Partner\") with its principal place of business at 33 West 17th Street, New York, NY  10011. This agreement shall apply to said the Partner and all of its subsidiaries and related companies.",
+                "explanation": "Replaces 'ABW' with 'the Partner' without defining it consistently throughout the document. This introduces confusion as 'ABW' is already defined, creating an internal contradiction regarding which entity the agreement applies to.",
+                "location": "Introductory Paragraph"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "PCQ agrees to allow ABW to co-brand the PCQ SOFTWARE in order to provide a value added service on ABW's World Wide Web site.  The co-branded SOFTWARE will be made available via ABW software housed at the ABW office listed in this Agreement.  The server will be accessed by all ABW subscribers in order to download the SOFTWARE and receive the HYPERFEED.",
+                "changed_text": "PCQ agrees to allow the Partner to co-brand the PCQ SOFTWARE in order to provide a value added service on the Licensee's World Wide Web site.  The co-branded SOFTWARE will be made available via the Partner's software housed at the Licensee's office listed in this Agreement.  The server will be accessed by all end users in order to download the SOFTWARE and receive the HYPERFEED.",
+                "explanation": "Interchanges ABW with 'the Partner' and then 'Licensee,' without consistently defining either. Subscriber also turned into end users. The lack of clarity on whether these terms refer to the same entity creates uncertainty in obligations and rights.",
+                "location": "Section 1.A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Beginning with the date specified on the fee schedule attached hereto as Schedule A, or upon completion of the Installation and testing of all equipment and services, which ever is later.  ABW will commence payment of a monthly fee for the right to permit access by ABW's clients to said SOFTWARE and HYPERFEED.",
+                "changed_text": "Beginning with the date specified on the fee schedule attached hereto as Schedule A, or upon completion of the Installation and testing of all equipment and services, whichever is later. The Customer will commence payment of a monthly fee for the right to permit access by the Partner's clients to said SOFTWARE and HYPERFEED.",
+                "explanation": "Replaces 'ABW' with 'The Customer,' and 'ABW's' with 'The Partner's' creating confusion as to which entity is responsible for payment and whose clients are being referred to. This could lead to disputes over billing responsibilities.",
+                "location": "Section 3.A"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Franchisor expressly retains all other rights and may, among other things, on any terms and conditions Franchisor deems advisable, and without granting Developer any rights therein:\na. Establish and operate or franchise others to establish and operate an El Pollo Loco restaurant located\noutside of the Territory;",
+                "changed_text": "Franchisor expressly retains all other rights and may, among other things, on any terms and conditions Franchisor deems advisable, and without granting Developer any rights therein:\na. Establish and operate or license others to establish and operate an El Pollo Loco restaurant located\noutside of the Territory;",
+                "explanation": "The terms 'franchise' and 'license' are used interchangeably. Licensing is a broad term for granting rights, while franchising is specific to a business model. Using them interchangeably introduces uncertainty as it could be interpreted that the franchisor can use a less regulated licensing structure rather than offering franchise agreement.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Developer must submit one or more site(s) for approval, enter into binding leases or purchase\nagreements and open to the public the number of El Pollo Loco® Restaurant(s) on such approved sites each\ncalendar year as required on the Development Schedule, all as set forth on Exhibit “B” attached hereto and\nmade a part hereof.",
+                "changed_text": "Developer must submit one or more location(s) for approval, enter into binding leases or purchase\nagreements and open to the public the number of El Pollo Loco® Restaurant(s) on such approved locations each\ncalendar year as required on the Development Schedule, all as set forth on Exhibit “B” attached hereto and\nmade a part hereof.",
+                "explanation": "The terms 'site' and 'location' are used interchangeably. They are not defined, potentially leading to disputes over the specific requirements for an 'approved location', as they may carry subtly different connotations (e.g., a 'site' might refer to a specific plot of land, while a 'location' might refer to a broader area).",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The following events shall constitute a default by Developer, which shall result in El Pollo Loco's right to\ndeclare the termination of this Agreement, if such default is not cured within thirty (30) days after written notice by\nFranchisor to Developer:\na. Developer's default in the performance or observance of any covenant, term, or condition contained in\nthis Agreement not otherwise specified in Section 11.1 above.",
+                "changed_text": "The following events shall constitute a default by Developer, which shall result in El Pollo Loco's right to\ndeclare the termination of this Agreement, if such default is not cured within thirty (30) days after written notice by\nFranchisor to Developer:\na. Developer's failure in the performance or observance of any obligation, term, or condition contained in\nthis Agreement not otherwise specified in Section 11.1 above.",
+                "explanation": "The terms 'default' and 'failure' are used interchangeably within a defined event of default. The legal interpretation of 'default' can be more nuanced, implying a breach of duty, while 'failure' is more straightforward. Using them interchangeably introduces ambiguity as it is unclear whether a simple failure is equal to a default",
+                "location": "Section 11.2"
+            }
+        ]
+    }
+]

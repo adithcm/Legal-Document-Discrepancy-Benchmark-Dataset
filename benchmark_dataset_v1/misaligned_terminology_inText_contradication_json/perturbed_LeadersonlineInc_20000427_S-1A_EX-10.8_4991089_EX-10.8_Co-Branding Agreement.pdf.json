@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LeadersonlineInc_20000427_S-1A_EX-10.8_4991089_EX-10.8_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Co-Branding Agreement (this \"Agreement\") dated March 15, 2000  (the\n\"Effective Date\") is entered into between VerticalNet, Inc., a Pennsylvania\ncorporation having a principal place of business at 700 Dresher Road, Suite 100,\nHorsham, Pennsylvania, 19044 (\"VerticalNet\"), and LeadersOnline, Inc. a Delaware\ncorporation having a principal place of business at  18401 Von Karman Avenue,\nSuite 500, Irvine, California, 92612 \"(LeadersOnline\") (each a \"Party\" and\ntogether the \"Parties\").",
+                "changed_text": "This Co-Branding Agreement (this \"License\") dated March 15, 2000  (the\n\"Effective Date\") is entered into between VerticalNet, Inc., a Pennsylvania\ncorporation having a principal place of business at 700 Dresher Road, Suite 100,\nHorsham, Pennsylvania, 19044 (\"VerticalNet\"), and LeadersOnline, Inc. a Delaware\ncorporation having a principal place of business at  18401 Von Karman Avenue,\nSuite 500, Irvine, California, 92612 \"(LeadersOnline\") (each a \"Party\" and\ntogether the \"Parties\").",
+                "explanation": "Changing \"Agreement\" to \"License\" in the opening paragraph introduces ambiguity.  The entire document refers to an 'Agreement,' but the opening refers to a 'License,' potentially confusing the nature of the document and the obligations of the parties.",
+                "location": "Beginning of the document"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.  DEFINITIONS\n    1.1.  Affiliate shall mean, when used with reference to a Party, any\nindividual or entity directly or indirectly controlling, controlled by or under\ncommon control with such Party.  For purposes of this definition, \"control\"\nmeans the direct or indirect ownership of at least 50% of the outstanding voting\npower of a Party, or the right to control the policy decisions of such Party.",
+                "changed_text": "1.  DEFINITIONS\n    1.1.  Affiliate shall mean, when used with reference to a Participant, any\nindividual or entity directly or indirectly controlling, controlled by or under\ncommon control with such Participant.  For purposes of this definition, \"control\"\nmeans the direct or indirect ownership of at least 50% of the outstanding voting\npower of a Party, or the right to control the policy decisions of such Party.",
+                "explanation": "Changing \"Party\" to \"Participant\" in the definition of Affiliate creates confusion. The rest of the contract consistently uses \"Party.\" This undermines the clarity of who an affiliate is connected to, weakening the definition itself and introducing inconsistency.",
+                "location": "Section I, 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "11.   DISCLAIMER OF WARRANTY, LIMITATION OF LIABILITY AND INDEMNIFICATION.\n\n    11.1.  Disclaimer of Warranties by VerticalNet.  EXCEPT AS EXPRESSELY SET\nFORTH IN THIS AGREEMENT, VERTICALNET HEREBY DISCLAIMS ALL WARRANTIES, EXPRESS,\nIMPLIED OR STATUTORY, WITH RESPECT TO THE VERTICALNET SITES AND ALL MATERIALS\nCONTAINED THEREIN OR PROVIDED HEREUNDER, INCLUDING BUT NOT LIMITED TO ANY\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+                "changed_text": "11.   DISCLAIMER OF WARRANTY, LIMITATION OF LIABILITY AND INDEMNIFICATION.\n\n    11.1.  Disclaimer of Warranties by VerticalNet.  EXCEPT AS EXPRESSELY SET\nFORTH IN THIS LICENSE, VERTICALNET HEREBY DISCLAIMS ALL WARRANTIES, EXPRESS,\nIMPLIED OR STATUTORY, WITH RESPECT TO THE VERTICALNET SITES AND ALL MATERIALS\nCONTAINED THEREIN OR PROVIDED HEREUNDER, INCLUDING BUT NOT LIMITED TO ANY\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+                "explanation": "Referring to the governing document as \"LICENSE\" in the section specifically disclaiming warranties introduces an unintended level of ambiguity. The document is initiated as an \"Agreement\" but is now referred to as a License within a critical disclaimer section. This is an inconsistency that could be raised as a point of ambiguity.",
+                "location": "Section 11.1"
+            }
+        ]
+    }
+]
