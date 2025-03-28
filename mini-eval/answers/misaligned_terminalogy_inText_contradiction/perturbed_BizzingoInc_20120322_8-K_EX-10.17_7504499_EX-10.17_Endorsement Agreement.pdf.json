@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, Bizzingo has developed a B2B interactive platform which engages in business social media including mobile and Internet applications \n(“Network”); and \n\nWHEREAS, Bizzingo is desirous of acquiring the rights to utilize Theismann’s name in connection with the advertisement, promotion, and sale of the \nNetwork as provided herein and Theismann is willing to grant such right",
+                "changed_text": "WHEREAS, Bizzingo has developed a B2B interactive platform which engages in business social media including mobile and Internet applications \n(“Platform”); and \n\nWHEREAS, Bizzingo is desirous of acquiring the rights to utilize Theismann’s name in connection with the advertisement, promotion, and sale of the \nNetwork as provided herein and Theismann is willing to grant such right",
+                "explanation": "The original agreement defines 'Network' as Bizzingo's platform. The change introduces 'Platform' in the definition section while only 'Network' is used in the Grant of Rights section. This creates confusion about whether Theismann's endorsement applies to the 'Platform' or just the 'Network' as defined, and if they are indeed the same thing.",
+                "location": "Preamble, Section: WHEREAS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In consideration for the rights granted hereunder and for the promotional appearances provided herein, Bizzingo, subject to the \nother terms and conditions herein, agrees to pay to Theismann during the Term the royalty recited in Schedule A (the “Royalty”). \nIn addition, concurrent with the execution hereof, Bizzingo will pay Theismann the Initial Bonus described in Schedule A.",
+                "changed_text": "In consideration for the rights granted hereunder and for the promotional appearances provided herein, Bizzingo, subject to the \nother terms and conditions herein, agrees to pay to Theismann during the Term the compensation recited in Schedule A (the “Royalty”). \nIn addition, concurrent with the execution hereof, Bizzingo will pay Theismann the Initial Bonus described in Schedule A.",
+                "explanation": "The term 'Royalty' is specifically defined and used throughout the agreement. Changing 'Royalty' to 'Compensation' in the first sentence creates a contradiction because it is already defined. This raises the question if 'Compensation' is different from 'Royalty' and if additional compensations are required, other than the clearly defined 'Royalty'.",
+                "location": "Section 3. COMPENSATION. a."
+            }
+        ]
+    }
+]
