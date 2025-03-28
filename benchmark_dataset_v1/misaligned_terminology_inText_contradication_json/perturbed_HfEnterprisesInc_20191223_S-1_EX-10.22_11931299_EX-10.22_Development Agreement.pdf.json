@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, DSS desires to retain Developer for the purpose of assisting DSS in developing an Android software application to be included as part of DSS’s AuthentiGuard® Technology suite, and DSS is willing to grant Developer a non-exclusive, limited and non-transferable license for purposes of such development activities.",
+                "changed_text": "WHEREAS, DSS desires to retain Contractor for the purpose of assisting DSS in developing an Android software application to be included as part of DSS’s AuthentiGuard® Technology suite, and DSS is willing to grant Vendor a non-exclusive, limited and non-transferable license for purposes of such development activities.",
+                "explanation": "Changing 'Developer' to 'Contractor' and 'Vendor' creates confusion about the roles. The contract's primary party 'Developer' is now replaced by 'Contractor'. In addition to that, the party that is granted a license for development activities, is also replaced with the word 'Vendor', and this causes confusion about the responsibilities and rights of each party. This also leads to uncertainty in enforcement as it is not clear who is responsible for which obligation.",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1. Development License. Subject to the terms and conditions set forth herein, DSS hereby grants to Developer, and Developer accepts from DSS, for the Term, a non-exclusive, limited, and non-transferable license to install and use the Technology for the sole purpose of developing the Improvements (as defined hereunder) thereto for the benefit of DSS (the “Technology Development Services License”).",
+                "changed_text": "1.1. Development License. Subject to the terms and conditions set forth herein, DSS hereby grants to Vendor, and Consultant accepts from DSS, for the Term, a non-exclusive, limited, and non-transferable license to install and use the Technology for the sole purpose of developing the Enhancements (as defined hereunder) thereto for the benefit of DSS (the “Technology Development Services License”).",
+                "explanation": "Replacing 'Developer' with 'Vendor' and 'Consultant', and 'Improvements' with 'Enhancements' adds inconsistency and ambiguity. It is unclear whether the contract is granting the license to the same party mentioned previously. In addition, the contract is now using the word 'Enhancements', even though the word defined is 'Improvements'. This makes enforcement uncertain as it's not clear who is responsible for the activities. The contract becomes internally inconsistent.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4. Definitions. For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n \n“Improvements” shall mean technical improvements, modifications or enhancements relating to the Technology that are developed by the\nDeveloper pursuant to this Agreement.",
+                "changed_text": "4. Definitions. For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n \n“Enhancements” shall mean technical upgrades, alterations or modifications relating to the Technology that are developed by the\nContractor pursuant to this Agreement.",
+                "explanation": "The definition of 'Improvements' is changed to define 'Enhancements' instead, and 'Developer' is changed to 'Contractor'. This creates an internal contradiction as the definition section now defines a term ('Enhancements') that is being used in place of the original defined term ('Improvements') in Section 1.1. Furthermore, the entity now responsible for developing them is 'Contractor', not 'Developer'. This introduces significant uncertainty and undermines the contract's clarity, making enforcement more difficult because the agreement now uses terms that are not consistent.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

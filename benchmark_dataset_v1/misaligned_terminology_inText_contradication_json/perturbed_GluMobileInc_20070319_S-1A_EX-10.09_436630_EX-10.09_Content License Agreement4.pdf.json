@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement4.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Reference is hereby made to that certain fully executed Wireless Content License Agreement Number 12965 dated as of December 16, 2004, as\namended November 11, 2005 and March 27, 2006 (the “Agreement”), between Fox Mobile Entertainment, Inc. (“Fox”), as Administrator for Twentieth\nCentury Fox Film Corporation, and Glu Mobile Inc. (“Licensee”).",
+                "changed_text": "Reference is hereby made to that certain fully executed Wireless Content License Agreement Number 12965 dated as of December 16, 2004, as\namended November 11, 2005 and March 27, 2006 (the “Agreement”), between Fox Mobile Entertainment, Inc. (“Fox”), as Administrator for Twentieth\nCentury Fox Film Corporation, and Glu Mobile Inc. (“Recipient”).",
+                "explanation": "Changing 'Licensee' to 'Recipient' introduces confusion. While Glu Mobile Inc. is initially identified as 'Licensee,' subsequent sections may or may not consistently refer to it as such. This raises uncertainty about whether the obligations assigned to the 'Licensee' apply equally to the 'Recipient'.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Glu Mobile Inc. (“Licensee”)\nFox Mobile Entertainment, Inc. (“Fox”)",
+                "changed_text": "Glu Mobile Inc. (“Customer”)\nFox Mobile Entertainment, Inc. (“Fox”)",
+                "explanation": "Changing 'Licensee' to 'Customer' creates inconsistency. In the signature block, Glu Mobile Inc. is labeled as 'Customer' while the contract refers to them as Licensee/Recipient. If rights were granted to Licensee previously, it's uncertain if Customer has the same rights.",
+                "location": "Signature Block"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "NOTICE PROVISION: The notice information for Licensee in Section 17(a) of the Agreement shall be amended such that “Paul Zuzelo” is deleted\nand replaced with “General Counsel”, and such that the email address for Paul Zuzelo is deleted.",
+                "changed_text": "NOTICE PROVISION: The notice information for Client in Section 17(a) of the Agreement shall be amended such that “Paul Zuzelo” is deleted\nand replaced with “General Counsel”, and such that the email address for Paul Zuzelo is deleted.",
+                "explanation": "Here, the term 'Licensee' is replaced with 'Client'. As there are other instances where Licensee is modified into Customer/Recipient, it becomes unclear which term (Client/Customer/Recipient) refers to the same party, making it ambiguous whom Fox should send notices to.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

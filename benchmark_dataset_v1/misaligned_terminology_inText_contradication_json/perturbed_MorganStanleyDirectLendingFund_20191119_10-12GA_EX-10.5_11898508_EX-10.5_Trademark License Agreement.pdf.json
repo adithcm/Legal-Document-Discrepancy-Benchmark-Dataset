@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MorganStanleyDirectLendingFund_20191119_10-12GA_EX-10.5_11898508_EX-10.5_Trademark License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, Licensor is the owner of all rights to the trademark “Morgan Stanley” and the “Morgan Stanley” design (collectively, the “Brand”);\nWHEREAS, Licensee is a closed-end investment company that has elected to be treated as a business development company under the\nInvestment Company Act of 1940, as amended (together with the rules promulgated thereunder) (the “Licensee Business”);",
+                "changed_text": "WHEREAS, Licensor is the owner of all rights to the trademark “Morgan Stanley” and the “Morgan Stanley” design (collectively, the “Intellectual Property”);\nWHEREAS, Licensee is a closed-end investment company that has elected to be treated as a business development company under the\nInvestment Company Act of 1940, as amended (together with the rules promulgated thereunder) (the “Licensee Business”);",
+                "explanation": "Changing 'Brand' to 'Intellectual Property' without defining it creates ambiguity. While the initial definition clarifies \"Brand,\" the introduction of \"Intellectual Property\" as potentially synonymous creates doubt about whether the entire agreement's references to \"Brand\" now encompass a broader set of intellectual assets.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Section 3.1. Quality Control. Licensee’s Permitted Activity shall be in a manner consistent with Licensor’s high standards of and reputation\nfor quality, and in accordance with good trademark practice wherever any of the same are used. Licensee shall not take any action that could\nreasonably be expected to harm the Brand or the goodwill associated therewith.",
+                "changed_text": "Section 3.1. Quality Control. Licensee’s Permitted Activity shall be in a manner consistent with Licensor’s high standards of and reputation\nfor quality, and in accordance with good trademark practice wherever any of the same are used. Licensee shall not take any action that could\nreasonably be expected to harm the Intellectual Property or the goodwill associated therewith.",
+                "explanation": "Here, \"Brand\" is replaced with \"Intellectual Property\". Because Intellectual property includes any creation of the mind, such as inventions, literary and artistic works, designs, and symbols, names, and images used in commerce, and the term \"Brand\" in the original text is limited to the specific named trademarks of 'Morgan Stanley', it introduces an ambiguity concerning the extent of the protection Licensee must provide to the Licensor. This could potentially extend the obligations of Licensee to areas not initially intended in the contract.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Section 4.2. Termination for Convenience. Licensor reserves the right to terminate this Agreement immediately upon written notice for any\nreason, including if the usage of the Brand is not in compliance with the standards and policies.",
+                "changed_text": "Section 4.2. Termination for Convenience. Licensor reserves the right to terminate this Agreement immediately upon written notice for any\nreason, including if the usage of the Trademark is not in compliance with the standards and policies.",
+                "explanation": "Here, \"Brand\" is replaced with \"Trademark\". Since Trademark is a type of Brand, this will cause uncertainty if the usage of other types of Brand is not in compliance, can the agreement still be terminated?",
+                "location": "Section 4.2"
+            }
+        ]
+    }
+]
