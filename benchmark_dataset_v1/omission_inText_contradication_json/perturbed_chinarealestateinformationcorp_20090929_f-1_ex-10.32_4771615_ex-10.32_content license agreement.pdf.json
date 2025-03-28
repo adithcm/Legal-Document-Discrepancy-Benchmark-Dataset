@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "chinarealestateinformationcorp_20090929_f-1_ex-10.32_4771615_ex-10.32_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term. Except as provided in Section 2.3, Licensee’s use of the Licensed Domain Names under the terms of this Agreement shall be free of any fees.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, a license to use the Licensed Domain Names in connection with the Business during the Term.",
+                "explanation": "By removing 'exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license' and 'Except as provided in Section 2.3, Licensee’s use of the Licensed Domain Names under the terms of this Agreement shall be free of any fees.', this omission creates an uncertainty whether the license is exclusive, transferable, or sublicensable. It also removes the agreement that the Licensee's use will be free of any fees, which could be a contradiction later if fees are charged.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Licensee shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including without limitation Content posted by end users. Licensor shall also have the right to monitor and censor Content of the websites associated with Licensed Domain Names. Licensee shall remove any offending Content, including, but not limited to, any illegal materials, pornographic, obscene or sexually explicit materials, materials of a violent nature, or politically sensitive materials, from such websites as soon as possible after it becomes aware of such offending Content but in no event later than the timeframe prescribed by the Governmental Authority after receipt of oral or written notice from Licensor or such Governmental Authority. Licensee’s failure to comply with this Section 3.3(a) shall be deemed a material breach of this Agreement. Without limiting the foregoing obligations, Licensee acknowledges that Licensor shall have the right to remove such offending Content from the websites associated with Licensed Domain Names.",
+                "changed_text": "Licensee shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including without limitation Content posted by end users. Licensee shall remove any offending Content, including, but not limited to, any illegal materials, pornographic, obscene or sexually explicit materials, materials of a violent nature, or politically sensitive materials, from such websites as soon as possible after it becomes aware of such offending Content.",
+                "explanation": "By removing 'Licensor shall also have the right to monitor and censor Content of the websites associated with Licensed Domain Names. ...but in no event later than the timeframe prescribed by the Governmental Authority after receipt of oral or written notice from Licensor or such Governmental Authority. Licensee’s failure to comply with this Section 3.3(a) shall be deemed a material breach of this Agreement. Without limiting the foregoing obligations, Licensee acknowledges that Licensor shall have the right to remove such offending Content from the websites associated with Licensed Domain Names.', this perturbation introduces a potential contradiction. Other sections may still refer to the possibility of a material breach regarding content censorship, but the specific consequences are no longer defined.",
+                "location": "Section 3.3(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "All damages or other compensation of any kind recovered in any action, suit or proceeding undertaken under this Article V, or from any settlement or compromise thereof, shall be for the benefit of the Licensor, provided, however, that any compensation granted or awarded in light of any losses incurred by Licensee shall be for the benefit of the Licensee after Licensor’s reasonable expenses for taking such action, suit or proceeding have been paid.",
+                "changed_text": "All damages or other compensation of any kind recovered in any action, suit or proceeding undertaken under this Article V, or from any settlement or compromise thereof, shall be for the benefit of the Licensor.",
+                "explanation": "By removing 'provided, however, that any compensation granted or awarded in light of any losses incurred by Licensee shall be for the benefit of the Licensee after Licensor’s reasonable expenses for taking such action, suit or proceeding have been paid.', this makes it unclear how settlements or court awards are to be distributed. Removing the clause means that all damages go to the Licensor, even if it is compensation for losses incurred by the licensee.",
+                "location": "Section 5.1(c)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "reedsinc_20191113_10-q_ex-10.4_11888303_ex-10.4_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Recipe Development Agreement (this “Agreement”) is made between Reed’s, Inc., a Delaware corporation (“Reed’s”) and B C\nMarketing Concepts Inc., dba Full Sail Brewing Company, an Oregon corporation (“Company”), effective as of October 11, 2019 (the “Effective\nDate”).",
+                "changed_text": "Recipe Development Agreement (this “Agreement”) is made between Reed’s, Inc., a Delaware corporation (“Reed’s”) and B C\nMarketing Concepts Inc., dba Full Sail Brewing Company, an Oregon corporation (“Provider”), effective as of October 11, 2019 (the “Effective\nDate”).",
+                "explanation": "Changing 'Company' to 'Provider' without consistently using 'Provider' throughout the document creates ambiguity as to which entity the obligations and rights apply. Subsequent references to 'Company' will be unclear, particularly in sections defining responsibilities.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "(b) “Company Intellectual Property” means all Intellectual Property that: (i) was owned or developed by Company prior to the\nexecution of this Agreement; and (ii) is or was independently developed or acquired by Company without contribution or assistance from Reed’s,\nReed’s Confidential Information, or Reed’s Intellectual Property. Company Intellectual Property includes but is not limited to Company’s know-how\nand independently developed recipes and alcohol beverage production processes, including the Company’s proprietary composition of or recipe\nfor the neutral alcohol beverage base that contributes alcohol to the Products (“Neutral Alcohol Beverage Base”).",
+                "changed_text": "(b) “Company Intellectual Property” means all Intellectual Property that: (i) was owned or developed by Provider prior to the\nexecution of this Agreement; and (ii) is or was independently developed or acquired by Company without contribution or assistance from Reed’s,\nReed’s Confidential Information, or Reed’s Intellectual Property. Provider Intellectual Property includes but is not limited to Company’s know-how\nand independently developed recipes and alcohol beverage production processes, including the Provider’s proprietary composition of or recipe\nfor the neutral alcohol beverage base that contributes alcohol to the Products (“Neutral Alcohol Beverage Base”).",
+                "explanation": "Using 'Provider' and 'Company' inconsistently within the same definition section muddles which entity owns which intellectual property. This will cause significant legal challenges in determining ownership and usage rights of intellectual property developed during the agreement.",
+                "location": "Section 1(b)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In exchange for Company’s contributions and obligations under this Agreement, Reed’s grants Company the exclusive\nright to manufacture, package, promote, sell and distribute the Products (if and to the extent approved by the Development Committee), subject to\nthe terms and conditions of a separate Manufacturing and Distribution Agreement to be entered into by the parties concurrently with this\nAgreement, as it may be amended, modified, supplemented or restated from time to time (the “Manufacturing and Distribution Agreement”).",
+                "changed_text": "In exchange for Provider’s contributions and obligations under this Agreement, Reed’s grants Supplier the exclusive\nright to manufacture, package, promote, sell and distribute the Products (if and to the extent approved by the Development Committee), subject to\nthe terms and conditions of a separate Manufacturing and Distribution Agreement to be entered into by the parties concurrently with this\nAgreement, as it may be amended, modified, supplemented or restated from time to time (the “Manufacturing and Distribution Agreement”).",
+                "explanation": "Using 'Provider' and 'Supplier' here causes further confusion. If 'Supplier' is a new entity, the agreement is granting rights to an entity not party to the original agreement. If 'Supplier' is meant to be the same as 'Company/Provider', it is never defined, which creates an internal inconsistency concerning who is responsible for manufacturing, packaging, and distributing the products.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

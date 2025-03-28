@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "steelvaultcorp_20081224_10-k_ex-10.16_3074935_ex-10.16_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Marketing Affiliate nor Equidata, shall engage in any practice or activity that is not in compliance with the Fair Credit Reporting Act (FCRA), the Fair Debt Collection Practices Act (FDCPA) and the Health Insurance Portability and Accountability Act (HIPAA) as well as, but not limited to, any practice or activity that:",
+                "changed_text": "Marketing Affiliate nor Equidata, should endeavor to engage in practices and activities generally aligned with the principles of the Fair Credit Reporting Act (FCRA), the Fair Debt Collection Practices Act (FDCPA) and the Health Insurance Portability and Accountability Act (HIPAA) as reasonably practical.",
+                "explanation": "Replaced \"shall engage in any practice or activity that is not in compliance with\" with \"should endeavor to engage in practices and activities generally aligned with the principles of...as reasonably practical\", making compliance subjective and not mandatory. The addition of \"as reasonably practical\" introduces ambiguity and allows for potential non-compliance, contradicting the strict compliance required by these laws. This creates a loophole, as the \"endeavor\" is not a legally binding requirement.",
+                "contradicted_law": "Fair Credit Reporting Act (FCRA), Fair Debt Collection Practices Act (FDCPA), Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "5"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Marketing Affiliate shall give Equidata written demand of dispute within 10 days of the due date of the invoice. The demand shall set forth a statement for the nature of the dispute and the amount involved. If Equidata and Marketing Affiliate can not resolve the dispute on their own within 10 days after Equidata receive said dispute, the parties shall jointly select an arbitrator.",
+                "changed_text": "Marketing Affiliate should attempt to give Equidata written notice of a dispute within a reasonable timeframe of the invoice due date. The notice should generally describe the nature of the disagreement. If Equidata and Marketing Affiliate cannot come to a resolution, they may consider jointly selecting an arbitrator.",
+                "explanation": "Replaced \"shall give\" with \"should attempt to give within a reasonable timeframe,\" which is vague and non-committal. \"Shall set forth a statement\" becomes \"should generally describe,\" reducing the requirement for specific details. \"Shall jointly select an arbitrator\" becomes \"may consider jointly selecting an arbitrator,\" making arbitration optional rather than mandatory. This ambiguity undermines the dispute resolution process, potentially violating state contract laws that favor clear and binding arbitration agreements.",
+                "contradicted_law": "Virginia state law regarding contract enforceability and dispute resolution (since the contract specifies Virginia law)",
+                "location": "2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Equidata may audit, at Equidata’s expense, the Marketing Affiliate’s marketing, practices and activities for the purpose of assuring compliance with this Agreement. Equidata reserves the right to site inspect Marketing Affiliate’s physical location of business at any time.",
+                "changed_text": "Equidata may, at its discretion and expense, conduct occasional reviews of the Marketing Affiliate's marketing practices and activities, primarily to foster a collaborative environment. Equidata might consider a site visit of the Marketing Affiliate's principal place of business if deemed mutually beneficial.",
+                "explanation": "Replacing \"Equidata may audit...for the purpose of assuring compliance\" with \"Equidata may...conduct occasional reviews...primarily to foster a collaborative environment\" significantly weakens the audit clause. Similarly, \"Equidata reserves the right to site inspect at any time\" is softened to \"Equidata might consider a site visit if deemed mutually beneficial,\" making the site inspection optional and dependent on mutual agreement, which is not guaranteed. This introduces ambiguity around Equidata's ability to verify compliance, which could violate the principles of due diligence and oversight required for financial transactions and data handling under federal regulations, specifically the Gramm-Leach-Bliley Act (GLBA) if the services involve handling consumer financial information.",
+                "contradicted_law": "Gramm-Leach-Bliley Act (GLBA) if the agreement involves handling consumer financial information",
+                "location": "6"
+            }
+        ]
+    }
+]

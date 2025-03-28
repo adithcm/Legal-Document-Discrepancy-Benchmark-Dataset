@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.26\nMaintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per\nday, seven (7) per week, including Bank of America holidays.",
+                "changed_text": "1.26\nMaintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be from 9am to 5pm EST, Monday through Friday, excluding Bank of America holidays, unless an emergency is declared by Bank of America.",
+                "explanation": "This change introduces conflicting definitions for 'Maintenance Period'. Initially, it's 24/7. The modified version restricts it to business hours, creating uncertainty about service availability outside those hours.",
+                "location": "Section 1.0"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.5\nThe licenses granted in this Agreement with respect to any Licensed Program shall not terminate for any reason unless Supplier terminates\nthe applicable Product License Schedule pursuant to Section 5.2 after Bank of America fails to pay in full the undisputed portion of license\nfees payable with respect to such Licensed Program under such Product License Schedule.",
+                "changed_text": "5.5\nThe licenses granted in this Agreement with respect to any Licensed Program may be terminated by the Supplier with a 30-day notice period for any material breach of this agreement, including but not limited to non-payment, unauthorized use, or violation of intellectual property rights, regardless of the Product License Schedule.",
+                "explanation": "This change introduces ambiguity about termination rights. The original text says license termination only happens if Bank of America fails to pay license fees in full per Section 5.2. The modified text allows termination for *any* material breach, creating an internal contradiction and uncertainty on termination conditions.",
+                "location": "Section 5.0"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "9.1\nAt no additional charge and in accordance with the delivery method specified in each Product License Schedule, Supplier shall deliver a\ncomplete set of Documentation for the Software at the same time as the Software is delivered and for every Customization and Upgrade\ndelivered to Bank of America. The Documentation shall describe fully the proper procedure for using the Software and provide sufficient\ninformation to enable Bank of America to operate all features and functionality of the Software on the Platform. Supplier shall deliver\nreasonable Documentation to allow Bank of America to install and use each Update. Except as otherwise provided in Section 39.0,\n“Ownership of Work Product”, Bank of America may use and reproduce for internal purposes all Documentation furnished by Supplier,\nincluding displaying the Documentation on Bank of America’s intranet or other internal electronic distribution system, in part or in whole.\nDocumentation for Customizations, Updates and Upgrades shall meet or exceed the level of quality, form and completeness of the\nDocumentation for the Licensed Programs.",
+                "changed_text": "9.1\nWhile Supplier shall endeavor to provide helpful Documentation, the level of detail and completeness of the Documentation for the Software and subsequent Customizations and Upgrades is at the sole discretion of the Supplier.  Bank of America may use and reproduce for internal purposes all Documentation furnished by Supplier, including displaying the Documentation on Bank of America’s intranet or other internal electronic distribution system, in part or in whole. Documentation for Customizations, Updates and Upgrades will be provided, contingent on its availability within the Supplier's existing resources and processes.",
+                "explanation": "This change introduces conflicting obligations regarding the completeness of Documentation. The original requires a 'complete set' of Documentation, while the modified version makes providing complete details discretionary and contingent upon resource availability. This contradiction creates uncertainty about the level of support material Bank of America can expect.",
+                "location": "Section 9.0"
+            }
+        ]
+    }
+]

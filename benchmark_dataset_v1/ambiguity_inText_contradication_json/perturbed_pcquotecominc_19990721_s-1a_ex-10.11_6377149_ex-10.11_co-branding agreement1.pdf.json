@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "pcquotecominc_19990721_s-1a_ex-10.11_6377149_ex-10.11_co-branding agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Beginning with the date specified on the fee schedule attached\nherto as Schedule A, or upon completion of the Installation and testing of\nall equipment and services, which ever is later.  ABW will commence payment\nof a monthly fee for the right to permit access by ABW's clients to said\nSOFTWARE and HYPERFEED.",
+                "changed_text": "Beginning with the date specified on the fee schedule attached\nherto as Schedule A, ABW will commence payment\nof a monthly fee for the right to permit access by ABW's clients to said\nSOFTWARE and HYPERFEED. Installation and testing of all equipment and services are not prerequisites for payment.",
+                "explanation": "The original text states that payment commences on the date specified in Schedule A OR upon completion of installation and testing, whichever is LATER. The modified text removes the 'whichever is later' clause and explicitly states that installation and testing are NOT prerequisites. This creates a contradiction as to when payment obligations begin, potentially leading to disputes.",
+                "location": "3.A"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Any notice expressing a desire to terminate this Agreement will\nbe sent by certified mail to the address indicated above.  Said termination\nwill be effective as of the last day of the month in which this anniversary\noccurs.",
+                "changed_text": "Any notice expressing a desire to terminate this Agreement will\nbe sent by email to the address indicated above.  Said termination\nwill be effective immediately upon receipt of the termination notice.",
+                "explanation": "The original text specifies termination notice must be sent by certified mail and is effective at the end of the anniversary month. The changed text allows email termination with immediate effect. This is contradictory and creates uncertainty about the proper procedure and timing of termination.",
+                "location": "2.B"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "In the event that any invoice is not paid by ABW within forty-five\n(45) days after receipt, and when no discrepancy issues have been identified by\nABW which are in some stage of resolution, after giving notice to ABW, PCQ may\nterminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED\nprovided hereunder unless ABW pays such invoice prior to the termination date\nspecified in the Termination Notice.  The remedies contained herein are\ncumulative and are in addition to all other rights and remedies available to PCQ\nunder this Agreement, by operation of law, or otherwise.",
+                "changed_text": "In the event that any invoice is not paid by ABW within forty-five\n(45) days after receipt, PCQ will automatically terminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED\nprovided hereunder. The remedies contained herein are\nexclusive and are instead of all other rights and remedies available to PCQ\nunder this Agreement, by operation of law, or otherwise.",
+                "explanation": "The original text allows PCQ to terminate *after* giving notice and provides ABW a chance to pay before termination. The changed text makes termination automatic, removes the notice period and the chance for ABW to pay. Furthermore, original excerpt says the remedies are cumulative, while the modified excerpt says that the remedies are exclusive.",
+                "location": "3.H"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "emmiscommunicationscorp_20191125_8-k_ex-10.6_11906433_ex-10.6_marketing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4.\nAdvertising Sales. Programmer shall not separately sell advertising time on the HD2 Channel but may market\nthe WLIB Programs as being rebroadcast on the HD2 Channel.",
+                "changed_text": "4.\nAdvertising Sales. Programmer shall have the sole and exclusive right to sell advertising time on the HD2 Channel and retain all revenues generated therefrom. Programmer may also market the WLIB Programs as being rebroadcast on the HD2 Channel.",
+                "explanation": "This change contradicts the original clause, which prohibited Programmer from selling advertising time. Now, the Programmer has the exclusive right to sell ads, creating a direct conflict and uncertainty about which party controls advertising revenue.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.1\nProgrammer’s Events of Default. The occurrence of any of the following will be deemed an Event\nof Default by Programmer under this Agreement: (a) Programmer fails to observe or perform its obligations contained in this\nAgreement in any material respect; or (b) Programmer breaches the representations and warranties made by it under this\nAgreement in any material respect.",
+                "changed_text": "11.1\nProgrammer’s Events of Default. The occurrence of any of the following *may* be deemed an Event\nof Default by Programmer under this Agreement: (a) Programmer fails to observe or perform its obligations contained in this\nAgreement in any material respect, *subject to Licensee's discretion*; or (b) Programmer breaches the representations and warranties made by it under this\nAgreement *only if Licensee suffers direct financial loss* in any material respect.",
+                "explanation": "The original text states that failure to perform obligations or breach of warranties 'will be deemed' an event of default. The modified text changes this to 'may be deemed', introducing ambiguity and giving the Licensee discretion. Furthermore, it adds conditions (Licensee's discretion, direct financial loss) that were not present before, conflicting with the absolute nature of the original clause. This creates uncertainty regarding what constitutes a default.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "21.\nForce Majeure and Facilities Upgrades. The failure of either party hereto to comply with its obligations under\nthis Agreement due to (i) facility maintenance, repair or modification at a transmitter site or to move a transmitter site in response to\nFCC authorization of an improvement to or modification of the Station’s operating parameters, or (ii) with respect to a failure to\ncomply with an obligation under this Agreement, acts of God, strikes or threats thereof or a force majeure event or due to causes\nbeyond such party’s reasonable control, will not constitute an Event of Default under Section 11 of this Agreement and neither\nparty will be liable to the other party therefor. Programmer and Licensee each agrees to exercise its commercially reasonable\nefforts to remedy the conditions described in parts “(i)” and “(ii)” of this Section as soon as practicable.",
+                "changed_text": "21.\nForce Majeure and Facilities Upgrades. The failure of either party hereto to comply with its obligations under\nthis Agreement due to (i) facility maintenance, repair or modification at a transmitter site or to move a transmitter site in response to\nFCC authorization of an improvement to or modification of the Station’s operating parameters, *will* constitute an Event of Default under Section 11 of this Agreement. Notwithstanding the foregoing, (ii) with respect to a failure to\ncomply with an obligation under this Agreement, acts of God, strikes or threats thereof or a force majeure event or due to causes\nbeyond such party’s reasonable control, will not constitute an Event of Default under Section 11 of this Agreement and neither\nparty will be liable to the other party therefor. Programmer and Licensee each agrees to exercise its commercially reasonable\nefforts to remedy the conditions described in parts “(i)” and “(ii)” of this Section as soon as practicable.",
+                "explanation": "This introduces a direct contradiction. The original text states that facility maintenance/upgrades will *not* constitute an event of default. The modified text states that it *will* constitute an event of default. This creates a clear conflict, leaving it unclear whether such events can trigger termination of the agreement.",
+                "location": "Section 21"
+            }
+        ]
+    }
+]

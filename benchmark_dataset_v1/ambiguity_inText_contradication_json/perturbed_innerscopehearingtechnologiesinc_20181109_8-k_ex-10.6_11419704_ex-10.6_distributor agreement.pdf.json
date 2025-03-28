@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "innerscopehearingtechnologiesinc_20181109_8-k_ex-10.6_11419704_ex-10.6_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Distributor shall use its best efforts to market, promote and sell the Products to the authorized customers in the Filed of Use and in the Territory during the term of this agreement.",
+                "changed_text": "Distributor shall use commercially reasonable efforts to market, promote and sell the Products to the authorized customers in the Filed of Use and in the Territory during the term of this agreement.",
+                "explanation": "The original text requires 'best efforts', implying a high standard of diligence. The modified text uses 'commercially reasonable efforts,' a lower standard, creating ambiguity about the required intensity of marketing efforts. If a later clause refers to Distributor having to put in their 'best efforts,' but commercially reasonable efforts is present, then the section will be internally conflicted.",
+                "location": "2.a"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Either party may terminate this Agreement in the event of a material breach by the other party, provided the breaching party is first given reasonably detailed, written notice of the breach. If the breach is not cured within ten days of such notice, the Agreement will terminate immediately.",
+                "changed_text": "Either party may terminate this Agreement in the event of a breach by the other party, provided the breaching party is first given written notice of the breach. If the breach is not cured within thirty days of such notice, the Agreement will terminate immediately.",
+                "explanation": "The original requires a 'material' breach, and ten days to cure. The modified does not require a material breach and gives thirty days to cure. This conflicts with the original text, and creates ambiguity as to what constitutes a 'breach'.",
+                "location": "6.b"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "All trademarks, including service marks, trade names and trade address that Erchonia uses in connection with the license granted hereunder (the “Trademarks”) are and remain the exclusive property of Erchonia. Nothing contained in this Agreement shall be deemed to give Distributor any right, title or interest in any Trademark. The Trademarks include but are not limited to: the names “Erchonia”, “Erchonia Medical”, the phrase “Erchonia, Designs Into the Future”, the Erchonia logo, packaging design, and Product design.",
+                "changed_text": "All trademarks, including service marks, trade names and trade address that Erchonia uses in connection with the license granted hereunder (the “Trademarks”) are and remain the exclusive property of Erchonia, unless otherwise agreed upon in writing. Nothing contained in this Agreement shall be deemed to give Distributor any right, title or interest in any Trademark. The Trademarks include but are not limited to: the names “Erchonia”, “Erchonia Medical”, the phrase “Erchonia, Designs Into the Future”, the Erchonia logo, packaging design, and Product design.",
+                "explanation": "The original states that all trademarks remain the exclusive property of Erchonia. The modified text adds 'unless otherwise agreed upon in writing,' introducing uncertainty. In a subsequent clause, if Erchonia's trademarks are still said to be wholly owned by Erchonia, then it is directly conflicted by this earlier sentence.",
+                "location": "9.a"
+            }
+        ]
+    }
+]

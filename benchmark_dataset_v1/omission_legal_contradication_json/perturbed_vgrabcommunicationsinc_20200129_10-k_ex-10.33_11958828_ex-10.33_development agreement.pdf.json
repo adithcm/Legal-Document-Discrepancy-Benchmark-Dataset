@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "vgrabcommunicationsinc_20200129_10-k_ex-10.33_11958828_ex-10.33_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Being Developer of the project, Developer will be responsible and liable for the product’s business compliance with WeChat Mini Program and Payment guidelines.",
+                "changed_text": "Developer may assist in ensuring the product’s business compliance with WeChat Mini Program and Payment guidelines.",
+                "explanation": "By changing \"will be responsible and liable\" to \"may assist in ensuring,\" the contract removes the developer's mandatory responsibility for business compliance with WeChat guidelines. This omission introduces legal risk because in P.R.China, app developers often have legal responsibilities concerning compliance, especially with payment systems and data privacy regulations. Shifting the responsibility to assisting creates a legal ambiguity.",
+                "contradicted_law": "Various P.R.China laws and regulations regarding internet content, data privacy, and e-commerce compliance for WeChat mini-programs.",
+                "location": "6.5"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL.",
+                "changed_text": "Intellectual Property during the project is owned by VAL.",
+                "explanation": "By removing the clause about the developer turning over the intellectual property at the conclusion of the project, the contract omits a crucial element of IP transfer. In Hong Kong (governing law per clause 15), there are implied obligations to transfer IP rights generated under a development agreement. Removing this creates uncertainty and a potential legal dispute regarding the final ownership and rights to the developed application, and puts VAL at risk.",
+                "contradicted_law": "Hong Kong's laws relating to Intellectual Property Rights and implied contracts.",
+                "location": "11.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to the binding laws of Hong Kong as a first attempt at formal resolution. Should arbitration fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted within the binding laws of Hong Kong.",
+                "changed_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to a formal resolution.",
+                "explanation": "By removing the statement that the resolution would be conducted within the binding laws of Hong Kong, the contract creates a loophole regarding the legal jurisdiction and framework for resolving disputes. This weakens the enforceability of the contract, and exposes the client to unknown legal risks.",
+                "contradicted_law": "Hong Kong's Arbitration Ordinance and Civil Procedure Rules regarding jurisdiction and enforcement of agreements.",
+                "location": "15"
+            }
+        ]
+    }
+]

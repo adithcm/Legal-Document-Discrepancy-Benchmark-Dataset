@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "kitovpharmaltd_20190326_20-f_ex-4.15_11584449_ex-4.15_manufacturing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.11 “Delivery” shall mean the time when the Product is placed at the disposal of Kitov at Dexcel’s Facility based on an **** (Incoterms® 2010).",
+                "changed_text": "1.11 “Delivery” shall mean the time when the Product is placed at the disposal of Kitov at Dexcel’s Facility based on an **** (Incoterms® 2010).\n\n“Delivery Point” shall mean the time when the Product is available for pickup by Kitov’s designated carrier.",
+                "explanation": "The introduction of 'Delivery Point' as a synonym for 'Delivery' creates confusion. The original definition of Delivery aligns with the standard Incoterms, implying a specific transfer of responsibility. The added definition introduces uncertainty about the exact location and responsibilities, potentially leading to disputes over loss or damage of the product during transport.",
+                "location": "Section 1.11"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Kitov shall be responsible (itself or through its Affiliates and Distributors) for all costs related to the maintenance of or changes to the Specifications, materials, suppliers of the API and/or other materials used for the manufacture or Packaging of the Product, regulatory dossiers, and/or the Marketing Authorizations for the Product. Dexcel shall provide any and all reasonable assistance to Kitov in this respect during the Term.",
+                "changed_text": "Kitov shall be responsible (itself or through its Affiliates and Distributors) for all costs related to the maintenance of or changes to the Specifications, materials, vendors of the API and/or other materials used for the manufacture or Packaging of the Product, regulatory dossiers, and/or the Marketing Authorizations for the Product. Dexcel shall provide any and all reasonable assistance to Kitov in this respect during the Term.",
+                "explanation": "By replacing 'suppliers' with 'vendors' within the same clause, it introduces ambiguity. While often used interchangeably, in a manufacturing context, 'suppliers' usually refers to those providing raw materials, while 'vendors' can be a broader term including service providers. This could create confusion on who bears the cost when dealing with different types of providers.",
+                "location": "Section 2.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4.5 Kitov shall be responsible for bearing the cost and expenses of any recall resulting from any of the following: (i) damage to the Products which occurred after Delivery of the Products from Dexcel; (ii) any failure of the Livery for the Product to comply with local laws or regulations in the relevant Territory; or (iii) any other action or non-action of Kitov or a Distributor as promoter, marketer, distributor and seller of the Product in the Territory.\n4.6 Dexcel shall be responsible for bearing the cost and expenses of any recall resulting from: (i) Dexcel’s acts or omissions as manufacturer of the Product, or (ii) the Product supplied by Dexcel not being in conformity with the Specifications at Delivery.",
+                "changed_text": "4.5 Kitov shall be responsible for bearing the cost and expenses of any recall resulting from any of the following: (i) damage to the Products which occurred after Delivery of the Products from Dexcel; (ii) any failure of the Livery for the Product to comply with local laws or regulations in the relevant Territory; or (iii) any other action or non-action of Kitov or a Distributor as promoter, marketer, distributor and seller of the Product in the Territory.\n4.6 Dexcel shall be responsible for bearing the cost and expenses of any recall resulting from: (i) Dexcel’s acts or omissions as manufacturer of the Product, or (ii) the Product supplied by Dexcel not being in conformity with the Specifications at Shipment.",
+                "explanation": "By changing 'Delivery' to 'Shipment' in section 4.6, the contract introduces conflicting responsibilities. 'Delivery' implies transfer of ownership and risk, while 'Shipment' only refers to the act of dispatching goods. This is problematic because it's now unclear at which point Dexcel's financial responsibility ends for recalls related to non-conforming products, leading to potential disputes.",
+                "location": "Sections 4.5 and 4.6"
+            }
+        ]
+    }
+]

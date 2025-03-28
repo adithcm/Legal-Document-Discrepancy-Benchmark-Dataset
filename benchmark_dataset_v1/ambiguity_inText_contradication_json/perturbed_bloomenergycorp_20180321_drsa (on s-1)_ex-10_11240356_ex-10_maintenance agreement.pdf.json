@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "bloomenergycorp_20180321_drsa (on s-1)_ex-10_11240356_ex-10_maintenance agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "“Efficiency” means the quotient of E/F, where E = the electricity produced by the Portfolio, measured in BTUs (British Thermal Units) at a conversion rate of 3,412 BTUs per kWh, and F = the fuel consumed by the Portfolio, measured in BTUs on a Lower Heating Value basis.",
+                "changed_text": "“Efficiency” means the quotient of E/F, where E = the electricity produced by the Portfolio, measured in BTUs (British Thermal Units) at a conversion rate of 3,412 BTUs per kWh, and F = the fuel consumed by the Portfolio, measured in BTUs on a Higher Heating Value basis.",
+                "explanation": "The original definition of 'Efficiency' uses the Lower Heating Value (LHV) for fuel consumption. This change modifies it to use the Higher Heating Value (HHV). Since HHV is always greater than LHV for the same fuel, this will result in a lower 'Efficiency' quotient. This creates a conflict because other sections of the contract rely on the 'Efficiency' definition to calculate warranty claims and performance standards. If the 'Efficiency' is calculated differently in different sections, it would lead to disputes over whether the system is performing as agreed.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Operator shall ensure that all operations and maintenance functions contemplated by this Section are performed by technically competent and qualified personnel (the “Service Technicians”). Operator shall ensure that all Service Technicians: (i) participate in a maintenance training program and receive confirmation of having achieved the requisite level of proficiency for the tasks they are assigned to perform, and (ii) attend periodic “refresher” training programs.",
+                "changed_text": "Operator shall ensure that all operations and maintenance functions contemplated by this Section are performed by personnel (the “Service Technicians”). Operator is not obligated to ensure Service Technicians: (i) participate in a maintenance training program, nor (ii) attend periodic “refresher” training programs.",
+                "explanation": "The original text mandates training and refresher programs for Service Technicians to ensure competency. The modified text explicitly removes this obligation. This creates a contradiction: one part of the contract implies skilled technicians are required, while another waives the requirement for training. This ambiguity will affect liability and performance standards, especially if failures occur due to untrained personnel.",
+                "location": "Section 2.2(c)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Operator shall be responsible, at its sole cost and expense, for maintaining and complying with all Permits required to perform the Facility Services under this Agreement.",
+                "changed_text": "Owner shall cooperate with Operator in maintaining and complying with all Permits required to perform the Facility Services under this Agreement.",
+                "explanation": "The original definition makes the Operator solely responsible for maintaining and complying with all required permits. However, this perturbation now passes the responsibility to the Owner through cooperation. This causes an ambiguity because one portion states it's the Operator's sole responsibility and the other portion transfers responsibility to Owner to cooperate with Operator, meaning that it is the Owner's responsibility to ensure compliance. This could lead to disputes about the scope of the Operator's responsibility and whether the Owner has adequately 'cooperated'.",
+                "location": "Section 2.14(a)"
+            }
+        ]
+    }
+]

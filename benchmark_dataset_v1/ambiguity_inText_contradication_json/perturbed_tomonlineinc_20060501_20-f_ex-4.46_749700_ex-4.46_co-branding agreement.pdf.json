@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "tomonlineinc_20060501_20-f_ex-4.46_749700_ex-4.46_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.2 “Affiliate” means in relation to any Person, any Subsidiary or Holding Company, and any company in which such Person or any such Holding Company holds or Controls directly or indirectly not less than 30% of the issued share capital.",
+                "changed_text": "1.2 “Affiliate” means in relation to any Person, any Subsidiary or Holding Company. For the avoidance of doubt, a company is only considered an affiliate if such Person or any such Holding Company holds or Controls directly not less than 50% of the issued share capital.",
+                "explanation": "This changes the definition of affiliate from 30% to 50% ownership creating a contradiction with the original definition and future definition in this document. This can affect the financial implications when calculating revenue as revenue will be shared with affiliates.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.12 “Control” means, with respect to any Person, the possession, directly or indirectly, of the affirmative power to direct or cause the direction of the management and policies of such Person, whether through the ownership of securities, partnership interests or other ownership interests, by contract, by membership or involvement in the board of directors or other management structure of such Person, or otherwise. For purposes hereof, the holding, directly or indirectly, of 30% or more of the issued share capital of a Person shall be deemed the Control of such Person.",
+                "changed_text": "1.12 “Control” means, with respect to any Person, the possession, directly or indirectly, of the affirmative power to direct or cause the direction of the management and policies of such Person, whether through the ownership of securities, partnership interests or other ownership interests, by contract, by membership or involvement in the board of directors or other management structure of such Person, or otherwise. For purposes hereof, the holding, directly or indirectly, of 50% or more of the issued share capital of a Person shall be deemed the Control of such Person.",
+                "explanation": "This modifies the definition of 'Control' from 30% to 50% ownership. This contradicts the initial definition in Section 1.2 and any clause referencing control. This change impacts rights and obligations tied to entities under 'Control'.",
+                "location": "Section 1.12"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.2 “Affiliate” means in relation to any Person, any Subsidiary or Holding Company, and any company in which such Person or any such Holding Company holds or Controls directly or indirectly not less than 30% of the issued share capital.",
+                "changed_text": "1.2 “Affiliate” means in relation to any Person, any Subsidiary or Holding Company, and any company in which such Person or any such Holding Company holds or Controls directly or indirectly not less than 20% of the issued share capital.",
+                "explanation": "Reverts the definition of affiliate back to 20% ownership creating a contradiction with the 50% value now defined in the previous steps. This creates confusion to who and who isn't considered an affiliate.",
+                "location": "Section 1.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "iminecorp_20180725_s-1_ex-10.5_11275970_ex-10.5_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.7 “Products” shall mean the products offered by JRVS for sale to the Distributor; the Products shall include iMine cryptocurrency mining rigs and its parts and components.",
+                "changed_text": "1.7 “Products” shall mean the products offered by JRVS for sale to the Distributor.",
+                "explanation": "By removing the specific mention of “iMine cryptocurrency mining rigs and its parts and components”, the definition of 'Products' becomes vague. Later sections referencing 'Products' will lack clarity as to whether they encompass only complete mining rigs or also individual components, potentially leading to disputes regarding warranty, inventory, and sales obligations.",
+                "location": "Section 1.7"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS.\n10.2 Warranty Period. JRVS shall NOT provide a warranty of any kind for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor.",
+                "changed_text": "10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS.\n10.2 Warranty Period. JRVS shall provide a standard warranty for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor.",
+                "explanation": "By stating that JRVS provides a warranty and removing the section where they are excluded, it creates an internal contradiction to the section stating that they do not provide warranties. Which introduces uncertainty, suggesting that warranties are discretionary rather than definitive.",
+                "location": "Section 10.1 & 10.2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.9 Audits. JRVS shall be entitled at any time to audit the Distributor’s books and records upon reasonable notice in order to confirm the accuracy of the Reports set forth in Section 3.4; provided, that no more than one such audit may be conducted in any three-month period. Any JRVS-elected audit shall be performed at JRVS’s own expense during normal business hours; Distributor shall provide reasonable assistance to JRVS for the audit. Additionally, the Distributor shall provide JRVS with its audited financial statements within three (3) months of the end of its fiscal year.",
+                "changed_text": "3.9 Audits. JRVS shall be entitled at any time to audit the Distributor’s operations upon reasonable notice. Distributor shall provide assistance to JRVS for the audit. Additionally, the Distributor shall provide JRVS with its financial statements.",
+                "explanation": "Removing the reference to Section 3.4 creates a contradiction because the purpose of the audit is now undefined. The audit is no longer explicitly tied to confirming the accuracy of reports, leading to ambiguity about the scope and focus of the audit. Removing “audited” and “within three (3) months of the end of its fiscal year” creates ambiguity regarding the requirements for providing statements to JRVS.",
+                "location": "Section 3.9"
+            }
+        ]
+    }
+]

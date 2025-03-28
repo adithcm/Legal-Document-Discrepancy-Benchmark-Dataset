@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "steelvaultcorp_20081224_10-k_ex-10.16_3074935_ex-10.16_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Marketing Affiliate shall be responsible for collecting all amounts due directly from the Consumer and shall bear sole responsibility for non-payment of any fees charged to the Consumer. Marketing Affiliate shall pay to Equidata, as compensation for its providing of Services under this agreement, such amounts as outlined and detailed in Exhibit A attached hereto. Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in full by Marketing Affiliate 30 days from the invoice date.",
+                "changed_text": "Marketing Affiliate shall be responsible for collecting all amounts due directly from the Consumer and shall bear sole responsibility for non-payment of any fees charged to the Consumer. Equidata shall determine the compensation to be paid to them and will deduct this amount from the revenue collected by the Marketing Affiliate. Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in full by Marketing Affiliate 60 days from the invoice date.",
+                "explanation": "This changes the party responsible for determining compensation (Marketing Affiliate vs Equidata) and alters the due date (30 days vs 60 days). This creates contradiction regarding how and when Equidata will be compensated.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "In the case of disputed charge, defined as a non-payment of an invoice for which notice of dispute has been given in writing by Marketing Affiliate to Equidata, Equidata or Marketing Affiliate may choose arbitration and Marketing Affiliate and Equidata shall be obligated by the terms agreed upon by arbitration and all monies determined owed shall be considered due and payable immediately. Such arbitration does not relieve Marketing Affiliate from its obligation to promptly pay for undisputed charges in accordance with the terms of this Agreement. Such disputes shall be settled by arbitration in the City of Newport News, Virginia.",
+                "changed_text": "In the case of disputed charge, defined as any disagreement regarding the services provided, Equidata holds the sole right to decide whether to engage in arbitration. Should Equidata choose arbitration, Marketing Affiliate and Equidata shall be obligated by the terms agreed upon by arbitration and all monies determined owed shall be considered due and payable within 90 days. Such arbitration does not relieve Marketing Affiliate from its obligation to pay for undisputed charges as determined by Equidata. Such disputes shall be settled by arbitration in a location chosen by Equidata.",
+                "explanation": "This alters the definition of 'disputed charge' and gives Equidata unilateral control over arbitration and the location and conditions under it. The definition of 'disputed charge' becomes broader, giving Equidata more control. The payment timeline is also changed from 'immediately' to 'within 90 days', causing an inconsistency.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "This Agreement may be terminated by either party with cause upon thirty (30) days written notice. Upon Marketing Affiliate’s default in payment or other breach of this Agreement, Equidata may terminate this Agreement without notice to Marketing Affiliate. Upon termination for any reason, Equidata reserves the right to deactivate Marketing Affiliate’s access to the services including the Equidata Web Site. Termination does not release Marketing Affiliate from paying all amounts owed to Equidata.",
+                "changed_text": "This Agreement may be terminated by either party with cause upon thirty (30) days written notice. Equidata may terminate this agreement at any time without cause and without notice. Upon termination for any reason, Equidata reserves the right to deactivate Marketing Affiliate’s access to the services including the Equidata Web Site. Termination does release Marketing Affiliate from paying all amounts owed to Equidata at the discretion of Equidata.",
+                "explanation": "This change gives Equidata the power to terminate the agreement at any time without cause or notice. The original text also specifies that termination does not release Marketing Affiliate from payment, this has been modified to be at the discretion of Equidata.",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement and the attached Exhibits set forth the terms and conditions for Distributor's purchase of Hardware and license of Software, and redistribution of Products, during the term of this Agreement.",
+                "changed_text": "This Agreement and the attached Exhibits set forth the terms and conditions for Distributor's purchase of Hardware and license of Software, and redistribution of Items, during the term of this Agreement.",
+                "explanation": "The term 'Products' is a defined term meaning Hardware, licensed Software, Documentation, developed products, supplies, accessories, and goods. By changing 'Products' to 'Items' it is unclear what the Distributor can redistribute, as 'Items' is not a defined term. This causes uncertainty in enforcement.",
+                "location": "2.0 SCOPE."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "3.1 By this Agreement, Cisco makes, and Distributor accepts, the appointment of Distributor as an authorized, non-exclusive distributor of Products and Services to Resellers located in the Territory. Distributor agrees to use its best efforts to distribute Product solely to Resellers located in the Territory. Those Resellers may resell Product only to End Users who intend to use the Product in the Territory. All Resellers to which Distributor distributes Product must meet Cisco's then-current guidelines for Resellers, as amended from time to time.",
+                "changed_text": "3.1 By this Agreement, Cisco makes, and Distributor accepts, the appointment of Distributor as an authorized, non-exclusive distributor of Products and Services to Retailers located in the Territory. Distributor agrees to use its best efforts to distribute Product solely to Retailers located in the Territory. Those Retailers may resell Product only to End Users who intend to use the Product in the Territory. All Retailers to which Distributor distributes Product must meet Cisco's then-current guidelines for Resellers, as amended from time to time.",
+                "explanation": "The contract defines 'Reseller' as a specific type of authorized reseller that meets Cisco's requirements. By replacing 'Resellers' with 'Retailers', and not defining Retailers, there is a contradiction as to who Distributor can sell to, making enforcement uncertain.",
+                "location": "3.0 APPOINTMENT OF DISTRIBUTOR."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5.1 Scheduled shipping dates will be assigned by Cisco as close as practicable to the Distributor's requested date based on Cisco's then-current lead times for the Products. Cisco will communicate scheduled shipping dates in the order acknowledgement or on Cisco.com. Cisco will ship Product in compliance with Distributor Freight Policy set forth in Exhibit D. If no guidance is contained on Exhibit D for any particular shipment, Cisco shall select the carrier.",
+                "changed_text": "5.1 Scheduled shipping dates will be assigned by Cisco as close as practicable to the Distributor's requested date based on Cisco's then-current lead times for the Products. Cisco will communicate scheduled shipping dates in the order acknowledgement or on Cisco.com. Cisco will ship goods in compliance with Distributor Freight Policy set forth in Exhibit D. If no guidance is contained on Exhibit D for any particular shipment, Cisco shall select the carrier.",
+                "explanation": "The terms 'Product' and 'goods' are used interchangeably when only 'Product' is a defined term. It is unclear if these mean the same thing, which creates uncertainty about what shipping guidelines should be followed.",
+                "location": "5.0 SHIPPING AND DELIVERY"
+            }
+        ]
+    }
+]

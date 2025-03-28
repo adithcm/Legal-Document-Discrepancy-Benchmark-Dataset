@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "xpresspagroupinc_20190401_10-k_ex-10.28_11599457_ex-10.28_marketing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8.01. XSPA shall pay to Calm on a monthly basis an amount equal to (i) fifty percent (50%) of the Retail Price for all Products sold in the\nStores in the Territory during the applicable month minus (ii) fifty percent (50%) of any commission actually paid or payable to XSPA employee(s)\nor contractor(s) attributable to sales of such Products during such month; provided that in no event shall such commission be greater than fifteen\npercent (15%) of the Retail Price for the applicable Product.",
+                "changed_text": "8.01. XSPA shall pay to Calm on a monthly basis an amount equal to (i) fifty percent (50%) of the Retail Price for all Products sold in the\nStores in the Territory during the applicable month minus (ii) fifty percent (50%) of any commission actually paid or payable to XSPA employee(s)\nor contractor(s) attributable to sales of such Products during such month; provided that in no event shall such commission be less than twenty\npercent (20%) of the Retail Price for the applicable Product.",
+                "explanation": "Conflicting language regarding the maximum commission rate. The original text sets a maximum of 15%, while the altered text sets a minimum of 20%, creating a clear contradiction.  This introduces ambiguity regarding the commission percentage affecting payments.",
+                "location": "Section 8.01"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10.06. EXCEPT WITH RESPECT TO EACH PARTY’S INDEMNIFICATION OBLIGATIONS UNDER THIS AGREEMENT, (A) UNDER NO\nCIRCUMSTANCE AND UNDER NO LEGAL THEORY (TORT, CONTRACT, OR OTHERWISE), SHALL EITHER PARTY BE LIABLE TO THE\nOTHER PARTY FOR ANY LOST PROFITS, LOSS OF OPPORTUNITY OR OTHER SPECIAL, PUNITIVE, INDIRECT, OR CONSEQUENTIAL\nDAMAGES SUFFERED BY THE OTHER PARTY ARISING IN CONNECTION WITH THIS AGREEMENT; AND (B) THE MAXIMUM LIABILITY\nOF EACH PARTY IN ANY WAY RELATED TO THIS AGREEMENT SHALL NOT EXCEED $2,000,000.00 (EXCLUDING ANY AMOUNTS DUE AND\nPAYABLE PURSUANT TO SECTION ​8 HEREUNDER).",
+                "changed_text": "10.06. EXCEPT WITH RESPECT TO EACH PARTY’S INDEMNIFICATION OBLIGATIONS UNDER THIS AGREEMENT, (A) UNDER NO\nCIRCUMSTANCE AND UNDER NO LEGAL THEORY (TORT, CONTRACT, OR OTHERWISE), SHALL EITHER PARTY BE LIABLE TO THE\nOTHER PARTY FOR ANY LOST PROFITS, LOSS OF OPPORTUNITY OR OTHER SPECIAL, PUNITIVE, INDIRECT, OR CONSEQUENTIAL\nDAMAGES SUFFERED BY THE OTHER PARTY ARISING IN CONNECTION WITH THIS AGREEMENT; AND (B) THE MAXIMUM LIABILITY\nOF EACH PARTY IN ANY WAY RELATED TO THIS AGREEMENT SHALL NOT EXCEED $1,000,000.00 (EXCLUDING ANY AMOUNTS DUE AND\nPAYABLE PURSUANT TO SECTION ​8 HEREUNDER).",
+                "explanation": "By reducing the liability cap from $2,000,000 to $1,000,000. This creates uncertainty about the intended liability limit, creating risk.",
+                "location": "Section 10.06"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "16.05. Neither Party shall assign or transfer this Agreement or its rights hereunder without first obtaining the consent of the other, in\nwriting, which consent shall not unreasonably be withheld or delayed. Subject to the foregoing, this Agreement shall be binding upon and inure to\nthe benefit of the Parties hereto and their respective permitted successors and assigns; provided, however, Calm may, without the prior written\nconsent of XSPA, assign or otherwise transfer its rights and obligations to an affiliate of Calm or the acquirer of all or substantially all of the assets\nof Calm; provided, however, that the prior written consent of XSPA shall be required in connection with the assignment to an acquirer of all or\nsubstantially all of the assets of Calm if such acquirer’s primary business is an airport-based provider of spa services.",
+                "changed_text": "16.05. Neither Party shall assign or transfer this Agreement or its rights hereunder without first obtaining the consent of the other, in\nwriting, which consent shall be granted at the sole discretion of the assigning party. Subject to the foregoing, this Agreement shall be binding upon and inure to\nthe benefit of the Parties hereto and their respective permitted successors and assigns; provided, however, Calm may, without the prior written\nconsent of XSPA, assign or otherwise transfer its rights and obligations to an affiliate of Calm or the acquirer of all or substantially all of the assets\nof Calm; provided, however, that the prior written consent of XSPA shall be required in connection with the assignment to an acquirer of all or\nsubstantially all of the assets of Calm if such acquirer’s primary business is an airport-based provider of spa services.",
+                "explanation": "Changing \"consent shall not unreasonably be withheld or delayed\" to \"consent shall be granted at the sole discretion of the assigning party\" creates a direct contradiction. The initial phrase imposes a reasonableness standard on consent, whereas the new phrase gives absolute discretion to the assigning party, which conflicts with the original constraint. This uncertainty now enables arbitrary assignment denials.",
+                "location": "Section 16.05"
+            }
+        ]
+    }
+]

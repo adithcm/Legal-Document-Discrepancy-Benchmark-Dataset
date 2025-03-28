@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "soupmaninc_20150814_8-k_ex-10.1_9230148_ex-10.1_franchise agreement3.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Master Franchise Agreement requires non-binding mediation. The mediation will occur in New York with the costs being borne by equally by the parties. Prospective franchisees are encouraged to consult private legal counsel to determine the applicability of California and federal laws (such as Business and Professions Code Section 20040.5 and Code of Civil Procedure Section 1281) to any provisions of a franchise agreement restricting venue to a forum outside the State of California.",
+                "changed_text": "The Master Franchise Agreement requires non-binding mediation. The mediation will occur in New York with the costs being borne equally by the parties. In cases where the franchisee is located outside of New York, the mediation can occur via teleconference, with the franchisor covering the cost of the teleconference. Prospective franchisees are encouraged to consult private legal counsel to determine the applicability of California and federal laws (such as Business and Professions Code Section 20040.5 and Code of Civil Procedure Section 1281) to any provisions of a franchise agreement restricting venue to a forum outside the State of California.",
+                "explanation": "The original text states costs are borne equally. The modified text creates an exception where the franchisor covers teleconference costs when the franchisee is outside New York. This introduces ambiguity: Does 'costs' include travel? If so, who bears those costs? This creates an in-text contradiction and uncertainty about cost allocation.",
+                "location": "6"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "You must sign a general release if you renew or transfer your franchise. California Corporation Code 31512 voids a waiver of your rights under the Franchise Investment Law (California Corporations Code 31000 through 31516). Business and Professions Code 20010 voids a waiver of your rights under the Franchise Relations Act (Business and Professions Code 20000 through 20043).",
+                "changed_text": "You must sign a general release if you renew or transfer your franchise. While California Corporation Code 31512 may void a waiver of your rights under the Franchise Investment Law (California Corporations Code 31000 through 31516), this release shall be considered valid and enforceable in all other jurisdictions. Business and Professions Code 20010 voids a waiver of your rights under the Franchise Relations Act (Business and Professions Code 20000 through 20043).",
+                "explanation": "The original text clearly states that waivers are void under California law. The modified text asserts the release is valid in other jurisdictions despite the California law, creating a contradiction about the enforceability of the release. This raises the question of which jurisdiction's law prevails and adds uncertainty. Is the general release enforceable or not?",
+                "location": "8"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Master Franchise Agreement contains a liquidated damages clause. Under California Civil Code Section 1671, certain liquidated damages clauses are unenforceable.",
+                "changed_text": "The Master Franchise Agreement contains a liquidated damages clause. Under California Civil Code Section 1671, certain liquidated damages clauses may be unenforceable. However, the parties agree that the liquidated damages clause outlined in this agreement is a reasonable pre-estimate of actual damages and is therefore fully enforceable, regardless of any conflicting interpretations under California law.",
+                "explanation": "The original text acknowledges potential unenforceability under California law. The changed text then asserts the enforceability of the specific clause in the agreement, effectively contradicting the initial statement about California law. The question arises: Is the liquidated damages clause enforceable in California or not? This direct contradiction creates uncertainty.",
+                "location": "10"
+            }
+        ]
+    }
+]

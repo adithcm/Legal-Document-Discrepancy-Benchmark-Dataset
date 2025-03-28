@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ebixinc_20010515_10-q_ex-10.3_4049767_ex-10.3_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "      \"ABOUT WRAPPER\" means a navigation bar designed by About, in its sole\n      discretion, and approved by ebix, that may, as determined by About,\n      contain the About Look and Feel, the About Marks, and standard About\n      header, footer, tabs, navigational elements, copyright notice and other\n      attributes set forth in EXHIBIT A that reflect the then current design of\n      the About Guide Sites.",
+                "changed_text": "      \"ABOUT WRAPPER\" means a navigation bar designed by About, in its sole\n      discretion, that may, as determined by About,\n      contain the About Look and Feel and the About Marks.",
+                "explanation": "By removing the reference to 'standard About header, footer, tabs, navigational elements, copyright notice and other attributes set forth in EXHIBIT A', and not removing it from sections 3.2 and 4.1, the definition of ABOUT WRAPPER becomes vague. If sections 3.2 and 4.1 reference EXHIBIT A, yet the definition above does not, an internal contradiction is created. This leads to uncertainty on what constitutes the \"About Wrapper\" and its components.",
+                "location": "Section 1 - DEFINITIONS"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.2   The Insurance Center shall be hosted solely by ebix and contained in an\nAbout Wrapper and ebix shall, during the Term, provide site maintenance services\nrelative to the Insurance Center substantially as provided for the ebix Site\nfrom time to time, subject to the uptime requirements as set forth in Section\n13.4  [TERMINATION AND SURVIVAL].",
+                "changed_text": "3.2   The Insurance Center shall be hosted solely by ebix and ebix shall, during the Term, provide site maintenance services\nrelative to the Insurance Center substantially as provided for the ebix Site\nfrom time to time, subject to the uptime requirements as set forth in Section\n13.4  [TERMINATION AND SURVIVAL].",
+                "explanation": "By removing 'contained in an About Wrapper' from section 3.2, it now contradicts the definition of \"Insurance Center\" in section 1, as well as the altered definition of “About Wrapper”. The definition of the “Insurance Center” still states that (i) the About Marks and About Wrapper appear. Now, the removal from this section removes this requirement, creating internal inconsistency.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.1   Commencing on the Effective Date and continuing until March 15, 2001,\n      About shall deliver to ebix [**] Advertising Impressions in the form and\n      manner set forth on EXHIBIT G; About will not begin to deliver the\n      Impressions as set forth in Exhibit G until the Insurance Center is live\n      and fully functional.",
+                "changed_text": "4.1   Commencing on the Effective Date and continuing until March 15, 2001,\n      About shall deliver to ebix [**] Advertising Impressions. About will not begin to deliver the\n      Impressions until the Insurance Center is live\n      and fully functional.",
+                "explanation": "By removing 'in the form and manner set forth on EXHIBIT G', but continuing to mention the 'Impressions', creates ambiguity. Without EXHIBIT G, the form and manner of these advertising impressions are undefined, which creates contradictions with other clauses that may refer to specific attributes described in the exhibit. For example, if another section discusses the size or placement of these impressions based on EXHIBIT G, the lack of it will cause conflicts.",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]

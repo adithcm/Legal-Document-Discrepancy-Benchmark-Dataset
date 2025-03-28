@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "westpharmaceuticalservicesinc_20200116_8-k_ex-10.1_11947529_ex-10.1_supply agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Global Master Supply Agreement (\"Agreement\" or \"Contract\") is between ExxonMobil Chemical Company, a division of Exxon Mobil Corporation (\"Seller\"),on behalf of itself and in the interest of the ExxonMobil affiliates listed on Attachment B (each an \"ExxonMobil Selling Affiliate\" or \"EMCC/A\" or collectively, \"ExxonMobil Selling Affiliates\"), and West Pharmaceutical Services, Inc. (\"Buyer\"), on behalf of itself and the Buyer affiliates listed on Attachment C (each a \"Buyer Affiliate\" or “West/A\" or collectively, \"Buyer Affiliates\").",
+                "changed_text": "This Global Master Supply Agreement (\"Arrangement\" or \"Contract\") is between ExxonMobil Chemical Company, a division of Exxon Mobil Corporation (\"Supplier\"),on behalf of itself and in the interest of the ExxonMobil affiliates listed on Attachment B (each an \"ExxonMobil Selling Affiliate\" or \"EMCC/A\" or collectively, \"ExxonMobil Selling Affiliates\"), and West Pharmaceutical Services, Inc. (\"Client\"), on behalf of itself and the Buyer affiliates listed on Attachment C (each a \"Buyer Affiliate\" or “West/A\" or collectively, \"Buyer Affiliates\").",
+                "explanation": "The terms \"Agreement\" is changed to \"Arrangement\" and the terms \"Seller\" and \"Buyer\" are changed to \"Supplier\" and \"Client\" respectively. This creates confusion as these terms are used throughout the document, and this change is not consistently applied, creating uncertainty about their meaning.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Notwithstanding anything to the contrary in Attachments A, G or H, neither party can suspend its further performance, terminate this Agreement or require specific performance of the other party of this Agreement in whole or in part as a result of the other party’s material breach of the terms and conditions of this Agreement without first providing notice to such party in writing and thirty (30) days’ opportunity to cure the material breach (and then only if such party fails to cure such breach).",
+                "changed_text": "Notwithstanding anything to the contrary in Attachments A, G or H, neither party can suspend its further performance, terminate this Arrangement or require specific compliance of the other party of this Contract in whole or in part as a result of the other party’s material violation of the terms and conditions of this Contract without first providing notice to such party in writing and thirty (30) days’ opportunity to cure the material violation (and then only if such party fails to cure such violation).",
+                "explanation": "The terms 'Agreement' is now interchanged with \"Arrangement\" and \"Contract\"; terms 'breach' is interchanged with 'violation', and \"specific performance\" is interchanged with 'specific compliance' without clear definition, creating ambiguity and potential legal disputes over the interpretation of these key concepts.",
+                "location": "TERMINATION section"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Buyer/Buyer Affiliates shall pay ExxonMobil Selling Affiliates' invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "changed_text": "Client/Client Affiliates shall pay ExxonMobil Selling Affiliates' bill(s) not later than the days set forth in Attachment E hereto. All bills shall be paid in full by wire transfer in accordance with the bill's instructions.",
+                "explanation": "Interchanging invoice with bill and Buyer with Client can create a contradiction with in the rest of the contract where it uses invoice/Buyer. It also create ambiguity on what happens if Attachment E defines the time period for when the 'invoices' must be paid.",
+                "location": "PRICING Section"
+            }
+        ]
+    }
+]

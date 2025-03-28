@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ferroglobeplc_20150624_f-4a_ex-10.20_9154746_ex-10.20_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.1.4. EIT commits to assure a high availability (availability rate defined in Annex 2) and the proper performance (response time and no saturation) of the Network during working hours in South Africa (established in Annex 2).",
+                "changed_text": "3.1.4. EIT commits to assure a high availability and the proper performance of the Network during working hours in South Africa.",
+                "explanation": "The original text refers to 'availability rate defined in Annex 2' and 'working hours...established in Annex 2'. By removing this reference, the contract no longer provides specific metrics for 'high availability' or defines the specific working hours during which this availability is guaranteed. This creates ambiguity and makes it difficult to enforce the service level agreement, leading to a contradiction if other sections assume clear definitions are in place.",
+                "location": "3.1.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.2.1. EIT is in charge of the list of servers (hereinafter “Servers”) provided in Annex 3.",
+                "changed_text": "3.2.1. EIT is in charge of the servers.",
+                "explanation": "The original text states the list of servers is 'provided in Annex 3'. Removing this reference means there is no defined list of servers EIT is responsible for. This omission contradicts any clauses referring to specific server maintenance or performance obligations, as the 'Servers' are not clearly identified, causing uncertainty in enforcement. If another section requires EIT to maintain 'all servers,' this conflicts with the undefined server list.",
+                "location": "3.2.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "6.1. EIT commits to provide monthly measurements to analyse the service level defined in Annex 2.",
+                "changed_text": "6.1. EIT commits to provide measurements to analyse the service level.",
+                "explanation": "The original text commits EIT to provide monthly measurements relating to the service levels 'defined in Annex 2'. By removing the reference to Annex 2, the contract no longer specifies what service levels are being measured. This introduces an internal contradiction because without a specified measurement criteria (Annex 2), it is impossible to verify if EIT is fulfilling this obligation. This contradicts any clauses relying on quantitative analysis of service levels.",
+                "location": "6.1"
+            }
+        ]
+    }
+]

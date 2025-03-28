@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "webmdhealthcorp_20050908_s-1a_ex-10.7_1027007_ex-10.7_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WebMD agrees to grant, and Emdeon agrees to accept, a license to use the Content (as defined below) in connection with various software products it has all right title and interest to (the “Software”) in accordance with the terms of this Agreement. Content to be provided under this Agreement is specified on Exhibit A (the “Content”).",
+                "changed_text": "WebMD agrees to grant, and Emdeon agrees to accept, a license to use the Content (as defined below) in connection with various software products it has all right title and interest to (the “Software”). The Information to be provided under this Agreement is specified on Exhibit A (the “Content”).",
+                "explanation": "The terms \"Content\" and \"Information\" are used interchangeably, but without defining that they are the same. In the second sentence \"Information\" is used where previously \"Content\" was. This creates ambiguity as to whether Exhibit A specifies 'Content' or 'Information'.",
+                "location": "Beginning of the document, before Exhibit A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying the origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the foregoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.",
+                "changed_text": "Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying the origin of the Data during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the foregoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.",
+                "explanation": "The term 'Content' is replaced with 'Data' in the first sentence. This creates confusion as to whether 'Marks' are used to identify the origin of 'Content' or 'Data', since they were previously defined separately.",
+                "location": "Section 5(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the term of this Agreement and for a period of two (2) years after termination hereof, neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Confidential Information, except as expressly directed by such party or as permitted herein. The receiving party agrees to take reasonable precautions (no less rigorous than the receiving party takes with respect to its own comparable Confidential Information and Trade Secrets) to prevent unauthorized or inadvertent disclosure of the Confidential Information and Trade Secrets of the disclosing party.",
+                "changed_text": "During the term of this Agreement and for a period of two (2) years after termination hereof, neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Classified Material, except as expressly directed by such party or as permitted herein. The receiving party agrees to take reasonable precautions (no less rigorous than the receiving party takes with respect to its own comparable Confidential Information and Trade Secrets) to prevent unauthorized or inadvertent disclosure of the Confidential Information and Trade Secrets of the disclosing party.",
+                "explanation": "The phrase 'Confidential Information' is replaced with the phrase 'Classified Material' within the section, creating a contradiction since the definition of Confidential Information is laid out earlier in the document, and Classified Material is not defined.",
+                "location": "Section 6(c)"
+            }
+        ]
+    }
+]

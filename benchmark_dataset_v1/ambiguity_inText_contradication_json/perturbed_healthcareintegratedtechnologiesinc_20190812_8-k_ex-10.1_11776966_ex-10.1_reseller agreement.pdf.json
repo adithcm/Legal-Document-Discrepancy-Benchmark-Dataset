@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "healthcareintegratedtechnologiesinc_20190812_8-k_ex-10.1_11776966_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "“Customer” means a third party who purchases the Products from Reseller within the Territory, for its internal use only (including for the personal use of its End Users), such as nursing homes.",
+                "changed_text": "“Customer” means a third party who purchases the Products from Reseller within the Territory, for commercial purposes. The term specifically excludes nursing homes, assisted living facilities, and individual residential use.",
+                "explanation": "The original definition included 'nursing homes' as an example of a customer, suggesting they are within the scope of the definition. The modified definition explicitly excludes nursing homes and specifies 'commercial purposes,' creating a contradiction regarding whether sales to nursing homes are considered sales to 'Customers' under the agreement. This could affect revenue calculations and reseller obligations.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "“Products” means the products listed in Schedule 1.",
+                "changed_text": "“Products” means the Walabot HOME hardware device, as generally understood in the consumer electronics market, and any accessories explicitly approved in writing by the Supplier. Schedule 1 provides a non-exhaustive list of potential product offerings, but the Supplier reserves the right to modify this list without amending the contract.",
+                "explanation": "The original definition directly refers to Schedule 1, implying a fixed list of products. The modified definition introduces ambiguity by including a general definition of 'Walabot HOME hardware device' and stating that Schedule 1 is a 'non-exhaustive list,' potentially conflicting with other sections that might rely on a clear and unchanging product definition from Schedule 1. This could impact which products are covered under warranty or subject to minimum order quantities.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Obligations of Reseller\nBy fulfilling its obligations under this Agreement, the Reseller shall: (i) comply with all applicable laws and regulations; (ii) use materials and branding solely as determined by the Supplier (subject to the right of the Reseller to make changes to such materials as are described in Section 2.4); (iii) attend training and sales meetings as required by the Supplier, so as to be able to describe, demonstrate, and sell the Products adequately; (iv) make sure that all the End Users are signing the End User Agreement, and in the event that any End User does not comply with these terms, Reseller shall bear all liability associated with said End User; and (v) make no representations or warranties with respect to the Products other than those provided in the Products’ documentation;",
+                "changed_text": "Obligations of Reseller\nBy fulfilling its obligations under this Agreement, the Reseller shall: (i) comply with all applicable laws and regulations to the best of its ability; (ii) use materials and branding as generally determined by the Reseller with a good faith effort to align with Supplier's guidelines (subject to the right of the Reseller to make changes to such materials as are described in Section 2.4); (iii) attend training and sales meetings only if convenient, so as to be able to generally describe, demonstrate, and sell the Products; (iv) ensure a reasonable effort is made to get End Users to sign the End User Agreement, but the Reseller's liability for non-compliance is limited to cases of gross negligence; and (v) make representations or warranties with respect to the Products based on the Reseller's own experiences and observations, in addition to those provided in the Products’ documentation;",
+                "explanation": "The original clause presents strict obligations for the Reseller. The modified version weakens these obligations by adding qualifying phrases like 'to the best of its ability,' 'generally determined,' 'only if convenient,' 'reasonable effort,' and allowing representations beyond provided documentation. This creates a conflict between the expected performance level of the Reseller in different sections of the agreement, making it difficult to determine the Reseller's actual obligations and the consequences of non-compliance. If other sections refer to the 'obligations of the reseller' without the qualification added here, there will be ambiguity on which obligations the reseller is being held to.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

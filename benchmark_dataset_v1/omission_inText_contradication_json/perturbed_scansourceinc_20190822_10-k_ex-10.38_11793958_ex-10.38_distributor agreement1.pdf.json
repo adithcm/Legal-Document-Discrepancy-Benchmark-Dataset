@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.0 DEFINITIONS.\nAffiliate(s) are the entities listed on Exhibit E to this Agreement that are either business units of Distributor (and therefore wholly-owned and a part\nof Distributor) or are wholly-owned subsidiaries of Distributor, but in either case, only for so long as ownership remains as defined in this\nprovision.",
+                "changed_text": "1.0 DEFINITIONS.\nAffiliate(s) are entities that Distributor has a business relationship with.",
+                "explanation": "The original definition of Affiliate specified ownership requirements tied to Exhibit E. The modified definition is vague, removing the exhibit reference and ownership criteria. This creates uncertainty because the contract still refers to 'Affiliates' as having specific responsibilities, but the definition is now open to interpretation, making enforcement difficult, for instance, Section 2.",
+                "location": "Section 1.0"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.3 Distributor may defer Product shipment for up to [*****] from the original shipping date scheduled by Cisco, provided written or electronic\nnotice (issued, in either case, by an authorized representative of Distributor) is received by Cisco at least [*****] days before the originally\nscheduled shipping date. Cancelled Purchase Orders, rescheduled shipments or Product configuration changes requested by Distributor less than\n[*****] days before the original scheduled shipping date shall be subject to (a) acceptance by Cisco, and (b) a charge of [*****] of the total\ninvoice amount relating to the affected Products. Cisco reserves the right to reschedule shipment in cases of configuration changes requested by\nDistributor within [*****] days of scheduled shipment. No cancellation shall be accepted by Cisco where Products are purchased with\nimplementation Services, including design, customization or installation Services, except as may be set forth in the agreement or Statement of Work\nunder which the Services are to be rendered.",
+                "changed_text": "4.3 Distributor may defer Product shipment. Cisco reserves the right to reschedule shipment in cases of configuration changes requested by\nDistributor. No cancellation shall be accepted by Cisco where Products are purchased with\nimplementation Services, including design, customization or installation Services, except as may be set forth in the agreement or Statement of Work\nunder which the Services are to be rendered.",
+                "explanation": "The change removes specifics around deferral timeframes and associated penalties, which introduces vagueness. The contract still discusses rescheduling shipments due to configuration changes, but the precise rules for such rescheduling are now missing. Section 5.1 talks about shipping dates assigned by Cisco, but Distributor flexibility to alter it is removed.",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "17.2 Reporting. [*****]",
+                "changed_text": "17.2 Reporting. Distributor shall provide reports to Cisco.",
+                "explanation": "Removing the detailed reporting requirements and leaving a general statement introduces uncertainty. While Distributor is still obligated to provide reports, what those reports contain, how frequently they are submitted, and in what format are no longer defined. This contradicts the original intent of the section, referenced in sections 12.6 and 13.2, which was to ensure Cisco had accurate, timely data for inventory balance and obsolete product returns, respectively.",
+                "location": "Section 17.2"
+            }
+        ]
+    }
+]

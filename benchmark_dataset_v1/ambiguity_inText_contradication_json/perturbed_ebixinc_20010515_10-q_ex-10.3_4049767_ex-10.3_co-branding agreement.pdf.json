@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ebixinc_20010515_10-q_ex-10.3_4049767_ex-10.3_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The term of this Agreement shall commence as of the Effective Date and shall continue in full force and effect for a period of three (3) years, unless earlier terminated as provided herein (the \"Initial Term\"). Upon expiration of the Initial Term, this Agreement shall be automatically renewed for successive one (1) year periods (each a \"Renewal Term\"), unless either party gives written notice to the other of its intention not to renew this Agreement at least ninety (90) days prior to the expiration of the Initial Term or then current Renewal Term.",
+                "changed_text": "The term of this Agreement shall commence as of the Effective Date and shall continue in full force and effect for a period of three (3) years, unless earlier terminated as provided herein (the \"Initial Term\"). Upon expiration of the Initial Term, this Agreement shall be automatically renewed for successive one (1) year periods (each a \"Renewal Term\"), unless either party gives written notice to the other of its intention not to renew this Agreement at least thirty (30) days prior to the expiration of the Initial Term or then current Renewal Term.",
+                "explanation": "Changing the notice period from 90 days to 30 days creates a contradiction if another section relies on the 90-day notice.  This impacts the termination rights and renewal expectations of both parties, making enforcement uncertain if both sections are invoked.",
+                "location": "Section 2. Term and Termination"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Ebix shall have the sole right to determine, in its sole discretion, the content and format of the Ebix Website. Ebix shall use commercially reasonable efforts to maintain the Ebix Website in a manner consistent with industry standards.",
+                "changed_text": "Ebix shall have the sole right to determine, in its sole discretion, the content and format of the Ebix Website. Ebix shall use its best judgment to maintain the Ebix Website in a manner consistent with minimal operating standards.",
+                "explanation": "Replacing 'commercially reasonable efforts' with 'best judgment' and 'industry standards' with 'minimal operating standards' weakens Ebix's obligation. This contradiction arises if another section requires Ebix to maintain a high-quality website. The term 'best judgment' is also subjective, which will create potential conflicts about the quality of the website.",
+                "location": "Section 3.1 Ebix Responsibilities"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Each party shall be responsible for its own costs and expenses incurred in connection with the performance of this Agreement. Ebix will be responsible for paying the cost of any Marketing Materials that it develops.",
+                "changed_text": "Each party shall be responsible for its own costs and expenses incurred in connection with the performance of this Agreement. Each party will share the cost of any Marketing Materials that Ebix develops, with the amount determined by the CEO.",
+                "explanation": "The initial agreement stated Ebix would be responsible for all marketing material costs. Now, this change implies cost-sharing for these same materials, determined arbitrarily by the CEO. This contradicts the initial section. If another section discusses marketing material budget assuming Ebix pays, this adds to the contradiction.",
+                "location": "Section 5. Payment Terms"
+            }
+        ]
+    }
+]

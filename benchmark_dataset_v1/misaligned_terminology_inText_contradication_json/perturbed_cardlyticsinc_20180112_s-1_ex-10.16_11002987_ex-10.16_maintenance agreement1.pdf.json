@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (“Agreement”) is entered into as of the Effective Date by\nand between Bank of America, N.A. (“Bank of America”), a national banking association, and the above-named Supplier, a corporation, and\nconsists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are\nincorporated in full by this reference.",
+                "changed_text": "This SOFTWARE LICENSE, CUSTOMIZATION AND MAINTENANCE AGREEMENT (“Agreement”) is entered into as of the Effective Date by\nand between Bank of America, N.A. (“Bank of America”), a national banking association, and the above-named Vendor, a corporation, and\nconsists of this signature page and the attached Terms and Conditions, Schedules, and all other documents attached hereto, which are\nincorporated in full by this reference.",
+                "explanation": "The term \"Supplier\" has been changed to \"Vendor\" in the opening paragraph of the agreement. This introduces an internal contradiction as the document primarily uses \"Supplier\" throughout, and it is never clarified if \"Vendor\" and \"Supplier\" are interchangeable. This can create uncertainty regarding which entity is bound by which obligation.",
+                "location": "Page 1, Paragraph 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the Acceptance Period, Bank of America shall perform whatever acceptance tests on the Software it may wish to confirm that the\nSoftware is Operative. If Bank of America discovers during the Acceptance Period that any Software is not Operative, Bank of America shall\nnotify Supplier of the deficiencies. Supplier, at its own expense, shall modify, repair, adjust or replace the Software to make it Operative\nwithin fifteen (15) calendar days after the date of Bank of America’s deficiency notice. Bank of America may perform additional acceptance\ntests during a",
+                "changed_text": "During the Acceptance Period, Bank of America shall perform whatever acceptance tests on the Software it may wish to confirm that the\nSoftware is Operative. If Bank of America discovers during the Acceptance Period that any Software is not Operative, Bank of America shall\nnotify Provider of the deficiencies. Provider, at its own expense, shall modify, repair, adjust or replace the Software to make it Operative\nwithin fifteen (15) calendar days after the date of Bank of America’s deficiency notice. Bank of America may perform additional acceptance\ntests during a",
+                "explanation": "The term \"Supplier\" has been changed to \"Provider\" in section 10.1. This creates ambiguity and uncertainty as the document does not state if both terms are referring to the same entity. This may cause dispute over the responsibilities of each role.",
+                "location": "Page 11, Section 10.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The diagrams shall show the detail of the system architecture including, without limitation, the logical topology of routers,\nswitches, internet firewalls, management or monitoring firewalls, servers (web, application and database), intrusion detection\nsystems, network and platform redundancy. The diagrams shall include all hosting environments including those provided by\nSupplier’s Subcontractors.",
+                "changed_text": "The diagrams shall show the detail of the system architecture including, without limitation, the logical topology of routers,\nswitches, internet firewalls, management or monitoring firewalls, servers (web, application and database), intrusion detection\nsystems, network and platform redundancy. The diagrams shall include all hosting environments including those provided by\nVendor’s Third-Party Agents.",
+                "explanation": "Replacing \"Supplier's Subcontractors\" with \"Vendor's Third-Party Agents\" causes confusion. The document already defines 'Subcontractor,' and the use of a new term, 'Third-Party Agents,' without defining it or explicitly linking it to 'Subcontractors,' introduces ambiguity about the scope and responsibilities of these entities, especially with regard to security and access to confidential information.",
+                "location": "Page E-3, Section 1"
+            }
+        ]
+    }
+]

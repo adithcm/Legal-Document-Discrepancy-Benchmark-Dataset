@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "gopagecorp_20140221_10-k_ex-10.1_8432966_ex-10.1_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Throughout the Term, Licensee shall have in effect and maintain accessible on the Licensee Site and Related Media website terms of use (\"Terms of Use\") and privacy policy (“Privacy Policy”) on which use of the Licensee Site and Related Media, including the Licensed Content, is expressly conditioned, and which in form and substance are reasonably acceptable to Licensor.",
+                "changed_text": "Throughout the Term, Licensee shall have in effect and maintain accessible on the Licensee Site and Related Media website terms of use (\"Terms of Use\") on which use of the Licensee Site and Related Media, including the Licensed Content, is expressly conditioned.",
+                "explanation": "By removing the requirement for a privacy policy, the contract omits a legally mandated consumer protection, specifically related to data privacy. The Licensee is located in Washington, and according to state law, all commercial websites which collect the personal data of Washington residents are legally mandated to display a privacy policy regarding the handling of this data. This introduces legal risk, as the contract would now permit operation in violation of privacy laws.",
+                "contradicted_law": "Washington State Privacy Law (e.g., the Washington Privacy Act if enacted, or related consumer protection laws regarding data collection and usage).",
+                "location": "4.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "11.11 Governing Law; Submission to Jurisdiction. This Agreement shall be governed by and construed in accordance with the internal laws of the State of Nevada without giving effect to any choice or conflict of law provision or rule.",
+                "changed_text": "11.11 Governing Law; Submission to Jurisdiction. This Agreement shall be governed by and construed in accordance with the internal laws of the State of Nevada without giving effect to any choice or conflict of law provision or rule. There will be no class action lawsuits allowed.",
+                "explanation": "By adding the phrase \"There will be no class action lawsuits allowed,\" the contract introduces a clause that may be unenforceable and contradicts consumer protection laws. While Nevada law generally permits contractual waivers of class action rights, such waivers are often challenged and may be deemed unconscionable or against public policy, especially in consumer contracts where there is a significant power imbalance. This creates a legal risk because the enforceability of the waiver is uncertain and could be deemed illegal under certain circumstances, potentially invalidating that provision of the contract or even the entire agreement.",
+                "contradicted_law": "Consumer protection laws and legal precedents regarding the enforceability of class action waivers, particularly in contracts of adhesion. Also the seventh amendment in the US Constitution.",
+                "location": "11.11"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "11.13 Attorneys' Fees. In the event that any action, suit, or other legal or administrative proceeding is instituted or commenced by either party hereto against the other party arising out of this Agreement, the prevailing party shall be entitled to recover its reasonable attorneys' fees and court costs from the non-prevailing party.",
+                "changed_text": "11.13 Attorneys' Fees. In the event that any action, suit, or other legal or administrative proceeding is instituted or commenced by either party hereto against the other party arising out of this Agreement, the prevailing party shall be entitled to recover its reasonable attorneys' fees and court costs from the non-prevailing party, unless the non-prevailing party is a consumer.",
+                "explanation": "Adding \"unless the non-prevailing party is a consumer\" restricts a consumer's right to recover attorney's fees. This could be problematic under Washington's Consumer Protection Act (CPA), which allows consumers to recover attorney's fees if they prevail in a lawsuit based on unfair or deceptive acts. This modification places an additional burden on consumers and potentially discourages them from pursuing legitimate claims, creating a legal risk.",
+                "contradicted_law": "Washington's Consumer Protection Act (CPA) and related laws that allow consumers to recover attorney's fees in certain circumstances.",
+                "location": "11.13"
+            }
+        ]
+    }
+]

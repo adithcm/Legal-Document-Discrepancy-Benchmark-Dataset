@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "randworldwideinc_20010402_8-ka_ex-10.2_2102464_ex-10.2_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.7 \"Dassault Systemes\" shall mean the entity that is a party\nto this Agreement and each of its Affiliates.",
+                "changed_text": "1.7 \"Dassault Systemes\" shall mean the entity that is a party\nto this Agreement. Affiliates are explicitly excluded from this definition.",
+                "explanation": "The original definition includes affiliates of Dassault Systemes. The modified version excludes affiliates, creating a contradiction. This could lead to disputes over which entities are bound by obligations attributed to 'Dassault Systemes' within the agreement.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.28 \"Software Infrastructure\" means the software\nconfiguration and environment necessary to perform, supply and support the\nCo-Branded Service including any Third Party Software.",
+                "changed_text": "1.28 \"Software Infrastructure\" means the software\nconfiguration and environment necessary to perform, supply and support the\nCo-Branded Service, explicitly excluding any Third Party Software.",
+                "explanation": "The original definition includes Third Party Software. The modified version specifically excludes it. This could lead to disputes over the responsibilities and liabilities related to Third Party Software within the Co-Branded Service.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10.2 Breach. Either party may terminate this Agreement at any\ntime in the event that the other party is in default or breach of any material\nprovision of this Agreement, and such default or breach continues unremedied for\na period of sixty days after written notice thereof. In addition to the right to\nterminate this Agreement, the non-breaching party, shall have all rights and\nremedies available at law and in equity.",
+                "changed_text": "10.2 Breach. Either party may terminate this Agreement at any\ntime in the event that the other party is in default or breach of any material\nprovision of this Agreement, and such default or breach continues unremedied for\na period of sixty days after written notice thereof. In the event of termination the breaching party will not be liable for damages. In addition to the right to\nterminate this Agreement, the non-breaching party, shall have all rights and\nremedies available at law and in equity.",
+                "explanation": "The original clause says the non-breaching party has 'all rights and remedies at law and in equity'. The modified version adds a sentence suggesting the breaching party is not liable for damages, creating a direct contradiction about the available remedies. This introduces uncertainty in enforcement related to damages.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

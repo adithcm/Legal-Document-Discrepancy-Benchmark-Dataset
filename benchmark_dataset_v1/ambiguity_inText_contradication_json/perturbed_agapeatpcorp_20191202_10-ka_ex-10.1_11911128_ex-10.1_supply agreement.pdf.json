@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "agapeatpcorp_20191202_10-ka_ex-10.1_11911128_ex-10.1_supply agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.2\nTerm\nThis agreement is for a term of ten (10) years.",
+                "changed_text": "1.2\nTerm\nThis agreement is for an initial term of five (5) years.",
+                "explanation": "The contract now inconsistently defines the term length, initially as ten years and later implicitly as different, leading to ambiguity in enforcement.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "13.2\nThe Manufacturer grants exclusive rights to the Customer for the term of ten (10) years from the date of the signing of this agreement and\nfor an indefinite period upon the customer fulfilling the minimum annual purchase requirement as listed in Schedule B. of this agreement.",
+                "changed_text": "13.2\nThe Manufacturer grants exclusive rights to the Customer for an initial period of five (5) years from the date of the signing of this agreement and this will automatically extend to a ten (10) year period only if the customer exceeds twice the minimum annual purchase requirement as listed in Schedule B. of this agreement.",
+                "explanation": "While section 1.2 states that the agreement is for a term of 5 years, this section now changes the duration of the exclusive rights granted, creating a contradiction. If the customer purchase requirement is not double the quantity of Schedule B., the term is still 5 years. But section 1.2 only states 5 years to begin with.",
+                "location": "Section 13.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.3\nRejection of defective products\nThe Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product, provided that the Customer\nshall within seven (7) days after receipt of such alleged defective Product, notify the Manufacturer of its rejection and either:\n(i)\nrequest to destroy in field for credit of the value of the defective product and the associated shipping costs (with approval), or\n(ii)\nrequest a Return Material Authorization (“RMA”) number and within seven (7) days of receipt of the RMA number from the\nManufacturer return such rejected Product to the Manufacturer.\nProducts not rejected within the foregoing time periods shall be deemed accepted by the Customer.\nIn the event that the Manufacturer determines that the returned Product is defective and properly rejected by the Customer, the\nManufacturer shall credit to the Customer the value of the defective product and the associated shipping costs.",
+                "changed_text": "5.3\nRejection of defective products\nThe Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product, provided that the Customer\nshall within thirty (30) days after receipt of such alleged defective Product, notify the Manufacturer of its rejection and either:\n(i)\nrequest to destroy in field for credit of the value of the defective product and the associated shipping costs (with approval), or\n(ii)\nrequest a Return Material Authorization (“RMA”) number and within fifteen (15) days of receipt of the RMA number from the\nManufacturer return such rejected Product to the Manufacturer.\nProducts not rejected within the foregoing time periods shall be deemed accepted by the Customer.\nIn the event that the Manufacturer determines that the returned Product is defective and properly rejected by the Customer, the\nManufacturer shall credit to the Customer half the value of the defective product and none of the associated shipping costs.",
+                "explanation": "This change introduces multiple ambiguities regarding the timeline for rejection of defective products and the value to be credited. The original contract specifies seven days for notification and return, while the modified version extends the notification period to thirty days but keeps 7 days for return and changes the value of defective product. This introduces an uncertainty in enforcement as the time limits and the value for defective products now conflict.",
+                "location": "Section 5.3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "artaratherapeuticsinc_20200110_8-k_ex-10.5_11943350_ex-10.5_license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.22\n“Royalty” means the royalty on Net Sales of Product in the Indication, as set forth in Article Three below.",
+                "changed_text": "1.22\n“Royalty” means the compensation on Net Sales of Product in the Indication, as set forth in Article Three below.",
+                "explanation": "The original text defines 'Royalty,' but the modified text substitutes it with 'compensation.' While both are payments, 'royalty' typically implies a percentage of revenue, whereas 'compensation' is broader and could be interpreted as a fixed fee, leading to potential disputes over payment structure.",
+                "location": "Section 1.22"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "3.3 Royalties. Royalties will be payable by ArTara on Net Sales of Product in the Indication. ArTara will, no later than […***…] following the close\nof each calendar quarter, pay tiered Royalties based on annual Net Sales of Product in the Indication as set forth below:",
+                "changed_text": "3.3 Compensation. Remuneration will be payable by ArTara on Net Sales of Product in the Indication. ArTara will, no later than […***…] following the close\nof each calendar quarter, pay tiered Royalties based on annual Net Sales of Product in the Indication as set forth below:",
+                "explanation": "Using “Remuneration” and “Compensation” interchangeably and then referring back to “Royalties” creates confusion. It's unclear if “Remuneration” or “Compensation” is intended to be different than “Royalties”, potentially affecting payment amounts.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "6.3 Indemnification by ArTara. To the extent permitted by law, ArTara agrees to defend, indemnify and hold the University of Iowa Research\nFoundation, the University, the State of Iowa, the University’s Board of Regents, their respective affiliates, trustees, officers, directors, faculty,\nstaff, students, successors, assigns, independent contractors, agents and employees including but not limited to Principal Investigator\n(“University Indemnitees”), harmless from and against any and all liability, loss, expense, reasonable adjudicated attorneys’ fees, or claims for injury\nor damages arising out of the use of the Program Data by ArTara and its Affiliates and subcontractors including but not limited to the CRO\ninvolved in the Project, but only in proportion to and to the extent such liability, loss, expense, attorneys’ fees, or claims for injury or damages are\ncaused by or result from the negligent or acts or omissions of ArTara, its officers, agents, employees, subcontractors, the CRO or Affiliates.",
+                "changed_text": "6.3 Protection by ArTara. To the extent permitted by law, ArTara agrees to defend, indemnify and hold the University of Iowa Research\nFoundation, the University, the State of Iowa, the University’s Board of Regents, their respective affiliates, trustees, officers, directors, faculty,\nstaff, students, successors, assigns, independent contractors, agents and employees including but not limited to Principal Investigator\n(“University Indemnitees”), harmless from and against any and all liability, loss, expense, reasonable adjudicated attorneys’ fees, or claims for injury\nor damages arising out of the use of the Program Data by ArTara and its Affiliates and subcontractors including but not limited to the CRO\ninvolved in the Project, but only in proportion to and to the extent such liability, loss, expense, attorneys’ fees, or claims for injury or damages are\ncaused by or result from the intentional or acts or omissions of ArTara, its officers, agents, employees, subcontractors, the CRO or Affiliates.",
+                "explanation": "By changing “Indemnification” to “Protection” in the header and “negligent” to “intentional” changes the standard of care ArTara is held to for liability, while the body of the section still mentions indemnification, and creates an internal conflict. Indemnification typically covers negligence, while making it intentional creates a contradiction of standard of care to be protected against.",
+                "location": "Section 6.3"
+            }
+        ]
+    }
+]

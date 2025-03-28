@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "paperexchangecominc_20000322_s-1a_ex-10.4_5202103_ex-10.4_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.1. Affiliate shall mean, when used with reference to a party, any individual or entity directly or indirectly controlling, controlled by or under common control with such party. For purposes of this definition, \"control\" means the direct or indirect ownership of at least 50% of the outstanding voting securities of a party, or the right to control the policy decisions of such party.",
+                "changed_text": "1.1. Affiliate shall mean, when used with reference to a party, any individual or entity directly or indirectly controlling, controlled by or under common control with such party. For purposes of this definition, \"control\" means the direct ownership of at least 25% of the outstanding voting securities of a party.",
+                "explanation": "The definition of Affiliate is changed by reducing the ownership percentage required to qualify as 'control' from 50% to 25%. This introduces a contradiction because in Section 13.2, the threshold to transfer or assign this agreement requires substantially all stock or assets, implying a significantly higher level of control. If 'Affiliate' is later used in the context of assigning rights or responsibilities, it creates ambiguity as to whether a 25% owner can trigger assignment rights.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.22. PaperExchange Revenue shall mean the gross revenue received by PaperExchange from Transaction Fees less (a) credits for claims, allowances, retroactive price reductions or returned goods, and (b) sales, excise, use, value-added and other similar taxes (excluding income taxes) actually paid.",
+                "changed_text": "1.22. PaperExchange Revenue shall mean the gross revenue received by PaperExchange from Transaction Fees less (a) credits for claims, allowances, retroactive price reductions or returned goods, (b) sales, excise, use, value-added and other similar taxes (excluding income taxes) actually paid, and (c) any operational expenses.",
+                "explanation": "By adding 'any operational expenses' to the deduction from gross revenue, this contradicts the definition of 'Net Advertising Revenue' in Section 1.13 which does not include operational expenses as a deduction. This creates confusion about which expenses can be deducted when calculating revenue sharing amounts outlined in Section 7, potentially leading to financial disputes.",
+                "location": "Section 1.22"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8.2. Termination for Cause. Either party may terminate this Agreement immediately upon written notice to the other party in the event any material breach of a material term of this Agreement by such other party that remains uncured 30 days in the case of a breach of a payment obligation, or 45 days for all other breaches, after notice of such breach was received by such other party; provided, however that if such breach is not reasonably capable of cure within the applicable cure period, the breaching party shall have an additional 180 days to cure such breach so long as the cure is commenced within the applicable cure period and thereafter is diligently prosecuted to completion as soon as possible.",
+                "changed_text": "8.2. Termination for Cause. Either party may terminate this Agreement immediately upon written notice to the other party in the event any material breach of a material term of this Agreement by such other party that remains uncured 15 days in the case of a breach of a payment obligation, or 60 days for all other breaches, after notice of such breach was received by such other party; provided, however that if such breach is not reasonably capable of cure within the applicable cure period, the breaching party shall have an additional 90 days to cure such breach so long as the cure is commenced within the applicable cure period and thereafter is diligently prosecuted to completion as soon as possible.",
+                "explanation": "The change introduces different timeframes for curing breaches. The original text provided 30 days for payment obligations and 45 days for other breaches, with a potential 180-day extension for uncurable breaches. The modification shortens the payment breach cure period to 15 days and extends the other breaches to 60 days, with a smaller 90-day extension, creating uncertainty. This creates a conflict because some clauses in Section 7 related to payment terms have a specific notification timeframe, and shortening the cure time in Section 8.2 may conflict with those more specific provisions, causing ambiguity on how breaches are determined and what rights or obligations the parties have.",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]

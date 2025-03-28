@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "prudentialbancorpinc_20170606_8-k_ex-10.4_10474434_ex-10.4_endorsement agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Base Salary\" means the Employee's total base salary as of each January 1st exclusive of special payments such as bonuses or\ncommissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "changed_text": "\"Base Salary\" means the Employee's total base salary inclusive of special payments such as bonuses or commissions as of each January 1st, without accounting for salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "explanation": "This change introduces a contradiction in the definition of 'Base Salary'. The original definition excludes bonuses and commissions while including salary reductions. The modified definition includes bonuses and commissions and excludes salary reductions, leading to potential disputes over compensation calculations related to the agreement.",
+                "location": "Article I"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Employee will have the sole right to designate the beneficiary for the amount specified in Article IV of the death proceeds of the Policies. The\nEmployer will have and may exercise, except as limited hereinafter, all ownership rights in the Policies. The Employer will not take any action in\ndealing with the Insurer that would impair any right or interest of the Employee in the Policies. The Employer will have the right to borrow from the\nInsurer, and to secure that loan by the Policies an amount which together with the unpaid interest accrued thereon, will at no time exceed the lesser\nof (a) the Employer's Interest in the Policies and (b) the Loan Value of the Policies. During the Employee's life time \"The Employer's Interest In The\nPolicies\" will mean, at any time at which the value of such interest is to be determined under this Agreement, the Cash Value of the Policies at such\ntime, reduced by any then outstanding Policy Loan Balance with respect to any loans made or charged automatically against the Policies by the\nEmployer.",
+                "changed_text": "The Employee will have the right to designate the beneficiary for the amount specified in Article IV of the death proceeds of the Policies, unless the Employer deems it necessary to change the beneficiary. The\nEmployer will have and may exercise, all ownership rights in the Policies, without limitations. The Employer will have the right to borrow from the\nInsurer, and to secure that loan by the Policies an amount which together with the unpaid interest accrued thereon, will at no time exceed the total Cash Value of the policies. During the Employee's life time \"The Employer's Interest In The\nPolicies\" will mean, at any time at which the value of such interest is to be determined under this Agreement, the Cash Value of the Policies at such\ntime, without accounting for any outstanding Policy Loan Balance.",
+                "explanation": "This change introduces conflicts regarding ownership rights. The original text grants the employee sole beneficiary designation rights, limited by Article IV, and restricts the Employer's actions that could impair the Employee's rights and sets limitations on borrowing. The modification gives the Employer the ability to override the beneficiary designation and removes limitations on ownership, and also indicates that loans should not be accounted for, creating a conflict with later statements in the same paragraph about how the Employer's interest is to be determined. The right to borrow is changed to the total cash value instead of the lesser of the employers interest, meaning that the Employer could take loans that would interfere with the benefits, against the original promise.",
+                "location": "Article III"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "This Agreement may be altered, amended or modified, including the addition of any extra policy provisions, by a written instrument signed by the\nEmployer and the Employee. Either party may, subject to the limitations of Article IV, assign its interest and obligations under this Agreement,\nprovided, however, that any assignment will be subject to the terms of this Agreement.",
+                "changed_text": "This Agreement may be altered, amended or modified solely at the discretion of the Employer, without requiring the Employee's consent. The Employer may assign its interest and obligations under this Agreement to any third party, without any restrictions.",
+                "explanation": "This alteration significantly shifts the power to the Employer. Originally, changes required mutual agreement. Now, the Employer can unilaterally alter the agreement. This also impacts assignment rights, removing any limitations on the Employer's ability to assign the agreement to another party, effectively nullifying the Employee's input and creating uncertainty about their rights.",
+                "location": "Article X"
+            }
+        ]
+    }
+]

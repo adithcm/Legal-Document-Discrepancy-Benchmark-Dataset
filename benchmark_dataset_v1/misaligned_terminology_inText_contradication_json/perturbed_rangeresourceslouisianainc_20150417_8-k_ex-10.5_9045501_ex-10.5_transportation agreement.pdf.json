@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "rangeresourceslouisianainc_20150417_8-k_ex-10.5_9045501_ex-10.5_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Transportation Services Agreement (this “Agreement”) is made and entered into this 14th day of April, 2015 (the “Effective Date”), by\nand between PennTex North Louisiana Operating, LLC, a Delaware limited liability company (“Carrier”), and MRD Operating LLC, a Delaware\nlimited liability company (“Shipper”). Shipper and Carrier may be referred to individually as a “Party,” or collectively as the “Parties.”",
+                "changed_text": "This Transportation Services Agreement (this “Agreement”) is made and entered into this 14th day of April, 2015 (the “Effective Date”), by\nand between PennTex North Louisiana Operating, LLC, a Delaware limited liability company (“Transporter”), and MRD Operating LLC, a Delaware\nlimited liability company (“Customer”). Shipper and Carrier may be referred to individually as a “Party,” or collectively as the “Parties.”",
+                "explanation": "Changing 'Carrier' to 'Transporter' and 'Shipper' to 'Customer' in the preamble creates confusion as to which entity is bound by the obligations defined later in the document that still use the original terms, but there is no definition for 'Transporter' or 'Customer.'",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "“Shipper Product” shall mean Product that is attributable to Gas that is delivered by Customer or its designee to, and processed at, a Plant.",
+                "changed_text": "“Shipper Goods” shall mean Commodity that is attributable to Gas that is delivered by Client or its designee to, and processed at, a Facility.",
+                "explanation": "Changing 'Shipper Product' to 'Shipper Goods,' 'Product' to 'Commodity,' 'Customer' to 'Client,' and 'Plant' to 'Facility' creates confusion. 'Shipper Product' is already defined, introducing other terms without defining what they are creates ambiguity.",
+                "location": "Article 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In the event of any other proceedings challenging any of the terms of this Agreement being commenced by a third party or by the\nFERC itself, Shipper agrees to provide all reasonable support and cooperation in defending such terms or otherwise resolving the complaint or\nother challenge as shall be reasonably requested by Carrier.",
+                "changed_text": "In the event of any other proceedings challenging any of the terms of this Agreement being commenced by a third party or by the\nFERC itself, Client agrees to provide all reasonable support and cooperation in defending such terms or otherwise resolving the complaint or\nother challenge as shall be reasonably requested by Transporter.",
+                "explanation": "Changing 'Shipper' to 'Client' and 'Carrier' to 'Transporter' after they have been defined in the original version would make this clause internally contradict.",
+                "location": "Article 14"
+            }
+        ]
+    }
+]

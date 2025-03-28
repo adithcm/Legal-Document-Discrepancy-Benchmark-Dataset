@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "uniondentalholdingsinc_20050204_8-ka_ex-10_3345577_ex-10_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1. Definitions. A Confidential Information@ shall mean any and all information that a Party may reasonably expect to remain confidential and not shared with the general public at any time or that information that is protected by law.",
+                "changed_text": "1. Definitions. Confidential Information shall mean any and all patient records, financial data, and business strategies explicitly marked as 'Confidential' by UDC. Any other information, regardless of its sensitivity, is not considered Confidential Information under this agreement.",
+                "explanation": "The original definition of 'Confidential Information' is broad, encompassing anything reasonably expected to be confidential or protected by law. The modified definition is much narrower, limiting it to specific types of information explicitly marked as 'Confidential' by UDC. This creates a contradiction, as information considered confidential under the original definition might not be under the new definition, potentially leading to disputes over data protection and permitted disclosures.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5. Term and Termination.\n          a. Term. This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with thirty (30) day prior written notice of termination of this Agreement.",
+                "changed_text": "5. Term and Termination.\n          a. Term. This Agreement shall become effective on the Effective Date and shall continue in effect for a period of one (1) year, automatically renewing for subsequent one-year terms unless UDC provides written notice of non-renewal at least thirty (30) days prior to the end of the then-current term. Business Affiliate may terminate only upon mutual written agreement by both parties.",
+                "explanation": "The original text allows either party to terminate with 30 days' notice. The changed text creates conflicting terms regarding the termination of the agreement. Now UDC has the option to prevent terminations without a mutual agreement. This will create a conflict.",
+                "location": "Section 5(a)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "          g. Return to a Party or destroy, as requested by a Party, within\n     fifteen (15) days of the termination of this Agreement, any Confidential\n     Information provided to such Party and in its possession and retain no\n     copies or back-up tapes;",
+                "changed_text": "          g. Upon termination of this Agreement, each Party shall make a reasonable effort to return or destroy, as determined solely by that Party, any Confidential Information provided to it and in its possession. The extent of this effort will be subject to resource availability and perceived importance of retaining such information. Parties may keep a single archive copy for legal compliance purposes.",
+                "explanation": "The original text mandates the return or destruction of Confidential Information within 15 days of termination. The modified text introduces ambiguity by stating 'reasonable effort' and allowing Parties to determine the extent of this effort themselves. Furthermore, it introduces the possibility of retaining an 'archive copy,' contradicting the original 'retain no copies' clause. This creates uncertainty regarding data disposal obligations and could lead to disputes over compliance with confidentiality requirements post-termination.",
+                "location": "Section 3(g)"
+            }
+        ]
+    }
+]

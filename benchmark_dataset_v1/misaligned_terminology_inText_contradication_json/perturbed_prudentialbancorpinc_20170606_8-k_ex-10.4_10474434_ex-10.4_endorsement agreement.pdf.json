@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "prudentialbancorpinc_20170606_8-k_ex-10.4_10474434_ex-10.4_endorsement agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Base Salary\" means the Employee's total base salary as of each January 1st exclusive of special payments such as bonuses or\ncommissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "changed_text": "\"Base Compensation\" means the Employee's total base salary as of each January 1st inclusive of special payments such as bonuses or\ncommissions, excluding any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "explanation": "The term 'Base Salary' has been replaced with 'Base Compensation,' and the definition has been altered to include bonuses and commissions, conflicting with the original definition that excludes them. The changed text also removes salary reductions, causing an internal contradiction.",
+                "location": "Article I"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page\n6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an\namount equal to the lesser of: (a) (two (2) times the Employee's annualized base salary at the time of death as provided by the Employer's payroll\ndepartment) plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk.",
+                "changed_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page\n6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an\namount equal to the lesser of: (a) (two (2) times the Employee's annualized base compensation at the time of death as provided by the Employer's payroll\ndepartment) plus $50,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk.",
+                "explanation": "The term 'base salary' is replaced with 'base compensation' (previously defined). Also, the additional amount has been decreased from $100,000 to $50,000 which causes a contradiction regarding the calculation of death benefits. This will make it unclear which definition should be used for calculating benefits, creating a dispute.",
+                "location": "Article IV"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement may be altered, amended or modified, including the addition of any extra policy provisions, by a written instrument signed by the\nEmployer and the Employee. Either party may, subject to the limitations of Article IV, assign its interest and obligations under this Agreement,\nprovided, however, that any assignment will be subject to the terms of this Agreement.",
+                "changed_text": "This Agreement can only be altered, amended or modified by a written instrument signed solely by the Employer. Neither party can assign its interest and obligations under this Agreement.",
+                "explanation": "The modified version states that the Employer alone can amend the agreement, which contradicts the original text requiring both parties' signatures. Furthermore, it prohibits assignment, directly conflicting with the original allowance for assignment within the limitations of Article IV.",
+                "location": "Article X"
+            }
+        ]
+    }
+]

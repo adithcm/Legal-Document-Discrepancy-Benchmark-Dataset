@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "quantumgroupincfl_20090120_8-k_ex-99.2_3672910_ex-99.2_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "“Local Storage” has the same definition as Direct Access Storage\n“Logical Unit Number” or “LUN” means the individual component in the SAN storage system that may be accessed. Each disk or disk\npartition in a SAN storage system array has a LUN assigned to it.",
+                "changed_text": "“Local Storage” has the same definition as Direct Access Storage",
+                "explanation": "By removing the definition of 'Logical Unit Number' or 'LUN', sections referring to SAN storage and LUN allocation will become ambiguous, as the individual component referenced is no longer defined. This creates uncertainty about the nature of accessible units in SAN storage, a crucial aspect of the service.",
+                "location": "Section 2.0 Definitions"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Customer is solely responsible for:\nall Content including, without limitation, its selection, creation, encryption, transmission, transfer, design, licensing, installation,\naccuracy, maintenance, testing, backup and support;\nall copyright, patent and trademark clearances in all applicable jurisdictions and usage agreements for any and all Content;\nthe selection and implementation of controls on the access and use of Content; and\nthe selection, management, separate storage of keys, and use of any public and private keys and digital certificates it may use with the\nServices.",
+                "changed_text": "Customer is solely responsible for:\nall Content including, without limitation, its selection, creation, transmission, transfer, design, licensing, installation,\naccuracy, maintenance, testing and support;\nall copyright, patent and trademark clearances in all applicable jurisdictions and usage agreements for any and all Content;\nthe selection and implementation of controls on the access and use of Content; and\nthe selection, management, separate storage of keys, and use of any public and private keys and digital certificates it may use with the\nServices.",
+                "explanation": "By removing 'encryption' from the Customer's responsibilities, the agreement implies the customer is not responsible for encryption. If there are clauses that state that the company will be liable for not encrypting the content, this creates an internal contradiction.",
+                "location": "Section 11.7 Content"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "For Managed Devices and Managed Servers (including firewall(s) and switches) that are not clustered or configured in a high availability\nconfiguration, the SLA is a minimum of 99.7 percent.\nFor Managed Devices and Managed Servers (including firewall(s) and switches) that are clustered or configured in a high availability\nconfiguration, the SLA is a minimum of 99.9 percent.",
+                "changed_text": "For Managed Devices and Managed Servers that are not clustered or configured in a high availability\nconfiguration, the SLA is a minimum of 99.7 percent.",
+                "explanation": "By removing the service levels for HA environments and retaining it for non HA environments introduces contradiction with section defining components. As a contract auditer, there should be a consistent framework.",
+                "location": "Attachment A – Services; 8.2 Service Levels"
+            }
+        ]
+    }
+]

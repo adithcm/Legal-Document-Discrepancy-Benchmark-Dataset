@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "iminecorp_20180725_s-1_ex-10.5_11275970_ex-10.5_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.7 “Products” shall mean the products offered by JRVS for sale to the Distributor; the Products shall include iMine cryptocurrency mining rigs and its parts and components.",
+                "changed_text": "1.7 “Products” shall mean the products offered by JRVS for sale to the Distributor; the Products shall include iMine cryptocurrency mining rigs and its parts and components. For the purpose of Section 7, Products shall also include any software necessary for the rigs to function correctly.",
+                "explanation": "The definition of 'Products' is expanded in Section 1.7, but only for purposes of Section 7. This creates ambiguity: are software updates covered under warranty? Are they part of the deliverable? What if section 7 is terminated?",
+                "location": "Section 1.7"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "7.2 Inspection and Acceptance. The Distributor shall have thirty (30) days (the “Inspection Period”) upon receipt of each shipment to inspect and test the Products. If the Distributor determines any unit of Products defective, the Distributor shall promptly notify JRVS of such defects. Defective Products may be returned for retest, evaluation and examination subject to JRVS Returned Material Authorization (“RMA”) procedure; provided, that such written notification and request for an RMA number must be received by JRVS during the Inspection Period. Returns must be prepaid by Distributor. When requesting a return authorization, Distributor must supply Distributor’s purchase order number and JRVS’s invoice number. Product description must include lot number and wafer numbers.",
+                "changed_text": "7.2 Inspection and Acceptance. The Importer shall have fifteen (15) days (the “Inspection Period”) upon receipt of each shipment to inspect and test the Goods. If the Importer determines any unit of Goods defective, the Importer shall promptly notify JRVS of such defects. Defective Goods may be returned for retest, evaluation and examination subject to JRVS Returned Material Authorization (“RMA”) procedure; provided, that such written notification and request for an RMA number must be received by JRVS during the Inspection Period. Returns must be prepaid by Importer. When requesting a return authorization, Importer must supply Importer’s purchase order number and JRVS’s invoice number. Good description must include lot number and wafer numbers.",
+                "explanation": "By using 'Importer' instead of 'Distributor' and 'Goods' instead of 'Products', the agreement creates confusion as to whether these terms refer to the same entity and items. This is in addition to the change in inspection period from 30 to 15 days that is in direct contradiction with the original inspection period.",
+                "location": "Section 7.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE\nPROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR\nCUSTOMERS.",
+                "changed_text": "10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER. However, iMine Corp shall provide the warranty directly to the distributors.\nJRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS.",
+                "explanation": "The original text states JRVS provides no warranties. The changed text says JRVS provides warranties directly to distributors. This creates direct contradiction about who's responsible for providing warranty, especially given the later disclaimer.",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

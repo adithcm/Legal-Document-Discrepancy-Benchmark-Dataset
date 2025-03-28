@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ferroglobeplc_20150624_f-4a_ex-10.20_9154746_ex-10.20_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "EIT commits to assure a high availability (availability rate defined in Annex 2) and the proper performance (response time and no saturation) of the Network during working hours in South Africa (established in Annex 2).",
+                "changed_text": "EIT will endeavor to provide reasonable availability and performance of the Network during standard working hours in South Africa, as generally understood and mutually agreed upon from time to time.",
+                "explanation": "Replacing 'commits to assure a high availability' with 'will endeavor to provide reasonable availability' weakens the obligation, making the availability target subjective and difficult to enforce. Defining availability and performance as 'generally understood and mutually agreed upon from time to time' creates ambiguity. This change makes it difficult to measure and enforce a specific standard, as expectations are not explicitly defined in the contract.",
+                "contradicted_law": "South African Labour Law regarding essential services and operational requirements mandates clear and measurable service level agreements, particularly in outsourced IT functions supporting critical business operations. The vague language conflicts with the need for specific performance standards.",
+                "location": "3.1.4"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "EIT must alert the IT Department of the Customer if any problem should occur in any of the Servers, within the time established in Annex 2.",
+                "changed_text": "EIT will attempt to notify the IT Department of the Customer of server issues when practical and convenient, subject to internal resource availability.",
+                "explanation": "Changing 'EIT must alert' to 'EIT will attempt to notify' introduces a discretionary element, undermining the obligation to provide timely alerts. The added condition 'when practical and convenient, subject to internal resource availability' provides a broad loophole for non-compliance. This language contradicts the requirement for a clear, mandatory notification protocol.",
+                "contradicted_law": "The South African Protection of Personal Information Act (POPIA) requires immediate notification of security breaches and data compromises. Delaying or avoiding notification based on practicality or resource availability could violate POPIA's breach notification requirements.",
+                "location": "3.2.5"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "EIT guarantees the control of access (through an access code and password) to information pursuant to the access rights defined by the Customer.",
+                "changed_text": "EIT aims to generally control access (through some form of access control) to information based on broad access guidelines provided by the Customer.",
+                "explanation": "Replacing 'guarantees the control of access' with 'aims to generally control access' significantly reduces the strength of the commitment, making it aspirational rather than a strict obligation. The terms 'some form of access control' and 'broad access guidelines' create ambiguity around the specific measures EIT must implement, undermining the clarity and enforceability of the provision. This weakened obligation conflicts with the need for strict access control.",
+                "contradicted_law": "The King IV Report on Corporate Governance for South Africa recommends robust IT governance, including stringent access controls to protect sensitive data. Vague access control measures are insufficient to meet these governance standards, increasing the risk of data breaches and non-compliance.",
+                "location": "11.2.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "quantumgroupincfl_20090120_8-k_ex-99.2_3672910_ex-99.2_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Customer’s data traffic between the e-business Hosting Center and the Internet may not exceed Committed Bandwidth, unless otherwise expressly specified in an Attachment.",
+                "changed_text": "Customer’s data traffic between the e-business Hosting Center and the Internet must never exceed Committed Bandwidth, unless otherwise expressly specified in an Attachment.",
+                "explanation": "Changing 'may not exceed' to 'must never exceed' creates a stricter constraint on bandwidth usage initially. This is a contradiction since Section 4.4.1 later mentions that 'Customer’s data traffic between the IBM e-business Hosting Center and the Internet may exceed Committed Bandwidth, if capacity is available from the IBM e-business Hosting Center network infrastructure.'",
+                "location": "Section 2.0"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "“Customer” means IBM’s Customer to whom the Services are being provided.",
+                "changed_text": "“Customer” means IBM’s direct Customer to whom the Services are being provided.",
+                "explanation": "Adding 'direct' to Customer implies only direct clients are considered customers.  However, Section 8.1 Indemnification by IBM states 'If a third party claims that Materials or Base Components IBM provides to Customer infringe that party’s patent or copyright, IBM will defend the Customer', creating an inconsistency since 'customer' is not qualified with the condition from the definition.",
+                "location": "Section 2.0"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Any of these terms and conditions which by their nature extend beyond the Agreement termination or expiration remain in effect until fulfilled, including, without limitation, Sections 4.4, 5, 6, 7, 8, 9, 10, 11.3, 11.4, 11.7, 12.2, 12.3, and 14, and apply to both Customer’s and IBM’s respective successors and assignees.",
+                "changed_text": "Any of these terms and conditions which by their nature extend beyond the Agreement termination or expiration remain in effect until fulfilled, including, without limitation, Sections 4.4, 5, 6, 7, 8, 9, 10, 11.3, 11.4, 11.7, 12.2, 12.3, and apply to both Customer’s and IBM’s respective successors and assignees. All sections not listed here are not in effect after the termination of the contract.",
+                "explanation": "Adding 'All sections not listed here are not in effect after the termination of the contract' introduces ambiguity. The original text clearly defines which sections survive termination. This addition suggests that only the explicitly listed sections survive, implying that any section not listed, even if its nature suggests it should survive (e.g., confidentiality), does not, creating a contradiction.",
+                "location": "Section 14.0"
+            }
+        ]
+    }
+]

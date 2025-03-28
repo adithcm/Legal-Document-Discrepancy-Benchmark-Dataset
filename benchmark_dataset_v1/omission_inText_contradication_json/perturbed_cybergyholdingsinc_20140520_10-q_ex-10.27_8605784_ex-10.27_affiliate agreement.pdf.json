@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cybergyholdingsinc_20140520_10-q_ex-10.27_8605784_ex-10.27_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.10 Marketing Plan. MA shall submit an annual marketing plan to Company outlining, among other things, activities and staffing directed at attaining mutually agreed upon annual sales quotas. The Annual Quota is defined in Schedule A of this Agreement. The annual marketing plan shall be devised solely by MA and MA shall not be required to follow an operating plan, standard procedure, training manual, or its substantial equivalent, published by Company.",
+                "changed_text": "3.10 Marketing Plan. MA shall submit a marketing plan to Company outlining, among other things, activities and staffing directed at sales quotas. The annual marketing plan shall be devised by MA and MA shall follow an operating plan, standard procedure, training manual, or its substantial equivalent, published by Company.",
+                "explanation": "The original text says 'Annual Quota is defined in Schedule A', but the changed text removes the word 'Annual' before 'Quota' and removes the word 'mutually agreed upon' before 'annual sales quotas', also the changed text says 'MA shall follow an operating plan, standard procedure, training manual, or its substantial equivalent, published by Company' to contradict the original saying 'MA shall not be required to follow an operating plan, standard procedure, training manual, or its substantial equivalent, published by Company.', creating uncertainty on how it will be enforced.",
+                "location": "3.10"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "16. Warranties by Company.\n16.1 EXCEPT AS EXCLUSIVELY SET FORTH IN THIS PARAGRAPH,\nCOMPANY DOES NOT MAKE ANY EXPRESS OR IMPLIED WARRANTIES,\nINCLUDING BUT NOT RESTRICTED TO THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,\nWHICH WARRANTIES ARE HEREBY DISCLAIMED.",
+                "changed_text": "16. Warranties by Company.\n16.1 COMPANY DOES MAKE EXPRESS OR IMPLIED WARRANTIES,\nINCLUDING BUT NOT RESTRICTED TO THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,\nWHICH WARRANTIES ARE HEREBY GRANTED.",
+                "explanation": "The original text explicitly disclaims all express and implied warranties. The modified text now grants such warranties without defining their scope, duration, or limitations, leading to a direct contradiction. This creates uncertainty in enforcement as it's unclear what the warranties cover and for how long.",
+                "location": "16, 16.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "7.4 Payment for Services, Training and Support. Services, training and support, when applicable and provided by Company, shall be paid for by MA according to agreed upon terms, and a monthly billing report will be created for MA by Company to show utilization of time and charges. A LATE PAYMENT CHARGE of one and one-half percent (1 ½%) or the maximum rate permitted by applicable law, whichever is less, of the outstanding balance due to Company per month will be imposed on all overdue accounts.",
+                "changed_text": "7.4 Payment for Services, Training and Support. Services, training and support, when applicable and provided by Company, shall be paid for by MA according to agreed upon terms, and a monthly billing report will be created for MA by Company to show utilization of time and charges. A LATE PAYMENT CHARGE will be imposed on all overdue accounts.",
+                "explanation": "The original text specifies the late payment charge as 'one and one-half percent (1 ½%) or the maximum rate permitted by applicable law, whichever is less'. The modified text removes this specific percentage, making the late payment charge undefined. Other clauses might still reference late payments, creating an internal contradiction and enforcement uncertainty.",
+                "location": "7.4"
+            }
+        ]
+    }
+]

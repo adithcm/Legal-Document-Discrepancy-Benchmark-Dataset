@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "clickstreamcorp_20200330_1-a_ex1a-6 mat ctrct_12089935_ex1a-6 mat ctrct_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3. TERM.\nThis Agreement shall become effective as of the Effective Date and, unless otherwise terminated in accordance with the provisions of Section 4 of\nthis Agreement, will continue until the expiration of the Warranty Period as defined in subsection 9(a) of this Agreement.",
+                "changed_text": "3. TERM.\nThis Agreement shall become effective as of the Effective Date and, unless otherwise terminated in accordance with the provisions of Section 4 of\nthis Agreement, will continue indefinitely.",
+                "explanation": "The omission of the part referring to the Warranty Period creates an inconsistency. Section 8(a) still mentions the 'Support Period' related to warranty, but Section 3 now states the agreement continues 'indefinitely,' making the duration of the warranty unclear and therefore creating uncertainty in the contract's enforcement. This is because the warranty period provides a clear endpoint related to application performance. Without it, obligations related to bug fixes could be argued to extend beyond what was initially intended.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "8. APPLICATION REPRESENTATIONS AND WARRANTIES.\n(a) Performance. The Developer hereby warrants and represents that following delivery of the Application System to the Client (which shall be\ndeeded to occur only on the date the Web Application is uploaded to the AWS for distribution) pursuant to Exhibit A (the “Support Period”), the\nApplication will be free from programming errors and defects in workmanship and materials, and will conform to the specifications of Exhibit A. If\nprogramming errors or other defects are discovered during the Support Period, the Developer shall promptly remedy those errors or defects at its\nown expense. The developer will fix any bugs that may come up from the original contract after the 90 days warranty has passed.",
+                "changed_text": "8. APPLICATION REPRESENTATIONS AND WARRANTIES.\n(a) Performance. The Developer hereby warrants and represents that following delivery of the Application System to the Client (which shall be\ndeeded to occur only on the date the Web Application is uploaded to the AWS for distribution) pursuant to Exhibit A, the\nApplication will be free from programming errors and defects in workmanship and materials, and will conform to the specifications of Exhibit A. If\nprogramming errors or other defects are discovered, the Developer shall promptly remedy those errors or defects at its\nown expense.",
+                "explanation": "By removing the mention of “Support Period” and “90 days warranty (bugfixing) support is included” the agreement is unclear about when does the developer's warranty period start and end. By doing so, section 3 mentions that this contract is in effect indefinitely, and by removing those sections. The developer would in theory have to fix the issues that come up as they are discovered.",
+                "location": "Section 8(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "2. COMPENSATION.\nThe total compensation for the design of the app shall be as set forth in Exhibit A hereto. These payments shall be made in installments according\nto the schedule set forth in Exhibit A hereto.",
+                "changed_text": "2. COMPENSATION.\nThe total compensation for the design of the app shall be $480,000.",
+                "explanation": "By removing the payment schedule, the total compensation is now a lump sum amount, this creates inconsistency as section G in exhibit A specifies a payment schedule. The enforceability is now compromised and can be contested when the client doesn't follow the payment schedule in Exhibit A.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

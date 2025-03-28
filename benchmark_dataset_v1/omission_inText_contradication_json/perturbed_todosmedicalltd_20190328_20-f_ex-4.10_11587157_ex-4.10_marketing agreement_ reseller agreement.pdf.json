@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "todosmedicalltd_20190328_20-f_ex-4.10_11587157_ex-4.10_marketing agreement_ reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "WHEREAS, Todos has developed and owns a proprietary blood screening test for the early detection of certain forms of cancer which consists of a Physician Kit (for collecting blood samples) and a Lab Kit (for separating plasma and mononuclear cells in the blood samples) which consists of an Isolation Kit and an Analysis Kit, all as more fully described on Exhibit A attached hereto (the “Products”), as well as a proprietary algorithm for the analysis of the blood samples data; and",
+                "changed_text": "WHEREAS, Todos has developed and owns a proprietary blood screening test for the early detection of certain forms of cancer which consists of a Physician Kit (for collecting blood samples) and a Lab Kit (for separating plasma and mononuclear cells in the blood samples), as well as a proprietary algorithm for the analysis of the blood samples data; and",
+                "explanation": "By removing 'which consists of an Isolation Kit and an Analysis Kit, all as more fully described on Exhibit A attached hereto (the “Products”)' from the description of the Lab Kit and removing the reference to Exhibit A, the agreement becomes ambiguous about the exact components of the Products. Later sections rely on a clear definition of 'Products', particularly concerning quality control and regulatory compliance, making enforcement uncertain. The definition of product is essential to the whole agreement.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.4 The Reseller shall be responsible for setting up at least one laboratory in the Territory to support the assay protocol (the “Laboratory”), including the provision of a FTIR that is approved by Todos, as further described in Exhibit B. The Reseller shall obtain the prior approval of Todos for all lab equipment. The Reseller will contract with existing certified laboratories in Israel to obtain the blood samples data, subject to the approval by Todos of each such laboratory.",
+                "changed_text": "4.4 The Reseller shall be responsible for setting up at least one laboratory in the Territory to support the assay protocol (the “Laboratory”). The Reseller shall obtain the prior approval of Todos for all lab equipment. The Reseller will contract with existing certified laboratories in Israel to obtain the blood samples data, subject to the approval by Todos of each such laboratory.",
+                "explanation": "By removing 'including the provision of a FTIR that is approved by Todos, as further described in Exhibit B' and the Exhibit B reference, the requirements for the Laboratory setup become vague. While the Reseller is still responsible for setting up a lab and obtaining approval for lab equipment, the specific requirement of a 'FTIR approved by Todos' is eliminated. This creates a contradiction because the commercialization timetable in Exhibit C still mentions requirements in the TM-B2 Isolation Kit, suggesting that the detailed requirements in Exhibit B are still relevant, but the new lab definition is missing information and no longer exists.",
+                "location": "Section 4.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "7.1 Performance Warranty. Todos warrants that for a period of one (1) year from the date of delivery of each Product to the Reseller, the Product, except for those components that have a shorter expiration date as set forth on Exhibit A, shall perform substantially in accordance with the Product’s documentation and specifications, and shall be free from all defects in materials, manufacture, and workmanship. Todos shall correct or repair any reported non-conformity or defect, or replace the non-conforming Product with a Product that conforms to this warranty.",
+                "changed_text": "7.1 Performance Warranty. Todos warrants that for a period of one (1) year from the date of delivery of each Product to the Reseller, the Product shall perform substantially in accordance with the Product’s documentation and specifications, and shall be free from all defects in materials, manufacture, and workmanship. Todos shall correct or repair any reported non-conformity or defect, or replace the non-conforming Product with a Product that conforms to this warranty.",
+                "explanation": "By removing 'except for those components that have a shorter expiration date as set forth on Exhibit A', the warranty now covers *all* components of the Product for one year, regardless of actual expiration dates. This contradicts the original intent where certain components (presumably listed in Exhibit A, which has had changes to what it includes as per the first edit in this JSON) would have shorter warranty periods. This creates uncertainty and potential disputes about which components are actually covered by the one-year warranty.",
+                "location": "Section 7.1"
+            }
+        ]
+    }
+]

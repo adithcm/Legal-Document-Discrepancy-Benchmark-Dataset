@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "gpaqacquisitionholdingsinc_20200123_s-4a_ex-10.8_11951679_ex-10.8_service agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "For purposes of this Section 1.1(b), (i) the “Market Price” of any Products & Services shall mean the price for such Products & Services established by Constellation as the competitive market price at which such Products & Services are to be made available to Constellation’s customers with a similar anticipated load profile within a specified utility service territory.",
+                "changed_text": "For purposes of this Section 1.1(b), (i) the “Market Price” of any Products & Services will be determined by mutual agreement between Constellation and the HOF Entities.",
+                "explanation": "By changing the definition of 'Market Price' from a 'price established by Constellation' to one 'determined by mutual agreement,' we introduce ambiguity. Later sections rely on this Market Price for invoicing and minimum purchase requirements. If a mutual agreement cannot be reached, enforcement of payment becomes uncertain.",
+                "location": "Section 1.1(b)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "A minimum of [***] in mutually agreed upon EME financing will be contracted for by the Parties, with a minimum of [***] of such aggregate amount to be contracted for in each of [***] and [***].",
+                "changed_text": "The Parties anticipate engaging in EME financing activities.",
+                "explanation": "The original text specifies a minimum amount for EME financing, creating a contractual obligation. Replacing it with a vague statement about 'anticipating' the activity removes the obligation but other sections like 1.1(c) still reference EME financing. This creates a contradiction where the contract alludes to a financial commitment that effectively no longer exists, making those referencing sections unenforceable.",
+                "location": "Section 2.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "For the advertising and other rights described herein, Constellation shall pay to the HOF Entities total combined sponsorship fees (the “Sponsorship Fees”) and total combined annual activation fund proceeds (the “Annual Activation Fund Proceeds”) in the amounts and on the dates set forth on Exhibit H, in addition to any other amounts required by the terms of this Agreement. Annual Activation Funds are to be used in each calendar year. Unused funds are not rolled into future contract years. In the event Constellation fails to pay to the HOF Entities when due any sum required by this Agreement to be paid, whether pursuant to this Section 3.4 or otherwise, interest shall accrue from the date due on the unpaid amount at the rate of [***] per month or, if less, the highest rate permitted by law.",
+                "changed_text": "For the advertising and other rights described herein, Constellation shall pay to the HOF Entities sponsorship fees (the “Sponsorship Fees”) in accordance with mutually agreed-upon terms. Activation funds may be discussed separately.",
+                "explanation": "Removing the explicit reference to Exhibit H, which details specific payment amounts and dates, and replacing it with 'mutually agreed-upon terms' introduces uncertainty. Section 4.2(c) discusses termination based on accrued New Business relative to 'Sponsorship Fees actually paid.' Without a defined payment schedule, it becomes unclear how to calculate the 'Sponsorship Fees actually paid,' thus creating an in-text contradiction in enforcement.",
+                "location": "Section 3.4"
+            }
+        ]
+    }
+]

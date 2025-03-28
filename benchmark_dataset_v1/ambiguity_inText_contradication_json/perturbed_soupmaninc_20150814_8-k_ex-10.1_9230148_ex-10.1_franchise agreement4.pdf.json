@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "soupmaninc_20150814_8-k_ex-10.1_9230148_ex-10.1_franchise agreement4.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Neither the Franchisor, its Predecessor nor any person listed under Item 2 or an affiliate offering franchises under Franchisor’s principal trademark:\n\n\n(A) has an administrative, criminal or civil action pending against that person alleging: a felony; a violation of a franchise,\nantitrust or securities law; fraud; embezzlement; fraudulent conversion; misappropriation of property; unfair or deceptive\npractices; or comparable civil or misdemeanor allegations.",
+                "changed_text": "Neither the Franchisor, its Predecessor nor any person listed under Item 2 or an affiliate offering franchises under Franchisor’s principal trademark:\n\n\n(A) has an administrative, criminal or civil action pending against that person alleging: a felony; a violation of a franchise,\nantitrust or securities law; fraud; embezzlement; fraudulent conversion; misappropriation of property; unfair or deceptive\npractices; or comparable civil allegations.",
+                "explanation": "By removing \"or misdemeanor allegations\" from the original text, we create an ambiguity. In one section, a pending misdemeanor allegation could be a cause for concern and required disclosure, while in another, it may not. The term 'action pending' is now inconsistently defined depending on if a misdemeanor is implicitly included.",
+                "location": "3. LITIGATION (A)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Neither the Franchisor, its affiliate, its predecessor, officers, or general partner during the ten year period immediately before the date of\nthe disclosure document: (a) filed as debtor (or had filed against it) a petition to start an action under the U.S. Bankruptcy Code (or any\ncomparable foreign law); (b) obtained a discharge of its debts under the bankruptcy code; or (c) was a principal officer of a company or a general\npartner in a partnership that either filed as a debtor (or had filed against it) a petition to start an action under the U.S. Bankruptcy Code or that\nobtained a discharge of its debts under the U.S. Bankruptcy Code during or within one year after the officer or general partner of the Franchisor\nheld this position in the company or partnership.",
+                "changed_text": "Neither the Franchisor, its affiliate, its predecessor, officers, or general partner during the ten year period immediately before the date of\nthe disclosure document: (a) filed as debtor (or had filed against it) a petition to start an action under the U.S. Bankruptcy Code (or any\ncomparable foreign law); (b) obtained a discharge of its debts under the bankruptcy code; or (c) was a principal officer of a company or a general\npartner in a partnership that either filed as a debtor (or had filed against it) a petition to start an action under the U.S. Bankruptcy Code. For partnerships the rule applies only when discharge of debt occurred during the period the partner was with the partnership.",
+                "explanation": "This change adds a conditional clause to (c) about partnerships.  In the original text, the one-year rule applied regardless of when the discharge happened. Now, there's a specific rule added for partnership discharge which create inconsistent application. If elsewhere in the agreement 'Bankruptcy' is simply defined based on the original (a), (b), (c) with no stipulations, this creates a clear contradiction.",
+                "location": "4. BANKRUPTCY"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The following Items are required to be included within the Disclosure Document and shall be deemed to supersede the language in the\nDisclosure Document itself:",
+                "changed_text": "The following Items are required to be included within the Disclosure Document, but the parties reserve the right to agree that the terms of the original Disclosure Document shall prevail in certain circumstances:",
+                "explanation": "This change introduces an inconsistency regarding which document's terms prevail. The original clearly states that the Addendum supersedes the Disclosure Document. The modified text creates a scenario where the Disclosure Document could, by agreement, override the Addendum. This creates confusion as to which document should be followed, directly contradicting the original intention and creating significant enforcement uncertainty.",
+                "location": "Introduction to Addendum"
+            }
+        ]
+    }
+]

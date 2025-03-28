@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "todosmedicalltd_20190328_20-f_ex-4.10_11587157_ex-4.10_marketing agreement_ reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, Todos has developed and owns a proprietary blood screening test for the early detection of certain forms of cancer which\nconsists of a Physician Kit (for collecting blood samples) and a Lab Kit (for separating plasma and mononuclear cells in the blood samples) which\nconsists of an Isolation Kit and an Analysis Kit, all as more fully described on Exhibit A attached hereto (the “Products”), as well as a proprietary\nalgorithm for the analysis of the blood samples data;",
+                "changed_text": "WHEREAS, Todos has developed and owns a proprietary blood screening test for the early detection of certain forms of cancer which\nconsists of a Physician Kit (for collecting blood samples) and a Lab Kit (for separating plasma and mononuclear cells in the blood samples) which\nconsists of an Isolation Kit and an Analysis Kit, all as more fully described on Exhibit A attached hereto (the “Goods”), as well as a proprietary\nalgorithm for the analysis of the blood samples data;",
+                "explanation": "Changing 'Products' to 'Goods' in the definition introduces inconsistency. Throughout the agreement, 'Products' is used consistently. This change makes it unclear if 'Goods' refers to the same items, especially since the defined term is 'Products.'",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5.5 Delivery. Todos shall ship ordered Products to the Reseller within ninety (90) days of Todos’s acceptance of the applicable purchase\norder DAP Reseller’s warehouse (Incoterms 2010), provided that Reseller’s order for the Products does not deviate from the applicable Forecast by\nmore than ten percent (10%).",
+                "changed_text": "5.5 Delivery. Todos shall ship ordered Items to the Reseller within ninety (90) days of Todos’s acceptance of the applicable purchase\norder DAP Reseller’s warehouse (Incoterms 2010), provided that Reseller’s order for the Products does not deviate from the applicable Forecast by\nmore than ten percent (10%).",
+                "explanation": "Using 'Items' instead of 'Products' in the delivery section creates ambiguity. While arguably they could be the same, the contract defines 'Products'. Switching to 'Items' makes it unclear if the delivery terms apply to only 'Products' or also to 'Items', potentially impacting enforcement.",
+                "location": "Section 5.5"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4.12 The Reseller shall not market, distribute, or sell any product that competes with Products, nor provide services to any direct\ncompetitor of Todos.",
+                "changed_text": "4.12 The Reseller shall not market, distribute, or sell any item that competes with Products, nor provide services to any direct\ncompetitor of Todos.",
+                "explanation": "Changing 'product' to 'item' introduces ambiguity regarding competitive restrictions. It becomes uncertain whether the restriction applies to all 'items' or only to 'products', and whether there are two separate classifications of products/items covered by the agreement or not.",
+                "location": "Section 4.12"
+            }
+        ]
+    }
+]

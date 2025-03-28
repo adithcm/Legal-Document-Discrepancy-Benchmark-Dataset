@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "tcpipelineslp_20160226_10-k_ex-99.12_9454048_ex-99.12_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter) and ANR PIPELINE COMPANY (Shipper).",
+                "changed_text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Carrier) and ANR PIPELINE COMPANY (Customer).",
+                "explanation": "Changing 'Transporter' to 'Carrier' and 'Shipper' to 'Customer' introduces ambiguity. It's unclear if Carrier and Transporter, or Customer and Shipper refer to the same entity, potentially affecting obligations and rights outlined in subsequent sections.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Unless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates and charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on file with the Commission unless otherwise agreed to by the parties in writing.",
+                "changed_text": "Unless Customer and Provider have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates and charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on file with the Commission unless otherwise agreed to by the parties in writing.",
+                "explanation": "The term 'Shipper' has now been changed to 'Customer', and 'Transporter' to 'Provider' in this section, creating confusion as to which entities are being referred. This contradicts the initial definitions (or lack thereof after modification) and makes rate determination ambiguous.",
+                "location": "Paragraph 9"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Upon termination of this Agreement, Shipper's and Transporter's obligations to each other arising under this Agreement, prior to the date of termination, remain in effect and are not being terminated by any provision of this Agreement.",
+                "changed_text": "Upon termination of this Agreement, Customer's and Carrier's obligations to each other arising under this Agreement, prior to the date of termination, remain in effect and are not being terminated by any provision of this Agreement.",
+                "explanation": "In this clause, 'Shipper' is replaced with 'Customer' and 'Transporter' with 'Carrier', while the rest of the agreement might still use the old terms in other sections. Now, it's not clear whether the obligations of 'Shipper' and 'Transporter' mentioned elsewhere are also governed by this provision, creating ambiguity about post-termination liabilities and enforcement.",
+                "location": "Paragraph 14"
+            }
+        ]
+    }
+]

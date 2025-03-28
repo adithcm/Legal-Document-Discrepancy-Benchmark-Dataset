@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with some of the terms of the Agreement. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "explanation": "By removing the phrase 'applicable to Reseller as if Sub-Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller' and replacing it with 'some of the terms of the Agreement', the contract now lacks clarity on which terms the sub-reseller must comply with, potentially omitting legally required consumer protections enforced on the original reseller. This introduces ambiguity and legal risk.",
+                "contradicted_law": "Breach of Contract Laws, Consumer Protection Laws",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement.",
+                "explanation": "By omitting 'and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.', the contract fails to explicitly supersede prior agreements. This could lead to disputes if prior oral or written agreements contain consumer rights or protections not present in the current agreement, effectively omitting those rights.",
+                "contradicted_law": "Contract Law, specifically related to the 'entire agreement' or 'integration' clause and its effects on prior agreements.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell Services. ",
+                "explanation": "By removing 'in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer', it removes the limitation on to whom the sub-reseller may resell. If Section 2(ii) of the original agreement outlined consumer protection requirements related to the end customer, this omission allows the sub-reseller to bypass those regulations by reselling to entities other than the intended customer. Many consumer protection laws are specific to end-users.",
+                "contradicted_law": "Consumer Protection Laws, regulations related to reseller obligations and end-customer rights.",
+                "location": "Section 1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Resale Rights. SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "Resale Rights. SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell Services, provided that Sub-Reseller adheres to general business practices. Reseller will generally oversee Sub-Reseller activities. Sub-Reseller may be considered a beneficiary of the Agreement.",
+                "explanation": "The removal of 'in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer' creates ambiguity. The original text clearly limits the sub-reseller's resale activities to customers, referencing a specific section of the original agreement. By removing this, the scope of resale is undefined and reliant on undefined 'general business practices.' Furthermore, changing 'Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.' to 'Reseller will generally oversee Sub-Reseller activities. Sub-Reseller may be considered a beneficiary of the Agreement.' directly contradicts the initial agreement of the Sub-Reseller not being a third-party beneficiary and liability of breach by Reseller.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "Entire Agreement. This agreement represents the current understanding between the Parties regarding sub-resale, but is subject to future revisions.",
+                "explanation": "By changing from 'The terms and conditions herein contained constitute the entire agreement' to 'This agreement represents the current understanding between the Parties regarding sub-resale, but is subject to future revisions,' the 'entire agreement' clause is essentially negated. This creates a contradiction as Section 2 states 'Subject to the above modifications, the Agreement remains in full force and effect.' if Section 3 now suggests that the Sub-Reseller agreement is subject to revisions, it directly contradicts Section 2's affirmation that the prior Agreement remains in full force and effect.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

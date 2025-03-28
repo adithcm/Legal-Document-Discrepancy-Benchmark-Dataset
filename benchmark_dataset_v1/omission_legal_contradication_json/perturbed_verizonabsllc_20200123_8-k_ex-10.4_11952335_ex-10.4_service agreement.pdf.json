@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "verizonabsllc_20200123_8-k_ex-10.4_11952335_ex-10.4_service agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "If in a legal proceeding it is held that the Servicer may not enforce its rights or remedies with respect to a Receivable on the grounds that it is not a real party in interest or a holder entitled to enforce rights or remedies with respect to the Receivable, the Issuer will, at the Servicer’s expense and direction, assign the Receivable to the Servicer solely for that purpose or take steps to enforce its rights and remedies with respect to the Receivable, including bringing suit in the names of the Indenture Trustee, the Noteholders and the Issuer.",
+                "changed_text": "If in a legal proceeding it is held that the Servicer may not enforce its rights or remedies with respect to a Receivable on the grounds that it is not a real party in interest or a holder entitled to enforce rights or remedies with respect to the Receivable, the Issuer may, at its discretion, take steps to enforce its rights and remedies with respect to the Receivable.",
+                "explanation": "This change removes the **mandatory assignment** of the Receivable to the Servicer, or the requirement to take steps to enforce rights if the Servicer cannot do so. This omission introduces legal risk because consumer protection laws often require that the entity enforcing a debt must be clearly identified and have the legal right to do so. By making the enforcement discretionary, the contract may not comply with laws designed to protect consumers from improper debt collection practices. By omitting 'including bringing suit in the names of the Indenture Trustee, the Noteholders and the Issuer.' this could hinder the debt enforcements in legal proceedings.",
+                "contradicted_law": "Fair Debt Collection Practices Act (FDCPA) and state equivalents.",
+                "location": "Section 3.2(e)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Within ten (10) days following the earlier to occur of (i) a ratings downgrade by each of the Rating Agencies of Verizon to below investment grade, or (ii) a Servicer Termination Event, the Servicer will send a notice to all Obligors indicating (a) that their Receivables have been assigned to the Issuer, and (b)(x) if Cellco has not been removed as Servicer, that the Obligors shall continue to make their payments as they had previously, or (y) if Cellco has been removed as Servicer, the name of the Successor Servicer and any new instructions with respect to their payments.",
+                "changed_text": "Following a Servicer Termination Event, the Servicer may send a notice to Obligors indicating new instructions with respect to their payments.",
+                "explanation": "By removing the **mandatory** notice to Obligors about the assignment of their Receivables and eliminating the scenario of a ratings downgrade, this change introduces legal risk. Many consumer protection laws require that debtors be notified when their debt is sold or transferred to a new entity. By making it discretionary and removing the ratings downgrade trigger, the contract may violate transparency requirements, especially in states with strong consumer protection laws. In addition, removal of 'indicating (a) that their Receivables have been assigned to the Issuer, and (b)(x) if Cellco has not been removed as Servicer, that the Obligors shall continue to make their payments as they had previously, or (y) if Cellco has been removed as Servicer, the name of the Successor Servicer and any new instructions with respect to their payments.' this could violate the Real Party in Interest requirements.",
+                "contradicted_law": "State consumer protection laws regarding debt assignment notification.",
+                "location": "Section 3.13"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Any Successor Servicer will agree to provide to Cellco any information relating to payments received from Obligors (including any payments received on a Receivable that was the subject of an upgrade for which none of the Marketing Agent, the related Originator or the Parent Support Provider deposited a required Upgrade Payment), delinquencies in payments by Obligors, any Written-Off Receivables and any other information related to the Obligors and the Receivables required by Cellco to service the accounts of which any Receivables are a part, including, but not limited to, granting and applying credits to any account for which none of the Marketing Agent, the related Originator or the Parent Support Provider remitted an Upgrade Payment, as set forth in Section 3.12(b).",
+                "changed_text": "Any Successor Servicer may provide to Cellco any information relating to payments received from Obligors.",
+                "explanation": "This change removes the **Successor Servicer agreement** to provide Celco all relevant and necessary information. This creates a legal contradiction because if a Successor Servicer fails to adequately maintain or transfer accurate account information, this can lead to consumers being improperly billed or credited. This can trigger issues with compliance with fair debt collection laws and consumer reporting accuracy requirements.",
+                "contradicted_law": "Fair Credit Reporting Act (FCRA) and Fair Debt Collection Practices Act (FDCPA)",
+                "location": "Section 7.4(b)"
+            }
+        ]
+    }
+]

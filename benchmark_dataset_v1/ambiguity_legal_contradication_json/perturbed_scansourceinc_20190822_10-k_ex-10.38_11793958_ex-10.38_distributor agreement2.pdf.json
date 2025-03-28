@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Protection of Information. Customer agrees that aspects of the Software and associated Documentation, including the specific design and structure of individual programs, are trade secrets and/or copyrighted materials of Cisco, its suppliers or licensors. Customer shall not disclose, provide, or otherwise make available such trade secrets or copyrighted material in any form to any third party without the prior written consent of Cisco. Customer shall implement reasonable security measures to protect such trade secrets and copyrighted materials. Title to Software and Documentation shall remain solely with Cisco, its suppliers or licensors.",
+                "changed_text": "Protection of Information. Customer acknowledges that aspects of the Software and associated Documentation may be considered trade secrets and/or copyrighted materials of Cisco, its suppliers or licensors. Customer will endeavor not to disclose such material to third parties absent explicit instructions otherwise. Customer shall implement security measures it deems reasonably adequate to protect potential trade secrets and copyrighted materials. Title to Software and Documentation shall remain solely with Cisco, its suppliers or licensors.",
+                "explanation": "This change weakens the obligation to protect trade secrets and copyrighted materials. Replacing 'agrees' with 'acknowledges' makes the commitment less binding. Replacing 'shall not disclose' with 'will endeavor not to disclose' makes disclosure discretionary. Similarly, substituting 'reasonable security measures' with 'security measures it deems reasonably adequate' introduces subjective interpretation, weakening the protection, which is a violation of trade secret protection laws.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "location": "Page 2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Customer Records. Customer grants to Cisco and its independent accountants the right to examine Customer's books, records and accounts during Customer's normal business hours to verify compliance with this Agreement. In the event such audit discloses non-compliance with this Agreement, Customer shall promptly pay to Cisco the appropriate license fees.",
+                "changed_text": "Customer Records. Customer allows Cisco, at its discretion, to request a review of Customer's books, records, and accounts to verify compliance with this Agreement. Should a review indicate possible non-compliance, Customer will consider remitting license fees that are deemed relevant.",
+                "explanation": "The original text allows Cisco a clear right to examine records. The modified text makes this right discretionary ('at its discretion, to request'). The original text mandates payment of fees in case of non-compliance ('shall promptly pay'). The modified text makes payment conditional and based on subjective relevance ('will consider remitting license fees that are deemed relevant'). This change introduces ambiguities around Cisco's auditing rights and Customer's payment obligations.",
+                "contradicted_law": "General Contract Law - Enforceability of Audit Clauses",
+                "location": "Page 2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more than ninety (90) days after original shipment by Cisco), and continuing for a period of the longer of (a) ninety (90) days or (b) the software warranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be free of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications.",
+                "changed_text": "Cisco offers a warranty that, commencing from the date of shipment to Customer, may extend for a period of approximately ninety (90) days. Cisco aims for the media on which the Software is furnished to be generally free of defects in materials and workmanship under typical use; and the Software to possibly conform to its general specifications.",
+                "explanation": "The original text provides a clear warranty period. The modification introduces ambiguity by using terms like 'approximately ninety (90) days' and 'may extend,' making the warranty period uncertain. The original text states the software 'substantially conforms to its published specifications' which is a clear commitment. The modified text weakens this by stating the software 'to possibly conform to its general specifications', contradicting basic warranty law requiring a minimum level of commitment.",
+                "contradicted_law": "California Commercial Code - Implied Warranty of Merchantability",
+                "location": "Page 3"
+            }
+        ]
+    }
+]

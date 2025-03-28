@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "virtuososurgicalinc_20191227_1-a_ex1a-6 mat ctrct_11933379_ex1a-6 mat ctrct_license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.3 “LICENSED PRODUCT(S)” as used herein in either singular or plural shall mean any material, compositions, or other product, the manufacture, use or sale of which would constitute, but for the license granted to Company pursuant to this Agreement, an infringement of a claim of PATENT RIGHT(S) (infringement shall include, but is not limited to, direct, contributory, or inducement to infringe).",
+                "changed_text": "2.3 “LICENSED PRODUCT(S)” as used herein in either singular or plural shall mean any material, compositions, or other product, the manufacture, use or sale of which would constitute, but for the license granted to Company pursuant to this Agreement, an infringement of a claim of PATENT RIGHT(S) (infringement shall only include direct infringement).",
+                "explanation": "The original definition includes direct, contributory, or inducement to infringe. The modified definition restricts infringement to 'direct infringement' only. This creates a contradiction as 'LICENSED PRODUCT(S)' could be interpreted differently throughout the agreement, affecting royalty calculations and potential breach claims.",
+                "location": "Section 2.3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4.6 Records: The Company shall make and retain, for a period of three (3) years following the period of each report required by Paragraph 4.4, true and accurate records, files and books of account containing all the data reasonably required for the full computation and verification of sales and other information required in Paragraph 4.4. Such books and records shall be in accordance with generally accepted accounting principles consistently applied. The Company shall permit the inspection and copying of such records, files and books of account by JHU or its agents during regular business hours upon ten (10) business days’ written notice to the Company. Such inspection shall not be made more than once each calendar year. All costs of such inspection and copying shall be paid by JHU, provided that if any such inspection shall reveal that an error has been made in the amount equal to five percent (5%) or more of such payment, such costs shall be borne by the Company.",
+                "changed_text": "4.6 Records: The Company shall make and retain, for a period of one (1) year following the period of each report required by Paragraph 4.4, true and accurate records, files and books of account containing only the total sales figures and not detailed data required for the full computation and verification of sales and other information required in Paragraph 4.4. Such books and records shall not be required to be in accordance with generally accepted accounting principles. The Company shall permit the inspection of only the summary records by JHU or its agents during regular business hours upon thirty (30) business days’ written notice to the Company. Such inspection can be made up to three times each calendar year. All costs of such inspection and copying shall be paid by the Company.",
+                "explanation": "The original requires 3 years of records, kept to GAAP standards, subject to inspection on 10 days notice, once per year, with costs borne by JHU unless a large error is found. The changed version requires 1 year, no GAAP, inspection of summary records only on 30 days notice, three times per year, with all costs borne by company. This creates significant conflicts about record keeping and audit rights.",
+                "location": "Section 4.6"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6.2 Termination by Company: Company may terminate this Agreement and the license granted herein, for any reason, upon giving JHU sixty (60) days written notice under Paragraph 8.1.",
+                "changed_text": "6.2 Termination by Company: Company may terminate this Agreement and the license granted herein, only upon providing JHU evidence of material financial hardship and giving JHU thirty (30) days written notice under Paragraph 8.1. If termination occurs within the first year, the Company must also pay a penalty of $10,000.",
+                "explanation": "The original allows termination for 'any reason' with 60 days notice. The modified version restricts termination to 'material financial hardship', shortens notice to 30 days, and adds a penalty for early termination. These contradictory terms regarding termination rights create ambiguity.",
+                "location": "Section 6.2"
+            }
+        ]
+    }
+]

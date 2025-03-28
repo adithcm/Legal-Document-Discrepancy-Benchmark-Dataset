@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "vgrabcommunicationsinc_20200129_10-k_ex-10.33_11958828_ex-10.33_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "This Agreement will be for the maximum period of six (6) months beginning for the commencement date, renewable in accordance with the terms hereof, unless earlier terminated pursuant to this Agreement.",
+                "changed_text": "This Agreement will be for a period of six (6) months beginning for the commencement date. Renewal is at the sole discretion of VAL and requires a written notice at least 30 days prior to the expiration of the initial term. If no such notice is given, this agreement automatically extends for another year.",
+                "explanation": "This change introduces conflicting terms regarding renewal. The original text states 'renewable in accordance with the terms hereof,' suggesting mutual agreement or predefined conditions for renewal. The modified text, however, gives VAL sole discretion and introduces an automatic renewal clause unless VAL actively terminates, creating ambiguity about the renewal process and the rights of the Developer.",
+                "location": "3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Payments for this Agreement will be transferred by VAL via Bank Wire Transfer Method in US Dollars Currency as per Clause 5.",
+                "changed_text": "Payments for this Agreement will be transferred by VAL via Bank Wire Transfer Method in US Dollars Currency as per Clause 5. However, VAL reserves the right to make payments in the local currency equivalent based on the prevailing exchange rate at the time of payment.",
+                "explanation": "This change introduces uncertainty by adding a clause that allows VAL to pay in local currency. While the original text specifies payment in USD, the modified text allows for local currency payment, potentially leading to disputes over exchange rates and the actual amount received by the developers. This contradicts the implied agreement of payment in USD.",
+                "location": "4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL.",
+                "changed_text": "All Intellectual Property during the project is provisionally owned by VAL. Final ownership transfer and IP hand-over will only occur after the conclusion of the project, complete fulfillment of all commercial obligations by VAL, and subject to a separate IP assignment agreement executed at VAL's discretion.",
+                "explanation": "This changes the conditions for IP transfer. The original agreement indicated a straightforward transfer upon project conclusion and VAL's fulfillment of its commercial obligations. The modified text introduces a 'provisional' ownership status, an additional IP assignment agreement at VAL's discretion, thus injecting uncertainty and potentially delaying or preventing the complete transfer of IP rights, creating ambiguity and conflict within the IP ownership clause.",
+                "location": "11.1"
+            }
+        ]
+    }
+]

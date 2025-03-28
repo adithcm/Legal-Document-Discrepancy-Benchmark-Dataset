@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "xinhasportsentertainmentltd_20070221_f-1_ex-99.4_645553_ex-99.4_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "TERM means the term as set out in Clause 7; and\nTERRITORY means the world excluding the People's Republic of China.",
+                "changed_text": "\"TERM\"             means the term as set out in Clause 7; and\n\"TERRITORY\"        means Asia, excluding Japan.",
+                "explanation": "The definition of 'TERRITORY' is changed, creating conflicting interpretations of the area in which XFN has exclusive rights. This impacts Clause 2.1, where exclusive rights are granted, as the scope of those rights is now unclear. This could lead to legal disputes over whether XFN can distribute content in specific regions.",
+                "location": "Clause 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "During the Term, CEIS agrees not to appoint any other licensees for the distribution of the Content in the People's Republic of China.",
+                "changed_text": "During the Term, CEIS may appoint other licensees for the distribution of the Content in the People's Republic of China.",
+                "explanation": "The original text states that CEIS will *not* appoint any other licensees during the Term in China. This change introduces a contradiction, implying that they *may* appoint other licensees. This impacts the exclusivity of XFN's non-exclusive rights in China (Clause 2.2). It is now unclear to what extent XFN’s rights are truly exclusive.",
+                "location": "Clause 2.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "CEIS shall use its best endeavours to ensure that the Content is made\navailable to XFN on a continuous, uninterrupted real-time basis.",
+                "changed_text": "CEIS shall use reasonable endeavours to ensure that the Content is made\navailable to XFN with occasional interruptions, on a basis that is nearly in real-time basis.",
+                "explanation": "Clause 3.2 originally places a strong obligation on CEIS to provide content continuously and in real-time. Modifying this to 'reasonable endeavours' introduces a weaker obligation, while specifying 'occasional interruptions' and 'nearly in real-time' create a conflicting standard if other parts of the contract expect continuous availability. This could make it difficult to enforce the original intention of continuous real-time delivery.",
+                "location": "Clause 3.2"
+            }
+        ]
+    }
+]

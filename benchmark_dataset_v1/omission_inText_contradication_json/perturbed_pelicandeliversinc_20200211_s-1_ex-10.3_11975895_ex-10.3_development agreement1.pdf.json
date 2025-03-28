@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "pelicandeliversinc_20200211_s-1_ex-10.3_11975895_ex-10.3_development agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Fees: The Fees for the Project shall be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be\npaid upon completion of Milestone #2.\n20% ($55,800.00) to be paid upon completion of Milestone #3.\n20% ($55,800.00) to be paid upon completion of Milestone #4.",
+                "changed_text": "Fees: The Fees for the Project shall be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit to be paid at the start of the project. Subsequent payments will be determined based on mutual agreement and project progress.",
+                "explanation": "The original text clearly outlines a payment schedule with specific amounts and milestones. The modified text removes the set amounts for milestones 1-4, introducing ambiguity and contradiction. While a total fee is mentioned, the lack of a concrete schedule creates uncertainty in enforcement and relies heavily on future mutual agreement, potentially conflicting with the initial fee agreement.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Users will pay by linking their bank accounts via Evergreen Gateway\nAccount information will be stored and used for future orders\nOnce payment is confirmed users may proceed to completing their order",
+                "changed_text": "Users will pay via available payment methods.\nAccount information may be stored for future orders\nOnce payment is confirmed users may proceed to completing their order",
+                "explanation": "The change removes the specific payment gateway (Evergreen Gateway) and changes 'will' to 'may' regarding account information storage. This creates uncertainty. The original text implies a mandatory payment method and storage, while the modified text makes both optional, potentially contradicting the original intention and leading to disputes about acceptable payment methods or data storage practices.",
+                "location": "Section 5 - Payment"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Driver will scan the customers ID using the Trulioo API right before they handle the delivery to the customer. After this last ID\ncheck, the transaction will be completed.",
+                "changed_text": "Driver will perform necessary customer verification before handling the delivery to the customer. After this verification, the transaction will be completed.",
+                "explanation": "By removing the reference to 'Trulioo API', the contract no longer specifies how ID verification will be conducted. This creates ambiguity as the exact method for verification becomes unclear. The change creates an internal contradiction because the rest of the application has been built using Trulioo API, removing the specification that was built upon opens the possibility of the contract being unenforceable.",
+                "location": "Back-end Development - Daily Pay"
+            }
+        ]
+    }
+]

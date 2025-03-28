@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "webmdhealthcorp_20050908_s-1a_ex-10.7_1027007_ex-10.7_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "All material notices and other communications required or permitted under this Agreement shall be in writing and notices will be deemed given three (3) days after they are sent by first class mail, return receipt requested, and one (1) day after they are sent by overnight courier or upon receipt if delivered by hand delivery, to the receiving party’s address as set forth in the first paragraph above, or to such other address that the receiving party may have provided in writing to the other party for purposes of receiving notices as provided in this Section.",
+                "changed_text": "All material notices and other communications required or permitted under this Agreement shall be in writing and notices will be deemed given five (5) business days after they are sent by first class mail, return receipt requested, and three (3) business days after they are sent by overnight courier or upon confirmed receipt if delivered by hand delivery, to the receiving party’s address as set forth in the first paragraph above, or to such other address that the receiving party may have provided in writing to the other party for purposes of receiving notices as provided in this Section.",
+                "explanation": "Changing the timeframe for when notices are deemed 'given' introduces a contradiction. The original text specifies a fixed number of days, while the modified version uses 'business days' and adds the requirement of 'confirmed receipt' for hand delivery. This creates ambiguity regarding the exact timing of notice, impacting deadlines and legal obligations.",
+                "location": "8(a)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "During the term of this Agreement and for a period of two (2) years after termination hereof, neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Confidential Information, except as expressly directed by such party or as permitted herein.",
+                "changed_text": "During the term of this Agreement and perpetually after termination hereof, neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Confidential Information, except as expressly directed by such party or as permitted herein.",
+                "explanation": "The term for confidentiality is changed from 'two years after termination' to 'perpetually after termination.' This creates a direct conflict within the document if other clauses assume a limited period of confidentiality, or if the definition of Trade Secrets which relies on maintained secrecy, becomes untenable due to this perpetual obligation.",
+                "location": "6(c)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "WebMD hereby agrees to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.",
+                "changed_text": "WebMD will use commercially reasonable efforts to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.",
+                "explanation": "Changing 'WebMD hereby agrees to provide' to 'WebMD will use commercially reasonable efforts to provide' weakens the obligation. Exhibit A is now subject to interpretation on how WebMD defines 'commercially reasonable efforts.' This conflicts with the original intent of a guaranteed provision of content outlined in Exhibit A. This ambiguity undermines the enforceability of WebMD's content delivery obligations.",
+                "location": "1(a)"
+            }
+        ]
+    }
+]

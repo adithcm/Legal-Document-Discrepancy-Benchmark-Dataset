@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "pelicandeliversinc_20200211_s-1_ex-10.3_11975895_ex-10.3_development agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Before a user can gain access to the website, they must first verify their birthday (users must be 21 and over to even view the website).",
+                "changed_text": "Before a user can gain access to the website, they should attempt to verify their age.",
+                "explanation": "The original text mandates age verification, ensuring compliance with laws prohibiting cannabis sales to minors. Changing 'must' to 'should attempt' weakens this requirement, making age verification optional. This introduces ambiguity that could lead to underage access, directly contradicting Washington state law (where Bellevue is located) and other state regulations regarding the sale of cannabis, which require strict age verification.",
+                "contradicted_law": "Washington State law regarding cannabis sales (RCW 69.50.401) and other state laws prohibiting sales to minors.",
+                "location": "5. Statement of Work - Website (Customer Portal)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Users shall also be able to add their payment information. This is where the application will use Daily Pay and link to the customers bank.",
+                "changed_text": "Users may be able to add their payment information. The application may use Daily Pay and link to the customers bank.",
+                "explanation": "Changing 'shall' to 'may' makes the ability to add payment information and the utilization of Daily Pay optional. This introduces ambiguity regarding the payment process and whether the application will reliably support payment, potentially conflicting with consumer protection laws that require clear and reliable payment methods for online transactions. The lack of clarity could create issues with refunds and transaction disputes.",
+                "contradicted_law": "Consumer Protection Act (lack of clear payment methods) and state laws on online transactions.",
+                "location": "5. Statement of Work - Website (Customer Portal) - Profile"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Trulioo will verify if the issued ID is valid and if the selfie matches the ID. Once verification is completed the user will be able to complete the order.",
+                "changed_text": "Trulioo might verify if the issued ID is valid and if the selfie matches the ID. If verification is attempted the user may be able to complete the order.",
+                "explanation": "Changing 'will' to 'might' and 'Once verification is completed' to 'If verification is attempted' introduces ambiguity regarding the mandatory ID verification process. This weakens the verification requirement, potentially violating state laws regarding the sale of cannabis, which mandate strict ID verification to prevent sales to minors or unauthorized individuals. By making the process optional, it increases the risk of non-compliance and legal repercussions.",
+                "contradicted_law": "Washington State law regarding cannabis sales (RCW 69.50.401) and other state laws requiring ID verification for regulated product sales.",
+                "location": "5. Statement of Work - Website (Customer Portal) - Age / ID Verification"
+            }
+        ]
+    }
+]

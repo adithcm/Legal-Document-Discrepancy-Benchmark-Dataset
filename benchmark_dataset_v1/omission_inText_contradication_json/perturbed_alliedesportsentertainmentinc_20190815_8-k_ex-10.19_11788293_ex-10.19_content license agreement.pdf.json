@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "alliedesportsentertainmentinc_20190815_8-k_ex-10.19_11788293_ex-10.19_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Royalty. Zynga will pay to WPT ten percent (10%) of the cumulative Net Revenue (as defined in Section 3.b. of the Additional Provisions) (“Royalty”) from the WPT-branded Zynga Poker Tournament Mode or other such use of the WPT brand on the Zynga platform. Zynga shall not be required to pay the Royalty to the extent offset by the Annual Minimum Guarantee payments previously paid to WPT during the Term. Conversely, Zynga shall not be required to make Annual Minimum Guarantee payments to the extent offset by the Royalty previously paid to WPT during the Term.",
+                "changed_text": "Royalty. Zynga will pay to WPT a percentage of the cumulative Net Revenue (“Royalty”) from the WPT-branded Zynga Poker Tournament Mode or other such use of the WPT brand on the Zynga platform. Zynga shall not be required to pay the Royalty to the extent offset by the Annual Minimum Guarantee payments previously paid to WPT during the Term. Conversely, Zynga shall not be required to make Annual Minimum Guarantee payments to the extent offset by the Royalty previously paid to WPT during the Term.",
+                "explanation": "Removing the specific royalty percentage (10%) creates an ambiguity. While the term \"Royalty\" is still used, the actual percentage is no longer defined in this section, even though Section 3 refers to it. This creates an internal contradiction, making royalty calculation uncertain.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The parties acknowledge and agree that the rights granted hereunder by Zynga (a) with respect to the United States are granted to, held and exercised by Zynga US and (b) with respect to all other parts of the Territory are granted to, held and exercised by Zynga Ireland.",
+                "changed_text": "The parties acknowledge and agree that the rights granted hereunder by Zynga with respect to the Territory are subject to Zynga's internal distribution policies.",
+                "explanation": "By removing the distinction between Zynga US and Zynga Ireland and replacing it with 'Zynga's internal distribution policies', we introduce ambiguity regarding which entity is responsible for specific regions. Other sections referencing the defined responsibilities of each entity now become unclear regarding which 'Zynga' is responsible. This creates uncertainty in enforcement.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "WPT shall indemnify, defend, and hold harmless Zynga and its Affiliates, and the respective directors, officers and employees of the foregoing (the “Zynga Indemnified Parties”) from and against any and all third party claims, actions, suits, costs, liabilities, judgments, obligations, losses, penalties, expenses or damages (including, without limitation, reasonable legal fees and expenses) of whatsoever kind and nature imposed on, incurred by or asserted against any of the Zynga Indemnified Parties arising out of: (i) any breach or alleged breach by WPT of any representation, warranty or covenant made, by WPT pursuant to this Agreement; or (ii) WPT’s non-compliance with any applicable federal, state or local laws or with any applicable regulations in connection with its performance of this Agreement.",
+                "changed_text": "WPT shall indemnify Zynga from third party claims arising out of WPT's actions under this agreement.",
+                "explanation": "The modified text removes key details regarding the scope of indemnification, specifically who the 'Zynga Indemnified Parties' are (Affiliates, directors, officers, employees) and the types of claims covered (breach of warranty, non-compliance with laws). By removing this information, the original text, which may reference 'Zynga Indemnified Parties' or specific breaches, becomes unclear, introducing significant risk and uncertainty.",
+                "location": "Section 5.a"
+            }
+        ]
+    }
+]

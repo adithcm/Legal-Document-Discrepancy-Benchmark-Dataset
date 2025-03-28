@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "agapeatpcorp_20191202_10-ka_ex-10.1_11911128_ex-10.1_supply agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.3\nRenewal\nThis agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten\n(10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than\nbreach of this agreement.",
+                "changed_text": "1.3\nRenewal\nThis agreement may be renewed at the end of every ten (10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement. All other terms and conditions for renewal of this agreement shall be renegotiated between the parties.",
+                "explanation": "By changing 'will be automatically renewed' to 'may be renewed' and adding 'All other terms and conditions for renewal of this agreement shall be renegotiated between the parties,' we introduce an ambiguity. While the original text implied automatic renewal unless specific breach conditions were met, the new text suggests renewal is not guaranteed and requires renegotiation, creating uncertainty about the agreement's longevity. This could contradict sections assuming continuous operation beyond the initial term.",
+                "location": "1.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.3\nRejection of defective products\nThe Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product, provided that the Customer\nshall within seven (7) days after receipt of such alleged defective Product, notify the Manufacturer of its rejection and either:\n(i)\nrequest to destroy in field for credit of the value of the defective product and the associated shipping costs (with approval), or\n(ii)\nrequest a Return Material Authorization (“RMA”) number and within seven (7) days of receipt of the RMA number from the\nManufacturer return such rejected Product to the Manufacturer.\nProducts not rejected within the foregoing time periods shall be deemed accepted by the Customer.\nIn the event that the Manufacturer determines that the returned Product is defective and properly rejected by the Customer, the\nManufacturer shall credit to the Customer the value of the defective product and the associated shipping costs.",
+                "changed_text": "5.3\nRejection of defective products\nThe Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product. Products not rejected after 30 days from the date of delivery shall be deemed accepted by the Customer. In the event that the Manufacturer determines that the product requires replacement, the Manufacturer shall replace it without shipping costs.",
+                "explanation": "By removing the specific notification period (seven days), the RMA process, and the detail around crediting the customer, and replacing it with a vague 30-day acceptance period, we create a contradiction. The original text specifies procedures and timeframes; the altered version offers a longer timeframe, but it no longer mentions crediting the customer. This introduces uncertainty about the acceptance process and the manufacturer's financial responsibility for defects. The text now implies replacement is the default, but does not address the possibility of crediting the customer.",
+                "location": "5.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "13.1\nThe Manufacturer hereby appoints the Customer to be the sole and exclusive agent for the promotion, sales, marketing, distribution and\nadministration of the products listed in schedule A of this agreement based on minimum annual product purchase requirements as listed in\nSchedule B of this agreement.",
+                "changed_text": "13.1\nThe Manufacturer hereby appoints the Customer to be an agent for the promotion, sales, marketing, distribution and administration of the products listed in schedule A of this agreement. Minimum annual product purchase requirements will be jointly agreed upon between the parties.",
+                "explanation": "By removing 'sole and exclusive' and changing 'based on minimum annual product purchase requirements as listed in Schedule B' to 'Minimum annual product purchase requirements will be jointly agreed upon between the parties,' we introduce a contradiction. The original clause grants exclusivity and ties it to Schedule B, providing clarity. The modified clause eliminates exclusivity, making the agency non-exclusive. Further, by stating the purchase requirements will be 'jointly agreed upon', it effectively invalidates Schedule B. This contradiction creates ambiguity about the Customer's rights and obligations, as Schedule B no longer dictates the minimum purchase requirements, and the Manufacturer is free to appoint other agents.",
+                "location": "13.1"
+            }
+        ]
+    }
+]

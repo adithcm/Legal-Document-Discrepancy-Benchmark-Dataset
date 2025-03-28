@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cybergyholdingsinc_20140520_10-q_ex-10.27_8605784_ex-10.27_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Marketing Affiliate Agreement (the “Agreement”) is entered into this 8th day of May\n2014, by and between BIRCH FIRST GLOBAL INVESTMENTS INC., a corporation incorporated\nin the U.S. Virgin Islands, with its main place of business located 9100 Havensight, Port of Sale, Ste.\n15/16, St. Thomas, VI 0080 (referred to as “Company”) and MOUNT KNOWLEDGE HOLDINGS\nINC. and/or assigns, a corporation incorporated in the State of Nevada, with its main place of business\nlocated at 228 Park Avenue S. #56101 New York, NY 10003­1502 (referred to as “Marketing\nAffiliate” or “MA”).",
+                "changed_text": "This Marketing Affiliate Agreement (the “Agreement”) is entered into this 8th day of May\n2014, by and between BIRCH FIRST GLOBAL INVESTMENTS INC., a corporation incorporated\nin the U.S. Virgin Islands, with its main place of business located 9100 Havensight, Port of Sale, Ste.\n15/16, St. Thomas, VI 0080 (referred to as “Company”) and MOUNT KNOWLEDGE HOLDINGS\nINC. and/or assigns, a corporation incorporated in the State of Nevada, with its main place of business\nlocated at 228 Park Avenue S. #56101 New York, NY 10003­1502 (referred to as “Marketing\nAffiliate” or “Vendor”).",
+                "explanation": "The term 'MA' is replaced with 'Vendor'. Later in the document, 'MA' is still used, leading to confusion as to whether the agreement applies to the 'Vendor' or if 'MA' and 'Vendor' are different entities with different obligations.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "MA agrees to distribute Technology only through the Company License Agreement/Client\nRegistration Card between the Client and Company. MA acknowledges that the Company License\nAgreement/ Client Registration Card specifies the terms under which a Client receives, holds and uses\nthe Package or Service.",
+                "changed_text": "MA agrees to distribute Technology only through the Company License Agreement/Customer\nRegistration Card between the Client and Company. MA acknowledges that the Company License\nAgreement/ Client Registration Card specifies the terms under which a Client receives, holds and uses\nthe Package or Service.",
+                "explanation": "Changing 'Client' to 'Customer' in 'Company License Agreement/Customer Registration Card' introduces inconsistency. The subsequent sentence refers back to the original 'Company License Agreement/Client Registration Card', creating uncertainty about which agreement governs the relationship.",
+                "location": "Section 11"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "MA shall notify Company promptly of any misuse of unauthorized use of the Technology, which\ncomes to the attention of MA, and shall notify its Clients upon the request of Company when Company\nbelieves such Technology are being misused.",
+                "changed_text": "MA shall notify Company promptly of any misuse of unauthorized use of the Technology, which\ncomes to the attention of MA, and shall notify its Clients upon the request of Company when Company\nbelieves such Technology are being utilized incorrectly.",
+                "explanation": "Replacing the phrase 'being misused' with 'utilized incorrectly' introduces a contradiction. 'Misused' implies an unauthorized or improper use, while 'utilized incorrectly' suggests a user error or lack of understanding. This alters the severity of the situation the MA must report and creates confusion about what actions trigger the notification requirement.",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "western copper - non-competition agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Employee acknowledges that the restrictions contained in this Agreement are reasonable and necessary to protect the legitimate business interests of the Company, including its confidential information and customer relationships. Employee further acknowledges that the Company has provided Employee with valuable consideration in exchange for Employee’s agreement to these restrictions.",
+                "changed_text": "Employee acknowledges that the restrictions contained in this Agreement are reasonable, but may not be strictly necessary, to protect the business interests of the Company, including its confidential information. Employee acknowledges that the Company has provided Employee with consideration, the value of which may be nominal, in exchange for Employee’s agreement to these restrictions.",
+                "explanation": "The original text asserts the restrictions are 'necessary' and the consideration is 'valuable,' strengthening the enforceability of the non-compete. The modified version weakens this by suggesting the restrictions may not be essential and the consideration may be of little value, potentially undermining the enforceability of the agreement.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "For a period of one (1) year following the Termination Date (the “Restricted Period”), Employee shall not, directly or indirectly, engage in any business activity that competes with the business of the Company within a one hundred (100) mile radius of any of the Company’s offices (the “Restricted Area”).",
+                "changed_text": "For a period not exceeding one (1) year following the Termination Date (the “Restricted Period”), Employee may, at the Company's discretion, be asked to refrain from engaging in competitive business activity, the precise definition of which to be determined post-termination, within an area vaguely resembling the one hundred (100) mile radius previously mentioned in passing proximity to the Company’s primary office (the “Restricted Area”).",
+                "explanation": "The original text provides a clear 1-year restriction and a specific geographic area. The modified text introduces ambiguity by making the restriction conditional ('may be asked'), the competitive activity ill-defined ('precise definition to be determined'), and the geographic area vague ('vaguely resembling'). This creates uncertainty about the scope and enforceability of the non-compete clause.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Employee acknowledges that any breach of this Agreement would cause irreparable harm to the Company for which monetary damages would be inadequate. In the event of a breach or threatened breach of this Agreement, the Company shall be entitled to injunctive relief, in addition to any other remedies available at law or equity.",
+                "changed_text": "Employee acknowledges that a breach of this Agreement *might* cause *some* harm to the Company, the exact nature of which is difficult to ascertain and for which monetary damages may or may not be adequate. In the event of a breach or *potential* breach of this Agreement, the Company *may* be entitled to injunctive relief, contingent upon demonstrating substantial and irreparable harm, in addition to *other hypothetical* remedies available at law or equity.",
+                "explanation": "The original text states that a breach would cause 'irreparable harm' and the Company 'shall be entitled' to injunctive relief. The modified text weakens this by suggesting the harm is uncertain ('might cause some harm') and injunctive relief is discretionary ('may be entitled'), contingent on proving harm, thus making it harder for the Company to secure an injunction.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

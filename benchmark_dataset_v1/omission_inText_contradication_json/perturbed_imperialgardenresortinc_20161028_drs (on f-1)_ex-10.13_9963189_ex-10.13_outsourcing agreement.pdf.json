@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "imperialgardenresortinc_20161028_drs (on f-1)_ex-10.13_9963189_ex-10.13_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The fees for services mentioned in Part I to Part VI are NTD 12 million ((SAY TWELVE MILLION ONLY) in total and the fees for planning and design of the buildings and construction monitoring shall be calculated based on the ratio of 3.50% of the legal construction cost hereof.",
+                "changed_text": "The fees for services mentioned in Part I to Part VI are NTD 12 million ((SAY TWELVE MILLION ONLY) in total. The fees for planning and design of the buildings and construction monitoring will be determined at a later date by a separate agreement.",
+                "explanation": "By removing the defined calculation method (3.50% of the legal construction cost) and stating that it will be determined later, while Article V outlines specific payment stages dependent on this construction cost, it creates an internal contradiction. Enforcement becomes uncertain because there's no immediate reference for determining the construction cost ratio, yet the contract proceeds assuming it exists for payment stages.",
+                "location": "Article IV"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Stage 8: The service fee that is 3.00% of the legal construction cost shall be paid after documents and drawings for applying for the construction license of relevant buildings and the application is submitted to the competent authority.\nStage 9: The service fee that is 0.5% of the legal construction cost shall be paid upon submitting the construction starting application to the competent authority.",
+                "changed_text": "Stage 8: A service fee will be paid after documents and drawings for applying for the construction license of relevant buildings and the application is submitted to the competent authority.\nStage 9: A service fee will be paid upon submitting the construction starting application to the competent authority.",
+                "explanation": "Removing the specific percentages (3.00% and 0.5% of the legal construction cost) contradicts Article IV's stated dependence on construction cost ratio (even if that is vaguely defined in the modified article). The contract now references payments dependent on a cost without specifying what the cost is, or how to calculate the payment amount. This creates a contradiction.",
+                "location": "Article V"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "In case the Contract cannot be performed due to any reason other than the architect herein, the client agrees the fees paid will not be refunded. In case the Contract cannot be performed due to the architect herein, the architect shall refund the fees paid in full without taking any interest to the client.",
+                "changed_text": "In case the Contract cannot be performed, the parties will negotiate the appropriate refund or compensation, taking into consideration the work completed.",
+                "explanation": "The original text clearly defines refund conditions based on who is at fault. The modified text removes this clear allocation and replaces it with a vague 'negotiation' clause. This contradicts Article V, which previously had specific stages and payment amounts linked to deliverables. The removal of defined refund conditions undermines the established payment structure.",
+                "location": "Article V"
+            }
+        ]
+    }
+]

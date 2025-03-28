@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Customer's license to use the Software shall be limited to, and Customer shall not use the Software in excess of, a single hardware chassis or card or that number of agent(s), concurrent users, sessions, IP addresses, port(s), seat(s), server(s) or site(s), as set forth in the applicable Purchase Order which has been accepted by Cisco and for which Customer has paid to Cisco the required license fee.",
+                "changed_text": "Customer's license to use the Software shall be limited as set forth in the applicable Purchase Order which has been accepted by Cisco.",
+                "explanation": "By removing the specific limitations regarding hardware, agents, users, etc., the contract becomes vague. While it still references the Purchase Order, the omission introduces ambiguity about the exact extent of the license, especially if a separate section refers to specific user limits but the Purchase Order lacks details, leading to a contradiction.",
+                "location": "Section: License"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Software, Upgrades and Additional Copies. For purposes of this Agreement, \"Software\" shall include (and the terms and conditions of this Agreement shall apply to) computer programs, including firmware, as provided to Customer by Cisco or an authorized Cisco reseller, and any upgrades, updates, bug fixes or modified versions thereto (collectively, \"Upgrades\") or backup copies of the Software licensed or provided to Customer by Cisco or an authorized Cisco reseller. NOTWITHSTANDING ANY OTHER PROVISION OF THIS AGREEMENT: (1) CUSTOMER HAS NO LICENSE OR RIGHT TO USE ANY ADDITIONAL COPIES OR UPGRADES UNLESS CUSTOMER, AT THE TIME OF ACQUIRING SUCH COPY OR UPGRADE, ALREADY HOLDS A VALID LICENSE TO THE ORIGINAL SOFTWARE AND HAS PAID THE APPLICABLE FEE FOR THE UPGRADE; (2) USE OF UPGRADES IS LIMITED TO CISCO EQUIPMENT FOR WHICH CUSTOMER IS THE ORIGINAL END USER PURCHASER OR LESSEE OR WHO OTHERWISE HOLDS A VALID LICENSE TO USE THE SOFTWARE WHICH IS BEING UPGRADED; AND (3) THE MAKING AND USE OF ADDITIONAL COPIES IS LIMITED TO NECESSARY BACKUP PURPOSES ONLY.",
+                "changed_text": "Software, Upgrades and Additional Copies. For purposes of this Agreement, \"Software\" shall include (and the terms and conditions of this Agreement shall apply to) computer programs, including firmware, as provided to Customer by Cisco or an authorized Cisco reseller, and any upgrades, updates, bug fixes or modified versions thereto (collectively, \"Upgrades\") or backup copies of the Software licensed or provided to Customer by Cisco or an authorized Cisco reseller.",
+                "explanation": "Removing the numbered clauses that specifically restricts the use of upgrades to the original end user, when other clauses still imply upgrades can be received, the omission introduces a contradiction on how upgrades are to be treated, thus there is uncertainty in enforcement.",
+                "location": "Section: Software, Upgrades and Additional Copies"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more than ninety (90) days after original shipment by Cisco), and continuing for a period of the longer of (a) ninety (90) days or (b) the software warranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be free of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications.",
+                "changed_text": "Cisco warrants that the Software substantially conforms to its published specifications.",
+                "explanation": "By removing the warranty period, but keeping the warranty that the Software substantially conforms to its published specifications, implies a warranty still exists, but the term of that warranty is not mentioned, this creates uncertainty, and opens to disputes. This omission will create an internal text contradiction as the paragraph header states \"Limited Warranty\".",
+                "location": "Section: Limited Warranty"
+            }
+        ]
+    }
+]

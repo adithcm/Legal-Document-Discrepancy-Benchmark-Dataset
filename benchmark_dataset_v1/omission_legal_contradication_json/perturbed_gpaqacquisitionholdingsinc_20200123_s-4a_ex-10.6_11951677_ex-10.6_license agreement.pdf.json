@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "gpaqacquisitionholdingsinc_20200123_s-4a_ex-10.6_11951677_ex-10.6_license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each of the Village Media Company and PFHOF, as applicable, agrees to be in material compliance with all federal, state, and local laws, ordinances, and regulations applicable to its respective operations and to obtain and maintain all licenses and permits required by law necessary for each of their respective operations.",
+                "changed_text": "Each of the Village Media Company and PFHOF, as applicable, agrees to comply with all federal laws, ordinances, and regulations applicable to its respective operations. Licenses and permits are not required.",
+                "explanation": "Removing the requirement to comply with state and local laws introduces a legal risk, especially concerning consumer protection, data privacy, and advertising standards, which vary significantly by state and locality in the United States. By stating 'Licenses and permits are not required' directly contradicts regulations.",
+                "contradicted_law": "Varies by State and Locality (e.g., State Consumer Protection Laws, Local Business Licensing Regulations)",
+                "location": "7.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement will be governed in all respects by the laws of the State of Ohio (without regard to conflicts of law provisions), as such laws are applied to agreements entered into and to be performed entirely within the State of Ohio between Ohio residents.",
+                "changed_text": "This Agreement will be governed in all respects by the laws of the State of Delaware (without regard to conflicts of law provisions).",
+                "explanation": "The original clause specifies Ohio law, providing a degree of consumer protection under Ohio statutes. Changing the governing law to Delaware, a state known for its corporate-friendly laws, and omitting the phrase stating that such laws are applied to agreements entered into and to be performed entirely within the State of Ohio between Ohio residents could reduce the protection afforded to Ohio consumers. Delaware laws often favor corporations over individual consumers. By altering the choice of law provision, the contract attempts to circumvent potentially more stringent consumer protection laws in Ohio. This is a key violation.",
+                "contradicted_law": "Ohio Consumer Protection Laws (e.g., Ohio Consumer Sales Practices Act)",
+                "location": "7.4(a)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Party acknowledges that a breach or threatened breach of this Section 7.1 on its part shall result in irreparable and incalculable damages to the other Party. Therefore, in addition to any action by either Party for collection of damages resulting from the breach of this Agreement, such Party shall also be entitled to immediate injunctive relief, restraining the other Party from continued or threatened breach of this Agreement. Each Party further agrees that, upon a finding of a breach of the terms of this Agreement on its part, such Party shall pay to the other Party the costs and expenses, including attorneys’ fees, which the other Party incurs in enforcing the terms of this Agreement.",
+                "changed_text": "Each Party acknowledges that a breach or threatened breach of this Section 7.1 on its part shall result in damages to the other Party. Each Party agrees that, upon a finding of a breach of the terms of this Agreement on its part, each party shall be responsible for their own legal fees.",
+                "explanation": "The original clause allows for injunctive relief and the recovery of legal fees by the prevailing party. The modified clause removes the right to injunctive relief and stipulates that each party bears its own legal fees. This change significantly weakens the remedies available to PFHOF (a non-profit) in case of a breach, potentially making it financially prohibitive for PFHOF to enforce the confidentiality provisions. This removal could violate fair business practices, as it disproportionately disadvantages one party by limiting their legal recourse.",
+                "contradicted_law": "Principles of Fair Business Practices and Contract Law (regarding equitable remedies and access to justice)",
+                "location": "7.1(e)"
+            }
+        ]
+    }
+]

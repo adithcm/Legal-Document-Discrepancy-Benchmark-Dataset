@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Supplier shall provide the Maintenance Services described in this for Software, Updates and Upgrades provided to Bank of America pursuant to this Agreement.",
+                "changed_text": "Supplier shall endeavor to provide Maintenance Services for Software, Updates and Upgrades provided to Bank of America pursuant to this Agreement.",
+                "explanation": "Replacing 'shall provide' with 'shall endeavor to provide' introduces ambiguity and weakens the obligation to provide maintenance services. This could lead to disputes over the level of effort required from the supplier, making enforcement of maintenance obligations difficult.",
+                "contradicted_law": "Breach of Contract",
+                "location": "SCHEDULE D, B"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Supplier shall make reasonable efforts to respond within two (2) hours to Bank of America’s initial request for assistance in correcting or creating a workaround for an Error. Supplier’s response shall include assigning fully-qualified technicians to work with Bank of America to diagnose and correct or create a workaround for the Error and notifying the Bank of America Representative making the initial request for assistance of Supplier’s efforts, plans for resolution of the Error, and estimated time required to resolve the Error. Supplier shall correct Errors caused by the Object Code by modifying Source Code and distributing the modified Software to Bank of America on the schedule called for in this Section.",
+                "changed_text": "Supplier will attempt to respond to Bank of America’s initial request for assistance in correcting or creating a workaround for an Error. Supplier’s response may include assigning technicians to work with Bank of America to diagnose or create a workaround for the Error and notifying the Bank of America Representative of Supplier’s general intentions regarding the Error. Supplier may correct Errors caused by the Object Code by modifying Source Code and potentially distributing the modified Software to Bank of America.",
+                "explanation": "This change introduces several ambiguities. Changing 'shall make reasonable efforts' to 'will attempt' weakens the obligation. Replacing 'fully-qualified technicians' with 'technicians' reduces the specificity of the requirement. Changing 'shall correct Errors' to 'may correct Errors' makes error correction discretionary. Removing a fixed schedule further compounds the ambiguity, all of which make the original obligation vague.",
+                "contradicted_law": "Breach of Contract",
+                "location": "SCHEDULE D, ERROR CORRECTION, A"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Supplier shall monitor industry-standard information channels (bugtraq, CERT, OEMs, etc.) for newly identified system vulnerabilities regarding the technologies and services provided to Bank of America and fix or patch any identified security problem in an adequate and timely manner. Unless otherwise expressly agreed in writing, “timely” shall mean that Supplier shall Introduce such fix or patch as soon as commercially reasonable after Supplier becomes aware of the security problem. This obligation extends to all devices that comprise Supplier’s system, e.g., application software, databases, servers, firewalls, routers and switches, hubs, etc., and to all of Supplier’s other Confidential Information handling practices.",
+                "changed_text": "Supplier may monitor information channels for newly identified system vulnerabilities regarding the technologies and services provided to Bank of America and may consider fixing or patching any identified security problem. The interpretation of 'timely' shall be left to the Supplier’s discretion. This suggestion applies to some devices that comprise Supplier’s system.",
+                "explanation": "The terms 'shall monitor' is changed to 'may monitor', making vulnerability monitoring optional. Removing the explicit definition of 'timely' gives the supplier complete discretion. Replacing 'This obligation extends to all devices' with 'This suggestion applies to some devices' reduces the scope of the obligation. This affects data security.",
+                "contradicted_law": "Gramm-Leach-Bliley Act (GLBA) and NYDFS Cybersecurity Regulation (23 NYCRR 500)",
+                "location": "SCHEDULE E, DETECTION AND RESPONSE"
+            }
+        ]
+    }
+]

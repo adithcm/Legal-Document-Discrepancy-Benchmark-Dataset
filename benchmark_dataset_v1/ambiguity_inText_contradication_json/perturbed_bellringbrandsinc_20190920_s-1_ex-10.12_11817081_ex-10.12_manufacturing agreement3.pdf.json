@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "bellringbrandsinc_20190920_s-1_ex-10.12_11817081_ex-10.12_manufacturing agreement3.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "This Agreement shall commence on the Effective Date and shall continue for an initial term of three (3) years, unless earlier terminated as provided herein (the “Initial Term”). Following the Initial Term, this Agreement shall automatically renew for successive one (1) year terms (each a “Renewal Term”), unless either party gives written notice to the other party of its intention not to renew at least one hundred eighty (180) days prior to the expiration of the then-current term.",
+                "changed_text": "This Agreement shall commence on the Effective Date and shall continue for an initial term of three (3) years, unless earlier terminated as provided herein (the “Initial Term”). Following the Initial Term, this Agreement shall automatically renew for successive one (1) year terms (each a “Renewal Term”), unless either party gives written notice to the other party of its intention not to renew at least thirty (30) days prior to the expiration of the then-current term.",
+                "explanation": "The original text states that notice of non-renewal must be given 180 days prior to the expiration of the term. The changed text reduces this to 30 days. This creates an internal contradiction regarding the required notice period for non-renewal, making it unclear when the notification needs to be delivered. This could result in disputes over whether a renewal term is valid.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Manufacturer shall maintain throughout the Term commercial general liability insurance, including products liability insurance, with a reputable and financially sound insurance company, in an amount not less than Two Million Dollars ($2,000,000) per occurrence and Five Million Dollars ($5,000,000) in the aggregate.",
+                "changed_text": "The Manufacturer shall maintain throughout the Term commercial general liability insurance with a reputable and financially sound insurance company, in an amount not less than One Million Dollars ($1,000,000) per occurrence and Two Million Dollars ($2,000,000) in the aggregate.",
+                "explanation": "The original text specifies that the Manufacturer must maintain insurance coverage of $2,000,000 per occurrence and $5,000,000 in the aggregate. The changed text reduces these amounts to $1,000,000 and $2,000,000, respectively. This contradiction creates uncertainty about the required level of insurance coverage, potentially leading to disputes if a claim exceeds the lower limit. It's unclear which insurance requirement is enforceable.",
+                "location": "Section 8.3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Manufacturer shall be solely responsible for all costs and expenses associated with the manufacture of the Products, including, without limitation, the costs of raw materials, labor, equipment, and overhead. The Manufacturer shall invoice BellRing for the Products at the prices set forth in Exhibit A, plus any applicable taxes.",
+                "changed_text": "The Manufacturer shall be solely responsible for all costs and expenses associated with the manufacture of the Products, including, without limitation, the costs of raw materials and labor. BellRing shall reimburse Manufacturer for equipment and overhead expenses, subject to pre-approval by BellRing. The Manufacturer shall invoice BellRing for the Products at the prices set forth in Exhibit A, plus any applicable taxes.",
+                "explanation": "The original text states the Manufacturer is responsible for all manufacturing costs. The modified text shifts responsibility for equipment and overhead costs to BellRing, subject to pre-approval. This creates a direct contradiction about who is financially responsible for these specific costs, making it unclear which party bears the risk and burden of these expenses.",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]

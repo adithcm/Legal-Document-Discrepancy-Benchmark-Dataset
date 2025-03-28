@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "quantumgroupincfl_20090120_8-k_ex-99.2_3672910_ex-99.2_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This e-business Hosting Agreement (“Agreement”) between International Business Machines Corporation (“IBM”) and  The Quantum Group Inc., (“Customer”), sets forth the terms and conditions under which IBM will provide hosting and related services (“Services”) to Customer.",
+                "changed_text": "This e-business Hosting Agreement (“Agreement”) between International Business Machines Corporation (“IBM”) and  The Quantum Group Inc., (“Client”), sets forth the terms and conditions under which IBM will provide hosting and related services (“Services”) to Customer.",
+                "explanation": "The terms 'Customer' and 'Client' are used interchangeably in different parts of the contract without a clear definition of whether they refer to the same entity. This could cause confusion regarding which party the obligations and rights apply to.",
+                "location": "1.0 Introduction"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Managed Hosting Services may not be available during this time.  IBM reserves the right to interrupt Managed Hosting Services to perform emergency maintenance as needed.  In any such circumstances, IBM will use commercially reasonable measures to notify Customer.",
+                "changed_text": "Managed Hosting Services may not be available during this time.  IBM reserves the right to interrupt Managed Hosting Services to perform emergency maintenance as needed.  In any such circumstances, IBM will use commercially reasonable measures to notify the account holder.",
+                "explanation": "The contract now uses 'Customer' and 'account holder' seemingly interchangeably. It is not defined whether they refer to the same party, introducing ambiguity. If the 'account holder' is not the 'Customer', the notification obligation may not be correctly fulfilled.",
+                "location": "Attachment A – Services, 1.0 Description"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Customer must test their applications and approve the IBM applying maintenance releases for their OS such that the environment is always within two maintenance releases. All SLAs will be suspended and service will be provided on a best effort basis for any environment that does not comply with this requirement.",
+                "changed_text": "Customer must test their applications and approve the IBM applying maintenance releases for their OS such that the environment is always within two maintenance releases. All SLAs will be suspended and service will be provided on a best effort basis for any environment that does not comply with this stipulation.",
+                "explanation": "Changing 'requirement' to 'stipulation' alters the perceived weight and enforceability of the clause. 'Requirement' implies a mandatory condition, whereas 'stipulation' can suggest a less critical agreement. This creates uncertainty about whether failing to comply with this 'stipulation' will truly suspend the SLAs.",
+                "location": "Attachment A – Services, 4.8 Fully Managed Servers"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "quantumgroupincfl_20090120_8-k_ex-99.2_3672910_ex-99.2_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "For personal information processed by IBM on Customer’s behalf as part of the Services, IBM will act in accordance with Customer’s\ninstructions by following such processing and security obligations as are contained in this Agreement.  Customer also confirms that\nCustomer is solely responsible for ensuring that any processing and security obligations comply with applicable data protection laws.\nCustomer’s contact information shall not be considered personal information processed on Customer’s behalf.",
+                "changed_text": "For personal information processed by IBM on Customer’s behalf as part of the Services, IBM will make reasonable efforts to act in accordance with Customer’s instructions. Customer’s contact information shall not be considered personal information processed on Customer’s behalf.",
+                "explanation": "The original text includes a commitment to comply with processing and security obligations as contained in the agreement and confirmation of compliance with applicable data protection laws. The modified version weakens this to 'reasonable efforts' and removes the explicit acknowledgement of responsibility for adhering to all data protection laws. This could violate GDPR or CCPA if IBM processes EU or California resident data, as those laws require strict compliance, not just 'reasonable efforts'.",
+                "contradicted_law": "GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act)",
+                "location": "Section 14.0, Data Protection"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event that IBM determines that it is necessary to relocate Managed Hosting Services within the same or to another e-business\nH Hosting Center, Customer will cooperate in good faith with IBM to facilitate such relocation, provided that such relocation is based on\n reasonable business needs of IBM (including the needs of other IBM customers), or the expansion of the space requirements of\n Customer. IBM will use commercially reasonable efforts, in cooperation with Customer, to minimize any interruption to Services in the\n event of such relocation.",
+                "changed_text": "In the event that IBM determines that it is necessary to relocate Managed Hosting Services within the same or to another e-business Hosting Center, Customer will cooperate with IBM to facilitate such relocation. IBM will use commercially reasonable efforts, in cooperation with Customer, to minimize any interruption to Services in the event of such relocation.",
+                "explanation": "The removal of 'provided that such relocation is based on reasonable business needs of IBM (including the needs of other IBM customers), or the expansion of the space requirements of Customer' gives IBM unilateral power to relocate the services regardless of the impact to customer. Some jurisdictions, including California under its consumer protection laws, imply a 'duty of good faith and fair dealing' which this change potentially violates by removing the condition that the relocation be for a reasonable business need.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (e.g., California law)",
+                "location": "Attachment A – Services, Relocation of Managed Hosting Services"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "IBM will:\nimplement firewall settings and other security parameters as defined by Customer and accepted by IBM;\nadminister firewalls specified in Attachment B;\nperform nightly memory and file system anti-virus scanning and install virus signature definition file updates, as available, for Base\nComponents and Customer Components with Windows operating systems;\nperform regular scanning of commonly used TCP and UDP ports, on Base and/or Customer Components to attempt to detect ports and\nservices that may be vulnerable to intrusion. IBM will\nuse reasonable efforts to inform Customer of intrusion vulnerabilities detected, and schedule and apply changes to security settings\nagreed to by Customer to attempt to mitigate vulnerabilities. IBM makes no representation or warranty that IBM’s monitoring or analysis\nprocedures will identify all intrusions Customer may encounter;",
+                "changed_text": "IBM will:\nimplement firewall settings and other security parameters as defined by Customer and accepted by IBM;\nadminister firewalls specified in Attachment B;\nperform scanning of commonly used TCP and UDP ports, on Base and/or Customer Components. IBM makes no representation or warranty that IBM’s monitoring or analysis procedures will identify all intrusions Customer may encounter;",
+                "explanation": "The omission of 'perform nightly memory and file system anti-virus scanning and install virus signature definition file updates, as available, for Base Components and Customer Components with Windows operating systems' removes a specific security measure IBM commits to take. Also removing 'use reasonable efforts to inform Customer of intrusion vulnerabilities detected, and schedule and apply changes to security settings agreed to by Customer to attempt to mitigate vulnerabilities' weakens the security commitment by removing proactive communication and mitigation efforts. This exposes customer data to vulnerabilities and could violate data security laws, such as those requiring reasonable security measures to protect personal information under state laws like the California Consumer Privacy Act (CCPA).",
+                "contradicted_law": "California Consumer Privacy Act (CCPA) - Reasonable Security Measures",
+                "location": "Attachment A – Services, Security Obligations"
+            }
+        ]
+    }
+]

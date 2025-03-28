@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.\nResale Rights. SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell\nServices in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to\nCustomer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-\nReseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach\nby Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "1.\nResale Rights. SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell\nServices in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may resell such Services to any entity. Reseller must ensure that Sub-Reseller complies with some of the terms of the Agreement applicable to Reseller. Any major breach by Sub-Reseller of the Agreement will be deemed a breach\nby Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "explanation": "The original text restricts Sub-Reseller's sales to 'Customer' only. The modified version permits sales to 'any entity', creating a conflict. Also the original text says that Sub-Reseller must comply with 'the terms' whereas the changed one says 'some of the terms', this creates ambiguity. Finally, the original text suggests that 'any' breach leads to another breach whereas the changed one says that 'any major' breach leads to another breach.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.\nEffect of Sub-Reseller Agreement. Subject to the above modifications, the Agreement remains in full force and effect.",
+                "changed_text": "2.\nEffect of Sub-Reseller Agreement. Subject to the above modifications, the Agreement remains generally in full force and effect, except where explicitly superseded by this sub-reseller agreement.",
+                "explanation": "The original text states that the agreement remains 'in full force', whereas the modified version introduces the phrase 'generally in full force', which creates ambiguity in interpretation of the contract in its entirety.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.\nEntire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "3.\nEntire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to most aspects of the subject matter of this Sub-Reseller Agreement and supersede some previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "explanation": "The original text clearly states that the 'the terms and conditions' constitute the 'entire agreement' and 'supersede any' agreements and understandings. The modified text changes this statement to 'most aspects' of the subject matter of this Sub-Reseller Agreement and 'supersede some' agreements and understandings. Thus, it creates ambiguity around whether everything agreed upon is written and what agreements remain effective.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "tcpipelineslp_20160226_10-k_ex-99.12_9454048_ex-99.12_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "8.\nMAXIMUM DAILY QUANTITY (Dth/Day): 101,300\nPlease see Appendix A for further detail.",
+                "changed_text": "8.\nMAXIMUM DAILY QUANTITY (Dth/Day): Refer to the latest operational guidelines for daily quantity specifications.",
+                "explanation": "By removing the explicit reference to Appendix A, which details the Maximum Daily Quantity (MDQ) at specific locations and time periods, and replacing it with a general reference to 'latest operational guidelines,' we introduce ambiguity. Section 10 still refers to Appendix A which is not directly connected in this section. It creates an inconsistency because the contract now implies that MDQ is determined by external guidelines rather than a fixed quantity in an attached appendix, while other sections of the contract, namely Appendix A, still expects to find these values.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "9.\nRATES:\nUnless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates\nand charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on\nfile with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the\nmaximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto.",
+                "changed_text": "9.\nRATES:\nRates shall be determined according to market conditions, subject to regulatory approvals.",
+                "explanation": "By removing the specific details about how rates are calculated based on the 'maximum rate,' 'surcharges,' and the reference to 'Appendix B', the contract introduces uncertainty. The text now states rates are based on market conditions. This omission causes an in-text contradiction with the mention of rates and surcharges in Section 12 in the context of tariff changes that are filed. Now, the 'applicable Rate Schedule' doesn't have the necessary information for determining the rates.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "10.\nPOINTS OF RECEIPT AND DELIVERY:\nThe primary receipt and delivery points are set forth on Appendix A.",
+                "changed_text": "10.\nPOINTS OF RECEIPT AND DELIVERY:\nPrimary receipt and delivery points will be communicated separately.",
+                "explanation": "By changing the reference of the points of receipt and delivery to 'will be communicated separately' and removing the reference to Appendix A where the specific locations are defined in Appendix A, we create a contradiction. Section 8 still references to Appendix A. While it seems like a small omission, the lack of detail creates uncertainty. If communication between parties is not effectively completed, then legal complications arise.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

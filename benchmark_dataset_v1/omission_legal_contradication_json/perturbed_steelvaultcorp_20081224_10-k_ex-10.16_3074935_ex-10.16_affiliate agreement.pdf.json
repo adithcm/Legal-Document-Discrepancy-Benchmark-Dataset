@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "steelvaultcorp_20081224_10-k_ex-10.16_3074935_ex-10.16_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Marketing Affiliate and Equidata each hereby agree to defend, indemnify and hold harmless each other and each of its employees, agents, officers, directors and shareholders from and against any claims, suits, demand or actions arising from breach of any warranties under this Agreement or failure to provide Services under this Agreement.",
+                "changed_text": "Marketing Affiliate agrees to indemnify Equidata and each of its employees, agents, officers, and directors from any claims, suits, or actions arising from the Marketing Affiliate's failure to comply with the terms of this agreement.",
+                "explanation": "The original indemnification clause provides mutual protection. By altering the clause to only have the Marketing Affiliate indemnify Equidata and removing indemnification for shareholders, the agreement becomes significantly less balanced. This omission creates a legal risk by potentially violating Virginia's implied covenant of good faith and fair dealing in contracts, where the law generally implies an obligation for parties to act reasonably and honestly. The changed clause places a disproportionate burden on the Marketing Affiliate and fails to protect them from the Equidata actions. The changes also remove protection for Equidata shareholders.",
+                "contradicted_law": "Virginia's implied covenant of good faith and fair dealing in contracts.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "MARKETING AFFILIATE ACKNOWLEDGES AND AGREES THAT ANY PRODUCT, SERVICE, LICENSE OR PERMISSION PROVIDED BY EQUIDATA UNDER THIS AGREEMENT IS PROVIDED ON AN “AS IS” BASIS. EQUIDATA EXPRESSLY DISCLAIMS ANY WARRANTY OF ANY KIND WHATSOEVER, WHETHER EXPRESS, IMPLIED, STATUTORY, OR ARISING FROM COURSE OF DEALING OR PERFORMANCE, AND HEREBY DISCLAIMS AND EXCLUDES FROM THIS AGREEMENT ALL IMPLIED WARRANTIES, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, NONINTERFERENCE WITH DATA, ACCURACY, OR THAT THE SERVICE IS ERROR FREE.",
+                "changed_text": "MARKETING AFFILIATE ACKNOWLEDGES AND AGREES THAT ANY PRODUCT, SERVICE, LICENSE OR PERMISSION PROVIDED BY EQUIDATA UNDER THIS AGREEMENT IS PROVIDED ON AN “AS IS” BASIS. EQUIDATA EXPRESSLY DISCLAIMS ANY WARRANTY OF ANY KIND WHATSOEVER, WHETHER EXPRESS, IMPLIED, STATUTORY, OR ARISING FROM COURSE OF DEALING OR PERFORMANCE, AND HEREBY DISCLAIMS AND EXCLUDES FROM THIS AGREEMENT ALL IMPLIED WARRANTIES, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY.",
+                "explanation": "The removal of 'FITNESS FOR A PARTICULAR PURPOSE' and 'NONINFRINGEMENT, NONINTERFERENCE WITH DATA, ACCURACY, OR THAT THE SERVICE IS ERROR FREE' significantly limits the protections afforded to the Marketing Affiliate. Under Virginia law, specifically the Uniform Commercial Code (UCC), a warranty of fitness for a particular purpose is implied if the seller knows that the buyer intends to use the goods for a specific purpose and relies on the seller's skill or judgment. By removing this, Equidata limits its liability if its services are unsuitable for the Marketing Affiliate's needs. Similarly, excluding warranties about non-infringement, non-interference, accuracy, and error-free service removes critical assurances, potentially violating consumer protection principles and creating an unfair advantage for Equidata.",
+                "contradicted_law": "Virginia Uniform Commercial Code (UCC) regarding implied warranties, and consumer protection principles.",
+                "location": "Section 11"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement is governed by and construed in accordance with the laws of the State of Virginia. All notices required to be given in writing must be sent by overnight delivery service to the name and address designated in this Agreement or to such other address that the receiving party may in advance designate by written notice. Notice is deemed effective on the day after delivery by the overnight carrier.",
+                "changed_text": "This Agreement is governed by and construed in accordance with the laws of the State of Virginia. All notices required to be given in writing must be sent to the name and address designated in this Agreement or to such other address that the receiving party may in advance designate by written notice.",
+                "explanation": "The deletion of 'overnight delivery service' and 'Notice is deemed effective on the day after delivery by the overnight carrier' introduces ambiguity and significantly weakens the notice provisions. Under Virginia law, proper notice is critical for enforcing contractual rights and obligations. By removing the requirement for overnight delivery and a clear definition of when notice is effective, disputes can arise regarding whether notice was properly given, leading to potential violations of due process and fairness. The contract now lacks a clear standard for what constitutes effective notice, creating a loophole that could disadvantage either party, especially concerning critical deadlines or termination clauses.",
+                "contradicted_law": "Virginia contract law regarding proper notice and due process.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

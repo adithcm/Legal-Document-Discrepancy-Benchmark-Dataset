@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "verizonabsllc_20200123_8-k_ex-10.4_11952335_ex-10.4_service agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "among\nVERIZON OWNER TRUST 2020-A,\nas Issuer,\nVERIZON ABS LLC,\nas Depositor\nand\nCELLCO PARTNERSHIP d/b/a VERIZON WIRELESS,\nas Servicer, Marketing Agent and Custodian",
+                "changed_text": "among\nVERIZON OWNER TRUST 2020-A,\nas Issuer,\nVERIZON ABS LLC,\nas Transferor\nand\nCELLCO PARTNERSHIP d/b/a VERIZON WIRELESS,\nas Servicer, Sales Agent and Custodian",
+                "explanation": "Changing 'Depositor' to 'Transferor' and 'Marketing Agent' to 'Sales Agent' introduces misaligned terminology. The document doesn't explicitly define these new terms nor clarify if they are interchangeable with the original terms, creating confusion about the roles and responsibilities of Verizon ABS LLC and Cellco Partnership.",
+                "location": "Page 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Depositor makes the following representations and warranties about the pool of Receivables on which the Issuer is relying in acquiring the Depositor Transferred Property. The representations and warranties are made\nas of the Closing Date (for the Initial Receivables) and as of each Acquisition Date (for the related Additional Receivables) and will survive the transfer and absolute assignment of the Depositor Transferred Property by the Depositor to the Issuer under this Agreement and the pledge of the\nDepositor Transferred Property by the Issuer to the Indenture Trustee under the Indenture.",
+                "changed_text": "The Transferor makes the following representations and warranties about the pool of Receivables on which the Issuer is relying in acquiring the Depositor Transferred Property. The assurances and guarantees are made\nas of the Closing Date (for the Initial Receivables) and as of each Acquisition Date (for the related Additional Receivables) and will survive the transfer and absolute assignment of the Depositor Transferred Property by the Transferor to the Issuer under this Contract and the pledge of the\nDepositor Transferred Property by the Issuer to the Indenture Trustee under the Indenture.",
+                "explanation": "Changing 'Depositor' to 'Transferor' and 'representations and warranties' to 'assurances and guarantees' creates ambiguity. The document uses “Contract” instead of “Agreement,”. It is unclear whether Transferor has the same liability as the original Depositor. Using 'assurances and guarantees' instead of the more legally precise 'representations and warranties' might weaken the enforceability of this section.",
+                "location": "Section 2.4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "On the Closing Date, the Depositor will deposit or cause to be deposited the Required Reserve\nAmount into the Reserve Account from the net proceeds of the sale of the Notes.",
+                "changed_text": "On the Closing Date, the Transferor may deposit or cause to be deposited the Required Reserve\nAmount into the Reserve Account from the net proceeds of the sale of the Notes.",
+                "explanation": "Changing “Depositor will deposit” to “Transferor may deposit” shifts the obligation. In the original text, the Depositor had a clear obligation to deposit the Required Reserve Amount. The changed text makes this deposit optional, creating uncertainty regarding the funding of the Reserve Account, which is critical for the security of the notes.",
+                "location": "Section 4.4(a)"
+            }
+        ]
+    }
+]

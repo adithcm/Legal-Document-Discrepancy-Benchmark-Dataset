@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "gopagecorp_20140221_10-k_ex-10.1_8432966_ex-10.1_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.2 In addition to the License Fee payable in accordance with Section 5.1, Licensee shall pay a royalty (“Royalty”) to Licensor according to the following schedule (“Royalty Schedule”):\nSubscribers\nRoyalty Payable as Percentage of Gross Revenue\n0 - 5000\n6.25%\n5001 - 7500\n6.75%\n7501 - 10,000\n7.00%\n10,001 - 15,000\n8.00%\n15,001 - 20,000\n8.50%\n20,001 - 25,000\n9.25%\n25,001+\n9.75%",
+                "changed_text": "5.2 In addition to the License Fee payable in accordance with Section 5.1, Licensee shall pay a royalty (“Royalty”) to Licensor. The specific Royalty schedule may be amended from time to time, as agreed upon in writing by both parties.",
+                "explanation": "By removing the Royalty Schedule, the contract becomes ambiguous about how the Royalty is calculated. Section 5.3(a) still references calculating royalties based on Subscriber information, however there is no Royalty Schedule to actually calculate royalty. This inconsistency makes the royalty clause unenforceable without further clarification.",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3. Definitions. For purposes of this Agreement, the following terms have the following meanings. Other terms defined in the body of the Agreement\nshall have the meanings so given.\n\"Affiliate\" of a Person means any other Person that directly or indirectly, through one or more intermediaries, controls, is controlled by, or is\nunder common control with, such Person. The term \"control\" (including the terms \"controlled by\" and \"under common control with\") means the direct\nor indirect ownership of more than fifty percent (50 %) of the voting securities of a Person.\n\"Confidential Information\" means any information that is treated as confidential by a party, including, without limitation, trade secrets,\ntechnology, information pertaining to business operations and strategies, and information pertaining to customers, pricing and marketing, in each case\nto the extent it is: (a) if in tangible form, marked as confidential; or otherwise, identified at the time of disclosure as confidential, or (b) would be\nconsidered as confidential information by one who is reasonably knowledgeable and experienced in the field to which the information relates. With\nrespect to each party, the terms of this Agreement are Confidential Information of the other party.",
+                "changed_text": "3. Definitions. For purposes of this Agreement, the following terms have the following meanings. Other terms defined in the body of the Agreement\nshall have the meanings so given.\n\"Confidential Information\" means any information that is treated as confidential by a party, including, without limitation, trade secrets,\ntechnology, information pertaining to business operations and strategies, and information pertaining to customers, pricing and marketing, in each case\nto the extent it is: (a) if in tangible form, marked as confidential; or otherwise, identified at the time of disclosure as confidential, or (b) would be\nconsidered as confidential information by one who is reasonably knowledgeable and experienced in the field to which the information relates. With\nrespect to each party, the terms of this Agreement are Confidential Information of the other party.",
+                "explanation": "By removing the definition of \"Affiliate\", Section 3.1 states 'Licensee is not granted any right to, and shall not, permit any other use of the Licensed Content by End Users, or any use of the Licensed Content by any other Person (including Licensee's Affiliates).' Because the definition of Affiliate has been removed, Licensee can argue the contract is unclear about who is considered an affiliate and thereby circumvent the intention of that Section. This will create ambiguity in enforcement, as it is not defined who is classified as an affiliate.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "SCHEDULE 2\nLICENSED CONTENT\nThe Licensed Content consists of content and images and code.",
+                "changed_text": "SCHEDULE 2\nLICENSED CONTENT\nThe Licensed Content consists of digital media.",
+                "explanation": "By changing the definition, Section 4.1(c) states 'Licensee shall present each Content Item solely in its entirety (without any addition, modification or deletion).' Because the definition of Licensed Content has been reduced to digital media, Licensor can argue there is no clause stating Licensee has to also present the images, code and content that were included. Thus, there is a contradiction that can cause issues in enforcement, because images, code and content are not specifically mentioned in the altered change to Licensed Content.",
+                "location": "SCHEDULE 2"
+            }
+        ]
+    }
+]

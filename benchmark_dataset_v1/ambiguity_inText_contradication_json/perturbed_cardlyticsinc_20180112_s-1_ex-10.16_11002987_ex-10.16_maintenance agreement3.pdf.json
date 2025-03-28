@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement3.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "This Schedule (“Schedule”) is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (“Supplier”) and Bank of America, N. A, (“Bank of America”), dated November 5, 2010, as amended (“SLCMA”). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.",
+                "changed_text": "This Schedule (“Schedule”) is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (“Supplier”) and Bank of America, N. A, (“Bank of America”), dated November 5, 2010, as amended (“SLCMA”). Each capitalized term used but not explicitly defined herein shall have the meaning assigned in this Schedule, overriding any conflicting definitions in the SLCMA.",
+                "explanation": "This change introduces a contradiction by stating that terms not explicitly defined in this schedule will follow the definitions in the SLCMA, while simultaneously stating that this schedule's definitions override any conflicting definitions in the SLCMA. This could lead to disputes on which definition of a term to use if there is ambiguity.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America, WHEREAS, the parties desire to add to the SLCMA the Supplier Offer Placement System Software;",
+                "changed_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the definitive terms and conditions pursuant to which Supplier provides certain Software to Bank of America, WHEREAS, the parties desire to potentially supplement the SLCMA with the Supplier Offer Placement System Software;",
+                "explanation": "The original text indicates that the SLCMA definitively sets the terms and conditions, and the parties 'desire' to *add* the placement system to the SLCMA with certainty. The changed text states it sets 'definitive' terms, implying no changes possible, and the parties 'potentially' supplement it implying optional inclusion. This creates a contradiction: is the placement system certainly part of the agreement, or potentially supplemental to it?",
+                "location": "WHEREAS Clauses"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "NOW THEREFORE, in consideration of the promises and accords made herein, and the exchange of such good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, Bank of America and Supplier agree as follows: The attached Schedule [A] is hereby incorporated into the SLCMA describing the Offer Placement System Software for use by Bank of America.",
+                "changed_text": "NOW THEREFORE, in partial consideration of the promises and accords made herein, and the exchange of such consideration, the receipt and sufficiency of which is debated, Bank of America and Supplier may agree as follows: The attached Schedule [A] is possibly intended to be incorporated into the SLCMA, outlining the Offer Placement System Software for potential use by Bank of America.",
+                "explanation": "This alteration casts doubt on the key elements of contract formation. The phrases 'partial consideration', 'sufficiency of which is debated', and 'may agree' undermine the binding nature. Furthermore, 'possibly intended' and 'potential use' removes certainty about whether Schedule A is a definitive and required part of the agreement, contrasting with other sections that may assume its mandatory implementation. This introduces critical inconsistency.",
+                "location": "Agreement Section"
+            }
+        ]
+    }
+]

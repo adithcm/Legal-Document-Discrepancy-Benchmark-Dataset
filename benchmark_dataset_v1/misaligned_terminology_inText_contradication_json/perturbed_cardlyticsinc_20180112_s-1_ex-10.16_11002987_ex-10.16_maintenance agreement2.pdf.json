@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Customization Schedule is attached to the Software License, Customization and Maintenance Agreement (the “Agreement”) executed by and\nbetween Bank of America, N.A. (“Bank of America”) and <<enter Company Name» (“Supplier”). The Customizations identified hereunder shall be\nsubject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above.\nBank of America wishes to obtain the Customizations herein defined, and Supplier wishes to delivery those Customizations, on the terms and\nconditions of the Agreement and this Customization Schedule.",
+                "changed_text": "This Customization Schedule is attached to the Software License, Customization and Maintenance Agreement (the “Agreement”) executed by and\nbetween Bank of America, N.A. (“Bank of America”) and <<enter Company Name» (“Vendor”). The Customizations identified hereunder shall be\nsubject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above.\nBank of America wishes to obtain the Customizations herein defined, and Vendor wishes to delivery those Customizations, on the terms and\nconditions of the Agreement and this Customization Schedule.",
+                "explanation": "The term 'Supplier' is replaced with 'Vendor' in the introduction without defining whether they are the same entity. This introduces ambiguity about who is responsible for delivering the customizations.",
+                "location": "Beginning of Schedule B"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter,\nBank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "If the proposed price Is Increased by Vendor upon delivery to Bank of America of detailed specifications or at any other time hereafter,\nBank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "explanation": "Here, again, the term 'Supplier' is replaced with 'Vendor'. Throughout the text, the usage of both 'Supplier' and 'Vendor' for the same role are used, creating ambiguity in the contract for roles and prices.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Supplier Project Administrator:\n\n\nSupplier Project Manager:",
+                "changed_text": "Vendor Project Administrator:\n\n\nVendor Project Manager:",
+                "explanation": "The term 'Supplier' is again replaced with 'Vendor'. Given the previous changes, this reinforces uncertainty over project administrator roles, as it is unclear whether the 'Vendor' and 'Supplier' are the same entity.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

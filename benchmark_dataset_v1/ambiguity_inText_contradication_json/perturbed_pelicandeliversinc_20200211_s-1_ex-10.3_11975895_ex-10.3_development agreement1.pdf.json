@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "pelicandeliversinc_20200211_s-1_ex-10.3_11975895_ex-10.3_development agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Fees: The Fees for the Project shall be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be\npaid upon completion of Milestone #2.\n20% ($55,800.00) to be paid upon completion of Milestone #3.\n20% ($55,800.00) to be paid upon completion of Milestone #4.\n*Milestone Delivery Schedule for Phase 1\nMilestone #1 –January 1st, 2019\nMilestone #2- February 1st, 2019.\nMilestone #3 – March 1st, 2019.\nMilestone #4 – April 1st, 2019.",
+                "changed_text": "Fees: The Fees for the Project are estimated to be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon substantial completion of Milestone #1. 20% ($55,800.00) to be\npaid upon substantial completion of Milestone #2.\n20% ($55,800.00) to be paid upon substantial completion of Milestone #3.\n20% ($55,800.00) to be paid upon substantial completion of Milestone #4.\n*Milestone Delivery Schedule for Phase 1\nMilestone #1 –January 1st, 2019\nMilestone #2- February 1st, 2019.\nMilestone #3 – March 1st, 2019.\nMilestone #4 – April 1st, 2019.",
+                "explanation": "Changing 'shall be' to 'are estimated to be' introduces ambiguity regarding the fixed nature of the project fees. Additionally, changing 'completion' to 'substantial completion' adds another layer of uncertainty. The original text clearly defines payment milestones based on specific dates, implying strict adherence. The updated language now allows for subjective interpretation of what constitutes substantial completion, leading to disputes over payment triggers.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The application will tie into the dispensaries POS system and pull the inventory, product details, price, and quantity\nThe application will pull data from the POS system once every 1-2 hours\nIf a product is low, it will not be displayed on the front-end website or mobile apps\n§\nThe low quantity can be defined by the dispensary",
+                "changed_text": "The application may tie into the dispensaries POS system and attempt to pull the inventory, product details, price, and quantity\nThe application will attempt to pull data from the POS system once every 1-2 hours\nIf a product is low, it may not be displayed on the front-end website or mobile apps\n§\nThe low quantity can be defined by the dispensary",
+                "explanation": "Changing 'will' to 'may' and 'will' to 'attempt to' introduces uncertainty around whether the application is actually guaranteed to connect to the POS system and update the inventory. If the contract elsewhere assumes real-time inventory updates and bases features on it, there is now a clear ambiguity and contradiction.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Driver will scan the customers ID using the Trulioo API right before they handle the delivery to the customer. After this last ID\ncheck, the transaction will be completed.",
+                "changed_text": "Driver should scan the customers ID using the Trulioo API right before they handle the delivery to the customer. After this scan, the transaction may be completed.",
+                "explanation": "Changing 'will' to 'should' weakens the obligation for ID verification. Also, changing 'will be' to 'may be' questions when the transaction is truly completed, creating conflict.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

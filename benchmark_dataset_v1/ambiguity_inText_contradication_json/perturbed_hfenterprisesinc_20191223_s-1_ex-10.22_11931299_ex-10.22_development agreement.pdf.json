@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "hfenterprisesinc_20191223_s-1_ex-10.22_11931299_ex-10.22_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4. Definitions. For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n\n“Improvements” shall mean technical improvements, modifications or enhancements relating to the Technology that are developed by the\nDeveloper pursuant to this Agreement.",
+                "changed_text": "4. Definitions. For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n\n“Improvements” shall mean minor cosmetic changes to the Technology that are suggested by the Developer but are subject to final approval and implementation by DSS pursuant to this Agreement.",
+                "explanation": "The original definition of 'Improvements' broadly includes technical improvements, modifications, or enhancements. The modified definition narrows it down to 'minor cosmetic changes' subject to DSS's approval. This contradiction creates uncertainty about the scope of the Developer's responsibilities and DSS's control over the improvements. If the Schedule 1 dictates more than just minor cosmetic changes, this becomes a direct conflict.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.  Term and Termination.\n\n2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of\ntwelve (12) months (the “Initial Term”). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30-\ndays advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any\nextension or renewal terms, shall hereinafter be collectively referred to as the “Term”.",
+                "changed_text": "2.  Term and Termination.\n\n2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of\ntwelve (12) months (the “Initial Term”). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30-\ndays advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any\nextension or renewal terms, shall hereinafter be collectively referred to as the “Term”.  Notwithstanding the foregoing, the Term may be extended by mutual written agreement of the parties, but such agreement must be executed no less than 60 days prior to the then-current expiration date.",
+                "explanation": "While the original Section 2.1 defines the term as the 'Initial Term' including all renewals, this addition introduces a specific requirement of 60 days notice for any *mutual* extension, potentially overriding the automatic one-month renewals. This creates confusion: do the automatic renewals still apply, or does the 60-day notice requirement take precedence? It is internally conflicting.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6.  Developer Liability.\n\n6.1. Developer Liability for Damages. Developer shall be fully liable, without limitation, for money damages resulting from its\nimproper or unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements, or resulting from its failure to\nprovide functional and merchantable Improvements hereunder, which failure shall be deemed a material breach of this Agreement by Developer.",
+                "changed_text": "6.  Developer Liability.\n\n6.1. Developer Liability for Damages. Developer shall be liable, up to a maximum of US$10,000, for money damages directly resulting from its gross negligence in the improper or unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements, or resulting from its failure to provide functional and merchantable Improvements hereunder, which failure shall be deemed a remediable breach of this Agreement by Developer, provided Developer has a reasonable opportunity to cure, as defined by DSS’s General Counsel.",
+                "explanation": "The original text specifies 'full liability, without limitation' and deems failure to provide functional improvements as a 'material breach'. The modified text introduces a liability cap (US$10,000), limits the liability trigger to 'gross negligence', and transforms the failure into a 'remediable breach' requiring a cure period defined by DSS. This directly contradicts the original absolute liability and creates uncertainty regarding the Developer's financial exposure and breach consequences.",
+                "location": "Section 6.1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement3.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Schedule (“Schedule”) is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (“Supplier”) and Bank of America, N. A, (“Bank of America”), dated November 5, 2010, as amended (“SLCMA”). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.",
+                "changed_text": "This Schedule (“Schedule”) is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (“Vendor”) and Bank of America, N. A, (“Bank of America”), dated November 5, 2010, as amended (“SLCMA”). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.",
+                "explanation": "Replaced 'Supplier' with 'Vendor' in the initial definition. This creates ambiguity because the document later refers to 'Supplier' without explicitly stating that 'Vendor' and 'Supplier' are the same entity, thus potentially leading to confusion about which party is responsible for specific obligations.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America,",
+                "changed_text": "WHEREAS, Bank of America and Service Provider entered into the SLCMA in order to set forth the terms and conditions pursuant to which the Service Provider provides certain Software to Bank of America,",
+                "explanation": "Replaced 'Supplier' with 'Service Provider'. This introduces another point of confusion, as the agreement now uses 'Vendor', 'Supplier', and 'Service Provider' seemingly interchangeably, without clarifying if they are the same entity. This directly contradicts clear contracting practices.",
+                "location": "WHEREAS clause"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "NOW THEREFORE, in consideration of the promises and accords made herein, and the exchange of such good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, Bank of America and Supplier agree as follows:",
+                "changed_text": "NOW THEREFORE, in consideration of the promises and accords made herein, and the exchange of such good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, Bank of America and the Provider agree as follows:",
+                "explanation": "Replaced 'Supplier' with 'Provider'. Now the agreement uses 'Vendor', 'Supplier', 'Service Provider', and 'Provider'. It is not clear if these terms refer to the same entity. This inconsistency could lead to disputes regarding which entity is bound by specific obligations within the contract, creating uncertainty and potential enforceability issues.",
+                "location": "NOW THEREFORE clause"
+            }
+        ]
+    }
+]

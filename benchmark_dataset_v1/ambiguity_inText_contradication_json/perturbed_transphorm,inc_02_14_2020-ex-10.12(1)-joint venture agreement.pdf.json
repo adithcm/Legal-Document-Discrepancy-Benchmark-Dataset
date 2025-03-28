@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "transphorm,inc_02_14_2020-ex-10.12(1)-joint venture agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.1 “Affiliate” of AFSL, FSL, TPH-A or TPH, as the case may be, means a Person or group of Persons: (a) which owns or Controls, directly or indirectly, AFSL, FSL, TPH-A or TPH; (b) which is owned or Controlled, directly or indirectly, by AFSL, FSL, TPH-A or TPH; or (c) which is owned or Controlled, directly or indirectly, by any Person described in Section 1.1(a) or (b).",
+                "changed_text": "1.1 “Affiliate” of AFSL, FSL, TPH-A or TPH, as the case may be, means a Person or group of Persons: (a) which owns or Controls, directly, AFSL, FSL, TPH-A or TPH; (b) which is owned or Controlled, directly, by AFSL, FSL, TPH-A or TPH; or (c) which is owned or Controlled, directly, by any Person described in Section 1.1(a) or (b).",
+                "explanation": "The removal of 'directly or indirectly' in the definition of Affiliate creates a contradiction with other sections that might assume indirect control is relevant, potentially leading to disputes over which entities are considered Affiliates.",
+                "location": "Article I, Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4.7 Actions Requiring Unanimous Board Approval. The Parties agree that the following matters require the unanimous approval of the Directors present at a properly-noticed Board meeting, and no Shareholder shall convene a shareholders meeting with respect to the following matters without the prior written consent of the other Shareholder:\n4.7.1 revising the budget or Business Plan of the Company;",
+                "changed_text": "4.7 Actions Requiring Unanimous Board Approval. The Parties agree that the following matters require the unanimous approval of all Directors, whether or not present at the Board meeting, and no Shareholder shall convene a shareholders meeting with respect to the following matters without notifying the other Shareholder:\n4.7.1 revising the budget or Business Plan of the Company after the first year of operation;",
+                "explanation": "The original text refers to Directors 'present at a properly-noticed Board meeting'. The changed text, however, states 'all Directors, whether or not present'. Moreover, the original text states that consent must be given prior to shareholder's meeting, whereas the change requires notification. The 'revising the budget' also has temporal constrains. These changes introduce ambiguity and potential conflict.",
+                "location": "Article IV, Section 4.7 and 4.7.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.14 Governing Law; Language. The English text of this Agreement shall control any interpretation of its provisions, and this Agreement and the legal relations among the Parties and the Company shall in all respects be interpreted, construed and governed by and in accordance with the laws of Japan.",
+                "changed_text": "11.14 Governing Law; Language. The Japanese text of this Agreement shall control any interpretation of its provisions related to company internal affairs, and this Agreement and the legal relations among the Parties and the Company shall in all respects be interpreted, construed and governed by and in accordance with the laws of Japan.",
+                "explanation": "The original text specifies the English text as the controlling language while the changed version designates the Japanese text for matters related to company internal affairs. This creates a significant ambiguity and potential conflict. It’s unclear what constitutes ‘company internal affairs’ and which language prevails in disputes not directly related to such affairs, impacting the interpretation and enforcement of the entire agreement.",
+                "location": "Article XI, Section 11.14"
+            }
+        ]
+    }
+]

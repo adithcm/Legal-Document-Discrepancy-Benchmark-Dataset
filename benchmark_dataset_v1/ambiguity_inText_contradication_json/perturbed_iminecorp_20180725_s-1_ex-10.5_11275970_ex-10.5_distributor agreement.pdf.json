@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "iminecorp_20180725_s-1_ex-10.5_11275970_ex-10.5_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.7 “Products” shall mean the products offered by JRVS for sale to the Distributor; the Products shall include iMine cryptocurrency mining rigs and its parts and components.",
+                "changed_text": "1.7 “Products” shall mean the products offered by JRVS for sale to the Distributor; the Products shall include only fully assembled iMine cryptocurrency mining rigs. Parts and components are specifically excluded from this definition.",
+                "explanation": "This change introduces a contradiction. Section 1.7 originally defines 'Products' as including iMine cryptocurrency mining rigs *and* their parts and components. The modified version restricts the definition to only fully assembled mining rigs, *excluding* parts and components. This ambiguity could lead to disputes regarding warranties, order fulfillment, and pricing related to individual parts.",
+                "location": "Section 1.7"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "7.2 Inspection and Acceptance. The Distributor shall have thirty (30) days (the “Inspection Period”) upon receipt of each shipment to inspect and test the Products. If the Distributor determines any unit of Products defective, the Distributor shall promptly notify JRVS of such defects. Defective Products may be returned for retest, evaluation and examination subject to JRVS Returned Material Authorization (“RMA”) procedure; provided, that such written notification and request for an RMA number must be received by JRVS during the Inspection Period. Returns must be prepaid by Distributor. When requesting a return authorization, Distributor must supply Distributor’s purchase order number and JRVS’s invoice number. Product description must include lot number and wafer numbers.",
+                "changed_text": "7.2 Inspection and Acceptance. The Distributor shall have fifteen (15) days (the “Inspection Period”) upon receipt of each shipment to inspect and test the Products. If the Distributor determines any unit of Products defective, the Distributor must notify JRVS of such defects within five (5) business days from discovery of the defect. Defective Products may be returned for retest, evaluation and examination subject to JRVS Returned Material Authorization (“RMA”) procedure; provided, that such written notification and request for an RMA number must be received by JRVS during the Inspection Period. Returns must be prepaid by Distributor. When requesting a return authorization, Distributor must supply Distributor’s purchase order number and JRVS’s invoice number. Product description must include lot number and wafer numbers.",
+                "explanation": "The original text specifies a 30-day inspection period. The modified text changes this to a 15-day inspection period, with an added requirement to notify JRVS of defects within 5 business days of discovery, creating an ambiguous window for defect reporting. The change results in internal contradiction regarding the time allowed for inspection and defect notification, thus complicating enforcement.",
+                "location": "Section 7.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10.2 Warranty Period. JRVS shall NOT provide a warranty of any kind for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor.",
+                "changed_text": "10.2 Warranty Period. JRVS shall provide a limited warranty of ninety (90) days from the date of delivery to the Distributor, covering defects in material and workmanship under normal use and service. However, this warranty is void if the Products are used for purposes other than cryptocurrency mining.",
+                "explanation": "Section 10.2 originally states that JRVS provides NO warranty. The modified version states that JRVS *does* provide a limited 90-day warranty, but then adds a condition that voids the warranty if the product is used for anything other than cryptocurrency mining, which is its intended purpose. This creates a fundamental contradiction, as the warranty is offered and then immediately restricted in a nonsensical manner, making the enforceability of any warranty claim unclear.",
+                "location": "Section 10.2"
+            }
+        ]
+    }
+]

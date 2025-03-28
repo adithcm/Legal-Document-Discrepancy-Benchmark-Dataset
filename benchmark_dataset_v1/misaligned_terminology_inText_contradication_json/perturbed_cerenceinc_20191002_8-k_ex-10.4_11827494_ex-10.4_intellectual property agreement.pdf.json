@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cerenceinc_20191002_8-k_ex-10.4_11827494_ex-10.4_intellectual property agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, it is the intent of the Parties that Nuance grant a license to SpinCo under the Nuance Patents and the Nuance Shared Technology Assets, and provide certain rights or services to the SpinCo Group with respect to the Nuance Data, in each case for the SpinCo Field of Use, subject to the terms and conditions set forth in this Agreement; and\nWHEREAS, it is the intent of the Parties that SpinCo grant a license to Nuance under the SpinCo Patents and the SpinCo Shared Technology Assets, and provide certain rights or services to the Nuance Group with respect to certain of the SpinCo Data, in each case for the Nuance Field of Use,\nsubject to the terms and conditions set forth in this Agreement.",
+                "changed_text": "WHEREAS, it is the intent of the Parties that Nuance grant a license to SpinCo under the Nuance Patents and the Nuance Shared Technology Assets, and provide certain rights or services to the SpinCo Division with respect to the Nuance Data, in each case for the SpinCo Field of Use, subject to the terms and conditions set forth in this Agreement; and\nWHEREAS, it is the intent of the Parties that SpinCo grant a license to Nuance under the SpinCo Patents and the SpinCo Shared Technology Assets, and provide certain rights or services to the Nuance Unit with respect to certain of the SpinCo Data, in each case for the Nuance Field of Use,\nsubject to the terms and conditions set forth in this Agreement.",
+                "explanation": "Here, 'SpinCo Group' is changed to 'SpinCo Division' and 'Nuance Group' to 'Nuance Unit'. The term 'Group' has a specific meaning defined elsewhere in the document, referring to a collection of entities. Using 'Division' and 'Unit' creates ambiguity as it's unclear if those terms are subsets of the Group, or entirely different entities, leading to confusion about who the license extends to.",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "SpinCo hereby acknowledges Nuance’s right, title and interest in and to the Nuance IP. SpinCo agrees that it will not (i) oppose,\nchallenge, petition to cancel, contest or threaten in any way, or assist another party in opposing, challenging, petitioning to cancel, contesting or\nthreatening in any way, any application or registration by Nuance or its Affiliates or their respective licensees for any Nuance IP, (ii) engage in any act, or\npurposefully omit to perform any act, that impairs or adversely affects the rights of Nuance or any member of the Nuance Group in and to any Nuance IP\nor (iii) apply for any registration (including federal, state and national registrations) with respect to the Nuance IP.",
+                "changed_text": "SpinCo hereby acknowledges Nuance’s right, title and interest in and to the Nuance IP. SpinCo agrees that it will not (i) oppose,\nchallenge, petition to cancel, contest or threaten in any way, or assist another entity in opposing, challenging, petitioning to cancel, contesting or\nthreatening in any way, any application or registration by Nuance or its Affiliates or their respective licensees for any Nuance IP, (ii) engage in any act, or\npurposefully omit to perform any act, that impairs or adversely affects the rights of Nuance or any subsidiary of the Nuance Group in and to any Nuance IP\nor (iii) apply for any registration (including federal, state and national registrations) with respect to the Nuance IP.",
+                "explanation": "Here 'another party' is changed to 'another entity' and 'member of the Nuance Group' to 'subsidiary of the Nuance Group'. 'Party' is specifically defined to mean Nuance or SpinCo. Replacing it with 'entity' broadens the scope, and now its unclear if the restriction applies only to the specific Parties to the agreement or to any other entity. Furthermore, 'member' and 'subsidiary' have different legal meanings, and it isn't clearly defined that Nuance or SpinCo are subsidiaries or even members of a group. This creates confusion about who the protections extend to.",
+                "location": "Section 3.02. Other Covenants."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Section 5.01. Ownership. The Party receiving the license hereunder acknowledges and agrees that the Party (or the applicable member of its Group)\ngranting the license is the sole and exclusive owner of the Intellectual Property Rights so licensed.",
+                "changed_text": "Section 5.01. Ownership. The Party receiving the license hereunder acknowledges and agrees that the Company (or the applicable member of its Group)\ngranting the license is the sole and exclusive owner of the Intellectual Property Rights so licensed.",
+                "explanation": "The term 'Party' is changed to 'Company', but Company is never specifically defined in the context of the sentence, which causes confusion. By changing the term like this, it creates uncertainty around which entity can grant the license. It's unclear whether a license granted by a division, unit or an affiliated organization outside of Nuance and SpinCo would fall within this purview.",
+                "location": "ARTICLE V"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "healthcareintegratedtechnologiesinc_20190812_8-k_ex-10.1_11776966_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "“MOQ” means the minimum order quantity of Product units during the Initial Term, as set forth in Schedule 1.",
+                "changed_text": "“MOQ” means a suggested order quantity.",
+                "explanation": "The original definition of MOQ clearly states it's the *minimum* order quantity defined in Schedule 1. By changing it to a 'suggested order quantity,' we introduce ambiguity and contradiction, as other sections may rely on the MOQ as a firm commitment. This also creates uncertainty in enforcement if Schedule 1 still lists a specific quantity.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Reseller shall ensure that the Products are delivered with appropriate information and documentation, and shall not make any changes to the Products or to the packaging or labeling thereof, or to the legal documents included in the Products’ packages, without Supplier’s prior written consent (subject to the right of the Reseller to make changes to such materials as are described in Section 2.4).",
+                "changed_text": "Reseller shall ensure that the Products are delivered with appropriate information and documentation. Reseller shall ensure traceability of the delivered Products.",
+                "explanation": "The original section forbids the Reseller from making changes to the Products or Packaging without Supplier's written consent, yet refers to Section 2.4 which allows some changes. By removing the clause that forbids changes, but leaving the part of the sentence that says 'Reseller shall ensure that the Products are delivered with appropriate information and documentation,' it creates an omission that makes enforcement ambiguous. This is now contradictory to the idea that traceability of the products are delivered as per the supplier's direction.",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Payment Terms\n***",
+                "changed_text": "Payment Terms\nSupplier and Reseller will agree on payment terms.",
+                "explanation": "By removing the specific payment terms and replacing it with a vague agreement to 'agree on payment terms', we create a significant omission. This creates uncertainty in enforcement as there is no written agreement of the payment terms. Additionally, Section 12.3 refers to ‘any payment obligation which had accrued or become payable prior to the date of termination’ and payment obligation under Section 4.2. Since no payment terms exist, there would be conflict on the payment for the Product.",
+                "location": "Schedule 1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "photronicsinc_20171219_10-qa_ex-10.28_10982650_ex-10.28_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Each of Photronics and DNP is hereinafter referred to as a “Shareholder” and collectively as the “Shareholders”, each of the\nShareholders and PDMC is hereinafter referred to as a “Supplier” and collectively as the “Suppliers”, and each of the Suppliers and the Company\nis hereinafter referred to as a “Party” and collectively as the “Parties.”",
+                "changed_text": "Each of Photronics and DNP is hereinafter referred to as a “Shareholder” and collectively as the “Shareholders”, each of the\nShareholders and PDMC is hereinafter referred to as a “Vendor” and collectively as the “Vendors”, and each of the Suppliers and the Company\nis hereinafter referred to as a “Party” and collectively as the “Parties.”",
+                "explanation": "The change from 'Supplier' to 'Vendor' for Photronics, DNP, and PDMC introduces ambiguity. Later sections refer to 'Suppliers' with specific obligations, while this section redefines them as 'Vendors'. This creates confusion as to which entities are bound by the obligations placed on 'Suppliers' elsewhere in the agreement.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Suppliers will make good faith efforts to accept all [***]from the Company that comply with this Agreement including\nadhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the\n[***] (as defined below)). The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***].\nFailure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Vendors will make good faith efforts to accept all [***]from the Company that comply with this Agreement including\nadhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the\n[***] (as defined below)). The Contractors shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***].\nFailure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "explanation": "The terms 'Suppliers', 'Vendors', and 'Contractors' are used within the same paragraph, while also referencing 'the Supplier.' The document does not clarify whether these terms are interchangeable or refer to distinct entities. This ambiguity creates uncertainty regarding which party is responsible for order acceptance and notification, especially in light of the previous change that defined some Suppliers as Vendors.",
+                "location": "2.2 Purchase Orders"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant\nSupplier and the Company in writing that is applicable to such Products for the Warranty Period. This warranty does not apply to any Product\nfailures resulting from misuse, storage in or exposure to environmental conditions inconsistent with those specified in the applicable specifications\nor documentation, modification of the Product by anyone other than the relevant Supplier.",
+                "changed_text": "Each of the Vendors warrants that the Products shall comply with the specifications and documentation agreed by the relevant\nContractor and the Company in writing that is applicable to such Products for the Warranty Period. This warranty does not apply to any Product\nfailures resulting from misuse, storage in or exposure to environmental conditions inconsistent with those specified in the applicable specifications\nor documentation, modification of the Product by anyone other than the relevant Manufacturer.",
+                "explanation": "Switching 'Supplier' to 'Vendor', 'Supplier' to 'Contractor', and 'Supplier' to 'Manufacturer' within the same warranty clause introduces significant confusion. It's unclear which entity is providing the warranty ('Vendors'), which entity the specifications are agreed with ('Contractor'), and who is not allowed to modify the product ('Manufacturer'). This creates a contradiction because it's not defined if the 'Vendors,' 'Contractors,' and 'Manufacturers' are the same legal entity.",
+                "location": "6.1 Suppliers Limited Warranty"
+            }
+        ]
+    }
+]

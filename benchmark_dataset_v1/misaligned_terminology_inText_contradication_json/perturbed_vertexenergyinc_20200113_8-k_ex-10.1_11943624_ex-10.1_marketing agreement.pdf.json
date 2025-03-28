@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "vertexenergyinc_20200113_8-k_ex-10.1_11943624_ex-10.1_marketing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Vertex currently owns a production facility in Marrero, LA which has the capacity to produce 100,000 bbls/mo. +/- 10 % of a\nfeedstock/product (the “Output”) that can be consumed as bunker suitable fuel for offshore use and use as a marine vessel's\npropulsion system. See Appendix A for qualities of the feedstock/product (the “Product”).",
+                "changed_text": "Vertex currently owns a production facility in Marrero, LA which has the capacity to produce 100,000 bbls/mo. +/- 10 % of a\nfeedstock/material (the “Output”) that can be consumed as bunker suitable fuel for offshore use and use as a marine vessel's\npropulsion system. See Appendix A for qualities of the feedstock/material (the “Bunker Fuel”).",
+                "explanation": "The original text defines “Output” as feedstock/product, while “Product” is further defined by its qualities in Appendix A. The change replaces 'product' with 'material' in the initial description of “Output” and redefines “Product” as “Bunker Fuel”. This creates confusion, as the document now implies the initial raw material is different from the end Bunker Fuel, even though they should be related.",
+                "location": "WHEREAS, A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Parties will, with prior written agreement, coordinate efforts to secure storage ca- pacity for the accumulation and blending\nof Product to make up the cargo to be supplied pursuant to the JSMA. The Parties agree that tank/storage fees incurred for the sole (any\nother use will be upon mutual written agreement) purposes of the JSMA shall be for the account of the JSMA.",
+                "changed_text": "The Parties will, with prior written agreement, coordinate efforts to secure storage ca- pacity for the accumulation and blending\nof the end product to make up the cargo to be supplied pursuant to the JSMA. The Parties agree that tank/storage fees incurred for the sole (any\nother use will be upon mutual written agreement) purposes of the JSMA shall be for the account of the agreement.",
+                "explanation": "The change replaces 'Product' with 'the end product' in the first sentence, implying that only the final output should be stored for the purposes of the JSMA but retains Product definition. Then the JSMA refers to itself as an 'agreement' in the last sentence creating potential confusion, as tank/storage fees are no longer tied to the specific purposes outlined for the \"JSMA\" but rather a more general agreement, making enforcement ambiguous.",
+                "location": "2.3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In addition, within thirty (30) days after the later of the expiration of the Term or the final settlement and termination of all resale and\nhedge transactions entered into during the term of this Agreement, Bunker One shall issue a final detailed ledger Statement. If the\nRemaining Exposure shown on such final detailed ledger Statement is less than zero then Vertex shall pay [****] percent ([****]%) of\nsuch amount to Bunker One. If the Remaining Exposure shown on such final detailed ledger Statement is greater than zero then Bunker\nOne shall pay [****] percent ([****]%) of such amount to Vertex.",
+                "changed_text": "In addition, within thirty (30) days after the later of the expiration of the Term or the final settlement and termination of all resale and\nhedge transactions entered into during the term of this agreement, Bunker One shall issue a final detailed ledger Statement. If the\nRemaining Liability shown on such final detailed ledger Statement is less than zero then Vertex shall pay [****] percent ([****]%) of\nsuch amount to Bunker One. If the Remaining Liability shown on such final detailed ledger Statement is greater than zero then Bunker\nOne shall pay [****] percent ([****]%) of such amount to Vertex.",
+                "explanation": "The term “Remaining Exposure” is replaced with “Remaining Liability.” The document does not define 'Remaining Liability,'. This creates confusion and uncertainty, as it's unclear what components make up the ‘Remaining Liability’ calculation and whether it corresponds to the defined 'Remaining Exposure' or represents a different obligation, potentially leading to disputes over final settlements.",
+                "location": "4.4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ztoexpresscaymaninc_20160930_f-1_ex-10.10_9752871_ex-10.10_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Party A (Shipper): ZTO Express Co., Ltd.\nAddress: Building 1, No. 1685, Huazhi Road, Huaxin Twon, Qingpu District, Shanghai\n \nParty B (Carrier): Tonglu Tongze Logistics Ltd.\nAddress: 12 Floor, HSBC Tower, Yinchun South Road, Tonglu County, Zhejiang Province",
+                "changed_text": "Party A (Sender): ZTO Express Co., Ltd.\nAddress: Building 1, No. 1685, Huazhi Road, Huaxin Twon, Qingpu District, Shanghai\n \nParty B (Transporter): Tonglu Tongze Logistics Ltd.\nAddress: 12 Floor, HSBC Tower, Yinchun South Road, Tonglu County, Zhejiang Province",
+                "explanation": "Changing \"Shipper\" to \"Sender\" and \"Carrier\" to \"Transporter\" introduces ambiguity. While these terms are generally related, they are not explicitly defined as interchangeable in the contract. This could lead to confusion about the exact responsibilities of each party, especially if other sections of the contract still refer to them as 'Shipper' and 'Carrier'.",
+                "location": "Beginning of the document, identifying the parties."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Party B shall ensure the vehicles are in good conditions, the compartments are properly sealed without leakage and the vehicles are\nequipped with fire-fighting equipment. In the event of parcel damage resulting from leakage or fire, Party B shall indemnify at the\nstandard rate of RMB200 per parcel, and indemnify the actual price for high-end insured parcel (or indemnify by the value of the\nparcel provided by arbitration department determined by Party A).",
+                "changed_text": "Party B shall ensure the vehicles are in good conditions, the cargo holds are properly sealed without leakage and the vehicles are\nequipped with fire-fighting equipment. In the event of parcel damage resulting from leakage or fire, Party B shall reimburse at the\nstandard rate of RMB200 per parcel, and reimburse the actual price for high-end insured parcel (or reimburse by the value of the\nparcel provided by arbitration department determined by Party A).",
+                "explanation": "Replacing \"compartments\" with \"cargo holds\" and \"indemnify\" with \"reimburse\" creates potential confusion. While 'cargo holds' might be understood, it is less specific than 'compartments,' potentially leading to disputes about the required sealing. 'Indemnify' has a stronger legal connotation than 'reimburse', potentially weakening Party A's protection in case of damage. In law, indemnify is much stronger then reimburse, could lead to uncertainty in enforcement.",
+                "location": "Section 5(c)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In the event the vehicle space insufficiency which causes Party A’s need unable to be satisfied nor can it be adjusted to satisfy Party A’s need,\nParty A can terminate this Agreement without any compensation.",
+                "changed_text": "In the event the truck capacity shortage which causes Party A’s need unable to be satisfied nor can it be adjusted to satisfy Party A’s demand,\nParty A can terminate this Agreement without any remuneration.",
+                "explanation": "Changing \"vehicle space insufficiency\" to \"truck capacity shortage,\" \"need\" to \"demand\" and \"compensation\" to \"remuneration\" alters the strength and scope of the clause. \"Truck capacity shortage\" is narrower than \"vehicle space insufficiency,\" potentially excluding other causes of insufficiency. Switching from \"need\" to \"demand\" implies that the requirement isn't essential. Remuneration does not always mean compensation in full.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

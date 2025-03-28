@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "webmdhealthcorp_20050908_s-1a_ex-10.7_1027007_ex-10.7_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.",
+                "changed_text": "Late payments are subject to an interest charge to be determined by WebMD.",
+                "explanation": "By removing the specific interest rate cap or reference to a maximum legal rate, this clause becomes ambiguous and potentially violates usury laws. New York law sets limits on the interest rates that can be charged on debts. Without a clear cap, WebMD could theoretically charge an interest rate that exceeds these limits, thereby violating New York's usury laws.",
+                "contradicted_law": "New York General Obligations Law § 5-501 (Usury Laws)",
+                "location": "4(c)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "WebMD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO THE CONTENT OR THE\nACCURACY OF THE CONTENT. WEBMD EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND ALL\nWARRANTIES ARISING FROM CONDUCT, COURSE OF DEALING OR CUSTOM OF TRADE.",
+                "changed_text": "WebMD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO THE CONTENT OR THE\nACCURACY OF THE CONTENT. WEBMD EXPRESSLY DISCLAIMS ALL WARRANTIES ARISING FROM CONDUCT, COURSE OF DEALING OR CUSTOM OF TRADE.",
+                "explanation": "By removing the 'WEBMD EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE', the contract now implies those warranties. While it still disclaims representations about accuracy, this omission now implies fitness for purpose, which would be a point of legal contention and exposes them to more liability.",
+                "contradicted_law": "New York Uniform Commercial Code § 2-314 (Implied Warranty of Merchantability) and § 2-315 (Implied Warranty of Fitness for Particular Purpose)",
+                "location": "6"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "During the term of this Agreement and for a period of two (2) years after\ntermination hereof, neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Confidential\nInformation, except as expressly directed by such party or as permitted herein.",
+                "changed_text": "Neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Confidential\nInformation, except as expressly directed by such party or as permitted herein.",
+                "explanation": "By removing the temporal clause 'During the term of this Agreement and for a period of two (2) years after\ntermination hereof', there is no limit for how long confidential information should be held. This can lead to conflict with New York's laws regarding trade secret misappropriation, which assumes at a reasonable time for protection of information.",
+                "contradicted_law": "New York Civil Practice Law and Rules § 214(a) (Statute of Limitations for Misappropriation of Trade Secrets)",
+                "location": "6(c)"
+            }
+        ]
+    }
+]

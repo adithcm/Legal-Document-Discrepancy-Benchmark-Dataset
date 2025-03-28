@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "pareteumcorp_20081001_8-k_ex-99.1_2654808_ex-99.1_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.17\n“IMSI” means the International Mobile Subscriber Identity, ***",
+                "changed_text": "1.17\n“IMSI” means an identifier.",
+                "explanation": "By changing the definition of 'IMSI' to a broader term, we introduce ambiguity. Later sections relying on the specific definition of 'International Mobile Subscriber Identity' will become unclear, creating an internal contradiction. This affects the enforcement of clauses where IMSI is referenced.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "10.1\nELEPHANT TALK shall for its own account and at its own cost maintain a customer support organization for ELEPHANT TALK Customers. In addition, T-Mobile shall provide second line customer care support to the back office of ELEPHANT TALK’s customer support organization, according to Appendix 1, 2 and 6.",
+                "changed_text": "10.1\nELEPHANT TALK shall maintain a customer support organization for ELEPHANT TALK Customers.",
+                "explanation": "Removing T-Mobile's obligation to provide second-line support creates a contradiction if other sections (specifically Appendix 6 - SLA) still refer to T-Mobile's responsibilities regarding second-line support. The definition of 'Customer Care Support' now lacks clarity, potentially leading to disputes over the level of support T-Mobile is obligated to provide. The contract still mentions Customer care in other sections.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "20.7\nAny notice or other formal communication to be given or made under or in connection with this Agreement, if not stated otherwise explicitly in this Agreement and its Appendices, shall be in writing, signed by or on behalf of the Party giving it and sent by registered mail. All notice or other formal communication to be delivered under this Agreement shall be addressed to:\n\nfor ELEPHANT TALK: the CTO;\n\nfor T-Mobile: the Director Wholesale & Interconnect.",
+                "changed_text": "20.7\nAny notice or other formal communication to be given or made under or in connection with this Agreement, if not stated otherwise explicitly in this Agreement and its Appendices, shall be in writing, signed by or on behalf of the Party giving it and sent by registered mail.",
+                "explanation": "By removing the designated contacts for each party, it becomes unclear where formal communications should be sent. This is an issue as this omission now contradicts sections relying on these designated contacts. This ambiguity hinders effective communication and enforcement.",
+                "location": "Section 20"
+            }
+        ]
+    }
+]

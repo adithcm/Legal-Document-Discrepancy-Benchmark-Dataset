@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "sibannac,inc_12_04_2017-ex-2.1-strategic alliance agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Bravatek agrees to serve as a non-exclusive project sales lead finder for COMPANY. In this capacity, Bravatek will use its best efforts to provide the following services to COMPANY.",
+                "changed_text": "Bravatek agrees to serve as a non-exclusive sales representative for COMPANY. In this capacity, Bravatek will use its reasonable efforts to provide the following services to COMPANY.",
+                "explanation": "The terms 'project sales lead finder' and 'sales representative' are used interchangeably without definition. 'Best efforts' is changed to 'reasonable efforts', creating ambiguity about the required level of diligence.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 30 days after each client payment on delivered products received at COMPANY's bank account.",
+                "changed_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a commission, the amount of which will be determined at COMPANY's sole discretion, taking into account project complexities, payable when funds are available.",
+                "explanation": "The term 'lead-finder fee' is replaced with 'commission', but the method and timing of payment are significantly altered. The original text defined a range (10-20%), making it a quantifiable range. The modified version removes the range and makes payment dependent on 'fund availability,' effectively nullifying the obligation of the party and removes the original condition of 'NET 30 days'.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "COMPANY shall indemnify Bravatek, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of COMPANY or breach of COMPANY of any of its obligations under this Agreement.",
+                "changed_text": "COMPANY shall reimburse Bravatek for direct losses suffered by Bravatek due to COMPANY's gross negligence.",
+                "explanation": "The term 'indemnify' is replaced with 'reimburse for direct losses.' The original covers “any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs”. The modified section limits the compensation to 'direct losses' and only in the case of 'gross negligence,' a higher threshold than simple negligence or breach of contract, vastly reducing the scope of protection. This creates a direct contradiction in the scope of liability.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

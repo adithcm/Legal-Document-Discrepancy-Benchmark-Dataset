@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "randworldwideinc_20010402_8-ka_ex-10.2_2102464_ex-10.2_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.20 \"Net Revenue\" shall have the meaning set forth in Section 5.5  [Net Revenue Defined].",
+                "changed_text": "1.20 \"Net Revenue\" shall have a meaning as the parties agree from time to time.",
+                "explanation": "By changing the original definition to 'as the parties agree from time to time', we remove the concrete definition, but leave subsequent references to 'Net Revenue'. This contradiction introduces ambiguity as the specific calculation method is no longer defined, making enforcement uncertain.",
+                "location": "SECTION 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.6 Reporting and Payment Obligations. Within 7 Business Days after the end of each calendar quarter, the Billing Party shall provide the other party with an itemized statement, subject to adjustment within 30 days of receipt of such statement, setting forth the Net Revenue achieved over the preceding calendar quarter, and shall include such other information as may be mutually agreed upon by the parties (the \"Revenue Report\"). The Revenue Report shall be accompanied by payment to the Non-Billing Party of all amounts owed as set forth on such Revenue Report, as well as - when applicable - the exchange currency rate. When agreed between the parties as provided for in Section 5.2  [Pricing of the Co-Branded Service],payment will be made to the Non-Billing Party in the currency received by theBilling Party for the provision of the Co-Branded Service. Otherwise, paymentshall be made in US dollars as provided for in Section 5.2  [Pricing of the Co-Branded Service]. In the event thatthe Billing Party is unable under foreign currency export controls or similarapplicable laws, unknown to the parties at the time where they agree on paymentsin that currency, to provide payment to the Non-Billing Party in the currencyreceived by the Billing Party the parties agree to negotiate a mutuallyagreeable solution. A party's right to payment shall accrue upon the date thecorresponding revenues accrue to the Billing Party. The parties shall payinterest for late payment of any sum due at the LIBOR rate plus four points (notto exceed the maximum rate authorized, or be inferior to the minimum rateallowed, by applicable law, as the case may be).",
+                "changed_text": "5.6 Reporting and Payment Obligations. The Billing Party shall provide the other party with a report and payment schedule. The specifics of the report and payment schedule shall be negotiated and agreed upon separately by both parties.",
+                "explanation": "This change removes the specific obligation to provide an itemized statement within a specific timeframe. By stating the specifics 'shall be negotiated and agreed upon separately' but not defining a timeframe, this creates uncertainty as Section 5.6 is heavily referenced in other sections. It still references a revenue report but makes its provision uncertain.",
+                "location": "SECTION 5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "6.4 Warranty of Confidentiality of Dassault Systemes Customer Databases and Input and Output Data of Dassault Systemes Customers. The parties expressly agree that the Dassault Systemes Customer Databases and their content as well as Dassault Systemes Customers input data to be processed and output data supplied, are confidential information of Dassault Systemes, and will be treated as such, in accordance with the terms and conditions of the CNDA.",
+                "changed_text": "6.4 Warranty of Confidentiality of Dassault Systemes Customer Databases and Input and Output Data of Dassault Systemes Customers. The parties agree to treat the Dassault Systemes Customer Databases and their content as confidential information of Dassault Systemes.",
+                "explanation": "By removing 'in accordance with the terms and conditions of the CNDA', the specific terms of the confidentiality agreement are omitted. Other sections reference the CNDA, thus creating a contradiction as the guiding document for confidentiality is removed, potentially invalidating other references to the CNDA, creating a large degree of uncertainty and enforceability.",
+                "location": "SECTION 6"
+            }
+        ]
+    }
+]

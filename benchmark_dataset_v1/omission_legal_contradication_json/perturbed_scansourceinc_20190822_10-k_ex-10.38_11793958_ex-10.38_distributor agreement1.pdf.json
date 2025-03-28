@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each party shall maintain Commercial General Liability insurance with bodily injury and property damage limits of $[*****] per occurrence and $[*****] aggregate. Such insurance shall (a) provide for contractual liability coverage, (b) provide for cross liability coverage, and (c) name the other party and its subcontractors, as well as the directors, officers, employees, agents, successors and assigns of all of them, as additional insureds, but only to the extent of liabilities falling within the indemnity obligations of the other party pursuant to the terms of Section 24 in this Agreement.",
+                "changed_text": "Each party shall maintain General Liability insurance. Such insurance shall (a) provide for contractual liability coverage, (b) provide for cross liability coverage, and (c) name the other party and its subcontractors, as well as the directors, officers, employees, agents, successors and assigns of all of them, as additional insureds, but only to the extent of liabilities falling within the indemnity obligations of the other party pursuant to the terms of Section 24 in this Agreement.",
+                "explanation": "Removing the specific coverage amounts violates standard business practices and possibly state laws regarding minimum liability coverage. States may have implicit expectations for insurance levels within commercial contracts. By removing the amounts, this creates a legal risk.",
+                "contradicted_law": "Potential violation of state-specific commercial liability insurance standards.",
+                "location": "25.0 (b)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Distributor will pass through to Resellers all written limited warranties provided by Cisco with Products purchased by Distributor and Distributor shall contractually require (in whatever manner Distributor deems appropriate) each such Reseller to provide such warranty and other terms to any End User to which the Reseller redistributes the Product.",
+                "changed_text": "Distributor will pass through to Resellers the warranties provided by Cisco with Products purchased by Distributor.",
+                "explanation": "Removing the clause that the distributor 'shall contractually require...each such Reseller to provide such warranty and other terms to any End User' omits the legally mandated flow-down of warranty to the end consumer. This omission creates risk as end-users may not receive the legally required warranty protections.",
+                "contradicted_law": "Potential violation of consumer protection laws requiring warranties to be passed to end-users.",
+                "location": "10.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Distributor shall obtain all licenses, permits and approvals required by any government, including any recycling or take-back programs applicable to packaging or Products, and shall comply with all applicable laws, rules, regulations, policies and procedures and any requirements applicable to the importation, exportation, use, sale, loan, purchase, and distribution of Products under telecommunications, consumer rights related, environmental, labor, tax, and any other laws and regulations, of any government or other competent authority where the Products are to be sold, used or deployed (collectively \"Applicable Laws\").",
+                "changed_text": "Distributor shall comply with all applicable laws, rules, regulations, policies and procedures and any requirements applicable to the importation, exportation, use, sale, loan, purchase, and distribution of Products under telecommunications, consumer rights related, environmental, labor, tax, and any other laws and regulations, of any government or other competent authority where the Products are to be sold, used or deployed (collectively \"Applicable Laws\").",
+                "explanation": "Removing the first part of the sentence: 'Distributor shall obtain all licenses, permits and approvals required by any government, including any recycling or take-back programs applicable to packaging or Products, and' eliminates the distributor's direct responsibility for environmental compliance. This is a legally required consumer/environmental protection and omission introduces legal risk of non-compliance with environmental regulations.",
+                "contradicted_law": "Environmental Regulations related to recycling and take-back programs.",
+                "location": "21.1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "photronicsinc_20171219_10-qa_ex-10.28_10982650_ex-10.28_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Each of Photronics and DNP is hereinafter referred to as a “Shareholder” and collectively as the “Shareholders”, each of the\nShareholders and PDMC is hereinafter referred to as a “Supplier” and collectively as the “Suppliers”, and each of the Suppliers and the Company\nis hereinafter referred to as a “Party” and collectively as the “Parties.”",
+                "changed_text": "Each of Photronics and DNP is hereinafter referred to as a “Shareholder” and collectively as the “Shareholders”. Each entity holding more than 10% equity is also considered a Shareholder. Each of the\nShareholders and PDMC is hereinafter referred to as a “Supplier” and collectively as the “Suppliers”, and each of the Suppliers and the Company\nis hereinafter referred to as a “Party” and collectively as the “Parties.”",
+                "explanation": "The original definition of 'Shareholder' is limited to Photronics and DNP. The modified definition introduces another condition: any entity holding more than 10% equity. This creates a contradiction, as an entity could be considered a Shareholder under the new definition but not the original, impacting rights and obligations tied to that status.",
+                "location": "Beginning of the document"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Suppliers shall deliver the Product to the Company in accordance with the Delivery Term, shipping instructions in the Purchase\nOrder issued by the Company with regard to the requested delivery date (subject to the Product Lead Time), ship-to address, and carrier. If the\nCompany does not provide shipping instructions, the Suppliers will select the carrier on a commercially reasonable basis. Suppliers shall be\nresponsible for paying freight, handling, shipping and/or insurance charges to the delivery point in accordance with the Delivery Term.",
+                "changed_text": "Suppliers shall make reasonable efforts to deliver the Product to the Company in accordance with the Delivery Term, shipping instructions in the Purchase\nOrder issued by the Company with regard to the requested delivery date (subject to the Product Lead Time), ship-to address, and carrier. If the\nCompany does not provide shipping instructions, the Suppliers will select the carrier, considering market rates, on a commercially justifiable basis. Suppliers shall only be responsible for paying freight, handling, shipping and/or insurance charges if it is explicitly stated on the purchase order.",
+                "explanation": "The original text mandates that suppliers 'shall deliver' and 'shall be responsible' implying a strict obligation. This has been altered to 'make reasonable efforts' and 'shall only be responsible...if explicitly stated,' creating conflicting duties. A different section mandating prompt delivery may now contradict this relaxed clause, leading to disputes.",
+                "location": "Article 5.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Company may not [***]any portion of an accepted [***]unless the Supplier fails to fulfill any material term of such accepted\n[***].",
+                "changed_text": "The Company may [***]any portion of an accepted [***]with reasonable cause. In instances where the Supplier fails to fulfill any term of such accepted\n[***], the Company is obligated to inform the supplier of such failure.",
+                "explanation": "The original text only allows cancellation for material breach by the supplier. The new text allows cancellation for 'reasonable cause' without defining 'reasonable cause', which conflicts with the first part. In other sections it is defined as material, but this section allows for anything.",
+                "location": "Article 2.4"
+            }
+        ]
+    }
+]

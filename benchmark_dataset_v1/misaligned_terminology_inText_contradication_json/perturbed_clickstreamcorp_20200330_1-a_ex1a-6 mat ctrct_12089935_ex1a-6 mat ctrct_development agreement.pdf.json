@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "clickstreamcorp_20200330_1-a_ex1a-6 mat ctrct_12089935_ex1a-6 mat ctrct_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Application Development Agreement (the “Agreement”) is entered into as of March 20, 2020, effective as of March 20, 2020 (the “Effective Date”) by and between InfinixSoft Global LLC, a Florida Limited Liability Company, with its principal office located at 360 NE 75 St Miami, Suite #127, 33138, Miami, Florida (the “Developer”) and Clickstream Corporation with its principal office located at 1801 Century Park East Suite 1201 Los Angeles, CA 90067 (the “Client”) and together with the Developer ( the “Parties”).",
+                "changed_text": "This Application Development Agreement (the “Agreement”) is entered into as of March 20, 2020, effective as of March 20, 2020 (the “Effective Date”) by and between InfinixSoft Global LLC, a Florida Limited Liability Company, with its principal office located at 360 NE 75 St Miami, Suite #127, 33138, Miami, Florida (the “Vendor”) and Clickstream Corporation with its principal office located at 1801 Century Park East Suite 1201 Los Angeles, CA 90067 (the “Customer”) and together with the Vendor ( the “Parties”).",
+                "explanation": "The terms “Developer” and “Client” have been changed to “Vendor” and “Customer” respectively. The contract now uses different terms for the same entities without defining them. This creates ambiguity regarding obligations and responsibilities throughout the document, as the changed terms might be interpreted as different parties.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Client hereby appoints and engages the Developer, and the Developer hereby accepts this appointment, to perform the services described in Exhibit A attached hereto and made a part hereof, in connection with the design of the Application (collectively, the “Services”).",
+                "changed_text": "The Customer hereby appoints and engages the Vendor, and the Consultant hereby accepts this appointment, to perform the services described in Exhibit A attached hereto and made a part hereof, in connection with the design of the Application (collectively, the “Services”).",
+                "explanation": "The terms “Developer” and “Client” have been changed to “Vendor” and “Customer”, and a new term 'Consultant' is introduced. This change further compounds the earlier confusion, as it is now unclear whether the “Vendor” and “Consultant” are the same entity or separate entities, resulting in uncertainties about who is responsible for the 'Services'.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Developer shall not develop, maintain or market a similar platform and will not compete with the Client directly or indirectly worldwide.",
+                "changed_text": "The Vendor shall not develop, maintain or market a similar platform and will not compete with the Customer directly or indirectly worldwide. The Service Provider is allowed to develop, maintain or market a similar platform.",
+                "explanation": "Here, \"Developer\" is switched with \"Vendor\", and \"Client\" is switched with \"Customer\" as established. The final sentence adds \"Service Provider is allowed to develop, maintain or market a similar platform.\" This creates a direct contradiction, as 'Vendor' is defined as the 'Developer' earlier, but 'Service Provider' is introduced without context. This severely impacts the enforceability of the non-compete clause, creating a contradiction with the prohibition against competition.",
+                "location": "Section 7(b)7"
+            }
+        ]
+    }
+]

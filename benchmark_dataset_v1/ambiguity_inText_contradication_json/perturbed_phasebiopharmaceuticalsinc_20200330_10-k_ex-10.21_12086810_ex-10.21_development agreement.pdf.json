@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "phasebiopharmaceuticalsinc_20200330_10-k_ex-10.21_12086810_ex-10.21_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.1.2 “Affiliate” means, with respect to a party, a business entity under common control with, or controlling or controlled by, such party, with “control” meaning direct or indirect ownership of 50% or more of the voting interest in such other entity, and in the case Source: PHASEBIO PHARMACEUTICALS INC, 10-K, 3/30/2020\n\nof a partnership, control of the general partner. Notwithstanding the foregoing, neither The Blackstone Group Inc. nor any of its divisions, including Blackstone Life Sciences, shall be deemed to be an “Affiliate” of SFJ.",
+                "changed_text": "1.1.2 “Affiliate” means, with respect to a party, a business entity under common control with, or controlling or controlled by, such party, with “control” meaning direct or indirect ownership of 50% or more of the voting interest in such other entity, and in the case Source: PHASEBIO PHARMACEUTICALS INC, 10-K, 3/30/2020\n\nof a partnership, control of the general partner. Notwithstanding the foregoing, The Blackstone Group Inc. and any of its divisions, including Blackstone Life Sciences, shall be deemed to be an “Affiliate” of SFJ.",
+                "explanation": "The original text explicitly excludes Blackstone Group and its divisions from being considered affiliates of SFJ. The modified text removes this exclusion, creating a direct contradiction and making it unclear whether Blackstone is considered an affiliate or not. This could impact obligations or rights tied to affiliate status.",
+                "location": "1.1.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.14.1.1 PB will be the GMP Manufacturer of the Product for the Clinical Trials, either directly or through an Approved Vendor. In particular, with respect to the Clinical Trials, PB will maintain in force a clinical supply agreement with a CMO that has sufficient capacity to manufacture and supply GMP-compliant Product for the Clinical Trials in a timely manner in accordance with a clinical supply schedule approved by the JDC (as amended by the JDC from time to time, the “Clinical Supply Schedule”).",
+                "changed_text": "3.14.1.1 PB may be the GMP Manufacturer of the Product for the Clinical Trials, either directly or through an Approved Vendor. In particular, with respect to the Clinical Trials, PB will attempt to maintain in force a clinical supply agreement with a CMO that has sufficient capacity to manufacture and supply GMP-compliant Product for the Clinical Trials in a timely manner in accordance with a clinical supply schedule approved by the JDC (as amended by the JDC from time to time, the “Clinical Supply Schedule”).",
+                "explanation": "The original text mandates PB to be the GMP Manufacturer, either directly or through an Approved Vendor and maintain a clinical supply agreement. The modified text uses \"may be\" and \"attempt to maintain\", introducing ambiguity and reducing PB’s obligation, making performance non-binding. This creates an internal contradiction with other sections requiring the supply of product.",
+                "location": "3.14.1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "12.3.1 Generally. Commencing as of the Effective Date and thereafter during the Development Term, and subject to Section 12.3.2 below, each Party will carry and maintain, at its own expense, insurance coverage of the kind and with liability limits that, at a minimum, satisfy the requirements of Section 12.3.2, to protect itself and the other Party against any claims or liabilities that may arise from the conduct of the Clinical Trials and all other rights and obligations hereunder with insurers with a minimum “A-” A.M. Best rating.",
+                "changed_text": "12.3.1 Generally. Commencing as of the Effective Date and thereafter during the Development Term, and subject to Section 12.3.2 below, each Party will endeavor to carry and maintain, at its own expense, insurance coverage of the kind and with liability limits that, at a minimum, satisfy the requirements of Section 12.3.2, to protect itself and the other Party against any claims or liabilities that may arise from the conduct of the Clinical Trials and all other rights and obligations hereunder with insurers with a minimum “B+” A.M. Best rating.",
+                "explanation": "The original text states that each Party 'will' carry and maintain insurance with a minimum \"A-\" rating. The modified text uses \"endeavor to\" and reduced rating “B+”, which reduces the obligation and introduces ambiguity about the required level of insurance coverage. This contradiction raises questions about liability coverage in case of an incident.",
+                "location": "12.3.1"
+            }
+        ]
+    }
+]

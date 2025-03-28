@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "photronicsinc_20171219_10-qa_ex-10.28_10982650_ex-10.28_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Suppliers will make good faith efforts to accept all [***]from the Company that comply with this Agreement including adhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the [***] (as defined below)). The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Suppliers will endeavor to accept [***]from the Company that generally align with this Agreement, including a flexible adherence to the Product specifications outlined in the [***]entered into between the Company and the Supplier (including the [***] (as defined below)). The Suppliers will attempt to notify the Company of acceptance or rejection of a [***]within a reasonable timeframe of receipt of a [***]. A lack of communication from the Suppliers regarding acceptance or rejection within a period may, at the Company's discretion, be considered acceptance of such [***].",
+                "explanation": "The modification weakens the obligation to accept purchase orders. 'Good faith efforts to accept all' becomes 'endeavor to accept generally align', introducing ambiguity. The 'shall notify' is replaced with 'will attempt to notify within a reasonable timeframe', making the notification requirement less strict. The hard deadline on acceptance/rejection has been removed completely. The ambiguity contradicts contract law principles that demand clearly defined acceptance and rejection procedures, potentially leading to disputes about whether an order was accepted. This could be problematic under the United Nations Convention on Contracts for the International Sale of Goods (CISG) if the parties are in different CISG signatory countries, as it undermines the requirement for a clear and unambiguous acceptance of an offer.",
+                "contradicted_law": "Contract Law Principles - Clear Acceptance/Rejection; CISG (potentially)",
+                "location": "Section 2.2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Suppliers shall deliver the Product to the Company in accordance with the Delivery Term, shipping instructions in the Purchase Order issued by the Company with regard to the requested delivery date (subject to the Product Lead Time), ship-to address, and carrier. If the Company does not provide shipping instructions, the Suppliers will select the carrier on a commercially reasonable basis.",
+                "changed_text": "Suppliers should attempt to deliver the Product to the Company consistent with the Delivery Term and taking into account shipping guidance that the Company may provide concerning requested delivery dates (considering the Product Lead Time), delivery destination, and preferred transportation service. In instances where comprehensive shipping guidance is not given, the Suppliers may choose the transportation service at their convenience.",
+                "explanation": "The modifications introduce uncertainty in the delivery obligations. Replacing 'shall deliver' with 'should attempt to deliver' weakens the obligation. Furthermore, 'shipping instructions' becomes 'shipping guidance', making them non-binding. The clause 'select the carrier on a commercially reasonable basis' is replaced with 'may choose the transportation service at their convenience', giving suppliers more leeway, which introduces ambiguity and contradicts the established Delivery Term. This change can contradict standard shipping laws, where shipping and delivery responsibilities are typically explicit and carefully defined.",
+                "contradicted_law": "Shipping Law - Clear Shipping Responsibilities",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant Supplier and the Company in writing that is applicable to such Products for the Warranty Period.",
+                "changed_text": "Each of the Suppliers generally warrants that the Products are reasonably expected to conform to the broad specifications and documentation that the relevant Supplier and the Company discuss in general terms, for a period deemed appropriate by the Supplier.",
+                "explanation": "The modification significantly weakens the product warranty. 'Shall comply' is changed to 'generally warrants that the Products are reasonably expected to conform,' making the warranty less definitive. The 'specifications and documentation agreed by the relevant Supplier and the Company in writing' is replaced with 'broad specifications and documentation that the relevant Supplier and the Company discuss in general terms,' which is vague and not binding. Finally, 'Warranty Period' is changed to 'period deemed appropriate by the Supplier,' giving the supplier discretion over the warranty period, which may not satisfy minimum warranty periods established by consumer protection laws depending on where the product is ultimately sold. This weakens the warranty protection for the company and introduces ambiguity, making it difficult to claim breach of warranty. This could violate warranty laws, potentially under the Uniform Commercial Code (UCC) in the US.",
+                "contradicted_law": "Warranty Laws - UCC (potentially)",
+                "location": "Section 6.1"
+            }
+        ]
+    }
+]

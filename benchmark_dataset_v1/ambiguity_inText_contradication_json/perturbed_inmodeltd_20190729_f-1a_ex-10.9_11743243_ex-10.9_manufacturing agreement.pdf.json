@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "inmodeltd_20190729_f-1a_ex-10.9_11743243_ex-10.9_manufacturing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Contractor will, pursuant to the written specifications given by Customer and pre approved by Contractor (“Specifications”), perform manufacturing services on behalf of Customer. These manufacturing services shall include, but not be limited to, labor, materials, testing, packaging and delivery to Customer, all subject to the terms and conditions contained in this Agreement.",
+                "changed_text": "Contractor will, pursuant to the written specifications given by Customer (“Specifications”), perform manufacturing services on behalf of Customer. These manufacturing services shall include, but not be limited to, labor, materials, testing, packaging and delivery to Customer, all subject to the terms and conditions contained in this Agreement.",
+                "explanation": "The original definition requires pre-approval of the Specifications by the Contractor. Removing 'pre approved by Contractor' creates a conflict. If later sections rely on the 'Specifications' being pre-approved, this change introduces ambiguity and allows the Customer to unilaterally define the specifications.",
+                "location": "3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Contractor represents and warrants that, for the Warranty Period, the Products (i) will be free from defects in workmanship, material (only to the same extent as the original manufacturer of the material warrants the Contractor), and manufacture; (ii) will comply the Specifications IPC610.B standard (in all material respects and unless otherwise was instructed by Customer). Contractor further represents and warrants that the Product will consist of new materials.",
+                "changed_text": "Contractor represents and warrants that, for the Warranty Period, the Products (i) will be free from defects in workmanship, material, and manufacture; (ii) will comply with the Specifications IPC610.B standard. Contractor further represents and warrants that the Product will consist of new or refurbished materials.",
+                "explanation": "This creates a conflict in the warranty. Previously, materials defects were only covered to the extent the original manufacturer warrants the Contractor, which limited liability. Furthermore, the Product needs to consist of new materials. Removing this clause and replacing it with 'new or refurbished materials' broadens the Contractor’s material liability and introduces potentially lower quality refurbished materials, conflicting with the higher original standards and creating uncertainty about the material quality under warranty.",
+                "location": "10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Contractor and the Customer will not be allowed to employ employees of the other party, directly or indirectly, for one (1) year from the date the employee has ceased to be employed by the other party. The above mentioned restriction may be waived by either party provided that it is done by a written and specific consent.",
+                "changed_text": "The Contractor and the Customer will not be allowed to employ employees of the other party, directly or indirectly, for one (1) year from the date the employee has ceased to be employed by the other party. The above mentioned restriction may be waived by either party.",
+                "explanation": "By removing 'provided that it is done by a written and specific consent', we are introducing ambiguity regarding the method in which the mentioned restriction will be waived. This lack of clarity introduces uncertainty and potential disagreement on what conditions the restriction will be waived.",
+                "location": "20.1"
+            }
+        ]
+    }
+]

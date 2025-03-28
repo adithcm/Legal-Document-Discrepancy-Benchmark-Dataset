@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "western copper - non-competition agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Affiliate means, in respect of a party hereto, a corporation which is the subsidiary of the party or vice versa or where each of the party and the corporation is controlled by the same person,",
+                "changed_text": "Affiliate means, in respect of a party hereto, a corporation which is the subsidiary of the party. A related entity means any entity that has a business relationship with the party.",
+                "explanation": "The definition of 'Affiliate' is narrowed, but later sections might treat 'related entity' as equivalent to affiliate, creating confusion about which entities are bound by the agreement.",
+                "location": "1.1(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Mining Activities means any acquisition of mineral rights or any mineral exploration or development activities, in any manner whatsoever, and",
+                "changed_text": "Mining Activities refers to physical extraction. Resource Development includes all activities related to mineral exploration and development.",
+                "explanation": "The original definition of 'Mining Activities' is broad, but is replaced with the more restricted 'physical extraction.' The introduction of 'Resource Development' with a similar meaning to the original Mining Activities without explicitly stating it creates ambiguity about the scope of the non-competition clause.",
+                "location": "1.1(g)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Western Copper covenants and agrees with Glamis that, for a period of 2 years after the Effective Date, it will not, directly or indirectly, either individually or in partnership or jointly or in conjunction with any Person, which will include being a principal, agent, shareholder, or advisor of such Person or in any other manner whatsoever,\n(a) carry on or be engaged in Mining Activities, or\n(b) advise, lend money to, guarantee the debts or obligations of or permit its name to be used by any Person who carries on or is engaged in Mining Activities,\nin the Area of Non-Competition.",
+                "changed_text": "Western Copper covenants and agrees with Glamis that, for a period of 2 years after the Effective Date, it will not, directly or indirectly, either individually or in partnership or jointly or in conjunction with any Person, which will include being a principal, agent, shareholder, or advisor of such Person or in any other manner whatsoever,\n(a) carry on or be engaged in Mining Activities, or\n(b) support any entity engaged in Resource Development,\nin the Area of Non-Competition.",
+                "explanation": "Here, 'Mining Activities' is used in one clause and 'Resource Development' (undefined if it also includes Mining Activities) is used in another. It creates uncertainty if advising a firm engaged in exploration but not extraction violates the non-compete.",
+                "location": "2.1"
+            }
+        ]
+    }
+]
