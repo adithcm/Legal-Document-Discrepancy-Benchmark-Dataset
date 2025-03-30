@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "creditcardscominc_20070810_s-1_ex-10.33_362297_ex-10.33_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Chase reserves the right to change any and all of the terms and conditions in this Agreement, at any time and in its sole discretion, by posting a\nnew agreement on its Website. Without limiting the generality of the foregoing, the amount of Commissions, the definition of Approved Accounts,\nand all other provisions of this Agreement are subject to change without notice other than posting such information on the Chase Website. IF ANY\nMODIFICATION IS UNACCEPTABLE TO AFFILIATE, THE ONLY RECOURSE IS TO TERMINATE THIS AGREEMENT. AFFILIATE’S\nCONTINUED PARTICIPATION IN THE AFFILIATE PROGRAM FOLLOWING CHASE’S POSTING OF A NEW AGREEMENT ON ITS WEB SITE\nWILL CONSTITUTE BINDING ACCEPTANCE OF THE CHANGE.",
+                "changed_text": "Chase reserves the right to change any and all of the terms and conditions in this Agreement, at any time and in its sole discretion, by posting a\nnew agreement on its Website. Without limiting the generality of the foregoing, the amount of Commissions are subject to change with direct notice, the definition of Approved Accounts, and all other provisions of this Agreement are subject to change without notice other than posting such information on the Chase Website. IF ANY\nMODIFICATION IS UNACCEPTABLE TO AFFILIATE, THE ONLY RECOURSE IS TO TERMINATE THIS AGREEMENT. AFFILIATE’S\nCONTINUED PARTICIPATION IN THE AFFILIATE PROGRAM FOLLOWING CHASE’S POSTING OF A NEW AGREEMENT ON ITS WEB SITE\nWILL CONSTITUTE BINDING ACCEPTANCE OF THE CHANGE.",
+                "explanation": "Changing the 'Commission' allows Chase to change the amount of commission with direct notice of such a change, but everything else is subject to change without notice. Contradicts the general notification.",
+                "contradicted_law": "Contract Law - specifically concerning the clarity and consistency of modification clauses.",
+                "location": "Section 19"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Affiliate agrees to indemnify, defend, and hold harmless Chase, its shareholders, officers, directors, employees, agents, affiliates and their\nrespective directors, officers, employees and agents, successors and assigns, from and against any and all claims, demands, losses, liabilities,\ndamages or expenses (including attorneys’ fees and costs) of any nature whatsoever incurred or suffered by Chase (collectively the “losses”), in so\nfar as such losses (or actions in respect thereof) arise out of, are related to, or are based on (i) the breach of any representation, warranty, or\ncovenant made by Affiliate herein; or (ii) any claim related to Affiliate’s site.",
+                "changed_text": "Affiliate agrees to indemnify, defend, and hold harmless Chase, its shareholders, officers, directors, employees, agents, affiliates and their\nrespective directors, officers, employees and agents, successors and assigns, from and against any and all claims, demands, losses, liabilities,\ndamages or expenses (including attorneys’ fees and costs) of any nature whatsoever incurred or suffered by Chase (collectively the “losses”), in so\nfar as such losses (or actions in respect thereof) arise out of, are related to, or are based on (i) the breach of any representation, warranty, or\ncovenant made by Affiliate herein, except for gross negligence or (ii) any claim related to Affiliate’s site.",
+                "explanation": "This alteration introduces a caveat to the affiliate's indemnification obligations, specifically excluding gross negligence. This contradicts the standard principle that parties can't be indemnified for their own gross negligence or willful misconduct, especially in jurisdictions that disallow such broad indemnification agreements. The added phrase attempts to narrow the scope but creates ambiguity and potential unenforceability.",
+                "contradicted_law": "General Contract Law principles, particularly those regarding indemnification and liability limitations. Some jurisdictions have specific statutes or case law disallowing indemnification for gross negligence or willful misconduct.",
+                "location": "Section 17"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement will be governed in all respects by the laws of the State of Delaware, including its conflict with law provisions.",
+                "changed_text": "This Agreement will be governed in all respects by the laws of the State of Delaware, except in cases of intellectual property which will be governed by federal law, including its conflict with law provisions.",
+                "explanation": "The clause now indicates that while Delaware law generally governs the agreement, intellectual property matters will be subject to federal law. Intellectual property is a specialized area with its own set of rules, and conflicts often arise between state contract law and federal IP law. By carving out intellectual property, the clause introduces a dual-governance structure which can lead to confusion and potential conflicts of law issues if not clearly delineated.",
+                "contradicted_law": "Conflict of Laws principles, specifically regarding the application of state vs. federal law. Intellectual property law is primarily federal, but contracts related to intellectual property often fall under state jurisdiction.",
+                "location": "Section 23"
+            }
+        ]
+    }
+]

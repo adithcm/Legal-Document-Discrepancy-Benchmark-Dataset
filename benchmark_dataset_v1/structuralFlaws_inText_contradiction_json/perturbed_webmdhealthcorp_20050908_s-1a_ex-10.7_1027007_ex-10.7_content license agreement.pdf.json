@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "webmdhealthcorp_20050908_s-1a_ex-10.7_1027007_ex-10.7_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1)\nyear term upon the expiration of the Initial Term.",
+                "changed_text": "This agreement will automatically renew for successive one-year terms unless either party provides written notice of termination at least 30 days prior to the expiration of the then-current term. Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1) year term upon the expiration of the Initial Term.",
+                "explanation": "Section 3(a) originally stated that renewal requires 'mutual agreement.' The added text introduces automatic renewal unless notice is given. This contradicts the need for explicit mutual agreement, creating uncertainty.",
+                "location": "Section 3(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying\nthe origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the\nContent in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the\nforegoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.",
+                "changed_text": "Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying\nthe origin of the Content during the term of this Agreement. These Marks may be used by Emdeon only with explicit written consent from WebMD. Notwithstanding the\nforegoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.",
+                "explanation": "The original text grants Emdeon discretion in using WebMD's marks. The added sentence mandates explicit written consent, removing Emdeon's discretion and creating a contradiction.",
+                "location": "Section 5(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "WebMD agrees to provide Emdeon the Content, including any Updates, in a mutually agreeable format (the “Format”). WebMD shall\nbear the cost of any reformatting necessary to provide the Content in the Format.",
+                "changed_text": "WebMD agrees to provide Emdeon the Content, including any Updates, in a format chosen solely at WebMD's discretion (the “Format”). WebMD shall\nbear the cost of any reformatting necessary to provide the Content in the Format. Emdeon shall bear the cost of any changes to the format.",
+                "explanation": "The initial text requires a mutually agreeable format, but it now states the format is chosen at WebMD's discretion. Also, reformatting costs were all to be held by WebMD, but it is now to be held by Emdeon.",
+                "location": "Section 1(d)"
+            }
+        ]
+    }
+]

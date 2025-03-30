@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "atninternationalinc_20191108_10-q_ex-10.1_11878541_ex-10.1_maintenance agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Vendor shall comply with all Laws applicable to Vendor’s performance under this Agreement, including all Work contemplated herein and all Material, Services and Deliverables provided hereunder, and AT&T’s utilization of the Cell Sites. Vendor shall procure all approvals, bonds, certificates, insurance, inspections, licenses, and permits that such Laws require for the performance of this Agreement. Vendor shall create and maintain any necessary records and provide any certificate, affidavit or other information or documentation requested or as otherwise required by AT&T: (a) to show compliance by Vendor and its Subcontractors with Laws, (b) to comply or otherwise establish AT&T’s compliance with Laws or (c) to allow AT&T to timely respond to any complaints, filings, or other proceedings.",
+                "changed_text": "Vendor shall create and maintain any necessary records and provide any certificate, affidavit or other information or documentation requested or as otherwise required by AT&T: (a) to show compliance by Vendor and its Subcontractors with Laws, (b) to comply or otherwise establish AT&T’s compliance with Laws or (c) to allow AT&T to timely respond to any complaints, filings, or other proceedings. Vendor shall comply with some Laws applicable to Vendor’s performance under this Agreement, including all Work contemplated herein and some Material, Services and Deliverables provided hereunder, and AT&T’s utilization of the Cell Sites. Vendor shall procure some approvals, bonds, certificates, insurance, inspections, licenses, and permits that some Laws require for the performance of this Agreement.",
+                "explanation": "By using the words 'some Laws' instead of 'all Laws' reduces the Vendor's legal responsibility and introduces a contradiction by suggesting they don't need to comply with every law. This contradicts the original section's strict liability regarding legal compliance.",
+                "contradicted_law": "General principles of contract law regarding legal compliance",
+                "location": "3.6 Compliance with Laws"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The laws of the State of New York (excluding any laws that direct the application of another jurisdiction’s law) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including its validity, interpretation, construction, performance, and enforcement.",
+                "changed_text": "The laws of the State of New York (excluding any laws that direct the application of another jurisdiction’s law) will probably govern most matters arising out of or relating to this Agreement and most of the transactions it contemplates, including its validity, interpretation, construction, performance, and enforcement.",
+                "explanation": "The change from 'govern all matters' to 'will probably govern most matters' introduces uncertainty and reduces the enforceability of the governing law clause. This weakens the contractual certainty.",
+                "contradicted_law": "Contract law regarding governing jurisdiction",
+                "location": "3.14 Governing Law"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Original signatures transmitted and received via facsimile or other electronic transmission of a scanned document (e.g., pdf or similar format) are true and valid signatures for all purposes hereunder and shall bind the Parties to the same extent as that of original signatures.",
+                "changed_text": "Original signatures transmitted and received via facsimile or other electronic transmission of a scanned document (e.g., pdf or similar format) are often accepted as true and valid signatures for most purposes hereunder and probably bind the Parties similar to that of original signatures.",
+                "explanation": "The change from 'are true and valid signatures' to 'are often accepted as true and valid signatures' introduces ambiguity and uncertainty regarding the validity of electronic signatures. This undermines the enforceability of the agreement.",
+                "contradicted_law": "E-SIGN Act or UETA (depending on jurisdiction, both govern electronic signatures)",
+                "location": "5.1 Execution of Agreement"
+            }
+        ]
+    }
+]

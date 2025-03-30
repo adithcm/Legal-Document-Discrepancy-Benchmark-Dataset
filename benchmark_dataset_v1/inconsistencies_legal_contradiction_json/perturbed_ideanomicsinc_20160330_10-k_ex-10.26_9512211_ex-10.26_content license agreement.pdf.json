@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ideanomicsinc_20160330_10-k_ex-10.26_9512211_ex-10.26_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) This Agreement may be terminated at any time by either party, effective immediately upon\nwritten notice, if the other party: (i) becomes insolvent; (ii) files a petition in bankruptcy; or\n(iii) makes an assignment for the benefit of its creditors. Either party may terminate this\nAgreement upon written notice if the other party materially breaches this Agreement and fails to\ncure such breach within thirty (30) days after the date that it receives written notice of such\nbreach from the non-breaching party.",
+                "changed_text": "(b) This Agreement may be terminated at any time by either party, effective immediately upon\nwritten notice, if the other party: (i) becomes insolvent; (ii) files a petition in bankruptcy; or\n(iii) makes an assignment for the benefit of its creditors. Either party may terminate this\nAgreement upon written notice if the other party materially breaches this Agreement and fails to\ncure such breach within ten (10) days after the date that it receives written notice of such\nbreach from the non-breaching party.",
+                "explanation": "The original text allows a 30-day cure period for a material breach. The modified text reduces this cure period to 10 days. This creates a legal contradiction because many jurisdictions require a reasonable cure period for breaches of contract, and depending on the nature of the breach, 10 days may be deemed unreasonable, especially given the complexity of content licensing agreements. This alteration could potentially violate the implied covenant of good faith and fair dealing present in most contracts under New York law, as it unreasonably shortens the time to remedy a breach. Furthermore, Section 2-719 of the Uniform Commercial Code requires contracts to contain a minimum level of remedy.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing, Uniform Commercial Code § 2-719.",
+                "location": "Section 7(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4. Delivery Requirements; Customer Service.\n(a) Within fifteen (15) days after the Effective Date or on December 31, 2015 (whichever is\nearlier), Licensor shall (at Licensor’s sole expense), make the Titles available either online or\nby hard drive to Licensee or the third-party vendor specified by Licensee to provide or deliver\nthe Titles from Licensee’s or its third-party vendor’s facilities. Delivery of the Titles shall be\ndeemed complete if Licensor makes the Titles available in accordance with the previous sentence.",
+                "changed_text": "4. Delivery Requirements; Customer Service.\n(a) Within ninety (90) days after the Effective Date, Licensor shall (at Licensee's sole expense), make the Titles available either online or\nby hard drive to Licensee or the third-party vendor specified by Licensee to provide or deliver\nthe Titles from Licensee’s or its third-party vendor’s facilities. Delivery of the Titles shall be\ndeemed complete if Licensor makes the Titles available in accordance with the previous sentence.",
+                "explanation": "In the modification, the Licensor is required to bear the expense of making the titles available, yet the changed text states that it is at the Licensee's sole expense. This creates uncertainty and internal inconsistency, as it is unclear whether Licensor must bear the expense of the delivery or not. This may also be a breach of contract if it is determined that Licensor is required to cover the delivery costs. This would likely breach the implied covenant of good faith and fair dealing.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing",
+                "location": "Section 4(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) Restrictions. Each party agrees that, during the Term and for two (2) years thereafter:\n(i) it will not disclose to any third party any Confidential Information disclosed to it by the\nother party except as expressly permitted in this Agreement;",
+                "changed_text": "(b) Restrictions. Each party agrees that, during the Term and for one (1) year thereafter:\n(i) it will not disclose to any third party any Confidential Information disclosed to it by the\nother party except as expressly permitted in this Agreement;",
+                "explanation": "The original text specifies a confidentiality period of two years after the term. The modified text reduces this to one year. While not automatically illegal, in New York, non-compete and confidentiality clauses must be reasonable in scope and duration. A one-year confidentiality period might be deemed unreasonably short, especially considering the sensitive nature of the content licenses and associated trade secrets. This change could be viewed as undermining the protection of confidential information, particularly if the industry standard for such agreements is longer.",
+                "contradicted_law": "Reasonableness standard for non-compete and confidentiality agreements under New York law.",
+                "location": "Section 14(b)"
+            }
+        ]
+    }
+]

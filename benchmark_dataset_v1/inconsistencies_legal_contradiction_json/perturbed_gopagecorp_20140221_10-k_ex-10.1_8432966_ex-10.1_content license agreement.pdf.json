@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "gopagecorp_20140221_10-k_ex-10.1_8432966_ex-10.1_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Licensor instructs Licensee to delete or make inaccessible any Content Item because such Content Item may contain errors, is or could be subject to a third-party claim or for any other good faith reason, Licensee shall comply with such instruction as promptly as reasonably possible and, in any case, within twenty-four (24) hours. The License Term for each such Content Item terminates at the end of such 24-hour period.",
+                "changed_text": "If Licensor instructs Licensee to delete or make inaccessible any Content Item because such Content Item may contain errors, is or could be subject to a third-party claim or for any other good faith reason, Licensee shall comply with such instruction at its convenience. The License Term for each such Content Item will not terminate until the end of the agreement's term.",
+                "explanation": "The original text requires Licensee to act within 24 hours, creating a clear obligation. The modified text replaces this with 'at its convenience,' making the obligation vague and unenforceable. It also states the term will not terminate until the end of the agreement, removing any ability for recourse for a claim, violating general principles of contract law that require reasonable and timely action. Nevada law requires parties to act in good faith and deal fairly, and acting 'at its convenience' may not fulfill that duty, potentially violating the implied covenant of good faith and fair dealing.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing under Nevada contract law; General principles of contract law requiring reasonable and timely action.",
+                "location": "Section 3.2(f)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Not later than the fifteenth (15th) calendar day of each calendar quarter (or the first business day thereafter), Licensee shall deliver to Licensor (i) a report accurately showing Gross Revenues of the Licensee for the previous quarter, the number of Subscribers on the last day of such previous quarter and the amount of Royalties due thereon, and (ii) payment of the Royalties payable for such previous quarterbased on the Subscriber information as reflected in the report. All payments under this Agreement shall be made in US dollars.",
+                "changed_text": "Licensee shall deliver to Licensor reports and payments of Royalties at its sole discretion and within timeframes solely determined by Licensee. Payments may be made in any currency Licensee deems appropriate.",
+                "explanation": "The original text specifies a clear deadline for royalty payments (15th of each quarter). The modified text removes this deadline and gives Licensee complete discretion over payment timing, conflicting with fundamental principles of contract law that require clear and definite terms. Additionally, the change from US dollars to any currency introduces ambiguity and potential financial risk for the Licensor, as it makes it impossible to enforce the amount as it could vary depending on currency exchange rates. This contradicts the principle of 'meeting of the minds' necessary for a valid contract. Nevada law requires contracts to have definite and certain terms, and the modification here introduces significant uncertainty.",
+                "contradicted_law": "Fundamental principles of contract law requiring clear and definite terms; Nevada contract law requirements for definiteness and certainty.",
+                "location": "Section 5.3(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "As a condition to being furnished with Confidential Information, the Recipient agrees, during the Term and for five (5) years thereafter.",
+                "changed_text": "As a condition to being furnished with Confidential Information, the Recipient agrees, during the Term and for six (6) months thereafter.",
+                "explanation": "This perturbation reduces the confidentiality period from five years to six months, which is unusually short for protecting sensitive business information like trade secrets or customer lists. Nevada has the Uniform Trade Secrets Act and reducing the protection period to six months may not provide adequate protection for a reasonable time under the law. Therefore, decreasing the protection period to six months and altering that portion would be a legal contradiction and make the contract unenforceable.",
+                "contradicted_law": "Nevada Uniform Trade Secrets Act (NRS 600A.010 et seq.); General principles of contract law regarding reasonable duration of confidentiality agreements.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

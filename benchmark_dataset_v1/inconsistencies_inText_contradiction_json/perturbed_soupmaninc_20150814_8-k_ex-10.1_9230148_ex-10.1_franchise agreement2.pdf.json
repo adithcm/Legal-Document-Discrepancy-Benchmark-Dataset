@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "soupmaninc_20150814_8-k_ex-10.1_9230148_ex-10.1_franchise agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "A.  Guarantors shall pay or cause to be paid to Franchisor all monies payable by Master Franchisee under the Master Franchise Agreement on the days and times and in the manner therein appointed for payment thereof.",
+                "changed_text": "A.  Guarantors shall pay or cause to be paid to Franchisor all monies payable by Master Franchisee under the Master Franchise Agreement within 30 days of the date of invoice.",
+                "explanation": "This change introduces a conflict. The original clause A states that payments should be made 'on the days and times and in the manner therein appointed for payment thereof,' referencing the Master Franchise Agreement. The modified clause specifies a payment deadline of 'within 30 days of the date of invoice,' which may or may not align with the payment terms defined in the Master Franchise Agreement. If the Master Franchise Agreement stipulates a different payment schedule (e.g., 45 days after invoice, milestone-based payments), this creates an enforceable in-text contradiction regarding the payment deadline and manner.",
+                "location": "A"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "E.  Without affecting the Guarantors’ obligations under this Guarantee, Franchisor, without notice to the Guarantors, may extend, modify, or release any indebtedness or obligation of Master Franchisee, or settle, adjust, or compromise any claims against Master Franchisee. Guarantors waive notice of amendment of the Master Franchise Agreement and notice of demand for payment or performance by Master Franchisee.",
+                "changed_text": "E.  Without affecting the Guarantors’ obligations under this Guarantee, Franchisor, without notice to the Guarantors, may extend, modify, or release any indebtedness or obligation of Master Franchisee, or settle, adjust, or compromise any claims against Master Franchisee, *except* for payment obligations. Guarantors waive notice of amendment of the Master Franchise Agreement and notice of demand for payment or performance by Master Franchisee.",
+                "explanation": "The change in section E creates an in-text contradiction. The original text allows the Franchisor to modify *any* indebtedness or obligation of the Master Franchisee without notice to the Guarantors. The modified text adds an exception: payment obligations. However, section A already states that the Guarantors shall pay all monies payable. Therefore, the exception creates ambiguity: can the Franchisor modify other aspects of the Master Franchisee's obligations that *indirectly* affect payment (e.g., reducing service requirements, which might reduce fees)? It becomes uncertain what constitutes a 'payment obligation' that cannot be modified, leading to disputes.",
+                "location": "E"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "H. This Guarantee shall be interpreted and construed under the laws of the state in which Franchisor has its principal place of business at the time the action is initiated. In the event of any conflict of law, the laws of such state shall prevail, without regard to the application of such state’s conflict of law rules. If, however, any provision of this Guarantee would not be enforceable under the laws of the state in which Franchisor has its principal place of business at the time the action is initiated, and if the Master Franchisee’s franchised business is located outside of such state and such provision would be enforceable under the laws of the state in which the Master Franchisee’s franchised business is located, then such provision shall be interpreted and construed under the laws of that state.",
+                "changed_text": "H. This Guarantee shall be interpreted and construed under the laws of the state in which the Master Franchisee has its principal place of business at the time the action is initiated. In the event of any conflict of law, the laws of such state shall prevail, without regard to the application of such state’s conflict of law rules. If, however, any provision of this Guarantee would not be enforceable under the laws of the state in which the Franchisor has its principal place of business at the time the action is initiated, and if the Master Franchisee’s franchised business is located outside of such state and such provision would be enforceable under the laws of the state in which the Master Franchisee’s franchised business is located, then such provision shall be interpreted and construed under the laws of that state.",
+                "explanation": "This introduces an in-text contradiction by conflicting the laws of interpretation. It initially states that the laws of the state of the *Master Franchisee* should be used at the time the action is initiated. Then, it states that if any provision is unenforceable under the laws of the state in which the *Franchisor* has its principal place of business, and the Master Franchisee's business is elsewhere, then use that other state. The conflict exists because the initial sentence and the following 'if' condition contradict which state law is to be used in initial circumstances.",
+                "location": "H"
+            }
+        ]
+    }
+]

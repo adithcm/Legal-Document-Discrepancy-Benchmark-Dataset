@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "quantumgroupincfl_20090120_8-k_ex-99.2_3672910_ex-99.2_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "“Content” means information, software, and data that Customer provides, including, without limitation, any hypertext markup language\nfiles, scripts, programs, recordings, sound, music, graphics, images, applets or servlets that Customer or its Subcontractors or\nServices Recipients create, install, upload or transfer in or through the e-business Hosting Environment and/or Customer Components.",
+                "changed_text": "“Content” means information, software, and data that Customer provides, including, without limitation, any hypertext markup language\nfiles, scripts, programs, recordings, sound, music, graphics, images, applets or servlets that IBM, at its discretion, creates, installs, uploads or transfers in or through the e-business Hosting Environment and/or Customer Components.",
+                "explanation": "The original definition clearly states that Content is what the *Customer* provides. The modification injects that *IBM* can also create content at its discretion, directly contradicting the original definition and blurring the lines of ownership and responsibility.",
+                "location": "2.0"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Upon the date of termination, all Customer payment obligations accrued hereunder through the date of termination will become due and\npayable.",
+                "changed_text": "Upon the date of termination, Customer payment obligations accrued hereunder may be waived at IBM's sole discretion. IBM will consider waiving Customer's payment obligations on a case-by-case basis.",
+                "explanation": "The original text mandates that all accrued payments *will* become due and payable upon termination. The modified text introduces uncertainty by stating that accrued payments *may* be waived at IBM's discretion. This contradicts the original mandatory language, creating ambiguity about the customer's financial obligations upon contract termination.",
+                "location": "4.0"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "All information exchanged between the parties is non-confidential.  If either or both parties require the exchange of confidential\ninformation, such information will be exchanged under the terms and conditions of a separate written confidentiality agreement.",
+                "changed_text": "All information exchanged between the parties may be considered confidential, as determined by IBM's legal counsel. Parties agree that confidential information will be subject to the terms outlined in existing NDAs or similar documents. If none exist, information exchanged will be considered non-confidential.",
+                "explanation": "Initially, information is stated as \"non-confidential\". The edited text mentions that the information \"may be considered confidential\", which then depends on IBM's legal counsel. If legal counsel considers information confidential and an NDA does not exist, it will be non-confidential. Overall, there are many conditions to fulfill in order for information to be confidential.",
+                "location": "7.0"
+            }
+        ]
+    }
+]

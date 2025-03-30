@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "clickstreamcorp_20200330_1-a_ex1a-6 mat ctrct_12089935_ex1a-6 mat ctrct_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the state of Florida. If litigation results from or arises out of this Agreement or the performance thereof, each Party shall be responsible for its own attorneys’ fees, court costs, and all other expenses, whether or not taxable by the court as costs.",
+                "changed_text": "This Agreement shall be governed by the laws of the state of Florida. If litigation results from or arises out of this Agreement or the performance thereof, each Party shall be responsible for its own attorneys’ fees, court costs, and all other expenses, whether or not taxable by the court as costs. The developer shall not develop, maintain or market a similar platform and will not compete with the Client directly or indirectly worldwide.",
+                "explanation": "Moved the non-compete clause from the 'Parties' Representations and Warranties' section to the 'Governing Law' section. Non-compete clauses are usually stand-alone sections within the contract and are not included in governing law clauses. This misplacement obscures its importance and enforceability and makes it difficult to find.",
+                "contradicted_law": "Florida Statute 542.335 which governs the enforceability of restrictive covenants, including non-compete agreements. Proper placement and conspicuousness are important factors in determining enforceability.",
+                "location": "21"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Types of Termination. This Agreement may be terminated:\n1.\nBy either Party on provision of seven (7) days written notice to the other Party in case of a Force Majeure Event.\n2.\nClient has the unilateral right to cancel this agreement at any time within a 7-day notice period. Further, Developer can only cancel\ndue to lack of payment. Client will have a 30 day right to cure before a cancelation can occur.",
+                "changed_text": "Types of Termination. This Agreement may be terminated:\n1.\nBy either Party on provision of seven (7) days written notice to the other Party in case of a Force Majeure Event.\n2.\nClient has the unilateral right to cancel this agreement at any time within a 7-day notice period. Further, Developer can only cancel\ndue to lack of payment. Client will have a 30 day right to cure before a cancelation can occur. All intellectual property developed pursuant to this Agreement before the Termination Date shall be delivered to the Client within one day of the Termination Date.",
+                "explanation": "Moved the clause regarding intellectual property delivery upon termination from 'Responsibilities after Termination' to 'Types of Termination'. This relocation is problematic because the delivery of intellectual property is a consequence of termination, not a type of termination itself. By inserting it within the 'Types of Termination', it creates confusion and could be misinterpreted as a condition for termination rather than an obligation after termination.",
+                "contradicted_law": "General contract law principles require clarity in defining the conditions for termination and the obligations arising from it. Misplacing a post-termination obligation within the definition of termination types undermines this clarity.",
+                "location": "4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "NOTICE.\nAny notice or other communication provided for herein or given hereunder to a Party hereto shall be in writing and shall be given in person, by\novernight courier, or by mail (registered or certified mail, postage prepaid, return-receipt requested) to the respective Parties as follows:\nIf to the Client:\nContact: Frank Magliochetti, CEO\nCompany Name: Clickstream Corp.\nMain Address: 1801 Century Park East Suite 1201 Los Angeles, CA 90067\nIf to the Developer:\nContact: Ivan Saroka, CEO\nCompany Name: InfinixSoft Global LLC\nMain Address: 360 NE 75th St. Suite #127, 33138, Miami, Florida",
+                "changed_text": "NOTICE.\nAny notice or other communication provided for herein or given hereunder to a Party hereto shall be in writing and shall be given in person, by\novernight courier, or by mail (registered or certified mail, postage prepaid, return-receipt requested) to the respective Parties as follows:\nIf to the Client:\nContact: Frank Magliochetti, CEO\nCompany Name: Clickstream Corp.\nMain Address: 1801 Century Park East Suite 1201 Los Angeles, CA 90067. The Developer shall execute and deliver to the Client any instruments of transfer and take such other action that the Client may reasonably request, including, without limitation, executing and filing, at the Client’s expense, copyright applications, assignments, and other documents required for the protection of the Client’s rights to such materials.\nIf to the Developer:\nContact: Ivan Saroka, CEO\nCompany Name: InfinixSoft Global LLC\nMain Address: 360 NE 75th St. Suite #127, 33138, Miami, Florida",
+                "explanation": "Moved the clause obligating the Developer to execute documents for IP transfer from the 'Work for Hire' section to the 'Notice' section, specifically embedding it within the Client's contact information. By doing this, the requirement is obfuscated and made less likely to be noticed, understood, or acted upon correctly. It disrupts the logical flow of the notice provision and buries a significant obligation within administrative contact details. If the developer is seeking to avoid completing IP assignment obligations, the placement of this clause in the Notice section is designed to avoid easy viewing.",
+                "contradicted_law": "Copyright law and intellectual property law emphasize clear and unambiguous assignment of rights. This relocation weakens the clarity and enforceability of the IP assignment provision.",
+                "location": "20"
+            }
+        ]
+    }
+]

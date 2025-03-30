@@ -1,27 +1,27 @@
 [
     {
-        "file_name": "vgrabcommunicationsinc_20200129_10-k_ex-10.33_11958828_ex-10.33_development agreement.pdf",
+        "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.pdf",
         "perturbation": [
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "Whereas, VAL wishes to engage the Developer for services as an independent contractor for the sole purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone, iPad, Android (Hereinafter called as the “Project”) developed as per the requirements specifications by VAL within this mobile application development agreement",
-                "changed_text": "Whereas, VAL wishes to engage the Designer for services as an independent contractor for the sole purpose of designing the Duesey Coffee Chinese Mobile Apps and backend software contained for iPhone, iPad, Android (Hereinafter called as the “Product”) developed as per the requirements specifications by VAL within this mobile application development agreement",
-                "explanation": "The terms \"Developer\" is changed to \"Designer\" and \"Project\" is changed to \"Product\", these terms are used interchangeably without clear distinction in subsequent clauses. This introduces uncertainty about which entity is responsible for development tasks and what constitutes the final deliverable, whether it's the \"Project\" or the \"Product\".",
-                "location": "RECITALS"
+                "original_text": "BETWEEN:\nVGrab Asia Ltd. (hereinafter called as the “VAL”), located at Room E, 6th Floor, Eastern Commercial Center, 397 Hennessy Road, Hong Kong.\nAND:\nMr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Developer\"), a group\nof private software developers individuals’ lead and coordinated by Ms. Chen Weijie with its operations in\nP.R.China.\nAnd hereinafter, the parties hereto shall be referred to as “Party” or “Parties”.",
+                "changed_text": "BETWEEN:\nVGrab Asia Ltd. (hereinafter called as the “VAL”), located at Room E, 6th Floor, Eastern Commercial Center, 397 Hennessy Road, Hong Kong.\nAND:\nMr. Zheng Qing, Mr. Gu Xianwin and Ms. Chen Weijie (hereinafter called as the \"Software Provider\"), a group\nof private software developers individuals’ lead and coordinated by Ms. Chen Weijie with its operations in\nP.R.China.\nAnd hereinafter, the parties hereto shall be referred to as “Party” or “Parties”.",
+                "explanation": "The term 'Developer' is changed to 'Software Provider'. While seemingly synonymous, this introduces ambiguity as 'Developer' has specific implications related to code creation and maintenance as outlined in the agreement. Using 'Software Provider' opens the possibility that their role is broader and less defined, potentially impacting liability for bugs and ongoing support responsibilities as detailed later in the document.",
+                "location": "Page 1, Parties Involved"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL.",
-                "changed_text": "All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following entity below within 7 days upon completion and handover on the Application to VAL.",
-                "explanation": "The term \"individual\" is changed to \"entity\" and \"Project\" to \"Application\". While the original text refers to specific individuals, the revised text uses the term \"entity,\" creating ambiguity as to whether payments can be made to a company instead. Replacing \"Project\" with \"Application\" creates confusion about the scope of deliverables.",
-                "location": "PAYMENT TERMS"
+                "original_text": "Being Developer of the project, Developer will be responsible and liable for the product’s business compliance with WeChat Mini Program and Payment guidelines.",
+                "changed_text": "Being the Service Provider of the project, the Software Provider will be responsible for advising on business compliance with WeChat Mini Program and Payment guidelines.",
+                "explanation": "Changing 'Developer' to 'Service Provider' in this context significantly alters the responsibility. The original text explicitly states the 'Developer' is 'responsible and liable' for business compliance. The modified version states that the 'Software Provider' only 'advises' on business compliance. This creates a contradiction because the responsibilities are not the same and dilutes the 'Service Provider' responsibilities compared to those of the 'Developer'.",
+                "location": "Page 2, WeChat’s Mini Program and WeChat Pay Compliance"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "VAL will supply products, logo, pricing and final design approval, multimedia, CMS access.",
-                "changed_text": "VAL will supply deliverables, logo, pricing and final design approval, multimedia, CMS access.",
-                "explanation": "The word 'products' has been changed to 'deliverables'. This change leads to confusion as the agreement elsewhere defines 'deliverables' in the context of the mobile application itself. The scope of 'products' is less well-defined, introducing uncertainty as to what VAL is required to supply, potentially delaying the project.",
-                "location": "SCOPE OF DELIVERABLES - No. 2. Functional requirements & UI/ Multimedia, backend access."
+                "original_text": "VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks’ notice in writing and it is applicable only when the project is not completed. If\nthe customer terminates the agreement, then VAL shall compensate the Developer up to the date of\ntermination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by\ngiving two (2) weeks’ notice in writing to VAL. It is applicable only when the project is not completed.\nIn case Developer terminates the agreement, it shall handover the entire project related IPR, work\ndone till date to VAL.",
+                "changed_text": "VAL shall, in the event of the Software Provider committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks’ notice in writing and it is applicable only when the project is not completed. If\nthe customer terminates the agreement, then VAL shall compensate the Team up to the date of\ntermination with a fee calculated on Pro-rata basis. The Lead may also terminate this Agreement by\ngiving two (2) weeks’ notice in writing to VAL. It is applicable only when the project is not completed.\nIn case the designated expert terminates the agreement, they shall handover the entire project related IPR, work\ndone till date to VAL.",
+                "explanation": "Here, the term 'Developer' is now replaced by the terms 'Software Provider', 'Team', 'Lead', and 'Designated expert'. These multiple terms introduces contradiction and lack of clarity. If the contract is breached, it is unclear whether the 'Software Provider', 'Team', 'Lead', or 'Designated expert' that would be held liable.",
+                "location": "Page 5, Termination"
             }
         ]
     }

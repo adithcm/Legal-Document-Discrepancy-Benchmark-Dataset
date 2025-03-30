@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "atninternationalinc_20191108_10-q_ex-10.1_11878541_ex-10.1_maintenance agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "AT&T shall pay Vendor no later than sixty (60) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than ninety (90) days after receipt of an invoice for Maintenance Fees. Any dispute of an invoice for Maintenance Fees shall be made by AT&T in good faith and shall set forth in writing a detailed description of the disputed amounts and the reason for such dispute.",
+                "changed_text": "AT&T shall pay Vendor no later than sixty (60) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than thirty (30) days after receipt of an invoice for Maintenance Fees. Any dispute of an invoice for Maintenance Fees shall be made by AT&T in good faith and shall set forth in writing a detailed description of the disputed amounts and the reason for such dispute.",
+                "explanation": "The change introduces an in-text contradiction. Initially, AT&T had 90 days to pay or dispute Maintenance Fees. Now, it has only 30 days. This conflicting deadline creates uncertainty about which timeframe is enforceable, potentially leading to payment disputes.",
+                "location": "Section 3.19(a)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Vendor shall inspect all Material used in the performance of the Work, whether or not furnished by AT&T, for defects or hazardous conditions which could cause property damage, personal injury, or otherwise affect the quality of the Work. Vendor shall report all defects or hazardous conditions to an AT&T representative as soon as the defect has been identified.",
+                "changed_text": "Vendor shall inspect all Material used in the performance of the Work, whether or not furnished by AT&T, for defects or hazardous conditions which could cause property damage, personal injury, or otherwise affect the quality of the Work. Vendor shall report all defects or hazardous conditions to an AT&T representative no later than 72 hours after the defect has been identified.",
+                "explanation": "This creates a contradiction by imposing a 72-hour deadline for reporting defects, whereas previously, the reporting was expected 'as soon as the defect has been identified' without a specific time constraint. This introduces ambiguity regarding whether immediate reporting is required or if 72 hours is acceptable.",
+                "location": "Section 4.14"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Following Location Acceptance and in connection with the Maintenance Addendum, Vendor shall have reasonable access to AT&T’s Cell Sites contemplated in the Build Addendum to enable Vendor to perform its obligations under the Maintenance Addendum. Vendor shall coordinate such access with AT&T’s designated representative prior to visiting such premises.",
+                "changed_text": "Following Location Acceptance and in connection with the Maintenance Addendum, Vendor shall have unlimited access to AT&T’s Cell Sites contemplated in the Build Addendum to enable Vendor to perform its obligations under the Maintenance Addendum. Vendor shall coordinate such access with AT&T’s designated representative prior to visiting such premises.",
+                "explanation": "By changing 'reasonable access' to 'unlimited access' this creates conflict with other implicit access controls and security protocols defined elsewhere in the document. Unlimited access removes the assumed limitations, thus changing the enforcement obligations. Additionally the later part of the sentence requires 'coordination' prior to access, contradicting unlimited.",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]

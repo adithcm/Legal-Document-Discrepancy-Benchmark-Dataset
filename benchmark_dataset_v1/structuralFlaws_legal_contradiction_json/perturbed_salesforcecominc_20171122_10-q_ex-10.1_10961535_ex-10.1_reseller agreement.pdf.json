@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "1.\nResale Rights. SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell\nServices in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to\nCustomer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-\nReseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach\nby Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "4.\nCounterparts. This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned\ncopies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together,\nwill be deemed to constitute a single instrument. Reseller must ensure that Sub-Reseller complies with some of the terms of the Agreement applicable to Reseller as if Sub-Reseller were an original party to the Agreement, however the Sub-Reseller will be considered an original party.",
+                "explanation": "The section on Sub-Reseller rights is moved from its own dedicated section into a section about counterparts. It also creates a contradiction by stating the Sub-Reseller is not and is to be considered an original party.",
+                "contradicted_law": "Contract Law - Clear definition of rights and responsibilities",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3.\nEntire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "3.\nEntire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof unless there is an agreement otherwise.",
+                "explanation": "The added clause 'unless there is an agreement otherwise' directly contradicts the 'entire agreement' clause. The original clause states that the written agreement is the final say but this added section states this is only true if another agreement does not exist, leading to a lack of legal clarity.",
+                "contradicted_law": "Contract Law - Entire Agreement Clause",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

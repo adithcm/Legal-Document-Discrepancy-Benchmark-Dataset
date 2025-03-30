@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ideanomicsinc_20160330_10-k_ex-10.26_9512211_ex-10.26_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Term of this Agreement (the “Term”) shall commence on the Effective Date listed above and continue for twenty (20) years, unless sooner terminated as provided in Section 7(b) [Term and Termination].",
+                "changed_text": "The Term of this Agreement (the “Term”) shall commence on the Effective Date listed above and continue for twenty (20) years. The Licensor has the right to terminate at any time.",
+                "explanation": "The original text specifies a 20-year term with specific termination conditions. The modified text adds a contradictory statement allowing the Licensor to terminate at any time, creating uncertainty about the actual duration of the agreement.",
+                "location": "Section 7(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensor shall be solely responsible for the Titles and any and all legal liability resulting from the Titles, excluding any legal liability caused by Licensee’s breach of this Agreement or gross negligence with regards to the Titles. Without limiting the generality of the foregoing, Licensor shall be solely responsible for any and all royalties and other fees payable to any applicable licensor(s) or any third party for distribution of the Titles by Licensee (including, without limitation, residuals and clearances or other payments to guilds or unions and rights for music clearances, such as performance rights, synchronization rights and mechanical rights), and all other fees, payments and obligations arising out of the activities contemplated by this Agreement, and Licensee shall have no responsibility or liability for any such royalties or fees.",
+                "changed_text": "Licensor shall be solely responsible for the Titles and any and all legal liability resulting from the Titles, excluding any legal liability caused by Licensee’s breach of this Agreement or gross negligence with regards to the Titles. Licensee will share liability for fees and royalties that may be owed to third parties.",
+                "explanation": "The original text clearly states that the Licensor is solely responsible for all royalties and fees. The changed text contradicts this by saying that Licensee will *share* liability for fees and royalties, thereby creating confusion as to who ultimately bears financial responsibility.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "No royalty or fees of any kind shall be owed by Licensee under this Agreement. The consideration for the licenses granted by Licensor to Licensee under this Agreement is the issuance of the IP Common Shares as defined in the Amended and Securities Purchase Agreement, dated as of December 21, 2015, by and among the Licensee and the Licensor (the “Share Consideration”).",
+                "changed_text": "No royalty or fees of any kind shall be owed by Licensee under this Agreement, *unless otherwise determined by Licensor*. The consideration for the licenses granted by Licensor to Licensee under this Agreement is the issuance of the IP Common Shares as defined in the Amended and Securities Purchase Agreement, dated as of December 21, 2015, by and among the Licensee and the Licensor (the “Share Consideration”).",
+                "explanation": "The original text explicitly states that no royalty or fees shall be owed by the licensee. The added clause \"unless otherwise determined by licensor\" completely contradicts this statement and introduces uncertainty, potentially allowing the licensor to arbitrarily impose royalties or fees despite the initial agreement.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Form of Sub-Reseller Agreement (this “Sub-Reseller Agreement”) is made and entered in by and between salesforce.com,\ninc., a Delaware corporation having its principal place of business at The Landmark @ One Market, Suite 300, San Francisco,\nCalifornia 94105 (“SFDC” or “Salesforce”) and the Reseller named above and amends that certain Reseller Agreement between\nSalesforce and Reseller dated as of August 1, 2015, as previously amended (the “Agreement”). This Sub-Reseller Agreement is\neffective as of the later of the dates beneath the Parties’ signatures below (“Sub-Reseller Effective Date”), provided, however,\nthat the dates of the Parties’ signatures are not separated by a period of time greater than ten (10) business days. If such period is\ngreater than ten (10) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "changed_text": "This Form of Sub-Reseller Agreement (this “Sub-Reseller Agreement”) is made and entered in by and between salesforce.com,\ninc., a Delaware corporation having its principal place of business at The Landmark @ One Market, Suite 300, San Francisco,\nCalifornia 94105 (“SFDC” or “Salesforce”) and the Reseller named above and amends that certain Reseller Agreement between\nSalesforce and Reseller dated as of August 1, 2015, as previously amended (the “Agreement”). This Sub-Reseller Agreement is\neffective as of the later of the dates beneath the Parties’ signatures below (“Sub-Reseller Effective Date”), provided, however,\nthat the dates of the Parties’ signatures are not separated by a period of time greater than thirty (30) business days. If such period is\ngreater than fifteen (15) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "explanation": "The original contract states that if the dates of the parties' signatures are separated by a period greater than 10 business days, the agreement is null and void. The modified contract states that if such period is greater than 15 business days, the agreement is null and void, but also that dates of signatures cannot be separated by a period of time greater than thirty (30) business days. This introduces an inconsistency, as it stipulates one condition stating it is null and void after 15 days while simultaneously stating that it is acceptable if no greater than 30 days.",
+                "contradicted_law": "Contract Law - Mutual Agreement and Clarity. The inconsistency in the signature period introduces ambiguity, making the contract potentially unenforceable.",
+                "location": "First Paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-\nReseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach\nby Reseller.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with only some of the terms of the Agreement at their discretion. Any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller only if Salesforce decides to enforce that clause.",
+                "explanation": "This change introduces uncertainty regarding the sub-reseller's obligations. The original text mandates full compliance. The modified text allows partial compliance \"at their discretion\", and only enforces breach if Salesforce decides to enforce it. This contradicts standard contract law principles requiring clear obligations for all parties.",
+                "contradicted_law": "Contract Law - Clear and Unambiguous Terms. The ambiguity introduced regarding compliance and breach enforcement makes the contractual obligation unenforceable.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "Entire Agreement. This Sub-Reseller Agreement contains most of the agreement between the Parties, but does not supersede prior oral agreements unless those agreements conflict with the terms herein.",
+                "explanation": "An entire agreement clause is meant to ensure that the written document is the complete and final agreement. The modified text suggests that prior oral agreements might still be valid and enforceable, contradicting the purpose of an entire agreement clause. This creates ambiguity regarding the actual terms of the agreement and could conflict with the parol evidence rule in contract law.",
+                "contradicted_law": "Parol Evidence Rule - prevents parties from introducing evidence of prior or contemporaneous agreements to contradict, modify, or vary the terms of a fully integrated written contract.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

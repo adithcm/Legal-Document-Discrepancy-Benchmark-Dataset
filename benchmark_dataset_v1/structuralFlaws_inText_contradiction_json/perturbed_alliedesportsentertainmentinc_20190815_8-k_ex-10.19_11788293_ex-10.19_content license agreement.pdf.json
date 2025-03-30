@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "alliedesportsentertainmentinc_20190815_8-k_ex-10.19_11788293_ex-10.19_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall automatically extend for an additional two (2) years on the same terms herein (“Renewal Term”) provided WPT receives payments greater than twelve million U.S. dollars ($12,000,000) within the Initial Term. The Initial Term and any such Renewal Term are collectively referred to as the “Term.”",
+                "changed_text": "This Agreement may be extended for an additional two (2) years (“Renewal Term”) if both WPT and Zynga mutually agree in writing, regardless of whether WPT receives payments greater than twelve million U.S. dollars ($12,000,000) within the Initial Term. The Initial Term and any such Renewal Term are collectively referred to as the “Term.”",
+                "explanation": "The original text states that the contract auto-renews if WPT receives payments greater than $12,000,000. The modified text changes the Renewal Term clause to say renewal is subject to mutual agreement, regardless of payments received, thus contradicting the original automatic renewal condition and creating uncertainty about the renewal process.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Zynga shall pay all amounts accruing under this Agreement for any reporting period to WPT by check or wire transfer to the account specified by WPT in writing, concurrently with Zynga’s delivery of the applicable report under Section 3(d), provided that payments will only be paid if the amount owed to WPT for any reporting period is greater than five hundred dollars ($500.00). An amount due of less than five hundred dollars ($500.00) will be accumulated to the next payment and will be included in the amount to be paid to WPT on the next payment date, again provided that the amount owed to WPT in the subsequent month exceeds five hundred dollars ($500.00). Accumulated amounts do not accrue any interest.",
+                "changed_text": "Zynga may pay all amounts accruing under this Agreement for any reporting period to WPT by check or wire transfer to an account that Zynga deems appropiate, upon delivery of the applicable report under Section 3(d). Payments may be withheld at Zynga's discretion if the amount owed to WPT for any reporting period is less than one thousand dollars ($1000.00). An amount due of less than one thousand dollars ($1000.00) will be held by Zynga indefinitely, and will only be paid at Zynga’s sole discretion, provided that the amount owed to WPT in any subsequent month exceeds one thousand dollars ($1000.00). Accumulated amounts may accrue interest at Zynga's discretion.",
+                "explanation": "The original clause states that payments will be made if they are greater than $500 and accumulated if less. The modified version introduces the possibility of payments being withheld if less than $1000, held indefinitely, and only being paid at Zynga's sole discretion and to an account that Zynga chooses, which contradicts the original payment terms and creates uncertainty around if/when WPT will get paid and to where. The final sentence regarding interest is also now at Zynga's discretion.",
+                "location": "Section 3(c)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement contains the full and complete understanding between the parties hereto with respect to the license granted hereunder and supersedes all prior agreements and understandings, whether written or oral, pertaining thereto. This Agreement cannot be modified except by a written instrument signed by each party hereto.",
+                "changed_text": "This Agreement represents a general framework for understanding between the parties with respect to the license granted hereunder, but does not necessarily supersede all prior agreements and understandings, whether written or oral, pertaining thereto. This Agreement can be modified by either a written instrument signed by each party, or by implied conduct as determined at the sole discretion of Zynga.",
+                "explanation": "The original clause is an integration clause, stating that the current document is the full and complete understanding, and cannot be modified except in writing. The modified version states that the agreement is a 'general framework', implying other agreements exist, and that it can be modified through conduct, contradicting the original clause's purpose and creating uncertainty about the validity of side agreements or verbal understandings.",
+                "location": "Section 10(d)"
+            }
+        ]
+    }
+]

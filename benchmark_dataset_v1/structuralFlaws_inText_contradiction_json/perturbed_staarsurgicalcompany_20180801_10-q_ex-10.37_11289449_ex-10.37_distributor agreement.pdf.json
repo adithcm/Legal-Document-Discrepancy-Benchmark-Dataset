@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "staarsurgicalcompany_20180801_10-q_ex-10.37_11289449_ex-10.37_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.3 Subject to Section 8.3, Distributor’s right to market, distribute and sell the Products in the Territory shall be exclusive. Distributor shall not sell any Products to a customer if Distributor knows or has reason to believe that such customer intends to remove those Products from the Territory. Distributor acknowledges and agrees that STAAR retains the right to sell the Products in the Territory directly or indirectly, including but not limited to via electronic commerce (without compensation to the Distributor). The Distributor shall cooperate with STAAR in servicing corporate accounts for customers operating in multiple Territories.",
+                "changed_text": "1.3 Subject to Section 8.3, Distributor’s right to market, distribute and sell the Products in the Territory shall be exclusive. Distributor shall not sell any Products to a customer if Distributor knows or has reason to believe that such customer intends to remove those Products from the Territory. Distributor acknowledges and agrees that STAAR *does not* retain the right to sell the Products in the Territory directly or indirectly, including but not limited to via electronic commerce (without compensation to the Distributor). The Distributor shall cooperate with STAAR in servicing corporate accounts for customers operating in multiple Territories.",
+                "explanation": "By negating STAAR's right to sell directly or indirectly, it now directly contradicts the exclusivity granted to the distributor. This introduces uncertainty regarding who has the right to sell in the territory and under what conditions, leading to potential disputes over sales and market share.",
+                "location": "Section 1.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.8 In the event that Distributor terminates this Agreement, then for one year thereafter, Distributor shall not sell, promote, advertise or market in the Territory products which are competitive with the Products.",
+                "changed_text": "6.8 In the event that Distributor terminates this Agreement, then for one year thereafter, Distributor *may* sell, promote, advertise or market in the Territory products which are competitive with the Products.",
+                "explanation": "The original clause explicitly prohibits the Distributor from selling competitive products for one year post-termination. By changing 'shall not' to 'may', the modified clause now permits such sales. This directly contradicts the original intent and creates uncertainty about the Distributor's post-termination obligations, making it unclear whether they are bound by a non-compete agreement.",
+                "location": "Section 6.8"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "13.3 EXCEPT FOR EACH PARTY’S CONFIDENTIALITY OBLIGATIONS SET FORTH IN SECTION 12 AND INDEMNIFICATION OBLIGATIONS SET FORTH IN THIS SECTION 13, WITHOUT LIMITING ANY RIGHT DISTRIBUTOR MAY HAVE UNDER LOCAL STATUTES THAT CANNOT BE EXCLUDED, RESTRICTED OR MODIFIED, NEITHER PARTY SHALL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR SPECIAL DAMAGES, OR FOR DAMAGES DUE TO LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OR DATA, OR INTERRUPTION OF BUSINESS, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "changed_text": "13.3 EXCEPT FOR EACH PARTY’S CONFIDENTIALITY OBLIGATIONS SET FORTH IN SECTION 12 AND INDEMNIFICATION OBLIGATIONS SET FORTH IN THIS SECTION 13, WITHOUT LIMITING ANY RIGHT DISTRIBUTOR MAY HAVE UNDER LOCAL STATUTES THAT CANNOT BE EXCLUDED, RESTRICTED OR MODIFIED, BOTH PARTIES SHALL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR SPECIAL DAMAGES, OR FOR DAMAGES DUE TO LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OR DATA, OR INTERRUPTION OF BUSINESS, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "explanation": "The original text limits liability for indirect, incidental, and consequential damages. By changing 'Neither party' to 'Both parties', the text removes this limitation and now exposes both parties to liability for all types of damages. This creates a contradiction because it makes the scope of potential liability unclear, thereby making it ambiguous whether the parties are protected from consequential damages or not.",
+                "location": "Section 13.3"
+            }
+        ]
+    }
+]

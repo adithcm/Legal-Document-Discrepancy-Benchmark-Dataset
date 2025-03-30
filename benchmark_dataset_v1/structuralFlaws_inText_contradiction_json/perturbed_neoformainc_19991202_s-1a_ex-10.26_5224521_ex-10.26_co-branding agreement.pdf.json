@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "neoformainc_19991202_s-1a_ex-10.26_5224521_ex-10.26_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.1 AUTOMATIC RENEWAL. This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either Party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a \"Termination Notice\").",
+                "changed_text": "11.1 AUTOMATIC RENEWAL. This Agreement may renew at the end of the Initial Term or a subsequent renewal term. Renewal is not guaranteed and is subject to VerticalNet's discretion. To request renewal, a Party should notify the other at least 30 days prior to the end of the Initial Term or then current Renewal Term.",
+                "explanation": "The original clause states that the agreement automatically renews unless a party gives notice of non-renewal. The modified version introduces uncertainty by stating that renewal is not guaranteed and subject to VerticalNet's discretion, contradicting the automatic renewal provision and creating uncertainty about the renewal process.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "13.3 TERMINATION. Upon termination of this Agreement, all Confidential Information shall be returned to the disclosing Party or destroyed unless otherwise specified or permitted elsewhere under this Agreement. The confidentiality obligations contained in this Article 13  [CONFIDENTIALITY] shall survive termination of this Agreement for a period of three years.",
+                "changed_text": "13.3 TERMINATION. Upon termination of this Agreement, all Confidential Information shall be handled as the receiving party deems appropriate. The confidentiality obligations contained in this Article 13 [CONFIDENTIALITY] may or may not survive termination of this Agreement, dependent on circumstances at the time of termination.",
+                "explanation": "The original clause specifies a three-year survival period for confidentiality obligations post-termination. The modified version contradicts this by making the survival of these obligations conditional and dependent on unspecified circumstances, creating uncertainty about the duration of confidentiality protection.",
+                "location": "Section 13.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "16.2 NO ASSIGNMENT. Except as otherwise set forth herein, neither Party shall transfer, assign or cede any rights or delegate any obligations hereunder, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other Party, which consent may be withheld at the other Party's reasonable business discretion; provided, however, that either Party may transfer this Agreement without prior written consent of the other Party to an Affiliate or in connection with a merger or sale of all or substantially all of the stock or assets of such Party.",
+                "changed_text": "16.2 NO ASSIGNMENT. Neither Party shall transfer, assign or cede any rights or delegate any obligations hereunder, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other Party. Consent for assignment will be granted in all cases. However, VerticalNet may freely assign this agreement at its discretion.",
+                "explanation": "The original clause states that neither party can assign the contract without consent, but that such consent may be withheld (except in specific cases like merger). The modified version contradicts this by first stating consent will *always* be granted, then immediately allowing VerticalNet to freely assign the agreement at its discretion. This creates internal conflict because the initial sentence implies some form of consent process applicable to both parties, while the subsequent sentences eliminate this requirement specifically for VerticalNet, and negate the possibility of withholding consent.",
+                "location": "Section 16.2"
+            }
+        ]
+    }
+]

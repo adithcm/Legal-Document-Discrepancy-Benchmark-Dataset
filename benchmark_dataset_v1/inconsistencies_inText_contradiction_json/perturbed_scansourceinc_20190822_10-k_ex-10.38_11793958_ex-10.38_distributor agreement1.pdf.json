@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6.2 Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
+                "changed_text": "6.2 Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date. However, for all international orders payment is due 15 days from the invoice date. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
+                "explanation": "This change introduces a contradiction in payment terms. The original clause states payment terms are [*****] days from the shipping date, but the modified clause adds a condition that for all international orders, payment is due 15 days from the invoice date. This creates confusion as to which payment term applies to international orders and could lead to disputes.",
+                "location": "Section 6.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "18.2 Termination for Convenience. Either party may terminate this Agreement, without cause, by giving the other party [*****] days prior written notice. Notwithstanding the foregoing, Cisco may terminate this Agreement immediately upon written notice in the event of breach by Distributor of Section 9.0 (Proprietary Rights and Software Licensing), Section 11.0 (Trademarks), Section 19.0 (Confidentiality) or Section 20.0 (Export Restrictions) of this Agreement.",
+                "changed_text": "18.2 Termination for Convenience. Either party may terminate this Agreement, without cause, by giving the other party [*****] days prior written notice. Notwithstanding the foregoing, Cisco may terminate this Agreement immediately upon written notice in the event of breach by Distributor of any section of this Agreement. Furthermore, Distributor may only terminate this agreement for convenience during the last 30 days of the term.",
+                "explanation": "The original clause allows either party to terminate for convenience with [*****] days notice. The modified clause adds a condition that Distributor may only terminate for convenience during the last 30 days of the term. This creates an inconsistency about when the Distributor can terminate for convenience.",
+                "location": "Section 18.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.1 \nC i s c o  P r o d u c t s  a r e  p r o v i d e d  w i t h  w r i t t e n  l i m i t e d  w a r r a n t i e s ,  a s  s e t  f o r t h  a t  t h e  f o l l o w i n g  U R L :\nhttp://www.cisco.com/warp/public/cc/serv/mkt/sup/tsssv/wnty/. Distributor will pass through to Resellers all written limited warranties provided\nby Cisco with Products purchased by Distributor and Distributor shall contractually require (in whatever manner Distributor deems appropriate)\neach such Reseller to provide such warranty and other terms to any End User to which the Reseller redistributes the Product.",
+                "changed_text": "10.1 \nC i s c o  P r o d u c t s  a r e  p r o v i d e d  w i t h  w r i t t e n  limited  w a r r a n t i e s ,  a s  s e t  f o r t h  a t  t h e  f o l l o w i n g  U R L :\nhttp://www.cisco.com/warp/public/cc/serv/mkt/sup/tsssv/wnty/. Distributor is not required to pass through warranties. All products are sold as is.",
+                "explanation": "The original text mandates that the distributor pass along the warranty, but the change states they do not have to and that all sales are as is, creating a conflict regarding warranties.",
+                "location": "Section 10.0"
+            }
+        ]
+    }
+]

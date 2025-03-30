@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "pelicandeliversinc_20200211_s-1_ex-10.3_11975895_ex-10.3_development agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Fees: The Fees for the Project shall be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be\npaid upon completion of Milestone #2.\n20% ($55,800.00) to be paid upon completion of Milestone #3.\n20% ($55,800.00) to be paid upon completion of Milestone #4.\n*Milestone Delivery Schedule for Phase 1\nMilestone #1 –January 1st, 2019\nMilestone #2- February 1st, 2019.\nMilestone #3 – March 1st, 2019.\nMilestone #4 – April 1st, 2019.",
+                "changed_text": "Fees: The Fees for the Project shall be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be\npaid upon completion of Milestone #2.\n20% ($55,800.00) to be paid upon completion of Milestone #3.\nThe remaining balance of $111,600.00 will be paid upon project completion.\n*Milestone Delivery Schedule for Phase 1\nMilestone #1 –January 1st, 2019\nMilestone #2- February 1st, 2019.\nMilestone #3 – March 1st, 2019.\nMilestone #4 – April 1st, 2019.",
+                "explanation": "The original text specifies 20% payments upon completion of each of the four milestones, totaling 80% of the project fee. The modified text changes the final 20% milestone payment to include the 'remaining balance of $111,600.00', meaning the amount due after Milestone #3 becomes significantly larger than 20% and contradictory to the established payment schedule of equal 20% milestone payments. This creates a conflict and uncertainty regarding the amount to be paid after milestone #3.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Based on the current requirements and this SOW, Seattle Software Developers estimates that this project will take around six [4] months of\ndevelopment, testing, and deployment. This estimate may change depending on unforeseen circumstances or requirements. We estimate that the\nwebsite (Customer Portal) will take 3 months to complete because this will be the priority.",
+                "changed_text": "Based on the current requirements and this SOW, Seattle Software Developers estimates that this project will take around six [4] months of\ndevelopment, testing, and deployment. This estimate may change depending on unforeseen circumstances or requirements. We estimate that the\nwebsite (Customer Portal) will take 3 months to complete because Seattle Software Developers guarantees the Customer Portal completion within 2 months.",
+                "explanation": "The original text estimates 3 months for website completion, while the modified text 'guarantees' completion within 2 months. This in-text contradiction creates uncertainty. What happens if the website isn't completed in 2 months? Is there a penalty? The change introduces conflicting commitments regarding the project timeline and enforceability.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Driver will scan the customers ID using the Trulioo API right before they handle the delivery to the customer. After this last ID\ncheck, the transaction will be completed.",
+                "changed_text": "Driver will scan the customers ID using the Trulioo API right before they handle the delivery to the customer. After this last ID\ncheck, the driver will receive a confirmation and the transaction will be automatically updated. The client must also sign a form and show proof of payment, which will then complete the transaction.",
+                "explanation": "The original states that the transaction completes after the ID check. The modification adds extra layers of confirmation for completion, requiring an automated confirmation, signed forms, and proof of payment. This contradiction causes ambiguity. It's unclear which steps are essential for transaction completion, potentially causing disputes or confusion.",
+                "location": "Back-end Development - Daily Pay"
+            }
+        ]
+    }
+]

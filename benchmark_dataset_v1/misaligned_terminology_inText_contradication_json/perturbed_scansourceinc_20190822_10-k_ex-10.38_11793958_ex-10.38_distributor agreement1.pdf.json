@@ -1,27 +1,27 @@
 [
     {
-        "file_name": "scansourceinc_20190822_10-k_ex-10.38_11793958_ex-10.38_distributor agreement1.pdf",
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
         "perturbation": [
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "This Agreement and the attached Exhibits set forth the terms and conditions for Distributor's purchase of Hardware and license of Software, and redistribution of Products, during the term of this Agreement.",
-                "changed_text": "This Agreement and the attached Exhibits set forth the terms and conditions for Distributor's purchase of Hardware and license of Software, and redistribution of Items, during the term of this Agreement.",
-                "explanation": "The term 'Products' is a defined term meaning Hardware, licensed Software, Documentation, developed products, supplies, accessories, and goods. By changing 'Products' to 'Items' it is unclear what the Distributor can redistribute, as 'Items' is not a defined term. This causes uncertainty in enforcement.",
-                "location": "2.0 SCOPE."
+                "original_text": "This Nonexclusive Value Added Distributor Agreement (\"Agreement\"), between ScanSource, Inc., a South Carolina corporation, with its principal place of business at 6 Logue Court, Greenville, South Carolina, 29615 (\"Distributor\"), and Cisco Systems, Inc., a California corporation with its principal place of business at 170 West Tasman Drive, San Jose, California 95134 - 1706, (\"Cisco\") is entered into as of the date last written below (\"the Effective Date\").",
+                "changed_text": "This Nonexclusive Value Added Distributor Agreement (\"Agreement\"), between ScanSource, Inc., a South Carolina corporation, with its principal place of business at 6 Logue Court, Greenville, South Carolina, 29615 (\"Distributor\"), and Cisco Systems, Inc., a California corporation with its principal place of business at 170 West Tasman Drive, San Jose, California 95134 - 1706, (\"Cisco\") is entered into as of the date last written below (\"the Effective Date\"). Hereinafter, ScanSource, Inc. will also be referred to as the 'Retailer'.",
+                "explanation": "The contract initially defines ScanSource, Inc. as 'Distributor.' By later referring to it as 'Retailer,' the document introduces ambiguity about the entity's role and responsibilities. This can lead to confusion in sections that outline specific duties for each role, as they may overlap or contradict each other.",
+                "location": "First paragraph"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
                 "original_text": "3.1 By this Agreement, Cisco makes, and Distributor accepts, the appointment of Distributor as an authorized, non-exclusive distributor of Products and Services to Resellers located in the Territory. Distributor agrees to use its best efforts to distribute Product solely to Resellers located in the Territory. Those Resellers may resell Product only to End Users who intend to use the Product in the Territory. All Resellers to which Distributor distributes Product must meet Cisco's then-current guidelines for Resellers, as amended from time to time.",
-                "changed_text": "3.1 By this Agreement, Cisco makes, and Distributor accepts, the appointment of Distributor as an authorized, non-exclusive distributor of Products and Services to Retailers located in the Territory. Distributor agrees to use its best efforts to distribute Product solely to Retailers located in the Territory. Those Retailers may resell Product only to End Users who intend to use the Product in the Territory. All Retailers to which Distributor distributes Product must meet Cisco's then-current guidelines for Resellers, as amended from time to time.",
-                "explanation": "The contract defines 'Reseller' as a specific type of authorized reseller that meets Cisco's requirements. By replacing 'Resellers' with 'Retailers', and not defining Retailers, there is a contradiction as to who Distributor can sell to, making enforcement uncertain.",
-                "location": "3.0 APPOINTMENT OF DISTRIBUTOR."
+                "changed_text": "3.1 By this Agreement, Cisco makes, and Distributor accepts, the appointment of Distributor as an authorized, non-exclusive distributor of Products and Services to Resellers located in the Territory. Distributor agrees to use its best efforts to distribute Product solely to Retailers located in the Territory. Those Retailers may resell Product only to End Users who intend to use the Product in the Territory. All Resellers to which Distributor distributes Product must meet Cisco's then-current guidelines for Retailers, as amended from time to time.",
+                "explanation": "Changing 'Resellers' to 'Retailers' in the second and third sentences creates confusion. Initially, Distributor is supposed to distribute to Resellers. Now, it implies that the Distributor is distributing to Retailers. The guidelines for Resellers are conflicting if they are to apply to the new term, Retailers.",
+                "location": "Section 3.1"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "5.1 Scheduled shipping dates will be assigned by Cisco as close as practicable to the Distributor's requested date based on Cisco's then-current lead times for the Products. Cisco will communicate scheduled shipping dates in the order acknowledgement or on Cisco.com. Cisco will ship Product in compliance with Distributor Freight Policy set forth in Exhibit D. If no guidance is contained on Exhibit D for any particular shipment, Cisco shall select the carrier.",
-                "changed_text": "5.1 Scheduled shipping dates will be assigned by Cisco as close as practicable to the Distributor's requested date based on Cisco's then-current lead times for the Products. Cisco will communicate scheduled shipping dates in the order acknowledgement or on Cisco.com. Cisco will ship goods in compliance with Distributor Freight Policy set forth in Exhibit D. If no guidance is contained on Exhibit D for any particular shipment, Cisco shall select the carrier.",
-                "explanation": "The terms 'Product' and 'goods' are used interchangeably when only 'Product' is a defined term. It is unclear if these mean the same thing, which creates uncertainty about what shipping guidelines should be followed.",
-                "location": "5.0 SHIPPING AND DELIVERY"
+                "original_text": "DISTRIBUTOR shall maintain sufficient spare parts inventory to support its Customer base for a one-month period under normal circumstances. DISTRIBUTOR shall maintain adequate manpower and facilities to assure prompt handling of inquiries, orders and shipments for Products.",
+                "changed_text": "RETAILER shall maintain sufficient spare parts inventory to support its Customer base for a one-month period under normal circumstances. DISTRIBUTOR shall maintain adequate manpower and facilities to assure prompt handling of inquiries, orders and shipments for Products.",
+                "explanation": "Changing 'DISTRIBUTOR' to 'RETAILER' in the first sentence creates confusion as to whether it is ScanSource, Inc. that must maintain inventory of spare parts to support its Customer base for a one-month period. Since ScanSource, Inc. is already defined as 'DISTRIBUTOR' the contract is confusing as to whether that function is for the 'DISTRIBUTOR' or for the 'RETAILER'.",
+                "location": "Exhibit B, Section 3.2"
             }
         ]
     }

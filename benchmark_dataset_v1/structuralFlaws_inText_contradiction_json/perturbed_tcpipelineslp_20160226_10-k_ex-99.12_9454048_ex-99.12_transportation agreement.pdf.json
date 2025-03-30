@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "tcpipelineslp_20160226_10-k_ex-99.12_9454048_ex-99.12_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "TERM: November 01, 2014 to October 31, 2017",
+                "changed_text": "TERM: This agreement shall remain in effect indefinitely, unless terminated as described in section 16.",
+                "explanation": "The original text specifies a clear end date for the agreement. Changing it to 'indefinitely' contradicts the set term and creates uncertainty about the agreement's duration.",
+                "location": "6"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MAXIMUM DAILY QUANTITY (Dth/Day): 101,300\nPlease see Appendix A for further detail.",
+                "changed_text": "MAXIMUM DAILY QUANTITY (Dth/Day): As determined by Transporter based on system conditions. See Appendix A for historical data.",
+                "explanation": "Originally, the MDQ is a fixed number (101,300). This modification makes the MDQ variable and dependent on the Transporter's discretion, directly contradicting the fixed quantity mentioned earlier and creating uncertainty about the shipper's guaranteed capacity. Referencing 'historical data' in Appendix A further obscures the current, guaranteed MDQ.",
+                "location": "8"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Upon termination of this Agreement, Shipper's and Transporter's obligations to each other arising under this Agreement, prior to\nthe date of termination, remain in effect and are not being terminated by any provision of this Agreement.",
+                "changed_text": "Upon termination of this Agreement, all rights and obligations of both Shipper and Transporter shall cease immediately, except for any payment obligations that accrued prior to the date of termination. Any ongoing obligations of Shipper and Transporter will be at the discretion of Transporter.",
+                "explanation": "The original text clearly states that obligations prior to termination remain in effect. The modified text introduces an exception, stating that all obligations cease except for payment obligations. More critically, it grants the Transporter discretion over any ongoing obligations, creating uncertainty regarding which obligations remain valid post-termination and contradicting the original clause's clear assertion.",
+                "location": "14"
+            }
+        ]
+    }
+]

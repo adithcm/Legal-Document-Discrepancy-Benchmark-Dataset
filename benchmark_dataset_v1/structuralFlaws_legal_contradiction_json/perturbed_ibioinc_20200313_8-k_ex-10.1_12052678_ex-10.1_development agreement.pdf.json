@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ibioinc_20200313_8-k_ex-10.1_12052678_ex-10.1_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.6\nAttorney’s Fees. In the event that any claim, suit, action or proceeding is instituted or commenced by any Party hereto against any other Party arising out of or related to this Agreement, the prevailing Party will be entitled to recover its reasonable attorneys’ fees, expert fees, expenses and court costs from the non-prevailing Party.",
+                "changed_text": "8.6\nAttorney’s Fees. In the event that any claim, suit, action or proceeding is instituted or commenced by any Party hereto against any other Party arising out of or related to this Agreement, the prevailing Party will be entitled to recover its reasonable attorneys’ fees, expert fees, expenses and court costs from the non-prevailing Party, contingent upon mutual agreement and only if the claim is related to intellectual property rights.",
+                "explanation": "By adding 'contingent upon mutual agreement and only if the claim is related to intellectual property rights,' the clause's enforceability is weakened. Originally, the prevailing party was unconditionally entitled to recover fees. Now, the recovery is subject to the other party's agreement and is limited to IP disputes. This adds a condition where Texas law might grant broader entitlements.",
+                "contradicted_law": "Texas law regarding attorney's fees in contract disputes.",
+                "location": "Section 8.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9.13\nGoverning Law. This Agreement is governed by the laws of the State of Texas, without regard to the conflict of laws provisions thereof. Any proceedings to resolve disputes relating to this Agreement shall be brought only in the State of Texas and in a U.S. federal court if there is jurisdiction. The United Nations’ Convention on International Sales of Goods does not apply.",
+                "changed_text": "9.13\nGoverning Law. This Agreement is governed by the laws of the State of Texas, without regard to the conflict of laws provisions thereof. Any proceedings to resolve disputes relating to this Agreement may be brought in a jurisdiction of mutual agreement between both parties. The United Nations’ Convention on International Sales of Goods does not apply.",
+                "explanation": "The original clause mandates that disputes be resolved in Texas courts. The modified clause allows disputes to be resolved in a mutually agreed upon jurisdiction, this contradicts the original agreement which specifies disputes will only be brought in the State of Texas or a U.S. federal court if there is jurisdiction.",
+                "contradicted_law": "Texas law regarding forum selection clauses.",
+                "location": "Section 9.13"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9.8\nAssignment. Neither Party may assign its rights or delegate any of its duties under this Agreement without the prior written consent of the other Party. Any unauthorized assignment of this Agreement is void.",
+                "changed_text": "9.8\nAssignment. Neither Party may assign its rights or delegate any of its duties under this Agreement without providing written notification to the other Party. Any assignment of this Agreement is subject to a 90 day review period by the other party.",
+                "explanation": "The original clause strictly prohibits assignment without prior written consent, rendering unauthorized assignments void. The modified clause softens this by only requiring written notification and introducing a 90-day review period. While it doesn't explicitly allow assignment without consent, it removes the condition that unauthorized assignments are automatically void, creating ambiguity and potentially undermining the original intent. This is further compounded by the 90-day review period which implicitly acknowledges the possibility of an assignment being valid if unchallenged within that timeframe, thereby weakening the absolute prohibition of assignment without consent.",
+                "contradicted_law": "Texas law regarding assignment clauses in contracts.",
+                "location": "Section 9.8"
+            }
+        ]
+    }
+]

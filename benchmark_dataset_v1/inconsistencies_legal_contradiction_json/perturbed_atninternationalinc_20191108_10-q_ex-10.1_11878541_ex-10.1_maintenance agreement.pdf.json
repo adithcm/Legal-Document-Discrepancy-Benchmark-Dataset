@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "atninternationalinc_20191108_10-q_ex-10.1_11878541_ex-10.1_maintenance agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "AT&T shall pay Vendor no later than sixty (60) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than ninety (90) days after receipt of an invoice for Maintenance Fees.",
+                "changed_text": "AT&T shall pay Vendor no later than one hundred twenty (120) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than one hundred eighty (180) days after receipt of an invoice for Maintenance Fees.",
+                "explanation": "The original text provides payment deadlines of 60 and 90 days, respectively. The modified text extends these payment deadlines to 120 and 180 days.  Such a delay in payment could violate prompt payment laws in many US states, which often require payment within a much shorter timeframe (e.g., 30-45 days for subcontractors).",
+                "contradicted_law": "State Prompt Payment Laws (example: California Business and Professions Code sections regarding payment to subcontractors).",
+                "location": "Section 3.20(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Vendor becomes insolvent or generally fails to pay, or admits in writing its inability or refusal to pay, debts as they become due, then AT&T shall have the right upon written notice to immediately terminate AT&T’s obligations under this Agreement or the Build Addendum or Maintenance Addendum, as applicable, and exercise all Termination Remedies set forth in the Build Addendum.",
+                "changed_text": "If Vendor becomes insolvent or generally fails to pay, or admits in writing its inability or refusal to pay, debts as they become due, then AT&T shall have the right upon written notice to terminate AT&T’s obligations under this Agreement or the Build Addendum or Maintenance Addendum, as applicable, and exercise all Termination Remedies set forth in the Build Addendum, but shall provide Vendor with a 10-day cure period after the date of such termination.",
+                "explanation": "The original clause allows AT&T to immediately terminate the agreement if Vendor becomes insolvent. The modified text adds a 10-day cure period before the termination takes effect. This may conflict with bankruptcy laws, specifically the automatic stay provisions under federal bankruptcy code, which prevent creditors from taking actions against a debtor immediately upon filing for bankruptcy.",
+                "contradicted_law": "Federal Bankruptcy Code - Automatic Stay provisions",
+                "location": "Section 3.37(c)(ii)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If AT&T requests that Vendor or its Subcontractor remove any person provided by Vendor or its Subcontractor from AT&T’s account for any lawful reason, then Vendor shall immediately comply with such request. Vendor shall, at no cost to AT&T, provide a qualified replacement.",
+                "changed_text": "If AT&T requests that Vendor or its Subcontractor remove any person provided by Vendor or its Subcontractor from AT&T’s account for any reason, then Vendor shall comply with such request in 5 business days. Vendor shall, at no cost to AT&T, provide a qualified replacement within 30 days.",
+                "explanation": "The original clause requires the immediate removal of any personnel at AT&T's request for 'any lawful reason'. The modified text changes this to 'any reason' and allows vendor to comply with the request in 5 business days and replace the personnel within 30 days. This change may violate employment laws if the request is for an unlawful reason (discrimination, retaliation, etc.) and does not offer the employee with certain labor law required protections. While the reasons behind AT&T's request may be justified, reducing the flexibility of the timeframe increases the possible liability.",
+                "contradicted_law": "Federal and state anti-discrimination and anti-retaliation laws (Title VII of the Civil Rights Act, Age Discrimination in Employment Act, Americans with Disabilities Act, etc.)",
+                "location": "Section 3.44(b)"
+            }
+        ]
+    }
+]

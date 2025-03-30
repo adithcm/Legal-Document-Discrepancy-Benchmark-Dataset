@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "impressecorp_20000322_s-1a_ex-10.11_5199234_ex-10.11_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the amount owed by Impresse to VerticalNet was underpaid, the additional amount owed shall be paid to VerticalNet within 15 days of notice of such underpayment to Impresse. If the amount owed by Impresse to VerticalNet was underpaid in excess of 10% of the amount owed, the fees of such audit shall also be paid to VerticalNet within 15 days of notice of such to Impresse. If the amount owed by Impresse to VerticalNet was overpaid, the excess amount paid shall be returned by VerticalNet within 15 days of notice of such overpayment.",
+                "changed_text": "If the amount owed by Impresse to VerticalNet was underpaid, the additional amount owed shall be paid to VerticalNet within 5 days of notice of such underpayment to Impresse. If the amount owed by Impresse to VerticalNet was underpaid in excess of 10% of the amount owed, the fees of such audit shall also be paid to VerticalNet within 5 days of notice of such to Impresse. If the amount owed by Impresse to VerticalNet was overpaid, the excess amount paid shall be returned by VerticalNet within 30 days of notice of such overpayment.",
+                "explanation": "The original text provides a 15-day window for payment of underpaid amounts. Shortening this to 5 days may create an undue burden and could potentially conflict with standard business practices and potentially prompt payment laws that provide a more reasonable timeframe for resolving payment discrepancies. The overpayment return timeframe has been changed to 30 days, creating inconsistency within the clause. California law requires that refunds or reimbursements be issued in a reasonable time. The 15 day time period is much more reasonable than the 30 day time period.",
+                "contradicted_law": "California Prompt Payment Laws, general principles of 'reasonableness' in contract law.",
+                "location": "Section 4.8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Except for claims under Sections 9.4  [INDEMNIFICATION BY IMPRESSE] and 9.5  [INDEMNIFICATION BY VERTICALNET] hereof, neither party may bring a claim or action regardless of form, arising out of or related to this Agreement, including any claim of fraud or misrepresentation, more than two years after the cause of action accrues or becomes known, whichever is later.",
+                "changed_text": "Except for claims under Sections 9.4  [INDEMNIFICATION BY IMPRESSE] and 9.5  [INDEMNIFICATION BY VERTICALNET] hereof, neither party may bring a claim or action regardless of form, arising out of or related to this Agreement, including any claim of fraud or misrepresentation, more than one year after the cause of action accrues or becomes known, whichever is later.",
+                "explanation": "The original text sets a two-year limitation for bringing claims related to the agreement. Reducing this to one year is below the statute of limitations for contract claims in Delaware, the governing state (which is typically three years), and could be deemed unconscionable or unenforceable, especially for claims of fraud or misrepresentation, which often require more time to uncover.",
+                "contradicted_law": "Delaware Statute of Limitations for Contract Claims (typically 3 years), general principles of 'reasonable' statute of limitations.",
+                "location": "Section 6.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "User Data shall be maintained by each Party as Confidential Information of the other Party during the Term and 5 years thereafter, provided such User Data may be disclosed only as part of an aggregation or analysis of all User Data but not as independent data. Upon termination of the Agreement, VerticalNet and Impresse shall jointly own all User Data. Neither Party shall use the User Data other than in accordance with the VerticalNet privacy policy and all applicable laws during the Term and thereafter.",
+                "changed_text": "User Data shall be maintained by each Party as Confidential Information of the other Party during the Term and 1 year thereafter, provided such User Data may be disclosed freely. Upon termination of the Agreement, VerticalNet and Impresse shall jointly own all User Data. Neither Party shall use the User Data other than in accordance with the VerticalNet privacy policy during the Term and thereafter, and parties are not responsible for ensuring the data is used in compliance with all applicable laws.",
+                "explanation": "Reducing the period for maintaining User Data as Confidential Information from 5 years to 1 year and removing the restriction on disclosing it only as part of an aggregation may violate privacy laws if the data contains Personally Identifiable Information (PII) of California residents. California Consumer Privacy Act (CCPA) gives consumers rights regarding their personal data. By shortening the period of confidentiality, and allowing free disclosure, creates a contradiction to the CCPA.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA), California Online Privacy Protection Act (CalOPPA)",
+                "location": "Section 7.6"
+            }
+        ]
+    }
+]

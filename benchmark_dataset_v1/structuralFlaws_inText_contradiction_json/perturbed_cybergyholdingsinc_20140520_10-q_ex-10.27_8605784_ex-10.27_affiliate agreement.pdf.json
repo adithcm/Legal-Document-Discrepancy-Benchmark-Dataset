@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cybergyholdingsinc_20140520_10-q_ex-10.27_8605784_ex-10.27_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.",
+                "changed_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year. Renewal for successive one (1) year periods will be subject to a negotiation of terms, but should that negotiation fail to produce an agreement then this contract shall automatically terminate.",
+                "explanation": "The original text states the contract automatically renews unless terminated. The changed text introduces a contradiction by stating that renewal requires a negotiation of terms. If this negotiation fails, the contract will not auto-renew, creating uncertainty about the renewal process and conflicting with the implication of automatic renewal.",
+                "location": "2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MA agrees to use its best efforts to market and license the Technology to Clients consistent with the terms of this Agreement.",
+                "changed_text": "MA agrees to use commercially reasonable efforts to market and license the Technology to Clients consistent with the terms of this Agreement. However, the MA will not be penalized should it choose not to engage in marketing efforts to license the technology at its sole discretion.",
+                "explanation": "The original text states the MA will use its \"best efforts\" which has a legal and binding precedent for its definition and interpretation. The new text says the MA will use \"commercially reasonable efforts,\" but then also says the MA will not be penalized for not engaging in marketing efforts. Thus, negating the responsibility for the MA to do anything to market the products or services. This creates a contradiction because the MA does not have a duty, and is uncertain on how best to engage clients.",
+                "location": "3.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company reserves the right to change its process and/or fees, from time to time, in its sole and absolute discretion. In the event of a price and/or fee change for Technology, Company shall notify MA in writing ninety (90) days prior to the effective date of any such change.",
+                "changed_text": "Company reserves the right to change its process and/or fees, from time to time, in its sole and absolute discretion. In the event of a price and/or fee change for Technology, Company may notify MA, but is not obligated to provide ninety (90) days prior to the effective date of any such change.",
+                "explanation": "The original text gives the MA the right to be notified 90 days before the company makes a change. The new text says the Company may notify the MA, but is not obligated to provide the 90 day notice.",
+                "location": "13"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "revolutionmedicinesinc_20200117_s-1_ex-10.1_11948417_ex-10.1_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.17 “Commercially Reasonable Efforts” means: (a) with respect to Sanofi, [***], consistent with [***] that [***], taking into account [***], including [***] and (b) with respect to RevMed, [***], consistent with [***] that [***], taking into account [***], including [***].",
+                "changed_text": "1.17 “Commercially Reasonable Efforts” means: (a) with respect to Sanofi, efforts that are purely discretionary, and Sanofi is not required to take any action if it deems it not commercially beneficial. (b) with respect to RevMed, [***], consistent with [***] that [***], taking into account [***], including [***].",
+                "explanation": "The original definition of \"Commercially Reasonable Efforts\" implies a standard of effort. The modified definition states that Sanofi's efforts are purely discretionary, which contradicts the implied obligation in other sections requiring them to use Commercially Reasonable Efforts. This introduces uncertainty because it suggests Sanofi might not have to make significant efforts at all, even when the contract requires them to.",
+                "location": "1.17"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, RevMed hereby grants to Sanofi an exclusive (even as to RevMed and its Affiliates), royalty-bearing license (which shall be sub-licensable solely as provided in Section 3.4) under the RevMed Licensed Technology, to Research, Develop, Manufacture, use, sell, offer for sale, import and otherwise Commercialize and exploit Products (including, for clarity, any Companion Diagnostics with respect to such Products) in the Field in the Licensed Territory.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, RevMed hereby grants to Sanofi a non-exclusive, royalty-bearing license (which shall be sub-licensable solely as provided in Section 3.4) under the RevMed Licensed Technology, to Research, Develop, Manufacture, use, sell, offer for sale, import and otherwise Commercialize and exploit Products (including, for clarity, any Companion Diagnostics with respect to such Products) in the Field in the Licensed Territory.",
+                "explanation": "The original text specified that Sanofi's license is exclusive and even RevMed is barred from utilizing the license. In this case, the modified version removes the exclusivity for Sanofi. This creates an in-text contradiction since the contract no longer specifies whether it is exclusive and could potentially create confusion on whether RevMed can utilize the license.",
+                "location": "3.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "12.3 Effects of Expiration or Termination.\n(a) General. Upon termination or expiration of this Agreement with respect to any particular Product or country, all rights and obligations of the Parties under this Agreement with respect to such Product or country shall cease except as otherwise set forth in this Section 12.3 or elsewhere in this Agreement, but, for clarity, such termination or expiration shall not affect the Parties’ rights and obligations under this Agreement with respect to the other Products or countries.\n(b) Effect of Expiration. Upon expiration of this Agreement, the licenses granted to Sanofi under Section 3.1 will become fully paid up, royalty free, perpetual and irrevocable.",
+                "changed_text": "12.3 Effects of Expiration or Termination.\n(a) General. Upon termination or expiration of this Agreement with respect to any particular Product or country, all rights and obligations of the Parties under this Agreement with respect to such Product or country shall cease except as otherwise set forth in this Section 12.3 or elsewhere in this Agreement, but, for clarity, such termination or expiration shall not affect the Parties’ rights and obligations under this Agreement with respect to the other Products or countries.\n(b) Effect of Expiration. Upon expiration of this Agreement, the licenses granted to Sanofi under Section 3.1 will revert back to RevMed and will no longer be licensed to Sanofi.",
+                "explanation": "The original text stated that upon expiration of the agreement, the license granted to Sanofi would become perpetual, royalty free, and irrevocable. The modified text directly contradicts this by stating that the license would revert back to RevMed. This contradiction creates significant uncertainty about Sanofi's rights after the contract expires and whether Sanofi can continue to commercialize the products.",
+                "location": "12.3"
+            }
+        ]
+    }
+]

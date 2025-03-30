@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "westpharmaceuticalservicesinc_20200116_8-k_ex-10.1_11947529_ex-10.1_supply agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "changed_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. However, in cases where the invoice amount exceeds $[*****], the payment term shall be extended to 90 days. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "explanation": "This change introduces a contradiction because the initial clause states that payment terms are defined in Attachment E. The modified clause adds an exception where invoices exceeding a certain amount have extended payment terms. This creates ambiguity as to which payment terms apply, especially for high-value invoices.",
+                "location": "Pricing"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Payment for Product shall be made in U.S. Dollars and shall be due, in good funds in Seller's account, no later than thirty (30) days after the date of shipment. With respect to any monetary obligations of Buyer or Buyer's affiliates owed to Seller, Seller may (i) set-off such obligations against any sums owing to Buyer or Buyer's affiliates; and/or (ii) recoup such obligation from any amounts paid to Buyer or Buyer's affiliates by Seller.",
+                "changed_text": "Payment for Product shall be made in U.S. Dollars and shall be due, in good funds in Seller's account, no later than thirty (30) days after the date of shipment, unless a different agreement is reached bilaterally between buyer and seller in a written format. With respect to any monetary obligations of Buyer or Buyer's affiliates owed to Seller, Seller may (i) set-off such obligations against any sums owing to Buyer or Buyer's affiliates; and/or (ii) recoup such obligation from any amounts paid to Buyer or Buyer's affiliates by Seller.",
+                "explanation": "The modified clause introduces uncertainty by allowing for bilaterally agreed-upon payment terms outside the standard 30-day period. This contradicts the initial clear statement of a 30-day payment term, making it unclear which condition prevails in specific situations. It creates an opening for disputes over payment deadlines.",
+                "location": "ATTACHMENT A - 2. PAYMENT"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Laytime shall cease upon disconnection of all cargo hoses upon completion of discharge.",
+                "changed_text": "Laytime shall cease upon disconnection of all cargo hoses upon completion of discharge. However, if Buyer requires additional inspection time, laytime shall cease 24 hours after the completion of discharge, irrespective of hose disconnection.",
+                "explanation": "The original clause clearly states when laytime ceases. The added sentence provides an exception for Buyer requiring inspection time, which could be interpreted to extend laytime beyond hose disconnection. This inconsistency could lead to disputes regarding the duration of laytime and associated costs.",
+                "location": "ATTACHMENT G - LAYTIME AND DEMURRAGE"
+            }
+        ]
+    }
+]

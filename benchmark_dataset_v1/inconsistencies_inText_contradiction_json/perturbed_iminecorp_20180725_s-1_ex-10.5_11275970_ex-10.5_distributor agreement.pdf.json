@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "iminecorp_20180725_s-1_ex-10.5_11275970_ex-10.5_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6.1 Payment Terms. JRVS shall submit an invoice to the Distributor upon shipment of Products to the Distributor. The\ninvoice shall state the amount to be paid by the Distributor for all Products in such shipment, as well as any taxes, duties or\nexcises paid by JRVS which shall be reimbursed by the Distributor in accordance with Section 5.4. Terms of payment shall be net\nthirty (30) days. All payments shall be in U.S. Dollars.",
+                "changed_text": "6.1 Payment Terms. JRVS shall submit an invoice to the Distributor upon shipment of Products to the Distributor. The\ninvoice shall state the amount to be paid by the Distributor for all Products in such shipment, as well as any taxes, duties or\nexcises paid by JRVS which shall be reimbursed by the Distributor in accordance with Section 5.4. Terms of payment shall be net\nthirty (30) days. All payments shall be in U.S. Dollars. Notwithstanding the foregoing, for all orders placed after January 1, 2019, payment terms shall be net fifteen (15) days.",
+                "explanation": "This change introduces an in-text contradiction. The original text specifies a net 30-day payment term, while the added sentence mandates a net 15-day payment term for orders placed after a certain date. This creates ambiguity about which payment term applies, especially for orders spanning the date change, thus leading to enforcement uncertainty.",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "12.2 Termination for Convenience. This Agreement may be terminated by either party for any reason or no reason, whether\nor not extended beyond the initial term, by giving the other party written notice ninety (90) days in advance.",
+                "changed_text": "12.2 Termination for Convenience. This Agreement may be terminated by either party for any reason or no reason, whether\nor not extended beyond the initial term, by giving the other party written notice ninety (90) days in advance. However, JRVS may terminate this agreement with thirty (30) days written notice should market conditions change.",
+                "explanation": "This change introduces a contradiction in termination terms. While either party can terminate with 90 days' notice, JRVS is granted the additional right to terminate with only 30 days' notice if market conditions change. This creates ambiguity and favors one party over the other, especially if the definition of market conditions is not clearly defined. This could lead to disputes over termination validity.",
+                "location": "Section 12.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.6 Cancellations. Except as provided herein, all Orders for Products are non-cancelable, and Products are non-returnable\n(NC/NR). Subject to JRVS’s written approval, orders for mining rigs may be rescheduled or cancelled subject to the cancellation\nfees, which are based on the number of days in advance of the scheduled shipment date that the Distributor notifies JRVS of\ncancellation and shall be set by JRVS from time to time. The Nonstandard Products are at all times non-cancelable. Distributor\nshall contact JRVS in advance for pricing and delivery information for orders of Non-standard Products.",
+                "changed_text": "4.6 Cancellations. Except as provided herein, all Orders for Products are non-cancelable, and Products are non-returnable\n(NC/NR). Subject to JRVS’s written approval, orders for mining rigs may be rescheduled or cancelled subject to the cancellation\nfees, which are based on the number of days in advance of the scheduled shipment date that the Distributor notifies JRVS of\ncancellation and shall be set by JRVS from time to time. The Nonstandard Products are at all times non-cancelable. Notwithstanding the forgoing, distributor may cancel any order within 7 days of order placement with no penalty. Distributor\nshall contact JRVS in advance for pricing and delivery information for orders of Non-standard Products.",
+                "explanation": "The original text states orders are non-cancelable except with JRVS approval and subject to cancellation fees. The added sentence allows the distributor to cancel orders within 7 days without penalty. This creates a direct conflict, as some orders are now cancelable without fees within a certain window, contradicting the overall non-cancelable nature. This creates enforcement uncertainty, especially when dealing with orders that are nearing the 7-day window",
+                "location": "Section 4.6"
+            }
+        ]
+    }
+]

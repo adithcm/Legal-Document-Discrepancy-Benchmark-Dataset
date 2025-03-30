@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "veoneer,inc_02_21_2020-ex-10.11-joint venture agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Amendment shall be governed by and construed in accordance with the laws of Japan.",
+                "changed_text": "This Amendment shall be governed by and construed in accordance with the laws of Japan. However, in cases of disputes relating to intellectual property, the laws of Delaware, USA shall apply.",
+                "explanation": "The amendment specifies that while the overall agreement is governed by Japanese law, disputes related to intellectual property will be governed by Delaware law. This creates a legal contradiction and ambiguity as intellectual property rights and their enforcement can be central to joint venture agreements, leading to potential conflicts of law and difficulties in enforcement. The introduction of Delaware law within a contract primarily governed by Japanese law introduces a conflict.",
+                "contradicted_law": "Choice of Law Principles, potential violations of contract law principles due to conflicting jurisdictions.",
+                "location": "Article 3.Governing Law"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the Nissin Parties agree to cause each of VNBJ and VNBZ to comply with Sections 4.3.2 and 4.3.3 of the JV Agreement with respect to the indemnification or reimbursement, as applicable, of all Directors and Officers (except those individuals resigning pursuant to Section 6.2.6 of the VNBJ SPA and Section 6.2.6 of the VNBZ SPA) with respect to any Liabilities arising prior to the VNBJ Closing or the VNBZ Closing, as applicable.",
+                "changed_text": "Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the Nissin Parties agree to cause each of VNBJ and VNBZ to comply with Sections 4.3.2 and 4.3.3 of the JV Agreement with respect to the indemnification or reimbursement, as applicable, of all Directors and Officers (except those individuals resigning pursuant to Section 6.2.6 of the VNBJ SPA and Section 6.2.6 of the VNBZ SPA) with respect to any Liabilities arising prior to the VNBJ Closing or the VNBZ Closing, as applicable. However, this indemnification is contingent on the Director or Officer acting in good faith, as determined solely by Nissin.",
+                "explanation": "Adding 'However, this indemnification is contingent on the Director or Officer acting in good faith, as determined solely by Nissin' introduces a significant caveat. The original clause mandates compliance with indemnification obligations. The addition gives Nissin unilateral power to determine 'good faith,' potentially overriding the original intent of the indemnification clauses and creating uncertainty and unenforceability for the Directors and Officers. This could be seen as a breach of fiduciary duty depending on the interpretation and application.",
+                "contradicted_law": "Fiduciary Duty, Contract Law principles relating to good faith and fair dealing, Corporate Law relating to indemnification.",
+                "location": "Article 2.D&O Indemnity"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Article 4.Effectiveness\nThis Amendment shall only become effective upon the VNBJ Closing with respect to Article 1.1 and the VNBZ Closing with respect\nto Article 1.2, and shall terminate without any force or effect in the event that the VNBJ SPA and the VNBZ SPA are terminated in\naccordance with the terms thereof.",
+                "changed_text": "Article 4.Effectiveness\nThis Amendment shall only become effective upon the VNBJ Closing with respect to Article 1.1 and the VNBZ Closing with respect\nto Article 1.2, and shall terminate without any force or effect in the event that the VNBJ SPA and the VNBZ SPA are terminated in\naccordance with the terms thereof. However, the parties may, by mutual written agreement, elect to waive this condition of effectiveness.",
+                "explanation": "The original clause clearly states the amendment's effectiveness is contingent on specific events (VNBJ and VNBZ closings) and its termination is linked to the termination of related SPAs. Adding 'However, the parties may, by mutual written agreement, elect to waive this condition of effectiveness' directly contradicts the initial conditionality. This undermines the original intent that the amendment's force depends on those closing events, potentially creating legal uncertainty as to when and how the amendment truly becomes effective. This introduces ambiguity in the enforceability of the amendment, particularly if the closing events do not occur.",
+                "contradicted_law": "Contract Law principles relating to conditions precedent and enforceability, Legal doctrines related to waiver of contractual provisions.",
+                "location": "Article 4.Effectiveness"
+            }
+        ]
+    }
+]

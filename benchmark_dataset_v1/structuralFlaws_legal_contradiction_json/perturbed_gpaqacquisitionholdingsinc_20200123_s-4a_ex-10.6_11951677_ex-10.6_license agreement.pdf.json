@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "gpaqacquisitionholdingsinc_20200123_s-4a_ex-10.6_11951677_ex-10.6_license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement will be governed in all respects by the laws of the State of Ohio (without regard to conflicts of law provisions), as such laws are applied to agreements entered into and to be performed entirely within the State of Ohio between Ohio residents.",
+                "changed_text": "This Agreement will be governed in all respects by the laws of the State of Delaware (without regard to conflicts of law provisions), as such laws are applied to agreements entered into and to be performed entirely within the State of Ohio between Ohio residents.",
+                "explanation": "The original text specifies Ohio law for governing the agreement. Changing it to Delaware introduces potential conflicts, as the agreement is intended for Ohio residents and operations. Making choice of law ambiguous can increase difficulty of enforcement. This contradicts typical legal practice where choice of law is related to where most of the business operation occurs.",
+                "contradicted_law": "Breach of Contract Law, Choice of Law Principles",
+                "location": "7.4(a)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Any dispute between the Parties concerning the scope or interpretation of this Agreement shall be submitted to binding arbitration in accordance with the Rules of Commercial Arbitration of the American Arbitration Association in effect on the date that a dispute is submitted to arbitration (the “Rules”). The arbitration shall be held in Canton, Ohio, and shall be before a panel of three arbitrators, one chosen by each of the Parties and a third chosen by the two arbitrators so chosen by the Parties. Not less than fifteen (15) days prior to the arbitration, each Party shall submit to the other the documents and a list of witnesses it intends to interview or call in the arbitration. The arbitrators shall apply the substantive law of the State of Ohio with regard to any dispute that becomes the subject of arbitration, and the arbitrators will be so instructed. The arbitrators shall issue a written opinion stating the findings of fact and the conclusions of law upon which the decision is based. The decision of the arbitrators shall be final and binding.",
+                "changed_text": "Any dispute between the Parties concerning the scope or interpretation of this Agreement shall be submitted to arbitration. The arbitration shall be held in Canton, Ohio, and shall be before a single arbitrator chosen by mutual agreement of the parties. The arbitrator shall apply the substantive law of the state that the arbitrator resides in with regard to any dispute that becomes the subject of arbitration, and the arbitrators will be so instructed. The arbitrator shall issue a verbal opinion stating the conclusions of law upon which the decision is based. The decision of the arbitrators shall be non-binding.",
+                "explanation": "Changed the language from 'binding arbitration' to 'non-binding' arbitration. This significantly reduces the enforceability of the arbitration clause. Instead of a panel of 3 arbitrators, now it will be 1. Furthermore, the arbitrator will apply substantive law of their home state, not Ohio. Lastly, the arbitrator will issue a verbal opinion, instead of a written one. This makes it very difficult to enforce the decision. By changing the arbitration clause to be non-binding, it defeats the purpose of including an arbitration clause and undermines dispute resolution.",
+                "contradicted_law": "Federal Arbitration Act, Contract Law regarding Dispute Resolution",
+                "location": "7.4(b)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In any action, suit, proceeding, claim, or counterclaim brought to enforce this Agreement or any of its provisions, the Party that prevails in any such action, suit, proceeding, claim, or counterclaim (the “Prevailing Party”) shall recover its costs, fees, and expenses, including, but not limited to, the reasonable costs, fees, and expenses of attorneys and outside experts (collectively, “Expenses”), from the other Party (the “Non-Prevailing Party”), and the court or arbitration panel shall be so instructed to determine which Party is the Prevailing Party, to grant the recovery of the Expenses incurred by the Prevailing Party, and to order the Non-Prevailing Party to pay the Expenses of the Prevailing Party.",
+                "changed_text": "In any action, suit, proceeding, claim, or counterclaim brought to enforce this Agreement or any of its provisions, each party will be responsible for their own costs, fees, and expenses.",
+                "explanation": "Removing the clause that awards costs and fees to the prevailing party removes a significant incentive for parties to pursue legitimate claims and creates uncertainty. Parties will now have to weigh the full cost of litigation/arbitration against the potential recovery, even if they are clearly in the right. This discourages enforcement of the agreement.",
+                "contradicted_law": "Contract Law regarding Remedies and Enforcement",
+                "location": "7.4(c)"
+            }
+        ]
+    }
+]

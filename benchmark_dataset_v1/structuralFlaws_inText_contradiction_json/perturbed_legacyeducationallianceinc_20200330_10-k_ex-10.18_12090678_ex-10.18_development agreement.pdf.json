@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "legacyeducationallianceinc_20200330_10-k_ex-10.18_12090678_ex-10.18_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.2. The term “Affiliate” means an entity controlling, controlled, or under common control with a party. For these purposes, “control” means: (a) the possession, directly or indirectly, of the power to direct the management or policies of an entity, whether through the ownership of voting securities, by contract or otherwise; or (b) the ownership, directly or indirectly, of at least fifty percent (50%) of the voting securities or other ownership interest of an entity.",
+                "changed_text": "1.2. The term “Affiliate” means an entity controlling, controlled, or under common control with a party. For these purposes, “control” means: (a) the possession, directly or indirectly, of the power to direct the management or policies of an entity, whether through the ownership of voting securities, by contract or otherwise; or (b) the ownership, directly or indirectly, of at least twenty-five percent (25%) of the voting securities or other ownership interest of an entity.",
+                "explanation": "The definition of 'Affiliate' now contains conflicting thresholds for 'control'. Initially, control requires 50% ownership of voting securities, but now it states 25% of the voting securities. This creates ambiguity as to what constitutes an affiliate, impacting related obligations and rights.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.1 The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+                "changed_text": "11.1 The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 30 days prior to the end of such five-year term.",
+                "explanation": "The original text says the term automatically renews for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term. It is now saying parties provide prior written notice of termination not less than 30 days prior to the end of such five-year term, contradictory to the prior text. This affects the agreement end date.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "9.2 Minimum Guaranteed Royalty: In consideration of the exclusivity rights granted to LEA, commencing with the seventh (7th) month of the Term and continuing each year of the Term thereafter, the minimum Royalties payable to T&B each month shall be the greater of the (i) applicable monthly Base Royalty and Marketing Royalty or (ii) $200,000.",
+                "changed_text": "9.2 Minimum Guaranteed Royalty: In consideration of the exclusivity rights granted to LEA, commencing with the first (1st) month of the Term and continuing each year of the Term thereafter, the minimum Royalties payable to T&B each month shall be the greater of the (i) applicable monthly Base Royalty and Marketing Royalty or (ii) $100,000.",
+                "explanation": "The change in minimum guarantee royalty value and its commencement period creates contradictory implications about the financial obligations of LEA. The original text states it begins in the seventh month for 200,000. The modified text states that it starts with the first month with only 100,000 payment. Because of this, the payments and terms are contradictory with the prior text.",
+                "location": "Section 9.2"
+            }
+        ]
+    }
+]

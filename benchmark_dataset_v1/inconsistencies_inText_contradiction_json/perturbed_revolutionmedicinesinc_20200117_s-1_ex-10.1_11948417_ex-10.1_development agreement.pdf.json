@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "revolutionmedicinesinc_20200117_s-1_ex-10.1_11948417_ex-10.1_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Sanofi will make all payments owed to RevMed within [***] after the date on which Sanofi receives an undisputed invoice for such owed amount, except where a different timeframe is expressly provided in another Section of this Agreement (e.g., for the reimbursement of RevMed R&D Costs pursuant to Sections 4.5 and 5.5; the payment of the buy-in payment pursuant to Section 5.6(b)B; the upfront payment set forth in Section 9.1; the royalties payable pursuant to Section 9.3, the payment of VAT pursuant to Section 9.7(b); and the payment of unpaid or overpaid amounts pursuant to Section 9.9(b)).",
+                "changed_text": "Sanofi will make all payments owed to RevMed within [***] after the date on which Sanofi receives an undisputed invoice for such owed amount, except where a different timeframe is expressly provided in another Section of this Agreement (e.g., for the reimbursement of RevMed R&D Costs pursuant to Sections 4.5 and 5.5; the payment of the buy-in payment pursuant to Section 5.6(b)B; the upfront payment set forth in Section 9.1; the royalties payable pursuant to Section 9.3, the payment of VAT pursuant to Section 9.7(b); and the payment of unpaid or overpaid amounts pursuant to Section 9.9(b)). Notwithstanding the foregoing, all milestone payments outlined in Section 9.2 are to be paid within [***] business days.",
+                "explanation": "This introduces an in-text contradiction. Section 9.5 states a general payment term of [***] for most payments, but the added text specifies a [***] business day payment term for milestone payments in Section 9.2, creating ambiguity about the applicable deadline.",
+                "location": "Section 9.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "RevMed will also have the right to notify Sanofi in writing if RevMed believes a Milestone Event has been achieved even if Sanofi has not provided such notice to RevMed, and unless Sanofi notifies RevMed within [***] Business Days after receipt of such notice from RevMed that such Milestone Event has not been achieved, RevMed may issue an invoice to Sanofi for the corresponding Milestone Payment.",
+                "changed_text": "RevMed will also have the right to notify Sanofi in writing if RevMed believes a Milestone Event has been achieved even if Sanofi has not provided such notice to RevMed, and unless Sanofi notifies RevMed within [***] Business Days after receipt of such notice from RevMed that such Milestone Event has not been achieved, RevMed may issue an invoice to Sanofi for the corresponding Milestone Payment. However, Sanofi has 60 business days after receipt of notification from RevMed.",
+                "explanation": "This introduces an in-text contradiction. The original text allows RevMed to issue an invoice if Sanofi doesn't respond within [***] business days, but the added sentence extends Sanofi's response time to 60 business days, creating conflict and uncertainty on the enforcement of the timeline.",
+                "location": "Section 9.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Within [***] following delivery of the applicable quarterly report, Sanofi shall pay in Dollars all royalties due to RevMed with respect to Net Sales by Sanofi, its Affiliates and their respective Sublicensees for such Calendar Quarter.",
+                "changed_text": "Within [***] following delivery of the applicable quarterly report, Sanofi shall pay in Dollars all royalties due to RevMed with respect to Net Sales by Sanofi, its Affiliates and their respective Sublicensees for such Calendar Quarter. All late royalty payments are subject to a 10% penalty, compounding daily.",
+                "explanation": "This change creates an in-text contradiction. The original text establishes a payment deadline ([***] after the quarterly report). The added sentence then introduces a penalty for late payments, but doesn't specify a grace period, conflicting with the existing [***] timeframe. This creates uncertainty regarding when the penalty applies, potentially leading to disputes.",
+                "location": "Section 9.3(d)(i)"
+            }
+        ]
+    }
+]

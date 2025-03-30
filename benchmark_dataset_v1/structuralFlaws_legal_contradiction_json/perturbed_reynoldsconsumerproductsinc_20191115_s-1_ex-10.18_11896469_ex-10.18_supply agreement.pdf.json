@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "reynoldsconsumerproductsinc_20191115_s-1_ex-10.18_11896469_ex-10.18_supply agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of the State of Illinois and the United States of America, without giving effect to its principles or rules of conflict of laws. The United Nations Convention on Contracts for the International Sale of Goods will not govern or otherwise be applicable to this Agreement.",
+                "changed_text": "This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of a mutually agreed upon jurisdiction. The United Nations Convention on Contracts for the International Sale of Goods will not govern or otherwise be applicable to this Agreement.",
+                "explanation": "The clause dictating the governing law has been changed to introduce ambiguity. Instead of specifying Illinois and the United States of America, it now states that the governing law will be 'a mutually agreed upon jurisdiction'. This makes the governing law uncertain and unenforceable until both parties agree, potentially leading to disputes and difficulties in legal proceedings. Some jurisdictions require the specification of the law that will be applied during any legal disputes.",
+                "contradicted_law": "Contract Law Principles - Governing Law",
+                "location": "12.d"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid. In addition, if Seller has to file litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Seller in collecting the delinquent amount and accrued late payment fees on the delinquent amount. Under no circumstance will the late payment fee payable to Seller exceed the amount that a creditor may lawfully impose on a debtor on a delinquent amount under Applicable Law.",
+                "changed_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee as determined by the Seller. In addition, if Seller has to file litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Seller in collecting the delinquent amount. Under no circumstance will the late payment fee payable to Seller exceed 100% of the original amount.",
+                "explanation": "The terms for late payment fees have been manipulated to introduce uncertainty and potentially usurious rates. The original text capped interest at the maximum legally allowable rate, which has been removed. While the last sentence does mention there is a cap, the removal of the 'Applicable Law' clause would mean it's difficult to enforce. This opens the door for potential disputes over late fees and challenges under usury laws.",
+                "contradicted_law": "Usury Laws, Contract Law Principles - Definite Terms",
+                "location": "11.e"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "A Party will not suspend performance under or terminate this Agreement or any accepted purchase order for a product being purchased and sold under this Agreement unless: (1) the other Party is in material breach of this Agreement and has either refused to cure the material breach or has failed to cure the material breach within thirty (30) day of its receipt of written notice of the failure; and (2) the Parties have been unable to resolve the Dispute related to the material breach through negotiation or mediation, or the breaching Party has refused or failed to attempt to resolve the Dispute through negotiation or mediation, as provided in this Section. Notwithstanding the foregoing, a Party may suspend performance or terminate this Agreement or any accepted purchase order for a product being purchase and sold under this Agreement immediately on written notice to the other Party, and without providing the other Party an opportunity to cure the material breach or attempting to resolve a Dispute over the material breach by negotiation or mediation as provided in this Section, for a material breach by the other Party involving substantial harm to the reputation, goodwill and business of the non-breaching Party that cannot reasonably be avoided or fully redressed by providing the other Party an opportunity to cure the material breach.",
+                "changed_text": "A Party will not suspend performance under or terminate this Agreement unless the other party fails to comply with any aspect of this agreement.",
+                "explanation": "The original clause requires a 'material breach' and attempts to resolve the issue before suspending performance or terminating the agreement. By omitting the terms, the change enables a party to terminate for minor reasons without resolving the underlying issue. This change makes the clause unconscionable. Without proper stipulations to remedy the breach, parties may have a difficult time interpreting this.",
+                "contradicted_law": "Contract Law Principles - Material Breach, Good Faith",
+                "location": "11.d"
+            }
+        ]
+    }
+]

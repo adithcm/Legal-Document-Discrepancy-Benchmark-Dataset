@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "vgrabcommunicationsinc_20200129_10-k_ex-10.33_11958828_ex-10.33_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to the binding laws of Hong Kong as a first attempt at formal resolution. Should arbitration fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted within the binding laws of Hong Kong.",
+                "changed_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to the binding laws of Hong Kong as a first attempt at formal resolution. Should arbitration fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted within the binding laws of Malaysia.",
+                "explanation": "The agreement initially states that it is governed by the laws of Hong Kong. By changing the governing law in the last sentence to Malaysia, a contradiction is introduced regarding which jurisdiction's laws actually apply, making it more difficult to enforce.",
+                "contradicted_law": "Contract Law - Choice of Law Principles",
+                "location": "Section 15"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP\nAll Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL.\nAll rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+                "changed_text": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP\nAll Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer. \nAll rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to the Developer and shall be subject to the terms and conditions of this Agreement.",
+                "explanation": "The agreement states that 'All Intellectual Property during the project is owned by VAL', the modified text later contradicts by stating 'All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to the Developer', introducing a direct contradiction regarding ownership of the intellectual property. The original clause clearly states VAL's ownership, while the modified clause assigns ownership to the Developer.",
+                "contradicted_law": "Intellectual Property Law - Ownership of Created Works",
+                "location": "Section 11"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "TERMINATION\nVAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks’ notice in writing and it is applicable only when the project is not completed. If the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by giving two (2) weeks’ notice in writing to VAL. It is applicable only when the project is not completed.\nIn case Developer terminates the agreement, it shall handover the entire project related IPR, work done till date to VAL.",
+                "changed_text": "TERMINATION\nVAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks’ notice in writing and it is applicable only when the project is not completed. If the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by giving two (2) weeks’ notice in writing to VAL. It is applicable only when the project is not completed. In case Developer terminates the agreement, it will be compensated by VAL for the value of the work completed.",
+                "explanation": "The clause states that the developer hands over IPR to VAL, while in the modified text that has been changed, the developer is compensated for the work completed. There is a contradiction between the requirement to surrender the IP and the right to be compensated, undermining the original agreement regarding IP transfer.",
+                "contradicted_law": "Contract Law - Breach of Contract and Remedies",
+                "location": "Section 13"
+            }
+        ]
+    }
+]

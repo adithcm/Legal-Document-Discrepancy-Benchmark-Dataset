@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "gopagecorp_20140221_10-k_ex-10.1_8432966_ex-10.1_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The License Fees are non-cancellable and non-refundable.",
+                "changed_text": "The License Fees are generally non-cancellable and non-refundable, except under circumstances to be determined at Licensor's sole discretion.",
+                "explanation": "By adding \"except under circumstances to be determined at Licensor's sole discretion\", the clause now contradicts its original meaning and introduces uncertainty. The original statement provides a clear understanding that the License Fees are non-cancellable and non-refundable without exceptions, now Licensee may request a cancel or refund, because there is a chance it may be granted, but it is up to the licensor to decide.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Throughout the Term, Licensee shall have in effect and maintain accessible on the Licensee Site and Related Media website terms of use (\"Terms of Use\") and privacy policy (“Privacy Policy”) on which use of the Licensee Site and Related Media, including the Licensed Content, is expressly conditioned, and which in form and substance are reasonably acceptable to Licensor.",
+                "changed_text": "Throughout the Term, Licensee shall have in effect and maintain accessible on the Licensee Site and Related Media website terms of use (\"Terms of Use\") and privacy policy (“Privacy Policy”) on which use of the Licensee Site and Related Media, including the Licensed Content, is expressly conditioned. These Terms of Use and Privacy Policy shall be determined by the Licensee, with no obligations to be acceptable to Licensor.",
+                "explanation": "This creates contradiction by removing the original requirement for the Licensee's Terms of Use and Privacy Policy to be reasonably acceptable to Licensor. This uncertainty in enforcement could cause disputes over content, liabilities, or user agreements.",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The initial term of this Agreement commences as of the Effective Date and, unless terminated earlier pursuant to any express provision of this Agreement, shall continue until five (5) years following the Effective Date (the \"Initial Term\"). Thereafter, this Agreement shall renew automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term].",
+                "changed_text": "The initial term of this Agreement commences as of the Effective Date and, unless terminated earlier pursuant to any express provision of this Agreement, shall continue until five (5) years following the Effective Date (the \"Initial Term\"). Thereafter, this Agreement may renew automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") if both parties agree, unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term].",
+                "explanation": "By changing \"shall renew automatically\" to \"may renew automatically if both parties agree\", the clause now requires an affirmative action to renew, creating conflict with the original agreement. This creates uncertainty about the renewal process.",
+                "location": "Section 6.1"
+            }
+        ]
+    }
+]

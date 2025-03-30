@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "clickstreamcorp_20200330_1-a_ex1a-6 mat ctrct_12089935_ex1a-6 mat ctrct_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client has the unilateral right to cancel this agreement at any time within a 7-day notice period. Further, Developer can only cancel\ndue to lack of payment. Client will have a 30 day right to cure before a cancelation can occur.",
+                "changed_text": "Client has the unilateral right to cancel this agreement at any time within a 2-day notice period. Further, Developer can only cancel\ndue to lack of payment. Client will have a 10 day right to cure before a cancelation can occur.",
+                "explanation": "This change reduces the notice period for cancellation by the client to 2 days, which may conflict with state laws requiring longer notice periods for contract termination. The cure period for lack of payment is also shortened to 10 days, potentially violating laws that mandate a longer timeframe for the client to remedy payment issues.",
+                "contradicted_law": "Potentially violates state laws regarding contract termination and cure periods for payment defaults. Specific regulations vary by state.",
+                "location": "4. TERMINATION. (a) 2."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All intellectual property developed pursuant to this Agreement before the Termination Date shall be delivered to the Client within one\nday of the Termination Date.",
+                "changed_text": "All intellectual property developed pursuant to this Agreement before the Termination Date shall be delivered to the Client within ten\ndays of the Termination Date.",
+                "explanation": "This change extends the delivery timeframe for intellectual property to 10 days. While seemingly innocuous, in intellectual property law, immediate transfer is often crucial, and delaying it could create ambiguities regarding ownership, control, and potential misuse of the intellectual property during that period, potentially conflicting with trade secret or proprietary information protection laws that require immediate action to safeguard such assets.",
+                "contradicted_law": "Potentially conflicts with trade secret and intellectual property protection laws that emphasize immediate control and safeguarding of proprietary assets.",
+                "location": "4. TERMINATION. (b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within three (3) days of the termination of this Agreement, whether by expiration or otherwise, the Developer agrees to return to the Client all Client\nproducts, samples, models, or other property and all documents, retaining no copies or notes, relating to the Client’s business including, but not\nlimited to, reports, abstracts, lists, correspondence, information, computer files, computer disks, and all other materials and all copies of such\nmaterial obtained by the Developer during and in connection with its representation of the Client.",
+                "changed_text": "Within ten (10) days of the termination of this Agreement, whether by expiration or otherwise, the Developer agrees to return to the Client all Client\nproducts, samples, models, or other property and all documents, retaining no copies or notes, relating to the Client’s business including, but not\nlimited to, reports, abstracts, lists, correspondence, information, computer files, computer disks, and all other materials and all copies of such\nmaterial obtained by the Developer during and in connection with its representation of the Client.",
+                "explanation": "This change extends the return timeframe for client property to 10 days, which while seemingly providing more leeway, may conflict with legal standards requiring prompt return of property, especially concerning confidential information or trade secrets. Extending the period could increase the risk of unauthorized use or disclosure of sensitive information, thus violating implied duties of confidentiality or potentially breaching trade secret protection laws.",
+                "contradicted_law": "Potentially conflicts with implied duties of confidentiality and trade secret protection laws, which necessitate prompt and secure return of sensitive company property.",
+                "location": "12. RETURN OF PROPERTY."
+            }
+        ]
+    }
+]

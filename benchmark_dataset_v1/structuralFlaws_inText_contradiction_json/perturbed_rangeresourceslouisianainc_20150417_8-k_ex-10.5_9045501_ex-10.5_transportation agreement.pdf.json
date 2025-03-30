@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "rangeresourceslouisianainc_20150417_8-k_ex-10.5_9045501_ex-10.5_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.1 Term. This Agreement shall commence on the Effective Date and continue in full force and effect until\nthe end of the fifteenth (15th)\nContract Year, and shall continue in full force and effect thereafter until terminated by either Party by providing thirty (30) calendar days’ prior\nwritten notice of termination to the other Party (such fifteen (15) Contract Year period, as may be further extended as provided herein is referred to\nas the “Term”).",
+                "changed_text": "2.1 Term. This Agreement shall commence on the Effective Date and continue in full force and effect until\nthe end of the fifteenth (15th)\nContract Year. Either party can terminate this agreement with no prior written notice.",
+                "explanation": "The original text states that the agreement continues after the fifteenth year until terminated with a 30-day notice. The modified version removes the clause, indicating either party can terminate with no prior written notice at any time which directly contradicts the original condition for termination after the initial 15-year period. This contradiction creates uncertainty about the termination conditions, leading to potential disputes.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "15.1 Common Carrier Pipeline. The System will be operated as a common carrier pipeline, and Shipper’s rights hereunder shall be subject to all\nlaws related to and governing the operation of common carrier pipelines, including, without limitation, laws and regulations that prevent\ndiscrimination in favor of any given shipper or the provision of service for consideration other than the rate set forth in a published tariff. The Tariff\nshall apply to the Services provided hereunder, and if there is a conflict between a provision of this Agreement and the Tariff, the Tariff shall apply.\nCarrier reserves the right to modify or amend the Tariff, in its sole discretion, as it deems necessary provided, however, any such modification or\namendment shall be consistent with this Agreement.",
+                "changed_text": "15.1 Common Carrier Pipeline. The System will be operated as a common carrier pipeline, and Shipper’s rights hereunder shall be subject to all\nlaws related to and governing the operation of common carrier pipelines, including, without limitation, laws and regulations that prevent\ndiscrimination in favor of any given shipper or the provision of service for consideration other than the rate set forth in a published tariff. The Tariff\nshall apply to the Services provided hereunder, and if there is a conflict between a provision of this Agreement and the Tariff, this Agreement shall apply.\nCarrier reserves the right to modify or amend the Tariff, in its sole discretion, as it deems necessary.",
+                "explanation": "The original text prioritizes the Tariff in case of conflict with the agreement, reinforcing the regulated nature of the common carrier service. The modified text contradicts this by stating that the Agreement takes precedence over the Tariff in case of conflict. This introduces ambiguity, as it's unclear which document governs the rights and obligations of the parties. This undermines the common carrier principle, which relies on the Tariff for non-discriminatory service and rates.",
+                "location": "Article XV"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "19.14 Confidentiality.\n(a) Each Party agrees that it shall maintain all terms and conditions of this Agreement in confidence, and that it shall not cause or permit\ndisclosure thereof without the express written\nconsent of the other Party. The standard of care to be employed by each Party with respect to the other Party’s confidential information shall be the\nstandard of care employed by a reasonable person in protecting confidential information.",
+                "changed_text": "19.14 Confidentiality.\n(a) Each Party agrees that it shall maintain all terms and conditions of this Agreement in confidence, and that it may cause or permit\ndisclosure thereof without the express written\nconsent of the other Party. The standard of care to be employed by each Party with respect to the other Party’s confidential information shall be the\nstandard of care employed by a unreasonable person in protecting confidential information.",
+                "explanation": "The original text explicitly states that neither party is allowed to disclose the terms of the agreement without the written consent of the other party and the standrd of care employed shall be that of a \"reasonable person\". The modified version contradicts this by stating that parties may cause and permit disclosure without express written consent and the standard of care employed should be that of an \"unreasonable person\", rendering the entire clause moot and unenforceable.",
+                "location": "Article XIX"
+            }
+        ]
+    }
+]

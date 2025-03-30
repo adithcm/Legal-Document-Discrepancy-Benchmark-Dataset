@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "bellringbrandsinc_20190920_s-1_ex-10.12_11817081_ex-10.12_manufacturing agreement3.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Section 3 DELIVER, PRICING, BILLING AND PAYMENT\na. Section 3(b) of the Agreement is amended so that whereas it previously read:\n“Heritage shall purchase all ingredients and packaging materials identified in Schedule C to be used in connection with the\nmanufacturer of the Products. Heritage shall invoice Premier through the [***] billing as identified on Schedule C.”",
+                "changed_text": "Section 3 DELIVER, PRICING, BILLING AND PAYMENT\na. Section 3(b) of the Agreement is amended so that whereas it previously read:\n“Heritage shall purchase all ingredients and packaging materials identified in Schedule C to be used in connection with the\nmanufacturer of the Products. Heritage shall invoice Premier through the [***] billing as identified on Schedule C.”\nHeritage shall invoice Premier within 15 days of delivery of the Products.\"",
+                "explanation": "By adding 'Heritage shall invoice Premier within 15 days of delivery of the Products,' we are introducing a potential contradiction. Schedule C may specify a different invoicing timeframe, or not specify a timeframe at all. This creates ambiguity regarding the correct invoicing deadline, leading to potential disputes.",
+                "location": "Section 3(b)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Section 3 DELIVER, PRICING, BILLING AND PAYMENT\nb. Section 3(c) of the Agreement is amended so that whereas it previously read:\n“Heritage shall charge Premier [***] as set forth in Schedule C.”",
+                "changed_text": "Section 3 DELIVER, PRICING, BILLING AND PAYMENT\nb. Section 3(c) of the Agreement is amended so that whereas it previously read:\n“Heritage shall charge Premier [***] as set forth in Schedule C.”\nNotwithstanding the foregoing, Premier shall have 60 days from the date of invoice to remit payment.",
+                "explanation": "By adding 'Notwithstanding the foregoing, Premier shall have 60 days from the date of invoice to remit payment,' we are directly contradicting the payment terms potentially defined in Schedule C. Schedule C might specify a different payment deadline (e.g., 30 days, 45 days) or define penalties for late payment based on a shorter timeframe. This creates a clear conflict regarding the allowed payment period.",
+                "location": "Section 3(c)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "EXCERPT BEFORE CHANGE",
+                "changed_text": "Section 3 DELIVER, PRICING, BILLING AND PAYMENT\nPremier agrees to pay all invoices within 30 days of receipt. Late payments will incur a penalty of 10% per month. \nHowever, invoices related to Schedule A-1 Products, payment will be within 60 days of receipt, and late payments will only incur a penalty of 2% per month",
+                "explanation": "This introduces conflicting payment terms based on the product. For products from Schedule A, payment is due in 30 days with a 10% penalty, whereas products from Schedule A-1 have 60 days for payment with a 2% penalty. This will cause confusion.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

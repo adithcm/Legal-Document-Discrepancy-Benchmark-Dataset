@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "leadersonlineinc_20000427_s-1a_ex-10.8_4991089_ex-10.8_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "LeadersOnline shall limit contact with a Candidate to either one phone contact or one e-mail contact per calendar quarter, unless expressly agreed to by the Candidate.  LeadersOnline shall immediately cease all contact upon the request of the Candidate.",
+                "changed_text": "LeadersOnline may contact a Candidate multiple times per week, and is not required to cease contact upon request, as the Candidate's information was made publicly available by posting to VerticalNet's Career Centers.",
+                "explanation": "This change contradicts privacy regulations, as it removes restrictions on contacting candidates and disregards their request to cease communication. This violates California Consumer Privacy Act (CCPA) if the candidate is a California resident and has requested their data not be used.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "location": "5.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the amount owed by LeadersOnline to VerticalNet was underpaid, the additional amount owed shall be paid to VerticalNet within 15 days of notice of such underpayment to LeadersOnline.  If the amount owed by LeadersOnline to VerticalNet was underpaid in excess of 10% of the amount owed, the fees of such audit shall also be paid to VerticalNet within 15 days of notice of such to LeadersOnline.  If the amount owed by LeadersOnline to",
+                "changed_text": "If the amount owed by LeadersOnline to VerticalNet was underpaid, the additional amount owed shall be paid to VerticalNet within 5 days of notice of such underpayment to LeadersOnline. If the amount owed by LeadersOnline to VerticalNet was underpaid in excess of 10% of the amount owed, the fees of such audit shall also be paid to VerticalNet within 5 days of notice of such to LeadersOnline. If the amount owed by LeadersOnline to",
+                "explanation": "This change reduces the payment period from 15 days to 5 days, which may violate standard business practices and potentially state laws regarding reasonable payment periods, especially for larger invoices or complex reconciliations. California law often implies a reasonable time for payment, which could be longer than 5 days in commercial contexts.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing; potential violation of state prompt payment laws (e.g., California)",
+                "location": "6.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The confidentiality obligations contained in this Article 9 shall survive termination of this Agreement for a period of three (3) years.",
+                "changed_text": "The confidentiality obligations contained in this Article 9 shall automatically terminate upon the termination of this Agreement.",
+                "explanation": "This change eliminates the post-termination confidentiality period, which could allow for the disclosure of trade secrets and other confidential information immediately after the agreement ends. This could violate trade secret laws depending on the nature of the confidential information and the applicable state law (e.g., Uniform Trade Secrets Act).",
+                "contradicted_law": "Uniform Trade Secrets Act (or similar state trade secret laws)",
+                "location": "9.3"
+            }
+        ]
+    }
+]

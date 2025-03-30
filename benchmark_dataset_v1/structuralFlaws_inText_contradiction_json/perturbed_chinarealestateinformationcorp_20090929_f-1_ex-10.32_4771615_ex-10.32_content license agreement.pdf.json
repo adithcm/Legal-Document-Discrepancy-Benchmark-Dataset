@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "chinarealestateinformationcorp_20090929_f-1_ex-10.32_4771615_ex-10.32_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, a non-exclusive, transferable license to use the Licensed Domain Names in connection with the Business during the Term.",
+                "explanation": "The original text grants an 'exclusive' license, while the modified version grants a 'non-exclusive, transferable' license, directly contradicting the exclusivity clause. This creates uncertainty about the Licensee's rights concerning other potential licensees and their ability to transfer the license.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensee shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including without limitation Content posted by end users. Licensor shall also have the right to monitor and censor Content of the websites associated with Licensed Domain Names.",
+                "changed_text": "Licensee shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including without limitation Content posted by end users. Licensor may, at its discretion, choose to monitor and censor Content of the websites associated with Licensed Domain Names, but carries no liability for failure to do so.",
+                "explanation": "The original text states that both the Licensee and Licensor 'shall' have the right to monitor and censor content. The changed version introduces a discretionary element for the Licensor ('may, at its discretion') and removes their liability for not doing so. This creates uncertainty about the Licensor's responsibility and could lead to disputes over content monitoring.",
+                "location": "Section 3.3(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement and any rights or authority granted hereunder shall not be assigned or transferred by either Party, including by operation of law, merger or otherwise, without the express written consent of the other Party, provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.",
+                "changed_text": "This Agreement and any rights or authority granted hereunder shall be freely assigned or transferred by either Party, including by operation of law, merger or otherwise, without the need for consent from the other Party.",
+                "explanation": "The original text explicitly restricts assignment or transfer without written consent, but the modified version allows free assignment without consent, contradicting the initial restriction and potentially leading to unforeseen consequences and disputes regarding the agreement's control.",
+                "location": "Section 10.7"
+            }
+        ]
+    }
+]

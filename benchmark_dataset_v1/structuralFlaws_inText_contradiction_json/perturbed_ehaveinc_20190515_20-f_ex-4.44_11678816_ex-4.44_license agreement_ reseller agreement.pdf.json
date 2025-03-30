@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ehaveinc_20190515_20-f_ex-4.44_11678816_ex-4.44_license agreement_ reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue in perpetuity (the “Term”), unless terminated earlier in accordance with the provisions contained herein.",
+                "changed_text": "This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue for a period of five (5) years (the “Term”), unless terminated earlier in accordance with the provisions contained herein.",
+                "explanation": "The original text states the term of the agreement is 'in perpetuity' contradicting the 'unless terminated earlier' clause.  Changing the term to a fixed five-year period introduces a contradiction with other clauses that assume a potentially longer or indefinite relationship, such as those dealing with long-term support, data usage rights, and future developments, and will also add to the 'unless terminated earlier' clause.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "CHT acknowledges and agrees that, as between CHT and Ehave, Ehave owns all worldwide right, title and interest, including all Intellectual Property Rights, in and to the Ehave Companion Solution, including any developments, enhancements or customizations made as a result of Section 3 and any modifications, enhancements, upgrades, updates or Customization subsequent to the development and implementation in accordance with Section 3, excluding, however, any CHT Developments. CHT does not acquire any rights, title or ownership interests of any kind whatsoever, express or implied, in any of the foregoing other than the licenses granted herein.",
+                "changed_text": "CHT acknowledges and agrees that, as between CHT and Ehave, Ehave owns all worldwide right, title and interest, including all Intellectual Property Rights, in and to the Ehave Companion Solution, including any developments, enhancements or customizations made as a result of Section 3 and any modifications, enhancements, upgrades, updates or Customization subsequent to the development and implementation in accordance with Section 3, excluding, however, any CHT Developments. CHT also owns some rights, title or ownership interests of any kind whatsoever, express or implied, in any of the foregoing other than the licenses granted herein.",
+                "explanation": "The original text clearly states that Ehave owns all IP related to the Ehave Companion Solution, and that CHT does not acquire any ownership rights except for the explicit licenses. The modified version adds 'CHT also owns some rights', which directly contradicts the previous statement by implying CHT has some level of ownership, creating uncertainty about the IP ownership and control.",
+                "location": "Section 11(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In the event that the force majeure event lasts for fifteen (15) Business Days or longer, either Party shall have the option to terminate this Agreement upon written notice to the other without liability.",
+                "changed_text": "In the event that the force majeure event lasts for fifteen (15) Business Days or longer, either Party shall have the option to terminate this Agreement upon written notice to the other with 50% liability for damages to both parties. ",
+                "explanation": "The original text states there is no liability upon termination due to force majeure. This change directly contradicts that by stating that there is now 50% liability of damages to both parties, making the enforcement of the termination clause uncertain and open to interpretation.",
+                "location": "Section 18"
+            }
+        ]
+    }
+]

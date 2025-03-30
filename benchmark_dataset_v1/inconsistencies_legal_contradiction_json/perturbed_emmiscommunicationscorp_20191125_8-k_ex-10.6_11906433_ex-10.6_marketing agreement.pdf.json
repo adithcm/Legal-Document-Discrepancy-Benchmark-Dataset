@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "emmiscommunicationscorp_20191125_8-k_ex-10.6_11906433_ex-10.6_marketing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding the foregoing, any Event of Default will not be deemed to have occurred until fifteen (15) days after the non-defaulting party has provided the defaulting party with written notice specifying the Event of Default and such Event of Default remains uncured.",
+                "changed_text": "Notwithstanding the foregoing, any Event of Default will not be deemed to have occurred until five (5) days after the non-defaulting party has provided the defaulting party with written notice specifying the Event of Default and such Event of Default remains uncured.",
+                "explanation": "The original text provides a 15-day cure period for an Event of Default. Reducing this to 5 days may be considered unreasonable in some jurisdictions, potentially conflicting with principles of good faith and fair dealing. Depending on the nature of the default, a 5-day cure period might be insufficient, making the clause potentially unenforceable or leading to litigation.",
+                "contradicted_law": "Principles of Good Faith and Fair Dealing; Contract Law related to reasonable cure periods",
+                "location": "Section 11.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any notice pursuant to this Agreement shall be in writing and shall be deemed delivered on the date of personal delivery or confirmed delivery by a nationally-recognized overnight courier service, or on the third day after prepaid mailing by certified U.S. mail, return receipt requested, and shall be addressed as follows (or to such other address as any party may request by written notice):",
+                "changed_text": "Any notice pursuant to this Agreement shall be in writing and shall be deemed delivered only when actually received by the addressee, regardless of the method of delivery. The addresses for notices are as follows (or to such other address as any party may request by verbal notice):",
+                "explanation": "The original clause specifies methods of delivery and deemed delivery times that are standard and legally defensible. Changing 'verbal notice' does not provide a paper trail as the original agreement required. Requiring actual receipt eliminates the certainty provided by deemed delivery rules, which can create disputes about when notice was effectively given. This contradicts common legal practices for contract enforcement, which often rely on proof of mailing or dispatch rather than proof of receipt. Further, this contradicts legal principles surrounding written contracts. \n",
+                "contradicted_law": "Contract Law regarding Notice; Statute of Frauds (depending on the nature of the agreement)",
+                "location": "Section 18"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Programmer may not assign this Agreement without the prior written consent of Licensee, which shall not be unreasonably withheld, conditioned, or delayed. No transfer or assignment shall relieve Programmer of any obligation or liability under this Agreement.",
+                "changed_text": "Programmer may assign this Agreement to any entity it chooses, with no need to obtain the Licensee's consent. Any transfer or assignment shall immediately relieve Programmer of all obligations and liabilities under this Agreement, which will then be solely the responsibility of the assignee.",
+                "explanation": "The original clause restricts assignment and maintains the assignor's liability. Removing the consent requirement and releasing the assignor from all liability contradicts fundamental principles of contract law regarding assignment. It gives the Programmer the ability to assign responsibilities to an incapable third party and be free of the agreement. The Licensee would have no control or say in the process.",
+                "contradicted_law": "Contract Law regarding Assignment and Delegation of Duties",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

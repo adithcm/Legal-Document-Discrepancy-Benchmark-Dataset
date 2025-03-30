@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ehaveinc_20190515_20-f_ex-4.44_11678816_ex-4.44_license agreement_ reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "7.\nROYALTIES AND PAYMENT\n(a)\nRoyalties\nThe Royalties and payment terms are as set out in Schedule “6”. The Royalties do not include applicable taxes. CHT agrees to pay the\nRoyalties and applicable taxes in accordance with the payment terms as set out in Schedule “6”.",
+                "changed_text": "7.\nROYALTIES AND PAYMENT\n(a)\nRoyalties\nThe Royalties and payment terms are as set out in Schedule “6”. The Royalties do not include applicable taxes. CHT agrees to pay the\nRoyalties and applicable taxes in accordance with the payment terms as set out in Schedule “6”. Notwithstanding the payment terms in Schedule 6, CHT shall have 60 days from the date of invoice to remit payment.",
+                "explanation": "This change introduces an in-text contradiction by stating that CHT agrees to pay royalties according to Schedule 6, but then immediately introduces a new payment term of 60 days, creating uncertainty in enforcement. Schedule 6 may specify other payment deadlines.",
+                "location": "Section 7(a)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(c)\nInterest on Late Payments:\nWhere CHT fails to pay any amount in accordance with the payment terms set out in Schedule “6”, Ehave shall have the right, in addition\nto any other rights or remedies available to it, to charge, and CHT shall pay, interest on such overdue amounts at the rate of 1% per month\ncalculated daily, compounded monthly (12.68% per annum) both before and after any court judgement in respect of the same from the date\nsuch payment was due.",
+                "changed_text": "(c)\nInterest on Late Payments:\nWhere CHT fails to pay any amount in accordance with the payment terms set out in Schedule “6”, Ehave shall have the right, in addition\nto any other rights or remedies available to it, to charge, and CHT shall pay, interest on such overdue amounts at the rate of 1% per month\ncalculated daily, compounded monthly (12.68% per annum) both before and after any court judgement in respect of the same from the date\nsuch payment was due. However, no interest shall be charged if the delay is due to unforeseen technical circumstances on CHT's side.",
+                "explanation": "This modification creates an in-text contradiction regarding interest on late payments. Initially, interest is charged for any late payments based on Schedule 6. However, the added sentence states that no interest will be charged if the delay results from unforeseen technical circumstances, causing ambiguity about when interest applies. The definition of 'unforeseen technical circumstances' is undefined.",
+                "location": "Section 7(c)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "9.\nTERM\nThis term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall\ncontinue in perpetuity (the “Term”), unless terminated earlier in accordance with the provisions contained herein.",
+                "changed_text": "9.\nTERM\nThis term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall\ncontinue for a period of five (5) years (the “Term”), unless terminated earlier in accordance with the provisions contained herein. After the initial five year term, this agreement shall automatically renew for successive one year periods.",
+                "explanation": "This perturbation creates an in-text contradiction by changing the term of the agreement. Originally, it's a perpetual agreement. Now, it's defined as an initial five year term with automatic one-year renewals. This contradicts any sections that rely on the agreement being perpetual.",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

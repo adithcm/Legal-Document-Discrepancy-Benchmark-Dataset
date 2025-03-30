@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "webmdhealthcorp_20050908_s-1a_ex-10.7_1027007_ex-10.7_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(a) Payments. In consideration for provision of the Content and all rights granted hereunder, Emdeon hereby agreed to pay WebMD the amounts set forth on Exhibit B of this Agreement. All amounts payable shall be due be due thirty (30) days after the receipt of WebMD’s invoice.",
+                "changed_text": "(a) Payments. In consideration for provision of the Content and all rights granted hereunder, Emdeon hereby agreed to pay WebMD the amounts set forth on Exhibit B of this Agreement. All amounts payable shall be due be due sixty (60) days after the receipt of WebMD’s invoice.",
+                "explanation": "The original text states that payments are due 30 days after the invoice. This change modifies the payment term to 60 days after the invoice, creating a contradiction with the late payment interest calculation in section 4(c) which is based on the original 30-day period. This introduces uncertainty about when late fees should apply.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(c) Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.",
+                "changed_text": "(c) Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month starting 30 days after invoice date, or (ii) the maximum legal rate. However, no late payment interest will be charged if the delay is due to internal processing delays at Emdeon.",
+                "explanation": "The first sentence specifies the late payment interest. The second sentence introduces a conditional exception ('internal processing delays'), creating ambiguity about whether and when late fees apply, and contradicts the fixed 30-day window.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(a) Notices. All material notices and other communications required or permitted under this Agreement shall be in writing and notices will be deemed given three (3) days after they are sent by first class mail, return receipt requested, and one (1) day after they are sent by overnight courier or upon receipt if delivered by hand delivery, to the receiving party’s address as set forth in the first paragraph above, or to such other address that the receiving party may have provided in writing to the other party for purposes of receiving notices as provided in this Section.",
+                "changed_text": "(a) Notices. All material notices and other communications required or permitted under this Agreement shall be in writing and notices will be deemed given five (5) business days after they are sent by first class mail, return receipt requested, and two (2) business days after they are sent by overnight courier or upon confirmation of receipt via electronic mail if delivered by hand delivery, to the receiving party’s address as set forth in the first paragraph above, or to such other address that the receiving party may have provided in writing to the other party for purposes of receiving notices as provided in this Section.",
+                "explanation": "This perturbation modifies the timeframe for deeming notices as 'given'. First class mail is now 'five business days' instead of 'three days', overnight courier is 'two business days' instead of 'one day', and hand delivery requires 'confirmation of receipt via electronic mail' which adds a new condition. This creates potential disputes about when a notice is considered officially received, impacting deadlines and obligations tied to notice periods.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

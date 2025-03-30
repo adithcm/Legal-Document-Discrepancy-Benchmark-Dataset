@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "simplicityesportsgamingcompany_20181130_8-k_ex-10.1_11444071_ex-10.1_franchise agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "8.2 Termination by Franchisor with Notice. Franchisor may terminate this Agreement upon thirty (30) days written notice to Franchisee upon the occurrence of any of the following:\n(a) Franchisee fails to make any payment required under or in connection with this Agreement;",
+                "changed_text": "8.2 Termination by Franchisor with Notice. Franchisor may terminate this Agreement upon thirty (30) days written notice to Franchisee upon the occurrence of any of the following:\n(a) Franchisee fails to make any payment required under or in connection with this Agreement; however, Franchisor must provide a 60-day cure period for any payment defaults before termination is effective.",
+                "explanation": "This change introduces a conflict because section 8.2 states Franchisor can terminate with 30 days notice if Franchisee fails to make payment, but the added clause states that Franchisor must provide a 60-day cure period, effectively contradicting the original 30 day notice for non-payment and creating uncertainty as to how long the franchisee has to remedy the situation before termination.",
+                "location": "Section 8.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.11 Assignment. The Franchisor shall be entitled to assign, transfer, encumber or dispose of any of its rights and or obligations under this Agreement, including to an affiliate, without the prior written consent of the Franchisee. The Franchisee shall not be entitled to assign, transfer, encumber or dispose of any of its rights and or obligations under this Agreement, including to an affiliate, without the prior written consent of the Franchisor.",
+                "changed_text": "10.11 Assignment. The Franchisor shall be entitled to assign, transfer, encumber or dispose of any of its rights and or obligations under this Agreement, including to an affiliate, without the prior written consent of the Franchisee. The Franchisee shall be entitled to assign, transfer, encumber or dispose of any of its rights and or obligations under this Agreement, including to an affiliate, without the prior written consent of the Franchisor for assignments valued over $1,000,000 USD. Assignments valued under $1,000,000 USD do not require consent.",
+                "explanation": "This change introduces a contradiction. The original clause states that the Franchisee requires consent for *any* assignment, transfer, etc. The added clause states that Franchisee does *not* need consent for assignments under $1,000,000, directly conflicting with the initial condition requiring consent. This creates ambiguity about what assignments require consent and introduces legal uncertainty.",
+                "location": "Section 10.11"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.7 Force Majeure. The parties will not be liable to each other for any failure or delay in performance, other than failure to make timely payments due under this Agreement, if it is because of earthquake, flood, fire, acts of God, civil unrest, terrorism, acts of any governmental authority or any other reason beyond the reasonable control of either or both of the parties (“Force Majeure”). However, either party may terminate this Agreement by and upon notice to the other if the other is unable to perform any of its material obligations for a period of thirty (30) days by reason of a Force Majeure.",
+                "changed_text": "10.7 Force Majeure. The parties will not be liable to each other for any failure or delay in performance, other than failure to make timely payments due under this Agreement, if it is because of earthquake, flood, fire, acts of God, civil unrest, terrorism, acts of any governmental authority or any other reason beyond the reasonable control of either or both of the parties (“Force Majeure”). However, either party may terminate this Agreement by and upon notice to the other if the other is unable to perform any of its material obligations for a period of thirty (30) days by reason of a Force Majeure. *Notwithstanding the foregoing, in the event of a Force Majeure event lasting longer than 60 days, the agreement shall automatically terminate without any notice required*.",
+                "explanation": "The original section states that either party *may* terminate the agreement after 30 days of Force Majeure. The added section states that the agreement *shall automatically terminate* after 60 days of Force Majeure, *without any notice required*. The 'may' vs 'shall' and the automatic nature of the latter clause conflict with the initial condition requiring notice after 30 days. This creates ambiguity regarding whether termination is optional or mandatory, and also creates uncertainty as to whether notice is even required after 60 days.",
+                "location": "Section 10.7"
+            }
+        ]
+    }
+]

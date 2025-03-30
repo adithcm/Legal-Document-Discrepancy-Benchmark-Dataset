@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "acceleratedtechnologiesholdingcorp_04_24_2003-ex-10.13-joint venture agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Joint Venturers declare that in entering into this\n     Agreement, they have contracted with reference to the laws of the\n     Commonwealth of Pennsylvania, and the construction and interpretation of\n     the terms and provisions of this Agreement shall be interpreted and\n     construed under the laws of the Commonwealth of Pennsylvania, except in\n     such cases and to such extent as the laws of another jurisdiction shall\n     necessarily control.",
+                "changed_text": "The Joint Venturers declare that in entering into this\n     Agreement, they have contracted with reference to the laws of the\n     Commonwealth of Pennsylvania; however, the construction and interpretation of\n     the terms and provisions of this Agreement shall be interpreted and\n     construed under the laws of another jurisdiction if both parties agree in writing, except in\n     such cases and to such extent as the laws of another jurisdiction shall\n     necessarily control.",
+                "explanation": "By adding 'however, the construction and interpretation of the terms and provisions of this Agreement shall be interpreted and construed under the laws of another jurisdiction if both parties agree in writing,' a loophole is created. While the contract initially specifies Pennsylvania law, this addition allows for a potentially unenforceable agreement to change the governing law later, creating ambiguity and reducing enforceability under Pennsylvania contract law. The second part of the sentence is retained to cause more confusion to the reader.",
+                "contradicted_law": "Pennsylvania contract law regarding choice of law and enforceability.",
+                "location": "Section 14"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Joint Venturers agree and declare that\n     this association for the carrying on of a joint venture business operation\n     does not, and is not intended to create a partnership, for either legal or\n     United States income tax purposes, each Party recognizing that the other is\n     willing and able to contribute capital, labor, and services for the\n     operation of a successful joint venture business.",
+                "changed_text": "The Joint Venturers agree and declare that\n     this association for the carrying on of a joint venture business operation\n     does not, and is not intended to create a partnership, for either legal or\n     United States income tax purposes; however, should a court determine a partnership exists, the parties agree to equally share all liabilities.\n     each Party recognizing that the other is\n     willing and able to contribute capital, labor, and services for the\n     operation of a successful joint venture business.",
+                "explanation": "The original clause explicitly states the intent to *not* create a partnership. The added phrase creates a direct contradiction by anticipating and addressing the *possibility* of a partnership, which will cause ambiguity in the agreement.",
+                "contradicted_law": "Partnership law under Pennsylvania and US tax code.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "It is agreed that either Joint Venturer shall, except as provided for\n     below, have authority to execute instruments of any character relating to\n     the affairs of the Joint Venture; provided, that without the written\n     consent or approval of both of the Joint Venturers: (i) the Joint Venture\n     shall incur no liability of any sort, nor any indebtedness for borrowed\n     funds; (ii) no assets owned in the name of the Joint Venture be disposed\n     of; and (iii) no commitment to purchase any item for the Joint Venture\n     shall be made.",
+                "changed_text": "It is agreed that either Joint Venturer shall, except as provided for\n     below, have authority to execute instruments of any character relating to\n     the affairs of the Joint Venture; provided, that either venturer may incur liabilities up to $10,000 without consent.\n     provided, that without the written\n     consent or approval of both of the Joint Venturers: (i) the Joint Venture\n     shall incur no liability of any sort, nor any indebtedness for borrowed\n     funds; (ii) no assets owned in the name of the Joint Venture be disposed\n     of; and (iii) no commitment to purchase any item for the Joint Venture\n     shall be made.",
+                "explanation": "The original text prohibits incurring any liability without both venturers' consent. The injected phrase directly contradicts this by permitting liabilities up to $10,000 without consent. This creates a legal contradiction concerning the financial liabilities the joint venture can undertake, making it ambiguous and difficult to enforce.",
+                "contradicted_law": "Contract law regarding authority and liability in joint ventures under Pennsylvania law.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

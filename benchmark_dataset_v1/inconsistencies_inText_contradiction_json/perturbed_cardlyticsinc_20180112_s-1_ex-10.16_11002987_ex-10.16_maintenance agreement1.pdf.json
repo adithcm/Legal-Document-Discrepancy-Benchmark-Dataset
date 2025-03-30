@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "16.4\nBank of America shall pay Supplier for all services and applicable taxes invoiced In arrears in accordance with the terms of this Agreement,\nwithin sixty (60) calendar days of the date of receipt of a valid and correct invoice by Bank of America. Bank of America reserves the right to\npay prior to the expiration of the sixty (60) day period. If Bank of America pays within thirty (30) calendar days of receipt of a valid invoice\nby Bank of America, a discount of two percent (2%) will be subtracted from the total invoice amount for Services.",
+                "changed_text": "16.4\nBank of America shall pay Supplier for all services and applicable taxes invoiced In arrears in accordance with the terms of this Agreement,\nwithin sixty (60) calendar days of the date of receipt of a valid and correct invoice by Bank of America. Bank of America reserves the right to\npay prior to the expiration of the sixty (60) day period. All invoices must be paid within 30 days. If Bank of America pays within thirty (60) calendar days of receipt of a valid invoice\nby Bank of America, a discount of two percent (2%) will be subtracted from the total invoice amount for Services.",
+                "explanation": "This change introduces a contradiction by stating invoices must be paid within 30 days, while the original clause allows up to 60 days. This creates uncertainty regarding the actual payment deadline.",
+                "location": "Section 16.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5.1\nBank of America may terminate this Agreement, an Order and/or any Customization Schedule(s) for its convenience, without cause, at any\ntime without further charge or expense upon at least forty-five (45) calendar days prior written notice to Supplier. Termination of one Order\nshall not cause a termination of this Agreement or any other Order, unless otherwise specified by Bank of America.",
+                "changed_text": "5.1\nBank of America may terminate this Agreement, an Order and/or any Customization Schedule(s) for its convenience, without cause, at any\ntime without further charge or expense upon at least forty-five (45) calendar days prior written notice to Supplier. Termination of one Order\nshall cause a termination of this Agreement and any other Order, unless otherwise specified by Bank of America.",
+                "explanation": "This change introduces a contradiction about the termination consequences of one order on the rest of the agreement. The original clause specifies that termination of one order does not terminate the rest of the agreement. The perturbed sentence indicates the contrary. This creates uncertainty regarding the enforcement of termination fees.",
+                "location": "Section 5.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "12.3\nSupplier shall continue to provide Maintenance Services on the terms and conditions of this Agreement for the version of Software Bank of\nAmerica has installed for at least twenty-four (24) months after Supplier makes an Upgrade generally available to its customers.",
+                "changed_text": "12.3\nSupplier shall continue to provide Maintenance Services on the terms and conditions of this Agreement for the version of Software Bank of\nAmerica has installed for at least twelve (12) months after Supplier makes an Upgrade generally available to its customers.",
+                "explanation": "This change introduces a contradiction by changing the Maintenance Services for the version of Software from twenty-four months to twelve months, which creates uncertainty on the duration of the maintenance period.",
+                "location": "Section 12.0"
+            }
+        ]
+    }
+]

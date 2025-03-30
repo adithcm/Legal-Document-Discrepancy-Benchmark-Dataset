@@ -1,27 +1,27 @@
 [
     {
-        "file_name": "fusemedicalinc_20190321_10-k_ex-10.43_11575454_ex-10.43_distributor agreement.pdf",
+        "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_Distributor Agreement.pdf",
         "perturbation": [
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the\nTerritory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of\nthis agreement.",
-                "changed_text": "The Vendor wishes to appoint the Sales Representative as its non-exclusive distributor for the promotion and sale of the Products within the\nTerritory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of\nthis agreement.",
-                "explanation": "Changing 'Supplier' to 'Vendor' and 'Distributor' to 'Sales Representative' in the background clause introduces confusion about the roles and responsibilities defined later in the agreement, where only 'Supplier' and 'Distributor' are used. This creates an internal contradiction regarding the parties involved.",
+                "original_text": "The Supplier wishes to appoint the Distributor as its non-exclusive distributor for the promotion and sale of the Products within the Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of this agreement.",
+                "changed_text": "The Supplier wishes to appoint the Vendor as its non-exclusive vendor for the promotion and sale of the Products within the Territory (both as defined below), and the Distributor wishes to promote and sell the Products within the Territory on the terms of this agreement.",
+                "explanation": "Replaced 'Distributor' with 'Vendor' in the first clause of the Background section. This introduces uncertainty regarding whether the 'Distributor' and 'Vendor' are the same entity throughout the agreement, potentially creating confusion about roles and responsibilities. The terms are used interchangeably without being precisely defined.",
                 "location": "Background"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "The Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory\non the terms of this agreement.",
-                "changed_text": "The Supplier appoints the Vendor as its non-exclusive distributor to distribute the Products in the Territory\non the terms of this agreement.",
-                "explanation": "Using 'Vendor' in place of 'Distributor' creates ambiguity. The contract later refers exclusively to the 'Distributor' when outlining responsibilities and rights. This implies the obligations may not apply to the 'Vendor'.",
-                "location": "2.1"
+                "original_text": "4.\nSupply of products\n4.1\nThe parties acknowledge that:\n(a)\nthe Supplier is the manufacturer of the Products; and\n(b)\nthe Supplier will have no obligation to separately supply the Products, except as otherwise\nprovided for in this Agreement.",
+                "changed_text": "4.\nSupply of products\n4.1\nThe parties acknowledge that:\n(a)\nthe Manufacturer is the manufacturer of the Products; and\n(b)\nthe Supplier will have no obligation to separately supply the Products, except as otherwise\nprovided for in this Agreement.",
+                "explanation": "Changed 'Supplier' to 'Manufacturer' in section 4.1(a) while maintaining 'Supplier' in 4.1(b). This creates a contradiction by implying the 'Manufacturer' and 'Supplier' may be distinct entities, despite the agreement initially defining 'Supplier' as such. This causes conflict when the agreement refers to the obligation of 'Supplier'.",
+                "location": "4.1"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "The Supplier shall add the distributor to their current insurance certificate.",
-                "changed_text": "The Supplier shall add the reseller to their current insurance certificate.",
-                "explanation": "Changing 'distributor' to 'reseller' can create uncertainty about who is covered under the insurance policy. If 'reseller' is not explicitly defined or used elsewhere in the contract, it is unclear if the intended beneficiary of the insurance coverage is the Distributor as defined in the agreement, or another entity.",
-                "location": "10.1"
+                "original_text": "SIGNED by\nSignature Orthopaedics Pty Ltd\n(ACN 106 702 416)\nIn accordance with section 127 of the\nCorporations Act:\n)\n)\n)\n)\n)\nDirector/Secretary\nName (please print)\nDirector\nName (please print)",
+                "changed_text": "SIGNED by\nSignature Orthopaedics Pty Ltd\n(ACN 106 702 416)\nIn accordance with section 127 of the\nCorporations Act:\n)\n)\n)\n)\n)\nCEO/Secretary\nName (please print)\nExecutive Director\nName (please print)",
+                "explanation": "Replaced 'Director' with 'CEO' and 'Executive Director' for the signature block. While seemingly minor, this change causes conflict if the company's bylaws or articles of association specifically require directors to sign the agreement. It is unclear who is designated to sign the document which causes enforcement problems.",
+                "location": "Signature Block"
             }
         ]
     }

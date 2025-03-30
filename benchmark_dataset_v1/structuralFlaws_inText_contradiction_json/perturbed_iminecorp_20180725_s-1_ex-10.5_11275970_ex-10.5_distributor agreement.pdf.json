@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "iminecorp_20180725_s-1_ex-10.5_11275970_ex-10.5_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.1 “Confidential Information” of a party shall mean any information disclosed by that party to the other party pursuant to\nthis Agreement which is in written, graphic, machine readable or other tangible form. Confidential Information may also include\noral information disclosed by one party to the other pursuant to this Agreement.",
+                "changed_text": "1.1 “Confidential Information” of a party shall mean any information disclosed by that party to the other party pursuant to\nthis Agreement which is in written, graphic, machine readable or other tangible form. Confidential Information shall not include\noral information disclosed by one party to the other pursuant to this Agreement.",
+                "explanation": "Section 1.1 originally stated that Confidential Information may include oral information. The modification explicitly excludes oral information from the definition of Confidential Information, creating a contradiction within the definition itself. This could lead to disputes over whether oral communications are protected under the confidentiality clauses of the agreement.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "12.2 Termination for Convenience. This Agreement may be terminated by either party for any reason or no reason, whether\nor not extended beyond the initial term, by giving the other party written notice ninety (90) days in advance.\n\n12.3 Termination for Cause. Except as set forth in the last sentence of this Section 12.3, if either party defaults in the\nperformance of any material provision of this Agreement, then the non-defaulting party may give written notice to the defaulting\nparty that if the default is not cured within thirty (30) days the Agreement will be terminated.",
+                "changed_text": "12.2 Termination for Convenience. This Agreement may be terminated by either party for any reason or no reason, whether\nor not extended beyond the initial term, by giving the other party written notice ninety (90) days in advance.\n\n12.3 Termination for Cause. Except as set forth in the last sentence of this Section 12.3, if either party defaults in the\nperformance of any material provision of this Agreement, then the non-defaulting party may give written notice to the defaulting\nparty that if the default is not cured within ninety (90) days the Agreement will be terminated.",
+                "explanation": "Section 12.3 previously stated a thirty (30) day period to cure the agreement. The change alters the period to ninety (90) days to cure the agreement. This creates a contradiction between 12.2 and 12.3 because both termination clauses can operate, and cause ambiguity in the case of a breach. One clause dictates that the agreement is terminated after ninety (90) days for convenience and 12.3 dictates after a breach and a default in that termination after the ninety (90) day cure period.",
+                "location": "Section 12.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1 JRVS Price. Subject to the terms and conditions of this Agreement, the Distributor shall pay for the Products at the then\ncurrent price of JRVS (the “JRVS Price”) at the time of placement of the Order.\n\n5.2 Price Change. JRVS shall have the right to revise JRVS Price at any time. Price changes shall apply to all purchase orders\nreceived after the effective date with the notice, except that any price increase shall be effective immediately upon notice to\nDistributor and apply to those accepted but undelivered orders.",
+                "changed_text": "5.1 JRVS Price. Subject to the terms and conditions of this Agreement, the Distributor shall pay for the Products at the then\ncurrent price of JRVS (the “JRVS Price”) at the time of shipment of the order.\n\n5.2 Price Change. JRVS shall have the right to revise JRVS Price at any time. Price changes shall apply to all purchase orders\nreceived after the effective date with the notice, except that any price increase shall not be effective immediately upon notice to\nDistributor and apply to those accepted but undelivered orders.",
+                "explanation": "Section 5.1 used to dictate that prices were set at the time the order was placed. 5.2 used to dictate that price increases were to be immediately applied to undelivered orders. I have adjusted 5.1 to say the price is set at shipment to conflict with at placement. I have also adjusted 5.2 to dictate that they should not be applied immediately which conflicts with the original text, as well as the adjusted 5.1",
+                "location": "Sections 5.1 and 5.2"
+            }
+        ]
+    }
+]

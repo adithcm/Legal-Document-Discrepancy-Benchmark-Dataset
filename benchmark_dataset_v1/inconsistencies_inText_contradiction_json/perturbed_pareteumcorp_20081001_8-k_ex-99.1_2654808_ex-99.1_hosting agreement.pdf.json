@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "pareteumcorp_20081001_8-k_ex-99.1_2654808_ex-99.1_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "9.2.4\nELEPHANT TALK shall pay all invoices no later than *** after the invoice date. ELEPHANT\nTALK ***, in the event that ELEPHANT\nTALK fails to meet ***  \n9.2.5\n***",
+                "changed_text": "9.2.4\nELEPHANT TALK shall pay all invoices no later than 30 days after the invoice date. ELEPHANT\nTALK agrees to make payments promptly, in the event that ELEPHANT\nTALK fails to meet this deadline.  \n9.2.5\nInvoices not disputed within 15 days of receipt are considered accepted.",
+                "explanation": "This change introduces a contradiction regarding invoice dispute timelines. Section 9.2.4 states invoices should be paid within 30 days, however 9.2.5 states that invoices that are not disputed within 15 days of receipt are considered accepted. Thus creates an inconsistency if there's an invoice that is wrong and discovered after the 15 day dispute timeline.",
+                "location": "Section 9.2.4 and 9.2.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "9.2.4\nELEPHANT TALK shall pay all invoices no later than *** after the invoice date. ELEPHANT\nTALK ***, in the event that ELEPHANT\nTALK fails to meet ***  ",
+                "changed_text": "9.2.4\nELEPHANT TALK shall pay all invoices no later than 60 days after the invoice date. ELEPHANT\nTALK shall not be subject to late payment penalties, in the event that ELEPHANT\nTALK fails to meet this deadline.  ",
+                "explanation": "This change introduces a conflict with section 9.2.8 regarding interest on late payments. 9.2.4 states there will be no penalties for payments not on time. This contradicts section 9.2.8 which states interest will be charged on invoices not paid within the time limit set down in article 9.2.4.",
+                "location": "Section 9.2.4 and 9.2.8"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "9.2.8\nInvoices not paid within the time limit set down in article 9.2.4 shall bear interest (“enkelvoudig”) on a daily basis at the rate of the legal\ncommercial interest rate (“wettelijke handelsrente”) plus 1 % until full payment is received by T-Mobile whether before or after judgment.\nInterest shall continue to accrue notwithstanding termination or expiry of this Agreement for any cause whatsoever.",
+                "changed_text": "9.2.8\nInvoices not paid within the time limit set down in article 9.2.4 shall bear interest (“enkelvoudig”) on a daily basis at the rate of the legal\ncommercial interest rate (“wettelijke handelsrente”) plus 1 % until full payment is received by T-Mobile whether before or after judgment. However, this interest will be waived upon renewal of the agreement.\nInterest shall continue to accrue notwithstanding termination or expiry of this Agreement for any cause whatsoever.",
+                "explanation": "This change adds a conflicting statement to section 9.2.8. While initially stating invoices not paid on time will accrue interest, it then states this interest will be waived upon renewal of the agreement. Because 17.2 states the agreement may be terminated at each period end date this would create an issue if an Elephant Talk is late on payments. This creates uncertainty if T-Mobile will be able to collect on time.",
+                "location": "Section 9.2.8 and 17.2"
+            }
+        ]
+    }
+]

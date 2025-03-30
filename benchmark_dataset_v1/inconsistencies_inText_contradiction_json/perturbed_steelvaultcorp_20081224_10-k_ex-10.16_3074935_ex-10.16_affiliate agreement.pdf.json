@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "steelvaultcorp_20081224_10-k_ex-10.16_3074935_ex-10.16_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Marketing Affiliate shall pay to Equidata, as compensation for its providing of Services under this agreement, such amounts as outlined and detailed in Exhibit A attached hereto. Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in full by Marketing Affiliate 30 days from the invoice date.",
+                "changed_text": "Marketing Affiliate shall pay to Equidata, as compensation for its providing of Services under this agreement, such amounts as outlined and detailed in Exhibit A attached hereto. Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in full by Marketing Affiliate 60 days from the invoice date.",
+                "explanation": "This change introduces a contradiction regarding the payment deadline. Section 1 states payments are due in 60 days, while the late fee clause implies a 30-day window, creating uncertainty about when late fees apply.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The Marketing Affiliate agrees to pay a late charge of 1 l/2% per month on the unpaid, past-due amount as well as a returned check fee of not less than $35.00 per returned item.",
+                "changed_text": "The Marketing Affiliate agrees to pay a late charge of 1 l/2% per month on the unpaid, past-due amount if payments are not received within 30 days of the invoice date. Late payments received between 31 and 60 days will incur a late fee of 1% per month. There will be no returned check fee, due to all payments being done digitally.",
+                "explanation": "This change introduces an in-text contradiction regarding late fees. The changed text specifies tiered late fees and eliminates returned check fees, which contradicts with the original text. This creates uncertainty about which late fee structure to enforce.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Marketing Affiliate shall give Equidata written demand of dispute within 10 days of the due date of the invoice. The demand shall set forth a statement for the nature of the dispute and the amount involved. If Equidata and Marketing Affiliate can not resolve the dispute on their own within 10 days after Equidata receive said dispute, the parties shall jointly select an arbitrator.",
+                "changed_text": "Marketing Affiliate shall give Equidata written demand of dispute within 30 days of the due date of the invoice. The demand shall set forth a statement for the nature of the dispute and the amount involved. If Equidata and Marketing Affiliate can not resolve the dispute on their own within 5 days after Equidata receive said dispute, the parties shall jointly select an arbitrator.",
+                "explanation": "This change introduces a contradiction by changing the dispute resolution timeframe. The initial written demand is now required within 30 days of the invoice due date instead of 10 days, while the timeframe for resolution has been changed from 10 to 5 days, leading to conflicting obligations regarding dispute resolution deadlines.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

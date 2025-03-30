@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "fusemedicalinc_20190321_10-k_ex-10.43_11575454_ex-10.43_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Distributor must pay the full amount invoiced to it by the Supplier in USD$’s within thirty (45) days of the date of invoice.",
+                "changed_text": "The Distributor must pay the full amount invoiced to it by the Supplier in USD$’s within ninety (30) days of the date of invoice.",
+                "explanation": "This change creates a contradiction because it alters the payment deadline. While the original contract said 45 days, the modified one is 30 days. Many jurisdictions favor prompt payment but it must be reasonable, thus this perturbation favors the supplier in an unreasonable manner, by asking for a payment of 30 days, reducing the payment period from 45 days.",
+                "contradicted_law": "Breach of Contract - potentially violates general contract law principles requiring reasonable payment terms.",
+                "location": "5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Distributor shall, within five days of a matter which may result in a Relevant Claim:\n(a)\ngive the Supplier written notice of the details of the matter;",
+                "changed_text": "The Distributor shall, within one day of a matter which may result in a Relevant Claim:\n(a)\ngive the Supplier written notice of the details of the matter;",
+                "explanation": "Reducing the notification period for potential product liability claims to one day is unreasonable and potentially violates the distributor's right to adequately investigate and prepare a defense. This creates an imbalance of power favoring the supplier and could be deemed unconscionable.",
+                "contradicted_law": "Breach of Contract - potentially violates general contract law principles by setting an unreasonably short notification period.",
+                "location": "10.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Without affecting any other rights that it may be entitled to, either party may give notice in writing to the other\nterminating this agreement immediately if:\n(a)\nthe other party fails to pay any amount due under this agreement on the due date for payment and\nremains in default not less than 14 days after being notified in writing to make such payment; or",
+                "changed_text": "Without affecting any other rights that it may be entitled to, either party may give notice in writing to the other\nterminating this agreement immediately if:\n(a)\nthe other party fails to pay any amount due under this agreement on the due date for payment and\nremains in default not less than 1 day after being notified in writing to make such payment; or",
+                "explanation": "Reducing the grace period for payment defaults to 1 day is extremely strict and potentially violates principles of fairness and good faith in contract law. Many jurisdictions require a reasonable opportunity to cure a payment default, and 1 day is likely insufficient.",
+                "contradicted_law": "Breach of Contract - potentially violates general contract law principles requiring a reasonable cure period for payment defaults.",
+                "location": "11.2"
+            }
+        ]
+    }
+]

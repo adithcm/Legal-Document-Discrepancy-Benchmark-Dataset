@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "clickstreamcorp_20200330_1-a_ex1a-6 mat ctrct_12089935_ex1a-6 mat ctrct_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall become effective as of the Effective Date and, unless otherwise terminated in accordance with the provisions of Section 4 of this Agreement, will continue until the expiration of the Warranty Period as defined in subsection 9(a) of this Agreement.",
+                "changed_text": "This Agreement shall become effective as of the Effective Date and will continue indefinitely, unless terminated in accordance with the provisions of Section 4 of this Agreement or by mutual written consent of both parties. The term will automatically renew every year, unless either party gives written notice of termination at least 30 days before the renewal date. The expiration of the Warranty Period as defined in subsection 9(a) of this Agreement does not affect the overall term of this agreement.",
+                "explanation": "The original text ties the agreement's term to the warranty period, implying a fixed duration. The modified version contradicts this by stating the agreement continues indefinitely unless terminated, introduces an auto-renewal clause, and makes the warranty period irrelevant to the overall term. This creates uncertainty about the contract's actual duration, as it's unclear whether it ends with the warranty or continues perpetually.",
+                "location": "3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Client agrees to pay to the Developer for the development of the project as listed above, the amount of the other $300,000. - according to the following schedule:\n●\n$30,000. - down payment.\n●\n$30,000.- mid payment (Week 2).\n●\n$30,000.- mid payment (Week 6).\n●\n$30,000.- mid payment (Week 9).\n●\n$30,000.- mid payment Week 12).\n●\n$30,000.- mid payment (Week 16).\n●\n$30,000.- mid payment (Week 20).\n●\n$90,000.- following Client acceptance of the Application, and when RC1 version is delivered and uploaded to stores.",
+                "changed_text": "The Client agrees to pay to the Developer for the development of the project as listed above, the amount of the other $300,000. Payment amounts and schedule may be modified at the Client's discretion, without requiring consent from the Developer. The initial payment schedule is as follows:\n●\n$30,000. - down payment.\n●\n$30,000.- mid payment (Week 2).\n●\n$30,000.- mid payment (Week 6).\n●\n$30,000.- mid payment (Week 9).\n●\n$30,000.- mid payment Week 12).\n●\n$30,000.- mid payment (Week 16).\n●\n$30,000.- mid payment (Week 20).\n●\n$90,000.- following Client acceptance of the Application, and when RC1 version is delivered and uploaded to stores. However, the Client reserves the right to adjust these payments based on project progress and financial considerations.",
+                "explanation": "The original text lays out a fixed payment schedule. The modification introduces a contradiction by stating the payment schedule can be altered unilaterally by the Client, despite providing a specific schedule. This creates significant uncertainty for the Developer regarding when and how much they will be paid. It goes from set payment terms to \"We will pay you what we can when we can.\"",
+                "location": "G"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Developer shall execute and deliver to the Client any instruments of transfer and take such other action that the Client may reasonably request, including, without limitation, executing and filing, at the Client’s expense, copyright applications, assignments, and other documents required for the protection of the Client’s rights to such materials.",
+                "changed_text": "The Developer shall execute and deliver to the Client any instruments of transfer and take such other action that the Client may reasonably request, including, without limitation, executing and filing, at the Client’s expense unless the Client determines such expense to be unreasonable, copyright applications, assignments, and other documents required for the protection of the Client’s rights to such materials. The Client's decision on whether an expense is reasonable will be final and not subject to dispute.",
+                "explanation": "The original clause clearly states that the Client will bear the expenses related to securing intellectual property rights. The modified text introduces uncertainty by granting the Client the power to deem these expenses unreasonable and thus avoid paying them. This contradicts the initial commitment and creates potential conflict over financial responsibility for intellectual property protection.",
+                "location": "11(b)"
+            }
+        ]
+    }
+]

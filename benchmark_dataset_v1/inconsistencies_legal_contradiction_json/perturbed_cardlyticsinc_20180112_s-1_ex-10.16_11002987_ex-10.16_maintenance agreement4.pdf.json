@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement4.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The period commencing on the\nInstallation Date and continuing for the\nnumber of days specified:\n\n120 days",
+                "changed_text": "The period commencing on the\nInstallation Date and continuing for the\nnumber of days specified:\n\n30 days",
+                "explanation": "Reducing the acceptance period from 120 days to 30 days may conflict with implied warranty laws or reasonable acceptance periods required in some jurisdictions, particularly for complex software installations. A shorter period might not allow sufficient time for thorough testing and could be deemed unconscionable.",
+                "contradicted_law": "Implied warranty laws, Uniform Commercial Code (UCC) Article 2 related to acceptance of goods.",
+                "location": "Page A-4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding anything set forth\nelsewhere in this Agreement (or below),\nthe Maintenance Period shall be twenty-\nfour (24) hours per day, seven (7) days\nper week, including Bank of America\nholidays.",
+                "changed_text": "Notwithstanding anything set forth\nelsewhere in this Agreement (or below),\nthe Maintenance Period shall be during Bank of America’s standard business hours, excluding Bank of America\nholidays.",
+                "explanation": "Changing the maintenance period to exclude 24/7 support and limiting it to standard business hours introduces a legal contradiction. This is because critical systems often require continuous support, and reducing the maintenance availability might lead to breaches of contract if issues arise outside business hours that affect Bank of America's operations. The clause may also violate industry standards requiring continuous uptimes.",
+                "contradicted_law": "Industry standards related to uptime, potential breach of contract claims due to reduced availability.",
+                "location": "Page A-4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "WARRANTY\nPERIOD\nDURATION\n120 days",
+                "changed_text": "WARRANTY\nPERIOD\nDURATION\n30 days",
+                "explanation": "Reducing the warranty period from 120 days to 30 days creates a legal risk. Many jurisdictions have implied warranties that may extend beyond 30 days, especially for software. This short warranty period could be deemed unconscionable or in violation of consumer protection laws if the software proves defective soon after the warranty expires. Depending on the nature of the software, the implied warranty could extend significantly beyond the express warranty period.",
+                "contradicted_law": "Implied warranty laws, Magnuson-Moss Warranty Act (in the US), state-specific consumer protection laws.",
+                "location": "Page A-4"
+            }
+        ]
+    }
+]

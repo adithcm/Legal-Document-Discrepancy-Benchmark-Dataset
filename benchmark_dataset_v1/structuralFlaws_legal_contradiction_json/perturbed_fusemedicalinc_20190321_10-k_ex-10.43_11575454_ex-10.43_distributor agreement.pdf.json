@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "fusemedicalinc_20190321_10-k_ex-10.43_11575454_ex-10.43_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "24.\nGoverning law and jurisdiction\n24.1\nThis agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation\n(including non-contractual disputes or claims) shall be governed by and construed in accordance with Ohio\nlaw.\n24.2\nThe parties irrevocably agree that the courts of Ohio shall have non-exclusive jurisdiction to settle any dispute\nor claim that arises out of or in connection with this agreement or its subject matter or formation (including non-\ncontractual disputes or claims).",
+                "changed_text": "24.\nGoverning law and jurisdiction\n24.1\nThis agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation\n(including non-contractual disputes or claims) shall be governed by and construed in accordance with Ohio\nlaw. However, the method of dispute resolution will be determined by mutual agreement between both parties at the time a dispute arises.\n24.2\nThe parties irrevocably agree that the courts of Ohio shall have non-exclusive jurisdiction to settle any dispute\nor claim that arises out of or in connection with this agreement or its subject matter or formation (including non-\ncontractual disputes or claims).",
+                "explanation": "The addition of 'However, the method of dispute resolution will be determined by mutual agreement between both parties at the time a dispute arises' directly contradicts the clause specifying Ohio law, leading to uncertainty about the applicable dispute resolution process and diminishing the enforceability of the jurisdiction clause.",
+                "contradicted_law": "Contract Law - Jurisdiction and Dispute Resolution",
+                "location": "Section 24"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.\nAnti-bribery compliance\n8.1\nThe Distributor shall:\n(a)\ncomply with all applicable laws, statutes and regulations relating to anti-bribery and anti-\ncorruption; and\n(b)\nnot engage in any activity, practice or conduct which would constitute an offence.",
+                "changed_text": "8.\nAnti-bribery compliance\n8.1\nThe Distributor shall:\n(a)\ncomply with all applicable laws, statutes and regulations relating to anti-bribery and anti-\ncorruption; however, this clause does not apply if compliance negatively impacts the Distributor's business operations; and\n(b)\nnot engage in any activity, practice or conduct which would constitute an offence.",
+                "explanation": "The phrase 'however, this clause does not apply if compliance negatively impacts the Distributor's business operations' creates a loophole that undermines the anti-bribery compliance clause. It suggests that the distributor can disregard anti-bribery laws if compliance is deemed detrimental to their business, thereby weakening the enforceability of the entire clause.",
+                "contradicted_law": "Foreign Corrupt Practices Act (FCPA), UK Bribery Act, and similar international anti-bribery laws",
+                "location": "Section 8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.\nProduct liability and insurance\n10.1\nSubject to the Distributor fulfilling all the conditions in this clause 10, the Supplier shall indemnify the\nDistributor, defend and hold harmless against any liability incurred by the Distributor in respect of damage to\nproperty, death or personal injury arising from any fault or defect in the design of the Products and any\nreasonable costs, claims, demands and expenses, including reasonable attorneys' fees, arising out of or in\nconnection with that liability (Relevant Claim), except to the extent the liability arises as a result of the wilful\nmisconduct of the Distributor. The Supplier shall add the distributor to their current insurance certificate.",
+                "changed_text": "10.\nProduct liability and insurance\n10.1\nSubject to the Distributor fulfilling all the conditions in this clause 10, the Supplier shall indemnify the\nDistributor, defend and hold harmless against any liability incurred by the Distributor in respect of damage to\nproperty, death or personal injury arising from any fault or defect in the design of the Products and any\nreasonable costs, claims, demands and expenses, including reasonable attorneys' fees, arising out of or in\nconnection with that liability (Relevant Claim), except to the extent the liability arises as a result of the wilful\nmisconduct of the Distributor. The Supplier shall add the distributor to their current insurance certificate; however, the supplier is not obligated to provide indemnity if the distributor is at fault.",
+                "explanation": "Adding '; however, the supplier is not obligated to provide indemnity if the distributor is at fault.' creates a contradiction by adding ambiguity to the indemnity clause. While 'wilful misconduct' is specified, the clause's added phrase means there is now an ambiguity in defining 'fault' and contradicts the original intent of protection for the distributor from damages.",
+                "contradicted_law": "Product Liability Law",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

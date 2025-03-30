@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "todosmedicalltd_20190328_20-f_ex-4.10_11587157_ex-4.10_marketing agreement_ reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3.6 Todos shall comply with all relevant standards of quality assurance and shall ensure that the Products conform to all Israeli standards\nand certifications.",
+                "changed_text": "4.15 The Reseller herby declares its awareness that Todos has not yet acquired the required AMAR approval for distribution of the\nProducts in the Territory nor FDA approval.\n5.1 Non-Binding Forecasts. On the first day of each calendar quarter, the Reseller will provide Todos with a non-binding rolling weekly\nforecast of the Reseller’s estimated Product purchase requirements over the upcoming six months (the “Forecasts”).\n3.6 Todos shall comply with all relevant standards of quality assurance and shall ensure that the Products conform to all Israeli standards\nand certifications.",
+                "explanation": "The original text states that Todos will ensure the products conform to all Israeli standards and certifications, a claim about product compliance. Moving this statement to after the reseller acknowledges the lack of AMAR approval in section 4.15 and inserting the section about forecast blurs the line of what Todos is promising. This obscures the clarity of Todos' commitment to meet Israeli standards, as it is now positioned after an acknowledgement of missing critical approvals, and the forecast section makes the claim less prominent.",
+                "contradicted_law": "Israeli Standards Law",
+                "location": "Section 3.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15.6 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Israel, and the courts\nof Tel-Aviv, Israel\n15.7 Arbitration. Any dispute, controversy, or claim relating to, connected with, or arising out of this Agreement, including any question\nregarding its existence, validity, or termination, shall be referred to and finally resolved by arbitration in accordance with the Arbitration Law, before\na single arbitrator to agreed upon by both parties and in lack of such agreement as to the identity of the arbitrator, each side shall be eligible, within\n7 days of any notice given by any party to the other, to request that the head of the Tel-Aviv Bar Association appoint said arbitrator.",
+                "changed_text": "15.6 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Israel, and the courts\nof Tel-Aviv, Israel\n1.1 Subject to the terms and conditions of this Agreement, Todos hereby grants the Reseller a non-sublicensable, non-transferable,\nexclusive right to distribute and sell the Products to Customers in the Territory; provided, however, that Reseller may sub-license or transfer its\ndistribution rights to a subsidiary or affiliate of the Reseller.\n15.7 Arbitration. Any dispute shall be settled by agreement.",
+                "explanation": "The original section stipulated arbitration within the state of Israel. The modified text moves it to another section that deals with exclusivity. This clause is modified to remove the arbitration requirements in accordance with the Arbitration Law and states the disputes will be settled by agreement, making it difficult to enforce. This introduces ambiguity and makes it more difficult to enforce arbitration.",
+                "contradicted_law": "Arbitration Law of Israel",
+                "location": "Section 15.7"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EXCEPT FOR THE EXPRESS WARRANTIES STATED IN THIS SECTION 7, TODOS DISCLAIMS ANY AND ALL WARRANTIES,\nINLCUDING ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABLE QUALITY, MERCHANTABILITY, DURABILITY OR FITNESS\nFOR A PARTICULAR PURPOSE. NO REPRESENTATION OR OTHER AFFIRMATION OF FACT, INCLUDING BUT NOT LIMITED TO\nSTATEMENTS REGARDING PERFORMANCE OF THE PRODUCTS, WHICH IS NOT CONTAINED IN THIS AGREEMENT, SHALL BE DEEMED\nTO BE A WARRANTY BY TODOS.",
+                "changed_text": "1.1 Subject to the terms and conditions of this Agreement, Todos hereby grants the Reseller a non-sublicensable, non-transferable,\nexclusive right to distribute and sell the Products to Customers in the Territory; provided, however, that Reseller may sub-license or transfer its\ndistribution rights to a subsidiary or affiliate of the Reseller.\nEXCEPT FOR THE EXPRESS WARRANTIES STATED IN THIS SECTION 7, TODOS DISCLAIMS ANY AND ALL WARRANTIES,\nINLCUDING ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABLE QUALITY, MERCHANTABILITY, DURABILITY OR FITNESS\nFOR A PARTICULAR PURPOSE. NO REPRESENTATION OR OTHER AFFIRMATION OF FACT, INCLUDING BUT NOT LIMITED TO\nSTATEMENTS REGARDING PERFORMANCE OF THE PRODUCTS, WHICH IS NOT CONTAINED IN THIS AGREEMENT, SHALL BE DEEMED\nTO BE A WARRANTY BY TODOS.",
+                "explanation": "The original disclaimer of warranties is moved to be right after the clause that is providing the resller exclusive rights to sell the product. This creates a structural flaw because the parties may have difficulty understanding that warranties for the product are being disclaimed because they are under the exclusivity clause, and not the warranty clause.",
+                "contradicted_law": "Sale of Goods Law, Israel",
+                "location": "Section 7.3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "euromediaholdingscorp_20070215_10sb12g_ex-10.b(01)_525118_ex-10.b(01)_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensor grants to Rogers the non-exclusive license and right to distribute and exhibit in Canada (the “Territory”) all entertainment programming to which Licensor owns or controls the VOD distribution and exhibition rights in the Territory (collectively, “Licensed Programs”) to residential subscribers of Rogers’ digital cable television service on a Video-on-Demand (“VOD”) basis.",
+                "changed_text": "Licensor grants to Rogers the exclusive license and right to distribute and exhibit in Canada (the “Territory”) all entertainment programming to which Licensor owns or controls the VOD distribution and exhibition rights in the Territory (collectively, “Licensed Programs”) to residential subscribers of Rogers’ digital cable television service on a Video-on-Demand (“VOD”) basis.",
+                "explanation": "The original text grants Rogers a *non-exclusive* license. By changing this to *exclusive*, it contradicts the 'Most Favoured Nations' clause (Section 21) which implies that Licensor can enter into agreements with other parties. If it is in fact exclusive as Section 1 now dictates, Section 21 becomes irrelevant and contradictory.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Rogers shall pay to Licensor a fee (the “License Fee”), which shall be equal to fifty (50)% of Retail Revenues.\n\nFor the purposes of this Agreement, “Retail Revenues” means the retail revenues actually received by Rogers for each authorized exhibition of a Licensed Program on the ROD Service, less GST and applicable sales tax.",
+                "changed_text": "Rogers shall pay to Licensor a fee (the “License Fee”), which shall be a percentage of Retail Revenues to be determined at Rogers' sole discretion.\n\nFor the purposes of this Agreement, “Retail Revenues” may or may not include the retail revenues actually received by Rogers for each exhibition of a Licensed Program on the ROD Service, and deductions for GST and applicable sales tax are at the discretion of Rogers.",
+                "explanation": "The original text clearly defines the License Fee as 50% of Retail Revenues and clearly defines what Retail Revenues means. The modified version introduces uncertainty by stating the License Fee is a percentage to be determined by Rogers, and 'Retail Revenues' may or may not include what the previous sentence defined, making the payment obligation vague and unenforceable. This also potentially contradicts Section 6(c), which discusses 'calculation of the License Fees,' implying a more defined calculation than is now present.",
+                "location": "Section 6(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Notwithstanding any other provision of this Agreement, Rogers may terminate this Agreement, at any time, upon sixty (60) days’ prior written notice to Licensor.",
+                "changed_text": "Rogers may terminate this Agreement only in cases of Licensor's breach of contract, and upon providing sixty (60) days’ prior written notice detailing the breach.",
+                "explanation": "The original text states that Rogers can terminate the agreement at any time with 60 days notice, which is a unilateral right. The modified version restricts this right, stating Rogers can *only* terminate if Licensor breaches the contract. This directly contradicts the original's unconditional termination clause. This also puts this section at odds with section 19, which outlines causes for *mutual* termination.",
+                "location": "Section 18"
+            }
+        ]
+    }
+]

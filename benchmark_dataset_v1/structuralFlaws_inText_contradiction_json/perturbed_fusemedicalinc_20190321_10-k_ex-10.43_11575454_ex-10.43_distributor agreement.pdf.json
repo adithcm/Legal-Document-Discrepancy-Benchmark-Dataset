@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "fusemedicalinc_20190321_10-k_ex-10.43_11575454_ex-10.43_distributor agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.1\nThe Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory on the terms of this agreement.\n2.2\nFollowing the expiry of the Initial Term, the Supplier may amend the Territory to remove any Inactive Territories.\n2.3\nNotwithstanding 2.1 and 2.2, the Supplier may sell or supply the Products to end users within USA at anytime.",
+                "changed_text": "2.1\nThe Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory on the terms of this agreement.\n2.2\nFollowing the expiry of the Initial Term, the Supplier may amend the Territory to remove any Inactive Territories.\n2.3\nNotwithstanding 2.1 and 2.2, the Supplier may sell or supply the Products to end users within USA at anytime. However, the Supplier agrees not to actively solicit customers within the Distributor's established customer base.",
+                "explanation": "Clause 2.3 initially allows the Supplier to sell directly within the USA (the Distributor's territory), effectively undermining the Distributor's non-exclusive rights. Adding \"However, the Supplier agrees not to actively solicit customers within the Distributor's established customer base\" introduces a direct contradiction. It implies the Supplier *can* sell in the USA but cannot *actively solicit* existing customers, creating ambiguity about what constitutes 'active solicitation' and eroding the certainty of the non-exclusive arrangement.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.3\nThe Distributor must pay the full amount invoiced to it by the Supplier in USD$’s within thirty (45) days of the date of invoice.\n5.4\nNeither party may withhold payment of any amount due to the other because of any set-off, counter-claim, abatement, or other similar deduction.",
+                "changed_text": "5.3\nThe Distributor must pay the full amount invoiced to it by the Supplier in USD$’s within thirty (45) days of the date of invoice.\n5.4\nNotwithstanding clause 5.3, the Distributor may withhold payment of any amount reasonably disputed in good faith, provided that written notice of the dispute is given to the Supplier within 15 days of the invoice date.",
+                "explanation": "Clause 5.3 states invoices must be paid within 30 (45) days. Clause 5.4 prohibits withholding payment for any reason, including disputes. The modified version introduces an exception to 5.4: The distributor *may* withhold payment if they dispute an amount in good faith and provide written notice. This directly contradicts the original prohibition on withholding payment, creating uncertainty about the Distributor's payment obligations and potential remedies for invoice disputes.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.1\nThis agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+                "changed_text": "11.1\nThis agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term. However, the Supplier reserves the right to terminate this agreement with 30 days' notice if the Distributor's sales targets are not met, as determined solely by the Supplier.",
+                "explanation": "Clause 11.1 establishes that the agreement continues indefinitely after the initial term, terminable with 12 months' notice. Adding \"However, the Supplier reserves the right to terminate this agreement with 30 days' notice if the Distributor's sales targets are not met, as determined solely by the Supplier\" creates a contradiction. It introduces a new termination clause which directly contradicts the existing one which states that 12 months written notice is required. This allows the supplier to terminate the agreement much faster than the original condition and introduces uncertainty by stating the evaluation is \"solely by the Supplier\".",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

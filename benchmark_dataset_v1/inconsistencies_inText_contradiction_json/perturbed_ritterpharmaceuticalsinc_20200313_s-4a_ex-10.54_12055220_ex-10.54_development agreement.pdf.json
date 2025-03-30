@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ritterpharmaceuticalsinc_20200313_s-4a_ex-10.54_12055220_ex-10.54_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.7.\nInvoice Terms. Sekisui shall pay for each Product sold by Qualigen within 30 days after Sekisui has received the applicable invoice from Qualigen.",
+                "changed_text": "4.7.\nInvoice Terms. Sekisui shall pay for each Product sold by Qualigen within 60 days after Sekisui has received the applicable invoice from Qualigen.",
+                "explanation": "The original contract states invoices must be paid within 30 days. Changing this to 60 days creates a direct conflict with Section 4.10, which imposes interest on payments more than 30 days past due, creating uncertainty regarding the actual payment terms and when interest accrues.",
+                "location": "Section 4.7"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.10.\nInterest. Accrual and payment of interest shall not be deemed to excuse or cure breaches of contract arising from late payment or\nnonpayment. Cumulative with and not exclusive of any and all other available remedies, payments that are more than 30 days past due\nhereunder, and which are not otherwise subject to a good faith dispute, shall accrue interest, from the due date until paid, at an annual\nrate equal to the prime rate, as reported in The Wall Street Journal, Eastern U.S. Edition, on the date such payment is due, plus an\nadditional 200 basis points (2%).",
+                "changed_text": "4.10.\nInterest. Accrual and payment of interest shall not be deemed to excuse or cure breaches of contract arising from late payment or\nnonpayment. Cumulative with and not exclusive of any and all other available remedies, payments that are more than 90 days past due\nhereunder, and which are not otherwise subject to a good faith dispute, shall accrue interest, from the due date until paid, at an annual\nrate equal to the prime rate, as reported in The Wall Street Journal, Eastern U.S. Edition, on the date such payment is due, plus an\nadditional 200 basis points (2%).",
+                "explanation": "The original contract states that payments that are more than 30 days past due will accrue interest. Changing this to 90 days creates a contradiction with the modified Section 4.7, creating uncertainty regarding the actual payment terms and when interest accrues.",
+                "location": "Section 4.10"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "14.2.\nTermination by Qualigen. Qualigen may terminate this Agreement (i) upon thirty (30) days prior written notice in the event of any\nfailure of Sekisui to make a Financing Payment that is determined to be due, which failure is not cured within such 30 day period, or (ii)\nupon sixty (60) days prior written notice in the event of any material breach of the diligence obligations (which is understood not to\ninclude failing to meet forecasts for sales to customers) set forth in the Business Plan (as it may be amended by the Parties from time to\ntime), which breach is not cured within such 60 day period.",
+                "changed_text": "14.2.\nTermination by Qualigen. Qualigen may terminate this Agreement (i) immediately written notice in the event of any\nfailure of Sekisui to make a Financing Payment that is determined to be due, which failure is not cured , or (ii)\nupon sixty (60) days prior written notice in the event of any material breach of the diligence obligations (which is understood not to\ninclude failing to meet forecasts for sales to customers) set forth in the Business Plan (as it may be amended by the Parties from time to\ntime), which breach is not cured within such 60 day period.",
+                "explanation": "By removing the grace period of 30 days to cure Financing Payment, this creates a direct contrast with Section 14.3. It states that Sekisui may terminate this Agreement upon prior written notice (i) in the event of any failure of Qualigen to meet a milestone set forth in the Development Plan (as it may be amended by the Parties from time to time), or (ii) at any other time upon ninety (90) days’ prior written notice of impending termination.",
+                "location": "Section 14.2"
+            }
+        ]
+    }
+]

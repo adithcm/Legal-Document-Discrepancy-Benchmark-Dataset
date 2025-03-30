@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "inmodeltd_20190729_f-1a_ex-10.9_11743243_ex-10.9_manufacturing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall commence on the Effective Date and shall continue for an initial term of year as of the Effective Date. This Agreement\nshall automatically be renewed for successive one (1) year increments unless either party request in writing, at least ninety (90) days prior to\nthe anniversary date, that this Agreement not to be renewed.",
+                "changed_text": "This Agreement shall commence on the Effective Date and shall continue for an initial term of year as of the Effective Date. This Agreement renewal is subject to mutual written agreement by both parties at least ninety (90) days prior to the anniversary date. If no such agreement is reached, the Agreement will automatically terminate on the anniversary date.",
+                "explanation": "The original text stipulates auto-renewal unless a party requests otherwise. The modification introduces uncertainty by requiring mutual written agreement for renewal, effectively negating the auto-renewal clause and potentially leading to disputes on continuation of services.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Contractor will supply all orders that do not exceed the forecast at the delivery times set forth in each Purchase Order. In the event Contractor anticipates at any time that it will not deliver Products within the prescribed timetable as set forth in the applicable Purchase Order, Contractor\nshall promptly so inform Customer by written notice of such delay. Contractor shall submit proposed revisions to the timetable that reflect\nContractor’s best estimates of what can realistically be achieved and shall use its best commercial efforts to achieve such timeline, unless\notherwise directed by Customer and confirmed by Contractor.",
+                "changed_text": "Contractor will supply all orders that do not exceed the forecast at the delivery times set forth in each Purchase Order. Notwithstanding the foregoing, Contractor's delivery obligations are subject to internal capacity and material availability. In the event Contractor anticipates at any time that it will not deliver Products within the prescribed timetable as set forth in the applicable Purchase Order, Contractor shall promptly so inform Customer by written notice of such delay. Contractor shall submit proposed revisions to the timetable that reflect Contractor’s best estimates of what can realistically be achieved and shall use reasonable efforts to achieve such timeline, unless otherwise directed by Customer.",
+                "explanation": "The original text appears to obligate the Contractor to supply orders within the forecast. The modification introduces an exception for \"internal capacity and material availability,\" creating a loophole that allows the Contractor to potentially avoid delivery obligations even if the order is within the forecast. This creates contradiction, as the initial statement implies a firm commitment.",
+                "location": "Section 7.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Customer will not pass through to end users or other third parties the warranties made by Contractor under this Agreement. Furthermore, Customer will not make any representations to end users or other third parties on behalf of Contractor, and Customer will expressly indicate\nthat the end users and third parties must look solely to Customer in connection with any problems, warranty claim or other matters\nconcerning the Product.",
+                "changed_text": "Customer may, at its discretion, extend the warranties made by Contractor under this Agreement to end users or other third parties. Furthermore, Customer may make representations to end users or other third parties on behalf of Contractor, however, Customer will endeavor to ensure the end users and third parties must look solely to Customer in connection with any problems, warranty claim or other matters concerning the Product.",
+                "explanation": "The original text explicitly prohibits the Customer from passing on Contractor's warranties. The modification introduces ambiguity and direct contradiction by stating the Customer *may*, at their discretion, pass on the warranties. This creates uncertainty and potential disputes regarding warranty responsibility and coverage.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

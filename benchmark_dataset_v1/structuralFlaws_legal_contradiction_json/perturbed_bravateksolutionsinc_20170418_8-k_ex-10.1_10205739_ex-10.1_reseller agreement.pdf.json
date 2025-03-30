@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "bravateksolutionsinc_20170418_8-k_ex-10.1_10205739_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia without regard to the conflicts of law provisions thereof.",
+                "changed_text": "This Agreement shall be governed by the laws of a jurisdiction to be determined at the sole discretion of the Company, notwithstanding any conflicts of law.",
+                "explanation": "The original clause specifies Virginia law governs the contract. The modified clause introduces uncertainty by allowing the Company to choose the governing law later. This is contradictory because it voids the initial agreement on governing law, potentially violating legal standards requiring clarity and mutual consent in contract terms.",
+                "contradicted_law": "Contract Law - Requirement for mutual agreement and clarity on key terms.",
+                "location": "14"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Referral Fees will be paid within thirty (30) days of the collection of receivables from the Registered Referral.",
+                "changed_text": "Referral Fees will be paid at an indefinite time period after the collection of receivables from the Registered Referral.",
+                "explanation": "Changing the specified time period creates a contradiction. By setting the time period to indefinite, the lack of a set time for payments goes against common practice, weakening the enforceability of the payment terms and potentially violating contract law requirements for definite terms.",
+                "contradicted_law": "Contract Law - Requirement for definite terms.",
+                "location": "6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "RESELLER SHALL MAKE NO REPRESENTATION, GUARANTEE, OR WARRANTY CONCERNING THE COMPANY PRODUCT EXCEPT AS EXPRESSLY AUTHORIZED IN ADVANCE BY COMPANY IN WRITING.",
+                "changed_text": "Reseller MAY MAKE Representation, Guarantee, or Warranty CONCERNING THE COMPANY PRODUCT without any prior permissions by the company.",
+                "explanation": "The modification negates the restriction on reseller warranties, creating a direct contradiction. This changes the risk and responsibility related to product representations, which are often legally regulated to protect consumers and ensure accurate product claims.",
+                "contradicted_law": "Warranty Law - Misrepresentation and Liability.",
+                "location": "8"
+            }
+        ]
+    }
+]

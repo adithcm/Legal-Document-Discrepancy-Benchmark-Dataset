@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "phasebiopharmaceuticalsinc_20200330_10-k_ex-10.21_12086810_ex-10.21_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "SFJ will be obligated to pay or incur up to One Hundred Twenty Million U.S. Dollars ($120,000,000.00) of Development Costs (“Maximum Development Costs”) in accordance with the funding schedule set forth in Section 4.2. Any Development Costs in excess of the sum of the Maximum Development Costs and any Going Concern Funding will be borne by PB.",
+                "changed_text": "SFJ may, at its sole discretion, choose to pay or incur up to One Hundred Twenty Million U.S. Dollars ($120,000,000.00) of Development Costs (“Maximum Development Costs”) in accordance with the funding schedule set forth in Section 4.2. Any Development Costs in excess of the sum of the Maximum Development Costs and any Going Concern Funding will be borne by PB, unless otherwise agreed upon.",
+                "explanation": "The original text mandates SFJ's obligation to pay up to $120M. The modified version introduces SFJ’s discretion, making it unclear if the company will fulfill its financial commitment. By adding 'unless otherwise agreed upon' it creates a loophole to avoid paying excess development costs, contradicting the explicit financial obligation.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.1.1.4 Trial Data Package. SFJ shall be the sole and exclusive owner of the Trial Data Package including the Research Results included therein. In consideration of the Approval Payments to be made under this Agreement (if and to the extent applicable), and in further consideration of the payment by PB to SFJ of [***], SFJ shall sell and transfer to PB, and PB shall acquire from SFJ, the sole and exclusive ownership, even as to SFJ, of the Trial Data Package including all Research Results as set forth below in this Section 11.1.1.4. Upon the earliest of (A) receipt of Regulatory Approval of the Product for the Indication in at least one of the US, the EU, any Designated European Country, Japan or China or (B) termination of this Agreement in accordance with any termination clause or section of this Agreement, in each case, PB and SFJ will promptly enter into the Trial Data Package Purchase Agreement attached hereto as Exhibit K, and PB will purchase, and SFJ will sell to PB, sole and exclusive ownership of all Research Results, including the Trial Data Package.",
+                "changed_text": "11.1.1.4 Trial Data Package. SFJ shall be the sole and exclusive owner of the Trial Data Package including the Research Results included therein. SFJ retains all rights to the Trial Data Package. PB may, at SFJ's discretion, have limited access to the Trial Data Package, subject to additional agreements. Upon the earliest of (A) receipt of Regulatory Approval of the Product for the Indication in at least one of the US, the EU, any Designated European Country, Japan or China or (B) termination of this Agreement in accordance with any termination clause or section of this Agreement, in each case, PB and SFJ may choose to enter into further negotiations. All decisions will be determined on a case by case basis.",
+                "explanation": "The original text establishes a clear transfer of ownership to PB under defined conditions. The modification removes this certainty, stating that SFJ retains ownership and any PB access is at SFJ's discretion and potentially requires additional agreements. It also implies that PB may no longer guaranteed to purchase the Trial Data Package. The final sentence further muddies the waters by removing any guarantees.",
+                "location": "Section 11.1.1.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "PB shall provide to the JCC a draft of each Commercialization Plan (as defined in the AZ License) at least [***] in advance of the date PB is required to deliver such Commercialization Plan to MedImmune. The JCC shall promptly review and discuss each draft Commercialization Plan.",
+                "changed_text": "PB may provide to the JCC a draft of each Commercialization Plan (as defined in the AZ License) with a timeline determined by PB. The JCC may review and discuss each draft Commercialization Plan if time permits.",
+                "explanation": "The original text implies a strict obligation, but the modifications makes it uncertain. Originally there was a fixed timeline where PB had to give the draft to JCC at least 'x' days before MedImmune. But after the changes, it is determined by PB, which means no timeline guarantees. Also 'shall' becomes 'may' for the review and discuss phase.",
+                "location": "Section 5.5.2"
+            }
+        ]
+    }
+]

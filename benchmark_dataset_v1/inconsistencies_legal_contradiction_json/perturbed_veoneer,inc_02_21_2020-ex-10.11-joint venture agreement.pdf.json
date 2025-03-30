@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "veoneer,inc_02_21_2020-ex-10.11-joint venture agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment shall be governed by and construed in accordance with the laws of Japan.",
+                "changed_text": "This Amendment shall be governed by and construed in accordance with the laws of Delaware.",
+                "explanation": "Changing the governing law to Delaware when the agreement involves a Japanese corporation (Nissin Kogyo Co., Ltd.) and the subject matter concerns joint ventures operating in Japan and China introduces potential conflicts. While parties can choose a governing law, courts may refuse to enforce it if it has no reasonable relationship to the agreement or violates public policy. Given Nissin's location and the operational locations of the joint ventures, Delaware law may be deemed inappropriate, leading to legal challenges regarding enforceability.",
+                "contradicted_law": "Principles of Conflict of Laws and Contract Enforceability",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "d.Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements set forth in the JV Agreement that arise prior to the VNBJ Closing or the VNBZ Closing, as applicable.",
+                "changed_text": "d.Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall only release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements set forth in the JV Agreement if the breach has not been reported within 30 days of closing.",
+                "explanation": "By limiting the liability period to 30 days, this conflicts with standard statutes of limitations for breach of contract claims, which are typically much longer (e.g., several years in many jurisdictions). This alteration could render the clause unenforceable or expose a party to legal challenges for attempting to shorten the legally prescribed time to bring a claim.",
+                "contradicted_law": "Statutes of Limitations for Contract Claims",
+                "location": "Article 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment shall only become effective upon the VNBJ Closing with respect to Article 1.1 and the VNBZ Closing with respect to Article 1.2, and shall terminate without any force or effect in the event that the VNBJ SPA and the VNBZ SPA are terminated in accordance with the terms thereof.",
+                "changed_text": "This Amendment shall become effective immediately upon signing, irrespective of the VNBJ Closing or VNBZ Closing, and shall only terminate at the sole discretion of Veoneer AB.",
+                "explanation": "This change makes the effectiveness of the agreement independent of the closing conditions (VNBJ Closing and VNBZ Closing), as well as introducing a termination clause only benefitting one party. Such provisions may be deemed unconscionable or unenforceable, especially if they create a significant imbalance in rights and obligations. Contract law requires mutuality and fairness; this change introduces a unilateral termination right without cause which can render the entire agreement voidable.",
+                "contradicted_law": "Principles of Mutuality and Unconscionability in Contract Law",
+                "location": "Article 4"
+            }
+        ]
+    }
+]

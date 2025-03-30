@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "photronicsinc_20171219_10-qa_ex-10.28_10982650_ex-10.28_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***]within 1 hour of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within 1 hour shall constitute acceptance of such [***].",
+                "explanation": "This modification reduces the acceptance/rejection timeframe to 1 hour, which could be considered an unreasonably short timeframe for reviewing complex purchase orders, potentially violating general principles of contract law regarding reasonable opportunity for review and acceptance. This creates a scenario where acceptance could be implied without adequate time for due diligence.",
+                "contradicted_law": "General Contract Law - Reasonable Opportunity to Review and Accept",
+                "location": "Section 2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within 90 days from the shipment of the applicable Products delivered.",
+                "explanation": "This modification extends the payment timeframe to 90 days. Delayed payment terms without justification may violate prompt payment laws, depending on the jurisdiction and industry standards, potentially exposing the company to penalties and legal challenges for unreasonable payment delays. The original contract likely had a shorter timeframe.",
+                "contradicted_law": "Prompt Payment Laws",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each of the Suppliers may terminate its obligations to supply a particular Product under this Agreement by giving written notice of the end of life of such Product to the Company at least [***]before the effective date of such termination (a “Product EOL Notice”), provided that (a) the relevant Supplier shall supply, and the Company shall purchase, such Product ordered pursuant to this Agreement until the effective date of such termination and including any accepted Purchase Orders outstanding on the effective date of termination, and (b) the relevant Supplier is [***]to its other [***] with respect to such Product.",
+                "changed_text": "Each of the Suppliers may terminate its obligations to supply a particular Product under this Agreement by giving written notice of the end of life of such Product to the Company at least 1 day before the effective date of such termination (a “Product EOL Notice”), provided that (a) the relevant Supplier shall supply, and the Company shall purchase, such Product ordered pursuant to this Agreement until the effective date of such termination and including any accepted Purchase Orders outstanding on the effective date of termination, and (b) the relevant Supplier is [***]to its other [***] with respect to such Product.",
+                "explanation": "This modification reduces the end-of-life notice period to 1 day. Such short notice could be deemed commercially unreasonable, particularly if the Company relies on the product and needs time to find an alternative supplier or adjust its production processes. This could violate implied duties of good faith and fair dealing in contract law, potentially making the termination clause unenforceable or triggering claims for breach of contract if the abrupt termination causes significant harm.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing",
+                "location": "Section 2.5"
+            }
+        ]
+    }
+]

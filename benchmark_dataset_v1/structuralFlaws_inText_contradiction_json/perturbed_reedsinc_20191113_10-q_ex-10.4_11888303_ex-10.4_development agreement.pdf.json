@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "reedsinc_20191113_10-q_ex-10.4_11888303_ex-10.4_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company will create and provide to Reed’s the Deliverables. Reed’s will exclusively own all Deliverables. Company will and hereby does, without further consideration, irrevocably assign to Reed’s any and all worldwide right, title or interest that Company may now or hereafter possess in or to the Deliverables in perpetuity (or the maximum period permitted by Applicable Laws and Regulations) and Reed’s accepts such assignment. Company will execute and deliver documents reasonably requested by Reed’s to register its Intellectual Property in the Deliverables.",
+                "changed_text": "Company will create and provide to Reed’s the Deliverables. Reed’s will generally own the Deliverables; however, ownership will be subject to negotiation on a deliverable-by-deliverable basis. Company will assign to Reed’s its interest; provided, however, Company retains a non-exclusive, royalty-free license to use the Deliverables for its internal research and development purposes. Company will execute and deliver documents reasonably requested by Reed’s to register its Intellectual Property in the Deliverables, but this is subject to the parties’ mutual agreement on the scope of the intellectual property being registered.",
+                "explanation": "The original text states Reed's will exclusively own all deliverables. The modified version creates a contradiction by suggesting that Reed's ownership is subject to negotiation. Also, it states Company retains a non-exclusive, royalty-free license to use the deliverables for its internal research and development purposes, that is in direct conflict with Reed's exclusive ownership.",
+                "location": "6. Intellectual Property (a) Ownership of Intellectual Property (i)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Confidential Information” means all information of Disclosing Party that is disclosed orally or in writing by Disclosing Party to Receiving Party that, at the time of disclosure, is designated as confidential (or like designation), is disclosed in circumstances of confidence, would be understood by the parties, exercising reasonable business judgment, to be confidential, or is not generally known to the public, whether of a business, technical, or other nature, and including, without limitation, designs, plans, drawings, know-how, recipes, and marketing and business plans.",
+                "changed_text": "Confidential Information” means all information of Disclosing Party that is disclosed orally or in writing by Disclosing Party to Receiving Party that, at the time of disclosure, is designated as confidential (or like designation), is disclosed in circumstances of confidence, would be understood by the parties, exercising reasonable business judgment, to be confidential, or is not generally known to the public, whether of a business, technical, or other nature, and including, without limitation, designs, plans, drawings, know-how, recipes, and marketing and business plans. However, any information related to the Products' recipes will NOT be regarded as confidential information.",
+                "explanation": "The original text includes 'recipes' within the definition of 'Confidential Information.' The added sentence explicitly excludes 'information related to the Products' recipes' from this definition, creating a contradiction. This contradiction generates uncertainty because recipes were intended to remain a trade secret for competitive advantages, that now become publicly shared knowledges.",
+                "location": "7. Confidentiality"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company may not assign or transfer its rights or obligations under this Agreement, whether by operation of law, contract or otherwise, without the prior written consent of Reed’s, which shall not be unreasonably withheld (it being understood that a purported assignment to a Reed’s competitor identified or referred to in Exhibit D of the Manufacturing and Distribution Agreement shall be considered to be a reasonable basis for withholding consent).",
+                "changed_text": "Company may not assign or transfer its rights or obligations under this Agreement, whether by operation of law, contract or otherwise, without the prior written consent of Reed’s. Company may at its sole discretion assign its rights and obligations, so long as it notifies Reed's.",
+                "explanation": "The original clause requires Reed's consent for any assignment by Company, with a provision against unreasonable withholding. The revised clause introduces a contradiction. While the first sentence maintains the need for Reed's consent, the added sentence allows Company to assign rights and obligations at its sole discretion with just a notification to Reed's. This creates confusion on whether Reed's consent is required or if the company can at their sole discretion assign rights with a simple notification.",
+                "location": "13. Assignment"
+            }
+        ]
+    }
+]

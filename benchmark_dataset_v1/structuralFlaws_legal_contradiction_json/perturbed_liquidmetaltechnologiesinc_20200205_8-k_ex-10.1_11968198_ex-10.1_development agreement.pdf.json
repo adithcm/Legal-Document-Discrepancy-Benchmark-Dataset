@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "liquidmetaltechnologiesinc_20200205_8-k_ex-10.1_11968198_ex-10.1_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THE LICENSED EQUIPMENT AND TRANSFERRED ALLOY ARE BEING PROVIDED “AS IS” AND “WITH ALL FAULTS”\nAND WITH NO WARRANTIES OF ANY KIND, INCLUDING WITHOUT LIMITATION WARRANTIES OF FITNESS FOR A\nPARTICULAR PURPOSE.",
+                "changed_text": "THE LICENSED EQUIPMENT AND TRANSFERRED ALLOY ARE BEING PROVIDED “AS IS” AND “WITH ALL FAULTS”.",
+                "explanation": "By removing the phrase \"AND WITH NO WARRANTIES OF ANY KIND, INCLUDING WITHOUT LIMITATION WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE,\" we eliminate the explicit disclaimer of warranties. While 'as is' implies a lack of warranties, the specific disclaimer strengthens this. Its removal creates ambiguity, weakening the protection against potential warranty claims under the Uniform Commercial Code (UCC), which typically requires such disclaimers to be clear and conspicuous, especially in jurisdictions such as Delaware and California, where Liquidmetal is incorporated and has its principal place of business.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Implied Warranty of Merchantability and Fitness for a Particular Purpose",
+                "location": "Section 2.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Disputes. The parties irrevocably agree that any legal actions or proceedings brought by or against them with respect to this\nAgreement shall be brought exclusively in the courts in and for Maricopa County, Arizona, and the United States District\nCourt for the District of Arizona, and by execution and delivery hereof, the parties irrevocably submit to such jurisdiction and\nhereby irrevocably waive any and all objections which they may have with respect to venue in any of the above courts.\nNotwithstanding the foregoing, this paragraph shall not preclude or limit either Party’s rights to pursue actions in the\nInternational Trade Commission, or for either Party to pursue an action with respect to a Licensed Patent before a foreign\ncourt or governmental agency if neither the federal courts nor the state courts have subject matter jurisdiction over the\naction.",
+                "changed_text": "Disputes. The parties agree that any legal actions or proceedings brought by or against them with respect to this Agreement shall be subject to negotiation, before any legal process is initiated.",
+                "explanation": "By changing the text to \"The parties agree that any legal actions or proceedings brought by or against them with respect to this Agreement shall be subject to negotiation, before any legal process is initiated.\" alters the dispute resolution mechanism, contradicting the original clause. It mandates preliminary negotiation before legal proceedings, removing the original clause's explicit agreement on jurisdiction and waiver of venue objections. This weakens the enforceability of the forum selection clause by adding a step before initiating the original agreement.",
+                "contradicted_law": "General Contract Law - Forum Selection Clause Enforceability",
+                "location": "Section 14.8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THE PARTIES HEREBY EXPRESSLY WAIVE ANY AND ALL RIGHT\nTO A TRIAL BY JURY WITH RESPECT TO ANY ACTION, PROCEEDING OR OTHER LITIGATION RESULTING FROM OR\nINVOLVING THE ENFORCEMENT OF THIS AGREEMENT.",
+                "changed_text": "",
+                "explanation": "By removing \"THE PARTIES HEREBY EXPRESSLY WAIVE ANY AND ALL RIGHT TO A TRIAL BY JURY WITH RESPECT TO ANY ACTION, PROCEEDING OR OTHER LITIGATION RESULTING FROM OR INVOLVING THE ENFORCEMENT OF THIS AGREEMENT.\" from Section 14.8 removes an explicit waiver of jury trial. Many jurisdictions require jury trial waivers to be clear, conspicuous, and knowingly made. Its removal introduces a structural flaw, as it makes enforcement of the jury trial waiver more challenging. In the event of litigation, the absence of this clause could allow either party to argue that they did not knowingly waive their right to a jury trial, especially given the contract is governed by Arizona law which may impose specific requirements for the jury waiver.",
+                "contradicted_law": "7th Amendment to the U.S. Constitution, Arizona Rules of Civil Procedure",
+                "location": "Section 14.8"
+            }
+        ]
+    }
+]

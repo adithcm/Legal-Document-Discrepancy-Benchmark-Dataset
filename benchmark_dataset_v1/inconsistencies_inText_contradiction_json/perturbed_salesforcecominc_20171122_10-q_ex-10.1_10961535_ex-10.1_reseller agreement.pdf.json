@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Form of Sub-Reseller Agreement (this “Sub-Reseller Agreement”) is made and entered in by and between salesforce.com, inc., a Delaware corporation having its principal place of business at The Landmark @ One Market, Suite 300, San Francisco, California 94105 (“SFDC” or “Salesforce”) and the Reseller named above and amends that certain Reseller Agreement between Salesforce and Reseller dated as of August 1, 2015, as previously amended (the “Agreement”). This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties’ signatures below (“Sub-Reseller Effective Date”), provided, however, that the dates of the Parties’ signatures are not separated by a period of time greater than ten (10) business days. If such period is greater than ten (10) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "changed_text": "This Form of Sub-Reseller Agreement (this “Sub-Reseller Agreement”) is made and entered in by and between salesforce.com, inc., a Delaware corporation having its principal place of business at The Landmark @ One Market, Suite 300, San Francisco, California 94105 (“SFDC” or “Salesforce”) and the Reseller named above and amends that certain Reseller Agreement between Salesforce and Reseller dated as of August 1, 2015, as previously amended (the “Agreement”). This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties’ signatures below (“Sub-Reseller Effective Date”), provided, however, that the dates of the Parties’ signatures are not separated by a period of time greater than ten (10) business days. If such period is greater than fifteen (15) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "explanation": "This change introduces a contradiction regarding the validity of the Sub-Reseller Agreement based on the signature date separation. The original text states the agreement is void if the signature dates are separated by more than ten (10) business days, while the modified text states it's void if separated by more than fifteen (15) business days. This creates uncertainty about the actual deadline for signatures.",
+                "location": "Page 1, Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement. Sub-Reseller is considered a third-party beneficiary of specific clauses outlined in Exhibit A. Any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "explanation": "This change introduces a contradiction regarding the Sub-Reseller's status as a third-party beneficiary. The original text explicitly states that the Sub-Reseller is *not* a third-party beneficiary, while the modified text states that the Sub-Reseller *is* a third-party beneficiary of specific clauses. This creates uncertainty about the Sub-Reseller's rights and ability to enforce certain provisions of the agreement directly.",
+                "location": "Page 1, Section 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof, except for those agreements outlined in Appendix B.",
+                "explanation": "This change introduces a contradiction to the entire agreement clause. The original text states that this agreement supersedes all prior agreements. The modified version states that it does *not* supersede agreements outlined in Appendix B. This creates ambiguity as to which agreements are still in effect, leading to potential disputes.",
+                "location": "Page 1, Section 3"
+            }
+        ]
+    }
+]

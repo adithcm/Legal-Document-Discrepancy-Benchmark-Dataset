@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "tubemediacorp_20060310_8-k_ex-10.1_513921_ex-10.1_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(a) Initial Term. Unless terminated earlier in accordance with the terms of this Agreement, the “Term” of this Agreement shall consist of, collectively, the Initial Term and the Renewal Term, if applicable. The “Initial Term” shall commence upon the Effective Date and shall expire on March 31, 2011.",
+                "changed_text": "(a) Initial Term. Unless terminated earlier in accordance with the terms of this Agreement, the “Term” of this Agreement shall consist of, collectively, the Initial Term and the Renewal Term, if applicable. The “Initial Term” shall commence upon the Effective Date and shall expire on March 31, 2012.",
+                "explanation": "The initial term of the agreement now expires on March 31, 2012, instead of the original expiration date of March 31, 2011. This creates a contradiction with other sections that reference the 'Term' and its original end date, potentially leading to disputes over the agreement's duration.",
+                "location": "Section 2(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(b) Renewal Term. If Affiliate fails to notify Network of its desire that this Agreement terminate on its expiration date, at least six (6) months before the expiration date, this Agreement will automatically renew, upon the same terms and conditions, for an additional four (4) -year period (“Renewal Term”).",
+                "changed_text": "(b) Renewal Term. Even if Affiliate notifies Network of its desire that this Agreement terminate on its expiration date, at least six (6) months before the expiration date, this Agreement will automatically renew, upon the same terms and conditions, for an additional four (4) -year period (“Renewal Term”).",
+                "explanation": "The original text states the contract auto-renews if the Affiliate FAILS to notify the Network. The modified version states that the contract auto-renews EVEN IF the Affiliate notifies the network. This creates a contradiction that could lead to disputes.",
+                "location": "Section 2(b)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(d) In addition to Affiliate’s other rights to terminate this Agreement, Affiliate may, by providing Network with thirty (30) days’ prior notice, terminate this Agreement if Network is in material breach of this Agreement, provided that Network shall have thirty (30) days from its receipt of Affiliate’s written notice specifying in detail the nature of such breach to cure such breach; provided, however, if such breach is confined to a Station or group of Stations during the Term, then Affiliate shall have the right to terminate this Agreement only as to such Station or Stations, but if Network willfully and repeatedly materially breaches any of the material provisions of this Agreement, then Affiliate, at its option, shall have the right to terminate this Agreement in its entirety or only as to such breaching Station or Stations.",
+                "changed_text": "(d) In addition to Affiliate’s other rights to terminate this Agreement, Affiliate may, by providing Network with thirty (30) days’ prior notice, terminate this Agreement if Network is in material breach of this Agreement. Network shall have no ability to cure such breach. Provided, however, if such breach is confined to a Station or group of Stations during the Term, then Affiliate shall have the right to terminate this Agreement only as to such Station or Stations, but if Network willfully and repeatedly materially breaches any of the material provisions of this Agreement, then Affiliate, at its option, shall have the right to terminate this Agreement in its entirety or only as to such breaching Station or Stations.",
+                "explanation": "The original text allowed the Network a cure period of 30 days to remedy a breach of contract. The modified text removes this cure period. This could lead to conflicts over what constitutes a material breach.",
+                "location": "Section 10(d)"
+            }
+        ]
+    }
+]

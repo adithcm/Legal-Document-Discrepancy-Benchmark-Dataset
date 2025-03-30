@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "photronicsinc_20171219_10-qa_ex-10.28_10982650_ex-10.28_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Suppliers will make good faith efforts to accept all [***]from the Company that comply with this Agreement including adhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the [***] (as defined below)). The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Suppliers will make commercially reasonable efforts to accept all [***]from the Company that comply with this Agreement including adhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the [***] (as defined below)). The Suppliers shall notify the Company of acceptance or rejection of a [***]within a reasonable timeframe of receipt of a [***]. Failure of the Suppliers to accept or reject a [***] within a reasonable timeframe shall not constitute acceptance of such [***].",
+                "explanation": "The original text specifies that suppliers make good faith efforts to accept orders within a specific timeframe to either accept/reject the order. Failure to comply would be the order accepted. The modified version changes 'good faith' to 'commercially reasonable,' introduces ambiguity around the timeframe for acceptance/rejection ('reasonable timeframe' vs a specific number of hours), and states that a failure to respond within a reasonable timeframe does not constitute acceptance. This contradicts the original clause, creating uncertainty about when an order is considered accepted and the supplier's obligation.",
+                "location": "2.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency at the company's earliest convience after the shipment of the applicable Products delivered.",
+                "explanation": "The original text dictates that the payments for products delivered shall be made within a certain timeframe. The modified text introduces ambiguity by stating that payments will be made 'at the company's earliest convenience.' This contradicts the previous clause by replacing a fixed payment period with a subjective term and therefore creates uncertainty in when payment should be expected.",
+                "location": "4.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant Supplier and the Company in writing that is applicable to such Products for the Warranty Period. This warranty does not apply to any Product failures resulting from misuse, storage in or exposure to environmental conditions inconsistent with those specified in the applicable specifications or documentation, modification of the Product by anyone other than the relevant Supplier.",
+                "changed_text": "Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant Supplier and the Company that is applicable to such Products; however, the duration of this warranty will be determined on a case by case basis. This warranty may not apply to any Product failures, regardless of reason, including misuse, storage in or exposure to environmental conditions inconsistent with those specified in the applicable specifications or documentation, or modification of the Product by anyone other than the relevant Supplier.",
+                "explanation": "The original text provides a warranty for a specified period and excludes certain conditions like misuse or unauthorized modification. The modified version removes the specific warranty period, stating it will be determined 'on a case by case basis,' making it ambiguous. It also adds that the warranty 'may not apply regardless of reason' which directly contradicts the warranty stated earlier in the clause. This creates internal conflict as it is unclear if there is any warranty at all for the products.",
+                "location": "6.1"
+            }
+        ]
+    }
+]

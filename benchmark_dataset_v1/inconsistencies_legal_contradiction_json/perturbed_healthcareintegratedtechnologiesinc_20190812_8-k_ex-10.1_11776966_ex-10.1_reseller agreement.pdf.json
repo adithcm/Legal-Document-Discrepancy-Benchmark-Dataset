@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "healthcareintegratedtechnologiesinc_20190812_8-k_ex-10.1_11776966_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 30 days after the end of the Initial Term. Upon payment of such amount, Seller shall deliver the Products paid for to Reseller in a commercially reasonable timeframe (and in no event any later than 150 days from the date such payment is received in full) to be sold by Reseller in accordance with this Agreement as contemplated by the last sentence of Section 12.4.",
+                "changed_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 90 days after the end of the Initial Term. Upon payment of such amount, Seller shall deliver the Products paid for to Reseller in a commercially reasonable timeframe (and in no event any later than 365 days from the date such payment is received in full) to be sold by Reseller in accordance with this Agreement as contemplated by the last sentence of Section 12.4.",
+                "explanation": "The modification extends the payment deadline for the shortfall from 30 days to 90 days and the product delivery after payment from 150 days to 365 days, potentially conflicting with standard commercial reasonableness and potentially affecting the supplier's cash flow. This could be considered an unreasonably long delivery timeframe, making the clause potentially unenforceable under contract law, particularly UCC Article 2 which implies reasonable timeframes for delivery.",
+                "contradicted_law": "UCC Article 2-309 (Absence of Specific Time Provisions; Notice of Termination)",
+                "location": "4.1."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.",
+                "changed_text": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 15 days.",
+                "explanation": "Reducing the notice period for termination without cause from 3 months to 15 days introduces a potential conflict with the principle of good faith and fair dealing, implied in contracts under New York law (where the agreement is governed). A shorter notice period may be deemed commercially unreasonable and could be challenged, particularly if one party is heavily reliant on the agreement. The original 3-month period is more common and accepted in distribution agreements to allow for transition.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing (New York Law)",
+                "location": "12.1."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices or other communications hereunder shall be in writing and shall be given in person, by courier or by registered mail (provided that written confirmation of receipt is provided) addressed as set forth in the heading of this Agreement or such other address as any Party may designate to the other in accordance with this procedure. All communications delivered in person or by courier service shall be deemed to have been received upon delivery, shall be deemed to have been received on the business day following transmission with confirmed answer back, and all notices and other communications sent by registered mail shall be deemed to have been received within 3 business days after posting.",
+                "changed_text": "All notices or other communications hereunder may be given in person or by text message (provided that confirmation of receipt is provided) addressed as set forth in the heading of this Agreement or such other address as any Party may designate to the other in accordance with this procedure. All communications delivered in person shall be deemed to have been received upon delivery, and all notices and other communications sent by text message shall be deemed to have been received immediately after posting.",
+                "explanation": "Changing the acceptable forms of notice to only include 'in person' and 'text message' while removing 'courier' and 'registered mail' introduces a conflict. Requiring that the only means for communication and notice in a legally binding business contract is through text message is not likely to be upheld in a court of law. Text messages may not be admissible as evidence, easy to lose, or reliably archived. Also, there would be no way of assuring that a message sent over a text was actually received.",
+                "contradicted_law": "Federal Rules of Evidence and New York State Contract Law (regarding reasonable notice)",
+                "location": "14.5."
+            }
+        ]
+    }
+]

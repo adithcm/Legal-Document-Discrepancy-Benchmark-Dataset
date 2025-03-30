@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "penntexmidstreampartnerslp_20150416_s-1a_ex-10.4_9042833_ex-10.4_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "“Firm Service” shall mean service for which Transporter is contractually entitled to interrupt its performance only to the extent (i) that such performance is excused pursuant to the provisions of this Agreement relating to Force Majeure, (ii) of specified periods of maintenance, or (iii) that Transporter determines that the operation of all or any portion of its facilities will cause injury or harm to persons or property or to the integrity of its facilities, and with respect to each of (i), (ii) or (iii), only to the extent that Transporter has curtailed all service of the same priority on a pro rata basis in accordance with Article V.",
+                "changed_text": "“Firm Service” shall mean service for which Transporter may interrupt its performance at any time, for any reason, without prior notice. This includes, but is not limited to, events of Force Majeure, maintenance (scheduled or unscheduled), operational needs, regulatory requirements, or any other circumstance deemed necessary by Transporter in its sole discretion. Transporter is not obligated to curtail any other service before interrupting Firm Service.",
+                "explanation": "The original definition of 'Firm Service' limits the reasons for interruption to specific events and requires pro-rata curtailment of same-priority services. The modified definition allows interruption for any reason, at any time, without prior notice, and eliminates the pro-rata curtailment requirement. This creates a direct contradiction and uncertainty about the nature and reliability of 'Firm Service,' potentially rendering the term meaningless.",
+                "location": "Article I. Definitions"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Notwithstanding anything in this Agreement to the contrary, it is acknowledged and agreed that there is no minimum amount of residue Gas that must be delivered to the Transportation System hereunder; accordingly, Customer shall not have any liability (financial or otherwise) for failure to deliver any particular quantity of residue Gas to Transporter; provided, however, the foregoing sentence shall not reduce or eliminate Customer’s obligation to pay the fees provided herein to the extent Services are provided hereunder.",
+                "changed_text": "Notwithstanding anything in this Agreement to the contrary, Customer must ensure a minimum daily delivery of 200,000 MMBtu of residue Gas to the Transportation System. Failure to meet this minimum will result in a penalty of $10,000 per day, payable to Transporter. This obligation is absolute and shall not be excused by any event, including Force Majeure.",
+                "explanation": "The original text explicitly states that there is NO minimum amount of residue Gas that Customer needs to deliver. The revised text introduces a MANDATORY minimum delivery quantity of 200,000 MMBtu per day, with a steep penalty for non-compliance. This is a blatant contradiction that directly impacts the Customer's obligations and financial exposure.",
+                "location": "Article II. Dedication, Commencement Date Facilities, Post-Commencement Date Facilities and Transporter Services"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Restrictions on Assignment. This Agreement may not be assigned, disposed of, alienated or otherwise transferred by either Party, in whole or in part, without the prior written consent of the other Party, which consent shall not be unreasonably withheld, conditioned or delayed, except as provided below.",
+                "changed_text": "Restrictions on Assignment. This Agreement may be freely assigned, disposed of, alienated or otherwise transferred by either Party, in whole or in part, without the need for prior written consent from the other Party. Any restrictions on assignment are hereby waived.",
+                "explanation": "The original text stated assignments are restricted without written consent which cannot be unreasonably withheld. The changed text now completely allows assignments without any consent. This creates a direct contradiction on whether there needs to be consent for assignments.",
+                "location": "Article XV. Miscellaneous"
+            }
+        ]
+    }
+]

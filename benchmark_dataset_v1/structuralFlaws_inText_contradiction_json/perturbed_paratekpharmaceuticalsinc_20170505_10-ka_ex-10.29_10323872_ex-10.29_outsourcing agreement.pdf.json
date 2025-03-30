@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "paratekpharmaceuticalsinc_20170505_10-ka_ex-10.29_10323872_ex-10.29_outsourcing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.1 Short Term Rolling Forecasts\nCommencing on the Effective Date, Customer shall provide to Supplier on a calendar quarterly basis on or before the last Business Day of each\ncalendar quarter during the Term, a short term rolling forecast for the [* * *] period commencing on the first day of the following calendar month\n(each, a “Short Term Rolling Forecast”). Each Short Term Rolling Forecast shall set out Customer’s reasonable and genuine estimate of the\nquantities of the Product to be ordered by Customer and to be delivered by Supplier under this Agreement for the following [* * *].\n(A): In case of an order volume equal or less than [* * *]: The first [* * *] of each short term rolling forecast shall be binding firm purchase orders\nby Customer (each a “Purchase Order”) and the last [* * *] of each short term rolling forecast shall be non-binding, good faith estimates. Customer\nshall provide Supplier with one or more Purchase Order(s) for Product consistent with the first [* * *] binding portion of each Short Term Rolling\nForecast, at least [* * *] in advance of the scheduled delivery dates provided in such Purchase Order(s).",
+                "changed_text": "4.1 Short Term Rolling Forecasts\nCommencing on the Effective Date, Customer shall provide to Supplier on a calendar quarterly basis on or before the last Business Day of each\ncalendar quarter during the Term, a short term rolling forecast for the [* * *] period commencing on the first day of the following calendar month\n(each, a “Short Term Rolling Forecast”). Each Short Term Rolling Forecast shall set out Customer’s reasonable and genuine estimate of the\nquantities of the Product to be ordered by Customer and to be delivered by Supplier under this Agreement for the following [* * *].\n(A): In case of an order volume equal or less than [* * *]: The entirety of each short term rolling forecast shall be binding firm purchase orders\nby Customer (each a “Purchase Order”). Customer\nshall provide Supplier with one or more Purchase Order(s) for Product consistent with the entirety of each Short Term Rolling\nForecast, at least [* * *] in advance of the scheduled delivery dates provided in such Purchase Order(s).",
+                "explanation": "This creates an in-text contradiction by stating that the entirety of each short term rolling forecast shall be binding firm purchase orders. This contradicts the original by removing the ability of good faith estimates.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1 Release Testing\na) Supplier shall perform release testing of all batches of Product prior to delivery to Customer in accordance with the Product Specifications and\nthe Master Batch Record, to determine whether such batches of Product meet the requirements set out in the Product Specifications. Customer\nshall be responsible for the final release of Product prior to shipping and further processing.",
+                "changed_text": "5.1 Release Testing\na) Supplier shall perform release testing of all batches of Product prior to delivery to Customer in accordance with the Product Specifications and\nthe Master Batch Record, to determine whether such batches of Product meet the requirements set out in the Product Specifications. Supplier\nshall be responsible for the final release of Product prior to shipping and further processing.",
+                "explanation": "The original text clearly states that the customer is responsible for the final release. Modifying this line to state that the supplier is responsible contradicts the previous statement.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "12.6 Duration of Obligation\nUnless otherwise agreed by the Parties in writing, the obligations of the Parties relating to Confidential Information set out in this Article 12 shall\nsurvive the termination of this Agreement for a period of [* * *].",
+                "changed_text": "12.6 Duration of Obligation\nUnless otherwise agreed by the Parties in writing, the obligations of the Parties relating to Confidential Information set out in this Article 12 shall\nsurvive the termination of this Agreement indefinitely.",
+                "explanation": "The change removes a definite end to the confidentiality obligations, now stating they last indefinitely, contradicting the original term limitation.",
+                "location": "Section 12.6"
+            }
+        ]
+    }
+]

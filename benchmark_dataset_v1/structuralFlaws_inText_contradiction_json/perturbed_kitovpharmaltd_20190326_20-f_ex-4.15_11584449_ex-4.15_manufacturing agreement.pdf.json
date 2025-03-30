@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "kitovpharmaltd_20190326_20-f_ex-4.15_11584449_ex-4.15_manufacturing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.10 “Control” or “Controlled” shall mean possession of more than fifty percent (50%) of the share capital of a corporation or other business entity, and/or the power to direct or cause the direction of the management and policies of a corporation or other entity whether through the ownership of voting securities, by contract or otherwise.",
+                "changed_text": "1.10 “Control” or “Controlled” shall mean possession of more than fifty percent (50%) of the share capital of a corporation or other business entity, and/or the power to direct or cause the direction of the management and policies of a corporation or other entity whether through the ownership of voting securities, by contract or otherwise.\n\nHowever, for the purposes of Section 11.1 regarding assignment, “Control” shall mean only direct ownership of more than seventy-five percent (75%) of the voting securities of a corporation.",
+                "explanation": "The original definition of 'Control' includes both ownership and the power to direct management. The added clause in Section 1.10 modifies the definition of 'Control' specifically for assignment purposes (Section 11.1) to require a higher threshold of direct ownership (75% vs. 50%). This creates an in-text contradiction. It's now unclear what constitutes 'Control' in other sections of the contract, especially concerning a change of control or other clauses where 'Control' is used. This uncertainty could lead to disputes over whether an assignment has occurred.",
+                "location": "Section 1.10"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1 The Agreement shall commence on the Effective Date and remain in full force and effect for an initial term of **** from the Supply Commencement Date of the Product (“Initial Term”). Following the Initial Term, the Agreement shall automatically be renewed for additional periods of **** (each, a “Renewal Term,” and, together with the Initial Term, the “Term”)), unless a Party provides written notification of non-renewal to the other Party at least **** of the Initial Term or a Renewal Term.",
+                "changed_text": "5.1 The Agreement shall commence on the Effective Date and remain in full force and effect for an initial term of **** from the Supply Commencement Date of the Product (“Initial Term”). Following the Initial Term, the Agreement may be renewed for additional periods of **** (each, a “Renewal Term,” and, together with the Initial Term, the “Term”)), upon the mutual written agreement of both parties 90 days prior to the expiration of the Initial Term or Renewal Term. The absence of such written agreement shall result in the termination of this agreement at the end of the current term. Notwithstanding the foregoing, this agreement shall automatically be renewed for additional periods of **** (each, a “Renewal Term,” and, together with the Initial Term, the “Term”)), unless a Party provides written notification of non-renewal to the other Party at least **** of the Initial Term or a Renewal Term.",
+                "explanation": "The clause originally states the agreement auto-renews unless non-renewal notice is given. The modified version introduces the need for mutual written agreement for renewal, but then states the agreement automatically renews unless notice of non-renewal is provided. This contradiction creates significant uncertainty about the renewal process. It's unclear whether auto-renewal occurs unless actively prevented, or whether positive agreement is required for each renewal. This could lead to the agreement being unintentionally terminated or unexpectedly renewed.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "8.4 EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, DEXCEL MAKES NO WARRANTY, EXPRESSED OR IMPLIED, AND SPECIFICALLY MAKES NO WARRANTY OF MERCHANTABILITY OR WARRANTY OF FITNESS FOR ANY PARTICULAR PURPOSE, REGARDING THE PRODUCTS OR ANY OTHER MATTER WITH RESPECT TO THE TRANSACTIONS CONTEMPLATED HEREBY.",
+                "changed_text": "8.4 EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, DEXCEL MAKES NO WARRANTY, EXPRESSED OR IMPLIED, AND SPECIFICALLY MAKES NO WARRANTY OF MERCHANTABILITY OR WARRANTY OF FITNESS FOR ANY PARTICULAR PURPOSE, REGARDING THE PRODUCTS OR ANY OTHER MATTER WITH RESPECT TO THE TRANSACTIONS CONTEMPLATED HEREBY.\n\nNotwithstanding the foregoing, Dexcel warrants that the Product shall conform to the Specifications and be free from defects in materials and workmanship for a period of one (1) year from the date of Delivery.",
+                "explanation": "Section 8.4 originally disclaims all warranties, including merchantability and fitness. The added clause then provides a specific warranty that the Product will conform to Specifications and be free from defects for one year. This creates a direct contradiction. It is unclear whether Dexcel is providing a limited warranty as described in the added sentence, or if the disclaimer in the original sentence is still fully in effect, potentially negating the limited warranty. This ambiguity could lead to disputes over Dexcel's liability for defective products.",
+                "location": "Section 8.4"
+            }
+        ]
+    }
+]

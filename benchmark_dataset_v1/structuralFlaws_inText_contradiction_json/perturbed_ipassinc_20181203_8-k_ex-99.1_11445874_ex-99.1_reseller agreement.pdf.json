@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ipassinc_20181203_8-k_ex-99.1_11445874_ex-99.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "iPass may change the pricing in Exhibit C upon notice to Channel Partner, such changes to be effective within thirty (30) days after the date of such notice, such changes may include, by way of example only, the application of end of life fees.",
+                "changed_text": "iPass may change the pricing in Exhibit C without any notice to Channel Partner, and such changes shall be effective immediately. Such changes may include, but are not limited to, the application of end-of-life fees or additional surcharges.",
+                "explanation": "This change directly contradicts the original text. The original states that iPass must provide 30 days' notice before changing prices. The modified version allows iPass to change prices immediately without notice, creating uncertainty and potential disputes.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "For all other Confidential Information, such obligations shall continue for five (5) years from the date of initial disclosure.",
+                "changed_text": "For all other Confidential Information, such obligations shall cease immediately after the termination of this agreement.",
+                "explanation": "This creates a contradiction regarding the duration of confidentiality obligations. The original text states a five-year period post-disclosure, while the modified version states obligations end upon termination of the agreement, creating uncertainty about how long the confidentiality extends beyond the contract's life.",
+                "location": "Section 7.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Agreement shall automatically renew for successive one (1) year terms (each a “Renewal Term”) unless either party provides the other party written notification of its intent to terminate the Agreement no later than sixty (60) days prior to the end of the then applicable term.",
+                "changed_text": "The Agreement may or may not automatically renew, subject to iPass's sole discretion, regardless of whether either party provides written notification of its intent to terminate the Agreement. iPass reserves the right to decide on renewal terms on a case-by-case basis.",
+                "explanation": "The original text clearly states an automatic renewal with a 60-day notice for termination. The modified version introduces uncertainty by making the renewal discretionary to iPass, regardless of notification, effectively negating the purpose and procedure of the original termination clause. This could lead to disputes about renewal expectations.",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

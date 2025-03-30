@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "westpharmaceuticalservicesinc_20200116_8-k_ex-10.1_11947529_ex-10.1_supply agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Title to Product and risk of loss shall pass to Buyer at Seller's facilities upon delivery to a carrier or into Buyer's transport unless otherwise specified in the agreement.",
+                "changed_text": "Title to Product shall pass to Buyer at Seller's facilities upon delivery to a carrier or into Buyer's transport unless otherwise specified in the agreement. Risk of loss will remain with the Seller until the product reaches the Buyer's final destination.",
+                "explanation": "This change creates a contradiction by separating title transfer and risk of loss. The original clause stated both pass at the same point (delivery to carrier). The modified clause states title passes at the original point, but risk remains with the seller until final destination. This creates uncertainty about who is responsible for the product during transit.",
+                "location": "ATTACHMENT A, Section 7"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "THERE ARE NO WARRANTIES WHICH EXTEND BEYOND THE PRODUCT DESCRIPTION HEREIN, AND SELLER MAKES NO WARRANTY, EXPRESS OR IMPLIED, OF FITNESS FOR PARTICULAR USE, MERCHANTABILITY OR OTHERWISE WITH RESPECT TO PRODUCT, WHETHER USED SINGLY OR IN COMBINATION WITH OTHER SUBSTANCES OR IN ANY PROCESS, EXCEPT THAT PRODUCT SOLD HEREUNDER SHALL CONFORM TO SELLER'S STANDARD SALES SPECIFICATIONS AS OF THE DATE OF SHIPMENT.",
+                "changed_text": "THERE ARE NO WARRANTIES WHICH EXTEND BEYOND THE PRODUCT DESCRIPTION HEREIN, AND SELLER MAKES NO WARRANTY, EXPRESS OR IMPLIED, OF FITNESS FOR PARTICULAR USE, MERCHANTABILITY OR OTHERWISE WITH RESPECT TO PRODUCT, WHETHER USED SINGLY OR IN COMBINATION WITH OTHER SUBSTANCES OR IN ANY PROCESS. Seller warrants that product sold hereunder shall conform to industry quality standards, and Buyer is responsible for verifying that the product fits the specific application. In the event the goods do not meet industry standards for similar products, the seller must provide a replacement or a full refund to the buyer. The product must meet Seller's standard sales specifications as of the date of shipment.",
+                "explanation": "The original clause disclaims all warranties except that the product must meet the seller's specifications. The modified clause introduces a warranty regarding \"industry quality standards\" which contradicts the disclaimer. Then, it states that Seller warrants that product sold hereunder shall conform to industry quality standards, and Buyer is responsible for verifying that the product fits the specific application, which creates additional uncertainty and transfers responsibility to the Buyer. The final addition about Seller's sales specification conflicts with all the prior conditions because now it's uncertain which standards hold up.",
+                "location": "ATTACHMENT A, Section 8"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Buyer shall notify EM if Buyer has not received such information by the delivery date. EM will assume that Buyer has received the necessary information absent notification from Buyer. Buyer shall provide such health and safety information to anyone including without limitation its employees, contractors, agents or customers who may be exposed to the product. Buyer warrants that it possesses the necessary expertise for handling products of the type being supplied hereunder and that it will take the steps necessary to review and understand that information contained on the SDS for each product it purchases.",
+                "changed_text": "EM will make reasonable efforts to notify Buyer of Health and Safety Information. EM will not be held responsible if the Buyer has not received or viewed such information. It is the Buyer's responsibility to ensure their employees are properly trained and use the product safely. Under no circumstances will the seller be responsible for damages that may be incurred.",
+                "explanation": "The original clause clearly states the Buyer's responsibility to obtain and disseminate safety information. The modified clause shifts the initial responsibility to EM to notify the Buyer, but immediately absolves EM of responsibility if the Buyer doesn't receive it, completely contradicting the earlier text about Buyer's warranties and responsibilities. Then adds a statement that is broad that states no responsibility of the seller even though the safety information is relevant.",
+                "location": "ATTACHMENT H, Section 13"
+            }
+        ]
+    }
+]

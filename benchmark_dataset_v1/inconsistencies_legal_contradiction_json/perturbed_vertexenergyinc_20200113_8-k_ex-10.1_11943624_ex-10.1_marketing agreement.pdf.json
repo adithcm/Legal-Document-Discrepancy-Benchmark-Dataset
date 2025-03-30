@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "vertexenergyinc_20200113_8-k_ex-10.1_11943624_ex-10.1_marketing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within three (3) Business Days after the date Vertex invoices Bunker One, to an account desig- nated from time to time by Vertex.",
+                "changed_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within fifteen (15) Business Days after the date Vertex invoices Bunker One, to an account desig- nated from time to time by Vertex.",
+                "explanation": "This change introduces a delay in payment terms, potentially conflicting with prompt payment laws in Alabama, which often require faster payment timelines, especially for specific industries or types of goods. While Alabama doesn't have a comprehensive prompt payment act like some states, unreasonably delaying payments can lead to breach of contract claims or other legal issues related to fair business practices. Setting a 15 day term for payments increases the likelihood of violating implicit prompt payment expectations, especially for smaller vendors.",
+                "contradicted_law": "Potential violation of implied duties of good faith and fair dealing under Alabama contract law, and potential conflicts with industry standards regarding prompt payment.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A Party fails to make, when due, any payment under this JSMA and such failure is not remedied within three (3) Business Days after written notice of such failure is given to the Party;",
+                "changed_text": "A Party fails to make, when due, any payment under this JSMA and such failure is not remedied within one (1) Business Day after written notice of such failure is given to the Party;",
+                "explanation": "Reducing the cure period for payment defaults to one business day creates an unreasonably short timeframe, potentially violating standard commercial practices and principles of fairness. This is because under Alabama law, the courts require to have a reasonable timeline to resolve a situation. Shortening the payment cure to only 1 day contradicts that regulation and makes it susceptible to being challenged.",
+                "contradicted_law": "Potentially conflicts with principles of reasonable notice and cure periods under Alabama contract law.",
+                "location": "Section 6.1.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The obligation of confidentiality shall be of a continuing nature for 2 years after termination of this JSMA and shall not be canceled by the expiration, suspension or termination of the JSMA.",
+                "changed_text": "The obligation of confidentiality shall be of a continuing nature for 6 months after termination of this JSMA and shall not be canceled by the expiration, suspension or termination of the JSMA.",
+                "explanation": "Reducing the confidentiality period to six months may be deemed commercially unreasonable, particularly for agreements involving trade secrets and sensitive business information. Alabama recognizes the protection of trade secrets, and a six-month confidentiality period may be insufficient to prevent misuse of such information, potentially undermining the value of the trade secrets and conflicting with established legal standards for their protection.",
+                "contradicted_law": "Potentially conflicts with trade secret protection laws in Alabama, depending on the nature of the confidential information and the reasonableness of the protection period.",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]

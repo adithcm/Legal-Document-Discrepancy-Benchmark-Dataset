@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "emmiscommunicationscorp_20191125_8-k_ex-10.6_11906433_ex-10.6_marketing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "11.1\nProgrammer’s Events of Default. The occurrence of any of the following will be deemed an Event\nof Default by Programmer under this Agreement: (a) Programmer fails to observe or perform its obligations contained in this\nAgreement in any material respect; or (b) Programmer breaches the representations and warranties made by it under this\nAgreement in any material respect.",
+                "changed_text": "11.1\nProgrammer’s Events of Default. The occurrence of any of the following will be deemed an Event\nof Default by Programmer under this Agreement: (a) Programmer fails to observe or perform its obligations contained in this\nAgreement in any material respect; (b) Programmer breaches the representations and warranties made by it under this\nAgreement in any material respect; or (c) Programmer fails to provide WLIB Programs that achieve a minimum Arbitron rating of 0.5 in the New York DMA for two consecutive months.",
+                "explanation": "This change introduces a new 'Event of Default' related to Arbitron ratings. This contradicts the existing framework, which focuses on contractual obligations and warranties. It creates uncertainty as to whether failure to achieve a specific rating is truly a material breach, especially since advertising sales are controlled separately (Section 4) and the agreement contains a no payment clause (Section 5). This adds an ambiguous performance metric with unclear consequences.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "11.3\nCure Period. Notwithstanding the foregoing, any Event of Default will not be deemed to have\noccurred until fifteen (15) days after the non-defaulting party has provided the defaulting party with written notice specifying the\nEvent of Default and such Event of Default remains uncured.",
+                "changed_text": "11.3\nCure Period. Notwithstanding the foregoing, any Event of Default related to breaches of representations and warranties will not be deemed to have\noccurred until fifteen (15) days after the non-defaulting party has provided the defaulting party with written notice specifying the\nEvent of Default and such Event of Default remains uncured. Events of Default as described in section 11.1 (c) will have no cure period.",
+                "explanation": "This edit creates conflicting cure periods for defaults. While a 15-day cure period remains for breaches of representations and warranties, the new Arbitron rating default has no cure period. This makes the enforcement of that clause immediate and potentially harsh, contradicting the more lenient approach for other types of defaults outlined in section 11.1. This difference in treatment creates uncertainty and potential for disputes regarding the severity and immediacy of consequences.",
+                "location": "Section 11.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "11.4\nTermination in the Event of Default. Upon the occurrence of an Event of Default, and in the\nabsence of a timely cure pursuant to Section 11.3, the non-defaulting party may terminate this Agreement, effective immediately\nupon written notice to the defaulting party.",
+                "changed_text": "11.4\nTermination in the Event of Default. Upon the occurrence of an Event of Default, and in the\nabsence of a timely cure pursuant to Section 11.3, the non-defaulting party may terminate this Agreement, effective immediately\nupon written notice to the defaulting party. However, in the event of termination due to the Event of Default listed in section 11.1 (c), the Licensee will only be able to terminate this agreement after a 90-day written notice.",
+                "explanation": "The introduction of a 90-day notice period *only* for the specific default concerning Arbitron ratings (introduced in 11.1(c)) directly contradicts the original 'effective immediately upon written notice' clause for all other Events of Default. This creates a bifurcated termination process where the required action depends on *which* default occurred. This significantly weakens the Licensee's ability to respond quickly to low ratings but leaves other defaults with immediate termination rights, generating an obvious inconsistency.",
+                "location": "Section 11.4"
+            }
+        ]
+    }
+]

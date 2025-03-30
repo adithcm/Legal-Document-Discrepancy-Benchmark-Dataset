@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "linkpluscorp_20050802_8-k_ex-10_3240252_ex-10_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments due shall be made within 45 days of the\n                           close of each calendar quarter.",
+                "changed_text": "Payments due shall be made within 90 days of the\n                           close of each calendar quarter.",
+                "explanation": "Maryland law generally requires payments to subcontractors to be made promptly. While 'promptly' isn't explicitly defined in all contexts, 90 days significantly exceeds reasonable payment terms and can be considered an unreasonable delay, potentially violating implied duties of good faith and fair dealing which exist in every Maryland contract. This extended delay could also create financial hardship and impede Axiometric's ability to meet its financial obligations.",
+                "contradicted_law": "Implied duty of good faith and fair dealing under Maryland contract law.",
+                "location": "Section 3.5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments not received within sixty (60) days after\n                           their due date will be considered a material breach\n                           of this Agreement and the party due payment may\n                           pursue any and all legal action to recover the\n                           payment and reasonable legal fees incurred in the\n                           pursuit of said payment.",
+                "changed_text": "Payments not received within ninety (90) days after\n                           their due date will be considered a material breach\n                           of this Agreement and the party due payment may\n                           pursue any and all legal action to recover the\n                           payment and reasonable legal fees incurred in the\n                           pursuit of said payment.",
+                "explanation": "By extending the period before a late payment constitutes a material breach from 60 to 90 days, the contract diminishes the protection afforded to the payee. This contradicts the general principle that the non-breaching party is entitled to seek remedies promptly when a material breach occurs and may conflict with the Maryland Uniform Commercial Code provisions that govern commercial transactions between merchants.",
+                "contradicted_law": "Maryland Uniform Commercial Code provisions relating to breach of contract and remedies.",
+                "location": "Section 3.5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No action,\n                  case, suit or proceeding, regardless of form, arising out of\n                  or related to this Agreement, may be brought by either party\n                  more than one (1) year after the cause of action has arisen, or in the case of nonpayment, more than two (2) years from the\n                  date of the last payment.",
+                "changed_text": "No action,\n                  case, suit or proceeding, regardless of form, arising out of\n                  or related to this Agreement, may be brought by either party\n                  more than six (6) months after the cause of action has arisen, or in the case of nonpayment, more than one (1) year from the\n                  date of the last payment.",
+                "explanation": "In Maryland, the statute of limitations for contract claims is generally three years. Shortening this period to six months is a violation of this law because it gives parties less time to pursue legal claims.",
+                "contradicted_law": "Maryland statute of limitations for contract claims (typically three years).",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

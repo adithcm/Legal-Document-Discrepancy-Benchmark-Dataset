@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "datacalltechnologies_20060918_sb-2a_ex-10.9_944510_ex-10.9_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.3  LICENSOR  grants  to  plan_b  a  license  to produce, use, distribute, promote  and  publicly  display  the  Content  in any possible way for distribution and marketing purposes. Additionally, Licensee shall have the  right  to  use  the trademarks, trade names, or logos relating to Content  (the  \"TRADEMARKS\").",
+                "changed_text": "5.3  LICENSOR  grants  to  plan_b  a  license  to produce, use, distribute, promote  and  publicly  display  the  Content  in any possible way for distribution and marketing purposes. Licensee will require written consent from Licensor prior to using the trademarks, trade names, or logos relating to Content  (the  \"TRADEMARKS\").",
+                "explanation": "The original text grants plan_b the right to use trademarks related to the content, but the modified version introduces a condition requiring written consent from LICENSOR before using the trademarks. This creates an internal contradiction regarding plan_b's rights over the trademarks.",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "7.1  Unless  otherwise  stated  in  the  Appendix  the  term of this letter Agreement  shall  continue  for  twenty-four  (24)  months  with  the effective  date  unless  terminated sooner or extended pursuant to the terms hereof (\"Initial Term\"). The Initial Term shall automatically be extended  for  an additional period of half a year unless either party provides  the  other party with written notification of termination of the  letter  Agreement  at  least 60 days prior to end of such period.",
+                "changed_text": "7.1  Unless  otherwise  stated  in  the  Appendix  the  term of this letter Agreement  shall  continue  for  twenty-four  (24)  months  with  the effective  date  unless  terminated sooner or extended pursuant to the terms hereof (\"Initial Term\"). The Initial Term shall automatically be extended  for  an additional period of half a year unless both parties provide written consent to extend the letter Agreement at least 60 days prior to end of such period.",
+                "explanation": "The original clause states automatic renewal for an additional period of half a year unless *either* party provides written notice of termination. The modified version contradicts this by stating that the Initial Term shall automatically be extended only if *both* parties provide written consent to extend. This changes the condition from unilateral termination prevention to requiring bilateral approval for extension, creating a contradiction and uncertainty about the renewal process.",
+                "location": "Section 7.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.3  plan_b  shall  provide  LICENSOR  with  a  detailed  written  record, which  includes the number of End User downloads and each distribution channel.  Such  report  shall  be  provided  to LICENSOR in electronic format  within  6  weeks  of  the  end  of  a  quarter.",
+                "changed_text": "3.3  plan_b  shall  provide  LICENSOR  with  a  detailed  written  record, which  includes the number of End User downloads and each distribution channel.  Such  report  may be provided to LICENSOR at plan_b's discretion.",
+                "explanation": "The original text states that the plan_b *shall* provide LICENSOR with a detailed written record. The modified version changes this mandatory reporting to discretionary reporting, where the record *may* be provided at plan_b's discretion. This creates an internal contradiction about plan_b's obligation to provide the detailed report.",
+                "location": "Section 3.3"
+            }
+        ]
+    }
+]

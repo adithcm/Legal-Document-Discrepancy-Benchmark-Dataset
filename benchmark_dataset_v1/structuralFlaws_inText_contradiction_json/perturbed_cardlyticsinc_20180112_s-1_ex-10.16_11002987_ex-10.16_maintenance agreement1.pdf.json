@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "19.5 Supplier hereby represents and warrants that the Software shall be and shall remain Operative, from the Delivery Date through the end of\nthe Warranty Period. Following expiration of the Warranty Period and for so long as Bank of America has contracted Supplier to provide\nMaintenance Services, Supplier represents and warrants that the Software shall remain Operative. If the Software is not Operative at the\nexpiration of the initial Warranty Period, the Warranty Period shall be extended until Supplier makes the Software Operative. This warranty\nshall not be affected by Bank of America’s modification of the Software so long as Supplier can discharge its warranty obligations\nnotwithstanding such modifications or following their removal by Bank of America.",
+                "changed_text": "19.5 Supplier will use commercially reasonable efforts to ensure the Software is Operative from the Delivery Date through the end of the Warranty Period. Following expiration of the Warranty Period, Supplier's responsibility to keep the software operative is solely dependent on resource availability and market conditions. If the Software is not Operative at the expiration of the initial Warranty Period, Supplier is not obligated to extend the Warranty Period. This warranty can be affected by Bank of America’s modification of the Software and it is Bank of America's responsibility to make sure the software remains operative after such modification.",
+                "explanation": "The original text clearly stated that Supplier must keep the software operative during the warranty period, and even after if maintenance services are contracted. The modified version removes the certainty by introducing “solely dependent on resource availability and market conditions” and removing the obligation to extend the warranty period, making it unclear when the software can be inoperative. It also states that Bank of America is responsible after modification, contradicting the supplier's responsibility stated before.",
+                "location": "19.5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.1 This Agreement shall apply and remain in effect from the Effective Date and perpetually thereafter unless terminated pursuant to the Section\nentitled “Termination.”",
+                "changed_text": "4.1 This Agreement shall apply and remain in effect from the Effective Date. This Agreement shall automatically terminate one year after the Effective Date, unless both parties agree in writing to extend the agreement. Supplier may terminate this agreement at any time, with or without cause, by providing written notice to Bank of America.",
+                "explanation": "The original text states the agreement is perpetual. The modified version introduces a one-year termination clause and allows the supplier to terminate at any time, contradicting the initial perpetuity clause.",
+                "location": "4.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.26 Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be twenty-four (24) hours per\nday, seven (7) per week, including Bank of America holidays.",
+                "changed_text": "1.26 Maintenance Period - unless otherwise specified in a Product License Schedule, the Maintenance Period shall be from 9:00 AM to 5:00 PM Eastern Standard Time, Monday through Friday, excluding Bank of America holidays. Supplier may, at its sole discretion, offer maintenance services outside of these hours, but is not obligated to do so.",
+                "explanation": "The original text specifies the maintenance period is 24/7. The modified version limits it to standard business hours, contradicting the original definition.",
+                "location": "1.26"
+            }
+        ]
+    }
+]

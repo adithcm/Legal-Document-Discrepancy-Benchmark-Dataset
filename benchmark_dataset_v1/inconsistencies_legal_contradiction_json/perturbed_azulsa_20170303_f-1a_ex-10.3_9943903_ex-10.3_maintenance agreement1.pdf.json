@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "azulsa_20170303_f-1a_ex-10.3_9943903_ex-10.3_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within [*****] as from the End Date and without prejudice to Clause 6 of Exhibit 14 (“Price conditions”) when applicable, a final reconciliation shall be performed by the Repairer as per this Clause 11 (“Reconciliation”).\nAny Credit Note resulting from this final reconciliation and due by the Repairer to the Company shall be issued within [*****] as from the effective End Date, subject to Clause 11.3 of this Agreement.",
+                "changed_text": "Within [*****] as from the End Date and without prejudice to Clause 6 of Exhibit 14 (“Price conditions”) when applicable, a final reconciliation shall be performed by the Repairer as per this Clause 11 (“Reconciliation”).\nAny Credit Note resulting from this final reconciliation and due by the Repairer to the Company shall be issued within 180 days as from the effective End Date, subject to Clause 11.3 of this Agreement.",
+                "explanation": "The original text gives an unspecified timeframe for issuing a credit note. By changing this timeframe to '180 days,' the contract creates a conflict with prompt payment laws that mandate a shorter timeframe in Brazil.",
+                "contradicted_law": "Brazilian Law 4.729/65 (establishes penalties for non-compliance with tax obligations, which can include delays in issuing credit notes affecting tax reconciliation).",
+                "location": "Clause 11.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If any payment due to the Repairer (the “Unpaid Amount”) remains unpaid after the date on which it is payable (the “Due Date”), without prejudice to any other rights or remedies that it may have at Law and/or under this Agreement, the Repairer shall be entitled to charge interests on such overdue sum from the Due Date until the actual date of payment of such sum at a rate per annum equal to the aggregate of [*****], such interest being calculated on a monthly basis. In any case, such interest rate shall not be lower than the highest of the three (3) following rates:",
+                "changed_text": "If any payment due to the Repairer (the “Unpaid Amount”) remains unpaid after the date on which it is payable (the “Due Date”), without prejudice to any other rights or remedies that it may have at Law and/or under this Agreement, the Repairer shall be entitled to charge interests on such overdue sum from the Due Date until the actual date of payment of such sum at a rate per annum equal to 50%, such interest being calculated on a monthly basis. In any case, such interest rate shall not be lower than the highest of the three (3) following rates:",
+                "explanation": "Brazilian law imposes limits on default interest rates. By setting the default interest rate to a fixed 50% per annum, the contract potentially violates these laws if that rate exceeds the legal maximum at the time the debt is incurred.",
+                "contradicted_law": "Brazilian Civil Code, Article 406 combined with the Selic rate (Brazil's base interest rate) that may limit conventional interest rates and default interest rates.",
+                "location": "Clause 12.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any invoice disputed by the Company shall have to be issued by Notice duly documented to the Repairer within [*****] from the date of its issuance. For the sake of clarity, the undisputed portion of such invoice shall be paid pursuant to this Agreement. Any invoice not disputed by the Company within said [*****] period, shall be deemed to be accepted by the Company.",
+                "changed_text": "Any invoice disputed by the Company shall have to be issued by Notice duly documented to the Repairer within 15 days from the date of its issuance. For the sake of clarity, the undisputed portion of such invoice shall be paid pursuant to this Agreement. Any invoice not disputed by the Company within said 15-day period, shall be deemed to be accepted by the Company.",
+                "explanation": "The modified text creates a legal risk related to mandatory consumer protection standards by limiting the Company’s time to dispute invoices to 15 days. This may be considered an unreasonable restriction on the consumer's (Azul's) rights.",
+                "contradicted_law": "Brazilian Consumer Protection Code, Article 26 (provides consumers with a reasonable period to identify and claim hidden defects, which may surpass 15 days).",
+                "location": "Clause 12.5"
+            }
+        ]
+    }
+]

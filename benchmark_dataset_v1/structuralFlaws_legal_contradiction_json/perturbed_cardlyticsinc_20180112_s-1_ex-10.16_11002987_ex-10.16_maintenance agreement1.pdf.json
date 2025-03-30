@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the internal laws, and not by the laws regarding conflicts of laws, of the State of North Carolina. Each Party hereby submits to the exclusive jurisdiction of the courts of such state, and waives any objection to venue with respect to actions brought in such courts. This provision shall not be construed to conflict with the provisions of the Section entitled “Mediation/Arbitration.”",
+                "changed_text": "This Agreement shall be governed by the internal laws, and not by the laws regarding conflicts of laws, of the State of North Carolina. Each Party hereby submits to the exclusive jurisdiction of the courts of such state, and waives any objection to venue with respect to actions brought in such courts. This provision shall not be construed to conflict with the provisions of the Section entitled “Supplier Diversity.”",
+                "explanation": "The inclusion of the clause relating to governing law in the Supplier Diversity section is inappropriate, as it is unrelated to diversity. It could cause confusion as governing law and jurisdiction requirements typically must be placed in their own section.",
+                "contradicted_law": "General Contract Law, Uniform Commercial Code",
+                "location": "35.0"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Any controversy or claim, other than those specifically excluded, between or among the Parties not resolved through mediation under the preceding provision, shall at the request of a Party be determined by arbitration. The arbitration shall be conducted by one independent arbitrator who shall be an attorney or retired judge practicing in the areas of banking and/or Information technology law. The arbitration shall be held in Charlotte, N.C. in accordance with the United States Arbitration Act (9 U.S.C. 1 et seq.), notwithstanding any choice of law provision in this Agreement, and under the auspices and the Commercial Arbitration Rules of the American Arbitration Association.",
+                "changed_text": "Any controversy or claim, other than those specifically excluded, between or among the Parties not resolved through mediation under the preceding provision, shall at the request of a Party be determined by arbitration. The arbitration shall be conducted by one independent arbitrator who shall be an attorney or retired judge practicing in the areas of banking and/or Information technology law. The arbitration shall be held in Charlotte, N.C. in accordance with the parties’ mutual agreement, notwithstanding any choice of law provision in this Agreement, and under the auspices and the Commercial Arbitration Rules of the American Arbitration Association.",
+                "explanation": "By changing \"United States Arbitration Act\" to \"parties’ mutual agreement\", this clause introduces ambiguity and may undermine the enforceability of the arbitration agreement by conflicting with the original, clear reference to the applicable federal statute.",
+                "contradicted_law": "United States Arbitration Act (9 U.S.C. 1 et seq.)",
+                "location": "37.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Supplier shall comply and shall cause its Representatives and Subcontractors to comply with all personnel, facility, safety and security policies, rules and regulations and other instructions of Bank of America, when performing work at a Bank of America facility or accessing any Bank of America systems or data, and shall conduct its work at Bank of America facilities or on Bank of America systems in such a manner as to avoid endangering the safety, or interfering with the convenience of, Bank of America Representatives or customers. Supplier understands that Bank of America operates under various laws and regulations that are unique to the security-sensitive banking industry.",
+                "changed_text": "Supplier shall comply and shall cause its Representatives and Subcontractors to comply with all personnel, facility, safety and security policies, rules and regulations and other instructions of Bank of America, when performing work at a Bank of America facility or accessing any Bank of America systems or data, but shall conduct its work at Supplier's facilities or on Supplier's systems in such a manner as to avoid endangering the safety, or interfering with the convenience of, Bank of America Representatives or customers. Supplier understands that Bank of America operates under various laws and regulations that are unique to the security-sensitive banking industry.",
+                "explanation": "The phrase \"but shall conduct its work at Supplier's facilities or on Supplier's systems\" creates a contradiction. The first part requires compliance at Bank of America facilities, while the alteration implies the opposite, confusing the scope of required compliance.",
+                "contradicted_law": "Federal Deposit Insurance Act, Gramm-Leach-Bliley Act",
+                "location": "25.5"
+            }
+        ]
+    }
+]

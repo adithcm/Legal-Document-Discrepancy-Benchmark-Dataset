@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "penntexmidstreampartnerslp_20150416_s-1a_ex-10.4_9042833_ex-10.4_transportation agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Governing Law. This Agreement is entered into in the State of Texas and shall be governed, interpreted and construed in accordance with the laws\nof the State of Texas without regard to the conflicts of laws provisions thereof. Exclusive venue for any suit, action or proceeding brought by either\nParty in connection with this Agreement or arising out of the terms or conditions hereof shall be in the state or federal courts situated in Harris\nCounty, Texas.",
+                "changed_text": "Headings. The headings and captions in this Agreement have been inserted for convenience of reference only and shall not define or limit any of\nthe terms and provisions hereof.\nGoverning Law. This Agreement is entered into in the State of Texas and shall be governed, interpreted and construed in accordance with the laws\nof the State of Delaware without regard to the conflicts of laws provisions thereof. Exclusive venue for any suit, action or proceeding brought by either\nParty in connection with this Agreement or arising out of the terms or conditions hereof shall be in the state or federal courts situated in Kent\nCounty, Delaware.",
+                "explanation": "The governing law clause specifies which jurisdiction's laws will be used to interpret the contract, and where legal disputes must be resolved. This change puts the location under a heading about writing formats and styles, and changes Texas law to Delaware law, where both Transporter and Customer are registered, but where venue is in Kent County instead of Harris County. It causes a contradiction in the case of a legal suit.",
+                "contradicted_law": "Contract Law - Governing Law and Venue provisions",
+                "location": "Article XV. Miscellaneous"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Restrictions on Assignment. This Agreement may not be assigned, disposed of, alienated or otherwise transferred by either Party, in whole or in\npart, without the prior written consent of the other Party, which consent shall not be unreasonably withheld, conditioned or delayed, except as\nprovided below.\nPermitted Assignments. Notwithstanding the foregoing, (i) either Party may assign this Agreement to an Affiliate of such Party without the consent\nof the other Party, (ii) either Party may pledge this Agreement to secure any credit facility or indebtedness of such Party or its Affiliates without the\nconsent of the other Party, (iii) Transporter may assign this Agreement without Customer’s consent in connection with the sale or transfer of the\nTransportation System, and (iv) Customer may assign or partially assign this Agreement without Transporter’s consent in connection with the sale\nor transfer of all or part of Customer’s ownership interests in the wells (or in the lands upon which such wells are located) producing Customer Gas\ndelivered hereunder, provided that such assignee has a credit rating reasonably acceptable to Transporter at the time of such sale or transfer. In the\ncase of transfers under clause (iv) above, the transferor shall be released from its obligations and liabilities under this Agreement to the extent of\nthe obligations assumed by the transferee, provided that Customer’s and such transferee’s combined obligations to Transporter shall be no greater\nthan Customer’s obligations to Transporter prior to such transfer.",
+                "changed_text": "Restrictions on Assignment. This Agreement may be assigned, disposed of, alienated or otherwise transferred by either Party, in whole or in\npart, without the prior written consent of the other Party, except that consent can be unreasonably withheld and arbitrarily delayed as determined by assignor in good faith.\nPermitted Assignments. Notwithstanding the foregoing, (i) either Party may assign this Agreement to an Affiliate of such Party so long as prior notice is given.\ncase of transfers under clause (iv) above, the transferor shall be released from its obligations and liabilities under this Agreement, provided that such assignee has a credit rating of BBB. In the",
+                "explanation": "The change introduces an internal contradiction by stating assignment requires consent, but immediately contradicting that with the idea that it can unreasonably be withheld at the assignor's discretion in good faith. It removes the part where the assignor needs to give prior written notice. Also changes the credit ratings to BBB from 'reasonably acceptable'.",
+                "contradicted_law": "Contract Law - Assignment Clause",
+                "location": "Article XV. Miscellaneous"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Survival. The respective indemnification obligations of the Parties set forth in this Agreement shall survive the expiration of the Term and any\ntermination of this Agreement.",
+                "changed_text": "Survival. The respective indemnification obligations of the Parties set forth in this Agreement shall not survive the expiration of the Term and any termination of this Agreement except in cases of willful misconduct.",
+                "explanation": "Modifies the survival clause to say indemnification obligations will not survive the contract term except in cases of wilful misconduct. This creates ambiguity, as standard survival clauses state indemnification survives termination/expiration. This change makes it unclear how long indemnification extends and whether the indemnification survives termination/expiration for all events.",
+                "contradicted_law": "Contract Law - Survival Clause",
+                "location": "Article XV. Miscellaneous"
+            }
+        ]
+    }
+]

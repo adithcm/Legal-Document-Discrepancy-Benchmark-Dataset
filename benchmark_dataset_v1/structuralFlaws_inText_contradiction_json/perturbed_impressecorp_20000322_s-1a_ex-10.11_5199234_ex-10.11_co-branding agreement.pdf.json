@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "impressecorp_20000322_s-1a_ex-10.11_5199234_ex-10.11_co-branding agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.  DEFINITIONS\n     1.1. AFFILIATE shall mean, when used with reference to a party, any\nindividual or entity directly or indirectly controlling, controlled by or under\ncommon control with such party. For purposes of this definition, \"control\" means\nthe direct or indirect ownership of at least 50% of the outstanding voting\nsecurities of a party, or the right to control the policy decisions of such\nparty.",
+                "changed_text": "1.  DEFINITIONS\n     1.1. AFFILIATE shall mean, when used with reference to a party, any\nindividual or entity directly or indirectly controlling, controlled by or under\ncommon control with such party. For purposes of this definition, \"control\" means\nthe direct or indirect ownership of at least 25% of the outstanding voting\nsecurities of a party, or the right to control the policy decisions of such\nparty.",
+                "explanation": "The definition of 'Affiliate' is changed by lowering the percentage of ownership required for control from 50% to 25%. This creates ambiguity as to what constitutes an affiliate, impacting clauses that rely on this definition, like assignment or confidentiality obligations.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.   TERMINATION AND RENEWAL\n     5.1. The Term of this Agreement shall begin on the Effective Date and shall\nend fifteen months therefrom.",
+                "changed_text": "5.   TERMINATION AND RENEWAL\n     5.1. The Term of this Agreement shall begin on the Effective Date and shall\nend fifteen months therefrom, unless one party provides 30 days written notice of renewal. This agreement will automatically renew for subsequent 15 month periods.",
+                "explanation": "Section 5.1 now states that it will automatically renew unless notice is given. This creates ambiguity since the normal reading for a contract term is that it ends with no additional obligation. This may be challenged if one party does not want to renew.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "7.3. TERMINATION. Subject to Section 10.11  [SURVIVAL], upon termination of this\nAgreement, all Confidential Information shall be returned to the disclosing\nparty or, at the request of the disclosing party, destroyed unless otherwise\nspecified or permitted elsewhere under this Agreement. Subject to Section 7.6  [USER DATA],\nthe confidentiality obligations contained in this Article 7  [CONFIDENTIALITY] shall survive\ntermination of this Agreement for a period of three years.",
+                "changed_text": "7.3. TERMINATION. Subject to Section 10.11  [SURVIVAL], upon termination of this\nAgreement, all Confidential Information shall be returned to the disclosing\nparty or, at the request of the disclosing party, destroyed unless otherwise\nspecified or permitted elsewhere under this Agreement. Subject to Section 7.6  [USER DATA],\nthe confidentiality obligations contained in this Article 7  [CONFIDENTIALITY] shall not survive\ntermination of this Agreement. All information can be shared.",
+                "explanation": "The clause clearly states that after termination, confidentiality obligations last for 3 years. By modifying it so that obligations do not survive, this impacts IP protection and trade secrets after termination of agreement. This can lead to uncertainty and potential disputes.",
+                "location": "Section 7.3"
+            }
+        ]
+    }
+]

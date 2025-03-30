@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "quantumgroupincfl_20090120_8-k_ex-99.2_3672910_ex-99.2_hosting agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "IBM invoices will specify the amount due. Payment is due and payable by month end for any invoice received by the 10th of the month, otherwise payment is due thirty (30) days from receipt of invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+                "changed_text": "IBM invoices will specify the amount due. Payment is due and payable within **ten (10) days** from receipt of invoice regardless of when it is received. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+                "explanation": "This change introduces a conflict with the original payment terms. The original states that payment is due by month's end if the invoice is received by the 10th, otherwise 30 days from receipt. The modified term now states that all payments are due 10 days from invoice receipt, regardless of when it is received, creating contradiction.",
+                "location": "Section 5.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "On or before five (5) days following expiration or termination of this Attachment, Customer will erase Customer Components from any servers and disk space that IBM provides as Base Components. On or before fifteen (15) days following expiration or termination of this Attachment, Customer will remove all Customer Components and any other Customer property from the e-business Hosting Center (excluding any Base Components and other IBM property). If Customer does not remove or erase Customer Components and its other property within such periods, IBM has the option to:",
+                "changed_text": "On or before **thirty (30) days** following expiration or termination of this Attachment, Customer will erase Customer Components from any servers and disk space that IBM provides as Base Components. On or before **five (5) days** following expiration or termination of this Attachment, Customer will remove all Customer Components and any other Customer property from the e-business Hosting Center (excluding any Base Components and other IBM property). If Customer does not remove or erase Customer Components and its other property within such periods, IBM has the option to:",
+                "explanation": "The timelines for erasing vs removing customer components have been swapped creating in-text contradiction and uncertainty as to which deadline is valid, which would create uncertainty in enforcement.",
+                "location": "Attachment A – Services, Section 3.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "IBM will assign the following priority levels to each reported problem as listed in the table below:\nSeverity 1 – Critical impact problem that makes the Customer environment unavailable or degraded to a level where Customer is unable to conduct business.\nSeverity 2 – Major Impact. Customer is able to conduct business but a function or service is not available.\nSeverity 3 – Minor impact. The Customer environment is not seriously affected.\nSeverity 4 – No impact. Short coming, dissatisfaction, or question.\nEmergency – Ability to conduct business is not being affected, however due to other business driving decisions, the request needs to be treated as a Severity 1.",
+                "changed_text": "IBM will assign the following priority levels to each reported problem as listed in the table below:\nSeverity 1 – Critical impact problem that makes the Customer environment unavailable or degraded to a level where Customer is unable to conduct business.\nSeverity 2 – Major Impact. Customer is able to conduct business but a function or service is not available.\nSeverity 3 – Minor impact. The Customer environment is not seriously affected.\nSeverity 4 – No impact. Short coming, dissatisfaction, or question.\nEmergency – Ability to conduct business is not being affected, however due to other business driving decisions, the request needs to be treated as a Severity **2**.",
+                "explanation": "This perturbation causes in-text contradiction, because it states Emergency requests should be treated as Severity 2 but the definition of Severity 2 is that \"Customer is able to conduct business but a function or service is not available\", when it previously stated Severity 1 is when \"Customer is unable to conduct business.\"",
+                "location": "Attachment A – Services, Section 4.14"
+            }
+        ]
+    }
+]

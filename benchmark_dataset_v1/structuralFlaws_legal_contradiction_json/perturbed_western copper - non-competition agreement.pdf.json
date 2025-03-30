@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "western copper - non-competition agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Western Copper acknowledges and agrees that a breach of its covenants contained \nin this Agreement would result in damage to Glamis that could not adequately be compensated \nfor by monetary award alone, Accordingly, Western Copper agrees that in the event of any such \nbreach, in addition to any other remedies available to Glamis at law or otherwise, Glamis will be \nentitled, as a matter of right and without the need to prove damage, to apply to a court of \ncompetent jurisdiction for relief by way of injunction, restraining order, decree or otherwise as \nmay be appropriate to ensure compliance by Western Copper with the provisions of this \nAgreement and to restrain any breach of this Agreement by Western Copper. Any remedy \nexpressly set forth in this §3.1 wall be in addition to and not inclusive of or dependent upon the \nexercise of any other remedy available to Glamis at law or otherwise.",
+                "changed_text": "Western Copper acknowledges and agrees that a breach of its covenants contained \nin this Agreement would result in damage to Glamis that could not adequately be compensated \nfor by monetary award alone. Any remedy \nexpressly set forth in this §3.1 will be in addition to and not inclusive of or dependent upon the \nexercise of any other remedy available to Glamis at law or otherwise. Accordingly, Western Copper agrees that in the event of any such \nbreach, in addition to any other remedies available to Glamis at law or otherwise, Glamis will be \nentitled, as a matter of right and without the need to prove damage, to apply to a court of \ncompetent jurisdiction for relief by way of injunction, restraining order, decree or otherwise as \nmay be appropriate to ensure compliance by Western Copper with the provisions of this \nAgreement and to restrain any breach of this Agreement by Western Copper.",
+                "explanation": "Moving the sentence alters the logical flow, making it harder to understand Western Copper's obligations and Glamis's right to seek remedies. The logical connection between the acknowledgement of damages and the immediate entitlement to remedies is weakened.",
+                "contradicted_law": "General principles of contract law regarding clarity and enforceability of remedy clauses.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement will be governed exclusively by and construed in accordance \nwith the laws of the Province of British Columbia, and the parties attorn to the exclusive \njurisdiction of the Courts of British Columbia.",
+                "changed_text": "This Agreement will be governed exclusively by and construed in accordance \nwith the laws of the Province of British Columbia. The parties may agree that the law governing this agreement shall be the laws of Nevada. The parties attorn to the exclusive \njurisdiction of the Courts of British Columbia.",
+                "explanation": "The added sentence introduces a contradiction in the governing law clause. It first states that British Columbia law applies, but then adds a clause allowing parties to choose Nevada law. This ambiguity creates uncertainty about which jurisdiction's laws govern the contract, undermining the clause's purpose.",
+                "contradicted_law": "General principles of contract law regarding choice of law and forum selection.",
+                "location": "Section 4.8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "No waiver of any provision of this Agreement shall be binding on any of the \nparties hereto unless consented to in writing by such party. No waiver of any provision of this \nAgreement by either of the parties hereto shall constitute a waiver of any other provision, nor \nshall any waiver constitute a continuing waiver unless otherwise clearly provided.",
+                "changed_text": "No waiver of any provision of this Agreement shall be binding on any of the \nparties hereto unless consented to in writing by such party. No waiver of any provision of this \nAgreement by either of the parties hereto shall constitute a waiver of any other provision. Any waiver of any provision of this agreement shall be construed as a continuing waiver of the same provision.",
+                "explanation": "By removing the 'unless otherwise clearly provided' clause, any single waiver is now implied to be a continuing waiver, contradicting the original intention that waivers should be explicitly defined as continuing. This introduces uncertainty and potential disputes regarding the scope and duration of any waiver.",
+                "contradicted_law": "General principles of contract law regarding waiver and amendment.",
+                "location": "Section 4.5"
+            }
+        ]
+    }
+]

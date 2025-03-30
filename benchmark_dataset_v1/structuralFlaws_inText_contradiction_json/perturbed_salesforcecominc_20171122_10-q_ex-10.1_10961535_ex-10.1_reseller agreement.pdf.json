@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "salesforcecominc_20171122_10-q_ex-10.1_10961535_ex-10.1_reseller agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "changed_text": "Reseller is encouraged to ensure that Sub-Reseller generally complies with the terms of the Agreement. Any breach by Sub-Reseller of the Agreement may be considered a breach by Reseller, subject to salesforce.com, inc's sole discretion.",
+                "explanation": "The original text states that the reseller 'must ensure' compliance and any breach 'will be deemed' a breach by the Reseller. The modification weakens this to 'is encouraged' and 'may be considered', introducing uncertainty. The addition of 'subject to salesforce.com, inc's sole discretion' further weakens the reseller's responsibility and creates a contradiction about the enforcement of the terms.",
+                "location": "1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained generally outline the agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement. Previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof, may also be considered to supplement this agreement.",
+                "explanation": "The original text states this agreement is the 'entire agreement' and supersedes all previous agreements. The modified version states it 'generally outline[s] the agreement', opening the door for other agreements to be considered. The inclusion of 'may also be considered to supplement this agreement' is a direct contradiction to the original intent of the clause and opens up legal uncertainty about the scope of the agreement.",
+                "location": "3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned copies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together, will be deemed to constitute a single instrument.",
+                "changed_text": "This Sub-Reseller Agreement should ideally be executed in a single, original document. While counterparts, including facsimiles or scanned copies sent via email or otherwise, might be accepted, their validity as a duplicate original is not guaranteed, and it may be required to obtain the original document to ensure enforceability.",
+                "explanation": "The original text explicitly states that counterparts are 'deemed to be a duplicate original'. The modified version introduces uncertainty by stating the agreement 'should ideally be executed in a single, original document' and that counterparts are 'not guaranteed' to be valid. This creates a contradiction and weakens the enforceability of agreements made with counterpart signatures.",
+                "location": "4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "sibannac,inc_12_04_2017-ex-2.1-strategic alliance agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Texas.",
+                "changed_text": "This Agreement is entered into in the State of Texas. For purposes of marketing and promotional materials only, the agreement shall be interpreted according to the laws of the State of Texas.",
+                "explanation": "By adding a qualifier that the Texas law applies only to 'marketing and promotional materials,' the enforceability of Texas law for the entire agreement is weakened, creating ambiguity and potentially undermining its legal standing.",
+                "contradicted_law": "Contract Law - Choice of Law",
+                "location": "Section 9"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "COMPANY shall indemnify Bravatek, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of COMPANY or breach of COMPANY of any of its obligations under this Agreement.\n\nBravatek shall indemnify COMPANY, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs, incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of Bravatek or breach of Bravatek of any of its obligations under this Agreement.",
+                "changed_text": "COMPANY shall indemnify Bravatek, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs incurred in connection with any third-party claim, action or proceeding arising from the gross negligence or intentional misconduct of COMPANY or breach of COMPANY of any of its obligations under this Agreement. However, this indemnification is capped at $1000. \n\nBravatek may indemnify COMPANY, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs, incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of Bravatek or breach of Bravatek of any of its obligations under this Agreement.",
+                "explanation": "The first indemnification clause now has a cap of $1000 which may not be enough to cover the cost it originally intended. Also, by changing 'shall' to 'may', the obligation of indemnification becomes optional for Bravatek, significantly weakening COMPANY's protection and contradicting the original intent of mutual indemnification.",
+                "contradicted_law": "Contract Law - Indemnification Clauses",
+                "location": "Section 10"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement represents the complete and entire understanding between the parties regarding the subject matter hereof and supersedes all prior negotiations, representations, or agreements, either written or oral, regarding this subject matter.",
+                "changed_text": "This Agreement represents the general understanding between the parties regarding the subject matter hereof and may supersede some prior negotiations, representations, or agreements, either written or oral, regarding this subject matter.",
+                "explanation": "Changing 'complete and entire understanding' to 'general understanding' creates ambiguity about whether all aspects are covered. The use of 'may supersede some' introduces uncertainty about which prior agreements are still valid, thereby weakening the 'entire agreement' clause and potentially leading to disputes about prior understandings.",
+                "contradicted_law": "Contract Law - Entire Agreement Clause",
+                "location": "Section 13"
+            }
+        ]
+    }
+]

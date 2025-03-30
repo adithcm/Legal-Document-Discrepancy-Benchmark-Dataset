@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "uniondentalholdingsinc_20050204_8-ka_ex-10_3345577_ex-10_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "A Confidential Information@ shall mean any and all information that a Party may reasonably expect to remain confidential and not shared with the general public at any time or that information that is protected by law.",
+                "changed_text": "A Confidential Information@ shall mean any and all information that a Party deems, in its sole discretion, to be confidential. This includes but is not limited to, information that a Party may reasonably expect to remain confidential and not shared with the general public at any time or that information that is protected by law.",
+                "explanation": "By adding 'any and all information that a Party deems, in its sole discretion, to be confidential', it contradicts the rest of the sentence, because it broadens the scope. The original text defines confidential information based on reasonable expectation and legal protection. The addition introduces subjective criteria, creating uncertainty about what truly qualifies as confidential, leading to potential disputes.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with thirty (30) day prior written notice of termination of this Agreement.",
+                "changed_text": "This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with thirty (30) day prior written notice of termination of this Agreement. However, UDC reserves the right to terminate this agreement at any time without notice.",
+                "explanation": "The initial clause establishes a 30-day notice period for termination. However, the addition of 'UDC reserves the right to terminate this agreement at any time without notice' creates a direct contradiction. This introduces uncertainty regarding the actual termination procedure. Does the 30-day notice apply, or can UDC terminate immediately? This internal conflict could lead to legal challenges.",
+                "location": "Section 5(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and representatives from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements of every nature that are actually incurred by a Party, including without limitation reasonable attorney's fees for pre-trial, trial, appellate, judgment, post-judgment, execution, and alternative dispute resolution, which arise out of any use or disclosure of Confidential Information not specifically permitted by this Agreement or arise out of the services rendered by Business Affiliate.",
+                "changed_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and representatives from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements of every nature that are actually incurred by a Party, including without limitation reasonable attorney's fees for pre-trial, trial, appellate, judgment, post-judgment, execution, and alternative dispute resolution, which arise out of any gross negligence or willful misconduct. However, neither party is responsible for consequential damages arising from this Agreement.",
+                "explanation": "While the original text speaks to indemnification for uses or disclosure of confidential information, and any other damages, the modified section limits indemnification to gross negligence or willful misconduct, changing the grounds to pursue a claim. Adding 'neither party is responsible for consequential damages' removes the expectation for certain types of damages to be claimed, which were originally permitted under the indemnification clause.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]
