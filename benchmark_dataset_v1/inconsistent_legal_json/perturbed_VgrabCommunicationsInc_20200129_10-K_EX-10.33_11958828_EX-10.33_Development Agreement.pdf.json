@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "PAYMENT TERMS\nAll Parties agreed the payment listed below are fair and just for the services being provided. Payment\nto the following individual below within 7 days upon completion and handover on the Project to VAL.",
+                "changed_text": "PAYMENT TERMS\nAll Parties agreed the payment listed below are fair and just for the services being provided. Payment\nto the following individual below within 90 days upon completion and handover on the Project to VAL.",
+                "explanation": "This change extends the payment period to 90 days, potentially conflicting with prompt payment laws or regulations in Hong Kong (where the contract is governed). Many jurisdictions have laws requiring payment to contractors and subcontractors within shorter timeframes (e.g., 30-60 days) to ensure fair business practices. A 90-day delay could be considered an unreasonable delay in payment.",
+                "contradicted_law": "Potentially contradicts Hong Kong's implied legal requirements for prompt payment and fair business practices, similar to those codified in other jurisdictions' prompt payment legislation.",
+                "location": "Clause 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "TERMINATION\nVAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks’ notice in writing and it is applicable only when the project is not completed. If\nthe customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by\ngiving two (2) weeks’ notice in writing to VAL. It is applicable only when the project is not completed.",
+                "changed_text": "TERMINATION\nVAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving one (1) day’s notice in writing and it is applicable only when the project is not completed. If\nthe customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by\ngiving one (1) day’s notice in writing to VAL. It is applicable only when the project is not completed.",
+                "explanation": "Reducing the notice period for termination to one (1) day may be deemed unreasonable and conflict with the implied duty of good faith and fair dealing in contract law. Such a short notice period may not allow the other party sufficient time to mitigate damages or find alternative arrangements, especially considering the complexities involved in software development projects.",
+                "contradicted_law": "Conflicts with Hong Kong's contract law principles related to reasonable notice and the implied duty of good faith and fair dealing.",
+                "location": "Clause 13"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Change Orders do not however cover any bug or glitch fixing produced out of the code written by\nDeveloper as any “bug” will be fixed by Developer for free up to 3 months after final delivery (Bug\nFixing Warranty).",
+                "changed_text": "Change Orders do not however cover any bug or glitch fixing produced out of the code written by\nDeveloper as any “bug” will be fixed by Developer for free up to 1 week after final delivery (Bug\nFixing Warranty).",
+                "explanation": "Reducing the bug-fixing warranty to only 1 week after the final delivery is an insufficient amount of time for VAL to discover and report all bugs. This may be deemed unreasonable, particularly considering the complexity of mobile app development projects, and conflicts with common business practices that dictate a longer period for bug fixes to ensure a stable product.",
+                "contradicted_law": "Conflicts with general standards of reasonableness and industry practices related to software warranties and bug-fixing periods.",
+                "location": "Clause 7"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***] within 1 hour of receipt of a [***]. Failure of the Suppliers to accept or reject a [***] within 1 hour shall constitute acceptance of such [***].",
+                "explanation": "The original text requires Suppliers to accept or reject a purchase order within a certain undisclosed number of hours. Reducing this timeframe to 1 hour creates an unreasonable and legally questionable deadline, potentially conflicting with laws requiring reasonable time for business decisions. This is especially true if significant review is needed. It could be argued this creates undue pressure and is unconscionable depending on product complexity.",
+                "contradicted_law": "General Contract Law - Unconscionability",
+                "location": "2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within 90 days from the shipment of the applicable Products delivered.",
+                "explanation": "The original text requires payment within a certain undisclosed timeframe from shipment. Changing this to '90 days' could violate laws requiring prompt payment or imposing maximum payment terms, especially in jurisdictions with regulations protecting suppliers or small businesses from excessively delayed payments. Many jurisdictions have laws related to trade practices, fair competition, and payment terms, that consider 90 days as an unreasonably long payment period. It might also conflict with standard accounting practices where longer payment terms create greater financial risk and uncertainty, conflicting with reasonable business expectations",
+                "contradicted_law": "Prompt Payment Laws, Trade Practices Regulations",
+                "location": "4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A Party shall have the right to terminate its obligations under this Agreement if the other Party materially breaches this Agreement and fails to cure such breach within thirty (30) days after its receipt of written notice of the breach specifying such default.",
+                "changed_text": "A Party shall have the right to terminate its obligations under this Agreement if the other Party materially breaches this Agreement and fails to cure such breach within ten (10) days after its receipt of written notice of the breach specifying such default.",
+                "explanation": "The original text provides a 30-day cure period for a material breach. Shortening this to 10 days could be deemed unreasonable and conflict with legal standards for fairness and due process, particularly if the breach involves complex issues or requires substantial effort to rectify. Many jurisdictions recognize a 'reasonable time' for curing breaches and 10 days may not meet this standard, particularly in international commercial agreements. Moreover, the contract deals with an international partner where communications or other external factors might require longer resolution times, making the short cure period unconscionable.",
+                "contradicted_law": "Contract Law - Reasonable Cure Period, Due Process",
+                "location": "7.2"
+            }
+        ]
+    }
+]

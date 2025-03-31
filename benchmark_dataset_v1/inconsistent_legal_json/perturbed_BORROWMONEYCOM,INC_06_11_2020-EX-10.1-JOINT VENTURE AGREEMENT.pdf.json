@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINT VENTURE AGREEMENT.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any notices or delivery required here will be deemed completed when hand-delivered, delivered by agent, or seven (7) days after being placed in the post, postage prepaid, to the Members at the addresses contained in this Agreement or as the Members may later designate in writing.",
+                "changed_text": "Any notices or delivery required here will be deemed completed when emailed to the Members at the addresses contained in this Agreement or as the Members may later designate in writing. There is no requirement to confirm receipt of email.",
+                "explanation": "Changing the notification method to only email, without requiring confirmation of receipt, could contradict legal requirements for adequate notice in certain situations under Florida law. Many legal contexts require proof that notice was actually received, and relying solely on unconfirmed email may not suffice.",
+                "contradicted_law": "Florida Statutes regarding sufficient notice, particularly in legal proceedings or contract disputes, which often require proof of receipt.",
+                "location": "67"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "On dissolution, the Venture will be liquidated promptly and within a reasonable time.",
+                "changed_text": "On dissolution, the Venture will be liquidated at the Manager's convenience.",
+                "explanation": "Changing the liquidation timeline to \"at the Manager's convenience\" introduces ambiguity and potential conflict with Florida law, which generally requires timely and efficient liquidation of assets upon dissolution to protect the interests of all parties involved. This could be construed as a breach of fiduciary duty if liquidation is unreasonably delayed.",
+                "contradicted_law": "Florida Revised Limited Liability Company Act regarding dissolution and winding up of a company, including the requirement to act in good faith and with reasonable dispatch.",
+                "location": "37"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This section will survive for one year after the expiration or termination of this Agreement or dissolution of the Venture.",
+                "changed_text": "This section will not survive the expiration or termination of this Agreement or dissolution of the Venture.",
+                "explanation": "Eliminating the confidentiality clause's survival period directly contradicts standard business practices and potentially violates trade secret laws. In Florida, trade secrets can be protected indefinitely as long as they remain confidential. By stating that the confidentiality section terminates immediately, the agreement fails to provide adequate protection for confidential information and may conflict with trade secret protection laws.",
+                "contradicted_law": "Florida Uniform Trade Secrets Act, which protects trade secrets as long as they remain confidential and provide a competitive advantage.",
+                "location": "46"
+            }
+        ]
+    }
+]

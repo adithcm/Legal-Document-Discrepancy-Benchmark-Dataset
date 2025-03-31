@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.5 Quality Control, Licensor Approvals. Licensor, as owner of the Licensed Mark, shall have the right at all times to control and approve\nthe nature and quality of the Licensed Products (and the Licensed Mark thereon), and to inspect Licensee’s business operations upon reasonable\nprior notice for the purpose of ensuring that a high level of quality of the Licensed Products is being maintained by Licensee. At Licensor’s\nreasonable request during each calendar year, Licensee shall submit samples to Licensor, at no cost to Licensor, and shall not materially depart\ntherefrom without Licensor’s prior express written consent. The Licensed Products, as well as all promotional, packaging and advertising material\nrelative thereto, shall include all appropriate legal notices as required by Licensor.",
+                "changed_text": "1.5 Quality Control, Licensor Approvals. Licensor, as owner of the Licensed Mark, shall have the right at all times to control and approve\nthe nature and quality of the Licensed Products (and the Licensed Mark thereon), and to inspect Licensee’s business operations upon reasonable\nprior notice for the purpose of ensuring that a high level of quality of the Licensed Products is being maintained by Licensee. At Licensor’s\nreasonable request during each calendar year, Licensee may submit samples to Licensor, at their own discretion, and may materially depart\ntherefrom without Licensor’s consent. The Licensed Products, as well as all promotional, packaging and advertising material\nrelative thereto, shall include all appropriate legal notices as required by Licensee.",
+                "explanation": "The original text states that the Licensee *shall submit samples* and *shall not materially depart* without written consent. The modification states the licensee *may submit samples at their own discretion* and *may materially depart without Licensor's consent.* This introduces a direct conflict regarding the Licensee's obligation for quality control samples and adherence to Licensor's standards, creating uncertainty on enforcement.",
+                "location": "1.5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.10 Assignment. This Agreement may not be assigned by Licensee without the consent of Licensor which consent shall not be\nunreasonably withheld. Notwithstanding the foregoing, no such consent of Licensor is required under this Agreement in the event of a Change of\nControl of Licensee so long as: (a) the resulting, surviving or transferee Person assumes all the obligations of the Licensee by operation of Law or\npursuant to an agreement in form and substance reasonably satisfactory to the Licensor; and (b) the licenses granted herein shall not be\ntransferrable or sublicensable to Affiliates of such Person unless such Affiliates were Affiliates of Licensee prior to such Change of Control.",
+                "changed_text": "6.10 Assignment. This Agreement may be assigned by Licensee without the consent of Licensor which consent shall not be\nunreasonably withheld. Notwithstanding the foregoing, no such consent of Licensor is required under this Agreement in the event of a Change of\nControl of Licensee so long as: (a) the resulting, surviving or transferee Person assumes all the obligations of the Licensee by operation of Law or\npursuant to an agreement; and (b) the licenses granted herein shall be\ntransferrable or sublicensable to Affiliates of such Person unless such Affiliates were Affiliates of Licensee prior to such Change of Control.",
+                "explanation": "The original text states that the assignment can not happen if there is no consent. The modified version explicitly states that assignment will be permitted. This creates a scenario of direct conflict and could cause confusion when the contract is enforced.",
+                "location": "6.10"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.2 Termination for Breach. Licensor and Licensee will be entitled to terminate this Agreement by written notice to the other party in the\nevent the other party is in material breach of any of its obligations hereunder and shall fail to remedy any such default within one hundred twenty\n(120) days after notice thereof by the non-breaching party.",
+                "changed_text": "4.2 Termination for Breach. Licensor and Licensee will be entitled to terminate this Agreement by written notice to the other party in the\nevent the other party is in material breach of any of its obligations hereunder and shall fail to remedy any such default within thirty\n(30) days after notice thereof by the non-breaching party.",
+                "explanation": "Originally, the remediation period after breach notice was 120 days. Now it is changed to 30 days. This creates an internal conflict because if the parties act according to the modified one, it will be a breach of the original contract. So there will be disputes during the enforcement.",
+                "location": "4.2"
+            }
+        ]
+    }
+]

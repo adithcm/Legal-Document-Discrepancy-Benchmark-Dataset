@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11. The Term of this Agreement will commence on the date above, and shall\n         continue for a term of one (1) year. mPhase shall have the right to\n         annually renew this agreement for a period of one year upon each annual\n         expiration with the written consent of Lucent, which written consent\n         shall not be unreasonably withheld. Either party wishing to terminate\n         the Agreement must give written notice to the other party at least\n         thirty (30) days prior to the desired date of termination.",
+                "changed_text": "11. The Term of this Agreement will commence on the date above, and shall\n         continue for a term of one (1) year. mPhase shall have the right to\n         annually renew this agreement for a period of one year upon each annual\n         expiration with the written consent of Lucent, which written consent\n         shall not be unreasonably withheld. Either party wishing to terminate\n         the Agreement must give written notice to the other party at least\n         five (5) days prior to the desired date of termination.",
+                "explanation": "The original agreement requires 30 days' notice for termination. Reducing this to 5 days is likely unenforceable under New York law (governing law in this agreement) which typically requires reasonable notice periods, especially in commercial contracts. A 5-day notice is likely unreasonably short.",
+                "contradicted_law": "Breach of contract under New York law, specifically regarding reasonable notice periods.",
+                "location": "Paragraph 11"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "15.  The validity, construction and performance of this Agreement shall be\n         governed by the laws of the State of New York.",
+                "changed_text": "15.  The validity, construction and performance of this Agreement shall be\n         governed by the laws of the State of California.",
+                "explanation": "Changing the governing law to California introduces potential conflicts. For instance, if a dispute arises concerning the 'unreasonably withheld' consent clause in paragraph 11, California law might interpret 'unreasonable' differently than New York law, creating uncertainty and potential legal challenges to the contract's enforceability.",
+                "contradicted_law": "Potential conflicts with contract interpretation and enforceability under differing state laws (California vs. New York).",
+                "location": "Paragraph 15"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "13.  Neither Party shall be liable to the other for special, incidental, or\n         consequential damages, even if such Party has been advised of the\n         possibility of such damages.",
+                "changed_text": "13.  Neither Party shall be liable to the other for any damages whatsoever, even if such Party has been advised of the possibility of such damages, regardless of cause or culpability.",
+                "explanation": "This change broadens the waiver of liability to 'any damages whatsoever', which may be deemed unconscionable or against public policy under New York law (as originally specified in the contract) if it attempts to shield a party from gross negligence, recklessness, or intentional misconduct. New York law generally disfavors clauses that completely absolve a party of liability for its own culpable conduct.",
+                "contradicted_law": "New York law regarding limitations on liability clauses, particularly concerning gross negligence, recklessness, or intentional misconduct.",
+                "location": "Paragraph 13"
+            }
+        ]
+    }
+]

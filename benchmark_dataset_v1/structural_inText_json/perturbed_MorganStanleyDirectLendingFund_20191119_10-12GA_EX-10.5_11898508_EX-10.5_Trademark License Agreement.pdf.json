@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MorganStanleyDirectLendingFund_20191119_10-12GA_EX-10.5_11898508_EX-10.5_Trademark License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Section 4.1. Term. The term of this Agreement commences on the Effective Date and continues in perpetuity, unless termination occurs pursuant to Sections 4.2 through 4.4.",
+                "changed_text": "Section 4.1. Term. The term of this Agreement commences on the Effective Date and continues for a period of one year, with automatic renewal for successive one-year terms, unless terminated earlier as provided in Sections 4.2 through 4.4.",
+                "explanation": "The original text states the agreement continues 'in perpetuity' unless specific termination clauses are triggered. The modified text introduces a one-year term with automatic renewal, contradicting the 'in perpetuity' clause and creating uncertainty about the agreement's duration.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Section 4.2. Termination for Convenience. Licensor reserves the right to terminate this Agreement immediately upon written notice for any reason, including if the usage of the Brand is not in compliance with the standards and policies.",
+                "changed_text": "Section 4.2. Termination for Convenience. Licensor reserves the right to terminate this Agreement with 30 days written notice for any material breach of this agreement by Licensee. Licensee has the right to terminate this agreement immediately if there is a change in Licensor's senior management.",
+                "explanation": "The original text states that Licensor can terminate the agreement immediately for 'any reason', while the modified version restricts termination to material breach and adds a condition where Licensee can terminate immediately based on senior management change. This creates a contradiction regarding the scope and conditions under which Licensor can terminate for convenience.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Section 9.4. Governing Law. THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK. EACH OF THE PARTIES IRREVOCABLY AND UNCONDITIONALLY SUBMITS TO THE EXCLUSIVE JURISDICTION OF THE STATE AND FEDERAL COURTS LOCATED IN NEW YORK CITY FOR THE PURPOSE OF ANY ACTION RELATING TO OR ARISING OUT OF THIS AGREEMENT.",
+                "changed_text": "Section 9.4. Governing Law. THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAW OF THE STATE OF DELAWARE. EACH OF THE PARTIES IRREVOCABLY AND UNCONDITIONALLY SUBMITS TO THE NON-EXCLUSIVE JURISDICTION OF THE STATE AND FEDERAL COURTS LOCATED IN NEW YORK CITY OR DELAWARE FOR THE PURPOSE OF ANY ACTION RELATING TO OR ARISING OUT OF THIS AGREEMENT.",
+                "explanation": "The original clause specifies New York law and exclusive jurisdiction in New York courts. The modified version changes the governing law to Delaware and specifies non-exclusive jurisdiction in courts in New York City OR Delaware, directly contradicting the original unambiguous choice of law and jurisdiction.",
+                "location": "Section 9.4"
+            }
+        ]
+    }
+]

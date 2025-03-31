@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "RemarkHoldingsInc_20081114_10-Q_EX-10.24_2895649_EX-10.24_Content License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.1 License Grant and Restrictions.\n(i) License Grant. Subject to the terms and conditions set forth herein, World Book hereby grants to HSWI, a perpetual, irrevocable limited license to use, copy, store, archive, distribute,\ntransmit, modify (subject to Section 2.1(iv)), and Display the Content, Images and Affinities in whole or in part, only on the HSWI Websites or in promotions in any media for the HSWI Websites. The license\nto each component of the Content, Images and Affinities shall be subject to the term and exclusivity\nprovisions set forth in this Section 2. The license to each component of the Content, Images and\nAffinities shall be supplemented by any additional license rights in this Section 2, and in the event of\nany conflict with this Section 2.1 such other additional license rights in this Section 2 shall prevail.",
+                "changed_text": "2.1 License Grant and Restrictions.\n(i) License Grant. Subject to the terms and conditions set forth herein, World Book hereby grants to HSWI, a limited license to use, copy, store, archive, distribute,\ntransmit, modify (subject to Section 2.1(iv)), and Display the Content, Images and Affinities in whole or in part, only on the HSWI Websites or in promotions in any media for the HSWI Websites. This license is granted for a period of five years, with renewal options subject to mutual agreement. The license\nto each component of the Content, Images and Affinities shall be subject to the term and exclusivity\nprovisions set forth in this Section 2. The license to each component of the Content, Images and\nAffinities shall be supplemented by any additional license rights in this Section 2, and in the event of\nany conflict with this Section 2.1 such other additional license rights in this Section 2 shall prevail.",
+                "explanation": "The original text provides a \"perpetual, irrevocable\" license. The changed text limits the license to a \"period of five years, with renewal options subject to mutual agreement.\" This creates a direct contradiction regarding the duration of the license, creating uncertainty about HSWI's rights after the initial five-year period.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.16 “Exclusive” shall mean World Book shall have no further right to grant to third parties the same or any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses.\n\n2.4 Non-Display. HSWI may, in its sole discretion, decide not to Display Content obtained from World Book. If HSWI elects in a written notice to World Book that HSWI will not Display any such Content, notwithstanding anything to the contrary herein, the license to such Content shall be non-Exclusive.",
+                "changed_text": "1.16 “Exclusive” shall mean World Book shall have no further right to grant to third parties the same or any other licenses to the Content in the Open Free Web and itself retains no such rights or other licenses.\n\n2.4 Non-Display. HSWI may, in its sole discretion, decide not to Display Content obtained from World Book. If HSWI elects in a written notice to World Book that HSWI will not Display any such Content, the license to such Content shall be non-Exclusive, except that it remains an exclusive license if World Book deems so.",
+                "explanation": "Section 1.16 defines \"Exclusive\" in a way that restricts World Book. Section 2.4 originally states that if HSWI chooses not to display content, the license becomes non-exclusive. The modification in section 2.4 adding \"except that it remains an exclusive license if World Book deems so\" contradicts the definition of 'Exclusive' and adds uncertainty to what happens when HSWI chooses not to display content.",
+                "location": "Section 1.16 & 2.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.2 Termination for Cause or Bankruptcy. This Agreement may be terminated by a party in the event of:\n(i) any material default in, or material breach of, any of the material terms and conditions of this Agreement by the other party, which default continues in effect after the defaulting party has\nbeen provided with written notice of default and sixty (60) days to cure such default;",
+                "changed_text": "6.2 Termination for Cause or Bankruptcy. This Agreement may be terminated by a party in the event of:\n(i) any default in, or breach of, any of the terms and conditions of this Agreement by the other party. There will be no grace period for defaulting or breaching the contract. Either party can terminate immediately upon notice.",
+                "explanation": "The original clause 6.2(i) requires a material breach and provides a 60-day cure period. The modified clause eliminates the 'material' requirement and removes the cure period, allowing immediate termination for any breach. This directly contradicts the original clause, creating ambiguity about the conditions required for termination.",
+                "location": "Section 6.2"
+            }
+        ]
+    }
+]

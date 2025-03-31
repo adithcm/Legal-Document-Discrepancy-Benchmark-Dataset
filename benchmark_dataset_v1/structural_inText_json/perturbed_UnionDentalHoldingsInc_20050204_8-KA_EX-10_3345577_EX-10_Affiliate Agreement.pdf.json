@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "A Confidential Information@ shall mean any and all information that a Party may reasonably expect to remain confidential and not shared with the general public at any time or that information that is protected by law.",
+                "changed_text": "Confidential Information shall mean information specifically marked as 'Confidential' at the time of disclosure. Information not explicitly marked as 'Confidential' will not be subject to the confidentiality obligations outlined in this agreement.",
+                "explanation": "The original definition of 'Confidential Information' is broad, encompassing any information reasonably expected to be confidential. The modified definition narrows it significantly, requiring explicit marking as 'Confidential'. This creates a contradiction because the contract now has two conflicting definitions, undermining the confidentiality obligations.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with thirty (30) day prior written notice of termination of this Agreement.",
+                "changed_text": "This Agreement shall become effective on the Effective Date and shall continue in effect unless UDC decides unilaterally to terminate the agreement. UDC does not need to provide notice of termination, and can terminate at any time without breaching the contract. The Business Affiliate must provide thirty (30) day prior written notice of termination of this Agreement.",
+                "explanation": "This modification contradicts the original clause by stating that UDC can terminate the agreement without notice, while the Business Affiliate must provide thirty (30) days written notice. This creates an imbalance in termination rights and uncertainty regarding contract duration, favoring one party over the other and potentially deterring the Affiliate.",
+                "location": "Section 5.a"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and representatives from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements of every nature that are actually incurred by a Party, including without limitation reasonable attorney's fees for pre-trial, trial, appellate, judgment, post-judgment, execution, and alternative dispute resolution, which arise out of any use or disclosure of Confidential Information not specifically permitted by this Agreement or arise out of the services rendered by Business Affiliate. The provisions of this Paragraph 6 shall survive the termination of this Agreement for whatever reasons whatsoever.",
+                "changed_text": "The Business Affiliate agrees to indemnify and hold harmless UDC, it's agents and representatives from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements of every nature that are actually incurred by UDC, including without limitation reasonable attorney's fees for pre-trial, trial, appellate, judgment, post-judgment, execution, and alternative dispute resolution, which arise out of any use or disclosure of Confidential Information. The provisions of this Paragraph 6 shall survive the termination of this Agreement for whatever reasons whatsoever. UDC will not be responsible for indemnifying the Business Affiliate in any case.",
+                "explanation": "The original clause provided for mutual indemnification. The modified clause removes UDC's obligation to indemnify the Business Affiliate. This creates a contradiction and puts the Affiliate at a disadvantage, increasing uncertainty about who bears the financial risk of breaches related to Confidential Information or provided Services.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

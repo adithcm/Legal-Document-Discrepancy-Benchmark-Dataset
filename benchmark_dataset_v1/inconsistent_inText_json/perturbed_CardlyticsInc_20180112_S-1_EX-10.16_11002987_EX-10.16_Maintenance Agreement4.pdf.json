@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The Software License and Maintenance will be provided at no charge.",
+                "changed_text": "The Software License will be provided at no charge. Maintenance Fees shall be paid according to the schedule outlined in a separate addendum, attached as Exhibit C.",
+                "explanation": "This change introduces a contradiction. Initially, both the software license and maintenance are free. The modified version states the license is free, but then indicates that maintenance fees *will* be charged as detailed in Exhibit C, creating ambiguity about the cost of maintenance.",
+                "location": "Page A-3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement. Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled “Termination” of the Agreement. If Bank of America terminates the Maintenance Services, Bank of America shall have the right to reinstate the Maintenance Services without paying any reinstatement fee.",
+                "changed_text": "Thereafter, the Maintenance Term shall automatically renew for successive periods, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement. Bank of America may terminate Maintenance Services for convenience only after the initial 36-month period, in accordance with the Section entitled “Termination” of the Agreement. If Bank of America terminates the Maintenance Services within the first 36 months, Bank of America will be subject to a termination fee equivalent to 50% of the remaining maintenance fees for the unexpired term.",
+                "explanation": "This change introduces a contradiction regarding termination rights. The original clause allows termination 'at any time,' while the modified clause restricts termination for convenience until after 36 months and introduces a termination fee for early termination. This directly contradicts the original 'at any time' allowance and creates uncertainty about the actual termination conditions and associated penalties.",
+                "location": "Page A-2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty-four (24) hours per day, seven (7) days per week, including Bank of America holidays.",
+                "changed_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty-four (24) hours per day, seven (7) days per week, excluding Bank of America holidays, where reduced support levels will be in effect.",
+                "explanation": "The original clause specifies 24/7 maintenance *including* Bank of America holidays. The modified clause specifies 24/7 maintenance *excluding* Bank of America holidays where reduced support levels apply, directly contradicting the original clause and creating ambiguity about the level of support available during holidays. This creates in-text contradiction because a term that was supposed to be inclusive of the holidays is now exclusive.",
+                "location": "Page A-4"
+            }
+        ]
+    }
+]

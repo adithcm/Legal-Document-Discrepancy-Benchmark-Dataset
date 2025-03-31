@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Report to the other Party, in writing, any use and/or disclosure of the Confidential Information that is not permitted or required by this Agreement of which a Party becomes aware within five (5) days of a Party=s discovery of such unauthorized use and/or disclosure",
+                "changed_text": "Report to the other Party, in writing, any use and/or disclosure of the Confidential Information that is not permitted or required by this Agreement of which a Party becomes aware within one (1) day of a Party=s discovery of such unauthorized use and/or disclosure",
+                "explanation": "Reducing the reporting timeframe for unauthorized disclosures of confidential information to one day is inconsistent with the HIPAA regulations and general privacy laws, which allow for a reasonable timeframe to investigate and report breaches. A one-day timeframe may be too short to conduct a thorough investigation, potentially leading to incomplete or inaccurate reports. HIPAA typically requires reporting breaches within 60 days of discovery.",
+                "contradicted_law": "HIPAA Breach Notification Rule (45 CFR §§ 164.400-414)",
+                "location": "Section 3.b"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Make available, during normal business hours, at a Party=s offices all records, books, agreements, policies and procedures relating to the use and/or disclosure of Confidential Information that is subject to this Agreement, to the other Party within ten (10) days of a Party's written request, for the purpose of enabling a Party to verify the other Party=s compliance with the terms of this Agreement",
+                "changed_text": "Make available, during normal business hours, at a Party=s offices all records, books, agreements, policies and procedures relating to the use and/or disclosure of Confidential Information that is subject to this Agreement, to the other Party within thirty (30) days of a Party's written request, for the purpose of enabling a Party to verify the other Party=s compliance with the terms of this Agreement",
+                "explanation": "Extending the timeframe for producing records related to confidential information to thirty days contradicts the general principle of timely access to information under privacy laws and regulations. Ten days is more reasonable and a requirement that allows parties to promptly address compliance concerns and investigate potential breaches, without undue delay.",
+                "contradicted_law": "Privacy Act of 1974, HIPAA",
+                "location": "Section 3.e"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Return to a Party or destroy, as requested by a Party, within fifteen (15) days of the termination of this Agreement, any Confidential Information provided to such Party and in its possession and retain no copies or back-up tapes",
+                "changed_text": "Return to a Party or destroy, as requested by a Party, within thirty (30) days of the termination of this Agreement, any Confidential Information provided to such Party and in its possession and retain no copies or back-up tapes",
+                "explanation": "Changing the deadline for returning or destroying confidential information post-termination to thirty days, when it was previously fifteen days, can potentially conflict with legal requirements for data security and privacy, particularly if state or federal regulations mandate a shorter period for the secure disposal or return of sensitive information.",
+                "contradicted_law": "State data breach notification laws (e.g., California Consumer Privacy Act (CCPA))",
+                "location": "Section 3.g"
+            }
+        ]
+    }
+]

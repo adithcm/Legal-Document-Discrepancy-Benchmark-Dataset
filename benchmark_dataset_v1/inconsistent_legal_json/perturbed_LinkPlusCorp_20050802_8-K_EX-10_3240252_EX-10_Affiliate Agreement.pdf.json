@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_Affiliate Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments due shall be made within 45 days of the\n                           close of each calendar quarter.",
+                "changed_text": "Payments due shall be made within 90 days of the\n                           close of each calendar quarter.",
+                "explanation": "Modifying the payment deadline to 90 days after the close of each calendar quarter can be problematic. While a specific law mandating a shorter period for all payments universally may not exist, extending payment terms significantly beyond standard business practices (typically 30-60 days) could violate implied contractual duties of good faith and fair dealing, particularly if it causes undue hardship to the receiving party. In some jurisdictions, excessively long payment terms could be construed as an unfair business practice, especially for smaller entities dealing with larger corporations. Additionally, this could impact the vendor's ability to meet their own financial obligations.",
+                "contradicted_law": "Potential violation of implied duty of good faith and fair dealing, potential violation of state-specific prompt payment laws if applicable.",
+                "location": "3.5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments not received within sixty (60) days after\n                           their due date will be considered a material breach\n                           of this Agreement and the party due payment may\n                           pursue any and all legal action to recover the\n                           payment and reasonable legal fees incurred in the\n                           pursuit of said payment.",
+                "changed_text": "Payments not received within one hundred and eighty (180) days after\n                           their due date will be considered a material breach\n                           of this Agreement and the party due payment may\n                           pursue any and all legal action to recover the\n                           payment and reasonable legal fees incurred in the\n                           pursuit of said payment.",
+                "explanation": "Extending the period before a missed payment constitutes a material breach to 180 days could be deemed unconscionable or commercially unreasonable. This extended period may conflict with standard business practices and could severely prejudice the party awaiting payment, potentially hindering their ability to operate effectively. While contract law generally respects freedom of contract, courts may intervene if terms are excessively one-sided or create undue hardship. This alteration might also clash with general principles of timely performance and reasonable expectations in commercial transactions.",
+                "contradicted_law": "Potential violation of implied duty of good faith and fair dealing, potential determination of unconscionability depending on jurisdiction.",
+                "location": "3.5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No action,\n                  case, suit or proceeding, regardless of form, arising out of\n                  or related to this Agreement, may be brought by either party\n                  more than one (1) year after the cause of action has arisen, or in the case of nonpayment, more than two (2) years from the\n                  date of the last payment.",
+                "changed_text": "No action,\n                  case, suit or proceeding, regardless of form, arising out of\n                  or related to this Agreement, may be brought by either party\n                  more than six (6) months after the cause of action has arisen, or in the case of nonpayment, more than one (1) year from the\n                  date of the last payment.",
+                "explanation": "Reducing the statute of limitations to six months for general claims and one year for non-payment is problematic because it contradicts the standard statute of limitations for contract disputes in Maryland, which is three years. By shortening this period, the agreement attempts to restrict the parties' legal rights and access to remedies, which may be challenged as unconscionable or against public policy.",
+                "contradicted_law": "Maryland Statute of Limitations for Contract Disputes (typically 3 years)",
+                "location": "7.2"
+            }
+        ]
+    }
+]

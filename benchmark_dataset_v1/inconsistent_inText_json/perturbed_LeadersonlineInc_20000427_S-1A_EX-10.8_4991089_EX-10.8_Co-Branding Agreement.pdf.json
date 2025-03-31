@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LeadersonlineInc_20000427_S-1A_EX-10.8_4991089_EX-10.8_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6.2.  Payment of Fees.  LeadersOnline shall pay the fees set forth in\nSection 6.1  [Fees] to VerticalNet as follows:\n        6.2.1.  $*** upon the Effective Date of this Agreement;\n        6.2.2.  $*** within 90 days after the Effective Date;\n        6.2.3.  $*** within 180 days after the Effective Date;\n        6.2.4.  $*** within 270 days after the Effective Date; and\n        6.2.5.  $*** within 360 days after the Effective Date.",
+                "changed_text": "6.2.  Payment of Fees.  LeadersOnline shall pay the fees set forth in\nSection 6.1  [Fees] to VerticalNet as follows:\n        6.2.1.  $*** upon the Effective Date of this Agreement;\n        6.2.2.  $*** within 60 days after the Effective Date;\n        6.2.3.  $*** within 180 days after the Effective Date;\n        6.2.4.  $*** within 270 days after the Effective Date; and\n        6.2.5.  $*** within 360 days after the Effective Date.",
+                "explanation": "Changing the payment deadline for the second payment from 90 days to 60 days creates a direct conflict. It's unclear which deadline is enforceable, potentially leading to disputes over late payment penalties.",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "7.3.  Following expiration or termination of this Agreement, the terms and\nprovisions of Section 6 above shall continue to govern LeadersOnline's payment\nobligations.  Following termination, LeadersOnline shall provide VerticalNet\nwith a final accounting with respect to this Agreement and tender payment of\namounts due under Section 6 at the next scheduled payment date. LeadersOnline\nshall be obligated to pay VerticalNet the fees set forth in Section 6.3.2  [Revenue Sharing] for\nany Placement that occurs within six (6) months following termination of this\nAgreement.",
+                "changed_text": "7.3.  Following expiration or termination of this Agreement, the terms and\nprovisions of Section 6 above shall continue to govern LeadersOnline's payment\nobligations.  Following termination, LeadersOnline shall provide VerticalNet\nwith a final accounting with respect to this Agreement and tender payment of\namounts due under Section 6 within 30 days of termination. LeadersOnline\nshall be obligated to pay VerticalNet the fees set forth in Section 6.3.2  [Revenue Sharing] for\nany Placement that occurs within six (6) months following termination of this\nAgreement.",
+                "explanation": "Modifying the payment schedule upon termination creates a conflict. Previously, payment was due at the 'next scheduled payment date,' now it's due within 30 days, regardless of the previously scheduled date. This introduces ambiguity about the final payment timeline.",
+                "location": "Section 7.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6.7. Interest. All payments not paid by the date such payments are due shall\nbear interest from the due date to the date payments are actually paid at the\nlower of (a) 1% per month or (b) the maximum rate permitted by law.",
+                "changed_text": "6.7. Interest. All payments not paid by the date such payments are due shall\nbear interest from the due date to the date payments are actually paid at the\nlower of (a) 1% per month or (b) the maximum rate permitted by law. However, no interest shall be charged if the payment is made within a grace period of 5 business days.",
+                "explanation": "Adding a grace period contradicts the initial statement about interest accruing from the due date. This creates uncertainty as to whether interest applies immediately upon missing the deadline or after a grace period.",
+                "location": "Section 6.7"
+            }
+        ]
+    }
+]

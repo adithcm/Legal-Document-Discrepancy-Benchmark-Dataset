@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Recipient shall pay, or cause to be paid, the Fees shown on an invoice no later than the last business day of the month Recipient received such invoice unless disputed in accordance with Section 5.7. Any amount not received from the invoiced Party within such period shall bear interest at the Applicable Rate, from and including the last date of such period to, but excluding, the date of payment.",
+                "changed_text": "Recipient shall pay, or cause to be paid, the Fees shown on an invoice no later than 60 days after the Recipient received such invoice unless disputed in accordance with Section 5.7. Any amount not received from the invoiced Party within such period shall bear interest at the Applicable Rate, only if both parties agreed, from and including the last date of such period to, but excluding, the date of payment.",
+                "explanation": "The original text specifies payment terms that might be shorter than legally required 'prompt payment' laws in some states, which protect subcontractors and vendors by mandating payment within a reasonable timeframe. Modifying the payment deadline to '60 days' could potentially violate these regulations if a shorter timeframe is legally mandated. Additionally, interest should be automatically applied to the unpaid party instead of both parties agreeing to it.",
+                "contradicted_law": "State Prompt Payment Laws (e.g., Illinois Prompt Payment Act)",
+                "location": "Section 5.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event a dispute arises between the Parties under this Agreement, telephonic negotiations shall be conducted between the Parties’ respective Service Coordinators within ten (10) days following a written request from any Party (“Dispute Negotiations”). If the Service Coordinators are unable to resolve the dispute within ten (10) days after the Parties have commenced Dispute Negotiations, then either RGHI or the Company, by written request to the other Party, may request that such dispute be referred for resolution to the respective presidents (or similar position) of the divisions implicated by the matter for the Parties, or more senior executive of a Party if such Party so designates, which presidents (or other executives) will have fifteen (15) days to resolve such dispute. If the presidents of the relevant divisions (or other executives) for each Party do not agree to a resolution of such dispute within fifteen (15) days after the reference of the matter to them, or if the dispute is not otherwise resolved in a friendly manner as set forth in this Section 3.3, then any unresolved dispute may be resolved pursuant to Section 10.8.",
+                "changed_text": "In the event a dispute arises between the Parties under this Agreement, telephonic negotiations shall be conducted between the Parties’ respective Service Coordinators within three (3) days following a written request from any Party (“Dispute Negotiations”). If the Service Coordinators are unable to resolve the dispute within three (3) days after the Parties have commenced Dispute Negotiations, then either RGHI or the Company, by written request to the other Party, may request that such dispute be referred for resolution to the respective presidents (or similar position) of the divisions implicated by the matter for the Parties, or more senior executive of a Party if such Party so designates, which presidents (or other executives) will have five (5) days to resolve such dispute. If the presidents of the relevant divisions (or other executives) for each Party do not agree to a resolution of such dispute within five (5) days after the reference of the matter to them, or if the dispute is not otherwise resolved in a friendly manner as set forth in this Section 3.3, then any unresolved dispute may be resolved pursuant to Section 10.8.",
+                "explanation": "Reducing the negotiation timeframes significantly (from 10 days to 3 days and from 15 days to 5 days) could be considered an unreasonably short period for resolving complex disputes. This could be seen as a violation of good faith negotiation requirements, especially in scenarios where regulatory compliance or significant financial implications are at stake.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing",
+                "location": "Section 3.3(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "By the third anniversary of the Commencement Date, RGHI and its Affiliates will change its corporate names to remove RCP Names and will cease use of RCP Names as trademarks unless such use is pursuant to a separate license agreement with RCP.",
+                "changed_text": "By the first anniversary of the Commencement Date, RGHI and its Affiliates will change its corporate names to remove RCP Names and will cease use of RCP Names as trademarks unless such use is pursuant to a separate license agreement with RCP.",
+                "explanation": "Reducing the transition period for removing the 'RCP Names' could potentially violate trademark laws if it doesn't allow enough time for an orderly transition and could cause confusion in the marketplace. This potentially infringes on trademark rights related to brand recognition and goodwill.",
+                "contradicted_law": "Trademark Law (Lanham Act)",
+                "location": "Section 8.3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FuelcellEnergyInc_20191106_8-K_EX-10.1_11868007_EX-10.1_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Except as otherwise specifically provided herein, ExxonMobil agrees to pay FCE the amount of each invoice under this Agreement within thirty (30) days following ExxonMobil's receipt. Notwithstanding the foregoing, if ExxonMobil has a good faith dispute regarding any amounts invoiced by FCE, ExxonMobil may withhold payment for the disputed amount, provided that ExxonMobil pays the undisputed amount and notifies FCE in writing of the specific amount and nature of the dispute promptly upon receipt of FCE’s invoice in which case the Parties shall attempt to resolve the dispute in good faith. The Parties shall endeavor to resolve such dispute within fifteen (15) days of notice of the dispute, and ExxonMobil shall remit payment to FCE within fifteen (15) days of resolution of such dispute.",
+                "changed_text": "Except as otherwise specifically provided herein, ExxonMobil agrees to pay FCE the amount of each invoice under this Agreement within sixty (60) days following ExxonMobil's receipt. Notwithstanding the foregoing, if ExxonMobil has a good faith dispute regarding any amounts invoiced by FCE, ExxonMobil may withhold payment for the disputed amount, provided that ExxonMobil pays the undisputed amount and notifies FCE in writing of the specific amount and nature of the dispute promptly upon receipt of FCE’s invoice in which case the Parties shall attempt to resolve the dispute in good faith. The Parties shall endeavor to resolve such dispute within forty-five (45) days of notice of the dispute, and ExxonMobil shall remit payment to FCE within thirty (30) days of resolution of such dispute.",
+                "explanation": "The change extends the payment terms to sixty (60) days and increases the dispute resolution timeframe which could be a violation of prompt payment laws depending on the state. Some states have laws that mandate payment within a shorter timeframe, such as 30 days, especially for certain types of contracts or industries.",
+                "contradicted_law": "State Prompt Payment Laws (example: California Prompt Payment Act)",
+                "location": "ARTICLE 10 -PAYMENT, Paragraph 10.04"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such notice, demand, request, or other communications will be deemed to have been sufficiently given by and will be effective upon the earliest of: (a) delivering the same to a reputable courier service that requires a signature upon delivery; (b) mailing the same by registered or certified first-class mail, postage prepaid, return receipt requested; (c) if an e-mail is provided, then by e-mail with receipt confirmation followed by mailing the same or (d) actual receipt by the addressee.",
+                "changed_text": "Such notice, demand, request, or other communications will be deemed to have been sufficiently given by and will be effective only upon: (d) actual receipt by the addressee.",
+                "explanation": "Removing options (a), (b), and (c) restricts acceptable notice methods to *only* actual receipt. This is problematic. Certified mail with return receipt is generally considered legally sufficient proof of notice, regardless of whether the recipient *actually* reads it. Making actual receipt the *only* valid method could be seen as contradicting accepted legal standards for providing notice. Restricting notice to only 'actual receipt' significantly burdens the sender and creates uncertainty, potentially conflicting with legal standards that acknowledge alternatives like registered mail as sufficient.",
+                "contradicted_law": "General Contract Law - Sufficiency of Notice",
+                "location": "ARTICLE 16 - ADDRESSES AND NOTICES, Paragraph 16.01"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "FCE will keep, or cause to be kept, true books, records, and accounts in accordance with Generally Accepted Accounting Principles and containing all information necessary for the accurate determination of all amounts payable to FCE under this Agreement, and any other obligations under this Agreement. Such books, records and accounts will be maintained for a period of at least three (3) years following the termination or expiration of this Agreement, provided there are no pending disputes between the Parties. In the case of a dispute, the books, records, and accounts will be maintained for one (1) year following resolution of such dispute.",
+                "changed_text": "FCE will keep, or cause to be kept, true books, records, and accounts in accordance with Generally Accepted Accounting Principles and containing all information necessary for the accurate determination of all amounts payable to FCE under this Agreement, and any other obligations under this Agreement. Such books, records and accounts will be maintained for a period of at least one (1) year following the termination or expiration of this Agreement, provided there are no pending disputes between the Parties. In the case of a dispute, the books, records, and accounts will be maintained for six (6) months following resolution of such dispute.",
+                "explanation": "This reduces the record retention period to one year generally, and six months after dispute resolution. This creates non-compliance because tax laws and other regulations may require longer retention periods (e.g., IRS requires records to be kept for 3-7 years depending on the situation).",
+                "contradicted_law": "IRS Record Retention Requirements",
+                "location": "ARTICLE 18 - RECORDS AND AUDIT, Paragraph 18.01"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, a non-exclusive, transferable (except as set forth in Section 10.7) and sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term.",
+                "explanation": "The original text grants an 'exclusive' license, preventing Licensor from licensing the domain names to others. The changed text makes the license 'non-exclusive,' implying Licensor can license to others, creating a contradiction. Additionally, originally the license was 'non-transferable' and 'non-sublicensable' but now is 'transferable' and 'sublicensable'.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensee shall be entitled to exercise exclusive control over all aspects of the websites and the Business associated with the Licensed Domain Names including, without limitation, the operation, the look-and-feel and the Content of such websites.",
+                "changed_text": "Licensor shall retain the right to exercise control over key aspects of the websites and the Business associated with the Licensed Domain Names, including, without limitation, the operation, the look-and-feel, and presentation of the Content of such websites. However, Licensee shall handle day-to-day content updates.",
+                "explanation": "The original section states the 'Licensee' has exclusive control, but the modified text contradicts this by stating the 'Licensor' retains control over key aspects, thereby creating uncertainty as to which party has control over the content of the websites and potentially lead to conflict.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensee shall ensure that the Business complies with all applicable Laws in respect of operation, advertising and promotion of the Business and use of the Licensed Domain Names and Licensed Content in connection therewith.",
+                "changed_text": "While Licensee is responsible for day-to-day operations, Licensor will provide compliance oversight and is ultimately responsible for ensuring the Business complies with all applicable Laws in respect of operation, advertising and promotion of the Business and use of the Licensed Domain Names and Licensed Content in connection therewith.",
+                "explanation": "Originally, the 'Licensee' alone is responsible for compliance. Now, both the 'Licensee' and 'Licensor' are responsible. This is contradictory because it is not clear which party is liable if there is a compliance issue.",
+                "location": "Section 3.4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within thirty (30) days of STAAR’s invoice. Late payments shall be subject to an interest charge of 1% per month or the maximum amount permitted by applicable law, whichever is less.",
+                "changed_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within sixty (60) days of STAAR’s invoice. Late payments shall be subject to an interest charge of 1% per month or the maximum amount permitted by applicable law, whichever is less.",
+                "explanation": "The modification introduces an in-text contradiction by changing the payment deadline from 30 days to 60 days. This creates uncertainty about the actual deadline for payments and when late fees should be applied, potentially leading to disputes.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "8.2 In the event Distributor fails to take delivery and/or shipment of Products pursuant to the terms of this Agreement: (a) STAAR shall be entitled to store the Products in a warehouse at the expense and risk of Distributor; (b) the price of the Products shall become immediately due and payable by Distributor; and (c) after thirty (30) days from the date upon which the price becomes payable, STAAR may dispose of the Products in a commercially reasonable manner without notice to Distributor and recover any shortfall and related expenses from Distributor.",
+                "changed_text": "8.2 In the event Distributor fails to take delivery and/or shipment of Products pursuant to the terms of this Agreement: (a) STAAR shall be entitled to store the Products in a warehouse at the expense and risk of Distributor; (b) the price of the Products shall become immediately due and payable by Distributor; and (c) after fifteen (15) days from the date upon which the price becomes payable, STAAR may dispose of the Products in a commercially reasonable manner without notice to Distributor and recover any shortfall and related expenses from Distributor.",
+                "explanation": "This change modifies the time STAAR must wait before disposing of products due to the Distributor failing to take delivery from 30 days to 15 days, creating a contradiction with the payment terms. The Distributor now has less time to address the failure to take delivery before STAAR can dispose of the products.",
+                "location": "Section 8.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "14.4 (d) STAAR shall have the option to repurchase any or all current and resalable Products in Distributor’s inventory at eighty percent (80%) of Distributor’s original net purchase price (reflecting a twenty percent (20%) restocking and administrative fee);",
+                "changed_text": "14.4 (d) STAAR shall have the option to repurchase any or all current and resalable Products in Distributor’s inventory at fifty percent (50%) of Distributor’s original net purchase price (reflecting a fifty percent (50%) restocking and administrative fee);",
+                "explanation": "This perturbation introduces an in-text contradiction by changing the repurchase price of the product inventory. The first excerpt stated eighty percent (80%) while the changed excerpt now states fifty percent (50%), meaning the inventory is purchased with that price.",
+                "location": "Section 14.4"
+            }
+        ]
+    }
+]

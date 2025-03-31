@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.\nFees for Customizations:\n[SPECIFY TIME AND MATERIALS RATES ([Indicate any “not to exceed” limit on T&M Customization costs) OR FIXED PRICE]\nIf the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter,\nBank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "4.\nFees for Customizations:\n[SPECIFY TIME AND MATERIALS RATES ([Indicate any “not to exceed” limit on T&M Customization costs) OR FIXED PRICE]\nIf the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter,\nBank of America may terminate this Schedule and shall receive a refund of 50% of the amounts previously paid hereunder.",
+                "explanation": "This change introduces an in-text contradiction. Originally, if the price increased, Bank of America would receive a full refund. Now, they only receive 50% of the previously paid amount, creating uncertainty about the actual refund policy upon price increases.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6\nThe Delivery and Installation Schedule for this Customization is:\nDelivery Date:  \nInstallation Date:  \n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "changed_text": "6\nThe Delivery and Installation Schedule for this Customization is:\nDelivery Date: Within 30 days of agreement signing.\nInstallation Date: Within 60 days of agreement signing.\nAlternatively, delivery and installation dates can be mutually agreed upon in writing by both parties, superseding the initial 30 and 60 day deadlines.\n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "explanation": "This creates ambiguity in the delivery and installation schedule. While setting initial deadlines, it introduces an alternative for mutually agreed-upon dates that supersede the original ones, causing possible contradictions and uncertainty if not documented properly.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "7.\n[Add any special items. e.g., special payment Schedule, for this Schedule.]",
+                "changed_text": "7.\nPayment for customizations is due within 30 days of Bank of America's written acceptance of the installed customization.\nAlternatively, payment may be made according to a schedule agreed upon in writing, which supersedes the 30-day requirement.\n[Add any special items. e.g., special payment Schedule, for this Schedule.]",
+                "explanation": "This change adds a payment term of 30 days from acceptance, but then allows for a different, agreed-upon schedule that supersedes the 30-day term. This creates a contradiction as to when payment is actually due, potentially leading to disputes.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

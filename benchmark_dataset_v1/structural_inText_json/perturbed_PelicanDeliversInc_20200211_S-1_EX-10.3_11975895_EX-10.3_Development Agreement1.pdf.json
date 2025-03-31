@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Fees: The Fees for the Project shall be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be\npaid upon completion of Milestone #2.\n20% ($55,800.00) to be paid upon completion of Milestone #3.\n20% ($55,800.00) to be paid upon completion of Milestone #4.",
+                "changed_text": "Fees: The Fees for the Project shall be $279,000.00\nPayment Schedule: Client shall pay Developer:\n20% Deposit ($55,800.00) to be paid at the start of the project. The remaining payments are to be determined based on project progress and mutual agreement between Client and Developer. Specific payment amounts and dates for subsequent milestones will be documented in separate addenda to this agreement.",
+                "explanation": "The original text specifies a fixed payment schedule for each milestone. The modified version introduces ambiguity by stating that the remaining payments are 'to be determined,' contradicting the initial fixed schedule. This creates uncertainty regarding when and how the developer will be paid for milestones #1 through #4. This contradicts the set payment schedule in the earlier part of the same section.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Users will pay by linking their bank accounts via Evergreen Gateway\nAccount information will be stored and used for future orders\nOnce payment is confirmed users may proceed to completing their order",
+                "changed_text": "Users will pay by linking their bank accounts via Evergreen Gateway\nAccount information will be stored and used for future orders, unless the user chooses to opt-out, in which case, payments will be conducted by the user through cash. \nOnce payment is confirmed users may proceed to completing their order.",
+                "explanation": "The original text indicated that the users' payment should be made via linking their bank accounts via Evergreen Gateway. The changed text indicates that the user will now have an option to pay with cash, which contradicts the opening sentence in the section. This introduces an element of uncertainty.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Only one dispensary per zip code will be allowed\nOnce a zip code is claimed it will not be available until that dispensary stops he monthly fee or gets removed from the system",
+                "changed_text": "Only one dispensary per zip code will be allowed, except in cases of high demand, where Pelican Delivers may authorize additional dispensaries at its sole discretion.\nOnce a zip code is claimed it will not be available until that dispensary stops he monthly fee or gets removed from the system",
+                "explanation": "The original text explicitly stated that 'Only one dispensary per zip code will be allowed', which created an expectation that such conditions would be adhered to at all times. The modified version introduces an exception, allowing multiple dispensaries per zip code if Pelican Delivers decides that there is a 'high demand'. This contradicts the previously stated exclusivity and makes enforcement of the single-dispensary rule unclear, as it depends on Pelican Delivers' subjective assessment of 'high demand'.",
+                "location": "Back-end Development"
+            }
+        ]
+    }
+]

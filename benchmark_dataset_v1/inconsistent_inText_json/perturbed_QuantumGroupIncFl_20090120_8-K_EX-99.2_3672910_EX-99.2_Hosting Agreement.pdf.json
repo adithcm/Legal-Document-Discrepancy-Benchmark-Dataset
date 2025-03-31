@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_Hosting Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "IBM invoices will specify the amount due. Payment is due and payable by month end for any invoice received by the 10th of the month, otherwise payment is due thirty (30) days from receipt of invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+                "changed_text": "IBM invoices will specify the amount due. Payment is due and payable by the 20th of the month for any invoice received by the 10th of the month, otherwise payment is due fifteen (15) days from receipt of invoice. Customer agrees to pay accordingly, excluding any late payment fees for the first 60 days. Payment will be made in United States dollars.",
+                "explanation": "The original text states that payment is due by month end if the invoice is received by the 10th, otherwise it is due 30 days from receipt. The changed text creates an in-text contradiction by stating payment is due by the 20th of the month for any invoice received by the 10th, otherwise it is due fifteen (15) days from receipt. Moreover, the original text states late payment fees, but the changed text creates in-text contradiction by excluding late payment fees for the first 60 days, leading to legal uncertainty and potential disputes over obligations.",
+                "location": "5.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "IBM invoices will specify the amount due. Payment is due and payable by month end for any invoice received by the 10th of the month, otherwise payment is due thirty (30) days from receipt of invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+                "changed_text": "IBM invoices will specify the amount due. Payment is due immediately upon receipt of the invoice. Customer agrees to pay within 10 days of receipt of the invoice, including any late payment fees that will accrue at a rate of 10% per day. Payment will be made in United States dollars.",
+                "explanation": "The original text allows for a payment deadline of either the end of the month or 30 days from receipt of the invoice. The changed text creates an in-text contradiction by requiring immediate payment upon receipt and limiting the payment timeframe to 10 days and accrue a late payment fee, creating uncertainty about payment enforcement.",
+                "location": "5.0"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Attachment C – Charges",
+                "changed_text": "Attachment B – Hosting Components",
+                "explanation": "The original text indicates that the charges and fees for Managed Hosting Services are described in Attachment C. The changed text mislabels Attachment C charges, creating confusion about charges and hosting, and where to seek the amount payable by Quantum Group Inc.",
+                "location": "Attachment C"
+            }
+        ]
+    }
+]

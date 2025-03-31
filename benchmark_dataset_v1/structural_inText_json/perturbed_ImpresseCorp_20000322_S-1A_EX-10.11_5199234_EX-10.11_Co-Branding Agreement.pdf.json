@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.  DEFINITIONS\n     1.1. AFFILIATE shall mean, when used with reference to a party, any\nindividual or entity directly or indirectly controlling, controlled by or under\ncommon control with such party. For purposes of this definition, \"control\" means\nthe direct or indirect ownership of at least 50% of the outstanding voting\nsecurities of a party, or the right to control the policy decisions of such\nparty.",
+                "changed_text": "1.  DEFINITIONS\n     1.1. AFFILIATE shall mean, when used with reference to a party, any\nindividual or entity directly or indirectly controlling, controlled by or under\ncommon control with such party. For purposes of this definition, \"control\" may mean\nthe direct or indirect ownership of at least 5% of the outstanding voting\nsecurities of a party, or influence over the policy decisions of such\nparty.",
+                "explanation": "Original definition sets Affiliate control as 50% ownership of voting securities. Modified text defines control as potentially only 5% ownership and 'influence,' creating ambiguity about the control threshold. This impacts liability if an affiliate's actions are under question.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "     1.5. CONFIDENTIAL INFORMATION shall mean, subject to the provisions of\nSection 7.2  [EXCLUSIONS], all proprietary and confidential information of a party, including,\nwithout limitation, trade secrets, technical information, business information,\nsales information, customer and potential customer lists and identities, product\nsales plans, sublicense agreements, inventions, developments, discoveries,\nsoftware, know-how, methods, techniques, formulae, data, processes and other\ntrade secrets and proprietary ideas, whether or not protectable under patent,\ntrademark, copyright or other areas of law, that the other party has access to\nor receives. For purposes of this Agreement,\n                                      1\n* Represents confidential information for which Impresse Corporation is\nseeking confidential treatment with the Securities and Exchange Commission.\nthe Co-Branded Content shall not be considered Confidential Information of\nImpresse. For purposes of this Agreement, this Agreement shall be considered\nConfidential Information.",
+                "changed_text": "     1.5. CONFIDENTIAL INFORMATION shall mean, subject to the provisions of\nSection 7.2  [EXCLUSIONS], all proprietary and confidential information of a party, including,\nwithout limitation, trade secrets, technical information, business information,\nsales information, customer and potential customer lists and identities, product\nsales plans, sublicense agreements, inventions, developments, discoveries,\nsoftware, know-how, methods, techniques, formulae, data, processes and other\ntrade secrets and proprietary ideas, whether or not protectable under patent,\ntrademark, copyright or other areas of law, that the other party has access to\nor receives. For purposes of this Agreement, the Co-Branded Content may be considered Confidential Information of Impresse only with a written consent. For purposes of this Agreement, this Agreement shall be considered\nConfidential Information.",
+                "explanation": "The original definition explicitly excludes Co-Branded Content from Impresse's Confidential Information, but the modified clause introduces the condition that Co-Branded Content may be considered Confidential with 'written consent.' This creates a contradiction. Impresse is no longer sure what is and isn't confidential.",
+                "location": "Section 1.5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "     5.1. The Term of this Agreement shall begin on the Effective Date and shall\nend fifteen months therefrom.",
+                "changed_text": "     5.1. The Term of this Agreement shall begin on the Effective Date and shall\nend fifteen months therefrom, unless either party provides a written notice stating otherwise.",
+                "explanation": "While the original contract specified a specific term length, the added phrase permits either party to provide written notice to prematurely end the agreement term, creating a contradiction. It is uncertain when the agreement ends.",
+                "location": "Section 5.1"
+            }
+        ]
+    }
+]

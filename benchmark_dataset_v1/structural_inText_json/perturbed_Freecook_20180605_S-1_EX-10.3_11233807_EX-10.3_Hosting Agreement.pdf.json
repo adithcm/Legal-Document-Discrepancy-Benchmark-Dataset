@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1. Website Design and Development. Client agrees to pay to Company the sum of $5,000 (the “Contract Price”) to design and develop a website for Client (the “Client Website”) in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+                "changed_text": "1. Website Design and Development. Client agrees to pay to Company a sum not to exceed $5,000 (the “Contract Price”) to design and develop a website for Client (the “Client Website”) potentially in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+                "explanation": "The original text firmly states that the client agrees to pay $5,000. The modified text introduces ambiguity by stating 'not to exceed $5,000' and 'potentially in accordance with', thus creating uncertainty about the agreed-upon price and scope.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2. Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "2. Payment Terms. Upon the signing of this Agreement, Client may pay to Company a total not to exceed $5,000, subject to change orders. Client shall make a prepayment of $1,900; the remaining balance will be determined at the Company’s sole discretion following completion of the agreed upon scope of work.",
+                "explanation": "The original section mandates the client pays a total of $5,000, and describes the exact payment structure. The modified section makes the payment discretionary on the Client's part, creates ambiguity in the final payment and provides a loophole for change orders to influence the payment amount, contradicting the prior statement. The inclusion of 'at the Company’s sole discretion' further creates uncertainty in the payment amount. These changes undermine the financial certainty established initially.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4. Customer Service. Company, either directly or through its authorized service provider, shall provide customer service (the “Customer Service”) relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is not obligated to provide any Customer Service except as specified in this Section. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
+                "changed_text": "4. Customer Service. Company, either directly or through its authorized service provider, may provide customer service (the “Customer Service”) relating to Client Website consisting of answering a select number of customer questions or complaints regarding website hosting services, if deemed necessary by Company. Company is not obligated to provide any Customer Service. Company at its sole discretion may at any time alter or cease providing the Customer Service.",
+                "explanation": "Originally, the company 'shall provide customer service,' creating an obligation. The modified text replaces 'shall' with 'may' and adds conditions like 'if deemed necessary,' and 'a select number of ...questions or complaints', shifting the obligation to a discretionary act, directly conflicting with the original intent. Additionally, removing the phrase 'except as specified in this Section' further obfuscates the customer service commitment.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

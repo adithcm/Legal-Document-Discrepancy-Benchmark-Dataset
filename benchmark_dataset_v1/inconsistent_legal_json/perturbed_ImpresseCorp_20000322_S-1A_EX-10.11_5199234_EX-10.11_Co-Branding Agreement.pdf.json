@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Employees must submit harassment claims within 15 days.",
+                "changed_text": "Employees must submit harassment claims within 5 days.",
+                "explanation": "Some states (e.g., California) require **at least 30 days** for harassment claims.",
+                "contradicted_law": "California Fair Employment and Housing Act (FEHA)",
+                "location": "8.   REPRESENTATIONS AND WARRANTIES"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "VerticalNet shall have the right to appoint a certified public accountant to audit Impresse's financial records relating to such payment to verify the accuracy of Impresse's financial records in order to verify the amount of the payments owed and/or paid hereunder, but no more frequently than once per year.",
+                "changed_text": "VerticalNet shall have the right to appoint a certified public accountant to audit Impresse's financial records relating to such payment to verify the accuracy of Impresse's financial records in order to verify the amount of the payments owed and/or paid hereunder, up to three times per year.",
+                "explanation": "The modification changes the frequency of audits from once per year to up to three times per year. This creates a legal contradiction because excessive audit requests can be considered unreasonable interference with business operations, potentially violating implied duties of good faith and fair dealing present in Delaware contract law.",
+                "contradicted_law": "Implied duty of good faith and fair dealing under Delaware law.",
+                "location": "4.8. AUDITS."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If negotiation does not result in a resolution within 30 days of the date one party first notifies the other of the controversy or claim, either party may resort to arbitration under Section 6.2  [ARBITRATION].",
+                "changed_text": "If negotiation does not result in a resolution within 5 days of the date one party first notifies the other of the controversy or claim, either party may resort to arbitration under Section 6.2  [ARBITRATION].",
+                "explanation": "The original text provides a 30-day negotiation period before resorting to arbitration. The modified text reduces this to 5 days. This contradicts generally accepted principles of contract law that emphasize providing a reasonable timeframe for dispute resolution before escalating to more formal and costly processes like arbitration. Courts in Delaware, whose law governs this agreement, generally expect parties to make good faith efforts to resolve disputes amicably. A 5-day negotiation period may be deemed unreasonably short, potentially undermining the enforceability of the arbitration clause itself. Additionally, some state laws mandate specific minimum periods for certain pre-arbitration dispute resolution steps.",
+                "contradicted_law": "General principles of contract law regarding reasonable timeframes for dispute resolution and good faith negotiation, Delaware contract law, and potentially state-specific arbitration rules.",
+                "location": "6.1. NEGOTIATION AND ESCALATION."
+            }
+        ]
+    }
+]

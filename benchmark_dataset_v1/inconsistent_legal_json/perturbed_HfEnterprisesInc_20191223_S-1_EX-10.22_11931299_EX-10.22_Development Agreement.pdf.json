@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30-days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof.",
+                "changed_text": "The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 10-days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof.",
+                "explanation": "Reducing the notice period for termination to 10 days contradicts the standard practice and legal expectations of reasonable notice, potentially violating New York state laws regarding contract termination. New York courts often require a reasonable notice period based on the nature of the contract, and 10 days may be deemed insufficient.",
+                "contradicted_law": "New York contract law regarding reasonable notice for termination.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the Term of this Agreement and thereafter for a period of five (5) years, the parties shall be bound by all of the protective terms and conditions of the NDA.",
+                "changed_text": "During the Term of this Agreement and thereafter for a period of one (1) year, the parties shall be bound by all of the protective terms and conditions of the NDA.",
+                "explanation": "Reducing the confidentiality period to one year may be insufficient to protect trade secrets or other confidential information, particularly under New York law. If the confidential information has a longer commercially valuable life, this shorter period might not provide adequate protection and could be deemed unreasonable, thus conflicting with trade secret protection laws.",
+                "contradicted_law": "New York trade secret and confidentiality laws.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices sent under this Agreement shall be in writing and shall be deemed effectively given (i) upon personal delivery to the party to be notified; (ii) when sent by e-mail PDF or confirmed facsimile, if sent during normal business hours of the recipient, if not, then on the next business day; (iii) three (3) days after having been sent by registered or certified mail, return receipt requested, postage prepaid; or (iv) two (2) days after deposit with an internationally recognized overnight courier, specifying two (2) day delivery, with written verification of receipt.",
+                "changed_text": "All notices sent under this Agreement shall be in writing and shall be deemed effectively given upon sending via standard postal mail, regardless of receipt confirmation.",
+                "explanation": "Eliminating the requirement for confirmed receipt (registered mail, overnight courier, email confirmation) contradicts standard commercial practice and potentially violates legal requirements for adequate notice. New York law generally requires reasonable assurance of notice delivery, especially for critical contractual matters. Standard postal mail without tracking or confirmation may be deemed insufficient, potentially rendering notices ineffective and leading to legal disputes.",
+                "contradicted_law": "New York law regarding adequate notice and delivery confirmation for contractual obligations.",
+                "location": "Section 9.8"
+            }
+        ]
+    }
+]

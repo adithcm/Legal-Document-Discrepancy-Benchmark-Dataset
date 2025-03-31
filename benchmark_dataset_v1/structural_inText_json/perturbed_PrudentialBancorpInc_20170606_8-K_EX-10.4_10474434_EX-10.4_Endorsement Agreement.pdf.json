@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_Endorsement Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "\"Base Salary\" means the Employee's total base salary as of each January 1st exclusive of special payments such as bonuses or\ncommissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "changed_text": "\"Base Salary\" means the Employee's total salary at the Employer's discretion, inclusive of any special payments such as bonuses or commissions, and excluding any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "explanation": "The original definition of 'Base Salary' provides a clear, objective measure tied to a specific date and excludes bonuses/commissions. The modified definition introduces subjectivity ('at the Employer's discretion') and reverses the treatment of bonuses/commissions, making it unclear and potentially manipulable by the Employer. This contradicts the initial clear definition and causes uncertainty.",
+                "location": "ARTICLE I"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement may be terminated at any time while the Employee is living by written notice thereof by either the Employer or the Employee to the\nother; and, in any event, this Agreement will terminate upon termination of the Employee's employment.",
+                "changed_text": "This Agreement may be terminated by the Employer at any time with or without cause, and without any prior notice to the Employee. The employee may only terminate this agreement based on conditions specified by the Employer.",
+                "explanation": "The original text allows either party to terminate the agreement. The modified version heavily favors the Employer, granting them unilateral termination rights while restricting the Employee's termination options. This directly contradicts the initial statement of mutual termination rights and introduces a power imbalance that creates uncertainty in enforcement.",
+                "location": "ARTICLE VI"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement sets forth the entire Agreement of the parties hereto, and any and all prior agreements, to the extent inconsistent herewith, are\nhereby superseded. This Agreement will be governed by the laws of the State of Pennsylvania.",
+                "changed_text": "This Agreement may not be the entire agreement of the parties hereto, and prior agreements might be applicable. This Agreement will not be governed by the laws of the State of Pennsylvania.",
+                "explanation": "The original text states that the agreement is the entire agreement between the parties. The changed text introduces doubt and contradict the completeness of the agreement. Also, the original text mentions the agreement will be governed by the laws of the State of Pennsylvania, however the changed text makes the section vague. This leads to creating uncertainty about the nature of the agreement.",
+                "location": "ARTICLE XII"
+            }
+        ]
+    }
+]

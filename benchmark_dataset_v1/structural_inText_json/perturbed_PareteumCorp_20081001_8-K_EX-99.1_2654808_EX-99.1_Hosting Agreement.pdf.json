@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "17.1\nThis Agreement shall come into force on the Date of the Agreement, and shall, subject to article 18, remain in full force and effect for an\ninitial period of *** from the Commercial Launch Date.",
+                "changed_text": "17.1\nThis Agreement shall come into force on the Date of the Agreement, and shall, subject to article 18, remain in full force and effect for an\ninitial period of *** from the Date of the Agreement.",
+                "explanation": "The original states that the agreement lasts for a period starting from the Commercial Launch Date, but the modification states that the agreement lasts for the said period from the Date of the Agreement. These 2 are mutually exclusive and creates ambiguity.",
+                "location": "Section 17"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "18.1\nIn addition to the conditions of Article 17, this Agreement may be terminated as follows:\n\na.\nby mutual agreement of the Parties; or\n\nb.\nby either Party, with immediate effect, if the other Party is in material breach of any provision of this Agreement and does not or is not\ncapable of remedying such breach within a reasonable time and in any event within sixty (60) Business Days of receipt of a written\nnotice to such effect. A material breach will, for the purpose of this Agreement, not include the event that ELEPHANT TALK fails to\ncomply with its payments obligations under article 9.2.; or",
+                "changed_text": "18.1\nIn addition to the conditions of Article 17, this Agreement may be terminated as follows:\n\na.\nby mutual agreement of the Parties; or\n\nb.\nby either Party, with immediate effect, if the other Party is in material breach of any provision of this Agreement and does not or is not\ncapable of remedying such breach within a reasonable time and in any event within sixty (60) Business Days of receipt of a written\nnotice to such effect. A material breach will, for the purpose of this Agreement, include the event that ELEPHANT TALK fails to\ncomply with its payments obligations under article 9.2.; or",
+                "explanation": "The original excludes non-compliance with payment obligations as a material breach, but the modified version includes it as a material breach. This creates a direct contradiction, making it unclear whether failure to pay constitutes grounds for immediate termination.",
+                "location": "Section 18"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.5 This article 11 shall survive the termination of this Agreement as provided for in articles 17 and 18 for a period of two (2) years but shall not in\nany way limit or restrict either Party's use of its own Confidential Information.",
+                "changed_text": "11.5 This article 11 shall survive the termination of this Agreement as provided for in articles 17 and 18 indefinitely but shall not in\nany way limit or restrict either Party's use of its own Confidential Information.",
+                "explanation": "The original states that the confidentiality clause survives termination for 2 years, but the modified version states it survives indefinitely. This creates confusion about the duration of the confidentiality obligation.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

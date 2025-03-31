@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "ABW agrees to pay said charges within thirty (30) days of the monthly invoice date.  ABW may issue a purchase order for billing purposes.  The invoices must reference that purchase order number and be sent to the \"Bill To\" address stated on the purchase order.  The terms of this negotiated Agreement shall supercede those contained on that purchase order.",
+                "changed_text": "ABW agrees to pay said charges within sixty (60) days of the monthly invoice date.  ABW may issue a purchase order for billing purposes.  The invoices must reference that purchase order number and be sent to the \"Bill To\" address stated on the purchase order.  The terms of this negotiated Agreement shall supercede those contained on that purchase order.",
+                "explanation": "This change introduces an in-text contradiction. Section 3.B now states that ABW has 60 days to pay invoices, conflicting with Section 3.D, which imposes a finance charge if payments are not received within 30 days of the invoice date. This creates uncertainty about the actual payment deadline and when finance charges apply.",
+                "location": "3.B"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Any payments which have not been received by PCQ within thirty (30) days of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month which is a corresponding ANNUAL\nPERCENTAGE RATE of 12% on the outstanding balance.",
+                "changed_text": "Any payments which have not been received by PCQ within forty-five (45) days of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month which is a corresponding ANNUAL\nPERCENTAGE RATE of 12% on the outstanding balance.",
+                "explanation": "This change introduces an in-text contradiction with the modified Section 3.B which states that ABW has 60 days to pay invoices, conflicting with Section 3.D, which imposes a finance charge if payments are not received within 45 days of the invoice date. This creates uncertainty about the actual payment deadline and when finance charges apply.",
+                "location": "3.D"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "In the event that any invoice is not paid by ABW within forty-five\n(45) days after receipt, and when no discrepancy issues have been identified by\nABW which are in some stage of resolution, after giving notice to ABW, PCQ may\nterminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED\nprovided hereunder unless ABW pays such invoice prior to the termination date\nspecified in the Termination Notice.  The remedies contained herein are\ncumulative and are in addition to all other rights and remedies available to PCQ\nunder this Agreement, by operation of law, or otherwise.",
+                "changed_text": "In the event that any invoice is not paid by ABW within thirty (30) days after receipt, and when no discrepancy issues have been identified by ABW which are in some stage of resolution, after giving notice to ABW, PCQ may terminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED provided hereunder unless ABW pays such invoice prior to the termination date specified in the Termination Notice. The remedies contained herein are cumulative and are in addition to all other rights and remedies available to PCQ under this Agreement, by operation of law, or otherwise.",
+                "explanation": "This creates a contradiction with the modified section 3.B, which states that ABW has 60 days to pay the invoices, yet section 3.H now states if ABW does not pay the invoice within 30 days, PCQ may terminate the agreement. This is also contradictory to the original section 3.D, where ABW has 45 days to pay invoices.",
+                "location": "3.H"
+            }
+        ]
+    }
+]

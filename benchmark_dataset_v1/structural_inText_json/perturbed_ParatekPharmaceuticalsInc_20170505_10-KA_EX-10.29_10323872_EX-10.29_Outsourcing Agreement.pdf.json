@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.3 Grant of License by Customer\nDuring the Term, Customer hereby grants to Supplier a paid-up, royalty-free, non-exclusive license, without the right to sublicense, to Customer’s Confidential Information and the Customer Technology reasonably necessary to Manufacture and supply to Customer the Product hereunder, but only for such purposes. The Parties agree that the license grant contained in this Section 11.3 is personal to Supplier only and shall be exercised by Supplier only, and Supplier agrees to make use of Customer’s Confidential Information and the Customer Technology only in accordance with this license and not to disclose any such Confidential Information or Customer Technology to any Third Party, except that nothing herein shall prevent Supplier from disclosing to its permitted subcontractors under confidentiality obligations at least as strict as those that bind Supplier under this Agreement, as necessary to perform Supplier’s obligations hereunder.",
+                "changed_text": "11.3 Grant of License by Customer\nDuring the Term, Customer hereby grants to Supplier a paid-up, royalty-free, non-exclusive license, with the right to sublicense, to Customer’s Confidential Information and the Customer Technology reasonably necessary to Manufacture and supply to Customer the Product hereunder, but only for such purposes. The Parties agree that the license grant contained in this Section 11.3 is personal to Supplier only and shall be exercised by Supplier only, and Supplier agrees to make use of Customer’s Confidential Information and the Customer Technology only in accordance with this license and not to disclose any such Confidential Information or Customer Technology to any Third Party, except that nothing herein shall prevent Supplier from disclosing to its permitted subcontractors under confidentiality obligations at least as strict as those that bind Supplier under this Agreement, as necessary to perform Supplier’s obligations hereunder.",
+                "explanation": "This change directly contradicts the original clause by granting the Supplier the right to sublicense Customer's Confidential Information and Customer Technology, whereas the original text explicitly denied this right. This contradiction creates uncertainty regarding the scope of the license and could lead to disputes over whether the Supplier is permitted to grant sublicenses to third parties.",
+                "location": "Article 11"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "18.1 Termination\nThis Agreement is effective as of the Effective Date and will expire in accordance with Section 2.1, unless, upon the occurrence of any of the following events, this Agreement is earlier terminated in accordance with this Section 18.1:\na) Customer delivers written notice of termination to Supplier at least [* * *] prior to the expiration date of the Initial Term, which termination shall be effective as of the expiration date of the Initial Term;",
+                "changed_text": "18.1 Termination\nThis Agreement is effective as of the Effective Date and will expire in accordance with Section 2.1, unless, upon the occurrence of any of the following events, this Agreement is earlier terminated in accordance with this Section 18.1:\na) Customer delivers written notice of termination to Supplier at least [* * *] prior to the expiration date of the Initial Term, which termination shall not be effective as of the expiration date of the Initial Term;",
+                "explanation": "This perturbation introduces a contradiction regarding when the termination takes effect if the customer wishes to not renew the contract. This could lead to ambiguity if the customer follows the directions listed and a conflict arises.",
+                "location": "Article 18"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "19.1 Assignment; Inurement\nThis Agreement shall be binding upon and shall inure to the benefit of the Parties hereto and their successors and permitted assigns. Supplier shall not assign this Agreement, in whole or in part, to any person without the prior written consent of Customer, except to a Third Party which acquires all, or substantially all, of Supplier’s business or assets, whether through merger or otherwise.",
+                "changed_text": "19.1 Assignment; Inurement\nThis Agreement shall be binding upon and shall inure to the benefit of the Parties hereto and their successors and permitted assigns. Supplier shall assign this Agreement, in whole or in part, to any person without the prior written consent of Customer, except to a Third Party which acquires all, or substantially all, of Supplier’s business or assets, whether through merger or otherwise.",
+                "explanation": "This introduces a contradiction regarding whether or not the supplier needs consent to assign the contract or not. This is done by changing \"shall not assign\" to \"shall assign\" while leaving the existing limitations and consent requirements in place.",
+                "location": "Article 19"
+            }
+        ]
+    }
+]

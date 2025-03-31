@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IdeanomicsInc_20160330_10-K_EX-10.26_9512211_EX-10.26_Content License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) Restrictions. Each party agrees that, during the Term and for two (2) years thereafter:\n(i) it will not disclose to any third party any Confidential Information disclosed to it by the\nother party except as expressly permitted in this Agreement",
+                "changed_text": "(b) Restrictions. Each party agrees that, during the Term and for six (6) months thereafter:\n(i) it will not disclose to any third party any Confidential Information disclosed to it by the\nother party except as expressly permitted in this Agreement",
+                "explanation": "The original text mandates a two-year confidentiality period, while the modified text reduces this to six months. This change introduces a legal contradiction because, depending on the jurisdiction (defaulting to US law), trade secret protection can extend indefinitely if the information remains a trade secret and is actively protected. Reducing the confidentiality period to six months may be deemed unreasonable and insufficient to protect trade secrets, potentially conflicting with state laws governing trade secret misappropriation.",
+                "contradicted_law": "Varies by US state, but examples include the Uniform Trade Secrets Act (UTSA) as adopted by many states, which provides for indefinite protection of trade secrets as long as they remain confidential and provide a competitive advantage.",
+                "location": "Section 14(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Licensor will keep and maintain accurate books and records with respect\nto the Project. Until one (1) year after the expiration of the Profit Participation of\neach Project, the books and records will be available for inspection by a certified\naccounting firm or CPA once per year upon reasonable advance notice.",
+                "changed_text": "Licensor will keep and maintain accurate books and records with respect\nto the Project. Until thirty (30) days after the expiration of the Profit Participation of\neach Project, the books and records will be available for inspection by a certified\naccounting firm or CPA once per year upon reasonable advance notice.",
+                "explanation": "The original text allows for inspection of financial records for one year after the expiration of profit participation. The modified text shortens this period to thirty days. This could be considered an unreasonably short period under generally accepted accounting principles (GAAP) and could violate implied duties of good faith and fair dealing, as it may not allow sufficient time for a thorough audit and dispute resolution related to profit participation calculations, potentially contradicting legal standards of fairness and transparency in accounting practices.",
+                "contradicted_law": "Implied duty of good faith and fair dealing, generally accepted accounting principles (GAAP).",
+                "location": "Section 2(e)vi"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this\nAgreement upon written notice if the other party materially breaches this Agreement and fails to\ncure such breach within thirty (30) days after the date that it receives written notice of such\nbreach from the non-breaching party.",
+                "changed_text": "Either party may terminate this\nAgreement upon written notice if the other party materially breaches this Agreement and fails to\ncure such breach within ten (10) days after the date that it receives written notice of such\nbreach from the non-breaching party.",
+                "explanation": "The original text allows a 30-day cure period for breaches of contract. Reducing this cure period to 10 days may be deemed unreasonably short, especially for complex contractual breaches. Many jurisdictions (defaulting to US law) require a reasonable cure period, and 10 days may not be sufficient to rectify significant breaches, potentially leading to wrongful termination claims. This is especially true considering the international context of the parties and potential challenges in addressing breaches promptly across different legal systems.",
+                "contradicted_law": "Common law principles of contract law regarding reasonable cure periods for breaches, varying by US state and potentially influenced by international contract law principles.",
+                "location": "Section 7(b)"
+            }
+        ]
+    }
+]

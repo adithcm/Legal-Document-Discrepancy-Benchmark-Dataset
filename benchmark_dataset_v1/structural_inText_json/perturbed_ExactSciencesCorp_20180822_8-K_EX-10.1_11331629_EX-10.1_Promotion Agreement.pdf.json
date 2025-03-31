@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ExactSciencesCorp_20180822_8-K_EX-10.1_11331629_EX-10.1_Promotion Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.2 Promotion Fee.\n(a) Calculation of Promotion Fee. From the Launch Date and ending on the last day of the next Calendar Quarter and each\nsubsequent Calendar Quarter during the Term, Exact shall owe Pfizer a service fee equal to fifty percent (50%) of the\nproduct of: Laboratory Service Revenue minus Baseline Laboratory Service Revenue (“Incremental Laboratory Service\nRevenue”) for the Calendar Quarter multiplied by Gross Margin Percent for the Calendar Quarter (such product, the\n“Promotion Fee”). In no event shall the Gross Margin Percent used in the calculation of the Promotion Fee be less than\nsixty-eight percent (68%) or more than seventy-four percent (74%). The calculation of the Promotion Fee pursuant to\nthis Section 4.2(a) is subject to Section 4.2(c) below. Promotion Fee(s) and all compensation paid by Exact to Pfizer under\nthis Agreement, even where calculated as a percentage of sales, is intended to compensate Pfizer a fair market value for\nthe entirety of services that Pfizer is providing to Exact hereunder.",
+                "changed_text": "4.2 Promotion Fee.\n(a) Calculation of Promotion Fee. From the Launch Date and ending on the last day of the next Calendar Quarter and each\nsubsequent Calendar Quarter during the Term, Exact *may* owe Pfizer a service fee equal to *a percentage* of the\nproduct of: Laboratory Service Revenue minus Baseline Laboratory Service Revenue (“Incremental Laboratory Service\nRevenue”) for the Calendar Quarter multiplied by Gross Margin Percent for the Calendar Quarter (such product, the\n“Promotion Fee”). *The percentage and calculation of the Promotion Fee is at the sole discretion of Exact.* In no event shall the Gross Margin Percent used in the calculation of the Promotion Fee be less than\nsixty-eight percent (68%) or more than seventy-four percent (74%). The calculation of the Promotion Fee pursuant to\nthis Section 4.2(a) is subject to Section 4.2(c) below. Promotion Fee(s) and all compensation paid by Exact to Pfizer under\nthis Agreement, even where calculated as a percentage of sales, is intended to compensate Pfizer a fair market value for\nthe entirety of services that Pfizer *may be* providing to Exact hereunder.",
+                "explanation": "This change introduces a contradiction by making the payment of the promotion fee discretionary (\"may\" owe) and changing the fixed percentage to a variable at the sole discretion of Exact, and the same phrase may be replaced by an uncertain phrase (\"may be\"). This contradicts the original clause, which stated that Exact \"shall\" owe a service fee calculated according to a defined formula. This could cause uncertainty about payment enforcement.",
+                "location": "Section 4.2(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.3 Covenants.\n(a) Each Party hereby covenants to the other Party that, during the Term in the Territory:\n(i) it will immediately remove any Sales Representative from having any responsibilities relating to Promotion of the\nProduct under this Agreement if required by Applicable Laws, including if such Party determines that such\nSales Representative is Debarred/Excluded;",
+                "changed_text": "5.3 Covenants.\n(a) Each Party hereby covenants to the other Party that, during the Term in the Territory:\n(i) it will *endeavor to* remove any Sales Representative from having any responsibilities relating to Promotion of the\nProduct under this Agreement if required by Applicable Laws, including if such Party determines that such\nSales Representative is Debarred/Excluded; *but if Exact need the sales representative in certain circumstances, it is not necessary.*",
+                "explanation": "This change creates a contradiction by weakening the commitment to remove a Debarred/Excluded Sales Representative. Originally, the party \"will immediately remove\" the representative. Now, the party \"will endeavor to remove,\" but allows for exemptions. It create an uncertainty about the original duty.",
+                "location": "Section 5.3(a)(i)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "9.6 Amendment. No amendment, modification or supplement of any provision of this Agreement shall be valid or effective unless made in\na writing signed by a duly authorized officer of each Party and delivered to each of the Parties.",
+                "changed_text": "9.6 Amendment. No amendment, modification or supplement of any provision of this Agreement shall be valid or effective unless made in\na writing signed by a duly authorized officer of each Party and delivered to each of the Parties. *However, verbal agreements approved by the CEO of Exact Sciences are also valid amendments to this agreement.*",
+                "explanation": "This perturbation introduces a contradiction by stating that while written amendments are required, verbal agreements approved by the CEO of Exact Sciences are also valid. This direct contradiction creates uncertainty regarding the process for amending the contract and could lead to disputes over whether a verbal agreement is enforceable.",
+                "location": "Section 9.6"
+            }
+        ]
+    }
+]

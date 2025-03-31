@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IpassInc_20181203_8-K_EX-99.1_11445874_EX-99.1_Reseller Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "10.1 Term. This Agreement shall commence on the Effective Date and shall continue for a period of twelve (12) full calendar months (“Initial Term”). The Agreement shall automatically renew for successive one (1) year terms (each a “Renewal Term”) unless either party provides the other party written notification of its intent to terminate the Agreement no later than sixty (60) days prior to the end of the then applicable term.",
+                "changed_text": "10.1 Term. This Agreement shall commence on the Effective Date and shall continue for a period of twelve (12) full calendar months (“Initial Term”). The Agreement may renew for successive one (1) year terms (each a “Renewal Term”) only if both parties provide written consent to the renewal no later than sixty (60) days prior to the end of the then applicable term.",
+                "explanation": "The original text states that the agreement automatically renews unless one party provides notice of termination. The modified text states that the agreement only renews if both parties provide written consent to the renewal. This creates a contradiction regarding the renewal process, making it unclear whether the agreement automatically renews or requires mutual agreement.",
+                "location": "Section 10.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.  SERVICE RATE PLAN\n3.1 Fees. Channel Partner is solely responsible for billing End Users, and paying iPass for all usage of the Services. Channel Partner agrees\nto pay for usage of the Service on a monthly basis in accordance with the pricing set forth in Exhibit C. iPass may change the pricing in Exhibit C\nupon notice to Channel Partner, such changes to be effective within thirty (30) days after the date of such notice, such changes may include, by\nway of example only, the application of end of life fees.",
+                "changed_text": "3.  SERVICE RATE PLAN\n3.1 Fees. Channel Partner is solely responsible for billing End Users, and paying iPass for all usage of the Services. Channel Partner agrees\nto pay for usage of the Service on a monthly basis in accordance with the pricing set forth in Exhibit C. iPass may change the pricing in Exhibit C\nwithout any prior notice to Channel Partner, such changes to be effective immediately, such changes may include, by way of example only, the application of end of life fees.",
+                "explanation": "The original text specifies that iPass may change the pricing in Exhibit C upon providing 30 days' notice to the Channel Partner. In contrast, the modified clause indicates that iPass can change the pricing without any prior notice, with the changes effective immediately. This direct contradiction creates uncertainty and potential disputes regarding pricing adjustments.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "7.4 For Confidential Information pertaining to the Licensed Software, the obligations set forth in this Section 7 are indefinite. For all other Confidential Information, such obligations shall continue for five (5) years from the date of initial disclosure.",
+                "changed_text": "7.4 For Confidential Information pertaining to the Licensed Software, the obligations set forth in this Section 7 are continue for five (5) years from the date of initial disclosure. For all other Confidential Information, such obligations shall be indefinite.",
+                "explanation": "The original text establishes different durations for confidentiality obligations: indefinite for Licensed Software and five years for all other confidential information. The modified version reverses these durations. This creates a clear contradiction and uncertainty about how long confidentiality obligations last for each type of information. Is it five years for the software or indefinite?",
+                "location": "Section 7.4"
+            }
+        ]
+    }
+]

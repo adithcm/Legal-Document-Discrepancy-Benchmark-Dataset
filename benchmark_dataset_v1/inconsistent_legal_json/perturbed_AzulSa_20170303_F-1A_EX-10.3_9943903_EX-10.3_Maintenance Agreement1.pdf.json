@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "12.2 Unless otherwise set out herein, the Company shall pay all invoices issued by the Repairer pursuant to this Agreement, as follows:\n \n \n(i)\nwithin thirty (30) Days from the date of issuance of the Repairer’s invoice; and,",
+                "changed_text": "12.2 Unless otherwise set out herein, the Company shall pay all invoices issued by the Repairer pursuant to this Agreement, as follows:\n \n \n(i)\nwithin sixty (60) Days from the date of issuance of the Repairer’s invoice; and,",
+                "explanation": "The original text states that invoices must be paid within 30 days. However, Brazil's Law No. 9.430, Article 85 establishes a 20% penalty for invoices unpaid beyond 30 days. Modifying the payment term to 60 days introduces a contradiction, as Brazilian law does not mandate this extended period and it can cause legal issues related to late payment penalties and interests.",
+                "contradicted_law": "Brazil - Law No. 9.430, Article 85",
+                "location": "12.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "12.4 If any payment due to the Repairer (the “Unpaid Amount”) remains unpaid after the date on which it is payable (the “Due Date”), without\nprejudice to any other rights or remedies that it may have at Law and/or under this Agreement, the Repairer shall be entitled to charge\ninterests on such overdue sum from the Due Date until the actual date of payment of such sum at a rate per annum equal to the aggregate of\n[*****], such interest being calculated on a monthly basis. In any case, such interest rate shall not be lower than the highest of the three (3)\nfollowing rates:",
+                "changed_text": "12.4 If any payment due to the Repairer (the “Unpaid Amount”) remains unpaid after the date on which it is payable (the “Due Date”), without\nprejudice to any other rights or remedies that it may have at Law and/or under this Agreement, the Repairer shall be entitled to charge\ninterests on such overdue sum from the Due Date until the actual date of payment of such sum at a rate per annum equal to the discretion of the repairer, such interest being calculated on a yearly basis. In any case, such interest rate shall not be lower than the lowest of the three (3)\nfollowing rates:",
+                "explanation": "In Brazil, it's unlawful to let interest rates fall to the discretion of the lender. Rates must adhere to legal benchmarks, defined in the original document and in the Brazilian Civil Code. Switching to annual calculations also disrupts the legally consistent monthly scheme and generally should not let the lowest rate be used.",
+                "contradicted_law": "Brazil - Brazilian Civil Code, regarding interest rate regulations",
+                "location": "12.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "20.6 This Clause 20 shall survive termination or expiry of this Agreement for a period of five (5) years following such End Date.",
+                "changed_text": "20.6 This Clause 20 shall survive termination or expiry of this Agreement for a period of one (1) year following such End Date.",
+                "explanation": "According to the Brazilian Intellectual Property Law (Law No. 9.279/96), trade secrets and confidential information can be protected indefinitely as long as they remain secret and have economic value. A confidentiality clause that expires after one year may be insufficient to protect trade secrets under Brazilian law, particularly if the information remains valuable beyond that period.",
+                "contradicted_law": "Brazil - Brazilian Intellectual Property Law (Law No. 9.279/96)",
+                "location": "20.6"
+            }
+        ]
+    }
+]

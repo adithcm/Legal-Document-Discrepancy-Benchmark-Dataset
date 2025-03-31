@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "During the Term (defined below) and subject to the terms and conditions of this Agreement (including, but not limited to Section 12.4 hereof), Supplier hereby (i) appoints Reseller, and Reseller accepts the appointment, as a non‐exclusive reseller of the Products in the Territory. In connection with the foregoing appointment, Supplier hereby grants Reseller a non-transferable, revocable, limited right to resell, market, promote, stimulate interest in, and solicit Orders by Customers and/or End Users in the Territory for the Products and to provide services in connection with those activities.",
+                "changed_text": "During the Term (defined below) and subject to the terms and conditions of this Agreement (including, but not limited to Section 12.4 hereof), Supplier hereby (i) appoints Reseller, and Reseller accepts the appointment, as a non-exclusive reseller of the Products in the Territory. In connection with the foregoing appointment, Supplier hereby grants Reseller an exclusive, irrevocable, unlimited right to resell, market, promote, stimulate interest in, and solicit Orders by Customers and/or End Users in the Territory for the Products and to provide services in connection with those activities.",
+                "explanation": "The original text grants a 'non-transferable, revocable, limited right' to the reseller. The modified text directly contradicts this by granting an 'exclusive, irrevocable, unlimited right', creating a fundamental conflict regarding the scope and nature of the reseller's rights. This makes the contract ambiguous, as it's unclear whether the reseller has exclusive or non-exclusive rights, and whether the rights are revocable or irrevocable.",
+                "location": "2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall become effective on the Effective Date and shall remain in effect for an initial period of 1 year (“Initial Term”). Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a “Renewal Term”, and together with the Initial Term, the “Term”). Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.",
+                "changed_text": "This Agreement shall become effective on the Effective Date and shall remain in effect for an initial period of 1 year (“Initial Term”). Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a “Renewal Term”, and together with the Initial Term, the “Term”). Following the Initial Term, neither Party may terminate this Agreement.",
+                "explanation": "The original clause allows termination after the initial term with a 3-month notice. The altered clause removes the ability to terminate the agreement after the initial term, creating a contradiction. It is unclear whether the agreement can be terminated.",
+                "location": "12.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Immediately upon delivery of the Products at the Reseller’s facilities within the Territory (“Arrival Date”), Reseller shall visually inspect the Products and the appropriate documents, and employ good receiving/delivering procedures, verification of the Products to confirm origin, identity, quantity, labeled storage conditions, integrity of the packaging as well as any other inspection, as may be required by applicable laws or regulations.",
+                "changed_text": "Immediately upon delivery of the Products at the Reseller’s facilities within the Territory (“Arrival Date”), Reseller is not required to inspect the Products. Reseller shall not employ receiving/delivering procedures, verification of the Products to confirm origin, identity, quantity, labeled storage conditions, integrity of the packaging as well as any other inspection, as may be required by applicable laws or regulations.",
+                "explanation": "The original clause states that reseller SHALL visually inspect the products. The modified text directly contradicts this, stating that reseller is NOT required to inspect the products, creating a direct conflict regarding the Reseller's obligations upon delivery of goods.",
+                "location": "5.1"
+            }
+        ]
+    }
+]

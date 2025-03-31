@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "\"KIB Product IP” means any Invention first arising in the performance of the R&D Program, whether or not embodied in\nthe KIB Product, and all Intellectual Property rights underlying such Invention (but expressly excluding all Transferred IP,\nConformis Background IP, Stryker Background IP, Improved Conformis Background IP and Improved Stryker Background IP,\nand, for the avoidance of doubt, excluding all Intellectual Property rights subsisting prior to the Closing Date).",
+                "changed_text": "\"KIB Product IP” means any Invention first arising in the performance of the R&D Program, whether or not embodied in\nthe KIB Product, and all Intellectual Property rights underlying such Invention. For the avoidance of doubt, KIB Product IP could include Transferred IP,\nConformis Background IP, Stryker Background IP, Improved Conformis Background IP and Improved Stryker Background IP,\nand may include Intellectual Property rights subsisting prior to the Closing Date).",
+                "explanation": "The original text explicitly excludes several categories of IP from KIB Product IP. The modified text directly contradicts this by stating that KIB Product IP could include these excluded categories and may include IP rights subsisting prior to the closing date. This creates uncertainty regarding the scope of KIB Product IP and the rights associated with it.",
+                "location": "Article I, Definitions"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1 Inventions.\n(c) All right, title and interest in and to the Improved Conformis Background IP and KIB Product IP (“Joint IP”) shall be\nowned jointly by the Parties. Subject to the limitations set forth in this Agreement, the Joint IP may be used freely by either Party or\nits Affiliates and licensed to Third Parties by Conformis and its Affiliates, on the one hand, outside of the Buyer Field or by Stryker\nand its Affiliates, on the other hand, within the Buyer Field, in each case, without the consent of, or duty to account to or notify, the\nother Party, but, except with respect to external licenses of the Improved Conformis Background IP by Conformis or its Affiliates\nto Third Parties, any external Third Party license shall be governed in accordance with the last sentence of Section 4.3(c) of the\nAPA.",
+                "changed_text": "5.1 Inventions.\n(c) All right, title and interest in and to the Improved Conformis Background IP and KIB Product IP (“Joint IP”) shall be\nowned jointly by the Parties. Subject to the limitations set forth in this Agreement, the Joint IP may be used freely by either Party or\nits Affiliates. Neither party can license to Third Parties without written consent of the other Party, and with duty to account to or notify, the\nother Party.",
+                "explanation": "The original text states that Joint IP can be used freely and licensed without consent or duty to account. The modified text directly contradicts this by stating that there can be no licensing of the Joint IP to third parties without written consent and a duty to account. This creates significant uncertainty regarding the rights of each party to exploit the Joint IP.",
+                "location": "Article V, Intellectual Property"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.2 EXCEPT AS EXPRESSLY PROVIDED ELSEWHERE IN THIS AGREEMENT, INCLUDING THE\nREQUIREMENTS IN THE R&D WORK PLAN, CONFORMIS MAKES NO WARRANTY WITH RESPECT TO THE\nSERVICES OR DELIVERABLES FURNISHED HEREUNDER, AND NO WARRANTIES OF ANY KIND, WHETHER\nWRITTEN, ORAL, IMPLIED OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, NON-\nINFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE, SHALL APPLY.",
+                "changed_text": "6.2 CONFORMIS MAKES NO WARRANTY WITH RESPECT TO THE\nSERVICES OR DELIVERABLES FURNISHED HEREUNDER, AND NO WARRANTIES OF ANY KIND, WHETHER\nWRITTEN, ORAL, IMPLIED OR STATUTORY, SHALL APPLY. Despite the previous sentence, Conformis warrants that the Deliverables are free from defects and fit for the intended purpose.",
+                "explanation": "The original text explicitly disclaims all warranties. The modified text, after disclaiming all warranties, directly contradicts itself by warranting that the deliverables are free from defects and fit for the intended purpose. This creates uncertainty about Conformis's liability for defects in the deliverables.",
+                "location": "Article VI, Representations and Warranties"
+            }
+        ]
+    }
+]

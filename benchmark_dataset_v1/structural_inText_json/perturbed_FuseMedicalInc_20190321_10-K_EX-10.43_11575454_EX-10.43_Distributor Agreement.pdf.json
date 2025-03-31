@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_Distributor Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.3\nThe Distributor must pay the full amount invoiced to it by the Supplier in USD$’s within thirty (45) days of the date of invoice.",
+                "changed_text": "5.3\nThe Distributor must pay the full amount invoiced to it by the Supplier in USD$’s within sixty (30) days of the date of invoice.",
+                "explanation": "The clause originally stated payment should be made within 30-45 days, now it states 60-30 days, creating a contradiction of payment deadline.",
+                "location": "Clause 5.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.1\nThis agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+                "changed_text": "11.1\nThis agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least six (24) months' prior written notice to expire on or after the expiry date of the initial term.",
+                "explanation": "The original clause specifies a 12-month notice period for termination. The modification provides six to twenty-four months, creating an in-text contradiction of contract termination conditions.",
+                "location": "Clause 11.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.1\nThe Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory\non the terms of this agreement.",
+                "changed_text": "2.1\nThe Supplier appoints the Distributor as its exclusive distributor to distribute the Products in the Territory\non the terms of this agreement.",
+                "explanation": "The original clause states the distributor is non-exclusive, but the modified version indicates that they are exclusive. It introduces conflicting terms around distribution rights and causes a material change on the original rights.",
+                "location": "Clause 2.1"
+            }
+        ]
+    }
+]

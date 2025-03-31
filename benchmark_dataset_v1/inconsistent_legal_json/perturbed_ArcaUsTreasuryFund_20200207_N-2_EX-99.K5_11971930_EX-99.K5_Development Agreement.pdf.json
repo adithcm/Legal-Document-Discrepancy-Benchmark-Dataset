@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(a) This Agreement shall become effective as of the first date above written. This Agreement may be terminated at any time, without\nthe payment of any penalty, upon 60 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote\nof the Fund's Trustees or by the Blockchain Administrator.",
+                "changed_text": "(a) This Agreement shall become effective as of the first date above written. This Agreement may be terminated at any time, without\nthe payment of any penalty, upon 10 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote\nof the Fund's Trustees or by the Blockchain Administrator.",
+                "explanation": "The original agreement requires 60 days' written notice for termination. Reducing this to 10 days may conflict with the Investment Company Act of 1940, which requires a reasonable notice period, or specific state laws regarding contract termination, depending on the specific context. A shorter notice period potentially undermines the Fund's ability to find a replacement administrator, which could be deemed unreasonable and violate fiduciary duties under the Investment Company Act.",
+                "contradicted_law": "Investment Company Act of 1940; potential violation of fiduciary duty and implied covenant of good faith and fair dealing.",
+                "location": "Section 7(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for\nsuccessive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote\nof a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this\nAgreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with\nthe requirements of the Investment Fund Act.",
+                "changed_text": "(b) This Agreement shall continue in effect for ten years from the date hereof, and thereafter shall continue automatically for successive ten-year periods, without requiring any annual approval by the board.",
+                "explanation": "The original agreement requires annual approval for renewal. By changing the term to ten years with automatic ten-year renewals without board approval, conflicts with Section 15(c) of the Investment Company Act of 1940, which mandates annual approval of investment advisory agreements and similar contracts to ensure proper oversight and protect shareholder interests. Removing the annual approval circumvents this requirement and potentially exposes the fund to mismanagement without proper checks and balances.",
+                "contradicted_law": "Section 15(c) of the Investment Company Act of 1940",
+                "location": "Section 7(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities\nperformed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the\nInvestment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator\nagrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal\nbusiness hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request.",
+                "changed_text": "The Blockchain Administrator agrees to maintain and keep all books, accounts, and other records related to the activities performed by the Blockchain Administrator. The Blockchain Administrator will keep these records solely at its discretion. The Blockchain Administrator is not obliged to maintain records according to the Investment Company Act. The Blockchain Administrator does not agree that all records which it maintains for the Fund shall at all times remain the property of the Fund.",
+                "explanation": "The original agreement requires the Blockchain Administrator to maintain records in accordance with the Investment Company Act and states that these records are the property of the Fund. The modified version removes the requirement to comply with the Investment Company Act regarding record-keeping and asserts that the Blockchain Administrator does not agree that the records are the Fund's property. This directly contradicts Section 31 of the Investment Company Act of 1940, and Rule 31a-1, 31a-2, and 31a-3 which specifies the record-keeping requirements for investment companies and the accessibility and ownership of those records.",
+                "contradicted_law": "Section 31 of the Investment Company Act of 1940, Rule 31a-1, 31a-2, and 31a-3",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

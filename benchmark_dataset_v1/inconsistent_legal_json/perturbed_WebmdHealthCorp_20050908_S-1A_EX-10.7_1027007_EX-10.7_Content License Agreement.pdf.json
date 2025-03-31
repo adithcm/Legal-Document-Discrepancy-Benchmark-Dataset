@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WebmdHealthCorp_20050908_S-1A_EX-10.7_1027007_EX-10.7_Content License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In addition to expiration of this Agreement as set forth in Section 3(a) hereof in the event either party fails to perform any of its material obligations hereunder, the other party may terminate this Agreement at its election after thirty (30) days written notice to the party of such breach, if such breach is not cured by the party within such thirty (30) day period.",
+                "changed_text": "In addition to expiration of this Agreement as set forth in Section 3(a) hereof in the event either party fails to perform any of its material obligations hereunder, the other party may terminate this Agreement at its election after ten (10) days written notice to the party of such breach, if such breach is not cured by the party within such ten (10) day period.",
+                "explanation": "This modification reduces the cure period for a material breach from 30 days to 10 days. This may contradict state laws that require a longer cure period for certain types of contract breaches, particularly in areas like real estate or franchise agreements.",
+                "contradicted_law": "Potentially violates state laws requiring longer cure periods for specific contract breaches (e.g., real estate, franchise agreements).",
+                "location": "Section 3(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All amounts payable shall be due be due thirty (30) days after the receipt of WebMD’s invoice.",
+                "changed_text": "All amounts payable shall be due immediately upon the receipt of WebMD’s invoice.",
+                "explanation": "Changing the payment term to 'immediately upon receipt' could be considered an unfair or unreasonable payment demand, potentially violating state prompt payment laws or general contract law principles of fairness, especially if it does not allow reasonable time for processing and verification of invoices.",
+                "contradicted_law": "Potentially violates state prompt payment laws or general contract law principles of fairness.",
+                "location": "Section 4(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the term of this Agreement and for a period of two (2) years after termination hereof, neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Confidential Information, except as expressly directed by such party or as permitted herein.",
+                "changed_text": "During the term of this Agreement and for a period of ninety (90) days after termination hereof, neither party will use, copy, or disclose, or permit any unauthorized person access to, any of the other party’s Confidential Information, except as expressly directed by such party or as permitted herein.",
+                "explanation": "Reducing the confidentiality period from two years to 90 days for Confidential Information could be deemed unreasonably short, particularly if the information has a longer lifespan of competitive value. This may conflict with trade secret laws or reasonable expectations for confidentiality, especially in industries where information remains valuable for extended periods.",
+                "contradicted_law": "Potentially conflicts with trade secret laws or reasonable expectations for confidentiality under state law.",
+                "location": "Section 6(c)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client has the unilateral right to cancel this agreement at any time within a 7-day notice period. Further, Developer can only cancel due to lack of payment. Client will have a 30 day right to cure before a cancelation can occur.",
+                "changed_text": "Client has the unilateral right to cancel this agreement at any time within a 2-day notice period. Further, Developer can only cancel due to lack of payment. Client will have a 10 day right to cure before a cancelation can occur.",
+                "explanation": "California law often requires longer notice periods for contract terminations, especially those involving ongoing services. Reducing the client's notice period to 2 days and the cure period to 10 days for the developer may be deemed unreasonable and violate California's implied covenant of good faith and fair dealing.",
+                "contradicted_law": "California Civil Code § 1655-1657 (Implied Terms, Reasonable Time)",
+                "location": "Section 4(a)2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All intellectual property developed pursuant to this Agreement before the Termination Date shall be delivered to the Client within one day of the Termination Date.",
+                "changed_text": "All intellectual property developed pursuant to this Agreement before the Termination Date shall be delivered to the Client within five days of the Termination Date.",
+                "explanation": "Requiring delivery of all intellectual property within one day might be considered an unreasonably short timeframe, especially considering the potential volume and complexity of the materials. This could violate California's requirements for providing a reasonable time for compliance with contractual obligations. The changed text extends this time to five days.",
+                "contradicted_law": "California Civil Code § 1657 (Time of Performance of Contract)",
+                "location": "Section 4(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within three (3) days of the termination of this Agreement, whether by expiration or otherwise, the Developer agrees to return to the Client all Client products, samples, models, or other property and all documents, retaining no copies or notes, relating to the Client’s business including, but not limited to, reports, abstracts, lists, correspondence, information, computer files, computer disks, and all other materials and all copies of such material obtained by the Developer during and in connection with its representation of the Client.",
+                "changed_text": "Within one (1) day of the termination of this Agreement, whether by expiration or otherwise, the Developer agrees to return to the Client all Client products, samples, models, or other property and all documents, retaining no copies or notes, relating to the Client’s business including, but not limited to, reports, abstracts, lists, correspondence, information, computer files, computer disks, and all other materials and all copies of such material obtained by the Developer during and in connection with its representation of the Client.",
+                "explanation": "Reducing the return timeframe to one day following termination imposes an unreasonable expectation on the Developer. This timeframe is likely insufficient for collecting and organizing all the specified materials, potentially violating the implied covenant of good faith and fair dealing under California law.",
+                "contradicted_law": "California Commercial Code § 1203 (Obligation of good faith)",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

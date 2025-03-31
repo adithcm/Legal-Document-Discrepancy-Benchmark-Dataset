@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "     F.   Any invoice submitted by PCQ shall be deemed correct unless ABW\nadvises PCQ in writing, within thirty (30) days of the receipt of the invoice,\nthat it disagrees with the invoice and specifies the nature of the disagreement.",
+                "changed_text": "     F.   Any invoice submitted by PCQ shall be deemed correct unless ABW\nadvises PCQ in writing, within ten (10) days of the receipt of the invoice,\nthat it disagrees with the invoice and specifies the nature of the disagreement.",
+                "explanation": "Reducing the dispute window to 10 days may violate standard commercial practices and state laws that implicitly or explicitly provide a reasonable timeframe (often longer than 10 days) for reviewing and disputing invoices. In Illinois, where this contract is governed, while there isn't a strict statute dictating invoice dispute timelines, courts often consider industry standards and 'reasonable' periods, which are generally longer than 10 days, depending on the complexity of the invoice.",
+                "contradicted_law": "Implied violation of 'reasonable time' principles in contract law; potential conflict with Illinois commercial standards.",
+                "location": "Section 3, Paragraph F"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "     H.   In the event that any invoice is not paid by ABW within forty-five\n(45) days after receipt, and when no discrepancy issues have been identified by\nABW which are in some stage of resolution, after giving notice to ABW, PCQ may\nterminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED\nprovided hereunder unless ABW pays such invoice prior to the termination date",
+                "changed_text": "     H.   In the event that any invoice is not paid by ABW within twenty (20) days after receipt, and when no discrepancy issues have been identified by ABW which are in some stage of resolution, after giving notice to ABW, PCQ may terminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED provided hereunder unless ABW pays such invoice prior to the termination date",
+                "explanation": "Reducing the payment timeframe to 20 days before termination is allowed, following notice, could be considered commercially unreasonable and contradict the implied duty of good faith and fair dealing under Illinois law, especially if the industry standard or the parties' course of dealing suggests a longer period. The original 45-day period is more consistent with common commercial practices, while the reduced period may create undue hardship on ABW. Some states require 30 days written notice.",
+                "contradicted_law": "Potential violation of the implied duty of good faith and fair dealing under Illinois law; potentially commercially unconscionable.",
+                "location": "Section 3, Paragraph H"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "     D.  Any payments which have not been received by PCQ within thirty (30)\ndays of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month\nwhich is a corresponding ANNUAL\nPERCENTAGE RATE of 12% on the outstanding balance.",
+                "changed_text": "     D.  Any payments which have not been received by PCQ within ten (10)\ndays of the Invoice date shall be subject to a FINANCE CHARGE of 5.0% per month\nwhich is a corresponding ANNUAL\nPERCENTAGE RATE of 60% on the outstanding balance.",
+                "explanation": "Reducing the grace period to 10 days and increasing the finance charge to an APR of 60% could be considered usurious or unconscionable under Illinois law, especially if it's significantly above market rates and imposes an undue burden on ABW. While Illinois doesn't have a specific usury law for commercial transactions between sophisticated parties, courts can still invalidate terms that are grossly unfair or oppressive. A 60% APR could raise red flags.",
+                "contradicted_law": "Potential violation of unconscionability principles and potentially state usury laws depending on how a court interprets the commercial nature of the transaction.",
+                "location": "Section 3, Paragraph D"
+            }
+        ]
+    }
+]

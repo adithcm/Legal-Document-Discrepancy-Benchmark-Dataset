@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WestPharmaceuticalServicesInc_20200116_8-K_EX-10.1_11947529_EX-10.1_Supply Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "changed_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) at their convenience. Payment details will be determined on a case-by-case basis. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "explanation": "This modification introduces a legal contradiction by removing the fixed payment deadline, which is a standard requirement under contract law. The modified text introduces ambiguity and could potentially violate prompt payment laws depending on jurisdiction.",
+                "contradicted_law": "Breach of Contract, Prompt Payment Laws (varies by state)",
+                "location": "Pricing"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Buyer shall inspect and test Product delivered hereunder for damage, defect or shortage immediately upon receipt at Buyer's plant or such other location as determined by Buyer and provide Seller notice of any such damage, defect or shortage within ten (10) days of receipt. Any claims for shortages must be supported by certified railroad scale tickets (or similar documents if shipments were not by rail) and Seller shall have an opportunity to have an independent weighing. All claims for any cause whatsoever, whether based in contract, negligence or other tort, strict liability, breach of warranty or otherwise, shall be deemed waived unconditionally and absolutely unless Seller receives written notice of such claim not later than one hundred fifty (150) days after Buyer's receipt of Product as to which such claim is made.",
+                "changed_text": "Buyer shall inspect and test Product delivered hereunder for damage, defect or shortage immediately upon receipt at Buyer's plant or such other location as determined by Buyer. All claims for any cause whatsoever shall be deemed waived unconditionally and absolutely unless Seller receives written notice of such claim not later than thirty (30) days after Buyer's receipt of Product as to which such claim is made.",
+                "explanation": "This modification reduces the claim period from one hundred fifty (150) days to thirty (30) days after receipt of product. This may be unreasonably short depending on the complexity of the product and testing required, potentially conflicting with implied warranty laws that require reasonable time for defect discovery.",
+                "contradicted_law": "Implied Warranty Laws (UCC Article 2)",
+                "location": "Attachment A - Inspection and Limitation of Liability"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding anything to the contrary in Attachments A, G or H, neither party can suspend its further performance, terminate this Agreement or require specific performance of the other party of this Agreement in whole or in part as a result of the other party’s material breach of the terms and conditions of this Agreement without first providing notice to such party in writing and thirty (30) days’ opportunity to cure the material breach (and then only if such party fails to cure such breach).",
+                "changed_text": "Neither party can suspend its further performance, terminate this Agreement or require specific performance of the other party of this Agreement in whole or in part as a result of the other party’s material breach of the terms and conditions of this Agreement without first providing notice to such party in writing and ten (10) days’ opportunity to cure the material breach (and then only if such party fails to cure such breach).",
+                "explanation": "This modification reduces the cure period from thirty (30) days to ten (10) days. This may be unreasonably short depending on the nature of the breach and could potentially be considered unconscionable, particularly for complex issues that require more time to resolve.",
+                "contradicted_law": "Contract Law - Unconscionability",
+                "location": "Termination"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE\nBINDING THE BUSINESS ENTITY THAT YOU REPRESENT (\"CUSTOMER\") TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE\nTERMS OF THIS AGREEMENT, THEN (A) DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE, AND (B) YOU MAY RETURN THE\nSOFTWARE FOR A FULL REFUND, OR, IF THE SOFTWARE IS SUPPLIED AS PART OF ANOTHER PRODUCT, YOU MAY RETURN THE\nENTIRE PRODUCT FOR A FULL REFUND. YOUR RIGHT TO RETURN AND REFUND EXPIRES 30 DAYS AFTER PURCHASE FROM CISCO OR\nAN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF CUSTOMER IS THE ORIGINAL END USER PURCHASER.",
+                "changed_text": "BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE\nBINDING THE BUSINESS ENTITY THAT YOU REPRESENT (\"CUSTOMER\") TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE\nTERMS OF THIS AGREEMENT, THEN (A) DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE, AND (B) YOU MAY RETURN THE\nSOFTWARE FOR A FULL REFUND, OR, IF THE SOFTWARE IS SUPPLIED AS PART OF ANOTHER PRODUCT, YOU MAY RETURN THE\nENTIRE PRODUCT FOR A FULL REFUND. YOUR RIGHT TO RETURN AND REFUND EXPIRES 14 DAYS AFTER PURCHASE FROM CISCO OR\nAN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF CUSTOMER IS THE ORIGINAL END USER PURCHASER.",
+                "explanation": "This change creates an in-text contradiction by modifying the return period from '30 days' to '14 days'. This introduces ambiguity regarding the actual duration the customer has to return the software for a full refund.",
+                "location": "Beginning of the document, before 'The following terms...'"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more\nthan ninety (90) days after original shipment by Cisco), and continuing for a period of the longer of (a) ninety (90) days or (b) the software\nwarranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be\nfree of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications.",
+                "changed_text": "Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more\nthan thirty (30) days after original shipment by Cisco), and continuing for a period of the longer of (a) ninety (90) days or (b) the software\nwarranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be\nfree of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications.",
+                "explanation": "This change introduces a conflict by reducing the maximum time after the original shipment by Cisco in which the warranty commences in case of resale, from 90 days to 30 days, creating an uncertainty about when the warranty actually starts.",
+                "location": "Limited Warranty Section"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Customer may terminate this\nAgreement and the license at any time by destroying all copies of Software including any Documentation. Customer's rights under this Agreement\nwill terminate immediately without notice from Cisco if Customer fails to comply with any provision of this Agreement.",
+                "changed_text": "Customer may terminate this\nAgreement and the license only after providing a 30-day written notice to Cisco. Customer's rights under this Agreement\nwill terminate immediately without notice from Cisco if Customer fails to comply with any provision of this Agreement.",
+                "explanation": "This change creates a contradiction in the termination clause. The original text allows for termination at any time, while the modified text imposes a 30-day written notice requirement. This introduces uncertainty about the correct procedure for termination.",
+                "location": "Term and Termination Section"
+            }
+        ]
+    }
+]

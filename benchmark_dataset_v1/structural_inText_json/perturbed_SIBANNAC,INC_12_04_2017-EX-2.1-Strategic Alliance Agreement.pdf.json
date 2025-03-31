@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The term of this Agreement is twelve (12) months from the date hereof, and will be automatically renewed for one (1) additional twelve month period unless either party shall notify the other in writing of its intention not to renew. Such notice must be given ninety (90) days prior to expiration of the original term. This Agreement may also be terminated by either party upon ninety (90) days written notice.",
+                "changed_text": "The term of this Agreement is twelve (12) months from the date hereof, and will be automatically renewed for one (1) additional twelve month period unless either party shall notify the other in writing of its intention not to renew. Such notice must be given thirty (30) days prior to expiration of the original term. This Agreement may also be terminated by either party upon ninety (90) days written notice.",
+                "explanation": "The change from ninety (90) days to thirty (30) days for renewal notification creates a contradiction regarding the timeframe required to prevent automatic renewal. This uncertainty makes it unclear when the notice should be given, potentially leading to disputes over contract renewal.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 30 days after each client payment on delivered products received at COMPANY's bank account.",
+                "changed_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek may receive a lead-finder fee, subject to COMPANY's sole discretion. The lead-finder fee, if any, will be determined by COMPANY based on various factors, including, but not limited to, project revenue, sales margin, and cost of development and delivery. Payment terms are also subject to COMPANY's sole discretion.",
+                "explanation": "The original text states that Bravatek *will* receive a lead-finder fee, with a defined range of 10-20%. The modified text changes this to Bravatek *may* receive a fee, at the *sole discretion* of COMPANY. This completely undermines the original agreement on compensation, creating uncertainty about whether Bravatek will be paid and on what terms.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "COMPANY shall indemnify Bravatek, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of COMPANY or breach of COMPANY of any of its obligations under this Agreement.\n\nBravatek shall indemnify COMPANY, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs, incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of Bravatek or breach of Bravatek of any of its obligations under this Agreement.",
+                "changed_text": "COMPANY shall indemnify Bravatek, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs incurred in connection with any third-party claim, action or proceeding arising from the gross negligence or intentional misconduct of COMPANY. The amount and terms of indemnification are subject to COMPANY's discretion.\n\nBravatek shall indemnify COMPANY, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs, incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of Bravatek or breach of Bravatek of any of its obligations under this Agreement.",
+                "explanation": "By adding the wording 'The amount and terms of indemnification are subject to COMPANY's discretion', it adds uncertainty to the first half of the clause. Now, even if the negligence or misconduct is proven, the indemnification is not guaranteed. It also contradicts the clear intent of the original clause, which provided a defined obligation for indemnification. Finally, It alters the trigger point, where the original says 'negligence', and the modified section reads 'gross negligence'.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

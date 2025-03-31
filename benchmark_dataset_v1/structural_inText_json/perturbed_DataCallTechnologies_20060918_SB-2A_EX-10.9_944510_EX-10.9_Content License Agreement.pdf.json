@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5    INTELLECTUAL  PROPERTY  RIGHTS\n     5.1  LICENSOR  is  the  owner  of  all  intellectual  property  rights,\n          including  without  limitation,  any  and all patents, utility models,\n          trade  marks,  rights  in  designs,  trade,  business or domain names,\n          know-how,  rights  in  databases and copyrights, rights in inventions,\n          ideas, concepts, trade secrets and confidential information which have\n          to  be  given  to  fulfill  this  contract.",
+                "changed_text": "5    INTELLECTUAL  PROPERTY  RIGHTS\n     5.1  LICENSOR  may be  the  owner  of  all  intellectual  property  rights,\n          including  without  limitation,  any  and all patents, utility models,\n          trade  marks,  rights  in  designs,  trade,  business or domain names,\n          know-how,  rights  in  databases and copyrights, rights in inventions,\n          ideas, concepts, trade secrets and confidential information which have\n          to  be  given  to  fulfill  this  contract.",
+                "explanation": "By changing 'is' to 'may be', the contract creates uncertainty about whether Licensor actually owns the intellectual property rights. This contradicts the subsequent clauses (5.2, 5.3, and 5.4) that assume the licensor has rights to the content, creating a contradiction. It can cause uncertainity in enforcement.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "7    TERM OF  THE  AGREEMENT  AND  TERMINATION\n     7.1  Unless  otherwise  stated  in  the  Appendix  the  term of this letter\n          Agreement  shall  continue  for  twenty-four  (24)  months  with  the\n          effective  date  unless  terminated sooner or extended pursuant to the\n          terms hereof (\"Initial Term\"). The Initial Term shall automatically be\n          extended  for  an additional period of half a year unless either party\n          provides  the  other party with written notification of termination of\n          the  letter  Agreement  at  least 60 days prior to end of such period.",
+                "changed_text": "7    TERM OF  THE  AGREEMENT  AND  TERMINATION\n     7.1  Unless  otherwise  stated  in  the  Appendix  the  term of this letter\n          Agreement  shall  continue  for  twenty-four  (24)  months  with  the\n          effective  date  unless  terminated sooner or extended pursuant to the\n          terms hereof (\"Initial Term\"). The Initial Term may automatically be\n          extended  for  an additional period of half a year unless either party\n          provides  the  other party with written notification of termination of\n          the  letter  Agreement  at  least 60 days prior to end of such period.",
+                "explanation": "Changing 'shall' to 'may' regarding the automatic extension creates a conflict. The original states the term *will* automatically extend under the specified conditions. The modified version makes the extension discretionary, creating a contradiction and uncertainty as to whether the contract will actually extend. This directly contradicts APPENDIX 2, where the 'Contract end' date is clearly defined as 04-01-08. This change can lead to disagreements on termination dates.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3    PAYMENTS  AND  REPORTS  TO  LICENSOR\n     3.1  Reporting:  Quarterly;  30  days  after  end  of  quarter\n     3.2  Payment  terms:  30  days  after  receipt  of  invoice",
+                "changed_text": "3    PAYMENTS  AND  REPORTS  TO  LICENSOR\n     3.1  Reporting:  As determined by plan_b;  days  after  end  of  quarter\n     3.2  Payment  terms:  At plan_b's discretion  after  receipt  of  invoice",
+                "explanation": "The original text clearly defines reporting frequency and payment terms. The modified text introduces ambiguity by stating that reporting frequency is 'as determined by plan_b' and payment is 'at plan_b's discretion'. This directly contradicts the defined 'Reporting: Quarterly; 30 days after end of quarter' in Appendix 2, creating uncertainty about how often licensor will receive reports and when payments will be made. This could lead to disputes about late reporting or payment.",
+                "location": "Appendix 2 / Section 3"
+            }
+        ]
+    }
+]

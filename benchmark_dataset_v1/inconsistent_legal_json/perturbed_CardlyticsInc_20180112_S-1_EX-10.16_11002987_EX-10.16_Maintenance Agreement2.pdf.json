@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of amounts previously paid hereunder, less a 50% cancellation fee.",
+                "explanation": "This change introduces a cancellation fee upon termination by Bank of America due to a price increase by the supplier. This contradicts the principle of 'right to cure' in contract law, potentially violating implied covenant of good faith, by penalizing the Bank for terminating the agreement due to the supplier's price hike. Many jurisdictions view such penalties as unfair, especially when the termination is caused by the other party's actions, making the clause unenforceable.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing; Contract Law Principles regarding Unconscionable Terms",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Delivery Date:  \nInstallation Date:  \n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "changed_text": "Delivery Date: 30 days from signing \nInstallation Date: 30 days after delivery\nSupplier is not liable for delays outside of its direct control, even if those delays make installation impossible. Bank of America is responsible for providing a suitable environment for installation and any delays caused by Bank of America will result in a payment for the service.",
+                "explanation": "While the original clause is vague, this modified version introduces ambiguous liability terms. The clause stating 'Supplier is not liable for delays outside of its direct control, even if those delays make installation impossible' could be interpreted as a waiver of implied warranties or fitness for purpose, potentially conflicting with consumer protection laws and the Uniform Commercial Code. If the delays make the installation impossible, waiving liability could be seen as unconscionable. Furthermore, forcing Bank of America to be responsible for payment even when installation is delayed due to the environment will face legal resistance.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Implied Warranty of Fitness for a Particular Purpose; Consumer Protection Laws",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Unless otherwise specified herein, the environment for this Customization Is the same as described on Product License Schedule A to this Agreement.",
+                "changed_text": "Unless otherwise specified herein, the environment for this Customization Is at Bank of America's sole discretion and Supplier bears no responsibility for compatibility or suitability of Bank of America's environment. Supplier has no obligation to customize to Bank of America's system regardless of the problems it causes.",
+                "explanation": "This change absolves the Supplier of any responsibility for compatibility or suitability of Bank of America's environment. This could contradict implied warranties or the basic premise of a customization agreement. If the Supplier knows the customization won't work in Bank of America's environment but proceeds anyway, it could be a breach of good faith and fair dealing. This attempts to remove all requirements for the provider to provide a basic level of functioning in Bank of America's environment.",
+                "contradicted_law": "Implied Warranty of Merchantability; Implied Warranty of Fitness for a Particular Purpose; Good Faith and Fair Dealing",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

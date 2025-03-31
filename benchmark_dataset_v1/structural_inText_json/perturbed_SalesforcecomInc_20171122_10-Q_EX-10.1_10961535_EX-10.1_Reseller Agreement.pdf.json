@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller may be considered a third-party beneficiary of the Agreement at Salesforce’s sole discretion.",
+                "explanation": "The original text explicitly states that Sub-Reseller is not a third-party beneficiary. The changed text contradicts this by stating that Sub-Reseller may be considered a third-party beneficiary at Salesforce's discretion, creating uncertainty about their rights and benefits under the agreement. This could create disputes over enforcement.",
+                "location": "1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement, unless otherwise agreed upon in writing by both Parties in a separate addendum. This agreement supersedes any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "explanation": "The original text clearly states that the agreement constitutes the entire agreement, superseding all prior agreements. The modified text introduces an exception, allowing for additional agreements in a separate addendum, creating a contradiction and uncertainty as to what constitutes the 'entire agreement'. This could lead to disputes over whether the written agreement encompasses the full scope of the understanding between the parties.",
+                "location": "3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IdeanomicsInc_20160330_10-K_EX-10.26_9512211_EX-10.26_Content License Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In exchange for the Share Consideration, Licensor hereby grants to Licensee a non-exclusive, royalty-free, perpetual and non-perpetual license (subject to the duration and scope, and format limitations for which Licensor has the rights to each Title as specified in Schedule A1-A6 of Schedule A) to:\ni. license, exhibit, distribute, reproduce, transmit, perform, display, and otherwise exploit and make available each Title within the Territory in any language by VOD (including SVOD, TVOD, AVOD and free VOD) for Internet, TV and mobile platforms (including, but not limited to, OTT streaming services, Sites and Mobile Sites), subject to these limitations for each of the Title in Schedule A1-A6",
+                "changed_text": "In exchange for the Share Consideration, Licensor hereby grants to Licensee a non-exclusive, royalty-free license (subject to the duration and scope, and format limitations for which Licensor has the rights to each Title as specified in Schedule A1-A6 of Schedule A) to:\ni. license, exhibit, distribute, reproduce, transmit, perform, display, and otherwise exploit and make available each Title within the Territory in any language by VOD (including SVOD, TVOD, AVOD and free VOD) for Internet, TV and mobile platforms (including, but not limited to, OTT streaming services, Sites and Mobile Sites), subject to these limitations for each of the Title in Schedule A1-A6. The license duration will be determined by Licensor on a quarterly basis.",
+                "explanation": "By removing the word \"perpetual and non-perpetual\", and by adding \"The license duration will be determined by Licensor on a quarterly basis,\" introduces contradiction to the rights granted. The original text grants rights for a potentially perpetual term while the modified text allows Licensor to change the duration periodically, creating uncertainty about the license term.",
+                "location": "Section 2. Rights Granted. (a) License Grant."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Either party may terminate this Agreement upon written notice if the other party materially breaches this Agreement and fails to cure such breach within thirty (30) days after the date that it receives written notice of such breach from the non-breaching party.",
+                "changed_text": "Either party may terminate this Agreement upon written notice if the other party materially breaches this Agreement; however, Licensor has the sole and ultimate discretion to decide whether to proceed with contract termination. The Licensee does not have the same discretionary ability.",
+                "explanation": "This change introduces a contradiction by stating that the Licensor has the final say in terminating the agreement regardless of whether the other party has materially breached it, while not granting the same right to the Licensee. This undermines the concept of mutual agreement and creates an imbalance in the power dynamic.",
+                "location": "Section 7. Term and Termination. (b)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensee will provide Licensor with reports (“Reports”) containing statistical information collected by Licensee on (i) Users’ use of the Titles, (ii) distribution channels used by Licensee for the distribution of the Titles, (iii) sub-licensees to which the Titles were sub- distributed by Licensee and (if permitted under Licensee’s agreements with the sublicensees) any relevant reports received by Licensee from those sublicensees, and (iv) any other information that the Licensor may request Licensee to gather from time to time, subject to mutual approval.",
+                "changed_text": "Licensee will provide Licensor with reports (“Reports”) containing statistical information collected by Licensee on (i) Users’ use of the Titles, (ii) distribution channels used by Licensee for the distribution of the Titles, (iii) sub-licensees to which the Titles were sub- distributed by Licensee and (if permitted under Licensee’s agreements with the sublicensees) any relevant reports received by Licensee from those sublicensees, and (iv) any other information that the Licensor may request Licensee to gather from time to time. However, Licensee has the right to withhold any report requested by the Licensor.",
+                "explanation": "The original text includes the requirement of providing reports, but the additional line provides the licensee with the right to hold any of the report requests regardless of the approval request. This will create an uncertainty.",
+                "location": "Section 8. Privacy and Data Collection; Reports. (b)"
+            }
+        ]
+    }
+]

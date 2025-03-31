@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.1 AUTOMATIC RENEWAL. This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either Party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a \"Termination Notice\").",
+                "changed_text": "11.1 AUTOMATIC RENEWAL. This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless both Parties mutually agree in writing, no less than 30 days prior to the end of the Initial Term or then current Renewal Term, to allow it to renew. If both parties do not explicitly agree, this agreement will not renew.",
+                "explanation": "The original text says that the agreement auto-renews *unless* one party gives notice of termination. The modified version says that the agreement only auto-renews if *both* parties give explicit written consent, directly contradicting the original meaning.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "13.3 TERMINATION. Upon termination of this Agreement, all Confidential Information shall be returned to the disclosing Party or destroyed unless otherwise specified or permitted elsewhere under this Agreement. The confidentiality obligations contained in this Article 13 [CONFIDENTIALITY] shall survive termination of this Agreement for a period of three years.",
+                "changed_text": "13.3 TERMINATION. Upon termination of this Agreement, all Confidential Information shall be returned to the disclosing Party or destroyed unless otherwise specified or permitted elsewhere under this Agreement. The confidentiality obligations contained in this Article 13 [CONFIDENTIALITY] shall survive termination of this Agreement indefinitely.",
+                "explanation": "The original text specifies a three-year survival period for confidentiality obligations. The modified version states that these obligations survive indefinitely, which directly contradicts the original time limit and creates uncertainty about the actual duration of confidentiality.",
+                "location": "Section 13.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "16.2 NO ASSIGNMENT. Except as otherwise set forth herein, neither Party shall transfer, assign or cede any rights or delegate any obligations hereunder, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other Party, which consent may be withheld at the other Party's reasonable business discretion; provided, however, that either Party may transfer this Agreement without prior written consent of the other Party to an Affiliate or in connection with a merger or sale of all or substantially all of the stock or assets of such Party.",
+                "changed_text": "16.2 NO ASSIGNMENT. Except as otherwise set forth herein, neither Party shall transfer, assign or cede any rights or delegate any obligations hereunder, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other Party, which consent may be withheld at the other Party's sole discretion; provided, however, that neither party requires consent to assign this agreement.",
+                "explanation": "The original text prohibits assignment without consent, but includes an exception for affiliates, mergers, or sale of assets. The modified version states that no consent is required, while previously affirming it is needed which creates a contradiction that undermines the assignment clause.",
+                "location": "Section 16.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190509_10-Q_EX-10.2_11661422_EX-10.2_Distributor Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor has the right to cancel, reschedule or modify all or any portion of a purchase order that has been accepted by Xplore at no cost to Distributor only if such cancellation or modification request is made within [*****] business days of PO acceptance or rescheduling request is made at least [*****] business days prior to the most current Estimated Shipping Date for that purchase order.",
+                "changed_text": "Distributor has the right to cancel, reschedule, or modify all or any portion of a purchase order that has been accepted by Xplore at no cost to Distributor only if such cancellation or modification request is made within 1 business day of PO acceptance or rescheduling request is made at least 1 business day prior to the most current Estimated Shipping Date for that purchase order.",
+                "explanation": "The original text allows a certain unspecified number of business days for cancellation or modification. Modifying this to '1 business day' creates a contradiction because standard commercial law provides for reasonable timeframes, and 1 day is insufficient, particularly if there is a large volume with extended lead times. This unreasonably restricts the distributor's rights, which could be deemed unconscionable.",
+                "contradicted_law": "General principles of contract law regarding reasonable notice and opportunity to cure, potentially violating unconscionability standards.",
+                "location": "Exhibit B, Article I, Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If inventory levels fall below the thirty (30) day goal for more than sixty (60) consecutive days, Xplore, upon written notice to Distributor, shall replenish the stock to an amount agreed by both Parties.",
+                "changed_text": "If inventory levels fall below the thirty (30) day goal for more than ninety (90) consecutive days, Xplore, at its sole discretion, may choose not to replenish the stock, regardless of any agreement by both Parties.",
+                "explanation": "This modification changes Xplore's obligation to replenish the stock. By removing the requirement to agree on the replenishment amount and stating Xplore can choose not to replenish at all, it introduces uncertainty. This could be seen as a violation of good faith and fair dealing, which are implied in commercial contracts. If the lack of stock replenishment causes significant harm to the distributor, it can potentially violate business laws.",
+                "contradicted_law": "Breach of implied covenant of good faith and fair dealing, potentially violating state-specific franchise or distribution laws.",
+                "location": "Exhibit B, Article I, Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Title and risk of loss to Xplore Products shall pass to Distributor upon delivery to Distributor, as indicated in the Proof of Delivery (PoD) documents.",
+                "changed_text": "Title and risk of loss to Xplore Products shall pass to Distributor immediately upon Xplore's acceptance of the purchase order, regardless of physical delivery or Proof of Delivery (PoD) documents.",
+                "explanation": "Changing the point at which title and risk of loss transfer to 'upon Xplore's acceptance of the purchase order' instead of 'upon delivery' is a significant alteration. Under the UCC, risk of loss generally passes upon delivery, especially in a shipment contract. Making the distributor responsible for loss or damage before they even receive the goods contradicts standard commercial practice and can create legal conflicts if products are lost or damaged in transit.",
+                "contradicted_law": "Uniform Commercial Code (UCC) Article 2-509 regarding risk of loss in the absence of breach.",
+                "location": "Exhibit B, Article II, Section 1"
+            }
+        ]
+    }
+]

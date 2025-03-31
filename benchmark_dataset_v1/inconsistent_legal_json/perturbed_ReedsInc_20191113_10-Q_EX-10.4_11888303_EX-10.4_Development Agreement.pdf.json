@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ReedsInc_20191113_10-Q_EX-10.4_11888303_EX-10.4_Development Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement at any time if any of the following occur: (i) the other party fails to comply with any requirements or obligations under this Agreement, and such non-compliance is not cured within 30 days following written notice from the other party identifying the non-compliance",
+                "changed_text": "Either party may terminate this Agreement at any time if any of the following occur: (i) the other party fails to comply with any requirements or obligations under this Agreement, and such non-compliance is not cured within 10 days following written notice from the other party identifying the non-compliance",
+                "explanation": "Reducing the cure period for non-compliance to 10 days may be considered unreasonable and conflict with principles of good faith and fair dealing, especially in New York, the governing law jurisdiction. A shorter cure period than typically considered reasonable may be deemed unconscionable or a breach of implied covenant of good faith.",
+                "contradicted_law": "Principles of contract law regarding reasonable cure periods and good faith dealing.",
+                "location": "Section 8(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Impacted Party shall give notice within seven (7) days of the Force Majeure Event to the other party, stating the period of time the occurrence is expected to continue. The Impacted Party shall use diligent efforts to end the failure or delay and ensure the effects of Force Majeure Event are minimized. The Impacted Party shall resume the performance of its obligations as soon as reasonably practicable and to the greatest extent possible after the removal of the cause. In the event that the Impacted Party’s failure or delay remains uncured for a period of thirty (30) days following written notice given by it under this Section 15, either party may thereafter terminate this Agreement upon thirty (30) days’ written notice.",
+                "changed_text": "The Impacted Party shall give notice within fifteen (15) days of the Force Majeure Event to the other party, stating the period of time the occurrence is expected to continue. The Impacted Party shall use minimal efforts to end the failure or delay and ensure the effects of Force Majeure Event are minimized. The Impacted Party shall resume the performance of its obligations as soon as reasonably possible after the removal of the cause. In the event that the Impacted Party’s failure or delay remains uncured for a period of fifteen (15) days following written notice given by it under this Section 15, either party may thereafter terminate this Agreement upon ten (10) days’ written notice.",
+                "explanation": "By changing the notice period to 15 days, using minimal efforts, and reducing the termination notice to 10 days, this introduces potential conflicts with the implied duty of good faith and fair dealing. Under New York law, parties must act honestly and reasonably in performing their contractual obligations. Failing to provide timely notice or to diligently mitigate damages can be seen as a breach of this duty. Additionally, a 10 day notice to terminate might be seen as too short to allow the impacted party to procure an alternative agreement. The original timeline was 30 days to cure and 30 days of notice, this perturbation has shortened the period significantly.",
+                "contradicted_law": "Implied duty of good faith and fair dealing in contract performance; principles of reasonable notice.",
+                "location": "Section 15"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any notice, request or demand to be made under this Agreement shall be in writing and shall be deemed to have been duly made (a) upon delivery, if delivered personally (by courier service or otherwise), as evidenced by written receipt or other written proof of delivery (which may be a printout of the tracking information of a courier service that made such delivery), or (b) five (5) days after deposit in the mail, if sent by certified or registered mail with return receipt requested, postage prepaid, addressed to the party for whom intended at the address listed on the signature page.",
+                "changed_text": "Any notice, request or demand to be made under this Agreement shall be in writing and shall be deemed to have been duly made (a) upon delivery, if delivered personally (by courier service or otherwise), as evidenced by written receipt or other written proof of delivery (which may be a printout of the tracking information of a courier service that made such delivery), or (b) one (1) day after deposit in the mail, if sent by certified or registered mail with return receipt requested, postage prepaid, addressed to the party for whom intended at the address listed on the signature page.",
+                "explanation": "Reducing the time for receipt of notice sent by certified or registered mail to just one (1) day is unreasonable. This could conflict with due process and principles of fairness in contract law. Under New York law, notice provisions must be reasonable and afford the receiving party a fair opportunity to respond. One day is insufficient especially considering potential mail delays.",
+                "contradicted_law": "Principles of due process; requirement for reasonable notice in contract law.",
+                "location": "Section 18"
+            }
+        ]
+    }
+]

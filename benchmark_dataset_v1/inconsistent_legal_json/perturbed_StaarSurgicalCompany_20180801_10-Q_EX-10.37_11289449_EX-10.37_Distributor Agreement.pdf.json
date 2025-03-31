@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within thirty (30) days of STAAR’s invoice. Late payments shall be subject to an interest charge of 1% per month or the maximum amount permitted by applicable law, whichever is less.",
+                "changed_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within sixty (60) days of STAAR’s invoice. Late payments shall be subject to an interest charge of 2% per month, regardless of any applicable law.",
+                "explanation": "This modification increases the payment timeframe to 60 days and sets a fixed interest rate of 2% per month for late payments. Many states have usury laws that limit the maximum interest rate that can be charged on late payments. By setting a 2% interest rate 'regardless of any applicable law', the contract risks violating these usury laws, making it unenforceable in those jurisdictions.",
+                "contradicted_law": "State Usury Laws (e.g., California usury law limits interest rates)",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "10.3 Distributor will forward to STAAR any Complaint involving significant bodily injury, illness or death resulting from use of Products within one (1) calendar day of receipt and Distributor must notify STAAR of any such incident prior to issuing any notice required by law in respect of such incident (including those to be issued to governmental or regulatory authorities).",
+                "changed_text": "10.3 Distributor will forward to STAAR any Complaint involving significant bodily injury, illness or death resulting from use of Products within three (3) calendar days of receipt and Distributor will only notify STAAR after issuing any notice required by law in respect of such incident (including those to be issued to governmental or regulatory authorities).",
+                "explanation": "This change extends the reporting timeline for serious complaints to STAAR to three days. More critically, it specifies that the distributor should notify STAAR *after* notifying regulatory authorities. This contradicts legal and regulatory requirements in many jurisdictions that require manufacturers (STAAR) to be informed *immediately* about serious adverse events related to their products so they can fulfill their reporting obligations. Delaying notification until after the distributor has issued their own report could prevent STAAR from meeting its legal obligations for timely reporting.",
+                "contradicted_law": "FDA Medical Device Reporting Regulations (21 CFR Part 803); EU Medical Device Regulation (MDR) requirements for vigilance reporting",
+                "location": "Section 10.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "13.2 Distributor shall, at its own expense, maintain at a minimum general and product liability coverage in the Territory of at least US$2 million per occurrence, US$5 million in the aggregate. On a separate endorsement, Distributor shall name STAAR as an additional named insured. Such separate endorsement shall indicate that Distributor’s insurance is primary and that STAAR’s coverage as an additional named insured is not contributory. Each such insurance policy and endorsement shall provide that the insurance will not be canceled or reduces without at least thirty (30) days’ prior written notice to STAAR.",
+                "changed_text": "13.2 Distributor shall, at its own expense, maintain at a minimum general and product liability coverage in the Territory of at least US$2 million per occurrence, US$5 million in the aggregate. Distributor is not required to name STAAR as an additional insured. Such insurance policy and endorsement shall provide that the insurance can be canceled or reduced with ten (10) days’ prior written notice to the Distributor.",
+                "explanation": "This modification removes the requirement for the distributor to name STAAR as an additional insured, increasing STAAR's risk exposure. Furthermore, it decreases the notice period for cancellation or reduction of insurance coverage to ten days. Many jurisdictions, and standard insurance practices, require at least 30 days' notice to allow the insured party (STAAR in this case, if they were an additional insured) to obtain alternative coverage, creating a potential conflict with accepted insurance norms and putting STAAR at risk of being uninsured without adequate notice.",
+                "contradicted_law": "General Principles of Insurance Law; Varying state regulations regarding minimum notice periods for insurance policy changes",
+                "location": "Section 13.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.3 Subject to Section 8.3, Distributor’s right to market, distribute and sell the Products in the Territory shall be exclusive. Distributor shall not sell any Products to a customer if Distributor knows or has reason to believe that such customer intends to remove those Products from the Territory. Distributor acknowledges and agrees that STAAR retains the right to sell the Products in the Territory directly or indirectly, including but not limited to via electronic commerce (without compensation to the Distributor). The Distributor shall cooperate with STAAR in servicing corporate accounts for customers operating in multiple Territories.",
+                "changed_text": "1.3 Subject to Section 8.3, Distributor’s right to market, distribute and sell the Products in the Territory shall be exclusive. Distributor shall not sell any Products to a customer if Distributor knows or has reason to believe that such customer intends to remove those Products from the Territory. Distributor acknowledges and agrees that STAAR retains the right to sell the Products in the Territory directly or indirectly, including but not limited to via electronic commerce (without compensation to the Distributor). The Distributor shall cooperate with STAAR in servicing corporate accounts for customers operating in multiple Territories. Furthermore, STAAR may appoint other distributors within the Territory at its sole discretion, effectively revoking the exclusivity granted to the original distributor.",
+                "explanation": "The addition of the sentence 'Furthermore, STAAR may appoint other distributors within the Territory at its sole discretion, effectively revoking the exclusivity granted to the original distributor' directly contradicts the preceding statement that the Distributor's right to market, distribute, and sell the Products in the Territory is exclusive. This introduces uncertainty and undermines the exclusivity clause, which is a key term in the agreement.",
+                "location": "Section 1.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "14.3 Notwithstanding the provisions of Section 3 above, either party shall have the right to terminate this Agreement, without cause, upon no less than ninety (90) days’ prior written notice to the other party.",
+                "changed_text": "14.3 Notwithstanding the provisions of Section 3 above, either party shall have the right to terminate this Agreement, without cause, upon no less than ninety (90) days’ prior written notice to the other party. However, STAAR reserves the right to rescind the termination notice at any point during the 90-day period, effectively nullifying the termination and requiring the distributor to continue fulfilling the agreement.",
+                "explanation": "By adding the sentence 'However, STAAR reserves the right to rescind the termination notice at any point during the 90-day period, effectively nullifying the termination and requiring the distributor to continue fulfilling the agreement,' we create a contradiction. While the original clause grants both parties the right to terminate without cause with 90 days' notice, the added sentence introduces a condition where STAAR can unilaterally revoke the termination, making the distributor's ability to terminate uncertain. It is unclear if a notice is a guaranteed way for distributors to terminate.",
+                "location": "Section 14.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within thirty (30) days of STAAR’s invoice. Late payments shall be subject to an interest charge of 1% per month or the maximum amount permitted by applicable law, whichever is less.",
+                "changed_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within thirty (30) days of STAAR’s invoice. Late payments shall be subject to an interest charge of 1% per month or the maximum amount permitted by applicable law, whichever is less. However, STAAR, at its sole discretion, may extend the payment deadline on a case-by-case basis without prior notice or agreement from Distributor.",
+                "explanation": "By adding the sentence 'However, STAAR, at its sole discretion, may extend the payment deadline on a case-by-case basis without prior notice or agreement from Distributor', a conflict emerges. The initial part of the section sets a firm 30-day payment deadline, while the newly added part gives STAAR the power to alter this deadline at their discretion. This creates ambiguity about when payment is actually due and if late fees will be applied, thus potentially leading to disputes over invoices and payment terms.",
+                "location": "Section 4.2"
+            }
+        ]
+    }
+]

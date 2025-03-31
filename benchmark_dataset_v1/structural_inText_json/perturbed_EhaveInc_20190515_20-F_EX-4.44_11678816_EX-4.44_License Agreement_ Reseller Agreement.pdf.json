@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EhaveInc_20190515_20-F_EX-4.44_11678816_EX-4.44_License Agreement_ Reseller Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue in perpetuity (the “Term”), unless terminated earlier in accordance with the provisions contained herein.",
+                "changed_text": "This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue for a period of one (1) year (the “Term”), unless terminated earlier in accordance with the provisions contained herein.",
+                "explanation": "The original agreement states that the term of the agreement continues 'in perpetuity'. The modified agreement changes this to a term of one year. This creates a contradiction, as the contract both specifies the term is indefinite and that the term is only one year. This creates uncertainty about the actual duration of the contract and when it may be renewed.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to Section 17(c), in no event shall either Party's liability under this Agreement exceed the aggregate of all amounts paid under this Agreement and amounts that have accrued but not yet been paid in the twelve (12) months preceding the event giving rise to the claim.",
+                "changed_text": "Subject to Section 17(c), in no event shall either Party's liability under this Agreement exceed $100,000,000,000.",
+                "explanation": "The original agreement states that liability is limited to the payments made in the 12 months prior to the claim. The modified agreement states that it is limited to $100,000,000,000. This contradiction creates confusion over what the actual limitation of liability is, impacting risk assessment.",
+                "location": "Section 17(b)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "CHT shall pay any and all applicable taxes, however designated or incurred, which are payable by it pursuant to Applicable Law as a result of or otherwise in connection with the transactions contemplated in this Agreement including, without limitation, federal, provincial and local, excise, sales, use, goods and services, harmonized, value added and any similar taxes, except for any taxes based on Ehave’s net income.",
+                "changed_text": "CHT shall not pay any taxes. Ehave will cover all the tax liability.",
+                "explanation": "The original text assigns the responsibility for applicable taxes to CHT. The modified text directly contradicts this by stating that CHT is not responsible for any taxes, and Ehave will cover the tax liability. This creates a direct conflict on who is responsible for tax payments.",
+                "location": "Section 7(b)"
+            }
+        ]
+    }
+]

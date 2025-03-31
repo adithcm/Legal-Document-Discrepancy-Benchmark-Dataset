@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Suppliers will make good faith efforts to accept all [***]from the Company that comply with this Agreement including adhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the [***] (as defined below)). The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Suppliers will make good faith efforts to accept all [***]from the Company that comply with this Agreement including adhering to all relevant specifications of the Product as set forth in the [***]entered into between the Company and the Supplier (including the [***] (as defined below)). The Suppliers may notify the Company of acceptance or rejection of a [***] within a reasonable timeframe of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within a reasonable timeframe will not automatically constitute acceptance of such [***].",
+                "explanation": "The original text specifies a [***]hour deadline for accepting or rejecting purchase orders, with failure to respond resulting in automatic acceptance. The modified text replaces this with a vague 'reasonable timeframe' and removes the automatic acceptance provision. This introduces uncertainty about the acceptance process and obligations of the suppliers.",
+                "location": "2.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within a timeframe determined by the Company's financial department from the shipment of the applicable Products delivered.",
+                "explanation": "The original text requires payment within [***]days. The change replaces this with 'a timeframe determined by the Company's financial department', giving the company the option to delay payments. This creates uncertainty and conflict over payment terms.",
+                "location": "4.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant Supplier and the Company in writing that is applicable to such Products for the Warranty Period.",
+                "changed_text": "Each of the Suppliers warrants that the Products shall, to the best of their ability, comply with the specifications and documentation agreed by the relevant Supplier and the Company in writing that is applicable to such Products for the Warranty Period.",
+                "explanation": "The original text says that the suppliers *warrant* that the products *shall* comply with the specifications in the contract, a statement that is legally binding. Changing 'shall comply' to 'shall, to the best of their ability, comply' introduces ambiguity and weakens the guarantee. This introduces uncertainty about the quality of product expected.",
+                "location": "6.1"
+            }
+        ]
+    }
+]

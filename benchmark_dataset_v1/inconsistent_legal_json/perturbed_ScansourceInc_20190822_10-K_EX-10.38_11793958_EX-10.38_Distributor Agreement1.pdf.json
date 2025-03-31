@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.pdf",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
+                "changed_text": "Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date. Distributor will have the option to extend payment by an additional 90 days upon notification to Cisco. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
+                "explanation": "This change introduces a clause allowing the distributor to extend payment terms by 90 days simply by notifying Cisco.  Many states have prompt payment laws that mandate specific payment timelines, and allowing the distributor to unilaterally extend payment beyond those legally established timelines creates a contradiction. In California, for example, failing to pay invoices within the legally specified timeframe results in penalties, making the 'option to extend' clause legally problematic.",
+                "contradicted_law": "State Prompt Payment Laws (e.g., California Business and Professions Code Section 7159.5)",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor must notify Cisco of the quantity of Obsolete Product to be returned to Cisco within [*****] of notification of obsolescence by Cisco. Such right to return is contingent upon return by Distributor of Obsolete Product within [*****] of such notification by Cisco. Such Product must be in new and unused condition and in factory sealed boxes.",
+                "changed_text": "Distributor must notify Cisco of the quantity of Obsolete Product to be returned to Cisco within 10 days of notification of obsolescence by Cisco. Such right to return is contingent upon return by Distributor of Obsolete Product within 10 days of such notification by Cisco. Such Product must be in new and unused condition and in factory sealed boxes.",
+                "explanation": "By shortening the notification and return periods to just 10 days, this change creates a conflict with reasonable commercial practices and potentially violates implied duties of good faith and fair dealing present in most states. This unreasonably short timeframe may not provide the distributor sufficient time to properly inventory, prepare, and return the obsolete product, especially for large distributors. This effectively nullifies the return rights by making it nearly impossible to exercise them.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (Uniform Commercial Code § 1-304)",
+                "location": "Section 13.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "With regard to both Distributor and Affiliates' activity, Distributor shall keep full, true, and accurate records and accounts, in accordance with generally-accepted accounting principles, of each Product or Service purchased and deployed, Resold, or distributed by serial number, including information regarding compliance with Cisco marketing and sales programs, Software usage, and export or transfer. Distributor shall make these records available for audit by Cisco upon [*****] prior written notice, during regular business hours, at Distributor's principal place of business or such other of Distributor's locations where Distributor may maintain relevant records. [*****].",
+                "changed_text": "With regard to both Distributor and Affiliates' activity, Distributor shall keep full, true, and accurate records and accounts, in accordance with generally-accepted accounting principles, of each Product or Service purchased and deployed, Resold, or distributed by serial number, including information regarding compliance with Cisco marketing and sales programs, Software usage, and export or transfer. Distributor shall make these records available for audit by Cisco upon 24 hours prior written notice, during regular business hours, at Distributor's principal place of business or such other of Distributor's locations where Distributor may maintain relevant records. [*****].",
+                "explanation": "This change reduces the audit notice period to 24 hours. Depending on the volume of records and geographic distribution, this unreasonably short notice period could be deemed commercially unreasonable and violate state laws protecting businesses from unduly burdensome audit requests.  A sudden audit demand with only 24 hours' notice may be viewed as a breach of the implied covenant of good faith and fair dealing, particularly if the distributor needs more time to prepare required documentation.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (Uniform Commercial Code § 1-304)",
+                "location": "Section 17.1"
+            }
+        ]
+    }
+]

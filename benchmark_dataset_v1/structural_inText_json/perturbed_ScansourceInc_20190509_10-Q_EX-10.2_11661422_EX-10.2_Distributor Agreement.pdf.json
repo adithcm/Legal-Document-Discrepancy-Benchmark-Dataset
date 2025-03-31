@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ScansourceInc_20190509_10-Q_EX-10.2_11661422_EX-10.2_Distributor Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Commencing on the Effective Date hereof, Xplore Products will be considered for all intents and purposes of the Distributor Agreement as Products and the purchase and sale thereof will be conducted in accordance with, and be subject to the terms and conditions of the Distributor Agreement, unless otherwise set out in this section:\na.\tThe actual sale of Xplore Products (or any part thereof) is subject to Zebra obtaining the relevant regulatory approvals for the sale of Xplore Products in and into the Market or Territory (or any portion thereof) and shall commence only upon the attainment of such approvals.",
+                "changed_text": "Commencing on the Effective Date hereof, Xplore Products will be considered for all intents and purposes of the Distributor Agreement as Products and the purchase and sale thereof will be conducted in accordance with, and be subject to the terms and conditions of the Distributor Agreement, unless otherwise set out in this section:\na.\tThe actual sale of Xplore Products (or any part thereof) may be subject to Zebra obtaining the relevant regulatory approvals for the sale of Xplore Products in and into the Market or Territory (or any portion thereof) and may commence before the attainment of such approvals.",
+                "explanation": "By changing \"is subject\" to \"may be subject\" and \"shall commence only upon\" to \"may commence before\", the clause creates ambiguity regarding the necessity of regulatory approvals before the sale of Xplore Products. The original text implied that regulatory approval was a precondition to the sale, while the modified text leaves open the possibility of sales occurring without or before such approval, thereby contradicting the initial intent and creating uncertainty in enforcement.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Distributor has the right to cancel, reschedule or modify all or any portion of a purchase order that has been accepted by Xplore at no cost to Distributor only if such cancellation or modification request is made within [*****] business days of PO acceptance or rescheduling request is made at least [*****] business days prior to the most current Estimated Shipping Date for that purchase order.",
+                "changed_text": "Distributor may request to cancel, reschedule or modify all or any portion of a purchase order that has been accepted by Xplore with costs to distributor. Xplore is not required to approve such request.",
+                "explanation": "The original text outlines specific conditions under which the Distributor has the \"right\" to cancel/modify purchase orders at no cost. The changed text replaces the \"right\" with a mere \"request\", introduces potential costs to the distributor and states that Xplore is not required to approve such requests. This directly contradicts the original assertion of the Distributor's right, creating uncertainty about the Distributor's ability to manage its purchase orders and potential financial implications.",
+                "location": "Exhibit B, Section 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Distributor shall use commercially reasonable efforts to maintain thirty (30) days of stock in Distributor’s inventory to support sales. Xplore acknowledges that from time to time, Distributor’s inventory levels may fall below the thirty (30) days goal that is agreed upon by both Parties. If inventory levels fall below the thirty (30) day goal for more than sixty (60) consecutive days, Xplore, upon written notice to Distributor, shall replenish the stock to an amount agreed by both Parties.",
+                "changed_text": "Distributor must maintain thirty (30) days of stock in Distributor’s inventory to support sales. Xplore has final decision on such inventories. If inventory levels fall below the thirty (30) day goal for more than sixty (60) consecutive days, Xplore is not required to replenish the stock.",
+                "explanation": "The original text says \"Distributor shall use commercially reasonable efforts to maintain\" whereas the changed text says that  \"Distributor must maintain\" making the first one an effort based clause and the second a performance based clause. Xplore acknowledges inventory levels may fluctuate. The original text states that Xplore shall replenish the stock if it is not maintained. The changed text says Xplore \"is not required to replenish the stock\" creating a contradiction. This introduces uncertainty about Xplore's obligation to maintain inventory levels, potentially shifting the burden entirely onto the Distributor and contradicting the initial intention of shared responsibility.",
+                "location": "Exhibit B, Section 4"
+            }
+        ]
+    }
+]

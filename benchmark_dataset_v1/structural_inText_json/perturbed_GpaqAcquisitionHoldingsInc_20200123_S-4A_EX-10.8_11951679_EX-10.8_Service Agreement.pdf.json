@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.4 Sponsorship Fees. For the advertising and other rights described herein, Constellation shall pay to the HOF Entities total combined sponsorship fees (the “Sponsorship Fees”) and total combined annual activation fund proceeds (the “Annual Activation Fund Proceeds”) in the amounts and on the dates set forth on Exhibit H, in addition to any other amounts required by the terms of this Agreement. Annual Activation Funds are to be used in each calendar year. Unused funds are not rolled into future contract years. In the event Constellation fails to pay to the HOF Entities when due any sum required by this Agreement to be paid, whether pursuant to this Section 3.4 or otherwise, interest shall accrue from the date due on the unpaid amount at the rate of [***] per month or, if less, the highest rate permitted by law.",
+                "changed_text": "3.4 Sponsorship Fees. For the advertising and other rights described herein, Constellation may pay to the HOF Entities total combined sponsorship fees (the “Sponsorship Fees”) and total combined annual activation fund proceeds (the “Annual Activation Fund Proceeds”) in the amounts and on the dates set forth on Exhibit H, unless otherwise agreed upon. Annual Activation Funds are to be used in each calendar year, or at Constellation's discretion carried over to subsequent years. In the event Constellation fails to pay to the HOF Entities when due any sum required by this Agreement to be paid, whether pursuant to this Section 3.4 or otherwise, interest may accrue from the date due on the unpaid amount at a rate to be determined at the HOF Entities' discretion, not to exceed the highest rate permitted by law.",
+                "explanation": "The original text states that Constellation *shall* pay the sponsorship fees. The modified version changes this to *may* pay, introducing ambiguity about the obligation to pay. Furthermore, changing 'are to be used in each calendar year' to 'at Constellation's discretion carried over to subsequent years' contradicts the initial clear instruction. Lastly, switching 'shall accrue' to 'may accrue at a rate to be determined at the HOF Entities' discretion' adds further ambiguity concerning the application of interest on unpaid amounts.",
+                "location": "Section 3.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.2 Assignment. Neither this Agreement nor any right or obligation hereunder may be assigned or otherwise transferred by either Party without the prior written consent of the other Party; provided, however, that each HOF Entity may, upon written notice to Constellation but without a requirement to obtain Constellation’s consent, transfer, assign, convey, pledge or encumber, in whole or in part, any and all of its rights under this Agreement as security in connection with a loan transaction. Assignment of Second Level Agreements will be governed by the terms of the respective Second Level Agreement.",
+                "changed_text": "6.2 Assignment. This Agreement and any right or obligation hereunder may be assigned or otherwise transferred by either Party at their sole discretion. Assignment of Second Level Agreements will also be at the discretion of the assigning party.",
+                "explanation": "The original text clearly states that neither party can assign the agreement without the other's consent, *except* for the HOF Entities assigning rights as security for a loan. The modified text removes the need for consent entirely, stating that either party can assign at their sole discretion. This contradicts the original requirement for mutual consent.",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.1 Term. The term of this Agreement (the “Term”), unless mutually extended by written agreement of the Parties or unless sooner terminated as provided herein, shall commence effective as of the date hereof and shall expire on December 31, 2028.",
+                "changed_text": "4.1 Term. The term of this Agreement (the “Term”), unless unilaterally extended by either party or terminated as provided herein, shall commence effective as of the date hereof and shall expire on December 31, 2028.",
+                "explanation": "The original text states the agreement can be 'mutually extended' while the modified text states it can be 'unilaterally extended by either party'. This creates a contradiction about the process of extending the terms of the contract.",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]
