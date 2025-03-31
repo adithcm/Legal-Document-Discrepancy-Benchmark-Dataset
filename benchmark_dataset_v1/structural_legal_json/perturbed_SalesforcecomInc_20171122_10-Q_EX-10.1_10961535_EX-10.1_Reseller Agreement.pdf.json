@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3.\nEntire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "1.\nResale Rights. SFDC hereby appoints SUB-RESELLER (“Sub-Reseller”) as a sub-reseller to whom Reseller may resell\nServices in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to\nCustomer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-\nReseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach\nby Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.\n3.\nEntire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.\nReseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller.",
+                "explanation": "By embedding the term 'Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller' inside of the 'Entire Agreement' clause, its enforceability is diminished by implying it only applies to the understanding of the agreement, rather than being a stand-alone legal necessity.",
+                "contradicted_law": "General Contract Law - Clear and Conspicuous Disclosure",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3.\nEntire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "3.\nEntire Agreement. This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned\ncopies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together,\nwill be deemed to constitute a single instrument.The terms and conditions herein contained constitute the entire agreement between the Parties with\nrespect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements\nand understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "explanation": "By sandwiching the entire agreement clause with the 'Counterparts' clause, there is potential to weaken the enforceability by it appearing related to the formatting of the counterpart rather than a central tenet.",
+                "contradicted_law": "General Contract Law - Clear and Conspicuous Disclosure",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "2.\nEffect of Sub-Reseller Agreement. Subject to the above modifications, the Agreement remains in full force and effect.",
+                "changed_text": "4.\nCounterparts. This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned\ncopies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together,\nwill be deemed to constitute a single instrument. Subject to the above modifications, the Agreement remains in full force and effect.",
+                "explanation": "By attaching the original clause on the effect of the sub-reseller agreement to the counterparts section, there is potential to weaken the enforceability by relating it to the the counterparts rather than the contract itself.",
+                "contradicted_law": "General Contract Law - Clear and Conspicuous Disclosure",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

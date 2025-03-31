@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Licensee will bear the responsibility for the Station’s compliance with all applicable provisions of the rules and policies of the FCC.",
+                "changed_text": "Licensee will bear the responsibility for the Station’s compliance with some of the provisions of the rules and policies of the FCC.",
+                "explanation": "By using 'some' instead of 'all', Licensee may not be fully responsible for compliance which contradicts federal regulations requiring them to comply with all applicable FCC rules.",
+                "contradicted_law": "FCC rules and regulations",
+                "location": "Section 6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Programmer agrees that the contents of the WLIB Programs it transmits to Licensee shall conform to all FCC rules, regulations and policies.",
+                "changed_text": "Programmer agrees that the contents of the WLIB Programs it transmits to Licensee shall generally conform to FCC rules, regulations and policies.",
+                "explanation": "Changing 'all' to 'generally' weakens the obligation, potentially leading to non-compliance with mandatory FCC rules.",
+                "contradicted_law": "FCC rules and regulations",
+                "location": "Section 8.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Licensee shall oversee and take ultimate responsibility with respect to the provision of equal opportunities, lowest unit charge, and reasonable access to political candidates, and compliance with the political broadcast rules of the FCC. During the Term, Programmer shall cooperate with Licensee as Licensee complies with its political broadcast responsibilities, and shall supply such information promptly to Licensee as may be necessary to comply with the political advertising time record keeping, reasonable access, and lowest unit charge requirements of federal law.",
+                "changed_text": "Licensee shall oversee and take ultimate responsibility with respect to compliance with the political broadcast rules of the FCC. During the Term, Programmer shall attempt to cooperate with Licensee, and may supply such information to Licensee as may be necessary.",
+                "explanation": "Licensee maintains ultimate responsibility but changing programmer's cooperation from 'shall' to 'attempt' weaken the cooperation, and changing 'shall' to 'may' weakens the information supply, which contradicts the political broadcast responsibilities.",
+                "contradicted_law": "Communications Act of 1934",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]
