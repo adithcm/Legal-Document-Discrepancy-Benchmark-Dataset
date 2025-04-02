@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This WEB SITE HOSTING AGREEMENT (\"this Agreement\") is entered into this 6th day of April, 1999 by and between Centrack International, a Florida corporation (\"the Customer\"), and i-on interactive, a Florida corporation (\"i-on\").",
+                "changed_text": "This WEB SITE HOSTING AGREEMENT (\"this Agreement\") is entered into this 6th day of April, 1999 by and between Centrack International, a Florida corporation (\"the Client\"), and i-on interactive, a Florida corporation (\"i-on\").",
+                "explanation": "The term 'Customer' is replaced with 'Client', but the contract continues to use 'Customer' elsewhere without clarifying if they are the same entity. This introduces ambiguity regarding the rights and responsibilities assigned to each term, creating a contradiction.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "changed_text": "The Client is responsible for paying i-on the recurring monthly fee in the amount of $450. The Subscriber is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "explanation": "Uses 'Client', 'Subscriber' and 'Customer' within close proximity regarding the same payment obligation. It's now unclear who is responsible for the payments, introducing confusion and potential disputes. This is further exacerbated by the initial definition referring to 'Customer' but the changed text using three terms interchangeably. It makes the sentence about the payment of fees unclear, and not enforced.",
+                "location": "Responsibilities of the Customer"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Customer is solely responsible for all customer support required by users of Hosted Site. In the case of a problem with the Hosted Site that is the responsibility of i-on according to this Agreement, the Customer shall directly notify i-on, which shall report the resolution of such problem directly to the Customer.",
+                "changed_text": "The Client is solely responsible for all customer support required by users of Hosted Site. In the case of a problem with the Hosted Site that is the responsibility of i-on according to this Agreement, the Subscriber shall directly notify i-on, which shall report the resolution of such problem directly to the Account Holder.",
+                "explanation": "The text now uses 'Client', 'Subscriber', and 'Account Holder' when referring to the responsible party for customer support and problem notification. Since these terms are not defined or differentiated, it's unclear who exactly is responsible for these actions, potentially leading to service disruptions and disputes. This undermines the clear allocation of responsibilities and creates uncertainty in enforcement. The original text implies that all of these parties are related, and are in fact, one party. Changing the terms like this is an internal contradiction.",
+                "location": "Responsibilities of the Customer"
+            }
+        ]
+    }
+]

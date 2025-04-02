@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\" in the Chase Affiliate Program (the \"Affiliate Program\"). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to [Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website.",
+                "changed_text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as a \"Vendor\" in the Chase Affiliate Program (the \"Affiliate Program\"). Once accepted into the Affiliate Program, a Provider can establish links from the Vendor's Website to [Chase.com]. Chase will pay Vendor a fee for each approved credit card account that originates from a link in Vendor's Website.",
+                "explanation": "Replaced 'Affiliate' with 'Vendor' and 'Provider' interchangeably. Later sections still refer to 'Affiliate', causing confusion on which term is legally binding.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "For purposes of determining Affiliate's Commission, an \"Approved Account\" means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Affiliate's Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Affiliate.",
+                "changed_text": "For purposes of determining Vendor's Earnings, an \"Approved Account\" means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Vendor's Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Provider.",
+                "explanation": "Replaced 'Affiliate's Commission' with 'Vendor's Earnings'. 'Affiliate' to 'Provider'. This change can create uncertainty about who is entitled to the commissions and what terminology (Earnings vs Commissions) is legally enforceable.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Either Affiliate or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail notice of termination. At the time of termination, any links to Chase's Website must be removed immediately. Affiliate will continue to receive Commission payments for all Approved Accounts placed during the term of this Agreement. Notwithstanding the foregoing, Chase may terminate this Agreement if Affiliate does not comply with the terms and conditions herein.",
+                "changed_text": "Either Vendor or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail notice of termination. At the time of termination, any links to Chase's Website must be removed immediately. Provider will continue to receive Earnings payments for all Approved Accounts placed during the term of this Agreement. Notwithstanding the foregoing, Chase may terminate this Agreement if Vendor does not comply with the terms and conditions herein.",
+                "explanation": "Replaced 'Affiliate' with 'Vendor' and 'Provider'. Further confuses the definition of roles, duties, and payouts, causing further uncertainty for enforcement, specially when related to agreement termination.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

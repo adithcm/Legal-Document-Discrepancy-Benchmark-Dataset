@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "For the avoidance of doubt, the Other Assets include but are not limited to all cash on hand and in the Debtors' retail store locations, cash in transit, cash in bank accounts, Merchant's interest in and rights with respect to cash posted as collateral for letters of credit, receivables (including",
+                "changed_text": "For the avoidance of doubt, the Other Assets include all cash on hand and in the Debtors' retail store locations, cash in transit, cash in bank accounts, Merchant's interest in and rights with respect to cash posted as collateral for letters of credit, receivables (excluding",
+                "explanation": "Changed \"including\" to \"excluding\". This creates a contradiction about whether the receivables are considered 'Other Assets,' creating uncertainty in the valuation and disposition of assets.",
+                "location": "Page 3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Subject to and only upon entry of the Approval Order, in addition to and not subject to the Wind-Down Payment or Wind-Down Cap, Agent shall be unconditionally responsible for all \"Expenses,\" which shall be paid by Agent in accordance with Section 4.2 below. As used herein, \"Expenses\" shall mean the Store-level operating expenses that arise during the Sale Term, limited to the following:",
+                "changed_text": "Subject to and only upon entry of the Approval Order, in addition to and subject to the Wind-Down Payment or Wind-Down Cap, Agent shall be unconditionally responsible for all \"Expenses,\" which shall be paid by Agent in accordance with Section 4.2 below. As used herein, \"Expenses\" shall mean the Store-level operating expenses that arise during the Sale Term, limited to the following:",
+                "explanation": "Changed \"not subject to\" to \"subject to.\" This contradicts the original meaning, which states expenses are separate from the Wind-Down budget. By making it \"subject to,\" the agent is now responsible for the payments, within the Wind-Down budget, confusing the allocation of payments.",
+                "location": "Page 15"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Subject to the Wind-Down Budget, Agent shall use Merchant's employees in the conduct of the Sale to the extent Agent deems necessary for the Sale, and Agent may select and schedule the number and type of Merchant's employees required for the Sale. Agent shall identify any such employees to be used in connection with the Sale (each such employee, a \"Retained Employee\").",
+                "changed_text": "Subject to the Wind-Down Budget, Purchaser shall use Merchant's employees in the conduct of the Sale to the extent Purchaser deems necessary for the Sale, and Purchaser may select and schedule the number and type of Merchant's employees required for the Sale. Agent shall identify any such employees to be used in connection with the Sale (each such employee, a \"Retained Employee\").",
+                "explanation": "Replaced \"Agent\" with \"Purchaser\", but retained the definition of Retained Employee as one identified by the Agent, creating conflicting identification of the responsibilities. Confusing who has the power to do what. This creates uncertainty about who is actually responsible for managing the Retained Employees.",
+                "location": "Page 23"
+            }
+        ]
+    }
+]

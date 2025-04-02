@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUAL PROPERTY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The costs listed below are to be hereinafter referred to as the \"License Fee\", to be paid by and through THI. The use of the License Fee is further broken down below:\n\n1. $20,000, payable to Marv Enterprises, LLC or as it directs, which has already been paid into the account of Marv Enterprises, LLC at the Lynch Law Group\n\n2. The total sum of non-paid invoices (estimated to be approximately $80,000) payable to Marv Enterprises, LLC, previously owed by Premier to Marv up until the effective date of this Agreement, payable in total by no later than July 20, 2020.",
+                "changed_text": "The costs listed below are to be hereinafter referred to as the \"License Fee\", to be paid by and through THI. The use of the **Expenditure** is further broken down below:\n\n1. $20,000, payable to Marv Enterprises, LLC or as it directs, which has already been paid into the account of Marv Enterprises, LLC at the Lynch Law Group\n\n2. The total sum of non-paid invoices (estimated to be approximately $80,000) payable to Marv Enterprises, LLC, previously owed by Premier to Marv up until the effective date of this Agreement, payable in total by no later than July 20, 2020.",
+                "explanation": "The term 'License Fee' is replaced with 'Expenditure' in the second sentence. While the specific costs remain associated with the 'License Fee', the introductory paragraph now refers to them as being part of 'Expenditure', creating confusion about the overall classification and scope. It is unclear whether the subsequent cost breakdown relates to a 'License Fee', an 'Expenditure' or both.",
+                "location": "2. (b)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "If THI denies payment, THI shall have no obligation to pay IP Costs associated with the Application or Patent in that country, but the license and all associated rights for that Application or Patent shall revert to Marv.",
+                "changed_text": "If THI denies payment, THI shall have no obligation to pay IP Costs associated with the Application or Patent in that country, but the **rights** and all associated **licenses** for that Application or Patent shall revert to Marv.",
+                "explanation": "The terms 'license' and 'rights' are switched, which implies that the license reverts to Marv, and all associated rights revert as well. But the terms are reversed, implying that the rights will revert, and all associated licenses. This creates confusion regarding what precisely is being reverted upon denial of payment and could lead to disputes over the scope of Marv's regained control over the intellectual property.",
+                "location": "2. (c) 3. b."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement, along with the exhibits hereto, sets forth the entire agreement and understanding of the Parties hereto and supersedes any and all prior arrangements and understandings related to the subject matter hereof except for as specifically stated in this  Agreement with regards to the 2010 Agreement and the 2020 Agreement and  licensing rights.",
+                "changed_text": "This Agreement, along with the exhibits hereto, sets forth the entire agreement and understanding of the Parties hereto and supersedes any and all prior arrangements and understandings related to the subject matter hereof except for as specifically stated in this  Agreement with regards to the 2010 Agreement and the 2020 Agreement and **copyright licenses**.",
+                "explanation": "By changing 'licensing rights' to 'copyright licenses', the agreement now introduces ambiguity. While the original text refers to licensing rights in general, the changed text specifically mentions 'copyright licenses', raising questions about whether other forms of licensing rights (e.g., patent licenses) are still governed by the previous agreements or are superseded by this new agreement.",
+                "location": "11."
+            }
+        ]
+    }
+]

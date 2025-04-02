@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CORIOINC_07_20_2000-EX-10.5-LICENSE AND HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.6     \"CUSTOMER(S)\" means one or more customers of the Corio Services having\n         its principal executive offices in the Territory who obtains a\n         sublicense from Corio to use the Software or MarketSite.net Service, in\n         the Corio Market Segment.",
+                "changed_text": "1.6     \"CUSTOMER(S)\" means one or more clients of the Corio Services having\n         its principal executive offices in the Territory who obtains a\n         sublicense from Corio to use the Software or MarketSite.net Service, in\n         the Corio Market Segment.",
+                "explanation": "The term 'customer' is replaced with 'client'. Later sections may use 'customer' without explicitly stating they are interchangeable, leading to confusion.",
+                "location": "Section 1.6"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1     \"SOFTWARE USER\" means a named user of the Corio Services worldwide to\n         whom a user identification number and password has been assigned, which\n         permits that user to access and use the Software on a designated Corio\n         Server. The identification number and password used by a Software User\n         is reusable and reassignable and may be used and transferred by Corio,\n         in accordance with the licenses granted below, between Customers as one\n         Customer discontinues the Corio Services and another Customer\n         subscribes.",
+                "changed_text": "1.1     \"SOFTWARE USER\" means a named user of the Corio Services worldwide to\n         whom a user identification number and password has been assigned, which\n         permits that user to access and use the Software on a designated Corio\n         Server. The identification number and password used by a Subscriber\n         is reusable and reassignable and may be used and transferred by Corio,\n         in accordance with the licenses granted below, between Customers as one\n         Customer discontinues the Corio Services and another Customer\n         subscribes.",
+                "explanation": "Replacing 'Software User' with 'Subscriber' mid-definition creates ambiguity. Are all Software Users subscribers, and vice versa? This undefined change can create disputes.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "2.4     Distribution License: Corio shall have the right to resell licenses for\n         Commerce One software, including Hosted BuySite, to any Corio Customer\n         in the Territory, [*]. Subject to the terms and conditions of this\n         Agreement, Commerce One hereby grants to Corio a nonexclusive,\n         nontransferable (except in accordance with Section 14.1 of this\n         Agreement), right and license in the Territory to sell and distribute\n         such software licenses to Customers pursuant to this Section 2.4. Under\n         no circumstances shall Commerce One contact Corio Customers regarding a\n         non-ASP license sale, unless requested to do so by Corio. Further, if a\n         Corio Customer contacts Commerce One to purchase the Software license",
+                "changed_text": "2.4     Distribution License: Corio shall have the right to resell licenses for\n         Commerce One software, including Hosted BuySite, to any Corio User\n         in the Territory, [*]. Subject to the terms and conditions of this\n         Agreement, Commerce One hereby grants to Corio a nonexclusive,\n         nontransferable (except in accordance with Section 14.1 of this\n         Agreement), right and license in the Territory to sell and distribute\n         such software licenses to Customers pursuant to this Section 2.4. Under\n         no circumstances shall Commerce One contact Corio Customers regarding a\n         non-ASP license sale, unless requested to do so by Corio. Further, if a\n         Corio Customer contacts Commerce One to purchase the Software license",
+                "explanation": "Replacing 'Customer' with 'User' in the first sentence, while retaining 'Customers' in subsequent sentences of the same section, creates confusion regarding who Corio can resell licenses to. Is it restricted to only Corio Users or all Customers?",
+                "location": "Section 2.4"
+            }
+        ]
+    }
+]

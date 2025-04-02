@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ZtoExpressCaymanInc_20160930_F-1_EX-10.10_9752871_EX-10.10_Transportation Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Party A (Shipper): ZTO Express Co., Ltd. Address: Building 1, No. 1685, Huazhi Road, Huaxin Twon, Qingpu District, Shanghai   Party B (Carrier): Tonglu Tongze Logistics Ltd. Address: 12 Floor, HSBC Tower, Yinchun South Road, Tonglu County, Zhejiang Province",
+                "changed_text": "Party A (Consignor): ZTO Express Co., Ltd. Address: Building 1, No. 1685, Huazhi Road, Huaxin Twon, Qingpu District, Shanghai   Party B (Transporter): Tonglu Tongze Logistics Ltd. Address: 12 Floor, HSBC Tower, Yinchun South Road, Tonglu County, Zhejiang Province",
+                "explanation": "The terms 'Shipper' and 'Carrier' are replaced with 'Consignor' and 'Transporter' respectively. While seemingly similar, the contract doesn't explicitly define these terms, and later sections may refer to obligations using the original terms. This creates ambiguity as to whether the Consignor/Transporter are subject to obligations defined for Shipper/Carrier.",
+                "location": "Beginning of the document"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "(c) Clearance of freight: the clearance method is based on both Parties' fund clearance arrangement and the final clearance amount is subject to actual carriage amount and EX-warehouse (\"EXW\") weight determined by Party A. Party B shall attach Party A's parcel EXW originals or copies for Party A's verification for clearance of freight.",
+                "changed_text": "(c) Clearance of Fees: the clearance method is based on both Parties' fund clearance arrangement and the final clearance amount is subject to actual carriage amount and EX-warehouse (\"EXW\") weight determined by Party A. Party B shall attach Party A's parcel EXW originals or copies for Party A's verification for clearance of Fees.",
+                "explanation": "The term 'freight' is replaced by 'fees'. This creates an ambiguity since some clauses refer to 'freight' while others refer to 'fees'. It is not clear if the term refers to the same monetary value or distinct components. This inconsistency can cause disputes over the amount to be paid.",
+                "location": "Section 3(c)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Party B shall bear any consequences and legal liability arising out of Party B's non-compliance, and Party A shall have no liability. Party A has the right to terminate this Agreement without further legal liability in the case that Party B does not comply with Party A's management and arrangement.",
+                "changed_text": "Party B shall bear any consequences and legal liability arising out of Party B's non-compliance, and Party A shall have no liability. Party A retains the option to void this Agreement without further legal liability in the case that Party B does not comply with Party A's management and arrangement.",
+                "explanation": "The term 'terminate' is replaced by 'void.' While termination usually implies ending a contract with possible outstanding obligations, voiding a contract implies it was never valid from the beginning. This could lead to legal disputes about the validity of actions taken during the contract period before the 'voiding'.",
+                "location": "Section 5(a)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "TUNIUCORP_03_06_2014-EX-10-COOPERATION AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Party B shall have the right to charge, on a quarterly basis, the service fee (\"Service Fee\") from Party A or its subsidiaries who have accepted Party B's Services, or designate another person to charge Service Fee from Party A or its subsidiaries who have accepted Party B's Services. The total sum of Service Fee shall be equal to the amount of profits gained by Party A or its subsidiaries who have accepted Party B's Services. Party B shall have the right to adjust the amount of Service Fee at its own discretion, without the prior consent of Party A or its subsidiaries.",
+                "changed_text": "Party B shall have the right to charge, on a quarterly basis, the project fee (\"Service Fee\") from Party A or its subsidiaries who have accepted Party B's Services, or designate another person to charge Project Fee from Party A or its subsidiaries who have accepted Party B's Services. The total sum of Service Fee shall be a percentage determined by Party B equal to the amount of profits gained by Party A or its subsidiaries who have accepted Party B's Services. Party B shall have the right to adjust the percentage of Service Fee at its own discretion, without the prior consent of Party A or its subsidiaries.",
+                "explanation": "The term 'Service Fee' is initially defined as the amount of profits gained by Party A. The modified version introduces 'Project Fee' as a potentially distinct term, but still states that total Service Fee will be a percentage determined by Party B of gained profits creating confusion as the service fee definition and introduces ambiguity around how the adjustment of Service Fee will happen. This introduces a contradiction and uncertainty in enforcement, as it is no longer clear what Party B can charge. Is Project Fee a part of Service Fee or something entirely different?",
+                "location": "4.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Party A and Party B agree and confirm that the term of cooperation under this Agreement shall commence from the execution date hereof and end on the expiration date of the operation term of Party B (\"Term of Cooperation\").",
+                "changed_text": "Party A and Party B agree and confirm that the term of cooperation under this Agreement shall commence from the execution date hereof and end five years after the date of the agreement (\"Term of Partnership\").",
+                "explanation": "The 'Term of Cooperation' is initially defined as ending on the expiration date of Party B's operation term. The modified version redefines it as 'Term of Partnership' and sets a fixed duration of five years. This creates a direct contradiction, as the two definitions may not align and it's not clear whether to use 'Term of Cooperation' or 'Term of Partnership' and if the five year limit applies.",
+                "location": "5"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The rights and obligations of each Party under this Agreement shall not be transferred, except for the transfer by Party B to its affiliates.",
+                "changed_text": "The rights and obligations of each Party under this Agreement shall not be assigned, except for the delegation by Party B to its subsidiaries.",
+                "explanation": "The original text uses 'transferred' and 'affiliates'. The changed text uses 'assigned' and 'subsidiaries'. 'Transferred' and 'assigned' are used interchangeably but are different legal concepts. 'Affiliates' and 'subsidiaries' are different as well. This introduces legal uncertainty as to whether the right to transfer is limited only to subsidiaries, or if broader affiliated companies can assume obligations as well. The term rights and obligations are switched as well to potentially change meanings.",
+                "location": "12.2"
+            }
+        ]
+    }
+]

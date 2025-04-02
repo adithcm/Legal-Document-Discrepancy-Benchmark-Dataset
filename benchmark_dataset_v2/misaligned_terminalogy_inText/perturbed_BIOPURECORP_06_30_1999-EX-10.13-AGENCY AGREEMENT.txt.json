@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This \"Agency\" Agreement is made as of March 29, 1999, by and between Biopure Corporation, a Delaware corporation (the \"Company\") and the Agent named on the signature page hereof (the \"Agent\").",
+                "changed_text": "This \"Agency\" Agreement is made as of March 29, 1999, by and between Biopure Corporation, a Delaware corporation (the \"Company\") and the Vendor named on the signature page hereof (the \"Agent\").",
+                "explanation": "The term 'Agent' is used throughout the contract, but here it's contradicted by calling the 'Agent' also a 'Vendor'. It's unclear whether 'Agent' and 'Vendor' refer to the same entity, leading to uncertainty in obligations throughout the document.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1. Appointment. Subject to the terms and conditions of this Agreement, the Company hereby appoints the Agent, and the Agent hereby accepts appointment, as an authorized distributor agent within the Territory, (Territory as outlined in section 1.2), for the promotion, sale and collection of payment for, the Products to Customers. The Company has appointed a limited number of Agents; however, the Company retains the right to itself, and/or appoint others to, promote, sell, and collect payment for, and distribute, the Products to Customers in the Territory.",
+                "changed_text": "1.1. Appointment. Subject to the terms and conditions of this Agreement, the Company hereby appoints the Agent, and the Agent hereby accepts appointment, as an authorized distributor agent within the Territory, (Territory as outlined in section 1.2), for the promotion, sale and collection of payment for, the Products to Clients. The Company has appointed a limited number of Agents; however, the Company retains the right to itself, and/or appoint others to, promote, sell, and collect payment for, and distribute, the Products to Consumers in the Territory.",
+                "explanation": "The terms 'Customers', 'Clients', and 'Consumers' are used interchangeably. It is unclear whether these terms are the same, impacting the scope of the Agent's responsibilities.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "3.3. Insurance. The Company and the Agent will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Five Million Dollars ($5,000,000) combined single amount per occurrence and in the aggregate.",
+                "changed_text": "3.3. Insurance. The Company and the Agency will each maintain, at their own expense, insurance with reputable insurers, such insurance to be in such form and amounts as are customary in the case of entities of established reputation engaged in the same or similar businesses and similarly situated, provided that such insurance will in any event include commercial general liability and umbrella liability insurance (including product liability coverage) for property damage, bodily injury and personal injury in an amount not less than Two Million Dollars ($2,000,000) combined single amount per occurrence and in the aggregate.",
+                "explanation": "Using Agency instead of Agent and changing the agreed insurance amount creates a contradiction. The insurance amount is reduced to $2,000,000 from $5,000,000",
+                "location": "Section 3.3"
+            }
+        ]
+    }
+]

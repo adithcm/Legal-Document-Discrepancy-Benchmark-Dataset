@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "CISCO SYSTEMS, INC. NONEXCLUSIVE VALUE ADDED DISTRIBUTOR AGREEMENT\n\nThis Nonexclusive Value Added Distributor Agreement (\"Agreement\"), between ScanSource, Inc., a South Carolina corporation, with its principal place of business at 6 Logue Court, Greenville, South Carolina, 29615 (\"Distributor\"), and Cisco Systems, Inc., a California corporation with its principal place of business at 170 West Tasman Drive, San Jose, California 95134 - 1706, (\"Cisco\") is entered into as of the date last written below (\"the Effective Date\").",
+                "changed_text": "CISCO SYSTEMS, INC. NONEXCLUSIVE VALUE ADDED DISTRIBUTOR AGREEMENT\n\nThis Nonexclusive Value Added Distributor Agreement (\"Agreement\"), between ScanSource, Inc., a South Carolina corporation, with its principal place of business at 6 Logue Court, Greenville, South Carolina, 29615 (\"Vendor\"), and Cisco Systems, Inc., a California corporation with its principal place of business at 170 West Tasman Drive, San Jose, California 95134 - 1706, (\"Cisco\") is entered into as of the date last written below (\"the Effective Date\").",
+                "explanation": "The term 'Distributor' is replaced with 'Vendor'. This creates ambiguity as it is unclear whether 'Vendor' and 'Distributor' refer to the same entity throughout the contract, which could lead to confusion regarding responsibilities and rights. This change introduces a discrepancy in the primary identification of one of the contracting parties.",
+                "location": "Beginning of the agreement"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement and the attached Exhibits set forth the terms and conditions for Distributor's purchase of Hardware and license of Software, and redistribution of Products, during the term of this Agreement.",
+                "changed_text": "This Agreement and the attached Exhibits set forth the terms and conditions for Supplier's purchase of Hardware and license of Software, and redistribution of Products, during the term of this Agreement.",
+                "explanation": "The text uses the term `Supplier` instead of `Distributor`. It is unclear whether `Supplier` is referring to the same party that `Vendor`/`Distributor` is referring to.",
+                "location": "Section 2.0 SCOPE"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In the event Cisco puts into effect a general price decrease for any Product from the Value Added Distributor Price List, Cisco will provide to Distributor a price credit on any such Product on order, In Transit or in Distributor's inventory as of the effective date of the price decrease, provided that the price credit for such Product in inventory or In Transit shall not exceed the dollar value of shipments of that Product (measured by the appropriate Cisco product number) to Distributor over the preceding [*****].",
+                "changed_text": "In the event Cisco puts into effect a general price decrease for any Product from the Value Added Distributor Price List, Cisco will provide to Customer a price credit on any such Product on order, In Transit or in Distributor's inventory as of the effective date of the price decrease, provided that the price credit for such Product in inventory or In Transit shall not exceed the dollar value of shipments of that Product (measured by the appropriate Cisco product number) to Distributor over the preceding [*****].",
+                "explanation": "The term `Distributor` is replaced by `Customer` in the section about the price decreases. It is unclear whether the `Customer` and `Distributor` are referring to the same entity.",
+                "location": "Section 7.2 Price Protection"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON, (hereinafter referred to as \"CONSULTANT\") and ADAMS GOLF, LTD. (hereinafter referred to as \"ADAMS GOLF\").",
+                "changed_text": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON, (hereinafter referred to as \"CONSULTANT\") and ADAMS GOLF, LTD. (hereinafter referred to as \"Company\").",
+                "explanation": "The agreement initially defines Adams Golf as \"ADAMS GOLF\". By changing this in the introduction to \"Company\", while still referring to Adams Golf as \"ADAMS GOLF\" throughout the document, it creates confusion as to whether 'Company' and 'ADAMS GOLF' are the same entity.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "A. CONSULTANT'S \"ENDORSEMENT\" means the right to use the CONSULTANT'S name, fame, nickname, autograph, voice, facsimile, signature, photograph, likeness, and image in connection with the marketing, advertising, promotion and sale of ADAMS GOLF'S PRODUCT.\n\nB.\"PRODUCT\" shall mean all golf clubs including, but not limited to, metal woods,  drivers, fairway woods, irons, iron- woods, utility clubs, wedges, and putters, bags, and headwear.",
+                "changed_text": "A. CONSULTANT'S \"ENDORSEMENT\" means the right to use the CONSULTANT'S name, fame, nickname, autograph, voice, facsimile, signature, photograph, likeness, and image in connection with the marketing, advertising, promotion and sale of ADAMS GOLF'S PRODUCT.\n\nB.\"ITEMS\" shall mean all golf clubs including, but not limited to, metal woods,  drivers, fairway woods, irons, iron- woods, utility clubs, wedges, and putters, bags, and headwear.",
+                "explanation": "The term \"PRODUCT\" is defined here, but later sections of the document could inadvertently refer to \"Items\" instead. This perturbation creates ambiguity as to whether \"PRODUCT\" and \"ITEMS\" have the same meaning, or whether ADAMS GOLF is obligated to use consultant's likeness only to \"PRODUCT\".",
+                "location": "Section 2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the term of this Agreement, CONSULTANT shall use best efforts to cooperate with ADAMS GOLF in giving advice, suggestions and recommendations concerning the acceptability and playability of current ADAMS GOLF lines, the development of new ADAMS GOLF lines, and information about significant golf PRODUCT and golf market trends, and meet as reasonably requested with ADAMS GOLF'S Design/Testing Teams.",
+                "changed_text": "During the term of this Agreement, CONSULTANT shall use best efforts to cooperate with ADAMS GOLF in giving advice, suggestions and recommendations concerning the acceptability and playability of current ADAMS GOLF lines, the development of new ADAMS GOLF lines, and information about significant golf ITEMS and golf market trends, and meet as reasonably requested with ADAMS GOLF'S Design/Testing Teams.",
+                "explanation": "In this instance, PRODUCT and ITEMS are used interchangeably within the text. It is unclear whether the consultant should provide information about significant golf product or ITEMS trends. These items and product might not be the same thing.",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

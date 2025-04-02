@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Shipper\" shall have the meaning given to such term in the preamble of this Agreement.\n\n\"Shipper Default\" shall have the meaning given to such term in Section 8.1 of this Agreement.\n\n\"Shipper Default Notice\" shall have the meaning given to such term in Section 8.2(a) of this Agreement.",
+                "changed_text": "\"Customer\" shall have the meaning given to such term in the preamble of this Agreement.\n\n\"Customer Default\" shall have the meaning given to such term in Section 8.1 of this Agreement.\n\n\"Shipper Default Notice\" shall have the meaning given to such term in Section 8.2(a) of this Agreement.",
+                "explanation": "The term 'Shipper' is changed to 'Customer' in the definition section, but the term 'Shipper' is used in 'Shipper Default Notice'. This creates confusion as to which term is applicable.",
+                "location": "ARTICLE I CERTAIN DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4.1 Provision of Services. Subject to the terms and conditions of this Agreement, Carrier shall, commencing on the Commencement Date and continuing through the remainder of the Term of this Agreement, provide Services for Shipper Product in accordance with, and subject to, this Agreement, including the Tariff, which is incorporated herein by reference and constitutes part of this Agreement, expressly including provisions in the Tariff relating to the charges and rules and regulations applicable to Shipper as a party to this Agreement. This Section 4.1 shall not apply to Carrier during any period when Shipper is in breach of its obligations to Carrier under this Agreement or the Tariff. The Services do not include any terminaling, tankage or storage.",
+                "changed_text": "4.1 Provision of Services. Subject to the terms and conditions of this Agreement, Carrier shall, commencing on the Commencement Date and continuing through the remainder of the Term of this Agreement, provide Services for Customer Product in accordance with, and subject to, this Agreement, including the Tariff, which is incorporated herein by reference and constitutes part of this Agreement, expressly including provisions in the Tariff relating to the charges and rules and regulations applicable to Shipper as a party to this Agreement. This Section 4.1 shall not apply to Carrier during any period when Customer is in breach of its obligations to Carrier under this Agreement or the Tariff. The Services do not include any terminaling, tankage or storage.",
+                "explanation": "The text has two names for the same entity, 'Shipper' and 'Customer.' The document refers to both entities, but it does not define when the names should be used.",
+                "location": "ARTICLE IV CARRIER RIGHTS AND OBLIGATIONS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "8.1 Shipper Defaults. Subject to Section 11.1 hereof, the following events shall be a \"Shipper Default\":\n\n(a) the occurrence and continuation of a material breach by Shipper of any of its obligations under this Agreement or the Tariff, unless such material breach occurs as a result of a breach or default by Carrier of its obligations under this Agreement or the Tariff; or\n\n(b) the occurrence and continuation of a breach under ARTICLE XIII, Financial Assurances.",
+                "changed_text": "8.1 Shipper Defaults. Subject to Section 11.1 hereof, the following events shall be a \"Customer Default\":\n\n(a) the occurrence and continuation of a material breach by Customer of any of its obligations under this Agreement or the Tariff, unless such material breach occurs as a result of a breach or default by Carrier of its obligations under this Agreement or the Tariff; or\n\n(b) the occurrence and continuation of a breach under ARTICLE XIII, Financial Assurances.",
+                "explanation": "The text replaces the term 'Shipper Default' with 'Customer Default'. It creates potential for conflicting interpretations as both names refer to different entities, making the obligations on defaults unclear. The introduction of a new term without consistent replacement or clear definition creates an inconsistency.",
+                "location": "ARTICLE VIII DEFAULTS AND REMEDIES"
+            }
+        ]
+    }
+]

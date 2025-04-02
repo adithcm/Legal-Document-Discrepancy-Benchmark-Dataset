@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Zounds Hearing, Inc. - MANUFACTURING DESIGN MARKETING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This MANUFACTURING, DESIGN AND MARKETING AGREEMENT (this \"Agreement\") is entered into by and between Zounds Hearing, Inc., a Delaware corporation (\"Subcontractor\") and InnerScope Hearing Technologies, Inc., a Nevada corporation, (the \"Manufacturer\") Manufacturer dated effective October 3, 2018 (the \"Effective Date\"). Subcontractor and Manufacturer may also be referred to herein individually as \"Party\" or collectively as the \"Parties\".",
+                "changed_text": "This MANUFACTURING, DESIGN AND MARKETING AGREEMENT (this \"Agreement\") is entered into by and between Zounds Hearing, Inc., a Delaware corporation (\"Contractor\") and InnerScope Hearing Technologies, Inc., a Nevada corporation, (the \"Manufacturer\") Manufacturer dated effective October 3, 2018 (the \"Effective Date\"). Contractor and Manufacturer may also be referred to herein individually as \"Party\" or collectively as the \"Parties\".",
+                "explanation": "Changing 'Subcontractor' to 'Contractor' introduces confusion. Throughout the document, 'Subcontractor' has specific obligations and rights. By using 'Contractor' in the initial definition, it's uncertain if those obligations apply to the newly named entity, creating a contradiction in terms and a lack of clarity regarding the responsibilities.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The agreed upon delivery dates are based on the Subcontractor's projected lead time, current inventory, commitments and Subcontractor's advice. Manufacturer agrees and acknowledges that all shipment dates are firm delivery dates.",
+                "changed_text": "The agreed upon delivery dates are based on the Supplier's projected lead time, current inventory, commitments and Supplier's advice. Manufacturer agrees and acknowledges that all shipment dates are estimated delivery dates.",
+                "explanation": "Changing 'Subcontractor' to 'Supplier' and 'firm' to 'estimated' introduces contradiction. The original states that shipment dates are firm, while the modified text uses 'estimated' delivery dates based on 'Supplier' advice. This creates ambiguity around the obligation to meet firm delivery dates.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Since Manufacturer is paying the actual manufacturing cost of the product, Supplier has not reserved for any warranty related costs. The Manufacturer acknowledges that it is solely responsible for any warranty costs associated with Manufacturer's Products. Should any nonconformities be detected during or after the manufacturing process, Subcontractor will assist Manufacturer in resolving any quality issues with the suppliers. Subcontractor will provide support to Manufacturer to train Manufacturer's employees to repair the non-conforming products as appropriate.",
+                "changed_text": "Since Manufacturer is paying the actual manufacturing cost of the product, Vendor has not reserved for any warranty related costs. The Manufacturer acknowledges that it is solely responsible for any warranty costs associated with Manufacturer's Products. Should any nonconformities be detected during or after the manufacturing process, Technician will assist Manufacturer in resolving any quality issues with the vendors. Technician will provide support to Manufacturer to train Manufacturer's employees to repair the non-conforming products as appropriate.",
+                "explanation": "Here, Supplier and Subcontractor are changed to Vendor and Technician respectively. This generates ambiguity. If 'Vendor' is the original 'Supplier', then the warranty terms outlined elsewhere in the document do not necessarily apply. Furthermore, replacing 'Subcontractor' with 'Technician' introduces even greater uncertainty about liability for non-conforming products and the roles and responsibilities each party has.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

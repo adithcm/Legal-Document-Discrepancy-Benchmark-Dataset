@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content License Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an  exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the  Licensed Domain Names in connection with the Business during the Term.",
+                "changed_text": "Licensor hereby grants to Recipient, and Licensee hereby accepts from Licensor, a  non-exclusive, transferable (except as set forth in Section 10.7) and sublicensable (except as provided in Section 2.1(c)) license to use the  Licensed Domain Names in connection with the Business during the Term.",
+                "explanation": "Changing 'Licensee' to 'Recipient' and switching exclusive to non-exclusive, transferable and sublicensable introduces contradiction, and creates uncertainty on who the rights are granted to, and the scope of those rights.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Licensee shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including  without limitation Content posted by end users. Licensor shall also have the right to monitor and censor Content of the websites associated with  Licensed Domain Names.",
+                "changed_text": "Subscriber shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including  without limitation Content posted by end users. Licensor maintains the sole discretion to oversee Content of the websites linked to Licensed Domain Names.",
+                "explanation": "Changing 'Licensee' to 'Subscriber' and changing 'Licensor shall also have the right to monitor and censor Content' to 'Licensor maintains the sole discretion to oversee Content' introduces a contradiction on who has the responsibility and authority to monitor and censor, creating uncertainty.",
+                "location": "Section 3.3(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Licensee shall ensure that the Business complies with all applicable Laws in respect of operation, advertising and  promotion of the Business and use of the Licensed Domain Names and Licensed Content in connection therewith.",
+                "changed_text": "The Customer must guarantee that the Business adheres to all legal requirements for its operations, marketing, and the utilization of Licensed Domain Names and Licensed Content.",
+                "explanation": "Switching 'Licensee' to 'Customer' creates confusion about which party is responsible for ensuring compliance. The change from 'all applicable Laws' to 'all legal requirements' introduces another layer of ambiguity.",
+                "location": "Section 3.4"
+            }
+        ]
+    }
+]

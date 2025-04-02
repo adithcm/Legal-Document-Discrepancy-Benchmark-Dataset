@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Subject to the terms of this Agreement, PPI hereby appoints EKR and EKR agrees to be retained as the exclusive distributor, and Authorized Distributor of Record, of the Products in the Field in the Territory during the Term to market, distribute,  warehouse and sell the Products. EKR shall have the right to appoint sub-distributors hereunder in each country of the Territory.",
+                "changed_text": "Subject to the terms of this Agreement, PPI hereby appoints EKR and EKR agrees to be retained as the exclusive vendor, and Authorized Vendor of Record, of the Products in the Field in the Territory during the Term to market, distribute,  warehouse and sell the Products. EKR shall have the right to appoint sub-distributors hereunder in each country of the Territory.",
+                "explanation": "Here 'distributor' is changed to 'vendor'. The agreement consistently refers to EKR as a 'distributor,' granting them distribution rights. Changing this single instance to 'vendor' creates confusion, as it's inconsistent with the rest of the agreement and could cause legal disputes over EKR's actual role.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the Term, PPI shall at its own cost and expense cooperate fully and assist EKR with the preparation of any necessary  submissions to any of the Regulatory Authorities in the Territory for the development and approval or supplemental approval(s) of the  Products, including, but not limited to, by providing access to all PPI Know-How, the drug master file and any other information necessary  for approval or supplemental approval of the Product in any country of the Territory.",
+                "changed_text": "During the Term, PPI shall at its own cost and expense cooperate fully and assist EKR with the preparation of any necessary  submissions to any of the Regulatory Authorities in the Territory for the development and approval or supplemental approval(s) of the  goods, including, but not limited to, by providing access to all PPI Know-How, the drug master file and any other information necessary  for approval or supplemental approval of the Product in any country of the Territory.",
+                "explanation": "Here 'Products' has been changed to 'goods' in the first instance, this creates an internal contradiction because the term 'Products' has been carefully and specifically defined in Section 1.1, and changing it to 'goods' introduces ambiguity. It is not clear if goods is referencing Product as defined or whether it encompasses something different. This is misaligned terminology and can create uncertainty in enforcement.",
+                "location": "Section 3.14"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Parties acknowledge that they have issued a joint press release in the form set out in Schedule VI of this Agreement.",
+                "changed_text": "The Parties acknowledge that they have issued a joint public announcement in the form set out in Schedule VI of this Agreement.",
+                "explanation": "Here 'press release' has been changed to 'public announcement' creates an internal contradiction. It becomes ambigious whether the 'press release' and 'public announcement' refer to the same document. This misalignment of terminology can create uncertainty in enforcement of obligations related to communications.",
+                "location": "Section 11.4"
+            }
+        ]
+    }
+]

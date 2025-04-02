@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Antares Pharma, Inc. - Manufacturing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Product(s)\" means the fully packaged Device for auto-injection delivery of the Drug incorporating a Prefilled Syringe and other applicable Components listed on Exhibit B hereto, as such exhibit may be amended from time to time by the mutual written agreement of the Parties;",
+                "changed_text": "\"Product(s)\" refers to the Prefilled Syringe only, containing the Drug for auto-injection.",
+                "explanation": "The original definition of 'Product(s)' includes the fully packaged Device with the Prefilled Syringe. The modified definition restricts 'Product(s)' to only the Prefilled Syringe. This creates an inconsistency as other sections of the contract will now be unclear regarding which definition of 'Product(s)' they are referring to.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Antares or its Subcontractor shall provide the Manufacturing Services in order to manufacture Devices, Products, sample Products and Trainers exclusively for AMAG for the Territory, all in accordance with the Specifications, Applicable Laws, Quality Agreement and this Agreement. For the avoidance of doubt, subject to, and without limiting or amending the exclusivity restrictions and confidentiality obligations set forth in Section 6.1 and ARTICLE 17 of the Development and License Agreement, respectively, Antares or its Subcontractor may manufacture the VIBEX® QS device or other devices (other than the Device) for itself or other Persons. Antares or its Subcontractor shall conduct all Manufacturing Services at the Manufacturing Site and may change the Manufacturing Site for the Products, sample Products and Trainers only with the prior written consent of AMAG, such consent not to be unreasonably withheld, conditioned or delayed (provided that, Antares or its Subcontractor shall provide a minimum of [***] prior written notice of such change of Manufacturing Site).",
+                "changed_text": "Antares or its designated contractor shall provide the Manufacturing Services in order to manufacture Devices, Products, sample Products and Trainers exclusively for AMAG for the Territory, all in accordance with the Specifications, Applicable Laws, Quality Agreement and this Agreement. For the avoidance of doubt, subject to, and without limiting or amending the exclusivity restrictions and confidentiality obligations set forth in Section 6.1 and ARTICLE 17 of the Development and License Agreement, respectively, Antares or its designated contractor may manufacture the VIBEX® QS device or other devices (other than the Device) for itself or other Persons. Antares or its designated contractor shall conduct all Manufacturing Services at any suitable site, regardless of prior agreements.",
+                "explanation": "The original text specifies 'Subcontractor' and that the manufacturing services have to be at a 'Manufacturing Site,' and change of the site requires prior written consent of AMAG. The modified text replaces 'Subcontractor' with 'designated contractor,' and specifies any suitable site regardless of prior agreements. This creates conflict and uncertainty because now it's unclear if consent for Manufacturing Site change is needed, which leads to conflicting obligations.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Products, sample Products and Trainers shall be transported in accordance with the Specifications.",
+                "changed_text": "Products, sample Products and Trainers may be transported using any commercially available means, and Antares is not responsible for damages.",
+                "explanation": "The original text mandates transportation according to 'Specifications.' The modified text allows any transportation method and absolves Antares of responsibility for damages. This leads to uncertainty and contradiction as the agreement does not define who is responsible for transportation according to original terms.",
+                "location": "Section 3.4(a)"
+            }
+        ]
+    }
+]

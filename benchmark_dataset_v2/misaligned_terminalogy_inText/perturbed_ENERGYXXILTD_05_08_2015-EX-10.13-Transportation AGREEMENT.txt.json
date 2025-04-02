@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ENERGYXXILTD_05_08_2015-EX-10.13-Transportation AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Shipper desiring to nominate Crude Petroleum for transportation shall make such nomination to Carrier in writing on or before the twenty-fifth day of the month preceding the month during which the transportation under the nomination is to begin; except that, if space is available for current movement, a Shipper may nominate Crude Petroleum for transportation after the twenty-fifth day of the month preceding the month during which the transportation under the nomination is to begin.",
+                "changed_text": "Shipper desiring to nominate Crude Petroleum for transportation shall make such nomination to Transporter in writing on or before the twenty-fifth day of the month preceding the month during which the transportation under the nomination is to begin; except that, if space is available for current movement, a Shipper may nominate Crude Petroleum for transportation after the twenty-fifth day of the month preceding the month during which the transportation under the nomination is to begin.",
+                "explanation": "The term 'Carrier' is used instead of 'Transporter.' Although the contract defines 'Transporter,' using 'Carrier' introduces ambiguity as to whether they are the same entity, potentially leading to disputes over nomination procedures.",
+                "location": "2.1(b)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Shipper shall release, indemnify, defend, and hold harmless Transporter and its affiliates, directors, officers, employees, agents, consultants, representatives, and invitees from and against all claims and losses arising out of or relating to (i) the operations of Shipper, (ii) any breach of this agreement by Shipper, except to the extent attributable to the negligence, willful misconduct or fault of Transporter, and (iii) operations or activities upstream or downstream of the Gathering System, except to the extent attributable to the negligence, willful misconduct or fault of Transporter.",
+                "changed_text": "Shipper shall release, indemnify, defend, and hold harmless Pipeline Operator and its affiliates, directors, officers, employees, agents, consultants, representatives, and invitees from and against all claims and losses arising out of or relating to (i) the operations of Shipper, (ii) any breach of this agreement by Shipper, except to the extent attributable to the negligence, willful misconduct or fault of Transporter, and (iii) operations or activities upstream or downstream of the Gathering System, except to the extent attributable to the negligence, willful misconduct or fault of Transporter.",
+                "explanation": "Replacing 'Transporter' with 'Pipeline Operator' in the indemnification clause creates confusion. The contract defines Transporter, so introducing Pipeline Operator raises uncertainty about who is actually being indemnified and under what circumstances.",
+                "location": "13.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Quantities shall be measured by meters and calculated in accordance with applicable A.P.I. Manual of Petroleum Measurement Standards. All shipments of required specifications will be received and delivered as net standard volume, as the total volume excluding water, sediment and other impurities, corrected by the appropriate volume correction factor for the observed temperature and A.P.I. gravity, relative density, or density to a standard temperature of 60 degrees Fahrenheit and also corrected by the applicable pressure correction factor and meter factor. Where measurement and testing of shipments to determine water, sediment, and other impurities content is not performed, the Transporter shall determine the water, sediment, and other impurities content of shipments based on the best available data.",
+                "changed_text": "Quantities shall be measured by meters and calculated in accordance with applicable A.P.I. Manual of Petroleum Measurement Standards. All shipments of required specifications will be received and delivered as net standard volume, as the total volume excluding water, sediment and other impurities, corrected by the appropriate volume correction factor for the observed temperature and A.P.I. gravity, relative density, or density to a standard temperature of 60 degrees Fahrenheit and also corrected by the applicable pressure correction factor and meter factor. Where measurement and testing of shipments to determine water, sediment, and other impurities content is not performed, the Gathering System Operator shall determine the water, sediment, and other impurities content of shipments based on the best available data.",
+                "explanation": "Using 'Gathering System Operator' instead of 'Transporter' when describing who determines the water content introduces ambiguity. It’s unclear if the 'Gathering System Operator' and 'Transporter' are the same, creating potential disputes about who is responsible for quality assessment.",
+                "location": "7.1"
+            }
+        ]
+    }
+]

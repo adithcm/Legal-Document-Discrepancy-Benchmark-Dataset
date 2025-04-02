@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise Agreement3.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information\") is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the time of the disclosure to Member, had become a part of the public domain.",
+                "changed_text": "Personnel may, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose relating to any business, information, knowledge, business secrets or best practices which may be communicated to Personnel or which Personnel may learn by virtue of Personnel's relationship with Franchisee. Only data specifically marked as proprietary is deemed confidential, unless previously known.",
+                "explanation": "The original text strictly prohibits the use of confidential information, whereas the modified version allows the use of information, knowledge, business secrets or best practices for any business purpose, unless specifically labeled as proprietary. This creates a contradiction regarding what information is truly protected, and replaces 'Member' with 'Personnel'.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "(b) Member covenants and agrees that during the term of the Franchise Agreement, except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons, partnership, corporation, or entity: (i) Own, manage, engage in, be employed by, advise, make loans to, consult for, rent or lease to, or have any other interest in business that (directly or indirectly) operates, or grants franchises or licenses to operate, a restaurant featuring pizza and related food specialties or that offers products or services substantially similar to those then offered by Pizza Fusions Restaurants (\"Competitive Business\");",
+                "changed_text": "(b) Staff agrees that during the term of the Franchise Agreement, except as otherwise directed by Franchisee, Staff may, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons, partnership, corporation, or entity: (i) Own, manage, engage in, be employed by, advise, make loans to, consult for, rent or lease to, or have any other interest in business that (directly or indirectly) operates, or grants franchises or licenses to operate, a restaurant featuring pizza and related food specialties or that offers products or services substantially similar to those then offered by Pizza Fusions Restaurants (\"Similar Business\");",
+                "explanation": "The original text enforces a strict non-compete clause, whereas the modified version allows staff to engage in similar businesses if 'directed by Franchisee.' This completely reverses the intent of the original clause and create conflict between 'Competitive Business' and 'Similar Business'. Also, it introduces 'Staff' instead of 'Member' which creates more confusion.",
+                "location": "Section 2(b)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "Personnel acknowledges that a failure to substantially comply with the spirit of this Understanding may result in Franchisee seeking financial recompense, capped at $1000. The enforcement of this Understanding will be subject to mediation prior to any legal action.",
+                "explanation": "The original text describes severe penalties for non-compliance, including court costs and attorney's fees, while the modified version limits the damages to a maximum of $1000 and mandates mediation. This significantly reduces the franchisor's ability to enforce the agreement effectively by adding 'Understanding', adding ambiguity by stating 'spirit of this', replacing the term 'Agreement' with 'Understanding' and replacing 'Member' with 'Personnel'.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Sonos, Inc. - Manufacturing Agreement .txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.12. \"Delivery Date\" means the date that a Product Build (or portion thereof) is delivered by IAC to the Destination Port.",
+                "changed_text": "1.12. \"Delivery Date\" means the date that a Product Build (or portion thereof) is presented for acceptance by a Designated Carrier at the IAC Manufacturing Facility.",
+                "explanation": "The original definition states that the Delivery Date is when the product reaches the Destination Port, whereas the changed definition states that it is when it's presented to a Designated Carrier at the IAC facility. This could lead to disputes about when delivery is officially considered to have occurred, which matters for payment and liability.",
+                "location": "Section 1.12"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "6.5 Shipping Term; Title and Risk of Loss. Unless otherwise specified to the contrary on a Purchase Order (and subsequently acknowledged in writing by IAC), shipping terms are [*] and include all elements of the INCOTERMS 2010 definition with the following modifications:\n\n[*]",
+                "changed_text": "6.5 Shipping Term; Title and Risk of Loss. Unless otherwise specified to the contrary on a Purchase Order (and subsequently acknowledged in writing by IAC), shipping terms are [*], and include all elements of the INCOTERMS 2010 definition, subject to the specifics outlined in the table presented below.\n\n[*]\n\nUpon completion of its responsibilities above and delivery to the Designated Carrier, title will transfer to Sonos and IAC may submit an invoice for payment in accordance with Section 7.5.",
+                "explanation": "The original section sets the shipping terms as [*] according to INCOTERMS 2010, which determines when title and risk transfer. The modified section introduces additional specifics in the table and explicitly states that title transfers upon delivery to the Designated Carrier, regardless of what the [*] INCOTERM actually implies. This creates a conflict and ambiguity about the exact moment of title transfer and risk of loss.",
+                "location": "Section 6.5"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "7.5. Product Payment Terms. Payment terms are [*] from the date of acceptance by Sonos of an applicable invoice from IAC in accordance with Exhibit H and/or other applicable SOW, which acceptance may not be unreasonably withheld. IAC may not submit an invoice for a Product prior to that Product's transfer of title to Sonos.",
+                "changed_text": "7.5. Product Payment Terms. Payment terms are [*] from the date of acceptance by Sonos of an applicable invoice from IAC, which acceptance may not be unreasonably withheld. IAC may not submit an invoice for a Product prior to that Product's transfer of title to Sonos. All payments shall be made in U.S. currency, unless otherwise agreed in writing by the parties, by check or wire transfer (as may be agreed upon by the parties) to an account designated by IAC. Invoices for shall be remitted to: Sonos, Inc., Attn: Accounts Payable, 614 Chapala St., Santa Barbara, CA, 93101, USA, and shall also sent by electronic mail on the date of the invoice to: [*]. Any alteration to the payment terms must be mutually agreed in writing by the Parties.",
+                "explanation": "This doesn't create a contradiction within the original section itself, the contradiction stems from the change made in Section 6.5 defining when transfer of Title occurs. The term that has an internal contradiction is 'acceptance by Sonos of an applicable invoice'. In addition, based on the new title transfer condition that occurs upon delivery to the designated carrier, it would mean in practicality that IAC can immediately invoice and get paid *prior* the merchandise reaches destination, while the previous arrangement allows for an acceptance period which can be abused, and creates uncertainty when IAC would get paid.",
+                "location": "Section 7.5"
+            }
+        ]
+    }
+]

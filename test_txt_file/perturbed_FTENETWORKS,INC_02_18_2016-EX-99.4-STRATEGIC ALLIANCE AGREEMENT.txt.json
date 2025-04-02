@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FTENETWORKS,INC_02_18_2016-EX-99.4-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "FTE Networks, Inc. with its principal place of business at 999 Vanderbilt Beach Road, Suite 601, Naples, FL 34108 (hereinafter referred to as \"FTE\" or \"Subcontractor\") sets forth the terms and conditions by which FTE will supply labor, materials, equipment, supervision and/or services for FTE's scope of work. FTE's work shall be identified in a purchase order, which if issued, will be issued subject to the terms of this Agreement (\"Purchase Order\").",
+                "changed_text": "FTE Networks, Inc. with its principal place of business at 999 Vanderbilt Beach Road, Suite 601, Naples, FL 34108 (hereinafter referred to as \"FTE\" or \"Service Provider\") sets forth the terms and conditions by which FTE will supply labor, materials, equipment, supervision and/or services for FTE's scope of work. FTE's work shall be identified in a service request, which if issued, will be issued subject to the terms of this Agreement (\"Service Request\").",
+                "explanation": "The original text uses 'Subcontractor' and 'Purchase Order', while the modified text uses 'Service Provider' and 'Service Request' respectively, creating confusion as to whether these terms are interchangeable and whether the obligations differ depending on the term used. This affects the entire agreement, especially Section 3 regarding Purchase Order disbursement.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Unless otherwise provided in the Purchase Order, the Contractor shall provide and pay for materials, and other facilities and services necessary for proper execution and completion of the Work, whether temporary or permanent and whether or not incorporated or to be incorporated in the Work.",
+                "changed_text": "Unless otherwise provided in the Service Request, the Subcontractor shall provide and pay for materials, and other facilities and services necessary for proper execution and completion of the Project, whether temporary or permanent and whether or not incorporated or to be incorporated in the Project.",
+                "explanation": "The original text uses 'Purchase Order' and 'Work' while the changed text uses 'Service Request' and 'Project', leaving ambiguity on whether Subcontractor is the same as the Contractor and if Project has the same definition as Work. The original definitions were clear, but now the text is confusing. This introduces uncertainty as to which entity is responsible for providing materials and what constitutes the 'Work'.",
+                "location": "Section 2.C"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Subcontractor shall be permitted to subcontract any part of the Work without the prior written notification and consent of EDGE. However, Subcontractor will follow subcontracting requirements and processes of EDGE and provide joint access to subcontractor database and information concerning quality control. All Work performed by a Lower-tier Subcontractor shall be deemed Work performed by Subcontractor. Subcontractor agrees not to hire any Lower-tier Subcontractor to whose employment EDGE reasonably objects.",
+                "changed_text": "Service Provider shall be permitted to subcontract any part of the Services without the prior written notification and consent of EDGE. However, Service Provider will follow subcontracting requirements and processes of EDGE and provide joint access to subcontractor database and information concerning quality control. All Services performed by a Lower-tier Subcontractor shall be deemed Work performed by Service Provider. Service Provider agrees not to hire any Lower-tier Subcontractor to whose employment EDGE reasonably objects.",
+                "explanation": "The terms 'Subcontractor' and 'Service Provider' are used interchangeably, with both 'Work' and 'Services' being used, it is unclear if the parties have the same responsibilities under the agreement. This makes it unclear who is responsible for the Services performed by Lower-tier Subcontractors.",
+                "location": "Section 6.A"
+            }
+        ]
+    }
+]
