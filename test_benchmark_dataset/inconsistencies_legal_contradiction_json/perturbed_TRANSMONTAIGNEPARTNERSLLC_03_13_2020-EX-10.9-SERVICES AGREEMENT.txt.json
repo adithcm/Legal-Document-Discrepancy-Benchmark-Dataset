@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TRANSMONTAIGNEPARTNERSLLC_03_13_2020-EX-10.9-SERVICES AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such reimbursements shall be made by the Operating Company to EmployeeCo in advance or immediately upon such costs being incurred, or otherwise in accordance with historical practice, unless otherwise agreed between the Operating Company and EmployeeCo.",
+                "changed_text": "Such reimbursements shall be made by the Operating Company to EmployeeCo within 90 days after EmployeeCo submits an invoice, unless otherwise agreed between the Operating Company and EmployeeCo.",
+                "explanation": "This change introduces a delay in reimbursement that could violate Colorado Wage Payment Act CRS 8-4-101, et seq, particularly regarding prompt payment of wages and benefits. By setting a 90-day timeframe, it could cause issues with timely payment of employee salaries and benefits, which are required to be paid at least once a month in Colorado. This delay could cause the operating company to be out of compliance with regulatory standards.",
+                "contradicted_law": "Colorado Wage Payment Act CRS 8-4-101, et seq",
+                "location": "1.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be terminated by (a) the written agreement of the Parties or (b) by either Party upon 5 days written notice to the other Party. All payment obligations hereunder shall survive the termination of this Agreement in accordance with their respective terms.",
+                "changed_text": "This Agreement may be terminated by (a) the written agreement of the Parties or (b) by either Party upon 24 hours written notice to the other Party. All payment obligations hereunder shall survive the termination of this Agreement in accordance with their respective terms.",
+                "explanation": "Reducing the notice period for termination to 24 hours creates potential conflicts with employment laws in Colorado, particularly regarding adequate notice for termination of employees and potential severance obligations. 5 days is not very much but is better than a single day. This could also conflict with reasonable notice expectations under contract law, potentially leading to disputes.",
+                "contradicted_law": "Colorado employment law regarding termination notice and potential breach of contract principles.",
+                "location": "2.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No Party shall have the right to assign its rights or obligations under this Agreement without the consent of the other Parties hereto; provided, however, that either party hereto may make a collateral assignment of this Agreement solely to secure working capital financing for such party.",
+                "changed_text": "No Party shall have the right to assign its rights or obligations under this Agreement without the consent of the other Parties hereto; provided, however, that either party hereto may make a collateral assignment of this Agreement to any entity regardless of its purpose.",
+                "explanation": "Removing the restriction that collateral assignment can *only* be for 'working capital financing' and allowing it 'to any entity regardless of its purpose' broadens the scope of assignment in a way that may contradict general contract law principles. While the original clause provides some protection by limiting the scope of assignment, the modified clause removes these protections.  This could allow a party to assign their obligations to an entity incapable of fulfilling them, potentially violating the implied duty of good faith and fair dealing.",
+                "contradicted_law": "General contract law principles regarding good faith and fair dealing.",
+                "location": "2.5"
+            }
+        ]
+    }
+]

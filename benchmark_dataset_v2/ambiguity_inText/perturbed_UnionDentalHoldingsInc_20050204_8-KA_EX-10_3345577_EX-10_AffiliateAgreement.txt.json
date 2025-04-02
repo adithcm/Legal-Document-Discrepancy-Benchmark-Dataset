@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "A  Confidential  Information@  shall  mean  any  and  all information  that a Party may reasonably  expect to remain  confidential and not shared with the general public at any time or that information that is protected by law.",
+                "changed_text": "Confidential Information shall mean any and all information that a Party designates as confidential in writing at the time of disclosure. Information not explicitly marked as confidential is not subject to the protections outlined in this agreement.",
+                "explanation": "The original definition of 'Confidential Information' is broad and based on reasonable expectation and legal protection. The modified definition narrows it to information explicitly marked as confidential, creating a contradiction. If some information is reasonably expected to be confidential but not explicitly marked, it is unclear if it falls under the agreement's protections.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Return to a Party or destroy, as requested by a Party, within fifteen (15) days of the termination of this Agreement, any Confidential Information provided to such Party and in its possession and retain no copies or back-up tapes;",
+                "changed_text": "Upon termination of this Agreement, each Party shall make a good faith effort to return or destroy Confidential Information as requested by the other Party, within a reasonable timeframe to be determined at the time of termination. The retention of archival copies for legal compliance purposes is permitted.",
+                "explanation": "The original text mandates the return or destruction of confidential information within 15 days of termination. The modified text introduces flexibility and 'good faith effort,' potentially allowing for delayed return/destruction. Further, it contradicts the explicit ban on copies/backup tapes by allowing for 'archival copies,' creating uncertainty as to what must be returned/destroyed. Legal disputes may arise regarding what constitutes a 'reasonable timeframe' and 'legal compliance'.",
+                "location": "Section 3g"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "UDC may immediately terminate this Agreement without notice and any related agreement if it determines that the Business Affiliate has breached a material provision of this Agreement or if the activities contemplated under this Agreement will result in a violation of any federal or state law or if such Services would, in the opinion of UDC and its counsel.",
+                "changed_text": "UDC may terminate this Agreement with thirty (30) days written notice, regardless of whether the Business Affiliate has breached a material provision. The determination of breach, or potential violation of law, will be subject to binding arbitration before termination can occur.",
+                "explanation": "The original text allows UDC to immediately terminate the agreement for material breach or potential legal violations. The modified text introduces a mandatory 30-day notice period and binding arbitration, regardless of the severity of the breach or the risk of legal violations. This directly contradicts the original's provision for immediate termination, making enforcement unpredictable.",
+                "location": "Section 5b"
+            }
+        ]
+    }
+]

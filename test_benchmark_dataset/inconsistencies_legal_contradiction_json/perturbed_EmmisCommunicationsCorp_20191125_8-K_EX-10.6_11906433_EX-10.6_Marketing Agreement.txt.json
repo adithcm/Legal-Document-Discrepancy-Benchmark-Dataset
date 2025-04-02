@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11.3 Cure Period. Notwithstanding the foregoing, any Event of Default will not be deemed to have occurred until fifteen (15) days after the non-defaulting party has provided the defaulting party with written notice specifying the Event of Default and such Event of Default remains uncured.",
+                "changed_text": "11.3 Cure Period. Notwithstanding the foregoing, any Event of Default will not be deemed to have occurred until five (5) days after the non-defaulting party has provided the defaulting party with written notice specifying the Event of Default and such Event of Default remains uncured.",
+                "explanation": "Reducing the cure period to five days may be considered unreasonable in some jurisdictions, potentially conflicting with principles of fairness and good faith implied in contract law. Courts may find a 5-day cure period insufficient, especially for complex defaults, making it an unenforceable provision.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing",
+                "location": "Section 11.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "18. Notices. Any notice pursuant to this Agreement shall be in writing and shall be deemed delivered on the date of personal delivery or confirmed delivery by a nationally-recognized overnight courier service, or on the third day after prepaid mailing by certified U.S. mail, return receipt requested, and shall be addressed as follows (or to such other address as any party may request by written notice):",
+                "changed_text": "18. Notices. Any notice pursuant to this Agreement shall be in writing and shall be deemed delivered only upon actual receipt, regardless of the method of delivery. Email notice is sufficient for all purposes under this agreement.",
+                "explanation": "Requiring actual receipt regardless of delivery method creates uncertainty and can be problematic if a party refuses to acknowledge receipt, especially as crucial deadlines depend on notice. Furthermore, specifying that email notice is sufficient may conflict with statutes requiring written notice for certain legal matters and may not hold up in court. The actual receipt of the email is subject to interpretation and thus is not a good approach for official legal notice.",
+                "contradicted_law": "Statute of Frauds, Contract Law Principles regarding Notice",
+                "location": "Section 18"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "15. Assignability; No Third-Party Rights. Programmer may not assign this Agreement without the prior written consent of Licensee, which shall not be unreasonably withheld, conditioned, or delayed. No transfer or assignment shall relieve Programmer of any obligation or liability under this Agreement.",
+                "changed_text": "15. Assignability; No Third-Party Rights. Programmer may assign this Agreement without the prior written consent of Licensee. No transfer or assignment shall relieve Programmer of any obligation or liability under this Agreement.",
+                "explanation": "Removing the requirement for Licensee's consent for assignment could be problematic if the assignee is financially unstable or lacks the resources to perform the obligations, potentially harming Licensee. Consent requirements are there to protect the original party. It can potentially clash with general contract law principles, particularly related to preserving reasonable expectations and ensuring the enforceability of agreements.",
+                "contradicted_law": "General Contract Law Principles regarding Assignability and Reasonable Expectations",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

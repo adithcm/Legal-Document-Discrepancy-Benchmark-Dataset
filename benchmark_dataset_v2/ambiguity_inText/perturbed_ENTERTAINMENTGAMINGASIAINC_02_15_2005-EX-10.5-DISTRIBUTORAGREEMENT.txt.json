@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ENTERTAINMENTGAMINGASIAINC_02_15_2005-EX-10.5-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "In consideration for the purchase of the Products by Distributor from Vendor, Vendor grants Distributor the exclusive right to market, sell, rent, lease, service and maintain the Products and all improvements thereon within the Territory (as defined herein) according to the terms and conditions as set forth herein. As part of the exclusive distribution right granted in this Section 2, Vendor hereby grants Distributor the non- exclusive, non-transferable right to use and display Vendor's trademarks, logos, Product photographs and images, Product advertising and promotional copy, including but not limited to the materials contained in Vendor's website, in connection with the promotion, advertising and distribution of the Products.",
+                "changed_text": "In consideration for the *potential* purchase of the Products by Distributor from Vendor, Vendor grants Distributor the exclusive right to market, sell, rent, lease, service and maintain the Products and all improvements thereon within the Territory (as defined herein) according to the terms and conditions as set forth herein. As part of the exclusive distribution right granted in this Section 2, Vendor hereby grants Distributor the non- exclusive, non-transferable right to use and display Vendor's trademarks, logos, Product photographs and images, Product advertising and promotional copy, including but not limited to the materials contained in Vendor's website, in connection with the promotion, advertising and distribution of the Products.",
+                "explanation": "Changing 'purchase' to 'potential purchase' introduces ambiguity. The original text clearly states that the exclusive rights are granted based on the *purchase* of products. The modified version makes the basis for granting the rights uncertain and contingent upon a potential future purchase. This contradicts the intent of creating an exclusive agreement, as it suggests that these rights may be in effect even without an actual purchase occurring, leading to uncertainty about the conditions under which exclusive distribution rights are validly conferred.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Distributor may return to Vendor for credit against future purchases any Products for which a new version or upgrade has been produced and offered for sale; provided, however, the new version or upgrade must be of a material nature whereby the existing Products held by Distributor are considered obsolete. All Products must be returned undamaged, and all shipping charges shall be paid by Distributor. This clause does not apply to any Products that have been in Distributor's inventory for more that one hundred and eighty (180) calendar days.",
+                "changed_text": "Distributor may return to Vendor for credit against future purchases any Products for which a new version or upgrade has been produced and offered for sale; provided, however, the new version or upgrade *need not* be of a material nature *unless Vendor determines it to be so*, whereby the existing Products held by Distributor are considered obsolete. All Products must be returned undamaged, and all shipping charges shall be paid by Distributor. This clause does not apply to any Products that have been in Distributor's inventory for more that one hundred and eighty (180) calendar days.",
+                "explanation": "The phrase \"need not be of a material nature unless Vendor determines it to be so\" directly contradicts the original condition. It makes the Vendor the sole arbiter of what constitutes a returnable product based on upgrade materiality, whereas the original clause implies a more objective standard (existing products considered obsolete). This creates a contradiction as Distributor could deem a product obsolete, but Vendor has ultimate decision.",
+                "location": "Section 8.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Vendor warrants to Distributor that the Products shall perform without manufacturing failure and are fit for purpose. Distributor, in cooperation with Vendor will remedy any defect in the Product in accordance with Section 8.",
+                "changed_text": "Vendor warrants to Distributor that the Products shall perform without manufacturing failure and are fit for purpose *unless used in a manner not explicitly approved by Vendor*. Distributor, *at its sole expense*, will remedy any defect in the Product in accordance with Section 8.",
+                "explanation": "The addition of 'unless used in a manner not explicitly approved by Vendor' significantly narrows the scope of the warranty, and introduces ambiguity. The phrase 'at its sole expense' creates a contradiction, transferring remedy expenses to the distributor, shifting the warranty's financial burden and diluting the original intent of Vendor's warranty. This makes Vendor responsible for product performance and fitness, versus solely distributor with no shared risk or remedy cost.",
+                "location": "Section 10.3"
+            }
+        ]
+    }
+]

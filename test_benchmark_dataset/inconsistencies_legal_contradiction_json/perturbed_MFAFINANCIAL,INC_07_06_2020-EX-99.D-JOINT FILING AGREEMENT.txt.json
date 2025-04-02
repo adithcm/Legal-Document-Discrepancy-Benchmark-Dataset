@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MFAFINANCIAL,INC_07_06_2020-EX-99.D-JOINT FILING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing.",
+                "changed_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby agree that joint filing of the Statement on Schedule 13D and any further amendments is optional and not required.",
+                "explanation": "This change introduces a contradiction with SEC regulations. Rule 13d-1(k) mandates joint filing agreements when multiple parties act together concerning securities of an issuer. Making joint filing optional conflicts directly with this mandatory requirement.",
+                "contradicted_law": "Rule 13d-1(k) under the Securities Exchange Act of 1934",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
+                "changed_text": "This Agreement must be executed as a single, original document, with photocopies serving as reference material. Electronic signatures are strictly prohibited.",
+                "explanation": "This change contradicts the Electronic Signatures in Global and National Commerce Act (E-SIGN Act) and many state laws (like the Uniform Electronic Transactions Act - UETA), which grant legal validity to electronic signatures. Requiring a single original and prohibiting electronic signatures restricts accepted legal practices and technologies.",
+                "contradicted_law": "Electronic Signatures in Global and National Commerce Act (E-SIGN Act) and Uniform Electronic Transactions Act (UETA)",
+                "location": "Paragraph 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement as of July 6, 2020.",
+                "changed_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement, but this Agreement shall not be effective until ratified by a unanimous vote of the shareholders, such vote to occur no later than December 31, 2025.",
+                "explanation": "This clause creates uncertainty regarding the effective date of the agreement and imposes an unreasonable delay. While agreements can be subject to conditions, delaying effectiveness for over five years introduces ambiguity about the parties' obligations and contradicts standard contract law principles, which generally require reasonable and definite terms. Also, it can violate securities laws if the parties act as a group before the agreement is effective.",
+                "contradicted_law": "General principles of contract law regarding definiteness of terms and potentially SEC regulations if actions are taken before formal effectiveness.",
+                "location": "Paragraph 3"
+            }
+        ]
+    }
+]

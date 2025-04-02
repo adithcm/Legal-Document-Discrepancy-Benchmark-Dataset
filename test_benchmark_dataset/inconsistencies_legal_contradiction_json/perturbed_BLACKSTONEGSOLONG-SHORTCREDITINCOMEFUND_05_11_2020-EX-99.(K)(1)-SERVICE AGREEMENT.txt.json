@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLACKSTONEGSOLONG-SHORTCREDITINCOMEFUND_05_11_2020-EX-99.(K)(1)-SERVICE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All amounts owed to Agent hereunder are due within thirty (30) days of the invoice date. Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date.",
+                "changed_text": "All amounts owed to Agent hereunder are due within sixty (60) days of the invoice date. Delinquent payments are subject to a late payment charge of two percent (2%) per month commencing thirty (30) days from the invoice date.",
+                "explanation": "This modification introduces a conflict by shortening the grace period for late payments to 30 days, while simultaneously increasing the late payment charge to 2%. This could potentially violate state usury laws or regulations concerning fair debt collection practices, depending on the jurisdiction and the specific regulations governing late payment fees.",
+                "contradicted_law": "Potential violation of state usury laws or fair debt collection practices.",
+                "location": "Section 16(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client shall, at least one business day prior to mail date, provide immediately available funds sufficient to cover all postage due on such mailing.",
+                "changed_text": "Client shall, at least one hour prior to mail date, provide immediately available funds sufficient to cover all postage due on such mailing.",
+                "explanation": "This change modifies the time frame that the client has to send postage payments, which is a business day to one hour. One hour before mail date is insufficient time for the client to send the money, creating non-compliance issues for the client.",
+                "contradicted_law": "Breach of contract.",
+                "location": "Section 16(d)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date. Client agrees to reimburse Agent for any attorney's fees and any other costs associated with collecting delinquent payments.",
+                "changed_text": "Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date. Client agrees to reimburse Agent for any attorney's fees and any other costs associated with collecting delinquent payments, including a $5,000 non-refundable charge.",
+                "explanation": "This change introduces a conflict by adding a non-refundable fee. This could potentially violate state laws or regulations concerning fair debt collection practices, depending on the jurisdiction and the specific regulations governing debt collection fees.",
+                "contradicted_law": "Potential violation of state laws or fair debt collection practices.",
+                "location": "Section 16(b)"
+            }
+        ]
+    }
+]

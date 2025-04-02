@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "XLITECHNOLOGIES,INC_12_02_2015-EX-10.02-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "9. INDEMNITY: Without limiting any other agreement contained in this Agreement, CLIENT agrees to defend, indemnify and hold harmless BOSCH and its parents, subsidiary and affiliated entities, successors, assigns and licensees, and their respective officers, agents, directors, owners, shareholders and employees, harmless from any and all claims, actions or proceedings of any kind and from any and all damages, liabilities, costs and expenses (including reasonable legal fees) relating to or arising out of any claim by a third Party.",
+                "changed_text": "9. INDEMNITY: Without limiting any other agreement contained in this Agreement, CLIENT agrees to defend, indemnify and hold harmless BOSCH and its parents, subsidiary and affiliated entities, successors, assigns and licensees, and their respective officers, agents, directors, owners, shareholders and employees, harmless from any and all claims, actions or proceedings of any kind and from any and all damages, liabilities, costs and expenses (including reasonable legal fees) relating to or arising out of any claim by a third Party. CLIENT must notify BOSCH of any potential claim within 24 hours of becoming aware of it; failure to do so voids this indemnity.",
+                "explanation": "This change introduces a clause requiring the CLIENT to notify BOSCH of any potential claim within 24 hours, or the indemnity is voided. This is an unreasonably short timeframe and may violate state laws regarding reasonable notice periods for legal claims. Many states require a reasonable amount of time for notification to prepare a defense, and 24 hours is almost always insufficient. Furthermore, some jurisdictions require a specific cure period before indemnity obligations are triggered, which this clause eliminates.",
+                "contradicted_law": "Potentially contradicts state laws regarding reasonable notice periods for legal claims and due process.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "10. CONFIDENTIALITY: CLIENT acknowledges that irreparable injury and damage will result from the disclosure to any third party of Proprietary Information associated with the Product and agrees (1) not to disclose any Proprietary Information to any third party, and (2) not to allow any third party to possess, handle, disassemble, touch, photograph, film or otherwise record images of the Product while the Product is upon CLIENT'S premises or in CLIENT'S possession, custody or control if the product is or has not been purchased with a purchase order and payment fulfilled.",
+                "changed_text": "10. CONFIDENTIALITY: CLIENT acknowledges that irreparable injury and damage will result from the disclosure to any third party of Proprietary Information associated with the Product and agrees (1) not to disclose any Proprietary Information to any third party, and (2) not to allow any third party to possess, handle, disassemble, touch, photograph, film or otherwise record images of the Product while the Product is upon CLIENT'S premises or in CLIENT'S possession, custody or control if the product is or has not been purchased with a purchase order and payment fulfilled. This confidentiality clause is valid for 90 days after the termination of this agreement.",
+                "explanation": "The added sentence limits the confidentiality clause's validity to 90 days after the agreement's termination. This contradicts common business practices and possibly trade secret laws, which often require indefinite protection for trade secrets or at least several years. This short duration may make it impossible to enforce the confidentiality provisions effectively and allows for potential misuse of Proprietary Information by third parties after the 90-day period.",
+                "contradicted_law": "Potentially contradicts state trade secret laws that require reasonable measures to protect trade secrets and are not limited to 90 days.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All manufacturing and delivery will be the responsibility of BOSCH. CLIENT is responsible for shipping and delivery cost of product to end user.",
+                "changed_text": "All manufacturing and delivery will be the responsibility of BOSCH. CLIENT is responsible for shipping and delivery cost of product to end user. BOSCH is not liable for any defects in the product after delivery to the client.",
+                "explanation": "The added sentence attempts to absolve BOSCH of any liability for product defects after delivery to the client. This conflicts with implied warranties of merchantability and fitness for a particular purpose, which are often automatically included in sales contracts under the Uniform Commercial Code (UCC). Many states do not allow such waivers of implied warranties without specific and conspicuous language, which is not present here. The UCC protects the end user from product defects.",
+                "contradicted_law": "Conflicts with the implied warranty of merchantability and fitness for a particular purpose under the Uniform Commercial Code (UCC).",
+                "location": "Section 8(iv)"
+            }
+        ]
+    }
+]

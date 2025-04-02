@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "PlanetCAD will maintain and continuously update Dassault Systemes' Customer Database(s), which shall include without limitation, databases of Dassault Systemes Customers, of demands from and results of Web services supplied to Dassault Systemes Customers and associated Net Revenue and of data collected via the Customer Relations Management (\"CRM\") environment. The Dassault Systemes Customer Databases must be held separately from any other databases held or maintained by PlanetCAD.",
+                "changed_text": "PlanetCAD will endeavor to maintain and periodically update Dassault Systemes' Customer Database(s), which may include databases of Dassault Systemes Customers, of demands from and results of Web services supplied to Dassault Systemes Customers and associated Net Revenue and of data collected via the Customer Relations Management (\"CRM\") environment. The Dassault Systemes Customer Databases should, if feasible, be held separately from any other databases held or maintained by PlanetCAD.",
+                "explanation": "This change weakens the obligation to maintain and update customer databases by using terms like 'endeavor to maintain,' 'periodically update,' 'may include', and 'should, if feasible'. This creates ambiguity around the level of effort and completeness required, potentially contradicting the **CCPA (California Consumer Privacy Act)** and **GDPR (General Data Protection Regulation)** which require clear and consistent data management practices.",
+                "contradicted_law": "CCPA (California Consumer Privacy Act) and GDPR (General Data Protection Regulation)",
+                "location": "SECTION 6.1"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "During the Term of this Agreement, and for a period of one year thereafter, except as expressly provided in this Agreement, PlanetCAD shall not market any services to Customers without the prior written approval of Dassault Systemes.",
+                "changed_text": "During the Term of this Agreement, and for a period of one year thereafter, PlanetCAD should generally avoid marketing any services to Customers without considering the potential need for approval from Dassault Systemes.",
+                "explanation": "This change replaces 'shall not market' with 'should generally avoid marketing,' and 'prior written approval' with 'considering the potential need for approval'. This creates ambiguity as it is unclear when approval is absolutely necessary, undermining the original intent of the clause. This may be problematic under **antitrust laws**, as the restriction is so vague it is impossible to determine if it restricts free market practices. This can also introduce unfair competition.",
+                "contradicted_law": "Sherman Antitrust Act",
+                "location": "SECTION 7.1 (a)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Billing Party may deduct and withhold from any payments due to the other party under this Agreement any and all taxes and other amounts as required under the laws of any jurisdiction that has the authority to tax the Billing Party, the other party or the transactions contemplated by this Agreement.",
+                "changed_text": "The Billing Party may, at its discretion, consider deducting and withholding from any payments due to the other party under this Agreement taxes and other amounts.",
+                "explanation": "This change introduces ambiguity and discretion where there was a clear legal obligation previously. The original text stated that the billing party *may* deduct *as required under the laws*. Changing it to '*may consider deducting*' changes the meaning entirely. This weakens the clear obligation to withhold taxes as required by law. This is ambiguously interpreted. It could be interpreted that the Billing Party will not pay, making the party in violation of the **IRS's (Internal Revenue Service)** duty and other requirements for tax payments.",
+                "contradicted_law": "IRS regulations",
+                "location": "SECTION 5.3"
+            }
+        ]
+    }
+]

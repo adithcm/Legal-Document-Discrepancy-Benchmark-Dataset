@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INTERSECTENT,INC_05_11_2020-EX-10.1-SUPPLY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "INTERSECT shall pay the price to HOVIONE for API within thirty (30) calendar days of the date of invoice of such API.",
+                "changed_text": "INTERSECT shall pay the price to HOVIONE for API within sixty (60) calendar days of the date of invoice of such API.",
+                "explanation": "The change extends the payment term to 60 days. While not inherently illegal, excessively long payment terms could be construed as an unfair trade practice or a violation of prompt payment laws in certain jurisdictions, especially if INTERSECT is a larger entity and HOVIONE is a smaller supplier dependent on timely payments. California law, for instance, has provisions to protect small businesses from delayed payments, making this a potential legal issue if HOVIONE is a small business based in California.",
+                "contradicted_law": "Potential violation of California's prompt payment laws if HOVIONE is a small business based in CA.",
+                "location": "Section 4.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within thirty (30) calendar days of the arrival of each lot of API at the manufacturing facility designated by INTERSECT, INTERSECT shall inspect and test each lot of API at its own cost and expense. If, upon inspecting and testing the API, INTERSECT determines that a lot of API does not conform to the Product Specifications, then INTERSECT shall, within such thirty (30) day period, give HOVIONE written notice of such non-conformity (setting forth the details of such non-conformity):Unless HOVIONE objects, within 20 working days from the notice by INTERSECT, to the non-conformity INTERSECT will return the non-conforming API to HOVIONE.",
+                "changed_text": "Within fifteen (15) calendar days of the arrival of each lot of API at the manufacturing facility designated by INTERSECT, INTERSECT shall inspect and test each lot of API at its own cost and expense. If, upon inspecting and testing the API, INTERSECT determines that a lot of API does not conform to the Product Specifications, then INTERSECT shall, within such fifteen (15) day period, give HOVIONE written notice of such non-conformity (setting forth the details of such non-conformity):Unless HOVIONE objects, within 5 working days from the notice by INTERSECT, to the non-conformity INTERSECT will return the non-conforming API to HOVIONE.",
+                "explanation": "Reducing the inspection and notification period from 30 days to 15 days, and the objection period from 20 days to 5 days, creates a potential legal issue. If the API requires extensive testing, a shorter period could be deemed unreasonable, especially if INTERSECT needs to use external testing labs. This could violate the implied covenant of good faith and fair dealing, requiring parties to act reasonably in performing their contractual obligations.",
+                "contradicted_law": "Violation of the implied covenant of good faith and fair dealing.",
+                "location": "Section 5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The confidentiality of disclosed Confidential Information and the obligation of confidentiality hereunder shall survive any expiration or termination of this Agreement for a period of ten years.",
+                "changed_text": "The confidentiality of disclosed Confidential Information and the obligation of confidentiality hereunder shall survive any expiration or termination of this Agreement for a period of one year.",
+                "explanation": "Reducing the confidentiality period to one year may be problematic depending on the nature of the confidential information. Trade secrets, for instance, require protection for as long as they remain secret and provide a competitive advantage. A one-year term might be deemed unreasonably short and insufficient to protect trade secrets under state and federal law, potentially violating the Defend Trade Secrets Act (DTSA) or similar state laws.",
+                "contradicted_law": "Potential violation of the Defend Trade Secrets Act (DTSA) or similar state trade secret laws.",
+                "location": "Section 7.1"
+            }
+        ]
+    }
+]

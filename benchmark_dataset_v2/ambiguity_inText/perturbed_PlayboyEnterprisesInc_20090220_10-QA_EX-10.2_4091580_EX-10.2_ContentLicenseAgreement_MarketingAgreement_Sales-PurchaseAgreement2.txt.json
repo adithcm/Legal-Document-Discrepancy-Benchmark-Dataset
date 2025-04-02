@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PlayboyEnterprisesInc_20090220_10-QA_EX-10.2_4091580_EX-10.2_ContentLicenseAgreement_MarketingAgreement_Sales-PurchaseAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1. By execution of this Supplier/Subcontractor Contract (\"Contract\"), _______________ (\"Supplier\")  agrees and  acknowledges that: (i) all images and/or trademarks, including, but not limited to PLAYBOY, (the \"Playboy Properties\")  applied at the request of _______________ (\"Purchaser\")  to merchandise covered by this Contract are owned by  Playboy Enterprises International, Inc. (\"Playboy\"), and when used upon merchandise means that such merchandise is  sponsored, approved, recommended or sold by Playboy or its licensees; (ii) Supplier will not sell, ship or otherwise  dispose of any such merchandise except upon the order of Purchaser or Playboy; (iii) Supplier will never make, cause others to make or assist others in making, any claim whatsoever to any or all of the Playboy Properties or any trademark,  copyright, designation, name, phrase, design or symbol similar thereto in connection with the manufacture, advertising,  promotion, sale or distribution of merchandise; and (iv) Supplier will defend, indemnify and hold harmless Purchaser and Playboy and the distributors and dealers and the officers and employees of each of the foregoing against all liability  whatsoever which may be incurred by them or any of them as a result of any alleged defects in material or workmanship  in the merchandise covered by this Contract.",
+                "changed_text": "1. By execution of this Supplier/Subcontractor Contract (\"Contract\"), _______________ (\"Supplier\")  agrees and  acknowledges that: (i) all images and/or trademarks, including, but not limited to PLAYBOY, (the \"Playboy Properties\")  applied at the request of _______________ (\"Purchaser\")  to merchandise covered by this Contract are owned by  Playboy Enterprises International, Inc. (\"Playboy\"), and when used upon merchandise means that such merchandise *may be interpreted to mean* that such merchandise is  sponsored, approved, recommended or sold by Playboy or its licensees; (ii) Supplier will not sell, ship or otherwise  dispose of any such merchandise except upon the order of Purchaser or Playboy; (iii) Supplier will never make, cause others to make or assist others in making, any claim whatsoever to any or all of the Playboy Properties or any trademark,  copyright, designation, name, phrase, design or symbol similar thereto in connection with the manufacture, advertising,  promotion, sale or distribution of merchandise; and (iv) Supplier will defend, indemnify and hold harmless Purchaser and Playboy and the distributors and dealers and the officers and employees of each of the foregoing against all liability  whatsoever which may be incurred by them or any of them as a result of any alleged defects in material or workmanship  in the merchandise covered by this Contract.",
+                "explanation": "The modification changes 'means that' to 'may be interpreted to mean that,' introducing ambiguity about the endorsement status of merchandise bearing Playboy Properties. This creates a contradiction because section 7 implies strict adherence to the branding guidelines, whereas this change introduces uncertainty about the implication of using Playboy properties.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5. This Contract, when attached to a purchase order, shall consist of the entire agreement between the parties and shall  supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied  by Purchaser or Supplier.",
+                "changed_text": "5. This Contract, when attached to a purchase order, shall consist of the entire agreement between the parties and *generally* supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied  by Purchaser or Supplier.",
+                "explanation": "Changing 'shall supersede' to 'shall generally supersede' creates ambiguity as to whether the Contract always takes precedence. This contradicts the implied assertion of contract supremacy found elsewhere in the document regarding obligations and rights.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "7. VIOLATION OF THIS AGREEMENT BY SUPPLIER MAY RESULT IN PROSECUTION FOR PLAYBOY PROPERTIES INFRINGEMENT, UNFAIR COMPETITION AND OTHER CAUSES OF ACTION AND THE  IMPOSITION OF FINES AND/OR CRIMINAL PENALTIES.",
+                "changed_text": "7. VIOLATION OF THIS AGREEMENT BY SUPPLIER *MAY OR MAY NOT* RESULT IN PROSECUTION FOR PLAYBOY PROPERTIES INFRINGEMENT, UNFAIR COMPETITION AND OTHER CAUSES OF ACTION AND THE  IMPOSITION OF FINES AND/OR CRIMINAL PENALTIES.",
+                "explanation": "The added phrase '*MAY OR MAY NOT*' introduces a contradiction regarding the consequences of violating the agreement. The original text suggests possible prosecution, whereas the modified text makes the outcomes highly uncertain and discretionary. This makes obligations described elsewhere in the contract less enforceable.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

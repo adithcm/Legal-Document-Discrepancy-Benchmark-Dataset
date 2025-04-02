@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DOMINIADVISORTRUST_02_18_2005-EX-99.(H)(2)-SPONSORSHIP AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party.",
+                "changed_text": "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 10 days' written notice to the other party.",
+                "explanation": "Reducing the termination notice period to 10 days may be deemed unreasonably short, particularly given the complexities of investment management and the potential need to find suitable replacements for the Sponsor. Many jurisdictions may view such a short notice period as a breach of good faith and fair dealing, effectively contradicting laws or legal precedents requiring reasonable notice for contract termination, especially in service-oriented agreements. 60 days is a fair amount of time, so reducing it to 10 is a large change.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing; potential violation of reasonable notice requirements for contract termination under Massachusetts law.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "For the services to be rendered and facilities to be provided by the Sponsor hereunder, the Trust shall pay Domini a fee accrued daily and payable monthly at an annual rate equal to 0.50% of the Trust's average daily net assets for the Trust's then current fiscal year.",
+                "changed_text": "For the services to be rendered and facilities to be provided by the Sponsor hereunder, the Trust shall pay Domini a fee accrued daily and payable quarterly, within 90 days of the end of each quarter, at an annual rate equal to 0.50% of the Trust's average daily net assets for the Trust's then current fiscal year.",
+                "explanation": "Changing the payment schedule from monthly to quarterly, and delaying the payment to 90 days may cause cash flow issues for the Trust, since most Sponsor arrangements are paid on a monthly basis. The Investment Company Act of 1940 and related SEC regulations (and parallel state laws) require registered investment companies to maintain adequate liquidity and meet their obligations promptly. Deferring Sponsor payments by such a large period may lead to regulatory scrutiny and potential violations if the Trust's other obligations are thereby jeopardized.",
+                "contradicted_law": "The Investment Company Act of 1940, Rule 38a-1 (Compliance Procedures) related to maintaining adequate liquidity and prompt payment of obligations and cash management, as well as other state and federal laws.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder, except for willful misfeasance, bad faith or gross negligence in the performance of its duties, or by reason of the reckless disregard of its obligations and duties hereunder.",
+                "changed_text": "The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder.",
+                "explanation": "The original clause contains an exception for 'willful misfeasance, bad faith or gross negligence'. Removing this exception effectively absolves the Sponsor of liability even in cases of gross misconduct. This is against public policy and conflicts with the fiduciary duties owed by the Sponsor to the Trust and its shareholders under common law and the Investment Company Act of 1940. State law prohibits contracts that exculpate parties from liability for intentional or grossly negligent conduct.",
+                "contradicted_law": "Violation of fiduciary duties under the Investment Company Act of 1940 and common law; conflicts with state laws prohibiting exculpation for gross negligence or willful misconduct.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

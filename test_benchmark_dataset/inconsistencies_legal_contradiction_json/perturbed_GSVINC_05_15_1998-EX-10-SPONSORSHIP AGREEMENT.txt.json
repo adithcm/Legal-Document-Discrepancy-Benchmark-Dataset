@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GSVINC_05_15_1998-EX-10-SPONSORSHIP AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will pay Excite its variable revenue share payments within thirty (30) days after the close of each month.",
+                "changed_text": "Client will pay Excite its variable revenue share payments within ninety (90) days after the close of each month.",
+                "explanation": "This change introduces a contradiction because extending the payment timeline to 90 days may violate California's prompt payment laws, which often mandate shorter payment periods, especially for services rendered.",
+                "contradicted_law": "California Prompt Payment Laws (potentially Cal. Civ. Code § 3302)",
+                "location": "Section 7(e)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In addition, Excite may, upon no less than thirty (30) days prior written notice to Client, cause an independent Certified Public Accountant to inspect the records of Client reasonably related to the calculation of such payments during Client's normal business hours.",
+                "changed_text": "In addition, Excite may, upon no less than ten (10) days prior written notice to Client, cause an independent Certified Public Accountant to inspect the records of Client reasonably related to the calculation of such payments during Client's normal business hours.",
+                "explanation": "Reducing the notice period for auditing financial records to 10 days is inconsistent with reasonable business practices and may contradict implied duties of good faith and fair dealing, particularly in jurisdictions like California where such duties are strongly enforced. This shorter notice doesn't provide sufficient time for CyberShop to prepare.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing (California law)",
+                "location": "Section 7(g)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will not use User Data to directly or indirectly solicit any Excite users either individually or in the aggregate during the term of this Agreement and for a period of twelve (12) months following the expiration or termination of this Agreement.",
+                "changed_text": "Client will not use User Data to directly or indirectly solicit any Excite users either individually or in the aggregate during the term of this Agreement and for a period of six (6) months following the expiration or termination of this Agreement.",
+                "explanation": "Decreasing the period in which Client can't solicit users from 12 months to 6 months could potentially violate the California Consumer Privacy Act (CCPA) if it doesn't allow a reasonable time to ensure that the user data collected during the sponsorship is handled in accordance with privacy regulations and that users are protected from unwanted solicitations that may stem from the agreement.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "location": "Section 12(i)"
+            }
+        ]
+    }
+]

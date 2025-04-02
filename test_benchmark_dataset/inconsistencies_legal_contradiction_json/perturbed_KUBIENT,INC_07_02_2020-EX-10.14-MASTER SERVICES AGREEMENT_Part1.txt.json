@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "KUBIENT,INC_07_02_2020-EX-10.14-MASTER SERVICES AGREEMENT_Part1.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon termination of the Agreement: (i) Kubient will cease providing the Services; (ii) the license granted under section 3 shall be revoked, (iii) Customer will promptly cease use of the Services and the Auction Platform; (iv) and each Party will return or destroy any of the other Party's Confidential Information then in its possession.",
+                "changed_text": "Upon termination of the Agreement: (i) Kubient will cease providing the Services; (ii) the license granted under section 3 shall be revoked, (iii) Customer will promptly cease use of the Services and the Auction Platform; (iv) and each Party will retain, use, and share any of the other Party's Confidential Information then in its possession.",
+                "explanation": "The modified text allows each party to retain, use, and share the other party's Confidential Information after the agreement is terminated. This directly contradicts standard confidentiality practices and may violate trade secret laws, which require ongoing protection of confidential information even after contract termination. The indefinite right to 'use' and 'share' confidential information creates a significant risk of misappropriation and legal challenges, conflicting with typical confidentiality obligations.",
+                "contradicted_law": "Trade Secret Law, Uniform Trade Secrets Act (UTSA), Defend Trade Secrets Act (DTSA)",
+                "location": "4(c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Pursuant to the doctrine of sequential liability, payment from Kubient to Customer shall be made within seven (7) days from Kubient's receipt of payment, regardless of when Customer submits an invoice.",
+                "changed_text": "Pursuant to the doctrine of sequential liability, payment from Kubient to Customer shall be made within one hundred and twenty (120) days from Kubient's receipt of payment, regardless of when Customer submits an invoice.",
+                "explanation": "The modification extends the payment timeline from 7 days to 120 days. This creates a potential violation of prompt payment laws, which exist in many states (including New York, where both parties are located) to ensure timely payment for services rendered. A 120-day payment term may be deemed unreasonable and in violation of these laws, especially if it deviates significantly from industry standards and imposes undue financial hardship on the Customer.",
+                "contradicted_law": "New York Prompt Payment Law, General Business Law § 756-a",
+                "location": "5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No action, suit or proceeding shall be brought against a Party more than one year after the date of termination this Agreement.",
+                "changed_text": "No action, suit or proceeding shall be brought against a Party more than six months after the date of termination this Agreement.",
+                "explanation": "By reducing the statute of limitations from one year to six months, the modified text shortens the time available for either party to bring legal claims arising from the contract. This could be deemed unconscionable and unenforceable, particularly if statutory limitations periods for certain types of claims (e.g., breach of contract) are longer than six months under applicable state law (Delaware, as specified in the agreement).",
+                "contradicted_law": "Delaware Statute of Limitations for Breach of Contract (typically 3 years), 10 Del. C. § 8106",
+                "location": "8"
+            }
+        ]
+    }
+]

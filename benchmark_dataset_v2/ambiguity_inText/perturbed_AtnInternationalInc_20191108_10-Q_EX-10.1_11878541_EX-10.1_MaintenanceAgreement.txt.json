@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_MaintenanceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.1 Affiliate. \"Affiliate\" of a Person means any other Person, directly or indirectly, through one or more intermediaries, Controlling, Controlled by or under common Control with such Person or any other Person in which such Person beneficially owns a majority of the outstanding capital stock, membership interests or partnership interests.",
+                "changed_text": "2.1 Affiliate. \"Affiliate\" of a Person means any other Person, directly or indirectly, through one or more intermediaries, Controlling, Controlled by or under common Control with such Person or any other Person in which such Person beneficially owns at least twenty-five percent of the outstanding capital stock, membership interests or partnership interests.",
+                "explanation": "This change introduces conflicting definitions for 'Affiliate'. The original text defines it as owning a 'majority' (more than 50%) of the entity's capital, while the modified text defines it as owning 'at least twenty-five percent' of the entity's capital. This creates ambiguity because an entity with between 25% and 50% ownership would qualify as an affiliate under the second definition but not the first, impacting contract rights and obligations.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.10 Control. \"Control\" (including the terms \"Controlling\" and \"Controlled by\") of a Person shall mean (i) holding fifty percent (50%) or more ownership or beneficial interest of income and capital of such Person; or (ii) having ownership of at least fifty percent (50%) of the voting power or voting equity of such Person; or (iii) regardless of the percentage ownership interest held, having the ability to appoint a majority of the board of directors, managers or other governing body of such Person or otherwise direct management policies of such Person by contract or otherwise.",
+                "changed_text": "2.10 Control. \"Control\" (including the terms \"Controlling\" and \"Controlled by\") of a Person shall mean (i) holding greater than seventy-five percent (75%) ownership or beneficial interest of income and capital of such Person; or (ii) having ownership of at least fifty percent (50%) of the voting power or voting equity of such Person; or (iii) regardless of the percentage ownership interest held, having the ability to appoint a majority of the board of directors, managers or other governing body of such Person or otherwise direct management policies of such Person by contract or otherwise.",
+                "explanation": "This change introduces conflicting definitions for 'Control'. The original text defines the condition for control as holding 'fifty percent (50%) or more ownership or beneficial interest', while the modified text defines it as holding 'greater than seventy-five percent (75%) ownership or beneficial interest'. This means that if a person holds between 50% and 75% of the shares, they would be deemed to be in control under the original clause, but not the modified one.",
+                "location": "Section 2.10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.38 Specifications. \"Specifications\" means (i) all of the Build Out Specifications set forth in the Build Addendum (and all schedules thereto, except as expressly waived by AT&T in writing), (ii) all of the specifications set forth in the Maintenance Addendum (and all schedules thereto) with respect to the Services contemplated therein, and (iii) all applicable OEM specifications.",
+                "changed_text": "2.38 Specifications. \"Specifications\" means (i) all of the Build Out Specifications set forth in the Build Addendum (and all schedules thereto, even if expressly waived by AT&T in writing), (ii) all of the specifications set forth in the Maintenance Addendum (and all schedules thereto) with respect to the Services contemplated therein, and (iii) all applicable OEM specifications.",
+                "explanation": "This introduces a conflict with potential waiver provisions elsewhere in the contract. The original states that the Build Addendum specifications apply unless expressly waived by AT&T in writing. The modified text removes this possibility, stating the specifications apply 'even if expressly waived by AT&T in writing'. This directly contradicts the flexibility afforded by the original, which allows for waivers, and creates uncertainty as to which set of specification rules applies, especially if AT&T actually provides a waiver letter.",
+                "location": "Section 2.38"
+            }
+        ]
+    }
+]

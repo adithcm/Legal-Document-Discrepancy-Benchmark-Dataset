@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "aa) \"Product\" means the compound product as described in Exhibit A satisfying the Product Specifications;\n\nbb) \"Product Specifications\" means the specifications for the Product set forth in the Quality Agreement, as such may be amended from time to time in accordance with its terms;",
+                "changed_text": "aa) \"Product\" means the compound product as described in Exhibit A, details of which are also mentioned in the Master Batch Record; in case of inconsistencies between Exhibit A and Master Batch Record, Exhibit A will prevail.\n\nbb) \"Product Specifications\" means the specifications for the Product entirely set forth in Exhibit A, as such may be amended from time to time in accordance with its terms;",
+                "explanation": "The original definition of \"Product\" refers to Exhibit A and Product Specifications (defined in the Quality Agreement). The modified definition introduces the Master Batch Record as a secondary source of product description but then says Exhibit A will prevail which contradict the function of Master Batch Record in case of confliction. If the specifications vary between Exhibit A and the Master Batch Record, it's unclear which set of specifications the Supplier must adhere to, creating uncertainty and potentially leading to disputes.",
+                "location": "Article 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.1 Supply of Product\n\na) During the Term, Supplier shall Manufacture the Product and perform all Services at its facilities located at Bubendorf, Switzerland and at Neuland, Switzerland (such facilities, the \"Facilities\" and each, a \"Facility\"). Supplier will supply to Customer or Customer's designee, the Product, Manufactured in accordance with the accepted Purchase Order placed by Customer, Master Batch Record, the Product Specifications, the Quality Agreement and cGMP Requirements and, subject to Section 3.1(b), in such quantities as ordered by Customer in Purchase Orders submitted pursuant to Section 6.1 and accepted pursuant to Section 6.2.",
+                "changed_text": "3.1 Supply of Product\n\na) During the Term, Supplier shall use reasonable efforts to Manufacture the Product and perform all Services at its facilities located at Bubendorf, Switzerland and at Neuland, Switzerland (such facilities, the \"Facilities\" and each, a \"Facility\"). Supplier will supply to Customer or Customer's designee, the Product, Manufactured generally in accordance with the accepted Purchase Order placed by Customer, Master Batch Record, the Product Specifications, the Quality Agreement and cGMP Requirements and, subject to Section 3.1(b), in such quantities as ordered by Customer in Purchase Orders submitted pursuant to Section 6.1 and accepted pursuant to Section 6.2.",
+                "explanation": "The original text mandates the Supplier *shall* Manufacture the product. The modified text weakens this to \"shall use reasonable efforts.\" This introduces ambiguity. If Supplier does not meet the standards, it's unclear whether they are in breach, since they only have to use 'reasonable efforts'. The original text's strict standard is contradicted by the looser \"reasonable efforts\" standard, especially if another section enforces strict manufacturing. Besides 'Manufactured in accordance' will be perturbed to 'Manufactured generally in accordance' to add more flexibilities. ",
+                "location": "Article 3.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "18.1 Termination\n\nThis Agreement is effective as of the Effective Date and will expire in accordance with Section 2.1, unless, upon the occurrence of any of the following events, this Agreement is earlier terminated in accordance with this Section 18.1:\n\na) Customer delivers written notice of termination to Supplier at least [* * *] prior to the expiration date of the Initial Term, which termination shall be effective as of the expiration date of the Initial Term;",
+                "changed_text": "18.1 Termination\n\nThis Agreement is effective as of the Effective Date and will expire in accordance with Section 2.1, unless, upon the occurrence of any of the following events, this Agreement is earlier terminated in accordance with this Section 18.1:\n\na) Customer may deliver written notice of termination to Supplier at least [* * *] prior to the expiration date of the Initial Term, which termination will be effective upon mutual written agreement between the parties, such agreement not to be unreasonably withheld by either party;",
+                "explanation": "The original text allows Customer to terminate the agreement with written notice, at least certain period before the expiration date. The modified text introduces a requirement for 'mutual written agreement', giving Supplier the power to block the termination. This directly contradicts the original, sole right of Customer to terminate with sufficient notice, thus it is a contradiction. It creates uncertainty about whether customer can actually terminate the agreement.",
+                "location": "Article 18.1"
+            }
+        ]
+    }
+]

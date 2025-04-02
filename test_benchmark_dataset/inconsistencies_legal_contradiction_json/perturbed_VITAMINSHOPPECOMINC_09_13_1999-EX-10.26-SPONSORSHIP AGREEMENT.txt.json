@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VITAMINSHOPPECOMINC_09_13_1999-EX-10.26-SPONSORSHIP AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will pay Excite these revenue share payments within thirty (30) days after the close of the financial quarter in which Client recognizes the Net Revenue on these transactions.",
+                "changed_text": "Client will pay Excite these revenue share payments within ninety (90) days after the close of the financial quarter in which Client recognizes the Net Revenue on these transactions.",
+                "explanation": "This change extends the payment deadline to ninety days, conflicting with typical contract law expectations for prompt payment and potentially violating generally accepted accounting principles depending on the specific nature of the revenue and industry standards. The clause now could result in delayed payments that impact cash flow and contradict reasonable business practice.",
+                "contradicted_law": "Breach of Contract, potential violation of GAAP (depending on specific revenue recognition standards)",
+                "location": "Section 7(g)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement if the other party materially breaches its obligations hereunder and such breach remains uncured for thirty (30) days following the notice to the breaching party of the breach.",
+                "changed_text": "Either party may terminate this Agreement if the other party materially breaches its obligations hereunder and such breach remains uncured for ten (10) days following the notice to the breaching party of the breach.",
+                "explanation": "This change reduces the cure period for a material breach from thirty days to ten days. This is an unreasonably short cure period, potentially conflicting with legal standards that require a reasonable opportunity to remedy a breach, especially where complex performance obligations are involved.",
+                "contradicted_law": "Contract Law - Reasonableness of Cure Period",
+                "location": "Section 9(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will provide to Excite all User Data and user transaction reports collected by Client within thirty (30) days following the end of each calendar month during the term of this Agreement in a mutually-determined electronic format.",
+                "changed_text": "Client will provide to Excite all User Data and user transaction reports collected by Client within sixty (60) days following the end of each calendar month during the term of this Agreement in a mutually-determined electronic format.",
+                "explanation": "Delaying the transfer of user data and transaction reports introduces a conflict by potentially violating privacy laws and regulations. By prolonging the period before data is shared, it increases the risk of data breaches, non-compliance with data protection requirements, and conflicts with industry standards that require timely data reporting.",
+                "contradicted_law": "Potential violation of privacy laws (e.g., GDPR, CCPA) depending on the nature of User Data",
+                "location": "Section 12(h)"
+            }
+        ]
+    }
+]

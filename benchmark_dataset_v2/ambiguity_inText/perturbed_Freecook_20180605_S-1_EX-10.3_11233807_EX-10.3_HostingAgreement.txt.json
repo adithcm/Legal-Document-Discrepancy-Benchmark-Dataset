@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+                "changed_text": "Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\"). The details of the required deliverables are defined in subsequent communications and project management software, not the accompanying Scope of Work.",
+                "explanation": "This change contradicts the original text by stating the Scope of Work is not the sole definer of deliverables. This introduces uncertainty as to what 'Contract Price' covers, creating an in-text contradiction with the rest of the agreement that references Exhibit A.",
+                "location": "1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 according to a payment schedule to be determined later. The completion of the Scope of Work may not trigger the final payment.",
+                "explanation": "The original contract clearly states that the final payment is due on the completion of the Scope of Work. The modified version introduces uncertainty as to the trigger for the final payment and payment schedule. The contract becomes internally inconsistent.",
+                "location": "2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Company representatives are available during Company's normal business hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday. Any email or telephone correspondence received after normal business hours will be processed the following business day.",
+                "changed_text": "Company representatives are generally available during regular business hours. The processing time for email and telephone correspondence varies, depending on the workload and the urgency of the request.",
+                "explanation": "The original clearly defines business hours and processing of after-hours communication. The modified version introduces uncertainty in business hours and handling of correspondence, which makes the term inconsistent with other sections that mention response times. This creates potential disputes.",
+                "location": "3"
+            }
+        ]
+    }
+]

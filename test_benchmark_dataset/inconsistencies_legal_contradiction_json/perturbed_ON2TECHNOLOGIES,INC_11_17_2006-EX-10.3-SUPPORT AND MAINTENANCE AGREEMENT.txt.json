@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ON2TECHNOLOGIES,INC_11_17_2006-EX-10.3-SUPPORT AND MAINTENANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Should On2 find that any Deliverable does not substantially conform to the relevant Specification, On2 shall promptly so notify Wildform in writing, which notice shall provide sufficiently detailed explanation of the non-conformities so as to allow Wildform to reproduce them (any such notice is referred to herein as a \"Nonconformance Notice\"). Each of the Deliverables shall be deemed accepted by On2 unless On2 delivers to Wildform a Nonconformance Notice within thirty (30) business days of the delivery of such Deliverable.",
+                "changed_text": "Should On2 find that any Deliverable does not substantially conform to the relevant Specification, On2 shall promptly so notify Wildform in writing, which notice shall provide sufficiently detailed explanation of the non-conformities so as to allow Wildform to reproduce them (any such notice is referred to herein as a \"Nonconformance Notice\"). Each of the Deliverables shall be deemed accepted by On2 unless On2 delivers to Wildform a Nonconformance Notice within ten (10) business days of the delivery of such Deliverable.",
+                "explanation": "Reducing the acceptance period for deliverables to 10 business days may be insufficient for On2 to adequately inspect and test the deliverables, potentially conflicting with implied warranty or acceptance rights under commercial law. This timeframe is unreasonably short for complex software deliverables, and could be seen as coercive.",
+                "contradicted_law": "Uniform Commercial Code (UCC) § 2-602 (Notification of Rejection) and implied warranty laws under state-specific adaptations of the UCC.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the first twelve (12) months of the Term, Wildform shall use commercially reasonable efforts to correct Program Errors within the response times set forth below. For purposes of the response times set forth below a \"Serious\" Program Error shall be defined as a Program Error that (a) causes the Deliverables to crash (malfunction), or (b) substantially degrades the performance, usability or appearance of the Deliverables. A \"Minor\" Program Error shall be defined as a bug that causes a less than substantial degradation in the performance, usability or appearance of the Deliverables.\n\nProgram Error        Response                           Correction\n------------        --------                           ----------\n\nSerious              Within 1 business day              Within 8 business days\n\nMinor                Within 4 business days             Within 15 business days",
+                "changed_text": "Wildform will address Program Errors at its sole discretion. The determination of what constitutes a \"Serious\" or \"Minor\" Program Error is to be determined solely by Wildform and not subject to objective criteria. Wildform's failure to correct Program Errors within any specific period shall not be deemed a breach of this Agreement, regardless of the severity of the error.",
+                "explanation": "Removing the defined response times for program errors and granting Wildform sole discretion contradicts standard software support agreements. It creates a situation where Wildform can avoid addressing critical errors without being in breach, which could violate implied warranties of fitness for purpose and merchantability, especially since the Flix software is a licensed asset.",
+                "contradicted_law": "Implied Warranty of Merchantability under UCC Article 2, state consumer protection laws.",
+                "location": "Exhibit A, Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either of Wildform or On2 may terminate this Agreement if the other Party is in material breach of this Agreement and fails to cure such breach within thirty (30) days after written notice.",
+                "changed_text": "Either of Wildform or On2 may terminate this Agreement if the other Party is in material breach of this Agreement and fails to cure such breach within ten (10) days after written notice.",
+                "explanation": "Reducing the cure period for a material breach to ten days may be insufficient, especially for complex breaches, creating a potentially unreasonable contract term that could be deemed unconscionable. Ten days may not provide sufficient time to rectify complex operational or financial defaults, contradicting general principles of fairness in contract law.",
+                "contradicted_law": "General principles of contract law regarding reasonable notice and opportunity to cure a breach. May also conflict with state-specific 'good faith and fair dealing' requirements in contract performance.",
+                "location": "Section 9.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AntaresPharma,Inc.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Product(s)\" means the fully packaged Device for auto-injection delivery of the Drug incorporating a Prefilled Syringe and other applicable Components listed on Exhibit B hereto, as such exhibit may be amended from time to time by the mutual written agreement of the Parties;",
+                "changed_text": "\"Product(s)\" means the Device, regardless of packaging or the inclusion of a Prefilled Syringe. The term specifically excludes any reference to components listed in Exhibit B, as those are considered 'raw materials' and not part of the final Product until commercial sale occurs.",
+                "explanation": "The original definition specifies that a 'Product' includes the fully packaged Device with a Prefilled Syringe and components from Exhibit B. The modified definition states that the term excludes the Prefilled Syringe and components listed in Exhibit B until commercial sale, creating ambiguity as to what constitutes a 'Product' at different stages of the manufacturing process. This could affect liability and responsibility during the manufacturing and storage phases.",
+                "location": "Article 1, Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.2 Orders and Forecasts.\n\n(a) Rolling Forecasts. On or before the [***] after the Effective Date, AMAG shall provide Antares with an updated written [***] rolling forecast of the volume of Product, sample Product and Trainers that AMAG then anticipates will be required to be produced and delivered to AMAG during [***] (the \"Forecast\"). The initial Forecast is attached hereto as Exhibit H. [***] of each Forecast shall constitute a firm order and be a binding commitment on AMAG to purchase the volume of Product, sample Product and Trainers set forth therein (the \"Binding Forecast\").",
+                "changed_text": "3.2 Orders and Forecasts.\n\n(a) Rolling Forecasts. On or before the [***] after the Effective Date, AMAG shall provide Antares with a verbal, non-committal forecast of potential volumes. For avoidance of doubt, a failure to provide the Forecast will not be a breach of the Agreement. The initial Forecast is attached hereto as Exhibit H. No part of any Forecast shall constitute a firm order, and all volumes stated are estimates for planning purposes only, not binding commitments on AMAG to purchase anything.",
+                "explanation": "The original text defines a 'Binding Forecast' as a firm, binding commitment for AMAG to purchase specific volumes. The modified version explicitly states that all forecasts are non-binding estimates, completely negating the concept of a binding commitment. This creates a direct contradiction about the enforceability of the Forecasts and AMAG's purchase obligations.",
+                "location": "Article 3, Section 3.2(a)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8.6 No Warranty. NEITHER PARTY MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, BY FACT OR LAW, OTHER THAN THOSE EXPRESSLY SET FORTH IN THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE OR WARRANTY OF MERCHANTABILITY OR WARRANTY OF NON-INFRINGEMENT OF THIRD PERSON RIGHTS.",
+                "changed_text": "8.6 No Warranty. NEITHER PARTY MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, BY FACT OR LAW, OTHER THAN THOSE EXPRESSLY SET FORTH IN THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE OR WARRANTY OF MERCHANTABILITY OR WARRANTY OF NON-INFRINGEMENT OF THIRD PERSON RIGHTS. The parties agree to provide a warranty of fitness for a particular purpose for all sales.",
+                "explanation": "The original clause explicitly states that neither party provides any warranties beyond those expressly stated in the agreement, including warranties of fitness for a particular purpose. The added sentence directly contradicts this by mandating a warranty of fitness for a particular purpose, introducing confusion and potential disputes over warranty obligations. The original is a 'no warranty' provision. It is subsequently undermined by mandating a warranty.",
+                "location": "Article 8, Section 8.6"
+            }
+        ]
+    }
+]

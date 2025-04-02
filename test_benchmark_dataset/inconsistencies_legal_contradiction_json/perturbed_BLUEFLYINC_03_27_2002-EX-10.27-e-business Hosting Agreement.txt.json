@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3.3   Termination for Cause\n\nCustomer or IBM may terminate this Agreement for material breach of this Agreement by the other upon written notice containing the specific nature and dates of the material breach. The breaching party will have thirty (30) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within seven (7) business days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice; provided, however, it is understood that in the event IBM has so breached this Agreement IBM shall not be entitled to recover the early termination charges described in Section 3.4(b) below.",
+                "changed_text": "3.3   Termination for Cause\n\nCustomer or IBM may terminate this Agreement for any breach of this Agreement by the other upon written notice containing the specific nature and dates of the breach. The breaching party will have ten (10) days from receipt of notice to cure such breach, including nonpayment by Customer. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice; provided, however, it is understood that in the event IBM has so breached this Agreement IBM shall not be entitled to recover the early termination charges described in Section 3.4(b) below.",
+                "explanation": "Reducing the cure period for a material breach to 10 days is not compliant with general business practice that requires a 30-day period. This introduces a contradiction to common legal standards, increasing the likelihood of premature termination and legal disputes. Additionally, the modification removes the distinction between material breaches and non-payment breaches, and reduces the cure period for non-payment from seven business days to ten calendar days, contradicting standard practice.",
+                "contradicted_law": "General contract law principles regarding reasonable cure periods.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.2   Payment\n\nIBM invoices will specify the amount due. Payment is due upon receipt and payable as specified in such invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+                "changed_text": "4.2   Payment\n\nIBM invoices will specify the amount due. Payment is due upon receipt and payable as specified in such invoice. Customer agrees to pay accordingly, including any late payment fees. Late payment fees will be 25% of the invoiced amount. Payment will be made in United States dollars.",
+                "explanation": "Charging a late payment fee of 25% of the invoiced amount can be considered usurious or an unreasonable penalty under many state laws, especially if it doesn't accurately reflect the actual damages incurred by IBM due to the late payment. This creates a potential legal contradiction.",
+                "contradicted_law": "State usury laws and laws regarding unreasonable penalties in contracts.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "14.14 Actions Period\n\nNeither party will bring a legal action related to this Agreement more than two years after the cause of action accrued.",
+                "changed_text": "14.14 Actions Period\n\nNeither party will bring a legal action related to this Agreement more than six months after the cause of action accrued.",
+                "explanation": "Reducing the statute of limitations for legal actions related to the agreement to six months is substantially shorter than the typical statutes of limitations for contract claims under New York law (where the agreement is governed, per section 14.3), which are typically six years. This creates a legal contradiction.",
+                "contradicted_law": "New York Statute of Limitations for Contract Claims (typically six years).",
+                "location": "Section 14.14"
+            }
+        ]
+    }
+]

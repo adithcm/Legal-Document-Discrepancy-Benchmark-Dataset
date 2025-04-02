@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be terminated at any time, without the payment of any penalty, upon 60 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote of the Fund's Trustees or by the Blockchain Administrator.",
+                "changed_text": "This Agreement may be terminated at any time, without the payment of any penalty, upon 14 days' written notice, by the vote of the Fund's Trustees or by the Blockchain Administrator.",
+                "explanation": "The original agreement requires 60 days' written notice for termination. Reducing this to 14 days may conflict with the Investment Company Act of 1940, which might require a longer notice period to protect shareholder interests, especially regarding the structure of interval funds that require specific redemption periods.",
+                "contradicted_law": "Investment Company Act of 1940",
+                "location": "Section 7(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.",
+                "changed_text": "This Agreement shall continue in effect indefinitely and may be renewed at the discretion of the Blockchain Administrator. Board approval is not required for renewal.",
+                "explanation": "The original agreement necessitates annual approval for renewal. Removing this requirement and placing renewal solely at the discretion of the Blockchain Administrator contradicts Section 15(c) of the Investment Company Act of 1940. This section requires ongoing board oversight and approval of advisory and administrative agreements to protect fund shareholders.",
+                "contradicted_law": "Investment Company Act of 1940, Section 15(c)",
+                "location": "Section 7(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities performed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the Investment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator agrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal business hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain Administrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be preserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided above. Records shall be surrendered in usable machine-readable form.",
+                "changed_text": "The Blockchain Administrator will maintain records as deemed necessary by its internal policy. Records will be surrendered only in paper form, and only after a 180-day processing period following a formal written request.",
+                "explanation": "The original text adheres to the Investment Company Act regarding record keeping. The modified text removes the requirement to maintain records in accordance with the Act, allows internal policy to dictate record-keeping, mandates paper-only surrender (contradicting machine-readable requirements), and introduces an unreasonable 180-day delay for record surrender, violating Rule 31a-3 which mandates prompt access and surrender of records.",
+                "contradicted_law": "Investment Company Act of 1940, Rule 31a-3",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

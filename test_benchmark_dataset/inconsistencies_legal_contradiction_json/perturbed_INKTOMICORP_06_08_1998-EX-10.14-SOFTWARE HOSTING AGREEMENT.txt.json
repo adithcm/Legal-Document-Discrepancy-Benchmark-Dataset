@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INKTOMICORP_06_08_1998-EX-10.14-SOFTWARE HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.2  Except as set forth in Section 4.1(b) above, Inktomi shall supply to Microsoft written invoices for all amounts due under this Agreement, and payments will be due net [*] ([*]) days from Microsoft's receipt of such invoice. Inktomi shall bear sole responsibility for all expenses incurred in connection with the performance of the Services, unless otherwise set forth herein or agreed to in writing by Microsoft.",
+                "changed_text": "4.2  Except as set forth in Section 4.1(b) above, Inktomi shall supply to Microsoft written invoices for all amounts due under this Agreement, and payments will be due net 60 days from Microsoft's receipt of such invoice. Inktomi shall bear sole responsibility for all expenses incurred in connection with the performance of the Services, unless otherwise set forth herein or agreed to in writing by Microsoft.",
+                "explanation": "Changing the payment terms to 'net 60 days' may create a legal contradiction if it violates state laws regarding prompt payment, especially for services rendered. Many states have regulations that mandate faster payment timelines, particularly for businesses, to ensure timely compensation and avoid cash flow issues.",
+                "contradicted_law": "State Prompt Payment Laws (example: California Prompt Payment Act)",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "10.2 Microsoft may terminate this Agreement at any time without cause upon [*] ([*]) days prior written notice. Upon receipt of such notice, Inktomi will discontinue all work hereunder. If Microsoft terminates this Agreement without cause pursuant to this Section 10.2, then Microsoft will pay for all services provided by Inktomi up until the date of termination under this Section 10.2. Notwithstanding anything contained herein to the contrary, should Microsoft exercise its termination right pursuant to this Section 10.2, then Inktomi will have the right to elect, in writing within fifteen (15) days after receipt of Microsoft's notice of termination hereunder, either one of the following two options for a early termination penalty:",
+                "changed_text": "10.2 Microsoft may terminate this Agreement at any time without cause upon 10 days prior written notice. Upon receipt of such notice, Inktomi will discontinue all work hereunder. If Microsoft terminates this Agreement without cause pursuant to this Section 10.2, then Microsoft will pay for all services provided by Inktomi up until the date of termination under this Section 10.2. Notwithstanding anything contained herein to the contrary, should Microsoft exercise its termination right pursuant to this Section 10.2, then Inktomi will have the right to elect, in writing within 3 days after receipt of Microsoft's notice of termination hereunder, either one of the following two options for a early termination penalty:",
+                "explanation": "Reducing the notice period for termination to '10 days' and the election period to '3 days' may conflict with general contract law principles that require reasonable notice and opportunity to respond. This could be deemed unconscionable, especially considering the complexity of the services and potential financial implications for Inktomi. Courts often evaluate such clauses for fairness.",
+                "contradicted_law": "General Contract Law Principles of Reasonable Notice and Unconscionability",
+                "location": "Section 10.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "12.3   This Agreement shall be construed, enforced, performed and in all respects governed by and in accordance with the laws in the State of Washington. In any action or suit to enforce any right or remedy under this Agreement the prevailing party shall be entitled to recover its reasonable attorneys' fees and costs.",
+                "changed_text": "12.3   This Agreement shall be construed, enforced, performed and in all respects governed by and in accordance with the laws in the State of Washington. In any action or suit to enforce any right or remedy under this Agreement each party will bear its own attorney's fees and costs.",
+                "explanation": "Eliminating the prevailing party's right to recover attorney's fees and costs contradicts the standard legal practice, particularly in commercial contracts. While parties can agree to 'fee-shifting' provisions, a complete ban on fee recovery can be challenged under certain circumstances, especially if it hinders access to justice or is deemed unconscionable given the relative bargaining power of the parties.",
+                "contradicted_law": "Contract Law principles regarding Attorney Fee Awards and Access to Justice",
+                "location": "Section 12.3"
+            }
+        ]
+    }
+]

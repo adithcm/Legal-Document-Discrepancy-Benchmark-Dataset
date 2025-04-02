@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "B.  The charges for the services set forth in this Agreement shall be invoiced monthly.  ABW agrees to pay said charges within thirty (30) days of the monthly invoice date.",
+                "changed_text": "B.  The charges for the services set forth in this Agreement shall be invoiced monthly.  ABW agrees to pay said charges within sixty (60) days of the monthly invoice date.",
+                "explanation": "Extending the payment deadline to 60 days from the invoice date introduces a potential conflict with standard business practices and potentially with the Illinois Prompt Payment Act (if applicable to this type of service), which generally requires payment within a shorter timeframe. Many jurisdictions favor shorter payment windows to maintain cash flow.",
+                "contradicted_law": "Illinois Prompt Payment Act (potential conflict)",
+                "location": "3. Payment For Service"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "F.   Any invoice submitted by PCQ shall be deemed correct unless ABW advises PCQ in writing, within thirty (30) days of the receipt of the invoice, that it disagrees with the invoice and specifies the nature of the disagreement.",
+                "changed_text": "F.   Any invoice submitted by PCQ shall be deemed correct unless ABW advises PCQ in writing, within ten (10) days of the receipt of the invoice, that it disagrees with the invoice and specifies the nature of the disagreement.",
+                "explanation": "Reducing the dispute window to 10 days from receipt of invoice introduces a potential unreasonableness conflict of business laws, as most businesses are given at least 30 days to resolve disagreements",
+                "contradicted_law": "Reasonable dispute resolution timeframe - General Business Law",
+                "location": "3. Payment For Service"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "H.   In the event that any invoice is not paid by ABW within forty-five (45) days after receipt, and when no discrepancy issues have been identified by ABW which are in some stage of resolution, after giving notice to ABW, PCQ may terminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED provided hereunder unless ABW pays such invoice prior to the termination date",
+                "changed_text": "H.   In the event that any invoice is not paid by ABW within seventy-five (75) days after receipt, and when no discrepancy issues have been identified by ABW which are in some stage of resolution, after giving notice to ABW, PCQ may terminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED provided hereunder unless ABW pays such invoice prior to the termination date",
+                "explanation": "Increasing the time frame to terminate to 75 days after receipt instead of 45, introduces a potential issue with general payment laws, as it is longer than usual for most cases.",
+                "contradicted_law": "General Payment Law",
+                "location": "3. Payment For Service"
+            }
+        ]
+    }
+]

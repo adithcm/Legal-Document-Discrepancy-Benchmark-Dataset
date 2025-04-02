@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUALPROPERTYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6. Applications. Defines as all applications of the United States and foreign countries, including Patent Cooperation Treaty applications that claim priority to the Applications listed in Appendix A, including any non-provisional applications, continuations, continuations-in-part, divisions, reissues, re-examinations or extensions thereof; and all applications including those applications filed in the United States or applications filed under the Patent Cooperation Treaty on subject matter directly related to the Applications in Appendix A whether or not priority to said applications was claimed.",
+                "changed_text": "6. Applications. Defines as all applications of the United States and foreign countries, including Patent Cooperation Treaty applications that claim priority to the Applications listed in Appendix A, including any non-provisional applications, continuations, continuations-in-part, divisions, reissues, re-examinations or extensions thereof; and all applications that directly incorporate the original claims of the Applications listed in Appendix A. Applications also includes provisional applications directly related to the subject matter described in Appendix A.",
+                "explanation": "The original definition of 'Applications' is broad, encompassing applications related 'directly' to those in Appendix A, whether or not priority is claimed. The modified definition narrows this scope, only including applications that directly incorporate the original claims and also broadens it to explicitly include provisional applications, creating ambiguity about what constitutes a covered 'Application'.",
+                "location": "Section 2(c)6"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3. Fair Market Value\" means, with respect to any Licensed Product sold, leased or put into use, the Selling Price actually obtained in an arm's length transaction for a product comprising a Licensed Product in the form in which the product is sold, whether or not assembled and without excluding any components or subassemblies thereof which are included in such Selling Price. \"Selling price\" shall exclude: usual trade discounts actually allowed to unaffiliated persons or entities such as packing costs, costs of transportation and transportation insurance, and import, export, excise, sales and value added taxes, and custom duties.",
+                "changed_text": "3. Fair Market Value\" means, with respect to any Licensed Product sold, leased or put into use, the estimated retail price of a product comprising a Licensed Product in the form in which the product is sold, whether or not assembled and without excluding any components or subassemblies thereof which are included in such retail price. \"Selling price\" shall include: packing costs, costs of transportation and transportation insurance, and import, export, excise, sales and value added taxes, and custom duties.",
+                "explanation": "The original definition of 'Fair Market Value' is tied to the 'Selling Price' obtained in an arm's length transaction, excluding certain costs. The modified definition changes the basis to the 'estimated retail price' and now includes the previously excluded costs in the 'Selling price'. This creates a direct contradiction in how 'Fair Market Value' is calculated, impacting royalty payments.",
+                "location": "Section 2(d)3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "(e) If THI does not make the obligatory payments as stated in 2(b) by the dates stated, the Exclusive License will revert back to Premier.",
+                "changed_text": "(e) If THI does not make the obligatory payments as stated in 2(b) by the dates stated, the Exclusive License will be renegotiated in good faith by Premier and THI.",
+                "explanation": "The original text clearly states that failure to make payments results in the license reverting back to Premier. The modified text replaces this clear consequence with a vague 'renegotiation in good faith'. This introduces uncertainty as the outcome of renegotiation is not predetermined, and 'good faith' is subject to interpretation, contradicting the original agreement.",
+                "location": "Section 2(e)"
+            }
+        ]
+    }
+]

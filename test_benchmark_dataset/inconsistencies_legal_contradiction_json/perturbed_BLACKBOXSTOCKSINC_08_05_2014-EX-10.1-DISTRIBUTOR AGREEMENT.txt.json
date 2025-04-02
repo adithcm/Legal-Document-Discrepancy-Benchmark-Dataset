@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "1.03.  Terms. Terms are net cash upon delivery.",
+                "changed_text": "1.03.  Terms. Terms are net 60 days upon delivery.",
+                "explanation": "Changing the payment terms to net 60 days upon delivery contradicts general business practices that are legally enforceable, and could create legal issues with respect to payment deadlines and potential late payment penalties, because the original terms are net cash upon delivery.",
+                "contradicted_law": "Breach of Contract Law, Texas Business and Commerce Code",
+                "location": "Section 1.03"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company warrants that Distributor shall acquire Products purchased hereunder free and clear of all liens and encumbrances except for Company's purchase money security interest defined in Section 1.03, above. Company further warrants all Products to be free from defects in material or workmanship under normal use and service for a period of ninety (90) days from the date of delivery. Any defects must be replaced by the Company within sixty (60) days within this scope of the warranty and all charges for labor and material, will be borne by Company.",
+                "changed_text": "Company warrants that Distributor shall acquire Products purchased hereunder free and clear of all liens and encumbrances except for Company's purchase money security interest defined in Section 1.03, above. Company further warrants all Products to be free from defects in material or workmanship under normal use and service for a period of fifteen (15) days from the date of delivery. Any defects must be replaced by the Company within ninety (90) days within this scope of the warranty and all charges for labor and material, will be borne by Distributor.",
+                "explanation": "Reducing the warranty period to 15 days for product defects may violate consumer protection laws or implied warranties of merchantability, depending on the nature of the product and applicable regulations in South America, where the distributor is authorized to sell. The extended replacement time and Distributor assuming costs could conflict with the original contract.",
+                "contradicted_law": "Texas Deceptive Trade Practices Act, implied warranty of merchantability under the UCC, and consumer protection laws of countries within South America.",
+                "location": "Section 5.01"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "7.02  .  Date of Effectiveness. Any such notice or communication so mailed shall be deemed delivered and effective seventy-two (72) hours after mailing thereof in the United States.",
+                "changed_text": "7.02  .  Date of Effectiveness. Any such notice or communication so mailed shall be deemed delivered and effective one (1) year after mailing thereof in the United States.",
+                "explanation": "Changing the effective date of notice to one year after mailing is commercially unreasonable and potentially renders the notice provision unenforceable. This drastically extends the period before a notice is considered received, conflicting with standard legal expectations for reasonable notice periods. It would violate laws requiring timely communication of important contractual matters.",
+                "contradicted_law": "Contract Law principles of reasonable notice and good faith, Texas Rules of Civil Procedure concerning service of process.",
+                "location": "Section 7.02"
+            }
+        ]
+    }
+]

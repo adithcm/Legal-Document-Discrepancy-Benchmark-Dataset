@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 only at the Company's discretion, with no guaranteed deadline for payment after the Scope of Work is completed.",
+                "explanation": "This change contradicts prompt payment laws that require employers or businesses to pay contractors within a reasonable timeframe after services are rendered. By stating that the final payment is at the company's 'discretion' with no deadline, it violates the implied covenant of good faith and fair dealing present in most contracts and conflicts with state laws requiring timely payment for completed work.",
+                "contradicted_law": "Various state prompt payment laws and implied covenant of good faith and fair dealing.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any email or telephone correspondence received after normal business hours will be processed the following business day.",
+                "changed_text": "Any email or telephone correspondence received after normal business hours will be reviewed at the Company's convenience, with no guarantee of being processed the following business day or at any specific time.",
+                "explanation": "This change introduces ambiguity and removes any obligation for timely communication. This could be problematic if there are time-sensitive matters such as cancellation periods or issue resolutions that require prompt attention, conflicting with the reasonable expectations of customer service standards and potentially violating consumer protection laws related to responsiveness.",
+                "contradicted_law": "Consumer Protection Laws related to reasonable customer service standards.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company, either directly or through its authorized service provider, shall provide customer service (the \"Customer Service\") relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is not obligated to provide any Customer Service except as specified in this Section.",
+                "changed_text": "Company, at its sole discretion, may provide customer service (the \"Customer Service\") relating to the Client Website. Company is not obligated to provide any Customer Service whatsoever and may cease providing any level of Customer Service at any time without any prior notice or liability.",
+                "explanation": "This change allows the company to unilaterally cease providing customer service without any prior notice or liability, which could violate consumer protection laws that require a certain level of support or communication, especially if the service (website hosting) is ongoing. It also contradicts the implicit promise of continued service that a customer would reasonably expect.",
+                "contradicted_law": "Consumer Protection Laws related to service obligations and implied warranties.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

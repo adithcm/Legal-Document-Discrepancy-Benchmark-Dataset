@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within thirty (30) days of STAAR's invoice. Late payments shall be subject to an interest charge of 1% per month or the maximum amount permitted by applicable law, whichever is less.",
+                "changed_text": "4.2 Payment for the Products shall be in U.S. Dollars, or such other currency as STAAR may require in its sole discretion, and made within ninety (90) days of STAAR's invoice. Late payments shall be subject to an interest charge of 25% per month.",
+                "explanation": "This change contradicts usury laws, which limit the amount of interest that can be charged on a debt. Charging 25% per month far exceeds legal limits in California and most other jurisdictions, making this clause unenforceable.",
+                "contradicted_law": "California Usury Law (California Constitution, Article XV, Section 1): limits interest rates on loans and forbearance of money.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "13.2 Distributor shall, at its own expense, maintain at a minimum general and product liability coverage in the Territory of at least US$2 million per occurrence, US$5 million in the aggregate. On a separate endorsement, Distributor shall name STAAR as an additional named insured. Such separate endorsement shall indicate that Distributor's insurance is primary and that STAAR's coverage as an additional named insured is not contributory. Each such insurance policy and endorsement shall provide that the insurance will not be canceled or reduces without at least thirty (30) days' prior written notice to STAAR. On request, Distributor shall provide STAAR with copies or certificates of all such insurance policies.",
+                "changed_text": "13.2 Distributor shall, at its own expense, maintain at a minimum general and product liability coverage in the Territory of at least US$2 million per occurrence, US$5 million in the aggregate. On a separate endorsement, Distributor shall name STAAR as an additional named insured. Such separate endorsement shall indicate that Distributor's insurance is primary and that STAAR's coverage as an additional named insured is not contributory. Each such insurance policy and endorsement shall provide that the insurance will not be canceled or reduces without at least five (5) days' prior written notice to STAAR. On request, Distributor shall provide STAAR with copies or certificates of all such insurance policies.",
+                "explanation": "Reducing the cancellation notice period to five days creates a conflict with standard insurance regulations that require insurance companies to provide at least a 30-day notice of cancellation to all insured parties, including additional insureds. This violates the duty of good faith and fair dealing implied in insurance contracts.",
+                "contradicted_law": "California Insurance Code § 677.2: requires insurers to provide a minimum number of days' notice prior to cancellation",
+                "location": "Section 13.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "14.1 STAAR or Distributor shall have the right, at its option, to terminate this Agreement, by giving written notice to the other party, effective immediately on receipt of such notice, on the occurrence of any of the following events: (a) In the event that the other party becomes or is deemed insolvent; proceedings are instituted by or against it in bankruptcy, insolvency, reorganization or dissolution; or it makes a general assignment for the benefit of creditors; (b) In the event that the other party fails to observe or perform any obligation, warranty, duty or responsibility under this Agreement and such failure continues unremedied for a period of thirty (30) days following written notice thereof by the non breaching party; or",
+                "changed_text": "14.1 STAAR or Distributor shall have the right, at its option, to terminate this Agreement, by giving written notice to the other party, effective immediately on receipt of such notice, on the occurrence of any of the following events: (a) In the event that the other party becomes or is deemed insolvent; proceedings are instituted by or against it in bankruptcy, insolvency, reorganization or dissolution; or it makes a general assignment for the benefit of creditors; (b) In the event that the other party fails to observe or perform any obligation, warranty, duty or responsibility under this Agreement and such failure continues unremedied for a period of five (5) days following written notice thereof by the non breaching party; or",
+                "explanation": "Reducing the cure period to five days may be considered commercially unreasonable, violating principles of good faith and fair dealing, especially if a party needs a longer period to rectify complex or significant failures to perform.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing (California contract law): requires each party to act reasonably in performing and enforcing the contract.",
+                "location": "Section 14.1"
+            }
+        ]
+    }
+]

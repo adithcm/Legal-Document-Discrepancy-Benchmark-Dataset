@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Heritage shall charge Premier [***] as set forth in Schedule C.",
+                "changed_text": "Heritage shall charge Premier [***] as set forth in Schedule C. Premier shall remit payment within 60 days of the invoice date.",
+                "explanation": "This change introduces a payment term that potentially violates prompt payment laws. While a 60-day payment term might seem reasonable, many jurisdictions (especially for food manufacturing or similar industries) have laws requiring payment within shorter timeframes (e.g., 30 days) to ensure the financial stability of suppliers. This longer timeframe could be deemed unconscionable or violate state-specific prompt payment acts.",
+                "contradicted_law": "Potential violation of state-specific Prompt Payment Acts (e.g., California Prompt Payment Act) or general contract law principles regarding unconscionability.",
+                "location": "Section 3(c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021. Upon expiration, this Second Amendment shall be of no further force or effect, and the terms and conditions of the Agreement shall as they were before the Second Amendment Effective Date. Notwithstanding anything herein to the contrary, a Party's right to enforce the terms and conditions of this Second Amendment shall survive the Second Amendment's expiration.",
+                "changed_text": "This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021. Upon expiration, this Second Amendment shall be of no further force or effect, and the terms and conditions of the Agreement shall as they were before the Second Amendment Effective Date. A Party's right to enforce the terms and conditions of this Second Amendment shall expire immediately upon the Second Amendment's expiration.",
+                "explanation": "By removing the clause that allows the parties to enforce the terms of the second amendment after its expiration, this revision contradicts the statute of limitations for breach of contract claims. The statute of limitations provides a time period (usually several years) after a breach within which a party can bring a lawsuit. This clause attempts to shorten that legally mandated period to zero, which is illegal.",
+                "contradicted_law": "Statute of Limitations for Breach of Contract Claims",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Heritage shall purchase all ingredients and packaging materials identified in the relevant Schedule C or Schedule C-l to be used in connection with the manufacturer of the Products. Heritage shall invoice Premier through the [***] billing as identified on the relevant Schedule C or Schedule C-l. Heritage shall not, however, purchase ingredients or packaging materials in excess of those required [***].",
+                "changed_text": "Heritage shall purchase all ingredients and packaging materials at their discretion, regardless of Schedule C or C-1, and invoice Premier using a method determined solely by Heritage. Premier is required to pay all invoices within 10 business days.",
+                "explanation": "This change introduces multiple legal issues. First, granting Heritage complete discretion over purchasing conflicts with the intent of the Schedules, potentially breaching contract law principles of good faith and fair dealing, and introducing conflicts on pricing control as stated in Schedule C and C-1. Second, requiring Premier to pay within 10 business days may violate state-specific payment act, as well as the first modification.",
+                "contradicted_law": "Breach of Contract, State-specific Payment Acts",
+                "location": "Section 3(b)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ReedsInc_20191113_10-Q_EX-10.4_11888303_EX-10.4_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement at any time if any of the following occur: (i) the other party fails to comply with any requirements or obligations under this Agreement, and such non-compliance is not cured within 30 days following written notice from the other party identifying the non-compliance",
+                "changed_text": "Either party may terminate this Agreement at any time if any of the following occur: (i) the other party fails to comply with any requirements or obligations under this Agreement, and such non-compliance is not cured within 10 days following written notice from the other party identifying the non-compliance",
+                "explanation": "The original text allows for a 30-day cure period for non-compliance. Shortening this to 10 days may be considered unreasonably short under New York law, particularly if the non-compliance involves complex issues requiring more time to resolve. This could lead to a breach of contract claim if a party terminates the agreement prematurely without allowing a reasonable opportunity to cure.",
+                "contradicted_law": "Potentially contradicts New York contract law principles regarding reasonable cure periods.",
+                "location": "Section 8(b)(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Impacted Party shall give notice within seven (7) days of the Force Majeure Event to the other party, stating the period of time the occurrence is expected to continue.",
+                "changed_text": "The Impacted Party shall give notice within one (1) day of the Force Majeure Event to the other party, stating the period of time the occurrence is expected to continue.",
+                "explanation": "The original text requires notice of a Force Majeure Event within seven days. Reducing this to one day is unreasonable and places an undue burden on the impacted party, especially considering Section 14 specifies that the agreement shall be governed by, and any dispute arising hereunder shall be determined in accordance with, the laws of State of New York. This is because under NY law, timely notice in circumstances like this must be reasonable. If the force majeure event disables normal communications or is widespread, it may not be possible to provide such notice within a day, thereby risking breach even when genuinely affected by unforeseeable events.",
+                "contradicted_law": "Potentially contradicts New York contract law principles regarding reasonableness of notice.",
+                "location": "Section 15"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A provision of this Agreement may be waived only by a written instrument executed by the party waiving compliance. No waiver of any provision of this Agreement shall constitute a waiver of any other provision, whether or not similar, nor shall any waiver constitute a continuing waiver. Failure of either party to exercise promptly any right, power or privilege granted by this Agreement, or to require strict performance of any obligation undertaken by the other party pursuant to this Agreement, will not be deemed to be a waiver of such right, power or privilege or of the right to demand subsequent performance of any and all such obligations undertaken by the other party.",
+                "changed_text": "A provision of this Agreement may be waived orally by the party waiving compliance. A waiver of any provision of this Agreement shall constitute a continuing waiver for all similar provisions. Failure of either party to exercise promptly any right, power or privilege granted by this Agreement, or to require strict performance of any obligation undertaken by the other party pursuant to this Agreement, will be deemed to be a waiver of such right, power or privilege and of the right to demand subsequent performance of any and all such obligations undertaken by the other party.",
+                "explanation": "The original text specifies that waivers must be in writing and that failure to enforce a right does not constitute a waiver of that right. The modification allows for oral waivers and states that failure to enforce a right constitutes a waiver. Under New York law, certain contracts (especially those involving significant amounts) may require waivers to be in writing to be enforceable. Allowing oral waivers creates ambiguity and potential unenforceability. Also, automatically deeming a failure to act as a waiver can be problematic, particularly if the failure was due to oversight or other extenuating circumstances. Under NY law, a party can reinstate its rights under the contract by providing notice that it will no longer waive those rights.",
+                "contradicted_law": "Potentially contradicts the Statute of Frauds under New York law regarding the requirement of written waivers for certain contracts and general contract law regarding the requirements for a valid waiver.",
+                "location": "Section 17"
+            }
+        ]
+    }
+]

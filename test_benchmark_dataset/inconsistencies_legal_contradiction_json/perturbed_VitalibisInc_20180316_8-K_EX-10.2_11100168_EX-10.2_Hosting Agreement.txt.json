@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VitalibisInc_20180316_8-K_EX-10.2_11100168_EX-10.2_Hosting Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Acceptance Testing shall commence within five (5) business days from the date on which VOTOCAST notifies Licensee, in writing by U.S. mail or electronic mail that all implementation work has been completed and is ready for Acceptance Testing by Licensee.",
+                "changed_text": "Acceptance Testing shall commence within one (1) business day from the date on which VOTOCAST notifies Licensee, in writing by U.S. mail or electronic mail that all implementation work has been completed and is ready for Acceptance Testing by Licensee.",
+                "explanation": "Reducing the commencement of Acceptance Testing to one business day may be considered unreasonably short, particularly for complex systems. This could be seen as a violation of good faith and fair dealing, principles that are implied in most contracts, making it difficult to execute testing completely.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing under California law",
+                "location": "Section 1.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All fees are due and payable within thirty (30) days of the applicable VOTOCAST invoice. Any payments made later than the due date will accrue interest from the date due until the date paid at the rate of one percent (I%) per month on the amount due, or the maximum rate permitted by law, whichever is less.",
+                "changed_text": "All fees are due and payable within ten (10) days of the applicable VOTOCAST invoice. Any payments made later than the due date will accrue interest from the date due until the date paid at the rate of five percent (5%) per month on the amount due, exceeding the maximum rate permitted by law.",
+                "explanation": "Reducing the payment term to 10 days and increasing the interest rate to 5% per month (60% APR) creates a legal contradiction. Many states have usury laws that cap the maximum interest rate that can be charged on debts. A 60% APR would violate these laws in many jurisdictions, including California, potentially rendering the interest clause unenforceable.",
+                "contradicted_law": "California Usury Law (California Constitution Article XV Section 1)",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall automatically renew beyond the Initial Term for successive one (I) year terms (each, a \"Renewal Term\"), unless a Party provides the other with written notice of termination at least one hundred eighty (180) days prior to the expiration of the Initial Term or the then-current Renewal Term.",
+                "changed_text": "This Agreement shall automatically renew beyond the Initial Term for successive one (I) year terms (each, a \"Renewal Term\"), unless a Party provides the other with written notice of termination at least ten (10) days prior to the expiration of the Initial Term or the then-current Renewal Term.",
+                "explanation": "Changing the notice period for non-renewal from 180 days to 10 days could be deemed unconscionable or against public policy in some jurisdictions, particularly if the agreement involves significant investment or reliance. Such a short notice period may not provide sufficient time for the licensee to find an alternative service provider, potentially causing significant disruption. This may violate the implied covenant of good faith and fair dealing.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing under California law",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

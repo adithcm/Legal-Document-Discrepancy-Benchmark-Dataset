@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "ELEPHANT TALK shall pay all invoices no later than *** after the invoice date. ELEPHANT TALK ***, in the event that ELEPHANT TALK fails to meet ***",
+                "changed_text": "ELEPHANT TALK shall pay all invoices no later than 10 days after the invoice date. ELEPHANT TALK may withhold payments for up to 60 days, in the event that ELEPHANT TALK fails to meet payment terms.",
+                "explanation": "The original text requires ELEPHANT TALK to pay all invoices within an unspecified timeframe (***). Modifying this to '10 days' creates a legal contradiction because, according to standard business practices in the Netherlands, 30 days payment terms are common and a shorter timeframe might be considered unreasonable, potentially conflicting with Dutch contract law principles that require fairness and reasonableness. Furthermore, changing the consequence of failing to meet payment terms to 'may withhold payments for up to 60 days' contradicts the creditor's right to receive timely payments and could be seen as undermining the contract's enforceability under Dutch law. ",
+                "contradicted_law": "Dutch contract law principles of fairness and reasonableness in payment terms.",
+                "location": "9.2.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any claim for damages must be notified to the other Party within six (6) months as from the date on which the damage was caused, failing which such claim is deemed to be waived.",
+                "changed_text": "Any claim for damages must be notified to the other Party within one (1) month as from the date on which the damage was caused, failing which such claim is deemed to be waived.",
+                "explanation": "Reducing the claim notification period from six months to one month could be deemed unreasonably short under Dutch law, particularly for complex commercial disputes where gathering evidence and assessing damages may require more time. This abbreviated timeframe could unduly prejudice the claimant's ability to pursue a valid claim, potentially conflicting with principles of fairness and due process under Dutch civil law.",
+                "contradicted_law": "Dutch civil law principles of fairness and due process regarding reasonable timeframes for claim notification.",
+                "location": "12.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall come into force on the Date of the Agreement, and shall, subject to article 18, remain in full force and effect for an initial period of *** from the Commercial Launch Date.",
+                "changed_text": "This Agreement shall come into force on the Date of the Agreement, and shall, subject to article 18, remain in full force and effect for an initial period of 6 months from the Commercial Launch Date.",
+                "explanation": "Changing the initial period of the agreement to 6 months creates a contradiction. The agreement is a hosting agreement for mobile virtual network services and the 6 month period will be too short. This would violate Dutch commercial standards of having fair business operations. The business would likely need a year or 2 in order to generate enough profits.",
+                "contradicted_law": "Dutch law on Business and Commerce",
+                "location": "17.1"
+            }
+        ]
+    }
+]

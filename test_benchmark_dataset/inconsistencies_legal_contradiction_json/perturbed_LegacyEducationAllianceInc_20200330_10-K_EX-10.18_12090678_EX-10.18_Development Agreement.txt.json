@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LegacyEducationAllianceInc_20200330_10-K_EX-10.18_12090678_EX-10.18_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "9.3 Base Royalties and Marketing Royalties shall be paid monthly to T&M within 15 days after the end of the applicable month. Payments will be made in U.S. Dollars.",
+                "changed_text": "9.3 Base Royalties and Marketing Royalties shall be paid quarterly to T&M within 45 days after the end of the applicable quarter. Payments will be made in U.S. Dollars.",
+                "explanation": "The original text mandates monthly royalty payments within 15 days, which aligns with standard business practices and may be required by certain state laws regarding timely payments. The modified text changes the payment frequency to quarterly and extends the payment deadline to 45 days. This contradicts potential state laws that require more frequent payment schedules, creating a legal inconsistency.",
+                "contradicted_law": "Potential violation of state laws regarding frequency of payments, such as California Labor Code regarding wage payments if these royalties are considered wages.",
+                "location": "Section 9.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11.2 The Agreement may be terminated: (i) immediately by either party in the event of a breach of this Agreement by the other party that is susceptible of cure and such breach is not cured within the 30-day period after written notice of such breach to the breaching party.",
+                "changed_text": "11.2 The Agreement may be terminated: (i) immediately by either party in the event of a breach of this Agreement by the other party that is susceptible of cure and such breach is not cured within the 10-day period after written notice of such breach to the breaching party.",
+                "explanation": "The original text allows for a 30-day cure period for breaches of contract. The modified text reduces this cure period to 10 days. This may be problematic because in certain jurisdictions, courts may deem a 10-day cure period to be unreasonably short, particularly for complex breaches, conflicting with principles of fairness and good faith.",
+                "contradicted_law": "Potentially conflicts with principles of contract law requiring reasonable cure periods, and potentially specific state laws requiring certain minimum cure periods for specific types of contracts.",
+                "location": "Section 11.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "14.2 Notices. All notices and other written communications required to be given under this Agreement shall be in writing and shall be delivered to the addressee in person, mailed by registered or certified mail, return receipt requested, or by reputable overnight courier. Any such notice shall be deemed to be delivered, given and received for all purposes as of the date so delivered, if delivered personally, or, if sent by certified or registered mail, three days following the date on which the same was deposited in a regularly maintained receptacle for the deposit of United States mail, postage and charges prepaid.",
+                "changed_text": "14.2 Notices. All notices and other written communications required to be given under this Agreement shall be in writing and shall be delivered to the addressee via email only. Any such notice shall be deemed to be delivered, given and received for all purposes as of the date sent.",
+                "explanation": "The original text allows for multiple methods of delivering notices. The modified text restricts notice delivery to email only. This may conflict with the Statute of Frauds (which is state law that exists in every state) requirement for 'signed writing', which is required for real estate sales, sales of goods over a certain dollar amount, and contracts lasting over a year. Email is not a traditional 'signed writing'. Additionally, some states require certified mail for specific types of legal notices, especially related to contract termination or breach.",
+                "contradicted_law": "Conflict with the Statute of Frauds and state laws requiring specific notice methods (e.g., certified mail) for certain legal communications.",
+                "location": "Section 14.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HertzGroupRealtyTrustInc_20190920_S-11A_EX-10.8_11816941_EX-10.8_Trademark License Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Party may terminate this Agreement by giving the other Party thirty (30) days' prior written notice.",
+                "changed_text": "Either Party may terminate this Agreement by giving the other Party five (5) days' prior written notice.",
+                "explanation": "Reducing the termination notice period to five days may conflict with California law, which often requires longer notice periods for contract termination, especially where significant business relationships are involved. California courts may deem such a short notice period unreasonable, particularly given the nature of the trademark license agreement.",
+                "contradicted_law": "California contract law regarding reasonable notice periods for termination, potentially violating implied covenants of good faith and fair dealing.",
+                "location": "Article 3.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon termination of this Agreement, Licensed Users shall immediately cease use of the Licensed Trade Name and Licensed Mark as soon as practicable, but no longer than thirty (30) days, after termination.",
+                "changed_text": "Upon termination of this Agreement, Licensed Users shall immediately cease use of the Licensed Trade Name and Licensed Mark within five (5) days after termination.",
+                "explanation": "Decreasing the period to cease usage of licensed trademarks to 5 days after termination contradicts the reasonable wind-down period often afforded under trademark law to prevent immediate disruption and allow for rebranding efforts. A very short wind-down period could be deemed commercially unreasonable in certain circumstances, potentially leading to disputes.",
+                "contradicted_law": "Trademark law principles regarding reasonable wind-down periods and potential violations of fair competition if immediate cessation creates undue hardship.",
+                "location": "Article 3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event any suit or other legal proceeding is brought for the enforcement of any of the provisions of this Agreement, the Parties hereto agree that the prevailing party shall be entitled to recover from the other party upon final judgment on the merits reasonable attorneys' fees (and sales taxes thereon, if any), including attorneys' fees for any appeal, and costs incurred in bringing such suit or proceeding.",
+                "changed_text": "In the event any suit or other legal proceeding is brought for the enforcement of any of the provisions of this Agreement, the Parties hereto agree that each party shall bear its own attorneys' fees and costs, regardless of the outcome of the suit or proceeding.",
+                "explanation": "Making attorneys’ fees non-recoverable by the prevailing party could conflict with California statutes that allow for the recovery of attorneys’ fees in certain types of contract disputes, even if the contract attempts to waive such rights. This change could also discourage parties from pursuing legitimate claims, effectively limiting access to legal remedies.",
+                "contradicted_law": "California Code of Civil Procedure § 1021, which allows for attorneys' fees by agreement or statute, and principles of contract interpretation related to unconscionability or public policy.",
+                "location": "Article 4.11"
+            }
+        ]
+    }
+]

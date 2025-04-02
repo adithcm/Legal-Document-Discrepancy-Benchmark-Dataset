@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ArrayBioPharmaInc.-LICENSE,DEVELOPMENTANDCOMMERCIALIZATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.11 \"Control\" (including any variations such as \"Controlled\" and \"Controlling\"), in the context of intellectual property rights, data and/or other information, means that such Party or its Affiliate owns, is licensed or otherwise possesses rights to such intellectual property, data and/or information, as applicable, sufficient to grant the applicable license or sublicense under this Agreement, without violating the terms of an agreement with a Third Party in existence as of the time such Party or its Affiliates would first be required hereunder to grant the other Party such (sub)license, right to use or access.",
+                "changed_text": "1.11 \"Control\" (including any variations such as \"Controlled\" and \"Controlling\"), in the context of intellectual property rights, data and/or other information, means that such Party or its Affiliate owns the data and/or information, as applicable, sufficient to grant the applicable license or sublicense under this Agreement, even if violating the terms of an agreement with a Third Party. The party must have the rights to use or access of the intellectual property.",
+                "explanation": "The original definition states that control means possessing sufficient rights to grant a license without violating third-party agreements. The modified definition implies that a party can have control even if granting the license violates a third-party agreement. This contradiction creates confusion about whether a party can grant rights if doing so breaches another contract.",
+                "location": "Section 1.11"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.37 \"Manufacture\" means any activities related to the production, manufacture, processing, filling, packaging, labeling, releasing, shipping (including shipping configurations and shipping studies), supply and holding of a compound or product or any intermediate thereof, including process development, process qualification and validation, scale-up, improvements or changes, pre- clinical, clinical and commercial manufacture and analytic development, product characterization, quality assurance and quality control (including in-process testing, release testing or stability testing). When used as a verb, \"to Manufacture\" and \"Manufacturing\" mean to engage in Manufacture and \"Manufactured\" has a corresponding meaning.",
+                "changed_text": "1.37 \"Manufacture\" means only the physical act of production of a product or compound. It specifically excludes processing, filling, packaging, labeling, releasing, shipping, and holding. It also excludes process development, process qualification, and validation. When used as a verb, \"to Manufacture\" and \"Manufacturing\" mean to engage in only physical production.",
+                "explanation": "The original definition of 'Manufacture' is broad, encompassing a wide range of activities. The modified definition severely restricts the meaning to only the physical act of production, excluding many related activities. This creates ambiguity as to which activities are covered under obligations related to 'Manufacture' in other sections of the contract.",
+                "location": "Section 1.37"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.6 Grant-Back License to Array. Ono hereby grants to Array a non-exclusive, worldwide, royalty free license, with the right to issue and authorize sublicenses through multiple tiers subject to the last sentence of Section 2.4(b), under any Improvements and Ono's interest in Joint Patent and Joint Know-How solely to make, use, sell, offer for sale, import, the Products (collectively, the \"Grant-Back License\"), subject to the exclusive rights granted to Ono under this Agreement.",
+                "changed_text": "2.6 Grant-Back License to Array. Ono hereby grants to Array a non-exclusive license under any Improvements and Ono's interest in Joint Patent and Joint Know-How to use the Product. This grant back license is worldwide but subject to Ono approval and royalty payments. The granting of this license does not include sublicensing.",
+                "explanation": "The original text grants Array a non-exclusive, worldwide, royalty-free license with sublicensing rights. The modified text grants a non-exclusive license with royalty payments and subject to Ono approval. Also, it does not allow sublicensing. This introduces contradiction on cost, distribution and exclusivity.",
+                "location": "Section 2.6"
+            }
+        ]
+    }
+]

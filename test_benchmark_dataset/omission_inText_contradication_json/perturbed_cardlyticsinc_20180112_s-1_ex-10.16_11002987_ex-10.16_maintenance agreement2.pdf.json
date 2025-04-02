@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "cardlyticsinc_20180112_s-1_ex-10.16_11002987_ex-10.16_maintenance agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "No later than <<enter Customization Documents Delivery Date>>, Supplier shall deliver to Bank of America the documents described\nbelow for this Customization. The detailed specifications so delivered shall be incorporated herein when approved by Bank of America.\nSystem Solution\nFunctional Specifications\nSystem Design Specifications\n \n Test Specifications",
+                "changed_text": "No later than <<enter Customization Documents Delivery Date>>, Supplier shall deliver to Bank of America the documents described\nbelow for this Customization. The detailed specifications so delivered may be incorporated herein at the discretion of Bank of America.\nSystem Solution\nFunctional Specifications\nSystem Design Specifications\n \n Test Specifications",
+                "explanation": "By changing 'shall be incorporated' to 'may be incorporated', the contract creates ambiguity regarding whether the detailed specifications are mandatory or optional. This contradicts the initial statement that the Customizations 'shall fulfill or exceed all of the functional, performance and other specifications described in the Program Materials'. If the specifications aren't incorporated, it's unclear how fulfillment is measured or enforced. This makes enforcement of performance requirements uncertain.",
+                "location": "1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter,\nBank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter,\nBank of America may terminate this Schedule.",
+                "explanation": "By removing 'and shall receive a refund of all amounts previously paid hereunder,' the contract no longer specifies the consequences of termination due to a price increase. This contradicts the premise that the contract outlines the responsibilities of both parties. Without a refund clause, it becomes unclear whether Bank of America is entitled to a refund upon termination, leading to a dispute.",
+                "location": "4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Delivery and Installation Schedule for this Customization is:\nDelivery Date:  \nInstallation Date:  \n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "changed_text": "The Delivery and Installation Schedule for this Customization will be determined by mutual agreement:\nDelivery Date:  \nInstallation Date:  \n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "explanation": "By changing 'is' to 'will be determined by mutual agreement' undermines a definitive schedule. While fields for dates remain they now lack certainty and depend on future agreement. This contradicts earlier clauses that rely on strict adherence to established deadlines, which becomes unenforceable if the key dates are subject to mutual agreement rather than fixed. This renders deadlines and subsequent failure clauses unclear.",
+                "location": "6"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The  obligations of the Agent  pursuant to this  Agreement  (other than those set forth in  Sections  2(d),  8 and 9 hereof)  shall  terminate  upon the completion  or  termination  or  abandonment  of the Plan by the Company or upon termination  of the  Offering,  but in no event  later  than the date  (the \"End Date\") which is 45 days after the Closing  Date (as  hereinafter  defined).  All fees or  expenses  due to the Agent but  unpaid  will be payable to the Agent in next day funds at the earlier of the Closing  Date (as  hereinafter  defined) or the End Date.  In the event the  Offering is extended  beyond the End Date,  the Company, the MHC, the Bank and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "changed_text": "The  obligations of the Agent  pursuant to this  Agreement  (other than those set forth in  Sections  2(d),  8 and 9 hereof)  shall  terminate  upon the completion  or  termination  or  abandonment  of the Plan by the Company or upon termination  of the  Offering,  but in no event  later  than the date  (the \"End Date\") which is 15 days after the Closing  Date (as  hereinafter  defined).  All fees or  expenses  due to the Agent but  unpaid  will be payable to the Agent in next day funds 90 days after the End Date.  In the event the  Offering is extended  beyond the End Date,  the Company, the MHC, the Bank and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "explanation": "The original text states the Agent's obligations terminate 45 days after the Closing Date. It also requires unpaid fees to be paid at the earlier of the Closing Date or the End Date. This has been modified to 15 days after the Closing Date, which is unreasonably short. Further, payment of unpaid fees is now due 90 days after the End Date, which delays payment beyond reasonable and legally compliant timeframes. This introduces non-compliance with general business payment terms.",
+                "contradicted_law": "General Contract Law, potentially state-specific payment deadline regulations",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company,  the MHC and the Bank will not sell or issue, contract to sell or otherwise dispose of, for a period of 90 days after  the  Closing  Date,  without  the  Agent's  prior  written consent,  any Common Stock other than the Shares or other than in connection  with  any  plan  or  arrangement   described  in  the Prospectus, including existing stock benefit plans.",
+                "changed_text": "The Company,  the MHC and the Bank will not sell or issue, contract to sell or otherwise dispose of, for a period of 30 days after  the  Closing  Date,  without  the  Agent's  prior  written consent,  any Common Stock other than the Shares or other than in connection  with  any  plan  or  arrangement   described  in  the Prospectus, including existing stock benefit plans.",
+                "explanation": "The original text prohibits the Company from selling additional stock for 90 days after the closing date without the agent's consent. Reducing this period to 30 days undermines investor protection by potentially allowing the company to flood the market with new shares shortly after the offering, which could negatively impact the stock price. Certain securities regulations (e.g., lock-up agreements under SEC rules) may require longer periods to prevent market manipulation and ensure stability after an offering.",
+                "contradicted_law": "Securities and Exchange Commission (SEC) regulations related to lock-up agreements and market manipulation.",
+                "location": "Section 5(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the  event  the  Company  fails to sell the  required  minimum number of the Shares by _________,  2000, and in accordance  with the provisions of the Plan or as required by the MHC Regulations, and applicable law, this Agreement shall terminate upon refund by the Company to each person who has  subscribed for or ordered any of the Shares the full amount which it may have  received  from  such  person,  together  with  interest  as provided in the Prospectus,  and no party to this Agreement shall have any obligation to the other hereunder, except for payment by the  Company,  the MHC and/or  the Bank as set forth in  Sections 2(a), 6, 8 and 9 hereof.",
+                "changed_text": "In the  event  the  Company  fails to sell the  required  minimum number of the Shares by _________,  2000, and in accordance  with the provisions of the Plan or as required by the MHC Regulations, and applicable law, this Agreement shall terminate upon refund by the Company to each person who has  subscribed for or ordered any of the Shares 180 days after termination.",
+                "explanation": "The original text specifies that if the company fails to sell the minimum number of shares, the agreement terminates, and refunds are issued to subscribers, including interest. The modified text removes the 'full amount which it may have received from such person, together with interest' section, and specifies that the refund will occur 180 days after termination, which violates consumer protection laws regarding prompt refunds.",
+                "contradicted_law": "Consumer protection laws regarding refunds and promptness of payments.",
+                "location": "Section 11(a)"
+            }
+        ]
+    }
+]

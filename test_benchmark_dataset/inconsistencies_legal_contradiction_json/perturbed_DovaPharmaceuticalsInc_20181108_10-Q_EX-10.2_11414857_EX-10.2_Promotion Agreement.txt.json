@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Valeant shall direct to Dova any unsolicited requests for off-label medical information from health care professionals with respect to the Product promptly following receipt by Valeant (but in no event later than [***] after receipt). Dova shall, within [***] following receipt of any such request from Valeant, address any such requests directly.",
+                "changed_text": "Valeant shall direct to Dova any unsolicited requests for off-label medical information from health care professionals with respect to the Product only when practically convenient. Dova shall address such requests when Dova deems reasonable.",
+                "explanation": "The original contract specifies time frames for Valeant to report off-label requests and for Dova to address them, which supports compliance. Changing these to 'when practically convenient' and 'when Dova deems reasonable' provides very ambiguous timelines that does not comply with requirements for monitoring and reporting of Adverse Events to the FDA and other regulatory bodies. This could create a contradiction if regulations require reporting within specific timelines.",
+                "contradicted_law": "21 CFR Part 314.80 - Postmarketing Reporting of Adverse Drug Experiences",
+                "location": "Section 5.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall maintain complete and accurate books and records in sufficient detail, in accordance with GAAP (to the extent applicable and in accordance with the Agreement) and all Applicable Law, to enable verification of the performance of such Party's obligations under this Agreement and any payments due to a Party under this Agreement. Unless otherwise specified herein, the books and records for a given Calendar Year of the Term shall be maintained for a period of [***] after the end of such Calendar Year or longer if required by Applicable Law.",
+                "changed_text": "Each Party will maintain records and books. Each party is not required to comply with GAAP or any Applicable Law. Unless otherwise specified herein, the books and records for a given Calendar Year of the Term will be maintained for 1 year after the end of the calendar year.",
+                "explanation": "Records related to FDA-regulated products must be retained much longer than one year. Changing the requirement to only one year contradicts FDA requirements and other federal regulations. By waiving the requirement to comply with GAAP and applicable law and reducing the document retention timeframe, this clause now contradicts federal regulations.",
+                "contradicted_law": "21 CFR 211.180 - General requirements and 21 CFR 314.81 - Postmarketing reporting requirements.",
+                "location": "Section 7.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party agrees that, during the Term and for a period of [***] thereafter, it shall keep confidential and shall not publish or otherwise disclose and shall not use for any purpose other than as provided for in this Agreement (which includes the exercise of its rights or performance of any obligations hereunder) any Confidential Information furnished to it by or on behalf of the other Party pursuant to this Agreement, except to the extent expressly authorized by this Agreement or otherwise agreed in writing by the Parties.",
+                "changed_text": "Each Party agrees that, during the Term, it shall keep confidential and shall not publish or otherwise disclose and shall not use for any purpose other than as provided for in this Agreement any Confidential Information furnished to it by or on behalf of the other Party pursuant to this Agreement, except to the extent expressly authorized by this Agreement or otherwise agreed in writing by the Parties.",
+                "explanation": "This change removes any requirement for confidentiality after the term of the agreement. This conflicts with general confidentiality rules around trade secrets and proprietary information, for which confidentiality is often required even after termination of an agreement.",
+                "contradicted_law": "Economic Espionage Act of 1996 (18 U.S.C. § 1831 et seq.)",
+                "location": "Section 9.1.1"
+            }
+        ]
+    }
+]

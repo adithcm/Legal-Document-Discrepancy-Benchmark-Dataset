@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "QBIOMEDINC_04_08_2020-EX-99.1-JOINT FILING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The undersigned acknowledge that each shall be responsible for the timely filing of such amendments, and for the completeness and accuracy of the information concerning him or it contained herein and therein, but shall not be responsible for the completeness and accuracy of the information concerning the others.",
+                "changed_text": "The undersigned acknowledge that each shall be responsible for the filing of such amendments only upon explicit written request from the other parties. No party shall be responsible for the completeness and accuracy of the information provided by any other party, regardless of any shared knowledge or involvement.",
+                "explanation": "This change contradicts SEC regulations regarding joint filing agreements. Rule 13d-1(k) requires each party to be responsible for the timely filing and accuracy of amendments. By stating that filing is only required upon explicit request and removing responsibility for the accuracy of others' information, the agreement conflicts with the legal requirement for each party to take responsibility for the filing.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 13d-1(k)",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Joint Filing Agreement may be executed in any number of counterparts, all of which taken together shall constitute one and the same instrument.",
+                "changed_text": "This Joint Filing Agreement must be executed as a single, original document with all parties signing the same physical copy. Electronic signatures are strictly prohibited.",
+                "explanation": "This change contradicts the Electronic Signatures in Global and National Commerce Act (ESIGN Act) and many state laws (like the Uniform Electronic Transactions Act or UETA) that permit the use of electronic signatures in legal agreements. Requiring a single physical document and prohibiting electronic signatures restricts the use of legally recognized and accepted methods of signing agreements, making it non-compliant.",
+                "contradicted_law": "Electronic Signatures in Global and National Commerce Act (ESIGN Act)",
+                "location": "Paragraph 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Dated: 4/8/2020",
+                "changed_text": "Dated: [Blank]",
+                "explanation": "Removing the date entirely makes it more difficult to establish the effective date of the agreement. This violates the SEC's requirement for clear and verifiable documentation concerning the filing of statements related to equity securities. Without a clear date, determining compliance with filing deadlines becomes challenging, potentially leading to regulatory issues.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 13d-1(k)",
+                "location": "Signature Block"
+            }
+        ]
+    }
+]

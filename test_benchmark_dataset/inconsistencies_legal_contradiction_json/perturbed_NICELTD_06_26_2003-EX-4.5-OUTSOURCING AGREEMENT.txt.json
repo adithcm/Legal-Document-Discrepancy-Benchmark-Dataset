@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NICELTD_06_26_2003-EX-4.5-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment by NICE is due current thirty (30) Days from the date of receipt of the invoice, on the 2nd or 16th of the month, whichever is following the invoice date and may be made by check or wire transfer. Purchase Orders, invoices and payments will be presented and effected in US dollars.",
+                "changed_text": "Payment by NICE is due current ninety (90) Days from the date of receipt of the invoice, at the company's discretion, and may be made by company credit. Purchase Orders, invoices and payments will be presented and effected in US dollars.",
+                "explanation": "The original text requires payment within 30 days. The modification extends this to 90 days and makes it subject to the company's discretion, conflicting with standard payment terms and potentially violating prompt payment laws. Many jurisdictions have prompt payment laws that mandate shorter payment periods, especially for subcontractors. By introducing ambiguity and extending the period, the contract becomes legally inconsistent.",
+                "contradicted_law": "Prompt Payment Laws (various state laws, e.g., California Prompt Payment Act)",
+                "location": "Section 8.4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding the aforementioned in Section 15.1, unjust delay in payment by NICE exceeding sixty (60) Days from the date of notice for the first delay, exceeding seven (7) Days from the date of notice for the second delay (i.e. any second delay, even if the first one was less then 60 days) and exceeding the date of notice for any subsequent delay (i.e. any subsequent delay, even if the second one was less then 7 days) , shall be regarded as a fundamental breach. Notwithstanding, any delay in any payment by NICE shall bear a default interest, as of the first Day of delay, to be compounded daily, at the rate applicable at Bank Hapoalim B.M. at the relevant time for unauthorized overdrawn current accounts.",
+                "changed_text": "Notwithstanding the aforementioned in Section 15.1, unjust delay in payment by NICE exceeding one-hundred and eighty (180) Days from the date of notice for the first delay, exceeding one-hundred and twenty (120) Days from the date of notice for the second delay (i.e. any second delay, even if the first one was less then 60 days) and exceeding the date of notice for any subsequent delay (i.e. any subsequent delay, even if the second one was less then 7 days) , shall be regarded as a fundamental breach. Notwithstanding, any delay in any payment by NICE will not bear any default interest.",
+                "explanation": "The original text states that a delay in payment exceeding 60 days constitutes a fundamental breach, with subsequent delays triggering breach after shorter periods and default interest applying from the first day of delay. The modified text increases the initial delay period to 180 days, the second delay to 120, and eliminates default interest, conflicting with laws requiring prompt payment and fair compensation for delays. This creates a legal contradiction by significantly extending the acceptable delay period and removing penalties, making the contract non-compliant.",
+                "contradicted_law": "Prompt Payment Laws (various state laws) and standard contract law principles regarding breach and remedies",
+                "location": "Section 15.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Contractor will deliver the repaired or replacement unit to NICE, within seven (7) Days of Contractor's receipt of such Product or parts thereof. NICE may require a shorter repair and replacement time for up to ten percent (10%) of the returned Products for warranty service, and Contractor shall use its best reasonable commercial efforts to accommodate same.",
+                "changed_text": "Contractor will deliver the repaired or replacement unit to NICE, within one-hundred and eighty (180) Days of Contractor's receipt of such Product or parts thereof. NICE may require a shorter repair and replacement time for up to ten percent (10%) of the returned Products for warranty service, and Contractor shall use its best reasonable commercial efforts to accommodate same.",
+                "explanation": "The original text requires the contractor to deliver the repaired or replacement unit within 7 days. The modified text changes this delivery timeframe to one-hundred and eighty (180) days. Warranty laws require repairs to be done in a reasonable timeframe. Delaying it for this long can cause significant detriment to the party relying on it.",
+                "contradicted_law": "Warranty Laws and Consumer Protection Laws (various state and federal laws)",
+                "location": "Section 9.7"
+            }
+        ]
+    }
+]

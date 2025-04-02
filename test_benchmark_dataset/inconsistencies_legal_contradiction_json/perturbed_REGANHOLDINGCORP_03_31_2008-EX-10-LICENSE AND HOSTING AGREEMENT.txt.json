@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "REGANHOLDINGCORP_03_31_2008-EX-10-LICENSE AND HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "TAG shall make payment within twenty (20) days after receipt of LMG's invoice. Any amount not paid when due will thereafter bear interest at the rate of one percent (1%) per month.",
+                "changed_text": "TAG shall make payment within sixty (60) days after receipt of LMG's invoice. Any amount not paid when due will thereafter bear interest at the rate of ten percent (10%) per month.",
+                "explanation": "This change introduces a legal contradiction by extending the payment deadline and setting an interest rate that may exceed the legal limits for late payment interest in many states. Most states have usury laws that cap the maximum allowable interest rate. An interest rate of 10% per month, or 120% per year, would likely violate these laws.",
+                "contradicted_law": "State Usury Laws",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All such policies of insurance of LMG shall provide that the insurer will give at least thirty (30) days prior written notice of cancellation to TAG. No such cancellation or material modification shall affect LMG's obligation to maintain the insurance coverages required by the Agreement. TAG shall be named as an additional insured on the commercial general liability insurance policies described above. All liability insurance policies shall be written on an \"occurrence\" policy form except for the policies described in (vii) and (viii) above",
+                "changed_text": "All such policies of insurance of LMG shall provide that the insurer will give at least ten (10) days prior written notice of cancellation to TAG. No such cancellation or material modification shall affect LMG's obligation to maintain the insurance coverages required by the Agreement. TAG shall be named as an additional insured on the commercial general liability insurance policies described above. All liability insurance policies shall be written on a \"claims made\" policy form.",
+                "explanation": "Reducing the notice period for cancellation to 10 days contradicts standard insurance practices and may violate state regulations requiring longer notice periods for policy cancellations. Furthermore, changing the liability insurance policies to a \"claims made\" basis instead of an \"occurrence\" basis significantly restricts coverage, as claims would only be covered if made during the policy period, regardless of when the incident occurred. This conflicts with the requirement to maintain continuous coverage during the Term of the Agreement.",
+                "contradicted_law": "State Insurance Regulations regarding cancellation notice periods and policy types.",
+                "location": "Section 5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon TAG's request, LMG shall return, destroy or securely erase, as directed by TAG, all copies of the Customer Data in LMG's possession or under LMG's control within thirty (30) business days.",
+                "changed_text": "Upon TAG's request, LMG shall return, destroy or securely erase, as directed by TAG, all copies of the Customer Data in LMG's possession or under LMG's control within ninety (90) business days.",
+                "explanation": "While seemingly innocuous, extending the data handling timeframe to ninety business days may violate privacy laws and regulations like CCPA (California Consumer Privacy Act) if the customer data contains personal information of California residents, or GDPR if it contains the personal data of EU residents. CCPA and GDPR grant consumers/data subjects the right to have their personal data deleted within a reasonable timeframe. Ninety business days is most likely not considered a reasonable timeframe for compliance with consumer rights under CCPA and GDPR.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA), General Data Protection Regulation (GDPR)",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]

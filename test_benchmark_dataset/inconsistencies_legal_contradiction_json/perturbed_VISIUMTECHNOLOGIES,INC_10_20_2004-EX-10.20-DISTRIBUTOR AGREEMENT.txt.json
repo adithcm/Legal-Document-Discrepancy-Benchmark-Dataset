@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VISIUMTECHNOLOGIES,INC_10_20_2004-EX-10.20-DISTRIBUTOR AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3.1. Subject to Section 3.6 below the price of the Product, excluding the Licensed Programs, is $[*] per Unit. The total price for both of the Licensed Programs together is $[*] per month per Product (\"License Fee\"). The License Fee shall begin on the date the Product is shipped to a customer and shall be paid by Power2Ship to WLI by the 7th of each month for the prior month (prorated if the Unit was shipped during the prior month) and shall continue for as long as the Product is active on any wireless network. Notwithstanding the foregoing, Power2Ship is obligated to pay the License Fee to WLI for a minimum of 36 months.",
+                "changed_text": "3.1. Subject to Section 3.6 below the price of the Product, excluding the Licensed Programs, is $[*] per Unit. The total price for both of the Licensed Programs together is $[*] per month per Product (\"License Fee\"). The License Fee shall begin on the date the Product is shipped to a customer and shall be paid by Power2Ship to WLI by the 7th of each month for the prior month (prorated if the Unit was shipped during the prior month) and shall continue for as long as the Product is active on any wireless network. Notwithstanding the foregoing, Power2Ship is obligated to pay the License Fee to WLI for a minimum of 120 months.",
+                "explanation": "This change increases the minimum payment period for the License Fee from 36 months to 120 months. This could be deemed an unreasonable term, especially if the product becomes obsolete or unmarketable, potentially violating contract law principles regarding fair and reasonable contractual terms. Depending on the jurisdiction, such an extended minimum payment commitment might be challenged as unconscionable.",
+                "contradicted_law": "Contract Law - Unconscionability, Fair Contract Terms",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.4. When Products are ordered for the GPRS network, Power2Ship must provide one SIM card for every Unit ordered within a maximum of two weeks from the date of order. The Sim Cards have to be placed and tested in the Unit as they are being manufactured at the factory. Failure to provide the SIM cards in time will require re-opening and re-test of the Units in the US at a cost of $[*] per Unit to be paid by Power2Ship.",
+                "changed_text": "5.4. When Products are ordered for the GPRS network, Power2Ship must provide one SIM card for every Unit ordered within a maximum of one week from the date of order. The Sim Cards have to be placed and tested in the Unit as they are being manufactured at the factory. Failure to provide the SIM cards in time will require re-opening and re-test of the Units in the US at a cost of $[*] per Unit to be paid by Power2Ship.",
+                "explanation": "The change reduces the timeframe for Power2Ship to provide SIM cards from two weeks to one week. This creates a situation where it's nearly impossible to do so, if Power2ship is not in the location of production.",
+                "contradicted_law": "Contract Law - Impossibility of performance",
+                "location": "Section 5.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "7.6. If an invoice is past due by more than 30 days, WLI may discontinue providing technical support to Power2Ship until the invoice is paid. If Power2Ship does not make payment of any amount due and payable hereunder within 60 days of the date of invoice, WLI (without prejudice to any other remedy) shall be entitled to interest on all past due amounts at the lower of eighteen percent (18%) per annum or the highest rate permitted by law, plus reimbursement of all costs incurred in collecting such amounts, including court costs and reasonable attorney fees.",
+                "changed_text": "7.6. If an invoice is past due by more than 30 days, WLI may discontinue providing technical support to Power2Ship until the invoice is paid. If Power2Ship does not make payment of any amount due and payable hereunder within 60 days of the date of invoice, WLI (without prejudice to any other remedy) shall be entitled to interest on all past due amounts at the rate of twenty-five percent (25%) per annum, plus reimbursement of all costs incurred in collecting such amounts, including court costs and reasonable attorney fees.",
+                "explanation": "The change increases the interest rate on past due amounts from the lower of 18% or the highest rate permitted by law to a fixed 25%. This could violate usury laws if 25% exceeds the maximum legal interest rate in New Jersey, the state where the contract is governed (as per section 16.1).",
+                "contradicted_law": "Usury Laws (Maximum Legal Interest Rates)",
+                "location": "Section 7.6"
+            }
+        ]
+    }
+]

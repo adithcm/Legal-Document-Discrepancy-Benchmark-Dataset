@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_Affiliate Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments due shall be made within 45 days of the close of each calendar quarter.",
+                "changed_text": "Payments due shall be made within 90 days of the close of each calendar quarter.",
+                "explanation": "Changing the payment term to 90 days could violate state prompt payment laws. Many states require payments to subcontractors within a shorter timeframe, such as 30-60 days. A 90-day window could be considered an unreasonable delay and a violation of these laws, especially if the contract involves construction or related services in Maryland.",
+                "contradicted_law": "Maryland Prompt Payment Law (potentially, depending on the specific application)",
+                "location": "3.5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments not received within thirty (30) days after their due date will bear interest at the rate of twelve percent (12.0%) per annum compounded monthly from the due date until such payment is received.",
+                "changed_text": "Payments not received within ninety (90) days after their due date will bear interest at the rate of four percent (4.0%) per annum simple interest from the due date until such payment is received.",
+                "explanation": "Extending the grace period to 90 days before interest accrues and significantly reducing the interest rate to 4% simple interest may contradict Maryland usury laws or other regulations regarding late payment penalties. Also, it removes the compounding aspect which is a considerable contrast to standard practice.",
+                "contradicted_law": "Maryland Usury Law or Late Payment Penalty Regulations",
+                "location": "3.5.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No action, case, suit or proceeding, regardless of form, arising out of or related to this Agreement, may be brought by either party more than one (1) year after the cause of action has arisen, or in the case of nonpayment, more than two (2) years from the date of the last payment.",
+                "changed_text": "No action, case, suit or proceeding, regardless of form, arising out of or related to this Agreement, may be brought by either party more than six (6) months after the cause of action has arisen, or in the case of nonpayment, more than one (1) year from the date of the last payment.",
+                "explanation": "Reducing the statute of limitations to six months for general claims and one year for nonpayment claims could be unenforceable in Maryland. The standard statute of limitations for contract disputes is typically longer (e.g., 3 years) for some contract types. Shortening it significantly restricts the parties' legal rights and could be deemed unconscionable or against public policy, thus violating state laws regarding contractual limitations of legal recourse.",
+                "contradicted_law": "Maryland Statute of Limitations for Contract Claims",
+                "location": "7.2"
+            }
+        ]
+    }
+]

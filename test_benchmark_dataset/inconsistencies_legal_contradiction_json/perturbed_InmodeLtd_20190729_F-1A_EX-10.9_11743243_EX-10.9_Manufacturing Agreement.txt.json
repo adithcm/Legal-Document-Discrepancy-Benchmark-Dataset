@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_Manufacturing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "14.2 Contractor and Customer agree to terms of payments of current plus thirty (30) days from the date of invoice. Payment shall be affected in US Dollars.",
+                "changed_text": "14.2 Contractor and Customer agree to terms of payments of current plus sixty (60) days from the date of invoice. Payment shall be affected in US Dollars.",
+                "explanation": "The original text specifies payment terms of net 30 days. Changing it to net 60 days without proper justification and documentation may violate prompt payment laws in some jurisdictions (including some U.S. states or countries where either party operates), particularly if these laws mandate shorter payment periods for specific industries or contract types. Many jurisdictions have laws that impose interest penalties, and this could potentially contradict them.",
+                "contradicted_law": "Prompt Payment Laws (Vary by Jurisdiction)",
+                "location": "Section 14.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "18.1 Customer shall defend, indemnify and hold harmless Contractor from all claims, liabilities, costs, damages, judgments and attorney's fees resulting from or arising out of any alleged and/or actual infringement or other violation of any patents, patent rights, trademarks, trademark rights, trade names, trade name rights, copyrights, trade secrets, proprietary rights and processes or other such rights elated to the Product or claims relating to Customer's instructions, tooling, specifications and designs (\"Claims\") provided that: (i) Contractor will provide the Customer with prompt written notice of any Claim no later than three (3) business days following receipt of notice by Contractor",
+                "changed_text": "18.1 Customer shall defend, indemnify and hold harmless Contractor from all claims, liabilities, costs, damages, judgments and attorney's fees resulting from or arising out of any alleged and/or actual infringement or other violation of any patents, patent rights, trademarks, trademark rights, trade names, trade name rights, copyrights, trade secrets, proprietary rights and processes or other such rights related to the Product or claims relating to Customer's instructions, tooling, specifications and designs (\"Claims\") provided that: (i) Contractor will provide the Customer with prompt written notice of any Claim no later than one (1) business day following receipt of notice by Contractor",
+                "explanation": "Reducing the notice period for intellectual property claims to one (1) business day may be considered unreasonably short under applicable law and would potentially impede the customer's ability to adequately prepare a defense or take appropriate action and violates the party’s right to due process under the law. This change places undue burden and risk on the customer, potentially conflicting with principles of fairness and reasonableness in contract law.",
+                "contradicted_law": "Principles of Due Process and Reasonable Notice (Vary by Jurisdiction)",
+                "location": "Section 18.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "15.1 Termination for cause If either party fails to meet anyone or more of the terms and conditions as stated in either this Agreement or the Appendices, Contractor and Customer agree to negotiate in good faith to resolve such default. If the defaulting party fails to cure such default or submit an acceptable written plan to resolve such default within thirty (30) days following notice of default, the non-defaulting party shall have the right to terminate this Agreement by furnishing the defaulting party with sixty (60) days written notice of termination.",
+                "changed_text": "15.1 Termination for cause If either party fails to meet anyone or more of the terms and conditions as stated in either this Agreement or the Appendices, Contractor and Customer agree to negotiate in good faith to resolve such default. If the defaulting party fails to cure such default or submit an acceptable written plan to resolve such default within ten (10) days following notice of default, the non-defaulting party shall have the right to terminate this Agreement by furnishing the defaulting party with thirty (30) days written notice of termination.",
+                "explanation": "Reducing the cure period to ten (10) days and the termination notice period to thirty (30) days could be deemed unreasonable depending on the nature of the default and the complexity of the contract. This may violate general principles of contract law that require reasonable opportunity to cure a breach and adequate notice of termination. Shorter periods could be unenforceable in some jurisdictions, particularly if they are seen as unfairly prejudicial to the defaulting party.",
+                "contradicted_law": "Principles of Reasonable Opportunity to Cure and Adequate Notice (Vary by Jurisdiction)",
+                "location": "Section 15.1"
+            }
+        ]
+    }
+]

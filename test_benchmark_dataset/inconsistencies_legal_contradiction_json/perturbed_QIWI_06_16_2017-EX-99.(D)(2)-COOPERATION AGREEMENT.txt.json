@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "QIWI_06_16_2017-EX-99.(D)(2)-COOPERATION AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.1 Except as provided in clause 5.2, no party shall, and each party shall procure that their Representatives shall not, disclose to any third party, or use or exploit commercially for its or their own purposes, any Confidential Information. The obligations of the parties under this clause 5.1 shall remain in force until the relevant information enters the public domain otherwise than by the default of a party.",
+                "changed_text": "5.1 Except as provided in clause 5.2, no party shall, and each party shall procure that their Representatives shall not, disclose to any third party, or use or exploit commercially for its or their own purposes, any Confidential Information. The obligations of the parties under this clause 5.1 shall remain in force for only one (1) year from the date of disclosure, regardless of whether the information enters the public domain.",
+                "explanation": "The original clause provides confidentiality obligations indefinitely until the information enters the public domain. The modified text limits this to only one year, creating a conflict. Standard trade secret laws (like the Defend Trade Secrets Act in the US, or similar laws in Cyprus, where both companies are registered) and general contract law principles typically protect confidential information for a longer period, particularly if it hasn't entered the public domain. This shorter period is insufficient to protect sensitive information. Given the location of the companies (Cyprus and potentially doing business in the United States and England), trade secret laws generally protect for longer periods.",
+                "contradicted_law": "Defend Trade Secrets Act (US), Cyprus Trade Secret Laws, General Contract Law Principles related to reasonable confidentiality periods",
+                "location": "Clause 5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "8.3 A notice is deemed to be received:\n\n (a) in the case of a notice delivered by hand or courier at the address of the addressee given above, upon delivery at that address; and\n\n (b) in the case of a notice delivered by fax, at the time of transmission (provided that a transmission report from the machine from which thefax was sent is received by the sender which indicates that the fax was sent in its entirety to the fax number of the recipient).",
+                "changed_text": "8.3 A notice is deemed to be received:\n\n (a) in the case of a notice delivered by hand or courier at the address of the addressee given above, upon delivery at that address; and\n\n (b) in the case of a notice delivered by fax, at the time of transmission, regardless of whether a transmission report is received by the sender.",
+                "explanation": "The original text requires a transmission report for fax notices to be considered received. The modification eliminates this requirement. Most legal jurisdictions require proof of transmission for legal notices sent by fax. Removing the requirement for a transmission report introduces uncertainty and potential for dispute regarding whether a notice was actually sent and received, conflicting with standard legal practice for providing adequate notice.",
+                "contradicted_law": "General Legal Principles related to Adequate Notice and Proof of Service",
+                "location": "Clause 8.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "9.1 This Agreement and any dispute, controversy or claim arising out of or in connection with it or its subject matter, existence, negotiation, validity, termination, breach or enforceability (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of England and Wales.\n\n9.2 Any dispute, controversy or claim arising out of or in connection with this Agreement or its subject matter, including any question regarding its existence, negotiation, termination, breach, validity or enforceability (including any non-contractual disputes or claims) (\"Dispute\") shall be referred to, and finally resolved by, arbitration under the Rules of Arbitration (the \"LCIA Rules\") of the London Court of International Arbitration (the \"LCIA\") which rules are deemed to be incorporated by reference into this Clause 9.2.",
+                "changed_text": "9.1 This Agreement and any dispute, controversy or claim arising out of or in connection with it or its subject matter, existence, negotiation, validity, termination, breach or enforceability (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of England and Wales.\n\n9.2 Any dispute arising under this agreement will be resolved exclusively in the courts of Nicosia, Cyprus. Each party irrevocably submits to the exclusive jurisdiction of such courts.",
+                "explanation": "The original clause mandates arbitration in London under LCIA rules. The modified clause replaces this with exclusive jurisdiction in the courts of Nicosia, Cyprus. This directly contradicts the original agreement to arbitrate, invalidating the arbitration agreement. Enforceability of arbitration agreements is a key principle of international and UK law (where the original text had governing law).",
+                "contradicted_law": "UK Arbitration Act, International Arbitration Law (e.g., New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards)",
+                "location": "Clauses 9.1 and 9.2"
+            }
+        ]
+    }
+]

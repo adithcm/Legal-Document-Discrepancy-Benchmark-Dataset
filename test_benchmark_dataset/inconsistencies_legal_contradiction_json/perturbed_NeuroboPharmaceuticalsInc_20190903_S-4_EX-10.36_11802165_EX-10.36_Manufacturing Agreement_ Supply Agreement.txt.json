@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "NeuroBo shall, at its costs and expenses, deliver the API to the place designated by Dong-A no later than [***] days prior to the requested delivery date for the Licensed Products and/or their matching placebo in accordance with the Firm Order.",
+                "changed_text": "NeuroBo shall, at its costs and expenses, deliver the API to the place designated by Dong-A no later than 5 days prior to the requested delivery date for the Licensed Products and/or their matching placebo in accordance with the Firm Order.",
+                "explanation": "This change introduces a potential legal contradiction. Depending on the specific API and the manufacturing process involved, a 5-day lead time for API delivery may be insufficient to ensure proper quality control and manufacturing compliance. Pharmaceutical manufacturing often requires longer lead times to comply with GMP (Good Manufacturing Practices) regulations, which are enforced by the FDA in the US and similar agencies globally. Insufficient lead time could lead to quality issues and potential violations of GMP regulations.",
+                "contradicted_law": "Good Manufacturing Practices (GMP) regulations enforced by the FDA (21 CFR Parts 210 and 211) and similar regulations in other countries.",
+                "location": "2.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within [***] days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\") in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time. Dong-A shall provide NeuroBo with all available information and technical assistance necessary for NeuroBo to perform the Product Test expeditiously.",
+                "changed_text": "Within 2 days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\") in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time. Dong-A shall provide NeuroBo with all available information and technical assistance necessary for NeuroBo to perform the Product Test expeditiously.",
+                "explanation": "Reducing the timeframe for quality control testing to 2 days creates a legal inconsistency. Depending on the complexity of the Licensed Products and the specific Product Test Methods outlined in Exhibit B, a 2-day window may be insufficient for NeuroBo to conduct a thorough and compliant quality control assessment. This could lead to the acceptance of non-conforming products, violating GMP (Good Manufacturing Practices) regulations and potentially exposing NeuroBo to liability.",
+                "contradicted_law": "Good Manufacturing Practices (GMP) regulations enforced by the FDA (21 CFR Parts 210 and 211) and similar regulations in other countries.",
+                "location": "3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than [***] days prior to the shipment date by way of wire transfer to Dong-A.",
+                "changed_text": "Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than 1 day prior to the shipment date by way of wire transfer to Dong-A.",
+                "explanation": "Requiring payment only 1 day before shipment could violate anti-money laundering regulations and create an unacceptable level of financial risk for NeuroBo. Many financial institutions require several days to process international wire transfers and ensure compliance with KYC (Know Your Customer) and AML (Anti-Money Laundering) regulations. A 1-day window might be insufficient for these processes, potentially leading to delayed shipments, penalties, or even accusations of financial misconduct.",
+                "contradicted_law": "Bank Secrecy Act (BSA) and related Anti-Money Laundering (AML) regulations in the United States and similar regulations in other countries.",
+                "location": "4.3"
+            }
+        ]
+    }
+]

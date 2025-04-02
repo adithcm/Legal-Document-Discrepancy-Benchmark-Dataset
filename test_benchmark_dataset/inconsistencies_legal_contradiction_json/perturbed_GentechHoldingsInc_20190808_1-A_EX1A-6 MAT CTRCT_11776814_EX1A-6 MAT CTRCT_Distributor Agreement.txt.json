@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company shall have Seven (7) business days after its receipt to accept (or reject for a legitimate business reason) any order submitted by Distributor. All the negotiations between Company and Distributor will be by INCOTERMS Ex-works, in origin farm, in Brazil. So will must be respected the Transite Time to destiny delivery. Should Company fail to timely accept or reject an order from Distributor in accordance with this Section, such order shall be deemed accepted and shall become binding on Company. All orders shall be fulfilled by Company within Seven (7) business days of order acceptance.",
+                "changed_text": "Company shall have One (1) business day after its receipt to accept (or reject for a legitimate business reason) any order submitted by Distributor. All the negotiations between Company and Distributor will be by INCOTERMS Ex-works, in origin farm, in Brazil. So will must be respected the Transite Time to destiny delivery. Should Company fail to timely accept or reject an order from Distributor in accordance with this Section, such order shall be deemed accepted and shall become binding on Company. All orders shall be fulfilled by Company within Fifteen (15) business days of order acceptance.",
+                "explanation": "The modification reduces the order acceptance period to one business day, which may be unreasonably short under the UCC, potentially conflicting with 'reasonable time' standards. Additionally, the fulfillment time is extended to fifteen business days, which could be considered unreasonable for order fulfillment under Florida's Commercial Code, especially if industry standards dictate faster turnaround times.",
+                "contradicted_law": "Florida's Uniform Commercial Code (UCC) and general contract law principles regarding reasonable time for acceptance and performance.",
+                "location": "2. ORDERS, PRICE, TERMS OF SALE & PAYMENT. (a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within Seven (7) days of receipt of such Products, Distributor will notify Company of any shortages, defects, non-conformance, and Company will promptly replace such Products free of charge.",
+                "changed_text": "Within One (1) day of receipt of such Products, Distributor will notify Company of any shortages, defects, non-conformance, and Company will replace such Products within 30 days of notification. If notification is given later than one day, the products will not be replaced.",
+                "explanation": "The change reduces the notification period for defects to one day, which may be insufficient for proper inspection, and extends the replacement timeframe to 30 days, which may be considered unreasonable. Additionally, denying replacement if notification occurs after one day could violate implied warranty laws, which guarantee products are free from defects and fit for purpose.",
+                "contradicted_law": "Implied Warranty of Merchantability under Florida's UCC and consumer protection laws regarding reasonable time for defect notification and remedy.",
+                "location": "2. ORDERS, PRICE, TERMS OF SALE & PAYMENT. (c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(g) The obligations of the Recipient Party under this Section 6 shall survive termination or nonrenewal of this Agreement for a period of thee (3) years.",
+                "changed_text": "(g) The obligations of the Recipient Party under this Section 6 shall survive termination or nonrenewal of this Agreement for a period of one (1) year.",
+                "explanation": "Reducing the confidentiality period to one year is unreasonably short for the protection of sensitive business information, especially considering that the definition of Proprietary Information is very broad (including product, software, services, and business strategies). This potentially contradicts Florida trade secret law, which protects trade secrets for as long as they remain confidential and provide a competitive advantage.",
+                "contradicted_law": "Florida Uniform Trade Secrets Act and general principles of contract law regarding reasonable protection of confidential information.",
+                "location": "6. CONFIDENTIAL & PROPRIETARY INFORMATION. (g)"
+            }
+        ]
+    }
+]

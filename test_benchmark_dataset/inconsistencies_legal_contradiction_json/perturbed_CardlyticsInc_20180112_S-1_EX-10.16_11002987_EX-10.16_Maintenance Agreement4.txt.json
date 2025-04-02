@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement. Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled \"Termination\" of the Agreement. If Bank of America terminates the Maintenance Services, Bank of America shall have the right to reinstate the Maintenance Services without paying any reinstatement fee.",
+                "changed_text": "The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive periods of 36 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement. Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled \"Termination\" of the Agreement. If Bank of America terminates the Maintenance Services, Bank of America shall have the right to reinstate the Maintenance Services; however, they will be required to pay a reinstatement fee equivalent to 24 months of maintenance fees.",
+                "explanation": "This change modifies the maintenance term renewal period from 12 months to 36 months, potentially creating an unreasonable commitment for Bank of America. Additionally, it introduces a reinstatement fee for maintenance services, which may conflict with standard business practice and could be considered an unfair business practice depending on the specific state's consumer protection laws. The reinstatement fee is highly unusual, and the long renewal period places a burden on the client.",
+                "contradicted_law": "Potential violation of state-specific unfair business practices laws and consumer protection laws.",
+                "location": "SCHEDULE A, Section C. Maintenance Services"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, including Bank of America holidays.",
+                "changed_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be limited to business hours, excluding weekends and Bank of America holidays.",
+                "explanation": "This change reduces the maintenance period from 24/7 to business hours only. This may violate implied warranties or service level agreements that require a certain level of uptime and availability, especially for critical software used in financial services. Reducing availability potentially violates the implied warranties and service level agreements.",
+                "contradicted_law": "Potential breach of implied warranty of merchantability or fitness for a particular purpose, potential violation of service level agreements (SLAs).",
+                "location": "PAYMENT TERMS, MAINTENANCE PERIOD"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Warranty Period DURATION\n\n120 days",
+                "changed_text": "Warranty Period DURATION\n\n30 days",
+                "explanation": "Reducing the warranty period from 120 days to 30 days may conflict with implied warranties under the Uniform Commercial Code (UCC), which provides baseline warranty protections to purchasers. This is especially true if the software is complex or mission-critical. State laws often expand upon the UCC, ensuring reasonable warranty periods for software and services.",
+                "contradicted_law": "Violation of implied warranty of merchantability or fitness for a particular purpose under the Uniform Commercial Code (UCC), and potentially state-specific warranty laws.",
+                "location": "PAYMENT TERMS, WARRANTY PERIOD"
+            }
+        ]
+    }
+]

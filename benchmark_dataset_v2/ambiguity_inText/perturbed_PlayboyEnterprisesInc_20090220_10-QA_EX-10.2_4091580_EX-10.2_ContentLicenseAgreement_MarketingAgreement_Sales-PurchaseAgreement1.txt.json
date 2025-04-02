@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PlayboyEnterprisesInc_20090220_10-QA_EX-10.2_4091580_EX-10.2_ContentLicenseAgreement_MarketingAgreement_Sales-PurchaseAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "EFS shall be permitted to sell Merchandise on EFS owned and operated shopping portal websites  (\"EFS Portals\") subject in all respects to the standards, approvals and requirements applicable to the sale of Merchandise on the  Websites and provided that integration with third party brands and products is acceptable to Client, approval not to be  unreasonably withheld. EFS agrees that it will use the merchandising presence on the EFS Portals to also market the Websites in  order to drive additional customer acquisition.",
+                "changed_text": "EFS shall be permitted to sell Merchandise on EFS owned and operated shopping portal websites  (\"EFS Portals\") subject in all respects to the standards, approvals and requirements applicable to the sale of Merchandise on the  Websites and provided that integration with third party brands and products is acceptable to Client, approval to be  unreasonably withheld. EFS is prohibited from using the merchandising presence on the EFS Portals to also market the Websites, maintaining a strict separation between the two platforms.",
+                "explanation": "This introduces a contradiction regarding EFS's ability to market the Websites through EFS Portals. The original text encourages it, while the modified text prohibits it, creating ambiguity in the contract.",
+                "location": "Section 2.8"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Client agrees that mass-customized Merchandise (i.e., Merchandise allowing  consumers to choose customizable options, including, but not limited to, color) shall be available for sale on the Websites and/or  through the Catalogs, such that customers may select and order pre-configured semi-customized Merchandise based upon  specifications that shall be agreed upon in advance by Client and EFS. EFS shall be responsible for fulfilling orders of all semi- customized Merchandise, including fulfilling any build-to-order or special features requested by the customer, as permitted during  the order process.",
+                "changed_text": "Client agrees that mass-customized Merchandise (i.e., Merchandise allowing  consumers to choose customizable options, including, but not limited to, color) may not be available for sale on the Websites and/or  through the Catalogs. Client retains the sole discretion to allow customers to select and order pre-configured semi-customized Merchandise. Client shall be responsible for fulfilling orders of all semi-customized Merchandise.",
+                "explanation": "The original text states that mass-customized merchandise *shall* be available while the modified states it *may not*. The modified text then contradicts itself by stating client is responsible for fulfilling the orders, when no merchandise may exist.  This change introduces ambiguity around whether customized merchandise is offered and who is responsible for which tasks.",
+                "location": "Section 2.9"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Client will provide image and descriptive content, the selection of which shall be at Client’ discretion, related  to the Client Inventory (as defined in Section 2.2) as may be in Client's possession, subject to rights availability and the license  grant contained in Section 7.1 (collectively, the \"Playboy Content\"), for use by EFS in connection with the Playboy Commerce  Business. Client shall use commercially reasonable efforts to ensure that all digital images provided to EFS conform to the file  format and size requirements specified by EFS. Client will use commercially reasonable efforts to provide EFS with at least six (6)  months notice prior to providing any new brand imagery, brand elements or style guides, and EFS will prepare a time and action  calendar for the updating of respective sections of the Websites and/or Catalogs.",
+                "changed_text": "Client will provide image and descriptive content, the selection of which shall be at EFS’ discretion, related  to the Client Inventory (as defined in Section 2.2) as may be in Client's possession, subject to rights availability and the license  grant contained in Section 7.1 (collectively, the \"Playboy Content\"), for use by EFS in connection with the Playboy Commerce  Business. Client is not responsible in any way to ensure that all digital images provided to EFS conform to the file  format and size requirements specified by EFS. The Client will provide EFS with new brand imagery, brand elements or style guides when convenient.",
+                "explanation": "Originally, the client was responsible to supply and make reasonable efforts to make all digital images fit the requirements of EFS. Now it is the clients decision on the image quality, and the Client is not required to use any commercial efforts to make sure its correct. It swaps the discretion of image choices and efforts to provide quality assets from client to EFS.",
+                "location": "Section 1.2(b)"
+            }
+        ]
+    }
+]

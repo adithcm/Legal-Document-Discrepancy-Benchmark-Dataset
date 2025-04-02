@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days. If such period is greater than ten (10) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "changed_text": "This Sub-Reseller Agreement is effective immediately upon the first party's signature, regardless of when the second party signs. If the dates of the Parties' signatures are separated by a period of time greater than one hundred and eighty (180) business days, the agreement will still be valid and enforceable.",
+                "explanation": "The original text requires signatures within ten business days for the agreement to be valid. The modified text extends this period to one hundred and eighty business days and states that the agreement is effective immediately upon the first signature. This contradicts standard contract law principles that require mutual agreement (offer and acceptance) for a contract to be formed. Some states have laws requiring contracts to be signed and dated within a reasonable timeframe. The altered text makes the agreement immediately effective upon the first signature, potentially binding the second party before they have even signed, creating legal ambiguity and contradicting contract formation principles.",
+                "contradicted_law": "General contract law principles regarding offer, acceptance, and mutual agreement; Statute of Frauds variations across states.",
+                "location": "Page 1, Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "changed_text": "Reseller's responsibility for Sub-Reseller's compliance is limited to providing Sub-Reseller with a copy of the Agreement. The Reseller is not responsible if the Sub-Reseller breaches this agreement.",
+                "explanation": "The original text makes the Reseller responsible for any breach by the Sub-Reseller. The modified text absolves the Reseller of any responsibility for the Sub-Reseller's actions, directly contradicting the original allocation of liability. This creates uncertainty and potential unenforceability, especially if the Sub-Reseller causes damages. This shift in liability could violate common law principles of agency and vicarious liability, depending on the specific nature of the reseller relationship and state laws.",
+                "contradicted_law": "Common law principles of agency, vicarious liability, and contract law related to delegation of duties.",
+                "location": "Page 1, Section 1"
+            }
+        ]
+    }
+]

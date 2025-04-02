@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_ContentLicenseAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Licensee shall pay to Fox a minimum recoupable guarantee of ***** dollars (US$*****) on or before ***** (\"ICE AGE 2 Guarantee\"), and Fox shall earn, and Licensee shall pay the applicable Major Release Royalties as set forth in Paragraph 7(a)(i) of the Agreement in connection with the property \"ICE AGE 2\". For the avoidance of doubt, there shall be no cross- collateralization of the Royalties collected from Licensee's sale, license, distribution or other exploitation of the Wireless Products derived from the Property \"ICE AGE 2\", with the Royalties collected from any other Wireless Products released by Licensee under this Agreement.",
+                "changed_text": "Licensee shall pay to Fox a minimum recoupable guarantee of ***** dollars (US$*****) on or before ***** (\"ICE AGE 2 Guarantee\"), and Fox shall earn, and Licensee shall pay the applicable Major Release Royalties as set forth in Paragraph 7(a)(i) of the Agreement in connection with the property \"ICE AGE 2\". For the avoidance of doubt, the Royalties collected from Licensee's sale, license, distribution or other exploitation of the Wireless Products derived from the Property \"ICE AGE 2\" may be cross-collateralized with the Royalties collected from any other Wireless Products released by Licensee under this Agreement.",
+                "explanation": "This change contradicts the original text by stating that cross-collateralization of royalties *is* allowed, whereas the original text explicitly forbade it. This creates uncertainty in the financial terms of the agreement.",
+                "location": "2(c)(ii)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Fox hereby reserves the right to distribute all Wireless Products through Fox's direct-to-consumer distribution channels, for which Fox shall retain a Distribution Fee as defined in Paragraph 4(a) of this Amendment.",
+                "changed_text": "Fox may, at its discretion, allow Licensee to distribute all Wireless Products through Fox's direct-to-consumer distribution channels, for which Fox shall retain a Distribution Fee as defined in Paragraph 4(a) of this Amendment.",
+                "explanation": "The original text grants Fox the explicit right to distribute wireless products. The modified text changes this right to be at Fox's discretion of allowing the Licensee to do it. The text implies that the Wireless Products are under control of the Licensee but, Fox has the control to release it directly or 'allow' Licensee.",
+                "location": "4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "With the exception of Licensee's Royalties payment obligations with respect to all Wireless Products released as of the date of this Amendment, and the obligations set forth in this Amendment, neither party shall have any further obligation under the Agreement, and all claims arising under the Agreement shall be mutually released.",
+                "changed_text": "With the exception of Licensee's Royalties payment obligations with respect to all Wireless Products released as of the date of this Amendment, and the obligations set forth in this Amendment, neither party shall have any further obligation under the Agreement, *except for claims of intellectual property infringement*, and all other claims arising under the Agreement shall be mutually released.",
+                "explanation": "This change creates an exception to the mutual release, specifically for intellectual property infringement claims. This contradicts the initial statement of a full and complete mutual release, creating ambiguity about which claims are still valid.",
+                "location": "5"
+            }
+        ]
+    }
+]

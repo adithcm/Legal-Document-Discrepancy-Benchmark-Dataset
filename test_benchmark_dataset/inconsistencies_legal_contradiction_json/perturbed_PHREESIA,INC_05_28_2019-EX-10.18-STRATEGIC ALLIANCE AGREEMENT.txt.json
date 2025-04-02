@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "As applicable under the Omnibus Reconciliation Act of 1980, until the expiration of four (4) years after the furnishing of Services pursuant to this Agreement, the Company will, upon receipt of written request, and if then requested to make such information available under the then-existing Law, make available to the Secretary of the U.S. Department of Health and Human Services, the Comptroller General of the U.S. Department of Secretary of Health and Human Services, or any of their fully-authorized representatives, the books, documents, and/or records of the Company that are necessary to verify the nature and extent of costs associated therewith.",
+                "changed_text": "As applicable under the Omnibus Reconciliation Act of 1980, until the expiration of one (1) year after the furnishing of Services pursuant to this Agreement, the Company will, upon receipt of written request, make available to the Secretary of the U.S. Department of Health and Human Services, the Comptroller General of the U.S. Department of Secretary of Health and Human Services, or any of their fully-authorized representatives, the books, documents, and/or records of the Company that are necessary to verify the nature and extent of costs associated therewith.",
+                "explanation": "The original text requires maintaining records for four years to comply with the Omnibus Reconciliation Act. Reducing this to one year creates non-compliance, as healthcare regulations often mandate longer retention periods for financial records related to services provided under federal programs.",
+                "contradicted_law": "Omnibus Reconciliation Act of 1980",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In order to activate Merchant Processing Services for a Merchant Processing Services Customer, the proposed Merchant Processing Services Customer must submit (directly or indirectly through Allscripts) a completed Merchant Application and executed Merchant Agreement to the Company within [***] from the execution by such Merchant Processing Services Customer of a Customer Agreement.",
+                "changed_text": "In order to activate Merchant Processing Services for a Merchant Processing Services Customer, the proposed Merchant Processing Services Customer must submit a completed Merchant Application and executed Merchant Agreement to the Company within 15 months from the execution by such Merchant Processing Services Customer of a Customer Agreement.",
+                "explanation": "This section sets a deadline for submitting the merchant application and agreement. Changing the unspecified time-frame to '15 months' may create issues with card processing rules. Payment Card Industry Data Security Standard (PCI DSS) compliance requires timely processing of applications and agreements to ensure proper vetting and risk management. Delays beyond reasonable durations might violate PCI DSS standards.",
+                "contradicted_law": "Payment Card Industry Data Security Standard (PCI DSS)",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Subject to the terms and conditions of this Section 17.3, each party will pay all properly invoiced fees within [***] after its receipt of a proper invoice therefor. All payments hereunder will be invoiced in U.S. Dollars. All payments hereunder will be made by wire transfer to the account specified by each Party; provided that a Party shall provide at least [***] advance notice of any changes to its account.",
+                "changed_text": "Subject to the terms and conditions of this Section 17.3, each party will pay all properly invoiced fees within 90 days after its receipt of a proper invoice therefor. All payments hereunder will be invoiced in U.S. Dollars. All payments hereunder will be made by wire transfer to the account specified by each Party; provided that a Party shall provide at least 24 hours advance notice of any changes to its account.",
+                "explanation": "The clause originally allows for an unspecified time to pay invoices with an unspecified advance notice for changes to the payment account. Changing the payment timeframe to '90 days' and reducing the advance notice to '24 hours' introduces a legal contradiction. Many states have prompt payment laws that require invoices to be paid within shorter periods (e.g., 30-45 days), especially in healthcare. Also, 24-hour notice for payment account changes may not be considered reasonable under commercial law, potentially leading to disputes over misdirected payments.",
+                "contradicted_law": "State Prompt Payment Laws (e.g., for healthcare invoices)",
+                "location": "Section 17.3(b)"
+            }
+        ]
+    }
+]

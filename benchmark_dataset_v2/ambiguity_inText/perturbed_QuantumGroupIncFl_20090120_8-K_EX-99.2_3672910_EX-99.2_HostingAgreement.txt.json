@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Bandwidth\" means the measurement of samples of usage taken every five (5) minutes during a calendar month and collecting two (2) readings (cumulative of inbound feeds and cumulative of outbound feeds at the same measured point in time). The measurements are stored and become data points. At the end of the month, all data points taken during the month are ranked in ascending order. IBM will discard the top five percent (5%) for each set (inbound and outbound) of data points. The highest remaining sample of the two (2) sets becomes the Customer's Committed or Burstable usage number for that billing cycle.",
+                "changed_text": "\"Bandwidth\" means an estimate of data transfer calculated based on a reasonable projection of Customer's anticipated usage, subject to adjustment every quarter. IBM will review bandwidth consumption with Customer quarterly and will adjust billing accordingly. Customer can request an ad-hoc report and adjustments can be made at that time too, if approved by IBM. There is no fixed Committed or Burstable usage number.",
+                "explanation": "The original definition provides a precise method for calculating bandwidth using sampled data points and discarding the top 5%. The modified version introduces an estimate and review process, removing any fixed measure. This creates a contradiction because one definition uses data points, and the other uses estimations.",
+                "location": "Section 2.0 Definitions"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "IBM will perform the Services described in Attachment A and other applicable Attachments. IBM Contact IBM will designate an individual to whom Customer will address communications specific to the provision of the Services provided under this Agreement (\"IBM Contact\").",
+                "changed_text": "IBM will endeavor to perform the Services generally described in Attachment A, subject to resource availability. The exact scope of Services will be determined on a case-by-case basis. IBM Contact Customer service representatives will address all communications from the Customer.",
+                "explanation": "The original text commits IBM to perform services described in Attachment A, while the modified text makes the performance subject to resource availability and determination on a case-by-case basis, potentially excusing IBM from fulfilling all listed services. Also it says Customer Service Reps will now be the initial point of contact.",
+                "location": "Section 3.0 IBM Services Responsibilities"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "IBM, in its reasonable discretion, may change the terms and conditions of Attachment A upon at least ninety (90) days prior notice to Customer if such change was the result of: law, regulation, or similar governmental action; a ruling by a court of competent jurisdiction; or changes in the method of service delivery that affect similar IBM e-business hosting customers. Changes as a result of a, b, or c above will be effective on the date IBM specifies in the notice.",
+                "changed_text": "IBM, in its sole discretion, may change the terms and conditions of Attachment A at any time with no prior notice to the Customer. All such changes will be effective immediately.",
+                "explanation": "The original text restricts IBM's ability to change terms to specific situations with 90 days' notice, while the modified text grants IBM unilateral and immediate change authority, creating ambiguity about the conditions under which Attachment A can be altered.",
+                "location": "Section 13.0 Changes - Service Description"
+            }
+        ]
+    }
+]

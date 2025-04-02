@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ICORECONNECTINC_10_13_2010-EX-7.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2. COMPENSATION   ●IMedicor will charge a subscription fee to participating USA MCO providers. The suggested monthly subscription would be $19.95 per month per subscriber. USA MCO would receive one third of the monthly subscription price, per month, per subscriber (approximately $6.65). All revenue sharing opportunities will be calculated for all parties after any credit card or other third party processing fees are deducted from the gross sale.",
+                "changed_text": "2. COMPENSATION   ●IMedicor will charge a subscription fee to participating USA MCO providers. The suggested monthly subscription would be $19.95 per month per subscriber. USA MCO would receive one third of the monthly subscription price, per month, per subscriber (approximately $6.65). All revenue sharing opportunities will be calculated for all parties before any credit card or other third party processing fees are deducted from the gross sale.",
+                "explanation": "The original states revenue sharing is calculated *after* processing fees, the modification states it is calculated *before* fees. This creates conflicting instructions on how revenue is shared.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3. TERM   This Agreement shall commence on the Effective Date of this Agreement and shall remain in effect for a period of 5 years (\"Initial Term\"). Thereafter, this Agreement shall be renewed automatically on a five (5) year basis, unless one party notifies the other of its desire to terminate this Agreement at least sixty 90 days prior to the expiration of the Initial Term or then current renewal term, as applicable, or unless a new Agreement is signed between the USA MCO and IMedicor which will then invalidate this Agreement.",
+                "changed_text": "3. TERM   This Agreement shall commence on the Effective Date of this Agreement and shall remain in effect for a period of 5 years (\"Initial Term\"). Thereafter, this Agreement shall be renewed automatically on a five (5) year basis, unless one party notifies the other of its desire to terminate this Agreement at least 120 days prior to the expiration of the Initial Term or then current renewal term, as applicable, or unless a new Agreement is signed between the USA MCO and IMedicor which will then invalidate this Agreement.",
+                "explanation": "The original termination notice period is both 'sixty' and '90' days, which conflicts with each other. Modified text changes the conflicting 'sixty 90' days to 120 days. This creates a conflict since the contract is implying that it can be terminated at 60 or 90 days as written with both values. Changing it to 120 creates a conflict as there will be a dispute on the term as 'sixty 90'.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "A. Termination Without Cause. Both parties may terminate this Agreement upon ninety (\"90\") days written notice to the other party at the address stated in this Agreement as per section 3 above.",
+                "changed_text": "A. Termination Without Cause. Both parties may terminate this Agreement upon thirty (\"30\") days written notice to the other party at the address stated in this Agreement as per section 3 above.",
+                "explanation": "Section 3 specifies a potential termination notice of 'sixty 90' days while Section 5.A now states '30' days. This contradiction creates confusion around the required notice period for termination without cause. The notice period will cause legal dispute.",
+                "location": "Section 5.A"
+            }
+        ]
+    }
+]

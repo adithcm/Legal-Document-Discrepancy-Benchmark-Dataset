@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the term of this Agreement and for one year thereafter, VerticalNet shall have the right to appoint a certified public accountant to audit Impresse's financial records relating to such payment to verify the accuracy of Impresse's financial records in order to verify the amount of the payments owed and/or paid hereunder, but no more frequently than once per year.",
+                "changed_text": "During the term of this Agreement and for five years thereafter, VerticalNet shall have the right to appoint any auditor to audit Impresse's financial records relating to any payment, regardless of relevance, to verify any financial aspect of Impresse, as frequently as four times per year.",
+                "explanation": "The original text allows for audits for one year after the term, by a certified public accountant and limited to the accuracy of payments owed under the agreement, and no more than once a year. This is fairly standard and reasonable. The modified text extends this to five years, allows any auditor (not just certified), broadens the scope beyond payments owed under this agreement to 'any financial aspect', and increases the frequency to four times per year. This creates an unreasonable burden on Impresse, potentially violating implied covenants of good faith and fair dealing and potentially creating issues of commercial unreasonableness and violation of privacy laws depending on the breadth of 'any financial aspect'.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing; potential violations of privacy laws depending on the scope of the audit.",
+                "location": "4.8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Following termination, Impresse shall provide VerticalNet with a final accounting with respect to this Agreement and tender payment of amounts due under Article 4  [THE COMMERCIAL TERMS] at the next scheduled payment date.",
+                "changed_text": "Following termination, Impresse shall provide VerticalNet with a final accounting with respect to this Agreement and tender payment of amounts due under Article 4 [THE COMMERCIAL TERMS] only if VerticalNet requests it in writing within 180 days of termination. If VerticalNet fails to request it, Impresse has no obligation to pay.",
+                "explanation": "This change introduces a potential contradiction with accounting laws and principles. Generally, companies are required to accurately account for and pay all outstanding debts regardless of whether a request is made. By making the payment contingent on VerticalNet's request within a specific timeframe (180 days), the modified clause could allow Impresse to avoid paying legitimately owed amounts simply because VerticalNet missed the deadline. This is contrary to standard commercial practices and accounting regulations requiring accurate financial record-keeping and timely payment of obligations. It also creates a condition that could violate the implied duty of good faith and fair dealing.",
+                "contradicted_law": "Generally Accepted Accounting Principles (GAAP); potential violation of implied duty of good faith and fair dealing.",
+                "location": "5.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "User Data shall be maintained by each Party as Confidential Information of the other Party during the Term and 5 years thereafter, provided such User Data may be disclosed only as part of an aggregation or analysis of all User Data but not as independent data. Upon termination of the Agreement, VerticalNet and Impresse shall jointly own all User Data. Neither Party shall use the User Data other than in accordance with the VerticalNet privacy policy and all applicable laws during the Term and thereafter.",
+                "changed_text": "User Data shall be maintained by each Party as Confidential Information of the other Party during the Term, but may be freely used and disclosed to third parties immediately upon termination of this agreement, regardless of privacy policies or applicable laws. Upon termination of the Agreement, VerticalNet and Impresse shall jointly own all User Data. Neither Party shall use the User Data other than in accordance with the VerticalNet privacy policy and all applicable laws during the Term and thereafter.",
+                "explanation": "By allowing free use and disclosure of user data to third parties immediately upon termination, this modified clause contradicts various state and federal privacy laws (e.g., CCPA in California if the data pertains to California residents) that require continued protection of personal information even after a contract ends. It also conflicts with the statement that neither party shall use the User Data other than in accordance with applicable laws during the Term and thereafter, which remains in the text but is directly contradicted. This creates a direct legal contradiction and a potential violation of privacy regulations.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA), other state and federal privacy laws.",
+                "location": "7.6"
+            }
+        ]
+    }
+]

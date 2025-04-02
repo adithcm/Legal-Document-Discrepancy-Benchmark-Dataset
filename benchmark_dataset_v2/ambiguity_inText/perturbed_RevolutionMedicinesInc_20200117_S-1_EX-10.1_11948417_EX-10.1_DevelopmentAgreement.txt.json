@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.38 \"FTE\" means a full time equivalent person year (consisting of [***] hours per year) of work as an employee or contractor [***] hereunder as tracked by each Party using its respective standard practice and methodologies. For clarity, [***] will not constitute FTEs. Notwithstanding the foregoing, the time of a single individual will not account for more than one FTE for a given Calendar Year (or applicable pro-rata portion of an FTE during any Calendar Quarter or other period of less than a Calendar Year).",
+                "changed_text": "1.38 \"FTE\" means a full time equivalent person year (consisting of [***] hours per year) of work as an employee or contractor [***] hereunder as tracked by each Party using its respective standard practice and methodologies. For clarity, [***] will not constitute FTEs. Notwithstanding the foregoing, the time of a single individual may account for more than one FTE for a given Calendar Year if that employee contributes to multiple projects under this agreement.",
+                "explanation": "The original definition states that a single individual cannot account for more than one FTE, while the modified definition allows for the possibility of an individual accounting for multiple FTEs if they contribute to multiple projects. This contradiction creates ambiguity in calculating FTE costs and resource allocation.",
+                "location": "Section 1.38"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.119 \"SHP2 Inhibitor\" means [***].",
+                "changed_text": "1.119 \"SHP2 Inhibitor\" means [***].  Notwithstanding the foregoing, for the purposes of Section 3.5(a), SHP2 Inhibitor specifically excludes any molecule with a molecular weight greater than 1000 Daltons.",
+                "explanation": "This perturbation creates a conflicting definition for \"SHP2 Inhibitor\". While section 1.119 defines it generally, the modified text adds an exclusion based on molecular weight that only applies to a specific section. This could cause confusion and disputes regarding what constitutes an SHP2 Inhibitor in contexts other than section 3.5(a).",
+                "location": "Section 1.119"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "12.3(c)(ii)A. License Grants.\n\n1. RevMed License to SHP2 Inhibitors. Sanofi shall, effective upon any such termination of this Agreement, and hereby does, grant to RevMed [***], under all [***], and [***], to [***]. Notwithstanding the foregoing, [***] shall not include [***], and [***] shall include [***] (to the extent [***]).",
+                "changed_text": "12.3(c)(ii)A. License Grants.\n\n1. RevMed License to SHP2 Inhibitors. Sanofi shall, effective upon any such termination of this Agreement, and hereby does, grant to RevMed [***], under all [***], and [***], to [***]. Notwithstanding the foregoing, [***] shall include [***] and [***] shall exclude [***].",
+                "explanation": "The original text and the changed text has conflicting statements of inclusion and exclusion. In the original [***] shall not include [***], and [***] shall include [***], and in the changed text [***] shall include [***] and [***] shall exclude [***]. These statements contradict each other making it difficult to assert which one is the correct statement, therefore creating a valid perturbation.",
+                "location": "Section 12.3(c)(ii)A"
+            }
+        ]
+    }
+]

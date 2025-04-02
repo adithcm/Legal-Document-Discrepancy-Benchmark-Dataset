@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "XpresspaGroupInc_20190401_10-K_EX-10.28_11599457_EX-10.28_Marketing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Following the Initial Term, this Agreement shall automatically renew for successive terms of six (6) months (each a \"Renewal Term\", and together with the Initial Term, the \"Term\") unless written notice is given by either Party no later than thirty (30) days in advance of the expiration of the Initial Term or the applicable Renewal Term.",
+                "changed_text": "Following the Initial Term, this Agreement shall automatically renew for successive terms of six (6) months (each a \"Renewal Term\", and together with the Initial Term, the \"Term\") unless written notice is given by either Party no later than five (5) days in advance of the expiration of the Initial Term or the applicable Renewal Term.",
+                "explanation": "The original text requires a 30-day notice for non-renewal. The modified text shortens this to 5 days. This creates a legal contradiction because, depending on the jurisdiction, such a short notice period may be deemed unreasonable and therefore unenforceable, conflicting with general contract law principles of fairness and reasonable notice.",
+                "contradicted_law": "General contract law principles regarding reasonable notice for non-renewal of contracts; specific state laws on contract termination notice periods.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "XSPA's representatives may, from time to time during regular business hours on reasonable advance notice, during the Term of this Agreement and for a period of six (6) months thereafter, inspect and audit such books and records and examine and copy all other documents and material in the possession or under the control of Calm with respect to the subject matter and the terms of this Agreement.",
+                "changed_text": "XSPA's representatives may, at any time without prior notice, inspect and audit such books and records and examine and copy all other documents and material in the possession or under the control of Calm with respect to the subject matter and the terms of this Agreement. After the term of this agreement, there shall be no right to inspect or audit books and records.",
+                "explanation": "The original text requires 'reasonable advance notice' for audits, protecting Calm from disruptive, unannounced intrusions. The modification eliminates this requirement, allowing XSPA to conduct audits at any time without notice. This could be deemed an unreasonable intrusion into Calm's business operations, potentially violating implied covenants of good faith and fair dealing inherent in contract law. The second modification eliminates the 6 month period, which violates business record laws and accounting standards.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing in contract law; state and federal laws related to business operations and privacy.",
+                "location": "Section 8.02"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the indemnified Party fails to consent to such firm offer within ten (10) days after its receipt of such notice, the indemnified Party may continue to contest or defend such Claim and in such event, the maximum liability of the indemnifying Party as to such Claim shall not exceed the amount of such settlement offer.",
+                "changed_text": "If the indemnified Party fails to consent to such firm offer within two (2) days after its receipt of such notice, the indemnified Party may continue to contest or defend such Claim and in such event, the maximum liability of the indemnifying Party as to such Claim shall not exceed the amount of such settlement offer.",
+                "explanation": "The original text provides 10 days for the indemnified party to consider a settlement offer. Reducing this to 2 days creates a potential contradiction with legal standards of reasonableness, as 2 days may be insufficient time to adequately assess the offer and seek legal counsel. This could be challenged as an unconscionable or unfair term.",
+                "contradicted_law": "General principles of contract law regarding fairness, conscionability, and adequate time to consider offers; state-specific laws regarding contract interpretation and enforceability.",
+                "location": "Section 10.04"
+            }
+        ]
+    }
+]

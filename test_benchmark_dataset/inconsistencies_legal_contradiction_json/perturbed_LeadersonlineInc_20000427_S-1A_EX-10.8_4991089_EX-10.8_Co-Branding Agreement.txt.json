@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LeadersonlineInc_20000427_S-1A_EX-10.8_4991089_EX-10.8_Co-Branding Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "LeadersOnline shall pay VerticalNet *** percent (***%) of LeadersOnline- VerticalNet Revenue, payable to VerticalNet  on or before the fifteenth day of  the calendar month immediately following the month in which such revenue was received by LeadersOnline.",
+                "changed_text": "LeadersOnline shall pay VerticalNet *** percent (***%) of LeadersOnline- VerticalNet Revenue, payable to VerticalNet  on or before the last day of the calendar quarter immediately following the quarter in which such revenue was received by LeadersOnline.",
+                "explanation": "The original text requires payment by the 15th of the following month. This is modified to the end of the following calendar quarter, potentially conflicting with state laws that mandate more frequent payment schedules for revenue sharing or commission-based compensation. Delaying the payment can create a legal issue.",
+                "contradicted_law": "Potential violation of state laws regarding timely payment of commissions or revenue sharing agreements.",
+                "location": "6.3.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Party may terminate this Agreement immediately upon written notice to the other Party in the event of any material breach of a term of this Agreement by such other Party that remains uncured 30 days after notice of such breach was received by such other Party or, if the breach is not reasonably capable of cure within 30 days, such longer period, not to exceed 60 days, so long as the cure is commenced within the 30-day period and thereafter is diligently prosecuted to completion as soon as possible and in any event within 60 days.",
+                "changed_text": "Either Party may terminate this Agreement immediately upon written notice to the other Party in the event of any breach of a term of this Agreement by such other Party that remains uncured 10 days after notice of such breach was received by such other Party.",
+                "explanation": "The original text allows a 30-60 day cure period for a material breach. The modification reduces this cure period to 10 days for *any* breach. This could contradict implied covenant of good faith and fair dealing in contracts, which requires a reasonable opportunity to cure breaches, and potentially violates state laws that mandate specific cure periods for certain types of breaches (e.g., lease agreements, service contracts).",
+                "contradicted_law": "Potential violation of implied covenant of good faith and fair dealing; possible conflict with state-specific cure period requirements.",
+                "location": "7.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The confidentiality obligations contained in this Article 9 shall survive termination of this Agreement for a period of three (3) years.",
+                "changed_text": "The confidentiality obligations contained in this Article 9 shall survive termination of this Agreement for a period of one (1) year.",
+                "explanation": "Reducing the survival period for confidentiality obligations to one year may conflict with trade secret laws, particularly the Uniform Trade Secrets Act (UTSA), which many states have adopted. The UTSA protects trade secrets as long as they remain secret and provide a competitive advantage. A one-year confidentiality period might be insufficient to protect certain trade secrets, thus diminishing their legal protection and violating the implied duty to protect the other party's confidential information.",
+                "contradicted_law": "Potential conflict with the Uniform Trade Secrets Act and state trade secret laws.",
+                "location": "9.3"
+            }
+        ]
+    }
+]

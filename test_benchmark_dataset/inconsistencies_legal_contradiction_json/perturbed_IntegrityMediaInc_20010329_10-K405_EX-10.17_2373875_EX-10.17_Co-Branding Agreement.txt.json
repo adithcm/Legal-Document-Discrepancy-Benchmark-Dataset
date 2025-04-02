@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-Branding Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Accounting statements and, if applicable, royalty payments\n          for products sold will be rendered by each party quarterly within sixty\n          (60) days after the expiration of each calendar quarter.",
+                "changed_text": "Accounting statements and, if applicable, royalty payments\n          for products sold will be rendered by each party annually within one hundred and eighty (180) days after the expiration of each calendar year.",
+                "explanation": "Changing the accounting period from quarterly to annually, and extending the payment timeframe to 180 days, introduces a contradiction with standard accounting practices and potentially violates laws requiring more frequent and timely royalty reporting and payments, particularly in jurisdictions with specific regulations on royalty payment frequency.",
+                "contradicted_law": "Potential violation of state laws regarding timely royalty payments and accounting practices. Varies by jurisdiction, but many states have regulations requiring more frequent and transparent accounting than annual reports.",
+                "location": "6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party, at its sole expense, upon at least\n          thirty (30) days written notice (and not more than once in respect of\n          any accounting period) will have the right to inspect the other party's\n          books regarding the obligations hereunder for a period of two (2) years\n          from the date on which any statement is rendered. Such auditing party\n          must make specific written objection within such two (2) year period.\n          Thereafter, it will be deemed to have consented to any such statements\n          or accountings which will then be considered an account stated as\n          between the parties, not subject to any objection for any reason\n          whatsoever. Provided the objecting party has made timely written\n          objection, as aforesaid, such party may file an action regarding same\n          within two (2) years and six (6) months after the applicable statement\n          is rendered, after which time any such action will be deemed barred.",
+                "changed_text": "Either party, at its sole discretion, may inspect the other party's\n          books regarding the obligations hereunder with no prior notice. Any objection to the accounting must be made within six (6) months after the statement is rendered, after which time any such action will be deemed barred.",
+                "explanation": "Removing the requirement for prior notice before inspecting the books contradicts standard audit practices and could be seen as an unreasonable intrusion. Reducing the objection period to 6 months conflicts with statutes of limitations for breach of contract in many jurisdictions (including Tennessee, where the contract is governed by according to 13b) which typically allow for a longer period to discover and address discrepancies. This could illegally shorten the time a party has to legally challenge accounting errors.",
+                "contradicted_law": "Breach of contract statute of limitations in Tennessee and other jurisdictions, which generally provide a longer period (e.g., 4-6 years) to file a claim.",
+                "location": "6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event of such an\n      assignment by either party of its rights to an unrelated third party,\n          the other party shall be given written notice, then in such event the\n          other party may upon six-months (6-months) written notice terminate\n          this Agreement.",
+                "changed_text": "In the event of an assignment by either party of its rights to an unrelated third party, the other party may, at the assigning party's discretion, be notified. Termination of this agreement due to assignment is prohibited.",
+                "explanation": "Removing the mandatory notification and right to terminate upon assignment contradicts common law principles of contract assignability and potentially violates implied duties of good faith and fair dealing. Some jurisdictions require notice and/or consent for assignment of contractual obligations. Furthermore, prohibiting termination entirely could be deemed an unreasonable restriction, especially if the assignee is unsuitable.",
+                "contradicted_law": "Potential violations of implied duties of good faith and fair dealing and contract law principles regarding reasonable restrictions on assignability and termination rights.",
+                "location": "12"
+            }
+        ]
+    }
+]

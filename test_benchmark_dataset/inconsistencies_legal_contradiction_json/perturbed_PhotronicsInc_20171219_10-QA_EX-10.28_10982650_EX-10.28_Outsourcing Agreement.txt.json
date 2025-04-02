@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_Outsourcing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***]within 1 hour of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within 1 hour shall constitute acceptance of such [***].",
+                "explanation": "This change reduces the time frame for suppliers to accept or reject a purchase order to 1 hour. This timeframe is unreasonably short and could be deemed commercially unconscionable, potentially conflicting with general principles of contract law that require a reasonable opportunity to review and respond to offers. Under the UCC, parties must have a reasonable time to inspect goods and either accept or reject. One hour is not reasonable to inspect the details of a purchase order. Further, it could create a situation where a supplier is deemed to have accepted an order they could not realistically fulfill, potentially leading to breach of contract issues.",
+                "contradicted_law": "Uniform Commercial Code (UCC) principles regarding reasonable time for acceptance or rejection of goods/offers.",
+                "location": "2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within 120 days from the shipment of the applicable Products delivered.",
+                "explanation": "This change extends the payment term to 120 days. Such an extended payment term might violate laws related to fair payment practices, especially if it is significantly longer than industry standards. Laws like the Prompt Payment Act, which while primarily focused on government contracts, set standards for payment timelines. If the industry standard payment time is much shorter than 120 days, this could be seen as an unfair or predatory practice, potentially violating good faith and fair dealing requirements in contract law.",
+                "contradicted_law": "Potential violation of state or federal fair payment laws and principles of good faith and fair dealing.",
+                "location": "4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A Party shall have the right to terminate its obligations under this Agreement if the other Party materially breaches this Agreement and fails to cure such breach within thirty (30) days after its receipt of written notice of the breach specifying such default.",
+                "changed_text": "A Party shall have the right to terminate its obligations under this Agreement if the other Party materially breaches this Agreement and fails to cure such breach within ten (10) days after its receipt of written notice of the breach specifying such default.",
+                "explanation": "This change reduces the cure period for a material breach from 30 days to 10 days. Depending on the nature of the breach and the industry standards, a 10-day cure period may be deemed unreasonably short, conflicting with principles of fairness and reasonableness in contract law. Courts often consider the complexity of the issue and the efforts required to remedy the breach when determining the adequacy of a cure period. Shortening it to 10 days makes it much more likely a breach could lead to contract termination.",
+                "contradicted_law": "Principles of contract law related to reasonableness and fairness of cure periods.",
+                "location": "7.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MACY_S,INC_05_11_2020-EX-99.4-JOINT FILING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The undersigned acknowledge that each shall be responsible for the timely filing of any amendments, and for the completeness and accuracy of the information concerning the undersigned or contained herein and therein, but shall not be responsible for the completeness and accuracy of the information concerning the others.",
+                "changed_text": "The undersigned acknowledge that each shall be responsible for filing amendments within 30 days of a triggering event, but assumes no responsibility for the completeness and accuracy of any information contained within the filing, including information concerning the undersigned.",
+                "explanation": "This change directly contradicts SEC regulations regarding the accuracy and completeness of Schedule 13D filings. SEC rules mandate that each reporting person is responsible for the accuracy of the information they provide, not just for timely filing. Furthermore, it sets a deadline of '30 days of a triggering event', which conflicts with the SEC's expectation of prompt amendment filings. In some instances, material changes require filing far sooner than 30 days. These modifications are inconsistent with obligations to provide timely and accurate information.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 13d-1 and related SEC regulations on Schedule 13D filings",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "VESA EQUITY INVESTMENT S.À R.L. /s/ Marek Spurny By: Marek Spurny Title:Authorized Signatory /s/ Pascal Leclerc By: Pascal Leclerc Title:Authorized Signatory",
+                "changed_text": "VESA EQUITY INVESTMENT S.À R.L. /s/ Marek Spurny Title:Authorized Signatory",
+                "explanation": "Removing Pascal Leclerc's signature and title creates a contradiction if both individuals are required signatories according to the company's bylaws or Luxembourg law, where VESA EQUITY INVESTMENT S.À R.L. is organized. If corporate governance requires two signatures, this change renders the agreement potentially invalid or unenforceable.",
+                "contradicted_law": "Corporate governance laws of Luxembourg regarding authorized signatories for S.À R.L. companies.",
+                "location": "Signature Block 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The undersigned hereby agree to the joint filing with each of the Reporting Persons (as such term is defined in the Schedule 13D referred to below) on behalf of each of them of a statement on Schedule 13D (including amendments thereto and statements on Schedule 13G) with respect to the Common Stock, par value $0.01 per share of Macy's, Inc., a corporation organized under the laws of the State of Delaware, and that this agreement may be included as an exhibit to such joint filing.",
+                "changed_text": "The undersigned hereby agree to the joint filing with each of the Reporting Persons (as such term is defined in the Schedule 13D referred to below) on behalf of one designated Reporting Person of a statement on Schedule 13D (excluding amendments thereto and statements on Schedule 13G) with respect to the Common Stock, par value $0.01 per share of Macy's, Inc., a corporation organized under the laws of the State of Delaware, and that this agreement may not be included as an exhibit to such joint filing.",
+                "explanation": "This change creates multiple conflicts with SEC regulations. First, it restricts the joint filing to 'one designated Reporting Person,' contradicting the purpose of a joint filing agreement, which is to allow multiple parties to collectively report their ownership. Second, excluding 'amendments thereto and statements on Schedule 13G' violates the requirement to update filings when material changes occur and to report ownership in Schedule 13G when applicable. Finally, stating that 'this agreement may not be included as an exhibit' violates the SEC's explicit requirement for including the joint filing agreement as an exhibit to the Schedule 13D.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 13d-1 and related SEC regulations on Schedule 13D filings",
+                "location": "Paragraph 1"
+            }
+        ]
+    }
+]

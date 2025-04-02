@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190509_10-Q_EX-10.2_11661422_EX-10.2_Distributor Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor has the right to cancel, reschedule or modify all or any portion of a purchase order that has been accepted by Xplore at no cost to Distributor only if such cancellation or modification request is made within [*****] business days of PO acceptance or rescheduling request is made at least [*****] business days prior to the most current Estimated Shipping Date for that purchase order.",
+                "changed_text": "Distributor has the right to cancel, reschedule or modify all or any portion of a purchase order that has been accepted by Xplore at no cost to Distributor only if such cancellation or modification request is made within 1 business day of PO acceptance or rescheduling request is made at least 1 business day prior to the most current Estimated Shipping Date for that purchase order.",
+                "explanation": "Reducing the cancellation window to '1 business day' is unreasonable and could be considered an unfair business practice, potentially violating state-level consumer protection laws or the implied covenant of good faith and fair dealing, which exists in most US states. The original text already has a placeholder but the change significantly reduces the time permitted and introduces a legal contradiction. It doesn't provide reasonable opportunity to cancel the purchase order.",
+                "contradicted_law": "State consumer protection laws (e.g., Unfair Trade Practices Act) and the implied covenant of good faith and fair dealing.",
+                "location": "Exhibit B, Article I, Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor will then have [*****] business days to accept, or reject, the alternative terms of Xplore for that certain purchase order. If Distributor rejects such alternative terms, the purchase order will not be accepted by Xplore.",
+                "changed_text": "Distributor will then have 1 business day to accept, or reject, the alternative terms of Xplore for that certain purchase order. If Distributor rejects such alternative terms, the purchase order will not be accepted by Xplore.",
+                "explanation": "Providing only '1 business day' to accept or reject alternative terms is an unreasonably short period, especially for complex commercial transactions. This could be deemed unconscionable or a violation of fair business practices, especially if the alternative terms significantly deviate from the original agreement. This change introduces the legal contradiction by imposing an unfair time constraint.",
+                "contradicted_law": "State contract law principles regarding unconscionability and fair business practices.",
+                "location": "Exhibit B, Article I, Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor shall use commercially reasonable efforts to maintain thirty (30) days of stock in Distributor's inventory to support sales. Xplore acknowledges that from time to time, Distributor's inventory levels may fall below the thirty (30) days goal that is agreed upon by both Parties. If inventory levels fall below the thirty (30) day goal for more than sixty (60) consecutive days, Xplore, upon written notice to Distributor, shall replenish the stock to an amount agreed by both Parties.",
+                "changed_text": "Distributor shall maintain thirty (30) days of stock in Distributor's inventory to support sales. If inventory levels fall below the thirty (30) day goal for more than fifteen (15) consecutive days, Xplore, at its sole discretion, may terminate this agreement effective immediately without any notice to the Distributor.",
+                "explanation": "This modification introduces a legal contradiction related to termination clauses and potential breach of contract. Reducing the grace period for inventory shortfall to 'fifteen (15) consecutive days' and granting Xplore the right to terminate 'immediately without any notice' is unreasonable and potentially violates the implied covenant of good faith and fair dealing. The original text implied a collaborative approach to resolving inventory issues, while the modified version allows for abrupt termination, which can be viewed as an unfair business practice. This creates non-compliance with regulatory standards related to fair business practices and reasonable contract termination clauses.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing, state contract law regarding reasonable termination clauses, and potential violations of unfair trade practices acts.",
+                "location": "Exhibit B, Article I, Section 4"
+            }
+        ]
+    }
+]

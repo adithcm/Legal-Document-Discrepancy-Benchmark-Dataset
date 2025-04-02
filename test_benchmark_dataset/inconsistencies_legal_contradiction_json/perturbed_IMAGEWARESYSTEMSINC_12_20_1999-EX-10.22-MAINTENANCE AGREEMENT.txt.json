@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IMAGEWARESYSTEMSINC_12_20_1999-EX-10.22-MAINTENANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "MORPHO shall pay all charges under this Agreement, including the total Annual Maintenance Charge, within thirty (30) days after receipt of a valid invoice from XIMAGE. Thereafter, the then applicable Annual Maintenance Charge shall be invoiced to, and paid by MORPHO prior to the beginning of the next annual maintenance period. All other charges under this Agreement shall be invoiced by XIMAGE and shall be due and payable within thirty (30) days after receipt of the invoice.",
+                "changed_text": "MORPHO shall pay all charges under this Agreement, including the total Annual Maintenance Charge, within sixty (60) days after receipt of a valid invoice from XIMAGE. Thereafter, the then applicable Annual Maintenance Charge shall be invoiced to, and paid by MORPHO within 15 days prior to the beginning of the next annual maintenance period. All other charges under this Agreement shall be invoiced by XIMAGE and shall be due and payable within sixty (60) days after receipt of the invoice.",
+                "explanation": "The payment deadline for the annual maintenance charge is shortened to 15 days prior to the next period. This could be deemed unreasonable and conflict with standard commercial practices, potentially violating California's implied covenant of good faith and fair dealing if it doesn't provide sufficient time for Morpho to process and remit payment. Some jurisdictions might view this as an unfair business practice if it causes undue hardship. The longer payment period (60 days) for general invoices is strategically inconsistent with the shorter deadline for the Annual Maintenance Charge.",
+                "contradicted_law": "California Commercial Code, implied covenant of good faith and fair dealing",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "XIMAGE agrees to respond to any telephone call made, within 30 minutes.",
+                "changed_text": "XIMAGE agrees to respond to any telephone call made, within 60 minutes.",
+                "explanation": "By changing the response time to 60 minutes, XIMAGE is delaying the promised support. While not inherently illegal, consistently failing to meet a 30-minute response time if that failure leads to significant operational downtime or loss for MORPHO could give rise to a breach of contract claim, potentially violating California's implied covenant of good faith and fair dealing. A 'reasonable' response time for critical systems is often shorter than one hour.",
+                "contradicted_law": "California Commercial Code, implied covenant of good faith and fair dealing",
+                "location": "Section 8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "IN NO EVENT SHALL, XIMAGE BE LIABLE TO MORPHO FOR ANY INCIDENTAL, CONSEQUENTIAL, SPECIAL OR INDIRECT DAMAGES (INCLUDING WITHOUT LIMITATION, DAMAGES ARISING FROM LOSS OF BUSINESS, DATA, PROFITS OR GOODWILL) INCURRED OR SUFFERED BY MORPHO IN CONNECTION WITH, OR ARISING OUT OF, THIS AGREEMENT OR MORPHO'S USE OF ANY DOCUMENTATION OR SOFTWARE OR SERVICES PROVIDED, OR TO BE PROVIDED, HEREUNDER, EVEN IF XIMAGE HAS BEEN APPRISED OF THE LIKELIHOOD OF THE SAME.",
+                "changed_text": "IN NO EVENT SHALL, XIMAGE BE LIABLE TO MORPHO FOR ANY INCIDENTAL, CONSEQUENTIAL, SPECIAL OR INDIRECT DAMAGES (INCLUDING WITHOUT LIMITATION, DAMAGES ARISING FROM LOSS OF BUSINESS, DATA, PROFITS OR GOODWILL) INCURRED OR SUFFERED BY MORPHO IN CONNECTION WITH, OR ARISING OUT OF, THIS AGREEMENT OR MORPHO'S USE OF ANY DOCUMENTATION OR SOFTWARE OR SERVICES PROVIDED, OR TO BE PROVIDED, HEREUNDER, EVEN IF XIMAGE HAS BEEN APPRISED OF THE LIKELIHOOD OF THE SAME. However, XIMAGE will be liable for gross negligence.",
+                "explanation": "By adding \"However, XIMAGE will be liable for gross negligence.\" to the clause which states that XIMAGE will not be liable for any damages including losses. It does not cover the case of willful misconduct, which is not allowed by California law to be disclaimed in advance.",
+                "contradicted_law": "California Civil Code § 1668",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

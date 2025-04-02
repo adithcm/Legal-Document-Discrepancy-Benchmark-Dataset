@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall, and shall cause its Affiliates to. at all times, comply in all respects with all applicable Laws in connection with the transactions contemplated by this Agreement. Without limiting the generality of the foregoing, each Party (the \"Relevant Party\") shall not, and shall cause its Affiliates not to, do or cause to be done any of the following in connection with the transactions contemplated by this Agreement: (a) directly or indirectly through any other Person. pay, offer to pay, promise to pay, or authorize the payment of any monies or anything of value to any official or employee of any Government Authority or any political party or candidate for political office for the purpose of illegally or improperly inducing or rewarding any action by such official, employee or candidate favorable to the Relevant Party or any of its Affiliate or (b) take any other action that, if taken by a Person subject to United States law, would violate  the United States Foreign Corrupt Practices Act. Each Party acknowledges and agrees that is familiar with the United States Foreign Corrupt Practices Act.",
+                "changed_text": "Each Party shall, and shall cause its Affiliates to, use commercially reasonable efforts to comply with applicable Laws in connection with the transactions contemplated by this Agreement. Each Party (the \"Relevant Party\") acknowledges that while compliance with the United States Foreign Corrupt Practices Act is generally expected, strict adherence to its principles is not mandatory. Actions taken to expedite project approvals, even if involving nominal payments to government officials, will not be considered a breach of this agreement.",
+                "explanation": "This modification introduces several inconsistencies with legal requirements. First, replacing \"at all times, comply in all respects\" with \"use commercially reasonable efforts to comply\" weakens the obligation to comply with laws. Second, stating that adherence to the Foreign Corrupt Practices Act (FCPA) is not mandatory and that nominal payments to government officials are acceptable directly contradicts the FCPA's prohibition of bribery and corrupt practices. This creates a legal contradiction as the contract now suggests that violations of the FCPA are permissible.",
+                "contradicted_law": "United States Foreign Corrupt Practices Act (FCPA)",
+                "location": "ARTICLE III"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.1.1 the Defaulting Party fails to perform in any material  respect any obligation under this Agreement. or any representation or warranty made by the Defaulting Party in this Agreement is untrue in any material respect, and such failure is not cured within 30 days after the non-Defaulting Party notifies the Defaulting Party of such failure; or",
+                "changed_text": "5.1.1 the Defaulting Party fails to perform in any material respect any obligation under this Agreement, or any representation or warranty made by the Defaulting Party in this Agreement is untrue in any material respect, and such failure is not cured within 10 days after the non-Defaulting Party notifies the Defaulting Party of such failure; or",
+                "explanation": "This change modifies the cure period for a material breach of contract from 30 days to 10 days. Depending on the nature of the breach and the jurisdiction (e.g., some states in the US have laws regarding reasonable cure periods), a 10-day cure period might be deemed unreasonably short, particularly for complex or substantial breaches. This could render the clause unenforceable and create a legal contradiction if a court determines the period is insufficient to allow the breaching party a fair opportunity to cure.",
+                "contradicted_law": "General principles of contract law regarding reasonable cure periods (variable by jurisdiction)",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 7.2 Governing Law. The terms of this Agreement shall be governed by and construed in accordance with the laws of England.",
+                "changed_text": "Section 7.2 Governing Law. The terms of this Agreement shall be governed by and construed in accordance with the laws of Nevada, excluding its conflict of laws principles, except with respect to matters involving nuclear consulting or strategic advisory services, which shall be governed by the laws of the United Arab Emirates.",
+                "explanation": "This modification introduces conflict of laws issues. The contract initially specifies England as the governing law. Changing it to Nevada law, while potentially valid if Lightbridge Corporation is based there, creates uncertainty. Adding an exception that nuclear consulting and advisory services will be governed by the laws of the United Arab Emirates further complicates the situation. If the application of UAE law violates either Nevada state law or US Federal law, there will be a contradiction. Further, choice of law provisions are reviewed to ensure they are not used to circumvent laws of a jurisdiction with a significant interest in the matter.",
+                "contradicted_law": "Conflict of laws principles, potential violations of US federal or state laws depending on application of UAE law.",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

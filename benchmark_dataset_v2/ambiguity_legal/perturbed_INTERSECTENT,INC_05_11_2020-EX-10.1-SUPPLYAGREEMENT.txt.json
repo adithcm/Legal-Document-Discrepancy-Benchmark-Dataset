@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INTERSECTENT,INC_05_11_2020-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "HOVIONE agrees to deliver the API DDP Menlo Park, CA USA (Incoterms 2010).",
+                "changed_text": "HOVIONE will attempt to deliver the API to Menlo Park, CA USA, according to general shipping practices.",
+                "explanation": "Replacing the clear 'agrees to deliver' with 'will attempt to deliver' introduces ambiguity regarding HOVIONE's obligation. Removing the Incoterms 2010 standard also eliminates a clear delivery obligation. This introduces an ambiguous legal obligation.",
+                "contradicted_law": "Breach of Contract/Uniform Commercial Code (UCC) - Creates uncertainty around delivery terms, potentially leading to disputes under contract law and the UCC regarding performance and breach.",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "HOVIONE shall manufacture and supply API to INTERSECT (or a third party designated by INTERSECT) in such quantities as from time to time may be ordered by INTERSECT.",
+                "changed_text": "HOVIONE will endeavor to manufacture and supply API to INTERSECT (or a third party designated by INTERSECT) in quantities that it can reasonably provide.",
+                "explanation": "Changing 'shall manufacture and supply' to 'will endeavor to manufacture and supply' weakens HOVIONE's commitment. Also, replacing 'such quantities as from time to time may be ordered by INTERSECT' with 'quantities that it can reasonably provide' introduces further ambiguity and discretion, potentially contradicting the initial agreement to supply API according to INTERSECT's orders.",
+                "contradicted_law": "Breach of Contract/Uniform Commercial Code (UCC) - Creates uncertainty about the quantity of API to be supplied, making it difficult to enforce specific performance requirements under contract law and potentially violating UCC provisions related to quantity terms in sales contracts.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The API shall be manufactured by HOVIONE at its facilities in accordance with all relevant current Good Manufacturing Practices (\"cGMPs\"), the Specifications, and Applicable Laws, and pursuant to HOVIONE's Drug Master File (\"DMF\"), prepared by HOVIONE and filed with the US FDA.",
+                "changed_text": "HOVIONE will attempt to manufacture the API at its facilities, keeping in mind current Good Manufacturing Practices (\"cGMPs\"), the Specifications, and Applicable Laws, as well as HOVIONE's Drug Master File (\"DMF\"), prepared by HOVIONE and filed with the US FDA.",
+                "explanation": "Changing 'shall be manufactured in accordance with' to 'will attempt to manufacture, keeping in mind' significantly weakens the obligation to comply with cGMPs, Specifications, Applicable Laws, and the DMF. This creates ambiguity regarding the required standards of manufacturing.",
+                "contradicted_law": "21 CFR Parts 210 and 211 (cGMP regulations) - By weakening the mandatory compliance with cGMPs, this modification introduces ambiguity that could lead to non-compliance with FDA regulations for pharmaceutical manufacturing, potentially resulting in adulterated products and regulatory action.",
+                "location": "Section 5.1"
+            }
+        ]
+    }
+]

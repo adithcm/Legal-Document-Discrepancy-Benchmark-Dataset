@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 45 days after the completion of the Subscription Offering, unless extended (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date.",
+                "changed_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 10 days after the completion of the Subscription Offering, unless extended (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date.",
+                "explanation": "This change shortens the period for Agent obligations to 10 days, potentially conflicting with regulations or reasonable expectations for winding down offering-related activities, which are frequently longer than 10 days.",
+                "contradicted_law": "Implied obligation of good faith and fair dealing in contract law, as 10 days may be insufficient to reasonably conclude post-offering responsibilities.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Holding Company will make generally available to its security holders as soon as practicable, but not later than 60 days after the close of the period covered thereby, an earnings statement (in form complying with the provisions of Rule 158 of the 1933 Act Regulations) covering a twelve­month period beginning not later than the first day of the Holding Company's fiscal quarter next following the effective date (as defined in such Rule 158) of the Registration Statement.",
+                "changed_text": "The Holding Company will make generally available to its security holders as soon as practicable, but not later than 180 days after the close of the period covered thereby, an earnings statement (in form complying with the provisions of Rule 158 of the 1933 Act Regulations) covering a twelve-month period beginning not later than the first day of the Holding Company's fiscal quarter next following the effective date (as defined in such Rule 158) of the Registration Statement.",
+                "explanation": "This change extends the deadline for releasing the earnings statement to 180 days. This is a violation of SEC rules that mandate a more frequent reporting cadence.",
+                "contradicted_law": "SEC regulations require quarterly and annual reports to be filed within specific timeframes (e.g., Form 10-K within 60 days for large accelerated filers initially).",
+                "location": "Section 6(r)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(m) The Holding Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 90 days after the Closing Date, without the Agent's prior written consent, any of its shares of common stock, other than the Shares or other than in connection with any plan or arrangement described in the Prospectus.",
+                "changed_text": "(m) The Holding Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 10 days after the Closing Date, without the Agent's prior written consent, any of its shares of common stock, other than the Shares or other than in connection with any plan or arrangement described in the Prospectus.",
+                "explanation": "The change reduces the lock-up period to 10 days, potentially creating a scenario where the company could issue more shares very soon after the offering, diluting the value of the initial shares sold, especially if there are state regulations on lock-up periods.",
+                "contradicted_law": "Violates principles of securities regulation aiming to protect investors from immediate dilution after an IPO, potentially violating state blue sky laws regarding fair stock issuance.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MANUFACTURERSSERVICESLTD_06_05_2000-EX-10.14-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "IBM will pay MSL within [*] Days after receipt of an acceptable invoice.",
+                "changed_text": "IBM will pay MSL within [*] Days after receipt of an acceptable invoice. At IBM's discretion, payment may extend beyond this period.",
+                "explanation": "This modification provides IBM with discretion to delay payments beyond the agreed-upon timeframe, potentially conflicting with prompt payment laws that require timely payments for goods or services rendered. This change introduces uncertainty and could be viewed as an unfair business practice, especially if IBM frequently exercises this discretion.",
+                "contradicted_law": "Potential violation of state-level prompt payment laws (e.g., laws applicable to commercial transactions).",
+                "location": "SECTION 6.0 PAYMENT"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The parties expressly waive any right to a jury trail regarding disputes related to this Agreement. Any legal or other action related to a breach of this Agreement must be commenced no later than [*] years from the date of the breach in a court sited within the State of New York.",
+                "changed_text": "The parties expressly waive any right to a jury trail regarding disputes related to this Agreement. Any legal or other action related to a breach of this Agreement must be commenced no later than six (6) months from the date of the breach in a court sited within the State of New York.",
+                "explanation": "The original text has a deadline for legal action related to a breach of contract, which has been altered to six (6) months. The new text could potentially contravene statutes of limitations laws. This reduction in the time to file a lawsuit introduces non-compliance with regulatory standards, as most jurisdictions have a longer period for breach of contract claims.",
+                "contradicted_law": "State statutes of limitations for breach of contract claims (e.g., New York's statute of limitations is six years).",
+                "location": "SECTION 16.0 GENERAL"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "MSL agrees that all Transferred Employees will be continuously employed by MSL for at least [*] after the Effective Date, except as otherwise provided herein, and will receive a total compensation package as identified in Attachment 2: Employee list and Benefits Information. Furthermore, with respect to the Transferred Employees, MSL shall grant, to the extent granted by IBM, credit for service with IBM prior to the Effective Date for purposes of participation and eligibility to participate under MSL's employee benefit plans and other policies and programs of MSL.",
+                "changed_text": "MSL agrees that all Transferred Employees will be continuously employed by MSL for at least [*] after the Effective Date, except as otherwise provided herein, and will receive a total compensation package at MSL's sole discretion. Furthermore, with respect to the Transferred Employees, MSL shall decide whether to grant credit for service with IBM.",
+                "explanation": "The original text commits MSL to provide a 'total compensation package' and service credit to transferred employees. The modified text changes 'total compensation package' to 'at MSL's sole discretion,' and removes the commitment to grant credit for prior IBM service, leading to potential violations of labor laws related to wage standards and employment contracts. It does so by undercutting acquired benefits.",
+                "contradicted_law": "Federal and state wage and hour laws, breach of contract principles, and potentially ERISA regulations depending on the specifics of the benefit plans.",
+                "location": "SECTION 9.0 PERSONNEL"
+            }
+        ]
+    }
+]

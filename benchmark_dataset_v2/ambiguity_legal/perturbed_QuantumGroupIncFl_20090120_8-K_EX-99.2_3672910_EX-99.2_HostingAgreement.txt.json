@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Customer acknowledges that IBM offers numerous security options, and it is Customer's responsibility to select the set of security options that it determines meet Customer's needs. IBM will implement the security options specified herein.",
+                "changed_text": "Customer acknowledges that IBM offers several security suggestions, and Customer may consider the security options that they believe could potentially meet their needs. IBM will endeavor to implement the security options mentioned.",
+                "explanation": "This change introduces ambiguity regarding the mandatory nature of security implementation. Replacing 'numerous security options' with 'several security suggestions' weakens the obligation. Saying 'may consider' makes the selection discretionary, and 'endeavor to implement' makes the implementation non-guaranteed. This could contradict data protection laws such as GDPR or CCPA if the implemented security is insufficient.",
+                "contradicted_law": "GDPR, CCPA",
+                "location": "6.0"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Customer will pay or provide appropriate exemption documentation for all taxes, duties, levies, and any other fees (except for taxes based upon IBM's net income) related to the Services imposed by any governmental authorities.",
+                "changed_text": "Customer will generally be responsible for taxes, duties, levies, and fees (except taxes based upon IBM's net income) related to the Services imposed by governmental authorities, unless otherwise negotiated.",
+                "explanation": "The word 'generally' introduces uncertainty, and 'unless otherwise negotiated' makes the obligation conditional and vague. It is unclear when or how these negotiations would occur and what would constitute a valid exception. Tax obligations are usually clearly defined by law, so this contradicts tax laws that mandate payment of legally due taxes.",
+                "contradicted_law": "US Tax Law",
+                "location": "5.0"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The parties waive any right to a jury trial in any proceeding arising out of or related to this Agreement.",
+                "changed_text": "The parties may consider waiving their right to a jury trial in some proceedings related to this agreement.",
+                "explanation": "This changes a clear waiver into a conditional consideration. 'May consider' introduces ambiguity about whether the right is actually being waived, leaving it open to legal dispute. This is particularly problematic as jury trial waivers must be knowing and voluntary, and this language casts doubt on that.",
+                "contradicted_law": "7th Amendment to the US Constitution.",
+                "location": "14.0"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Subject to paragraphs 4(F) and (G), VIP agrees to make the same effort to safeguard such BNL Data as it does in protecting its own proprietary information. BNL Data will not be utilized by VIP for any purpose other than those purposes related to rendering EDP Services to BNL under this Agreement, nor will BNL Data or any part thereof be disclosed to third parties by VIP , its employees or agents except for purposes related to VIP's rendering ofEDP Services to BNL under this Agreement or as required by law, regulation, or  order of a court or regulatory agency or other authority having jurisdiction thereover.",
+                "changed_text": "Subject to paragraphs 4(F) and (G), VIP agrees to make reasonable efforts to safeguard such BNL Data. BNL Data will not, in general, be utilized by VIP for purposes other than those related to rendering EDP Services, and disclosure to third parties will be avoided where practical.",
+                "explanation": "The original text requires VIP to make the 'same effort' to safeguard BNL data as its own and prohibits use or disclosure except under specific conditions. The modified text replaces 'same effort' with 'reasonable efforts,' introducing ambiguity about the standard of care. Also, the phrase 'in general' and 'avoided where practical' makes both the prohibition of data use and disclosure to third parties vague, weakening the obligation. It becomes unclear when it is considered acceptable to use or disclose the data.",
+                "contradicted_law": "Gramm-Leach-Bliley Act (GLBA) and state-level data protection laws. GLBA requires specific safeguards for customer financial information. The ambiguity introduced in this contract weakens the data protection requirements and conflicts with GLBA's mandate for comprehensive and specific safeguards.",
+                "location": "6. PROPRIETARY AND RELATED RIGHTS. A. CLIENT DATA."
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Update on a daily basis, sets of back-up data files for the BNL Data in the VIP System at an off-site location and/or fire-proof safe that provides for its safety from destruction or theft.",
+                "changed_text": "Maintain, when feasible, back-up data files for the BNL Data in the VIP System at a location that offers some protection from destruction or theft.",
+                "explanation": "The original text requires daily updates and specifies an off-site location or fire-proof safe. The modified text introduces several ambiguities: 'when feasible' makes the entire obligation conditional; 'some protection' is vague compared to 'fire-proof safe'; and the daily update requirement is removed, creating uncertainty about the frequency of backups. This means there isn't a concrete method to adhere to for backup and recovery, making this ambiguous.",
+                "contradicted_law": "The ambiguous obligation regarding the daily backups can be seen as being contradictory to standards set forth by the Federal Financial Institutions Examination Council (FFIEC) guidance which recommends robust backup and recovery systems.",
+                "location": "12. VIP OBLIGATION. B."
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Except in instances beyond VIP's reasonable control under paragraph 16(J) or as provided in paragraph 3, ensure the availability of the VIP system for BNL ' use at least during the hours of7:00 a.m. through 5:00 p.m. (central time) each day Monday through Friday.",
+                "changed_text": "Except in instances beyond VIP's reasonable control under paragraph 16(J) or as provided in paragraph 3, endeavor to provide the VIP system for BNL ' use during normal business hours Monday through Friday.",
+                "explanation": "The original text specifies precise hours of availability. The modified text replaces 'ensure the availability' with 'endeavor to provide,' weakening the guarantee of availability. It also replaces precise hours with 'normal business hours', introducing ambiguity, as 'normal business hours' is not defined and can have different meanings.",
+                "contradicted_law": "While no specific law is directly contradicted, this ambiguity could be problematic under general principles of contract law regarding 'reasonable expectations' and 'good faith performance.' If BNL's business depends on consistent access during specific hours, the vague 'normal business hours' could be deemed a breach of reasonable expectations.",
+                "location": "12. VIP OBLIGATION. D."
+            }
+        ]
+    }
+]

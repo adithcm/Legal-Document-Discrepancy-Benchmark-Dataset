@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.4      Manufacturing: During the term of this Agreement, Axiometric                   shall issue a Request for Manufacture (RFM) for any AMR                   hardware to be sold by Axiometric under the terms of this                   Agreement. The RFM shall specify delivered product cost,                   credit requirements, delivery schedules, warranty service,                   quality using industry standard terms, and other industry                   standard manufacturing requirements. As the preferred                   manufacturer, LKPL shall have first right of refusal on all                   such RFMs. If LKPL does not respond to an RFM within thirty                   (30) days, or cannot provide competitive terms (such as cost,                   credit, quality, schedule), Axiometric will be free to award                   the manufacturing contract to an alternate manufacturer.",
+                "changed_text": "3.4      Manufacturing: During the term of this Agreement, Axiometric                   shall issue a Request for Manufacture (RFM) for any AMR                   hardware to be sold by Axiometric under the terms of this                   Agreement. The RFM shall specify delivered product cost,                   delivery schedules and industry standard manufacturing requirements. As the preferred                   manufacturer, LKPL will have right to manufacture all                   such RFMs. If LKPL does not respond to an RFM within thirty                   (30) days, Axiometric will not be able to work with other manufacturer.",
+                "explanation": "The modified text states that LKPL 'will have right to manufacture all' RFMs, directly contradicting the original clause that allows Axiometric to use an alternate manufacturer if LKPL cannot provide competitive terms or does not respond within 30 days. This creates ambiguity and potentially restricts Axiometric's options unreasonably.",
+                "location": "Section 3.4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.       TERM\n\n         This Agreement will remain in force for perpetuity or until and unless          otherwise mutually agreed or amended in writing by both parties.",
+                "changed_text": "5.       TERM\n\n         This Agreement will remain in force for five years, after which it automatically terminates, unless otherwise mutually agreed or amended in writing by both parties to extend the agreement. If no extension is agreed upon, the agreement will be considered permanently terminated.",
+                "explanation": "The original agreement stated the term was for perpetuity, whereas this new version stipulates a term of five years with automatic termination if no extension is mutually agreed upon. This creates a direct contradiction regarding the duration of the agreement, which could lead to disputes about its validity after five years.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.       DEFINITIONS\n\n         1.1      Throughout this Agreement, and unless the context otherwise                   requires, the terms shown on Exhibit A (whether or not                   capitalized) shall have the meanings there specified. If other                   terms are defined in the text of this Agreement, then                   throughout this Agreement, those terms shall have the meanings                   respectively ascribed to them.",
+                "changed_text": "1.       DEFINITIONS\n\n         1.1      Throughout this Agreement, the terms shown on Exhibit A (whether or not                   capitalized) shall have the meanings there specified. Any other definition of term within the text will be seen as examples.",
+                "explanation": "The original definition prioritized definitions within the text, stating that 'if other terms are defined in the text of this Agreement, then throughout this Agreement, those terms shall have the meanings respectively ascribed to them'. Now, the text prioritizes exhibit A definitions, saying that if any other definition of term is defined, it is an example, creating a contradiction for which definition prevails. ",
+                "location": "Section 1.1"
+            }
+        ]
+    }
+]

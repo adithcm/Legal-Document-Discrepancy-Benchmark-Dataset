@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Affiliate\" means, with respect to a Person, any other Person that directly or indirectly, through one or more intermediaries, controls, is controlled by, or is under common control with, such Person. For purposes of this definition, the term \"control\" (including the terms \"controlled by\" and \"under common control with\") means the direct or indirect power to direct or cause the direction of the management and policies of a Person, whether through the ownership of voting securities, by contract, or otherwise. Allscripts' Affiliates may exercise Allscripts' rights and fulfill its related obligations under this Agreement, provided that Allscripts shall be responsible for any breach of such obligations by its Affiliates to the same extent as if Allscripts was the breaching party.",
+                "changed_text": "\"Affiliate\" means, with respect to a Person, any other Person that directly or indirectly, through one or more intermediaries, controls, is controlled by, or is under common control with, such Person. For purposes of this definition, the term \"control\" (including the terms \"controlled by\" and \"under common control with\") means the direct power to influence the decisions of a Person, evidenced by a written agreement. Allscripts' Affiliates may exercise Allscripts' rights and fulfill its related obligations under this Agreement, provided that Allscripts shall be responsible for any breach of such obligations by its Affiliates to the same extent as if Allscripts was the breaching party.",
+                "explanation": "The definition of 'control' is changed. Originally, control could be established through ownership, contract, or otherwise. The changed definition limits control to only instances where there is a direct power of influence demonstrated by a written agreement. This creates a contradiction if other sections of the contract rely on the broader definition of affiliate and control, particularly regarding responsibility for breaches.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Confidential Information\" means non-public information of a Disclosing Party, [***].",
+                "changed_text": "\"Confidential Information\" means non-public information of a Disclosing Party, [***], including but not limited to, financial data, customer lists, and marketing strategies. This definition excludes any information that is independently developed by the Receiving Party.",
+                "explanation": "The modified definition explicitly lists examples (financial data, customer lists, marketing strategies) and adds an exclusion for independently developed information.  The original definition could be interpreted more broadly to include any non-public information, while the new definition limits the scope and introduces ambiguity as to whether other types of information not explicitly mentioned are included, and introduces ambiguity around the definition of independently developed.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "12.1 Support Services.\n\n(a) The Company is solely responsible for the development, update, performance, and maintenance of the Subscription Software Service. The Company covenants to use its best efforts to ensure that the Subscription Software Services are made available to Allscripts and each Sublicensed Customer and that support for Merchant Processing Services are made available to each Sublicensed Customer in accordance with the warranties, terms, and conditions of this Agreement and in accordance with any performance standards specified in this Agreement or in the Documentation. [***].",
+                "changed_text": "12.1 Support Services.\n\n(a) The Company is solely responsible for the initial setup of the Subscription Software Service. Ongoing development, updates, performance, and maintenance of the Subscription Software Service is the shared responsibility of both the Company and Allscripts. The Company and Allscripts will use reasonable efforts to ensure that the Subscription Software Services are made available to Allscripts and each Sublicensed Customer and that support for Merchant Processing Services are made available to each Sublicensed Customer in accordance with the warranties, terms, and conditions of this Agreement and in accordance with any performance standards specified in this Agreement or in the Documentation. [***].",
+                "explanation": "The original text makes the Company solely responsible for all aspects of the Subscription Software Service, including ongoing development, updates, performance and maintenance. The modified text introduces a 'shared responsibility' for ongoing development, updates, performance, and maintenance between the Company and Allscripts. This creates a contradiction because it's unclear who is ultimately accountable for these responsibilities, potentially leading to disputes and delays in service.",
+                "location": "Section 12.1"
+            }
+        ]
+    }
+]

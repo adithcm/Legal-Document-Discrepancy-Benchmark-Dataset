@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BANUESTRAFINANCIALCORP_09_08_2006-EX-10.16-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company and the Agent shall transmit all funds received from subscribers to the Escrow Agent by noon of the next business day following receipt thereof.",
+                "changed_text": "The Company and the Agent shall transmit all funds received from subscribers to the Escrow Agent within five business days following receipt thereof.",
+                "explanation": "This change violates SEC Rule 15c2-4, which requires funds received from subscribers to be promptly transmitted to the escrow agent, typically interpreted as by the end of the next business day.",
+                "contradicted_law": "SEC Rule 15c2-4",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Agent shall be reimbursed for expenses as contemplated by Section 8 of this Agreement, regardless of whether the Offering is successfully completed. Any out-of-pocket expenses or commissions payable under this Agreement shall be paid in next day funds on the earlier of the initial Closing Date or a determination by the Company to terminate or abandon the Offering, and on each subsequent Closing Date thereafter.",
+                "changed_text": "Agent shall be reimbursed for expenses as contemplated by Section 8 of this Agreement, regardless of whether the Offering is successfully completed. Any out-of-pocket expenses or commissions payable under this Agreement shall be paid within 30 days of the initial Closing Date or a determination by the Company to terminate or abandon the Offering, and on each subsequent Closing Date thereafter.",
+                "explanation": "This change alters the payment timeframe for expenses and commissions from 'next day funds' to 'within 30 days'. Such a delay in payment can violate regulations requiring prompt payment of earned commissions and expenses, particularly if such payments are deemed wages or compensation under applicable state laws (e.g., Georgia wage payment laws).",
+                "contradicted_law": "Georgia Wage Payment Laws",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate and the Company shall cause the Escrow Agent (as defined below) to refund to any persons who have subscribed for any of the Shares the full amount it received from them, without interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "changed_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate and the Company shall cause the Escrow Agent (as defined below) to refund to any persons who have subscribed for any of the Shares the full amount it received from them, without interest, as set forth in the Prospectus; such refund shall occur at the Company's discretion, and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "explanation": "Changing the refund requirement to occur at the 'Company's discretion' directly contradicts SEC regulations and NASD rules regarding the handling of escrowed funds in contingent offerings. Funds must be promptly returned to investors if the contingency is not met by the specified date. The modified text introduces uncertainty and potential violation of investor protection rules.",
+                "contradicted_law": "SEC and NASD Rules regarding Escrowed Funds",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

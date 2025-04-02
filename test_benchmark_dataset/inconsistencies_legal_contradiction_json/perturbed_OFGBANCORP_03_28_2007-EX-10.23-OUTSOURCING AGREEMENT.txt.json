@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OFGBANCORP_03_28_2007-EX-10.23-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Metavante shall pay the amounts set forth above to Customer within 15 business days after Customer's written request.",
+                "changed_text": "Metavante shall pay the amounts set forth above to Customer within 45 business days after Customer's written request.",
+                "explanation": "This change extends the payment timeline for liquidated damages, potentially conflicting with prompt payment laws that may require shorter payment periods. For instance, some jurisdictions have regulations that require payments to be made within a 'reasonable time,' and extending the period to 45 days may be considered unreasonable, particularly if the customer is incurring additional costs or losses due to the delay.",
+                "contradicted_law": "Prompt Payment Laws - State Law Equivalent",
+                "location": "4.1 C"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Customer shall pay the Monthly Base Fee in advance on the first day of the calendar month in which the Services are to be performed. Any and all other amounts payable under this Agreement shall be due thirty (30) days following the date of invoice, unless otherwise provided in the Services and Charges Schedule.",
+                "changed_text": "Customer shall pay the Monthly Base Fee within 60 days of the calendar month in which the Services are to be performed. Any and all other amounts payable under this Agreement shall be due ninety (90) days following the date of invoice, unless otherwise provided in the Services and Charges Schedule.",
+                "explanation": "This change extends the payment timeline for services rendered, which can potentially conflict with prompt payment laws that mandate shorter payment periods for services, particularly in regulated industries like finance. Extending the payment timeframe to 90 days might be seen as an unreasonable delay, especially if the contract doesn't stipulate clear justifications for the longer payment terms or provide commensurate benefits to Metavante. The additional time may affect the cash flow of the vendor and increase the risk.",
+                "contradicted_law": "Prompt Payment Laws - State Law Equivalent",
+                "location": "5.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No lawsuit or other action may be brought by either party hereto, or on any claim or controversy based upon or arising in any way out of this Agreement, after two(2) years from the date on which the party knew or reasonably should have known of an event for which a cause of action arose regardless of the nature of the claim or form of action, whether in contract, tort (including negligence), or otherwise; provided, however, the foregoing limitation shall not apply to the collection of any amounts due Metavante under this Agreement.",
+                "changed_text": "No lawsuit or other action may be brought by either party hereto, or on any claim or controversy based upon or arising in any way out of this Agreement, after one (1) year from the date on which the party knew or reasonably should have known of an event for which a cause of action arose regardless of the nature of the claim or form of action, whether in contract, tort (including negligence), or otherwise; provided, however, the foregoing limitation shall not apply to the collection of any amounts due Metavante under this Agreement.",
+                "explanation": "This modification shortens the statute of limitations, which could contradict statutory requirements that dictate a minimum period for filing certain types of claims (e.g., breach of contract). Depending on the jurisdiction, a one-year limitation period might be legally insufficient, rendering this clause unenforceable and creating legal complications for both parties. Most jurisdictions have statutory limitation periods longer than one year for contract disputes.",
+                "contradicted_law": "Statute of Limitations - Varies by State/Jurisdiction (e.g. Breach of Contract)",
+                "location": "9.4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OMINTO,INC_03_29_2004-EX-10-RESELLER AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "MediaNet Group Technologies will remit payment as directed by Reseller in the time frames noted on the Compensation Schedule attached hereto.",
+                "changed_text": "MediaNet Group Technologies will remit payment as directed by Reseller at MediaNet Group Technologies' discretion.",
+                "explanation": "The original text specifies that payments will be made according to the attached Compensation Schedule. The modified text removes this fixed timeframe, allowing MediaNet Group Technologies to delay payments indefinitely, which violates wage payment laws that require timely payment of earned compensation.",
+                "contradicted_law": "Wage and Hour Laws (various state and federal laws requiring timely payment of earned wages/compensation)",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate the Agreement on 60-days written notice during a renewed term.",
+                "changed_text": "Either party may terminate the Agreement on 10-days written notice during a renewed term.",
+                "explanation": "The original text requires 60 days' written notice for termination. The modified text shortens this to 10 days. This may not provide sufficient time for the other party to wind down operations, find a replacement, or protect their interests, and many states require longer notice periods for contract terminations to ensure fairness and prevent undue hardship.",
+                "contradicted_law": "General Contract Law (reasonableness of notice periods; potential violation of implied duty of good faith and fair dealing)",
+                "location": "Section 9.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each party shall, within 30 days of such expiration or termination return to other party or destroy all Confidential Information and all other material received from such other party.",
+                "changed_text": "Each party shall, within 90 days of such expiration or termination return to other party or destroy all Confidential Information and all other material received from such other party.",
+                "explanation": "The original text requires the return or destruction of confidential information within 30 days of the contract's termination. The modified text expands this timeframe to 90 days. This delay could create an extended period during which the receiving party retains sensitive information, increasing the risk of unauthorized disclosure or misuse, which could violate the duty to protect confidential information. Moreover, if the data contains Personal Identifiable Information (PII) then General Data Protection Regulation (GDPR) requires that the information should be removed and destroyed when it is no longer needed for the reason it was collected for. This will be a violation of that.",
+                "contradicted_law": "Trade Secret Laws, General Data Protection Regulation (GDPR) (duty to protect confidential information and remove PII)",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

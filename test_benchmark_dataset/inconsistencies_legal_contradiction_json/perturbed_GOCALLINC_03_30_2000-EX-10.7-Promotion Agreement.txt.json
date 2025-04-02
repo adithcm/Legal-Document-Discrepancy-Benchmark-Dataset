@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GOCALLINC_03_30_2000-EX-10.7-Promotion Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Purchase Customer will be required to purchase twelve months of local numeric airtime at a rate of $10.33 per month through a designated nationwide airtime provider, prepaid in advance. The purchased airtime shall be non-refundable to the consumer.",
+                "changed_text": "Each Purchase Customer will be required to purchase twelve months of local numeric airtime at a rate of $10.33 per month through a designated nationwide airtime provider, prepaid in advance. The purchased airtime shall be non-refundable to the consumer, even if the customer cancels service within the first 3 days.",
+                "explanation": "California law, where PageMaster Corporation is located, provides consumers with specific rights to cancel contracts, especially those entered into as a result of a solicitation or sales presentation. Making the airtime non-refundable, even within a short cancellation window, contradicts these consumer protection laws, making the 'no refund' clause unenforceable.",
+                "contradicted_law": "California Civil Code Section 1689.5 (Home Solicitation Sales Act)",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such notice or demand shall be deemed to have been given or made when actually received or seventy-two (72) hours after being sent, whichever occurs first.",
+                "changed_text": "Such notice or demand shall be deemed to have been given or made upon dispatch, regardless of whether it is actually received.",
+                "explanation": "Under California law, specifically regarding contractual notices, there must be a reasonable expectation of receipt for the notice to be valid, especially for critical legal communications. Stating that notice is effective 'upon dispatch' removes the requirement for actual receipt or a reasonable timeframe for delivery, creating a contradiction with legal standards that prioritize proper notice and opportunity to respond.",
+                "contradicted_law": "California Code of Civil Procedure Section 1013",
+                "location": "Section 13"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the negotiations do not resolve the dispute within sixty (60) days of the initial written request, the dispute shall be submitted to binding arbitration by a single arbitrator pursuant to the Commercial Arbitration Rules of the American Arbitration Association.",
+                "changed_text": "If the negotiations do not resolve the dispute within thirty (30) days of the initial written request, the dispute shall be submitted to binding arbitration by a single arbitrator pursuant to the Commercial Arbitration Rules of the American Arbitration Association.",
+                "explanation": "In California, shortening the negotiation period to thirty days may be considered unreasonable, especially for complex commercial disputes. Courts often look unfavorably upon arbitration clauses that unduly restrict the time available for parties to attempt resolution through good-faith negotiation, potentially rendering the arbitration agreement unenforceable or subject to challenge.",
+                "contradicted_law": "California Arbitration Act (Cal. Code Civ. Proc. § 1280 et seq.) - general principles of contract law regarding reasonableness and unconscionability.",
+                "location": "Section 12c"
+            }
+        ]
+    }
+]

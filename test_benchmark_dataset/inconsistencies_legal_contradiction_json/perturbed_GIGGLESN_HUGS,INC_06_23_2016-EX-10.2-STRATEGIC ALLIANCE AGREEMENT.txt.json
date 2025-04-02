@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GIGGLESN_HUGS,INC_06_23_2016-EX-10.2-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this agreement after 3 years following the effective date.",
+                "changed_text": "Either party may terminate this agreement at any time, without cause, upon providing verbal notice.",
+                "explanation": "This modification creates a legal contradiction because it allows for termination 'at any time' and 'without cause' using only 'verbal notice'. Many jurisdictions, including California (where the agreement is governed), require written notice for contract termination, particularly for agreements of this nature, to ensure a clear record and prevent disputes. Eliminating the 'cause' requirement might also conflict with implied duties of good faith and fair dealing, potentially making the clause unenforceable.",
+                "contradicted_law": "Breach of contract in California, specifically requirements for notice and good faith.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Consultant will report as self-employment income all compensation received by Consultant pursuant to this Agreement. Consultant will indemnify the Company and hold it harmless from and against all claims, damages, losses, costs and expenses, including reasonable fees and expenses of attorneys and other professionals, relating to any obligation imposed by law on the Company to pay any withholding taxes, social security, unemployment or disability insurance, or similar items in connection with compensation received by Consultant pursuant to this Agreement.",
+                "changed_text": "Consultant will be solely responsible for all taxes and will indemnify the Company for any related claims. The Company is not responsible for worker's compensation or unemployment insurance, regardless of the Consultant's level of integration into the Company's operations.",
+                "explanation": "This creates a misclassification issue. While the contract designates the Consultant as an 'independent contractor,' the level of control and integration (as described in the 'Services' section) may lead a court or regulatory agency to classify the consultant as an employee. The modified text attempts to disclaim employer responsibilities regardless of this classification, which directly contradicts employment laws regarding worker's compensation, unemployment insurance, and payroll taxes.",
+                "contradicted_law": "Misclassification of employees under California Labor Law and IRS regulations.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Consultant will not, during the Term, and for a period of one (1) year thereafter, directly or indirectly: (i) solicit, recruit or promote the solicitation or recruitment of any employee or consultant of the Company for the purpose of encouraging that employee or consultant to leave the Company's employ or sever an agreement for services; or (ii) solicit, participate in or promote the solicitation of any of the Company's clients, customers, or prospective customers with whom Consultant had a Material Contact (hereinafter defined) and/or regarding whom Consultant received Confidential Information, for the purpose of providing products or services (\"Competitive Products/Services\").",
+                "changed_text": "Consultant will not, at any time, solicit or recruit any employee of the Company. Consultant will also never solicit any client or customer of the Company for any reason.",
+                "explanation": "The original non-solicitation clause has a one-year limitation. The modified clause removes this time limitation and broadens the scope to 'any time' and 'any reason,' making it overly broad and likely unenforceable under California law. California Business and Professions Code Section 16600 generally prohibits non-compete agreements, and overly broad non-solicitation clauses can be considered a form of prohibited non-compete.",
+                "contradicted_law": "California Business and Professions Code Section 16600 regarding non-compete agreements.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

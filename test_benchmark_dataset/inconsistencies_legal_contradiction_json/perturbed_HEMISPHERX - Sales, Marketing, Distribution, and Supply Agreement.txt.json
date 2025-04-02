@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients.",
+                "changed_text": "SCIEN shall pay HEMISPHERX for each order of Product within 120 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients.",
+                "explanation": "Extended payment terms to 120 days for product orders. While this doesn't violate a specific law directly, excessively long payment terms can be deemed 'unconscionable' under contract law, particularly if they create undue hardship or risk for the supplier (HEMISPHERX).",
+                "contradicted_law": "Contract Law - Unconscionability (potentially)",
+                "location": "IV. SUPPLY, C"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "SCIEN will provide HEMISPHERX with copies of Product specification sheets, Product inserts, user manuals, user bulletins, and user Product updates and any other customer materials such as brochures, educational materials, web pages or other electronic information relating to SCIEN's efforts to sell, market and distribute Product under this Agreement at least 10 (ten) days prior to the public release or use of such information.",
+                "changed_text": "SCIEN will provide HEMISPHERX with copies of Product specification sheets, Product inserts, user manuals, user bulletins, and user Product updates and any other customer materials such as brochures, educational materials, web pages or other electronic information relating to SCIEN's efforts to sell, market and distribute Product under this Agreement at least 2 (two) days prior to the public release or use of such information.",
+                "explanation": "Reduced the review period to 2 days. This poses compliance risks by limiting HEMISPHERX's ability to ensure that marketing materials comply with applicable regulations such as those enforced by the FDA.",
+                "contradicted_law": "FDA regulations on pharmaceutical marketing materials (potential violation)",
+                "location": "IV. SUPPLY, K"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "B. Such Confidential Information will be kept confidential until 5 years after the expiration of termination of this Agreement.",
+                "changed_text": "B. Such Confidential Information will be kept confidential until 1 year after the expiration of termination of this Agreement.",
+                "explanation": "Reduced confidentiality period to 1 year post-termination. This could be deemed unreasonable for protecting trade secrets or other sensitive business information, depending on the industry and the nature of the confidential information. Legal challenges could arise if the reduced period fails to provide adequate protection as per standard business practices.",
+                "contradicted_law": "Trade Secret Law, Contract Law - Reasonableness of Confidentiality Terms",
+                "location": "XI. CONFIDENTIALITY, B"
+            }
+        ]
+    }
+]

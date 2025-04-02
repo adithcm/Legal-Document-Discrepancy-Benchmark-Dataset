@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FulucaiProductionsLtd_20131223_10-Q_EX-10.9_8368347_EX-10.9_Content License Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Producer shall have thirty (30) days from the payment date to dispute the amount of any revenue share payout or any such claim or dispute is hereby waived by the Producer.",
+                "changed_text": "The Producer shall have ten (10) days from the payment date to dispute the amount of any revenue share payout or any such claim or dispute is hereby waived by the Producer.",
+                "explanation": "Reducing the dispute period for revenue share payouts to 10 days is likely to be considered unreasonably short, especially given the complexities often involved in calculating revenue share. This creates a legal vulnerability, as it could be argued that the producer did not have sufficient time to properly review the payout and assert their rights, which may contradict the implied duty of good faith and fair dealing, making the clause potentially unenforceable under contract law in many US states.",
+                "contradicted_law": "Implied duty of good faith and fair dealing in contract law, potential violation of state laws regarding reasonable opportunity to review financial records.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices, statements or requests for approvals (\"Notices\") that either Party hereto is required or may desire to give to the other shall be given in writing by addressing the same to the other at the addresses set forth herein, or at such other address as may be designated, in writing, by any such Party in a Notice to the other. Notices shall be made by personal delivery, overnight courier, first class registered mail (postage prepaid and return receipt requested), facsimile or e-mail. A Notice shall be deemed served and received on the date executed on a receipt of acceptance or if by personal delivery, upon physical delivery of the same.",
+                "changed_text": "All notices, statements or requests for approvals (\"Notices\") that either Party hereto is required or may desire to give to the other shall be given in writing by addressing the same to the other at the addresses set forth herein, or at such other address as may be designated, in writing, by any such Party in a Notice to the other. Notices shall be deemed served and received immediately upon sending, regardless of the method used.",
+                "explanation": "Removing the requirement for a receipt of acceptance or physical delivery for notices and stating they are deemed served immediately upon sending, regardless of method, is problematic. This eliminates proof of delivery, which is essential for legal enforceability. Some methods like regular mail or email may not guarantee delivery or receipt. This contradicts the requirements for proper notice under most US jurisdictions, which often require proof of service, creating a legal contradiction.",
+                "contradicted_law": "Standard legal requirements for proper notice and service of legal documents in the United States, Federal Rules of Civil Procedure regarding service.",
+                "location": "Section 14"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All questions with respect to the construction of this Agreement, and the rights and liabilities of the Parties hereto, shall be governed by the laws of the State of Florida. The Parties also agree that the venue for this Agreement shall be in the County of Brevard, Florida. The Parties expressly waive any claim to jurisdiction in any federal or other state forum or venue in any other county or place. In the event of any controversy, claim or dispute between the Parties hereto, including, but not limited to, any action at law or in equity, including any action for declaratory or injunctive relief, arising out of or relating to this Agreement or the breach thereof, the prevailing Party shall be entitled to recover from the losing Party all of his or her actual attorney's fees and costs in bringing, prosecuting, or defending said action.",
+                "changed_text": "All questions with respect to the construction of this Agreement, and the rights and liabilities of the Parties hereto, shall be governed by the laws of the State of Florida. The Parties also agree that the venue for this Agreement shall be in the County of Brevard, Florida. The Parties expressly waive any claim to jurisdiction in any federal or other state forum or venue in any other county or place. In the event of any controversy, claim or dispute between the Parties hereto, including, but not limited to, any action at law or in equity, including any action for declaratory or injunctive relief, arising out of or relating to this Agreement or the breach thereof, the prevailing Party's recovery of attorney's fees and costs from the losing Party shall be limited to $1000.",
+                "explanation": "The original clause allows the prevailing party to recover all attorney's fees and costs. The modified clause limits the recovery to $1000. While parties can contractually limit attorney's fees, such limitations may be deemed unconscionable and unenforceable if they are so low as to effectively prevent a party from pursuing legitimate legal claims. Many jurisdictions have rules against provisions that undermine access to justice. Depending on the complexity of the dispute and the typical attorney's fees in Brevard County, Florida, a $1000 limit could be deemed unreasonable, potentially violating public policy and rendering the limitation unenforceable.",
+                "contradicted_law": "Public policy against provisions that undermine access to justice, potential violation of state laws regarding unconscionable contract terms.",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

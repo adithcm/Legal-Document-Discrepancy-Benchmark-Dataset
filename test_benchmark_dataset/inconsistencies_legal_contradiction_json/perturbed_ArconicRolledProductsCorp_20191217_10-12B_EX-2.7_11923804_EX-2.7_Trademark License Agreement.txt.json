@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that Licensee has not taken appropriate steps to restore such quality within one-hundred twenty (120) days after notification by Licensor, Licensor shall have the right to terminate this Agreement.",
+                "changed_text": "In the event that Licensee has not taken appropriate steps to restore such quality within thirty (30) days after notification by Licensor, Licensor shall have the right to terminate this Agreement.",
+                "explanation": "Reducing the cure period to 30 days may be considered unreasonably short under Delaware law, which governs this agreement (as stated in section 6.1). Courts often look to industry standards and the complexity of the issue when determining the reasonableness of a cure period. For complex manufacturing quality issues, 30 days may not be sufficient, potentially leading to a breach of good faith and fair dealing.",
+                "contradicted_law": "Breach of Good Faith and Fair Dealing (Delaware Law)",
+                "location": "1.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Licensor and Licensee will be entitled to terminate this Agreement by written notice to the other party in the event the other party is in material breach of any of its obligations hereunder and shall fail to remedy any such default within one hundred twenty (120) days after notice thereof by the non-breaching party.",
+                "changed_text": "Licensor and Licensee will be entitled to terminate this Agreement by written notice to the other party in the event the other party is in material breach of any of its obligations hereunder and shall fail to remedy any such default within thirty (30) days after notice thereof by the non-breaching party.",
+                "explanation": "Reducing the cure period for a material breach to 30 days might be deemed unreasonably short, especially considering the complex nature of the agreement and the potential implications of a termination. Delaware courts require that cure periods be reasonable, and 30 days may not allow sufficient time to rectify a significant contractual breach, potentially violating principles of good faith and fair dealing.",
+                "contradicted_law": "Breach of Good Faith and Fair Dealing (Delaware Law)",
+                "location": "4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may not be assigned by Licensee without the consent of Licensor which consent shall not be unreasonably withheld. Notwithstanding the foregoing, no such consent of Licensor is required under this Agreement in the event of a Change of Control of Licensee so long as: (a) the resulting, surviving or transferee Person assumes all the obligations of the Licensee by operation of Law or pursuant to an agreement in form and substance reasonably satisfactory to the Licensor; and (b) the licenses granted herein shall not be transferrable or sublicensable to Affiliates of such Person unless such Affiliates were Affiliates of Licensee prior to such Change of Control.",
+                "changed_text": "This Agreement may not be assigned by Licensee without the consent of Licensor, which consent may be withheld for any reason whatsoever. Notwithstanding the foregoing, no such consent of Licensor is required under this Agreement in the event of a Change of Control of Licensee.",
+                "explanation": "Removing the 'not to be unreasonably withheld' clause from the assignment provision and removing conditions related to Change of Control allows the Licensor to arbitrarily deny assignment, which could be viewed as a violation of the implied covenant of good faith and fair dealing under Delaware law. Delaware courts frown upon contractual provisions that allow a party to exercise discretion in an arbitrary or capricious manner that undermines the reasonable expectations of the other party.",
+                "contradicted_law": "Breach of Good Faith and Fair Dealing (Delaware Law)",
+                "location": "6.10"
+            }
+        ]
+    }
+]

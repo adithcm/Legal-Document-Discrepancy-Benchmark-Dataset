@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OAKTREECAPITALGROUP,LLC_03_02_2020-EX-10.8-Services Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be terminated, either in respect of a Fund or in its entirety, by either Oaktree US or the Sub-Advisor for any reason upon 30 days' written notice to the other.",
+                "changed_text": "This Agreement may be terminated, either in respect of a Fund or in its entirety, by either Oaktree US or the Sub-Advisor for any reason upon 7 days' written notice to the other.",
+                "explanation": "The original text requires a 30-day written notice for termination. Reducing this to 7 days may contradict regulations in England and Wales (where Oaktree Capital Management (International) Limited is registered) or the U.S., which may require a longer notice period to ensure fair dealing and prevent abrupt termination that could harm the other party or investors. This introduces non-compliance.",
+                "contradicted_law": "Potentially contradicts implied terms of fairness and reasonableness in contract law under English and Welsh law; may also violate U.S. regulations related to investment advisor terminations depending on specific circumstances.",
+                "location": "10.2 Early Termination"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Sub-Advisor shall maintain proper and complete records relating to the services to be provided under this Agreement for such period of time as may be required under Applicable Law, including (as applicable, in respect of the relevant Discretionary Funds) records with respect to the acquisition, holding and disposal of securities on behalf of the Funds, details of all brokers used and the aggregate dollar amount of brokerage commission paid in that regard to each broker.",
+                "changed_text": "The Sub-Advisor shall maintain proper and complete records relating to the services to be provided under this Agreement for a period of one year, including records with respect to the acquisition, holding and disposal of securities on behalf of the Funds.",
+                "explanation": "The original text requires record-keeping for the period required under Applicable Law. Limiting the record retention period to one year contradicts requirements under both UK (FCA rules) and US (Investment Advisers Act) law, which generally necessitate longer retention periods (typically 5-6 years) to allow for audits and regulatory oversight. This introduced non-compliance.",
+                "contradicted_law": "Violates FCA rules in the UK and the U.S. Investment Advisers Act of 1940, both of which require longer record retention periods.",
+                "location": "6.1 RECORDS AND REPORTS"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Oaktree US will be the Sub-Advisor's client for the purposes of the FCA Rules. Accordingly, in conformity with the FCA Rules, a number of additional statements and provisions are required to be included in this Agreement. Such additional statements and provisions are set out in Schedule 1 hereof (\"Additional FCA Provisions\"), which is hereby incorporated into and will form part of this Agreement and will apply to the services to be provided pursuant to this Agreement with effect from the Effective Date.",
+                "changed_text": "Oaktree US will not be considered the Sub-Advisor's client for the purposes of the FCA Rules. No additional statements or provisions relating to FCA compliance are required or incorporated into this Agreement.",
+                "explanation": "The original text acknowledges that Oaktree US is the Sub-Advisor's client for FCA Rules purposes and incorporates the Additional FCA Provisions. Stating that Oaktree US is *not* the client and removing the incorporated provisions directly contradicts the FCA's regulatory requirements for client classification and the necessary protections and disclosures that follow. This creates a clear conflict with UK financial regulations by failing to acknowledge the client relationship and adhere to the applicable rules.",
+                "contradicted_law": "Violates the UK's Financial Conduct Authority (FCA) rules regarding client classification, due diligence, and protection measures.",
+                "location": "9.1 COMPLIANCE WITH FCA RULES"
+            }
+        ]
+    }
+]

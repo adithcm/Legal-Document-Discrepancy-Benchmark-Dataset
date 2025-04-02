@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "webmdhealthcorp_20050908_s-1a_ex-10.7_1027007_ex-10.7_content license agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "(a) Description. WebMD hereby agrees to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.",
+                "changed_text": "(a) Description. WebMD hereby agrees to provide Emdeon some content in accordance with the terms of this Agreement.",
+                "explanation": "By removing the explicit reference to 'Exhibit A', where the specific content is defined, but without altering the mention of 'Content' elsewhere, creates uncertainty. The contract states that WebMD will provide 'some content,' making it unclear which content is actually being licensed. Further sections may depend on a concrete understanding of the content being licensed.",
+                "location": "Terms and Conditions, Section 1(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "(c) Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.",
+                "changed_text": "(c) Late payments may be subject to an interest charge, as determined by WebMD.",
+                "explanation": "Removing the specific interest rate and replacing it with 'as determined by WebMD' contradicts the intention of a fixed agreement. While it mentions 'interest charge' other sections assume a predefined value of the interest in order to enforce them",
+                "location": "Section 4(c)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5. Trademark License.\n(a) Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying\nthe origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the\nContent in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the\nforegoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.",
+                "changed_text": "5. Trademark License.\n(a) Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying\nthe origin of some materials during the term of this Agreement. These Marks may be used by Emdeon at its discretion. It is recomended that the portions of the Software that contain materials shall include a WebMD Mark in appearance and format that will be revised later.",
+                "explanation": "By changing 'Content' to 'some materials,' the scope of the trademark license becomes ambiguous. 'Some materials' is less defined than content, while the trademark license is explicitly for identifying the origin of the 'Content' other sections may assume the correct usage of the Mark.",
+                "location": "Section 5(a)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUALPROPERTYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Certegy agrees that it shall, no later than March 31, 2002, establish, or cause to be established, one or more new and separate LPAR(s) and that Certegy shall no longer share any LPAR with Equifax. Certegy shall be responsible for paying any and all additional software license fees, service fees, fees related to hardware, or other similar fees incurred to establish the new LPAR(s) and to migrate from the existing to the new LPAR(s). Notwithstanding anything contained herein to the contrary, if the deadline for LPAR separation is not met by Certegy prior to March 31, 2002, any costs or fees, including all fees, costs or expenses incurred as a result of increased capacity or speed requirements or otherwise, incurred by either party due to the non-separation shall be borne by Certegy.",
+                "changed_text": "Certegy will endeavor to establish, around March 31, 2002, one or more new LPAR(s), and should aim to minimize LPAR sharing with Equifax. Certegy will make reasonable efforts to cover additional software license fees, service fees, hardware-related fees, and similar costs when setting up the new LPAR(s) and moving from the old LPAR(s). If Certegy fails to meet the separation deadline, costs or fees resulting from capacity or speed increases will be allocated at the discretion of both parties.",
+                "explanation": "The change from 'agrees that it shall' to 'will endeavor to establish' and 'should aim to minimize' weakens the obligation. Introducing 'around March 31, 2002' instead of 'no later than March 31, 2002' adds ambiguity to the deadline. Replacing 'shall be responsible for paying' with 'will make reasonable efforts to cover' introduces discretion in payment. The phrase 'allocated at the discretion of both parties' makes cost allocation ambiguous, open to negotiation, and lacks a clear enforcement mechanism. This potentially contradicts contract law principles requiring clear and definite terms.",
+                "contradicted_law": "Contract Law - Requirement for Definite Terms",
+                "location": "Section 4.7 (b)(i)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "If either party, prior to or at the time of the complete separation of LPARs (described in subsection (i) above), exceeds its respective Projected MIPS for any year, and, thereafter, any of the MIPS-Based Software is required, under the terms of the respective software licenses, to be upgraded to allow usage of the additional MIPS, the party first exceeding its respective Projected MIPS (\"Triggering Party\") shall bear the full cost and expense of upgrading the MIPS-Based Software licenses (whether or not such party ultimately caused the MIPS limitations to be exceeded). Notwithstanding the foregoing, at any time after an upgrade to a MIPS-Based Software license is purchased, if the non-Triggering Party exceeds its Projected MIPS during a respective year, such non-Triggering Party shall pay the Triggering Party an amount equal to the total cost to the Triggering Party of purchasing the upgrade multiplied by a fraction, the numerator of which is the number of MIPS used by the non-Triggering Party that exceeds its original Projected MIPS, and the denominator of which is the total number of MIPS permitted or allowable pursuant to the MIPS-Based Software upgrade, but excluding the total number of MIPS permitted prior to the upgrade.",
+                "changed_text": "If, before or during LPAR separation, either party goes over its Projected MIPS, and a software upgrade is supposedly needed, the party that first exceeded its MIPS ('Triggering Party') may cover the upgrade cost. However, if the other party ('non-Triggering Party') later exceeds its MIPS, they may reimburse a portion of the upgrade cost based on MIPS usage, subject to negotiation. The reimbursement fraction will consider the number of MIPS the non-Triggering Party used above its initial MIPS, relative to total MIPS after the upgrade, at the discretion of the Triggering Party.",
+                "explanation": "Replacing 'shall bear the full cost and expense' with 'may cover the upgrade cost' introduces ambiguity and makes payment optional. Introducing 'supposedly needed' casts doubt on the necessity of the upgrade. Changing 'shall pay' to 'they may reimburse' makes reimbursement discretionary and subject to negotiation, and adding 'at the discretion of the Triggering Party' gives them complete control over whether reimbursement occurs, undermining the original obligation. This alteration introduces vagueness and potentially breaches fundamental principles of contract enforcement.",
+                "contradicted_law": "Contract Law - Requirement for Definite Terms",
+                "location": "Section 4.7 (b)(ii)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each party shall notify the other party of any involuntary attachment or other judicial process affecting the Licensed Materials.",
+                "changed_text": "Each party should endeavor to notify the other party of potential involuntary attachments or other judicial processes possibly affecting the Licensed Materials.",
+                "explanation": "Changing 'shall notify' to 'should endeavor to notify' makes the notification discretionary rather than mandatory. Replacing 'any involuntary attachment' with 'potential involuntary attachments' makes the trigger for notification less clear and more subjective. Changing 'affecting' to 'possibly affecting' further weakens the requirement and introduces uncertainty about when notification is required. This contradicts contract law principles requiring clear and definite terms, and creates ambiguity about the obligation to inform the other party of legal processes.",
+                "contradicted_law": "Contract Law - Requirement for Definite Terms",
+                "location": "Section 4.7 (e)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_Maintenance Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "AT&T shall pay Vendor no later than sixty (60) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than ninety (90) days after receipt of an invoice for Maintenance Fees.",
+                "changed_text": "AT&T shall pay Vendor no later than ninety (90) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than one hundred twenty (120) days after receipt of an invoice for Maintenance Fees.",
+                "explanation": "The original contract requires AT&T to pay Vendor within 60 days for structured payments and 90 days for maintenance fees. Extending these payment deadlines to 90 days and 120 days respectively, could potentially violate prompt payment laws that may exist in certain states or under federal regulations, which often require payment within shorter timeframes. Some jurisdictions have laws that mandate payment within 30-45 days unless otherwise specified and justified. These changes would render the payment terms legally questionable and create non-compliance.",
+                "contradicted_law": "Potential violations of state or federal prompt payment laws.",
+                "location": "Section 3.19(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The warranty period for all Material (excluding AT&T Provided Equipment) shall commence upon Delivery of such Material to Vendor from the OEM and shall continue for a period equal to the longer of (i) [***] or (ii) the applicable warranty period actually received by Vendor from the OEM for such Material Vendor acquired directly from the OEM, including the Vendor Provided Equipment as defined in the Build Addendum (the \"Material Warranty Period\").",
+                "changed_text": "The warranty period for all Material (excluding AT&T Provided Equipment) shall commence three months after Delivery of such Material to Vendor from the OEM and shall continue for a period equal to the shorter of (i) [***] or (ii) half of the applicable warranty period actually received by Vendor from the OEM for such Material Vendor acquired directly from the OEM, including the Vendor Provided Equipment as defined in the Build Addendum (the \"Material Warranty Period\").",
+                "explanation": "This change creates a legal contradiction by reducing the warranty period below what might be legally required, especially if the original OEM warranty provides longer protection. Reducing the warranty period might conflict with consumer protection laws or implied warranties of merchantability and fitness for a particular purpose, particularly if the shortened warranty is unreasonably short compared to the nature of the goods and industry standards. Adding a delay before the warranty starts also undermines the warranty.",
+                "contradicted_law": "Potential violations of implied warranty laws and consumer protection statutes.",
+                "location": "Section 3.45(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All representations and warranties set forth above in Section 3.46(b) or elsewhere in this Agreement (other than the specific warranty periods specified in Section 3.46(a)) will survive expiration or termination of this Agreement for a period of [***] years from such expiration or termination; provided however, that any such representation and warranty that relates solely to the Build Services provided pursuant to the Build Addendum shall survive for a period of [***] years following Location Acceptance of all Cell Sites.",
+                "changed_text": "All representations and warranties set forth above in Section 3.46(b) or elsewhere in this Agreement (other than the specific warranty periods specified in Section 3.46(a)) will not survive expiration or termination of this Agreement; provided however, that any such representation and warranty that relates solely to the Build Services provided pursuant to the Build Addendum shall survive for a period of 30 days following Location Acceptance of all Cell Sites.",
+                "explanation": "Changing the survival period of representations and warranties to not survive expiration or termination, or shortening it to 30 days, conflicts with standard commercial practices and potentially legal expectations. Many jurisdictions have statutes of limitations that extend beyond the contract term, allowing claims for breaches of contract or misrepresentation discovered after the contract ends. Eliminating or severely limiting the survival period could make the contract unenforceable regarding claims arising after the term, contradicting legal rights and protections.",
+                "contradicted_law": "Conflict with statutes of limitations and common law principles regarding contract interpretation.",
+                "location": "Section 3.45(c)"
+            }
+        ]
+    }
+]

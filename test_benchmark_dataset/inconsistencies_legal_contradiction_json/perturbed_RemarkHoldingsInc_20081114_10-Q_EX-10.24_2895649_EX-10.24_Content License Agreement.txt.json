@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "RemarkHoldingsInc_20081114_10-Q_EX-10.24_2895649_EX-10.24_Content License Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "HSWI shall pay such Excess Royalties within [*] ([*]) days after the end of the calendar year in which such Excess Royalties were earned. Additionally, within [*] ([*]) days after the end of each calendar year, HSWI will provide to World Book a report of its Royalty calculations. If Excess Royalties are earned before all Payments/Advances have been paid, the Excess Royalties will be deducted from future Payments/Advances. In the event that Royalties are [*] than Payments/Advances, [*]. By way of example, if the calculated Royalties for 2008 are $[*]. Royalty statements shall be final and accepted by the parties unless World Book has, in good faith, notified HSWI of the amount and specific reasons for the dispute within [*] ([*]) days from the date of the statement.",
+                "changed_text": "HSWI shall pay such Excess Royalties within 150 days after the end of the calendar year in which such Excess Royalties were earned. Additionally, within 150 days after the end of each calendar year, HSWI will provide to World Book a report of its Royalty calculations. If Excess Royalties are earned before all Payments/Advances have been paid, the Excess Royalties will be deducted from future Payments/Advances. In the event that Royalties are [*] than Payments/Advances, [*]. By way of example, if the calculated Royalties for 2008 are $[*]. Royalty statements shall be final and accepted by the parties unless World Book has, in good faith, notified HSWI of the amount and specific reasons for the dispute within 10 days from the date of the statement.",
+                "explanation": "This change introduces a potential violation of accounting and contract law principles by setting an unusually long payment period for excess royalties (150 days). Simultaneously, it imposes a short deadline (10 days) for disputing royalty statements. While there's no specific US federal law universally mandating royalty payment timelines, such an imbalance could be deemed unconscionable or to violate implied duties of good faith and fair dealing, particularly if industry standards or state-specific laws suggest more reasonable timeframes. Contractual clauses that significantly disadvantage one party can be challenged.",
+                "contradicted_law": "Implied duty of good faith and fair dealing; potential violation of state-specific contract law regarding unconscionability.",
+                "location": "Section 4.1(iii)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be terminated by a party in the event of:   (i) any material default in, or material breach of, any of the material terms and conditions of this Agreement by the other party, which default continues in effect after the defaulting party has been provided with written notice of default and sixty (60) days to cure such default;",
+                "changed_text": "This Agreement may be terminated by a party in the event of:   (i) any material default in, or material breach of, any of the material terms and conditions of this Agreement by the other party, which default continues in effect after the defaulting party has been provided with written notice of default and ten (10) days to cure such default;",
+                "explanation": "Reducing the cure period for a material breach from 60 days to 10 days could be deemed unreasonable and conflict with principles of contract law. Courts often consider the reasonableness of cure periods, especially for complex contracts. A cure period that is too short might be considered a breach of the implied duty of good faith and fair dealing, as it doesn't allow a sufficient opportunity to rectify the breach.",
+                "contradicted_law": "Implied duty of good faith and fair dealing; potential violation of state-specific contract law regarding reasonableness of contract terms.",
+                "location": "Section 6.2(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The restrictions on use and disclosure of Confidential Information under this Section 7 shall remain in effect [*] ([*]) years following disclosure of the Confidential Information; provided, however, for trade secrets such restrictions shall continue for so long as such information is deemed a trade secret under applicable law.",
+                "changed_text": "The restrictions on use and disclosure of Confidential Information under this Section 7 shall remain in effect one (1) year following disclosure of the Confidential Information; provided, however, for trade secrets such restrictions shall continue for so long as such information is deemed a trade secret under applicable law.",
+                "explanation": "Reducing the confidentiality period to one year may be insufficient to protect sensitive business information, particularly trade secrets which, under applicable state and federal laws (like the Defend Trade Secrets Act), are meant to be protected as long as they remain trade secrets. Setting a one-year limit, even with the trade secret exception, creates ambiguity and could undermine the protection afforded to non-trade secret confidential information, conflicting with the intent to protect valuable intellectual property inherent in trade secret law. This is especially true in industries where the value of confidential information extends beyond a single year.",
+                "contradicted_law": "Potential conflict with the intent and provisions of the Defend Trade Secrets Act (DTSA) and state-specific trade secret laws regarding reasonable measures to protect trade secrets and the duration of protection.",
+                "location": "Section 7.6"
+            }
+        ]
+    }
+]

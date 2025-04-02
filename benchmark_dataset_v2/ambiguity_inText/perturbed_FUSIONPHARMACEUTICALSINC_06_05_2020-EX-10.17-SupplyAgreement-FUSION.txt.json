@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-SupplyAgreement-FUSION.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.13 \"Specifications\" shall mean the standards established in writing by the Parties for the characteristics, quality, and quality control testing of Product, and its constituents, components, and packaging, as further described in Section 4.4 below and Schedule 2, and as in effect from time to time.",
+                "changed_text": "2.13 \"Specifications\" shall mean the non-binding guidelines for the characteristics, quality, and quality control testing of Product, and its constituents, components, and packaging, as further described in Section 4.4 below and Schedule 2, and as in effect from time to time.",
+                "explanation": "The term 'Specifications' is initially defined as 'standards', implying a mandatory requirement. Changing it to 'non-binding guidelines' creates a contradiction, as other sections may refer to 'Specifications' as a strict requirement, leading to uncertainty about their enforceability.",
+                "location": "Section 2.13"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.2 Production Orders. From time to time during the Term set forth in Section 6 of this Supply Agreement, FUSION and CPDC will agree to binding Production Orders for Products, as follows: (a) Based on a template order form for such Production Orders provided by CPDC to FUSION, FUSION shall complete the Production Order in such form [***] no later than (a) the order cut-off period for the third-party isotope providers (\"Minimum Lead Time\").",
+                "changed_text": "3.2 Production Orders. From time to time during the Term set forth in Section 6 of this Supply Agreement, FUSION and CPDC will aim to create non-binding Production Orders for Products, as follows: (a) Based on a template order form for such Production Orders provided by CPDC to FUSION, FUSION may complete the Production Order in such form [***] around the order cut-off period for the third-party isotope providers (\"Minimum Lead Time\").",
+                "explanation": "The term Production Orders initially defined as 'binding' later adjusted to 'non-binding,' suggesting the orders are optional. If other sections rely on the mandatory nature of these orders, the ambiguity can trigger conflicts.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.2 CPDC Limited Product Warranty. CPDC hereby provides a limited product warranty, and accordingly does warrant for each Batch, that the Product shipped will (i) conform with the Specifications, (ii) be manufactured, tested, processed, packed and prepared for shipment in accordance with cGMPs, and (iii) be free from defects in material and workmanship for the period from the date of manufacture to the expiry date set out on each Unit of Product packed and prepared for shipment.",
+                "changed_text": "5.2 CPDC Limited Product Warranty. CPDC hereby provides a limited product warranty, and accordingly does not fully warrant for each Batch, that the Product shipped will (i) substantially conform with the Specifications, (ii) be manufactured, tested, processed, packed and prepared for shipment in accordance with encouraged cGMPs, and (iii) be reasonably free from defects in material and workmanship for a discretionary period from the date of manufacture to the expiry date set out on each Unit of Product packed and prepared for shipment.",
+                "explanation": "The original warranty states that CPDC 'does warrant', implying a guarantee. By changing this to 'does not fully warrant' while also weakening other aspects of the warranty (e.g., 'conform with the Specifications' to 'substantially conform'), the level of guarantee is weakened. This contradiction arises if other parts of the contract still treat this section as a strict warranty.",
+                "location": "Section 5.2"
+            }
+        ]
+    }
+]

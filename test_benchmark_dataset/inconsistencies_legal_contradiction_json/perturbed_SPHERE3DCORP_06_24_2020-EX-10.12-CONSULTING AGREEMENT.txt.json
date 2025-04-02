@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPHERE3DCORP_06_24_2020-EX-10.12-CONSULTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(a) In the case that the company would not like to extend the terms of agreement for an additional month. The company must notify the consultant within 5 days of the conclusion of the 12 month term. Without notification the contract will automatically extend for an additional month of service.",
+                "changed_text": "(a) In the case that the company would not like to extend the terms of agreement for an additional month. The company must notify the consultant within 1 day of the conclusion of the 12 month term. Without notification the contract will automatically extend for an additional month of service.",
+                "explanation": "New York law requires reasonable notice for contract termination or non-renewal, especially where automatic renewal clauses are involved. Providing only 1 day's notice is likely unreasonable and could be deemed unenforceable, especially considering the nature of consulting agreements and the potential disruption caused by such short notice. This creates a situation where the contract term is ambiguous and potentially contested.",
+                "contradicted_law": "New York contract law regarding reasonable notice for termination/non-renewal, and implied duty of good faith and fair dealing.",
+                "location": "Section 3(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A total of 100,000 RSA's (\"Restricted Stock Awards\") that vest immediately, subject to prior approval of the Board of Directors.",
+                "changed_text": "A total of 100,000 RSA's (\"Restricted Stock Awards\") that vest immediately, regardless of board approval.",
+                "explanation": "By removing the 'subject to prior approval of the Board of Directors' clause, the contract now mandates immediate vesting of RSAs. However, under corporate law and securities regulations, board approval is a standard requirement for issuing equity, including RSAs. This change could violate corporate governance principles and potentially conflict with securities laws if the RSAs are issued without proper board authorization and compliance.",
+                "contradicted_law": "Corporate governance principles, securities laws (potential violation of registration requirements if improperly issued).",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All knowledge and information of a proprietary and confidential nature relating to the Company which the Consultant obtains during the Consulting period, from the Company or the Company's employees, agents or Consultants shall be for all purposes regarded and treated as strictly confidential for so long as such information remains proprietary and confidential and shall be held in trust by the Consultant solely for the Company's benefit and use and shall not be directly or indirectly disclosed in any manner whatsoever by the Consultant.",
+                "changed_text": "All knowledge and information of a proprietary and confidential nature relating to the Company which the Consultant obtains during the Consulting period, from the Company or the Company's employees, agents or Consultants shall be treated as confidential until the termination of this agreement.",
+                "explanation": "Under New York law, confidentiality agreements often extend beyond the termination of an agreement, especially concerning trade secrets and proprietary information. By limiting the confidentiality obligation to only the duration of the consulting agreement, this modified text weakens the protection of the Company's confidential information, potentially contradicting standard confidentiality practices and creating a legal vulnerability if sensitive information is disclosed after the agreement ends. This could also conflict with the implied duty of good faith and fair dealing.",
+                "contradicted_law": "New York law on confidentiality agreements, trade secret protection, and implied duty of good faith and fair dealing.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

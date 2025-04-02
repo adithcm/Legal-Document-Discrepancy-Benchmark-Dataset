@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VISIUMTECHNOLOGIES,INC_10_20_2004-EX-10.20-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.1. WLI hereby grants to Power2Ship the non-exclusive right and license to distribute certain WLI's products and services (the \"Products\" or \"Units\") and software programs (\"Licensed Programs\") to Power2Ship's customers (which are end users) located in North America. \"Products\" or \"Units\" in this Agreement are limited to WLI's G3001 GPSLink mobile terminal as defined in Section 1.2. \"Licensed Programs\" in this Agreement are limited to WLI's MidLink Middleware software and G3001 programming tools. Further, Power2Ship shall also be authorized to resell other WLI products, services and support programs subject to separate written amendments to be made by the parties to this Agreement. WLI reserves the right to add additional products and to delete obsolete or superseded products at any time during the term of this Agreement upon sixty (60) days prior written notice to Power2Ship.",
+                "changed_text": "1.1. WLI hereby grants to Power2Ship the non-exclusive right and license to distribute certain WLI's products and services (the \"Products\" or \"Units\") and software programs (\"Licensed Programs\") to Power2Ship's customers (which are end users) located in North America. \"Products\" or \"Units\" in this Agreement include all GPS tracking devices manufactured by WLI, regardless of model number. \"Licensed Programs\" in this Agreement are limited to WLI's MidLink Middleware software and G3001 programming tools. Further, Power2Ship shall also be authorized to resell other WLI products, services and support programs subject to separate written amendments to be made by the parties to this Agreement. WLI reserves the right to add additional products and to delete obsolete or superseded products at any time during the term of this Agreement upon sixty (60) days prior written notice to Power2Ship.",
+                "explanation": "The original text limits 'Products' to the G3001 GPSLink. The modified text broadens this definition to include all GPS tracking devices, creating a contradiction and uncertainty about which products are covered.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.7. The Unit prices and monthly License Fees of $[*] can't be increased by WLI under the terms of this Agreement.",
+                "changed_text": "3.7. The Unit prices and monthly License Fees of $[*] can't be increased by WLI under the terms of this Agreement, unless there are significant fluctuations in the market price of components used in the Products, in which case WLI may increase prices with 30 days written notice.",
+                "explanation": "This change contradicts the original statement that prices can't be increased by introducing an exception based on market conditions, creating uncertainty about the price stability.",
+                "location": "Section 3.7"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10.2. Power2Ship is committed to provide technical support and service for WLI's Products sold by Power2Ship to its customers.\n\n10.3. Power2Ship will receive the first customer call and will have to maintain a minimum inventory level of spare Units to service its customers within 48 hours. WLI will support an end-user only upon Power2Ship's request and only after Power2Ship has tried to provide the support and has failed to fix the problem. WLI will not be involved in any end-user training.",
+                "changed_text": "10.2. Power2Ship is committed to provide technical support and service for WLI's Products sold by Power2Ship to its customers.\n\n10.3. Power2Ship will receive the first customer call and will have to maintain a minimum inventory level of spare Units to service its customers within 48 hours. WLI will support an end-user directly, without requiring Power2Ship intervention, if the end-user purchased an extended support plan directly from WLI. WLI will not be involved in any end-user training.",
+                "explanation": "This modification creates a contradiction by stating in one clause Power2Ship should be the first line of support, but then immediately following, allowing WLI to support the end user directly without P2S involvment. This creates ambiguity on who is responsible for initial support.",
+                "location": "Section 10.2 and 10.3"
+            }
+        ]
+    }
+]

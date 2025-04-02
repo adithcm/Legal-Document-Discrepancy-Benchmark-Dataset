@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in accordance with the laws of the State of Michigan.",
+                "changed_text": "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined solely by binding arbitration in Houston, Texas, waiving all rights to judicial review and discovery beyond what is explicitly permitted by the arbitrator. The arbitrator's decision is final and not appealable.",
+                "explanation": "This change introduces a contradiction by mandating binding arbitration in Texas and waiving judicial review, potentially conflicting with Michigan law (specified in the original clause) regarding dispute resolution and access to courts. Michigan law may provide different rights to judicial review or discovery, which are being eliminated. Also, the agreed location is changed to Houston, Texas, meaning it will follow the laws of Texas and could be subject to the Federal Arbitration Act, preempting state law.",
+                "contradicted_law": "Potentially conflicts with Michigan state laws regarding contract dispute resolution, judicial review, and discovery rights. Also, the Federal Arbitration Act (FAA) might preempt conflicting state laws due to the agreement's interstate nature.",
+                "location": "13"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices and communications with respect to this Agreement shall be in writing by mail, e-mail, or fax, or other means as agreed to by the parties, and sent to the addresses stated below or to any other such address(es) as may be designated in writing by mail, e-mail, or fax, or other means similarly agreed to:\n\nADMINISTRATIVE MATTERS Great Lakes Gas Transmission Limited Partnership Commercial Services 700 Louisiana St., Suite 700 Houston, TX 77002-2700\n\nANR PIPELINE COMPANY 700 Louisiana St., Suite 700 Houston, TX 77002-2700",
+                "changed_text": "All notices and communications regarding late payments shall be deemed received one (1) day after sending, regardless of the method of delivery. All other notices and communications with respect to this Agreement shall be sent electronically only to the email addresses on file, and will be considered received immediately upon sending, regardless of whether the receiving party acknowledges receipt or the email is actually delivered. The exclusive email addresses for notice are as follows:\n\nADMINISTRATIVE MATTERS Great Lakes Gas Transmission Limited Partnership Commercial Services latepayments@example.com\n\nANR PIPELINE COMPANY latepayments@anr.com",
+                "explanation": "The change modifies the notice provisions to include email as the *only* acceptable method, with receipt considered immediate upon sending. This contradicts standard contract law, which often requires reasonable methods of notice and proof of receipt, particularly for critical communications such as defaults or payment issues. Considering notice received immediately regardless of actual delivery conflicts with due process and fair notice principles. The one-day delivery for late payments conflicts with the Electronic Signatures in Global and National Commerce Act (ESIGN Act) and potentially state adaptations, which mandate consumer consent for electronic records.",
+                "contradicted_law": "Potentially conflicts with the ESIGN Act, Uniform Electronic Transactions Act (UETA), and general contract law principles regarding reasonable notice and due process. It also deviates from standard commercial practices requiring reliable notice for important contractual matters.",
+                "location": "15"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon termination of this Agreement, Shipper's and Transporter's obligations to each other arising under this Agreement, prior to the date of termination, remain in effect and are not being terminated by any provision of this Agreement.",
+                "changed_text": "Upon termination of this Agreement for any reason, all outstanding payment obligations of Shipper to Transporter are immediately forgiven, and Transporter releases Shipper from any further liability under this Agreement, regardless of when the obligations arose.",
+                "explanation": "This modification introduces a contradiction by stating that upon termination, the Shipper's payment obligations are immediately forgiven. This conflicts with the original clause, which states that obligations prior to termination remain in effect. This can create legal issues related to unjust enrichment and the enforceability of contractual obligations, as the Shipper would effectively receive services without having to pay for them, which is a potential violation of standard commercial and contract law principles.",
+                "contradicted_law": "Contradicts principles of contract law related to the obligation to pay for services rendered, unjust enrichment, and the enforceability of pre-existing contractual debts.",
+                "location": "14"
+            }
+        ]
+    }
+]

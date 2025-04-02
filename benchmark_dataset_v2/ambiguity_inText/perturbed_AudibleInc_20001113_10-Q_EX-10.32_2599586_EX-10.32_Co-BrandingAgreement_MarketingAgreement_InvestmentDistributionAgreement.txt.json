@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AudibleInc_20001113_10-Q_EX-10.32_2599586_EX-10.32_Co-BrandingAgreement_MarketingAgreement_InvestmentDistributionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Affiliate\" means, with respect to any person or entity (including either Party), any other person or entity that directly or indirectly controls, is controlled by or is under common control with that person or entity, or which that person or entity beneficially owns at least fifty percent (50%) of the equity interests therein (provided, however, that with respect to the Parties, no individual or entity as to which the ultimate parent entity of a Party does not directly or indirectly control the operations or management thereof (e.g., in the case of ACSI as of the date of this Agreement, Gear.com, Inc.) shall be deemed to be an Affiliate of such Party for purposes of this Agreement).",
+                "changed_text": "\"Affiliate\" means, with respect to any person or entity (including either Party), any other person or entity that directly or indirectly controls, is controlled by or is under common control with that person or entity. For the purposes of revenue sharing under Section 5.4, an affiliate is any entity in which a party holds at least twenty-five percent (25%) of the equity interests therein.",
+                "explanation": "The definition of 'Affiliate' is changed to include a different threshold for equity interests (25% instead of 50%) specifically for revenue sharing calculations. This creates a contradiction, as an entity could be considered an affiliate for revenue sharing but not for other contractual obligations.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Confidential Information\" means, with respect to either Party, all information relating to such Party or its Affiliates that is designated as confidential or that, given the nature of the information or the circumstances surrounding its disclosure, reasonably should be considered as confidential. Confidential Information includes, without limitation, (a) all information relating to a Party's or its Affiliates' technology, customers, business plans, promotional and marketing activities, finances and other business affairs; (b) all third party information that a Party or its Affiliates is obligated to keep confidential; and (c) the terms of this Agreement. Confidential Information may be contained in tangible materials, such as drawings, data, specifications, reports and computer programs, or may be in the nature of unwritten knowledge. Confidential Information does not include any information that (i) has become publicly available without breach of this Agreement, (ii) can be shown by documentation to have been known to the Receiving Party at the time of its receipt from the Disclosing Party or its Affiliates without a breach of confidentiality or other improper means, (iii) is received from a third party who did not acquire or disclose such information by a wrongful or tortious act or (iv) can be shown by documentation to have been independently developed by the Receiving Party without reference to any Confidential Information.",
+                "changed_text": "\"Confidential Information\" means, with respect to either Party, all information relating to such Party or its Affiliates that is designated as confidential. For the purposes of Section 2.5 (Referral Information), Confidential Information shall only include personally identifiable information.",
+                "explanation": "The definition of 'Confidential Information' is narrowed for the purposes of Referral Information. This creates a contradiction as other sections would use a broader definition, but Section 2.5 is limited to PII only, causing ambiguity in how Referral Information is handled.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Term\" means the term of this Agreement as defined in Section 10.\n\nSection 10.  Term and Termination\n\n     10.1    Term.  The term of this Agreement will commence on the Effective Date, and unless earlier terminated as provided elsewhere in this Agreement, will end automatically upon the end of Year 3.",
+                "changed_text": "\"Term\" means the term of this Agreement as defined in Section 10.\n\nSection 10.  Term and Termination\n\n     10.1    Term.  The term of this Agreement will commence on the Effective Date, and unless earlier terminated as provided elsewhere in this Agreement, will end automatically upon the end of Year 5 for purposes of Section 9 (Exclusivity) and Year 3 for all other sections.",
+                "explanation": "While the Term is defined, Section 10.1 is modified to define the term as ending on different years, depending on which section is being applied. This is contradictory, as the \"Term\" has two end dates.",
+                "location": "Section 1, Section 10"
+            }
+        ]
+    }
+]

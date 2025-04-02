@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARELICENSEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.5 \"FIELD OF USE\" means, and is limited to, the utilization of the Licensed Technology by the Licensee for the exclusive purpose of fulfilling Spot FX transactions by transmitting market data and orders. The \"Field of Use\" shall not include any functions or applications not expressly described in the preceding sentence, but shall include functions or applications developed by Licensor to enhance the performance within the \"Field of Use\".",
+                "changed_text": "1.5 \"FIELD OF USE\" means, and is limited to, the utilization of the Licensed Technology by the Licensee for the purpose of fulfilling Spot FX transactions by transmitting market data and orders, along with any other financial transactions the Licensee deems appropriate. The \"Field of Use\" shall include functions or applications developed by Licensor or any third-party to enhance the performance within financial activities.",
+                "explanation": "The original text defines \"Field of Use\" as exclusively for Spot FX transactions, whereas the modified text expands it to include 'any other financial transactions' and including any third party involvement, creating a conflict about the permitted uses of the Licensed Technology.",
+                "location": "ARTICLE I - CERTAIN DEFINITIONS"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "VII. The Licensee acknowledges and understands neither, the Licensor, nor any of its respective affiliates, employees, officers or agents shall assume any responsibility or liability for the system's operations, involving the operations of any equipment, (including but not limited to computer equipment or peripherals, server equipment, communication equipment and data lines, all such equipment, collectively referred to herein as the \"Equipment\").\nThe foregoing shall apply regardless of whether a claim arises in contract, tort, negligence, strict liability or otherwise.     II. Additional Restrictions. The Licensee expressly agrees and acknowledges that, notwithstanding anything herein to the contrary,  Licensee is not licensed to, and Licensee expressly agrees that it shall not(and shall not permit any third party to);",
+                "changed_text": "VII. The Licensee acknowledges and understands neither, the Licensor, nor any of its respective affiliates, employees, officers or agents shall assume any responsibility or liability for the system's operations, involving the operations of any equipment, (including but not limited to computer equipment or peripherals, server equipment, communication equipment and data lines, all such equipment, collectively referred to herein as the \"Equipment\"). Licensor shall bear all responsibility of this equipment. \nThe foregoing shall apply regardless of whether a claim arises in contract, tort, negligence, strict liability or otherwise.     II. Additional Restrictions. The Licensee expressly agrees and acknowledges that, notwithstanding anything herein to the contrary,  Licensee is not licensed to, and Licensee expressly agrees that it shall not(and shall not permit any third party to);",
+                "explanation": "The original text states that Licensor assumes no responsibility for equipment operations. The modified text adds 'Licensor shall bear all responsibility of this equipment', creating a direct contradiction concerning liability for system operations and associated equipment.",
+                "location": "ARTICLE II - LICENSE GRANT AND RESTRICTIONS"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "ARTICLE VII  TECHNICAL SUPPORT SERVICES       (a) The Licensor shall provide Technical Support Services relating to the maintenance and support of the Software and the Licensee shall pay  the Licensor $2,500 per month for such Technical Support Services.\n(d) Except for the Charges set forth above, there shall be no additional fees payable by the Licensee to the Licensor for technical support  services pursuant to this Agreement, unless the parties agree to the contrary in writing.",
+                "changed_text": "ARTICLE VII  TECHNICAL SUPPORT SERVICES       (a) The Licensor shall provide Technical Support Services relating to the maintenance and support of the Software and the Licensee shall pay  the Licensor $2,500 per month for such Technical Support Services. In addition to the monthly fee, there will be a charge for any support over the complimentary 10 hours included in that fee. The hourly overage will be billed at a rate of 500$/hour.\n(d) Except for the Charges set forth above, there shall be no additional fees payable by the Licensee to the Licensor for technical support  services pursuant to this Agreement, unless the parties agree to the contrary in writing.",
+                "explanation": "This creates conflicting terms of payment for technical support. Section (a) introduces a new charge for support over 10 hours whereas Section (d) stated that all fees are set forth above, so by introducing an additional payment in (a) is contradicts the 'no additional fees' without further writing, thus in turn making the language ambiguous.",
+                "location": "ARTICLE VII - TECHNICAL SUPPORT SERVICES"
+            }
+        ]
+    }
+]

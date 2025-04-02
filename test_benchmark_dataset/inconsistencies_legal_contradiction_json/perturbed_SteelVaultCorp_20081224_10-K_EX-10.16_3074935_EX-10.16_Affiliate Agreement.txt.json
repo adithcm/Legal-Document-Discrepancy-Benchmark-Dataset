@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SteelVaultCorp_20081224_10-K_EX-10.16_3074935_EX-10.16_Affiliate Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in full by Marketing Affiliate 30 days from the invoice date. The prices set forth in Exhibit A do not include regulatory fees, sales tax, excise tax or any other fees or taxes that may be charged by states or local taxing authorities nor does it include additional fees or surcharges, including specific area Affiliate charges that may be accessed by the Credit Reporting Agencies (CRA's).",
+                "changed_text": "Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in full by Marketing Affiliate 60 days from the invoice date. The prices set forth in Exhibit A do not include regulatory fees, sales tax, excise tax or any other fees or taxes that may be charged by states or local taxing authorities nor does it include additional fees or surcharges, including specific area Affiliate charges that may be accessed by the Credit Reporting Agencies (CRA's).",
+                "explanation": "The original contract states that payments are due within 30 days of the invoice date. This is a fairly standard payment term. By changing this to 60 days, it potentially conflicts with prompt payment laws that exist in some states (including Virginia where Equidata is located, which is 30 days) that require payments to vendors or subcontractors within a shorter timeframe, especially for certain types of industries or projects.",
+                "contradicted_law": "Virginia Prompt Payment Act, varies by state",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Marketing Affiliate shall give Equidata written demand of dispute within 10 days of the due date of the invoice. The demand shall set forth a statement for the nature of the dispute and the amount involved. If Equidata and Marketing Affiliate can not resolve the dispute on their own within 10 days after Equidata receive said dispute, the parties shall jointly select an arbitrator.",
+                "changed_text": "Marketing Affiliate shall give Equidata written demand of dispute within 5 days of the due date of the invoice. The demand shall set forth a statement for the nature of the dispute and the amount involved. If Equidata and Marketing Affiliate can not resolve the dispute on their own within 10 days after Equidata receive said dispute, the parties shall jointly select an arbitrator.",
+                "explanation": "Reducing the dispute notification period from 10 days to 5 days could be considered unreasonable, especially for complex billing disputes. This might conflict with the implied duty of good faith and fair dealing present in most US contract laws, which requires parties to act reasonably and honestly in performing their contractual obligations. Courts might deem a 5-day window insufficient for a fair dispute resolution process, making this clause unenforceable.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (Uniform Commercial Code § 1-304)",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The hearing shall commence  no later than 25 calendar days after Equidata receives receipt of dispute from Marketing Affiliate and shall continue from day  to day until completed. The arbitrator(s) shall issue an award in writing no later than 10 calendar days after the conclusion of  the hearing. The arbitration award shall be final and binding on both parties.",
+                "changed_text": "The hearing shall commence no later than 60 calendar days after Equidata receives receipt of dispute from Marketing Affiliate and shall continue from day to day until completed. The arbitrator(s) shall issue an award in writing no later than 30 calendar days after the conclusion of the hearing. The arbitration award shall be final and binding on both parties.",
+                "explanation": "Delaying the commencement of the hearing to 60 calendar days and extending the time for the arbitrator to issue an award to 30 calendar days could violate Virginia's Uniform Arbitration Act which emphasizes swift resolution and may require specific time limits for each stage of the process. The law typically implies that arbitration should be reasonably fast, and these changes could be seen as frustrating the purpose of arbitration by causing excessive delay.",
+                "contradicted_law": "Virginia Uniform Arbitration Act (Code of Virginia § 8.01-581.01)",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

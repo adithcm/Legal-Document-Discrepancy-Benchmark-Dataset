@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PaperexchangeComInc_20000322_S-1A_EX-10.4_5202103_EX-10.4_Co-Branding Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the 18-month period following the payment by one party of any amount due under this Agreement to the other party, the party receiving",
+                "changed_text": "During the 6-month period following the payment by one party of any amount due under this Agreement to the other party, the party receiving",
+                "explanation": "The original contract allows for an 18-month audit period. Many states have laws limiting how far back financial records need to be maintained, and 18 months may exceed reasonable record-keeping requirements under those laws. This introduces a conflict with general business and legal expectations, potentially violating laws around document retention or audit rights.",
+                "contradicted_law": "Potentially conflicts with state laws regarding document retention or audit rights.",
+                "location": "Section 7.7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement immediately upon written notice to the other party in the event any material breach of a material term of this Agreement by such other party that remains uncured 30 days in the case of a breach of a payment obligation, or 45 days for all other breaches, after notice of such breach was received by such other party; provided, however that if such breach is not reasonably capable of cure within the applicable cure period, the breaching party shall have an additional 180 days to cure such breach so long as the cure is commenced within the applicable cure period and thereafter is diligently prosecuted to completion as soon as possible.",
+                "changed_text": "Either party may terminate this Agreement immediately upon written notice to the other party in the event any material breach of a material term of this Agreement by such other party that remains uncured 10 days in the case of a breach of a payment obligation, or 15 days for all other breaches, after notice of such breach was received by such other party; provided, however that if such breach is not reasonably capable of cure within the applicable cure period, the breaching party shall have an additional 30 days to cure such breach so long as the cure is commenced within the applicable cure period and thereafter is diligently prosecuted to completion as soon as possible.",
+                "explanation": "Reducing the cure periods for breaches of contract, particularly payment obligations and other material breaches, to 10 and 15 days respectively, can be considered unreasonable and may conflict with legal principles of 'reasonable opportunity to cure'. Courts often expect cure periods to be longer, especially for complex breaches, making the reduced timeframes potentially unenforceable.",
+                "contradicted_law": "Conflicts with legal principles of 'reasonable opportunity to cure'.",
+                "location": "Section 8.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The confidentiality obligations contained in this Article 10  [CONFIDENTIALITY] shall survive termination of this Agreement for a period of three years.",
+                "changed_text": "The confidentiality obligations contained in this Article 10  [CONFIDENTIALITY] shall survive termination of this Agreement for a period of one year.",
+                "explanation": "Reducing the confidentiality period to one year may be insufficient to protect certain types of confidential information, especially trade secrets or sensitive business data. In some industries and jurisdictions, a one-year confidentiality period may be deemed unreasonably short, especially when trade secrets are involved, potentially rendering the clause unenforceable or insufficient for legal protection under trade secret laws.",
+                "contradicted_law": "Potentially conflicts with trade secret laws and accepted business practices regarding confidentiality period.",
+                "location": "Section 10.3"
+            }
+        ]
+    }
+]

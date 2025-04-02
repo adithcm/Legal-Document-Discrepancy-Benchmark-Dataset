@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3) Payments shall be made by Ultragenyx in Euro and within [***] days after receipt of a proper invoice.",
+                "changed_text": "3) Payments shall be made by Ultragenyx in Euro and within 90 days after receipt of a proper invoice.",
+                "explanation": "This change introduces a potential conflict with German law regarding payment terms. While German law doesn't prescribe a strict deadline, excessively long payment terms (like 90 days, when the business are not start-ups and small business) can be considered an unfair trade practice, especially if they significantly disadvantage the supplier (Cremer) which goes against Section 271a of the German Civil Code (BGB) that protects smaller businesses against unfair practices.",
+                "contradicted_law": "Section 271a of the German Civil Code (BGB) - Unfairly Long Payment Terms",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5) In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within [***] days after receipt of the Product and all documentation (except such [***] day period will not apply for any latent defect). Within [***] days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Ultragenyx's choice, replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "changed_text": "5) In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within 7 days after receipt of the Product and all documentation (except such 7 day period will not apply for any latent defect). Within 14 days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Cremer's sole choice, replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "explanation": "This change introduces two contradictions: First, reducing the rejection period to 7 days may be considered unreasonably short under German law (BGB § 377) depending on the nature of the product and the time reasonably needed for inspection. Courts often look at industry standards. Second, changing 'Ultragenyx's choice' to 'Cremer's sole choice' regarding the remedy (replacement or refund) contradicts the principle of buyer's choice in defect remedies under German law (BGB §§ 437, 439).",
+                "contradicted_law": "BGB § 377 (Duty to examine and give notice of defects), BGB §§ 437, 439 (Buyer's rights in case of defects)",
+                "location": "Article 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "2) If a Party materially breaches an obligation under this Agreement and does not cure such breach within sixty (60) days of receiving notice of such breach from the non-breaching Party, the non-breaching Party may terminate this Agreement immediately upon written notice to the breaching Party.",
+                "changed_text": "2) If a Party materially breaches an obligation under this Agreement and does not cure such breach within fifteen (15) days of receiving notice of such breach from the non-breaching Party, the non-breaching Party may terminate this Agreement immediately upon written notice to the breaching Party.",
+                "explanation": "This change reduces the cure period for a material breach to 15 days. This may be deemed unreasonably short under German law (BGB § 314) depending on the nature of the breach and the efforts required to cure it. German courts often consider the principle of good faith (Treu und Glauben) and may find a 15-day cure period insufficient if the breach is complex or requires significant resources to resolve.",
+                "contradicted_law": "BGB § 314 (Termination of continuing obligations for good cause), Principle of Good Faith (Treu und Glauben)",
+                "location": "Article 5"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Contractor will supply all orders that do not exceed the forecast at the delivery times set forth in each Purchase Order. In the event Contractor anticipates at any time that it will not deliver Products within the prescribed timetable as set forth in the applicable Purchase Order, Contractor shall promptly so inform Customer by written notice of such delay. Contractor shall submit proposed revisions to the timetable that reflect Contractor's best estimates of what can realistically be achieved and shall use its best commercial efforts to achieve such timeline, unless otherwise directed by Customer and confirmed by Contractor.",
+                "changed_text": "Contractor will use its best efforts to supply all orders according to the forecast at the delivery times set forth in each Purchase Order. In the event Contractor anticipates at any time that it will not deliver Products within the prescribed timetable as set forth in the applicable Purchase Order, Contractor may inform Customer by written notice of such delay. Contractor may submit proposed revisions to the timetable that reflect Contractor's best estimates of what can realistically be achieved and may use its best commercial efforts to achieve such timeline, as directed by Customer.",
+                "explanation": "Changing 'Contractor shall' to 'Contractor will use its best efforts' and 'Contractor may' introduces ambiguity regarding the contractor's obligation to meet the delivery times, thereby conflicting with the Purchase Order terms.",
+                "location": "7.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Contractor represents and warrants that, for the Warranty Period, the Products (i) will be free from defects in workmanship, material (only to the same extent as the original manufacturer of the material warrants the Contractor), and manufacture; (ii) will comply the Specifications IPC610.B standard (in all material respects and unless otherwise was instructed by Customer). Contractor further represents and warrants that the Product will consist of new materials.",
+                "changed_text": "Contractor represents and warrants that, for a Warranty Period of six (6) months, the Products (i) will be free from defects in workmanship, material, and manufacture; (ii) will comply the Specifications IPC610.B standard. Contractor further represents and warrants that the Product will consist of either new or refurbished materials.",
+                "explanation": "The original definition stated that 'Warranty Period' shall mean twelve (12) months, while the changed definition modifies it to six (6) months. In addition, it also contradicts the type of material, by introducing 'refurbished' instead of only 'new'.",
+                "location": "10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Customer may, upon advance written notice to Contractor, submit engineering changes for incorporation into the Products. Contractor will review the engineering change and report to Customer within two (2) working days of any implications of the proposed changes. The report should include all possible implications on materials, delivery schedule, manufacturing process, quality and product cost and shall also quote the Contractors costs for implementing the changes. Customer and Contractor will agree on all aspects of implications and shall accordingly make revisions in outstanding Purchase Orders - if requested by Customer and subject to Contractor's consent in writing.",
+                "changed_text": "Customer must, upon coordination with Contractor, submit potential engineering changes for incorporation into the Products. Contractor may or may not review the engineering change and report to Customer if there are any implications of the proposed changes. The report may not include all possible implications on materials, delivery schedule, manufacturing process, quality and product cost. Customer and Contractor will decide on some aspects of implications and shall not make revisions in outstanding Purchase Orders.",
+                "explanation": "The change introduces conflicting obligations regarding the engineering change process. 'Customer may' changes to 'Customer must', 'Contractor will' changes to 'Contractor may or may not', 'report should include all possible implications' changes to 'report may not include all possible implications'. This creates uncertainty regarding the engineering change implementation.",
+                "location": "11.1"
+            }
+        ]
+    }
+]

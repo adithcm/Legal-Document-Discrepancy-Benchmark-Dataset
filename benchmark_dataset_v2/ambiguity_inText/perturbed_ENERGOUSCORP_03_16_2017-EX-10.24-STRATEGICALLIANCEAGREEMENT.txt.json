@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.1 \"Affiliate\" means any person or entity that controls, is controlled by or is under common control with the specified person or entity, but only so long as such control exists. The term \"control\" means the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of an entity, whether through ownership of voting securities, by contract or otherwise.",
+                "changed_text": "1.1 \"Affiliate\" means any person or entity that controls, is controlled by or is under common control with the specified person or entity, but only so long as such control exists. The term \"control\" means the possession, directly or indirectly, of the power to influence the decisions of an entity, whether through ownership of voting securities, influence in the board, or otherwise.",
+                "explanation": "The original definition specifies control as the 'power to direct or cause the direction of the management and policies'. The changed definition broadens 'control' to include the 'power to influence the decisions'. This creates ambiguity because influence is a weaker form of control, making it unclear whether minor influence constitutes affiliation.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.24 \"Product Specifications\" means ENERGOUS' written technical specifications for the Products as referenced in datasheets and related documentation such as errata sheets. All Product Specifications are subject to change with at least one (1) months prior written notice to DIALOG, provided that with respect to any warranty for Products covered by this Agreement, the Product Specification in effect at the time of shipment of the relevant Product will apply for warranty purposes notwithstanding any subsequent change to the Product Specifications as provided herein.",
+                "changed_text": "1.24 \"Product Specifications\" means ENERGOUS' written technical specifications for the Products as referenced in datasheets and related documentation such as errata sheets. All Product Specifications are subject to change with at least one (1) months prior written notice to DIALOG. Product specifications in effect at the time of order will apply.",
+                "explanation": "The original definition states that the 'Product Specification in effect at the time of shipment' applies for warranty purposes, providing clarity on which version of specifications govern. The modified definition introduces a conflict by saying 'Product specifications in effect at the time of order will apply', which means different Product Specifications will apply at different events, which creates uncertainty regarding warranty claims and which specifications must be adhered to.",
+                "location": "Section 1.24"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.2 Product Warranty.   (a)  ENERGOUS warrants that (i) when manufactured in accordance with the Approved Production Specifications, and as implemented in a suitable circuit application in accordance with the Product Specifications, the Products and Product Die will conform to the Product Specifications and will be free from defects that could have been avoided in their design; (ii) the Products, any constituent parts or functionality thereof, the Documentation and the Deposit Materials do not infringe any third party's Intellectual Property Rights; (iii) it did not misappropriate any third party's trade secrets in the development of the Products, any constituent parts or functionality thereof, the Documentation or the Deposit Materials; and (iv) when delivered (including any software updates if any), no Product will contain any viruses, \"Trojan horses\" or other harmful code. The above warranties are valid for a period of [***] from the date of shipment of any Licensed Product to any customer.",
+                "changed_text": "11.2 Product Warranty.   (a)  ENERGOUS warrants that (i) the Products and Product Die will conform to industry standards; (ii) the Products, any constituent parts or functionality thereof, the Documentation and the Deposit Materials do not infringe any third party's Intellectual Property Rights; (iii) it did not misappropriate any third party's trade secrets in the development of the Products, any constituent parts or functionality thereof, the Documentation or the Deposit Materials; and (iv) when delivered (including any software updates if any), no Product will contain any viruses, \"Trojan horses\" or other harmful code. The above warranties are valid for a period of [***] from the date of manufacturing of any Licensed Product.",
+                "explanation": "The original warranty explicitly references 'Approved Production Specifications' and 'Product Specifications'. The modified definition replaces this with the vague term 'industry standards', which makes the standard against which the Product is measured very subjective. Also, the warranty validity changes to the date of manufacturing of any Licensed Product, which makes it inconsistent with 'from the date of shipment'.",
+                "location": "Section 11.2"
+            }
+        ]
+    }
+]

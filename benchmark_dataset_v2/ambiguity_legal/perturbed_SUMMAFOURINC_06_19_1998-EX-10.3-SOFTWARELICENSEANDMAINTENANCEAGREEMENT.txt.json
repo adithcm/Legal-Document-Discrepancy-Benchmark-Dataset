@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SUMMAFOURINC_06_19_1998-EX-10.3-SOFTWARELICENSEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "LICENSEE shall ensure that all Licensed Technology distributed by LICENSEE shall be subject to a shrink-wrap agreement or other end user agreement which contains a provision substantially similar to the provision set forth in Exhibit D.",
+                "changed_text": "LICENSEE should endeavor to ensure that all Licensed Technology distributed by LICENSEE is subject to a shrink-wrap agreement or other end user agreement, potentially containing a provision somewhat similar to the provision set forth in Exhibit D.",
+                "explanation": "Changing 'shall ensure' to 'should endeavor to ensure' weakens the obligation. 'Substantially similar' is replaced with 'somewhat similar', which introduces more ambiguity. It is unclear what 'endeavor' means and how similar 'somewhat' is, making it difficult to determine if the LICENSEE is meeting their requirements.",
+                "contradicted_law": "Breach of contract; Intellectual property rights protection",
+                "location": "2.3"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "D2 shall work diligently to promptly correct Defects in accordance with the following schedule; \"days\" shall mean calendar days.\n\nERROR PRIORITY (1)         RESPONSE (2)      CLOSURE (3)\n\nEmergency (A)              24 hours          7 days\n\nCritical (B)               2 days            14 days\n\nNon-Critical (C)           30 days           Next Update                                                       or                                                       New Version",
+                "changed_text": "D2 will attempt to address Defects in a timely manner. If D2 becomes aware of any Defect in the Licensed Technology, D2 shall promptly provide LICENSEE with written notice of such Defect. Response and closure times may vary. \"Days\" may refer to business days.",
+                "explanation": "The modified text introduces significant ambiguity. Replacing \"shall work diligently to promptly correct Defects in accordance with the following schedule\" with \"will attempt to address Defects in a timely manner\" removes any specific obligation to a schedule. Introducing that the 'days' may be refering to business days also creates uncertainty. Removing the table entirely and weakening the language means there is no guaranteed response or resolution time, leaving the term 'timely manner' to interpretation. This contradicts the original intent and offers no legally enforceable metric.",
+                "contradicted_law": "Breach of contract; lack of specific performance",
+                "location": "6.3"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "LICENSEE agrees to use the Licensed Source Code under carefully controlled conditions for the purposes set forth in this Agreement, and to inform all employees who are given access to the Licensed Source Code by LICENSEE that such materials are confidential trade secrets of D2 and are licensed to LICENSEE as such. LICENSEE shall restrict access to the Licensed Source Code to those employees and Contractors of LICENSEE who have agreed to be bound by a confidentiality obligation which incorporates the protections and restrictions substantially as set forth herein, and who have a need to know in order to carry out the purposes of this Agreement.",
+                "changed_text": "LICENSEE intends to use the Licensed Source Code under generally controlled conditions for the purposes set forth in this Agreement, and to inform relevant employees who are given access to the Licensed Source Code by LICENSEE that such materials are considered confidential information of D2 and are used by LICENSEE. LICENSEE will attempt to restrict access to the Licensed Source Code to those employees and Contractors of LICENSEE who have agreed to be bound by a confidentiality understanding, and who potentially have a need to know in order to carry out the purposes of this Agreement.",
+                "explanation": "The original text mandates a specific level of security and confidentiality. By contrast, the modified text weakens these obligations: changing 'agrees to use under carefully controlled conditions' to 'intends to use under generally controlled conditions' lowers the security expectation, 'confidential trade secrets' to 'considered confidential information' reduces the perceived importance of the data, replacing 'shall restrict access' to 'will attempt to restrict access' makes controlling access discretionary, replacing 'confidentiality obligation which incorporates the protections and restrictions substantially as set forth herein' to 'confidentiality understanding' and adding 'potentially have a need to know' introduces doubt. This contradicts the original robust confidentiality standards, potentially failing to protect D2's trade secrets effectively.",
+                "contradicted_law": "Trade Secret Misappropriation; Breach of Contract",
+                "location": "7.4"
+            }
+        ]
+    }
+]

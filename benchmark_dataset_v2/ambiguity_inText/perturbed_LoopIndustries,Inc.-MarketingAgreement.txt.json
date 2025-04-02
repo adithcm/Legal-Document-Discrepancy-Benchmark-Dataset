@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LoopIndustries,Inc.-MarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.3 \"Affiliate\" means, with respect to a Party, any corporation or other entity that is directly or indirectly controlling, controlled by or under the common control with such Party. For the purpose of this definition, \"control\" means the direct or indirect ownership of at least fifty percent (50%) of the outstanding shares or other voting rights of the subject entity to elect directors (or, in the case of an entity that is not a corporation, for the election of the corresponding managing authority), or if not meeting the preceding, any entity owned or controlled by or owning or controlling at the maximum control or ownership right permitted in the country where such entity exists.",
+                "changed_text": "1.3 \"Affiliate\" means, with respect to a Party, any corporation or other entity that is directly or indirectly controlling, controlled by or under the common control with such Party. For the purpose of this definition, \"control\" means the direct or indirect ownership of at least twenty-five percent (25%) of the outstanding shares or other voting rights of the subject entity to elect directors (or, in the case of an entity that is not a corporation, for the election of the corresponding managing authority), or if not meeting the preceding, any entity owned or controlled by or owning or controlling at the maximum control or ownership right permitted in the country where such entity exists.",
+                "explanation": "The definition of 'Affiliate' is changed by altering the percentage of ownership required to establish 'control'. Initially, it requires 50% ownership, but is modified to 25%. This introduces ambiguity as to which entities qualify as 'Affiliates', affecting various clauses related to liability, marketing restrictions, and confidentiality.",
+                "location": "Article 1, Section 1.3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.2 Termination for Breach. If a Party commits a material breach of this Agreement, the non-breaching Party shall be entitled to terminate this Agreement if the breaching party does not cure the breach within thirty (30) days after the non- breaching party gives the breaching party written notice of the specific breach.",
+                "changed_text": "5.2 Termination for Breach. If a Party commits a material breach of this Agreement, the non-breaching Party shall be entitled to terminate this Agreement if the breaching party does not cure the breach within ninety (90) days after the non- breaching party gives the breaching party written notice of the specific breach.",
+                "explanation": "The cure period for a material breach is extended from 30 days to 90 days. This creates conflict as one party may rely on the 30-day clause while another may rely on the 90-day period, affecting termination rights.",
+                "location": "Article 5, Section 5.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "7.3 Notices. All notices required or permitted to be given under this Agreement shall be in writing and shall be delivered by electronic transmission (email or fax) or prepaid air express or registered airmail, postage prepaid, to the following: If to Loop: Loop Industries, Inc. 480 rue Fernand-Poitras Terrebonne, Quebec J6Y 1Y4 Canada E-mail: apenta@loopindustries.com Attention: Antonella Penta",
+                "changed_text": "7.3 Notices. All notices required or permitted to be given under this Agreement shall be in writing and shall be delivered by prepaid air express or registered airmail, postage prepaid, to the following: If to Loop: Loop Industries, Inc. 480 rue Fernand-Poitras Terrebonne, Quebec J6Y 1Y4 Canada E-mail: apenta@loopindustries.com Attention: Antonella Penta",
+                "explanation": "The allowed method of delivery of notices is restricted by excluding electronic transmission (email or fax). This creates contradiction since the definition of notice originally stated it can be given through email or fax. This will introduce confusion on whether electronic transmission will be sufficient notice.",
+                "location": "Article 7, Section 7.3"
+            }
+        ]
+    }
+]

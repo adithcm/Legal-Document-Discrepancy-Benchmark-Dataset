@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ELECTRAMECCANICA VEHICLES CORP. - Manufacturing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "EMV has the right to examine the goods on arrival and has Fifteen (15) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods, or non-conformity to the Specifications. The notice must set forth the basis of the claim in reasonable detail. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods.",
+                "changed_text": "EMV has the right to examine the goods on arrival and has Five (5) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods, or non-conformity to the Specifications. The notice must set forth the basis of the claim in reasonable detail. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods.",
+                "explanation": "Reducing the claim notification period to 5 business days could be considered unreasonably short, especially for complex manufacturing defects, and may be inconsistent with the implied duty of good faith and fair dealing, violating general contract principles that ensure parties have a reasonable opportunity to assert their rights. This could potentially be challenged under legal principles ensuring fairness and reasonable opportunity to inspect goods and notify defects.",
+                "contradicted_law": "General Contract Principles - Implied Duty of Good Faith and Fair Dealing",
+                "location": "5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.1.2 Manufacturer will invoice EMV for Products net ten (10) days from when the parties sign the Quality Evaluation Form to confirm delivery of Products. 5.1.3 EMV shall pay 70% of total amount of a Purchase Order within ten (10) days of receipt of Manufacturer's invoice as provided in Section 5.1.2 above.",
+                "changed_text": "5.1.2 Manufacturer will invoice EMV for Products net thirty (30) days from when the parties sign the Quality Evaluation Form to confirm delivery of Products. 5.1.3 EMV shall pay 70% of total amount of a Purchase Order within thirty (90) days of receipt of Manufacturer's invoice as provided in Section 5.1.2 above.",
+                "explanation": "Delaying the payment terms to 90 days of receipt of the manufacturer's invoice can create conflicts with prompt payment laws in some jurisdictions (including the US, where many states have them at the state level), which mandate payment within a shorter timeframe, often 30-45 days, particularly in government or construction-related contracts. Such extended payment terms could be deemed an unfair trade practice or a violation of such laws, making the clause unenforceable.",
+                "contradicted_law": "Prompt Payment Laws (e.g., State Prompt Payment Acts in the United States)",
+                "location": "5.1.2 and 5.1.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement in the event of a material breach of the Agreement provided such breach is not remedied within _sixty_ (_60_) calendar days following delivery of notice of such breach.",
+                "changed_text": "Either party may terminate this Agreement in the event of a material breach of the Agreement provided such breach is not remedied within _thirty_ (_30_) calendar days following delivery of notice of such breach.",
+                "explanation": "Reducing the cure period for a material breach to 30 days could be deemed unconscionable or unreasonable in certain legal contexts, potentially conflicting with principles of contract law that allow a reasonable time to cure serious breaches, depending on the nature and complexity of the breach. Courts might find that 30 days is insufficient to rectify certain complex material breaches, making the termination clause vulnerable to challenge.",
+                "contradicted_law": "General Contract Principles - Reasonableness of Cure Period for Material Breach",
+                "location": "8.2"
+            }
+        ]
+    }
+]

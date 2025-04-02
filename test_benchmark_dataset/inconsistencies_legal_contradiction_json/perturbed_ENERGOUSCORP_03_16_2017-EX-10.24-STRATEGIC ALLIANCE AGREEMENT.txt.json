@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments of Royalties and Service Fees will be due on a calendar quarterly basis, within [***] days after the end of the calendar quarter in which the applicable Licensed Products were Sold or services were rendered. From the date a payment is due, unless otherwise agreed, any late payment will accrue a late payment fee of [***] per month, or the highest interest rate permitted by law, whichever is less.",
+                "changed_text": "Payments of Royalties and Service Fees will be due on a calendar quarterly basis, within 60 days after the end of the calendar quarter in which the applicable Licensed Products were Sold or services were rendered. From the date a payment is due, unless otherwise agreed, any late payment will accrue a late payment fee of 2% per month, or the highest interest rate permitted by law, whichever is less.",
+                "explanation": "The original text has been modified to set the payment due date 60 days after the end of the calendar quarter, and a late payment fee of 2% per month. California law requires that late payment fees must be reasonable and commensurate with the actual damages incurred due to the late payment. A fixed 2% late fee, without considering the actual cost of the delay, could be deemed unreasonable and thus violate California's consumer protection laws.",
+                "contradicted_law": "California Civil Code Section 1671(b)",
+                "location": "Section 9.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each party will maintain, during the Term and for three (3) years thereafter, such comprehensive general liability insurance (including without limitation, products liability) as will adequately protect it against its potential liabilities under this Agreement, in amounts customary in the semiconductor industry for similar services and products.",
+                "changed_text": "Each party will maintain, during the Term and for one (1) year thereafter, such general liability insurance as it deems appropriate to protect against potential liabilities under this Agreement.",
+                "explanation": "The original text required insurance coverage for three years after the contract term. This has been shortened to one year and removes the 'comprehensive' and 'products liability' requirements, and also removes the requirement of customary amounts in the industry. This change could violate implied duties of good faith and fair dealing under California law, as it materially reduces the protections in place in the agreement in a way that benefits the party reducing the amount.",
+                "contradicted_law": "California Commercial Code Section 1201",
+                "location": "Section 12.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "ENERGOUS will keep the Deposit Materials in escrow and ensure on a quarterly basis that all the information relating to the Deposit Materials in escrow is current, including deposit of any Product Updates.",
+                "changed_text": "ENERGOUS will keep the Deposit Materials in escrow, at its discretion, if DIALOG makes a request during the Term. ENERGOUS will update the Deposit Materials at its own convenience.",
+                "explanation": "The original text required ENERGOUS to keep the Deposit Materials (critical design information) current in escrow. The modification makes this dependent on ENERGOUS's discretion and convenience, which weakens the obligation to maintain current and accessible deposit materials. If, because this material is outdated, DIALOG cannot execute the license granted in Section 16.3, this could be seen as a breach of good faith that is implied in every California contract.",
+                "contradicted_law": "California Commercial Code Section 1201",
+                "location": "Section 16.1"
+            }
+        ]
+    }
+]

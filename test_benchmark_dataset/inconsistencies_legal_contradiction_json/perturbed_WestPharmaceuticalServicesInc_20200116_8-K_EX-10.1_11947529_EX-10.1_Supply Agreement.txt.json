@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WestPharmaceuticalServicesInc_20200116_8-K_EX-10.1_11947529_EX-10.1_Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "changed_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than 120 days after the invoice date, regardless of what is set forth in Attachment E. All invoices shall be paid by company check, and may be subject to a 2% processing fee.",
+                "explanation": "This modification directly contradicts standard payment terms and potentially violates prompt payment laws. Many jurisdictions have laws requiring payments to be made within a reasonable timeframe (often 30-60 days). Setting a 120-day payment term, regardless of agreed-upon terms, and imposing a processing fee introduce non-compliance.",
+                "contradicted_law": "Prompt Payment Laws (various state and federal laws related to reasonable payment terms)",
+                "location": "PRICING"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Buyer shall inspect and test Product delivered hereunder for damage, defect or shortage immediately upon receipt at Buyer's plant or such other location as determined by Buyer and provide Seller notice of any such damage, defect or shortage within ten (10) days of receipt. Any claims for shortages must be supported by certified railroad scale tickets (or similar documents if shipments were not by rail) and Seller shall have an opportunity to have an independent weighing. All claims for any cause whatsoever, whether based in contract, negligence or other tort, strict liability, breach of warranty or otherwise, shall be deemed waived unconditionally and absolutely unless Seller receives written notice of such claim not later than one hundred fifty (150) days after Buyer's receipt of Product as to which such claim is made.",
+                "changed_text": "Buyer shall inspect and test Product delivered hereunder for damage, defect or shortage and must provide Seller notice of any such damage, defect, or shortage within five (5) days of receipt. All claims for any cause whatsoever shall be deemed waived unconditionally and absolutely unless Seller receives written notice of such claim not later than thirty (30) days after Buyer's receipt of Product as to which such claim is made.",
+                "explanation": "Reducing the claim notification period from 150 days to 30 days may be considered unreasonably short and could conflict with laws providing consumers/businesses a reasonable time to discover latent defects and pursue claims. The requirement for immediate inspection may be impractical and conflict with standard business practices.",
+                "contradicted_law": "Statute of Limitations (contract law) and UCC Article 2 (Sales)",
+                "location": "ATTACHMENT A - Section 9"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding anything to the contrary in Attachments A, G or H, neither party can suspend its further performance, terminate this Agreement or require specific performance of the other party of this Agreement in whole or in part as a result of the other party's material breach of the terms and conditions of this Agreement without first providing notice to such party in writing and thirty (30) days' opportunity to cure the material breach (and then only if such party fails to cure such breach).",
+                "changed_text": "Neither party can suspend its further performance or terminate this Agreement as a result of the other party's material breach of the terms and conditions of this Agreement. The sole remedy for any material breach is limited to monetary damages, which are capped at $1000.",
+                "explanation": "This eliminates the right to terminate the agreement for a material breach, which is a standard remedy in contract law. Limiting the remedy to only monetary damages capped at $1000 could be deemed unconscionable and unenforceable, as it fails to provide adequate compensation for significant breaches and conflicts with established contract principles.",
+                "contradicted_law": "Basic Contract Law Principles (remedies for breach of contract)",
+                "location": "TERMINATION"
+            }
+        ]
+    }
+]

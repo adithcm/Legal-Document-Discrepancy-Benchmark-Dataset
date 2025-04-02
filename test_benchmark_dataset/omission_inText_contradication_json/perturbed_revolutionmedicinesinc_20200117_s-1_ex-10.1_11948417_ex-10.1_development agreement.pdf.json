@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "revolutionmedicinesinc_20200117_s-1_ex-10.1_11948417_ex-10.1_development agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.17 “Commercially Reasonable Efforts” means: (a) with respect to Sanofi, [***], consistent with [***] that [***], taking into account [***], including [***] and (b) with respect to RevMed, [***], consistent with [***] that [***], taking into account [***], including [***].",
+                "changed_text": "1.17 “Commercially Reasonable Efforts” means the efforts a party would undertake to ensure the success of the collaboration, regardless of cost or potential return.",
+                "explanation": "By removing the specific definition that takes into account factors such as profitability and market conditions, this change introduces a contradiction if later sections of the contract rely on a more nuanced understanding of 'Commercially Reasonable Efforts' that balances effort with financial return. The changed definition implies an unlimited expenditure, which contradicts typical business practices and creates enforcement uncertainty. For example, section 5.7 now can be easily interpreted in the favor of RevMed, since it is harder to prove that Sanofi is not putting in Commercial Reasonable Efforts. This definition benefits RevMed and puts Sanofi at a disadvantage.",
+                "location": "Article I, Section 1.17"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.38 “FTE” means a full time equivalent person year (consisting of [***] hours per year) of work as an employee or contractor [***] hereunder as tracked by each Party using its respective standard practice and methodologies. For clarity, [***] will not constitute FTEs. Notwithstanding the foregoing, the time of a single individual will not account for more than one FTE for a given Calendar Year (or applicable pro-rata portion of an FTE during any Calendar Quarter or other period of less than a Calendar Year).",
+                "changed_text": "1.38 “FTE” means a full time equivalent person year of work as an employee or contractor hereunder as tracked by each Party. The time of a single individual will not account for more than one FTE for a given Calendar Year.",
+                "explanation": "By removing the definition of [***] hours per year, creates ambiguity regarding the calculation of FTE costs. This creates a contradiction when calculating FTE costs since FTE Rate was defined in section 1.40 to be calculated based on hours. Ambiguity will arise when trying to bill hourly.",
+                "location": "Article I, Section 1.38"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.69 “Net Sales” means, with respect to a Product for any period, the gross amount billed or invoiced by Sanofi, its Affiliates or its or their Sublicensees for the sale of a Product to Third Parties (including Distributors) commencing with the First Commercial Sale of such Product less the following deductions determined in accordance with Accounting Standards from such gross amounts which are actually incurred, allowed, accrued or specifically allocated:\n(a)\n[***]\n(b)\n[***]\n(c)\n[***]\n(d)\n[***]\n(e)\n[***]\n(f)\n[***]\n(g)\n[***]\n(h)\n[***]\n(i)\n[***] and\n(j)\n[***].",
+                "changed_text": "1.69 “Net Sales” means, with respect to a Product for any period, the gross amount billed or invoiced by Sanofi, its Affiliates or its or their Sublicensees for the sale of a Product to Third Parties (including Distributors) commencing with the First Commercial Sale of such Product less standard deductions. Any of the deductions listed above that involves a payment by such Party, its Affiliates or its or their Sublicensees shall be taken as a deduction in the Calendar Quarter in which the payment is accrued by such entity.",
+                "explanation": "By omitting the specific deductions (a)-(j) from the Net Sales definition, the contract becomes vague. While stating 'standard deductions', the actual items that can be deducted are not defined. Since the definition mentions 'Any of the deductions listed above', it assumes they will be provided earlier in the definition, and creates ambiguity about what is deductible. This can create ambiguity when calculating the royalties.",
+                "location": "Article I, Section 1.69"
+            }
+        ]
+    }
+]

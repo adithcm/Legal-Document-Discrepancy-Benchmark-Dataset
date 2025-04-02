@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3.3 PAYMENT. All payments to PivX shall be made within thirty (30) days after the receipt by Detto of the PivX's invoice. Detto shall pay PivX a late charge on outstanding amounts due equal to one and one-half percent (1.50%) per month or the maximum amount allowed by law, whichever is less.",
+                "changed_text": "3.3 PAYMENT. All payments to PivX shall be made within sixty (60) days after the receipt by Detto of the PivX's invoice. Detto shall pay PivX a late charge on outstanding amounts due equal to two percent (2.0%) per month.",
+                "explanation": "The original contract stipulates payment within 30 days and a 1.5% late charge. This has been modified to require payment within 60 days with a late charge of 2.0% per month. While a 60 day payment period may be acceptable depending on the specific jurisdiction and industry standards, the increase in late payment fees to 2% without stating 'or the maximum amount allowed by law, whichever is less' introduces a legal risk. California law, which governs this agreement, sets limits on the amount of interest that can be charged on late payments, depending on the type of debt and agreement. By setting an interest rate without consideration for any maximum allowed by law, the contract could be in violation of state usury laws if 2% exceeds the permissible amount.",
+                "contradicted_law": "California Usury Law - California Constitution Article XV Section 1",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3.5 SHIPMENT AND DELIVERY. PivX shall electronically deliver Qwik-Fix Pro to Detto. Detto shall inspect all software delivered to it, upon receipt and shall, within 10 days of receipt, give written notice to PivX of any claim of damage or missing portions. Should Detto fail to give such notice, or fail to obtain an extension of such 10-day period from PivX, the packages shall be deemed to be accepted by Detto.",
+                "changed_text": "3.5 SHIPMENT AND DELIVERY. PivX shall electronically deliver Qwik-Fix Pro to Detto. Detto shall inspect all software delivered to it, upon receipt and shall, within 2 days of receipt, give written notice to PivX of any claim of damage or missing portions. Should Detto fail to give such notice, or fail to obtain an extension of such 2-day period from PivX, the packages shall be deemed to be accepted by Detto.",
+                "explanation": "Reducing the inspection and claim notice period from 10 days to 2 days places an unreasonable burden on Detto. Under California's Commercial Code, particularly Division 2 (Sales), there is an implied obligation of good faith and commercial reasonableness in the performance and enforcement of contracts. A 2-day window may be deemed commercially unreasonable, especially for complex software deliveries where thorough inspection can take considerable time. This unreasonably short deadline could be considered an unconscionable term and therefore unenforceable.",
+                "contradicted_law": "California Commercial Code - Division 2 (Sales) - Implied Obligation of Good Faith and Commercial Reasonableness",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.2 TERMINATION OF AGREEMENT. PivX may terminate this Agreement for convenience by giving at least thirty (30) days written notice of termination to Detto.",
+                "changed_text": "5.2 TERMINATION OF AGREEMENT. PivX may terminate this Agreement for convenience by giving at least five (5) days written notice of termination to Detto.",
+                "explanation": "The original agreement allows PivX to terminate for convenience with 30 days' notice. Reducing this to 5 days may contradict California's requirements for good faith and fair dealing, especially if Detto has made significant investments based on the agreement. While a termination for convenience clause is generally enforceable, California courts may scrutinize the reasonableness of the notice period, considering the potential harm to Detto. A 5-day notice period may be deemed unconscionably short if it deprives Detto of a reasonable opportunity to recoup its investments or mitigate its losses, particularly because Detto is located in Washington and PivX in California. This creates an imbalance of power because it does not allow adequate time for Detto to fulfill its obligations.",
+                "contradicted_law": "California law: Covenant of good faith and fair dealing",
+                "location": "Section 5.2"
+            }
+        ]
+    }
+]

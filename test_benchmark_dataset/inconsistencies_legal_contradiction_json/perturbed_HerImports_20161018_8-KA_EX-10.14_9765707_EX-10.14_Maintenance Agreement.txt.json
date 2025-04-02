@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HerImports_20161018_8-KA_EX-10.14_9765707_EX-10.14_Maintenance Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All representations and warranties made in this Agreement shall survive the Closing of this Agreement, except that any party to whom a representation or warranty has been made in this Agreement shall be deemed to have waived any misrepresentation or breach of representation or warranty of which such party had knowledge prior to Closing. Any party learning of a misrepresentation or breach of representation or warranty under this Agreement shall immediately give written notice thereof to all other parties to this Agreement. The representations and warranties in this Agreement shall terminate one year from the Closing Date, and such representations or warranties shall thereafter be without force or effect, except any claim with respect to which notice has been given to the party to be charged prior to such expiration date.",
+                "changed_text": "All representations and warranties made in this Agreement shall survive the Closing of this Agreement, except that any party to whom a representation or warranty has been made in this Agreement shall be deemed to have waived any misrepresentation or breach of representation or warranty of which such party had knowledge prior to Closing. Any party learning of a misrepresentation or breach of representation or warranty under this Agreement shall immediately give written notice thereof to all other parties to this Agreement. The representations and warranties in this Agreement shall terminate six months from the Closing Date, and such representations or warranties shall thereafter be without force or effect, except any claim with respect to which notice has been given to the party to be charged prior to such expiration date.",
+                "explanation": "Reducing the survival period of representations and warranties to six months is potentially problematic. While Nevada law doesn't explicitly mandate a minimum survival period, a six-month period may be deemed unreasonably short, particularly for complex software maintenance agreements. This could conflict with the implied duty of good faith and fair dealing, making it difficult to pursue claims related to misrepresentation or breach of warranty discovered after this brief period. A one-year survival period is already considered short.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing under Nevada contract law, NRS 104.1304",
+                "location": "3. INDEMNIFICATION AND SURVIVAL"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "12. NOTICES. All notices, requests, demands, and other communications required or permitted hereunder will be in writing and will be deemed to have been duly given when delivered by hand, by overnight courier, or fax, or two days after being mailed by certified or registered mail, return receipt requested, with postage prepaid.",
+                "changed_text": "12. NOTICES. All notices, requests, demands, and other communications required or permitted hereunder will be in writing and will be deemed to have been duly given when delivered by email, with confirmation of receipt.",
+                "explanation": "Eliminating certified or registered mail for legal notices could create enforceability issues. Nevada law generally accepts electronic communication, but for significant contractual matters, requiring more secure methods like certified mail provides proof of delivery and receipt, which is crucial in legal disputes. Removing the two-day mail provision and relying solely on email confirmation, which can be unreliable, is contradictory with standard legal practices and may not provide adequate legal protection.",
+                "contradicted_law": "Best Practices for Legal Notice under Nevada Contract Law",
+                "location": "12. NOTICES"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11. ATTORNEYS' FEES. Each party will pay its or his own legal fees and other expenses in connection with the preparation of this Agreement and the sale of Assets in accordance with this Agreement. However, if any legal action or other proceeding is brought for the enforcement of this Agreement, or because or arising out of an alleged dispute, breach, default or misrepresentation in connection with any of the provisions of this Agreement, the prevailing party will be entitled to recover reasonable attorney's fees and other costs incurred in that action or proceeding, in addition to any other relief to which it or he may be entitled.",
+                "changed_text": "11. ATTORNEYS' FEES. Each party will pay its or his own legal fees and other expenses in connection with the preparation of this Agreement and the sale of Assets in accordance with this Agreement. Under no circumstances will either party be able to recover attorney's fees.",
+                "explanation": "While Nevada law does not mandate awarding attorney's fees to the prevailing party in every contract dispute, explicitly precluding the recovery of attorney's fees, even if one party is clearly in breach or acts in bad faith, could be viewed as unconscionable or against public policy, especially if there's a significant power imbalance between the parties. A complete bar on fee recovery discourages parties from pursuing legitimate claims or defenses, particularly when the costs of litigation are high, potentially undermining the principle of equal access to justice.",
+                "contradicted_law": "Public Policy considerations and Unconscionability under Nevada Contract Law",
+                "location": "11. ATTORNEYS' FEES"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of 50% of the amounts previously paid hereunder. Bank of America must notify Supplier within 5 days of any price increase.",
+                "explanation": "This change modifies the refund clause to only provide a 50% refund instead of a full refund upon termination due to a price increase. This could conflict with state laws regarding fair business practices and consumer protection, which may require a full refund in such circumstances. Additionally, requiring Bank of America to notify Supplier of price increases within 5 days is an unreasonably short timeframe, potentially conflicting with reasonable notice periods mandated by contract law in certain states.",
+                "contradicted_law": "Potential violations of state consumer protection laws and contract law regarding reasonable notice periods.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Delivery Date:\n\nInstallation Date:\n\n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "changed_text": "Delivery Date: 3 days after signing\n\nInstallation Date: Delivery Date + 1 day\n\n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "explanation": "Setting extremely short delivery and installation dates like '3 days after signing' and 'the next day' can be problematic. If the customizations are complex, these deadlines could be deemed commercially unreasonable, potentially conflicting with contract law principles that require reasonable timeframes for performance. This might make the contract unconscionable in some jurisdictions.",
+                "contradicted_law": "Contract law principles of reasonableness and potentially state laws related to unconscionable contracts.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "8. Project Personnel:\n\n Bank of America Project Administrator:   Supplier Project Administrator:\n\n\n\n Bank of America Project Manager:   Supplier Project Manager:",
+                "changed_text": "8. Project Personnel:\n\n Bank of America Project Administrator:   Supplier Project Administrator:\n Both parties agree that Supplier Project Manager has complete discretion over project timelines and resource allocation, regardless of Bank of America Project Manager's input.\n\n Bank of America Project Manager:   Supplier Project Manager:",
+                "explanation": "Granting the Supplier Project Manager 'complete discretion' over timelines and resource allocation, irrespective of the Bank of America's Project Manager's input, could contradict standard business practice and potentially state laws regarding fair dealing and good faith in contractual performance. This imbalance of power may be viewed as unconscionable in certain situations, particularly if it leads to demonstrable harm for Bank of America.",
+                "contradicted_law": "Potential violations of state laws regarding fair dealing, good faith in contractual performance, and unconscionability.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

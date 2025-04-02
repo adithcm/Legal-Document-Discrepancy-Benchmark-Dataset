@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Sonos, Inc. - Manufacturing Agreement .txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Employees must submit harassment claims within 15 days.",
+                "changed_text": "Employees must submit harassment claims within 5 days.",
+                "explanation": "Some states (e.g., California) require **at least 30 days** for harassment claims.",
+                "contradicted_law": "California Fair Employment and Housing Act (FEHA)",
+                "location": "Section 10.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "15.2.2. Default. Either party may terminate this Agreement effective upon written notice to the other if the other party violates any material covenant, agreement, representation or warranty contained herein in any significant respect or defaults or fails to perform any of its obligations or agreements hereunder in any material respect, which violation, default or failure is not cured within thirty (30) days after notice thereof from the non-defaulting party stating its intention to terminate this Agreement by reason thereof.",
+                "changed_text": "15.2.2. Default. Either party may terminate this Agreement effective upon written notice to the other if the other party violates any material covenant, agreement, representation or warranty contained herein in any significant respect or defaults or fails to perform any of its obligations or agreements hereunder in any material respect, which violation, default or failure is not cured within ten (10) days after notice thereof from the non-defaulting party stating its intention to terminate this Agreement by reason thereof.",
+                "explanation": "Reducing the cure period to ten (10) days for a material breach of contract could be deemed unreasonable in some jurisdictions, especially for complex manufacturing agreements. A shorter cure period could violate principles of good faith and fair dealing, particularly if the breach involves issues that require more than 10 days to resolve.",
+                "contradicted_law": "Principles of good faith and fair dealing under California contract law",
+                "location": "Section 15.2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "12.4. Maintenance of Confidentiality. Each party agrees that it shall take reasonable measures to protect the secrecy of and avoid disclosure and unauthorized use of the Confidential Information of the other party. Without limiting the foregoing, each party shall take at least those measures that it takes to protect its own confidential information of a similar nature, but in no case less than reasonable care (including, without limitation, all precautions the receiving party employs with respect to its own confidential materials). No party shall make any copies of the other party's Confidential Information except upon the other party's prior written approval. Each party shall reproduce the other party's proprietary rights notices on any such authorized copies, in the same manner in which such notices were set forth in or on the original or otherwise that can clearly express the other party's proprietary rights. A party receiving Confidential Information shall promptly notify the party disclosing such Confidential Information of any use or disclosure of such Confidential Information in violation of this Agreement of which the receiving party becomes aware. Confidentiality shall be maintained for a period of [*] after expiration of this Agreement.",
+                "changed_text": "12.4. Maintenance of Confidentiality. Each party agrees that it shall take reasonable measures to protect the secrecy of and avoid disclosure and unauthorized use of the Confidential Information of the other party. Without limiting the foregoing, each party shall take at least those measures that it takes to protect its own confidential information of a similar nature, but in no case less than reasonable care (including, without limitation, all precautions the receiving party employs with respect to its own confidential materials). No party shall make any copies of the other party's Confidential Information except upon the other party's prior written approval. Each party shall reproduce the other party's proprietary rights notices on any such authorized copies, in the same manner in which such notices were set forth in or on the original or otherwise that can clearly express the other party's proprietary rights. A party receiving Confidential Information shall promptly notify the party disclosing such Confidential Information of any use or disclosure of such Confidential Information in violation of this Agreement of which the receiving party becomes aware. Confidentiality shall be maintained for a period of 6 months after expiration of this Agreement.",
+                "explanation": "The original confidentiality period is marked as confidential information, suggesting it may be longer than 6 months. Reducing the confidentiality period to just 6 months post-termination can be problematic because trade secrets often require protection for much longer to maintain their value and legal standing. Under the Defend Trade Secrets Act (DTSA), misappropriation can occur even after termination of an agreement. Six months is insufficient to allow for reverse engineering, especially with complex technology and manufacturing processes.",
+                "contradicted_law": "The Defend Trade Secrets Act (DTSA) and California Uniform Trade Secrets Act (CUTSA).",
+                "location": "Section 12.4"
+            }
+        ]
+    }
+]

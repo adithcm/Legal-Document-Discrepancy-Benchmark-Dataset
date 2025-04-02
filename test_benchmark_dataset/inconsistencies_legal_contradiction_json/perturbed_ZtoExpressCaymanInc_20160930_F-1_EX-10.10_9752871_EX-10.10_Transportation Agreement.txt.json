@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ZtoExpressCaymanInc_20160930_F-1_EX-10.10_9752871_EX-10.10_Transportation Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(e) Party B shall arrive at the network partners determined by Party A according to the time and route stipulated in this Agreement, and strictly comply with the start time and end time. Unless otherwise approved by Party A, in the event of parcel transfer due to Party B's vehicle delay, Party B shall pay liquidated damages to Party A at the standard rate of RMB500 per trip on the first working day, RMB1,000 per trip on the second working day and RMB2,000 per trip on the third working day (based on the time records on the parcel transfer documents) and such liquidated damages will be deducted from the current month's freight.",
+                "changed_text": "(e) Party B shall arrive at the network partners determined by Party A according to the time and route stipulated in this Agreement, and strictly comply with the start time and end time. In the event of parcel transfer due to Party B's vehicle delay, Party B shall pay liquidated damages to Party A at the standard rate of RMB500 per trip immediately, RMB1,000 per trip after 24 hours, and RMB2,000 per trip after 48 hours (based on the time records on the parcel transfer documents) and such liquidated damages will be deducted from the current month's freight.",
+                "explanation": "The original text specifies liquidated damages increasing over three working days. The modified text accelerates the imposition of these damages, requiring immediate payment and escalating within 24-48 hours. This creates a potential conflict if local laws require a reasonable cure period before imposing such penalties, which in some jurisdictions is longer than 24-48 hours.",
+                "contradicted_law": "Contract Law of the People's Republic of China, Article 114 (which requires liquidated damages to be reasonable and allows for adjustment by the court or arbitration institution if they are excessively high or low)",
+                "location": "5(e)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Party B shall pay one-month freight as liquidated damages in case of termination of the Agreement without consent.",
+                "changed_text": "Party B shall pay three-month freight as liquidated damages in case of termination of the Agreement without consent.",
+                "explanation": "Increasing the liquidated damages from one-month to three-month's freight might be deemed unreasonably high and punitive, potentially violating laws that require liquidated damages to be a reasonable estimate of actual damages. In China, courts can reduce excessive liquidated damages.",
+                "contradicted_law": "Contract Law of the People's Republic of China, Article 114 (which requires liquidated damages to be reasonable and allows for adjustment by the court or arbitration institution if they are excessively high or low)",
+                "location": "10"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any different interpretation of this Agreement by both Parties is subject to final interpretation by Party A.",
+                "changed_text": "Any different interpretation of this Agreement by both Parties is subject to final and binding interpretation by Party A alone.",
+                "explanation": "The original clause gives Party A the right of final interpretation. This is a one-sided provision, but not illegal. The modified version emphasizes that Party A's interpretation is 'binding'. This could conflict with laws regarding fair contract terms, especially in jurisdictions that prohibit clauses giving one party absolute and unchallengeable interpretive power. This violates the principle of mutual agreement and potentially consumer protection laws if this agreement applied to consumers.",
+                "contradicted_law": "Contract Law of the People's Republic of China; laws regarding unconscionable contract terms and fairness.",
+                "location": "15"
+            }
+        ]
+    }
+]

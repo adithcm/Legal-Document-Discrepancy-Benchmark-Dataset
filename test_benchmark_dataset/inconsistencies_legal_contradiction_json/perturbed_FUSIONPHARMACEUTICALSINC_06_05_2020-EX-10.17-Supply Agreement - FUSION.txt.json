@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-Supply Agreement - FUSION.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "FUSION shall pay such invoice within [***] of receipt of the invoice in accordance with the Supply Agreement",
+                "changed_text": "FUSION shall pay such invoice within 90 days of receipt of the invoice in accordance with the Supply Agreement",
+                "explanation": "In Ontario, Canada (where both parties are located), payment terms exceeding 60 days may be considered inconsistent with standard business practices, particularly for smaller suppliers. While not strictly illegal, extending the payment term to 90 days without clear justification can potentially create an imbalance of power and could be challenged under commercial law principles related to fair dealing.",
+                "contradicted_law": "Potentially contradicts principles of fair dealing and reasonable business practices under Ontario's commercial law.",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "For all complaints with respect to any Product of which a Party becomes aware concerning adverse reactions or safety issues, notice must be given by telephone within [***] after receipt of the information, followed immediately with written notice, advising the other Party, regardless of the origin of such information. Any other complaints shall be reported in writing to the other party [***]. CPDC agrees to co-operate with FUSION and any Regulatory Authority in evaluating any complaint, claim, safety or adverse use report related to any Product CPDC will provide timely assistance in responding to any such complaints, including reviews of Batch records and retained samples as well as any necessary testing within reason.",
+                "changed_text": "For all complaints with respect to any Product of which a Party becomes aware concerning adverse reactions or safety issues, notice must be given by telephone within 72 hours after receipt of the information, followed immediately with written notice, advising the other Party, regardless of the origin of such information. Any other complaints shall be reported in writing to the other party 60 days after the incident. CPDC agrees to co-operate with FUSION and any Regulatory Authority in evaluating any complaint, claim, safety or adverse use report related to any Product CPDC will provide timely assistance in responding to any such complaints, including reviews of Batch records and retained samples as well as any necessary testing within reason.",
+                "explanation": "Health Canada requires that serious adverse drug reactions be reported within 15 days. Changing the reporting timeframe to 72 hours and reporting other complaints within 60 days introduces a contradiction to regulatory requirements for pharmacovigilance.",
+                "contradicted_law": "Health Canada's regulations on adverse drug reaction reporting.",
+                "location": "Section 4.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No action, regardless of form, arising out of or related to this Agreement may be brought by either party more than [***] after such party has knowledge of the occurrence that gave rise to the cause of such action.",
+                "changed_text": "No action, regardless of form, arising out of or related to this Agreement may be brought by either party more than 6 months after such party has knowledge of the occurrence that gave rise to the cause of such action.",
+                "explanation": "In Ontario, the Limitations Act, 2002 generally sets a basic limitation period of two years from the date the cause of action was discovered. Reducing the period to 6 months conflicts with this legislation, potentially rendering the clause unenforceable.",
+                "contradicted_law": "Limitations Act, 2002 (Ontario).",
+                "location": "Section 11.1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 30 days after the end of the Initial Term. Upon payment of such amount, Seller shall deliver the Products paid for to Reseller in a commercially reasonable timeframe (and in no event any later than 150 days from the date such payment is received in full) to be sold by Reseller in accordance with this Agreement as contemplated by the last sentence of Section 12.4.",
+                "changed_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 60 days after the end of the Initial Term. Upon payment of such amount, Seller shall deliver the Products paid for to Reseller at their discretion, and are under no obligation to do so.",
+                "explanation": "Changing the payment deadline to 60 days is not inherently illegal, but removing the obligation to deliver products after payment creates a contradiction. Basic contract law requires an exchange of value, and holding payment without providing goods could be considered unjust enrichment or a breach of contract, potentially violating consumer protection laws if the reseller is considered a consumer in this context. Also, setting delivery to 'at their discretion, and are under no obligation to do so' contradicts the usual terms of sales where goods should be delivered after payment.",
+                "contradicted_law": "Breach of Contract, Unjust Enrichment, potential violation of consumer protection laws depending on reseller classification",
+                "location": "4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.",
+                "changed_text": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 1 week.",
+                "explanation": "Reducing the notice period for termination to 1 week is very likely a breach of contract law, especially if it leads to damages in the USA. A longer notice period is generally seen to protect businesses from sudden and potentially harmful termination.",
+                "contradicted_law": "Breach of Contract, potential violation of good faith and fair dealing depending on jurisdiction",
+                "location": "12.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Reseller shall defend, indemnify and hold harmless Supplier and its employees, officers, directors, suppliers, and successors from and against any third-party claim, suit, proceeding, damages, losses and/or liability arising from or related to (i) Reseller's breach of any provision of this Agreement; and/or (ii) Reseller's interaction and/or relationship with any Customer and/or End User or other third party.",
+                "changed_text": "Reseller shall defend, indemnify and hold harmless Supplier and its employees, officers, directors, suppliers, and successors from and against any third-party claim, suit, proceeding, damages, losses and/or liability arising from or related to (i) Reseller's breach of any provision of this Agreement; and/or (ii) Reseller's interaction and/or relationship with any Customer and/or End User or other third party, even if the Supplier is negligent or engages in willful misconduct.",
+                "explanation": "This change introduces a legal contradiction by requiring the Reseller to indemnify the Supplier even in cases where the Supplier is negligent or engages in willful misconduct. This type of broad indemnification is often unenforceable or limited by law, as it goes against public policy to allow a party to be indemnified for their own gross negligence or intentional wrongdoing. Many jurisdictions have laws that prohibit indemnification for one's own negligence or willful misconduct.",
+                "contradicted_law": "Varies by state; often violates public policy; potentially unenforceable under general contract law principles; conflict with laws prohibiting indemnification for own negligence/misconduct.",
+                "location": "10"
+            }
+        ]
+    }
+]

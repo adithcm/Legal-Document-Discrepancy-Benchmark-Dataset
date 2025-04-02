@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSINGANDWEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "d. Credit Data. The term \"Credit Data\" means data of any borrower or loan applicant of Client or BNC Mortgage, Inc., or any of their affiliates, or any of their customers or brokers, provided that such data (i) consists only of raw credit data regarding the creditworthiness of such a borrower or loan applicant provided by third party credit repositories which currently consists of TransUnion Credit Information Services, Equifax Credit Information Services or Experien Information Services that is submitted, transmitted or in any way sent through the Interface and is the later of (I) the later of 31 days old from that date of receipt thereof by TrueLink or that date on which such data is \"archived\" pursuant to TrueLink's internal operating procedures consistently applied or (II) such date as may be agreed to between Client and Keith Guy provided that the parties acknowledge that such parties will discuss a date on which such data is similarly \"archived\" third party credit repositories as referred in this subparagraph (d) and (ii) is not combined, compared with or against, integrated or presented in any way with any Client Proprietary Information.",
+                "changed_text": "d. Credit Data. The term \"Credit Data\" means data of any borrower or loan applicant of Client or BNC Mortgage, Inc., or any of their affiliates, or any of their customers or brokers, provided that such data (i) consists of any credit data regarding the creditworthiness of such a borrower or loan applicant provided by third party credit repositories which currently consists of TransUnion Credit Information Services, Equifax Credit Information Services or Experien Information Services that is submitted, transmitted or in any way sent through the Interface and is the date of receipt thereof by TrueLink and (ii) is combined, compared with or against, integrated or presented in any way with any Client Proprietary Information.",
+                "explanation": "The definition of 'Credit Data' is changed to broaden the scope of data included, contradicting the original limitations. Specifically, the age limitation and the restriction on combining it with Client Proprietary Information are removed, creating uncertainty about what constitutes 'Credit Data' under the agreement.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "TrueLink shall transmit such credit data to Client through the Interface as may be permitted under the Credit Repository Agreements and applicable law, each as in affect from time to tome, and in accordance with the certain Credit Bureau Agreement between TrueLink and Client dated of even date herewith. Subject to the foregoing, Client shall order TrueLink a credit report on each borrower for which an underwriting approval is requested through a System using the Interface. TrueLink makes no representation or warranty, and shall have no liability for the truth or completeness of any data so transmitted.",
+                "changed_text": "TrueLink shall transmit such credit data to Client through the Interface regardless of any Credit Repository Agreements and applicable law, each as in affect from time to tome, and regardless of the accordance with the certain Credit Bureau Agreement between TrueLink and Client dated of even date herewith. Subject to the foregoing, Client may order TrueLink a credit report on each borrower for which an underwriting approval is requested through a System using the Interface. TrueLink fully warrants the truth or completeness of any data so transmitted.",
+                "explanation": "This perturbation introduces conflicting obligations by removing the limitations imposed by 'Credit Repository Agreements and applicable law' and changing 'shall' to 'may' for the client's ordering of credit reports. Moreover, it introduces a warranty on the 'truth or completeness of any data so transmitted', when previously there was no warranty on it. This contradicts the previous clause and creates confusion about the extent of TrueLink's liability and obligations.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Client will use reasonable commercial efforts consistent with the protection of Client Proprietary Information to restrict access to the Interface to its officers, employees, and agents as may be approved by Client.",
+                "changed_text": "Client will use minimal efforts, inconsistent with the protection of Client Proprietary Information, to allow access to the Interface to anyone they deem appropriate.",
+                "explanation": "This perturbation creates an internal contradiction by altering the 'reasonable commercial efforts' standard to 'minimal efforts' concerning access to the Interface. It adds to this, that it is inconsistent with the protection of Client Proprietary Information to let anyone have access to the Interface instead of officers, employees and agents approved by the client. This creates uncertainty about the client's responsibilities regarding security and data protection.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

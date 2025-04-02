@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PhasebioPharmaceuticalsInc_20200330_10-K_EX-10.21_12086810_EX-10.21_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each Party will conduct due diligence with respect to each Permitted Third Party used by such Party to ensure that such Permitted Third Party can comply with all applicable terms and obligations of this Agreement and Applicable Laws.",
+                "changed_text": "Each Party will try to conduct due diligence with respect to each Permitted Third Party used by such Party. The due diligence should be aimed to ensure such Permitted Third Party can comply with all applicable terms and obligations of this Agreement and Applicable Laws.",
+                "explanation": "Changing \"will conduct due diligence...to ensure\" to \"will try to conduct due diligence...aimed to ensure\" weakens the obligation. \"Try\" introduces ambiguity as to the level of effort required, and \"aimed to ensure\" does not guarantee compliance.",
+                "contradicted_law": "GCP (Good Clinical Practice) guidelines, which require documented and thorough due diligence to ensure quality and compliance in clinical trials.",
+                "location": "Section 2.2.3"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "In conducting the Clinical Trials, the Parties will use Commercially Reasonable Efforts to complete each activity specified on the Timeline (each, a \"Clinical Trial Activity\") by the date specified for such Clinical Trial Activity on the Timeline.",
+                "changed_text": "In conducting the Clinical Trials, the Parties will consider Commercially Reasonable Efforts to complete each activity specified on the Timeline (each, a “Clinical Trial Activity”).",
+                "explanation": "The modification replaces \"will use Commercially Reasonable Efforts to complete\" with \"will consider Commercially Reasonable Efforts to complete\". This creates ambiguity because the parties are only obligated to *consider* using commercially reasonable efforts, rather than actually using them to complete activities.",
+                "contradicted_law": "Applicable Laws will include the FFDCA, the PHSA, the Anti-Corruption Laws, and all laws, regulations and legally binding guidelines applicable to the Clinical Trials, including GCP, GLP, GMP and ICH guidelines.",
+                "location": "Section 2.3.1"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each Party will conduct its portion of the Development Program and perform all other of its duties and responsibilities hereunder in accordance with the Development Plan and in material compliance with all Applicable Laws.",
+                "changed_text": "Each Party will attempt to conduct its portion of the Development Program and perform other duties and responsibilities hereunder in accordance with the Development Plan. Attempts will be made for compliance with all Applicable Laws.",
+                "explanation": "Changing \"Each Party will conduct\" to \"Each Party will attempt to conduct\" introduces ambiguity and lowers the standard of compliance. Also, changing \"material compliance with all Applicable Laws\" to \"Attempts will be made for compliance with all Applicable Laws\" makes compliance optional and ill-defined.",
+                "contradicted_law": "FFDCA (Federal Food, Drug, and Cosmetic Act) and GCP (Good Clinical Practice), which mandate strict adherence to regulations and guidelines in drug development and clinical trials.",
+                "location": "Section 3.1.4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "INTRICONCORP_03_10_2009-EX-10.22-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "An Assisted Listening Device (\"ALD\") is a\n\n\n\n   1.  One way communications device           2.    Used for hearing protection or listening in challenging environments, and           3.    Contains Ultra Low Power (ULP) DSP and or ULP Wireless technology",
+                "changed_text": "An Assisted Listening Device (\"ALD\") is a\n\n\n\n   1.  Two-way or one-way communications device \n   2.  Used for hearing protection or listening in challenging environments, \n   3.  May or may not contain Ultra Low Power (ULP) DSP and or ULP Wireless technology",
+                "explanation": "The original definition specifies an ALD as a one-way communication device containing ULP DSP/Wireless technology. The modified definition broadens this to include two-way communication and removes the necessity for ULP technology, creating ambiguity as some ALDs could satisfy both definitions while others only satisfy one. This introduces an in-text contradiction.",
+                "location": "2.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Base Product means the DSP Technology including the ON Semiconductor Ezairo or SCHA chips, the EEPROM and the firmware loaded  onto the EEPROM and the minimum printed circuit board package necessary to connect and house these items. The Base Product does not  include additional PCB or flex circuits necessary to connect to other components of an Enhanced Product.",
+                "changed_text": "Base Product means the DSP Technology including the ON Semiconductor Ezairo or SCHA chips, or alternative readily availble chips from different manufacturer, the EEPROM and the firmware loaded onto the EEPROM and the minimum printed circuit board package necessary to connect and house these items. The Base Product includes additional PCB or flex circuits necessary to connect to other components of an Enhanced Product if mutually agreed by both parties in a written form.",
+                "explanation": "The original definition of 'Base Product' strictly refers to technology based on ON Semiconductor chips and excludes additional PCB or flex circuits. The modified definition expands this to include 'alternative readily available chips from different manufacturer' and conditionally includes additional circuits, contradicting the initial, more restrictive definition. This introduces ambiguity in which products are actually to be considered 'Base Products'.",
+                "location": "2.9"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "All amounts payable by IntriCon under this Agreement must be paid free and clear of and without any deduction or withholding for  or on account of any present or future withholding tax, including any interest or penalties in relation to such tax (Withholding Taxes). If IntriCon is  required to make any deduction or withholding for any Withholding Tax, then IntriCon must pay to Dynamic Hearing such additional amount to  ensure that Dynamic Hearing receives such amount that would have been received by it as if no such withholding or deduction had been required.",
+                "changed_text": "All amounts payable by IntriCon under this Agreement must be paid free and clear of and without any deduction or withholding for  or on account of any present or future withholding tax, including any interest or penalties in relation to such tax (Withholding Taxes). If IntriCon is  required to make any deduction or withholding for any Withholding Tax, then IntriCon is not required to pay to Dynamic Hearing such additional amount to  ensure that Dynamic Hearing receives such amount that would have been received by it as if no such withholding or deduction had been required.",
+                "explanation": "The original clause requires IntriCon to gross up payments to Dynamic Hearing to cover any withholding taxes. The modified clause states that IntriCon is NOT required to gross up the payment to cover the withholding taxes. This creates a direct contradiction concerning the financial obligations of IntriCon.",
+                "location": "4.10"
+            }
+        ]
+    }
+]

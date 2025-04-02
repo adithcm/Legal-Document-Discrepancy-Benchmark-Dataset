@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VAPOTHERM, INC. - Manufacturing and Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Vapotherm shall pay each such invoice in full within [* * *] Calendar Days from the date of invoice, unless Vapotherm has rejected the shipment in question in accordance with Section 4.2.",
+                "changed_text": "Vapotherm shall pay each such invoice in full within 60 Calendar Days from the date of invoice, unless Vapotherm has rejected the shipment in question in accordance with Section 4.2.",
+                "explanation": "This change introduces a contradiction by extending the payment deadline to 60 days. While not explicitly illegal, this extended period could violate the United States' prompt payment laws, particularly if such a delay is considered unreasonable or causes financial hardship to the supplier (Medica).  The 'reasonableness' of payment terms is often judged based on industry standards, and a 60-day period could be deemed excessive in some manufacturing sectors.",
+                "contradicted_law": "Potential violation of US state prompt payment laws or common law principles regarding reasonable payment terms.",
+                "location": "Section 3.7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In order to be entitled to indemnification under this Article 12 in connection with an Indemnifiable Loss, the party seeking indemnification (the \"Indemnified Party\") must: (1) notify the party obligated to indemnify it (the \"Indemnifying Party\") in writing, and in reasonable detail, of any third party claims, demands, lawsuits, proceedings or action (\"Third Party Claims\") as soon as possible but in any event within [* * *] Business Days after receipt of notice of that Third Party Claim; and (2) deliver to the Indemnifying Party as soon as possible but in any event within [* * *] Business Days after the Indemnified Party receives a copy of all notices and documents (including court papers) delivered to that Indemnified Party relating to that Third Party Claim.",
+                "changed_text": "In order to be entitled to indemnification under this Article 12 in connection with an Indemnifiable Loss, the party seeking indemnification (the \"Indemnified Party\") must: (1) notify the party obligated to indemnify it (the \"Indemnifying Party\") in writing, and in reasonable detail, of any third party claims, demands, lawsuits, proceedings or action (\"Third Party Claims\") as soon as possible but in any event within 1 Business Day after receipt of notice of that Third Party Claim; and (2) deliver to the Indemnifying Party as soon as possible but in any event within 1 Business Days after the Indemnified Party receives a copy of all notices and documents (including court papers) delivered to that Indemnified Party relating to that Third Party Claim.",
+                "explanation": "This modification imposes an unreasonably short notification period (1 Business Day) for indemnification claims. This could be seen as a violation of the principle of 'reasonableness' in contract law. Courts often require that notification periods allow sufficient time for the notified party to adequately assess the claim and prepare a defense. A single business day is likely insufficient, potentially voiding the indemnification clause due to being unconscionable, especially in complex legal matters.",
+                "contradicted_law": "Contradicts the legal principle of 'reasonableness' in contract law and potentially state laws governing fair business practices.",
+                "location": "Section 12.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(c) The provisions of this Section 10.2 will survive termination or expiration of this Agreement and will continue for a period of 5 years from the date of that termination or expiration.",
+                "changed_text": "(c) The provisions of this Section 10.2 will survive termination or expiration of this Agreement and will continue for a period of 1 year from the date of that termination or expiration.",
+                "explanation": "This reduces the confidentiality period to 1 year. While some information could reasonably be deemed public information after 1 year, medical and commercial data would likely be an illegal disclosure under HIPAA.",
+                "contradicted_law": "Federal HIPAA regulations regarding the illegal disclosure of medical records.",
+                "location": "Section 10.2"
+            }
+        ]
+    }
+]

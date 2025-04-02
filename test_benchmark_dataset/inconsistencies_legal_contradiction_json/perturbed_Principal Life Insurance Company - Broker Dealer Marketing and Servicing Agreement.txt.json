@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Principal Life Insurance Company - Broker Dealer Marketing and Servicing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Broker Dealer agrees to return promptly to Issuer all compensation received for any Annuity Contract returned within the \"free look\" period as specified in the Annuity Contract.",
+                "changed_text": "Broker Dealer agrees to return to Issuer all compensation received for any Annuity Contract returned within 15 days, regardless of the \"free look\" period specified in the Annuity Contract.",
+                "explanation": "This change introduces a conflict with state laws regarding 'free look' periods for annuity contracts. Many states mandate a 30-day free look period, meaning the contract holder has 30 days to review the contract and return it for a full refund. Forcing the broker to return compensation for contracts returned within only 15 days violates these consumer protection laws.",
+                "contradicted_law": "Various State Laws regarding Annuity Contract 'Free Look' Periods (e.g., California Insurance Code Section 10127.10, which specifies a 30-day right to return for variable annuities).",
+                "location": "Paragraph 19"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Issuer and Distributor may change the compensation schedules set forth in the attached Exhibits at any time and will notify Broker Dealer of the revised compensation schedules electronically or by other writing in advance of the effective date of the change. Any change to the compensation schedules will affect only commissions payable on Annuity Contracts with an effective date on or after the effective date of the change, unless otherwise provided or required by law.",
+                "changed_text": "Issuer and Distributor may change the compensation schedules set forth in the attached Exhibits at any time with no prior notice to Broker Dealer. Any change to the compensation schedules will affect commissions payable on all Annuity Contracts, including those already in effect.",
+                "explanation": "This modification contradicts contract law principles and potentially state laws regarding fair dealing and reasonable expectations. Retroactively changing compensation on existing contracts without notice is likely unenforceable and could violate regulations regarding commission structures and transparency.",
+                "contradicted_law": "General Contract Law Principles (e.g., requirement of mutual agreement for contract modification) and potential violations of state insurance regulations regarding fair commission practices.",
+                "location": "Paragraph 18"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Broker Dealer agrees to notify Distributor and Issuer immediately of any customer complaints or legal or regulatory inquiries (including, but not limited to, subpoenas) regarding any Annuity Contracts offered or sold pursuant to the Agreement. Broker Dealer shall provide full, prompt cooperation and assistance to Distributor and Issuer in responding to and resolving any such complaints or inquiries.",
+                "changed_text": "Broker Dealer agrees to notify Distributor and Issuer of customer complaints or legal or regulatory inquiries regarding any Annuity Contracts within 90 days of receipt. Broker Dealer's cooperation and assistance are solely at Broker Dealer's discretion.",
+                "explanation": "Delaying the notification of customer complaints and limiting cooperation contradicts FINRA regulations regarding prompt reporting of customer complaints and cooperation with investigations. FINRA requires broker-dealers to report customer complaints to FINRA within 15 days of the end of the quarter in which the complaint was received (FINRA Rule 4530).",
+                "contradicted_law": "FINRA Rule 4530 (Reporting Requirements)",
+                "location": "Paragraph 14"
+            }
+        ]
+    }
+]

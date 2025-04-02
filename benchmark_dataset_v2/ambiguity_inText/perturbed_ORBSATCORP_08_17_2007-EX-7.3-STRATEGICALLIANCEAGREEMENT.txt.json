@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ORBSATCORP_08_17_2007-EX-7.3-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "VI. TERM AND TERMINATION\n\nThe term of the Agreement will be for 12 months unless terminated sooner. This agreement may be renewed upon mutual, written agreement of the parties. Either party may terminate this Agreement at any time with 30 days written notice.",
+                "changed_text": "VI. TERM AND TERMINATION\n\nThe term of the Agreement will be for 12 months unless terminated sooner. This agreement may be renewed upon mutual, written agreement of the parties. AVDU may terminate this Agreement at any time with 30 days written notice. UTK may terminate this agreement with 60 days written notice.",
+                "explanation": "The original clause allows either party to terminate with 30 days' notice. The modified clause introduces different notice periods for each party, creating a contradiction about the exact terms of termination. This could lead to disputes over the validity of a termination notice.",
+                "location": "VI"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "VIII. CONFIDENTIAL DATA\n\nA. UTK shall not divulge to others, any trade secret or confidential information, knowledge, or data concerning or pertaining to the business and affairs of AVDU, obtained by UTK as a result of its engagement hereunder, unless authorized, in writing by AVDU. UTK represents and warrants that it has established appropriate internal procedures for protecting the trade secrets and confidential information of AVDU, including, without limitation, restrictions on disclosure of such information to employees and other persons who may be engaged in such information to employees and other persons who may be engaged in rendering services to any person, firm or entity which may be a competitor of AVDU.\n\nB. AVDU shall not divulge to others, any trade secret or confidential information, knowledge, or data concerning or pertaining to the business and affairs of UTK or confidential information revealed by UTK obtained as a result of its engagement hereunder, unless authorized, in writing, by UTK.",
+                "changed_text": "VIII. CONFIDENTIAL DATA\n\nA. UTK shall not divulge to others, any trade secret or confidential information, knowledge, or data concerning or pertaining to the business and affairs of AVDU, obtained by UTK as a result of its engagement hereunder, unless authorized, in writing by AVDU. UTK represents and warrants that it will make a reasonable effort to establish appropriate internal procedures for protecting the trade secrets and confidential information of AVDU.\n\nB. AVDU shall not divulge to others, any trade secret or confidential information, knowledge, or data concerning or pertaining to the business and affairs of UTK obtained as a result of its engagement hereunder, unless authorized, in writing, by UTK. Confidential information does not include information generally known in the industry.",
+                "explanation": "Section A originally stated UTK 'has established' procedures, which is now 'will make a reasonable effort', weakening the obligation. Section B originally protected 'any' confidential information. The modified section now excludes 'information generally known in the industry', creating a contradiction with the absolute protection initially implied and introducing ambiguity regarding what constitutes confidential information.",
+                "location": "VIII"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "IX. OTHER MATERIAL TERMS AND CONDITIONS\n\nF. ASSIGNMENTS. The benefits of the Agreement shall inure to the respective successors and assignees of the parties and assigns and representatives, and the obligations and liabilities assumed in this Agreement by the parties hereto shall be binding upon their respective successors and assigns; provided that the rights and obligations of UTK under this Agreement may not be assigned or delegated without the prior written consent of AVDU and any such purported assignment shall be null and void. Notwithstanding the foregoing, UTK may assign this Agreement or any portion of its Compensation as outlined herein to its subsidiaries in its sole discretion.",
+                "changed_text": "IX. OTHER MATERIAL TERMS AND CONDITIONS\n\nF. ASSIGNMENTS. The benefits of the Agreement shall inure to the respective successors and assignees of the parties and assigns and representatives, and the obligations and liabilities assumed in this Agreement by the parties hereto shall be binding upon their respective successors and assigns; provided that the rights and obligations of UTK under this Agreement may not be assigned or delegated without the prior written consent of AVDU. Notwithstanding the foregoing, UTK may assign this Agreement or any portion of its Compensation as outlined herein to any company it chooses in its sole discretion.",
+                "explanation": "The original text states that UTK cannot assign the agreement without AVDU's consent, but then allows UTK to assign it to its subsidiaries without consent. The modified version removes the limitation to 'subsidiaries' and says UTK may assign to 'any company', creating a contradiction with the initial requirement for AVDU's consent. This makes it ambiguous whether AVDU's consent is ever truly required.",
+                "location": "IX"
+            }
+        ]
+    }
+]

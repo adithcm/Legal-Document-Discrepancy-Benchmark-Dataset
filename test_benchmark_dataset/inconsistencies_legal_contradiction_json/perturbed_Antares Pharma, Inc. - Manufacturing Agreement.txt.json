@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Antares Pharma, Inc. - Manufacturing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Antares or its Subcontractor shall conduct a visual inspection of all Prefilled Syringes received at the Manufacturing Site not later than [***] after the date of receipt in accordance with the mutually agreed upon procedures. Antares or its Subcontractor shall promptly (and in any event within [***] following completion of applicable inspection) notify AMAG in writing of any visual inspection failure of the Prefilled Syringes.",
+                "changed_text": "Antares or its Subcontractor shall conduct a visual inspection of all Prefilled Syringes received at the Manufacturing Site not later than 1 hour after the date of receipt in accordance with the mutually agreed upon procedures. Antares or its Subcontractor shall notify AMAG in writing of any visual inspection failure of the Prefilled Syringes within 72 hours following completion of applicable inspection.",
+                "explanation": "The original text has the inspection time as [***], and notification time is also [***]. Shortening the inspection time to '1 hour' creates an unreasonable and potentially unachievable deadline, conflicting with cGMP requirements for thorough inspection. Increasing the notification time to '72 hours' is not prompt and may lead to delays in addressing quality issues.",
+                "contradicted_law": "21 CFR § 211.122 - Components, drug product containers, and closures",
+                "location": "Section 2.2(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall promptly (but no later than [***] of receipt of such information) notify the other by telephone (to be confirmed in writing) of any information which might affect the marketability, safety, or effectiveness of the Products, sample Products or Trainers and/or which might result in the Recall or seizure of the Products, sample Products, or Trainers.",
+                "changed_text": "Each Party shall notify the other of any information which might affect the marketability, safety, or effectiveness of the Products, sample Products or Trainers and/or which might result in the Recall or seizure of the Products, sample Products, or Trainers within 30 days of receipt of such information.",
+                "explanation": "The original text has a notification timeline of [***], which is 'prompt'. Changing the notification timeframe to '30 days' for potential safety issues related to the product is not prompt and conflicts with the requirement to report potential risks promptly.",
+                "contradicted_law": "21 CFR Part 7 - Enforcement Policy",
+                "location": "Section 5.2(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Antares shall give AMAG notice within [***] of becoming aware of any such inspections, and keep AMAG reasonably informed about the results and conclusions of each regulatory inspection, including actions taken by Antares or its Subcontractor to remedy conditions cited in the inspections, to the extent such results and conclusions relate to the Device, Product or sample Product.",
+                "changed_text": "Antares is not obligated to notify AMAG of any such inspections and will provide any information that relates to the Device, Product or sample Product at Antares' discretion.",
+                "explanation": "The original text requires Antares to give AMAG notice within [***] of becoming aware of regulatory inspections, and keep AMAG reasonably informed of the results. The altered text removes this notice requirement and states that information will be provided at Antares' discretion, conflicting with regulatory obligations related to transparency, quality oversight and adverse event reporting.",
+                "contradicted_law": "21 CFR § 211.180 - General requirements",
+                "location": "Section 6.3"
+            }
+        ]
+    }
+]

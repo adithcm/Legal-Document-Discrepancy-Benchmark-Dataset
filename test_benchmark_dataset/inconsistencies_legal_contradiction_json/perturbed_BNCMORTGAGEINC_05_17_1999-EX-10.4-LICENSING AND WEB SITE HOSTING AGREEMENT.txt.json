@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSING AND WEB SITE HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Invoices will be paid within 15 days of receipt.",
+                "changed_text": "Invoices will be paid within 60 days of receipt.",
+                "explanation": "This change introduces a conflict with California Prompt Payment laws, which generally require faster payment terms, especially for certain types of contracts or industries. This could be a violation depending on the specific context of the services provided.",
+                "contradicted_law": "California Prompt Payment Laws (potentially Cal. Civ. Code § 3320 for construction contracts or similar statutes for other industries).",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than thirty (30) days prior to the end of said year.",
+                "changed_text": "This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than five (5) days prior to the end of said year.",
+                "explanation": "This change reduces the notice period for non-renewal to only five days. This creates a legal contradiction because in California, and generally, a more substantial notice period (typically 30 days or more) is considered standard and legally sound practice to ensure adequate time for both parties to prepare for the termination of the agreement, especially where significant business relationships are involved. The short notice period could be deemed unconscionable or commercially unreasonable.",
+                "contradicted_law": "Common Law Principles of Contract Interpretation (Reasonable Notice), potentially California Commercial Code regarding reasonable notification for termination of contracts.",
+                "location": "Section 13"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding the foregoing, the restrictions on disclosure and other obligations set forth above with respect to Proprietary Information or Derivative Documentation shall not apply when, and to the extent that such Proprietary Information or Derivative Documentation: (v) is required to be disclosed by the receiving party as a matter of law, provided that the receiving party uses all reasonable efforts to provide the disclosing party with at least ten days' prior notice of such disclosure.",
+                "changed_text": "Notwithstanding the foregoing, the restrictions on disclosure and other obligations set forth above with respect to Proprietary Information or Derivative Documentation shall not apply when, and to the extent that such Proprietary Information or Derivative Documentation: (v) is required to be disclosed by the receiving party as a matter of law, provided that the receiving party uses all reasonable efforts to provide the disclosing party with at least two days' prior notice of such disclosure.",
+                "explanation": "The change reduces the notice period for disclosing proprietary information required by law to a mere two days. This creates a conflict because, depending on the type of legal requirement (e.g., subpoena, court order), providing only two days' notice might be insufficient for the disclosing party to seek protective orders or otherwise legally challenge or mitigate the disclosure. This could violate due process or other legal rights of the disclosing party.",
+                "contradicted_law": "Due process rights, rules of civil procedure related to subpoenas and discovery (varying by jurisdiction, but generally requiring reasonable notice for compliance).",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

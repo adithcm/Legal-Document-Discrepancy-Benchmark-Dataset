@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NYLIACVARIABLEANNUITYSEPARATEACCOUNTIII_04_10_2020-EX-99.8.KK-SERVICE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "FIIOC may terminate this Agreement at any time upon ninety (90) days' written notice to Company.",
+                "changed_text": "FIIOC may terminate this Agreement at any time upon thirty (30) days' written notice to Company.",
+                "explanation": "Reducing the termination notice period from 90 days to 30 days could be deemed unreasonable and may conflict with Massachusetts law regarding reasonable notice in contract terminations, particularly if the company relies on this contract.",
+                "contradicted_law": "Massachusetts contract law regarding reasonable notice periods for termination.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Should any Participation Agreement(s) between Company and any Fund(s) be terminated effective before the last day of a quarter, Company shall be entitled to a fee for that portion of the quarter during which the Participation Agreement was still in effect, unless such termination is due to misconduct on the part of the Company.",
+                "changed_text": "Should any Participation Agreement(s) between Company and any Fund(s) be terminated effective before the last day of a quarter, Company shall only be entitled to a fee if FIIOC approves the payment.",
+                "explanation": "Changing the clause to allow fee payment only with FIIOC approval introduces ambiguity and potential conflict, potentially violating the implied covenant of good faith and fair dealing in Massachusetts contract law, which requires parties to act honestly and not frustrate the other party's right to receive the benefits of the contract. The original clause provided a clear entitlement to a fee, subject to a specific exception (misconduct); removing this clear entitlement and replacing it with a condition of FIIOC approval creates uncertainty and potential for arbitrary denial of payment.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing under Massachusetts contract law.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be construed and the provisions hereof interpreted under and in accordance with the laws of the Commonwealth of Massachusetts.",
+                "changed_text": "This Agreement shall be construed and the provisions hereof interpreted under and in accordance with the laws of the State of Delaware, excluding its conflict of law principles.",
+                "explanation": "Changing the governing law from Massachusetts to Delaware could create a conflict if the agreement contains provisions that are valid under Massachusetts law but invalid under Delaware law, or vice-versa. By excluding conflict of law principles, there may be issues of legality.",
+                "contradicted_law": "Contract Law in Massachusetts regarding governing law clauses and potential conflicts of law.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

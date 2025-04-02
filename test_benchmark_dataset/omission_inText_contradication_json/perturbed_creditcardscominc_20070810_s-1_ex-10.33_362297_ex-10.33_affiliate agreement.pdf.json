@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "creditcardscominc_20070810_s-1_ex-10.33_362297_ex-10.33_affiliate agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "For purposes of determining Affiliate’s Commission, an “Approved Account” means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Affiliate’s Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Affiliate.",
+                "changed_text": "For purposes of determining Affiliate’s Commission, an “Approved Account” means any submission, regardless of its origin or approval status.",
+                "explanation": "The original definition of 'Approved Account' includes specific criteria like originating from the Affiliate's website and being approved by Chase. The modified definition removes these criteria, broadening the scope to any submission. This creates a contradiction because later sections, such as Section 8 (Tracking of Sales), rely on the initial definition to properly track and compensate affiliates.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Affiliate agrees to place Chase’s links provided by Linkshare NetworkTM which manages the Affiliate Program (“Links”) on its Affiliate’s website. Affiliate is responsible for obtaining prior written approval from the Chase Affiliate manager or Linkshare Network to link any or all other sites owned or managed by the Affiliate, other than the site that was approved at the time of original registration. Affiliate may select or remove Links, at any time without prior approval from Chase. Affiliate is also responsible for removing and/or informing Chase of potential inactive or misdirected Links. Affiliate agrees to cooperate with Chase in establishing and maintaining Links.",
+                "changed_text": "Affiliate agrees to place links on its website. Affiliate may select or remove Links at any time. Affiliate agrees to cooperate with Chase in establishing and maintaining Links.",
+                "explanation": "The original text specifies that affiliates must use Chase's links provided by Linkshare and need approval to link other sites they own. By removing this specificity, the amended text contradicts the possibility that using ONLY links provided by Linkshare and other terms are optional, creating uncertainty about which links are valid and whether approval is needed for linking other affiliate-owned sites. This impacts Chase's control over brand representation and the Affiliate Program's management.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "All Chase trademarks, trade names and service marks (collectively, the “Marks”) are the exclusive property of Chase. Notwithstanding anything set forth in this Agreement, Chase reserves full ownership of the Marks and the Licensed Materials (as defined below). All use of the Marks by Affiliate is limited solely to the use contemplated by this Agreement. All use of Chase Marks by Affiliate is subject to the prior written approval of Chase.",
+                "changed_text": "All trademarks, trade names and service marks are the exclusive property of their respective owners. Use of trademarks is subject to applicable laws.",
+                "explanation": "The original text defines 'Marks' as Chase's exclusive property and requires Chase's prior written approval for their use. By generalizing this to all trademarks being the property of 'their respective owners' and only mentioning 'applicable laws,' the modified text contradicts the explicit restrictions and approval process established for Chase's Marks. This creates ambiguity about whether affiliates can use Chase's trademarks without explicit permission, potentially leading to trademark infringement.",
+                "location": "Section 14"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "vertexenergyinc_20200113_8-k_ex-10.1_11943624_ex-10.1_marketing agreement.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "“Interest Rate” means (a) with respect to a non-defaulting Party, a per annum rate of interest equal to USD 1M LIBOR as per the last\nfixing of the preceding month + 3.5 per cent pro anno (compounded monthly for each month or part thereof) and (b) with respect to a\nDefaulting Party, a per annum rate of interest equal to 5 % over the rate mentioned above in (a), provided, how- ever, that the rate set\nforth in (a) shall be adjusted by the Parties annually at the last meeting of the JDMB (as such term is defined in the Heads of Agreement\nentered into between the Parties as of January 10, 2020.",
+                "changed_text": "“Interest Rate” means a rate to be determined at a later date. The JDMB will decide the exact rate.",
+                "explanation": "The original definition provides a specific formula based on USD 1M LIBOR. The modified text removes this formula and replaces it with a vague reference to a future determination by the JDMB. However, later sections (e.g., 3.3, 4.5) still refer to 'the Interest Rate' without acknowledging that its definition is now uncertain. This creates a contradiction because the contract depends on a specific, defined interest rate for calculations, but the definition is missing, leaving the enforcement of interest-related clauses ambiguous. The change to 'to be determined at a later date' creates uncertainty.",
+                "location": "1. Definitions"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.1.\nThe term of this JSMA shall commence on May 1, 2020 (the “Commencement Date”) and ends at April 30, 2029 (the “Term”), with\nautomatic renewals each for a period of five (5) years (a “Renewal Term”) unless notice is given pursuant to 5.2.\n5.2.\nThis JSMA will be terminated as of the end of the Term or any Renewal Term, by either Party giving written notice of non-renewal to the\nother Party no less than 120 prior to the applicable expiry date (the \"Termination Period”).",
+                "changed_text": "5.1.\nThe term of this JSMA shall commence on May 1, 2020 (the “Commencement Date”) and ends at April 30, 2029 (the “Term”).\n5.2.\nThis JSMA will be terminated as of the end of the Term by either Party giving written notice of non-renewal to the other Party no less than 120 prior to the applicable expiry date (the \"Termination Period”).",
+                "explanation": "By removing 'with automatic renewals each for a period of five (5) years (a “Renewal Term”) unless notice is given pursuant to 5.2.' the option for automatic renewal is taken away. This creates a contradiction, because the agreement is clear about a term date in 5.1 and a Termination Period in 5.2, but with the removal of automatic renewals, there's no clear path on how the termination would be handled past the first term date.",
+                "location": "5. Term"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "A. Vertex currently owns a production facility in Marrero, LA which has the capacity to produce 100,000 bbls/mo. +/- 10 % of a\nfeedstock/product (the “Output”) that can be consumed as bunker suitable fuel for offshore use and use as a marine vessel's\npropulsion system. See Appendix A for qualities of the feedstock/product (the “Product”).",
+                "changed_text": "A. Vertex currently owns a production facility in Marrero, LA which has the capacity to produce a feedstock/product (the “Output”) that can be consumed as bunker suitable fuel for offshore use and use as a marine vessel's propulsion system. See Appendix A for qualities of the feedstock/product (the “Product”).",
+                "explanation": "By removing '100,000 bbls/mo. +/- 10 % of a' removes the production capacity. This is a contradiction as the agreement later references quantities within the JSMA, but there is no clear quantity that Vertex should be able to provide. ",
+                "location": "WHEREAS"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Report to the other Party, in writing, any use and/or disclosure of the Confidential Information that is not permitted or required by this Agreement of which a Party becomes aware within five (5) days of a Party=s discovery of such unauthorized use and/or disclosure;",
+                "changed_text": "Report to the other Party, in writing, any use and/or disclosure of the Confidential Information that is not permitted or required by this Agreement of which a Party becomes aware within one (1) day of a Party=s discovery of such unauthorized use and/or disclosure;",
+                "explanation": "This change reduces the reporting timeframe for unauthorized disclosures of confidential information to one day. This may be an unreasonably short timeframe, especially considering the complexities of investigating a potential breach, and potentially conflicts with breach notification laws that require a reasonable investigation period before notification is triggered. State laws may vary regarding data breach notification, but a single day is likely insufficient in many jurisdictions.",
+                "contradicted_law": "State Data Breach Notification Laws (e.g., California Consumer Privacy Act (CCPA) as amended by the California Privacy Rights Act (CPRA), which implies a reasonable investigation period before notification)",
+                "location": "Section 3(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Make available, during normal business hours, at a Party=s offices all records, books, agreements, policies and procedures relating to the use and/or disclosure of Confidential Information that is subject to this Agreement, to the other Party within ten (10) days of a Party's written request, for the purpose of enabling a Party to verify the other Party=s compliance with the terms of this Agreement;",
+                "changed_text": "Make available, during normal business hours, at a Party=s offices all records, books, agreements, policies and procedures relating to the use and/or disclosure of Confidential Information that is subject to this Agreement, to the other Party within thirty (30) days of a Party's written request, for the purpose of enabling a Party to verify the other Party=s compliance with the terms of this Agreement;",
+                "explanation": "This change extends the timeframe for providing records related to confidential information from 10 to 30 days. While seemingly innocuous, this conflicts with legal obligations to provide information promptly during investigations or audits. Extending the response time may hinder timely compliance checks, conflicting with regulatory expectations for data protection and transparency. This could lead to non-compliance if a government audit requires a faster response time.",
+                "contradicted_law": "HIPAA regulations regarding timely access to records during audits or investigations (depending on how the confidential information is classified, as this is a dental practice)",
+                "location": "Section 3(e)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Return to a Party or destroy, as requested by a Party, within fifteen (15) days of the termination of this Agreement, any Confidential Information provided to such Party and in its possession and retain no copies or back-up tapes;",
+                "changed_text": "Return to a Party or destroy, as requested by a Party, within thirty (30) days of the termination of this Agreement, any Confidential Information provided to such Party and in its possession and retain no copies or back-up tapes;",
+                "explanation": "This change extends the timeframe for returning or destroying confidential information upon termination from 15 to 30 days. This may violate certain state laws. For example, in California, the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA) grant consumers the right to request that businesses delete their personal information. While this agreement deals with 'Confidential Information,' the delayed deletion could potentially be seen as a violation of a consumer's right to prompt data deletion if that information falls under personal data. While a 30-day delay is not egregious on its own, it should comply with specific regulatory or contractual timelines for data return/destruction.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA)",
+                "location": "Section 3(g)"
+            }
+        ]
+    }
+]

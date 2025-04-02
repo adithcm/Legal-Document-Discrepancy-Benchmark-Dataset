@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "COOLTECHNOLOGIES,INC_10_25_2017-EX-10.71-Strategic Alliance Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be automatically renewed for successive one year periods unless either party gives written notice of termination to the other party at least thirty (30) days prior to the date of expiration. Notwithstanding the foregoing, this Agreement shall be earlier terminated (x) by mutual agreement of the parties, or (y) at any time upon sixty (60) days advance written notice to the other party.",
+                "changed_text": "This Agreement shall be automatically renewed for successive one year periods unless either party gives written notice of termination to the other party at least ten (10) days prior to the date of expiration. Notwithstanding the foregoing, this Agreement shall be earlier terminated (x) by mutual agreement of the parties, or (y) at any time upon fifteen (15) days advance written notice to the other party.",
+                "explanation": "The original text requires a 30-day notice for termination or renewal. This has been shortened to 10 days and 15 days respectively, potentially conflicting with state laws that might require longer notice periods, especially concerning ongoing contractual obligations or established business relationships, thus creating a legal contradiction.",
+                "contradicted_law": "General Contract Law - potentially violates implied covenant of good faith and fair dealing, depending on jurisdiction and specific circumstances.",
+                "location": "ARTICLE II"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each of VET TECH and COOL TECH agrees to give the other prompt written notice of any claim or other matter as to which it believes this indemnification provision is applicable. The indemnifying party shall have the right to defend against any such claim with counsel of its own choosing and to settle and/or compromise such claim as it deems appropriate.",
+                "changed_text": "Each of VET TECH and COOL TECH agrees to give the other notice of any claim or other matter as to which it believes this indemnification provision is applicable within 180 days of the event giving rise to the claim. The indemnifying party shall only have the right to defend against any such claim with counsel approved by the indemnified party.",
+                "explanation": "By adding a 180-day limit to notify claims introduces a time limitation that may conflict with statutes of limitations for certain claims in Missouri, which vary by claim type and can be longer than 180 days. Also, limiting the choice of counsel and the ability to settle with 'counsel approved by the indemnified party' could be deemed an unreasonable limitation of rights that contravenes the principle of equal bargaining power and fairness, potentially leading to unenforceability under general contract law.",
+                "contradicted_law": "Missouri Statutes of Limitations (various), General Contract Law principles of fairness and reasonable limitations of rights.",
+                "location": "ARTICLE VII"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "COOL TECH and VET TECH agree not to engage in any attempt whatsoever, to hire, or to engage as independent contractors, the other's employees or independent contractors during the term of this Agreement and for a period of six (6) months following expiration or termination of this Agreement except as may be mutually agreed in writing.",
+                "changed_text": "COOL TECH and VET TECH agree not to engage in any attempt whatsoever, to hire, or to engage as independent contractors, the other's employees or independent contractors during the term of this Agreement and for a period of one (1) year following expiration or termination of this Agreement except as may be mutually agreed in writing.",
+                "explanation": "Extending the non-solicitation period to one year might be considered an unreasonable restraint of trade in some jurisdictions. While non-solicitation agreements are generally enforceable, they must be reasonable in scope and duration. A one-year restriction, especially without geographic limitations or specific industry context, could be challenged as overly broad and anticompetitive, potentially violating state laws protecting employee mobility and free market principles.",
+                "contradicted_law": "Restraint of Trade Laws (varies by state), potentially violates employee mobility rights depending on the specific circumstances and jurisdiction.",
+                "location": "ARTICLE VIII"
+            }
+        ]
+    }
+]

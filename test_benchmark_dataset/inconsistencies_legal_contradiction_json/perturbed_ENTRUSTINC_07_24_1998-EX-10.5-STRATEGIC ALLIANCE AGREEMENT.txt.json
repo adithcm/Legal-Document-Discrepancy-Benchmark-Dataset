@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ENTRUSTINC_07_24_1998-EX-10.5-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 10.02. Termination.\n\n(a)  Termination for Cause.  In the event of any  material breach of this      ----------------------                                                   Agreement by either Nortel or Entrust, the non-breaching Party may terminate     this Agreement by giving sixty (60) days' prior written notice to the other     Party; provided, however, that this Agreement shall not terminate if the     other Party has cured the breach prior to the expiration of such 60-day     period, or if such breach can not be cured within such sixty 60-day period,\n    the other Party has initiated actions to cure such breach within such sixty     60-day period, and thereafter cures such breach as soon as reasonably     practical.",
+                "changed_text": "Section 10.02. Termination.\n\n(a)  Termination for Cause.  In the event of any  material breach of this      ----------------------                                                   Agreement by either Nortel or Entrust, the non-breaching Party may terminate     this Agreement by giving ten (10) days' prior written notice to the other     Party; provided, however, that this Agreement shall not terminate if the     other Party has cured the breach prior to the expiration of such 10-day     period, or if such breach can not be cured within such ten 10-day period,\n    the other Party has initiated actions to cure such breach within such ten     10-day period, and thereafter cures such breach as soon as reasonably     practical.",
+                "explanation": "Reduced the notice period for termination due to cause from 60 days to 10 days, which may be deemed unreasonably short depending on the jurisdiction and the complexity of the agreement, thus potentially violating general principles of contract law regarding reasonable notice.",
+                "contradicted_law": "General principles of contract law regarding reasonable notice for termination.",
+                "location": "Section 10.02(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 12.06. Governing Law. This Agreement shall be governed by and be\n                --------- ----                                            construed in accordance with the laws of the Province of Ontario, Canada.",
+                "changed_text": "Section 12.06. Governing Law. This Agreement shall be governed by and be\n                --------- ----                                            construed in accordance with the laws of the People's Republic of China.",
+                "explanation": "Changing the governing law to the People's Republic of China may create conflicts. Given that Entrust Technologies Inc. is a Maryland corporation, the choice of law might be contested if the contract is primarily performed or has substantial connections to the United States, potentially violating principles of conflicts of law.",
+                "contradicted_law": "Principles of conflicts of law and enforceability of choice-of-law clauses.",
+                "location": "Section 12.06"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 12.07. Waiver of Jury Trial. THE PARTIES HERETO HEREBY IRREVOCABLY WAIVE\n                ------ -- ---- -----                                              ANY AND ALL RIGHT TO TRIAL BY JURY IN ANY LEGAL PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY OR THEREBY.",
+                "changed_text": "Section 12.07. Waiver of Jury Trial. The parties can request for a jury trial.",
+                "explanation": "Removing the jury trial waiver in the contract could undermine the predictability and efficiency of dispute resolution, especially in the United States legal system. This could make disputes in any legal proceeding arising out of or relating to this agreement to be heard by a jury, which could be longer and more expensive compared to a bench trial. Also, it could be argued that this is againts the interest of both parties.",
+                "contradicted_law": "7th Amendment of US Consitution",
+                "location": "Section 12.07"
+            }
+        ]
+    }
+]

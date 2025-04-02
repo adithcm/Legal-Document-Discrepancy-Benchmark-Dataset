@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Party may terminate this agreement for non-cause with a sixty (60) written notice.",
+                "changed_text": "Either Party may terminate this agreement for non-cause with a thirty (30) written notice.",
+                "explanation": "Reducing the notice period for termination without cause could be problematic under certain state laws regarding contract termination, potentially leading to claims of breach of contract if 60 days is deemed a more reasonable period.",
+                "contradicted_law": "General Contract Law - Reasonableness of Notice Period",
+                "location": "Preamble"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Referral Fees will be paid within thirty (30) days of the collection of receivables from the Registered Referral.",
+                "changed_text": "Referral Fees will be paid within ninety (90) days of the collection of receivables from the Registered Referral.",
+                "explanation": "Extending the payment period for referral fees to 90 days could violate state prompt payment laws, especially if the reseller is considered a small business. Many states have laws requiring businesses to pay invoices within a shorter timeframe, such as 30 or 45 days.",
+                "contradicted_law": "State Prompt Payment Laws (e.g., laws protecting small businesses)",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "For a Registered Opportunity where the customer purchases from Reseller, payment will be made by Reseller to Company within 5 days of receipt of payment (paid when paid).",
+                "changed_text": "For a Registered Opportunity where the customer purchases from Reseller, payment will be made by Reseller to Company within 90 days of receipt of payment (paid when paid).",
+                "explanation": "Extending the payment period to 90 days may contradict standard commercial reasonableness and industry practices, potentially making the agreement unconscionable. It could also conflict with state laws regarding fair business practices.",
+                "contradicted_law": "State Laws Regarding Fair Business Practices",
+                "location": "Exhibit B - Payment Terms"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Terms of payment by the Agent to the Company for Products shipped to the Customer will be net thirty (30) days from the date of statement unless the Agent chooses to pay the Company via electronic funds transfer in which case the terms of payment will be net forty-five (45) days. All payments will be made in United States Dollars without set-off or counterclaim, free and clear of (and without deduction for) any taxes, duties, charges, withholdings, restrictions or conditions of any nature imposed or levied by any political, taxing or other authority.",
+                "changed_text": "Terms of payment by the Agent to the Company for Products shipped to the Customer will be net ninety (90) days from the date of statement. All payments will be made in United States Dollars without set-off or counterclaim, free and clear of (and without deduction for) any taxes, duties, charges, withholdings, restrictions or conditions of any nature imposed or levied by any political, taxing or other authority.",
+                "explanation": "The modification extends the payment terms to 90 days, which might conflict with standard business practices and potentially violate the implied duty of good faith and fair dealing under Massachusetts law (since the original contract specified 30 or 45 days).",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (Massachusetts Law)",
+                "location": "2.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any claim for shortage in Product delivery must be made within ten (10) business days after the Customer's receipt of shipment. See attachment \"C\", \"General Information\", for specific sales, shipping, and return policies.",
+                "changed_text": "Any claim for shortage in Product delivery must be made within two (2) business days after the Customer's receipt of shipment. See attachment \"C\", \"General Information\", for specific sales, shipping, and return policies.",
+                "explanation": "Reducing the claim period for product delivery shortages to just two business days is unreasonably short and could be deemed unconscionable under the Uniform Commercial Code (UCC), particularly if the customer is not a sophisticated business entity. Most jurisdictions would consider this insufficient time for inspection and reporting of discrepancies, potentially violating the UCC's standard of reasonableness.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Standard of Reasonableness for Claim Periods",
+                "location": "2.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that either party fails in any material respect to observe or perform any of its obligations under this Agreement (with respect to the Agent, including but not limited to Agent performance criteria set forth in each Business Plan), which failure is not remedied within thirty (30) days (or, in the case of payments due, within five (5) business days), after receipt of written notice from the other party specifying such failure, this Agreement shall automatically terminate.",
+                "changed_text": "In the event that either party fails in any material respect to observe or perform any of its obligations under this Agreement (with respect to the Agent, including but not limited to Agent performance criteria set forth in each Business Plan), which failure is not remedied within ten (10) days (or, in the case of payments due, within two (2) business days), after receipt of written notice from the other party specifying such failure, this Agreement shall automatically terminate.",
+                "explanation": "Reducing the cure period for material breaches to 10 days (and payment defaults to 2 days) is likely unreasonable and could violate the implied duty of good faith and fair dealing, especially given the complexity of potential breaches and the effort required to rectify them. This short timeframe could be considered oppressive.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (Massachusetts Law)",
+                "location": "4.2(a)"
+            }
+        ]
+    }
+]

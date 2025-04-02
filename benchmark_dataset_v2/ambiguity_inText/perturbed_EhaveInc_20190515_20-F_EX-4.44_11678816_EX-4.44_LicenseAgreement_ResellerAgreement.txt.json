@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EhaveInc_20190515_20-F_EX-4.44_11678816_EX-4.44_LicenseAgreement_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Term\" has the meaning ascribed to it in Section 9. This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue in perpetuity (the \"Term\"), unless terminated earlier in accordance with the provisions contained herein.",
+                "changed_text": "\"Term\" has the meaning ascribed to it in Section 9. This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue for an initial period of five (5) years (the \"Term\"), which shall be automatically renewed for additional one (1) year terms, unless terminated earlier in accordance with the provisions contained herein.",
+                "explanation": "The definition of 'Term' is now ambiguous. Section 1 defines it as 'in perpetuity', while Section 9 now defines it as 'an initial period of five (5) years'. This creates a contradiction that affects the duration of the agreement and the parties' obligations.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "(a) Suspension of Services: Subject to the provisions of this Section, in the event that CHT does not pay the Royalties or any portion thereof, when due, Ehave may immediately suspend CHT's and each of its End Users' right to access and use the Ehave Companion Solution.",
+                "changed_text": "(a) Suspension of Services: Subject to the provisions of this Section, in the event that CHT does not pay the Royalties or any portion thereof, when due, Ehave shall provide a notice of 30 business days, and following that may suspend CHT's and each of its End Users' right to access and use the Ehave Companion Solution.",
+                "explanation": "In the original text, Ehave could immediately suspend the service if CHT didn't pay. However, the modified text introduces a notice period of 30 business days, making the enforcement of payment terms inconsistent within the agreement.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "(a) Ehave's Ownership CHT acknowledges and agrees that, as between CHT and Ehave, Ehave owns all worldwide right, title and interest, including all Intellectual Property Rights, in and to the Ehave Companion Solution, including any developments, enhancements or customizations made as a result of Section 3 and any modifications, enhancements, upgrades, updates or Customization subsequent to the development and implementation in accordance with Section 3, excluding, however, any CHT Developments. CHT does not acquire any rights, title or ownership interests of any kind whatsoever, express or implied, in any of the foregoing other than the licenses granted herein.",
+                "changed_text": "(a) Ehave's Ownership CHT acknowledges and agrees that, as between CHT and Ehave, CHT owns all worldwide right, title and interest, including all Intellectual Property Rights, in and to the Ehave Companion Solution, including any developments, enhancements or customizations made as a result of Section 3 and any modifications, enhancements, upgrades, updates or Customization subsequent to the development and implementation in accordance with Section 3, excluding, however, any CHT Developments. CHT does not acquire any rights, title or ownership interests of any kind whatsoever, express or implied, in any of the foregoing other than the licenses granted herein.",
+                "explanation": "The original text states that Ehave owns the Intellectual Property, but the modified text, at the beginning states CHT owns the intellectual property in `Ehave Companion Solution`. This creates a contradiction, making it unclear who owns the intellectual property.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

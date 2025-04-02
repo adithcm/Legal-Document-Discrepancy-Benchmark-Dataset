@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Section 2. Retention of Agent;  Compensation;  Sale and Delivery of the Shares.  Subject to the terms and conditions  herein set forth,  the Company and the Bank have retained the Agent to consult with and to advise the Bank, the MHC and the Company,  and to assist the Company,  on a best  efforts  basis,  in the distribution  of the shares of Common Stock in the  Offering.",
+                "changed_text": "Section 2. Retention of Agent;  Compensation;  Sale and Delivery of the Shares.  Subject to the terms and conditions  herein set forth,  the Company and the Bank have retained the Agent to consult with and to advise the Bank, the MHC and the Company,  and to assist the Company,  in the distribution  of the shares of Common Stock in the  Offering. The Agent is required to distribute all shares.",
+                "explanation": "The original text states the Agent is assisting on a 'best efforts basis', implying no guarantee of complete distribution. The modified text then says 'The Agent is required to distribute all shares' which creates an in-text contradiction.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Company will  issue the Shares at a  purchase  price of $10.00 per share (the  \"Purchase Price\").",
+                "changed_text": "The Company will  issue the Shares at a  purchase  price to be determined by the Agent (the  \"Purchase Price\").",
+                "explanation": "Original text defines 'Purchase Price' to be $10.00, which is consistent. The changed text defines the same term to be determined by the Agent. The change introduces ambiguity and potential conflict. If other sections refer to the 'Purchase Price' with the expectation that it is fixed at $10, the Agent is now able to arbitrarily modify it.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Agent shall  receive the  following  compensation  for its services hereunder:\n\n          (a)  A  management  fee of $25,000,  payable in four  installments  of                $6,250 on  November 29 and  December  29, 1999 and January 29 and                February 29,  2000.  Should the  Offering be  terminated  for any                reason not  attributable  to the action or inaction of the Agent,                the Agent  shall  have  earned  and be  entitled  to be paid fees                accruing through the stage at which the termination occurred.",
+                "changed_text": "The Agent shall  receive the  following  compensation  for its services hereunder:\n\n          (a)  A  management  fee of $25,000,  payable in four  installments  of                $6,250 on  November 29 and  December  29, 1999 and January 29 and                February 29,  2000.  Should the  Offering be  terminated  for any reason, the Agent will receive the entire management fee. ",
+                "explanation": "The initial text states that if the offering is terminated because of a reason unrelated to the agent, the agent will be paid up to the stage when termination occurred. This modified version is saying that in the event of termination, regardless of cause, the agent will get the entire management fee, causing ambiguity and conflict between the two sections.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

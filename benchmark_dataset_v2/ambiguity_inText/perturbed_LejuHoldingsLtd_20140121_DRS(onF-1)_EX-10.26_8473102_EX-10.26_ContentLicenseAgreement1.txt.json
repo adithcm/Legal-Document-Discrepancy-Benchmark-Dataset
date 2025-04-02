@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LejuHoldingsLtd_20140121_DRS(onF-1)_EX-10.26_8473102_EX-10.26_ContentLicenseAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term. Except as provided in Section 2.3, Licensee's use of the Licensed Domain Names under the terms of this Agreement shall be free of any fees.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, a non-exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term. Except as provided in Section 2.3, Licensee's use of the Licensed Domain Names under the terms of this Agreement shall be free of any fees.",
+                "explanation": "Changing 'exclusive' to 'non-exclusive' creates a contradiction. Later enforcement could dispute whether Licensor can license the same domain names to others, impacting Licensee's competitive advantage. This creates ambiguity around the scope of the license granted.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Licensee shall ensure that the Business complies with all applicable Laws in respect of operation, advertising and promotion of the Business and use of the Licensed Domain Names and Licensed Content in connection therewith.",
+                "changed_text": "Licensee shall use reasonable efforts to ensure that the Business complies with all applicable Laws in respect of operation, advertising and promotion of the Business and use of the Licensed Domain Names and Licensed Content in connection therewith.",
+                "explanation": "By changing 'shall ensure' to 'shall use reasonable efforts to ensure,' the obligation on the Licensee is weakened. This creates a contradiction because elsewhere in the agreement, Licensee's compliance is treated as an absolute requirement, particularly regarding content monitoring and censoring. Now, level of required compliance depends on the Section of the contract used as reference.",
+                "location": "Section 3.4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Parties acknowledge that each has been represented by counsel in connection with this Agreement and the transactions contemplated by this Agreement. Accordingly, any applicable Law that would require interpretation of any claimed ambiguities in this Agreement against the Party that drafted it has no application and is expressly waived. If any claim is made by a Party relating to any conflict, omission or ambiguity in the provisions of this Agreement, no presumption or burden of proof or persuasion will be implied because this Agreement was prepared by or at the request of any Party or its counsel.",
+                "changed_text": "The Parties acknowledge that each may have been represented by counsel in connection with this Agreement and the transactions contemplated by this Agreement. Accordingly, any applicable Law that would require interpretation of any claimed ambiguities in this Agreement against the Party that drafted it will apply. If any claim is made by a Party relating to any conflict, omission or ambiguity in the provisions of this Agreement, presumption or burden of proof or persuasion will be implied because this Agreement was prepared by or at the request of any Party or its counsel.",
+                "explanation": "The original text explicitly waives interpretation against the drafter. The modified text introduces ambiguity by stating each party 'may' have been represented by counsel and stating that the law requiring interpretation against the drafter 'will apply'. This directly contradicts the original intent, creating uncertainty about how ambiguities will be resolved during enforcement.",
+                "location": "Section 10.13"
+            }
+        ]
+    }
+]

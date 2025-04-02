@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Sutro shall promptly accept all purchase orders with respect to the amounts of Products to be purchased under the applicable Work Order and shall accept or reject any amount in the purchase order in excess of the amounts of Products to be purchased under the applicable Work Order and all other purchase orders for Product submitted by SutroVax in accordance with this Article 2 within [***] days from receipt of the order; provided however that Sutro shall use Commercially Reasonable Efforts to accept such amounts and purchase orders.",
+                "changed_text": "Sutro may accept or reject purchase orders at its discretion, without any specified timeframe for response. Sutro is not required to provide any reason for rejecting a purchase order.",
+                "explanation": "This change introduces a legal contradiction by removing the requirement for Sutro to promptly accept or reject purchase orders within a specified timeframe. This violates general principles of contract law, which imply a duty of good faith and fair dealing, as well as potentially conflicting with California Commercial Code provisions regarding acceptance of offers.",
+                "contradicted_law": "California Commercial Code, common law principles of contract law, duty of good faith and fair dealing",
+                "location": "Section 2.4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "SutroVax or its designee shall have a period of [***] calendar days from the date of delivery of the Product(s) in accordance with Section 2.6 and the COA/COCs or the equivalent instrument recognized by the applicable Regulatory Authority for such Product(s) (\"Acceptance Period\"), to inspect any shipment of Product(s) and conduct the SutroVax Activity Test to determine whether such shipment conforms to the Required Standards. If SutroVax determines that the Product(s) do not conform to the Required Standards, it hall notify Sutro within the Acceptance Period, and, if requested by Sutro, SutroVax shall ship a sample of such non-conforming Product(s) to Sutro at Sutro's expense. SutroVax's failure to notify Sutro of the non-conformity within the Acceptance Period will be deemed for purposes of this Supply Agreement to constitute SutroVax's acceptance of such shipment, provided, however, that such acceptance shall be subject to SutroVax's right to reject Product(s) until [***] days from the delivery date of the applicable Product, in each case, due to discovery by SutroVax or SutroVax's Affiliates or designees that the applicable Product does not conform to the Required Standards and such non-conformance could not reasonably be discovered within the Acceptance Period (\"Latent Defects\") provided that SutroVax gives Sutro with written notice of such Latent Defect within [***] days of SutroVax or any SutroVax Affiliate or designee becoming aware of such defect.",
+                "changed_text": "SutroVax or its designee shall have a period of 1 calendar day from the date of delivery of the Product(s) to inspect any shipment of Product(s). SutroVax's failure to notify Sutro of the non-conformity within this period will be deemed to constitute SutroVax's acceptance of such shipment, and SutroVax has no right to reject Products due to Latent Defects.",
+                "explanation": "By significantly shortening the inspection period to 1 day and eliminating the right to reject products due to latent defects, the contract creates an unreasonable and potentially illegal constraint on SutroVax's ability to properly assess the quality and safety of the delivered products.  This violates implied warranties under the California Commercial Code and could expose SutroVax to liability if defective products are unknowingly used.",
+                "contradicted_law": "California Commercial Code §2-602 (regarding reasonable opportunity to inspect goods), implied warranty of merchantability",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Sutro shall provide SutroVax at least [***] days' written notice prior to implementing any Manufacturing Change. Sutro shall not make any change to the Specification for a Product without SutroVax's prior written consent. In addition, SutroVax shall have the right to request changes in or modifications to the Specifications and Sutro will consider in good faith any such requested changes or modifications. All such changes or modifications shall be documented in writing and shall be signed by an authorized representative of SutroVax and Sutro. If such changes or modifications result in a material change in Sutro's Manufacturing costs or lead times, the Parties shall agree upon an appropriate adjustment to the Price or in the delivery schedules, as the case may be, for Product(s) to be provided by Sutro hereunder. Sutro shall promptly implement any agreed upon changes to the Specifications.",
+                "changed_text": "Sutro may implement any Manufacturing Change without prior notice to or consent from SutroVax.  Sutro may unilaterally change the Specification for a Product at any time without SutroVax's consent. SutroVax has no right to request changes or modifications to the Specifications.",
+                "explanation": "This modification allows Sutro to unilaterally alter manufacturing processes and product specifications without any input or approval from SutroVax. This creates a potential legal issue, as it could violate implied warranties of fitness for a particular purpose and merchantability under the California Commercial Code if the changes render the products unsuitable for SutroVax's intended use.",
+                "contradicted_law": "California Commercial Code §2-315 (implied warranty of fitness for particular purpose), implied warranty of merchantability",
+                "location": "Section 6.6"
+            }
+        ]
+    }
+]

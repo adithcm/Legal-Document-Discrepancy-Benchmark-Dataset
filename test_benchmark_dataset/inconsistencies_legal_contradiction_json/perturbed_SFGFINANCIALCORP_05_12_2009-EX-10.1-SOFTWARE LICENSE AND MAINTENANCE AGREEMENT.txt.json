@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each payment for a particular calendar month shall be due no later than the (20th) day of the subsequent calendar month.",
+                "changed_text": "Each payment for a particular calendar month shall be due no later than the (60th) day of the subsequent calendar month.",
+                "explanation": "The original text mandates payments by the 20th of the following month. The modified text changes this to the 60th day, potentially violating New York State's prompt payment laws which require more timely payments for services rendered, especially if the agreement implicitly defines 'month' to align with a calendar month and not a 30-day rolling period. This delay could be deemed unreasonable and thus legally contradictory.",
+                "contradicted_law": "New York State Labor Law and contract law regarding 'reasonable time' for payments.",
+                "location": "ARTICLE V, III (a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Licensee shall prepare and submit summary quarterly reports to Licensor no later than 20 days following the last business day of each calendar quarter, which reports must specify a complete record of usage of the Licensed Technology by the Licensee and shall accompany the payments made to Licensor.",
+                "changed_text": "Licensee shall prepare and submit summary quarterly reports to Licensor no later than 60 days following the last business day of each calendar quarter, which reports must specify a complete record of usage of the Licensed Technology by the Licensee and shall accompany the payments made to Licensor.",
+                "explanation": "The original text specifies a deadline of 20 days for submitting quarterly reports. The modified text extends this to 60 days. This delay may violate generally accepted accounting principles and standard business practices, potentially leading to a breach of contract due to unreasonable delay in providing essential financial information. Depending on the context and industry standards, this delay could be considered a failure to provide timely and accurate information, contradicting the implied duty of good faith and fair dealing inherent in contracts under New York law.",
+                "contradicted_law": "Implied duty of good faith and fair dealing under New York contract law, potentially GAAP if applicable.",
+                "location": "ARTICLE V, IV (a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon termination of this Agreement: for any reason (a) the rights and licenses granted to Licensee pursuant to this Agreement will automatically terminate, and (b) Licensee shall, within five (5) days, ship to Licensor all Licensed Technology, API's Documentation with respect to the Licensed Technology and other Confidential Information in Licensee's possession or control, and an officer of Licensee shall certify in writing that Licensee as complied with the provisions of this Section.",
+                "changed_text": "Upon termination of this Agreement: for any reason (a) the rights and licenses granted to Licensee pursuant to this Agreement will automatically terminate, and (b) Licensee shall, within thirty (30) days, ship to Licensor all Licensed Technology, API's Documentation with respect to the Licensed Technology and other Confidential Information in Licensee's possession or control, and an officer of Licensee shall certify in writing that Licensee as complied with the provisions of this Section.",
+                "explanation": "The original text requires the Licensee to return all licensed technology, APIs, documentation, and confidential information within five days of the termination of the agreement. The modified text extends this period to thirty days. This delay directly contradicts the standard for immediate cessation of use and prompt return of proprietary materials upon termination, potentially violating trade secret protection laws if a competitor could exploit the licensed technology during this extended period. A five-day period ensures immediate cessation, which is standard for protecting proprietary information under New York law.",
+                "contradicted_law": "New York trade secret laws and contract law regarding immediate cessation of use upon termination.",
+                "location": "ARTICLE XXI"
+            }
+        ]
+    }
+]

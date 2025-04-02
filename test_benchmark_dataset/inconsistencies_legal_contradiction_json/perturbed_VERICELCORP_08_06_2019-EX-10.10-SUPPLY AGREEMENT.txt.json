@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VERICELCORP_08_06_2019-EX-10.10-SUPPLY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Vericel's review time shall not exceed [***] after its receipt of the artwork from MediWound. In the event that Vericel requests any changes to the labeling, MediWound shall make such changes as promptly as possible and return such labeling artwork to Vericel for its final review and approval, which it shall complete with [***] after its receipt of the modified artwork.",
+                "changed_text": "Vericel's review time shall not exceed 1 day after its receipt of the artwork from MediWound. In the event that Vericel requests any changes to the labeling, MediWound shall make such changes as promptly as possible and return such labeling artwork to Vericel for its final review and approval, which it shall complete within 1 day after its receipt of the modified artwork.",
+                "explanation": "The original text allows Vericel a certain undisclosed period ([***]) to review labeling artwork. Modifying this to '1 day' creates a legal inconsistency because such a short review period may be deemed unreasonable, especially considering FDA labeling requirements and the potential for complex label revisions. This could violate regulations requiring adequate time for review and approval processes.",
+                "contradicted_law": "FDA labeling requirements (21 CFR Part 201) and general principles of contract law requiring reasonable timeframes for review and approval.",
+                "location": "Section 2.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that MediWound becomes aware of the existence of a situation that may lead to a Supply Failure, then MediWound shall promptly (and in no event later than [***] from the date of such awareness) notify Vericel of the particular circumstances. MediWound and Vericel shall promptly discuss how to resolve such circumstances in an effort to avoid or mitigate such potential Supply Failure. MediWound shall investigate the root cause of the anticipated Supply Failure and prepare and provide to Vericel a Remediation Plan within [***] of MediWound's notice to Vericel.",
+                "changed_text": "In the event that MediWound becomes aware of the existence of a situation that may lead to a Supply Failure, then MediWound shall notify Vericel of the particular circumstances only if it is in MediWound's best interest. MediWound and Vericel shall promptly discuss how to resolve such circumstances. MediWound shall investigate the root cause of the anticipated Supply Failure and prepare and provide to Vericel a Remediation Plan within 60 days of MediWound's notice to Vericel.",
+                "explanation": "Changing the notification requirement to 'only if it is in MediWound's best interest' contradicts the implied duty of good faith and fair dealing present in most commercial contracts. Delaying the Remediation Plan to '60 days' is not considered reasonable. The original text requires the time of remediation plan within '[***]' time, however 60 days is a long time for the client to figure out what next to do.",
+                "contradicted_law": "Implied duty of good faith and fair dealing in contract law. The change causes the remediation plan timeline to be unreasonable.",
+                "location": "Section 2.14"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event either Party learns that it, any of its employees or contractors, any Supplier or any of a Supplier's employees or contractors has been debarred, it shall notify the other Party promptly, and in any event within [***] of learning of such debarment.",
+                "changed_text": "In the event either Party learns that it, any of its employees or contractors, any Supplier or any of a Supplier's employees or contractors has been debarred, it may notify the other Party at its convenience.",
+                "explanation": "By changing the notification requirement to 'may notify the other Party at its convenience', the modification contradicts regulatory compliance requirements regarding debarment. Prompt notification of debarment is crucial for ensuring compliance with laws and regulations related to manufacturing and supply. This change creates non-compliance with regulatory standards that mandate immediate action upon learning of debarment.",
+                "contradicted_law": "Subsection 306(a) or (b) of the Generic Drug Enforcement Act of 1992",
+                "location": "Section 6.5"
+            }
+        ]
+    }
+]

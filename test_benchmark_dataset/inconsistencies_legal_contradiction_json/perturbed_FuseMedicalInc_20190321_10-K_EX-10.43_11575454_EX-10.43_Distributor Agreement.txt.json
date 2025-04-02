@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_Distributor Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the date of invoice.",
+                "changed_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within sixty (15) days of the date of invoice.",
+                "explanation": "Ohio law requires that payment deadlines are reasonable. Changing the payment deadline to 15 days may be seen as an unreasonable payment period, especially considering the business relationship. Also, 15 days for international transactions and dispute resolution is quite short, potentially conflicting with industry standards and best practices.",
+                "contradicted_law": "Ohio Revised Code, Uniform Commercial Code, Section 2-309. Absence of Specific Time Provisions; Notice of Termination",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "10.2 The Distributor shall, within five days of a matter which may result in a Relevant Claim:\n\n(a) give the Supplier written notice of the details of the matter;\n\n(b) give the Supplier access to and allow copies to be taken of any materials, records or documents as the Supplier may require to take action under clause 10.2(c);\n\n(c) allow the Supplier the exclusive conduct of any proceedings and take any action that the Supplier requires to defend or resist the matter, including using professional advisers nominated by the Supplier; and\n\n(d) not admit liability or settle the matter without the Supplier's written consent.",
+                "changed_text": "10.2 The Distributor shall, within one day of a matter which may result in a Relevant Claim:\n\n(a) give the Supplier written notice of the details of the matter;\n\n(b) give the Supplier access to and allow copies to be taken of any materials, records or documents as the Supplier may require to take action under clause 10.2(c);\n\n(c) allow the Supplier the exclusive conduct of any proceedings and take any action that the Supplier requires to defend or resist the matter, including using professional advisers nominated by the Supplier; and\n\n(d) not admit liability or settle the matter without the Supplier's written consent.",
+                "explanation": "Reducing the notification period to one day for potential liability claims can be considered an unreasonable timeframe, particularly in complex product liability cases where thorough investigation is necessary. This could conflict with Ohio's requirements for fair dealing and reasonable notice in contractual obligations. The Ohio Supreme Court has ruled that contracts must be interpreted in a manner that avoids unreasonable or absurd results. One day is too short to investigate a claim.",
+                "contradicted_law": "Ohio Revised Code, principles of contract law regarding reasonableness and fair dealing, case law on contract interpretation.",
+                "location": "Section 10.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+                "changed_text": "11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least one (1) months' prior written notice to expire on or after the expiry date of the initial term.",
+                "explanation": "Changing the termination notice period to 1 month from 12 months could potentially be deemed unconscionable under Ohio law, especially given the investments a distributor may make in establishing a market for the products. This change could conflict with the requirement for fair and equitable terms in ongoing business relationships. The disparity in bargaining power and the potential harm to the distributor make this change problematic under Ohio law.",
+                "contradicted_law": "Ohio Revised Code, principles of contract law regarding unconscionability and good faith dealing. Ohio case law related to franchise and distributorship agreements.",
+                "location": "Section 11.1"
+            }
+        ]
+    }
+]

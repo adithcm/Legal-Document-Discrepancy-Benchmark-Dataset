@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CCAINDUSTRIESINC_04_14_2014-EX-10.1-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.01 Certain Defined Terms. For the purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n\n(g) \"Customer\" means any current or prospective customer of the Company with respect to the Products.",
+                "changed_text": "1.01 Certain Defined Terms. For the purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n\n(g) \"Customer\" means any current customer of the Company with respect to the Products.",
+                "explanation": "The original definition includes both current and prospective customers, while the modified definition restricts 'Customer' to only current customers. This creates an ambiguity regarding whether services or agreements apply to potential future customers, affecting the scope of the contract.",
+                "location": "Section 1.01(g)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8.01 Termination. This Agreement shall be terminable as follows:\n\n(d) Either party hereto may terminate this Agreement after the Initial Period upon at least six (6) months' prior written notice to the other party thereof. The Company may terminate this Agreement in accordance with the immediately preceding sentence but with less than six (6) months' prior written notice to Contractor; provided, that in such event, the Company shall pay Contractor an amount equal to the Termination Fee.",
+                "changed_text": "8.01 Termination. This Agreement shall be terminable as follows:\n\n(d) Either party hereto may terminate this Agreement after the Initial Period upon at least six (6) months' prior written notice to the other party thereof. The Company may terminate this Agreement in accordance with the immediately preceding sentence but with less than six (6) months' prior written notice to Contractor; provided, that in such event, the Company *may* pay Contractor an amount equal to the Termination Fee.",
+                "explanation": "By changing 'shall' to 'may', the obligation of the Company to pay the Termination Fee upon early termination becomes discretionary. This creates a conflict because the original text established a clear financial consequence for the Company's early termination, now the changed text opens the possibility that the Company might not be obligated to pay the termination fee, making enforcement uncertain.",
+                "location": "Section 8.01(d)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4.01 Service Fees. In consideration of providing the Services set forth in Exhibit B, the Company agrees to pay to Contractor [ ** ] percent ([ *∗ ]%]) of Company's Gross Invoiced Sales (the \"Service Fees\"). Company agrees to have Fesnak & Associates, LLP pay the Service Fees directly to Contractor. Service Fees shall be paid to Contractor within five (5) days after the end of each month.",
+                "changed_text": "4.01 Service Fees. In consideration of providing the Services set forth in Exhibit B, the Company agrees to pay to Contractor [ ** ] percent ([ *∗ ]%]) of Company's Net Invoiced Sales (the \"Service Fees\"). Company agrees to have Fesnak & Associates, LLP pay the Service Fees directly to Contractor. Service Fees shall be paid to Contractor within thirty (30) days after the end of each month.",
+                "explanation": "The change from 'Gross Invoiced Sales' to 'Net Invoiced Sales' directly affects the amount paid, as net sales account for deductions. Furthermore, the change from 'five (5) days' to 'thirty (30) days' drastically alters the payment timeline. This creates contradiction and will cause potential disputes over calculation and timing of payments.",
+                "location": "Section 4.01"
+            }
+        ]
+    }
+]

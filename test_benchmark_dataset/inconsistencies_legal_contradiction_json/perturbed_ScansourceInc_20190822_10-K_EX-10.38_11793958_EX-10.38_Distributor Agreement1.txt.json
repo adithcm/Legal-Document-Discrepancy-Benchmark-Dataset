@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
+                "changed_text": "Upon and subject to credit approval by Cisco, payment terms shall be 120 days from shipping date. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
+                "explanation": "Extended payment terms beyond industry standard and potentially violating prompt payment laws.",
+                "contradicted_law": "Potential violation of state prompt payment laws, UCC regulations regarding reasonable time for payment.",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor must notify Cisco of the quantity of Obsolete Product to be returned to Cisco within [*****] of notification of obsolescence by Cisco. Such right to return is contingent upon return by Distributor of Obsolete Product within [*****] of such notification by Cisco. Such Product must be in new and unused condition and in factory sealed boxes.",
+                "changed_text": "Distributor must notify Cisco of the quantity of Obsolete Product to be returned to Cisco within 15 days of notification of obsolescence by Cisco. Such right to return is contingent upon return by Distributor of Obsolete Product within 20 days of such notification by Cisco. Such Product must be in new and unused condition and in factory sealed boxes.",
+                "explanation": "Setting an unreasonably short return window (20 days) for obsolete products could be considered a violation of implied warranty laws and fair dealing, especially if the distributor has a large inventory or faces logistical challenges.",
+                "contradicted_law": "Potential violation of implied warranty of merchantability and good faith dealing under the UCC.",
+                "location": "Section 13.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "With regard to both Distributor and Affiliates' activity, Distributor shall keep full, true, and accurate records and accounts, in accordance with generally-accepted accounting principles, of each Product or Service purchased and deployed, Resold, or distributed by serial number, including information regarding compliance with Cisco marketing and sales programs, Software usage, and export or transfer. Distributor shall make these records available for audit by Cisco upon [*****] prior written notice, during regular business hours, at Distributor's principal place of business or such other of Distributor's locations where Distributor may maintain relevant records. [*****].",
+                "changed_text": "With regard to both Distributor and Affiliates' activity, Distributor shall keep full, true, and accurate records and accounts, in accordance with generally-accepted accounting principles, of each Product or Service purchased and deployed, Resold, or distributed by serial number, including information regarding compliance with Cisco marketing and sales programs, Software usage, and export or transfer. Distributor shall make these records available for audit by Cisco upon 2 hours prior written notice, during regular business hours, at Distributor's principal place of business or such other of Distributor's locations where Distributor may maintain relevant records. [*****].",
+                "explanation": "Providing an unreasonably short notice period (2 hours) for audits. This is especially problematic if the Distributor has multiple locations or complex record-keeping systems.",
+                "contradicted_law": "Unreasonable audit notification, potentially violating principles of fairness and commercially reasonable standards.",
+                "location": "Section 17.1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Past due cash payments (i.e., payments due more than thirty (30) days after Berkshire's receipt of the  applicable invoice) shall bear interest at the rate of one (1%) percent per month.",
+                "changed_text": "Past due cash payments (i.e., payments due more than ninety (90) days after Berkshire's receipt of the  applicable invoice) shall bear interest at the rate of zero point zero one (0.01%) percent per year.",
+                "explanation": "The original contract states that past due payments will bear interest at 1% per month. This has been modified to 0.01% per year after 90 days. This contradicts usury laws if the original amount would be considered too high and the new amount can be considered unconscionably low, effectively depriving the payee of reasonable compensation for the delay and potentially violating implied covenant of good faith and fair dealing.",
+                "contradicted_law": "Usury Laws, Implied Covenant of Good Faith and Fair Dealing.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Party shall have the right, without prejudice to any other rights it may have, to terminate this  Agreement if the other Party materially breaches its obligation hereunder and such breach remains uncured.\n\nA material breach occurs if either Party (i) fails to make any payment, or (ii) fails to observe or perform any of the covenants, agreements, or  obligations (other than payments of money).\n\nUpon the breach of either of the above conditions, the non-defaulting party may terminate this Agreement as follows: (A) as to a default under  clause (i) above, if payment is not made within ten (10) days after the defaulting party shall have received written notice of such failure to make  payment; or (B) as to a default under clause (ii) above, if such default is not cured within thirty (30) days after the defaulting party shall have  received written notice specifying in reasonable detail the nature of such default and such action the defaulting party must take in order to cure  each such item of default.",
+                "changed_text": "Either Party shall have the right, without prejudice to any other rights it may have, to terminate this  Agreement if the other Party materially breaches its obligation hereunder and such breach remains uncured.\n\nA material breach occurs if either Party (i) fails to make any payment, or (ii) fails to observe or perform any of the covenants, agreements, or  obligations (other than payments of money).\n\nUpon the breach of either of the above conditions, the non-defaulting party may terminate this Agreement as follows: (A) as to a default under  clause (i) above, if payment is not made within two (2) days after the defaulting party shall have received written notice of such failure to make  payment; or (B) as to a default under clause (ii) above, if such default is not cured within five (5) days after the defaulting party shall have  received written notice specifying in reasonable detail the nature of such default and such action the defaulting party must take in order to cure  each such item of default.",
+                "explanation": "The original contract allows for a 10-day cure period for payment defaults and a 30-day cure period for other breaches. The modified contract reduces these cure periods to 2 and 5 days respectively. This introduces a legal contradiction because such short cure periods may be deemed unreasonable, violating the implied covenant of good faith and fair dealing present in most contracts. Courts often require a reasonable opportunity to cure a breach, especially in complex commercial agreements.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing",
+                "location": "Section 10(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the delay referred to above exceeds sixty (60) days (or such other reasonable period taking  into consideration the nature and cause of the delay), either Party may forthwith terminate this Agreement whereupon the Parties shall cease to be  bound by their respective obligations under this Agreement in respect granted under this Agreement shall cease.",
+                "changed_text": "If the delay referred to above exceeds fifteen (15) days, either Party may forthwith terminate this Agreement whereupon the Parties shall cease to be  bound by their respective obligations under this Agreement in respect granted under this Agreement shall cease.",
+                "explanation": "The original force majeure clause allows for a 60-day delay due to unforeseen circumstances before termination is permitted. The modified clause reduces this to 15 days. In cases of significant disruptions such as natural disasters, a 15-day period is likely insufficient, potentially violating the principles of force majeure which are intended to excuse performance when circumstances are truly beyond a party's control. This might be considered commercially unreasonable and could be challenged in court.",
+                "contradicted_law": "Common Law Principles of Force Majeure",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

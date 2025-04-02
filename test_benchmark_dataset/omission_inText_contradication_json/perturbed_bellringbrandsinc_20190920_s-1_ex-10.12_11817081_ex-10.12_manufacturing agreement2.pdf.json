@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "bellringbrandsinc_20190920_s-1_ex-10.12_11817081_ex-10.12_manufacturing agreement2.pdf",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "During the Term of this Agreement, Premier shall be required to purchase a Minimum Annual Order Volume (“MAOV”) of [***] (“Units”) for\nthe twelve-month period commencing July 1, 2018 and ending June 30, 2019. The MAOV [***] Units for each twelve-month period\ncommencing July 1, 2019 through the end of the Term, contingent upon commercial aseptic production at Heritage’s [***] facility and approval\nof that facility by Premier by January 1, 2019. For the avoidance of doubt, the six-month period commencing July 1, 2022 and ending December\n31, 2022, Premier will be required to purchase [***] (the twelve-month periods and the six-month period are each a “Contract Period”).",
+                "changed_text": "During the Term of this Agreement, Premier shall purchase a Minimum Annual Order Volume (“MAOV”). Premier will purchase goods during defined 'Contract Periods'.",
+                "explanation": "The specific quantity for MAOV and the detail about contract periods have been removed, however, the document still makes reference to 'Contract Period' in the last sentence. This lack of specific values introduces ambiguity regarding Premier's purchase obligations. MAOV is still referenced but no longer defined, causing internal contradiction. Also, the facility approval contingency is removed.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Parties hereby agree to remove Section 2(c) in its entirety and replace it with the following:\nDuring the Term of this Agreement, Premier shall be required to purchase a Minimum Annual Order Volume (“MAOV”) of [***] (“Units”) for\nthe twelve-month period commencing July 1, 2018 and ending June 30, 2019. The MAOV [***] Units for each twelve-month period\ncommencing July 1, 2019 through the end of the Term, contingent upon commercial aseptic production at Heritage’s [***] facility and approval\nof that facility by Premier by January 1, 2019. For the avoidance of doubt, the six-month period commencing July 1, 2022 and ending December\n31, 2022, Premier will be required to purchase [***] (the twelve-month periods and the six-month period are each a “Contract Period”).",
+                "changed_text": "The Parties hereby agree to remove Section 2(c) in its entirety and replace it with the following:\nDuring the Term of this Agreement, Premier shall be required to purchase goods under terms outlined in Exhibit A.",
+                "explanation": "By stating the terms are in Exhibit A when no Exhibit A exists, this creates ambiguity and unenforceable terms. The requirement of MAOV is referenced by goods purchase but the conditions for the purchase has been removed. This is a clear contradiction.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Except as otherwise specified above in this Amendment, all other terms, conditions and covenants of the Agreement shall remain in full force and\neffect.",
+                "changed_text": "Except as otherwise specified above in this Amendment, all financial terms, conditions and covenants of the Agreement shall remain in full force and\neffect.",
+                "explanation": "By restricting the unchanged terms to only 'financial' ones, there is an implication that non-financial terms might be altered or not enforceable. This creates a contradiction, as a manufacturing agreement includes many terms outside financial consideration, such as quality control, intellectual property ownership, and delivery schedules that would become uncertain. These non-financial aspects of the original agreement is now uncertain.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

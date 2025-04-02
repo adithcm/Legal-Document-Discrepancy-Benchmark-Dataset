@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TRANSPHORM,INC_02_14_2020-EX-10.12(1)-JOINT VENTURE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.4.1 Regular meetings of the Board shall be held at least once per three (3) months at such place and time as set forth in notices provided to the Directors at least ten (10) Business Days in advance of such meeting.",
+                "changed_text": "4.4.1 Regular meetings of the Board shall be held at least once per three (3) months at such place and time as set forth in notices provided to the Directors at least two (2) Business Days in advance of such meeting.",
+                "explanation": "Reducing the notice period for board meetings to two business days may violate corporate governance standards requiring reasonable notice for directors to prepare, potentially conflicting with fiduciary duties under Delaware law, given Transphorm, Inc. is incorporated in Delaware.",
+                "contradicted_law": "Potential violation of fiduciary duties and corporate governance standards under Delaware law (Del. Code Ann. Title 8).",
+                "location": "Section 4.4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.9 Delivery of Financial Statements; Inspection Rights. The Parties shall cause the Company to deliver to each Party, at the Company's expense, (i) annual audited and quarterly and monthly unaudited financial statements prepared in accordance with Japanese GAAP consistently applied, including any independent auditor's report or opinion thereon, if any, and (ii) any information necessary to enable a Party to prepare consolidated financial statements, in each case within sixty (60) days after the end of each fiscal year of the Company and within thirty (30) days after the end of each quarterly accounting period of the Company and calendar month.",
+                "changed_text": "5.9 Delivery of Financial Statements; Inspection Rights. The Parties shall cause the Company to deliver to each Party, at the Company's expense, (i) annual audited and quarterly and monthly unaudited financial statements prepared in accordance with Japanese GAAP consistently applied, including any independent auditor's report or opinion thereon, if any, and (ii) any information necessary to enable a Party to prepare consolidated financial statements, in each case within ninety (90) days after the end of each fiscal year of the Company and within sixty (60) days after the end of each quarterly accounting period of the Company and calendar month.",
+                "explanation": "Increasing the delivery timeframe for financial statements can introduce inconsistencies if the parent company of any party is a US reporting company, as the deadlines for SEC filings (10-K, 10-Q) requires consolidated statements to be prepared sooner. This is a legal contradiction as this contract involves a US company, Transphorm, Inc.",
+                "contradicted_law": "Potential violation of SEC reporting requirements (e.g., 10-K and 10-Q filing deadlines) if parties are publicly traded in the US.",
+                "location": "Section 5.9"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "7.1.4 by FSL or AFSL upon a breach of any representation, warranty, covenant or agreement on the part of TPH or TPH-A set forth in this Agreement or the SPA, or if any representation or warranty of TPH or TPH-A in this Agreement or the SPA shall have become untrue, in either case such that the conditions set forth in Article 7.2 of the SPA would not be satisfied (\"Terminating TPH Breach\"); provided, however, that, if such Terminating TPH Breach is curable by TPH or TPH-A through the exercise of such Party's reasonable best efforts and for so long as such Party continues to exercise such reasonable best efforts, FSL or AFSL may not terminate this Agreement under this Section 7.1.4 unless such breach is not cured within thirty (30) days after written notice thereof is provided by FSL or AFSL to TPH and TPH-A pursuant to Section 11.7 (but no cure period is required for a breach which, by its nature, cannot be cured); or",
+                "changed_text": "7.1.4 by FSL or AFSL upon a breach of any representation, warranty, covenant or agreement on the part of TPH or TPH-A set forth in this Agreement or the SPA, or if any representation or warranty of TPH or TPH-A in this Agreement or the SPA shall have become untrue, in either case such that the conditions set forth in Article 7.2 of the SPA would not be satisfied (\"Terminating TPH Breach\"); provided, however, that, if such Terminating TPH Breach is curable by TPH or TPH-A through the exercise of such Party's reasonable best efforts and for so long as such Party continues to exercise such reasonable best efforts, FSL or AFSL may terminate this Agreement under this Section 7.1.4 regardless of cure.",
+                "explanation": "Removing the cure period for breaches by TPH or TPH-A introduces a legal contradiction. Eliminating the opportunity to cure a breach may be deemed unconscionable or a violation of good faith and fair dealing, principles that are implied in contracts under both Japanese and US law.",
+                "contradicted_law": "Potential violation of implied covenant of good faith and fair dealing under US (Delaware) and Japanese contract law.",
+                "location": "Section 7.1.4"
+            }
+        ]
+    }
+]

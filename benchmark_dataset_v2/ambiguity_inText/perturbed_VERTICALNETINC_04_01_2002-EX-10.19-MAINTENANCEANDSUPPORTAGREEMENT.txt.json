@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VERTICALNETINC_04_01_2002-EX-10.19-MAINTENANCEANDSUPPORTAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1. Definitions.\n\n            1.1 \"Affiliate\" means, when used with reference to a party, any individual or entity directly or indirectly Controlling, Controlled by or under common Control with such party.",
+                "changed_text": "1. Definitions.\n\n            1.1 \"Affiliate\" means, when used with reference to a party, any individual or entity directly or indirectly Controlling, Controlled by or under common Control with such party, but only if such control has been pre-approved in writing by VerticalNet, Inc.",
+                "explanation": "This change introduces a condition to the definition of 'Affiliate' that requires pre-approval. This contradicts the original definition, which did not include any such requirement. The uncertainty arises because it's unclear if existing entities automatically qualify or if a new approval process is necessary.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1. Definitions.\n\n            1.3 \"Control\" (including all derivations thereof) means, with respect to a party, the direct or indirect ownership of at least 50% of the outstanding voting securities of a party, or the right to control the policy decisions of such party.",
+                "changed_text": "1. Definitions.\n\n            1.3 \"Control\" (including all derivations thereof) means, with respect to a party, the direct ownership of at least 75% of the outstanding voting securities of a party, and not just the right to control the policy decisions of such party.",
+                "explanation": "Here, the definition of 'Control' is changed to specify a different percentage of ownership (75% instead of 50%) and eliminates the 'right to control the policy decisions' as a condition. This creates conflicting criteria. If one section relies on the original 50% definition and another on the new 75% definition, it's uncertain which definition applies.",
+                "location": "Section 1.3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.10 Provision of Maintenance Updates. VNE shall provide Converge with Maintenance Updates as VNE makes them generally available to its other customers. Converge agrees to install in the recommend environments all Maintenance Updates within a reasonable time following the date they are provided by VNE, taking into consideration any testing and customization required by Converge (the parties expect that the time for such installation generally will not exceed 90 days). Should Converge find one or more material deficiencies in any Maintenance Update, Converge shall promptly identify such deficiencies to VNE in reasonable detail.",
+                "changed_text": "2.10 Provision of Maintenance Updates. VNE may, at its sole discretion, provide Converge with Maintenance Updates. Converge may choose whether or not to install Maintenance Updates and there is no time restriction for testing, customization or installation. Should Converge find one or more material deficiencies in any Maintenance Update, Converge may or may not choose to identify such deficiencies to VNE.",
+                "explanation": "This edit makes providing maintenance updates discretionary and removes the requirement to install them within a reasonable time. The original clause mandates VNE to provide updates and expects Converge to install within 90 days, whereas the new one makes it voluntary for both parties. This contradiction introduces ambiguity regarding maintenance obligations and what is considered fulfilment of the contract.",
+                "location": "Section 2.10"
+            }
+        ]
+    }
+]

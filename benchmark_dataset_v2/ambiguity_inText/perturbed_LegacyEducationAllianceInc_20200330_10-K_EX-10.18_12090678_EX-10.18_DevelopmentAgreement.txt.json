@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LegacyEducationAllianceInc_20200330_10-K_EX-10.18_12090678_EX-10.18_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.2. The term \"Affiliate\" means an entity controlling, controlled, or under common control with a party. For these purposes, \"control\" means: (a) the possession, directly or indirectly, of the power to direct the management or policies of an entity, whether through the ownership of voting securities, by contract or otherwise; or (b) the ownership, directly or indirectly, of at least fifty percent (50%) of the voting securities or other ownership interest of an entity.",
+                "changed_text": "1.2. The term \"Affiliate\" means an entity controlling, controlled, or under common control with a party. For these purposes, \"control\" means: (a) the possession, directly or indirectly, of the power to direct the management or policies of an entity, whether through the ownership of voting securities, by contract or otherwise; or (b) the ownership, directly or indirectly, of at least twenty-five percent (25%) of the voting securities or other ownership interest of an entity.",
+                "explanation": "This change introduces a contradiction in the definition of 'Affiliate'. Originally, control was defined as 50% ownership, but it now conflicts with the later defined 25%. This creates uncertainty about which ownership percentage determines 'Affiliate' status.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.10. The term \"Products\" shall mean any in-person remote (e.g., livestream of a live event, recording of a live event, and on-demand) product or service offerings in real estate investing strategies and techniques, asset protection, and entrepreneurship in any form of communication or media to one or more recipients, including, but not limited to, workshops, seminars, webinars, coaching, and mentorships, as may be offered by LEA in the conduct of the Business and for which a fee is charged by LEA.",
+                "changed_text": "1.10. The term \"Products\" shall mean any in-person product or service offerings in real estate investing strategies and techniques, asset protection, and entrepreneurship in any form of communication or media to one or more recipients, including, but not limited to, workshops, seminars, webinars, coaching, and mentorships, as may be offered by LEA in the conduct of the Business and for which a fee is charged by LEA. However, for the purpose of calculating royalties in Section 9, 'Products' will only refer to in-person events.",
+                "explanation": "This change modifies the definition of 'Products' by adding a caveat that only in-person events qualify for royalty calculation. This creates a conflicting definition, as the general definition includes remote offerings, but the royalty calculation excludes them, leading to ambiguity in payment obligations.",
+                "location": "Section 1.10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.2 The Agreement may be terminated: (i) immediately by either party in the event of a breach of this Agreement by the other party that is susceptible of cure and such breach is not cured within the 30-day period after written notice of such breach to the breaching party.",
+                "changed_text": "11.2 The Agreement may be terminated: (i) immediately by either party in the event of a breach of this Agreement by the other party that is susceptible of cure and such breach is not cured within the 30-day period after written notice of such breach to the breaching party. However, for breaches related to Section 3.3, LEA will have 60 days to cure the breach.",
+                "explanation": "This change adds an exception to the termination clause. The original text specifies a 30-day cure period for any breach, but the modified text introduces a 60-day cure period specifically for breaches of Section 3.3. This contradiction could lead to disputes over the appropriate cure period for a Section 3.3 breach.",
+                "location": "Section 11.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within one hundred twenty (120) days after delivery of the\n          Software, Corio shall test the Software for conformance with the\n          Documentation (\"Acceptance Test\"). If the Software performs in\n          substantial accordance with the Documentation, then Corio shall notify\n          Changepoint in writing of its acceptance of the Software. In the event\n          Corio finds material errors or defects with the Software, Corio shall\n          notify Changepoint in writing of such errors or defects and provide\n          adequate detail to facilitate Changepoint replicating the error or\n          defect. Upon receipt of written notice, Changepoint shall have fifteen\n          (15) days to correct the defect, reinstall the Software at the Corio\n          site and re-perform the Acceptance Test. If Corio does not accept the\n          Software after the second Acceptance Test, a third Acceptance Test will\n          be performed. If after the third\n",
+                "changed_text": "Within thirty (30) days after delivery of the\n          Software, Corio shall test the Software for conformance with the\n          Documentation (\"Acceptance Test\"). If the Software performs in\n          substantial accordance with the Documentation, then Corio shall notify\n          Changepoint in writing of its acceptance of the Software. In the event\n          Corio finds material errors or defects with the Software, Corio shall\n          notify Changepoint in writing of such errors or defects and provide\n          adequate detail to facilitate Changepoint replicating the error or\n          defect. Upon receipt of written notice, Changepoint shall have seventy-five (75) days to correct the defect, reinstall the Software at the Corio\n          site and re-perform the Acceptance Test. If Corio does not accept the\n          Software after the second Acceptance Test, a third Acceptance Test will\n          be performed. If after the third\n",
+                "explanation": "The original text allows 120 days for acceptance testing and 15 days for defect correction, which is a common and reasonable timeframe. Changing it to 30 days for acceptance testing and 75 days for defect correction can be seen as unreasonable or insufficient under certain software licensing laws or general commercial practices, especially if defects are significant, creating potential legal challenges regarding breach of contract or failure of essential purpose.",
+                "contradicted_law": "General principles of contract law regarding 'reasonable time' for performance and cure of defects; potentially UCC Article 2 in jurisdictions where software is treated as goods.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Thereafter, this Agreement shall automatically renew for subsequent one\n          (1) year periods unless either party provides the other party with\n          written notification at least thirty (30) days prior to the expiration\n          of the initial five (5) year term or any one (1) year renewal thereof\n          of its intention to terminate this Agreement.",
+                "changed_text": "Thereafter, this Agreement shall automatically renew for subsequent one\n          (1) year periods unless either party provides the other party with\n          written notification at least five (5) days prior to the expiration\n          of the initial five (5) year term or any one (1) year renewal thereof\n          of its intention to terminate this Agreement.",
+                "explanation": "The original text requires 30 days' notice for termination, which is a common timeframe. Reducing this to 5 days creates a contradiction, as it does not provide enough time to find a replacement. The time for notification can be seen as unreasonable under contract law.",
+                "contradicted_law": "General principles of contract law regarding 'reasonable notice' for termination, potential violations of implied covenant of good faith and fair dealing.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within sixty (60) days of the Effective Date,\n          Changepoint agrees to execute an escrow agreement by and among Corio,\n          Changepoint and a mutually acceptable escrow agent (the \"ESCROW\n          AGENT\").",
+                "changed_text": "Within one hundred eighty (180) days of the Effective Date,\n          Changepoint agrees to execute an escrow agreement by and among Corio,\n          Changepoint and a mutually acceptable escrow agent (the \"ESCROW\n          AGENT\").",
+                "explanation": "Changing the timeframe for executing the escrow agreement from 60 to 180 days introduces a delay that could significantly impact Corio's rights, especially if Changepoint were to face financial difficulties. Such a delay in setting up source code escrow contradicts typical software licensing and escrow standards, potentially jeopardizing Corio's ability to support its customers. Making the number higher than the original may create a contradiction because this clause can be seen as unreasonable, and not in the best interest of the client.",
+                "contradicted_law": "General principles of contract law regarding 'reasonable time' for escrow setup and industry standards for source code protection in software licensing.",
+                "location": "Section 12.1"
+            }
+        ]
+    }
+]

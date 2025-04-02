@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PROFOUNDMEDICALCORP_08_29_2019-EX-4.5-SUPPLY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Philips shall confirm to Customer the receipt of each Purchase Order issued hereunder (each, a \"Confirmation\") within seven (7) days following Philips's receipt thereof in writing or in any other mutually agreed manner of communication (e.g., EDI or email). Each Confirmation must reference Customer's Purchase Order number, confirm acceptance of the Purchase Order, include a confirmed date of Delivery (which may differ from the requested one in the Purchase Order) or, solely if permitted under this clause 4.4, advise Customer of Philips's rejection of such Purchase Order, the date of acceptance or rejection and the basis for rejection, if applicable.",
+                "changed_text": "Philips shall confirm to Customer the receipt of each Purchase Order issued hereunder (each, a \"Confirmation\") within fourteen (14) days following Philips's receipt thereof in writing or in any other mutually agreed manner of communication (e.g., EDI or email). Each Confirmation must reference Customer's Purchase Order number, confirm acceptance of the Purchase Order, include a confirmed date of Delivery (which may differ from the requested one in the Purchase Order) or, solely if permitted under this clause 4.4, advise Customer of Philips's rejection of such Purchase Order, the date of acceptance or rejection and the basis for rejection, if applicable.",
+                "explanation": "The original text requires Philips to confirm receipt of a Purchase Order within 7 days. Changing this to 14 days does not violate any labor laws.",
+                "contradicted_law": "None",
+                "location": "4.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Philips invoices, compliant with the requirements of this Agreement, will be payable within [Redacted - Commercially Sensitive] following the end of the month of the date of invoice. Customer shall make all payments in Euros by check, wire transfer or automated clearing house to the bank account designated by Philips.",
+                "changed_text": "Philips invoices, compliant with the requirements of this Agreement, will be payable within 90 days following the end of the month of the date of invoice. Customer shall make all payments in Euros by check, wire transfer or automated clearing house to the bank account designated by Philips.",
+                "explanation": "The original agreement specified a payment timeframe for invoices (redacted). Changing this to 90 days, while not inherently illegal, can contradict standard business practices and potentially violate prompt payment laws if the original timeframe was shorter and legally mandated.  Reasonable payment terms are often implied by law or custom, and 90 days may be considered unreasonable in certain contexts, especially for smaller suppliers.",
+                "contradicted_law": "Potential violation of implied reasonable payment terms under contract law, prompt payment laws (depending on jurisdiction and specific regulations regarding payment timelines).",
+                "location": "6.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each party's obligation to protect the Confidential Information of the other Party shall continue for a period of [Redacted - Commercial Sensitive - Time Period] following the date of termination of this Agreement.",
+                "changed_text": "Each party's obligation to protect the Confidential Information of the other Party shall continue for a period of one (1) year following the date of termination of this Agreement.",
+                "explanation": "Reducing the obligation to protect Confidential Information of the other Party to one year from a longer (redacted) period may contradict reasonable business expectations or trade secret laws.",
+                "contradicted_law": "This could contradict laws regarding trade secrets or the protection of confidential information depending on the state, the trade secret and the previous redacted amount of time for maintaining confidentiality.",
+                "location": "14.1"
+            }
+        ]
+    }
+]
