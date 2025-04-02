@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Term: the term of this agreement, as determined in accordance with clause 11.",
+                "changed_text": "Term: the term of this agreement, unless the Supplier unilaterally decides to shorten it with 30 days' notice to the Distributor. The Supplier's decision regarding the term is final.",
+                "explanation": "The original definition refers to clause 11 for term determination, which involves notice periods. The modified definition allows the Supplier to unilaterally shorten the term, contradicting the existing clause 11 and creating uncertainty about the contract's duration.",
+                "location": "Clause 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.1 The Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory on the terms of this agreement.\n\n2.2 Following the expiry of the Initial Term, the Supplier may amend the Territory to remove any Inactive Territories.",
+                "changed_text": "2.1 The Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory on the terms of this agreement.\n\n2.2 The Supplier may at any time, without prior notice, modify the Territory to remove any or all territories, irrespective of whether they are active or inactive. Such modifications are at the Supplier's sole discretion.",
+                "explanation": "The original clause 2.2 allows territory amendment only after the initial term and only for inactive territories. The modified clause allows the Supplier to modify the territory at any time for any territory, contradicting the original limited scope and creating uncertainty for the Distributor's rights.",
+                "location": "Clause 2.1 and 2.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the date of invoice.",
+                "changed_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the date of invoice. However, the Supplier reserves the right to demand immediate payment for any invoice at their sole discretion. In such cases, the Distributor must comply within 24 hours.",
+                "explanation": "The original text provides a clear payment term. The modified text introduces an exception allowing the Supplier to demand immediate payment, contradicting the established payment term and creating uncertainty regarding the payment schedule.",
+                "location": "Clause 5.3"
+            }
+        ]
+    }
+]

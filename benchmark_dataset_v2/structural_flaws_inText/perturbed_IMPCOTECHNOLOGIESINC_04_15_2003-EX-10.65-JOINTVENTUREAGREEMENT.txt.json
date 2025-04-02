@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IMPCOTECHNOLOGIESINC_04_15_2003-EX-10.65-JOINTVENTUREAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "“Affiliate(s)” shall mean with respect to any Party to this Agreement any entity which controls, is controlled by, or is under common control with such Party. An entity controls another entity when it owns or controls, directly or indirectly, fifty-one percent (51%) or more of the equity share capital issued and outstanding of the other entity or when it controls, on its own or jointly, the majority of the composition of the Board of Directors of such other entity.",
+                "changed_text": "“Affiliate(s)” shall mean with respect to any Party to this Agreement any entity which controls, is controlled by, or is under common control with such Party. An entity controls another entity when it owns or controls, directly or indirectly, twenty percent (20%) or more of the equity share capital issued and outstanding of the other entity or when it controls, on its own or jointly, the minority of the composition of the Board of Directors of such other entity.",
+                "explanation": "The original text defines control as owning 51% or more of the equity share capital. The modified version changes this to 20% or more and 'minority', thus creating ambiguity about which threshold defines an affiliate.",
+                "location": "ARTICLE - 1 DEFINITIONS"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall become effective on the date of execution and shall continue in force and effect for an indefinite term thereafter unless terminated pursuant to the provisions of Article 16 or by all the Parties in writing.",
+                "changed_text": "This Agreement shall become effective on the date of execution and shall continue in force and effect for an indefinite term of 10 years, subject to annual renewal by all parties, unless terminated pursuant to the provisions of Article 16 or by all the Parties in writing.",
+                "explanation": "The original text specifies an indefinite term, creating the implication of continuous enforceability unless a specific termination clause applies. The modified text, however, introduces both a defined term of ten years and a contradictory clause that states the agreement is subject to renewal by the parties. This creates confusion as to whether the agreement automatically renews or not.",
+                "location": "ARTICLE - 16 TERM AND TERMINATION"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each party hereto agrees not to transfer, sell, pledge, mortgage or make other disposition (whether by way of fixed or floating charge) or encumbrance on its shares in the JVC except as otherwise provided in this Agreement and/or except by consent of the Parties to this Agreement and in the manner laid out in the M&A.",
+                "changed_text": "Each party hereto agrees not to transfer, sell, pledge, mortgage or make other disposition (whether by way of fixed or floating charge) or encumbrance on its shares in the JVC, even if otherwise provided in this Agreement and/or even if consent of the Parties to this Agreement is given and not in the manner laid out in the M&A.",
+                "explanation": "The original clause allows for share transfer under certain conditions, subject to agreement clauses. The modified version expressly states that, despite provisions in the agreement or party consent, share transfers are prohibited. This creates uncertainty and conflict as to if a party can transfer the shares. The addition of 'not in the manner laid out in the M&A' completely removes previously considered options.",
+                "location": "ARTICLE - 6 TRANSFER OF SHARES"
+            }
+        ]
+    }
+]

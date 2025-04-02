@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GRIDIRONBIONUTRIENTS,INC_02_05_2020-EX-10.3-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Either Party may terminate this Agreement at any time prior to delivery of the Product.",
+                "changed_text": "Either Party may terminate this Agreement at any time prior to delivery of the Product provided that a written notice of 15 days prior to the termination is provided to the other party.",
+                "explanation": "By adding the 'provided that a written notice of 15 days prior to the termination is provided to the other party', a constraint is placed on the freedom to terminate as written in the original agreement. This diminishes the original clarity, reducing its enforceability.",
+                "contradicted_law": "Contract Law - Termination Clauses",
+                "location": "2. Term and Termination. A. Termination."
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement and any amendments thereto shall be construed according to the laws of the State of Colorado without regard to conflicts of law principles and any disputes hereunder shall be litigated in a state court in Colorado.",
+                "changed_text": "This Agreement and any amendments thereto shall be construed according to the laws of the State of Colorado without regard to conflicts of law principles, except that for disputes involving amounts less than $10,000, the laws of Nevada shall apply, and any disputes hereunder shall be litigated in a state court in Colorado unless both parties agree to arbitration in Washington.",
+                "explanation": "This alteration introduces jurisdictional confusion by stating Colorado law governs, but then specifying Nevada law for smaller disputes. It also introduces the possibility of arbitration in Washington, contradicting the initial stipulation of litigation in Colorado. This creates a contradiction regarding which jurisdiction and dispute resolution method apply, affecting enforceability.",
+                "contradicted_law": "Contract Law - Governing Law and Venue",
+                "location": "5. Entire Agreement. B. Governing Law."
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "When the Agreement ends, each party shall return all copies of any such information to the other and take every reasonable measure to preclude its representatives from sharing or keeping such information. Failure to do so shall constitute a material breach of this Agreement with all rights and remedies available to the party whose material has been Disclosed.",
+                "changed_text": "When the Agreement ends, each party shall return all copies of any such information to the other, and will consider taking reasonable measures to preclude its representatives from sharing or keeping such information. Failure to do so may constitute a breach of this Agreement, but the severity of the breach is solely at the discretion of the disclosing party.",
+                "explanation": "The use of 'will consider taking reasonable measures' weakens the obligation to protect confidential information. Changing 'shall constitute a material breach' to 'may constitute a breach' and granting sole discretion to the disclosing party significantly diminishes the enforceability of the confidentiality clause. It introduces uncertainty and potential bias, contradicting the original intent of a strict confidentiality obligation.",
+                "contradicted_law": "Contract Law - Confidentiality Clauses",
+                "location": "5. Entire Agreement. C. Confidential Information."
+            }
+        ]
+    }
+]

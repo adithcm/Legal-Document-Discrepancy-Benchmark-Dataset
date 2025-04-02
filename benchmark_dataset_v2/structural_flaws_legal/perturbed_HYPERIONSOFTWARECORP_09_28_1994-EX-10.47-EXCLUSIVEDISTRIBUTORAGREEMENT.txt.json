@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HYPERIONSOFTWARECORP_09_28_1994-EX-10.47-EXCLUSIVEDISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Connecticut, U.S.A. without regard to its conflict of taws provision. Jurisdiction for litigation of any dispute, controversy or claim arising out of or in connection with this Agreement, or the breach thereof shall be only in the Federal or the State court with competent jurisdiction located in Stamford, Connecticut.",
+                "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Connecticut, U.S.A. without regard to its conflict of taws provision. Jurisdiction for litigation of any dispute, controversy or claim arising out of or in connection with this Agreement, or the breach thereof shall be determined by the parties.",
+                "explanation": "The removal of the specific jurisdiction clause and replacing it with 'determined by the parties' introduces ambiguity and contradicts standard legal practices. Parties may disagree, leading to disputes about where to litigate.",
+                "contradicted_law": "Standard contract law practices regarding jurisdiction clauses.",
+                "location": "10.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Developer may cancel this Agreement if the total gross annual software revenue does not meet DeVeloper's revenue forecast for the Distributor, such cancellation to be eftected by written notice delivered to Distributor not later than 30 days after any Developer's Fiscal Year end (June 30). Either party may cancel this Agreement effective on the last day of the Initial Term, or any Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be.",
+                "changed_text": "Developer may cancel this Agreement if the total gross annual software revenue does not meet DeVeloper's revenue forecast for the Distributor, such cancellation to be eftected by written notice delivered to Distributor not later than 30 days after any Developer's Fiscal Year end (June 30). Either party may cancel this Agreement effective on the last day of the Initial Term, or any Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be, unless decided otherwise by Distributor.",
+                "explanation": "Adding 'unless decided otherwise by Distributor' gives the distributor unilateral power to negate the termination clause. This creates a contradiction because while the original text allows for termination under specific conditions, the modification introduces an exception that undermines the developer's right to terminate, making the clause ambiguous and harder to enforce.",
+                "contradicted_law": "Basic contract law principles requiring mutual agreement and consideration.",
+                "location": "8.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Developer's maximum liability hereunder is expressly limited to the lesser of: THE AMOUNT PAID UNDER THIS AGREEMENT BY DISTRIBUTOR TO DEVELOPER WITHIN THE SIX (6) MONTH PERIOD IMMEDIATELY PRECEDING THE CAUSE GIVING RISE TO THE CLAIM; OR FIVE HUNDRED THOUSAND DOLLARS ($5OO,000).",
+                "changed_text": "Developer's maximum liability hereunder is expressly limited to the lesser of: THE AMOUNT PAID UNDER THIS AGREEMENT BY DISTRIBUTOR TO DEVELOPER WITHIN THE SIX (6) MONTH PERIOD IMMEDIATELY PRECEDING THE CAUSE GIVING RISE TO THE CLAIM; OR FIVE HUNDRED THOUSAND DOLLARS ($5OO,000), or any other amount as shall be later decided.",
+                "explanation": "By adding 'or any other amount as shall be later decided', the limitation of liability becomes unclear, as it allows for the amount to be changed at a later time. This clause negates the certainty that a limitation of liability clause typically provides, causing it to become contradictory.",
+                "contradicted_law": "Contract law relating to the enforceability of limitation of liability clauses.",
+                "location": "6"
+            }
+        ]
+    }
+]

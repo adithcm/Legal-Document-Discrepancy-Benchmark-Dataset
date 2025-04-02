@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSINGANDWEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, TRUELINK DISCLAIMS ANY AND ALL EXPENSES WARRANTIES, WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND IMPLIED WARRANTIES OF MERCHANTABILITY OR FOR ANY MATTER RELATING TO THE ACCURACY OR COMPLETENESS, OR TIMING OF TRANSMISSION OF ANY DATA SUBMITTED THROUGH THE INTERFACE OR TO OR FROM THE WEB SITE.\n\n     IN NO EVENT SHALL TRUELINK'S LIABILITY FOR ANY MATTER ARISING UNDER OR RELATED TO SECTION 3, 4, 7 AND 11 THIS AGREEMENT (OTHER THAN DUE TO A BREACH RESULTING FROM TRUELINK'S GROSS NEGLIGENCE OR WILLFUL MISCONDUCT) EXCEED THE TOTAL COMPENSATION PAID FOR HOSTING AND SUPPORT SERVICES OVER THE IMMEDIATELY PRECEDING 12 MONTHS PERIOD.",
+                "changed_text": "IN NO EVENT SHALL TRUELINK'S LIABILITY FOR ANY MATTER ARISING UNDER OR RELATED TO SECTION 3, 4, 7 AND 11 THIS AGREEMENT (OTHER THAN DUE TO A BREACH RESULTING FROM TRUELINK'S GROSS NEGLIGENCE OR WILLFUL MISCONDUCT) EXCEED THE TOTAL COMPENSATION PAID FOR HOSTING AND SUPPORT SERVICES OVER THE IMMEDIATELY PRECEDING 12 MONTHS PERIOD.\n\nEXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, TRUELINK DISCLAIMS ANY AND ALL EXPENSES WARRANTIES, WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND IMPLIED WARRANTIES OF MERCHANTABILITY OR FOR ANY MATTER RELATING TO THE ACCURACY OR COMPLETENESS, OR TIMING OF TRANSMISSION OF ANY DATA SUBMITTED THROUGH THE INTERFACE OR TO OR FROM THE WEB SITE.",
+                "explanation": "The reordering of these two paragraphs obfuscates the warranty disclaimer. The original placement clearly sets the disclaimer apart. The change buries the important warranty disclaimer within a clause limiting liability, reducing its prominence and making it less likely to be noticed by the Client, potentially affecting its enforceability under California law which requires clear and conspicuous disclaimers.",
+                "contradicted_law": "California Commercial Code § 2316 (Disclaimer of Warranty)",
+                "location": "Section 12"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "VENUE. Any and all disputes between the parties that cannot be settled by mutual agreement shall be resolved solely and exclusively in the state or federal courts located within San Luis Obispo County, California, and each party consents to the jurisdiction of such courts and irrevocably waives any objections thereto, including without limitation, on the basis of improper venue or forum non conveniens.",
+                "changed_text": "VENUE. Any and all disputes between the parties that cannot be settled by mutual agreement shall be resolved solely and exclusively in the state or federal courts located within San Luis Obispo County, California; however, either party may elect to pursue arbitration as an alternative dispute resolution method, but this decision is not binding and can be revoked at any time before a judgement is rendered.",
+                "explanation": "The addition of the arbitration clause introduces contradiction—the first part states that disputes are resolved in San Luis Obispo County, but the latter part allows for arbitration. This contradicts the original clause's jurisdiction requirement, leading to uncertainty in enforcement.",
+                "contradicted_law": "Federal Arbitration Act",
+                "location": "Section 27"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ATTORNEY FEES AND COSTS. In any action brought under this Agreement, the prevailing party shall be entitled to recover its actual costs and attorney fees pursuant to California Civil Code section 1717 and all other litigation costs, including expert witness fees, and all actual attorney fees and litigation costs incurred in connection with the enforcement of a judgment arising from such action or proceeding. The provisions of the preceding sentence shall be severable from the provisions of this Agreement and shall survive the entry of any such judgment.",
+                "changed_text": "ATTORNEY FEES AND COSTS. In any action brought under this Agreement, the prevailing party shall be entitled to recover its actual costs and attorney fees, if awarded by the judge pursuant to their discretion. The decision of cost bearing will be determined by the judge, if it is deemed equitable to do so.",
+                "explanation": "This change removes the binding part of the contract, allowing the attorney fees and costs to be decided by the judge. This could make it difficult to enforce as it is at the discretion of the judge",
+                "contradicted_law": "California Civil Code section 1717",
+                "location": "Section 28"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OASYSMOBILE,INC_07_05_2001-EX-10.17-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All payments made hereunder are non-cancelable and non-refundable.",
+                "changed_text": "All payments made hereunder are non-cancelable and non-refundable, unless otherwise specified by a court of law.",
+                "explanation": "The addition of 'unless otherwise specified by a court of law' creates a legal contradiction. The original clause states that all payments are non-cancelable and non-refundable. The added phrase introduces an exception, allowing a court to order cancellation or refund, thus directly contradicting the initial statement. This undermines the enforceability of the non-cancelable and non-refundable provision.",
+                "contradicted_law": "General contract law principles regarding enforceability of terms.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "E.piphany will defend or, at its option, settle a claim brought against HSNS that the Application, as used within the scope of this Agreement, infringes a U.S. copyright, patent, trademark or trade secret, and indemnify HSNS against all damages and costs, including reasonable attorneys' fees, that may be assessed in any such claim, provided that: (i) HSNS notifies E.piphany in writing within thirty (30) days of the claim; (ii) E.piphany has sole control of the defense and all related settlement negotiations; and (iii) HSNS provides E.piphany with reasonable assistance, information and authority necessary to perform E.piphany's obligations under this Section. E.piphany will reimburse HSNS's reasonable out-of-pocket expenses incurred in providing such assistance.",
+                "changed_text": "E.piphany will defend or, at its option, settle a claim brought against HSNS that the Application, as used within the scope of this Agreement, infringes a U.S. copyright, patent, trademark or trade secret, and indemnify HSNS against all damages and costs, including reasonable attorneys' fees, that may be assessed in any such claim. However, if HSNS delays notifying E.piphany, E.piphany's liability for damages will be at their own discretion.",
+                "explanation": "By adding the sentence, 'However, if HSNS delays notifying E.piphany, E.piphany's liability for damages will be at their own discretion,' a contradiction is created. Initially, E.piphany agrees to defend and indemnify HSNS against infringement claims. The added sentence introduces uncertainty regarding the extent of E.piphany's liability in case of delayed notification. It enables them to take on a defensive approach.",
+                "contradicted_law": "Contract law principles regarding indemnification obligations.",
+                "location": "Section 10.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement, and all matters arising out of or relating to this Agreement, shall be governed by the laws of the State of California. Any legal action or proceeding relating to this Agreement shall be instituted in a state or federal court in San Francisco or San Mateo County, California, and each party hereby submits to the personal jurisdiction of such courts.",
+                "changed_text": "This Agreement, and all matters arising out of or relating to this Agreement, shall be governed by the laws of the State of California, unless both parties agree to resolve issues in the defendant's state. Any legal action or proceeding relating to this Agreement shall be instituted in a state or federal court in San Francisco or San Mateo County, California, unless the defendant is outside of those respective states.",
+                "explanation": "This change introduces a contradiction in the governing law and jurisdiction clauses. Initially, the agreement states that California law governs and legal actions must be in San Francisco or San Mateo County, California. The modification allows for the agreement to instead resolve in the defendant's state, creating an element of subjectivity.",
+                "contradicted_law": "Contract law principles regarding choice of law and forum selection clauses.",
+                "location": "Section 13"
+            }
+        ]
+    }
+]

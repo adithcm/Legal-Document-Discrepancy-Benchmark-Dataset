@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_DevelopmentAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Users will pay by linking their bank accounts via Evergreen Gateway\n o Account information will be stored and used for future orders\n o Once payment is confirmed users may proceed to completing their order",
+                "changed_text": "Users will pay by linking their bank accounts via Evergreen Gateway\n o Once payment is confirmed users may proceed to completing their order\n o Account information will be stored, but the usage of stored information is subject to further negotiation.",
+                "explanation": "The addition of 'but the usage of stored information is subject to further negotiation' introduces uncertainty regarding the use of stored payment information. While the original text implied a straightforward process, the modified text creates a contradiction where the right to use payment information is no longer guaranteed, potentially violating consumer protection laws that require transparency in data usage.",
+                "contradicted_law": "Potentially violates consumer protection laws requiring transparency in data usage, such as GDPR or CCPA depending on the user's location, though it is not explicitly stated here.",
+                "location": "5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Age / ID Verification\n o After payment is confirmed users must upload their government issued ID and a selfie\n o Trulioo will verify if the issued ID is valid and if the selfie matches the ID\n o Once verification is completed the user will be able to complete the order",
+                "changed_text": "Age / ID Verification\n o After payment is confirmed users must upload their government issued ID and a selfie\n o Trulioo will verify if the issued ID is valid and if the selfie matches the ID\n o Once verification is completed the user will be able to complete the order, but Pelican Delivers has the right to refuse the service",
+                "explanation": "The addition of 'but Pelican Delivers has the right to refuse the service' after stating that 'once verification is completed, the user will be able to complete the order' introduces contradiction. This statement allows Pelican to reject a verified user. Such a statement may go against discrimination laws, or laws that protect consumers from arbitrarily being denied access to services.",
+                "contradicted_law": "This may violate discrimination laws that prohibit refusal of service based on arbitrary criteria. Potentially violates consumer protection laws.",
+                "location": "5"
+            }
+        ]
+    }
+]

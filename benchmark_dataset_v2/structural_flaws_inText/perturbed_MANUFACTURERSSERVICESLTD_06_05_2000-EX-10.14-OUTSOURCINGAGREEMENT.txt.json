@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MANUFACTURERSSERVICESLTD_06_05_2000-EX-10.14-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.13  \"Parts\" shall mean parts, components, subassemblies and other materials       used by MSL to fulfill orders for IBM. Parts shall also include the       following:\n\n            (a)   IBM Parts are those Parts which are purchased by MSL from                   IBM,.\n\n            (b)   IBM Designated Parts are those Parts purchased by MSL from IBM                   nominated suppliers,\n\n            (c)   IBM Consigned Parts are those Parts owned by IBM or IBM                   customers which are consigned to MSL, and\n\n            (d)   MSL Procured Parts are those Parts which are directly procured                   by MSL and are other than IBM Parts or IBM Designated Parts.",
+                "changed_text": "1.13  \"Parts\" shall mean parts, components, subassemblies and other materials       used by MSL to fulfill orders for IBM. Parts shall also include the       following:\n\n            (a)   IBM Parts are those Parts which *may be* purchased by MSL from                   IBM, at MSL's discretion.\n\n            (b)   IBM Designated Parts *could be* those Parts purchased by MSL from IBM                   nominated suppliers, however MSL can source them elsewhere if cheaper.\n\n            (c)   IBM Consigned Parts are those Parts owned by IBM or IBM                   customers which are consigned to MSL, and\n\n            (d)   MSL Procured Parts are those Parts which are directly procured                   by MSL and are other than IBM Parts or IBM Designated Parts.",
+                "explanation": "The original text defines 'Parts' in a way that clearly delineates the different types. The modified version introduces uncertainty by using phrases like 'may be' and 'could be,' contradicting the clear definition established initially. It makes the obligations surrounding sourcing parts ambiguous.",
+                "location": "SECTION 1.0 DEFINITIONS"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "SECTION 4.0 TERM\n\n      This Agreement shall become effective on the Effective Date and shall       continue for a period of three (3) years unless terminated as provided in       Section 5.0. This Agreement will automatically be renewed for periods of       twelve (12) months unless either Party gives six (6) months written       notice of its intent to terminate this Agreement. Such renewals shall       continue for successive periods under the same terms and conditions,       unless otherwise agreed in writing by both Parties.",
+                "changed_text": "SECTION 4.0 TERM\n\n      This Agreement shall become effective on the Effective Date and shall       continue for a period of three (3) years unless terminated as provided in       Section 5.0. This Agreement *may, at either party's sole discretion*, be renewed for periods of       twelve (12) months even if there is no written       notice of its intent to terminate this Agreement. Such renewals shall       continue for successive periods under different terms and conditions,       unless otherwise agreed in writing by both Parties.",
+                "explanation": "The original text defines the agreement term and states how it renews. The modified text contradicts this by suggesting renewal is optional and automatic even *without* a renewal notice, while stating that the terms may change upon renewal, creating uncertainty and contradicting the original continuity clause.",
+                "location": "SECTION 4.0 TERM"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "      a)    MSL will invoice IBM [*] for all completed Products, after shipping             transactions have been processed by MSL. MSL will invoice IBM [*]             for all Integration work after shipping transactions have been             processed by MSL. For all other Services, MSL will invoice IBM [*].             IBM will pay MSL within [*] Days after receipt of an acceptable             invoice.",
+                "changed_text": "      a)    MSL will invoice IBM [*] for all completed Products, after shipping             transactions have been processed by MSL. MSL will invoice IBM [*]             for all Integration work after shipping transactions have been             processed by MSL. For all other Services, MSL will invoice IBM [*].             IBM *will attempt* to pay MSL within [*] Days after receipt of an acceptable             invoice, *contingent upon IBM's financial status*. IBM reserves the right to delay payments.",
+                "explanation": "This perturbation introduces uncertainty about payment deadlines. The original text stated a clear payment timeline. The modified version adds qualifiers like 'will attempt' and 'contingent upon IBM's financial status,' creating ambiguity and contradiction by allowing IBM to delay payments, directly impacting MSL's cash flow.",
+                "location": "SECTION 6.0 PAYMENT"
+            }
+        ]
+    }
+]

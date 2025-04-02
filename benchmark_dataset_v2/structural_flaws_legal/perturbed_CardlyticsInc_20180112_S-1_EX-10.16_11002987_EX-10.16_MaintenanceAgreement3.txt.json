@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America,\n\nWHEREAS, the parties desire to add to the SLCMA the Supplier Offer Placement System Software;",
+                "changed_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier *may* provide certain Software to Bank of America, based on future negotiations.\n\nWHEREAS, the parties *might* desire to add to the SLCMA the Supplier Offer Placement System Software, pending further due diligence;",
+                "explanation": "By changing 'provides' to 'may provide' and 'desire' to 'might desire,' the originally definite agreement to provide software is made conditional and uncertain. This undermines the purpose and enforceability of the entire agreement because the core offering becomes ambiguously optional.",
+                "contradicted_law": "Breach of Contract - Undermines the core terms of the agreement, making it difficult to prove a breach since the obligations are no longer clearly defined.",
+                "location": "Preamble - 'WHEREAS' clauses"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "NOW THEREFORE, in consideration of the promises and accords made herein, and the exchange of such good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, Bank of America and Supplier agree as follows:\n\nThe attached Schedule [A] is hereby incorporated into the SLCMA describing the Offer Placement System Software for use by Bank of America.",
+                "changed_text": "NOW THEREFORE, in consideration of some potential promises and possible accords outlined vaguely herein, and the hypothetical exchange of alleged good and questionable consideration, the receipt of which may or may not be acknowledged, Bank of America and Supplier *could* agree as follows, but they also might not:\n\nThe attached Schedule [A] *might* be incorporated into the SLCMA generally alluding to an Offer Placement System Software for potential use by a division of Bank of America, unless otherwise determined by Bank of America.",
+                "explanation": "Introducing uncertainty into the agreement by changing 'promises and accords' to 'potential promises and possible accords', weakening the binding nature of the agreement and creating ambiguity about the consideration. Changing 'is hereby incorporated' to 'might be incorporated' and adding 'unless otherwise determined by Bank of America' provides Bank of America a loophole to reject the terms of the contract in the future.",
+                "contradicted_law": "Breach of Contract - Introduces so many caveats and possibilities that the entire clause becomes toothless and unenforceable because the agreement is effectively optional.",
+                "location": "Agreement section following 'WHEREAS' clauses"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THE FOREGOING IS UNDERSTOOD AND AGREED TO BY:   Cardlytics, Inc. (\"Supplier\")   Bank of America, N.A. (\"Bank of America\")",
+                "changed_text": "THE FOREGOING *MAY* BE UNDERSTOOD AND *POSSIBLY* AGREED TO BY:   Cardlytics, Inc. (\"Supplier\")   Bank of America, N.A. (\"Bank of America\")",
+                "explanation": "By adding 'MAY' and 'POSSIBLY,' the enforceability of the signature and the entire contract are questionable. It introduces doubt as to whether both parties actually agree to the previously stated terms and conditions, effectively negating the purpose of the signatures.",
+                "contradicted_law": "Contract Law - Undermines the principle of mutual assent, which is a fundamental requirement for a valid and enforceable contract.",
+                "location": "Signature Block"
+            }
+        ]
+    }
+]

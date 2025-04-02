@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "TRIZETTOGROUPINC_08_18_1999-EX-10.17-TECHNICALINFRASTRUCTUREMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MMMW will provide on-call service for the Technical Infrastructure during the term of this Agreement from 7:00am to 5:00pm CST, with a guaranteed response time of 3 hours with a goal of on site within 2 hours. Support to include 7X24 hour pager support for emergency services. After the customer has 30 locations, MMMW will locate technical personnel in the current geography. If a system is not able to be on-line after hours, on-site help will be made available.",
+                "changed_text": "MMMW will provide on-call service for the Technical Infrastructure during the term of this Agreement from 9:00am to 3:00pm CST, with a guaranteed response time of 5 hours with a goal of on site within 4 hours. Support to include pager support for emergency services, if available. After the customer has 50 locations, MMMW will consider locating technical personnel in the current geography. If a system is not able to be on-line after hours, on-site help may be made available, subject to resource availability.",
+                "explanation": "The original text states specific hours for on-call service (7:00am to 5:00pm CST) and a guaranteed response time (3 hours). It also guarantees 7X24 pager support. The modified version changes the hours (9:00am to 3:00pm CST), increases the guaranteed response time (5 hours), states that pager support is 'if available', increases the number of locations that must be met for on-site personnel, and states that on-site help 'may be made available'. This introduces ambiguity and contradicts the original guaranteed service levels, creating uncertainty in enforcement.",
+                "location": "3(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Charges will be invoiced and are payable within thirty (30) days after the date of the invoice. All charges are subject to change by MMMW for the forthcoming period capped at the CPI annually, on thirty days written notice. MMMW reserves the right to apply [*] finance charges.",
+                "changed_text": "Charges will be invoiced and are payable within sixty (60) days after the date of the invoice, unless otherwise specified by MMMW. All charges are subject to change by MMMW at any time, without notice. MMMW reserves the right to apply finance charges at their discretion.",
+                "explanation": "The original text specifies a 30-day payment period and that charge increases are capped at the CPI annually, with 30 days written notice. The modified version changes the payment period to 60 days but adds 'unless otherwise specified by MMMW', allowing them to shorten the payment period at will. It also removes the CPI cap and the 30-day notice requirement for charge increases, stating MMMW can change charges 'at any time, without notice.' The addition of 'at their discretion' adds a level of uncertainty that was not there before.",
+                "location": "5(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "EXCEPT AS EXPRESSLY STATED IN THIS AGREEMENT, THERE ARE NO WARRANTIES, EXPRESS OR\n\n4                   IMPLIED, BY OPERATI0N OF LAW OR OTHERWISE. MMMW DISCLAIMS ANY                   IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR PARTICULAR                   PURPOSE.",
+                "changed_text": "EXCEPT AS EXPRESSLY STATED IN THIS AGREEMENT, THERE MAY BE ADDITIONAL WARRANTIES, EXPRESS OR\n\n4                   IMPLIED, BY OPERATI0N OF LAW OR OTHERWISE. MMMW MAY CONSIDER ANY                   IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR PARTICULAR                   PURPOSE.",
+                "explanation": "The original text clearly states that there are no other warranties outside the ones explicitly stated, and it specifically disclaims any implied warranties. The modified version states that there 'may be' additional warranties, opening a potential for implied warranties where none existed before. By changing 'DISCLAIMS' to 'MAY CONSIDER', MMMW isn't explicitly disclaiming warranty of merchantability or fitness for a particular purpose.",
+                "location": "8(b)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GSITECHNOLOGYINC_11_16_2009-EX-10.2-INTELLECTUALPROPERTYAGREEMENTbetweenSONYELECTRONICSINC.andGSITECHNOLOGY,INC..txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9.9 Applicable Law     This IP Agreement and the legal relations among the Parties will be governed by and construed in accordance with the rules and  substantive Laws of the State of California, United States of America, without regard to conflicts of law provisions.",
+                "changed_text": "5.5 JTAG / Mask Works     Notwithstanding the provisions of Section 5.1, PURCHASER shall have the right to use any and all Mask Works transferred to  PURCHASER under the Asset Purchase Agreement, even if the use of such Mask Works results in a JTAG or other marking that would otherwise  indicate a connection to SONY, provided that:     (i) the use of such Masks is only for the manufacture by or for PURCHASER of SRAM Products that are qualified with  customers as of the Effective Date and updates or revisions of such SRAM Products that would not require requalification; and     (ii) PURCHASER allows SONY to audit PURCHASER's manufacture and testing of SRAM Products for purposes of  determining the quality of those SRAM Products that bear a marking which indicates a connection to SONY from time to time upon reasonable  request, subject to SONY's execution of a standard PURCHASER confidentiality agreement; and     (iii) no alterations are made to any such Mask in any way.\n\n9.9 Applicable Law     This IP Agreement and the legal relations among the Parties will be governed by and construed in accordance with the rules and substantive Laws of another jurisdiction, by mutual consent.",
+                "explanation": "The original clause explicitly states California law governs the agreement. Moving it to section 5.5 (JTAG / Mask Works) is illogical. By moving the governing law clause to the JTAG section and also adding 'the rules and substantive Laws of another jurisdiction, by mutual consent' will confuse what the valid rules for resolution are.",
+                "contradicted_law": "Contract Law and Choice of Law Principles",
+                "location": "Section 5.5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9.14 Attorneys' Fees     If any action at law or in equity is necessary to enforce or interpret the terms of this IP Agreement, the Person prevailing shall be entitled to recover in such action its reasonable attorneys' fees, costs and necessary disbursements in addition to any other relief to which it may  be entitled.",
+                "changed_text": "9.14 Attorneys' Fees     If any action at law or in equity is necessary to enforce or interpret the terms of this IP Agreement, each person prevailing shall be entitled to pay for their own attorneys' fees, costs and necessary disbursements in addition to any other relief to which it may  be entitled.",
+                "explanation": "The original clause mandates the losing party to pay all attorneys' fees, costs and necessary disbursements in addition to any other relief to which it may be entitled. The clause was changed to 'each person' pays for their own, which is a direct contradiction to the original contract.",
+                "contradicted_law": "Contract Law - Attorneys' Fees Clause",
+                "location": "Section 9.14"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9.3 Successors and Assigns     This IP Agreement will be binding upon and inure to the benefit of the Parties hereto and their respective successors and permitted assigns, but will not be assignable or delegable by any Party without the prior written consent of the other Party. Notwithstanding the foregoing, a Party may transfer or assign its rights under this IP Agreement in connection with a merger, acquisition or sale of all or substantially all of its assets, on condition that it provides the",
+                "changed_text": "9.3 Successors and Assigns     This IP Agreement will be binding upon and inure to the benefit of the Parties hereto and their respective successors and permitted assigns, but will not be assignable or delegable by any Party without the prior written consent of the other Party.  However, if both parties do not give consent, then nothing will be transfered and both parties will be free from their contractual obligations, and it provides the",
+                "explanation": "The original clause mandates 'the parties must consent prior to any transference', then the clause was changed to 'However, if both parties do not give consent, then nothing will be transfered and both parties will be free from their contractual obligations'. The additional sentence adds a condition if there is no transference.",
+                "contradicted_law": "Contract Law - Successors and Assigns Clause",
+                "location": "Section 9.3"
+            }
+        ]
+    }
+]

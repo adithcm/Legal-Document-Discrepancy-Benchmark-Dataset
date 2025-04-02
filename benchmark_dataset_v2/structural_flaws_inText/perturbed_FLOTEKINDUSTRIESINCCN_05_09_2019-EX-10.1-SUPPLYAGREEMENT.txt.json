@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "\"Minimum Quantity\" means [***] pounds of Terpene Product per Year, prorated for any partial Year included in the Term.\n\n\"Product Price\" means with respect to a pound of Terpene Product the Terpene Cost of that Terpene Product, plus the Margin.",
+                "changed_text": "\"Minimum Quantity\" means [***] pounds of Terpene Product per Year, prorated for any partial Year included in the Term. However, the actual minimum quantity may be adjusted at FCC's sole discretion based on market conditions.\n\n\"Product Price\" means with respect to a pound of Terpene Product the Terpene Cost of that Terpene Product, plus the Margin, unless otherwise agreed upon by both parties in writing.",
+                "explanation": "The original definition of 'Minimum Quantity' is a fixed amount. The change introduces ambiguity by allowing FCC to adjust it based on market conditions, contradicting the fixed definition and creating uncertainty. Similarly, the Product Price is initially explicitly defined, but the edited text allows for price changes based on mutual agreement, this contradicts the fixed definition and introduces uncertainty.",
+                "location": "1. Definitions"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(c) FCC shall invoice Flotek for Terpene Product at the time of shipment. Payment of FCC invoices shall be due within sixty (60) days of the respective invoice date.",
+                "changed_text": "(c) FCC shall invoice Flotek for Terpene Product at the time of shipment. Payment of FCC invoices shall be due within sixty (60) days of the respective invoice date; however, FCC may, at its discretion, require payment within thirty (30) days for any invoice.",
+                "explanation": "The original clause states a clear payment term of 60 days. The modified clause adds that FCC can require payment in 30 days, creating a contradiction. This makes the payment deadline uncertain as it's unclear which timeframe applies under which circumstances.",
+                "location": "6. Orders; Delivery."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "FCC warrants to Flotek that:\n\n(a) all of the Terpene Product supplied by FCC to Flotek shall:\n\n(i) conform to the specifications set forth in Section 1;\n\n(ii) comply with all relevant laws and regulations including, without limitation, laws and regulations of each of the jurisdictions in which the Terpene Product are either manufactured or to be sold or used concerning purity, sanitation, safety, security, and packaging and labeling of food and beverage;\n\n(iii) be in good condition at the time of delivery in all respects; and\n\n(iv) be free from any defect in design, workmanship, materials and packaging; and",
+                "changed_text": "FCC warrants to Flotek that:\n\n(a) all of the Terpene Product supplied by FCC to Flotek shall:\n\n(i) conform to the specifications set forth in Section 1;\n\n(ii) comply with all relevant laws and regulations including, without limitation, laws and regulations of each of the jurisdictions in which the Terpene Product are either manufactured or to be sold or used concerning purity, sanitation, safety, security, and packaging and labeling of food and beverage, to the best of FCC's knowledge;\n\n(iii) be in good condition at the time of delivery in all respects; and\n\n(iv) be free from any defect in design, workmanship, materials and packaging, provided that FCC's liability for any such defects is limited to replacement of the defective product.",
+                "explanation": "The original warranty is absolute. The additions weaken the warranty. By adding 'to the best of FCC's knowledge' to the compliance with laws and regulations, it creates an out if FCC was unaware of non-compliance. By limiting liability for defects to replacement only, it undermines the 'free from any defect' claim.",
+                "location": "19. Warranties."
+            }
+        ]
+    }
+]

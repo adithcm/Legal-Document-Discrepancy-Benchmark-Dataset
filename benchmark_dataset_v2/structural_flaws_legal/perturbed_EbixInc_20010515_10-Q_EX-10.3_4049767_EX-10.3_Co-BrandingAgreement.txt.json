@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement will be governed by the laws of the state where a suit is properly filed under the terms of this paragraph, being either Illinois or New York, and without giving effect to conflict of law principles. Litigation initiated by ebix shall be filed in New York, whereas litigation initiated by About shall be filed in Illinois. Both parties submit to personal jurisdiction of Illinois or New York, to effectuate the terms of this paragraph, and further agree that any cause of action arising under this Agreement shall be brought in state or federal courts of the States of New York or Illinois, counties of New York or Cook, respectively.",
+                "changed_text": "This Agreement will be governed by the laws of a state agreed upon by both parties during litigation, and without giving effect to conflict of law principles. Litigation initiated by ebix shall be filed in a state agreed by both parties. Both parties submit to personal jurisdiction of a state to effectuate the terms of this paragraph, and further agree that any cause of action arising under this Agreement shall be brought in state or federal courts of a state agreed upon by both parties.",
+                "explanation": "The original text specifies Illinois or New York law. The modified text removes this specification, making the governing law and jurisdiction ambiguous and subject to future agreement. This introduces uncertainty and could hinder enforcement as it creates a hurdle to determining applicable laws and jurisdictions.",
+                "contradicted_law": "Contract Law - Choice of Law and Forum Selection Clauses",
+                "location": "15.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "NEITHER PARTY SHALL HAVE ANY LIABILITY FOR ANY INDIRECT, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES INCLUDING, WITHOUT THE LIMITATION, LOSS OF PROFIT OR BUSINESS OPPORTUNITIES, WHETHER OR NOT THE PARTY WAS ADVISED OF THE POSSIBILTY OF SUCH. EXCEPT AS EXPRESSLY SET FORTH HEREIN, NEITHER PARTY MAKES ANY, AND EACH PARTY HEREBY SPECIFICALLY DISCLAIMS ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE TOOLS AND SERVICES CONTEMPLATED BY THIS AGREEMENT, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTIBILITY OR FITNESS FOR A PARTICULAR PURPOSE AND IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE.",
+                "changed_text": "NEITHER PARTY SHALL HAVE ANY LIABILITY FOR ANY INDIRECT, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES. EXCEPT AS EXPRESSLY SET FORTH HEREIN, NEITHER PARTY MAKES ANY, AND EACH PARTY HEREBY SPECIFICALLY DISCLAIMS ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE TOOLS AND SERVICES CONTEMPLATED BY THIS AGREEMENT.",
+                "explanation": "By removing the phrases 'INCLUDING, WITHOUT THE LIMITATION, LOSS OF PROFIT OR BUSINESS OPPORTUNITIES' and 'INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE AND IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE' from section 14.1, the range of limitations of liability is reduced, the scope of damages and disclaimers is limited, potentially increasing liability. However, the limited disclaimers could also create loopholes for claiming breach of warranty.",
+                "contradicted_law": "Contract Law - Limitation of Liability Clauses",
+                "location": "14.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "About will defend, indemnify and hold ebix, its officers, directors, agents, employees and consultants (collectively the \"eBix Indemnified Parties\") harmless from and against any third party claims against ebix for all liabilities, claims, actions, damages, losses, settlements, and costs, and expenses (including, without limitation reasonable attorneys' fees) relating to or arising out of About's breach of its warranties, representations, responsibilities or covenants hereunder.",
+                "changed_text": "About will defend, indemnify and hold ebix, its officers, directors, agents, employees and consultants (collectively the \"eBix Indemnified Parties\") harmless from and against any third party claims against ebix for all liabilities, claims, actions, damages, losses, settlements, and costs, and expenses (including reasonable attorneys' fees up to $100) relating to About's breach of its warranties, representations, responsibilities or covenants hereunder.",
+                "explanation": "By imposing a monetary limit on the coverage of attorney fees (up to $100), the obligation shifts. It introduces an ambiguity regarding the scope of indemnity for defense costs, potentially leading to future disputes over liability for legal fees. This contradicts the original intention of comprehensive protection against third-party claims, as the limited coverage may not suffice in substantial legal challenges.",
+                "contradicted_law": "Contract Law - Indemnification Clauses",
+                "location": "11.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Agreement will be governed by and construed in accordance with the laws of the State of California, notwithstanding the actual state or country of residence or incorporation of Application Provider.",
+                "changed_text": "The Agreement will be governed by and construed in accordance with the laws of the State of Delaware, regardless of jurisdiction.",
+                "explanation": "Changing the governing law to Delaware, without specific reason, could create confusion given that Excite@Home is in California, and the agreement heavily involves activities within California. This makes the legal framework less clear, creating a contradiction and impeding enforcement of contractual obligations.",
+                "contradicted_law": "Contract law principles related to choice of law and 'significant relationship' to the transaction.",
+                "location": "22. a)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In the event of disputes between the parties arising from or concerning in any manner the subject matter of this Agreement, other than disputes arising from or concerning trademarks, service marks or trade names and/or confidentiality, cannot be resolved through good faith negotiation and mediation, the parties will refer the dispute(s) to the American Arbitration Association for resolution through binding arbitration by a single arbitrator pursuant to the American Arbitration Association's rules applicable to commercial disputes. The arbitration will be held in the county in which Excite@Home has its principal place of business.",
+                "changed_text": "In the event of disputes between the parties arising from or concerning in any manner the subject matter of this Agreement, the parties can engage in a series of non-binding negotiations.",
+                "explanation": "The original clause mandates binding arbitration through the AAA. The modification removes this requirement, replacing it with optional, non-binding negotiations. This creates a legal contradiction by transforming a required arbitration process into an optional one. Removing the arbitration clause and just specifying non-binding negotiations introduces ambiguity and makes dispute resolution uncertain.",
+                "contradicted_law": "Federal Arbitration Act and general contract law principles regarding dispute resolution clauses.",
+                "location": "21. c)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Each Party will promptly return all Confidential Information of the other party.",
+                "changed_text": "Each Party may, at their discretion, return some Confidential Information of the other party.",
+                "explanation": "Changing 'will promptly return all' to 'may, at their discretion, return some' fundamentally alters the obligation to protect confidential information upon termination. The modification introduces a contradictory element by making the return of confidential information optional and incomplete, potentially allowing a party to retain and misuse such information, violating typical confidentiality agreement standards and damaging the other party.",
+                "contradicted_law": "Contract law principles relating to confidentiality and trade secrets.",
+                "location": "16. b) i)"
+            }
+        ]
+    }
+]

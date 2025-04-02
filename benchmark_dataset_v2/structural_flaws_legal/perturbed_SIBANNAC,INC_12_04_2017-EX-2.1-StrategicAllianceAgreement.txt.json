@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SIBANNAC,INC_12_04_2017-EX-2.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9) Governing Law\n\nThis Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Texas.",
+                "changed_text": "11) Modifications\n\nThis Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Delaware.",
+                "explanation": "Relocated the governing law clause and changed the state. Governing Law provisions are crucial for determining which jurisdiction's laws will apply in case of a dispute. Moving it to the 'Modifications' section implies it can be altered easily, diminishing its importance and clarity. Changing the state to Delaware introduces conflict with the initial statement of the agreement being entered in Texas.",
+                "contradicted_law": "Contract Law, choice of law principles",
+                "location": "Section 11"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10) Indemnification\n\nCOMPANY shall indemnify Bravatek, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of COMPANY or breach of COMPANY of any of its obligations under this Agreement.\n\nBravatek shall indemnify COMPANY, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including reasonable attorney's fees and court costs, incurred in connection with any third-party claim, action or proceeding arising from the negligence or intentional misconduct of Bravatek or breach of Bravatek of any of its obligations under this Agreement.",
+                "changed_text": "3) Obligations of the Parties\n\nCOMPANY shall indemnify Bravatek, its directors, officers and employees, only for legal claims arising from gross negligence on the part of COMPANY. The indemnification liability is capped at $10,000. \n\nBravatek will not indemnify COMPANY under any circumstances.",
+                "explanation": "Moving the indemnification clause to 'Obligations of the Parties' section dilutes its significance as a standalone risk allocation mechanism. The change in language introduces a cap on liability and eliminates indemnification from Bravatek to the Company, making enforcement extremely difficult due to the nature of the agreement. The new conditions significantly alter the liability of each party, which would reasonably be expected under an indemnification section.",
+                "contradicted_law": "Contract Law, Indemnification principles",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "4) Compensation\n\nWhen custom Products are designed, developed and to be delivered to Bravatek-identified perspective clients, the parties shall agree to a proposed sales price for use during the project in writing prior to the commencement of each project.\n\nFor any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 30 days after each client payment on delivered products received at COMPANY's bank account.",
+                "changed_text": "8) Notices\n\nWhen custom Products are designed, developed and delivered to Bravatek-identified prospective clients, the parties may discuss a potential sales price, but COMPANY has no obligation to pay any fees. \n\nFor any product or solution sold to perspective clients, it is at the sole discretion of company whether bravatek receives any kind of payment for their time and efforts. There will be no guarantees.",
+                "explanation": "The original 'Compensation' clause clearly outlines the process for determining sales prices and the lead-finder fee for Bravatek. By moving it to the 'Notices' section and changing the terms, the modified text creates ambiguity and significantly weakens Bravatek's right to compensation. The 'Notices' section is meant for delivery of official communication, not for defining payment terms. Replacing definitive terms like 'shall agree' and 'will receive' with discretionary language like 'may discuss' and 'it is at the sole discretion of company' removes any obligation on the Company to compensate Bravatek, making the original compensation agreement unenforceable.",
+                "contradicted_law": "Contract Law, Compensation principles",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

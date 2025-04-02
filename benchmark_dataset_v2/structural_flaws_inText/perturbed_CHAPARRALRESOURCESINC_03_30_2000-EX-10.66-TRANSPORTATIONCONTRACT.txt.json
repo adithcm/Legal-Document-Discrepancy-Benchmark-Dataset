@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CHAPARRALRESOURCESINC_03_30_2000-EX-10.66-TRANSPORTATIONCONTRACT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "9.1  In accordance with items 9.3, 9.4, and 10.3, this Contract shall come into\nforce on the Effective Date, remain effective throughout the Initial Term,\nand be prolonged, or further extended automatically for a period of 12\n\n     months, each such extension commencing at the end of the last day of the\nInitial Term or the relevant anniversary thereof, unless either Party\nserves written notice of termination on the other Party at least 65 days\nprior to the end of the Initial Term, or any subsequent extension.",
+                "changed_text": "9.1  In accordance with items 9.3, 9.4, and 10.3, this Contract shall come into\nforce on the Effective Date, remain effective throughout the Initial Term,\nand may be prolonged or further extended for a period determined at the discretion of the Company, each such extension commencing at the end of the last day of the Initial Term or the relevant anniversary thereof, unless either Party serves written notice of termination on the other Party at least 30 days prior to the end of the Initial Term, or any subsequent extension. In the event of a disagreement regarding the extension, the Company's decision will be final.",
+                "explanation": "The original text states the contract is automatically extended unless either party provides notice. The modified text introduces ambiguity by stating the extension period is at 'the discretion of the Company' and that 'the Company's decision will be final,' which contradicts the initial automatic extension clause, causing uncertainty about the renewal terms. Also, the notice period has been reduced to 30 days, which can be confusing.",
+                "location": "Section 9.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1  The Principal shall pay the Company a fee of $1.00 (one dollar), inclusive\nof VAT, per one net tonne of Commodity shipped pursuant to this Contract.\n\n5.2  The Principal shall pay the commission fee for each delivered batch of\nCommodity to the Company's account within 30 (thirty) banking days after\nthe Delivery Date.",
+                "changed_text": "5.1  The Principal shall pay the Company a fee to be determined by the Company, inclusive\nof VAT, per one net tonne of Commodity shipped pursuant to this Contract.\n\n5.2  The Principal shall pay the commission fee for each delivered batch of Commodity to the Company's account within a timeframe to be decided by the Company after the Delivery Date.",
+                "explanation": "The original text specifies a fixed fee of $1.00. The modified text introduces uncertainty by stating that the fee will be 'determined by the Company,' removing the fixed amount and giving the Company unilateral control over the pricing. The original text has a fixed time frame for when payments should be made. The modified text changes this by giving the company the power to decide the time frame after the delivery date, taking away from the Principal.",
+                "location": "Section 5.1, 5.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "12.1 Neither Party shall be entitled to assign any of its rights or duties\nhereunder to any third parties without a written consent of the other Party\nthereto.",
+                "changed_text": "12.1 Neither Party shall be entitled to assign any of its rights or duties hereunder to any third parties without a written consent of the other Party thereto. Notwithstanding the foregoing, the Company reserves the right to assign its rights and duties under this Contract to any of its affiliates without the Principal's consent. The Principal's consent is required for any other assignment.",
+                "explanation": "The original text requires mutual written consent for assigning rights or duties. The modified text adds an exception, allowing the Company to assign to its affiliates without the Principal's consent, thus contradicting the initial requirement of mutual consent. It creates an imbalance in power and uncertainty for the Principal regarding who they are contracting with.",
+                "location": "Section 12.1"
+            }
+        ]
+    }
+]

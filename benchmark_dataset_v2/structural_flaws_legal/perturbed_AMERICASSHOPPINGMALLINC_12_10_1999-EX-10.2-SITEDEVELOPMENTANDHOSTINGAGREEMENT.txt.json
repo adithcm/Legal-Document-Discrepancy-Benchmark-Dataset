@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITEDEVELOPMENTANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.5 Governing Law. This Agreement shall be governed and construed and enforced in accordance with the laws of the State of New York applicable to contracts made and to be performed exclusively in that State without giving effect to the principles of conflict of laws.",
+                "changed_text": "5.5 Arbitration. In the event of any dispute arising out of or relating to this agreement, the parties agree to submit the dispute to binding arbitration in accordance with the rules of the American Arbitration Association. The arbitration shall take place in Carson City, Nevada.",
+                "explanation": "Moving a critical clause regarding dispute resolution (arbitration) from the 'General Provisions' section to the 'Site; Site Management' section, where it is less likely to be noticed, affects its enforceability. Since the contract states governing law is New York, it is expected legal disputes will be resolved in New York under New York law, however the change imposes mandatory arbitration in Nevada. This change impacts clarity and enforceability.",
+                "contradicted_law": "Contract Law, governing law and dispute resolution clauses",
+                "location": "Section 10.5 to Section 5.5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.3 Assignment. This Agreement shall be binding upon, and shall inure to the benefit of and be enforceable by, the parties hereto and their respective legal representatives, successors and assigns, but no other person shall acquire or have any rights under this Agreement.",
+                "changed_text": "7.3 Non-binding agreement. This agreement is not binding to either party, and may be terminated at any time by either party for any reason. The parties agree that this is only a preliminary agreement subject to further documentation.",
+                "explanation": "Introducing a contradiction by undermining the enforceability clause (10.3 Assignment) by introducing clause 7.3 Non-binding agreement. This undermines the entire contract, as it renders the contract potentially unenforceable.",
+                "contradicted_law": "Contract Law, enforceability clause",
+                "location": "Section 10.3 to Section 7.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.7 Entire Agreement. This Agreement is the complete and exclusive agreement between the Parties with respect to the subject matter hereof, superseding any prior agreements and communications (both written and oral) regarding such subject matter. This Agreement may only be modified, or any rights under it waived, by a written document executed by both Parties.",
+                "changed_text": "2.3 Unilateral Modification. The company can modify this agreement unilaterally without any notice to the other party and such modification is binding upon HDI. HDI cannot modify this agreement without explicit approval from the company.",
+                "explanation": "The entire agreement section is important for enforceability and clarity. Changing the entire agreement section to allow unilateral modification introduces contradiction and reduces the enforceability of the contract. It also favors one party (the company) over the other (HDI), potentially voiding the contract.",
+                "contradicted_law": "Contract Law, entire agreement clauses, fair practice",
+                "location": "Section 10.7 to Section 2.3"
+            }
+        ]
+    }
+]

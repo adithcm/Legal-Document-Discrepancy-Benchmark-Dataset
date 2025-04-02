@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.  INCORPORATION BY REFERENCE\nArticles or Sections 8.2 (Limitation of Liability), 9 (Indemnification), 12.2 (Force Majeure), 12.3 (Assignment), 12.4 (Severability), 12.6 (Remedies), 12.8 (Submission to Jurisdiction/Waiver of Jury Trial), 12.9 (Independent Contractor/No Agency), 12.10 (Entire Agreement) of the License Agreement shall be deemed to be incorporated herein by reference as it is set forth in this Agreement",
+                "changed_text": "8. INCORPORATION BY REFERENCE\nArticles or Sections 8.2 (Limitation of Liability), 9 (Indemnification), 12.2 (Force Majeure), 12.3 (Assignment), 12.4 (Severability), 12.6 (Remedies), 12.9 (Independent Contractor/No Agency), 12.10 (Entire Agreement) of the License Agreement shall be deemed to be incorporated herein by reference as it is set forth in this Agreement. Section 12.8 (Submission to Jurisdiction/Waiver of Jury Trial) of the License Agreement shall be included only upon mutual written agreement by both parties at a later date.",
+                "explanation": "The original clause clearly incorporates the 'Submission to Jurisdiction/Waiver of Jury Trial' section. The modified clause adds a condition that this section's inclusion requires future mutual agreement. This introduces uncertainty and contradiction; the first part of the sentence states incorporation by reference, while the added clause introduces a contingency for a specific section, potentially invalidating the initial incorporation.",
+                "contradicted_law": "Unclear jurisdiction, but generally affects enforceability of jurisdiction and jury trial waiver clauses under US law.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6. GOVERNING LAW\nThe laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement.",
+                "changed_text": "6. GOVERNING LAW\nThe laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement. However, any disputes relating to intellectual property rights will be governed by the laws of the Republic of Korea.",
+                "explanation": "This change introduces a contradiction by specifying that New York law governs all matters *except* intellectual property disputes, which are governed by Korean law. This creates ambiguity and potential conflict if a dispute involves both contractual and intellectual property elements. It weakens the initial clear statement of governing law.",
+                "contradicted_law": "Potentially weakens the enforceability of the governing law clause under general principles of contract law and could lead to jurisdictional disputes.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "4.3 Upon agreement by the Parties of the Firm Order, Dong-A shall issue to NeuroBo an invoice in Korean Won for each shipment of the Licensed Products and/or their matching placebo based on the Firm Order. Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than [***] days prior to the shipment date by way of wire transfer\nto Dong-A. NeuroBo shall be responsible for and pay all wire transfer fees incurred in the Territory. If Dong-A does not receive payment of any sum due to it on or before the due date, [***] interest shall thereafter accrue on the sum due to until the date of payment at the [***] rate of [***] percent ([***]%) over the then-current prime rate quoted by Citibank in New York, New York or the maximum rate allowable by New York law, whichever is lower.",
+                "changed_text": "4.3 Upon agreement by the Parties of the Firm Order, Dong-A shall issue to NeuroBo an invoice in Korean Won for each shipment of the Licensed Products and/or their matching placebo based on the Firm Order. Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than [***] days prior to the shipment date by way of wire transfer\nto Dong-A. NeuroBo shall be responsible for and pay all wire transfer fees incurred in the Territory. If Dong-A does not receive payment of any sum due to it on or before the due date, interest may or may not accrue on the sum due to until the date of payment, based on Dong-A's discretion.",
+                "explanation": "The original clause specifies a clear interest rate for late payments. The modified clause removes the fixed interest rate and replaces it with a statement that interest accrual is at Dong-A's discretion. This contradicts the initial intent of a fixed penalty for late payment and creates uncertainty regarding the financial consequences of delayed payments, making enforcement difficult.",
+                "contradicted_law": "Could be challenged as unconscionable or lacking definite terms under contract law principles, especially if it allows for arbitrary interest charges.",
+                "location": "Section 4.3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+                "changed_text": "MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials. This license may be terminated by MS with a 30-day written notice if MSCI undergoes a change of control.",
+                "explanation": "Section 2.1 initially grants a 'perpetual, irrevocable' license. The added clause introduces a termination condition (change of control), directly contradicting the 'perpetual, irrevocable' nature of the license. This creates uncertainty about the longevity and security of the granted rights, especially for MSCI, as it is now subject to potential termination.",
+                "location": "2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MSCI hereby grants (subject to any existing third party contractual obligations) to MS a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MS to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MSCI Licensed Materials.",
+                "changed_text": "MSCI hereby grants (subject to any existing third party contractual obligations) to MS a non-exclusive license for MS to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MSCI Licensed Materials. However, MSCI reserves the right to revoke this license if it determines, in its sole discretion, that MS is using the licensed materials in a way that is detrimental to MSCI's business interests.",
+                "explanation": "Similar to the previous perturbation, Section 2.2 originally grants a 'perpetual, irrevocable' license. The added clause allows MSCI to revoke the license based on a subjective determination ('detrimental to MSCI's business interests'). This directly contradicts the 'perpetual, irrevocable' nature of the license, making the extent and security of MS's rights uncertain. The subjective nature of the revocation trigger further exacerbates this uncertainty.",
+                "location": "2.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersede all prior agreements, understandings and negotiations, both written and oral, between the parties with respect to the subject matter hereof.",
+                "changed_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersede all prior agreements, understandings and negotiations, both written and oral, between the parties with respect to the subject matter hereof. However, any side letters or separate agreements relating to specific aspects of the Licensed Materials, executed before or after the Effective Date of this Agreement, shall remain in full force and effect.",
+                "explanation": "Section 6.4 is an integration clause that states the agreement is the 'entire agreement' and supersedes all prior agreements. The added clause directly contradicts this by saying that side letters or separate agreements related to the licensed materials can still be in effect, thus creating ambiguity as to which agreement controls, and if there are other agreements that affect the rights of the parties.",
+                "location": "6.4"
+            }
+        ]
+    }
+]

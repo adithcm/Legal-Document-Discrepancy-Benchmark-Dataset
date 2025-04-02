@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SigaTechnologiesInc_20190603_8-K_EX-10.1_11695818_EX-10.1_PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall be automatically renewed for successive three (3) year terms thereafter (each a \"Renewal Term\" and together with the Initial Term, the \"Term\") until and unless (i) either Party provides the other Party written notice of non-renewal no later than ninety (90) days prior the end of the Initial Term or any Renewal Term or (ii) earlier terminated as provided in this ARTICLE 11.",
+                "changed_text": "This Agreement shall be automatically renewed for successive three (3) year terms thereafter (each a \"Renewal Term\" and together with the Initial Term, the \"Term\") until and unless (i) both Parties provide the other Party written notice of mutual agreement for renewal no later than thirty (30) days prior the end of the Initial Term or any Renewal Term or (ii) earlier terminated as provided in this ARTICLE 11.",
+                "explanation": "The original text allows for automatic renewal unless one party objects. The modified text requires explicit mutual agreement for each renewal, contradicting the concept of automatic renewal and introducing uncertainty on whether the contract will be renewed without explicit mutual agreement.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, SIGA hereby grants to MMT an exclusive right and license, with the right to grant sublicenses as permitted under Section 2.1(b), under the SIGA Intellectual Property solely to Promote the Product in the Field in the Territory. The license granted by SIGA to MMT under this Section 2.1(a) will be exclusive even as to SIGA with respect to rights to Promote the Product in the Field in the Territory, except as set forth in Section 2.4 below.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, SIGA hereby grants to MMT a non-exclusive right and license, with the right to grant sublicenses as permitted under Section 2.1(b), under the SIGA Intellectual Property solely to Promote the Product in the Field in the Territory. The license granted by SIGA to MMT under this Section 2.1(a) will be exclusive even as to SIGA with respect to rights to Promote the Product in the Field in the Territory, except as set forth in Section 2.4 below.",
+                "explanation": "The original text grants MMT an \"exclusive\" license to promote the product. Changing \"exclusive\" to \"non-exclusive\" directly contradicts the clause that says, 'The license granted by SIGA to MMT under this Section 2.1(a) will be exclusive even as to SIGA.' Now, it's unclear whether MMT has the sole right to promote or if SIGA can also license the right to other parties.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "SIGA will, at its sole discretion, diligently prosecute, maintain, enforce, and defend each of the SIGA Patents and the SIGA Trademarks reasonably necessary for the Commercialization of the Product in accordance with the terms of this Agreement.",
+                "changed_text": "SIGA will use commercially reasonable efforts to diligently prosecute the SIGA Patents and SIGA Trademarks, but the maintenance, enforcement, and defense of SIGA Patents and SIGA Trademarks reasonably necessary for the Commercialization of the Product will be at MMT's discretion and cost.",
+                "explanation": "The original text states that SIGA has sole discretion over maintaining its intellectual property. The changed text creates a contradiction by saying that SIGA will prosecute the patents and trademarks but that MMT has the sole discretion to maintain, enforce and defend the IP, and at MMT's cost. This contradicts SIGA's ownership rights and creates confusion about the responsibilities of each party regarding the SIGA Intellectual Property, which directly affects commercialization rights.",
+                "location": "Section 8.2(n)"
+            }
+        ]
+    }
+]

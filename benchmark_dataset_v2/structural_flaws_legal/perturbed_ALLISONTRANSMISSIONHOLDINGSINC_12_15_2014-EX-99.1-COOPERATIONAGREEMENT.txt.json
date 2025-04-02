@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ALLISONTRANSMISSIONHOLDINGSINC_12_15_2014-EX-99.1-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THIS AGREEMENT SHALL BE GOVERNED IN ALL RESPECTS, INCLUDING WITHOUT LIMITATION VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE APPLICABLE TO CONTRACTS EXECUTED AND TO BE PERFORMED WHOLLY WITHIN SUCH STATE WITHOUT GIVING EFFECT TO THE CHOICE OF LAW PRINCIPLES OF SUCH STATE.",
+                "changed_text": "THIS AGREEMENT SHALL BE GOVERNED IN ALL RESPECTS, INCLUDING WITHOUT LIMITATION VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE APPLICABLE TO CONTRACTS EXECUTED AND TO BE PERFORMED WHOLLY WITHIN SUCH STATE; however, the parties can mutually agree to change the governing law at any time during the contract's term.",
+                "explanation": "By adding the phrase \"; however, the parties can mutually agree to change the governing law at any time during the contract's term,\" I've introduced a contradiction. The first part mandates Delaware law, while the latter allows for arbitrary changes, creating uncertainty about which law governs.",
+                "contradicted_law": "Contract Law - Choice of Law Principles",
+                "location": "Section 9"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The parties agree that irreparable damage would occur in the event any of the provisions of this Agreement were not performed in accordance with the terms hereof and that such damage would not be adequately compensable in monetary damages. Accordingly, the parties hereto shall be entitled to an injunction or injunctions to prevent breaches of this Agreement, to enforce specifically the terms and provisions of this Agreement exclusively in the Court of Chancery or other federal or state courts of the State of Delaware and to\nrequire the resignation of the ValueAct Designee from the Board commencing on the date that is 10 days following the date that the ValueAct Designee and/or the ValueAct Group materially breaches its obligations under this Agreement, provided, that, such breach has not been cured prior to the expiration of such 10-day period, in addition to any other remedies at law or in equity, and each party agrees it will not take any action, directly or indirectly, in opposition to another party seeking relief. Each of the parties hereto agrees to waive any bonding requirement under any applicable law, in the case any other party seeks to enforce the terms by way of equitable relief. Furthermore, each of the parties hereto (a) consents to submit itself to the personal jurisdiction of the Court of Chancery or other federal or state courts of the State of Delaware in the event any dispute arises out of this Agreement or the transactions contemplated by this Agreement, (b) agrees that it shall not attempt to deny or defeat such personal jurisdiction by motion or other request for leave from any such court, (c) agrees that it shall not bring any action relating to this Agreement or the transactions contemplated by this Agreement in any court other than the Court of Chancery or other federal or state courts of the State of Delaware, and each of the parties irrevocably waives the right to trial by jury, and (d) each of the parties irrevocably consents to service of process by a reputable overnight mail delivery service, signature requested, to the address set forth in Section 11 of this Agreement or as otherwise provided by applicable law.",
+                "changed_text": "The parties agree that irreparable damage would occur in the event any of the provisions of this Agreement were not performed in accordance with the terms hereof and that such damage would not be adequately compensable in monetary damages. However, in the interest of fairness, the parties may seek alternate dispute resolution methods before seeking injunctions.",
+                "explanation": "The original text states that parties are entitled to an injunction. The modified text introduces a contradiction by stating that parties 'may' seek alternate dispute resolution before injunctions. This creates doubt as to whether injunctions are automatically available, contradicting the original provision.",
+                "contradicted_law": "Contract Law - Specific Performance and Injunctive Relief",
+                "location": "Section 9"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement may be amended only by an agreement in writing executed by the parties hereto, and no waiver of compliance with any provision or condition of this Agreement and no consent provided for in this Agreement shall be effective unless evidenced by a written instrument executed by the party against whom such waiver or consent is to be effective.",
+                "changed_text": "This Agreement may be amended only by an agreement in writing executed by the parties hereto. However, amendments may also be made via email confirmation between the parties.",
+                "explanation": "The original clause requires amendments to be in writing and executed by all parties. The addition of 'However, amendments may also be made via email confirmation between the parties' creates a contradiction, suggesting that a less formal method (email) can also amend the agreement, which undermines the enforceability of the original written amendment requirement.",
+                "contradicted_law": "Contract Law - Amendment Clauses and Statute of Frauds (in some jurisdictions)",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

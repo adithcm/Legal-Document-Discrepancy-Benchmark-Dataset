@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BLACKSTONEGSOLONG-SHORTCREDITINCOMEFUND_05_11_2020-EX-99.(K)(1)-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Unless either party gives written notice of termination of this Agreement at least 60 days prior to the end of the Initial Term, or any successive three-year term, this Agreement shall automatically renew for successive additional three-year terms; provided, however, that this Agreement shall automatically terminate upon the dissolution of the client.",
+                "changed_text": "Unless either party gives written notice of termination of this Agreement at least 60 days prior to the end of the Initial Term, or any successive three-year term, this Agreement may or may not renew for successive additional three-year terms; provided, however, that this Agreement shall automatically terminate upon the dissolution of the client.",
+                "explanation": "The original text clearly states that the contract auto-renews unless there is a written notice of termination. Modifying the statement by replacing 'shall automatically renew' with 'may or may not renew' introduces uncertainty about renewal and violates the original intent.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "All amounts owed to Agent hereunder are due within thirty (30) days of the invoice date. Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date.",
+                "changed_text": "All amounts owed to Agent hereunder are due within forty-five (45) days of the invoice date. Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing thirty (30) days from the invoice date.",
+                "explanation": "Originally payment was due within 30 days, and late fees started after 60 days. The modified statement contradicts by changing the due date to 45 days, yet still stating late fees start after 30 days. This creates confusion about when payments are considered late, and late fees are applied.",
+                "location": "Section 16(b)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Agent shall not be obligated to issue a replacement share certificate for any share certificate reported to have been lost, destroyed or stolen unless Agent shall have received: (a) an affidavit of such loss, destruction or theft; (b) a bond of indemnity in form and substance satisfactory to Agent; and (c) payment of all applicable fees. Shareholders may obtain such a bond of indemnity from a surety company of the shareholder's choice, provided the surety company satisfies Agent's minimum requirements.",
+                "changed_text": "Agent will, at its sole discretion, issue a replacement share certificate for any share certificate reported to have been lost, destroyed or stolen even if the Agent has not received: (a) an affidavit of such loss, destruction or theft; (b) a bond of indemnity in form and substance satisfactory to Agent; and (c) payment of all applicable fees. Shareholders must use a surety company chosen and designated by the Agent.",
+                "explanation": "The original text requires shareholders to meet certain conditions (affidavit, indemnity bond, payment of fees) to obtain a replacement certificate. The changed text states that the agent will issue the replacement share certificate even if the conditions are not met, creating conflict. Additionally, the provision allowing shareholders to choose a surety company is now removed, allowing the agent to dictate the source.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

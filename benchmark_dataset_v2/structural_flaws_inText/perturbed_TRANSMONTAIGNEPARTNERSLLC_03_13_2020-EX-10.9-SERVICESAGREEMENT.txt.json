@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "TRANSMONTAIGNEPARTNERSLLC_03_13_2020-EX-10.9-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.2 Reimbursement and Allocation. The Operating Company shall reimburse EmployeeCo for all direct or indirect costs and expenses incurred by EmployeeCo in connection with performing its obligations under this Agreement including, but not limited to:\n\n(d) severance costs with respect to any terminated Services Employees;",
+                "changed_text": "1.2 Reimbursement and Allocation. The Operating Company may reimburse EmployeeCo for direct costs incurred by EmployeeCo in connection with performing its obligations under this Agreement including, but not limited to:\n\n(d) severance costs with respect to any terminated Services Employees, subject to available funds and the discretion of the Operating Company;",
+                "explanation": "The original text states that the Operating Company *shall* reimburse EmployeeCo for severance costs. The changed text makes this reimbursement discretionary ('may reimburse,' 'subject to available funds,' 'discretion of the Operating Company'), contradicting the original mandatory language and creating uncertainty about the obligation.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.3 Termination of Agreement. This Agreement shall remain in effect until terminated by the Parties. This Agreement may be terminated by (a) the written agreement of the Parties or (b) by either Party upon 5 days written notice to the other Party. All payment obligations hereunder shall survive the termination of this Agreement in accordance with their respective terms.",
+                "changed_text": "2.3 Termination of Agreement. This Agreement shall remain in effect until terminated by the Parties. This Agreement may be terminated by (a) the written agreement of the Parties or (b) by either Party upon 5 days written notice to the other Party. All payment obligations hereunder shall not survive the termination of this Agreement and the liability of each party will cease immediately. ",
+                "explanation": "The original text states that all payment obligations *shall survive* termination. The modified version explicitly states that they *shall not survive* termination, creating a direct contradiction regarding the financial responsibilities after the agreement ends, therefore making enforcement uncertain.",
+                "location": "Section 2.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.4 Amendment or Modification. This Agreement may be amended or modified from time to time only by the written agreement of all the Parties hereto. Each such instrument shall be reduced to writing and shall be designated on its face an \"Amendment\" or an \"Addendum\" to this Agreement.",
+                "changed_text": "2.4 Amendment or Modification. This Agreement may be amended or modified from time to time by either (1) the written agreement of all the Parties hereto or (2) a verbal agreement by the EmployeeCo with no written record. Each such written instrument shall be designated on its face an \"Amendment\" or an \"Addendum\" to this Agreement.",
+                "explanation": "The original clause specifies that amendments/modifications must be written. The modified clause introduces an alternative: verbal agreement, contradicting the written requirement and introducing ambiguity. This contradiction will make it uncertain on whether the amendment/modification is enforceable and the obligations arising from those changes.",
+                "location": "Section 2.4"
+            }
+        ]
+    }
+]

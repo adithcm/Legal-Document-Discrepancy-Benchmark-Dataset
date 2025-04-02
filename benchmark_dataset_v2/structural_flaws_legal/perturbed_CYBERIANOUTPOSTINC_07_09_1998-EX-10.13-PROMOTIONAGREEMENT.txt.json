@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "LIMITATION OF DAMAGES. NEITHER PARTY WILL BE LIABLE FOR ANY SPECIAL, INDIRECT, CONSEQUENTIAL OR INCIDENTAL DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY (INCLUDING NEGLIGENCE), AND EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "changed_text": "LIMITATION OF DAMAGES. NEITHER PARTY WILL BE LIABLE FOR ANY SPECIAL, INDIRECT, CONSEQUENTIAL OR INCIDENTAL DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY (INCLUDING NEGLIGENCE), UNLESS SUCH DAMAGES ARISE FROM GROSS NEGLIGENCE OR WILLFUL MISCONDUCT.",
+                "explanation": "The original clause provides a blanket limitation of damages. Modifying it to include an exception for gross negligence or willful misconduct introduces an ambiguity. While exceptions to liability limitations are sometimes permissible, inserting it into the general limitation clause without clearly defining the scope of 'gross negligence' can create confusion and legal challenges regarding the enforceability of the limitation. Parties might dispute whether specific actions constitute gross negligence, thereby undermining the intended protection of the original clause.",
+                "contradicted_law": "Contract Law - Limitation of Liability",
+                "location": "9.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Applicable Law.  This Agreement will be construed in accordance with and governed by the laws of the State of California, without regard to principles of  conflicts of law.",
+                "changed_text": "Applicable Law. This Agreement will be construed in accordance with and governed by the laws of the State of California, except for disputes related to intellectual property, which shall be governed by the laws of the State of New York.",
+                "explanation": "The contract initially stipulates that California law governs the entire agreement. By introducing an exception for intellectual property disputes, specifying that they are governed by New York law, a legal contradiction is created. This could lead to confusion and disputes over which jurisdiction's laws apply, especially if an issue touches on both intellectual property and other contractual aspects. The lack of clarity undermines the initial intent of a uniform governing law.",
+                "contradicted_law": "Contract Law - Choice of Law",
+                "location": "9.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Confidentiality. The material terms of this agreement and any information exchanged in connection herewith shall be covered by the Non-Disclosure Agreement between CNET and the Company dated December 5, 1997 (the \"NDA\"). Notwithstanding the foregoing the following information will not be considered \"Confidential Information\" for purposes of the NDA provided that such information is not publicly identified as belonging to or coming from the Company: (a) information contained in the reports described in Section 3.2, (b) the names and e-mail addresses referenced in Section 3.4 and (c) any information obtained by CNET from Users who affirmatively request to be added to an e-mail newsletter pursuant to Section 3.5.",
+                "changed_text": "Confidentiality. The material terms of this agreement and any information exchanged in connection herewith shall be covered by the Non-Disclosure Agreement between CNET and the Company dated December 5, 1997 (the \"NDA\"). Notwithstanding the foregoing the following information will not be considered \"Confidential Information\" for purposes of the NDA provided that such information is not publicly identified as belonging to or coming from the Company: (a) information contained in the reports described in Section 3.2, (b) the names and e-mail addresses referenced in Section 3.4 and (c) any information obtained by CNET from Users who affirmatively request to be added to an e-mail newsletter pursuant to Section 3.5. However, all information related to CNET Sales will always be considered confidential.",
+                "explanation": "While the original text has some exceptions to the NDA, adding a final clause stating 'However, all information related to CNET Sales will always be considered confidential' creates a contradiction because Section 3.2 details reporting requirements related to CNET Sales which would necessarily involve exchanging that information with Cyberian Outpost. If 'CNET Sales' information must always be confidential, then the reporting obligations outlined elsewhere in the contract become practically impossible to fulfill without breaching the confidentiality clause itself, introducing ambiguity.",
+                "contradicted_law": "Contract Law - Confidentiality Clauses",
+                "location": "9.7"
+            }
+        ]
+    }
+]

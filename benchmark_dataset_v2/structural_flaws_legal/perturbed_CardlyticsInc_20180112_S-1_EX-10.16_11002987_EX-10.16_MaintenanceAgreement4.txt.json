@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement4.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled \"Termination\" of the Agreement. If Bank of America terminates the Maintenance Services, Bank of America shall have the right to reinstate the Maintenance Services without paying any reinstatement fee.",
+                "changed_text": "Bank of America may terminate Maintenance Services for convenience at any time. If Bank of America terminates the Maintenance Services, Bank of America shall not have the right to reinstate the Maintenance Services.",
+                "explanation": "The original text allows Bank of America to reinstate maintenance services without a fee after termination. The modified text removes the right to reinstate. This creates a contradiction regarding reinstatement rights, potentially violating contract law principles requiring clear and unambiguous terms, particularly concerning termination clauses.",
+                "contradicted_law": "General Contract Law - Ambiguity and Contradiction",
+                "location": "Schedule A, C. Maintenance Services"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Software License and Maintenance will be provided at no charge.",
+                "changed_text": "The Software License and Maintenance will be provided at no charge, unless additional support beyond installation is needed, in which case standard rates apply.",
+                "explanation": "The original text clearly states 'no charge'. The added clause introduces ambiguity and contradiction because it states additional charges might apply. The conflict is between the assertion of completely free services versus the potential for added costs, creating uncertainty.",
+                "contradicted_law": "General Contract Law - Clear and Unambiguous Terms",
+                "location": "Schedule A, PAYMENT TERMS"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, including Bank of America holidays.",
+                "changed_text": "The Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, but excluding Bank of America holidays unless otherwise agreed upon.",
+                "explanation": "Originally, maintenance was guaranteed 24/7, *including* holidays. This change now *excludes* holidays *unless otherwise agreed*, directly contradicting the previous explicit inclusion. This introduces a conditionality that undermines the original guarantee of continuous maintenance, leading to uncertainty and a legal contradiction.",
+                "contradicted_law": "General Contract Law - Conflict of Terms",
+                "location": "PAYMENT TERMS, MAINTENANCE PERIOD"
+            }
+        ]
+    }
+]

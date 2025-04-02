@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "KUBIENT,INC_07_02_2020-EX-10.14-MASTERSERVICESAGREEMENT_Part1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8. Arbitration. Each Party agrees and does waive trial by jury in any action, proceeding or counterclaim brought against the other Party for any matter whatsoever arising out of or in any way connected with this Agreement. No action, suit or proceeding shall be brought against a Party more than one year after the date of termination this Agreement. Any controversy or claim arising out of or relating to this Agreement, or the breach thereof, shall be settled by arbitration administered by the American Arbitration Association under its Commercial Arbitration Rules, and judgment on the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof",
+                "changed_text": "8. Arbitration. Each Party agrees and does waive trial by jury in any action, proceeding or counterclaim brought against the other Party for any matter whatsoever arising out of or in any way connected with this Agreement. Any controversy or claim arising out of or relating to this Agreement, or the breach thereof, shall be settled by arbitration administered by the American Arbitration Association under its Commercial Arbitration Rules, and judgment on the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof, except for disputes regarding intellectual property, which may be litigated in the jurisdiction of the claimant.",
+                "explanation": "The original clause mandated arbitration for all disputes. This change introduces an exception for intellectual property disputes, which can now be litigated. This contradicts the initial blanket arbitration requirement, potentially leading to disputes over which claims must be arbitrated and which can be litigated, creating uncertainty and hindering enforceability of the arbitration clause.",
+                "contradicted_law": "Federal Arbitration Act (FAA)",
+                "location": "Section 8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "14. General Provisions. (a) This Agreement is governed in all respects by the laws of the State of Delaware without giving effect to its conflict of laws principles. Each Party hereby irrevocably submits for all disputes to the exclusive jurisdiction and venue of the state and federal courts located in New York, New York.",
+                "changed_text": "14. General Provisions. (a) This Agreement is governed in all respects by the laws of the State of Delaware without giving effect to its conflict of laws principles. Each Party hereby submits for all disputes to the jurisdiction and venue of the state and federal courts located in New York, New York, unless another jurisdiction is mutually agreed upon at the time the dispute arises.",
+                "explanation": "The original clause specifies New York courts for jurisdiction and venue. The modified clause introduces an exception allowing parties to mutually agree on a different jurisdiction at the time of the dispute. This creates a legal contradiction: the first part establishes a fixed jurisdiction, while the second allows for alteration, potentially making the jurisdictional clause unenforceable due to uncertainty.",
+                "contradicted_law": "Contract Law - Choice of Law and Forum Selection",
+                "location": "Section 14(a)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10. Indemnification. (a) Kubient agrees to indemnify, defend, and hold harmless Customer and its officers, directors, managers, members, agents, and employees from all third-party allegations, claims, actions, losses, expenses, damages, costs (including, without limitation, reasonable attorneys' fees) or liabilities (\"Claims\") arising out of or in connection with: (i) the Services; (ii) the Auction Platform; (iii) to the best of its knowledge the Creative placed onto Customer's platforms or websites by the Auction Platform; (iv) Kubient's breach of any representation or warranty under this Agreement or (v) the acts or omissions of Kubient or a third party hired by, employed, retained or under Kubient control with respect to Kubient's obligations hereunder.",
+                "changed_text": "10. Indemnification. (a) Kubient agrees to indemnify, defend, and hold harmless Customer and its officers, directors, managers, members, agents, and employees from all third-party allegations, claims, actions, losses, expenses, damages, costs (including, without limitation, reasonable attorneys' fees) or liabilities (\"Claims\") arising out of or in connection with: (i) the Services; (ii) the Auction Platform; (iii) to the best of its knowledge the Creative placed onto Customer's platforms or websites by the Auction Platform; (iv) Kubient's breach of any representation or warranty under this Agreement or (v) the acts or omissions of Kubient or a third party hired by, employed, retained or under Kubient control with respect to Kubient's obligations hereunder. However, Kubient's indemnification obligations shall be capped at the total fees paid by Customer to Kubient under this Agreement.",
+                "explanation": "The original clause provides broad indemnification. The addition of a cap on Kubient's indemnification obligations introduces a limitation that could contradict the scope of the initial indemnification agreement. If the actual losses exceed the fee cap, the customer's indemnity is essentially nullified beyond that point, creating uncertainty and reducing the enforceability of the original indemnification promise.",
+                "contradicted_law": "Contract Law - Indemnification",
+                "location": "Section 10(a)"
+            }
+        ]
+    }
+]

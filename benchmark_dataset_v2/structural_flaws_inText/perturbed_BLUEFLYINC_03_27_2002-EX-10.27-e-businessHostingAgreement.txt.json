@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BLUEFLYINC_03_27_2002-EX-10.27-e-businessHostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.2   Renewal\n\nEach Service Option Attachment will renew automatically for an additional term equal in duration to the previous term of the applicable Service Option Attachment unless either party notifies the other party in writing at least ninety (90) days prior to the end of the then-current term for the applicable Service Option Attachment that it has elected to terminate such Service Option Attachment.",
+                "changed_text": "3.2   Renewal\n\nService Option Attachments may be renewed, subject to mutual agreement between both parties, for an additional term. Unless otherwise specified in the Service Option Attachment, renewal is contingent upon a review of service performance and pricing, and neither party is obligated to renew.",
+                "explanation": "The original text states that the Service Option Attachment will auto-renew, unless written notice is given, whereas the modified text indicates that renewals are subject to mutual agreement, negating the automatic renewal provision. This creates ambiguity regarding the conditions for renewal.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.0 Confidentiality\n\nAll information exchanged between the parties is non-confidential; provided, however if either or both parties require the exchange of confidential information, such information will be exchanged under the terms and conditions of the Agreement for Exchange of Confidential Information executed by IBM on August 3, 2001 (the \"AECI\") (it being further agreed as follows: (a) the AECI is hereby modified so that any information that is disclosed by a party hereto that a reasonable person would construe, based upon the nature of the information and the circumstances surrounding the disclosure, as intended to be confidential shalll be deemed to be confidential Information under the AECI and shall be accorded all protections of the AECI and (b) after the date hereof the parties hereto shall enter into a modification of the AECI whereby the provisions of (a) immediately above are documented and (c) the parties shall also amend the AECI so as to reflect the following agreement: in the event that a breach or\n\nthreatened breach of a party's obligations hereunder shall cause irreparable harm wherein a remedy at law would\n\nprove inadequate, the aggrieved party shall have the right to seek and obtain an injunction so as to prevent any further disclosure of the confidential Information. With respect to any confidential information contained in or traveling through the e-business Hosting Environment or Customer Components, the provisions of Sections 5, 9, and 10 herein will prevail to the extent of any inconsistent provisions in the confidentiality agreement.",
+                "changed_text": "6.0 Confidentiality\n\nAll information exchanged between the parties is deemed confidential and shall be treated as such, subject to the terms outlined below. Any information disclosed by a party that a reasonable person would construe as confidential, based on its nature and the circumstances of disclosure, is deemed confidential Information. However, the company has the rights to use any Client information for sales and marketing unless the Client explicitly denies those rights in section 14.4. With respect to any confidential information contained in or traveling through the e-business Hosting Environment or Customer Components, the provisions of Sections 5, 9, and 10 herein will prevail to the extent of any inconsistent provisions in the confidentiality agreement.",
+                "explanation": "The original text first says that everything is non-confidential until a confidentiality agreement is executed. The modified version states that information is deemed confidential, but then it immediately allows the company to freely use \"any Client information for sales and marketing\" unless a separate denial is issued. This creates a contradiction: If all exchanged information is confidential, the company can not use all client information unless there's a written denial because that denial creates another set of rules that directly conflicts with the deemed confidential clause. The enforcement of 'confidentiality' becomes uncertain.",
+                "location": "Section 6.0"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "14.14 Actions Period\n\nNeither party will bring a legal action related to this Agreement more than two years after the cause of action accrued.",
+                "changed_text": "14.14 Actions Period\n\nNeither party will bring a legal action related to this Agreement more than two years after the cause of action accrued. \n\nHowever, legal action for intellectual property infringements or breaches of confidentiality may be brought at any time, regardless of when the cause of action accrued.",
+                "explanation": "The original text limits legal actions to two years. The addition explicitly removes this time limit for IP and confidentiality, directly contradicting the initial statement. This creates uncertainty about which statute of limitations applies to different types of claims.",
+                "location": "Section 14.14"
+            }
+        ]
+    }
+]

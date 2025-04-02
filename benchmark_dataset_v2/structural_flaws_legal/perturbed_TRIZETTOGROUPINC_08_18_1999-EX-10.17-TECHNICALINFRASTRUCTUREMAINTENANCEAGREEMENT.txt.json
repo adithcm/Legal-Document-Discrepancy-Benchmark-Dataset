@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TRIZETTOGROUPINC_08_18_1999-EX-10.17-TECHNICALINFRASTRUCTUREMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EXCEPT AS EXPRESSLY STATED IN THIS AGREEMENT, THERE ARE NO WARRANTIES, EXPRESS OR\n\n4                   IMPLIED, BY OPERATI0N OF LAW OR OTHERWISE. MMMW DISCLAIMS ANY\n                   IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR PARTICULAR\n                   PURPOSE.",
+                "changed_text": "EXCEPT AS EXPRESSLY STATED IN THIS AGREEMENT, THERE ARE NO WARRANTIES, EXPRESS OR\n\n4                   IMPLIED. MMMW warrants that all parts used for repair will be new, subject to normal wear and tear.",
+                "explanation": "The original text explicitly disclaims all implied warranties, including merchantability and fitness for a particular purpose. The modified text removes this disclaimer and introduces a warranty that parts will be new, subject to normal wear and tear. This creates a contradiction because the new warranty implicitly suggests that other implied warranties might exist, undermining the original intent of the disclaimer. The change weakens the enforceability of the original disclaimer and introduces ambiguity.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Implied Warranties",
+                "location": "Section 8(b)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be interpreted in accordance with the\n                   laws of the State of Indiana.",
+                "changed_text": "This Agreement shall be interpreted in accordance with the laws of the state where MMMW is headquartered.",
+                "explanation": "The original text explicitly states that Indiana law governs the contract. The modified text introduces ambiguity by referring to the law of the state where MMMW is headquartered. Because the location of MMMW headquarters may change, and is not fixed at the point of contract, this clause could introduce contradiction. If MMMW headquarters moves to a state with laws less favorable to the customer, a dispute could arise, requiring potentially costly legal determination of the applicable jurisdiction. This contradiction undermines the clarity and enforceability of the original jurisdiction clause.",
+                "contradicted_law": "Contract Law - Choice of Law Principles",
+                "location": "Section 10(d)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Customer shall not assign or transfer its rights or\n                   obligations under this Agreement except with MMMW's prior\n                   written consent; any prohibited assignment or transfer shall\n                   be void.",
+                "changed_text": "The Customer shall not assign or transfer its rights or obligations under this Agreement, except that in instances of company restructuring or merger, the Customer may assign rights and obligations without the need for prior consent.",
+                "explanation": "The original text outright prohibits assignment or transfer of rights without written consent. The modified text introduces an exception for company restructuring or merger allowing assignment without consent. This contradiction weakens the enforceability of the original prohibition and introduces ambiguity as to when consent is required, which may go against the original clause.",
+                "contradicted_law": "Contract Law - Assignment and Delegation",
+                "location": "Section 10(c)"
+            }
+        ]
+    }
+]

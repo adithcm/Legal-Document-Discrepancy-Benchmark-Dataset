@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IPAYMENT,INC_05_14_2007-EX-10.1-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ISO shall pay or fund when due all Bank Card association assessments/fees, including any and all quarterly assessments/fees.",
+                "changed_text": "ISO shall pay or fund when due all Bank Card association assessments/fees, including any and all quarterly assessments/fees. If for any reason ISO fails to pay such assessment fees, there is no requirement for the payment to be made and no liability to SERVICERS shall result.",
+                "explanation": "The first sentence dictates that ISO must pay when due all Bank Card association assessments/fees, while the second sentence states that if ISO fails to pay, there is no liability. This directly contradicts the initial requirement, creating uncertainty about ISO's actual financial obligation.",
+                "contradicted_law": "Visa and MasterCard regulations that require sponsored ISOs to be financially responsible for assessments and fees.",
+                "location": "Section 6.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ISO will, at any and all reasonable times, permit SERVICERS' employees, agents, attorneys, auditors, or bank regulators to inspect ISO's place of business to audit its operations for compliance with all Rules, laws, regulations, and directives of any governmental regulatory agency or Bank Card association, all at SERVICERS' expense.",
+                "changed_text": "ISO will, at any and all reasonable times, permit SERVICERS' employees, agents, attorneys, auditors, or bank regulators to inspect ISO's place of business to audit its operations for compliance with all Rules, laws, regulations, and directives of any governmental regulatory agency or Bank Card association, all at SERVICERS' expense. However, ISO reserves the right to deny access at any time, without cause or prior notice.",
+                "explanation": "The first sentence states ISO must permit SERVICERS to conduct inspections for compliance. The second added sentence allows ISO to deny access at any time, negating the permission granted earlier. This creates a contradiction, making it difficult to enforce the right to inspection.",
+                "contradicted_law": "Banking and financial regulations that grant supervisory authority to banks and regulators, and the Visa/MasterCard Rules, which typically require ISOs to cooperate with audits.",
+                "location": "Section 8.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ISO shall be responsible for ensuring that the Application Materials, the marketing plans, the Promotional Materials and all services performed by ISO hereunder comply, and remain in compliance with, all applicable Rules, laws and regulations; provided, however, that SERVICERS will in good faith inform ISO of issues or concerns with ISO's materials or practices observed by SERVICERS that SERVICERS reasonably believe may be in violation of applicable Rules.",
+                "changed_text": "ISO shall be responsible for ensuring that the Application Materials, the marketing plans, the Promotional Materials and all services performed by ISO hereunder comply, and remain in compliance with, all applicable Rules, laws and regulations; provided, however, that SERVICERS will have no duty to inform ISO of issues or concerns with ISO's materials or practices observed by SERVICERS that SERVICERS reasonably believe may be in violation of applicable Rules, and will not bear any responsibility for ISO’s non-compliance.",
+                "explanation": "While ISO maintains responsibility for compliance, SERVICERS have been relieved of their duty to inform ISO of any potential violations. The first part states ISO is responsible for compliance, the second part suggests that SERVICERS have no duty to point out non-compliance or bear responsibility for it, significantly weakening accountability.",
+                "contradicted_law": "Regulations requiring oversight and due diligence by sponsoring banks and processors of ISOs.",
+                "location": "Section 3.2"
+            }
+        ]
+    }
+]

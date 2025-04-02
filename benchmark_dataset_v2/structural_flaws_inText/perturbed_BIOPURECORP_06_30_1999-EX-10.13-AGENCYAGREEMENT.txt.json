@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BIOPURECORP_06_30_1999-EX-10.13-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Terms of payment by the Agent to the Company for Products shipped to the Customer will be net thirty (30) days from the date of statement unless the Agent chooses to pay the Company via electronic funds transfer in which case the terms of payment will be net forty-five (45) days. All payments will be made in United States Dollars without set-off or counterclaim, free and clear of (and without deduction for) any taxes, duties, charges, withholdings, restrictions or conditions of any nature imposed or levied by any political, taxing or other authority.",
+                "changed_text": "Terms of payment by the Agent to the Company for Products shipped to the Customer will be net sixty (60) days from the date of statement. However, the company, at its discretion, can require payment within fifteen (15) days. All payments will be made in United States Dollars without set-off or counterclaim, free and clear of (and without deduction for) any taxes, duties, charges, withholdings, restrictions or conditions of any nature imposed or levied by any political, taxing or other authority.",
+                "explanation": "The original text states a fixed payment term of 30 or 45 days. The modified version introduces 'net sixty (60) days' while simultaneously granting the company discretionary power to demand payment within 'fifteen (15) days'. This creates a direct contradiction regarding the payment deadline, causing uncertainty and potentially leading to disputes.",
+                "location": "2.3. Payment Terms"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In no event will the Company be liable for incidental or consequential damages. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted in accordance with the Company's published bulletins concerning such claims, as such bulletins may be amended by the Company from time to time and furnished to the Agent.",
+                "changed_text": "In no event will the Company be liable for incidental or consequential damages, except in cases of gross negligence on the part of the Company. All claims by the Customer and/or Agent under this Paragraph 2.6 must be submitted in accordance with the Company's internal procedures that are available upon request; these procedures are subject to change without notice.",
+                "explanation": "The original text provides a blanket exclusion of liability for incidental or consequential damages. The modified version introduces an exception for 'gross negligence on the part of the Company', contradicting the absolute exclusion. Also, changing 'published bulletins' to 'internal procedures that are available upon request; these procedures are subject to change without notice' makes the process arbitrary.",
+                "location": "2.6. Warranty"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party.",
+                "changed_text": "Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, provided that the terminating party pays a penalty of $1,000,000 to the other party. Termination without cause is not permissible if it occurs within the first year of this agreement. Upon such termination, 90 days written notice must be provided to the other party.",
+                "explanation": "The original clause allowed either party to terminate without cause after a specified date with 90 days notice. The modified text adds conditions of a $1,000,000 termination penalty, and limitation of one year of starting the contract before being able to terminate. Thus the changes contradict the original 'without cause' termination, injecting uncertainty and potential disputes about the cost and possibility of ending the agreement.",
+                "location": "4.2. Termination. (c)"
+            }
+        ]
+    }
+]

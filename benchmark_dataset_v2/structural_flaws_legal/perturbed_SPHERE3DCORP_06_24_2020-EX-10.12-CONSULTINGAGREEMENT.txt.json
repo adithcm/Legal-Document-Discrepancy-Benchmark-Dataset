@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPHERE3DCORP_06_24_2020-EX-10.12-CONSULTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Consulting Agreement shall be governed by, and construed pursuant to the laws of the State of New York, applicable to agreements made and performed wholly within such State. Any disputes under this Consulting Agreement shall be resolved by appropriate proceedings in the state of New York.",
+                "changed_text": "This Consulting Agreement shall be governed by, and construed pursuant to the laws of the State of New York, applicable to agreements made and performed wholly within such State. Any disputes under this Consulting Agreement shall be resolved by mutual agreement between both parties and appropriate proceedings in the state of New York.",
+                "explanation": "The restructuring of the sentence introduces contradiction—the first part states the disputes shall be resolved by the state of New York but also states that mutual agreement between parties is acceptable. This contradicts the original clause's strict law requirement, leading to uncertainty in enforcement.",
+                "contradicted_law": "Contract Law Principles - Enforceability of Governing Law Clauses",
+                "location": "MISCELLANEOUS"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Consultant certifies, under penalties of perjury that the Consultant is not subject to backup withholding as a result of a failure to report all interest or dividends, or because the Internal Revenue Service has notified the Consultant that the Consultant is no longer subject to backup withholding, and that Consultant has provided the Company an accurate taxpayer ID number.",
+                "changed_text": "The Consultant certifies, under penalties of perjury that the Consultant is not subject to backup withholding as a result of a failure to report all interest or dividends, or because the Internal Revenue Service has notified the Consultant that the Consultant is no longer subject to backup withholding, and that Consultant has provided the Company an accurate taxpayer ID number, unless otherwise notified.",
+                "explanation": "The addition of 'unless otherwise notified' creates ambiguity and potential contradiction. The original clause is a clear and unambiguous statement about the consultant's tax status. The modification introduces an exception that undermines the certainty of the original statement.",
+                "contradicted_law": "IRS regulations regarding backup withholding and taxpayer identification numbers.",
+                "location": "CONSULTANT'S REPRESENTATIONS & WARRANTIES."
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "A total of 100,000 RSA's (\"Restricted Stock Awards\") that vest immediately, subject to prior approval of the Board of Directors.",
+                "changed_text": "A total of 100,000 RSA's (\"Restricted Stock Awards\") that vest immediately, subject to prior approval of the Board of Directors, with a possible revision based on company performance.",
+                "explanation": "The inclusion of 'with a possible revision based on company performance' directly contradicts the 'vest immediately' clause, creating a legal uncertainty. The original RSA vests immediately, but the addition introduces potential alterations based on performance, making the vesting unclear.",
+                "contradicted_law": "Securities regulations regarding vesting of restricted stock awards.",
+                "location": "CONSULTING SERVICES & COMPENSATION"
+            }
+        ]
+    }
+]

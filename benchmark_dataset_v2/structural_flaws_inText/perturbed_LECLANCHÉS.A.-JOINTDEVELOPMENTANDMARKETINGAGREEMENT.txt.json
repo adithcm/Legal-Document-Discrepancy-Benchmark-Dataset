@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LECLANCHÉS.A.-JOINTDEVELOPMENTANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Confidential Information shall not include information or data which was or becomes:\n\ngenerally available to the public, other than as a result of a breach of this undertaking;\n\navailable to the recipient Party on a non confidential basis from a source other than the disclosing Party or its advisers, provided that such source is not, insofar as the recipient Party is aware, bound by any obligations of confidentiality in respect of such information or data;",
+                "changed_text": "Confidential Information shall not include information or data which was or becomes:\n\ngenerally available to the public, other than as a result of a breach of this undertaking. However, information generally available to the public IS still considered Confidential Information if the disclosing party deems it to be.\n\navailable to the recipient Party on a non confidential basis from a source other than the disclosing Party or its advisers, provided that such source is not, insofar as the recipient Party is aware, bound by any obligations of confidentiality in respect of such information or data;",
+                "explanation": "By adding the sentence \"However, information generally available to the public IS still considered Confidential Information if the disclosing party deems it to be,\" this creates a contradiction. The original text excludes generally available information, but the added sentence brings it back in under certain conditions. This creates uncertainty about what truly constitutes 'Confidential Information'.",
+                "location": "1.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In certain cases, Leclanché may request progress payments, including some element paid at the time of order. In the absence of a specific payment schedule, all payment terms are 30 days net from date of invoice.",
+                "changed_text": "In certain cases, Leclanché may request progress payments, including some element paid at the time of order. All payment terms are 30 days net from date of invoice. However, Leclanché reserves the right to change the payment terms on a case-by-case basis, with notification to Oak Ridge within 90 days of invoice.",
+                "explanation": "The original clause established a clear 30-day payment term. By adding \"However, Leclanché reserves the right to change the payment terms on a case-by-case basis,\" we introduce contradiction and uncertainty. While it mentions notification within 90 days, it still conflicts with the initial 30-day requirement, leaving Oak Ridge unsure when payments are actually due.",
+                "location": "9.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Parties irrevocably agree that the courts of the city of Zurich have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with this Agreement.",
+                "changed_text": "The Parties irrevocably agree that the courts of the city of Zurich have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with this Agreement. However, both parties can, by mutual consent, seek arbitration in Oak Ridge's home jurisdiction.",
+                "explanation": "This change adds a contradiction to the governing law and jurisdiction clause. Initially, Zurich courts were given *exclusive* jurisdiction. The added sentence allows for arbitration in Oak Ridge's jurisdiction, thereby undermining the exclusivity granted to the Zurich courts and creating ambiguity as to the proper venue for dispute resolution.",
+                "location": "23.2"
+            }
+        ]
+    }
+]

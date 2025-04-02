@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "22.1 Governing Law.  The validity, construction and interpretation of this Agreement and the rights and duties of the parties hereto shall be governed by the internal laws of the State of Wisconsin, excluding its principles of conflict of laws.",
+                "changed_text": "22.7 Headings. The validity, construction and interpretation of this Agreement and the rights and duties of the parties hereto shall be governed by the internal laws of a state chosen at the sole discretion of M&I, potentially excluding its principles of conflict of laws.",
+                "explanation": "The governing law is moved to the 'Headings' section, which is semantically incorrect. Further, instead of the law applying to Wisconsin, it will be a state selected at the sole discretion of M&I.",
+                "contradicted_law": "Contract Law - Governing Law Clause",
+                "location": "22.7 Headings"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "13.2 No Consequential Damages.  Neither Customer nor M&I shall be liable for, nor will the measure of any damages in any event include, any indirect, incidental, punitive, special or consequential damages or amounts for loss of income, profits or savings arising out of or relating to performance or non-performance under this Agreement.",
+                "changed_text": "21.1 Force Majeure.  Neither Customer nor M&I shall be liable to the other to the extent fulfillment or performance of any terms or provisions of this Agreement is delayed or prevented by revolution or other civil disorders; wars; acts of enemies; strikes; lack of available resources from persons other than parties to this Agreement; labor disputes; electrical equipment or availability failure; fires; floods; acts of God; federal, state or municipal action; statute; ordinance or regulation; or, without limiting the foregoing, any other causes not within its control, and which by the exercise of reasonable diligence it is unable to prevent, whether of the class of causes hereinbefore enumerated or not.  This clause shall not apply to the payment of any sums due under this Agreement by either party to the other. Neither Customer nor M&I shall be liable for, nor will the measure of any damages in any event include, any indirect, incidental, punitive, special or consequential damages or amounts for loss of income, profits or savings arising out of or relating to performance or non-performance under this Agreement. Unless consequential damages arise during force majeure",
+                "explanation": "The clause waiving consequential damages is moved to the 'Force Majeure' section, implying a limited scope (only applies during force majeure events) when it should be a general limitation of liability. The altered text ends with 'Unless consequential damages arise during force majeure', creating confusion around whether consequential damages are waived at all.",
+                "contradicted_law": "Contract Law - Limitation of Liability",
+                "location": "21.1 Force Majeure"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15.  DISPUTE RESOLUTION\n\n     15.1 Representatives of Parties.  All disputes arising under or in connection with this Agreement shall initially be referred to the Account Representatives (as defined in Section 18.1).  If the Account Representatives are unable to resolve the dispute within five (5) business days after referral of the matter to them, the managers of the Account Representatives shall attempt to resolve the dispute.  If, after five (5) days they are unable to resolve the dispute, senior executives of the parties shall attempt to resolve the dispute.  If, after give (5) days they are unable to resolve the dispute, the parties shall submit the dispute to the chief executive officers of the parties for resolution.",
+                "changed_text": "4.3  Conversion Resources.  M&I and Customer will provide a team of qualified experts to assist in the conversion effort.  The team and their responsibilities are outlined below. M&I acknowledges that the provision of the Services is critical to the business and operations of Customer.  Accordingly, in the event of a dispute between Customer and M&I, during the pendency of the dispute resolution proceedings described in this Article 15, M&I shall continue to provide the Services and Customer shall continue to pay any undisputed amounts to M&I. All disputes arising under or in connection with this Agreement shall initially be submitted directly to binding arbitration, waiving rights to court.",
+                "explanation": "The original dispute resolution process is replaced with mandatory binding arbitration and moved to a section describing 'Conversion Resources.' This placement obscures the actual dispute resolution method. The text 'M&I shall continue to provide the Services and Customer shall continue to pay any undisputed amounts to M&I' has been removed, altering the original intent.",
+                "contradicted_law": "Contract Law - Dispute Resolution Clause",
+                "location": "4.3  Conversion Resources"
+            }
+        ]
+    }
+]

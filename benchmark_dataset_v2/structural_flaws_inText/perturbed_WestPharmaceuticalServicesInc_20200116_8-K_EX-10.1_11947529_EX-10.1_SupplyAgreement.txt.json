@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "WestPharmaceuticalServicesInc_20200116_8-K_EX-10.1_11947529_EX-10.1_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "changed_text": "Buyer Affiliates shall endeavor to pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. Payments may be made via methods agreed upon, and may be subject to deductions based on performance metrics.",
+                "explanation": "The original text mandates a strict payment deadline and method. The modified version introduces ambiguity. 'Endeavor to pay' weakens the obligation, and allowing 'deductions based on performance metrics' contradicts the 'paid in full' requirement. This creates uncertainty about the actual amount and timeline for payment.",
+                "location": "PRICING"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Product shall conform to ExxonMobil Selling Affiliates' standard sales specifications as of the date of shipment.",
+                "changed_text": "Product shall generally conform to ExxonMobil Selling Affiliates' standard sales specifications, but minor variations may occur. The final determination of conformity resides with the ExxonMobil Selling Affiliates.",
+                "explanation": "The original clause provides a clear requirement for product conformity. The modified version adds 'generally' and allows 'minor variations', making the conformity standard subjective and controlled by the seller. This introduces ambiguity about the acceptable level of variation, potentially leading to disputes over product quality.",
+                "location": "QUALITY"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Neither party can suspend its further performance, terminate this Agreement or require specific performance of the other party of this Agreement in whole or in part as a result of the other party's material breach of the terms and conditions of this Agreement without first providing notice to such party in writing and thirty (30) days' opportunity to cure the material breach (and then only if such party fails to cure such breach).",
+                "changed_text": "Either party may, at their sole discretion, suspend its further performance, terminate this Agreement or require specific performance of the other party of this Agreement in whole or in part as a result of the other party's perceived material breach of the terms and conditions of this Agreement. A notice may be provided, but is not required.",
+                "explanation": "The original text allows termination only after a 30-day cure period for a material breach. The modified version allows immediate termination for a 'perceived' breach, removing the cure period and making the decision unilateral and subjective. The removal of mandatory notice further exacerbates the potential for conflict.",
+                "location": "TERMINATION"
+            }
+        ]
+    }
+]

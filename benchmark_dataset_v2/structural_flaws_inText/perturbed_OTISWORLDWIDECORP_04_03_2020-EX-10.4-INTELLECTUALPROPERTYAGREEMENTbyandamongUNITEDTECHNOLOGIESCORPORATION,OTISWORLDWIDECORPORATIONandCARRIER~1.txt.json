@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "OTISWORLDWIDECORP_04_03_2020-EX-10.4-INTELLECTUALPROPERTYAGREEMENTbyandamongUNITEDTECHNOLOGIESCORPORATION,OTISWORLDWIDECORPORATIONandCARRIER~1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "\"Intellectual Property Rights\" shall mean any and all intellectual property and industrial property rights throughout the world, whether registered or unregistered, including intellectual property and industrial property rights protected or represented by, arising under, or associated with (a) Patents; (b) Copyrights; (c) Trade Secrets; and (d) any other similar or equivalent intellectual property or proprietary rights anywhere in the world; provided, however, that Trademarks are expressly excluded from the definition of Intellectual Property Rights.",
+                "changed_text": "\"Intellectual Property Rights\" shall mean any and all intellectual property and industrial property rights throughout the world, whether registered or unregistered, including intellectual property and industrial property rights protected or represented by, arising under, or associated with (a) Patents; (b) Copyrights; (c) Trade Secrets; (d) Trademarks; and (e) any other similar or equivalent intellectual property or proprietary rights anywhere in the world; Trademarks are also included within Intellectual Property Rights.",
+                "explanation": "The original text specifically excludes Trademarks from the definition of Intellectual Property Rights. The modified text explicitly includes Trademarks, creating a direct contradiction in the definition. This could lead to confusion about which rights are assigned or licensed under the agreement.",
+                "location": "Article I, 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "All licenses granted under this Agreement will be deemed licenses of rights to intellectual property for purposes of Section 365(n) of the United States Bankruptcy Code and a licensee under this Agreement will retain and may fully exercise all of its rights and elections under the United States Bankruptcy Code.",
+                "changed_text": "All licenses granted under this Agreement will be deemed licenses of rights to intellectual property unless the licensor becomes bankrupt. In that event, the licenses are terminable at the discretion of the licensor's bankruptcy trustee under Section 365(n) of the United States Bankruptcy Code. A licensee under this Agreement will retain and may fully exercise all of its rights and elections under the United States Bankruptcy Code only if the trustee permits.",
+                "explanation": "The original text states licensees may fully exercise all its rights and elections under the United States Bankruptcy Code. The modified version introduces uncertainty by stating the trustee can terminate the rights.",
+                "location": "Article IX, 9.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The provisions of this Agreement, including the license rights provided in this Article III, shall not be terminable or revocable for any reason. In the event of any breach of this Agreement, the sole remedy of the non-breaching Party will be to seek monetary damages or equitable relief, including specific performance, as provided in Article VII, that does not involve a rescission or termination of any of the provisions of this Agreement (including the license rights provided in this Article III), and each Party irrevocably waives the right to seek any termination or rescission of any such provisions or rights.",
+                "changed_text": "The provisions of this Agreement, including the license rights provided in this Article III, shall not be terminable or revocable for any reason unless the licensor wants to revoke them. In the event of any breach of this Agreement, the sole remedy of the non-breaching Party will be to seek monetary damages or equitable relief, including specific performance, as provided in Article VII, that does not involve a rescission or termination of any of the provisions of this Agreement (including the license rights provided in this Article III), and each Party irrevocably waives the right to seek any termination or rescission of any such provisions or rights except in cases of gross negligence.",
+                "explanation": "The original text clearly mentions the license rights are non-terminable under any circumstance. The modified text creates uncertainty by saying the license rights are only non-terminable unless the licensor decides to revoke. Also the original text has waived the right to termination but modified text mentions the exception of gross negligence where there is a right to seek termination.",
+                "location": "Article III, 3.3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In the event that Customer cancels all or part of a Purchase Order already accepted by Supplier, Supplier will use best efforts to reallocate capacity and mitigate any resultant costs of such cancellation. Except as expressly set forth in Section 3.4, Section 6.2, Section 6.3 and Section 6.5, the following will be charged to Customer: [* * *]",
+                "changed_text": "In the event that Customer cancels all or part of a Purchase Order already accepted by Supplier, Supplier will have no obligation to reallocate capacity or mitigate any resultant costs of such cancellation. Regardless of what is expressly set forth in Section 3.4, Section 6.2, Section 6.3 and Section 6.5, the following will NOT be charged to Customer: [* * *]",
+                "explanation": "The original text states that Supplier will use best efforts to mitigate costs from cancellation, implying a responsibility to reduce charges to the Customer. It then states that certain charges will be passed on. The modified text removes the 'best efforts' clause and explicitly says that Customer will NOT be charged for the listed items, contradicting the original allocation of responsibility for cancellation costs and creates uncertain enforcement.",
+                "location": "Section 6.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Customer and Supplier each represent that they are sufficiently insured against any liability arising under this Agreement. Further, Supplier shall at a minimum retain [* * *].",
+                "changed_text": "Customer and Supplier each represent that they MAY be sufficiently insured against any liability arising under this Agreement. Further, Supplier MAY retain [* * *].",
+                "explanation": "The original clause asserts a present fact: both parties represent they ARE sufficiently insured. The changed clause weakens this assertion by using 'MAY', implying that insurance is not a certainty. This makes the enforceability of insurance obligations doubtful, directly contradicting the original representation.",
+                "location": "Section 15.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall be binding upon and shall inure to the benefit of the Parties hereto and their successors and permitted assigns. Supplier shall not assign this Agreement, in whole or in part, to any person without the prior written consent of Customer, except to a Third Party which acquires all, or substantially all, of Supplier's business or assets, whether through merger or otherwise.",
+                "changed_text": "This Agreement shall be binding upon and shall inure to the benefit of the Parties hereto and their successors and permitted assigns. Supplier is free to assign this Agreement, in whole or in part, to any person without the prior written consent of Customer, even if a Third Party does not acquire all, or substantially all, of Supplier's business or assets, whether through merger or otherwise.",
+                "explanation": "The original clause restricts Supplier's ability to assign the agreement. The changed clause removes this restriction, granting Supplier the right to assign without Customer's consent. This flatly contradicts the original limitation on assignment and causes uncertainty.",
+                "location": "Section 19.1"
+            }
+        ]
+    }
+]

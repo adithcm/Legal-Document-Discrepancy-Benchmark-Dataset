@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HYPERIONSOFTWARECORP_09_28_1994-EX-10.47-EXCLUSIVEDISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Distributor shall adhere to the then current Developer Prices for each Product (collectively, the \"Prices\"). Developer's current Prices for each Product are set forth in Schedule C. Developer may increase or decrease the Prices for any or all Products upon written notice to Distributor. Distributor must receive, for each instance, express written permission from Developer to sell Product at any price other than such Prices.",
+                "changed_text": "Distributor shall adhere to the then current Developer Prices for each Product (collectively, the \"Prices\"). Developer's current Prices for each Product are set forth in Schedule C. Developer may increase or decrease the Prices for any or all Products upon written notice to Distributor. Distributor may, at its own discretion, offer promotional pricing or discounts to End-Users without prior approval from Developer.",
+                "explanation": "The original text states that the Distributor *must* receive permission to sell products at any price other than those set by the Developer. The modified text allows the Distributor to offer promotional pricing or discounts *without* prior approval, directly contradicting the original requirement and creating uncertainty about pricing control.",
+                "location": "2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall have an initial term of one (1) year from the date first above written (the \"Initial Term\"), and shall thereafter automatically renew for successive two (2) year periods (each a \"Renewal Term\"), unless earlier terminated in accordance with the terms of this Agreement. Developer may cancel this Agreement if the total gross annual software revenue does not meet DeVeloper's revenue forecast for the Distributor, such cancellation to be eftected by written notice delivered to Distributor not later than 30 days after any Developer's Fiscal Year end (June 30). Either party may cancel this Agreement effective on the last day of the Initial Term, or any Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be.",
+                "changed_text": "This Agreement shall have an initial term of one (1) year from the date first above written (the \"Initial Term\"), and shall thereafter automatically renew for successive two (2) year periods (each a \"Renewal Term\"), unless earlier terminated in accordance with the terms of this Agreement. Developer may cancel this Agreement if the total gross annual software revenue does not meet DeVeloper's revenue forecast for the Distributor, such cancellation to be eftected by written notice delivered to Distributor not later than 30 days after any Developer's Fiscal Year end (June 30). Either party may cancel this Agreement at any time with no prior notice.",
+                "explanation": "The original text defines a process in which the agreement will auto-renew under specific cancellation circumstances that requires 90 days notice, where the modified text allows immediate cancellation, directly contradicting the initial auto-renewal/notice requirements. The ambiguity would create uncertainty.",
+                "location": "8.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Distributor shall maintain accurate books and records of all End-User License Agreements granted for the Products (which will include at a minimum the location, type and number of products and sites, renewal and payment terms and any special conditions or terms), the End-Users receiving maintenance, and consulting and support services, payable under this Agreement. Upon reasonable notice to Distributor, Distributor shall make such books and records available to Developer, at Distributor's place of business during normal business hours, to audit the payments being made by Distributor hereunder.",
+                "changed_text": "Distributor shall maintain accurate books and records of all End-User License Agreements granted for the Products (which will include at a minimum the location, type and number of products and sites, renewal and payment terms and any special conditions or terms), the End-Users receiving maintenance, and consulting and support services, payable under this Agreement. Developer's right to audit Distributor's books and records is contingent upon Developer obtaining explicit permission from End-Users to do so.",
+                "explanation": "Originally, Developer could audit Distributor's records upon 'reasonable notice'. The revision requires the Developer to obtain permission from 'End-Users' (who aren't party to the agreement) before an audit. This contradicts Developer's right to access records and audit payments, making enforcement very difficult.  It's unlikely the end-users would cooperate, effectively nullifying the audit clause.",
+                "location": "3.2"
+            }
+        ]
+    }
+]

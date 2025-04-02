@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.",
+                "changed_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and may be renewed for successive one (1) year periods upon mutual agreement by both parties. Any renewals shall be subject to a renegotiation of terms. This is superseded by the cancellation or termination provisions contained in paragraph 18 of this Agreement, should either party want to end the agreement, but the terms of renewal are not guaranteed.",
+                "explanation": "The original text specifies automatic renewal, conflicting with the changed text which introduces a condition of 'mutual agreement'. This creates uncertainty on the renewal process and impacts the obligations of both parties as one expects automatic renewal while the other expects a mutual agreement to proceed.",
+                "location": "2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MA shall protect copyrights, tradenames, trademarks, service marks, trade secrets and other confidential proprietary rights and information of Company and its affiliates and report promptly any infringements or suspected infringements of which MA becomes aware and to cooperate fully with Company in its efforts to protect its copyrights, tradenames, trademarks, service marks, trade secrets and other confidential proprietary rights and information.",
+                "changed_text": "MA shall make reasonable efforts to protect copyrights, tradenames, trademarks, service marks, trade secrets and other confidential proprietary rights and information of Company and its affiliates and report promptly any infringements or suspected infringements of which MA becomes aware. MA's cooperation with Company in its efforts to protect its copyrights, tradenames, trademarks, service marks, trade secrets and other confidential proprietary rights and information will be at MA's discretion, with an expectation for payment for services rendered at a rate to be determined.",
+                "explanation": "The original text obligates MA to fully cooperate in protecting Company's IP. The changed text creates a contradiction by stating MA's cooperation is 'at MA's discretion' and expects compensation for services. This contradicts the previous requirement for full cooperation, introducing ambiguity about the extent of MA's responsibility and creating uncertainty for enforcement of the original obligation.",
+                "location": "3.5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company reserves the right to change its process and/or fees, from time to time, in its sole and absolute discretion. In the event of a price and/or fee change for Technology, Company shall notify MA in writing ninety (90) days prior to the effective date of any such change. All other prices and/or fees may be adjusted without prior notice to MA.",
+                "changed_text": "Company reserves the right to change its process and/or fees, from time to time, in its sole and absolute discretion. In the event of a price and/or fee change for Technology, Company may notify MA in writing ninety (90) days prior to the effective date of any such change but is not obligated. All other prices and/or fees may be adjusted without prior notice to MA, unless otherwise agreed upon.",
+                "explanation": "The original text states that the company 'shall' notify MA in writing regarding the price and/or fee change. The changed text says that the company 'may' notify MA in writing regarding the price and/or fee change but is not obligated. The two statements are contradicting. The original text clearly stated that involuntarily terminated employees must receive severance, while those who resign are not eligible. The modified version removes the certainty by introducing 'at the company’s discretion', making it unclear when severance applies. Additionally, allowing severance for resigning employees on a 'case-by-case basis' contradicts the prior statement that resignation does not qualify for severance. This internal contradiction could lead to disputes over severance entitlements.",
+                "location": "13"
+            }
+        ]
+    }
+]

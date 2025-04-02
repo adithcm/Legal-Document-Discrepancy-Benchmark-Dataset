@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.32 \"Exclusive Purchase Requirement\" means, on a Product SKU-by-Product SKU and country-by country basis within the applicable Territory, (a) in the first two (2) years of the Initial Term, one hundred percent (100%) of Customer's total requirements for such Product SKU and (b) in the third (3rd) year of the Initial Term, fifty percent (50%) of Customer's total requirements for such Product SKU; provided, however, that (x) such quantities of Product reasonably procured by Customer to qualify a back-up supplier for such Product shall be excluded from the Exclusive Purchase Requirement, and (y) for the avoidance of doubt, Customer may commercialize such quantities of Product procured under (x) above without violating the applicable Exclusive Purchase Requirement or related provisions in Section 2.1(e).",
+                "changed_text": "1.32 \"Exclusive Purchase Requirement\" means, on a Product SKU-by-Product SKU and country-by country basis within the applicable Territory, (a) in the first two (2) years of the Initial Term, one hundred percent (100%) of Customer's total requirements for such Product SKU and (b) in the third (3rd) year of the Initial Term, fifty percent (50%) of Customer's total requirements for such Product SKU. There are no exceptions to this requirement.",
+                "explanation": "The original text defines 'Exclusive Purchase Requirement' with specific percentages and provides exceptions for qualifying backup suppliers. The modified version removes these exceptions, creating a contradiction. This makes it unclear whether the customer can qualify backup suppliers without violating the Exclusive Purchase Requirement, causing uncertainty in enforcement.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(b) In each Fiscal Year of the Term of this Agreement, Manufacturer shall submit a report to Customer by no later than the end of the first quarter of such Fiscal Year setting out the Facility Actual Product Materials Cost with respect to each Facility for the prior Fiscal Year. In the event that the Facility Actual Product Materials Cost differs from the Facility Estimated Product Materials Cost, when adjusted to reflect actual volume, then Manufacturer shall issue either (A) an invoice to Customer for any amounts owed by Customer to Manufacturer or (B) a credit memo for amounts owed by Manufacturer to Customer reflecting the difference between the Price as invoiced and an adjusted Price for such Fiscal Year;",
+                "changed_text": "(b) In each Fiscal Year of the Term of this Agreement, Manufacturer shall submit a report to Customer by no later than the end of the first quarter of such Fiscal Year setting out the Facility Actual Product Materials Cost with respect to each Facility for the prior Fiscal Year. The Manufacturer may choose to not provide this report at their own discretion.",
+                "explanation": "The original text dictates that Manufacturer SHALL submit a report, to determine Facility Actual Product Materials Cost. The changed version states that they MAY choose to not provide this report. This makes it unclear whether the report is mandatory, thus the entire formula for price adjustment becomes uncertain.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Manufacturer agrees to notify Customer of any event that has resulted in or threatens the loss of its C-TPAT Benefits (if it is a member of the C-TPAT program) or alternatively jeopardizes Customer's retention of its own C-TPAT Benefits. In an effort to secure each part of the supply chain, Manufacturer agrees to work in good faith to become a member of the C-TPAT program, if Manufacturer is organized or incorporated in the United States, Mexico or Canada, or the equivalent supply chain security program criteria administered by the customs administration in Manufacturer's home country if Manufacturer is not organized or incorporated in the United States, Mexico or Canada.",
+                "changed_text": "Manufacturer may choose to notify Customer of any event that has resulted in or threatens the loss of its C-TPAT Benefits (if it is a member of the C-TPAT program) or alternatively jeopardizes Customer's retention of its own C-TPAT Benefits. Manufacturer is not required to become a member of the C-TPAT program.",
+                "explanation": "The original text states that Manufacturer agrees to notify customer of C-TPAT benefit loss. The changed text modifies this, stating they MAY choose to notify customer of C-TPAT benefit loss. Also, it originally states that Manufacturer agrees to work in good faith to become a member of C-TPAT program, and now the changed text states that they are not required. This creates uncertainty about enforcement and responsibilities to both parties.",
+                "location": "Section 14.2"
+            }
+        ]
+    }
+]

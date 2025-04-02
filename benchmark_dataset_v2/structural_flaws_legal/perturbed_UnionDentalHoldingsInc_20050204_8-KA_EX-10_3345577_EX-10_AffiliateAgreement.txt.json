@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Report to the other Party, in writing, any use and/or disclosure of\n      the  Confidential  Information  that is not  permitted  or required by this\n      Agreement of which a Party  becomes aware within five (5) days of a Party=s\n      discovery of such unauthorized use and/or disclosure;",
+                "changed_text": "Report to the other Party, in writing, any use and/or disclosure of\n      the  Confidential  Information  that is not  permitted  or required by this\n      Agreement of which a Party  becomes aware within five (5) days of a Party=s\n      discovery of such unauthorized use and/or disclosure; Unless information is not required by law.",
+                "explanation": "This introduces a contradiction by stating that unauthorized disclosures must be reported, but then creating an exception if the information is not required by law, creating ambiguity around the reporting requirements for confidential information.",
+                "contradicted_law": "HIPAA regulations regarding the mandatory reporting of data breaches.",
+                "location": "Section 3b"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Return to a Party or destroy, as requested by a Party, within\n      fifteen (15) days of the termination of this Agreement, any Confidential\n      Information provided to such Party and in its possession and retain no\n      copies or back-up tapes;",
+                "changed_text": "Return to a Party or destroy, as requested by a Party, within\n      fifteen (15) days of the termination of this Agreement, any Confidential\n      Information provided to such Party and in its possession and retain no\n      copies or back-up tapes; Unless the party feels the information will be needed at a later date.",
+                "explanation": "This introduces an ambiguity by adding an exception that undermines the requirement to return or destroy confidential information upon termination of the agreement, and grants one of the parties the discretion to retain the data indefinitely.",
+                "contradicted_law": "Trade secret law",
+                "location": "Section 3g"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and  representatives  from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements  of every  nature that are actually  incurred by a Party,  including without limitation reasonable attorney's fees for pre-trial,  trial,  appellate, judgment,  post-judgment,  execution, and alternative dispute resolution,  which arise out of any use or disclosure of Confidential  Information not specifically permitted by this  Agreement  or arise out of the services  rendered by Business Affiliate.",
+                "changed_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and  representatives  from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements  of every  nature that are actually  incurred by a Party,  including without limitation reasonable attorney's fees for pre-trial,  trial,  appellate, judgment,  post-judgment,  execution, and alternative dispute resolution,  which arise out of any use or disclosure of Confidential  Information not specifically permitted by this  Agreement  or arise out of the services  rendered by Business Affiliate; except for gross negligence.",
+                "explanation": "This introduces a contradiction to the general indemnification clause. The added clause absolves liability when there is gross negligence. It weakens the indemnification by protecting a party that is negligent.",
+                "contradicted_law": "Contract law regarding indemnification clauses.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

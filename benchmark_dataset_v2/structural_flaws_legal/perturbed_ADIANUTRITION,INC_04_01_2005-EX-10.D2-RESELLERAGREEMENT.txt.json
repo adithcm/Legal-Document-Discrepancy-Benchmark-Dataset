@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "4.1 PRODUCT WARRANTY. With respect to Qwik-Fix Pro delivered by PivX to Detto on CD-Rom, PivX warrants that for a period of thirty (30) days following delivery to Detto, the media on which Qwik-Fix Pro is furnished to Detto will be free from defects in materials and workmanship during normal use. PivX warrants that Qwik-Fix Pro will substantially conform to the user documentation. EXCEPT AS EXPRESSLY SET FORTH ABOVE, QWIK-FIX PRO AND DOCUMENTATION ARE PROVIDED \"AS IS\". PIVX HEREBY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+                "changed_text": "4.1 PRODUCT WARRANTY. With respect to Qwik-Fix Pro delivered by PivX to Detto on CD-Rom, PivX warrants that for a period of thirty (30) days following delivery to Detto, the media on which Qwik-Fix Pro is furnished to Detto will be free from defects in materials and workmanship during normal use. PivX warrants that Qwik-Fix Pro will substantially conform to the user documentation. PIVX HEREBY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, except when PivX deems otherwise in writing.",
+                "explanation": "The addition of 'except when PivX deems otherwise in writing' after the disclaimer of warranties creates a contradiction. While the original text clearly disclaims all implied warranties, the added phrase introduces uncertainty, potentially negating the disclaimer. This makes it difficult to determine the enforceability of the warranty disclaimer.",
+                "contradicted_law": "California Commercial Code § 2316 (or equivalent in other US states) which governs warranty disclaimers and requires them to be clear and unambiguous.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6.7 GOVERNING LAW. This Agreement shall be governed by and construed under the laws of the State of California, excluding conflict of laws provisions and excluding the 1980 United Nations Convention on Contracts for the International Sale of Goods. The parties consent to the personal and exclusive jurisdiction of and venue in the state and federal courts of Orange County, California, U.S.A. for any disputes arising out of this Agreement.",
+                "changed_text": "6.7 GOVERNING LAW. This Agreement shall be governed by and construed under the laws of the State of California, excluding conflict of laws provisions and excluding the 1980 United Nations Convention on Contracts for the International Sale of Goods. However, PivX reserves the right to pursue legal action in Detto's principal place of business.",
+                "explanation": "The clause originally specifies California law and jurisdiction. Adding 'However, PivX reserves the right to pursue legal action in Detto's principal place of business' introduces a jurisdictional contradiction. While California law is meant to govern, PivX can choose to litigate in Washington, potentially undermining the California choice of law provision and creating uncertainty.",
+                "contradicted_law": "General principles of contract law regarding choice of law and forum selection clauses. Contradicts the intended effect of the original clause.",
+                "location": "Section 6.7"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "5.2 TERMINATION OF AGREEMENT. PivX may terminate this Agreement for convenience by giving at least thirty (30) days written notice of termination to Detto. This Agreement may be terminated by either party in the event of a material breach of this Agreement by the other party that is not cured within thirty (30) days of the other party's receipt of written notice of such breach. If a material breach is cured within a thirty (30) day cure period this Agreement shall remain in effect as if no material breach had occurred. This Agreement shall terminate automatically without notice and without further action by the other party in the event that the other party becomes insolvent, which means it becomes unable to pay its debts in the ordinary course of business as they come due, or makes an assignment of this Agreement for the benefit of creditors.",
+                "changed_text": "5.2 TERMINATION OF AGREEMENT. PivX may terminate this Agreement for convenience by giving at least thirty (30) days written notice of termination to Detto. This Agreement may be terminated by either party in the event of a material breach of this Agreement by the other party that is not cured within thirty (30) days of the other party's receipt of written notice of such breach. If a material breach is cured within a thirty (30) day cure period this Agreement shall remain in effect as if no material breach had occurred. This Agreement shall terminate automatically without notice and without further action by the other party, except when the Parties mutually decide to not terminate this agreement, in the event that the other party becomes insolvent, which means it becomes unable to pay its debts in the ordinary course of business as they come due, or makes an assignment of this Agreement for the benefit of creditors.",
+                "explanation": "The clause stipulates that the agreement terminates automatically if a party becomes insolvent. The added exception, 'except when the Parties mutually decide to not terminate this agreement,' directly contradicts the 'automatic termination' provision. It introduces ambiguity regarding whether insolvency automatically terminates the agreement, thus reducing the clarity of the provision.",
+                "contradicted_law": "General principles of contract law concerning enforceability and consistency of terms.",
+                "location": "Section 5.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SMITHELECTRICVEHICLESCORP_04_04_2012-EX-10.26-FLEETMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.12 minor Bodywork repairs due to normal wear and tear in order to maintain Vehicles in roadworthy condition, specifically:\n     4.12.1 repairs to locks, catches, handles and hinges;\n     4.12.2 repairs to seats and seat frames;\n     4.12.3 repairs to window mechanisms (excluding glass);\n     4.12.4 minor repairs to remove sharp edges, straighten bent panels, refit bumpers and secure loose items.",
+                "changed_text": "4.12 minor Bodywork repairs MAY be undertaken due to normal wear and tear in order to maintain Vehicles in roadworthy condition, specifically:\n     4.12.1 repairs to locks, catches, handles and hinges;\n     4.12.2 repairs to seats and seat frames;\n     4.12.3 repairs to window mechanisms (excluding glass);\n     4.12.4 minor repairs to remove sharp edges, straighten bent panels, refit bumpers and secure loose items. However, SEV is NOT OBLIGATED to provide those repairs. The determination of whether or not the repairs is necessary will be made by SEV at its SOLE DISCRETION.",
+                "explanation": "The original text states what minor bodywork repairs include. The modified version adds \"MAY be undertaken\", creating uncertainty about whether bodywork repairs will occur. This is further exacerbated with the statement \"SEV is NOT OBLIGATED to provide those repairs\" and \"SOLE DISCRETION\" of the vendor on if such repairs are required.",
+                "location": "4.12"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.3 The Maintenance Charges shall be invoiced by SEV calendar monthly in advance and shall be payable by DCL within fourteen days  of the invoice date.",
+                "changed_text": "3.3 The Maintenance Charges shall be invoiced by SEV calendar monthly in advance and MAY be payable by DCL within fourteen days of the invoice date, PROVIDED that DCL deems the provided Maintenance Services to be SATISFACTORY. In the event DCL does not deem the services satisfactory DCL SHALL have NO OBLIGATION TO PAY. SEV shall then have 30 days to remediate its performance, after which DCL may still, in its SOLE DISCRETION, decline payment.",
+                "explanation": "The original text states that DCL SHALL pay within fourteen days. The changed text introduces uncertainty regarding if that payment is due and when that payments needs to occur. It allows the sole discretion of DCL to delay payments without any consequences.",
+                "location": "3.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "9.5 ensure that any faults or defects are reported without unnecessary delay to SEV using the procedure specified in the Contract\n  Procedure Manual;",
+                "changed_text": "9.5 ensure that any faults or defects ARE ENCOURAGED to be reported without unnecessary delay to SEV using the procedure specified in the Contract Procedure Manual, SUBJECT TO DCL'S INTERNAL PRIORITIES. Failure to report a fault or defect will in NO WAY affect SEV's performance of the agreement, and SEV agrees it will continue to honor its obligation to maintain the fleet even if it is not notified of a problem.",
+                "explanation": "The original text required immediate reporting. The modified text now provides contradictory instructions. The key change is that DCL are only now encouraged to report faults, creating uncertainty if they need to be reported or not. By creating internal priorities, it affects SEV's performance to provide services. With the inclusion of no effect of agreement statement, it is unclear what the implications are.",
+                "location": "9.5"
+            }
+        ]
+    }
+]

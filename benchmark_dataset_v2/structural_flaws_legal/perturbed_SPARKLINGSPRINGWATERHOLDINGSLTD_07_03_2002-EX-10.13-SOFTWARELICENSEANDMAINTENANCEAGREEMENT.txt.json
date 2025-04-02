@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPARKLINGSPRINGWATERHOLDINGSLTD_07_03_2002-EX-10.13-SOFTWARELICENSEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "12.  SPECIFICATIONS AND WARRANTY\n\n     For the acceptance period and for a period of one year from the Maintenance Commencement Date, and thereafter for as long as the Software is covered by Maintenance Services and is used by Sparkling in accordance with this Agreement, Garman warrants that the Software shall perform in conformance with the Specifications in all material respects.",
+                "changed_text": "19. NON-SOLICITATION OF EMPLOYEES\n\n     During the term of this Agreement and for a period of one year thereafter, both parties agree not to hire or allow its respective affiliates to hire any employee of the other party, or any person who was an employee of the other party during the previous six months and who was directly involved in the provision of services under this Agreement.\n\n     Garman warrants that the Software shall perform in conformance with the Specifications in all material respects for the acceptance period only.",
+                "explanation": "Moving the warranty clause from its own dedicated section to the section on non-solicitation makes it less prominent and harder to find. Also, limiting the time frame the warranty is good for the acceptance period may be misleading.",
+                "contradicted_law": "Contract Law - Warranty requirements, clarity and conspicuousness.",
+                "location": "Section 19"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15.  LIMITATION OF GARMAN'S LIABILITY\n\n     The exclusive remedy of either party in a claim against the other under this Agreement shall be the recovery of its direct damages. In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use. The parties agree that the limitation of liability in this paragraph reflects the allocation of risk between the parties and the price of the licenced Software. The limitation of liability in this Section 15 shall not apply to breaches of Sections 13 and 14.",
+                "changed_text": "20. GENERAL MATTERS\n\n     (a)    Time shall be of the essence with respect to all matters under this Agreement.\n\n     (b) The exclusive remedy of either party in a claim against the other under this Agreement shall be the recovery of its direct damages, unless otherwise specified. \n\n   (c)   All notices required or permitted to be given under this Agreement shall be given in writing and may be sent by personal delivery or facsimile transmission addressed to the recipient at the addresses shown below (or such other address as may be designated by notice in accordance with this Agreement):\n\n",
+                "explanation": "The Limitation of Liability clause has been moved to the General Matters section, making it less prominent and harder to find. It's been moved to 20(b) but includes 'unless otherwise specified', which contradicts the original exclusivity by allowing for unspecified exceptions, thus creating ambiguity about what other remedies might be available.",
+                "contradicted_law": "Contract Law - Limitation of Liability clauses, clarity and conspicuousness.",
+                "location": "Section 20(b)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "17.  TERM AND TERMINATION\n\n     (a)    This Agreement and the license granted under this Agreement shall remain in effect perpetually as long as fees are paid by Sparkling in accordance with the Fee Schedule and the Agreement is not otherwise terminated in accordance with this Section.\n\n     (b)    Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman. If Sparkling terminates this Agreement pursuant to this Section 17(b), Sparkling shall cease using the Software at the end of the ninety (90) day notice period, and shall certify to Garman within thirty (30) calendar days of termination that Sparkling has destroyed or has returned to Garman all Software, Documentation and Codes.",
+                "changed_text": "5. TRAINING\n\n     In conjunction with the installation of the Software at each existing or new Authorized Location, and prior to the commencement of acceptance testing at each Authorized Location, Garman shall provide as contracted a qualified personnel as specified in Schedule \"E.\" Garman shall also provide copies of reference documentation and manuals for training and reference by Sparkling's personnel.\n\n     This Agreement and the license granted under this Agreement shall remain in effect for one year from the date signed.",
+                "explanation": "The Term and Termination conditions were moved to the 'Training' section. This is an unexpected location for such a critical clause, making it less discoverable. Also, replacing 'perpetually as long as fees are paid' with 'for one year from the date signed' directly contradicts the perpetual nature stated in the original document.",
+                "contradicted_law": "Contract Law - Term and Termination clauses, clarity and conspicuousness.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

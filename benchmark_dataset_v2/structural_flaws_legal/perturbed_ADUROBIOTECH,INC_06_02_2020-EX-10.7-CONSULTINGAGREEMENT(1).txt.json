@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTINGAGREEMENT(1).txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Defend Trade Secrets Act Notice: Nothing herein shall prevent Consultant from reporting possible violations of federal or state law or regulation to any governmental agency or entity, or making other disclosures that are protected under the whistleblower provisions of federal or state law or regulation. Consultant does not need the prior authorization of Aduro to make any such reports or disclosures and is not required to notify Aduro that it has made such reports or disclosures. In addition, as set forth in 18 U.S.C. §1833(b), Consultant shall not be held criminally or civilly liable under any federal or state trade secret law for the disclosure of a trade secret that is made in confidence to a federal, state or local government official, either directly or indirectly, or to an attorney, and that is made solely for the purpose of reporting or investigating a suspected violation of law, or that is made in a complaint or other document filed in a lawsuit or other proceeding if such filing is made under seal.",
+                "changed_text": "Defend Trade Secrets Act Notice: Nothing herein shall prevent Consultant from making disclosures that are protected under the whistleblower provisions of federal or state law or regulation, if Aduro provides written authorization to do so.",
+                "explanation": "The original text provides whistleblower protections as per the Defend Trade Secrets Act. The modified text suggests that the consultant needs prior authorization from Aduro to make such disclosures, directly contradicting the purpose of whistleblower protection laws, which aim to encourage reporting without fear of retaliation.",
+                "contradicted_law": "Defend Trade Secrets Act (DTSA), various state whistleblower protection laws",
+                "location": "Paragraph 4(e)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Consultant represents as follows:\n\n(c) Consultant to perform the Services in accordance with all Applicable Law;",
+                "changed_text": "Consultant represents as follows:\n\n(c) Consultant will try to perform the Services in accordance with all Applicable Law;",
+                "explanation": "The original text states that the consultant *shall* perform the service in accordance with the law, creating an obligation. The modified text changes that to 'try', which reduces the strength of the legal obligation of the contractor. ",
+                "contradicted_law": "Contract Law - enforceable agreement",
+                "location": "Paragraph 8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In the event of a breach of this Paragraph 7 by Consultant, Aduro shall be entitled to entry of injunctive relief. Such injunctive remedy shall be nonexclusive and shall be in addition to any and all other remedies which may be available to it at law or in equity, including without limitation, the recovery of direct, indirect, incidental, consequential and/or punitive damages.",
+                "changed_text": "In the event of a breach of this Paragraph 7 by Consultant, Aduro may seek a settlement. Such settlement will be determined by mutual agreement between both parties, or the parties will seek mediation.",
+                "explanation": "The original text allows for entry of injunctive relief, the changed text limits the legal resolution to settlement or mediation, limiting Aduro's potential remedy.",
+                "contradicted_law": "Contract Law - legal remedies",
+                "location": "Paragraph 7"
+            }
+        ]
+    }
+]

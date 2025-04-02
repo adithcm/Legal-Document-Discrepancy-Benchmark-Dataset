@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Choice of Law This Agreement will be governed by the substantive laws of the State of New York, without regard for its conflict of laws provisions. Waiver of Jury Trial The parties waive any right to a jury trial in any proceeding arising out of or related to this Agreement.",
+                "changed_text": "Waiver of Jury Trial The parties waive any right to a jury trial in any proceeding arising out of or related to this Agreement. Choice of Law This Agreement will be governed by laws determined suitable by IBM, without regard for its conflict of laws provisions.",
+                "explanation": "The 'Choice of Law' clause originally specified New York law. By changing it to 'laws determined suitable by IBM' the agreement now grants IBM unilateral power to choose the governing law, which could severely disadvantage the Customer. This contradicts standard legal principles of mutual agreement and fairness in contracts.",
+                "contradicted_law": "General contract law principles requiring mutual agreement and fairness.",
+                "location": "Section 14.0"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Security Obligations IBM will: implement firewall settings and other security parameters as defined by Customer and accepted by IBM;",
+                "changed_text": "Security Obligations IBM will: implement firewall settings and other security parameters as defined by IBM, if they are amenable to them, and these configurations are subject to change without notice.",
+                "explanation": "Originally, firewall settings were defined by the Customer and accepted by IBM. The modification gives IBM the power to decide and change these settings. This transfer of control contradicts industry practices to protect Customer data.",
+                "contradicted_law": "Industry practices for data protection and security responsibility.",
+                "location": "Attachment A"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Availability Credits will be aggregated on a quarterly basis and settled by the last day of the first month following the end of the quarter in which such Availability Credits were earned.",
+                "changed_text": "Availability Credits will be aggregated on a quarterly basis and settled on a timeframe determined by IBM, pending Customer agreement.",
+                "explanation": "Originally, Availability Credits would be delivered on a regular schedule, however, after this change IBM can settle credits on a schedule of their choosing as well as if the Customer agrees. This reduces the chances of the customer receiving these credits.",
+                "contradicted_law": "Industry standards for SLA terms.",
+                "location": "Attachment A"
+            }
+        ]
+    }
+]

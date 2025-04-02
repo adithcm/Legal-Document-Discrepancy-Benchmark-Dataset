@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SONUSCORP_03_12_1997-EX-10.11-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "1.7               Governing Law\n\nThis  Agreement is governed by, and will be construed in  accordance  with,  the laws of British Columbia, Canada.",
+                "changed_text": "10.4              Governing Law\n\nThis Agreement  will be governed by the law of British  Columbia and the parties attorn to the  non-exclusive  jurisdiction of the courts of British Columbia for the resolution of all disputes arising in connection with this Agreement.",
+                "explanation": "Moving the governing law clause to the 'Miscellaneous' section buries a critical piece of information about which jurisdiction's laws apply. It is less discoverable in a section dealing with general administrative details.",
+                "contradicted_law": "General principles of contract law regarding clear and conspicuous terms, especially governing law.",
+                "location": "1.7 to 10.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.                INDEMNIFICATION\n\n8.1               Indemnification of Indemnified Parties\n\nThe Issuer  shall and does hereby  indemnify  and save the  Indemnified  Parties harmless from and against any liability,  claim, demand or loss,  excluding loss of  profits,  which the  Indemnified  Parties may  suffer,  whether  pursuant to statute or otherwise, howsoever arising, in consequence of:\n\n                  (a)      any  statement  or  omission  in the  Prospectus,  or\n                            otherwise made or omitted by the Issuer in connection\n                            with the  Offering,  being or being  alleged  to be a\n                            misrepresentation;\n\n                  (b)      the  Issuer not  complying  with any  requirement  of\n                            applicable   legislation  of  Canada  or  of  British\n                            Columbia or Alberta; or\n\n                  (c)      any  order  made  or any  inquiry,  investigation  or\n                            proceeding commenced,  threatened or announced by any\n                            securities  regulatory  authority or other  competent\n                            authority  in  British  Columbia,  Alberta or Ontario\n                            which prevents or restricts trading in or the sale or\n                            distribution  in British  Columbia and Alberta of the\n                            Securities.",
+                "changed_text": "8.                INDEMNIFICATION\n\n8.1               Indemnification of Indemnified Parties\n\nThe Issuer  may indemnify  and save the  Indemnified  Parties harmless from and against any liability,  claim, demand or loss,  excluding loss of  profits,  which the  Indemnified  Parties may  suffer,  whether  pursuant to statute or otherwise, howsoever arising, in consequence of:\n\n                  (a)      any  statement  or  omission  in the  Prospectus,  or\n                            otherwise made or omitted by the Issuer in connection\n                            with the  Offering,  being or being  alleged  to be a\n                            misrepresentation;\n\n                  (b)      the  Issuer not  complying  with any  requirement  of\n                            applicable   legislation  of  Canada  or  of  British\n                            Columbia or Alberta; or\n\n                  (c)      any  order  made  or any  inquiry,  investigation  or\n                            proceeding commenced,  threatened or announced by any\n                            securities  regulatory  authority or other  competent\n                            authority  in  British  Columbia,  Alberta or Ontario\n                            which prevents or restricts trading in or the sale or\n                            distribution  in British  Columbia and Alberta of the\n                            Securities.",
+                "explanation": "Changing 'shall' to 'may' significantly weakens the indemnification clause. 'Shall' implies a mandatory obligation, while 'may' suggests it is discretionary. This introduces ambiguity and makes it less certain that the Indemnified Parties will be protected.",
+                "contradicted_law": "Principles of contract interpretation, specifically regarding the enforceability of indemnification clauses.",
+                "location": "8.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.1              Amendments, Etc.\n\nNo amendment or waiver of any  provision  of this  Agreement  nor consent to any departure by the Issuer  therefrom shall in any event be effective  unless it is in writing and signed by the  Sponsor  and then such  waiver or consent  will be effective only in the specific  instance and for the specific  purpose for which given.",
+                "changed_text": "10.1              Amendments, Etc.\n\nNo amendment or waiver of any  provision  of this  Agreement  nor consent to any departure by the Issuer  therefrom shall in any event be effective  unless it is in writing and signed by either the  Sponsor or the Issuer, and then such  waiver or consent  will be effective only in the specific  instance and for the specific  purpose for which given.",
+                "explanation": "By changing the requirement for the amendment or waiver to be signed by either the Sponsor or the Issuer, the power to amend or waive provisions is broadened. The original clause stipulates that amendments or waivers require the signature of the Sponsor, and only then is the waiver effective for the specific case. Changing the signature requirement to either party means the counter-party could be subjected to the amendments without any recourse.",
+                "contradicted_law": "Law pertaining to proper authority to change contract terms.",
+                "location": "10.1"
+            }
+        ]
+    }
+]

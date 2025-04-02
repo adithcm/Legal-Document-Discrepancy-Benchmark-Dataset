@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MPLXLP_06_17_2015-EX-10.1-TRANSPORTATIONSERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EACH PARTY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY IN RESPECT OF ANY PROCEEDINGS RELATING TO THIS AGREEMENT OR ANY PERFORMANCE OR FAILURE TO PERFORM OF ANY OBLIGATION HEREUNDER.",
+                "changed_text": "EACH PARTY WAIVES ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY IN RESPECT OF ANY PROCEEDINGS RELATING TO THIS AGREEMENT OR ANY PERFORMANCE OR FAILURE TO PERFORM OF ANY OBLIGATION HEREUNDER, UNLESS SUCH WAIVER IS NOT PERMITTED BY APPLICABLE LAW.",
+                "explanation": "By adding 'UNLESS SUCH WAIVER IS NOT PERMITTED BY APPLICABLE LAW', this creates a legal contradiction because it first states a waiver and then undermines the waiver contingent on legal permissibility. This introduces ambiguity, potentially weakening the enforceability of the jury trial waiver, particularly under the Seventh Amendment and relevant state laws that govern waivers.",
+                "contradicted_law": "Seventh Amendment to the United States Constitution; Ohio state laws regarding contract waivers.",
+                "location": "Section 18.5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Financial Information. Shipper shall provide to MPL, at any time: (i) upon MPL's request, information ('Financial Information') that will allow MPL to assess (or reassess) and establish creditworthiness and Shipper's capacity to perform any financial obligations that could arise from the transportation of Shipper's Crude Petroleum on the Pipeline; and (ii) upon MPL's good faith determination (which shall be no less than industry standards) of non-creditworthiness, MPL may request, financial assurance in respect of transportation or other services ('Financial Assurances'). Financial Assurances shall be limited to a guarantee from the parent company of Shipper in a form and substance acceptable to MPL and sufficient in amount to cover 6-months of Shipper's obligations to MPL so long as the guarantor has sufficient creditworthiness as set forth in this Section; and if not, MPL may then request an irrevocable standby letter of credit in a form and from an issuer acceptable to MPL, and in an amount no greater than 6-months of tolls based on the Quarterly Volume Commitment, plus all applicable taxes.",
+                "changed_text": "Financial Information. Shipper shall provide to MPL, at any time: (i) upon MPL's request, information ('Financial Information') that will allow MPL to assess (or reassess) and establish creditworthiness; and (ii) upon MPL's determination of non-creditworthiness, MPL may request, financial assurance in respect of transportation or other services ('Financial Assurances'). Financial Assurances may include a guarantee from any company with assets, and may request an irrevocable standby letter of credit from any issuer, and in any amount. The issuer determining the financial amount.",
+                "explanation": "The original text states that financial assurances are based on 'industry standards,' limited to a parent company guarantee if creditworthy, and caps the LOC amount. The modified version removes the 'industry standards,' allows guarantees from 'any company with assets' regardless of actual creditworthiness, removes any cap on the letter of credit, and adds 'The issuer determining the financial amount,' which creates contradiction because the issuer would not be involved in determining what amount is needed.",
+                "contradicted_law": "General contract law principles of good faith and fair dealing; Potential violation of the Uniform Commercial Code (UCC) regarding commercially reasonable practices.",
+                "location": "Section 17.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be construed and interpreted in accordance with the laws of the State of Ohio, without recourse to any principles of law governing conflicts of law, which might otherwise be applicable.",
+                "changed_text": "This Agreement shall be construed and interpreted in accordance with the laws of the State of Ohio, with recourse to any principles of law governing conflicts of law, when applicable.",
+                "explanation": "By explicitly stating 'with recourse to any principles of law governing conflicts of law, when applicable,' the modified clause introduces a direct contradiction to the original clause that specifically excludes such recourse. This creates ambiguity and uncertainty about which jurisdiction's laws will govern the contract, potentially invalidating the choice of law provision. Given that conflicts of law principles determine which jurisdiction's laws apply when there are competing legal systems, this contradiction undermines the predictability and enforceability of the contract.",
+                "contradicted_law": "Contract law principles regarding choice of law provisions; Ohio Revised Code related to contract interpretation.",
+                "location": "Section 14"
+            }
+        ]
+    }
+]

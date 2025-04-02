@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_MarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The term of this Agreement (the \"Term\") will begin on the date hereof (the \"Commencement Date\"), and will continue until the earlier of (i) December 31, 2022, (ii) the termination or expiration of the Studio Lease (defined below), (iii) election to terminate and notice thereof given by Programmer to Licensee, and (iv) mutual written consent of Licensee and Programmer (the \"Term\"), unless extended or earlier terminated pursuant to Section 11 hereof. The term \"Studio Lease\" means that certain Lease dated as of February 23, 1996 of certain real estate located on the 7th Floor of an office building located at 395 Hudson St., New York, New York.",
+                "changed_text": "The term of this Agreement (the \"Term\") will begin on the date hereof (the \"Commencement Date\"), and will continue indefinitely, unless terminated as defined in Section 11 hereof. The term \"Studio Lease\" means that certain Lease dated as of February 23, 1996 of certain real estate located on the 7th Floor of an office building located at 395 Hudson St., New York, New York.",
+                "explanation": "The original text specifies a clear end date for the agreement. The modified version changes the term to \"continue indefinitely,\" directly contradicting the initially defined term and creates ambiguity. Now the end date is not clear.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Programmer shall not separately sell advertising time on the HD2 Channel but may market the WLIB Programs as being rebroadcast on the HD2 Channel.",
+                "changed_text": "Programmer is authorized to separately sell advertising time on the HD2 Channel and may market the WLIB Programs as being rebroadcast on the HD2 Channel.",
+                "explanation": "The original text explicitly prohibits Programmer from selling advertising time on the HD2 Channel. The modified text directly contradicts this by authorizing the Programmer to sell advertising time, creating confusion about whether they are permitted to do so.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Upon the occurrence of an Event of Default, and in the absence of a timely cure pursuant to Section 11.3, the non-defaulting party may terminate this Agreement, effective immediately upon written notice to the defaulting party.",
+                "changed_text": "Upon the occurrence of an Event of Default, and in the absence of a timely cure pursuant to Section 11.3, the non-defaulting party may, at their sole discretion, choose to ignore the default and continue the agreement indefinitely, or terminate this Agreement, effective immediately upon written notice to the defaulting party.",
+                "explanation": "The original text allows termination upon default. The modified text introduces an option for the non-defaulting party to 'ignore the default and continue the agreement indefinitely,' directly contradicting the right to terminate. This makes enforcement of the default clause uncertain.",
+                "location": "Section 11.4"
+            }
+        ]
+    }
+]
