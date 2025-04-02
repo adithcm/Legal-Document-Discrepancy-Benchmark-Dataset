@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.1      \"SOFTWARE USER\" means a named user of the Corio Services worldwide to          whom a user identification number and password has been assigned, which          permits that user to access and use the Software on a designated Corio          Server. The identification number and password used by a Software User          is reusable and reassignable and may be used and transferred by Corio,          in accordance with the licenses granted below, between Customers as one          Customer discontinues the Corio Services and another Customer          subscribes.",
+                "changed_text": "1.1      \"SOFTWARE USER\" means any individual, whether named or unnamed, using the Corio Services, irrespective of assigned credentials. This broad definition allows any person to access the software on a Corio Server. The credentials used by a Software User are non-transferable, and tied to the original subscriber, and cannot be reused.",
+                "explanation": "The original definition specifies a 'named user' with assigned credentials, implying controlled access. The modified definition broadens this to 'any individual,' removing the 'named' aspect and contradicting the notion of controlled, credential-based access, which would be important for compliance in areas like data security and user accountability under laws like GDPR if personal data is involved.",
+                "contradicted_law": "GDPR (if personal data is involved), Data Security Laws",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.12     \"UPDATE(S)\" means any error corrections, bug fixes, modifications or          enhancements to the Software made generally available by Changepoint to          its licensees, which are indicated by a change in the numeric          identifier to the Software in the digit to the right of the decimal, or          any error corrections, bug fixes, modifications or enhancements of the          Software.",
+                "changed_text": "1.12     \"UPDATE(S)\" means any error corrections, bug fixes, modifications or enhancements to the Software, made available by Changepoint at its discretion, and communicated by any means deemed suitable by Changepoint.",
+                "explanation": "The original definition ties updates to specific numeric identifier changes, providing a clear and objective criterion. The modified version makes update availability and communication discretionary, conflicting with standard software maintenance definitions that imply a reasonable level of consistency and notification.",
+                "contradicted_law": "Standard Software Maintenance Agreements",
+                "location": "Section 1.12"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "2.10     PREFERRED RELATIONSHIP. During the one (1) year period commencing on          the Effective Date (i) Changepoint and its affiliates, to the extent          they publicly promote, market or advertise hosting services for the          Software, will Publicly Promote Corio as its preferred hosting supplier          and partner for the Software and will, in any non-public marketing or          promotion of the Software, treat Corio as its preferred partner and          supplier of hosting services for the Software, and (ii) Corio and its          affiliates, to the extent they publicly promote, market or",
+                "changed_text": "2.10     PREFERRED RELATIONSHIP. During the one (1) year period commencing on the Effective Date (i) Changepoint and its affiliates, to the extent they publicly promote, market or advertise hosting services for the Software, will consider Corio as one of many potential hosting suppliers and partners, and (ii) Corio and its affiliates, to the extent they publicly promote, market or",
+                "explanation": "The original definition states Changepoint will 'Publicly Promote Corio as its preferred hosting supplier', which is a clear preference. This is contradicted by now stating Changepoint will consider Corio as 'one of many potential hosting suppliers and partners', removing the notion of preference.",
+                "contradicted_law": "Breach of Contract",
+                "location": "Section 2.10"
+            }
+        ]
+    }
+]

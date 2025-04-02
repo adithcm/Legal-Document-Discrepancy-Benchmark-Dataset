@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AULAMERICANUNITTRUST_04_24_2020-EX-99.8.77-SERVICING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "You will be deemed to be an independent contractor, and will have no authority to act as agent for either Nationwide or the Funds in any matter or in any respect. Notwithstanding the foregoing, Nationwide, on behalf of each Fund, appoints you as each Fund's agent for the limited purpose of accepting orders for purchase, redemption and exchange of Shares, and receipt of such orders by you therefore shall constitute receipt by the applicable Fund of such orders for purposes of determining the price per Share at which such orders will be executed, in accordance with Rule 22c-1 under the 1940 Act.",
+                "changed_text": "You will be deemed to be an independent contractor, and will have no authority to act as agent for either Nationwide or the Funds in any matter or in any respect. Notwithstanding the foregoing, Nationwide, on behalf of each Fund, considers you a service provider for the limited purpose of accepting orders for purchase, redemption and exchange of Shares, and receipt of such orders by you therefore shall constitute receipt by the Servicing Agent.",
+                "explanation": "The original text clearly defines the servicing agent as an 'agent' with limited powers under the Investment Company Act of 1940. The modified text changes 'agent' to 'service provider' and removes the direct relationship between order receipt and fund execution under Rule 22c-1. This creates conflict because 'service provider' lacks a clear legal definition in this context, and the removal of reference to the 1940 act creates ambiguity regarding the timing and pricing of share transactions.",
+                "contradicted_law": "Investment Company Act of 1940, Rule 22c-1",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Customer Information means any information contained on an application of a customer (\"Customer\") of a Fund or other form and all nonpublic personal information about a Customer that a party receives from the other party. Customer Information includes, by way of example and not limitation, name, address, telephone number, social security number, date of birth and personal financial information.",
+                "changed_text": "Customer Data means any information contained on an application of a customer (\"Customer\") of a Fund or other form and all nonpublic personal information about a Customer that a party receives from the other party. Customer Data includes, by way of example and not limitation, name, address, telephone number, customer identification number, date of birth and general financial information.",
+                "explanation": "Changing 'Customer Information' to 'Customer Data' and replacing 'social security number' with 'customer identification number' along with 'personal financial information' to 'general financial information' creates ambiguity and contradicts the intended scope of privacy protection. 'Customer Identification Number' isn't clearly defined, and limiting it to 'general' financial information could be interpreted to exclude specific financial details, weakening the protections required under Privacy Laws like the Gramm-Leach-Bliley Act.",
+                "contradicted_law": "Gramm-Leach-Bliley Act, Regulation S-P, and state privacy laws",
+                "location": "Section 15"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Funds agree not to use the information received for marketing or any other similar purpose without your prior written consent.",
+                "changed_text": "The Funds agree not to use the information received for direct marketing purposes without your prior written consent.",
+                "explanation": "Adding the word 'direct' before marketing narrows the restriction. The original text prohibits using shareholder information for 'marketing or any other similar purpose,' providing a broad protection. By limiting it to 'direct marketing purposes', the Funds could argue that other uses of the information, such as data analytics, indirect marketing, or list enhancement, are permissible without consent. This undermines the shareholder's control over their information and could be seen as a breach of trust.",
+                "contradicted_law": "SEC Rule 22c-2",
+                "location": "Section 18.1.3"
+            }
+        ]
+    }
+]

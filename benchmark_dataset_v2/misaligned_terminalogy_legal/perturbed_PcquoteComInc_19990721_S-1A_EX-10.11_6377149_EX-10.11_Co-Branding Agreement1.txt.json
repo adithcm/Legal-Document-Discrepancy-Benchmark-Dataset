@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "SOFTWARE\n\nPC QUOTE 6.0-TM- for Windows on the Internet is a software application that displays market data information, provided via the digital Hyperfeed, in the form of quotes, charts, graphs, tables, board views, tickers and other analytical tools.",
+                "changed_text": "SOFTWARE\n\nPC QUOTE 6.0-TM- for Windows on the Internet is a collection of digital content. This content may or may not display market data information and may be subject to arbitrary alteration.",
+                "explanation": "The original definition of \"SOFTWARE\" is specific and tied to displaying market data. The modified definition broadens it to \"digital content\" and introduces uncertainty by stating it \"may or may not\" display market data and can be \"arbitrarily altered.\" This contradicts the implied reliance on accurate and reliable data, potentially violating SEC regulations or FINRA rules requiring accurate financial data.",
+                "contradicted_law": "SEC Regulations, FINRA Rules regarding accurate financial data",
+                "location": "Definitions section"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "HYPERFEED\n\nThe PC Quote proprietary digital data feed transmitted via satellite, land line, or Internet with advanced compression technology, containing financial market information obtained by PCQ from the institutions and exchanges listed in Section 5 of this Agreement.  This market data includes stock quotes, futures and options trading, commodities, and other related information.",
+                "changed_text": "HYPERFEED\n\nThe PC Quote data stream transmitted via any means. It contains information which PCQ deems pertinent. PCQ has no obligation to include or exclude any data. This data may not include stock quotes.",
+                "explanation": "The original definition of \"HYPERFEED\" clearly defines its content as \"financial market information\" obtained from specific sources. The modified definition removes any such guarantees and grants PCQ complete discretion over the content, even to the point of possibly excluding stock quotes. This undermines the entire purpose of the agreement and raises concerns about compliance with regulations requiring accurate and complete market data. By including 'PCQ has no obligation to include or exclude any data,' it makes the obligation of PCQ open to interpretation.",
+                "contradicted_law": "SEC Regulations, FINRA Rules regarding provision of accurate financial data",
+                "location": "Definitions section"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "LIABILITY UNDER THIS AGREEMENT FROM ANY AND ALL CAUSES, INCLUDING, BUT NOT LIMITED TO, PROGRAM MALFUNCTION OR OPERATIONAL NEGLIGENCE, SHALL BE LIMITED TO GENERAL MONEY DAMAGES IN AN AMOUNT NOT TO EXCEED THE TOTAL CHARGES PAID BY ABW FOR THE SERVICES DURING THE MOST RECENT TWELVE (12) MONTHS OF THE AGREEMENT. SUCH LIMITATION SHALL BE THE EXTENT OF PCQ OR ABW'S LIABILITY REGARDLESS OF THE FORM IN WHICH ANY LEGAL OR EQUITABLE ACTION MAY BE BROUGHT AGAINST PCQ OR ABW, AND THE FOREGOING SHALL CONSTITUTE PCQ'S OR ABW'S SOLE REMEDY.  IN NO EVENT WILL EITHER PARTY BE RESPONSIBLE FOR LOST PROFITS OR SPECIAL INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES WHICH ABW OR PCQ INCUR OR EXPERIENCE ON ACCOUNT OF ENTERING INTO OR RELYING ON THIS AGREEMENT, EVEN IF PCQ OR ABW HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "changed_text": "LIABILITY UNDER THIS AGREEMENT FROM ANY AND ALL CAUSES, INCLUDING, BUT NOT LIMITED TO, PROGRAM MALFUNCTION OR OPERATIONAL NEGLIGENCE, SHALL BE LIMITED TO REASONABLE MONEY DAMAGES. SUCH LIMITATION SHALL BE THE EXTENT OF PCQ OR ABW'S LIABILITY REGARDLESS OF THE FORM IN WHICH ANY LEGAL OR EQUITABLE ACTION MAY BE BROUGHT AGAINST PCQ OR ABW, AND THE FOREGOING SHALL CONSTITUTE PCQ'S OR ABW'S SOLE REMEDY.  IN NO EVENT WILL EITHER PARTY BE RESPONSIBLE FOR LOST PROFITS OR SPECIAL INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES WHICH ABW OR PCQ INCUR OR EXPERIENCE ON ACCOUNT OF ENTERING INTO OR RELYING ON THIS AGREEMENT, EVEN IF PCQ OR ABW HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "explanation": "The original text specified the limit as the amount paid in the last 12 months. This creates a fixed, calculable amount. The modified text replaces this with \"reasonable money damages.\" This introduces ambiguity and shifts the liability determination to a court or arbitrator, making it difficult to predict the extent of liability. In Illinois, limitations on liability must be clear and unequivocal. Replacing it with reasonable money damages could lead to litigation about the definition of \"reasonable.\" This change also impacts the enforceability of the liability clause under Illinois law, which generally permits such limitations if they are conspicuous and unambiguous.",
+                "contradicted_law": "Illinois contract law regarding limitations of liability, specifically the requirements for clarity and unambiguity.",
+                "location": "Section 6. C."
+            }
+        ]
+    }
+]

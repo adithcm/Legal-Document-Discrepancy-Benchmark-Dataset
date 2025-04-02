@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in accordance with the laws of the State of Michigan.",
+                "changed_text": "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in accordance with principles of equity and fairness, as determined solely by the Transporter.",
+                "explanation": "This change replaces the standard legal recourse of applying Michigan state laws with a subjective standard of 'equity and fairness' decided by one party (the Transporter). This contradicts the established legal framework where disputes are resolved impartially under applicable laws, potentially violating due process and principles of contract law.",
+                "contradicted_law": "Contract Law, Due Process",
+                "location": "13"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate Schedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time to time. Transporter may file and seek Commission approval under Section 4 of the Natural Gas Act (NGA) at any time and from time to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the \"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the right to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes and any such changes",
+                "changed_text": "This Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate Schedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time to time. Transporter may unilaterally modify the applicable Rate Schedule (as stated above) and the \"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, without prior notice or approval, and this Agreement shall be deemed to include such changes.",
+                "explanation": "This change removes the requirement for Commission approval under Section 4 of the Natural Gas Act (NGA) for changes to rates and conditions. It allows the Transporter to unilaterally modify the terms, contradicting the regulated nature of gas tariffs and potentially violating the NGA and related regulations regarding fair pricing and regulatory oversight.",
+                "contradicted_law": "Natural Gas Act (NGA), FERC regulations",
+                "location": "12"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Unless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates and charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on file with the Commission unless otherwise agreed to by the parties in writing.",
+                "changed_text": "Rates shall be determined solely by the Transporter, based on prevailing market conditions, irrespective of the maximum rate or any agreement with the Shipper. Any reference to the 'maximum rate' is for informational purposes only and does not bind the Transporter.",
+                "explanation": "This change contradicts the regulated rate structure implied by referencing the Commission and the existing 'maximum rate'. It gives the Transporter complete discretion over rates, potentially violating regulations designed to ensure fair pricing and prevent market manipulation. This contradicts the initial understanding of a pre-defined rate schedule.",
+                "contradicted_law": "FERC regulations, Natural Gas Act (NGA)",
+                "location": "9"
+            }
+        ]
+    }
+]

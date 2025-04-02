@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Apollo Endosurgery - Manufacturing and Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.4\"Current Good Manufacturing Practices\" (abbreviated \"GMPs\" or \"cGMPs\") shall mean, a) for any period during the Term during which ESTABLISHMENT has received FDA certification, the standards established by the United States Food and Drug Administration (the \"FDA\") for current Good Manufacturing Practices, as specified in FDA 21 C.F.R. §820 Quality Systems Regulations (or its successor provisions); and b) ISO 13485 Medical Devices - Quality Management Systems and other sections so designated by the title \"Good Manufacturing Practices\"; and c) as applicable to each respective Product to be manufactured and/or supplied by ESTABLISHMENT.",
+                "changed_text": "1.4\"Acceptable Manufacturing Practices\" (abbreviated \"AMPs\") shall mean, a) during the Term, the standards ESTABLISHMENT deems appropriate; and b) guidelines outlined by ISO 13485 and other sections designated as manufacturing benchmarks; and c) as ESTABLISHMENT considers suitable for each respective Product to be manufactured and/or supplied.",
+                "explanation": "The term \"Current Good Manufacturing Practices\" (cGMPs) has a specific legal definition under FDA regulations. Changing it to \"Acceptable Manufacturing Practices\" (AMPs) and removing the direct reference to FDA standards introduces ambiguity and contradicts established regulatory requirements. By allowing ESTABLISHMENT to determine standards, it violates the baseline requirements the FDA has for medical device manufacturing.",
+                "contradicted_law": "FDA 21 C.F.R. §820 Quality Systems Regulations",
+                "location": "Section 1.4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "5.3Delivery. Unless expressly provided otherwise in the applicable Purchase Order, shipping to APOLLO for the Product shall be Ex Works - ESTABLISHMENT (Incoterms 2010). The Product will be packaged and shipped per the Specifications and using a shipper and insurance coverage approved by APOLLO. In the event that any delivery of the Product is anticipated to be late, ESTABLISHMENT will promptly notify APOLLO of the circumstances for the delay and, upon request, ESTABLISHMENT will take reasonable steps to minimize the delay. At the request of APOLLO, ESTABLISHMENT will provide a written corrective action for the result of delays caused by events under the Span of Control of ESTABLISHMENT.",
+                "changed_text": "5.3Delivery. Unless otherwise dictated, shipping to APOLLO shall be at ESTABLISHMENT's discretion. The Product packaging and shipper selection is ESTABLISHMENT's responsibility. ESTABLISHMENT will attempt to notify APOLLO of any delivery delays, but is not obligated to do so. ESTABLISHMENT may provide a verbal explanation of any delays, or no explanation at all.",
+                "explanation": "The original text adheres to Incoterms 2010, a standardized international trade term that clearly defines the responsibilities and liabilities of the buyer and seller. The changed text removes this reference and introduces vague language that gives ESTABLISHMENT broad discretion, undermining APOLLO's ability to rely on established delivery terms and could contradict international trade law by failing to provide clarity of delivery terms.",
+                "contradicted_law": "Incoterms 2010",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "6.1Product Warranty. ESTABLISHMENT warrants that all Product supplied under this Agreement shall, when it leaves ESTABLISHMENT's possession and control, conform with the Specifications and shall be free from defects in materials and workmanship.",
+                "changed_text": "6.1Product Warranty. ESTABLISHMENT suggests that all Product supplied under this Agreement, when it leaves ESTABLISHMENT's facilities, will generally align with expectations and should be mostly free from significant defects.",
+                "explanation": "The original text provides a clear warranty that the product will conform to specifications and be free from defects, a standard requirement in commercial contracts. Changing \"warrants\" to \"suggests\", replacing \"conform with the Specifications\" with \"generally align with expectations\", and adding \"mostly free from significant defects\" weakens the warranty significantly, making it unenforceable and contradictory to common commercial law principles regarding product warranties.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Implied Warranty of Merchantability",
+                "location": "Section 6.1"
+            }
+        ]
+    }
+]

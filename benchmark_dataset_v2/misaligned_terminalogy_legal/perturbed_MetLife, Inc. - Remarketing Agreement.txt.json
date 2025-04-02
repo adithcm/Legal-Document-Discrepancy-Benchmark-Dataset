@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MetLife, Inc. - Remarketing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day on which banking institutions in New York, New York are authorized or required by law or executive order to remain closed.",
+                "changed_text": "As used herein, \"Business Day\" means any weekday, irrespective of whether banking institutions in New York, New York are open or closed, unless otherwise agreed in writing.",
+                "explanation": "The original definition aligns with the standard legal interpretation of a 'Business Day,' which excludes weekends and bank holidays. The modified definition broadens it to include any weekday, regardless of bank closures, contradicting established legal norms and potentially causing confusion and disputes about deadlines and obligations.",
+                "contradicted_law": "General Contract Law, interpretation of 'Business Day'",
+                "location": "Following Remarketing Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(c) On the Remarketing Date, the Remarketing Agents shall use their commercially reasonable efforts to remarket the Remarketed Securities tendered or deemed tendered for purchase, at a price which results in cash proceeds equal to at least the sum of (i) the remarketing fee to be paid to the Remarketing Agents in connection with the Remarketing in an amount to be specified in the Pricing Agreement (such fee, the \"Remarketing Fee\"), (ii) 100% of the aggregate principal amount of such Remarketed Securities, (iii) the accrued and unpaid interest to, but not including, the Initial Scheduled Third Stock Purchase Date on such Remarketed Securities and (iv) the product of five basis points (0.05%) and the aggregate principal amount of such Remarketed Securities (such sum, the \"Remarketing Price\").",
+                "changed_text": "(c) On the Remarketing Date, the Remarketing Agents shall use their best endeavors to remarket the Remarketed Securities tendered or deemed tendered for purchase, at a price which results in cash proceeds to be determined at their sole discretion.",
+                "explanation": "The original contract specifies 'commercially reasonable efforts' to achieve a specific 'Remarketing Price.' The modified version changes the standard to 'best endeavors' (a higher standard) and removes the price target, granting the Remarketing Agents full discretion over the cash proceeds. This introduces a contradiction because 'best endeavors' is a legally stronger obligation than 'commercially reasonable efforts', and the removal of the price target undermines the financial objective of the remarketing process, creating uncertainty about the expected outcome.",
+                "contradicted_law": "Contract Law - Duty of Care, Financial Regulations (regarding fair pricing)",
+                "location": "Section 1(c)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "changed_text": "15. GOVERNING LAW. This Remarketing Agreement and the Pricing Agreement shall be interpreted using general principles of equity and fairness, without reference to any specific laws or regulations.",
+                "explanation": "The original clause specifies New York law as the governing law, providing legal certainty. The modification replaces this with 'general principles of equity and fairness,' effectively removing a clearly defined legal framework. This creates a direct contradiction by dismissing a specific legal system in favor of subjective principles, making the contract's enforcement unpredictable and legally dubious.",
+                "contradicted_law": "General Contract Law - Choice of Law, principles of legal interpretation",
+                "location": "Section 15"
+            }
+        ]
+    }
+]
