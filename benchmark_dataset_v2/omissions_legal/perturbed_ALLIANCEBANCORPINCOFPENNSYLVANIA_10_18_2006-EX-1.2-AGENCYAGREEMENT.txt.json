@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Bank is a member in good standing of the Federal Home Loan Bank of Pittsburgh; the deposit accounts of the Bank are insured by the FDIC up to the applicable limits. The Bank is a \"qualified thrift lender\" within the meaning of 12 U.S.C. Section 1467a(m).",
+                "changed_text": "The Bank is a member in good standing of the Federal Home Loan Bank of Pittsburgh; deposit accounts of the Bank may be insured. The Bank may be a \"qualified thrift lender\" within the meaning of 12 U.S.C. Section 1467a(m).",
+                "explanation": "The original text states deposit accounts are insured by the FDIC 'up to the applicable limits,' which is a legally mandated consumer protection. The modified text removes this guarantee and replaces it with 'may be insured'. This introduces legal risk because federal law requires FDIC insurance for bank deposits up to a certain limit. Also, replacing 'is' with 'may be' regarding the 'qualified thrift lender' status removes a guarantee.",
+                "contradicted_law": "Federal Deposit Insurance Act (12 U.S.C. § 1811 et seq.)",
+                "location": "Section 1(a)(xxiv)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event the Company is unable to sell at least the total minimum of the Securities, as set forth on the cover page of the Prospectus, within the period herein provided, this Agreement shall terminate and the Company shall refund to any persons who have subscribed for any of the Securities the full amount which it may have received from them, together with interest as provided in the Prospectus, and no party to this Agreement shall have any obligation to the others hereunder, except for the obligations of the Company, the MHCs and the Bank as set forth in Sections 4, 6(a) and 7 hereof and the obligations of the Agent as provided in Sections 6(b) and 7 hereof. Appropriate arrangements for placing the funds received from subscriptions for Securities or other offers to purchase Securities in",
+                "changed_text": "In the event the Company is unable to sell at least the total minimum of the Securities, as set forth on the cover page of the Prospectus, within the period herein provided, this Agreement shall terminate and the Company may refund to any persons who have subscribed for any of the Securities the amount which it may have received from them, without interest, and no party to this Agreement shall have any obligation to the others hereunder, except for the obligations of the Company, the MHCs and the Bank as set forth in Sections 4, 6(a) and 7 hereof and the obligations of the Agent as provided in Sections 6(b) and 7 hereof. Arrangements for placing the funds received from subscriptions for Securities or other offers to purchase Securities in",
+                "explanation": "The original text guarantees a full refund with interest if the minimum securities are not sold. The modification replaces 'shall refund' with 'may refund' and removes 'the full amount' and removes 'together with interest as provided in the Prospectus'. This creates a legal contradiction because securities laws often mandate the return of funds with interest if an offering fails to meet its minimum requirements. The change introduces legal risk by weakening investor protections.",
+                "contradicted_law": "Securities Act of 1933 and applicable state Blue Sky laws regarding failed securities offerings.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each of the Company, the MHCs, the Bank and each of the Subsidiaries maintains a system of internal accounting controls sufficient to provide reasonable assurance that (a) transactions are executed in accordance with management's general or specific authorizations; (b) transactions are recorded as necessary to permit preparation of financial statements in conformity with generally accepted accounting principles and to maintain asset accountability; (c) access to assets is permitted only in accordance with management's general or specific authorization; and (d) the recorded accountability for assets is compared with the existing assets at reasonable intervals and appropriate action is taken with respect to any differences.",
+                "changed_text": "Each of the Company, the MHCs, the Bank and each of the Subsidiaries may maintain a system of internal accounting controls. (a) Transactions may be executed in accordance with management's authorizations; (b) transactions may be recorded as necessary to permit preparation of financial statements; (c) access to assets may be permitted in accordance with management's authorization; and (d) accountability for assets may be compared with the existing assets.",
+                "explanation": "The original text states that the company maintains a system of internal accounting controls to provide reasonable assurance that the company is compliant with generally accepted accounting principles. The modified text weakens the company's duty to maintain accounting controls, which is an essential part of consumer protection and accounting regulations. Therefore, by changing the language around accounting controls, it violates accounting best practices and weakens investor protection.",
+                "contradicted_law": "Sarbanes-Oxley Act of 2002 and generally accepted accounting principles.",
+                "location": "Section 1(a)(xxxvii)"
+            }
+        ]
+    }
+]

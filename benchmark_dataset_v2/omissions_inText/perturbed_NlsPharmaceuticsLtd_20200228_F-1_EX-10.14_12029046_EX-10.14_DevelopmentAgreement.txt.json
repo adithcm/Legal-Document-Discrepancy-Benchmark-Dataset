@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.3. Royalties For the Technology Transfer and as applicable for the License granted by NLS to Eurofarma under article 2.1(iii) hereabove, Eurofarma shall pay to NLS royalty payments (the \"Royalties\") on the annual Net Sales in the Territory according to the following table:\n\nAnnual Net Sales in the Territory in USD:\n\nRoyalty in Percent of Net Sales under 10 million 7% 10 million to < 20 million 8% 20 million to < 30 million 9% 30 million and above 10% Royalty payments shall be paid quarterly within thirty (45) days following the close of the calendar quarter.",
+                "changed_text": "3.3. Royalties For the Technology Transfer and as applicable for the License granted by NLS to Eurofarma under article 2.1(iii) hereabove, Eurofarma shall pay to NLS royalty payments (the \"Royalties\") on the annual Net Sales in the Territory. Royalty payments shall be paid quarterly within thirty (45) days following the close of the calendar quarter.",
+                "explanation": "By removing the royalty percentage table, the contract still mandates royalty payments but lacks specifics on the calculation, leading to enforcement uncertainty. Later sections still reference 'Royalties' implying there is a defined amount. Creates internal contradiction.",
+                "location": "3.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.4. Reports After the first commercial sale of a Licensed Product anywhere in the Territory, Eurofarma shall submit to Licensor quarterly reports on or before 15 days after the last business day of the month following each quarter of the year, and this for each year. Each report (the \"Reports\") shall cover Eurofarma's (and each Affiliate's, unless the Parties agree that such Affiliates shall submit its reports directly to Licensor) and Distributors' last recently completed quarter and shall show: (i) the gross sales and Net Sales during the last recently completed quarterly period and the Royalties, in USD, payable with respect thereto; (ii) the number of the Licensed Products sold in each country of the Territory; (iii) the method used to calculate the Royalties; and (iv) the exchange rates used to convert the country currency to USD, as applicable. The Licensee shall provide the above information using the form as shown in Appendix A and include information on the date of the first commercial sale of the Licensed Product in each country. If no sales of Licensed Product have been made by the Licensee during a reporting period, Licensee shall report such information in the corresponding Report(s).",
+                "changed_text": "3.4. Reports After the first commercial sale of a Licensed Product anywhere in the Territory, Eurofarma shall submit to Licensor quarterly reports on or before 15 days after the last business day of the month following each quarter of the year, and this for each year. Each report (the \"Reports\") shall cover Eurofarma's (and each Affiliate's, unless the Parties agree that such Affiliates shall submit its reports directly to Licensor) and Distributors' last recently completed quarter and shall show: (i) the gross sales and Net Sales during the last recently completed quarterly period; (ii) the number of the Licensed Products sold in each country of the Territory; (iii) the method used to calculate sales; and (iv) the exchange rates used to convert the country currency to USD, as applicable. If no sales of Licensed Product have been made by the Licensee during a reporting period, Licensee shall report such information in the corresponding Report(s).",
+                "explanation": "This change removes the necessity of reporting royalties within the reports, however, it is still required that they do so in section 3.3. Therefore, there is an omission that creates an internal contradiction.",
+                "location": "3.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Appendix A - [Template for Licensee Reports] - to be provided by NLS to Eurofarma within 60 days following the effective date of signature of the Agreement",
+                "changed_text": "",
+                "explanation": "Appendix A is removed, creating a contradiction, as section 3.4 now references an appendix that no longer exists, making it impossible for the licensee to properly adhere to the specifications outlined in section 3.4 about how the reports should be structured. It references 'the form as shown in Appendix A'",
+                "location": "Appendix A"
+            }
+        ]
+    }
+]

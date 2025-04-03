@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "RemarkHoldingsInc_20081114_10-Q_EX-10.24_2895649_EX-10.24_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "World Book will make reasonable efforts to cross check the Reference Content against other World Book products for factual accuracy. World Book will create the Affinities according to the guidelines and instructions provided by HSWI from time to time, and agreed to by World Book whose consent shall not be unreasonably withheld, and according to the high quality standards for commercially published works, but in no event less than the standards of World Book for its own published works. If an Affinity does not meet the requirements set forth herein, World Book will promptly revise the Affinity to meet such.",
+                "changed_text": "World Book will create the Affinities according to the guidelines and instructions provided by HSWI from time to time, and agreed to by World Book whose consent shall not be unreasonably withheld. If an Affinity does not meet the requirements set forth herein, World Book may revise the Affinity.",
+                "explanation": "Removing the promise to 'make reasonable efforts to cross check the Reference Content against other World Book products for factual accuracy' and changing 'World Book will promptly revise the Affinity to meet such' to 'World Book may revise the Affinity' weakens the obligation to provide accurate content. This introduces a legal contradiction as consumer protection laws, particularly in jurisdictions like California (where implied warranties of merchantability exist), require a basic level of accuracy and quality in the provided content.",
+                "contradicted_law": "Implied Warranty of Merchantability (California Commercial Code §2314)",
+                "location": "2.2(i)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "HSWI shall maintain complete and accurate records to support and document the Royalties owed under this Agreement in accordance with generally accepted accounting principles consistently applied and to document compliance with the terms of this Agreement. HSWI shall also provide reasonable assistance to World Book or its designated agent to conduct audits to confirm the payments hereunder.",
+                "changed_text": "HSWI shall maintain records to support and document the Royalties owed under this Agreement. HSWI shall provide assistance to World Book or its designated agent to conduct audits to confirm the payments hereunder.",
+                "explanation": "By removing 'complete and accurate' and 'in accordance with generally accepted accounting principles consistently applied' it weakens the financial transparency requirements. This creates a **legal contradiction** as such clauses are necessary to ensure compliance with generally accepted accounting principles, required under the Sarbanes-Oxley Act if HSWI is a publicly traded company in the US, or similar regulations in Delaware, where HSWI is incorporated.",
+                "contradicted_law": "Sarbanes-Oxley Act of 2002 or Delaware General Corporation Law regarding financial record keeping.",
+                "location": "5"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each party acknowledges that its breach of certain provisions of this Agreement would cause irreparable injury to the other party for which monetary damages may not be an adequate remedy. Accordingly, each party will be entitled to seek injunctions and other equitable remedies in the event of such a breach or threatened breach by the other party, or to seek specific performance of any provision hereof. A party's right to seek equitable relief shall not limit in any manner such party's respective rights to seek other and/or additional remedies at law or in equity.",
+                "changed_text": "Each party acknowledges that its breach of certain provisions of this Agreement may cause injury to the other party. A party's right to remedies shall be limited to monetary damages.",
+                "explanation": "Removing the clause specifying the right to 'seek injunctions and other equitable remedies' and limiting remedies to monetary damages restricts the legal recourse available to World Book. In situations involving intellectual property rights (Content licensing), equitable relief is often crucial for preventing ongoing harm (e.g., unauthorized use of content). Removing this clause undermines the protection of intellectual property, especially given US copyright law where equitable relief, including injunctions, is a standard remedy. This is particularly harmful to consumers if the omission leads to the spread of misinformation that the consumer cannot get corrected.",
+                "contradicted_law": "Copyright Act of 1976 (17 U.S. Code § 502 - Injunctive relief)",
+                "location": "6.5"
+            }
+        ]
+    }
+]

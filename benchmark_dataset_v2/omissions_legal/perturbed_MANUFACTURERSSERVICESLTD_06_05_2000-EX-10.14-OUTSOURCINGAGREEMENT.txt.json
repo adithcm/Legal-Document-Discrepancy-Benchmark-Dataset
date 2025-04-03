@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MANUFACTURERSSERVICESLTD_06_05_2000-EX-10.14-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the performance of this Agreement and related Purchase Orders the Parties shall comply with the laws of the United States unless otherwise specified, including but not limited to, those affecting price, production, purchase, sale, use and export of Products, environmental and labor laws.",
+                "changed_text": "In the performance of this Agreement and related Purchase Orders the Parties shall comply with the laws of the United States unless otherwise specified, including but not limited to, those affecting price, production, purchase, sale, use and export of Products and environmental laws.",
+                "explanation": "The removal of 'labor laws' introduces legal risk. US labor laws mandate certain employee protections (e.g., minimum wage, overtime, workplace safety). Omitting the requirement to comply with these laws could lead to violations and legal repercussions.",
+                "contradicted_law": "Fair Labor Standards Act (FLSA), Occupational Safety and Health Act (OSHA)",
+                "location": "Section 16.4"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the performance of this Agreement and related Purchase Orders the Parties shall comply with the laws of the United States unless otherwise specified, including but not limited to, those affecting price, production, purchase, sale, use and export of Products, environmental and labor laws.",
+                "changed_text": "In the performance of this Agreement and related Purchase Orders the Parties shall comply with the laws of the United States unless otherwise specified, including but not limited to, those affecting price, production, purchase, sale, use and export of Products.",
+                "explanation": "The removal of 'environmental and labor laws' introduces legal risk. US environmental laws mandate certain environment protections. Omitting the requirement to comply with these laws could lead to violations and legal repercussions. The removal of 'labor laws' introduces legal risk. US labor laws mandate certain employee protections (e.g., minimum wage, overtime, workplace safety). Omitting the requirement to comply with these laws could lead to violations and legal repercussions.",
+                "contradicted_law": "Fair Labor Standards Act (FLSA), Occupational Safety and Health Act (OSHA) and EPA laws",
+                "location": "Section 16.4"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "MSL agrees to protect, defend, hold harmless, and indemnify IBM from and against any and all claims, damages, liabilities, losses and expenses, arising out of the following, whether alleged or actual:\n\n      a)    infringement by MSL in rendering performance under this Agreement or             any Product Attachments or by any MSL procured Parts, processes,             designs, deliverables or any preexisting material contributed by MSL             from which any Products are prepared, of any patent, trademark,             trade name, copyright, mask work right or trade secret valid             anywhere in the world, except that MSL shall have no indemnity             obligation for any claim alleging infringement of any trademark             including any trade name, product name or similar right resulting             from the use of any name or mark selected by IBM;",
+                "changed_text": "MSL agrees to protect, defend, hold harmless, and indemnify IBM from and against any and all claims, damages, liabilities, losses and expenses, arising out of the following, whether alleged or actual:\n\n      a)    infringement by MSL in rendering performance under this Agreement or             any Product Attachments or by any MSL procured Parts, processes,             designs, deliverables or any preexisting material contributed by MSL             from which any Products are prepared, of any patent, trademark,             trade name, copyright, mask work right or trade secret valid             anywhere in the world.",
+                "explanation": "The removal of 'except that MSL shall have no indemnity obligation for any claim alleging infringement of any trademark including any trade name, product name or similar right resulting from the use of any name or mark selected by IBM' introduces risk. MSL now must indemnify trademark infringement, which is not legally sound.",
+                "contradicted_law": "Trademark laws",
+                "location": "Section 15.1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Parties acknowledge that the Dutch telecommunications market is regulated under both Dutch and EU law, such as inter alia EU-directives, the Dutch Telecommunications Act, Dutch Competition Act and the Dutch Data Protection Act. Parties shall at all times fully comply with all relevant regulations, such as but not limited to, the obligation for ELEPHANT TALK - as providers of public electronic communications services in the Netherlands- to notify OPTA according to article 2.1 of the Dutch Telecommunication Act.",
+                "changed_text": "Parties acknowledge that the Dutch telecommunications market is regulated under both Dutch and EU law, such as inter alia EU-directives, the Dutch Telecommunications Act, Dutch Competition Act. Parties shall endeavor to comply with regulations.",
+                "explanation": "The removal of 'and the Dutch Data Protection Act' and the weakening of 'shall at all times fully comply' to 'shall endeavor to comply' significantly reduces the obligation to adhere to data protection laws, a legal contradiction with GDPR and Dutch privacy laws that mandate strict data protection compliance. This creates a legal risk.",
+                "contradicted_law": "General Data Protection Regulation (GDPR) and Dutch Data Protection Act (Wet Bescherming Persoonsgegevens)",
+                "location": "2.9"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "ELEPHANT TALK will defend, indemnify and will hold T-Mobile harmless from and against any claim and costs assessed against T- Mobile by a third party alleging that the ELEPHANT TALK Wholesale Services, constitute an infringement of any third party's intellectual property rights in circumstances where the alleged infringement is attributable to ELEPHANT TALK and in no way the fault of T-Mobile or its Affiliated Company. If such a claim is valid, ELEPHANT TALK shall make the modifications needed to cease the infringement at its own expense as soon as possible. Such modifications will not have any impact on the functionality and costs of the provided Hosting Services. ELEPHANT TALK shall inform T-Mobile on any of such modifications as soon as possible.",
+                "changed_text": "ELEPHANT TALK will defend, indemnify and will hold T-Mobile harmless from and against any claim and costs assessed against T- Mobile by a third party alleging that the ELEPHANT TALK Wholesale Services, constitute an infringement of any third party's intellectual property rights. If such a claim is valid, ELEPHANT TALK shall make reasonable efforts to cease the infringement. ELEPHANT TALK shall inform T-Mobile of modifications.",
+                "explanation": "Removing the clause 'in circumstances where the alleged infringement is attributable to ELEPHANT TALK and in no way the fault of T-Mobile or its Affiliated Company' broadens the scope of indemnification, potentially making ELEPHANT TALK liable even for T-Mobile's faults. Changing 'make the modifications needed to cease the infringement at its own expense as soon as possible' to 'make reasonable efforts to cease the infringement' weakens the obligation to promptly resolve infringements. The deletion of 'Such modifications will not have any impact on the functionality and costs of the provided Hosting Services' removes a constraint on ELEPHANT TALK. This creates a potential legal contradiction with intellectual property laws and indemnity standards in the Netherlands.",
+                "contradicted_law": "Dutch Copyright Act (Auteurswet) and related intellectual property laws regarding liability for infringement.",
+                "location": "15.4"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Invoices not paid within the time limit set down in article 9.2.4 shall bear interest (\"enkelvoudig\") on a daily basis at the rate of the legal commercial interest rate (\"wettelijke handelsrente\") plus 1 % until full payment is received by T-Mobile whether before or after judgment. Interest shall continue to accrue notwithstanding termination or expiry of this Agreement for any cause whatsoever.",
+                "changed_text": "Invoices not paid within the time limit set down in article 9.2.4 may bear interest. Interest may accrue notwithstanding termination or expiry of this Agreement.",
+                "explanation": "Changing 'shall bear interest' to 'may bear interest' removes the mandatory application of interest on late payments, contradicting standard commercial law practices in the Netherlands regarding payment terms and remedies for late payments. Removing the specification of the interest rate ('at the rate of the legal commercial interest rate plus 1 %') creates ambiguity and allows for potentially usurious or unenforceable interest charges. Deleting 'on a daily basis' reduces the precision of interest calculation. This omission contradicts the laws about late payments in commercial contracts, specifically around legally mandated interest rates.",
+                "contradicted_law": "Dutch Civil Code (Burgerlijk Wetboek) Article 6:119a regarding commercial interest rates for late payments.",
+                "location": "9.2.8"
+            }
+        ]
+    }
+]

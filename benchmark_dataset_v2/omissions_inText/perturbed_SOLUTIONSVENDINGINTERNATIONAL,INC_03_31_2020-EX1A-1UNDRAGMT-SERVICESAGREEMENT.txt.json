@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SOLUTIONSVENDINGINTERNATIONAL,INC_03_31_2020-EX1A-1UNDRAGMT-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Amounts which remain unpaid for 30 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service.",
+                "changed_text": "Amounts which remain unpaid for 30 days may result in immediate termination of Service. Late payment fees will be assessed according to company policy.",
+                "explanation": "The original text clearly defines the late payment finance charge (1.5% per month). The modified text removes this specific charge and replaces it with a vague 'company policy.' This creates an internal contradiction because other sections might reference 'finance charges' assuming the original definition still applies, leading to uncertainty in enforcement.",
+                "location": "2. Fees and expenses b) Monthly Fees and Billing"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Customer authorizes the Company to take any of the following actions (in any particular order): (i) collect the unpaid portion of the Reversal Liability from funds sent to your third party escrow account; (ii) debit your bank account in the amount of the unpaid portion of the Reversal Liability; (iv) engage in collection efforts to recover the unpaid portion of the Reversal Liability and/or (v) take legal action or any other action under this Service Agreement.",
+                "changed_text": "Customer authorizes the Company to take action to recover the unpaid portion of the Reversal Liability.",
+                "explanation": "The original text lists specific actions the company can take to recover unpaid reversal liabilities. By removing the specific actions and replacing them with a general statement, the contract becomes vague. This is an issue because it removes the explicit debit and collection authorizations, but Reversal Liability is still in place. Enforcement becomes uncertain because the authorized methods are no longer clearly defined, but the liability is still present.",
+                "location": "4. Returns and Reversals a) Returns and Reversals"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Subject to earlier termination as provided below, this Service Agreement is for the total duration of the Company's Offering (the \"Initial Term\") unless either party requests termination at least 30 days prior to the end of the then-current term.",
+                "changed_text": "This Service Agreement is for an indefinite term. Either party may terminate this Service Agreement at any time with written notice.",
+                "explanation": "The original text defines a clear 'Initial Term' linked to the Company's Offering. The modified text introduces an indefinite term and allows termination 'at any time.' This contradicts the concept of an Initial Term linked to the offering, creating uncertainty. It is unclear whether early termination provisions tied to the Initial Term are still valid. Future references to an 'Initial Term' become ambiguous and unenforceable because it no longer has a defined duration.",
+                "location": "5. Term and Survival a)"
+            }
+        ]
+    }
+]

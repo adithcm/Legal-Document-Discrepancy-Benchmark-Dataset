@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.1      Throughout this Agreement, and unless the context otherwise                   requires, the terms shown on Exhibit A (whether or not                   capitalized) shall have the meanings there specified. If other                   terms are defined in the text of this Agreement, then                   throughout this Agreement, those terms shall have the meanings                   respectively ascribed to them.",
+                "changed_text": "1.1      Throughout this Agreement, and unless the context otherwise                   requires, the terms defined in the text of this Agreement shall have the meanings                   respectively ascribed to them.",
+                "explanation": "By removing the reference to Exhibit A containing definitions, any term that only appears on that exhibit becomes ambiguous, even if used later in the main body of the contract. If a key term like 'Production Cost', is ONLY defined in Exhibit A, but is still referenced in section 3.3 for calculating payments, there is now no clear definition of how Production Cost is determined, leading to disputes. This also contradicts the definition of `Loss` in Exhibit A, since that definition is removed but still used in section 2.8.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.3      Proceeds: As a result of the different ownership interests,                   marketing relationships, and this Agreement, the proceeds of                   sales of AMR Product Suites shall be as follows unless                   otherwise mutually agreed in writing:\n\n                  3.3.1    For sales of Water Meter AMR Product Suites to                            Datamatic, LKPL shall set the price of Water Meter                            AMR Product Suite sales to Datamatic. LKPL shall pay\n\n                           Axiometric the higher of a) five-percent (5%) of the                            Gross Proceeds or b) twenty-five-percent (25%) of the                            Net Proceeds of all Water Meter AMR Product Suite                            sales.\n\n                  3.3.2    For sales of Electric Meter AMR Product Suites to                            Datamatic, Axiometric shall set the price of Electric                            Meter AMR Product Suite sales to Datamatic. LKPL                            shall pay Axiometric Net Proceeds less the higher of                            a) five-percent (5%) of the Gross Proceeds or b)                            twenty-five-percent (25%) of the Net Proceeds.",
+                "changed_text": "3.3      Proceeds: As a result of the different ownership interests, marketing relationships, and this Agreement, the proceeds of sales of AMR Product Suites shall be determined according to mutually agreeable terms. \n\n                  3.3.1    For sales of Water Meter AMR Product Suites to Datamatic, the parties will negotiate a royalty percentage to be paid to Axiometric based on sales revenue.\n\n                  3.3.2    For sales of Electric Meter AMR Product Suites to Datamatic, the parties will agree on a profit-sharing arrangement.",
+                "explanation": "The modification in section 3.3 removes the specific formulas for calculating payments related to Water Meter and Electric Meter AMR Product Suites sales to Datamatic, but it still references 'sales revenue' and 'profit-sharing'. Since the terms Gross Proceeds, Net Proceeds, and Production Cost are used in the original formulas but are potentially undefined (if Exhibit A is removed), this creates uncertainty. If the Exhibit A is available that defines gross and net proceeds then there is a conflict in how those terms will be applied, per the language of the contract.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "2.8      Axiometric must indemnify and hold LKPL and its officers,                   directors, stockholders, agents, contractors, employees and                   guests (collectively, the \"Indemnified Parties\") harmless from                   and against any and all Loss that the Indemnified Parties may                   incur arising from or relating to Axiometric use of the office                   space, including but not limited to any Loss suffered by the                   Indemnified Parties as a result of any negligent acts or                   omissions of Axiometric, its employees, agents, contractors                   and representatives, or anyone else working under Axiometric                   or in the office with the permission of Axiometric.",
+                "changed_text": "2.8      Axiometric must protect LKPL from any liability arising from Axiometric use of the office space. ",
+                "explanation": "This section refers to the term `Loss` but if the definition of Loss from exhibit A is ommitted, this section becomes ambiguous. The definition of loss includes very specific things such as 'expenses (including all reasonable attorneys fees, costs and litigation expenses)'. The revised text doesn't define the scope of 'liability' and creates contradiction to the definition listed in exhibit A if exhibit A is included.",
+                "location": "Section 2.8"
+            }
+        ]
+    }
+]

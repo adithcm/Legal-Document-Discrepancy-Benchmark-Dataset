@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PlayboyEnterprisesInc_20090220_10-QA_EX-10.2_4091580_EX-10.2_ContentLicenseAgreement_MarketingAgreement_Sales-PurchaseAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Supplier will defend, indemnify and hold harmless Purchaser and Playboy and the distributors and dealers and the officers and employees of each of the foregoing against all liability  whatsoever which may be incurred by them or any of them as a result of any alleged defects in material or workmanship  in the merchandise covered by this Contract.",
+                "changed_text": "Supplier will indemnify Purchaser and Playboy against liability incurred as a result of defects in workmanship in the merchandise covered by this Contract. Supplier's liability shall not exceed the purchase price of the defective goods.",
+                "explanation": "This change significantly limits the supplier's liability. The original clause requires the supplier to defend, indemnify, and hold harmless the purchaser and Playboy. The modified clause eliminates the 'defend' and 'hold harmless' obligations, which are crucial for protection against lawsuits. It also caps liability at the purchase price of the defective goods, potentially violating consumer protection laws that might allow for consequential damages in cases of defective products causing harm. Limiting liability in this way contradicts basic principles of product liability law, particularly if the defects result in personal injury.",
+                "contradicted_law": "Product Liability Laws, Consumer Protection Laws (varying by state in the US, potentially including implied warranties of merchantability and fitness for a particular purpose, and rights to seek consequential damages in case of injury).",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Contract, when attached to a purchase order, shall consist of the entire agreement between the parties and shall  supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied  by Purchaser or Supplier.",
+                "changed_text": "This Contract, when attached to a purchase order, shall consist of the agreement between the parties.",
+                "explanation": "By removing 'shall supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied by Purchaser or Supplier', the contract becomes ambiguous regarding which document takes precedence. This omission can be a legal issue because standard business practice, and often law (such as the Uniform Commercial Code), dictates how conflicting terms in purchase orders and contracts are resolved. Omitting the supercedence clause introduces uncertainty and potentially allows the purchaser to argue that the purchase order terms (which might contain terms unfavorable to the supplier or consumer protections) take precedence. The UCC generally favors express terms of a signed contract.",
+                "contradicted_law": "Uniform Commercial Code (UCC) Article 2, which governs sales contracts and dictates how conflicting terms are handled.",
+                "location": "Paragraph 5"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "VIOLATION OF THIS AGREEMENT BY SUPPLIER MAY RESULT IN PROSECUTION FOR PLAYBOY PROPERTIES INFRINGEMENT, UNFAIR COMPETITION AND OTHER CAUSES OF ACTION AND THE  IMPOSITION OF FINES AND/OR CRIMINAL PENALTIES.",
+                "changed_text": "VIOLATION OF THIS AGREEMENT BY SUPPLIER MAY RESULT IN PROSECUTION.",
+                "explanation": "This change removes specific examples of potential violations (Playboy Properties infringement, unfair competition, etc.) and consequences (fines and/or criminal penalties). This is an omission that reduces transparency and potentially misleads the supplier about the scope and severity of possible repercussions for violating the agreement. While it doesn't explicitly contradict a specific law, it undermines the principle of full disclosure in contracts, especially regarding potential liabilities. The original text provides notice of specific intellectual property protections and the potential for legal action. Removing this detail creates an informational asymmetry that could be deemed unfair or deceptive, especially if the supplier is unaware of intellectual property laws. It could be argued that this violates principles of good faith and fair dealing, which are implied in contract law.",
+                "contradicted_law": "Principles of Good Faith and Fair Dealing (implied in contract law in most jurisdictions), and potentially unfair competition or deceptive trade practices laws.",
+                "location": "Paragraph 7"
+            }
+        ]
+    }
+]

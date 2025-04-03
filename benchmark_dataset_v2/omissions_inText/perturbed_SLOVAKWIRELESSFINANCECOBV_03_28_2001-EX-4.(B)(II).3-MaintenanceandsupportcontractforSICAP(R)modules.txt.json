@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-MaintenanceandsupportcontractforSICAP(R)modules.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Response time:\n\nThe time between the receipt of the notification by Sicap Ltd of an\nincident or problem and the initiation by the HotLine of a solution for\nthe incident or problem.",
+                "changed_text": "Response time:\n\nThe time for Sicap Ltd to acknowledge receipt of an incident or problem notification.",
+                "explanation": "The original definition of 'Response Time' includes the 'initiation...of a solution'. The modified definition removes this aspect, focusing solely on acknowledgement. This creates a contradiction if, later in the contract, there are clauses that assume 'Response Time' implies problem resolution initiation, thus creating uncertainty in enforcement about when service obligations are actually triggered.",
+                "location": "7.2 Definitions"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Working days/hours:\n\nMondays to Fridays during Sicap Ltd's regular office hours (8.00h -\n18.00h), except public holidays in Switzerland, as specified under clause\n3.1.1.",
+                "changed_text": "Working days/hours:\n\nMondays to Fridays during Sicap Ltd's regular office hours.",
+                "explanation": "By removing 'except public holidays in Switzerland, as specified under clause 3.1.1', a critical element of defining 'working days/hours' is omitted. Clause 3.1.1 lists specific public holidays. Now, when the contract refers to 'working days/hours,' it's unclear whether Swiss public holidays are excluded. This creates ambiguity and potential disputes, especially if service levels or response times are defined in terms of 'working days/hours'.",
+                "location": "7.2 Definitions"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Emergency Priority Incident\n Critical, complete HA-System failure or a major impact on prepaid\n functionality.\n Priority Incident\n Incident causing a major impact on the SICAP(R) System's\n functionality. Conditions that prevent EuroTel normal business\n operations from being carried out in timely manner.\n  Medium Priority Incident\n Incident causing a partial or minor impact on the System's\n functionality\n Low Priority Incident\n Incident having a low impact on the System's functionality such as\n screen or report layout changes.",
+                "changed_text": "Emergency Priority Incident\n Critical, complete HA-System failure or a major impact on prepaid\n functionality.\n Medium Priority Incident\n Incident causing a partial or minor impact on the System's\n functionality\n Low Priority Incident\n Incident having a low impact on the System's functionality such as\n screen or report layout changes.",
+                "explanation": "By removing the \"Priority Incident\" definition, while clauses referencing incident priorities still exist in the contract, it creates an ambiguity. The procedures for incident handling still refer to 'priority' incidents but the contract no longer defines this category. Without a clear definition of what constitutes a 'priority' incident, the obligations related to responding to such incidents become unenforceable, leading to internal contradiction.",
+                "location": "7.2 Definitions"
+            }
+        ]
+    }
+]

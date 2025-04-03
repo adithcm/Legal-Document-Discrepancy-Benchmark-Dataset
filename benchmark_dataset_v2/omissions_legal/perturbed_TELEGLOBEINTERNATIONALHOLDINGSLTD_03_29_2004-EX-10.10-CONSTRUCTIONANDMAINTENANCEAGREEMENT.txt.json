@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TELEGLOBEINTERNATIONALHOLDINGSLTD_03_29_2004-EX-10.10-CONSTRUCTIONANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the performance of their obligations hereunder, the Parties agree to comply with all applicable laws of all Countries having jurisdiction over the activities performed under or stipulated by this Agreement.",
+                "changed_text": "In the performance of their obligations hereunder, the Parties agree to comply with the laws they deem applicable to the activities performed under or stipulated by this Agreement.",
+                "explanation": "This clause originally mandates compliance with *all applicable laws* of relevant countries. By changing it to compliance with the laws they *deem applicable*, the contract introduces ambiguity and allows parties to selectively disregard mandatory legal requirements. This creates legal risk, particularly in jurisdictions with strong consumer protection or telecommunications regulations, as parties could argue they don't 'deem' certain consumer rights laws applicable, thereby violating them. This weakens consumer protection and could lead to legal challenges.",
+                "contradicted_law": "Varies by jurisdiction, but potentially any consumer protection law, telecommunications regulation, or data privacy law applicable to the services provided under the agreement. For example, GDPR if data is processed from EU citizens.",
+                "location": "25"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Patty agrees to indemnify each of the other Parties in respect of all costs, expenses, damages and demands, arising out of or in connection with any claim against, or liability of, the latter as an owner of APCN 2 where such claim is made by, or the liability is to, any third party not being a Party hereto and arises out of or in connection with APCN 2 provided that no indemnifying Party shall be obligated to contribute more than its share of liability as per Schedule B. Subject to there being no conflict of interest, each Party so indemnifying shall have the right, at its sole cost and expense, to observe but not directly participate in any discussions, meetings or conferences held prior to or during any settlement or legal proceedings resulting from any such claim or liability.",
+                "changed_text": "Each Patty agrees to indemnify each of the other Parties in respect of all costs, expenses, damages and demands, arising out of or in connection with any claim against, or liability of, the latter as an owner of APCN 2 where such claim is made by, or the liability is to, any third party not being a Party hereto and arises out of or in connection with APCN 2. Subject to there being no conflict of interest, each Party so indemnifying shall have the right, at its sole cost and expense, to observe but not directly participate in any discussions, meetings or conferences held prior to or during any settlement or legal proceedings resulting from any such claim or liability.",
+                "explanation": "The original clause specifies that the indemnifying party is 'not obligated to contribute more than its share of liability as per Schedule B.' Removing this portion allows for the potential of unlimited liability, contradicting legal norms regarding proportionate liability based on ownership share. This creates a significant legal risk, as a party could be held responsible for the entirety of a claim, regardless of their ownership stake. This could violate principles of fairness and equity, and potentially contradict laws regarding liability limitations.",
+                "contradicted_law": "Principles of proportionate liability, laws regarding limited liability companies, and potentially specific telecommunications liability regulations.",
+                "location": "21.2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Notwithstanding Subparagraph 31.1, any Party may, without such approval, disclose such data and information to:   (i) the extent required by any applicable laws, or the requirements of any recognized stock exchange in compliance with its rules and regulations or in the case of a Party wholly owned by a sovereign government, by the rules of governance of the Party; or   (ii) any government agency lawfully requesting such information; or   (iii) any Court of competent jurisdiction acting in pursuance of its powers.",
+                "changed_text": "Notwithstanding Subparagraph 31.1, any Party may, without such approval, disclose such data and information to: (ii) any government agency requesting such information; or (iii) any Court acting in pursuance of its powers.",
+                "explanation": "The original clause allows for disclosure to the extent required by *any applicable laws*. Omitting this phrase and also specifically removing the phrase about recognized stock exchange significantly limits mandatory legal compliance, and weakens data protection safeguards. This creates a legal contradiction with data privacy laws like GDPR or similar laws in other countries, which *require* disclosure in specific instances (e.g., data breach notification, subject access requests). By removing this obligation, the contract puts the parties in a position where they might violate mandatory disclosure laws.",
+                "contradicted_law": "GDPR (Article 33 - Data Breach Notification), CCPA, and other data privacy laws with mandatory disclosure requirements.",
+                "location": "31.2"
+            }
+        ]
+    }
+]

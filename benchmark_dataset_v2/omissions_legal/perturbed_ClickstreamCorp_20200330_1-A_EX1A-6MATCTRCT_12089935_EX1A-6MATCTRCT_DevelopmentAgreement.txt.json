@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ClickstreamCorp_20200330_1-A_EX1A-6MATCTRCT_12089935_EX1A-6MATCTRCT_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Client has the unilateral right to cancel this agreement at any time within a 7-day notice period. Further, Developer can only cancel due to lack of payment. Client will have a 30 day right to cure before a cancelation can occur.",
+                "changed_text": "Client has the unilateral right to cancel this agreement at any time within a 7-day notice period. Further, Developer can only cancel due to lack of payment.",
+                "explanation": "By removing the sentence 'Client will have a 30 day right to cure before a cancelation can occur,' the contract becomes non-compliant with standard business practices and potentially Florida law, which generally requires a reasonable opportunity to cure a breach before termination, especially in contracts of this nature. The omission introduces legal risk for the developer as it allows for immediate cancellation without allowing them to rectify any payment issues.",
+                "contradicted_law": "Breach of Contract Law, Florida Statutes, and general principles of contract law regarding 'right to cure'.",
+                "location": "Section 4(a)2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "90 days warranty (bugfixing) support is included.",
+                "changed_text": "",
+                "explanation": "By completely omitting the '90 days warranty (bugfixing) support is included' clause, the contract removes a legally expected consumer protection. Software development contracts typically include a warranty period to address bugs and defects. This omission shifts the entire risk of defects onto the Client, potentially violating implied warranty principles under Florida's version of the Uniform Commercial Code (UCC), if the Application is considered 'goods'.",
+                "contradicted_law": "Implied Warranty of Merchantability, Florida Statutes Chapter 672 (Uniform Commercial Code - Sales)",
+                "location": "Exhibit A, E"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The source code belongs to the client and will be delivered as soon as the project is fully finished.",
+                "changed_text": "",
+                "explanation": "Removing the provision that 'The source code belongs to the client and will be delivered as soon as the project is fully finished' creates ambiguity around ownership and delivery of the source code. Without this clause, the Developer could potentially claim ownership or refuse to deliver the source code after completion, holding the Client's project hostage. This creates a legal contradiction with common business practice and potentially implied obligations under Florida contract law, which assumes the client receives ownership of code they paid to develop.",
+                "contradicted_law": "Breach of Contract Law, Florida Statutes, and implied terms related to ownership of deliverables under software development agreements.",
+                "location": "Exhibit A, Notes"
+            }
+        ]
+    }
+]

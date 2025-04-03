@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Supplier shall comply with all Applicable Law relating to its activities under this Agreement;",
+                "changed_text": "Supplier shall make reasonable efforts to comply with Applicable Law relating to its activities under this Agreement;",
+                "explanation": "This change weakens the supplier's obligation to comply with all applicable laws. It introduces a lower standard of 'reasonable efforts', which may not be sufficient to meet legal requirements in pharmaceutical manufacturing, potentially violating GMP regulations and other applicable laws. Applicable Law means any applicable law, statute, rule, regulation, order, judgment or ordinance of any governmental or regulatory authority or agency.",
+                "contradicted_law": "Current Good Manufacturing Practices (CGMP) regulations and other applicable laws.",
+                "location": "Section 13.1(e)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "all Product delivered to Customer under this Agreement will have been Manufactured, stored and shipped in a competent fashion in accordance with the Master Batch Record, the Product Specifications, this Agreement, the Quality Agreement, Applicable Law and cGMP Requirements by qualified personnel and, to Supplier's knowledge, will be free from defects;",
+                "changed_text": "all Product delivered to Customer under this Agreement will have been Manufactured, stored and shipped in a competent fashion in accordance with the Master Batch Record, the Product Specifications, this Agreement, the Quality Agreement, and to Supplier's knowledge, will be free from defects;",
+                "explanation": "By omitting 'Applicable Law and cGMP Requirements', the contract no longer explicitly requires the product to be manufactured, stored, and shipped in accordance with these critical standards. This creates a legal loophole that could expose the customer to risks associated with non-compliant products, violating manufacturing and safety regulations.",
+                "contradicted_law": "Current Good Manufacturing Practices (CGMP) regulations and other applicable laws.",
+                "location": "Section 13.1(f)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Customer and Supplier each represent that they are sufficiently insured against any liability arising under this Agreement. Further, Supplier shall at a minimum retain [* * *].",
+                "changed_text": "Customer and Supplier each represent that they have some insurance coverage against liability arising under this Agreement.",
+                "explanation": "This change significantly weakens the insurance requirements for the supplier. Removing the specific insurance amount [* * *] and replacing 'sufficiently insured' with 'some insurance coverage' allows the supplier to have minimal coverage, potentially inadequate to cover liabilities under the agreement. This introduces a risk of non-compliance with insurance regulations related to pharmaceutical manufacturing and distribution, potentially shifting significant financial risk onto the customer.",
+                "contradicted_law": "Insurance regulations and legal standards for adequate liability coverage in pharmaceutical manufacturing.",
+                "location": "Section 15.1"
+            }
+        ]
+    }
+]

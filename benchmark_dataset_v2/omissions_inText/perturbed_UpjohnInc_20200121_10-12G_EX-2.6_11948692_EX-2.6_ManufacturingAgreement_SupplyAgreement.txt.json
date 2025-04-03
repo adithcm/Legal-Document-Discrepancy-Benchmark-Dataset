@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.77 “Losses” means any and all damages, losses, deficiencies, Liabilities, Taxes, obligations, penalties, judgments, settlements, claims, payments, fines, charges, interest, costs and expenses, whether or not resulting from Third-Party Claims, including the costs and expenses of any and all Actions and demands, assessments, judgments, settlements and compromises relating thereto and the reasonable costs and expenses of attorneys’, accountants’, consultants’ and other professionals’ fees and expenses incurred in the investigation or defense thereof or the enforcement of rights hereunder.",
+                "changed_text": "1.77 “Losses” means any damages, losses, deficiencies, Liabilities, Taxes, obligations, penalties, judgments, settlements, claims, payments, fines, charges, interest, costs and expenses, whether or not resulting from Third-Party Claims, including the costs and expenses of any and all Actions and demands, assessments, judgments, settlements and compromises relating thereto.",
+                "explanation": "The removal of 'the reasonable costs and expenses of attorneys’, accountants’, consultants’ and other professionals’ fees and expenses incurred in the investigation or defense thereof or the enforcement of rights hereunder.' creates uncertainty because section 10 on Indemnification relies on this definition. If legal fees are excluded from the definition of Losses, it is unclear if they are covered under the indemnification clauses.",
+                "location": "Section 1.77"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.1 Price. (a) Initial Price. On a Fiscal Year-by-Fiscal Year basis, Customer shall purchase each Product from Manufacturer at the Price for such Product for such Fiscal Year, as determined in accordance with the terms of this Section 3. The Price for each Product during the Initial Price Term (such Price, the \"Initial Price\" for such Product) is set forth in the Facility Addendum for such Product. Following the Initial Price Term, the Price of such Product may be adjusted only as set forth in Section 3.1(b) and Section 3.2.",
+                "changed_text": "3.1 Price. (a) Initial Price. On a Fiscal Year-by-Fiscal Year basis, Customer shall purchase each Product from Manufacturer at the Price for such Product for such Fiscal Year, as determined in accordance with the terms of this Section 3. The Price for each Product during the Initial Price Term (such Price, the \"Initial Price\" for such Product) is set forth in the Facility Addendum for such Product. Following the Initial Price Term, the Price of such Product may be adjusted only as set forth in Section 3.2.",
+                "explanation": "Omitting \"Section 3.1(b) and\" creates a contradiction because section 3.1 (b) refers to the Price in Extension Periods, removing it from section 3.1 (a) implies that there is no initial price when the agreement is in its extension period. This creates contradiction and uncertainty as it relates to enforcement of the initial price.",
+                "location": "Section 3.1(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.2 Manufacturer Covenants. Manufacturer hereby covenants to Customer that: (a) The Facility and all equipment, tooling and molds utilized in the manufacture and supply of Product hereunder by or on behalf of Manufacturer shall, during the Term of this Agreement, be maintained in good operating condition and shall be maintained and operated in accordance with all applicable Laws. The manufacturing and storage operations, procedures and processes utilized in manufacture and supply of Product hereunder (including the Facility) shall be in full compliance with all applicable Laws, including cGMP and health and safety laws.",
+                "changed_text": "5.2 Manufacturer Covenants. Manufacturer hereby covenants to Customer that: (a) The Facility and all equipment, tooling and molds utilized in the manufacture and supply of Product hereunder by or on behalf of Manufacturer shall, during the Term of this Agreement, be maintained in good operating condition and shall be maintained and operated in accordance with standard operating procedure. The manufacturing and storage operations, procedures and processes utilized in manufacture and supply of Product hereunder shall be in compliance with standard operating procedure and health and safety laws.",
+                "explanation": "Omitting the phrase \"all applicable Laws, including cGMP\" after \"standard operating procedure\" creates uncertainty and internal contradiction. In Section 4 of the contract, Manufacturing Standards and Quality Assurance, the contract states that manufacturing be performed according to applicable laws and cGMP. Removing cGMP from Section 5.2 makes the requirements around this section unclear.",
+                "location": "Section 5.2(a)"
+            }
+        ]
+    }
+]

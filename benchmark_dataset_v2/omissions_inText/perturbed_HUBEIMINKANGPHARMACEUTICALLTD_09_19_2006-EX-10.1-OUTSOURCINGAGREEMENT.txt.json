@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HUBEIMINKANGPHARMACEUTICALLTD_09_19_2006-EX-10.1-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The calculation shall be carried out in accordance with generally accepted U.S. accounting principles (\"GAAP\"), or the standards and principles adopted by the U.S. Financial Accounting Standards Board (\"FASB\") applied on a consistent basis.",
+                "changed_text": "The calculation shall be carried out in accordance with accounting principles applied on a consistent basis.",
+                "explanation": "By removing the explicit reference to \"GAAP\" or \"FASB\", the contract now lacks a concrete standard for financial calculations. This creates ambiguity because the term \"accounting principles\" is vague and open to interpretation, particularly in the context of an agreement between a Canadian company (DGT) and a Hong Kong company (Dolphin). This omission becomes an in-text contradiction if other clauses assume US accounting standards.",
+                "location": "Page 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "DGT shall be entitled to terminate this Agreement if Dolphin fails to meet its requirements and material obligation hereunder and only after DGT have given Dolphin written notice of such failure and only after Dolphin has not rectified such failure within 10 days of the notice. Dolphin shall be entitled to terminate this Agreement only after DGT fails to meet a material obligation hereunder and only after Dolphin has given DGT written notice of such failure and only after the DGT has not rectified such failure within 30 days of the notice.",
+                "changed_text": "DGT shall be entitled to terminate this Agreement if Dolphin fails to meet its requirements. Dolphin shall be entitled to terminate this Agreement only after DGT fails to meet a material obligation hereunder and only after Dolphin has given DGT written notice of such failure.",
+                "explanation": "Removing the notice and cure period before termination by DGT introduces an in-text contradiction. The contract now allows DGT to terminate immediately upon any failure by Dolphin, but Dolphin still needs to give a written notice. This creates uncertainty on termination rights and could be contested. If other sections refer to a rectification period, the omission creates a direct contradiction.",
+                "location": "Page 3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Dolphin shall be entitled to defer any obligation hereunder in the event of force majeure, where force majeure is defined as an act of God, war, revolution, insurrection, riot, blockade or any other unlawful act against public order or authority, strike, lockout or other industrial disturbance, storm, fire, flood, explosion or lightning, the failure to obtain the approval or any government, governmental agency, commission, board or other tribunal having jurisdiction, and any other event not reasonably within the control of Dolphin;",
+                "changed_text": "Dolphin shall be entitled to defer any obligation hereunder in the event of force majeure;",
+                "explanation": "By removing the definition of 'force majeure', the contract becomes ambiguous. Other sections referencing 'force majeure' now lack a clear understanding of what events qualify. This omission creates an in-text contradiction, leading to uncertainty about when Dolphin can defer obligations and potentially conflicting interpretations of events that qualify as force majeure. The lack of definition creates a significant risk of dispute.",
+                "location": "Page 3"
+            }
+        ]
+    }
+]

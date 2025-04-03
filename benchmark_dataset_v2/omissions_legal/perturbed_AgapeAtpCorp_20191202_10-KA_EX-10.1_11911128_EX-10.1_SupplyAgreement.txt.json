@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Manufacturer covenants that it is and will remain for the term of this agreement in compliance with any and all Local Laws and Regulations. This includes without limitation laws relating to business practice, workplace relations, safety and taxation.",
+                "changed_text": "The Manufacturer covenants that it will make reasonable efforts to comply with Local Laws and Regulations relating to business practice.",
+                "explanation": "This modification weakens the manufacturer's commitment to full legal compliance. By changing 'is and will remain in compliance' to 'will make reasonable efforts to comply,' the contract allows for potential non-compliance. This creates a legal contradiction because many jurisdictions have strict liability laws concerning certain business practices, workplace relations, safety, and taxation, particularly in Vanuatu and Hong Kong, where the Manufacturer and Customer are based, respectively. The original clause ensured adherence to these laws; the revised version introduces ambiguity and potential legal risk.",
+                "contradicted_law": "Various Local Laws and Regulations concerning business practice, workplace relations, safety, and taxation in Vanuatu and Hong Kong.",
+                "location": "3.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Manufacturer further guarantees that the Products, when shipped, are packaged in such a way as to be protected from any foreseeable damage during shipment.",
+                "changed_text": "The Manufacturer will attempt to ensure the Products, when shipped, are packaged to minimize potential damage during shipment.",
+                "explanation": "The original clause provides a guarantee against foreseeable damage during shipment. The modified clause weakens this to an attempt to minimize potential damage, removing the guarantee. This introduces a legal risk under the Sale of Goods Act in jurisdictions like England (chosen governing law), which implies certain conditions regarding the quality and fitness of goods for purpose, including that they must be adequately packaged for transit. Removing the guarantee shifts the risk of damage during transit to the Customer, potentially violating implied warranty provisions.",
+                "contradicted_law": "Sale of Goods Act (UK) - Implied conditions regarding quality and fitness for purpose.",
+                "location": "5.2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Manufacturing Companies utilised by the Agent to manufacture the products listed in Schedule A of this agreement shall maintain throughout the term of this agreement product liability insurance issued by a reputable insurance company under standard terms and conditions in the industry to cover the liability of the Customer and to indemnity the Customer from any costs, expenses, loss or damages resulting from any act, neglect or default of the company.",
+                "changed_text": "The Manufacturing Companies may maintain product liability insurance to cover the liability of the Customer.",
+                "explanation": "The original clause mandates that manufacturing companies maintain product liability insurance, protecting the Customer. The modified clause makes this insurance optional ('may maintain'), significantly increasing the Customer's risk. This creates a legal contradiction because, depending on the jurisdiction and product type, there are regulations regarding product liability and the responsibilities of manufacturers and distributors. Eliminating the mandatory insurance shifts the entire burden of potential product liability claims onto the Customer, which may violate consumer protection laws or principles of reasonable commercial practice.",
+                "contradicted_law": "Product Liability Laws (varied by jurisdiction, e.g., Consumer Protection Act equivalents), Principles of reasonable commercial practice.",
+                "location": "6.1"
+            }
+        ]
+    }
+]

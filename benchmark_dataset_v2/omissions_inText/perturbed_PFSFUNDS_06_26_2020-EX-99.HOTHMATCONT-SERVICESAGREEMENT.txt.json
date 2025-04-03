@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PFSFUNDS_06_26_2020-EX-99.HOTHMATCONT-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Allocation of Charges and Expenses. Except as set forth below, the Adviser will pay all operating expenses of each Fund specifically assumed by the Fund under the Management Agreement between the Trust and the Adviser dated June 24, 2020 (the \"Management Agreement\"), including without limitation the compensation and expenses of any employees of the Fund and of any other persons rendering any services to the Fund; clerical and shareholder service staff salaries; office space and other office expenses; fees and expenses incurred by the Fund in connection with membership in investment company organizations; legal, auditing and accounting expenses; expenses of registering shares under federal and state securities laws, including expenses incurred by the Fund in connection with the organization and initial registration of shares of the Fund; insurance expenses; fees and expenses of the custodian, transfer agent, dividend disbursing agent, shareholder service agent, plan agent, administrator (excluding fees and expenses payable to the Adviser under this Agreement and the Management Agreement), accounting and pricing services agent and underwriter of the Fund; expenses, including clerical expenses, of issue, sale, redemption or repurchase of shares of the Fund; the cost of preparing and distributing reports and notices to shareholders, the cost of printing or preparing prospectuses and statements of additional information for delivery to shareholders; the cost of printing or preparing stock certificates or any other documents, statements or reports to shareholders; expenses of shareholders' meetings and proxy solicitations; and all other operating expenses not specifically assumed by the Fund.",
+                "changed_text": "Allocation of Charges and Expenses. The Adviser will pay certain operating expenses of each Fund. Specific details regarding the operating expenses will be determined on a fund by fund basis.",
+                "explanation": "This change omits the detailed description of what constitutes 'operating expenses' that the Adviser pays. It replaces the specifics with a vague reference to determination on a fund basis, creating ambiguity and uncertainty. This creates an internal contradiction because Section 6 references the payment of 'certain expenses of each of the Funds pursuant to paragraph 3 hereof,' and without a clear definition in paragraph 3, Section 6 lacks clear meaning.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Compensation. For the performance of the Adviser's obligations under this Agreement, including payment of certain expenses of each of the Funds pursuant to paragraph 3 hereof, each Fund shall pay the Adviser, on the first business day following the end of each month, a fee at an annual rate of 0.65% of a Fund's average daily net assets up to $25 million, 0.35% of a Fund's average daily net assets from $25 million to $100 million, and 0.25% of a Fund's average daily net assets for such assets in excess of $100 million.",
+                "changed_text": "Compensation. For the performance of the Adviser's obligations under this Agreement, each Fund shall pay the Adviser a fee, as determined by the board of trustees.",
+                "explanation": "This alteration removes the specific tiered fee structure based on the Fund's average daily net assets. It states that the fee will be 'as determined by the board of trustees,' which introduces uncertainty. This contradicts the previously agreed-upon rate schedule and creates ambiguity around how the Adviser's compensation will be calculated. Furthermore it creates an in-text contradiction with section 9 which dictates compensation upon termination of the contract. This section has a reasonable expectation for a fee structure in section 6, but it is now ommitted.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Adviser agrees to defend and indemnify the Trust, and its trustees, officers and agents from and against any and all liability, losses, claims and damages arising from your willful misfeasance, bad faith or gross negligence on the Adviser's part or the part of the Adviser's officers, employees, directors and agents in the performance of the Adviser's duties under this Agreement, or by reason of reckless disregard by any of such persons of the Adviser's obligations and duties under this Agreement.",
+                "changed_text": "The Adviser will consider defending and indemnifying the Trust.",
+                "explanation": "This change eliminates the clear obligation of the Adviser to defend and indemnify the Trust against liabilities arising from specific misconduct (willful misfeasance, bad faith, gross negligence, or reckless disregard). Replacing it with 'will consider' makes the indemnification discretionary rather than mandatory. This creates an internal inconsistency with Section 7, which discusses the 'Limitation of Liability' of the Adviser. The original text provides certainty for the Trust, which is now replaced by optional language.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

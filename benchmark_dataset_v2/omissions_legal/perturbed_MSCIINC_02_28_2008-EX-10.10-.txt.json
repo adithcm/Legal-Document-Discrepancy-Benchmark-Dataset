@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "THE LICENSE GRANTS HEREUNDER ARE PROVIDED \"AS-IS\" WITH NO WARRANTIES, AND THE PARTIES EXPRESSLY EXCLUDE AND DISCLAIM ANY WARRANTIES UNDER OR ARISING AS A RESULT OF THIS AGREEMENT, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT OR ANY OTHER WARRANTY WHATSOEVER.",
+                "changed_text": "THE LICENSE GRANTS HEREUNDER ARE PROVIDED \"AS-IS\" WITH NO WARRANTIES, AND THE PARTIES EXPRESSLY EXCLUDE AND DISCLAIM ANY WARRANTIES UNDER OR ARISING AS A RESULT OF THIS AGREEMENT, WHETHER EXPRESS OR IMPLIED. ",
+                "explanation": "By removing the disclaimer of statutory warranties, the agreement becomes potentially non-compliant with consumer protection laws in New York State. New York law implies certain statutory warranties, particularly in software licensing, and explicitly disclaiming them is often required to be conspicuous and unambiguous. By removing the explicit reference to statutory warranties, the enforceability of the disclaimer becomes questionable, increasing legal risk.",
+                "contradicted_law": "New York Uniform Commercial Code § 2-316 (Disclaimer or Modification of Warranties)",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(a) This Agreement shall be construed in accordance with and governed by the substantive internal laws of the State of New York. MSCI Inc. is registered to do business in New York under the name NY MSCI.\n\n(b) Any action seeking to enforce any provision of, or based on any matter arising out of or in connection with, this Agreement or the transactions contemplated hereby shall be brought in the United States District Court for the Southern District of New York or any other New York State court sitting in New York County, and each of the parties hereby consents to the jurisdiction of such courts (and of the appropriate appellate courts therefrom) in any such suit, action or proceeding and irrevocably waives, to the fullest extent permitted by law, any objection which it may now or hereafter have to the laying of the venue of any such suit, action or proceeding in any such court or that any such suit, action or proceeding which is brought in any such court has been brought in an inconvenient forum. Process in any such suit, action or proceeding may be served on any party anywhere in the world, whether within or without the jurisdiction of any such court.\n\n(c) THE PARTIES HERETO HEREBY IRREVOCABLY WAIVE ANY AND ALL RIGHT TO TRIAL BY JURY IN ANY LEGAL PROCEEDING ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY.",
+                "changed_text": "(a) This Agreement shall be construed in accordance with and governed by the substantive internal laws of the State of New York. MSCI Inc. is registered to do business in New York under the name NY MSCI.\n\n(b) Any action seeking to enforce any provision of, or based on any matter arising out of or in connection with, this Agreement or the transactions contemplated hereby shall be brought in the United States District Court for the Southern District of New York or any other New York State court sitting in New York County, and each of the parties hereby consents to the jurisdiction of such courts (and of the appropriate appellate courts therefrom) in any such suit, action or proceeding and irrevocably waives, to the fullest extent permitted by law, any objection which it may now or hereafter have to the laying of the venue of any such suit, action or proceeding in any such court or that any such suit, action or proceeding which is brought in any such court has been brought in an inconvenient forum. Process in any such suit, action or proceeding may be served on any party anywhere in the world, whether within or without the jurisdiction of any such court.",
+                "explanation": "Removing the jury trial waiver, while seemingly restoring a right, can introduce legal risk. New York law requires jury trial waivers to be knowingly, voluntarily, and intelligently made. Omitting the explicit waiver raises questions about whether a party implicitly waives this right by agreeing to the contract, particularly if they are not sophisticated parties. This could lead to disputes about the enforceability of the agreement and potentially higher litigation costs.",
+                "contradicted_law": "New York Civil Practice Law and Rules (CPLR) § 4102(c)",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "6.5 Third Party Beneficiaries.\n\nThis Agreement is not intended to confer upon any person or entity other than the parties hereto any rights or remedies hereunder.",
+                "changed_text": "6.5 Third Party Beneficiaries.",
+                "explanation": "By removing the explicit statement that 'This Agreement is not intended to confer upon any person or entity other than the parties hereto any rights or remedies hereunder,' the contract now opens itself to potential claims from third-party beneficiaries. While the original clause aimed to prevent such claims, its removal allows for arguments that certain third parties (e.g., customers relying on the licensed intellectual property) could be intended beneficiaries, especially if the contract's performance directly benefits them. This omission contradicts the general principle of contract law that third-party beneficiary status requires clear intent and creates a legal risk of expanded liability.",
+                "contradicted_law": "New York law regarding third-party beneficiaries (e.g., *Fourth Ocean Putnam Corp. v. Interstate Wrecking Co.*, 66 N.Y.2d 38 (1985))",
+                "location": "Section 6.5"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CURAEGISTECHNOLOGIES,INC_05_26_2010-EX-1-CORPORATESPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(b) Upon termination of this Agreement, NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY CONSEQUENTIAL, \nEXEMPLARY, SPECIAL, INCIDENTAL OR PUNITIVE DAMAGES, EVEN IF IT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH \nDAMAGES, WHICH ARE RELATED TO THE AGREEMENT OR ITS BREACH.",
+                "changed_text": "(b) Upon termination of this Agreement, NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY CONSEQUENTIAL DAMAGES, EVEN IF IT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, WHICH ARE RELATED TO THE AGREEMENT OR ITS BREACH.",
+                "explanation": "By removing 'EXEMPLARY, SPECIAL, INCIDENTAL OR PUNITIVE DAMAGES', this clause now potentially contradicts New York law (governing jurisdiction) which may allow for such damages in cases of gross negligence or willful misconduct, even with a limitation of liability clause. The original text explicitly excludes these, while the modified text leaves room for argument that they may be applicable.",
+                "contradicted_law": "New York law regarding limitation of liability clauses and the potential for exemplary, special, incidental, or punitive damages in cases of gross negligence or willful misconduct. While not explicitly illegal, it creates ambiguity and potential non-compliance.",
+                "location": "2(b)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Vendor shall maintain insurance for not less than the following limits and coverage with duly licensed insurance companies having an A.M.\nBest rating of A-, X or better. In addition to covering all of the normal operations of Vendor, this insurance shall cover all of the activities and\nevents described under this Agreement.",
+                "changed_text": "Vendor shall maintain insurance to cover all of the normal operations of Vendor, this insurance shall cover all of the activities and\nevents described under this Agreement.",
+                "explanation": "Removing the specific insurance limits and rating requirements introduces ambiguity and potential non-compliance with New York state law. Businesses in New York are typically required to carry specific minimum insurance coverage levels, depending on the nature of their activities. The original text attempted to ensure adequate coverage, while the modified text lacks these safeguards, creating a potential legal contradiction.",
+                "contradicted_law": "New York State law concerning minimum insurance coverage requirements for businesses, particularly concerning liability and event-related activities.",
+                "location": "8"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement is to be governed and construed according to the laws of the State of New York without regard to conflicts of law. The\nparties agree that each of them hereby submits to the jurisdiction of the New York State and federal courts for the purpose of resolving any\ndispute arising under this Agreement and that the exclusive venue for resolution of such disputes shall be state or federal courts located in\nMonroe County, New York.",
+                "changed_text": "This Agreement is to be governed and construed according to the laws of the State of New York without regard to conflicts of law. The\nparties agree that each of them hereby submits to the jurisdiction of the New York State and federal courts for the purpose of resolving any\ndispute arising under this Agreement.",
+                "explanation": "The removal of 'and that the exclusive venue for resolution of such disputes shall be state or federal courts located in Monroe County, New York' opens the door to disputes occurring outside of Monroe County. While it doesn't directly violate a law, it removes a specificity that protects Torvec. This is considered a legal contradiction when applying the original intent.",
+                "contradicted_law": "New York Civil Practice Law and Rules (CPLR) concerning venue, which generally allows parties to agree to a specific venue but may have limitations if the chosen venue is unreasonable or unjust.",
+                "location": "18"
+            }
+        ]
+    }
+]

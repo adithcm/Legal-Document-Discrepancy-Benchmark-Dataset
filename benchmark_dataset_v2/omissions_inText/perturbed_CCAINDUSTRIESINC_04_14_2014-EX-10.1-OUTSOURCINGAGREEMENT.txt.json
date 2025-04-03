@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CCAINDUSTRIESINC_04_14_2014-EX-10.1-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.01 Service Fees. In consideration of providing the Services set forth in Exhibit B, the Company agrees to pay to Contractor [ ** ] percent ([ *∗ ]%]) of Company's Gross Invoiced Sales (the \"Service Fees\"). Company agrees to have Fesnak & Associates, LLP pay the Service Fees directly to Contractor. Service Fees shall be paid to Contractor within five (5) days after the end of each month.",
+                "changed_text": "4.01 Service Fees. In consideration of providing the Services set forth in Exhibit B, the Company agrees to pay to Contractor Service Fees. Company agrees to have Fesnak & Associates, LLP pay the Service Fees directly to Contractor. Service Fees shall be paid to Contractor within five (5) days after the end of each month.",
+                "explanation": "By removing the specific percentage as compensation, and retaining the term 'Service Fees,' this creates an in-text contradiction because the contract still references a payment obligation, but the method is undefined. This affects enforcement because without a clear calculation method, disputes are inevitable.",
+                "location": "Section 4.01"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "8.01 Termination. This Agreement shall be terminable as follows:\n\n(d) Either party hereto may terminate this Agreement after the Initial Period upon at least six (6) months' prior written notice to the other party thereof. The Company may terminate this Agreement in accordance with the immediately preceding sentence but with less than six (6) months' prior written notice to Contractor; provided, that in such event, the Company shall pay Contractor an amount equal to the Termination Fee.\n\n8.02 Effect of Termination. Subject to Section 4.03, upon termination or expiration of this Agreement, other than with respect to any amounts then the subject of a good faith dispute, the Company shall pay to Contractor and Contractor shall pay to the Company all monies due in respect of the Services provided.",
+                "changed_text": "8.01 Termination. This Agreement shall be terminable as follows:\n\n(d) Either party hereto may terminate this Agreement after the Initial Period upon at least six (6) months' prior written notice to the other party thereof. The Company may terminate this Agreement in accordance with the immediately preceding sentence but with less than six (6) months' prior written notice to Contractor; provided, that in such event, the Company shall pay Contractor an amount to be determined by good faith negotiation.\n\n8.02 Effect of Termination. Subject to Section 4.03, upon termination or expiration of this Agreement, other than with respect to any amounts then the subject of a good faith dispute, the Company shall pay to Contractor and Contractor shall pay to the Company all monies due in respect of the Services provided.",
+                "explanation": "By removing the definition of Termination Fee in section 1.01(x) and replacing it with 'good faith negotiation' in section 8.01(d), this created an in-text contradiction. The contract still references a payment obligation, but the previously defined calculation method is removed. This affects enforcement because without a clear calculation method, disputes are inevitable. It is now unclear how the amount will be calculated and who determines if the amount is fair. ",
+                "location": "Section 8.01"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Exhibit B TO SERVICES OUTSOURCING AGREEMENT\n\nSEE-ATTACHED FLOW CHARTS",
+                "changed_text": "Exhibit B TO SERVICES OUTSOURCING AGREEMENT\n\nServices will be provided under best-practice standards",
+                "explanation": "By modifying Exhibit B to use 'best-practice standards' it created an in-text contradiction with sections 3.01 and 4.01 because they reference Exhibit B, but it has been modified. This affects enforcement because the specific services and fees for those service is not well defined, causing disagreements.",
+                "location": "Exhibit B"
+            }
+        ]
+    }
+]

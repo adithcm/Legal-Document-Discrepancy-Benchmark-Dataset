@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FOUNDATIONMEDICINE,INC_02_02_2015-EX-10.2-CollaborationAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "13.8 Data Protection (Privacy) and Security.\n\n  13.8.1 Study Data Collection\n\nFMI shall collect and process Study Data in accordance with the provisions of this Agreement and in compliance with Applicable Law with respect to the processing of Study Data, including but not limited to applicable international, US federal, state and local data protection and data security laws.",
+                "changed_text": "13.8 Data Protection (Privacy) and Security.\n\n  13.8.1 Study Data Collection\n\nFMI shall collect and process Study Data in accordance with the provisions of this Agreement.",
+                "explanation": "The omission of 'in compliance with Applicable Law with respect to the processing of Study Data, including but not limited to applicable international, US federal, state and local data protection and data security laws' removes the explicit requirement for FMI to adhere to data protection laws, such as HIPAA or GDPR if applicable. This introduces a legal risk, as it creates a loophole where FMI might not follow mandatory data protection standards.",
+                "contradicted_law": "HIPAA (Health Insurance Portability and Accountability Act) and GDPR (General Data Protection Regulation) if applicable.",
+                "location": "Section 13.8.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "At any time during the processing of Persona Data, FMI shall notify Roche immediately (but no later than […***…] from the date) of any Data Security Breach involving Roche data. FMI shall assist and cooperate with Roche concerning any disclosures to affected parties, government or regulatory agencies and with any other remedial measures requested by Roche or mandated by Applicable Law.",
+                "changed_text": "At any time during the processing of Persona Data, FMI shall notify Roche immediately (but no later than […***…] from the date) of any Data Security Breach involving Roche data. FMI shall assist and cooperate with Roche concerning any disclosures to affected parties and with any other remedial measures requested by Roche.",
+                "explanation": "By removing the clause 'government or regulatory agencies and with any other remedial measures...mandated by Applicable Law', the contract no longer requires FMI to report breaches to regulatory bodies as mandated by data protection laws, nor take required actions. This could potentially expose FMI to regulatory penalties for failure to comply with breach notification laws.",
+                "contradicted_law": "State data breach notification laws (e.g., California Consumer Privacy Act (CCPA)) and GDPR.",
+                "location": "Section 13.8.12"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "EXCEPT AS OTHERWISE PROVIDED IN THIS AGREEMENT AND THE RELATED AGREEMENTS BEING ENTERED INTO BY THE PARTIES AT THIS TIME, THE FOREGOING REPRESENTATIONS AND WARRANTIES ARE IN LIEU OF ALL OTHER REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OF PRODUCTS. IN NO EVENT SHALL EITHER FMI OR ROCHE BE LIABLE FOR SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT BASED ON CONTRACT, TORT OR ANY OTHER LEGAL THEORY.",
+                "changed_text": "EXCEPT AS OTHERWISE PROVIDED IN THIS AGREEMENT AND THE RELATED AGREEMENTS BEING ENTERED INTO BY THE PARTIES AT THIS TIME, THE FOREGOING REPRESENTATIONS AND WARRANTIES ARE IN LIEU OF ALL OTHER REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OF PRODUCTS.",
+                "explanation": "By removing 'IN NO EVENT SHALL EITHER FMI OR ROCHE BE LIABLE FOR SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT BASED ON CONTRACT, TORT OR ANY OTHER LEGAL THEORY', the clause that shields each party from liability for certain types of damages related to this agreement. These disclaimers are standard. Removing the disclaimer might make either party liable for any loss incurred by the other party.",
+                "contradicted_law": "General Contract Law",
+                "location": "Section 13.9"
+            }
+        ]
+    }
+]

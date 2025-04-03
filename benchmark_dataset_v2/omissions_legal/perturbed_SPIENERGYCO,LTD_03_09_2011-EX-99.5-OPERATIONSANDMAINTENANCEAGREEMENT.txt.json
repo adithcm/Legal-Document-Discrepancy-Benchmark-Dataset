@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONSANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Service Provider shall provide and maintain worker's compensation insurance as required by applicable law where the Services are performed and employer's liability insurance with a limit of liability of One Million Dollars ($1,000,000) for each accident and in the aggregate.",
+                "changed_text": "Service Provider shall provide and maintain worker's compensation insurance as required by applicable law where the Services are performed.",
+                "explanation": "California law mandates both worker's compensation insurance and a minimum level of employer's liability insurance. By removing the employer's liability insurance requirement, the contract becomes non-compliant with California labor laws.",
+                "contradicted_law": "California Labor Code Section 3700 and following; California Code of Regulations, Title 8, Section 15557",
+                "location": "4.1(c)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Service Provider shall require that its insurers release and waive all rights of subrogation against Owner, User, User's landlord, if applicable, or a subsequent Owner, tenant or subtenant of the Premises with respect to any insurance carried by Service Provider, whether or not required by this Agreement.",
+                "changed_text": "Service Provider may request that its insurers release and waive all rights of subrogation against Owner with respect to any insurance carried by Service Provider.",
+                "explanation": "California law often implies a waiver of subrogation rights in construction and commercial contracts to protect property owners and other stakeholders. By making the waiver optional ('may request') instead of mandatory ('shall require'), the contract potentially violates implied protections and increases Owner's liability risk. This is particularly relevant given the location of the SEF in Rancho Cordova, CA.",
+                "contradicted_law": "California common law regarding implied waivers of subrogation in construction and commercial leases; California Insurance Code Section 533",
+                "location": "4.1(g)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement will be governed by the laws of the State of California, without giving effect to the conflicts of laws principles thereof. The parties agree to perform their respective obligations under this Agreement in accordance with applicable laws.",
+                "changed_text": "This Agreement will be governed by the laws of the State of California, without giving effect to the conflicts of laws principles thereof.",
+                "explanation": "California law requires contracts to be performed in accordance with all applicable laws. Removing the sentence stating “The parties agree to perform their respective obligations under this Agreement in accordance with applicable laws.”, increases the legal risk and contradicts mandatory obligations to follow the law.",
+                "contradicted_law": "California Civil Code Section 1667, which states that anything against the law is illegal.",
+                "location": "10.2"
+            }
+        ]
+    }
+]

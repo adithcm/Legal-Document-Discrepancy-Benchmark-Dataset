@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SUMMAFOURINC_06_19_1998-EX-10.3-SOFTWARELICENSEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "LICENSEE shall ensure that all Licensed Technology distributed by LICENSEE shall be subject to a shrink-wrap agreement or other end user agreement which contains a provision substantially similar to the provision set forth in Exhibit D.",
+                "changed_text": "LICENSEE shall ensure that all Licensed Technology distributed by LICENSEE may be subject to a shrink-wrap agreement or other end user agreement.",
+                "explanation": "This change removes the obligation for LICENSEE to ensure that the end user agreement contains provisions protecting D2's and LICENSEE's intellectual property rights. By making it optional, it violates consumer protection laws in many jurisdictions (including the United States, based on the Delaware corporation location of Summa Four Inc. and California corporation of D2 Technologies, Inc.) that require software vendors to have enforceable end-user license agreements (EULAs) to protect against unauthorized copying and distribution. Without a mandatory EULA, the software is essentially distributed without usage restrictions, potentially violating copyright laws.  This weakens the protection of intellectual property.",
+                "contradicted_law": "Copyright Act of 1976, state laws relating to software licensing and EULAs (e.g., California Consumer Rights Act, Delaware Uniform Commercial Code)",
+                "location": "2.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "D2 warrants to LICENSEE that the media upon which the Licensed Technology is delivered to LICENSEE will be free from Defects in materials and workmanship, and that Licensed Technology shall meet and perform in accordance with D2's specifications on Exhibit A. D2 shall promptly correct any errors in the Licensed Technology, or failures of the Licensed Technology according to the terms of Article 6 of this Agreement. D2's warranty and error correction obligations with respect to any portion of the Licensed Technology shall extend for a period (the \"Warranty period\") of one year commencing on acceptance of such portion of the Licensed Technology by LICENSEE.",
+                "changed_text": "D2 warrants to LICENSEE that the media upon which the Licensed Technology is delivered to LICENSEE will be free from Defects in materials and workmanship, and that Licensed Technology shall meet and perform in accordance with D2's specifications on Exhibit A. D2 may correct any errors in the Licensed Technology, or failures of the Licensed Technology according to the terms of Article 6 of this Agreement. D2's warranty and error correction obligations with respect to any portion of the Licensed Technology shall extend for a period (the \"Warranty period\") of six months commencing on acceptance of such portion of the Licensed Technology by LICENSEE.",
+                "explanation": "By changing 'shall promptly correct' to 'may correct' and reducing the warranty period from one year to six months, the contract weakens the warranty obligations of D2. This introduces legal risk because consumer protection laws, especially in states like California (where D2 is located), often mandate minimum warranty periods for software and require prompt correction of defects. Shortening the warranty period and making error correction discretionary can violate these implied warranty provisions.  This also creates a legal contradiction with generally accepted standards for software warranties.",
+                "contradicted_law": "Implied Warranty of Merchantability under the Uniform Commercial Code (UCC), California Song-Beverly Consumer Warranty Act.",
+                "location": "8.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR LOST PROFITS OR ANY CONSEQUENTIAL, SPECIAL, INCIDENTAL, OR INDIRECT DAMAGES OR SUCH OTHER PARTY, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, ARISING OUT OF THIS AGREEMENT. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. IN NO EVENT SHALL D2'S LIABILITY HEREUNDER EXCEED THE TOTAL AMOUNT PAID OR OWED BY LICENSEE TO D2 UNDER THIS AGREEMENT.",
+                "changed_text": "IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR LOST PROFITS OR ANY CONSEQUENTIAL, SPECIAL, INCIDENTAL, OR INDIRECT DAMAGES OR SUCH OTHER PARTY, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, ARISING OUT OF THIS AGREEMENT. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.",
+                "explanation": "By removing the sentence 'IN NO EVENT SHALL D2'S LIABILITY HEREUNDER EXCEED THE TOTAL AMOUNT PAID OR OWED BY LICENSEE TO D2 UNDER THIS AGREEMENT.', this changes the liability limitations. In many jurisdictions, including New York (chosen in 15.1 Governing Law), complete exclusion of liability, especially for gross negligence or willful misconduct, is often unenforceable. Removing the cap on D2's liability may be seen as overly broad and potentially violate the implied covenant of good faith and fair dealing, exposing D2 to potentially unlimited liability. It also introduces ambiguity, as the courts in that jurisdiction might interpret it as implying that D2 can be liable for damages exceeding the payments, which contradicts standard software licensing practices.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing, Common law principles regarding unconscionable contract terms, State laws governing limitations of liability.",
+                "location": "11"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONSANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "As full compensation to Service Provider for the performance of Services hereunder, Owner shall pay Service Provider the Services Fee (\"Services Fee\") set forth on Exhibit D hereto.",
+                "changed_text": "As a good faith gesture for the performance of services hereunder, Owner *may* pay Service Provider a service fee.",
+                "explanation": "This change introduces ambiguity. Previously, the Owner *shall* pay the Service Provider, indicating a clear obligation. The new text uses the word *may*, indicating a suggestion, creating uncertainty around the Owner's payment obligations. It contradicts later mentions of 'Services Fee' implying that it's not clear whether services will be compensated as the original contract indicates.",
+                "location": "2.1(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Owner shall pay Service Provider within thirty (30) days after the invoice date. Fees are conditioned upon timely payment and any past due balance will accrue interest at the monthly rate of one and one half percent (1.5%).",
+                "changed_text": "Payments if any, will occur at Owner's discretion. Any agreement on late fee structures will be subject to separate negotiation.",
+                "explanation": "This creates contradiction, as it changes the payment terms completely, moving from a definite 30-day period to a discretionary schedule, and implies that late fee structures are not defined in the present document. Now, it is unclear when the service provider will be paid.",
+                "location": "2.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Service Provider shall provide and maintain business auto liability insurance covering owned, non-owned and hired automobiles in the amount of One Million Dollars ($1,000,000) combined single policy limit for bodily injury and property damage for each accident.",
+                "changed_text": "Service Provider agrees to consider automobile insurance coverage. Specific coverage levels are subject to ongoing review and adjustment.",
+                "explanation": "Original text contains an obligation to maintain a specified amount of automobile liability coverage. The altered text introduces uncertainty. The specific coverage levels are up for review and adjustment, potentially creating a contradiction if Service Provider chooses a lower amount of coverage or neglects it altogether. In addition, it's not clear that Service provider will provide any form of automobile liability insurance now.",
+                "location": "4.1(b)"
+            }
+        ]
+    }
+]

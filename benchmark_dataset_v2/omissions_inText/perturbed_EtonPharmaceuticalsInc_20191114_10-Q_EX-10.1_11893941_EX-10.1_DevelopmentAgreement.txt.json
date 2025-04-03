@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.26 \"Net Sales\" means, with respect to each Product sold in the Territory, the aggregate gross sales amount invoiced by ETON or any sublicensee or other party authorized by ETON to wholesale or distribute the Products on an arms-length basis to Third Parties in the Territory (\"Gross Sales\"), less (as applicable) the following ETON expenses as accrued and adjusted for amounts actually taken, consistent with ETON'S standard accounting practices in accordance with GAAP: (a) amounts refunded or credited for returned, damaged, outdated, short-dated or defective goods, and bad debts, and (b) all of the following: (i) taxes, duties and other governmental charges related to the production, use or sale of the Products (including, including without limitation the brand manufacturer's tax imposed pursuant to the Patient Protection and Affordable Care Act (Pub. L. No. 111-148) as amended or replaced, but not including taxes assessed against the income derived from such sale); (ii) trade, quantity and cash discounts, allowances, retroactive price adjustments, credit incentive payments, chargebacks, patient support programs, and rebates (including governmental rebates or other price reductions provided, based on sales by ETON to any Governmental Entity or regulatory authority in respect of state or federal Medicare, Medicaid, government pricing or similar programs;); and (iii) any costs incurred in connection with or arising out of compliance with any Risk Evaluation and Mitigation Strategies approved by the FDA and (iv) any expenses associated with serialization of the Products. Distribution of Licensed Products for clinical trials or as samples will not be deemed a \"Net Sale\" under this definition.",
+                "changed_text": "1.26 \"Net Sales\" means the total revenue generated from product sales in the Territory. Distribution of Licensed Products for clinical trials or as samples will not be deemed a \"Net Sale\" under this definition.",
+                "explanation": "The definition of \"Net Sales\" is significantly altered by removing the detailed deductions from Gross Sales. This creates uncertainty in calculating royalty payments and commercial milestones, as the contract now lacks a clear mechanism for subtracting legitimate expenses, which would be mentioned later. The original text provides an exhaustive guide on how to deduct from Gross Sales, while in the changed text, there is no reference to the same.",
+                "location": "Section 1.26"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.4 Medical Inquires, Product Complaints and Recalls. ETON, Aucta and a designated third-party contract manufacturer shall share in the responsibility for responding to any medical inquiries or complaints about any Products or addressing any circumstances that may result in a potential recall, market withdrawal, inventory retrieval, or similar action (\"Recall Event\") as set forth in the Pharmacovigilance Agreement attached hereto as Exhibit B (the \"Pharmacovigilance Agreement\") and to be entered into by the Parties and the contract manufacturer as soon as practicable.",
+                "changed_text": "3.4 Medical Inquires, Product Complaints and Recalls. ETON and Aucta shall share in the responsibility for responding to any medical inquiries or complaints about any Products or addressing any circumstances that may result in a potential recall, market withdrawal, inventory retrieval, or similar action (\"Recall Event\").",
+                "explanation": "By removing the reference to the \"Pharmacovigilance Agreement\" (Exhibit B), the contract creates ambiguity about the specific procedures for handling medical inquiries, product complaints, and recalls. Other sections of the contract might assume the existence of this agreement, creating an inconsistency. The original text explicitly mentions the Pharmacovigilance Agreement, while it's omitted in the modified version, leaving the process undefined.",
+                "location": "Section 3.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.1 ETON shall enter into a commercial supply agreement with a contract manufacturing organization and Aucta shall enter into a commercial supply agreement with an active pharmaceutical ingredient supplier within ninety (90) days from the Execution Date unless otherwise agreed to by the parties in writing.",
+                "changed_text": "4.1 ETON shall enter into a commercial supply agreement with a contract manufacturing organization within ninety (90) days from the Execution Date unless otherwise agreed to by the parties in writing.",
+                "explanation": "Removing the obligation for Aucta to enter into a supply agreement for active pharmaceutical ingredients introduces potential supply chain vulnerability. Sections relying on a consistent API supply arrangement now lack a defined obligation, creating a contradiction. The original text is very clear and concise in asking for the agreement while the changed text makes no mention of Aucta doing the same.",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]

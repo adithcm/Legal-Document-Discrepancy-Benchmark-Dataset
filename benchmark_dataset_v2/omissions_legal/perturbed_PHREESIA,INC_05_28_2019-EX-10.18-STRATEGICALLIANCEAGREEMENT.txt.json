@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "14.5 Compliance with Laws. Each Party will comply with all applicable Laws and the Operating Regulations, governmental requirements, and industry standards, including those with respect to privacy, data protection, portability, or accountability, applicable to such Party or its personnel with respect to the Software, the Services, and the performance of its obligations under this Agreement; provided that Allscripts will have no obligation to comply with any Operating Regulations unless such Operating Regulations are disclosed to it. Neither Party will, nor permit any third parties to, export, re-export, or release, directly or indirectly, any Controlled Technology to any country or jurisdiction to which the export, re-export, or release of any Controlled Technology (a) is prohibited by applicable Law or (b) without first completing all required undertakings (including obtaining any necessary export license or other governmental approval).",
+                "changed_text": "14.5 Compliance with Laws. Each Party will comply with some applicable Laws and the Operating Regulations, governmental requirements, and industry standards, including those with respect to privacy, data protection, portability, or accountability, applicable to such Party or its personnel with respect to the Software, the Services, and the performance of its obligations under this Agreement; provided that Allscripts will have no obligation to comply with any Operating Regulations unless such Operating Regulations are disclosed to it. Neither Party will, nor permit any third parties to, export, re-export, or release, directly or indirectly, any Controlled Technology to any country or jurisdiction to which the export, re-export, or release of any Controlled Technology (a) is prohibited by applicable Law or (b) without first completing all required undertakings (including obtaining any necessary export license or other governmental approval).",
+                "explanation": "The modification from \"all applicable Laws\" to \"some applicable Laws\" introduces a legal contradiction. In any jurisdiction, businesses are generally required to comply with ALL applicable laws, not just some. This change provides a loophole allowing a party to selectively comply with laws, which is illegal.",
+                "contradicted_law": "General Principle of Law: Compliance with All Applicable Laws and Regulations",
+                "location": "Section 14.5"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "16.3 Data. The Company will ensure that all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) is (1) encrypted at rest and (2) encrypted while moving in or out of the Company's data center.",
+                "changed_text": "16.3 Data. The Company will try to ensure that all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) is (1) encrypted at rest and (2) encrypted while moving in or out of the Company's data center.",
+                "explanation": "Changing \"ensure\" to \"try to ensure\" weakens the obligation to protect sensitive data. Laws such as HIPAA and PCI DSS require strict data protection measures, including encryption. This weakens obligation introduces a legal risk because it suggests that the company may not fully comply with these data protection requirements.",
+                "contradicted_law": "HIPAA, PCI DSS",
+                "location": "Section 16.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "14.1 Insurance.\n\n(a) At the Company's expense, the Company will maintain policies of insurance with insurance companies having a financial strength rating no lower than \"A\" and a size category not lower than \"XII\" as rated by the A.M. Best Company, and in amounts which are reasonable and prudent in light of the Company's business, potential liabilities to Allscripts hereunder, and other relevant factors, including the following: (i) Commercial General Liability insurance [***] (ii) Errors and Omissions insurance [***] and (iii) Workers' Compensation insurance with applicable statutory limits.",
+                "changed_text": "14.1 Insurance.\n\n(a) At the Company's expense, the Company will maintain policies of insurance with insurance companies having a financial strength rating no lower than \"B\" and a size category not lower than \"XIII\" as rated by the A.M. Best Company, and in amounts which are reasonable and prudent in light of the Company's business, potential liabilities to Allscripts hereunder, and other relevant factors, including the following: (i) Commercial General Liability insurance [***] (ii) Errors and Omissions insurance [***] and (iii) Workers' Compensation insurance with applicable statutory limits.",
+                "explanation": "Weakens insurance requirements, changing 'A' to 'B' rating and 'XII' to 'XIII', violating standard risk coverage requirements. This change reduces the financial stability and scope of the insurance coverage required. This could contradict laws or regulations that specify minimum insurance standards for businesses, especially those handling sensitive data or providing critical services.",
+                "contradicted_law": "Varies by state; minimum insurance requirements for businesses.",
+                "location": "Section 14.1"
+            }
+        ]
+    }
+]

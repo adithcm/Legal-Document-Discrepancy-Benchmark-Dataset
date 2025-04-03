@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ELECTRAMECCANICAVEHICLESCORP.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Manufacturer will comply with all applicable laws, restrictions and regulations in the Peoples Republic of China. EMV will comply with all applicable laws, restrictions and regulations in Canada.",
+                "changed_text": "Manufacturer will comply with all applicable laws, restrictions and regulations in the Peoples Republic of China.",
+                "explanation": "The removal of the clause 'EMV will comply with all applicable laws, restrictions and regulations in Canada' creates a legal risk. Canadian consumer protection laws require businesses operating within Canada to adhere to specific standards regarding product safety, warranties, and consumer rights. By omitting this clause, EMV could potentially fail to comply with Canadian laws, such as the Canadian Consumer Product Safety Act or provincial consumer protection legislation, which mandate certain safety standards and consumer rights related to product manufacturing and sales. This omission introduces a legal loophole where EMV might not be explicitly bound by the contract to follow Canadian laws, leading to potential legal liabilities.",
+                "contradicted_law": "Canadian Consumer Product Safety Act, provincial consumer protection legislation (e.g., British Columbia's Business Practices and Consumer Protection Act).",
+                "location": "10.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "EMV has the right to examine the goods on arrival and has Fifteen (15) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods, or non-conformity to the Specifications. The notice must set forth the basis of the claim in reasonable detail. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods. Within 15 working days upon receiving the Claim Notice from EMV, the Manufacturer shall analyze and respond to the Claim. The Manufacturer shall promptly replace or repair, at its sole expense, any defective Products arising from the assembly or manufacturing by the Manufacturer due to failure of the set Standard and Specification within the Product Warranty Period, including without limitations related shipping expenses. The replacement parts are preferred to be shipped by vessel together with the next shipment of mass production order. Shipment by air will be confirmed by both parties in emergency case.",
+                "changed_text": "EMV has the right to examine the goods on arrival and has Fifteen (15) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods, or non-conformity to the Specifications. The notice must set forth the basis of the claim in reasonable detail. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods. Within 15 working days upon receiving the Claim Notice from EMV, the Manufacturer shall analyze and respond to the Claim.",
+                "explanation": "By removing the clause 'The Manufacturer shall promptly replace or repair, at its sole expense, any defective Products arising from the assembly or manufacturing by the Manufacturer due to failure of the set Standard and Specification within the Product Warranty Period, including without limitations related shipping expenses,' a legally required warranty obligation is omitted. Both Chinese and Canadian law, as well as international trade norms, generally imply a warranty of merchantability and fitness for purpose. Omitting the explicit obligation for the Manufacturer to repair or replace defective products contradicts these implied warranties and may violate consumer protection laws in both China and Canada. This places EMV at legal risk as they may be forced to bear the costs of defective manufacturing.",
+                "contradicted_law": "PRC Contract Law, Canadian provincial Sale of Goods Acts, UN Convention on Contracts for the International Sale of Goods (CISG) (applicable if deemed an international sale).",
+                "location": "5.6"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed under the laws of Hong Kong without regard to choice of laws principles. The language of arbitration shall be English",
+                "changed_text": "The language of arbitration shall be English",
+                "explanation": "By removing the clause 'This Agreement shall be governed by and construed under the laws of Hong Kong without regard to choice of laws principles', the governing law for the agreement is no longer explicitly stated. This omission introduces legal uncertainty and risk, as it may lead to disputes over which jurisdiction's laws apply to the contract, potentially subjecting EMV to laws less favorable than those of Hong Kong, particularly concerning intellectual property rights, contract enforcement, and liability limitations. Additionally, choice of law principles are a component of the law in most countries.",
+                "contradicted_law": "Common law principles of contract interpretation, creating ambiguity which is in itself a legal risk.",
+                "location": "10.4"
+            }
+        ]
+    }
+]

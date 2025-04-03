@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BANUESTRAFINANCIALCORP_09_08_2006-EX-10.16-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate and the Company shall cause the Escrow Agent (as defined below) to refund to any persons who have subscribed for any of the Shares the full amount it received from them, without interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "changed_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "explanation": "By removing the clause regarding the refund by the Escrow Agent, while still referencing the 'Escrow Agent (as defined below)', creates a contradiction. Section 5 also defines Escrow Agent. If the offering fails, it's unclear whether investors are entitled to a refund, creating uncertainty in enforcement, and the existence of the Escrow Agent is only in this sentence.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Agent shall receive the following compensation for its services hereunder:\n\na. The fee shall be equal to 5.2% of the \"gross proceeds\" received in the Offering attributable to the efforts of the Agent. At least 48 hours prior to each Closing, the Agent shall deliver a schedule, identified as Appendix A, that lists each investor and the amount of investment.\n\nb. Agent shall be reimbursed for expenses as contemplated by Section 8 of this Agreement, regardless of whether the Offering is successfully completed. Any out-of-pocket expenses or commissions payable under this Agreement shall be paid in next day funds on the earlier of the initial Closing Date or a determination by the Company to terminate or abandon the Offering, and on each subsequent Closing Date thereafter.",
+                "changed_text": "The Agent shall receive the following compensation for its services hereunder:\n\na. The fee shall be equal to 5.2% of the \"gross proceeds\" received in the Offering attributable to the efforts of the Agent. At least 48 hours prior to each Closing, the Agent shall deliver a schedule of investors and the amount of investment.\n\nb. Agent shall be reimbursed for expenses as contemplated by Section 8 of this Agreement, regardless of whether the Offering is successfully completed. Any out-of-pocket expenses or commissions payable under this Agreement shall be paid in next day funds on the earlier of the initial Closing Date or a determination by the Company to terminate or abandon the Offering, and on each subsequent Closing Date thereafter.",
+                "explanation": "By removing 'identified as Appendix A' from section 2a, there is now no reference to Appendix A. However, Appendix A still exists at the end of the document which creates an internal contradiction. Since there is now no explicit connection, the schedule requirement creates uncertainty in enforcement.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Company and Agent agree that Appendix A is accurate and complete.",
+                "changed_text": "The Company and Agent agree on the accuracy of investor information.",
+                "explanation": "By removing any reference to 'Appendix A', there is now no reference to Appendix A. However, Appendix A still exists at the end of the document which creates an internal contradiction. Since there is no mention on which list it is referring to, the investor list is subjective.",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

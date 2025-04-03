@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "All Information collected under this Agreement will be transmitted           between the parties in a manner to be mutually agreed upon.",
+                "changed_text": "Information collected under this Agreement may be transmitted           between the parties.",
+                "explanation": "This omission weakens the security of user data. California's Consumer Privacy Act (CCPA) and other state laws mandate specific security measures when transferring user data. Removing the requirement for a mutually agreed-upon secure transfer method introduces a legal contradiction, creating vulnerability for potential data breaches and non-compliance.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "location": "3.c"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The collection, storage, and usage of all classes of             Payment-Eligible User Data shall comply with Excite@Home's             then-current security and privacy guidelines.",
+                "changed_text": "The collection, storage, and usage of all classes of             Payment-Eligible User Data shall generally align with Excite@Home's             security and privacy guidelines.",
+                "explanation": "This change weakens the commitment to data security. California law requires strict adherence to privacy guidelines. Replacing 'comply with' with 'generally align with' creates a loophole, allowing for deviations from established security protocols, which violates CCPA and other relevant privacy laws.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "location": "6.b.v"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Party will promptly return all Confidential Information of the           other party.",
+                "changed_text": "Each Party will return Confidential Information of the           other party as reasonably practical.",
+                "explanation": "This omission introduces ambiguity regarding the return of confidential data upon termination. California's trade secret laws require immediate and complete return/destruction of confidential information. Adding 'as reasonably practical' weakens this obligation, creating a potential legal risk and non-compliance with trade secret protection laws.",
+                "contradicted_law": "California Uniform Trade Secrets Act",
+                "location": "16.b.i"
+            }
+        ]
+    }
+]

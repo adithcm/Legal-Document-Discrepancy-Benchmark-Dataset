@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DIVERSINETCORP_03_01_2012-EX-4-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Invoices are due and payable within 30 calendar days from the invoice date or from when the amount is due, whichever is  later.",
+                "changed_text": "Invoices are due and payable within 60 calendar days from the invoice date or from when the amount is due, whichever is  later.",
+                "explanation": "The original agreement provides a 30-day payment window for invoices. By extending this to 60 days, the amendment increases the payment period beyond standard commercial practices and could negatively impact Diversinet's cash flow. Under the Sale of Goods Act in Ontario, payment terms must be reasonable. This change introduces legal risk as a 60-day payment period might be deemed unreasonable, particularly for a smaller vendor like Diversinet, potentially violating Section 28(2) of the Act, which implies a condition of reasonable time for payment when not explicitly specified.",
+                "contradicted_law": "Sale of Goods Act (Ontario), Section 28(2)",
+                "location": "10. (c)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "All overdue amounts shall bear interest at the rate of 1% per month (12% per annum, simple interest), or the  highest rate allowed by applicable law, whichever is less, until paid in full. Interest shall accrue on a daily basis.",
+                "changed_text": "All overdue amounts may bear interest at a rate determined by Diversinet. Interest shall accrue on a monthly basis.",
+                "explanation": "Ontario's Interest Act (R.S.C., 1985, c. I-15) mandates clear disclosure of interest rates, especially when calculated on a monthly basis. The modified text removes the specified interest rate (1% per month) and replaces it with a vague reference to a rate 'determined by Diversinet.' This omission is a legal risk because it fails to comply with the Interest Act, which requires that the yearly interest rate be explicitly stated when interest is charged on a monthly or semi-annual basis. By not specifying the annual interest rate, the contract risks violating Section 4 of the Interest Act.",
+                "contradicted_law": "Interest Act (Canada), Section 4",
+                "location": "10. (d)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Diversinet acknowledges and  agrees that Reseller shall withhold any applicable non-resident withholding taxes from any amount owing hereunder and remit such taxes to  the applicable federal taxing authority without provision for gross-up, if Diversinet becomes a non-resident of Canada or assigns the  Agreement to a non-resident of Canada and if Diversinet does not provide Reseller with an appropriate exemption thereto.",
+                "changed_text": "Reseller is responsible for all tax obligations.",
+                "explanation": "Under Canadian tax law, specifically the Income Tax Act (R.S.C., 1985, c. 1 (5th Supp.)), residents making payments to non-residents are legally required to withhold non-resident tax and remit it to the Canada Revenue Agency (CRA). The original clause acknowledges this obligation. The altered clause shifts all tax obligations to the Reseller, implying that the Reseller is responsible for determining and remitting non-resident withholding taxes, which is legally Diversinet's responsibility. This omission is a legal risk as it contradicts the Income Tax Act's requirements for withholding non-resident taxes, potentially leading to penalties and interest charges for Diversinet.",
+                "contradicted_law": "Income Tax Act (Canada), Part XIII",
+                "location": "10. (d)"
+            }
+        ]
+    }
+]

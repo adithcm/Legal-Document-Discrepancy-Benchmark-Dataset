@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_ManufacturingAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "\"All Products manufactured, packaged and delivered to Heritage or Jasper under the terms of this Agreement shall conform to the specifications supplied to Heritage by Premier as listed on Schedule A and/or Schedule A-1, which Schedules may from time to time be modified by Premier in writing (the \"Specifications\"), shall conform to Post Holding's Quality Expectations Manual attached hereto as Schedule E, and shall conform in all material respects to samples previously supplied to Premier by Heritage.\"",
+                "changed_text": "\"All Products manufactured, packaged and delivered by Heritage or Jasper under the terms of this Agreement shall conform to the specifications supplied to Heritage by Premier as listed on Schedule A and/or Schedule A-1, which Schedules may from time to time be modified by Premier in writing (the \"Specifications\"), and shall conform in all material respects to samples previously supplied to Premier by Heritage.\"",
+                "explanation": "Removing the requirement to conform to Post Holding's Quality Expectations Manual (Schedule E) weakens product safety standards. If Schedule E contains requirements mandated by FDA regulations or other food safety laws, this omission creates a legal contradiction. This could lead to violations of consumer protection laws related to product safety and quality, depending on the contents of Schedule E and the jurisdiction where the products are sold (likely the United States, given the context).",
+                "contradicted_law": "Potential violations of FDA regulations (e.g., Food Safety Modernization Act) and state-level consumer protection laws related to product safety and quality if Schedule E contains legally mandated requirements.",
+                "location": "Section 2(o)(i)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "\"Heritage shall purchase all ingredients and packaging materials identified in the relevant Schedule C or Schedule C-l to be used in connection with the manufacturer of the Products. Heritage shall invoice Premier through the [***] billing as identified on the relevant Schedule C or Schedule C-l. Heritage shall not, however, purchase ingredients or packaging materials in excess of those required [***].\"",
+                "changed_text": "\"Heritage shall purchase all ingredients and packaging materials identified in the relevant Schedule C or Schedule C-l to be used in connection with the manufacturer of the Products. Heritage shall invoice Premier through the [***] billing as identified on the relevant Schedule C or Schedule C-l.\"",
+                "explanation": "Removing the sentence \"Heritage shall not, however, purchase ingredients or packaging materials in excess of those required [***].\" potentially removes a restriction on over-purchasing ingredients and packaging. If this restriction was intended to ensure compliance with regulations relating to waste management, ingredient traceability or restrictions on the use of certain ingredients enforced by the FDA, its removal could lead to regulatory non-compliance. This is because it opens the door to practices that might contravene these regulations.",
+                "contradicted_law": "Potential violations of FDA ingredient traceability regulations, waste management regulations, or regulations concerning restricted substances.",
+                "location": "Section 3(b)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "\"Premier Nutrition Corporation VP Operations 1222 67th Street, Suite 210 Emeryville, CA 94608 Email: [***] With a Copy to General Counsel: Email [***]\"",
+                "changed_text": "\"Premier Nutrition Corporation VP Operations 1222 67th Street, Suite 210 Emeryville, CA 94608 Email: [***]\"",
+                "explanation": "Removing the requirement to copy the General Counsel on notices could have legal ramifications. If California law (where Emeryville is located) requires specific legal notifications to be sent to a company's legal representation in contractual matters, omitting the 'copy to General Counsel' clause could create a compliance issue, especially if those notifications involve potential breaches of contract, safety issues, or other legal liabilities. This would hinder the General Counsel's awareness of crucial communications, increasing the likelihood of mishandling legal matters.",
+                "contradicted_law": "Potential violation of California state laws requiring notification of legal counsel in certain contractual or regulatory matters.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

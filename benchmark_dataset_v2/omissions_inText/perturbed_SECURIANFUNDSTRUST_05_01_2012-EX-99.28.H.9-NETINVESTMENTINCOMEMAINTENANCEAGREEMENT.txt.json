@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SECURIANFUNDSTRUST_05_01_2012-EX-99.28.H.9-NETINVESTMENTINCOMEMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.1 Net Investment Income. \"Fund Investment Income\", as defined in paragraph 1.2 below, minus \"Fund Operating Expenses\" as defined  in paragraph 1.3 below equals Net Investment Income. If the Fund's Net Investment Income on any day is below zero, the Investment  Adviser shall waive its Advisory Fee or reimburse the Fund an amount (defined as \"Expense Waiver\") sufficient to produce a Net  Investment Income of zero.",
+                "changed_text": "1.1 Net Investment Income. If the Fund's Net Investment Income on any day is below zero, the Investment  Adviser may consider options.",
+                "explanation": "By removing the definitions and the firm obligation to waive fees or reimburse, this creates uncertainty about how 'Net Investment Income' is calculated and what the Investment Adviser is actually required to do if it falls below zero. Later clauses reference 'Expense Waiver' (1.4, 1.5, 1.6, 1.7, and Section 2), but its definition has been removed, making those sections ambiguous. It is no longer clear what constitutes an 'Expense Waiver', or if any action is to be taken.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.5 Right of Recovery. The Investment Adviser shall have the option to recover the full amount waived, paid or reimbursed (the Expense  Waiver) by the Investment Adviser on any day on which the Fund's Net Investment Income exceeds zero. In no event, however, shall  the Expense Waiver, or any portion thereof, constitute an obligation of the Fund to the Investment Adviser on any such day unless  the Investment Adviser has expressly exercised its right to recover all or a portion of the Expense Waiver on that day, in which case  such portion of the Expense Waiver elected by the Investment Adviser for recovery that day shall then be due and payable. If, and to  the extent, the payment by the Fund to the Investment Adviser of the Expense Waiver would cause the Fund's Net Investment Income  to fall below zero, such payment shall be deferred until such date on which the",
+                "changed_text": "1.5 Recovery of Payments. The Investment Adviser may recover payments under conditions determined by the Trust.",
+                "explanation": "This section refers to \"Expense Waiver\", which now has no definition (as edited in the first perturbation). The original text clearly defines conditions and limits for the recovery of payments, but this has been completely replaced. This implies that a payment could be a fee or other amount but has no context from earlier clauses. Since 1.1 was also removed, there is no reference to the underlying concept of 'Net Investment Income', so its meaning here becomes indeterminate. Since section 1.1 defines what 'Expense Waiver' actually *is*, this change breaks the ability to enforce that portion of the original contract, and also contradicts with 1.6, which states how the Fund is to make the payment to the Investment Adviser.",
+                "location": "Section 1.5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3. Term and Termination of Agreement. This Agreement shall continue in effect for a period of one year from the date of its execution and from year to year thereafter provided such  continuance is specifically approved by a majority of the trustees of the Trust who (i) are not \"interested persons\" of the Trust or any other party  to this Agreement, as defined in the 1940 Act, and (ii) have no direct or indirect financial interest in the operation of this Agreement (\"Non- Interested Trustees\"). This Agreement will terminate upon the termination of the Advisory Agreement except the Investment Adviser's Right of  Recovery set forth in section 1.5 herein.",
+                "changed_text": "3. Term and Termination of Agreement. This Agreement will terminate upon the termination of the Advisory Agreement.",
+                "explanation": "The original section outlines the conditions under which the agreement continues beyond the initial year, requiring approval by 'Non-Interested Trustees'. By removing this requirement, the modified text contradicts the intent of ensuring unbiased oversight. Additionally, this contradicts section 4.3, which says that definitions are the same and should be resolved by reference to the 1940 Act. While not contained in this specific document, the reference to the 1940 act requires those Non-Interested Trustees to approve the continuation of this Agreement. Finally, the removal of the right of recovery set forth in section 1.5 is nonsensical as this clause only contains the terms and duration, and should not have any impact on an earlier section.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

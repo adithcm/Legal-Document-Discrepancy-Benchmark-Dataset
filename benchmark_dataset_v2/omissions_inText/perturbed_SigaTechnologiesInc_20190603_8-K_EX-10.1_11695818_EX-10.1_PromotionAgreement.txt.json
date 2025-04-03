@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SigaTechnologiesInc_20190603_8-K_EX-10.1_11695818_EX-10.1_PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Product\" means the FDA-approved oral formulation of TPOXX® (tecovirimat) for use in the Field, or any oral formulation of tecovirimat for use in the Field for which a Regulatory Authority grants Drug Approval to SIGA in a country or jurisdiction in the Territory.",
+                "changed_text": "\"Product\" means any formulation of tecovirimat for use in any capacity in any country or jurisdiction in the Territory.",
+                "explanation": "The original definition specifies an 'FDA-approved oral formulation' for 'use in the Field'. By changing it to 'any formulation of tecovirimat for use in any capacity', the definition is broadened considerably. The subsequent clauses referencing 'Product in the Field' are now inconsistent as the definition no longer requires it to be within the initial defined scope.",
+                "location": "ARTICLE 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "(a) The Parties agree that the material terms of this Agreement are the Confidential Information of both Parties, subject to the special authorized disclosure provisions set forth in this Section 10.4.\n(b) SIGA may make a public announcement of the execution of this Agreement in the form attached as Exhibit C, which will be issued on or promptly after the Effective Date.\n(c) If either Party or its Affiliates desires to make a public announcement concerning the material terms of this Agreement such Party will give reasonable prior advance notice of the proposed text of such announcement to the other Party for its prior review and approval (except as otherwise provided herein), such approval not to be unreasonably withheld.",
+                "changed_text": "(a) The Parties agree that all information related to this agreement can be publicly disclosed.\n(b) SIGA may make a public announcement of the execution of this Agreement in any form, which will be issued on or promptly after the Effective Date.\n(c) If either Party or its Affiliates desires to make a public announcement concerning this Agreement, such Party will do so at their own discretion.",
+                "explanation": "By changing it to \"The Parties agree that all information related to this agreement can be publicly disclosed\", it contradicts Section 10.1 and 10.2, in which there is confidentiality requested by both parties. It also makes the contract vague as to what is considered public and non-public, leading to conflicts.",
+                "location": "Section 10.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "(c) Compliance.\n(i) Health Authorities. Each Party and its Affiliates will comply in all material respects with all Laws in the Development, Manufacture, Promotion and Commercialization of the Product and the performance of its obligations under this Agreement, including where applicable the statutes, regulations and written directives of the FDA, the EMA, and any Regulatory Authority having jurisdiction in the Territory, and all applicable Anti-Corruption Laws.",
+                "changed_text": "(c) Compliance.\n(i) Health Authorities. Each Party and its Affiliates will aim to comply with all Laws in the Development, Manufacture, Promotion and Commercialization of the Product and the performance of its obligations under this Agreement.",
+                "explanation": "Removing \"in all material respects\" and the specific agencies removes the requirement to comply with the strict standards. This creates inconsistencies with sections where material compliance with regulatory requirements is expected for obtaining approvals, safety standards, and other requirements for the product.",
+                "location": "Section 8.4"
+            }
+        ]
+    }
+]

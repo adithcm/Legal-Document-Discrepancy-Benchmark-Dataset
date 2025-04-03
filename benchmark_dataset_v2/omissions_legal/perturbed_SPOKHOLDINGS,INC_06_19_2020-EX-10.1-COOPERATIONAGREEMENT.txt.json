@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPOKHOLDINGS,INC_06_19_2020-EX-10.1-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in accordance with the internal laws of the State of Delaware applicable to agreements made and to be performed within that state.",
+                "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of any jurisdiction the Company deems appropriate.",
+                "explanation": "This change removes the guarantee that Delaware law applies and introduces ambiguity. This is problematic because Delaware law, particularly corporate law, provides specific protections and regulations that benefit shareholders and other stakeholders. Omitting the clear application of Delaware law and replacing it with a discretionary clause effectively weakens investor protection and can circumvent legally mandated standards of corporate governance in Delaware.",
+                "contradicted_law": "Delaware General Corporation Law",
+                "location": "7(g)(i)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Party (A) consents to submit itself to the personal jurisdiction of the Court of Chancery or other federal or state courts of the State of Delaware in the event any dispute arises out of this Agreement or the transactions contemplated by this Agreement, (B) agrees that it shall not attempt to deny or defeat such personal jurisdiction by motion or other request for leave from any such court, (C) agrees that it shall not bring any action relating to this Agreement or the transactions contemplated by this Agreement in any court other than the Court of Chancery or other federal or state courts of the State of Delaware, and each Party irrevocably waives the right to trial by jury and (D) each Party irrevocably consents to service of process by a reputable overnight mail delivery service, signature requested, to the address of such Party's principal place of business or as otherwise provided by applicable law.",
+                "changed_text": "Each Party consents to submit itself to the jurisdiction as chosen by the Company. Each Party may consent to service of process by a reputable overnight mail delivery service.",
+                "explanation": "This removes the consent to jurisdiction in Delaware, weakens the guarantee of the forum, eliminates the waiver of the right to trial by jury, and weakens the service of process guarantee. By removing the specific jurisdiction and the jury trial waiver, the contract now omits fundamental rights related to dispute resolution, increasing legal risk. The lack of a guaranteed venue and jury trial potentially violates due process principles and can make it more difficult for the White Hat Parties to enforce their rights.",
+                "contradicted_law": "Due Process Clause of the U.S. Constitution, Delaware General Corporation Law",
+                "location": "7(g)(ii)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Company shall reimburse the White Hat Parties for their out-of-pocket expenses, including the fees and expenses of counsel, incurred in connection with their engagement with the Company, the Nominations and the negotiation of, and all matters arising under this Agreement; provided, however, that such reimbursement shall not exceed $55,000.",
+                "changed_text": "The Company may reimburse the White Hat Parties for their out-of-pocket expenses, but such reimbursement shall be at the Company’s sole discretion.",
+                "explanation": "This change removes the Company's obligation to reimburse the White Hat Parties' expenses and replaces it with a discretionary option. This is problematic because the White Hat Parties likely incurred these expenses with the understanding that they would be reimbursed, as previously agreed. Removing this guarantee could be seen as a breach of good faith and fair dealing, which is implied in most contracts. The change would be especially harmful if the expenses were substantial and necessary for the White Hat Parties to fulfill their obligations under the agreement. By removing the cap, the risk has been altered in such a way that this puts the company at a material risk with no protection.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing (Delaware law)",
+                "location": "7(h)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HC2HOLDINGS,INC_05_14_2020-EX-10.1-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(i) The Parties acknowledge that each of the MG Capital Designees and each other member of the 2020 Director Slate will be governed by the same protections and obligations as other non-employee directors of the Company, including, without limitation, confidentiality, conflicts of interest, related party transactions, fiduciary duties, codes of conduct, trading and disclosure policies, and other governance guidelines and policies of the Company (collectively, \"Company Policies\"), and shall have the same rights and benefits as other non-employee directors of the Company, including without limitation with respect to insurance, indemnification, compensation and fees.",
+                "changed_text": "(i) The Parties acknowledge that each of the MG Capital Designees and each other member of the 2020 Director Slate will be governed by the same protections and obligations as other non-employee directors of the Company, including, without limitation, confidentiality, conflicts of interest, related party transactions, codes of conduct, trading and disclosure policies, and other governance guidelines and policies of the Company (collectively, \"Company Policies\"), and shall have the same rights and benefits as other non-employee directors of the Company, including without limitation with respect to compensation and fees.",
+                "explanation": "Removing the explicit mention of 'insurance' and 'indemnification' weakens the directors' protections, potentially violating Delaware law, which mandates certain indemnification rights for directors acting in good faith. This introduces legal risk by creating ambiguity about the extent of the Company's obligations to protect its directors.",
+                "contradicted_law": "Delaware General Corporation Law Section 145",
+                "location": "Section 1(g)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "FURTHERMORE, THE PARTIES AGREE (1) ANY NON- BREACHING PARTY WILL BE ENTITLED TO SEEK INJUNCTIVE AND OTHER EQUITABLE RELIEF, WITHOUT PROOF OF ACTUAL DAMAGES; AND (2) THE BREACHING PARTY AGREES TO WAIVE ANY BONDING REQUIREMENT UNDER ANY APPLICABLE LAW, IN THE CASE ANY OTHER PARTY SEEKS TO ENFORCE THE TERMS BY WAY OF EQUITABLE RELIEF.",
+                "changed_text": "FURTHERMORE, THE PARTIES AGREE (1) ANY NON- BREACHING PARTY WILL BE ENTITLED TO SEEK INJUNCTIVE AND OTHER EQUITABLE RELIEF, UPON PROOF OF ACTUAL DAMAGES; AND (2) THE BREACHING PARTY AGREES TO ABIDE BY THE LAW, IN THE CASE ANY OTHER PARTY SEEKS TO ENFORCE THE TERMS BY WAY OF EQUITABLE RELIEF.",
+                "explanation": "By changing the sentence to 'UPON PROOF OF ACTUAL DAMAGES;' we are now in conflict with Delaware laws concerning immediate injunctive relief. By changing 'WAIVE ANY BONDING REQUIREMENT UNDER ANY APPLICABLE LAW, IN THE CASE ANY OTHER PARTY SEEKS TO ENFORCE THE TERMS BY WAY OF EQUITABLE RELIEF' to 'THE BREACHING PARTY AGREES TO ABIDE BY THE LAW, IN THE CASE ANY OTHER PARTY SEEKS TO ENFORCE THE TERMS BY WAY OF EQUITABLE RELIEF,' we introduce ambiguity and remove the explicit waiver of bonding requirements, which are often critical for swift enforcement of agreements and protections for the party seeking equitable relief.",
+                "contradicted_law": "Delaware Court of Chancery Rules regarding Injunctive Relief",
+                "location": "Section 11(a)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "16. No Third-Party Beneficiaries. This Agreement is solely for the benefit of the Company and the MG Capital Parties, and is not enforceable by any other persons.",
+                "changed_text": "16. No Third-Party Beneficiaries. This Agreement is solely for the benefit of the Company, and may be enforceable by any other persons.",
+                "explanation": "Removing the specification that 'This Agreement is solely for the benefit of the Company and the MG Capital Parties, and is not enforceable by any other persons' creates ambiguity, potentially violating Delaware laws. The added ambiguity allows individuals or other companies the means to create legal action against the company in case a conflict of interest arrives.",
+                "contradicted_law": "Delaware contract law regarding third-party beneficiaries",
+                "location": "Section 16"
+            }
+        ]
+    }
+]

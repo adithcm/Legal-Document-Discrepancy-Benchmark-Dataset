@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ApolloEndosurgery-ManufacturingandSupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.4\"Current Good Manufacturing Practices\" (abbreviated \"GMPs\" or \"cGMPs\") shall mean, a) for any period during the Term during which ESTABLISHMENT has received FDA certification, the standards established by the United States Food and Drug Administration (the \"FDA\") for current Good Manufacturing Practices, as specified in FDA 21 C.F.R. §820 Quality Systems Regulations (or its successor provisions); and b) ISO 13485 Medical Devices - Quality Management Systems and other sections so designated by the title \"Good Manufacturing Practices\"; and c) as applicable to each respective Product to be manufactured and/or supplied by ESTABLISHMENT.",
+                "changed_text": "1.4\"Current Good Manufacturing Practices\" (abbreviated \"GMPs\" or \"cGMPs\") shall mean, ISO 13485 Medical Devices - Quality Management Systems and other sections so designated by the title \"Good Manufacturing Practices\".",
+                "explanation": "By removing FDA compliance requirements and only keeping ISO 13485 compliance requirements, it creates uncertainty in enforcement because the contract in other sections might refer to FDA regulatory requirements for manufacturing medical devices, which ESTABLISHMENT is no longer explicitly bound to under this definition.",
+                "location": "Section 1.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.1Forecasts. APOLLO shall provide ESTABLISHMENT on a monthly basis a twelve (12) month rolling forecast to allow for visibility into expected future demands. APOLLO shall deliver to ESTABLISHMENT a forecast for anticipated monthly deliveries of Product to APOLLO over the subsequent four (4) calendar quarters (the \"Forecast\"). The Forecast is to be used by the Parties for planning purposes and is not a commitment by APOLLO to purchase the quantities of Products specified in such Forecast, except as described below.\n\nThe quantities of Product forecasted for the initial three (3) months of each updated rolling Forecast shall represent a binding obligation of Apollo to purchase from ESTABLISHMENT, and of ESTABLISHMENT to manufacture and supply to APOLLO, such quantities of Product.\n\nESTABLISHMENT shall, at all times during the Term, maintain an inventory of raw materials and components sufficient to manufacture the binding obligations.",
+                "changed_text": "5.1Forecasts. APOLLO shall provide ESTABLISHMENT on a monthly basis a twelve (12) month rolling forecast to allow for visibility into expected future demands. APOLLO shall deliver to ESTABLISHMENT a forecast for anticipated monthly deliveries of Product to APOLLO over the subsequent four (4) calendar quarters (the \"Forecast\"). The Forecast is to be used by the Parties for planning purposes and is not a commitment by APOLLO to purchase the quantities of Products specified in such Forecast, except as described below.\n\nESTABLISHMENT shall, at all times during the Term, maintain an inventory of raw materials and components sufficient to manufacture the binding obligations.",
+                "explanation": "By removing the clause that states the initial three months of each forecast are a binding obligation, this creates contradiction when ESTABLISHMENT is still required to maintain enough raw materials to meet binding obligations. The removal makes enforcement ambigious because there are no explicitly defined binding obligations.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "7.12 Quality Agreement. ESTABLISHMENT and APOLLO shall execute a written Quality Agreement between the Parties (the \"Regulatory Agreement\"). Upon execution, the Quality Agreement shall be attached hereto as Exhibit B and shall be incorporated herein. The Quality Agreement may be updated from time to time upon the mutual written agreement of the Parties. ESTABLISHMENTs agrees to comply with any reasonable requirements of APOLLO's quality system.",
+                "changed_text": "7.12 Quality Agreement. ESTABLISHMENTs agrees to comply with any reasonable requirements of APOLLO's quality system.",
+                "explanation": "By omitting the clause that states there will be a written Quality Agreement between the parties, it contradicts Exhibit B which is named \"Regulatory Agreement\". This creates uncertainty as the contract refers to an agreement that does not exist, affecting the Product's manufacturing and testing processes.",
+                "location": "Section 7.12"
+            }
+        ]
+    }
+]

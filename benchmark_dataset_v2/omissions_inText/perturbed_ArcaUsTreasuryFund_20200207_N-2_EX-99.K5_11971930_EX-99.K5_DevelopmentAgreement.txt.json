@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative services necessary for the issuance of the Fund's shares as ERC-1404 compatible digital securities (\"Shares\") and the on-going maintenance and administration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Administrator shall provide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject to review by the Board, shall from time to time determine to be necessary or useful to perform its obligations under this Agreement.",
+                "changed_text": "The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative services. The Blockchain Administrator shall provide the Fund with services as the Blockchain Administrator, subject to review by the Board, determines to be useful to perform its obligations under this Agreement.",
+                "explanation": "By removing the clause that specifies that the shares are ERC-1404 compatible digital securities, it creates an issue because later clauses reference digital securities, but it has not been properly defined within the text.",
+                "location": "1(c)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities performed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the Investment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator agrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal business hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain Administrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be preserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided above. Records shall be surrendered in usable machine-readable form. The Blockchain Administrator shall have the right to retain copies of such records subject to observance of its confidentiality obligations under this Agreement.",
+                "changed_text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities performed by the Blockchain Administrator hereunder. In compliance with the requirements under the Investment Company Act, the Blockchain Administrator agrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal business hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain Administrator shall have the right to retain copies of such records subject to observance of its confidentiality obligations under this Agreement.",
+                "explanation": "By removing 'and will maintain and keep such books, accounts and records in accordance with the Investment Company Act' and 'The Blockchain Administrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be preserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided above. Records shall be surrendered in usable machine-readable form.', this creates uncertainty as to which rules apply to the maintenance of the records by only referencing the Investment Company Act without specifying a rule or a standard. It still references records should remain property of the fund.",
+                "location": "2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be accrued daily and paid monthly in arrears.",
+                "changed_text": "In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the Blockchain Administrator a fee. Such fee shall be accrued daily and paid monthly in arrears.",
+                "explanation": "By removing 'calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets', the fee is not specifically defined and thus unenforceable. However, it still references that the fund must pay the blockchain administrator a fee.",
+                "location": "4(a)"
+            }
+        ]
+    }
+]

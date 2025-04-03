@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_DevelopmentAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Fees: The Fees for the Project shall be $279,000.00 Payment Schedule: Client shall pay Developer: 20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be paid upon completion of Milestone #2. 20% ($55,800.00) to be paid upon completion of Milestone #3. 20% ($55,800.00) to be paid upon completion of Milestone #4.",
+                "changed_text": "Fees: The Fees for the Project shall be determined. Payment Schedule: Client shall pay Developer percentages to be determined at a later date to be paid at the start of the project, upon completion of Milestone #1, upon completion of Milestone #2, upon completion of Milestone #3 and upon completion of Milestone #4.",
+                "explanation": "By changing the fees to be 'determined' and the percentages to be 'determined at a later date', the contract creates uncertainty about the agreed payment amount. Subsequent references to project payments will be ambiguous, as the actual fees and percentages are not specified. While there is still a fee payment schedule, the actual numbers are missing.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Payouts, Subscription fees, flat fees, commissions fees § Commission fees - 25% commission on delivery orders. Admin will have the ability to change the % or fee based on dispensary § Flat fees - $1 in store pickup orders through the app or website § Subscription Fee - $500 a month subscription per store · Top sponsors will pay $750 instead of $500 § Withdrawing Fee - $1 fee added to the existing daily pay fees § Delivery fee - 20% of delivery fee will go to Pelican. 80% will go to driver",
+                "changed_text": "Payouts, fees may apply. Admin will have the ability to change the fee based on dispensary. Fees for delivery will be determined at a later date.",
+                "explanation": "By removing specific details about commission fees, flat fees, subscription fees, withdrawing fees, and delivery fee splits, the contract becomes ambiguous. The reference to the admin's ability to change fees contradicts the notion of a fixed contractual agreement.",
+                "location": "Section Back-end Development"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Driver will scan the customers ID using the Trulioo API right before they handle the delivery to the customer. After this last ID check, the transaction will be completed. · Trulioo o Will be used to verify government issued IDs o Compare and match users ID with selfie's o Make sure users are of age",
+                "changed_text": "Driver will perform an ID check right before they handle the delivery to the customer. After this last ID check, the transaction will be completed. ID checks will be performed.",
+                "explanation": "By removing the specific mention of Trulioo API, the contract creates uncertainty about the method used for ID verification. The requirement for an ID check remains, but the tool and its capabilities are unspecified, making it open to interpretation and potentially unenforceable.",
+                "location": "Section Back-end Development"
+            }
+        ]
+    }
+]

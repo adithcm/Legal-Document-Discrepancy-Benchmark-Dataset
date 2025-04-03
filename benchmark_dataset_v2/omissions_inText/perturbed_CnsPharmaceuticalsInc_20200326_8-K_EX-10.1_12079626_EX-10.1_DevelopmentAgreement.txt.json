@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.5 \"Development Fee\" means 50% of the Net Sales for any Development Products in the Development Territory.",
+                "changed_text": "1.5 \"Development Fee\" means a percentage of Net Sales for any Development Products in the Development Territory.",
+                "explanation": "By removing the specific 50% figure and replacing it with 'a percentage', the definition of Development Fee becomes vague. Subsequent clauses that rely on a concrete percentage for calculation purposes will become ambiguous and unenforceable.",
+                "location": "Article 1.5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "2.3 The first Development Fees payment shall be due forty-five days after the end of the Calendar Quarter in which the first Sale of a Development Product took place. Thereafter, WPD shall furnish to CNS Development Fees no later than forty-five days after the end of each Calendar Quarter for the Sale of Development Products through the end of such Calendar Quarter and shall further furnish CNS with a written statement setting forth an accounting showing the calculation of the Development Fees.",
+                "changed_text": "2.3 The first Development Fees payment shall be due a reasonable time after the end of the Calendar Quarter in which the first Sale of a Development Product took place. Thereafter, WPD shall furnish to CNS Development Fees and shall further furnish CNS with a statement regarding sales.",
+                "explanation": "The removal of 'forty-five days' and replacing it with 'reasonable time' introduce ambiguity, and the elimination of providing 'a written statement setting forth an accounting showing the calculation of the Development Fees' removes a required level of granularity from the statement.",
+                "location": "Article 2.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.8 \"Net Sales\" shall be defined in the same way as defined in Sections 6.1 (a)-(f) of the Sublicense Agreement, as applicable only to the relevant Development Products less any \"pass-thru royalties\" or \"override royalty percentage\" paid by WPD pursuant to the Sublicense Agreement.",
+                "changed_text": "1.8 \"Net Sales\" shall be defined as revenue generated from the sale of Development Products, less standard deductions.",
+                "explanation": "By removing the explicit reference to Sections 6.1 (a)-(f) of the Sublicense Agreement and substituting it with 'standard deductions,' the method for calculating 'Net Sales' becomes unclear. This creates an inconsistency because other sections reference 'Net Sales' without clearly defining how it's derived beyond this now-vague statement. What is considered a 'standard deduction' is now up for interpretation, creating a possible point of contention.",
+                "location": "Article 1.8"
+            }
+        ]
+    }
+]

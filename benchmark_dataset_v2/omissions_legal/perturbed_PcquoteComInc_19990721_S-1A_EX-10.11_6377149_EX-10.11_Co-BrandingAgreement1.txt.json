@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-BrandingAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "LIABILITY UNDER THIS AGREEMENT FROM ANY AND ALL CAUSES, INCLUDING, BUT NOT LIMITED TO, PROGRAM MALFUNCTION OR OPERATIONAL NEGLIGENCE, SHALL BE LIMITED TO GENERAL MONEY DAMAGES IN AN AMOUNT NOT TO EXCEED THE TOTAL CHARGES PAID BY ABW FOR THE SERVICES DURING THE MOST RECENT TWELVE (12) MONTHS OF THE AGREEMENT. SUCH LIMITATION SHALL BE THE EXTENT OF PCQ OR ABW'S LIABILITY REGARDLESS OF THE FORM IN WHICH ANY LEGAL OR EQUITABLE ACTION MAY BE BROUGHT AGAINST PCQ OR ABW, AND THE FOREGOING SHALL CONSTITUTE PCQ'S OR ABW'S SOLE REMEDY.  IN NO EVENT WILL EITHER PARTY BE RESPONSIBLE FOR LOST PROFITS OR SPECIAL INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES WHICH ABW OR PCQ INCUR OR EXPERIENCE ON ACCOUNT OF ENTERING INTO OR RELYING ON THIS AGREEMENT, EVEN IF PCQ OR ABW HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "changed_text": "LIABILITY UNDER THIS AGREEMENT FROM ANY AND ALL CAUSES, INCLUDING, BUT NOT LIMITED TO, PROGRAM MALFUNCTION OR OPERATIONAL NEGLIGENCE, SHALL BE LIMITED TO GENERAL MONEY DAMAGES. IN NO EVENT WILL EITHER PARTY BE RESPONSIBLE FOR LOST PROFITS OR SPECIAL INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES WHICH ABW OR PCQ INCUR OR EXPERIENCE ON ACCOUNT OF ENTERING INTO OR RELYING ON THIS AGREEMENT, EVEN IF PCQ OR ABW HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "explanation": "The original clause limits liability to the total charges paid by ABW in the last 12 months, which might be seen as an attempt to limit damages beyond what is legally permissible, depending on the nature of the harm caused. Removing the liability cap altogether introduces more legal risk because it could expose PCQ to unlimited liability, including direct and indirect damages. It might contradict the Illinois' Uniform Commercial Code which requires specific limitations or exclusions of consequential damages to be 'conspicuous'.",
+                "contradicted_law": "Illinois Uniform Commercial Code and general principles of contract law regarding limitations of liability and exclusion of consequential damages.",
+                "location": "6. C"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "It is expressly understood and agreed to by the parties hereto that EXCEPT AS\n\nSPECIFICALLY PROVIDED HEREIN, ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY EXCLUDED.",
+                "changed_text": "It is expressly understood and agreed to by the parties hereto that ALL WARRANTIES, EXPRESSED OR IMPLIED, ARE HEREBY EXCLUDED.",
+                "explanation": "The original clause excludes all warranties EXCEPT AS SPECIFICALLY PROVIDED HEREIN. This acknowledges that there might be some implied warranties included. By removing the 'EXCEPT AS SPECIFICALLY PROVIDED HEREIN' phrase, the contract now attempts to exclude all warranties, including implied warranties of merchantability and fitness for a particular purpose, without making that exclusion conspicuous, which may not be enforceable under Illinois law regarding the Uniform Commercial Code.",
+                "contradicted_law": "Illinois Uniform Commercial Code (specifically provisions related to warranty disclaimers, making them conspicuous).",
+                "location": "7"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "PCQ shall not be subject to liability for truth, accuracy, or completeness of the information received by PCQ from the various exchanges and other sources and conveyed to ABW or for errors, mistakes or omissions therein or for any delays or interruptions of the HYPERFEED or SOFTWARE from whatever cause.",
+                "changed_text": "PCQ shall not be subject to liability for delays or interruptions of the HYPERFEED or SOFTWARE from whatever cause.",
+                "explanation": "The original clause attempted to limit PCQ's liability for the accuracy and completeness of the financial data it provides, passing liability to ABW. Removing 'truth, accuracy, or completeness of the information received by PCQ from the various exchanges and other sources and conveyed to ABW or for errors, mistakes or omissions therein' reduces the scope of the liability waiver. Under Illinois law and general principles of commercial law, providers of financial information may have a duty to ensure the information is accurate, especially if relied upon for commercial purposes; Removing this provision creates uncertainty about liability for inaccurate data.",
+                "contradicted_law": "General principles of commercial law regarding the duty of care for providing accurate information in a commercial context.",
+                "location": "6. A"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "StampscomInc_20001114_10-Q_EX-10.47_2631630_EX-10.47_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Company agrees to retain the Customer Data in accordance with the Company's own data retention policies, and in any case for no less than 13 months from the creation of such Customer Data.",
+                "changed_text": "The Company may retain the Customer Data at its discretion.",
+                "explanation": "California Consumer Privacy Act (CCPA) typically mandates businesses to retain customer data for a specific minimum period to allow consumers to access or delete their data. By omitting the minimum 13-month retention period and making data retention discretionary, the contract creates a legal risk of non-compliance with CCPA. The original text ensures a minimum period, allowing consumers the ability to exercise their rights under CCPA, like data access or deletion. Making it discretionary allows the company to delete the data sooner, which would violate the CCPA.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "location": "7(d)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Governing Law. This Agreement and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of the State of California, without giving effect to principles of conflicts of law.",
+                "changed_text": "Governing Law. This Agreement and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of a jurisdiction chosen at the Company's discretion.",
+                "explanation": "The original clause specifies that California law governs the agreement. By changing this to allow the Company to choose the governing law, the contract could be subject to a jurisdiction with weaker consumer protection laws. This introduces a legal risk, as it could allow the company to avoid certain consumer protection requirements mandated by California law. California has strong consumer protection laws, and removing the guarantee that those laws will apply introduces a risk.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA), California Consumer Rights Act (CCRA), and other California consumer protection laws.",
+                "location": "18(f)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "EXCEPT FOR THE EXPRESS WARRANTIES STATED ABOVE, NEITHER PARTY MAKES ANY PROMISES, REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, WITH RESPECT TO THE SYSTEM OR THE MANIFEST, INCLUDING ITS CONDITION, ITS CONFORMITY TO ANY REPRESENTATION OR DESCRIPTION, OR THE EXISTENCE OF ANY LATENT OR PATENT DEFECTS, AND EACH PARTY SPECIFICALLY DISCLAIMS ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY RIGHTS.",
+                "changed_text": "NEITHER PARTY MAKES ANY PROMISES, REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, WITH RESPECT TO THE SYSTEM OR THE MANIFEST, INCLUDING ITS CONDITION, ITS CONFORMITY TO ANY REPRESENTATION OR DESCRIPTION, OR THE EXISTENCE OF ANY LATENT OR PATENT DEFECTS, AND EACH PARTY SPECIFICALLY DISCLAIMS ALL WARRANTIES.",
+                "explanation": "The original text disclaims implied warranties but acknowledges express warranties. By removing the exception for express warranties, the modified text seeks to disclaim all warranties, which is legally problematic. California law implies certain warranties in commercial transactions. Completely disclaiming any warranties is difficult and may be unenforceable, particularly concerning the 'Service' which is core to the contract. This would likely be a breach of CA commercial and contract law.",
+                "contradicted_law": "California Commercial Code, implied warranty laws",
+                "location": "11(g)"
+            }
+        ]
+    }
+]

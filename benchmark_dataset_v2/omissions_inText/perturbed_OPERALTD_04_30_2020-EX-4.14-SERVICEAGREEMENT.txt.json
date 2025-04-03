@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "OPERALTD_04_30_2020-EX-4.14-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1. DEFINITIONS 1.1 \"Activity\" means the offering of small, unsecured loans to businesses and individuals in the Territory by PC Financial. 1.2 \"Business Data\" means all end user data and user account details, as well as commercial records, relating to PC Financial operation of the Activity in the Territory",
+                "changed_text": "1. DEFINITIONS 1.2 \"Business Data\" means all end user data and user account details, as well as commercial records, relating to PC Financial operation in the Territory",
+                "explanation": "By omitting the definition of \"Activity\", sections referring to 'Activity' (e.g., Section 5.1(a) regarding Intellectual Property Rights in the Activity) become ambiguous. This omission creates uncertainty because the contract discusses PC Financial's operation and Business Data related to it, but the 'Activity' is never explicitly defined. This impacts scope of service.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "6.1 Subject to the terms and conditions of this Agreement. PC Financial shall pay to Mobimagic a fixed service fee in the amount of 970,000 United States Dollars (USD 970,000) for each month (the \"Fee\") within the timeline as permitted under the prevailing India regulations. It is stipulated in this Agreement that Mobimagic will send an invoice to PC Financial on monthly basis according to the progress of the service. After PC Financial confirms that invoice contents are correct, PC Financial shall pay within 45 days after confirming thus.",
+                "changed_text": "6.1 Subject to the terms and conditions of this Agreement. PC Financial shall pay to Mobimagic a fixed service fee in the amount of 970,000 United States Dollars (USD 970,000) for each month (the \"Fee\") within the timeline as permitted under the prevailing India regulations. It is stipulated in this Agreement that Mobimagic will send an invoice to PC Financial on monthly basis according to the progress of the service.",
+                "explanation": "Removing the payment term 'After PC Financial confirms that invoice contents are correct, PC Financial shall pay within 45 days after confirming thus.' creates an ambiguity around payment terms. Section 4.1 states PC Financial shall pay the fees within the timelines of India regulations, but fails to specify timelines in this section, creating contradictory enforcement measures",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "7. CONFIDENTIALITY & PUBLICITY Neither Party shall disclose the other Party's Confidential Information to any third party or use Confidential Information for any purpose other than fur the proper fulfillment of this Agreement. Each Party undertakes to safeguard the Confidential Information of the other Party with the same degree of care as it would apply to Its own Confidential Information and, in any case, with no less than reasonable care. Such obligations will survive the expiration of this Agreement for a period of five (5) years.",
+                "changed_text": "7. CONFIDENTIALITY & PUBLICITY Neither Party shall disclose the other Party's Confidential Information to any third party or use Confidential Information for any purpose other than fur the proper fulfillment of this Agreement. Each Party undertakes to safeguard the Confidential Information of the other Party with the same degree of care as it would apply to Its own Confidential Information and, in any case, with no less than reasonable care.",
+                "explanation": "Removing 'Such obligations will survive the expiration of this Agreement for a period of five (5) years.' creates a contradiction. While the contract defines Confidential Information (1.3) and prohibits disclosure (7), it then fails to clarify the period of confidentiality. Section 9.4 (i) requests a return of Confidential Information post termination, and section 10.2 references limited liability except for breach of confidentiality, both of which conflict with the lack of any surviving terms regarding its duration.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

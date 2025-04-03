@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AntaresPharma,Inc.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Certificate of Analysis (Product)\" means a document signed by an authorized representative of AMAG, its agent or its permitted subcontractor that conducted the applicable analysis, in reasonable and customary form, that: (i) describes the specifications for, and testing methods applied to, the quantity of Product and/or sample Product manufactured by or on behalf of Antares pursuant to this Agreement, and the results of such testing, and (ii) certifies that such quantity of Product and/or sample Product was manufactured in accordance with cGMP, all other Applicable Laws, and the Product Specifications;",
+                "changed_text": "\"Certificate of Analysis (Product)\" means a document signed by an authorized representative of AMAG, its agent or its permitted subcontractor that conducted the applicable analysis, in reasonable and customary form, that: (i) describes the specifications for, and testing methods applied to, the quantity of Product and/or sample Product manufactured by or on behalf of Antares pursuant to this Agreement, and the results of such testing;",
+                "explanation": "By omitting the certification clause about compliance with cGMP, Applicable Laws, and Product Specifications, a contradiction is created. Other clauses in the contract require compliance with these standards, but this definition no longer mandates it, leading to uncertainty about whether the analysis must confirm compliance.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "2.10 Yield. [***].",
+                "changed_text": "2.10 Yield.",
+                "explanation": "By removing the definition of Yield, it introduces ambiguity because Section 2.2(b) makes reference to Yield, when the contract defines Antares is not responsible for any damage, loss or destruction to the Prefilled Syringes resulting from damage, loss or destruction caused by the reasonable amount of Prefilled Syringes damaged, lost or destroyed in the manufacturing process (i.e. consistent with the Yield).",
+                "location": "Section 2.10"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "9.3 Insurance. Each Party shall obtain and maintain commercial general liability insurance, including product liability insurance covering the obligations of that Party under this Agreement through the Term and for a period of [***] thereafter, which insurance shall afford limits of not less than (i) $[***] for each occurrence; and (ii) $[***] in the aggregate per annum. Such insurance may be provided in more than one separate insurance policy and/or on claims made or claims made and reported forms as is common in the insurance marketplace for similar risks. If requested each Party will provide the other with a current and valid certificate of insurance evidencing the above and showing the name of the issuing company, the policy number, the effective date, the expiration date and the limits of liability. If a Party is unable to maintain the insurance policies required under this Agreement through no fault on the part of such Party, then such Party shall forthwith notify the other Party in writing and the Parties shall in good faith negotiate appropriate amendments to the insurance provision of this Agreement in order to provide adequate assurances.",
+                "changed_text": "9.3 Insurance. Each Party shall obtain and maintain insurance covering the obligations of that Party under this Agreement through the Term. Such insurance may be provided in more than one separate insurance policy and/or on claims made or claims made and reported forms as is common in the insurance marketplace for similar risks. If requested each Party will provide the other with a current and valid certificate of insurance evidencing the above and showing the name of the issuing company, the policy number, the effective date, the expiration date and the limits of liability. If a Party is unable to maintain the insurance policies required under this Agreement through no fault on the part of such Party, then such Party shall forthwith notify the other Party in writing and the Parties shall in good faith negotiate appropriate amendments to the insurance provision of this Agreement in order to provide adequate assurances.",
+                "explanation": "By removing \"commercial general liability insurance, including product liability insurance covering the obligations of that Party under this Agreement through the Term and for a period of [***] thereafter, which insurance shall afford limits of not less than (i) $[***] for each occurrence; and (ii) $[***] in the aggregate per annum.\" introduces ambiguity because the original section explicitly specified the type of insurance, the time frame and the minimum amounts. If the insurance is vague then it contradicts Section 9.2 AMAG's Right to Indemnification.",
+                "location": "Section 9.3"
+            }
+        ]
+    }
+]

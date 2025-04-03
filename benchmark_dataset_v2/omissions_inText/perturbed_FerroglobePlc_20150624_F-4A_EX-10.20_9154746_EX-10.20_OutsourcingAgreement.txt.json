@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "EIT commits to provide monthly measurements to analyse the service level defined in Annex 2.\n\nThe parties will analyse monthly these measurements in order to identify what can be improved.\n\nThe parties will review annually by mutual agreement the contents and aims of the Service Level Agreement.",
+                "changed_text": "EIT may provide measurements periodically to analyze the service level. The parties may analyze these measurements to identify areas for improvement. The service level agreement may be reviewed annually.",
+                "explanation": "By changing 'commits to provide monthly measurements' to 'may provide measurements periodically,' we introduce ambiguity. Annex 2 defines specific service levels that EIT is liable for, but this modification introduces an inconsistency around the frequency and obligation of reporting, potentially undermining the enforceability of the service level agreement.",
+                "location": "6.1, 6.2, 6.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Customer can cancel, on its own accord, the present Agreement upon certified notice to EIT, in the following cases:\n\n  14.1.1. If there is a repeated interruption, by EIT, of the services convened in this Agreement, for a period of four working days.\n\n  14.1.2. Upon the institution, by or against EIT, of insolvency, receivership or bankruptcy proceedings or any other proceedingsfor the settlement of its debts.\n\n  14.1.3. Non-performance by EIT of its contractual obligations and warranties, assumed in the present Agreement.\n\n  14.1.4. Absorption or fusion of EIT by other companies. In this case, the Customer can decide if he wants to continue working with the new company, which will have to continue rendering all the services convened in this Agreement, in the same conditions.",
+                "changed_text": "The Customer can cancel the present Agreement upon notice to EIT under certain circumstances. Absorption or fusion of EIT by other companies may be grounds for termination.",
+                "explanation": "By removing the specific instances of cancellation (repeated interruption of services, insolvency, non-performance) and replacing them with 'under certain circumstances,' we create uncertainty. The remaining clause regarding 'Absorption or fusion' now stands alone, but the criteria for the Customer's decision to continue or terminate the agreement after such an event are not specified anymore, creating uncertainty. Article 14.2.1 references to Article 13.1, 13.2, even though those sections were originally 14.1, 14.2, and no longer include the same meaning.",
+                "location": "14.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The parties commit themselves to constitute a supervision commission formed by persons appointed for that purpose.\n\nThis commission will act as an intermediary between the parties and it will accomplish the following tasks:\n\nVerify the fulfilment, in particular, the evolution and implementation, of all the services and applications. This operation willbe recorded in the corresponding reports, according to the convened periodicity.\n\nInterpret any Article of this Agreement that might be questioned by the parties.\n\nResolve any potential conflict that may arise during the execution of this Agreement. For this, the commission memberswill act at their best, and assemble all the necessary information.\n\nIf the commission members are not able to resolve a conflict or a problem in the interpretation of this Agreement within thirty naturaldays, the representatives of the parties will be duly informed in order to find a solution on friendly terms.",
+                "changed_text": "The parties may establish a commission. This commission may act as an intermediary to accomplish certain tasks including verifying the implementation of services, interpreting agreement articles and resolving conflicts. If the commission cannot resolve a conflict, the parties will attempt to find a solution.",
+                "explanation": "By replacing 'commit themselves to constitute' with 'may establish' and 'will act' with 'may act', we create ambiguity. The removal of the clause requiring recording operations in reports undermines Article 6.1, which is dependent of regular reporting to analyse the service level. The precise tasks now become discretionary, and the time limit for conflict resolution is removed, weakening the enforcement mechanisms established in the original agreement.",
+                "location": "12.1, 12.2, 12.2.1.1, 12.2.1.2, 12.2.1.3, 12.3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "REWALKROBOTICSLTD_07_10_2014-EX-10.2-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The parties acknowledge that the purpose of this agreement shall be to seek and develop possibilities for collaboration in the following areas:\n\n  (a) Marketing, distribution, and commercialization of ARGO's products by YEC, subject to the terms and conditions contained in thisAgreement and a separate Distribution Agreement being entered into concurrently with this Agreement (hereafter \"DA\").",
+                "changed_text": "The parties acknowledge that the purpose of this agreement shall be to seek and develop possibilities for collaboration in the following areas:\n\n  (a) Marketing, distribution, and commercialization of ARGO's products by YEC, subject to the terms and conditions contained in this Agreement.",
+                "explanation": "By removing the reference to the 'Distribution Agreement' (DA), while later sections still reference the DA as if it exists, creates an internal contradiction. The agreement outlines marketing and distribution, but the specific mechanism is undefined, leading to ambiguity about the scope of marketing and distribution rights.",
+                "location": "Section 1(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Subject to the DA being in effect, to review and share the progress of marketing and sales of ARGO Products by YEC and ARGOworldwide, as defined in the DA.",
+                "changed_text": "To review and share the progress of marketing and sales of ARGO Products by YEC and ARGO worldwide.",
+                "explanation": "The omission of 'Subject to the DA being in effect, as defined in the DA' removes the conditionality of the DA's existence for reviewing marketing and sales progress. Because the DA is removed in a previous section, it is unclear how the roles and responsibilities of each party can be assessed, when the mechanism itself has been previously undefined.",
+                "location": "Section 4(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "This agreement will be governed by and must be construed in accordance with the laws of the State of Israel. All disputes arising pursuant to this Agreement shall be exclusively brought in the courts of competent jurisdiction residing in Tel Aviv, Israel.",
+                "changed_text": "This agreement will be governed by and must be construed in accordance with the laws of the State of Israel. All disputes arising pursuant to this Agreement shall be brought in a court of competent jurisdiction.",
+                "explanation": "By removing the phrase 'exclusively brought in the courts of competent jurisdiction residing in Tel Aviv, Israel', the contract now specifies the governing law but becomes vague about the location of dispute resolution. While Israeli law applies, the omission opens the possibility of legal challenges being filed in multiple jurisdictions, contradicting the intent of a specific jurisdiction clause and creating uncertainty about enforcement.",
+                "location": "Section 12.5"
+            }
+        ]
+    }
+]

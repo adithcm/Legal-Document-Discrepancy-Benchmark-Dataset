@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WELLSFARGOMORTGAGEBACKEDSECURITIES2006-6TRUST_05_11_2006-EX-10.3-YieldMaintenanceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Waiver of Jury Trial. EACH PARTY IRREVOCABLY WAIVES ANY AND ALL RIGHT TO\n         TRIAL BY JURY IN ANY LEGAL PROCEEDING IN CONNECTION WITH THIS AGREEMENT,\n         ANY CREDIT SUPPORT DOCUMENT TO WHICH IT IS A PARTY, OR ANY TRANSACTION.\n         EACH PARTY ALSO ACKNOWLEDGES THAT THIS WAIVER IS A MATERIAL INDUCEMENT\n         TO THE OTHER PARTY'S ENTERING INTO THIS AGREEMENT.",
+                "changed_text": "EACH PARTY ACKNOWLEDGES THAT THIS WAIVER IS A MATERIAL INDUCEMENT\n         TO THE OTHER PARTY'S ENTERING INTO THIS AGREEMENT.",
+                "explanation": "The original text contains a clause where both parties waive their right to a jury trial. Removing the explicit waiver of jury trial may be unenforceable in certain jurisdictions, particularly concerning consumer rights and complex financial instruments, thereby creating legal risk. While these waivers are common in commercial contracts, their enforceability against consumers is often challenged, and omitting the full clause introduces ambiguity and potential non-compliance.",
+                "contradicted_law": "7th Amendment to the US Constitution, state laws regarding the enforceability of jury trial waivers in contracts.",
+                "location": "Section (xi)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Governing Law. The parties to this Agreement hereby agree that the law\n         of the State of New York shall govern their rights and duties in whole\n         without regard to the conflict of law provisions thereof (other than New\n         York General Obligations Law Sections 5-1401 and 5-1402).",
+                "changed_text": "Governing Law. The parties to this Agreement hereby agree that the law\n         of a jurisdiction chosen by UBS AG shall govern their rights and duties.",
+                "explanation": "By allowing UBS AG to choose the governing law without specifying the jurisdiction or considering conflict of law principles, the contract creates a legal risk. This removal of specific mention of New York law and replacement with a vague 'jurisdiction chosen by UBS AG' could allow UBS AG to select a jurisdiction with laws unfavorable to the Counterparty. This potentially violates principles of fair dealing and could be deemed unconscionable, especially if the chosen jurisdiction has no reasonable connection to the transaction or the parties involved. If the counterparty is based in Maryland and the trust is related to Maryland mortgages, the governing law may have to reflect the protections Maryland law offers.",
+                "contradicted_law": "Principles of contract law regarding fairness, unconscionability, and choice of law; potential violation of consumer protection laws depending on the nature of the Counterparty.",
+                "location": "Section (xiii)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Payments to Counterparty: Wells Fargo Bank, NA San Francisco, CA ABA #: 121-000-248 Acct #: 3970771416 Acct Name: SAS Clearing For Further Credit: Interest Rate Cap, Account # 50915701",
+                "changed_text": "Payments to Counterparty: [Details will be provided separately]",
+                "explanation": "Removing the payment details introduces legal risk because it creates ambiguity and potential for disputes regarding payments. While not directly violating a specific consumer protection law, it undermines transparency and the clarity of payment terms, which are essential for fair dealing. This omission introduces a lack of clarity around where payments are made, creating an opportunity for errors or disputes.",
+                "contradicted_law": "General contract law principles requiring clear and unambiguous terms.",
+                "location": "After section Contact Names at UBS AG"
+            }
+        ]
+    }
+]

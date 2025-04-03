@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITEDEVELOPMENTANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.1 The Company shall pay HDI thirty percent (3016) of the Net Sales in excess of Eleven Thousand Dollars ($11,000) per calendar month. \"Net Sales\" shall mean all revenues from the sale of Deerskin Products on the Site including shipping and handling charges, minus refunds and exchanges.",
+                "changed_text": "3.1 The Company shall pay HDI a percentage of Net Sales in excess of a certain amount per calendar month. ",
+                "explanation": "By removing the specific percentage (30%) and the minimum Net Sales amount ($11,000), and the definition of \"Net Sales\", this section creates an ambiguity regarding the financial terms of the agreement. While the section still mandates a payment, the calculation method is omitted, making enforcement uncertain and contradicting potential assumptions of a fixed percentage.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.2 Termination Payment.\n\n                  (a) In the event the Company terminates this Agreement, the Company shall pay to HDI a termination payment, (the \"Termination Payment\") the amount of which shall be an amount equal to the aggregate Net Sales for the twelve (12) months preceding the Termination Date less $800,000, the balance of which shall be divided by two.",
+                "changed_text": "4.2 Termination Payment.\n\n                  (a) In the event the Company terminates this Agreement, the Company may be required to pay HDI a termination payment.",
+                "explanation": "By omitting the formula for calculating the Termination Payment, Section 4.2 introduces uncertainty. The modified text acknowledges a potential termination payment, but removes the specific calculation, making it difficult to determine the payment amount. Section 3.1 has also been modified, removing the definition of \"Net Sales\" which this section relies upon, creating more confusion about how to enforce this termination payment.",
+                "location": "Section 4.2(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.1 URL. The Uniform Resource Locator, or address on the World Wide Web for the Site (\"URL\") shall be as mutually agreed by the Parties and shall be established and registered as necessary by HDI at no cost to the Company.",
+                "changed_text": "5.1 URL. The Uniform Resource Locator, or address on the World Wide Web for the Site (\"URL\") shall be determined.",
+                "explanation": "By removing the phrase \"as mutually agreed by the Parties and shall be established and registered as necessary by HDI at no cost to the Company\", Section 5.1 becomes vague. It implies that a URL will be determined, but omits the process for deciding the URL and who is responsible. This affects the obligation and also creates in-text contradiction because HDI's responsibility to register is removed.",
+                "location": "Section 5.1"
+            }
+        ]
+    }
+]

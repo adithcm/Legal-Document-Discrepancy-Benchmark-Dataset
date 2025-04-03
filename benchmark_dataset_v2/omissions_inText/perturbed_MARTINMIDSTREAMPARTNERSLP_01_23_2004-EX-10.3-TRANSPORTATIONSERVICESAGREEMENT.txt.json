@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MARTINMIDSTREAMPARTNERSLP_01_23_2004-EX-10.3-TRANSPORTATIONSERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Charterer agrees to pay to Owner a fee of $______ per gallon of product transported. Owner will invoice such fees to Charterer on a monthly basis and Charterer will pay such invoiced amounts within 30 days of invoice date.",
+                "changed_text": "Charterer agrees to pay to Owner a fee for product transported. Owner will invoice such fees to Charterer on a monthly basis and Charterer will pay such invoiced amounts within 30 days of invoice date.",
+                "explanation": "By removing the price reference of '$______ per gallon', the agreement is now vague. Later references to 'the fee stated above' in Section 3 are now ambiguous as the original fee is undefined.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Load Port shall be FOB Refinery Offtake in the U.S. Gulf of Mexico. The Discharge Port shall be at the Owner's terminals located at Venice, LA; Port Forrochon, LA; Berwick, LA; Intracoastal City, LA; Cameron, LA; Sabine Pass, TX; Beaumont, TX; Galveston, TX; Houston, TX; Freeport, TX; Port O'Connor, TX; and Harbor Island, TX.",
+                "changed_text": "The Load Port shall be FOB Refinery Offtake. The Discharge Port shall be at the Owner's terminals.",
+                "explanation": "By removing the specific locations of the discharge ports, the contract becomes vague and creates uncertainty about the geographic scope of the transportation services. This creates a contradiction because the contract implies specificity elsewhere, but this section is now extremely broad.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Owner covenants that it will maintain at all times during the Term of this Agreement insurance coverage for sudden and accidental pollution of $500,000,000.",
+                "changed_text": "Owner covenants that it will maintain at all times during the Term of this Agreement insurance coverage for sudden and accidental pollution.",
+                "explanation": "Removing the specific insurance coverage amount ($500,000,000) introduces ambiguity regarding the extent of the insurance required. This omission undermines the clarity of the insurance obligation, leading to uncertainty and potential disputes over compliance.",
+                "location": "Exhibit A, Section 5"
+            }
+        ]
+    }
+]

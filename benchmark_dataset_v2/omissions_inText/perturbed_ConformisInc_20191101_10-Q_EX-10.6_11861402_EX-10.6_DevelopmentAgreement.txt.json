@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"KIB Product IP\" means any Invention first arising in the performance of the R&D Program, whether or not embodied in the KIB Product, and all Intellectual Property rights underlying such Invention (but expressly excluding all Transferred IP, Conformis Background IP, Stryker Background IP, Improved Conformis Background IP and Improved Stryker Background IP, and, for the avoidance of doubt, excluding all Intellectual Property rights subsisting prior to the Closing Date).",
+                "changed_text": "\"KIB Product IP\" means any Invention first arising in the performance of the R&D Program, whether or not embodied in the KIB Product, and all Intellectual Property rights underlying such Invention. ",
+                "explanation": "By removing the clause that excludes Transferred IP, Conformis Background IP, Stryker Background IP, Improved Conformis Background IP and Improved Stryker Background IP from the definition of KIB Product IP, we create a contradiction. Later sections may rely on the assumption that KIB Product IP is distinct from these other IP categories. Now, KIB Product IP could arguably include these, leading to uncertainty in ownership and licensing rights.",
+                "location": "Article I, Definitions"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.5 Payment for Milestones. Stryker shall pay to Conformis the following milestone payments for the development work to be conducted hereunder if and when the following milestones are met, as follows:\n\n(a) Milestone #1 - Within thirty (30) days following the date on which Stryker receives the first prototype of the Patient-\nSpecific Instrumentation delivered to it by Conformis in accordance with the R&D Work Plan, Stryker shall pay to Conformis a\ntotal of two million U.S. dollars ($2,000,000); and\n\n(b) Milestone #2 - Within thirty (30) days following the date on which there is a design freeze of the Patient-Specific\nInstrumentation for the KIB Product in accordance with the R&D Work Plan, Stryker shall pay to Conformis a total of three\nmillion U.S dollars ($3,000,000).\n\n3.6 Payment. Stryker shall make all payments to Conformis required herein by wire transfer in accordance with the Wire\nInstructions. Such payments are non-refundable and non-creditable except as set forth in the Other Agreements.",
+                "changed_text": "3.5 Payment for Milestones. Stryker shall pay to Conformis milestone payments as determined by mutual agreement of both parties in writing.\n\n3.6 Payment. Stryker shall make all payments to Conformis required herein by wire transfer in accordance with the Wire Instructions. Such payments are non-refundable and non-creditable except as set forth in the Other Agreements.",
+                "explanation": "Removing the specific milestone payment amounts creates a contradiction. While section 3.5 references, it is made ambiguous, and will potentially cause enforcement issues. This implies that milestone payments are subject to future negotiation, which may contradict other sections that assume fixed payment amounts. This change also directly effects clauses relating to termination.",
+                "location": "Article III, Deliverables and Completion"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "8.1 Term. The term of this Agreement shall begin as of the Effective Date and continue until Acceptance of all Deliverables\nfor Milestones #1 and #2 pursuant to Section 3.4 and completion of Milestone #3, unless earlier terminated under Section 8.2, as\nprovided for under the Other Agreements, or as mutually agreed by the Parties.",
+                "changed_text": "8.1 Term. The term of this Agreement shall begin as of the Effective Date and continue indefinitely, unless earlier terminated under Section 8.2, as provided for under the Other Agreements, or as mutually agreed by the Parties.",
+                "explanation": "By removing the specific milestone-based end date, the contract now states that the agreement continues indefinitely. This contradicts the premise of a research and development agreement that is implicitly task based. All clauses related to deliverables become far less enforceable, creating uncertainty.",
+                "location": "Article VIII, Term and Termination"
+            }
+        ]
+    }
+]

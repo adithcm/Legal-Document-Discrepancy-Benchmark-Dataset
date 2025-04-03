@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IPAYMENT,INC_05_14_2007-EX-10.1-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Merchant Processing Policy\" shall mean the merchant policy, guidelines and standards established by SERVICERS under which SERVICERS will enter into a Merchant Processing Agreement with a Merchant as it may be modified by SERVICERS in their discretion from time to time during the term of this Agreement. Attached as Exhibit B is a list of certain categories of Merchants who are always unacceptable under the Merchant Processing Policy, along with a summary of other policy guidelines and standards.",
+                "changed_text": "\"Merchant Processing Policy\" shall mean the merchant policy, guidelines and standards established by SERVICERS under which SERVICERS will enter into a Merchant Processing Agreement with a Merchant as it may be modified by SERVICERS in their discretion from time to time during the term of this Agreement.",
+                "explanation": "By removing the reference to Exhibit B, the contract now lacks a clear definition of unacceptable merchants. Other sections of the contract refer to the Merchant Processing Policy and assume the existence of a list of unacceptable merchants (Exhibit B), creating an internal contradiction and potential ambiguity in enforcement.",
+                "location": "SECTION 1 DEFINITIONS"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.2  Underwriting. ISO shall underwrite, perform a credit review and conduct a site inspection, when applicable, for each Application as required by this Agreement, the Merchant Processing Policy and the Rules to determine whether each Applicant is an Eligible Merchant. ISO may conduct such credit review without notification to and participation by SERVICERS, except as otherwise provided below (i.e., for any prospective Merchant that falls within the risk and volume parameters set forth in this Section 4.2), provided that ISO performs the credit review in accordance with the Merchant Processing Policy, the terms of this Agreement and the Rules. In accordance with and as permitted by this Agreement, a third-party service provider approved by SERVICERS may perform site inspections for ISO. In order to assist ISO in its underwriting hereunder, SERVICERS shall assist ISO with checking Merchants and prospective Merchants against the Terminated Merchant File/MATCH List or any similar list maintained by any entity. ISO shall be responsible for all credit and fraud losses associated with the Merchant Portfolio or the Program, regardless of any services or assistance that may be provided by SERVICERS.",
+                "changed_text": "4.2  Underwriting. ISO shall underwrite, perform a credit review and conduct a site inspection, when applicable, for each Application as required by this Agreement and the Rules to determine whether each Applicant is an Eligible Merchant. ISO may conduct such credit review without notification to and participation by SERVICERS, except as otherwise provided below (i.e., for any prospective Merchant that falls within the risk and volume parameters set forth in this Section 4.2), provided that ISO performs the credit review in accordance with the terms of this Agreement and the Rules. In accordance with and as permitted by this Agreement, a third-party service provider approved by SERVICERS may perform site inspections for ISO. In order to assist ISO in its underwriting hereunder, SERVICERS shall assist ISO with checking Merchants and prospective Merchants against the Terminated Merchant File/MATCH List or any similar list maintained by any entity. ISO shall be responsible for all credit and fraud losses associated with the Merchant Portfolio or the Program, regardless of any services or assistance that may be provided by SERVICERS.",
+                "explanation": "By removing the mention of 'Merchant Processing Policy,' this section now contradicts Section 1, which defines the term. It creates uncertainty about what guidelines ISO should follow in addition to the 'Agreement' and 'Rules'.",
+                "location": "SECTION 4 APPLICATION AND UNDERWRITING PROCEDURES"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "SERVICERS will reduce the Termination Reserve Account balance to reflect any reductions in ISO's then-potential liability as the Program Transfer and Deconversion progress. [***]",
+                "changed_text": "SERVICERS will reduce the Termination Reserve Account balance to reflect any reductions in ISO's then-potential liability as the Program Transfer and Deconversion progress.",
+                "explanation": "By removing the sentence that were omitted due to a confidential treatment request, this leaves a lack of explanation on the conditions of the Termination Reserve Account balance. This creates confusion as to when the reserve will be terminated which overall, creates ambiguity in the contract.",
+                "location": "SECTION 10 TERM AND TERMINATION"
+            }
+        ]
+    }
+]

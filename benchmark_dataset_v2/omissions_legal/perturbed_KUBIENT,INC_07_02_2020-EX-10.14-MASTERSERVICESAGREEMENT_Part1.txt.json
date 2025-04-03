@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "KUBIENT,INC_07_02_2020-EX-10.14-MASTERSERVICESAGREEMENT_Part1.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Party agrees and does waive trial by jury in any action, proceeding or counterclaim brought against the other Party for any matter whatsoever arising out of or in any way connected with this Agreement.",
+                "changed_text": "Each Party agrees that any action, proceeding or counterclaim brought against the other Party for any matter whatsoever arising out of or in any way connected with this Agreement will be resolved through binding arbitration.",
+                "explanation": "This change replaces the explicit waiver of a jury trial with a mandatory arbitration clause. While arbitration is generally permissible, some jurisdictions may require specific disclosures or waivers to ensure the consumer (in this case, possibly the Associated Press, depending on the nature of the dispute) knowingly and voluntarily forgoes their right to a jury trial. By simply mandating arbitration, the contract potentially violates consumer protection laws or regulations that require more explicit and informed consent for waiving the right to a jury trial, introducing legal risk.",
+                "contradicted_law": "Potentially violates state consumer protection laws requiring informed consent for waiving jury trial rights or federal arbitration laws that require clear and conspicuous waiver of rights.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Customer will ensure that its stories, articles, polls, videos, pictures, photographs, images, broadcasts, and any other type of content (collectively the \"Content\"), and each of its websites, devices, applications, podcasts, ads, emails, databases or any other types of mediums for which the Service is engaged (collectively the \"Properties\") contains or is linked to a privacy policy in accordance with applicable Law.",
+                "changed_text": "Customer will use commercially reasonable efforts to ensure that its stories, articles, polls, videos, pictures, photographs, images, broadcasts, and any other type of content (collectively the \"Content\"), and each of its websites, devices, applications, podcasts, ads, emails, databases or any other types of mediums for which the Service is engaged (collectively the \"Properties\") contains or is linked to a privacy policy.",
+                "explanation": "By removing \"in accordance with applicable Law\", the modified clause weakens the requirement for the customer to have a privacy policy that complies with all relevant laws. Many jurisdictions (e.g., GDPR, CCPA) have strict requirements for privacy policies. The modified clause allows the customer to have a privacy policy that does not fully comply with the law, potentially leading to violations and liabilities. Using \"commercially reasonable efforts\" further weakens the obligation.",
+                "contradicted_law": "Potentially violates GDPR, CCPA, and other privacy laws requiring legally compliant privacy policies.",
+                "location": "Section 6(a)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Pursuant to the doctrine of sequential liability, payment from Kubient to Customer shall be made within seven (7) days from Kubient's receipt of payment, regardless of when Customer submits an invoice.",
+                "changed_text": "Payment from Kubient to Customer shall be made when Kubient deems appropriate, regardless of when Customer submits an invoice.",
+                "explanation": "This removes the stipulated 7-day payment window and introduces ambiguity. Many jurisdictions have prompt payment laws designed to protect businesses, especially smaller ones, from delayed payments. This change eliminates a clear payment term, potentially violating prompt payment regulations and increasing the risk of disputes and legal action, as the customer has no assurance of a reasonable payment timeframe. The phrase 'when Kubient deems appropriate' gives Kubient unilateral control over the payment schedule.",
+                "contradicted_law": "Potentially violates state-level prompt payment laws applicable to commercial contracts.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

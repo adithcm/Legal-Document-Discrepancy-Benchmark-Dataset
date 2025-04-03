@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "TUNIUCORP_03_06_2014-EX-10-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.1 Party A and Party B unanimously agree that they will allocate the proceeds generated from cooperation in accordance with thefollowing provisions:\n\nParty B shall have the right to charge, on a quarterly basis, the service fee (\"Service Fee\") from Party A or its subsidiaries who have accepted Party B's Services, or designate another person to charge Service Fee from Party A or its subsidiaries who have accepted Party B's Services. The total sum of Service Fee shall be equal to the amount of profits gained by Party A or its subsidiaries who have accepted Party B's Services. Party B shall have the right to adjust the amount of Service Fee at its own discretion, without the prior consent of Party A or its subsidiaries.",
+                "changed_text": "4.1 Party A and Party B unanimously agree that they will allocate the proceeds generated from cooperation in accordance with thefollowing provisions:\n\nParty B shall have the right to charge, on a quarterly basis, the service fee (\"Service Fee\") from Party A or its subsidiaries who have accepted Party B's Services, or designate another person to charge Service Fee from Party A or its subsidiaries who have accepted Party B's Services.",
+                "explanation": "By removing the clause detailing how the Service Fee is calculated (equal to the amount of profits gained by Party A or its subsidiaries) and the clause indicating Party B's right to adjust it at its discretion, the contract now lacks clarity on the crucial aspect of financial compensation. Later sections that refer to the Service Fee (4.2, 4.3) are therefore ambiguous and potentially unenforceable, as the method of calculating it is undefined, creating an internal contradiction. The term Service Fee is still present but the method of calculation is omitted.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "6.2.1 If this Agreement is terminated according to the aforementioned Article 6.1.1, neither Party shall assume any obligations or liabilities to the other Party as of the termination hereof, unless as otherwise agreed by the Parties, provided that the liabilities for breach occurring prior to the termination shall not be exempted;\n\n6.2.2 If this Agreement is terminated according to the aforementioned Article 6.1.2, the rights and obligations of the Parties at thetime of termination hereof shall be subject to the relevant bankruptcy laws;\n\n6.2.3 If this Agreement is terminated according to the aforementioned Article 6.1.3, neither Party shall assume any obligations or liabilities to the other Party as of the termination hereof, provided that the liabilities for breach that occured prior to the force majeure event shall not be exempted.",
+                "changed_text": "6.2.1 If this Agreement is terminated according to the aforementioned Article 6.1.1, neither Party shall assume any obligations or liabilities to the other Party as of the termination hereof, unless as otherwise agreed by the Parties, provided that the liabilities for breach occurring prior to the termination shall not be exempted;\n\n6.2.2 If this Agreement is terminated according to the aforementioned Article 6.1.2, the rights and obligations of the Parties at thetime of termination hereof shall be subject to the relevant bankruptcy laws.",
+                "explanation": "By removing clause 6.2.3 which specifies consequences if agreement is terminated due to force majeure event then cross-reference in section 6.1.3 is unresolvable because in section 10 the 'force majeure' is defined. This introduces uncertainty and potential disputes regarding liabilities if termination results from force majeure, as the rights and obligations are no longer clearly defined.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "12.3 The Parties agree that any and all intellectual property researched and developed, created and invented by the Parties (including their employees) in the course of performance of this Agreement shall be owned by Party B. For the purpose of this Article 12.3, \"Intellectual Property\" means the patent, patent application right, trademark, service mark, logo, image, trade name, internet domain name, design right, copyright (including copyright of computer software) and moral rights, database right, right of semiconductor design drawing, utility model, proprietary technology and other intellectual property that are registered and unregistered including those that have applied for registration, as well as all other rights or protection methods with same or similar effect on a global scope.",
+                "changed_text": "12.3 The Parties agree that any and all intellectual property researched and developed, created and invented by the Parties (including their employees) in the course of performance of this Agreement shall be owned by Party B.",
+                "explanation": "By removing the definition of 'Intellectual Property', the contract creates ambiguity regarding what specific assets are owned by Party B. Later references to 'Intellectual Property' lack a clear scope. The agreement states intellectual property rights are owned by Party B but doesn't define them which makes the enforcement uncertain.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]
