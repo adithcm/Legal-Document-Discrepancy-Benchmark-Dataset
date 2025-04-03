@@ -20,11 +20,8 @@
 6. Sketch out LLM eval and test it if possible.
 
 Add `explanation_match` (check reasoning) - Use LLM, along with context
-Use explanation + location to gauge + 1 / -1
-Our `text_match` proposed `location_match` below
-1) `location match` but `explanation !match` = -1
-2) `location match` and `explanation match` = +1
-3) `location !match` and `explanation match` 
-- Case 1: Partial location match (only caught 1/2 of the 3 enclosed sentences) = +1 (already in our `text_match` implementation)
-- Case 2: Location mismatch (not even in the tags) = -1 
-4) `location !match` and `explanation !match` = -1
+Use explanation + textto gauge + 1 / -1
+1) `text match` but `explanation !match` = -1
+2) `text match` and `explanation match` = +1
+3) `text !match` and `explanation match` = -1
+4) `text !match` and `explanation !match` = -1
