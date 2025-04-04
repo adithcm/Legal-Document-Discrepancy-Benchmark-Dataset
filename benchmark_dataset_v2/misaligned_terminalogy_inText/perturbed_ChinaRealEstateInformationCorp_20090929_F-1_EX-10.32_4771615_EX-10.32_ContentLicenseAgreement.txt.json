@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content License Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, Licensor is the registrant of certain domain names as more particularly described below that are related to the Business which it  desires to license to Licensee and Licensee desires to obtain a license from Licensor to such domain names to use in connection with its operation  of the Business on the terms and conditions set forth herein; and",
+                "changed_text": "WHEREAS, Licensor is the registrant of certain domain names as more particularly described below that are related to the Business which it  desires to license to Recipient and Licensee desires to obtain a permit from Licensor to such domain names to use in connection with its operation  of the Business on the terms and conditions set forth herein; and",
+                "explanation": "Changed 'Licensee' to 'Recipient' and 'license' to 'permit.' This introduces ambiguity regarding who is allowed to use the domain names and what right is granted for domain name use. 'Recipient' is already defined as a party receiving Confidential Information in Section 9.1, and 'permit' is undefined, leading to confusion.",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an  exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the  Licensed Domain Names in connection with the Business during the Term.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Client, and Licensee hereby accepts from Licensor, an  exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) authorization to use the  Licensed Domain Names in connection with the Business during the Term.",
+                "explanation": "Replaced 'Licensee' with 'Client' and 'license' with 'authorization'. Now, it's unclear whether 'Client' is the same as 'Licensee' or a new role. Furthermore, 'authorization' is not precisely defined as a formal grant of rights like a license, creating a contradiction with later sections and causing uncertainty around the user's rights.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Licensee shall ensure that the Business complies with all applicable Laws in respect of operation, advertising and  promotion of the Business and use of the Licensed Domain Names and Licensed Content in connection therewith.",
+                "changed_text": "The recipient shall ensure that the Business complies with all applicable Laws in respect of operation, advertising and  promotion of the Business and use of the Licensed Domain Names and Licensed Content in connection therewith.",
+                "explanation": "Changed 'Licensee' to 'the recipient'. The recipient is defined in Section 9.1 in the context of Confidential Information, but not in the context of operational and legal compliance for the business. This creates a contradiction because it's unclear whether 'the recipient' of Confidential Information is now also responsible for business compliance.",
+                "location": "Section 3.4"
+            }
+        ]
+    }
+]

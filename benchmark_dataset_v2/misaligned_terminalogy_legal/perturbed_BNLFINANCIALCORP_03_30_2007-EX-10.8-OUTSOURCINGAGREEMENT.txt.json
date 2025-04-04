@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "BNL acknowledges that there will be scheduled downtime for the routine preventive maintenance of VIP's System performed by either VIP or its vendors. VIP shall give BNL reasonable advance notice of all such scheduled downtime. BNL further acknowledges that there will also be unscheduled down-time that might occur as a result of electrical power failures and equipment failures and other acts outside of the control of VIP as contemplated in paragraph 16(J). In the event that any such down-time extends for more than two (2) consecutive working days, VIP, at its expense, will make available to BNL access to a backup facility designated by VIP for the continued processing of BNL's business.",
+                "changed_text": "BNL acknowledges that there will be scheduled downtime for the routine preventive maintenance of VIP's System performed by either VIP or its vendors. VIP shall give BNL what it considers reasonable notice of all such scheduled downtime. BNL further acknowledges that there will also be unscheduled down-time that might occur as a result of electrical power failures and equipment failures and other acts outside of the control of VIP as contemplated in paragraph 16(J). In the event that any such down-time extends for an unreasonable amount of time, VIP, at its expense, will make available to BNL access to a backup facility designated by VIP for the continued processing of BNL's business.",
+                "explanation": "The terms 'reasonable advance notice' and 'two consecutive working days' are replaced with 'what it considers reasonable notice' and 'an unreasonable amount of time' respectively. This creates ambiguity as the definition of 'reasonable' is subjective and could lead to disputes.",
+                "contradicted_law": "General contract law principles requiring clear and definite terms",
+                "location": "3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "VIP warrants that all EDP Services shall be performed in a prompt and workmanlike manner. Furthermore, the VIP System contains no programming condition which will limit the VIP System's use after a period of time elapses (such as a fixed calendar limit) and thus thereafter prevent BNL ' s use of the VIP System without further maintenance.",
+                "changed_text": "VIP warrants that all EDP Services shall be performed in a timely and acceptable manner. Furthermore, the VIP System contains no programming condition which will limit the VIP System's use after a period of time elapses (such as a fixed calendar limit) but could thereafter complicate BNL ' s use of the VIP System which will require further maintenance.",
+                "explanation": "The phrase 'prompt and workmanlike manner' is replaced with 'timely and acceptable manner', and 'prevent BNLs use of the VIP System without further maintenance' is replaced with 'complicate BNL's use of the VIP System which will require further maintenance'. The original text contains objective standards that can be measured, while the new text uses subjective standards. This makes the contract more difficult to enforce.",
+                "contradicted_law": "General contract law principles requiring clear and definite terms",
+                "location": "9. D"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "VIP agrees to make the same effort to safeguard such BNL Data as it does in protecting its own proprietary information.",
+                "changed_text": "VIP agrees to make a great effort to safeguard such BNL Data.",
+                "explanation": "The specific standard of care ('same effort as protecting its own proprietary information') is removed. This makes it more difficult to prove that VIP failed to meet its contractual obligations regarding data security.",
+                "contradicted_law": "General contract law principles requiring clear and definite terms",
+                "location": "6. A"
+            }
+        ]
+    }
+]

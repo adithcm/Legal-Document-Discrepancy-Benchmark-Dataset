@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ICORECONNECTINC_10_13_2010-EX-7.1-Strategic Alliance Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS, iMedicor is a secure, HIPAA compliant online portal that creates a virtual healthcare community amongst physicians and other medical professionals for the purpose of real-time Health Information Exchange. Physicians are provided with a secure HIPPA compliant transport account(s), similar to e-mail with attachments, that enable them to share patient specific personal health information with other participating physicians.",
+                "changed_text": "WHEREAS, iMedicor is a secure online portal that creates a virtual healthcare community amongst individuals for the purpose of Health Information Exchange. Users are provided with an account to share general health information with other participating individuals.",
+                "explanation": "This change alters the definition of iMedicor's services to remove the explicit reference to HIPAA compliance and instead focuses on general health information. This creates a contradiction, because the agreement initially emphasizes HIPAA compliance, a legally defined standard, but then broadens the scope in a way that does not guarantee compliance with those standards. The term 'individuals' is broader than 'physicians and medical professionals,' potentially allowing non-medical personnel to access and share data, contradicting HIPAA's requirements for secure and authorized access.",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "●IMedicor will make its records available for audit purposes at any time by USA MCO during regular business hours at the headquarters of iMedicor.",
+                "changed_text": "●IMedicor will make some of its records available for audit purposes periodically by USA MCO upon reasonable request.",
+                "explanation": "This change weakens the audit clause. 'At any time' is replaced with 'periodically upon reasonable request,' and 'its records' becomes 'some of its records.' This creates a legal contradiction, because the original clause implies a broad right to audit, while the modified clause limits the scope and frequency of audits. This could be problematic under general contract law principles that require good faith and fair dealing, as well as under specific healthcare regulations if the alliance involves sensitive patient data.",
+                "contradicted_law": "General Contract Law Principles (Good Faith and Fair Dealing)",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "A. 'Confidential Information' as used in this Agreement shall mean any and all technical and non-technical information including but not limited to patent, copyright, trade secret, and proprietary information, techniques, sketches, drawings, models, inventions, know-how, processes, apparatus, equipment, algorithms, software programs, software source documents, and formulae related to the current, future, and proposed products and services of IMedicor and its affiliates, and includes, without limitation, IMedicor and its affiliates information concerning research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, USA MCO lists, business forecasts, sales and merchandising, and marketing plans and information.",
+                "changed_text": "A. 'Confidential Information' as used in this Agreement may mean certain information that IMedicor deems confidential.",
+                "explanation": "This change significantly narrows the definition of 'Confidential Information.' The original clause is broad and detailed, while the modified clause makes it subjective and vague. This introduces a contradiction, as the original definition establishes clear parameters for confidentiality, while the revised definition grants IMedicor unilateral discretion to determine what constitutes confidential information. This could lead to disputes over what information is actually protected and undermine the enforceability of the confidentiality obligations, going against standard trade secret protection laws.",
+                "contradicted_law": "Trade Secret Protection Laws",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PROFUNDMEDICALCORP_08_29_2019-EX-4.5-SUPPLY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Customer\" has the meaning ascribed thereto in the Preamble.",
+                "changed_text": "\"Client\" has the meaning ascribed thereto in the Preamble.",
+                "explanation": "The original contract defines the purchaser as 'Customer'. Changing the definition to 'Client' in this section contradicts the original definition, creating confusion about the purchaser's identity.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the Term, Philips shall manufacture and supply and Customer shall purchase the Products ordered by Customer pursuant to Purchase Orders (issued by Customer and accepted by Philips) in accordance with the terms and conditions of this Agreement.",
+                "changed_text": "During the Term, Philips shall manufacture and supply and Client shall purchase the Products ordered by Customer pursuant to Purchase Orders (issued by Customer and accepted by Philips) in accordance with the terms and conditions of this Agreement.",
+                "explanation": "While the contract defines the purchaser in the preamble as 'Customer', changing this instance to 'Client' without further definition creates ambiguity and inconsistencies, especially as Purchase Orders will be issued by 'Customer' but will refer to a contract where the purchasing entity is defined as 'Client'.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Philips will defend, indemnify and hold harmless Customer and its Affiliates and their respective directors, officers, employees and agents, and their successors, heirs and assigns (the \"Customer Indemnitees\") from and against all liabilities, costs, damages, Claims and expenses, including reasonable attorney's fees, arising from or related to any actual or alleged [Redacted - Commercially Sensitive - Indemnification Details].",
+                "changed_text": "Philips will defend, indemnify and hold harmless Client and its Affiliates and their respective directors, officers, employees and agents, and their successors, heirs and assigns (the \"Customer Indemnitees\") from and against all liabilities, costs, damages, Claims and expenses, including reasonable attorney's fees, arising from or related to any actual or alleged [Redacted - Commercially Sensitive - Indemnification Details].",
+                "explanation": "Changing the indemnified party from 'Customer' to 'Client' creates a contradiction, as 'Customer Indemnitees' are still defined in relation to 'Customer', leading to uncertainty over who is actually indemnified and whether 'Client' and 'Customer' are the same for purposes of indemnification.",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

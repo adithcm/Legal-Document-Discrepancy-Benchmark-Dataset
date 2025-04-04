@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.5 \"Development Fee\" means 50% of the Net Sales for any Development Products in the Development Territory.",
+                "changed_text": "1.5 \"Development Fee\" means 50% of the Net Sales for any Development Products in the Territory.",
+                "explanation": "By changing \"Development Territory\" to \"Territory\" in the definition of \"Development Fee\", we create ambiguity. The contract defines \"Development Territory\", but not \"Territory.\" This makes it unclear whether the Development Fee applies only to the Development Territory or to a potentially broader geographic area, leading to a contradiction since Article 1.7 defines the Development Territory specifically.",
+                "location": "Article 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "2.1 Subject to the terms and conditions of this Agreement, WPD hereby agrees to use its commercially reasonable efforts in good faith to take, or cause to be taken, all actions, and to do or cause to be done, all things necessary, proper or desirable or advisable under applicable laws to develop and commercialize the Development Products, with a goal of eventual approval of Development Products in the Development Territory.",
+                "changed_text": "2.1 Subject to the terms and conditions of this Agreement, WPD hereby agrees to use its best efforts to take, or cause to be taken, all actions, and to do or cause to be done, all things necessary, proper or desirable or advisable under applicable laws to develop and commercialize the Development Products, with a goal of eventual approval of Development Products in the Development Territory.",
+                "explanation": "Replacing \"commercially reasonable efforts\" with \"best efforts\" significantly increases WPD's obligation. \"Commercially reasonable efforts\" is a lower standard than \"best efforts.\" This creates a potential contradiction because WPD is obligated to use best efforts, but the original agreement implies a less stringent obligation by referencing commercially reasonable efforts in a different section.",
+                "location": "Article 2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5.4 Data Privacy and Security Laws. WPD and its subsidiaries (if any) will at all times during the Term be in material compliance with all applicable data privacy and security laws and regulations, and WPD and its subsidiaries (if any) have taken or will take commercially reasonable actions to comply with the European Union General Data Protection Regulation (\"GDPR\") (EU 2016/679) and all other applicable laws and regulations with respect to Personal Data (defined below) that have been announced as of the date hereof as becoming effective within 12 months after the date hereof, and for which any non-compliance with same would be reasonably likely to create a material liability (collectively, the \"Privacy Laws\").",
+                "changed_text": "5.4 Data Privacy and Security Laws. WPD and its subsidiaries (if any) will at all times during the Term be in full compliance with all applicable data privacy and security laws and regulations, and WPD and its subsidiaries (if any) have taken or will take commercially reasonable actions to comply with the European Union General Data Protection Regulation (\"GDPR\") (EU 2016/679) and all other applicable laws and regulations with respect to Personal Data (defined below) that have been announced as of the date hereof as becoming effective within 12 months after the date hereof, and for which any non-compliance with same would be reasonably likely to create a material liability (collectively, the \"Privacy Laws\").",
+                "explanation": "Changing \"material compliance\" to \"full compliance\" creates a contradiction. The original text allows for minor non-compliance as long as it is not material. The altered text requires absolute compliance, creating an impossibly high standard and therefore a contradiction. It's practically impossible to be in 100% compliance with all data privacy laws at all times.",
+                "location": "Article 5"
+            }
+        ]
+    }
+]

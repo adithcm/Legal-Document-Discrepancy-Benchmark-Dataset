@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Gross Revenues\" means the gross revenues received by the Licensee and derived from or in connection with the Licensee Site, from any sources whatsoever, including but not limited to fees for access to and use of the Licensee Site and advertising, sponsorship, marketing and other paid-for placements, andmaintenance, support and other services.",
+                "changed_text": "\"Gross Revenues\" means the revenues received by the Licensee that Licensee deems appropriate and derived from or in connection with the Licensee Site, from Licensee-approved sources, including but not limited to fees for access to and use of the Licensee Site and advertising, sponsorship, marketing and other placements. Licensee can exclude maintenance, support and other services.",
+                "explanation": "By adding that the Licensee 'deems appropriate' and approves 'sources,' while giving Licensee the ability to exclude revenue streams, conflicts with how Gross Revenues are defined, as any interference from the Licensee would not match the accurate gross revenue count. This could be a violation of accounting laws/practices depending on where the business is operating.",
+                "contradicted_law": "Generally Accepted Accounting Principles (GAAP)",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Throughout the Term, Licensee shall have in effect and maintain accessible on the Licensee Site and Related Media website terms of use (\"Terms of Use\") and privacy policy (\"Privacy Policy\") on which use of the Licensee Site and Related Media, including the Licensed Content, is expressly conditioned, and which in form and substance are reasonably acceptable to Licensor.",
+                "changed_text": "Throughout the Term, Licensee shall have in effect and maintain accessible on the Licensee Site website terms of use (“Terms of Use”) and privacy policy (“Privacy Policy”) on which use of the Licensee Site, including the Licensed Content, is expressly conditioned, and which in form and substance are created by Licensee.",
+                "explanation": "Removing that the policy and terms have to be 'reasonably acceptable to Licensor' gives the licensee the ability to have terms that directly violate the license agreement. For example, the privacy policy can allow personal information to be sold, which opens up legal issues. Similarly, the Terms of Use could permit uses of the Licensed Content that violate the copyright of the Licensor.",
+                "contradicted_law": "Copyright Law, Privacy Laws (e.g., GDPR, CCPA)",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The arbitration shall take place at an agreed location, or if the parties cannot agree on a venue in Reno, Nevada or Vancouver, BC, as determined by the flip of a coin.",
+                "changed_text": "The arbitration shall take place in a location of Licensor's sole discretion.",
+                "explanation": "This modification removes the agreement-based process and replaces it with unilateral control. This could be deemed unconscionable depending on the bargaining power of the parties and location of the venue relative to the Licensee. It can deny an opportunity to defend one's interests.",
+                "contradicted_law": "Contract Law - Unconscionability Doctrine",
+                "location": "Section 11.12"
+            }
+        ]
+    }
+]

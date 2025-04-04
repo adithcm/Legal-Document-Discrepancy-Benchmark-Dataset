@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n\n\"Improvements\" shall mean technical improvements, modifications or enhancements relating to the Technology that are developed by the Developer pursuant to this Agreement.",
+                "changed_text": "For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.\n\n\"Improvements\" shall generally mean any changes made by the Developer.",
+                "explanation": "The original definition of \"Improvements\" specified 'technical improvements, modifications or enhancements relating to the Technology'. The modified definition broadens this to 'any changes', removing the requirement that changes must relate to the Technology. This contradicts the initial intent and scope of the agreement, making it unclear if unrelated changes are also considered improvements under the contract, potentially leading to disputes over ownership and intellectual property rights.",
+                "contradicted_law": "Contract Law - Ambiguity and Interpretation",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Developer shall be fully liable, without limitation, for money damages resulting from its improper or unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements, or resulting from its failure to provide functional and merchantable Improvements hereunder, which failure shall be deemed a material breach of this Agreement by Developer.",
+                "changed_text": "Developer's liability for money damages is capped at US$1000, regardless of the cause.",
+                "explanation": "The original text states \"Developer shall be fully liable, without limitation\". The modification introduces a fixed cap of US$1000 on liability. This directly contradicts the original clause, limiting the damages that DSS can recover and potentially conflicting with principles of contract law regarding remedies for breach of contract and actual damages.",
+                "contradicted_law": "Contract Law - Limitation of Liability, New York State Law",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "It is hereby irrevocably agreed that legal jurisdiction and venue for any proceeding arising out of this Agreement shall be in the state or federal courts located in the County of Monroe, State of New York, United States.",
+                "changed_text": "It is hereby agreed that legal jurisdiction and venue for any proceeding arising out of this Agreement may be determined at the sole discretion of the Developer.",
+                "explanation": "The original clause specifies that jurisdiction and venue are irrevocably in Monroe County, New York. The modified clause gives the Developer sole discretion to determine jurisdiction and venue. This is a direct contradiction, as it removes the agreed-upon jurisdiction and hands the power to decide to one party, potentially conflicting with principles of fairness and mutual agreement in contract law.",
+                "contradicted_law": "Contract Law - Jurisdiction and Venue clauses, New York State Law",
+                "location": "Section 9.10"
+            }
+        ]
+    }
+]

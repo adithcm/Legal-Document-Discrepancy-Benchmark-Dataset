@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to the binding laws of Hong Kong as a first attempt at formal resolution. Should arbitration fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted within the binding laws of Hong Kong.",
+                "changed_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to the non-binding guidelines of Hong Kong as a first attempt at informal resolution. Should arbitration fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted within the non-binding suggestions of Hong Kong.",
+                "explanation": "Changing 'binding laws' to 'non-binding guidelines' and 'non-binding suggestions' contradicts the standard legal interpretation of governing law in contracts. Governing law is intended to be legally enforceable. This creates uncertainty about the enforceability of the contract and disputes, misaligning the intended legal effect.",
+                "contradicted_law": "Contract Law - typically requires governing law clauses to be binding and enforceable",
+                "location": "Section 15"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+                "changed_text": "All Intellectual Property during the project is considered jointly developed, and ownership will be subject to future negotiations between VAL and the Developer, irrespective of the fulfillment of commercial obligations by VAL. Rights and title to Duesey Coffee Intellectual Property created pursuant to the Project may belong to VAL, pending further agreement, and might be subject to additional terms separate from this Agreement.",
+                "explanation": "This change introduces significant ambiguity regarding intellectual property ownership. Initially, the contract clearly states that VAL owns all IP. The modification suggests joint development and future negotiations, contradicting the initial assignment. This misaligns with standard IP assignment practices, where clarity of ownership is crucial and creates a conflict over intellectual property rights.",
+                "contradicted_law": "Intellectual Property Law - specifically regarding assignment and ownership of rights",
+                "location": "Section 11.1 and 11.2"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Any change or modification in functionality or feature or UI of the App required by VAL which is beyond agreed functional requirements considered in this Agreement will be considered as a \"Change\" in the original specifications, and that shall be agree by Developer to VAL or vice versa as a \"Change Order\" in writing.",
+                "changed_text": "Any change or modification in functionality or feature or UI of the App requested verbally by VAL, regardless of whether it is beyond agreed functional requirements considered in this Agreement, may be considered a \"Suggestion\" and implemented at the Developer's discretion. Such suggestions do not require a \"Change Order\" in writing.",
+                "explanation": "The initial definition of a \"Change Order\" requires written agreement for modifications to the app. The altered definition allows for verbal requests to be considered mere \"Suggestions\" to be implemented at the Developer's discretion, removing the requirement for written approval. This directly contradicts the intent of having a formal change management process and written record.",
+                "contradicted_law": "Contract Law - specifically regarding the modification and amendment of contracts requiring written consent",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

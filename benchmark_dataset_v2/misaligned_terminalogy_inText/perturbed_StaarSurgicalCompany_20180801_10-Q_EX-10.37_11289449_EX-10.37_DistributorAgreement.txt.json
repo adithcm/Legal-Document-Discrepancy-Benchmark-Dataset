@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_Distributor Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1 STAAR hereby appoints Distributor, and Distributor hereby accepts such appointment, to purchase the Products from STAAR and market, distribute and sell them in the Territory on the terms and conditions set forth herein. Distributor shall not have the right to appoint any subdistributors, subcontractors or other third parties to market, distribute or sell the Products. All Products shall be marketed, distributed and sold solely under STAAR's Trademarks.",
+                "changed_text": "1.1 STAAR hereby appoints Vendor, and Vendor hereby accepts such appointment, to purchase the Products from STAAR and market, distribute and sell them in the Territory on the terms and conditions set forth herein. Vendor shall not have the right to appoint any subdistributors, subcontractors or other third parties to market, distribute or sell the Products. All Products shall be marketed, distributed and sold solely under STAAR's Trademarks.",
+                "explanation": "Changing 'Distributor' to 'Vendor' without definition creates ambiguity. Are they the same entity? This affects obligations related to product marketing and sales.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4.1 The prices which Distributor shall pay to STAAR for the Products shall be as specified on Exhibit A 1. Such prices are exclusive of any national, state, local or other governmental sales, transfer, use, excise, value-added or other taxes, customs duties, or similar tariffs and fees, which shall be the sole responsibility of Distributor. In the event that STAAR is required to pay any such taxes, duties, tariffs or fees, the full amount thereof shall be added to the applicable invoice and payable by Distributor.",
+                "changed_text": "4.1 The prices which Customer shall pay to STAAR for the Products shall be as specified on Exhibit A 1. Such prices are exclusive of any national, state, local or other governmental sales, transfer, use, excise, value-added or other taxes, customs duties, or similar tariffs and fees, which shall be the sole responsibility of Distributor. In the event that STAAR is required to pay any such taxes, duties, tariffs or fees, the full amount thereof shall be added to the applicable invoice and payable by Distributor.",
+                "explanation": "Referring to the entity paying STAAR as 'Customer' in one sentence and 'Distributor' in the following sentences in the same paragraph creates confusion regarding payment obligations and introduces a contradiction.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "13.1 Distributor shall indemnify, defend with competent and experienced counsel and hold harmless STAAR, and its officers, directors, employees, affiliates and agents (each, a \"Indemnities\"), from and against any and all claims, demands, suits or actions (including without limitation attorneys' fees and disbursements) which may be asserted against STAAR for any kind of damages, including without limitation damage or injury to property or persons and incidental and consequential damages, by any third party or any of the Indemnities arising out of, in connection with or resulting from (a) any breach of any representation or performance obligation of Distributor hereunder, or (b) any act or omission of Distributor, its employees, agents or representatives.",
+                "changed_text": "13.1 Vendor shall indemnify, defend with competent and experienced counsel and hold harmless STAAR, and its officers, directors, employees, affiliates and agents (each, a \"Indemnities\"), from and against any and all claims, demands, suits or actions (including without limitation attorneys' fees and disbursements) which may be asserted against STAAR for any kind of damages, including without limitation damage or injury to property or persons and incidental and consequential damages, by any third party or any of the Indemnities arising out of, in connection with or resulting from (a) any breach of any representation or performance obligation of Distributor hereunder, or (b) any act or omission of Distributor, its employees, agents or representatives.",
+                "explanation": "Switching 'Distributor' to 'Vendor' at the start of the paragraph, while keeping 'Distributor' later in the same paragraph creates a contradiction. Which entity is responsible for indemnification?",
+                "location": "Section 13.1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.6      \"CUSTOMER(S)\" means one or more customers of the Corio Services having          its principal executive offices in North America who obtains a          sublicense from Corio to use the Software by accessing one or more          Corio Servers.",
+                "changed_text": "1.6      \"END-USER(S)\" means one or more customers of the Corio Services having          its principal executive offices in North America who obtains a          sublicense from Corio to use the Software by accessing one or more          Corio Servers.",
+                "explanation": "Changing 'CUSTOMER(S)' to 'END-USER(S)' without defining 'END-USER(S)' creates confusion as the term 'Customer' is already defined and widely used throughout the agreement, while 'END-USER' is introduced without context. This creates ambiguity and contradiction in enforcement.",
+                "location": "Section 1.6"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1      \"SOFTWARE USER\" means a named user of the Corio Services worldwide to          whom a user identification number and password has been assigned, which          permits that user to access and use the Software on a designated Corio          Server. The identification number and password used by a Software User          is reusable and reassignable and may be used and transferred by Corio,          in accordance with the licenses granted below, between Customers as one          Customer discontinues the Corio Services and another Customer          subscribes.",
+                "changed_text": "1.1      \"CLIENT\" means a named user of the Corio Services worldwide to          whom a user identification number and password has been assigned, which          permits that user to access and use the Software on a designated Corio          Server. The identification number and password used by a Software User          is reusable and reassignable and may be used and transferred by Corio,          in accordance with the licenses granted below, between Customers as one          Customer discontinues the Corio Services and another Customer          subscribes.",
+                "explanation": "Changing 'SOFTWARE USER' to 'CLIENT' while still referencing 'Software User' later in the definition creates an internal contradiction. It becomes unclear whether 'Client' and 'Software User' are the same entity, creating ambiguity.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "2.5      DISTRIBUTION LICENSE: Corio shall have the right to resell licenses for          the Software to any Corio Customer according to the terms and          conditions of Changepoint's standard Distribution Agreement          (\"Changepoint's Distribution Agreement\").",
+                "changed_text": "2.5      DISTRIBUTION LICENSE: Corio shall have the right to resell licenses for          the Software to any Corio Subscriber according to the terms and          conditions of Changepoint's standard Distribution Agreement          (\"Changepoint's Distribution Agreement\").",
+                "explanation": "Changing 'Customer' to 'Subscriber' introduces ambiguity. 'Customer' has a defined meaning within the contract and implies certain rights and obligations. Introducing 'Subscriber' changes the implied legal relationship and could create a dispute. Are 'Customers' and 'Subscribers' the same? The contract does not define it.",
+                "location": "Section 2.5"
+            }
+        ]
+    }
+]

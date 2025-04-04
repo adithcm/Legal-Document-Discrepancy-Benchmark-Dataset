@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "TRANSMONTAIGNEPARTNERSLLC_03_13_2020-EX-10.9-SERVICES AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, EmployeeCo employs certain individuals (the \"Services Employees\") who provide management, operational and administrative services as necessary to operate the business of the Operating Company and its affiliates (the \"Services\").",
+                "changed_text": "WHEREAS, EmployeeCo employs certain individuals (the \"Staff\") who provide management, operational and administrative services as necessary to operate the business of the Operating Company and its affiliates (the \"Services\").",
+                "explanation": "The contract initially defines employees providing services as \"Services Employees.\" Changing this to \"Staff\" creates confusion whether the \"Services Employees\" and \"Staff\" are the same, impacting the clarity of EmployeeCo's obligations regarding these individuals, especially concerning reimbursements.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.2 Reimbursement and Allocation. The Operating Company shall reimburse EmployeeCo for all direct or indirect costs and expenses incurred by EmployeeCo in connection with performing its obligations under this Agreement including, but not limited to:\n\n(a) salaries of the Services Employees;\n\n(b) the cost of employee benefits for the Services Employees, including 401(k), pension, bonuses and health insurance benefits (whether through insurance policies provided by third-parties or self-insurance);\n\n(c) costs associated with workers' compensation claims and other disputes or liabilities associated with the Services Employees;\n\n(d) severance costs with respect to any terminated Services Employees; and",
+                "changed_text": "1.2 Reimbursement and Allocation. The Operating Company shall reimburse EmployeeCo for all direct or indirect costs and expenses incurred by EmployeeCo in connection with performing its obligations under this Agreement including, but not limited to:\n\n(a) salaries of the Staff;\n\n(b) the cost of personnel benefits for the Services Employees, including 401(k), pension, bonuses and health insurance benefits (whether through insurance policies provided by third-parties or self-insurance);\n\n(c) costs associated with workers' compensation claims and other disputes or liabilities associated with the Staff;\n\n(d) severance costs with respect to any terminated Services Employees; and",
+                "explanation": "This section now uses \"Staff\", \"Services Employees\" and \"personnel benefits\" interchangeably in the same list, causing confusion. It's not clear whether \"Staff\" and \"Services Employees\" are distinct groups, and what benefits are included under 'personnel benefits' for 'Services Employees.' This creates uncertainty regarding the exact costs that the Operating Company is obligated to reimburse.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement may be terminated by (a) the written agreement of the Parties or (b) by either Party upon 5 days written notice to the other Party. All payment obligations hereunder shall survive the termination of this Agreement in accordance with their respective terms.",
+                "changed_text": "This Agreement may be terminated by (a) the written agreement of the Parties or (b) by EmployeeCo upon 5 days written notice to the Operating Company. All payment obligations hereunder shall survive the termination of this Agreement in accordance with their respective terms.",
+                "explanation": "The original agreement allows *either* Party to terminate, while the modified version restricts termination to EmployeeCo. This introduces a contradiction, as it's unclear whether the Operating Company also has the right to terminate. This creates uncertainty regarding the termination rights of each party and could lead to disputes.",
+                "location": "Section 2.3"
+            }
+        ]
+    }
+]

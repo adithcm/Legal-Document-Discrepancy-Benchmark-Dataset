@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Hereafter referred to as the \"Company\" or \"AZUL\",\n\non the one part,\n\nAND:\n\nAVIONS DE TRANSPORT REGIONAL, G.I.E., a French groupement d'intérêt économique established under articles L.251-1 to L251-23 of the French Commercial Code, whose registered office is at 1 allée Pierre Nadot, 31712 Blagnac, France identified under Corporate and Trade Register of Toulouse number 323 932 236,\n\nHereafter referred to as the \"Repairer\"or \"ATR\",",
+                "changed_text": "Hereafter referred to as the \"Company\" or \"AZUL\",\n\non the one part,\n\nAND:\n\nAVIONS DE TRANSPORT REGIONAL, G.I.E., a French groupement d'intérêt économique established under articles L.251-1 to L251-23 of the French Commercial Code, whose registered office is at 1 allée Pierre Nadot, 31712 Blagnac, France identified under Corporate and Trade Register of Toulouse number 323 932 236,\n\nHereafter referred to as the \"Vendor\"or \"ATR\",",
+                "explanation": "The term \"Repairer\" is changed to \"Vendor\" in the definition section, but is still used to refer to the same party in other places. This creates a contradiction, as it is unclear whether 'Repairer' and 'Vendor' refer to the same entity throughout the contract.",
+                "location": "Page 4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Rogue Units\"\n\ndesignates a LRU for which the same serial number has been removed from an Aircraft on three (3) or more occasions for similar discrepancies (except regarding specific services not covered by the Services and except to the extent caused by Company's Default), or four (4) NFF based on official Repair Shop data within a twelve (12) Month period, with confirmation of approved trouble shooting as per the CMM and/or the AMM;",
+                "changed_text": "\"Rogue Units\"\n\ndesignates a LRU for which the same serial number has been removed from an Aircraft on three (3) or more occasions for similar discrepancies (except regarding specific services not covered by the Services and except to the extent caused by Company's Default), or four (2) NFF based on official Repair Center data within a twelve (12) Month period, with confirmation of approved trouble shooting as per the CMM and/or the AMM;",
+                "explanation": "The term 'Repair Shop' is changed to 'Repair Center' in the definition of 'Rogue Units'. This creates a contradiction in terms, because the number of No Fault Found (NFF) changes from four (4) to two (2). It becomes difficult to use this definition, with official Repair Shop (original defintion) versus official Repair Center data (this change) because different entities may be subject to this specific clause.",
+                "location": "Page 12"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5.  USE AND REPAIR OF THE STOCK\n\n(i) Each Item listed in Exhibit 3 (\"Main Elements covered under this Agreement\") and Exhibit 6 (\"LRUs covered by repair and standardexchange Services\") withdrawn from the Stock and used by the Company shall be exclusively repaired by the Repairer.",
+                "changed_text": "5.  USE AND REPAIR OF THE STOCK\n\n(i) Each Item listed in Exhibit 3 (\"Main Elements covered under this Agreement\") and Exhibit 6 (\"LRUs covered by repair and standardexchange Services\") withdrawn from the Stock and used by the Company shall be exclusively repaired by the Vendor.",
+                "explanation": "In EXHIBIT 8 - LEASE OF THE STOCK, the term 'Repairer' is changed to 'Vendor' in a certain section, but is still used to refer to the same party in the section. This creates a contradiction, as it is unclear whether 'Repairer' and 'Vendor' refer to the same entity throughout the EXHIBIT 8.",
+                "location": "Page 78"
+            }
+        ]
+    }
+]

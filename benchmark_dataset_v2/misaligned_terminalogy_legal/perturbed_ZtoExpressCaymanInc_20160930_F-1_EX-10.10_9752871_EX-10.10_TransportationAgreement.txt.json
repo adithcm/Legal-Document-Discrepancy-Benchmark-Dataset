@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ZtoExpressCaymanInc_20160930_F-1_EX-10.10_9752871_EX-10.10_Transportation Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(c) Clearance of freight: the clearance method is based on both Parties' fund clearance arrangement and the final clearance amount is subject to actual carriage amount and EX-warehouse (\"EXW\") weight determined by Party A. Party B shall attach Party A's parcel EXW originals or copies for Party A's verification for clearance of freight.",
+                "changed_text": "(c) Clearance of freight: the clearance method is based on both Parties' fund clearance arrangement and the final clearance amount is subject to actual carriage amount and delivered weight determined by Party A. Party B shall attach a weight receipt for Party A's verification for clearance of freight.",
+                "explanation": "Replacing 'EXW weight' (Ex-Warehouse) with 'delivered weight' creates ambiguity. EXW has a defined legal meaning in international trade (Incoterms), specifying the seller's minimum responsibility. 'Delivered weight' is vague and could shift liability for loss or damage during transport, conflicting with standard interpretations of EXW.",
+                "contradicted_law": "Uniform Commercial Code (UCC) and Incoterms related to shipping terms and risk of loss.",
+                "location": "3(c)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(g) Party B shall provide copies of driver licenses, working licenses, occupation licenses, insurance documents, operation licenses, outsourcing contracts, tax certificates, business licenses, road transportation permits and business code licenses to Party A, and guarantee the authenticity, completeness, legality and validity of such licenses and materials. Party B's drivers shall have at least two years driving experience in large trucks and have relevant licenses.",
+                "changed_text": "(g) Party B shall provide copies of driving documents, insurance documents, and road transportation permits to Party A, and guarantee the authenticity and validity of such licenses and materials. Party B's drivers shall have relevant licenses.",
+                "explanation": "Removing the requirement for 'working licenses,' 'occupation licenses,' 'outsourcing contracts,' 'tax certificates,' 'business licenses,' and 'business code licenses', and the guarantee of 'completeness' and 'legality' reduces Party B's responsibility. This creates a contradiction if regional regulations require these documents. It also removes clarity on the driving experience required. It implies the company only needs to turn in a select amount of documents which will be valid. This can cause ambiguity about what a valid document is, and if it's missing information that will jeopardize Party B's claim.",
+                "contradicted_law": "Varies based on specific regional transportation and labor laws.",
+                "location": "5(g)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(c) Party B shall ensure the vehicles are in good conditions, the compartments are properly sealed without leakage and the vehicles are equipped with fire-fighting equipment. In the event of parcel damage resulting from leakage or fire, Party B shall indemnify at the standard rate of RMB200 per parcel, and indemnify the actual price for high-end insured parcel (or indemnify by the value of the parcel provided by arbitration department determined by Party A).",
+                "changed_text": "(c) Party B shall ensure the vehicles are in generally acceptable conditions. In the event of parcel damage, Party B's liability will be capped at RMB200 per parcel.",
+                "explanation": "Changing 'good conditions' to 'generally acceptable conditions' introduces vagueness and reduces the standard of care. Removing the specific reference to leakage or fire related damage removes accountability. Additionally, removing indemnity for 'the actual price for high-end insured parcel' contradicts standard insurance practices and legal requirements for honoring insurance claims.",
+                "contradicted_law": "Contract law principles related to duty of care and insurance regulations.",
+                "location": "5(c)"
+            }
+        ]
+    }
+]

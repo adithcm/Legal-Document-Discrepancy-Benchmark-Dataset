@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Apollo Endosurgery - Manufacturing and Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.2\"Certificate of Conformance\" or \"COC\" shall mean a document prepared by ESTABLISHMENT containing at a minimum: product name, Lot (defined below) number, lot quantity and a statement indicating compliance to all product specifications. Each COC shall be signature approved by ESTABLISHMENT's Quality Assurance department.",
+                "changed_text": "1.2\"Certificate of Conformance\" or \"COC\" shall mean a document prepared by ESTABLISHMENT containing at a minimum: product name, Batch (defined below) number, batch quantity and a statement indicating compliance to some product specifications. Each COC needs no approval by ESTABLISHMENT's Quality Assurance department.",
+                "explanation": "The term \"Lot\" is replaced with \"Batch\" creating ambiguity if they mean the same thing. The requirement for mandatory signature from QA department is removed, contradicting the original definition.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5.3Delivery. Unless expressly provided otherwise in the applicable Purchase Order, shipping to APOLLO for the Product shall be Ex Works - ESTABLISHMENT (Incoterms 2010). The Product will be packaged and shipped per the Specifications and using a shipper and insurance coverage approved by APOLLO. In the event that any delivery of the Product is anticipated to be late, ESTABLISHMENT will promptly notify APOLLO of the circumstances for the delay and, upon request, ESTABLISHMENT will take reasonable steps to minimize the delay. At the request of APOLLO, ESTABLISHMENT will provide a written corrective action for the result of delays caused by events under the Span of Control of ESTABLISHMENT.",
+                "changed_text": "5.3Delivery. Unless expressly provided otherwise in the applicable Purchase Order, shipping to APOLLO for the Goods shall be Ex Works - ESTABLISHMENT (Incoterms 2010). The Goods will be packaged and shipped per the Guidelines and using a shipper of ESTABLISHMENT’s choice and insurance coverage deemed adequate by ESTABLISHMENT. In the event that any dispatch of the Goods is anticipated to be late, ESTABLISHMENT may or may not notify APOLLO of the circumstances for the delay and, upon request, ESTABLISHMENT is not obligated to take any steps to minimize the delay. ESTABLISHMENT is not responsible to provide any action for the result of delays caused by events under the Span of Control of ESTABLISHMENT.",
+                "explanation": "“Product” is replaced with “Goods,” “Specifications” with “Guidelines,” the shipper/insurance is now ESTABLISHMENT’s choice, notification of delay becomes optional, and ESTABLISHMENT is no longer obligated to minimize delay. This creates confusion and contradictions regarding delivery obligations.",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "7.2Quality Control. Establishment shall maintain and follow a quality control and testing program consistent with the Product Specifications, ISO 13485:2012, Applicable Laws and quality system requirements communicated in writing by APOLLO from time to time(the \"Quality Control Procedures\"). All Product supplied to APOLLO hereunder shall be manufactured in compliance with ISO 13485:2012 and all other applicable requirements of Regulatory Authorities, and in compliance with all other Applicable Laws (collectively, \"Regulatory Standards\"). At all times the Products shall be manufactured in an ISO Class 7 Clean Room, unless otherwise set forth in an amendment to this Agreement or the Exhibits hereto signed by both Parties.",
+                "changed_text": "7.2Quality Control. Establishment shall maintain and follow a quality assurance and testing program that it finds suitable. All Supplies provided to APOLLO hereunder shall be manufactured in consideration of ISO 13485:2012 and regulatory compliance. At all times the products can be manufactured in a space of ESTABLISHMENT’s choosing.",
+                "explanation": "“quality control” is replaced with “quality assurance”, and the mandatory following of a strict program is made discretionary, deleting quality system requirements communicated by APOLLO. 'Product' is replaced with 'Supplies', and ISO compliance now just a consideration, not a mandate. The requirement to use ISO Class 7 Clean Room is removed.",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

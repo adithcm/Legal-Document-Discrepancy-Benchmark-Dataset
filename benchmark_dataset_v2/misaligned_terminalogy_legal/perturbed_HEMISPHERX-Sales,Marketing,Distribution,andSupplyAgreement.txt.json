@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Sales Price\" means the price SCIEN and/or its Affiliates charge an End User for a Product Unit.",
+                "changed_text": "\"Sales Price\" means the suggested price SCIEN and/or its Affiliates charge an End User for a Product Unit.",
+                "explanation": "By changing 'the price' to 'the suggested price', the definition introduces ambiguity regarding whether SCIEN is obligated to adhere to a fixed price or if it has discretion in pricing. This contradicts standard contract law where 'Sales Price' is generally a fixed term.",
+                "contradicted_law": "General contract law principles regarding definiteness of terms",
+                "location": "Section I. DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "C. SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients. All purchase orders are final.",
+                "changed_text": "C. SCIEN shall endeavor to pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients. All purchase orders may be subject to revision.",
+                "explanation": "Replacing 'shall pay' with 'shall endeavor to pay' introduces uncertainty regarding SCIEN's payment obligation. Adding 'may be subject to revision' contradicts the prior statement that 'All purchase orders are final', creating conflicting clauses and potential disputes. This contradicts general principles of contract law which mandate clarity of obligations.",
+                "contradicted_law": "General contract law principles regarding definiteness and enforceability of payment obligations",
+                "location": "Section IV. SUPPLY"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "VIII. AUTHORITY\n\nSCIEN and HEMISPHERX each warrant and represent that it has the full right and power to make the promises set forth in this Agreement and that there are no outstanding agreements, assignments, or encumbrances inconsistent with the provisions of this Agreement.",
+                "changed_text": "VIII. AUTHORITY\n\nSCIEN and HEMISPHERX believe that they each have the right and power to make the promises set forth in this Agreement, but neither party fully guarantees that there are no outstanding agreements, assignments, or encumbrances inconsistent with the provisions of this Agreement.",
+                "explanation": "Replacing 'warrant and represent' with 'believe' and adding 'neither party fully guarantees' weakens the assurance that the parties are not bound by conflicting agreements. This could undermine the enforceability of the entire agreement, contradicting the purpose of an authority clause which is to ensure each party has the legal capacity to enter the contract.",
+                "contradicted_law": "General contract law principles regarding authority to contract and enforceability",
+                "location": "Section VIII. AUTHORITY"
+            }
+        ]
+    }
+]

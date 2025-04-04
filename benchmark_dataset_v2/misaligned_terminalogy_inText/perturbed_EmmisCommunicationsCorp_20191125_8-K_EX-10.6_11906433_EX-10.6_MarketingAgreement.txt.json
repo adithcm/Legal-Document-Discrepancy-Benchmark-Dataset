@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "A. Licensee owns and operates the following radio station (the \"Station\") pursuant to licenses issued by the Federal Communications Commission (\"FCC\"): WQHT-FM, New York, NY (Facility ID No. 19615). The Station has the capability to transmit an in-band, on-channel (\"IBOC\") digital broadcast signal.",
+                "changed_text": "A. Licensee owns and operates the following radio station (the \"Facility\") pursuant to licenses issued by the Federal Communications Commission (\"FCC\"): WQHT-FM, New York, NY (Facility ID No. 19615). The Station has the capability to transmit an in-band, on-channel (\"IBOC\") digital broadcast signal.",
+                "explanation": "The term 'Station' is replaced with 'Facility' in the first sentence. Later uses of 'Station' remain unchanged. This creates ambiguity as to whether 'Station' and 'Facility' are interchangeable terms, which can lead to confusion about the scope of the agreement's application. Which entity owns what?",
+                "location": "Recitals, Section A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "3. Broadcasting Obligations. During the Term, Licensee shall broadcast on the HD2 Channel the WLIB Programs delivered by Programmer during the Broadcasting Period specified in Section 2 above, subject to the provisions of Section 6 below.",
+                "changed_text": "3. Broadcasting Obligations. During the Term, Licensee shall ensure rebroadcasting on the HD2 Channel the WLIB Programs transmitted by the provider during the Broadcasting Period specified in Section 2 above, subject to the provisions of Section 6 below.",
+                "explanation": "Here, 'Programmer' and 'delivered' are changed to 'provider' and 'transmitted' respectively. This introduces uncertainty. Is the 'provider' the same entity as the 'Programmer'? Are the obligations different based on whether programs are 'delivered' or 'transmitted'? It can affect liability if issues occur with the transmitted programming.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "12. Indemnification. Programmer shall indemnify and hold Licensee harmless against any and all liability arising from Programmer's use of Licensee's facilities, if any, or from the broadcast of the WLIB Programs on the HD2 Channel, including without limitation for libel, slander, illegal competition or trade practice, infringement of trademarks, trade names, or program titles, violation of rights of privacy, and infringement of copyrights and proprietary rights or any other violation of third party rights or FCC rules or other applicable law. The obligations under this Section shall survive any termination of this Agreement.",
+                "changed_text": "12. Indemnification. Contractor shall indemnify and hold Licensee harmless against any and all liability arising from Programmer's use of Licensee's facilities, if any, or from the broadcast of the WLIB Programs on the HD2 Channel, including without limitation for libel, slander, illegal competition or trade practice, infringement of trademarks, trade names, or program titles, violation of rights of privacy, and infringement of copyrights and proprietary rights or any other violation of third party rights or FCC rules or other applicable law. The obligations under this Section shall survive any termination of this Agreement.",
+                "explanation": "The term 'Programmer' has been changed to 'Contractor' in the first sentence of the indemnification clause. This creates a significant contradiction. Is it only the 'Contractor' who indemnifies, or does the original 'Programmer' also bear this responsibility? This can significantly alter the risk allocation within the contract and create disputes post-termination.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

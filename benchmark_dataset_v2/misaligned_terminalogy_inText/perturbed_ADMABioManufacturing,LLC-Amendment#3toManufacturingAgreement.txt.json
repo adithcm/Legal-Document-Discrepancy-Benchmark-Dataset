@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The supply terms set forth in Section 1 of Amendment #2 (the \"Prior Supply Terms\") are hereby deleted in their entirety. In their place, the Parties agree to the following (and Section 2.1 of the Agreement is hereby amended as needed to implement the following): Sanofi Pasteur agrees to purchase and ADMA to manufacture [***] Batches of Product, which Batches will be produced over a period from Q3 2018 to Q3 2019. Attached hereto as Exhibit A is a detailed supply plan provided to ADMA by Sanofi Pasteur (the \"Updated Supply Plan\") that describes the agreed-upon timing for production of such Batches of Product, which supply plan is made an integral part hereof and shall be binding on the Parties. Prices for such [***] Batches of Product shall be in accordance with Section 3.2 of the Agreement (as amended in Amendment #2).",
+                "changed_text": "The supply terms set forth in Section 1 of Amendment #2 (the \"Prior Supply Terms\") are hereby deleted in their entirety. In their place, the Parties agree to the following (and Section 2.1 of the Agreement is hereby amended as needed to implement the following): Sanofi Pasteur agrees to purchase and ADMA to manufacture [***] Batches of Product, which Batches will be produced over a period from Q3 2018 to Q3 2019. Attached hereto as Exhibit A is a detailed distribution plan provided to ADMA by Sanofi Pasteur (the \"Updated Supply Plan\") that describes the agreed-upon timing for distribution of such Batches of Product, which distribution plan is made an integral part hereof and shall be binding on the Parties. Prices for such [***] Batches of Product shall be in accordance with Section 3.2 of the Agreement (as amended in Amendment #2).",
+                "explanation": "Changing 'supply plan' to 'distribution plan' introduces ambiguity. Is ADMA responsible for manufacturing according to a supply plan, or distributing according to a distribution plan? This creates uncertainty about ADMA's obligations, particularly if the plans differ.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Furthermore, should ADMA's compliance status under the FDA Warning Letter be escalated, and if such consequence limits ADMA's ability to supply the Batches of Product as specified in this Amendment #3 and the Updated Supply Plan or in case of failure by ADMA to supply any Batch of Product under this Amendment, Sanofi Pasteur shall be entitled to terminate immediately this Agreement upon written notice to ADMA and Sanofi Pasteur shall not be obligated to provide any additional payments (as outlined in Section 5 below and payments for any of the unproduced or delivered production batches) to ADMA from the date of such termination.",
+                "changed_text": "Furthermore, should ADMA's compliance status under the FDA Warning Letter be escalated, and if such consequence limits ADMA's ability to deliver the Batches of Product as specified in this Amendment #3 and the Updated Supply Plan or in case of failure by ADMA to provide any Batch of Product under this Amendment, Sanofi Pasteur shall be entitled to terminate immediately this Agreement upon written notice to ADMA and Sanofi Pasteur shall not be obligated to provide any additional payments (as outlined in Section 5 below and payments for any of the unproduced or delivered production batches) to ADMA from the date of such termination.",
+                "explanation": "Using 'supply' and 'deliver' interchangeably, while they are similar, creates uncertainty in the context of manufacturing. Does 'failure to provide' include manufacturing failures, or only failures to physically deliver completed products? This could lead to disputes over termination rights.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss.",
+                "changed_text": "At such time that the Source Plasma is received to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of shortage or loss.",
+                "explanation": "Changing 'damage' to 'shortage' introduces ambiguity in the context of liability. Is ADMA responsible for damage that occurs during manufacturing of the product, or just shortage?",
+                "location": "Section 7"
+            }
+        ]
+    }
+]
