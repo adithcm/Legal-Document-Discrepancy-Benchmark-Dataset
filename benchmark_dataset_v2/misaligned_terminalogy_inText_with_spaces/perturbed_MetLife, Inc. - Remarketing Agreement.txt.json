@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MetLife, Inc. - Remarketing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Remarketing Agreement is dated as of August 26, 2014 (this \"Remarketing Agreement\"), among MetLife, Inc., a Delaware corporation (the \"Company\"), and Deutsche Bank Securities Inc. (\"Deutsche Bank\") (the \"Remarketing Agents,\" which expression shall include any institution appointed as a Remarketing Agent in accordance with Section 8 hereof), and Deutsche Bank Trust Company Americas, not individually but solely as Stock Purchase Contract Agent (as defined below) and as attorney-in-fact of the holders of Stock Purchase Contracts (as defined below). The Company and the Remarketing Agents will enter into a Pricing Agreement, to be dated the Remarketing Date (as defined below) (the \"Pricing Agreement\"), which will set forth, inter alia, the final terms of the Remarketed Securities (as defined below) and the Remarketing Fee (as defined below).",
+                "changed_text": "This Remarketing Agreement is dated as of August 26, 2014 (this \"Remarketing Agreement\"), among MetLife, Inc., a Delaware corporation (the \"Corporation\"), and Deutsche Bank Securities Inc. (\"Deutsche Bank\") (the \"Remarketing Agents,\" which expression shall include any institution appointed as a Remarketing Agent in accordance with Section 8 hereof), and Deutsche Bank Trust Company Americas, not individually but solely as Stock Purchase Contract Agent (as defined below) and as attorney-in-fact of the holders of Stock Purchase Contracts (as defined below). The Company and the Remarketing Agents will enter into a Pricing Agreement, to be dated the Remarketing Date (as defined below) (the \"Pricing Agreement\"), which will set forth, inter alia, the final terms of the Remarketed Securities (as defined below) and the Remarketing Fee (as defined below).",
+                "explanation": "Changing 'Company' to 'Corporation' creates confusion as to whether these terms are interchangeable or if they refer to different entities. The contract uses both terms without defining them distinctly. This might lead to uncertainty about which entity is responsible for specific obligations.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Representations and Warranties of the Company. The Company hereby represents and warrants that, unless otherwise specified (i) on and as of the Applicable Time (as defined below) (to the extent such representations and warranties are applicable as of such date), (ii) on and as of the Remarketing Date and (iii) on and as of the Remarketing Settlement Date that:",
+                "changed_text": "Representations and Warranties of the Company. The Vendor hereby represents and warrants that, unless otherwise specified (i) on and as of the Applicable Time (as defined below) (to the extent such representations and warranties are applicable as of such date), (ii) on and as of the Remarketing Date and (iii) on and as of the Remarketing Settlement Date that:",
+                "explanation": "Changing 'Company' to 'Vendor' in this section introduces ambiguity. It is unclear whether 'Vendor' is another term for 'Company,' or if it refers to a distinct entity. This inconsistency affects who is bound by the representations and warranties, potentially impacting liability.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Company will promptly cause the Trustee, the Stock Purchase Contract Agent and the Collateral Agent to give the Remarketing Agents notice of all such defaults and events of which such trustee or agent is aware.",
+                "changed_text": "The Corporation will promptly cause the Trustee, the Stock Purchase Contract Agent and the Collateral Agent to give the Remarketing Agents notice of all such defaults and events of which such trustee or agent is aware.",
+                "explanation": "Using 'Corporation' instead of 'Company' creates ambiguity about which entity has the responsibility to ensure the trustee and agents provide notice. As different sections now use different terms, enforcement becomes uncertain if the 'Corporation' is distinct from the 'Company'.",
+                "location": "Section 1(k)"
+            }
+        ]
+    }
+]

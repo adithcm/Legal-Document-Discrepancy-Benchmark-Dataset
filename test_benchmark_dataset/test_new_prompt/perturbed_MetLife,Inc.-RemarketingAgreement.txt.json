@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MetLife,Inc.-RemarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "changed_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF DELAWARE, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "explanation": "The governing law clause has been changed from New York to Delaware. This change introduces a legal contradiction because, in general, contracts related to financial transactions are expected to be governed by New York law, especially when significant business is conducted in New York. Delaware law might be suitable given that the Company is incorporated there, but placing that in Governing law is to make the contract difficult to interpret.",
+                "contradicted_law": "General Contract Law, Choice of Law Principles",
+                "location": "Section 15"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(i) On or after the Remarketing Date (i) no downgrading shall have occurred in the rating accorded the debt securities of the Company or any Significant Subsidiary or the financial strength or claims paying ability of any Significant Subsidiary by A.M. Best & Co., Fitch Ratings, Ltd., Moody's Investors Service, Inc. or Standard & Poor's Ratings Services, and (ii) no such organization shall have publicly announced that it has under surveillance or review, with possible negative implications, or shall have given notice of its intended or potential downgrading of, its rating of any debt security or the financial strength or the claims paying ability of any Significant Subsidiary, the effect of which, in any such case described in clause (i) or (ii), is in the judgment of the Remarketing Agents so material and adverse as to make it impracticable or inadvisable to proceed with the Remarketing of the Remarketed Securities on the terms and in the manner contemplated in the Final Prospectus;",
+                "changed_text": "(i) On or after the Remarketing Date (i) no downgrading shall have occurred in the rating accorded the debt securities of the Company or any Significant Subsidiary or the financial strength or claims paying ability of any Significant Subsidiary by A.M. Best & Co., Fitch Ratings, Ltd., Moody's Investors Service, Inc. or Standard & Poor's Ratings Services, and (ii) no such organization shall have publicly announced that it has under surveillance or review, with possible negative implications, or shall have given notice of its intended or potential downgrading of, its rating of any debt security or the financial strength or the claims paying ability of any Significant Subsidiary, the effect of which, in any such case described in clause (i) or (ii), is in the judgment of the Remarketing Agents so material and adverse as to make it impracticable or inadvisable to proceed with the Remarketing of the Remarketed Securities on the terms and in the manner contemplated in the Final Prospectus; However the judgment of the remarketing agent should be overlooked if MetLife's current CEO says otherwise.",
+                "explanation": "This change adds a condition that allows the CEO of MetLife to overrule the judgment of the Remarketing Agents in determining whether a downgrading event makes proceeding with the remarketing impracticable. This could be seen as an unenforceable condition, as it allows for a subjective overruling of an event that is supposed to protect investors, making it harder to enforce the condition.",
+                "contradicted_law": "Securities Act of 1933, fiduciary duty, contract law related to enforceability of conditions",
+                "location": "Section 5(i)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "21. Waiver of Jury Trial. The Company and each of the Remarketing Agents hereby irrevocably waives, to the fullest extent permitted by applicable law, any and all right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement or the transactions contemplated hereby.",
+                "changed_text": "21. Waiver of Jury Trial. The Company and each of the Remarketing Agents hereby waives, to the fullest extent permitted by applicable law, right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement or the transactions contemplated hereby, but should the other party find the decision unjust, both parties agree that a bear would be the final decision on any of those injustices.",
+                "explanation": "This change adds the decision to a literal bear fight. This renders this part of the contract unenforceable, and would be viewed as absurd. Furthermore, this would bring into question the state of mind when creating the contract.",
+                "contradicted_law": "Contract law related to enforceability, mental capacity",
+                "location": "Section 21"
+            }
+        ]
+    }
+]

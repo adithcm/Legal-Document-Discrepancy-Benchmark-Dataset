@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "INTRICONCORP_03_10_2009-EX-10.22-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.2 Hearing Aids: Hearing Aids are amplification devices primarily designed to compensate for hearing loss, designed for listening only (through a microphone, telecoil, Direct Audio Input or other similar audio pathways and run on a low power hybrid circuit. Hearing Aids may include in-the- ear Hearing Aids (ITE), behind-the-ear Hearing Aids (BTE), or completely-in-the-canal Hearing Aids (CIC).",
+                "changed_text": "2.2 Hearing Aids: Hearing Aids are amplification devices that *may* be designed to compensate for hearing loss and *may* be designed for listening only (through a microphone, telecoil, Direct Audio Input or other similar audio pathways and *may* run on a low power circuit. Hearing Aids *may* include in-the- ear Hearing Aids (ITE), behind-the-ear Hearing Aids (BTE), or completely-in-the-canal Hearing Aids (CIC).",
+                "explanation": "The original definition provides a definitive description of hearing aids. By inserting \"may\" throughout the modified definition, the nature and function of hearing aids becomes ambiguous and subject to interpretation, creating uncertainty.",
+                "location": "2.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.4 Commencing on the Exclusivity Date, and continuing for so long as IntriCon continues to make such payments, the license granted to IntriCon under this Agreement will, subject to the terms and conditions of this Agreement, be exclusive for Hearing Aids. The exclusivity shall not prevent Dynamic Hearing entering into agreements with any Identified Party subject to the terms herein. On or before January 1, 2009, Dynamic Hearing will provide IntriCon with an updated version of Exhibit C which will include a complete list of identified parties. After January 1, 2009, no additions to Exhibit C are allowed unless agreed to by IntriCon in writing.",
+                "changed_text": "3.4 Commencing on the Exclusivity Date, the license granted to IntriCon under this Agreement will be exclusive for Hearing Aids. The exclusivity shall not prevent Dynamic Hearing entering into agreements with any Identified Party subject to the terms herein. Dynamic Hearing reserves the right to add new parties to Exhibit C at any time, at its sole discretion, irrespective of IntriCon's consent. On or before January 1, 2009, Dynamic Hearing will provide IntriCon with an updated version of Exhibit C which will include a complete list of identified parties.",
+                "explanation": "The original text grants IntriCon's exclusivity, but also notes identified parties are exceptions. The altered language explicitly removes IntriCon's right to approve Exhibit C additions post-January 1, 2009, which directly contradicts the intent of the original provision regarding IntriCon's control over exclusivity exceptions and creates uncertainty regarding the scope of IntriCon's exclusive license. This makes the exclusitivity terms uncertain.",
+                "location": "3.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.16 No other exception to IntriCon's exclusive license being granted herein shall exist unless such exception is specifically identified by a supplemental agreement between IntriCon and Dynamic Hearing.",
+                "changed_text": "3.16 Dynamic Hearing retains the right to grant exceptions to IntriCon's exclusive license at its sole discretion, without the need for a supplemental agreement or IntriCon's consent.",
+                "explanation": "By changing this sentence, Dynamic Hearing can create exceptions without IntriCon's consent, which severely weakens and contradicts IntriCon's exclusive license, rendering it uncertain.",
+                "location": "3.16"
+            }
+        ]
+    }
+]

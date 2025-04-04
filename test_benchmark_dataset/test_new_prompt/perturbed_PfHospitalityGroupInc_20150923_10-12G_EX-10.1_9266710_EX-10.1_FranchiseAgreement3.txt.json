@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "5. Delay. No delay or failure by the Franchisor or Franchisee to exercise any right under this Agreement, and no partial or single exercise of that right, shall constitute a waiver of that or any other right provided herein, and no waiver of any violation of any terms and provisions of this Agreement shall be construed as a waiver of any succeeding violation of the same or any other provision of this Agreement. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "explanation": "Moving the injunctive relief clause into the delay section buries the clause in a section about waivers and delays. This reduces the visibility and immediate impact of the clause, making it less clear that the franchisor has the right to seek immediate injunctive relief. This affects its enforceability by obscuring its importance.",
+                "contradicted_law": "General Contract Law - Clear and Conspicuous Clause Placement",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "4. Severability. All agreements and covenants contained herein are severable. If any of them, or any part or parts of them, shall be held invalid by any court of competent jurisdiction for any reason, then the Member agrees that the court shall have the authority to reform and modify that provision in order that the restriction shall be the maximum necessary to protect Franchisor's and/or Franchisee's legitimate business needs as permitted by applicable law and public policy. In so doing, the Member agrees that the court shall impose the provision with retroactive effect as close as possible to the provision held to be invalid.",
+                "changed_text": "IN WITNESS WHEREOF, the Franchisee and the Member attest that each has read and understands the terms of this Agreement, and voluntarily signed this Agreement on the date first written above. All agreements and covenants contained herein are severable. If any of them, or any part or parts of them, shall be held invalid by any court of competent jurisdiction for any reason, then the Member agrees that the court shall have the authority to reform and modify that provision in order that the restriction shall be the maximum necessary to protect Franchisor's and/or Franchisee's legitimate business needs as permitted by applicable law and public policy. In so doing, the Member agrees that the court shall impose the provision with retroactive effect as close as possible to the provision held to be invalid.",
+                "explanation": "Moving the severability clause to the end of the contract, in what is effectively the signature block, weakens its enforceability. Severability clauses are typically placed prominently within the main body of the contract to ensure they are clearly understood as applying to all other clauses. By placing it at the very end, it could be argued that it only applies to the statements immediately preceding it (i.e., the attestation), not the entire agreement.",
+                "contradicted_law": "General Contract Law - Clear and Conspicuous Clause Placement, Contract Construction",
+                "location": "Signature Block"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6. Third-Party Beneficiary. Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+                "changed_text": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee. All information, knowledge and know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information\") is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the time of the disclosure to Member, had become a part of the public domain.",
+                "explanation": "Embedding the third-party beneficiary clause within the confidential information section implies the third-party beneficiary status is somehow contingent upon or related to confidential information. This creates ambiguity. A third-party beneficiary clause should be a standalone provision clearly stating that the franchisor has the right to enforce the agreement, irrespective of the confidential information aspects.",
+                "contradicted_law": "General Contract Law - Third-Party Beneficiary Rights, Contract Interpretation",
+                "location": "Section 1"
+            }
+        ]
+    }
+]

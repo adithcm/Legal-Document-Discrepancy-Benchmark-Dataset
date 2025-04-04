@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Customer\" means a third party who purchases the Products from Reseller within the Territory, for its internal use only (including for the personal use of its End Users), such as nursing homes. \"End User\" means a third party who is a customer of Customer or is otherwise related to a customer of Customer, and who purchases and/or uses the Products within the Territory, for its personal use only.",
+                "changed_text": "\"Client\" means a third party who purchases the Products from Reseller within the Territory, for its internal use only (including for the personal use of its End Users), such as nursing homes. \"End User\" means a third party who is a customer of Client or is otherwise related to a customer of Client, and who purchases and/or uses the Products within the Territory, for its personal use only.",
+                "explanation": "The term 'Customer' is replaced with 'Client' without defining if they are the same, leading to confusion.",
+                "location": "Section 1 - Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the Term Supplier may extend an offer to Reseller for a Returns Discount Program, whereby the Supplier will rebate a percentage of the cost of goods sold in lieu of accepting End-User returns. In the event no Returns Discount Program has been entered into by the Parties, Supplier will not accept Returned Product, except for cases of Defective Products.",
+                "changed_text": "During the Term Supplier may extend an offer to Reseller for a Returns Discount Program, whereby the Supplier will rebate a percentage of the cost of goods sold in lieu of accepting End-User returns. In the event no Returns Discount Program has been entered into by the Parties, Supplier will not accept Returned Merchandise, except for cases of Faulty Products.",
+                "explanation": "The terms 'Product' and 'Defective Products' are replaced by 'Merchandise' and 'Faulty Products'. Without clarification, it creates uncertainty whether they are the same and causes potential confusion on the returns policy.",
+                "location": "Section 6 - Defective Products; Warranty; Support"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Reseller is an independent contractor and is not the legal representative, agent, joint venture, partner, or employee of Supplier. Reseller may describe itself as Supplier's 'authorized distributor', but may not hold itself out as the Supplier's agent.",
+                "changed_text": "Reseller is an independent vendor and is not the legal representative, agent, joint venture, partner, or employee of Supplier. Reseller may describe itself as Supplier's 'authorized dealer', but may not hold itself out as the Supplier's agent.",
+                "explanation": "The term 'contractor' is replaced by 'vendor', and 'distributor' is replaced by 'dealer.' These ambiguous terms may cause issues for the Reseller, such as marketing rights.",
+                "location": "Section 14 - General"
+            }
+        ]
+    }
+]

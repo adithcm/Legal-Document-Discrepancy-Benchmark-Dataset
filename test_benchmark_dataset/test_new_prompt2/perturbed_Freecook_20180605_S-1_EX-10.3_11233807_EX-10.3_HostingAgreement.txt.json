@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "1. Website Design and Development. Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+                "changed_text": "4. Customer Service. Company, either directly or through its authorized service provider, shall provide customer service (the \"Customer Service\") relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is not obligated to provide any Customer Service except as specified in this Section. Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
+                "explanation": "Moving the payment terms regarding \"Website Design and Development\" into the Customer Service section obscures and potentially contradicts the originally agreed-upon payment structure. It creates confusion about the financial obligations and could lead to disputes.",
+                "contradicted_law": "General Contract Law - Clear and unambiguous terms",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "To maintain Company's portfolio credentials, and the integrity of any applicable copyrights, Company shall be entitled to place an unobtrusive credit in the footer on each page of Client's website. 2. Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "To maintain Company's portfolio credentials, and the integrity of any applicable copyrights, Company shall be entitled to place an unobtrusive credit in the footer on each page of Client's website. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work. 2. Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000.",
+                "explanation": "Moving the more detailed payment terms regarding prepayment and remaining amounts to a location before the general payment terms obfuscates the whole payment structure. This is because in the original file there is mention of the general paymenet terms after the prepayments. Having this structural flaw causes the reader to be unclear on the payment tructure and schedule.",
+                "contradicted_law": "General Contract Law - Clear and unambiguous terms",
+                "location": "Section 1 and 2"
+            }
+        ]
+    }
+]

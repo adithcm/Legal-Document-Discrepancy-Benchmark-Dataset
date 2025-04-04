@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NICELTD_06_26_2003-EX-4.5-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "RESOURCES, PERSONNEL, PROJECT MANAGER. Contractor will be responsible for the required resources in order to comply with its undertakings hereunder and to deliver the Manufacturing Outsourcing Services as detailed hereunder. Contractor will perform the Manufacturing Outsourcing Services using only skilled, qualified and experienced personnel to the extent required for the purpose of performing its undertakings pursuant to this Agreement, to be trained and authorized, according to NICE' requirements. Contractor shall not replace at its initiative key Personnel during the duration of this Agreement, to the extent such replacement shall materially impair its ability to perform in compliance herewith and any such replacement shall take place only after consultation with NICE.",
+                "changed_text": "RESOURCES, STAFF, PROJECT MANAGER. Contractor will be responsible for the required resources in order to comply with its undertakings hereunder and to deliver the Manufacturing Outsourcing Services as detailed hereunder. Contractor will perform the Manufacturing Outsourcing Services using its workforce, qualified as deemed necessary by Contractor, to the extent required for the purpose of performing its undertakings pursuant to this Agreement, with training at the discretion of the Contractor. Contractor may replace key Staff during the duration of this Agreement, without the need to consult NICE.",
+                "explanation": "The terms 'Personnel' and 'Staff' are used interchangeably, but with conflicting conditions. The original text requires skilled, qualified, and experienced personnel trained and authorized according to NICE's requirements, with replacements requiring consultation. The modified text gives the contractor discretion over qualifications and training, and removes the consultation requirement for replacements, creating a contradiction.",
+                "location": "Section 1.2.4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "COMPONENTS PURCHASING, NICE COMPONENTS AND INVENTORY. 2.1. COMPONENTS PURCHASING. Upon transition to the third phase - Production, the Contractor will be responsible for all purchasing of components and getting equipped with all the materials necessary for the assembly of the Products (except the Non Generic Equipment). At NICE' request, and without derogating from any other provisions of this Agreement, Contractor shall promptly notify NICE, in writing, who are the suppliers of any specific components and under what agreements purchase is effected.",
+                "changed_text": "PARTS PROCUREMENT, NICE PARTS AND INVENTORY. 2.1. PARTS PROCUREMENT. Upon transition to the third phase - Production, the Contractor will be responsible for selecting vendors for all parts and getting equipped with all the materials necessary for the assembly of the Products (except the Non Generic Equipment). Contractor is not required to disclose vendor information to NICE, even upon request.",
+                "explanation": "The terms 'components' and 'parts' are used interchangeably, but the original text enforces that the Contractor must notify NICE about the vendor agreement. The change text says that the Contractor is not required to, creating an in-text contradiction.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WARRANTY SERVICE. Contractor shall replace any such Product with a new Product except when the defect is in the NICE proprietary boards, in which case Contractor may repair the Product. Contractor will deliver the repaired or replacement unit to NICE, within seven (7) Days of Contractor's receipt of such Product or parts thereof.",
+                "changed_text": "WARRANTY SERVICE. Contractor may replace any such item with a refurbished item, and it is Contractor's choice to replace or repair the item. Contractor will deliver the repaired or replacement unit to NICE, within thirty (30) Days of Contractor's receipt of such item.",
+                "explanation": "The terms 'Product' and 'item' are used interchangeably. The changed text now enforces that any such item can be refurbished instead of 'new', which is a detriment to NICE. Furthermore, the time the Contractor has to deliver the item is changed from 7 to 30, therefore enforcing a longer turn around time.",
+                "location": "Section 9.7"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "KALLOINC_11_03_2011-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Business Associate\" means the Kallo Authorized Agent who could be an individual, organization, or company that  desires to represent the Kallo Mobile care suite of products of Kallo Inc., to the end user (customer) market. The  Business Associate as it will be defined in this agreement sells the Kallo Mobile care product suite only. Kallo will be  fully responsible for the training and implementation of the client",
+                "changed_text": "\"Business Associate\" means an entity that desires to market the Kallo Mobile care suite of products of Kallo Inc., to the end user (customer) market. The Business Associate may engage in activities beyond sales, including modification and customization of the Kallo Mobile care product suite. The Business Associate bears partial responsibility for client training and implementation, subject to Kallo's oversight.",
+                "explanation": "The original definition restricts the Business Associate to sales only and places full responsibility for training and implementation on Kallo. The modified definition broadens the Business Associate's role to include modification/customization and shares training/implementation responsibilities. This creates a contradiction because the term 'Business Associate' now has multiple conflicting interpretations within the same contract. The term \"Business Associate\" under US law has specific requirements under HIPAA; broadening their role to include responsibilities that would qualify them as a \"covered entity\" or \"business associate\" in ways not originally intended opens up legal issues.",
+                "contradicted_law": "HIPAA (Health Insurance Portability and Accountability Act)",
+                "location": "1.DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Agent is an independent  contractor and shall at no time have the power  i.to bind Kallo;  ii.to alter or change any terms, conditions, warranties or covenants made by Kallo or  iii.to create in favor of any person any rights, which Kallo has not previously agreed in writing.",
+                "changed_text": "Agent is considered a contractor and may at times have the implied authority to bind Kallo, particularly in situations where immediate action is required to secure a sale or address a customer concern. The Agent retains the right to negotiate minor alterations to standard terms, conditions, or warranties, so long as they are deemed to benefit both parties, and can create rights on behalf of Kallo with tacit approval.",
+                "explanation": "The original text explicitly states the Agent is an independent contractor with no power to bind Kallo or alter agreements. The modified text contradicts this by suggesting the Agent can have implied authority to bind Kallo, can alter terms under certain conditions, and can create rights on Kallo's behalf with 'tacit approval'. This creates uncertainty about the Agent's actual authority, potentially leading to legal disputes about the enforceability of agreements made by the Agent. The term 'independent contractor' under US labor law is clearly defined. These changes blur the line between 'independent contractor' and 'employee' or 'agent with authority'.",
+                "contradicted_law": "Agency Law / Independent Contractor Classifications (various state laws)",
+                "location": "2.KALLO SALES AGENT PROGRAM TERMS AND CONDITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The pricing given in Schedule A is the transfer price from Kallo to the Agent and the Agent shall, in its  discretion establish a reasonable price for each of the Kallo Mobile care suite of products EULA as per Schedule A.",
+                "changed_text": "The pricing outlined in Schedule A serves as a suggested retail price, and the Agent, at its sole discretion, reserves the right to modify the final price to accommodate local market dynamics, with the understanding that the Agent is encouraged to maintain competitive pricing aligned with prevailing rates.",
+                "explanation": "The original text describes the pricing in Schedule A as a 'transfer price' from Kallo to the Agent, implying a set cost. The changed text reinterprets it as a 'suggested retail price,' giving the Agent leeway to adjust pricing based on 'local market dynamics.' This change in terminology introduces a contradiction in the contract's interpretation of pricing, especially with respect to the agent markup and end user price, which can be seen as a violation of the regulations under US contract law.",
+                "contradicted_law": "Contract Law - Pricing and Consideration",
+                "location": "9.ADDITIONAL PROVISIONS"
+            }
+        ]
+    }
+]

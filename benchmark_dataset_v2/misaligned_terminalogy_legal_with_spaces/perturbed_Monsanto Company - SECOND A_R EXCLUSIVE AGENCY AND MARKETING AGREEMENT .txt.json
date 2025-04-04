@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Monsanto Company - SECOND A_R EXCLUSIVE AGENCY AND MARKETING AGREEMENT .txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(a) Anti-Corruption Compliance. Agent represents and warrants that it will take no action in relation to this Agreement that would be in violation of, or would subject Monsanto to any liability for, or penalty under, the applicable anti- corruption laws and regulations of any Included Market.",
+                "changed_text": "(a) Anti-Corruption Compliance. Agent represents and warrants that it will take no action in relation to this Agreement that would be in violation of, or would subject Monsanto to any liability for, or penalty under, what Agent considers to be reasonable business ethics.",
+                "explanation": "Replaces the reference to 'applicable anti-corruption laws and regulations of any Included Market' with 'what Agent considers to be reasonable business ethics'. This is problematic because it allows the Agent's interpretation of business ethics to supersede actual legal standards. Anti-corruption laws like the FCPA have specific definitions, and this change introduces a legal contradiction.",
+                "contradicted_law": "Foreign Corrupt Practices Act (FCPA) and similar international anti-corruption laws.",
+                "location": "Section 2.7"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(f) Export Controls. The Agent acknowledges and agrees that the products, materials, software, technology and/or information provided under this Agreement are subject to the import, export control, and economic sanctions laws and regulations of the United States, potentially including but not limited to any requirements arising under the laws and regulations administered by U.S. Customs and Border Protection (\"CBP\"), the Export Administration Regulations (\"EAR\") administered by the U.S. Commerce Department's Bureau of Industry and Security (\"BIS\"), the International Traffic in Arms Regulations (\"ITAR\") administered by the U.S. State Department's Directorate of Defense Trade Controls (\"DDTC\"), and the various economic sanctions laws and regulations administered by the U.S. Treasury Department's Office of Foreign Assets Control (\"OFAC\").",
+                "changed_text": "(f) Export Controls. The Agent acknowledges and agrees that the products, materials, software, technology and/or information provided under this Agreement are subject to reasonable export guidelines, as determined by the Agent, which may or may not align with the import, export control, and economic sanctions laws and regulations of the United States.",
+                "explanation": "The original text specifies clear U.S. export control laws. The modified text replaces those laws with 'reasonable export guidelines, as determined by the Agent,' creating a direct contradiction. Export controls are legally mandated, not subject to the Agent's discretion.",
+                "contradicted_law": "Export Administration Regulations (EAR), International Traffic in Arms Regulations (ITAR), and sanctions administered by the Office of Foreign Assets Control (OFAC).",
+                "location": "Section 2.7"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(i) The Agent agrees to carry out at its expense, or to ensure the completion of at its expense, all procedures necessary to register and maintain the Additional Roundup Products Trademarks in full force and effect, and Monsanto agrees to cooperate with the Agent in providing any required information to assist in the maintenance and renewal of the Additional Roundup Products Trademarks.",
+                "changed_text": "(i) The Agent agrees to perform all necessary procedures to register and maintain the Additional Roundup Products Trademarks, unless they find the registration and maintenance fees to be too high, in which case they may abandon these trademarks. Monsanto agrees to cooperate with the Agent when the agent decides to register or renew the Additional Roundup Products Trademarks.",
+                "explanation": "The original text placed an obligation on the Agent to ensure that all procedures necessary to register and maintain the Trademarks were completed. The changed text now introduces the possibility that the Agent will abandon the trademarks, which completely contradicts the original obligation.",
+                "contradicted_law": "Trademark Law, contractual obligations related to intellectual property maintenance.",
+                "location": "Section 6.11"
+            }
+        ]
+    }
+]

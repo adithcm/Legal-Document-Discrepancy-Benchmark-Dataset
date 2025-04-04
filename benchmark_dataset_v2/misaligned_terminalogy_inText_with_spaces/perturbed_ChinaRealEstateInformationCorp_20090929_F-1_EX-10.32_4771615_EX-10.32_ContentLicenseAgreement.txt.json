@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Licensed Content\" shall mean all Content (i) whose copyright is owned by Licensor; or (ii) owned by a third party provider but is sublicensable by Licensor to Licensee without requiring the payment of any additional fee to any third party and without violating the terms of any agreement with such third party provider, together with all updates to and substitutions therefor as may be implemented by Licensor or such third party provider.",
+                "changed_text": "\"Licensed Content\" shall mean all Content (i) whose copyright is owned by Licensor; or (ii) owned by a third party provider, irrespective of sublicensing rights or fees payable to any third party provider, and may not include updates or substitutions implemented by Licensor or any third party provider.",
+                "explanation": "The original definition specifies that the licensed content is sublicensable without extra fees and includes updates. The modified definition omits this requirement and actively restricts modifications, creating a contradiction about the scope and conditions of the 'Licensed Content'.",
+                "location": "ARTICLE I DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Licensee shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including without limitation Content posted by end users. Licensor shall also have the right to monitor and censor Content of the websites associated with Licensed Domain Names. Licensee shall remove any offending Content, including, but not limited to, any illegal materials, pornographic, obscene or sexually explicit materials, materials of a violent nature, or politically sensitive materials, from such websites as soon as possible after it becomes aware of such offending Content but in no event later than the timeframe prescribed by the Governmental Authority after receipt of oral or written notice from Licensor or such Governmental Authority.",
+                "changed_text": "Licensee shall monitor all Content on the websites associated with the Licensed Domain Names, including without limitation Content posted by end users. Licensor has no obligation to monitor or censor content. Licensee must only remove any content deemed illegal by a court of law.",
+                "explanation": "The original text gives both Licensor and Licensee the right to censor, and mandates removal of 'offending content', broadening the type of content that could be removed. The modified text removes the Licensor's right, narrows the definition of what must be removed to content deemed illegal, and it is therefore in contradiction with the first statement that has no specification of what content needs to be removed.",
+                "location": "Section 3.3. Website Monitoring and Censoring."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement and any rights or authority granted hereunder shall not be assigned or transferred by either Party, including by operation of law, merger or otherwise, without the express written consent of the other Party, provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.",
+                "changed_text": "This Agreement and any rights or authority granted hereunder may be freely assigned or transferred by either Party, including by operation of law, merger or otherwise, without any consent required. There are no restrictions on assignment.",
+                "explanation": "The original clause restricts assignment, requiring written consent, but makes an exception for assignments to affiliates. The modified version permits completely free assignment and transfer, contradicting the earlier requirement for consent and elimination of the exceptions.",
+                "location": "10.7. Assignment."
+            }
+        ]
+    }
+]

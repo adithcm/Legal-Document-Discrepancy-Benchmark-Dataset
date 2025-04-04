@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SIBANNAC,INC_12_04_2017-EX-2.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9) Governing Law   This Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Texas.",
+                "changed_text": "9) Governing Law   This Agreement is entered into in the State of Texas.",
+                "explanation": "Removing the clause stating the agreement 'shall be interpreted according to the laws of the State of Texas' creates ambiguity. While the contract is entered into in Texas, without the explicit statement of governing law, a dispute could arise regarding which jurisdiction's laws apply, especially if the parties have connections to other states.",
+                "contradicted_law": "Contract Law, choice of law principles",
+                "location": "Section 9"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11) Modifications   No changes or modifications of this Agreement or any of its terms shall be deemed effective unless in writing and executed by the parties hereto.",
+                "changed_text": "5\n\n 11) Modifications   No changes or modifications of this Agreement or any of its terms shall be deemed effective unless discussed between both parties.",
+                "explanation": "By changing the original terms of 'changes or modifications of this Agreement or any of its terms shall be deemed effective unless in writing and executed by the parties hereto' to 'changes or modifications of this Agreement or any of its terms shall be deemed effective unless discussed between both parties' modifies the original clause that it has to be in writing. By changing the clause, if there is some issue, one party can claim that even though there was never anything in writing it was talked about thus is valid.",
+                "contradicted_law": "Contract Law, Modifications of contracts",
+                "location": "Section 11"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8) Notices   Any notices required under this Agreement shall be delivered to:   Bravatek Technologies, Inc. 2028 E. Ben White Blvd., Unit #240-2835 Austin, Texas 78741   Sibannac, Inc. 2122 E Highland Avenue, STE 425 Phoenix, AZ 85016",
+                "changed_text": "4\n\n\n 8) Notices   Any notices required under this Agreement shall be delivered through carrier pigeon.",
+                "explanation": "By changing the original addresses required for proper notices, it makes it hard to enforce legal requirements. By changing the addresses to 'carrier pigeon', all parties involved would have a hard time enforcing the delivery of notices.",
+                "contradicted_law": "Contract Law, notifications",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

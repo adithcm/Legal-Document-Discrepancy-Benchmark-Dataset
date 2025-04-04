@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PACIRAPHARMACEUTICALS,INC.-A_RSTRATEGICLICENSING,DISTRIBUTIONANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "4.20 Governmental Rebates. Any discounts, rebates, or promotional allowances/incentive programs provided are \"discount[s] or other reduction[s] in price\" for purposes of 42 U.S.C. Section 1320a-7b(b)(3)(A) and may be subject to the reporting requirements under state and  federal Medicaid and Medicare laws. EKR represents that it is aware of its obligations to report discounts resulting from this Agreement to  the appropriate reimbursing agencies and authorities (including Medicaid and Medicare). EKR is responsible for complying with and agrees  to comply with all applicable requirements, if any, in respect of providing information on such discounts to reimbursing agencies (including  Medicaid and Medicare) and other entities in accordance with Applicable Laws and regulations.",
+                "changed_text": "4.20 Governmental Rebates. Any discounts, rebates, or promotional allowances/incentive programs provided may be subject to internal tracking procedures. EKR represents that it utilizes internal protocols for discount management. EKR is responsible for maintaining internal records of promotional activities.",
+                "explanation": "This change removes the explicit legal disclosure regarding Medicaid and Medicare reporting requirements for discounts, rebates, and promotional allowances. Instead, it's replaced with a vague statement about 'internal tracking procedures', making it difficult to determine whether EKR is actually complying with its legal obligations. The original section mentioned a specific US code, while the modified version doesn't.",
+                "contradicted_law": "42 U.S.C. Section 1320a-7b(b)(3)(A), state and federal Medicaid and Medicare laws",
+                "location": "Section 4.20"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "21.13 Governing Law. This Agreement and the relationship between the Parties shall be governed by, and interpreted in accordance with New  York law without regard to provisions related to conflicts of laws, and, except as provided in Section 21.2 above, the Parties agree to submit  any dispute to the exclusive jurisdiction of the federal and state courts sitting in New York.",
+                "changed_text": "21.13 Governing Law. This Agreement and the relationship between the Parties shall be governed by, and interpreted in accordance with the laws of a jurisdiction to be mutually agreed upon in the event of a dispute. Until such agreement is reached, the governing law shall be that which the presiding executive of EKR determines.",
+                "explanation": "The original clause dictates New York law will govern the agreement. The modified clause introduces ambiguity and potential for manipulation by allowing the presiding executive of EKR to determine the governing law in the event of a dispute, provided no other law is mutually agreed upon. This contradicts the certainty and predictability of the original clause, severely impacting enforceability and potentially allowing EKR to select a jurisdiction more favorable to its interests.",
+                "contradicted_law": "Breach of contract law under original jurisdiction (New York)",
+                "location": "Section 21.13"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.8 PPI Liability Limitation. Any and all liability of PPI to EKR howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance, in contract tort or otherwise, shall be limited (except for death or  personal injury caused by the negligence of PPI or its employees while acting in the course of their employment) to [**] US Dollars ($[**]);  provided",
+                "changed_text": "10.8 PPI Liability Limitation. Any and all liability of PPI to EKR howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance, in contract tort or otherwise, shall be limited to an amount deemed reasonable by PPI; provided",
+                "explanation": "The original clause provides a specific cap on PPI's liability. The modified clause replaces this with a subjective standard, allowing PPI to determine what is 'reasonable', undermining the purpose of a liability limitation. This makes it far more difficult for EKR to enforce any claim against PPI beyond what PPI unilaterally deems acceptable.",
+                "contradicted_law": "General contract law regarding enforceability of liability limitations",
+                "location": "Section 10.8"
+            }
+        ]
+    }
+]

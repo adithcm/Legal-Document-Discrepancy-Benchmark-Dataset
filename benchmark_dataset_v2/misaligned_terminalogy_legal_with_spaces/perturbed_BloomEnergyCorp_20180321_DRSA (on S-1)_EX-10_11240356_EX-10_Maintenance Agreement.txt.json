@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BloomEnergyCorp_20180321_DRSA (on S-1)_EX-10_11240356_EX-10_Maintenance Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Service Provider\" means an operation and maintenance contractor appointed by Operator and approved by Owner pursuant to Section 2.18.Operator shall submit such appointment of any Service Provider to Owner for its prior written approval, which approval shall not be unreasonably withheld or delayed, and if applicable, to PJM and/or DPL. No such appointment nor the approval thereof by Owner, however, shall relieve Operator of any liability, obligation, or responsibility resulting from a breach of this Agreement.",
+                "changed_text": "\"Service Provider\" means any third party selected by the Operator to perform maintenance; consent is needed when specified by the Operator. Operator shall submit any Service Provider to Owner for its prior written approval, which approval shall be optional and only for preferred vendors, and if applicable, to PJM and/or DPL. No such appointment nor the approval thereof by Owner, however, shall relieve Operator of any liability, obligation, or responsibility resulting from a breach of this Agreement.",
+                "explanation": "The definition of 'Service Provider' is changed so that instead of needing Owner approval, the need of it is optional and only for preferred vendors. This creates a legal contradiction because Owner needs to approve the Provider. This perturbation creates uncertainty on approval.",
+                "contradicted_law": "Contract Law - Duty of Good Faith and Fair Dealing",
+                "location": "Section 2.18"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Operator grants to Owner the limited right to use any Training Materials which are provided under this Agreement, and Owner agrees that upon termination of this Agreement for any reason, Owner shall return all Training Materials, including any copies, to Operator. Owner will not make copies nor will it permit its employees, contractors, affiliates, or representatives to make copies of any Training Materials without Operator's prior written consent. \"Training Materials\" means any and all materials, documentation, notebooks, forms, diagrams, manuals and other written materials and tangible objects, describing how to maintain the Facilities, including any corrections, improvements and enhancements thereto to the Bloom Systems which are delivered by Operator to Owner, but excluding any data and reports delivered to Owner.",
+                "changed_text": "Operator grants to Owner the general right to use any Training Materials which are provided under this Agreement, and Owner agrees that upon termination of this Agreement for any reason, Owner shall keep all Training Materials, including any copies, with no issues. Owner will make copies and will permit its employees, contractors, affiliates, or representatives to make copies of any Training Materials without Operator's prior written consent. \"Training Materials\" means any and all materials, documentation, notebooks, forms, diagrams, manuals and other written materials and tangible objects, describing how to maintain the Facilities, including any corrections, improvements and enhancements thereto to the Bloom Systems which are delivered by Operator to Owner, including data and reports delivered to Owner.",
+                "explanation": "The text changes the obligation of the owner related to the materials of the operator. This creates a conflict between the obligation to return the material and keep it, therefore creating legal uncertainty.",
+                "contradicted_law": "Contract Law - Intellectual Property Rights",
+                "location": "Section 2.17"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Notwithstanding anything to the contrary in this Agreement, in no event shall a Party be liable to the other Party for an aggregate amount in excess of the Maximum Liability; provided that such limitation of liability shall not apply to any liability that is the result of (i) gross negligence, fraud or willful misconduct of a Party, (ii) a Third Party Claim, (iii) the failure to pay the Service Fees (which amount shall not be included in calculating Owner's Maximum Liability), (iv) a claim of Owner against BE or Operator in the event of any breach, default or misrepresentation of any representation and warranty or covenant set forth in Section 8.2(e) or (v) a claim of Owner against BE or Operator under Section 2.8.",
+                "changed_text": "Notwithstanding anything to the contrary in this Agreement, in no event shall a Party be liable to the other Party for an aggregate amount in excess of the Minimum Liability; provided that such limitation of liability shall not apply to any liability that is the result of (i) simple negligence of a Party, (ii) any claim, (iii) any payment, (iv) any event of default or misrepresentation of any representation and warranty or covenant set forth in Section 8.2(e) or (v) any claim.",
+                "explanation": "The text changes the liability for the parties, from 'maximum' to 'minimum' liability, and changes the type of action required for the responsibilities, going against the correct use of the terminology and creating legal uncertainty.",
+                "contradicted_law": "Contract Law - Limitation of Liability",
+                "location": "Section 7.1"
+            }
+        ]
+    }
+]

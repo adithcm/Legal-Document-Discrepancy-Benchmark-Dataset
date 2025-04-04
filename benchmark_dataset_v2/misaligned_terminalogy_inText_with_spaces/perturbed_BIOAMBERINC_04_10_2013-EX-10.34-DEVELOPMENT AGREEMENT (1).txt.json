@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Development Agreement (\"Development Agreement\") is entered into on April 15 , 2010 (\"EffectiveDate\") by and between Cargill,  Incorporated through its Bio Technology Development Center, having its principal place of business at 15407 McGinty Road West, Wayzata,  Minnesota 55391 USA (\"Cargill\") and Bioamber S.A.S., having a place of business at Route de Bazancourt, F-51110, Pomacle France (\"Bioamber\").  Bioamber and Cargill shall be referred to individually as \"Party\" and collectively as \"Parties\", as required by text.",
+                "changed_text": "This Development Agreement (\"Development Agreement\") is entered into on April 15 , 2010 (\"EffectiveDate\") by and between Cargill,  Incorporated through its Bio Technology Development Center, having its principal place of business at 15407 McGinty Road West, Wayzata,  Minnesota 55391 USA (\"Cargill\") and Bioamber S.A.S., having a place of business at Route de Bazancourt, F-51110, Pomacle France (\"Bioamber\").  Bioamber and Cargill shall be referred to individually as \"Party\" and Cargill shall be referred to collectively as \"Parties\", as required by text.",
+                "explanation": "This introduces ambiguity because 'Bioamber' is not explicitly included in the collective term 'Parties'. This contradicts later sections that assume both are included under 'Parties'.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In the event Cargill does not achieve a given Milestone provided in Section 2.3 by the Target Date listed in Section 2.3 or modified  Milestone and modified Target Date as agreed to by the Parties, and subsequently achieves such milestone as per the criteria  described in Exhibit A, the payment for such missed milestone shall be due [***] and the amount due shall be [***] for every [***]  beyond the Target Date.",
+                "changed_text": "In the event Cargill does not achieve a given Milestone provided in Section 2.3 by the Target Date listed in Section 2.3 or modified  Milestone and modified Target Date as agreed to by Cargill, and subsequently achieves such milestone as per the criteria  described in Exhibit A, the payment for such missed milestone shall be due [***] and the amount due shall be [***] for every [***]  beyond the Target Date.",
+                "explanation": "By changing 'the Parties' to 'Cargill,' the condition for modifying milestone target dates becomes unclear and one-sided. It introduces an ambiguity whether Bioamber also has to agree or if Cargill can unilaterally set the target dates.",
+                "location": "Section 2.4.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "All documents and/or tangible materials containing or comprising  Confidential Information of the Disclosing Party will remain the property of the Disclosing Party. Upon the request of the Disclosing Party,  the Receiving Party will destroy all Confidential Information of the Disclosing Party and any documents prepared by the Receiving Party  using Confidential Information of the Disclosing Party and the Receiving Party agrees to provide confirmation of such destruction in  writing.",
+                "changed_text": "All documents and/or tangible materials containing or comprising  Confidential Information of the originator will remain the property of the originator. Upon the request of the Disclosing Party,  the Receiving Party will destroy all Confidential Information of the Disclosing Party and any documents prepared by the Receiving Party  using Confidential Information of the Disclosing Party and the Receiving Party agrees to provide confirmation of such destruction in  writing.",
+                "explanation": "Changing 'Disclosing Party' to 'originator' only for the ownership sentence creates a contradiction. The requirement for the Receiving Party to destroy 'Confidential Information of the Disclosing Party' becomes disconnected from the ownership clause, potentially leading to disputes about what needs to be destroyed.",
+                "location": "Section 4.4"
+            }
+        ]
+    }
+]

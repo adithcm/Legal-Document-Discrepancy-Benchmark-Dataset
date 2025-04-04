@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In this Agreement, \"we,\" \"us\" and \"our\" refers to Pizza Fusion Holding, Inc., the franchisor. \"You\" and \"your\" refers to the Franchisee.",
+                "changed_text": "In this Agreement, \"we,\" \"us\" and \"our\" refers to Pizza Fusion Holding, Inc., the franchisor. \"You\" and \"your\" refers to the Licensee.",
+                "explanation": "The terms 'Franchisee' and 'Licensee' are used interchangeably here although only 'Franchisee' is initially defined and consistently used through the rest of the agreement. This creates confusion about who exactly is bound by the agreement.",
+                "location": "Cover Page"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "We grant you the right, and you accept the obligation, to use the Proprietary Marks and the System to operate one Restaurant (the \"Franchised Business\") at the Premises, in accordance with the terms of this Agreement. The term \"Premises\" means the location shown on the cover page to this Agreement or a location that is determined under process set out in Section 4.1 [Site Selection and Approval] below.",
+                "changed_text": "We grant you the right, and you accept the obligation, to use the Proprietary Marks and the System to operate one Restaurant (the \"Licensed Outlet\") at the Premises, in accordance with the terms of this Agreement. The term \"Premises\" means the location shown on the cover page to this Agreement or a location that is determined under process set out in Section 4.1 [Site Selection and Approval] below.",
+                "explanation": "The agreement uses 'Franchised Business' in the original text, but the modified text now uses 'Licensed Outlet'. These terms are now used interchangeably without any proper definition. This would lead to confusion and enforcement disputes, especially regarding obligations tied specifically to one term or the other, as it becomes unclear if the intent is to apply to both or just one.",
+                "location": "Section 1.1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Operating Principal must own a majority of the voting and ownership interests in the franchisee entity, unless you obtain our prior written approval for the Operating Principal to hold a smaller interest.",
+                "changed_text": "The Managing Director must own a majority of the voting and ownership interests in the franchisee entity, unless you obtain our prior written approval for the Managing Director to hold a smaller interest.",
+                "explanation": "The original text defines the term 'Operating Principal', but then the text uses the term 'Managing Director' interchangeably without defining this term, which makes it unclear if the same rules and obligations should be applied in each term.",
+                "location": "Section 6.15.1"
+            }
+        ]
+    }
+]

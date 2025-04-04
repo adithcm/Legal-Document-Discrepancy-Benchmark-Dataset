@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VEONEER,INC_02_21_2020-EX-10.11-JOINTVENTUREAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Article 3.Governing Law\n\nThis Amendment shall be governed by and construed in accordance with the laws of Japan.",
+                "changed_text": "Article 3.Governing Law\n\nThis Amendment shall be governed by and construed in accordance with the laws of Delaware.",
+                "explanation": "Changing the governing law from Japan to Delaware introduces a potential conflict. The JV involves Japanese companies and operations. Altering the governing law might lead to disputes about which jurisdiction's laws should apply, weakening enforceability depending on where legal action is pursued.",
+                "contradicted_law": "Choice of Law Principles, International Contract Law",
+                "location": "Article 3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "effective as of the date first above written.\n\nVeoneer AB\n\nBy: /s/ Mats Backman Name: Mats Backman Title: Director\n\nBy: /s/ Amelie Wendels Name: Amelie Wendels Title: Director",
+                "changed_text": "effective as of the date first above written.\n\nVeoneer AB\n\nBy: /s/ Mats Backman Name: Mats Backman Title: Director\n\nBy: /s/ Amelie Wendels Name: Amelie Wendels Title: Director\n\nNotice: Any disputes arising from this contract must be resolved through binding arbitration in Sweden. The arbitrator’s decision shall be final and binding.",
+                "explanation": "Adding the arbitration clause to the signature section makes it less visible and less likely to be read and understood by all parties. It is typically found in a separate section dedicated to dispute resolution.",
+                "contradicted_law": "Varies by jurisdiction; some require arbitration clauses to be conspicuous.",
+                "location": "Signature Page"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "effect in the event that the VNBJ SPA and the VNBZ SPA are terminated in accordance with the terms thereof.\n\n(The remainder of this page has intentionally been blank.)",
+                "changed_text": "effect in the event that the VNBJ SPA and the VNBZ SPA are terminated in accordance with the terms thereof.\n\nDisclaimer: Veoneer Parties shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (i) the use or the inability to use the termination agreement",
+                "explanation": "Moving a liability disclaimer into a section discussing termination conditions makes it less prominent and reduces the likelihood that parties will fully understand the scope of the limitation of liability. It's also mixed into the legal jargon of the termination clause itself.",
+                "contradicted_law": "Contract law principles requiring clear and unambiguous language for liability waivers.",
+                "location": "Article 4"
+            }
+        ]
+    }
+]

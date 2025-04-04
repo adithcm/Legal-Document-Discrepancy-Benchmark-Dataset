@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EmbarkComInc_19991008_S-1A_EX-10.10_6487661_EX-10.10_Co-Branding Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"CONFIDENTIAL INFORMATION\" means information of either party (whether of a technical, business or other nature) which the other party knows or reasonably should know to be confidential or proprietary information of such party.",
+                "changed_text": "\"CONFIDENTIAL INFORMATION\" means information of either party that is clearly marked as confidential and relates directly to financial records. Information not explicitly labeled or pertaining to other business aspects is not considered confidential.",
+                "explanation": "This contradicts the standard legal understanding of 'Confidential Information,' which typically includes a broader range of information beyond just explicitly labeled financial records. Limiting the definition so narrowly could undermine legal protections for trade secrets and proprietary data under California law.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "location": "SECTION 1. DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"TRADEMARKS\" means any trademarks, service marks, trade dress, trade names, corporate names, proprietary logos or indicia and other source or business identifiers.",
+                "changed_text": "\"TRADEMARKS\" means any symbols that a company uses to brand its products. Registration provides complete and total ownership of such mark.",
+                "explanation": "The original definition aligns with standard trademark law. The modified version implies that registration grants absolute ownership, ignoring concepts like fair use, genericization, and geographic limitations, contradicting established U.S. trademark law under the Lanham Act.",
+                "contradicted_law": "Lanham Act (Trademark Act of 1946)",
+                "location": "SECTION 1. DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "8.1   CONFIDENTIALITY. During the Term, and for a period of five (5) years thereafter, the receiving party will not disclose to others or use for any purpose of its own, other than in performance of this Agreement, any Confidential Information of the other party.",
+                "changed_text": "8.1   CONFIDENTIALITY. During the Term, and for a period of one (1) year thereafter, the receiving party will keep the financial records confidential.",
+                "explanation": "This change drastically reduces the duration of confidentiality protection. Furthermore, it restricts the scope of what is protected, which directly opposes common law regarding the protection of trade secrets. The original clause protected Confidential Information, but this drastically changes the extent of the protection and what is considered confidential.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "location": "SECTION 8. GENERAL PROVISIONS"
+            }
+        ]
+    }
+]

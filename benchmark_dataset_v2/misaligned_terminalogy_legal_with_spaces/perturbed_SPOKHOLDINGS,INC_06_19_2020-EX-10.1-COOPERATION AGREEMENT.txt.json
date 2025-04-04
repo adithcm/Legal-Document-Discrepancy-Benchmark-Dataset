@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPOKHOLDINGS,INC_06_19_2020-EX-10.1-COOPERATION AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS, the White Hat Parties have voting power or sole dispositive power or otherwise have beneficial ownership of 319,708 shares (the \"Current Position\") of the common stock, par value $0.0001 per share, of the Company (the \"Common Stock\") as of the date of this Agreement; and",
+                "changed_text": "WHEREAS, the White Hat Parties have voting power or sole dispositive power or otherwise have mere ownership of 319,708 shares (the \"Current Position\") of the common stock, par value $0.0001 per share, of the Company (the \"Common Stock\") as of the date of this Agreement; and",
+                "explanation": "The term 'beneficial ownership' has a specific definition under SEC rules, related to control and economic interest. Replacing it with 'mere ownership' introduces ambiguity and contradicts the established legal understanding of beneficial ownership, potentially affecting obligations related to disclosure and reporting under securities laws.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 13d-3",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(b) Based on the Information, the Nominating and Governance Committee (the \"Nominating Committee\") of the Board of Directors (the \"Board\") of the Company and the Board have determined that the New Director may serve as an \"independent\" director of the Company in accordance with the rules and listing standards of the NASDAQ National Market and applicable rules and regulations of the Securities Exchange Commission (the \"SEC\").",
+                "changed_text": "(b) Based on the Information, the Nominating and Governance Committee (the \"Nominating Committee\") of the Board of Directors (the \"Board\") of the Company and the Board have determined that the New Director may serve as a \"loosely affiliated\" director of the Company in accordance with internal guidelines.",
+                "explanation": "The term \"independent director\" has a specific meaning under NASDAQ listing rules and SEC regulations, requiring the director to be free from material relationships with the company. Replacing it with \"loosely affiliated director\" and referencing \"internal guidelines\" contradicts these established standards. It raises questions about the director's actual independence and compliance with regulatory requirements.",
+                "contradicted_law": "NASDAQ Listing Rule 5605(a)(2) and SEC regulations regarding director independence",
+                "location": "Section 1(b)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Each of the Parties agrees that the other Party would be irreparably injured in the event that any provision of the Agreement is breached or not performed. Accordingly, it is agreed that each Party shall be entitled to temporary and permanent injunctive relief with respect to each and any breach or purported repudiation of this Agreement by the other and to specifically enforce strict adherence to this Agreement and the terms and provisions hereof against the other in any action instituted in a court of competent jurisdiction, in addition to any other remedy which such aggrieved Party may be entitled to obtain.",
+                "changed_text": "Each of the Parties agrees that the other Party would be slightly inconvenienced in the event that any provision of the Agreement is breached or not performed. Accordingly, it is agreed that each Party shall be entitled to seek mediation before legal action with respect to each and any breach or purported repudiation of this Agreement by the other.",
+                "explanation": "The term \"irreparably injured\" has a specific legal meaning pertaining to the availability of injunctive relief. Changing the text to \"slightly inconvenienced\" and replacing injunctive relief with mediation significantly alters the remedies available. By changing this text, it diminishes the immediate action one party can take if there's a breach and goes against common practices for what happens when contracts are breached. It replaces a firm right with a softer, less guaranteed response.",
+                "contradicted_law": "General principles of contract law regarding remedies for breach of contract, specifically relating to injunctive relief.",
+                "location": "Section 7(a)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NICELTD_06_26_2003-EX-4.5-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS the Parties have completed the pre-contract due diligence, and now wish to contract for the provision of the Manufacturing Outsourcing Services;\n\nNOW THEREFORE, FOR AND IN CONSIDERATION OF THE AGREEMENTS OF THE PARTIES SET FORTH BELOW, NICE AND CONTRACTOR AGREE AS FOLLOWS:",
+                "changed_text": "WHEREAS the Parties have completed the pre-contract due diligence, and now wish to contract for the provision of the Manufacturing Outsourcing Activities;\n\nNOW THEREFORE, FOR AND IN CONSIDERATION OF THE AGREEMENTS OF THE PARTIES SET FORTH BELOW, NICE AND Contractor AGREE AS FOLLOWS:",
+                "explanation": "Changing 'Manufacturing Outsourcing Services' to 'Manufacturing Outsourcing Activities' introduces uncertainty as to whether these terms are interchangeable. The contract consistently defines and uses 'Manufacturing Outsourcing Services,' so switching to 'Activities' creates ambiguity.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "     (x)  \"CUSTOMER/S\" - NICE distributors, resellers, VAR's (value added           resellers), OEM's and similar business partners and/or end-users,           which purchase the Products.\n\n     (xi) \"NICE PROPRIETARY INFORMATION\" - Any and all data and information           disclosed by NICE to the Contractor during the term of this Agreement           in any form, whether verbally, in writing or in machine readable form           or in magnetic media, relating to the business, manufacturing,",
+                "changed_text": "     (x)  \"CUSTOMER/S\" - NICE distributors, resellers, VAR's (value added           resellers), OEM's and similar business partners and/or end-users,           which purchase the Products.\n\n     (xi) \"NICE PROPRIETARY INFORMATION\" - Any and all data and information           disclosed by NICE to the Supplier during the term of this Agreement           in any form, whether verbally, in writing or in machine readable form           or in magnetic media, relating to the business, manufacturing,",
+                "explanation": "Changing 'Contractor' to 'Supplier' within the definition of 'NICE PROPRIETARY INFORMATION' creates confusion. It becomes unclear whether 'Supplier' refers to the same entity as 'Contractor,' especially since the contract already uses and defines 'Contractor' extensively.",
+                "location": "Section A (Definitions)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "     5.3.6. In the event that following the delay, Contractor is in                     compliance with the Due Dates for two immediately                     consecutive Quarters and there is no delay whatsoever,                     Contractor will be reimbursed by NICE for liquidated damages                     already paid for delay in the previous Quarter (before the                     said 2 Quarters), if paid, without derogating from the                     previous delay being regarded as a breach hereunder.",
+                "changed_text": "     5.3.6. In the event that following the delay, Supplier is in                     compliance with the Due Dates for two immediately                     consecutive Quarters and there is no delay whatsoever,                     Contractor will be reimbursed by NICE for liquidated damages                     already paid for delay in the previous Quarter (before the                     said 2 Quarters), if paid, without derogating from the                     previous delay being regarded as a breach hereunder.",
+                "explanation": "Changing 'Contractor' to 'Supplier' causes confusion about which entity must meet the delivery dates in order for NICE to reimburse for liquidated damages. This contradiction may lead to disputes regarding performance.",
+                "location": "Section 5.3.6"
+            }
+        ]
+    }
+]

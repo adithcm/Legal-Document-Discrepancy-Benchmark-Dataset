@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MANUFACTURERSSERVICESLTD_06_05_2000-EX-10.14-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "On the Effective Date, MSL shall purchase all tangible assets listed in Attachment 3: Asset List, Part 1A and non-capitalized hand tools used in the manufacture of Products for [*] U.S. dollars [*]. Within [*] days of the Effective Date, IBM shall give the tangible assets listed in Attachment 3: Asset List, Part 1B to MSL. On the Effective Date, MSL shall purchase",
+                "changed_text": "On the Effective Date, MSL shall purchase all tangible assets listed in Attachment 3: Asset List, Part 1A and non-capitalized hand tools used in the manufacture of Products for [*] U.S. dollars [*]. Within [*] days of the Effective Date, IBM shall provide the tangible assets listed in Attachment 3: Asset List, Part 1B to MSL. On the Effective Date, MSL will receive",
+                "explanation": "The terms \"give\" and \"purchase\" are used contradictorily, implying that MSL might both receive assets for free and be required to pay for them. It's also misaligned whether MSL shall purchase, or MSL will receive.",
+                "location": "SECTION 8.0 PURCHASE OF ASSETS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "MSL agrees to protect, defend, hold harmless, and indemnify IBM from and against any and all claims, damages, liabilities, losses and expenses, arising out of the following, whether alleged or actual:\n\n      a)    infringement by MSL in rendering performance under this Agreement or             any Product Attachments or by any MSL procured Parts, processes,             designs, deliverables or any preexisting material contributed by MSL             from which any Products are prepared, of any patent, trademark,             trade name, copyright, mask work right or trade secret valid             anywhere in the world, except that MSL shall have no indemnity             obligation for any claim alleging infringement of any trademark             including any trade name, product name or similar right resulting             from the use of any name or mark selected by IBM;",
+                "changed_text": "MSL agrees to protect, defend, hold harmless, and reimburse IBM from and against any and all claims, damages, liabilities, losses and expenses, arising out of the following, whether alleged or actual:\n\n      a)    infringement by MSL in rendering performance under this Agreement or             any Product Attachments or by any MSL procured Parts, processes,             designs, deliverables or any preexisting material contributed by MSL             from which any Products are prepared, of any patent, trademark,             trade name, copyright, mask work right or trade secret valid             anywhere in the world, except that MSL shall have no indemnity             obligation for any claim alleging infringement of any trademark             including any trade name, product name or similar right resulting             from the use of any name or mark selected by IBM;",
+                "explanation": "Using \"indemnify\" and \"reimburse\" interchangeably creates confusion about MSL's precise responsibility. Indemnification typically covers protecting against potential losses, whereas reimbursement is for direct repayment of expenses. The different terms are used to denote the same action, but they are not defined as such and are different legal requirements.",
+                "location": "SECTION 15.0 INDEMNIFICATION AND LIMITATION OF LIABILITY"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Any legal or other action related to a breach       of this Agreement must be commenced no later than [*] years from the date       of the breach in a court sited within the State of New York.",
+                "changed_text": "Any legal or other action related to a default       of this Agreement must be commenced no later than [*] years from the date       of the breach in a court sited within the State of New York.",
+                "explanation": "\"Breach\" and \"default\" are used as synonyms. Although they're often used in similar contexts, \"breach\" typically refers to a failure to perform a contractual obligation, whereas \"default\" can encompass a broader range of failures, including financial defaults. Using the term \"breach\" implies a very distinct legal action whereas using the term \"default\" introduces uncertainty about what falls under the purview of the cause of action.",
+                "location": "SECTION 16.0 GENERAL"
+            }
+        ]
+    }
+]

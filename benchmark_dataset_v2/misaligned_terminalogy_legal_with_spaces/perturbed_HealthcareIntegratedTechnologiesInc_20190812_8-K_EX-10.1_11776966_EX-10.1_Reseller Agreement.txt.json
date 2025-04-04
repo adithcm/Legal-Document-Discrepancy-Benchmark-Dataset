@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Customer\" means a third party who purchases the Products from Reseller within the Territory, for its internal use only (including for the personal use of its End Users), such as nursing homes.",
+                "changed_text": "\"Customer\" means any party who purchases Products from the Reseller without any restrictions on the nature of their use or resale, including other retailers and distributors.",
+                "explanation": "The original definition restricts the customer to 'internal use only,' which is a standard reseller agreement term. The modified term contradicts this by explicitly allowing resale, potentially violating manufacturer restrictions and creating legal uncertainty about distribution rights.",
+                "contradicted_law": "Potential violation of manufacturer's distribution agreements and the principle of 'first sale doctrine' under copyright law, if the product includes copyrighted material.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"End User Agreement\" means Supp l i e r ' s s t andard l i cense ag reement s , wh ich a re ava i l ab le a t https://walabot.com/walabot-home, which governs each End User's right to use the Product, as amended by Supplier in its sole discretion from time to time.",
+                "changed_text": "\"End User Agreement\" means a simple document provided by the Reseller, outlining basic product usage instructions, and can be changed at the Reseller's convenience.",
+                "explanation": "The original End User Agreement is controlled by the Supplier. This change completely shifts control to the Reseller, contradicting the implied intent that the Supplier maintains control over end-user licensing and terms of use, potentially conflicting with software licensing laws.",
+                "contradicted_law": "Breach of implied software licensing agreement and potential copyright infringement if the Reseller's altered agreement conflicts with the original software license.",
+                "location": "Section 1.3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Reseller is an independent contractor and is not the legal representative, agent, joint venture, partner, or employee of Supplier. Reseller may describe itself as Supplier's 'authorized distributor', but may not hold itself out as the Supplier's agent.",
+                "changed_text": "Reseller is an independent contractor but may act as a representative of Supplier in negotiations with Customers. Reseller may describe itself as Supplier's 'official representative' and can make representations and warranties on behalf of the Supplier.",
+                "explanation": "The original clause clearly defines the Reseller as an independent contractor with no agency authority. The modified clause contradicts this by allowing the Reseller to act as a 'representative', implying agency and creating potential liability for the Supplier for the Reseller's actions. This undermines the 'independent contractor' classification.",
+                "contradicted_law": "Contradicts the legal definition of 'independent contractor' under common law and agency law, potentially creating vicarious liability for the Supplier.",
+                "location": "Section 14.2"
+            }
+        ]
+    }
+]

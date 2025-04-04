@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SimplicityEsportsGamingCompany_20181130_8-K_EX-10.1_11444071_EX-10.1_Franchise Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Franchisee shall perform its obligations hereunder without using subcontractors, sub-distributors, independent sales representatives, agents, Franchisee's affiliates or other non-employees (\"Third Parties\") to perform the obligations of Franchisee under this Agreement except to the contrary specifically stated in this Agreement or unless they have been approved, in writing, in advance, by Franchisor, such approval not to be unreasonably withheld.",
+                "changed_text": "Franchisee shall perform its obligations hereunder without using subcontractors, sub-distributors, independent sales representatives, agents, Franchisee's affiliates or other non-employees (\"External Entities\") to perform the obligations of Franchisee under this Agreement except to the contrary specifically stated in this Agreement or unless they have been approved, in writing, in advance, by Franchisor, such approval may be withheld at Franchisor's sole discretion.",
+                "explanation": "The term 'Third Parties' is replaced with 'External Entities,' creating confusion if they are intended to mean the same. Additionally, the original text states approval for using third parties cannot be 'unreasonably withheld.' The modified text removes this constraint, granting Franchisor complete discretion, potentially contradicting the franchisee's expected operational freedom.",
+                "location": "1.5"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Franchisee shall indemnify and hold the Franchisor, its affiliates and their respective agents and employees harmless from all claims, actions, suits, damages, costs and expenses in relation to or arising out of the breach of any representations, warranties, covenants and obligations of the Franchisee as set out in this Agreement. The indemnification rights of the Franchisor shall be without prejudice to, and independent of any other rights and remedies that the Franchisor may have at law or in equity, including the right to seek specific performance, injunctive relief or restitution, none of which rights or remedies shall be affected or diminished thereby.",
+                "changed_text": "The Licensee shall indemnify and hold the Franchisor, its affiliates and their respective agents and employees harmless from all claims, actions, suits, damages, costs and expenses in relation to or arising out of the breach of any representations, warranties, covenants and obligations of the Franchisee as set out in this Agreement. The indemnification rights of the Franchisor shall be without prejudice to, and independent of any other rights and remedies that the Franchisor may have at law or in equity, including the right to seek specific performance, injunctive relief or restitution, none of which rights or remedies shall be affected or diminished thereby.",
+                "explanation": "The term 'Franchisee' is replaced with 'Licensee' in the first sentence. It is now unclear if the 'Licensee' bears the obligation of indemnification, or if 'Franchisee' and 'Licensee' refer to the same entity, since that would be an undefined alias.",
+                "location": "7.3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the Term, Franchisee shall maintain policies of insurance as may be requested by Franchisor, subject to applicable law, in relation to the Smaaash Centres.",
+                "changed_text": "During the Period, Franchisee shall maintain policies of insurance as may be requested by Franchisor, subject to applicable law, in relation to the Smaaash Locations.",
+                "explanation": "The term 'Term' is replaced with 'Period,' and 'Smaaash Centres' is replaced with 'Smaaash Locations'. The lack of definitions for Period and Smaaash Locations means the context has changed and the Franchisee would have to determine if they are responsible for something different. Additionally, the time frame can have an impact on the policies and overall coverage of the term insurance.",
+                "location": "10.3"
+            }
+        ]
+    }
+]

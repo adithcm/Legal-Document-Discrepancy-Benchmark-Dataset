@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "5. Delay. No delay or failure by the Franchisor or Franchisee to exercise any right under this Agreement, and no partial or single exercise of that right, shall constitute a waiver of that or any other right provided herein, and no waiver of any violation of any terms and provisions of this Agreement shall be construed as a waiver of any succeeding violation of the same or any other provision of this Agreement.\n\n3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "explanation": "Moving the injunctive relief clause to the section regarding delay makes it harder to enforce, as it implies injunctive relief is only applicable when there is a delay, instead of any failure to comply with the requirements of the agreement.",
+                "contradicted_law": "General Contract Law - Specific Performance and Injunctive Relief",
+                "location": "Section 3 and 5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "5. Delay. No delay or failure by the Franchisor or Franchisee to exercise any right under this Agreement, and no partial or single exercise of that right, shall constitute a waiver of that or any other right provided herein, and no waiver of any violation of any terms and provisions of this Agreement shall be construed as a waiver of any succeeding violation of the same or any other provision of this Agreement.",
+                "changed_text": "5. Delay. No delay or failure by the Franchisor or Franchisee to exercise any right under this Agreement, and no partial or single exercise of that right, shall constitute a waiver of that or any other right provided herein, and no partial or single exercise of that right, shall constitute a waiver of that or any other right provided herein.",
+                "explanation": "By repeating part of the sentence, it obscures the meaning of the original text and causes confusion as to what a waiver entails.",
+                "contradicted_law": "General Contract Law - Waiver",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6. Third-Party Beneficiary. Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+                "changed_text": "6. Third-Party Beneficiary. Member hereby acknowledges and agrees that Franchisor *may be* an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+                "explanation": "Changing 'is' to 'may be' introduces uncertainty about the franchisor's status as a third-party beneficiary, weakening their ability to enforce the agreement.",
+                "contradicted_law": "Contract Law - Third Party Beneficiary Rights",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

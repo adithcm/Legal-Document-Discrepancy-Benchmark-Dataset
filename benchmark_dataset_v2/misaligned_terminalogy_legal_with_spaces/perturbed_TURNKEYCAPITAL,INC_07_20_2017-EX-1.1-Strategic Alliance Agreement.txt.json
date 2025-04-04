@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TURNKEYCAPITAL,INC_07_20_2017-EX-1.1-Strategic Alliance Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "TKCI is performing under this Agreement as a Strategic Alliance member and is not a legal or implied agent or employee of SIC. This Agreement does not create agency or employment relationship between the parties hereto.",
+                "changed_text": "TKCI is performing under this Agreement as a Strategic Alliance member and is considered a general advisor to SIC. This Agreement does not explicitly create a formal agency or employment relationship between the parties hereto.",
+                "explanation": "The change replaces 'not a legal or implied agent or employee' with 'general advisor'. While seemingly innocuous, 'general advisor' can imply a fiduciary duty under certain interpretations of Florida law, especially concerning tribal affairs. This introduces ambiguity, as 'strategic alliance member' typically suggests a more arms-length relationship.",
+                "contradicted_law": "Florida Statutes regarding fiduciary duties and agency relationships.",
+                "location": "9.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "SIC understands that TKCI is not acting as a broker-dealer or dealer in securities with respect to any transaction contemplated hereunder, and that any securities which may be sold in respect to any such transaction are being sold directly by or to SIC, to or by TKCI parties to such transaction. SIC acknowledges and agrees that no liability will be attributed to TKCI in connection with the issuance of any equity or securities. Any fees due to TKCI are to be paid solely as finder's fee and as remuneration for other services provided for under this Agreement.",
+                "changed_text": "SIC understands that TKCI is providing securities marketing assistance with respect to transactions contemplated hereunder, and that any securities which may be sold in respect to any such transaction are being sold directly by or to SIC, to or by TKCI parties to such transaction. SIC acknowledges and agrees that no liability will be attributed to TKCI in connection with the issuance of any equity or securities, regardless of the securities marketing assistance provided. Any fees due to TKCI are to be paid solely as finder's fee, marketing fee, and as remuneration for other services provided for under this Agreement.",
+                "explanation": "The original text explicitly states TKCI is not acting as a broker-dealer. The modified text introduces 'securities marketing assistance' and 'marketing fee'. This creates a contradiction, as providing 'securities marketing assistance' for a fee could be interpreted as acting as an unregistered broker-dealer, violating securities laws. The added 'regardless of securities marketing assistance provided' clause attempts to negate this, but it only adds to the uncertainty and legal risk.",
+                "contradicted_law": "Federal and Florida State Securities Laws (e.g., Securities Exchange Act of 1934, Florida Securities and Investor Protection Act)",
+                "location": "9.4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Any disputes arising under or in connection with the validity, interpretation and performance of this Agreement that cannot be resolved amicably by the parties shall be settled in arbitration before a single arbitrator. If arbitration fails to render a mutually agreement resolution the Courts of the State of Florida will be deemed to have jurisdiction. In addition to all other remedies provided in this Agreement, the prevailing party shall be entitled to all costs and expenses reasonably incurred as a result of said breach, including arbitration and court costs, and reasonable attorney's fees.",
+                "changed_text": "Any disputes arising under or in connection with the validity, interpretation and performance of this Agreement will be first addressed by tribal council mediation. Should tribal council mediation fail, disputes shall then be settled in arbitration before a single arbitrator subject to tribal law. The costs of arbitration will be split evenly regardless of the arbitrator's findings. If arbitration fails to render a mutually agreement resolution the Courts of the State of Florida will be deemed to have jurisdiction. In addition to all other remedies provided in this Agreement, the prevailing party shall be entitled to all costs and expenses reasonably incurred as a result of said breach, including only court costs, and attorney's fees.",
+                "explanation": "The added section of 'tribal council mediation' creates uncertainty. While arbitration is agreed upon, the mention of tribal law and specifically that the costs of arbitration will be split evenly goes against the last original section claiming that the prevailing party will receive all costs.",
+                "contradicted_law": "US Federal and Florida State Laws",
+                "location": "10.1"
+            }
+        ]
+    }
+]

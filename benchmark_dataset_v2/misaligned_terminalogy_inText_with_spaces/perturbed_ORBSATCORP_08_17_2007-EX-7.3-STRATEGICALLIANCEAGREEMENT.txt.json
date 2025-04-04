@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ORBSATCORP_08_17_2007-EX-7.3-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "UTK shall be, and in all respects be deemed to be, an independent contractor in the performance of its duties hereunder. A. AVDU shall be solely responsible for making all payments to and on behalf of its employees and UTK shall in no event be liable for any debts or other liabilities of AVDU.",
+                "changed_text": "UTK shall be, and in all respects be deemed to be, an independent contractor in the performance of its duties hereunder. A. AVDU shall be solely responsible for making all payments to and on behalf of its personnel and UTK shall in no event be liable for any debts or other liabilities of AVDU.",
+                "explanation": "The change from 'employees' to 'personnel' introduces ambiguity. While 'employees' has a defined legal meaning, 'personnel' is broader and could include independent contractors. This creates a contradiction: UTK is an independent contractor, but AVDU is responsible for payments to UTK *if* UTK is considered 'personnel' of AVDU under this clause.",
+                "location": "II"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "VIII. CONFIDENTIAL DATA A. UTK shall not divulge to others, any trade secret or confidential information, knowledge, or data concerning or pertaining to the business and affairs of AVDU, obtained by UTK as a result of its engagement hereunder, unless authorized, in writing by AVDU. UTK represents and warrants that it has established appropriate internal procedures for protecting the trade secrets and confidential information of AVDU, including, without limitation, restrictions on disclosure of such information to employees and other persons who may be engaged in such information to employees and other persons who may be engaged in rendering services to any person, firm or entity which may be a competitor of AVDU.",
+                "changed_text": "VIII. CONFIDENTIAL DATA A. UTK shall not divulge to others, any trade secret or confidential information, knowledge, or data concerning or pertaining to the business and affairs of AVDU, obtained by UTK as a result of its engagement hereunder, unless authorized, in writing by AVDU. UTK represents and warrants that it has established appropriate internal procedures for protecting the trade secrets and confidential information of AVDU, including, without limitation, restrictions on disclosure of such information to staff and other persons who may be engaged in such information to employees and other persons who may be engaged in rendering services to any person, firm or entity which may be a competitor of AVDU.",
+                "explanation": "The change from 'employees' to 'staff' introduces ambiguity. 'Staff' can be interpreted more broadly than 'employees' potentially encompassing contractors or other non-employee workers. The second usage of employee remains. This creates potential for misinterpretation and dispute regarding the scope of UTK's confidentiality obligations.",
+                "location": "VIII"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "C. AVDU agrees that for a twenty four months (24) following the execution of this Agreement, AVDU shall not, without UTEK's prior written consent, directly or indirectly solicit for employment any present employee of UTEK, or request induce or advise any employee of UTEK to leave the employ of UTEK. In turn, UTEK agrees that it will not directly or indirectly solicit any present employee of AVDU.",
+                "changed_text": "C. AVDU agrees that for a twenty four months (24) following the execution of this Agreement, AVDU shall not, without UTEK's prior written consent, directly or indirectly solicit for engagement any present contractor of UTEK, or request induce or advise any employee of UTEK to leave the employ of UTEK. In turn, UTEK agrees that it will not directly or indirectly solicit any present employee of AVDU.",
+                "explanation": "The change from 'employee' to 'contractor' for AVDU, but keeping 'employee' for UTK introduces a contradiction. It implies different restrictions for each party. It is unclear if AVDU is restricted from hiring former UTEK contractors who used to be UTEK employees.",
+                "location": "IX"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"ABOUT CUSTOMER\" means any individual or entity who has registered with       ebix either (i) through the registration process on the Insurance Center       or (ii) registers with ebix after accessing the ebix Site from a link on       the About Network.",
+                "changed_text": "\"ABOUT CUSTOMER\" means any individual or entity who has registered with       ebix either (i) through the registration process on the Insurance Center       or (ii) accesses the ebix Site from a link on       the About Network.",
+                "explanation": "By removing the requirement of registration after accessing the site from About Network, the definition of 'About Customer' becomes ambiguously broad. This can conflict with data privacy laws that require explicit consent for data collection from registered users. The statutory definitions for data privacy often differentiate between registered and unregistered users, and this change blurs that line.",
+                "contradicted_law": "Data privacy laws such as the California Consumer Privacy Act (CCPA) or the General Data Protection Regulation (GDPR) which require specific consent for data collection.",
+                "location": "Section 1 - DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"CONFIDENTIAL INFORMATION\" means all non-public information concerning       either party, its subsidiaries and affiliates, and their respective       officers, agents, employees, consultants, licensors, suppliers and\n\n** Confidential treatment has been requested for portions of this document.    The redacted material has been filed with the commission pursuant to an    application for confidential treatment.\n\n                                       2\n\n      customers, including but not limited to business plans, systems       configurations, technologies, data files, reports, projections,       initiatives, user data and site usage data.",
+                "changed_text": "\"CONFIDENTIAL INFORMATION\" means all information concerning       either party, its subsidiaries and affiliates, and their respective       officers, agents, employees, consultants, licensors, suppliers and\n\n** Confidential treatment has been requested for portions of this document.    The redacted material has been filed with the commission pursuant to an    application for confidential treatment.\n\n                                       2\n\n      customers, including but not limited to business plans, systems       configurations, technologies, data files, reports, projections,       initiatives, user data and site usage data.",
+                "explanation": "By removing the term 'non-public' the definition of confidential information expands to include public information. This conflicts with the common legal understanding of 'confidential information' which typically excludes data already available in the public domain. This creates ambiguity in enforcement, as it's unclear what information is truly protected under the confidentiality clause.",
+                "contradicted_law": "Common law definition of 'confidential information' which requires the information to be non-public.",
+                "location": "Section 1 - DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "14.1  NEITHER PARTY SHALL HAVE ANY LIABILITY FOR ANY INDIRECT, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES INCLUDING, WITHOUT THE LIMITATION, LOSS OF PROFIT OR BUSINESS OPPORTUNITIES, WHETHER OR NOT THE PARTY WAS ADVISED OF THE POSSIBILTY OF SUCH. EXCEPT AS EXPRESSLY SET FORTH HEREIN, NEITHER PARTY MAKES ANY, AND EACH PARTY HEREBY SPECIFICALLY DISCLAIMS ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE TOOLS AND SERVICES CONTEMPLATED BY THIS AGREEMENT, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTIBILITY OR FITNESS FOR A PARTICULAR PURPOSE AND IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE.",
+                "changed_text": "14.1  NEITHER PARTY SHALL HAVE ANY LIABILITY FOR ANY INDIRECT, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES INCLUDING, WITHOUT THE LIMITATION, LOSS OF PROFIT OR BUSINESS OPPORTUNITIES. EXCEPT AS EXPRESSLY SET FORTH HEREIN, NEITHER PARTY MAKES ANY, AND EACH PARTY HEREBY SPECIFICALLY DISCLAIMS ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE TOOLS AND SERVICES CONTEMPLATED BY THIS AGREEMENT, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTIBILITY OR FITNESS FOR A PARTICULAR PURPOSE AND IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE.",
+                "explanation": "By removing \"Whether or not the party was advised of the possibility of such\" the text is implying that even if the party was aware of the outcome, it would not be liable. This conflicts with standard liability laws.",
+                "contradicted_law": "Standard Liability Law",
+                "location": "Section 14 - LIMITATION OF LIABILITY"
+            }
+        ]
+    }
+]

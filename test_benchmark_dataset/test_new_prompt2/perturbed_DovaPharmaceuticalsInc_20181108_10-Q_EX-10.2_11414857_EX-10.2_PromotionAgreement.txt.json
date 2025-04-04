@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "13.5 Governing Law. This Agreement and any and all matters arising directly or indirectly herefrom shall be governed by and construed and enforced in accordance with the internal laws of the [***] applicable to agreements made and to be performed entirely in such state, including its statutes of limitation but without giving effect to the conflict of law principles thereof.\n\n13.6 Dispute Resolution.",
+                "changed_text": "13.5 Governing Law.\n\n13.6 Dispute Resolution. This Agreement and any and all matters arising directly or indirectly herefrom shall be governed by and construed and enforced in accordance with the internal laws of the [***] applicable to agreements made and to be performed entirely in such state, including its statutes of limitation but without giving effect to the conflict of law principles thereof.",
+                "explanation": "The Governing Law clause dictates which state's laws will be used to interpret the contract. Separating it from the Dispute Resolution clause makes it less clear which laws will be used to resolve any legal conflicts.",
+                "contradicted_law": "General Contract Law - Governing Law",
+                "location": "Section 13.5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "13.6.2 Arbitration of Other Disputes. If a Dispute is not resolved by the Senior Officers pursuant to Section 13.6.1, such Dispute shall be submitted to and finally settled by [***] The Parties hereby submit to the exclusive jurisdiction of the federal and state courts located in [***] for the purposes of an order to compel arbitration, for preliminary relief in aid of arbitration and for a preliminary injunction to maintain the status quo or prevent irreparable harm prior to the appointment of the arbitrators and to the non-exclusive jurisdiction of such courts for the enforcement of any ward issued hereunder.",
+                "changed_text": "13.6.2 Arbitration of Other Disputes. If a Dispute is not resolved by the Senior Officers pursuant to Section 13.6.1, such Dispute shall be submitted to and finally settled by [***] The Parties hereby submit to the non-exclusive jurisdiction of such courts for the enforcement of any ward issued hereunder.",
+                "explanation": "Removing \"exclusive jurisdiction of the federal and state courts located in [***] for the purposes of an order to compel arbitration, for preliminary relief in aid of arbitration and for a preliminary injunction to maintain the status quo or prevent irreparable harm prior to the appointment of the arbitrators and to the\" changes the meaning of the sentence by removing the guarantee that the arbitration is binding, making it non-enforceable.",
+                "contradicted_law": "Federal Arbitration Act",
+                "location": "Section 13.6.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "13.7 Waiver of Jury Trial. EACH OF THE PARTIES HERETO IRREVOCABLY WAIVES ANY AND ALL RIGHT TO TRIAL BY JURY IN ANY LEGAL PROCEEDING ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY.",
+                "changed_text": "13.7 Waiver of Jury Trial.",
+                "explanation": "Removing the waiver of jury trial clause makes it so there is no section stating that both parties are waiving their rights to a trial by jury, making the contract less enforceable.",
+                "contradicted_law": "Seventh Amendment to the United States Constitution",
+                "location": "Section 13.7"
+            }
+        ]
+    }
+]

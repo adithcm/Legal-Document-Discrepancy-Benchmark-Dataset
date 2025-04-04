@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS DISTRIBUTOR AGREEMENT (the \"Agreement\") is made by and between Electric City Corp., a Delaware corporation (\"Company\") and Electric City of Illinois LLC (\"Distributor\") this 7th day of September, 1999.",
+                "changed_text": "THIS VENDOR AGREEMENT (the \"Agreement\") is made by and between Electric City Corp., a Delaware corporation (\"Company\") and Electric City of Illinois LLC (\"Retailer\") this 7th day of September, 1999.",
+                "explanation": "Changing 'Distributor' to 'Retailer' and 'Distributor Agreement' to 'Vendor Agreement' without defining these new terms creates confusion about the nature of the agreement. Are they the same or different, and do the obligations of each entity change?",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Company hereby appoints Distributor as Company's exclusive distributor within the Market and grants to Distributor the exclusive right to sell and distribute Products within the Market, and Distributor hereby accepts such appointment and such grant, in accordance with the terms and conditions of this Agreement.",
+                "changed_text": "Company hereby appoints Retailer as Company's exclusive reseller within the Market and grants to Retailer the exclusive right to sell and distribute Products within the Market, and Retailer hereby accepts such appointment and such grant, in accordance with the terms and conditions of this Agreement.",
+                "explanation": "Changing 'Distributor' to 'Retailer' and 'distributor' to 'reseller' introduces inconsistency.  While seemingly similar, 'reseller' might imply different obligations or limitations than 'distributor', creating uncertainty about the scope of the agreement.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Distributor, at its own expense, shall promote the distribution, sales, and use of Products in the Market.",
+                "changed_text": "The Retailer, at its own expense, shall promote the distribution, sales, and use of Products in the Market.",
+                "explanation": "Changing 'Distributor' to 'Retailer' introduces inconsistency. It's unclear if a reseller and a distributor share the same obligations. Without defining it, are they same?",
+                "location": "Section 1.5"
+            }
+        ]
+    }
+]

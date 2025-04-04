@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This agreement (\"Agreement\") is entered into as of the 16th day of February, 2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\" or \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and e-centives, Inc., (\"Application Provider\" or \"e-centives\"), a Delaware corporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817.",
+                "changed_text": "This agreement (\"Agreement\") is entered into as of the 16th day of February, 2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\" or \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and e-centives, Inc., (\"Content Distributor\" or \"e-centives\"), a Delaware corporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817.",
+                "explanation": "The term 'Application Provider' is a key term defined early in the contract. Replacing it with 'Content Distributor' in a single instance introduces confusion. It is now unclear if 'Application Provider' and 'Content Distributor' are intended to mean the same entity throughout the document. If they are not the same, the contract fails to define the obligations of the 'Content Distributor'.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "A.   Excite@Home provides the @Home Service, maintains sites on the Internet,      including http://www.excite.com, and owns and/or manages or labels related      Web sites worldwide (collectively, the \"Excite Network\") which, among other      things, allow its users to search for and access content and other sites on      the Internet.",
+                "changed_text": "A.   Excite@Home provides the @Home Service, maintains sites on the Internet, including http://www.excite.com, and owns and/or manages or labels related Web sites worldwide (collectively, the \"Excite Portal\") which, among other things, allow its users to search for and access content and other sites on the Internet.",
+                "explanation": "The term 'Excite Network' is defined. Using the different term 'Excite Portal' in place of 'Excite Network' creates ambiguity about which websites the terms apply to, and how it impacts the agreement.",
+                "location": "Recitals, Section A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Each party hereby grants to the other a non-exclusive, limited license           to use its trademarks, service marks or trade names only as           specifically described in this Agreement. All such use shall be in           accordance with each party's reasonable policies regarding advertising           and trademark usage as established from time to time.",
+                "changed_text": "Each party hereby grants to the other a non-exclusive, limited license to use its branding, service marks or trade names only as specifically described in this Agreement. All such use shall be in accordance with each party's reasonable policies regarding advertising and trademark usage as established from time to time.",
+                "explanation": "The term 'trademark' is replaced with 'branding'. It's now unclear whether 'branding' is a defined subset of 'trademarks', or a broader term including visual elements that don't have formal trademark protection, potentially expanding or contracting the scope of the license.",
+                "location": "Section 11(c)"
+            }
+        ]
+    }
+]

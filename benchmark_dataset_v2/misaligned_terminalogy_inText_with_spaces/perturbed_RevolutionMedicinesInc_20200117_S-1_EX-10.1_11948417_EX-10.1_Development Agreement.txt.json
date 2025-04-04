@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.17 \"Commercially Reasonable Efforts\" means: (a) with respect to Sanofi, [***], consistent with [***] that [***], taking into account [***], including [***] and (b) with respect to RevMed, [***], consistent with [***] that [***], taking into account [***], including [***].",
+                "changed_text": "1.17 \"Commercially Reasonable Efforts\" means: (a) with respect to Sanofi, [***], consistent with [***] that [***], taking into account [***], including [***] and (b) with respect to RevMed, the efforts that a similarly situated company would exert in relation to a product of similar market potential, taking into account all relevant factors.",
+                "explanation": "The original text’s definition of 'Commercially Reasonable Efforts' for RevMed is replaced with a generalized description. This creates a conflict because the original definition implies specific considerations for RevMed, whereas the new definition is more ambiguous and standard, creating uncertainty in enforcement.",
+                "location": "Section 1.17"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Licenses. Subject to the terms and conditions of this Agreement, RevMed hereby grants to Sanofi an exclusive (even as to RevMed and its Affiliates), royalty-bearing license (which shall be sub-licensable solely as provided in Section 3.4) under the RevMed Licensed Technology, to Research, Develop, Manufacture, use, sell, offer for sale, import and otherwise Commercialize and exploit Products (including, for clarity, any Companion Diagnostics with respect to such Products) in the Field in the Licensed Territory.",
+                "changed_text": "Licenses. Subject to the terms and conditions of this Agreement, RevMed hereby grants to Sanofi a non-exclusive (even as to RevMed and its Affiliates), royalty-free permit (which shall be sub-licensable solely as provided in Section 3.4) under the RevMed Licensed Technology, to Research, Develop, Manufacture, use, sell, offer for sale, import and otherwise Commercialize and exploit Products (including, for clarity, any Companion Diagnostics with respect to such Products) in the Field in the Licensed Territory.",
+                "explanation": "In the original agreement the document enforces **exclusive right** to Sanofi with a royalty fee; however, the changed version has made it into a *non-exclusive permit* with no associated royalties. This is creating a direct contradiction.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "8.7 Co-Promotion of Products in the United States.\n\n(a) RevMed shall have the one-time exclusive right to elect to assume up to [***]% (but not less than [***]%) of the Detailing effort for all Products in the United States (such geography, the \"Co-Promotion Territory\"; such right, the \"Co-Promotion Option\"; such Products that are co- promoted by the Parties, the \"Co-Promotion Product\"); provided that (i) [***] and (ii) RevMed shall provide to Sanofi, at the time of RevMed's exercise of the Co-Promotion Option pursuant to Section 8.7(b), a plan demonstrating to Sanofi's reasonable satisfaction that RevMed has, or will have on a timely basis, the necessary resources in place sufficient to Detail the applicable Co-Promotion Products in a manner consistent with and within the timelines required under the applicable Commercialization Plan. RevMed shall be obligated to perform the activities set forth in such plan within the timelines provided therein.",
+                "changed_text": "8.7 Co-Marketing of Products in the United States.\n\n(a) RevMed shall have the one-time exclusive right to elect to assume up to [***]% (but not less than [***]%) of the Promotion effort for all Products in the United States (such geography, the \"Co-Promotion Territory\"; such right, the \"Co-Promotion Option\"; such Products that are co- marketed by the Parties, the \"Co-Marketed Product\"); provided that (i) [***] and (ii) RevMed shall provide to Sanofi, at the time of RevMed's exercise of the Co-Promotion Option pursuant to Section 8.7(b), a plan demonstrating to Sanofi's reasonable satisfaction that RevMed has, or will have on a timely basis, the necessary resources in place sufficient to Promote the applicable Co-Marketed Products in a manner consistent with and within the timelines required under the applicable Commercialization Plan. RevMed shall be obligated to perform the activities set forth in such plan within the timelines provided therein.",
+                "explanation": "The text has switched from using 'Co-Promotion' to 'Co-Marketing.' By merely changing the name it causes a direct contradiction as these terms have different applications in this case. The document fails to define if these terms are referring to the same meaning; thus creating confusion.",
+                "location": "Section 8.7"
+            }
+        ]
+    }
+]

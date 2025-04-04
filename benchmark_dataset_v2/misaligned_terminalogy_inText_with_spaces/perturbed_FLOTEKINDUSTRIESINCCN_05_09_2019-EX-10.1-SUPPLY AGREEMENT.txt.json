@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Product Price\" means with respect to a pound of Terpene Product the Terpene Cost of that Terpene Product, plus the Margin.\n\n\"Terpene Cost\" means the cost per pound to FCC of the raw materials incorporated by FCC into Terpene Product, computed based on the methodology used by FCC to account for its inventory (e.g. LIFO, FIFO) (provided that such method is in accordance with Generally Accepted Accounting Principles, consistently applied), plus a deemed allocation of other manufacturing costs of FCC of $[***] per pound.",
+                "changed_text": "\"Product Price\" means with respect to a pound of Terpene Product the Terpene Cost of that Terpene Product, plus the Surcharge.\n\n\"Terpene Cost\" means the cost per pound to FCC of the raw materials incorporated by FCC into Terpene Product, computed based on the methodology used by FCC to account for its inventory (e.g. LIFO, FIFO) (provided that such method is in accordance with Generally Accepted Accounting Principles, consistently applied), plus a deemed allocation of other manufacturing costs of FCC of $[***] per pound.",
+                "explanation": "The definition of \"Product Price\" originally used the term \"Margin.\" By changing \"Margin\" to \"Surcharge\", and not defining 'Surcharge', the contract becomes ambiguous, as it's unclear whether 'Surcharge' is synonymous with 'Margin' or represents a different fee. This ambiguity introduces potential disputes over pricing and payment obligations.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Shipments of Terpene Product to Flotek must be made by FCC from FCC's facility within three (3) days of the date of the applicable purchase order. Delivery terms shall be FOB Winter Haven, Florida. Transportation shall be arranged by Flotek. All sales of Terpene Product subject to this Agreement shall be pursuant to the terms and conditions attached hereto as Exhibit B.",
+                "changed_text": "Shipments of Terpene Product to Flotek must be made by FCC from FCC's facility within seven (7) business days of the date of the applicable purchase order. Delivery terms shall be Ex Works Winter Haven, Florida. Shipping shall be arranged by Flotek. All sales of Terpene Product subject to this Agreement shall be pursuant to the terms and conditions attached hereto as Exhibit B.",
+                "explanation": "Changing 'three (3) days' to 'seven (7) business days', 'FOB Winter Haven, Florida' to 'Ex Works Winter Haven, Florida', and 'Transportation' to 'Shipping' creates conflicting terms for delivery. The different timelines and Incoterms (FOB vs. Ex Works) introduce uncertainty about the exact delivery responsibilities and timelines, potentially leading to disputes over who bears the risk of loss and transportation costs. The terms 'Transportation' and 'Shipping' are used interchangeably which might cause further confusion.",
+                "location": "Section 6(b)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Representatives of Flotek and FCC shall consult with each other from time to time during the Term to discuss and resolve any issues arising from the performance of this Agreement. The parties may, by written agreement, revise the Maximum Quantity, the Margin, the Target Margin, or the Product Price. Flotek and FCC may agree in writing from time to time that quantities of Terpene Product over the Maximum Quantity shall be purchased by Flotek pursuant to this Agreement.",
+                "changed_text": "Representatives of Flotek and FCC shall consult with each other from time to time during the Term to discuss and resolve any issues arising from the performance of this Agreement. The parties may, by written agreement, revise the Maximum Quantity, the Premium, the Target Premium, or the Product Price. Flotek and FCC may agree in writing from time to time that quantities of Terpene Product over the Maximum Quantity shall be purchased by Flotek pursuant to this Agreement.",
+                "explanation": "Changing 'Margin' to 'Premium' and 'Target Margin' to 'Target Premium' in Section 7, without defining what 'Premium' and 'Target Premium' are, creates ambiguity. It is unclear whether 'Premium' is a new and distinct term or just another term for 'Margin'. This inconsistency could lead to disputes during adjustments to the agreement, especially concerning pricing and quantities.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

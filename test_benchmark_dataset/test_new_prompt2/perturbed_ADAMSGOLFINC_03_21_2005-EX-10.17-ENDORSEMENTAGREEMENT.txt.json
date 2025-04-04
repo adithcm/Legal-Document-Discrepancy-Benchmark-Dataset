@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENTAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "25. APPLICABLE LAW\n\nThis Agreement shall be governed and construed according to the laws of the State of Kansas.",
+                "changed_text": "25. APPLICABLE LAW\n\nThis Agreement shall be governed and construed according to the laws of the State of Delaware.",
+                "explanation": "Changing the applicable law could create legal contradictions if the contract's terms are valid in Kansas but not in Delaware, or vice versa. This introduces uncertainty about which state's laws govern the contract.",
+                "contradicted_law": "Contract law varies by state (Kansas vs. Delaware)",
+                "location": "Section 25"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "33.  ARBITRATION\n\nIn the event a dispute arises under this Agreement which cannot be resolved, such dispute shall be submitted to arbitration and resolved by a panel of three arbitrators (who shall be lawyers), in a decision required by a majority of the arbitrators. If the parties cannot agree upon the panel of three arbitrators, then each party may pick an arbitrator and the two chosen arbitrators shall choose upon the three-arbitrator panel. The arbitration shall be conducted in accordance with the Arbitration Rules of the American Arbitration Association. Venue shall be Kansas. The award or decision rendered by the arbitration panel shall be final, binding and conclusive and judgment may be entered upon such award by any court of competent jurisdiction.",
+                "changed_text": "33.  ARBITRATION\n\nIn the event a dispute arises under this Agreement which cannot be resolved, such dispute may be submitted to arbitration if both parties agree. If arbitration is chosen, it will be resolved by a single arbitrator who is a golf enthusiast, not necessarily a lawyer. The arbitrator will be chosen by ADAMS GOLF. Venue shall be Texas. The award or decision rendered by the arbitrator shall be considered advisory only and is not binding.",
+                "explanation": "This change significantly alters the arbitration clause, making it optional instead of mandatory and the arbitrator's decision as advisory instead of binding. This undermines the enforceability of the arbitration agreement and may allow parties to bypass arbitration altogether.",
+                "contradicted_law": "Federal Arbitration Act (FAA) - enforceability of arbitration agreements",
+                "location": "Section 33"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "14. INDEMNITY\n\nCONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses (including reasonable attorneys' fees and expenses) for which it becomes liable or is compelled to pay by reason of a breach of any covenant or representation by CONSULTANT in this Agreement.",
+                "changed_text": "14. INDEMNITY\n\nCONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses (including reasonable attorneys' fees and expenses) ONLY IF Adams Golf gets sued in the state of Michigan. This indemnity is limited to $100 USD.",
+                "explanation": "Limiting the indemnity to lawsuits in Michigan and capping the amount at $100 significantly reduces the protection offered to ADAMS GOLF, creating a legal contradiction. The initial indemnity clause covers any breach, but the modified clause restricts it geographically and financially. This makes the indemnity clause practically useless.",
+                "contradicted_law": "General principles of contract law regarding indemnity and limitations of liability",
+                "location": "Section 14"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_DevelopmentAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Statement of Work is issued to and made part of that Software Development Agreement executed by and between Developer and Client on the Effective Date (the Agreement). Any word or phrase not otherwise defined in this Appendix will have the meaning ascribed in the Agreement.",
+                "changed_text": "This Statement of Work is issued to and made part of that Software Development Agreement executed by and between Developer and Customer on the Effective Date (the Agreement). Any word or phrase not otherwise defined in this Appendix will have the meaning ascribed in the Agreement.",
+                "explanation": "The original text uses 'Client' but this change substitutes 'Client' with 'Customer'. The contract does not define if these terms are interchangeable, potentially leading to confusion regarding which entity has the obligations of the agreement.",
+                "location": "Statement of Work - Appendix A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Client shall pay Developer: 20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be paid upon completion of Milestone #2. 20% ($55,800.00) to be paid upon completion of Milestone #3. 20% ($55,800.00) to be paid upon completion of Milestone #4.",
+                "changed_text": "The Purchaser shall pay Developer: 20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be paid upon completion of Milestone #2. 20% ($55,800.00) to be paid upon completion of Milestone #3. 20% ($55,800.00) to be paid upon completion of Milestone #4.",
+                "explanation": "The term 'Client' is changed to 'Purchaser' in the payment schedule. The contract never defines 'Purchaser' and it's unclear if the 'Client' and the 'Purchaser' are the same entity, leading to ambiguity about who is responsible for making payments. This could potentially give rise to payment disputes.",
+                "location": "4. Fee Payment Schedule"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Acceptance by Client: PELICAN DELIVERS INC. By: /s/ Dave Comeau Dave Comeau, Shareholder",
+                "changed_text": "Acceptance by Customer: PELICAN DELIVERS INC. By: /s/ Dave Comeau Dave Comeau, Shareholder",
+                "explanation": "The original text uses 'Client', but the modified version uses 'Customer' in the signature block. Since these are used interchangeably and are not explicitly defined as the same, it creates uncertainty if the agreement is legally binding for the 'Client' when the 'Customer' has signed.",
+                "location": "7. Acknowledgement by Client"
+            }
+        ]
+    }
+]

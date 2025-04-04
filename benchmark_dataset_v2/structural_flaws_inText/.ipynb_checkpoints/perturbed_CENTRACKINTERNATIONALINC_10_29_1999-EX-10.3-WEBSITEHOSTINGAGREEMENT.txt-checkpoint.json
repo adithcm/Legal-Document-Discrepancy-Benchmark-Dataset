@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The term \"Hosted Site\" shall mean the Web site of the Customer that is hosted by i-on under the terms and conditions of this Agreement.",
+                "changed_text": "The term \"Hosted Site\" shall mean the Web site of the Customer that is hosted by i-on; however, i-on may, at its sole discretion, host a different website in place of the Customer's website, if deemed necessary for maintenance or other operational reasons.",
+                "explanation": "This change contradicts the original definition of 'Hosted Site'. The original definition clearly defines it as the Customer's website. The added phrase introduces the possibility of i-on substituting the Customer's website, creating uncertainty about what constitutes the 'Hosted Site' and whether the Customer's site will always be accessible. This impacts enforcement because the Customer is paying for their site to be hosted, not a replacement chosen by i-on.",
+                "location": "DEFINITIONS"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends.",
+                "changed_text": "i-on will endeavor to maintain the Hosted Site, but provides no guarantee of continuous uptime. i-on will attempt to schedule maintenance during off-peak hours, but may perform maintenance at any time without notice. Maintenance windows are subject to change at i-on's sole discretion.",
+                "explanation": "The original text promises continuous operation except for scheduled maintenance during specific off-peak hours. The modified text removes the guarantee of continuous uptime and introduces the possibility of maintenance at any time without notice. This directly contradicts the original uptime commitment and the scheduling constraint, creating uncertainty about service availability and making it harder for the customer to enforce any uptime-related claims.The new sentence creates uncertainty in enforcement.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
+                "changed_text": "This Agreement may be renewed at i-on's sole discretion, regardless of any notice given by the Customer. i-on will notify the Customer if the agreement will not be renewed thirty (30) days before the end of the respective initial or renewal term.",
+                "explanation": "The original text states that the agreement auto-renews unless either party gives notice of non-renewal. The modified version gives i-on sole discretion over renewal, effectively overriding the customer's right to prevent auto-renewal. This contradicts the original renewal terms and introduces uncertainty in enforcement, as the customer's notice becomes irrelevant, and the agreement can continue without their consent.",
+                "location": "TERM AND TERMINATION"
+            }
+        ]
+    }
+]

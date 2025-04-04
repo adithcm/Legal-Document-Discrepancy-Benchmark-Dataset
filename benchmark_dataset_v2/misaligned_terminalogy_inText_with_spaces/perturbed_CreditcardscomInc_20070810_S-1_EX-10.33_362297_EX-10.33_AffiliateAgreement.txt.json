@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\" in the Chase Affiliate Program (the \"Affiliate Program\"). Once accepted into the Affiliate Program, an Affiliate can establish links from the Affiliate's Website to [Chase.com]. Chase will pay Affiliate a fee for each approved credit card account that originates from a link in Affiliate's Website.",
+                "changed_text": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as a \"Partner\" in the Chase Affiliate Program (the \"Affiliate Program\"). Once accepted into the Affiliate Program, a Vendor can establish links from the Vendor's Website to [Chase.com]. Chase will pay Vendor a fee for each approved credit card account that originates from a link in Vendor's Website.",
+                "explanation": "The terms \"Affiliate,\" \"Partner,\" and \"Vendor\" are used interchangeably without clear definition, creating confusion about the identity and responsibilities of the party contracting with Chase. This could lead to disputes over who is bound by specific obligations within the agreement.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Affiliate agrees to place Chase's links provided by Linkshare NetworkTM which manages the Affiliate Program (\"Links\") on its Affiliate's website. Affiliate is responsible for obtaining prior written approval from the Chase Affiliate manager or Linkshare Network to link any or all other sites owned or managed by the Affiliate, other than the site that was approved at the time of original registration.",
+                "changed_text": "Affiliate agrees to place Chase's links provided by Linkshare NetworkTM which manages the Affiliate Program (\"Links\") on its Partner's website. Partner is responsible for obtaining prior written approval from the Chase Relationship manager or Linkshare Network to link any or all other sites owned or managed by the Partner, other than the site that was approved at the time of original registration.",
+                "explanation": "Swapped 'Affiliate' for 'Partner', creating another instance of misaligned terminology. Furthermore, 'Chase Affiliate manager' is now 'Chase Relationship manager', adding to the confusion whether these are the same roles, creating uncertainty in the contract's enforcement.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "For purposes of determining Affiliate's Commission, an \"Approved Account\" means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Affiliate's Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Affiliate.",
+                "changed_text": "For purposes of determining Vendor's Compensation, an \"Approved Account\" means any Chase credit card application that is: (i) submitted by any user who clicks on an e-mail, banner or any other advertising material from Vendor's Website; (ii) is approved by Chase; and (iii) is reported as approved by Chase to Partner.",
+                "explanation": "Here, 'Affiliate's Commission' is replaced with 'Vendor's Compensation', again creating inconsistent terminology. The final 'Affiliate' is also replaced with 'Partner', exacerbating the potential for confusion and dispute.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]
