@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BEYONDCOMCORP_08_03_2000-EX-10.2-CO-HOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Late payments shall bear interest at the lesser of: (i)           the maximum rate permitted by law, and (ii) the rate of 1.5% per month           from the due date until paid.",
+                "changed_text": "Late payments shall bear interest at a fixed rate of 25% per month from the due date until paid, regardless of the maximum rate permitted by law.",
+                "explanation": "This change creates a legal contradiction by imposing a fixed interest rate on late payments that could exceed the maximum rate permitted by California law (where the contract is governed). California usury laws limit the maximum interest rate that can be charged on certain types of loans and debts. Charging 25% per month will violate these usury laws if that exceeds the legally allowed limit.",
+                "contradicted_law": "California Usury Law (California Constitution Article XV Section 1)",
+                "location": "Section 3(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Confidential Information disclosed by either party in      writing and marked as \"confidential,\" proprietary\" or the like (or      disclosed verbally if a written summary is provided within thirty days),      including any information relating to such party's research, development,      proprietary technology, product and marketing plans, finances, personnel      and business opportunities will be considered confidential information.",
+                "changed_text": "Confidential Information is any written document regardless of whether it is marked \"confidential,\" proprietary\" or the like, including any information relating to such party's research, development, proprietary technology, product and marketing plans, finances, personnel and business opportunities will be considered confidential information. Disclosure verbally will not be included in Confidential Information.",
+                "explanation": "The modification omits verbal information in order to be considered confidential information in the contract. Many trade secret laws, like the Defend Trade Secrets Act (DTSA) and the California Uniform Trade Secrets Act (CUTSA), protect both written and verbal information if it meets certain criteria (e.g., reasonable efforts to maintain secrecy). By explicitly excluding verbal disclosures, the contract reduces the scope of protection below what these laws provide, potentially conflicting with the legal definition of trade secrets.",
+                "contradicted_law": "Defend Trade Secrets Act (DTSA), California Uniform Trade Secrets Act (CUTSA)",
+                "location": "Section 7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any notices and demands provided hereunder must be in writing and will           be deemed given upon the earlier of actual receipt or two (2) days           after being sent by overnight Federal Express or Express Mail, return           receipt requested, to the appropriate address set forth above, as such           contacts and addresses may be changed by written notice to the other           party.",
+                "changed_text": "Any notices and demands provided hereunder must be in writing and will be deemed given only when the sender mails the notice without any confirmation to the recipient.",
+                "explanation": "The modification removes the requirement for overnight delivery and return receipt, specifying that notice is deemed given upon mailing without confirmation. This contradicts standard legal practices and case law which often requires proof of delivery or a reasonable opportunity for the recipient to receive the notice, especially for time-sensitive legal matters or contract modifications. This can cause issues for breach of contract.",
+                "contradicted_law": "General contract law principles regarding notice and delivery, which often require reasonable efforts to ensure receipt.",
+                "location": "Section 12(h)"
+            }
+        ]
+    }
+]

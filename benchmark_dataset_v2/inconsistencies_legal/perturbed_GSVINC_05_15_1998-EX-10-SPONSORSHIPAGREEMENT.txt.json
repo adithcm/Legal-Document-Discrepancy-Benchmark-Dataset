@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GSVINC_05_15_1998-EX-10-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will pay Excite its variable revenue share payments within thirty (30) days after the close of each month.",
+                "changed_text": "Client will pay Excite its variable revenue share payments within sixty (60) days after the close of each month.",
+                "explanation": "The original text requires payments within 30 days, a fairly standard practice. Extending this to 60 days creates a conflict with generally accepted accounting principles and could potentially violate state prompt payment laws if such laws consider 30 days to be the standard reasonable timeframe. While not a direct violation of a specific statute, it introduces a term that deviates from common commercial practice, increasing the risk of disputes and potential legal challenges based on industry standards for payment terms.",
+                "contradicted_law": "Potential conflict with state prompt payment laws and generally accepted accounting principles.",
+                "location": "Section 7(e)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will provide to Excite all User Data collected by Client within thirty (30) days following the end of each calendar month during the term of this Agreement in a mutually-determined electronic format.",
+                "changed_text": "Client will provide to Excite all User Data collected by Client within ninety (90) days following the end of each calendar quarter during the term of this Agreement in a mutually-determined electronic format.",
+                "explanation": "The change from '30 days following the end of each calendar month' to '90 days following the end of each calendar quarter' significantly delays the provision of user data. Depending on the nature of the data and the purpose for which Excite needs it, this delay could violate data privacy regulations (such as GDPR or CCPA, assuming some users are subject to those laws) if it impedes Excite's ability to comply with user requests for data access, modification, or deletion within legally mandated timeframes. Many data privacy laws mandate that businesses respond to user data requests within 30-45 days. This provision would impede the ability to do so, and so it is a contradiction.",
+                "contradicted_law": "Potential violation of GDPR, CCPA, and other data privacy regulations concerning timely responses to user data requests.",
+                "location": "Section 12(h)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any notice under this Agreement will be in writing and delivered by personal delivery, express courier, confirmed facsimile, confirmed email or certified or registered mail, return receipt requested, and will be deemed given upon personal delivery, one (1) day after deposit with express courier, upon confirmation of receipt of facsimile or email or five (5) days after deposit in the mail.",
+                "changed_text": "Any notice under this Agreement will be in writing and delivered by personal delivery, express courier, or standard mail, and will be deemed given only upon actual receipt, regardless of delivery method.",
+                "explanation": "Removing 'confirmed facsimile, confirmed email or certified or registered mail, return receipt requested' and changing the 'deemed given' clause to 'only upon actual receipt' creates a legal contradiction. It makes providing legally sound notices much more difficult and uncertain. This conflicts with established legal standards for contract notices, where certified mail with return receipt requested or email with confirmation are often considered sufficient proof of notice, even if the recipient denies actual receipt. This change disadvantages the sender and creates an ambiguity that could invalidate contractual notices, which contradicts standard contract law principles for providing effective notice.",
+                "contradicted_law": "Conflicts with standard contract law principles regarding effective notice and could be deemed unreasonable, especially in jurisdictions where registered/certified mail is considered proof of notice.",
+                "location": "Section 16(c)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MFAFINANCIAL,INC_07_06_2020-EX-99.D-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing.",
+                "changed_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among some of them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing.",
+                "explanation": "This change introduces a contradiction by stating that only *some* of the undersigned agree to the joint filing. The rest of the document implies all parties are in agreement, creating uncertainty in who is actually bound by the filing agreement.",
+                "location": "First Paragraph"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
+                "changed_text": "This Agreement may be executed in any number of counterparts, however, to be considered valid, all counterparts must be identical in content and signed by authorized signatories of all parties. If any counterpart differs, it is considered a draft and not binding, even if signatures are present.",
+                "explanation": "This change contradicts the original clause, which states any number of counterparts constitutes a single agreement. The modification now requires all counterparts to be identical and signed by all parties, which is practically difficult and creates ambiguity in situations where counterparts have minor variations or signatures are missing from some.",
+                "location": "First Paragraph"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
+                "changed_text": "This Agreement may be executed in any number of counterparts, each of which shall be deemed an original. However, only the first signed counterpart will be considered the official and binding agreement. All other counterparts will be considered copies for informational purposes only.",
+                "explanation": "The original clause states that all counterparts together constitute one and the same agreement. The modified text contradicts this by stating that only the *first* signed counterpart is the official agreement, invalidating the other counterparts even though they may have been signed. This creates a contradiction because the intent of multiple counterparts is to allow parties to sign separately and still be bound by the same agreement. This change generates uncertainty regarding which signed document is binding, potentially leading to legal disputes.",
+                "location": "First Paragraph"
+            }
+        ]
+    }
+]

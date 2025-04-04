@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EhaveInc_20190515_20-F_EX-4.44_11678816_EX-4.44_LicenseAgreement_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(c) Interest on Late Payments: Where CHT fails to pay any amount in accordance with the payment terms set out in Schedule \"6\", Ehave shall have the right, in addition to any other rights or remedies available to it, to charge, and CHT shall pay, interest on such overdue amounts at the rate of 1% per month calculated daily, compounded monthly (12.68% per annum) both before and after any court judgement in respect of the same from the date such payment was due.",
+                "changed_text": "(c) Interest on Late Payments: Where CHT fails to pay any amount in accordance with the payment terms set out in Schedule \"6\", Ehave shall have the right, in addition to any other rights or remedies available to it, to charge, and CHT shall pay, interest on such overdue amounts at the rate of 1% per month calculated daily, compounded monthly (12.68% per annum) both before and after any court judgement in respect of the same from the date such payment was due. However, no interest shall accrue if the payment is made within 10 business days of the due date.",
+                "explanation": "This change introduces a contradiction regarding interest on late payments. The original clause states that interest is charged on overdue amounts, while the modified clause adds a condition that no interest is charged if payment is made within 10 business days. This creates ambiguity about when interest applies.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "9. TERM This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue in perpetuity (the \"Term\"), unless terminated earlier in accordance with the provisions contained herein.",
+                "changed_text": "9. TERM This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue for an initial period of five (5) years (the \"Term\"), unless terminated earlier in accordance with the provisions contained herein. Upon the expiration of the initial five-year term, this Agreement shall automatically renew for successive one (1) year terms, unless either party provides written notice of non-renewal at least ninety (90) days prior to the end of the then-current term.",
+                "explanation": "This change introduces a contradiction regarding the term of the agreement. The original clause states that the term is in perpetuity, while the modified clause sets an initial term of five years with automatic renewals for one-year terms. This creates uncertainty about the duration of the agreement and the conditions for its renewal or termination.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(a) Suspension of Services: Subject to the provisions of this Section, in the event that CHT does not pay the Royalties or any portion thereof, when due, Ehave may immediately suspend CHT's and each of its End Users' right to access and use the Ehave Companion Solution. However, Ehave shall not suspend CHT's or its End Users' right to access and use the Ehave Companion Solution or any End User Data by reason of CHT's good faith withholding of any payment or amount, or in the event of any payment dispute between the parties arising under or concerning this Agreement, in each case, unless and until such dispute is resolved pursuant to Section 19, provided that CHT shall have a period of five (5) Business Days to pay any amount agreed to in settlement or determined by arbitration pursuant to Section 19 to be payable by it.",
+                "changed_text": "(a) Suspension of Services: Subject to the provisions of this Section, in the event that CHT does not pay the Royalties or any portion thereof, when due, Ehave may immediately suspend CHT's and each of its End Users' right to access and use the Ehave Companion Solution. However, Ehave shall not suspend CHT's or its End Users' right to access and use the Ehave Companion Solution or any End User Data by reason of CHT's good faith withholding of any payment or amount, or in the event of any payment dispute between the parties arising under or concerning this Agreement. In the case of non-payment, Ehave shall provide a thirty (30) day grace period before suspension can occur. CHT must pay the disputed ammount within 5 business days upon final resolution.",
+                "explanation": "The original clause discusses suspension upon non-payment with a specific exception for good faith disputes and a 5-day window after dispute resolution. The modified clause introduces a 30-day grace period before suspension, contradicting the immediacy of the suspension right in the original clause and the dispute resolution timeline.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

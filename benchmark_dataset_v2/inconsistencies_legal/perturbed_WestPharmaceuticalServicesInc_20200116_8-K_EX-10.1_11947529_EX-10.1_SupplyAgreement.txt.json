@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WestPharmaceuticalServicesInc_20200116_8-K_EX-10.1_11947529_EX-10.1_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "changed_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than 120 days after the invoice date. All invoices shall be paid in full at Buyer’s discretion.",
+                "explanation": "This change contradicts standard business practices and potentially violates prompt payment laws, which generally require payments to be made within a reasonable timeframe (typically 30-60 days). The altered text extends the payment period to 120 days and gives the buyer full discretion over payments, which might violate the United States laws regarding fair business practices.",
+                "contradicted_law": "Potential violation of state prompt payment laws and general principles of good faith and fair dealing under United States contract law.",
+                "location": "PRICING"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Buyer shall inspect and test Product delivered hereunder for damage, defect or shortage immediately upon receipt at Buyer's plant or such other location as determined by Buyer and provide Seller notice of any such damage, defect or shortage within ten (10) days of receipt. Any claims for shortages must be supported by certified railroad scale tickets (or similar documents if shipments were not by rail) and Seller shall have an opportunity to have an independent weighing. All claims for any cause whatsoever, whether based in contract, negligence or other tort, strict liability, breach of warranty or otherwise, shall be deemed waived unconditionally and absolutely unless Seller receives written notice of such claim not later than one hundred fifty (150) days after Buyer's receipt of Product as to which such claim is made.",
+                "changed_text": "Buyer shall inspect and test Product delivered hereunder for damage, defect or shortage immediately upon receipt at Buyer's plant or such other location as determined by Buyer and provide Seller notice of any such damage, defect or shortage within five (5) days of receipt. All claims for any cause whatsoever, whether based in contract, negligence or other tort, strict liability, breach of warranty or otherwise, shall be deemed waived unconditionally and absolutely unless Seller receives written notice of such claim not later than thirty (30) days after Buyer's receipt of Product as to which such claim is made.",
+                "explanation": "The original text allows 150 days for claims, while this modification reduces it to 30. This could be problematic, conflicting with breach of contract laws. The United States requires sufficient time to discover defects and initiate claims, especially where complex product testing is involved. The modified text reduces the claim notice period, increasing the risk of claims being waived prematurely and conflicts with law.",
+                "contradicted_law": "Potentially conflicts with general principles of contract law regarding reasonable time for discovering defects and filing claims under United States law, particularly UCC Article 2.",
+                "location": "ATTACHMENT A - ExxonMobil Chemical Company and ExxonMobil Chemical Services Americas Inc. General Terms and Conditions of Sale - Section 9"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding anything to the contrary in Attachments A, G or H, neither party can suspend its further performance, terminate this Agreement or require specific performance of the other party of this Agreement in whole or in part as a result of the other party's material breach of the terms and conditions of this Agreement without first providing notice to such party in writing and thirty (30) days' opportunity to cure the material breach (and then only if such party fails to cure such breach).",
+                "changed_text": "Neither party can suspend its further performance or terminate this Agreement as a result of the other party's material breach of the terms and conditions of this Agreement, such breach must be cured immediately.",
+                "explanation": "The original text provides a 30-day cure period for a material breach, in line with standard contractual practices and United States law principles of fairness. The changed text removes the cure period, requiring immediate rectification of any breach. This conflicts with legal standards for reasonable opportunity to cure a breach, which often involves a notice period. By eliminating the 30-day cure period, this modification creates a non-compliance issue and is contradictory to standard law.",
+                "contradicted_law": "Conflicts with the doctrine of 'reasonable opportunity to cure' in United States contract law.",
+                "location": "TERMINATION"
+            }
+        ]
+    }
+]

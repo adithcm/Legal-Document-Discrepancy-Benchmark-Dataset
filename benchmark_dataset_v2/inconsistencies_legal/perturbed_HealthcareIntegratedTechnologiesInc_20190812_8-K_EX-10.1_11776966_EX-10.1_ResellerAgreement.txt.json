@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 30 days after the end of the Initial Term. Upon payment of such amount, Seller shall deliver the Products paid for to Reseller in a commercially reasonable timeframe (and in no event any later than 150 days from the date such payment is received in full) to be sold by Reseller in accordance with this Agreement as contemplated by the last sentence of Section 12.4.",
+                "changed_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 5 days after the end of the Initial Term. Upon payment of such amount, Seller shall deliver the Products paid for to Reseller within 365 days from the date such payment is received in full to be sold by Reseller in accordance with this Agreement as contemplated by the last sentence of Section 12.4.",
+                "explanation": "The original text requires payment of shortfall within 30 days. The modified text shortens this to 5 days. While seemingly innocuous, excessively short payment windows can violate fair business practice laws and could be deemed unconscionable depending on the jurisdiction. Additionally, extending the delivery timeframe to 365 days after payment received is unreasonable and contradicts standard commercial practices, increasing the risk for the Reseller.",
+                "contradicted_law": "Potential violation of state laws regarding fair business practices and unconscionable contract terms. Uniform Commercial Code (UCC) principles requiring reasonable delivery times.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.",
+                "changed_text": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 15 days.",
+                "explanation": "The original text requires 3 months' notice for termination without cause. The modified text reduces this to 15 days. This could be problematic if the agreement is interpreted under California law, which generally requires a longer notice period for termination of distributorship agreements to allow reasonable time to find a replacement. 15 days may be insufficient and deemed a breach of implied covenant of good faith and fair dealing.",
+                "contradicted_law": "Potential violation of California state laws regarding termination of distributorship agreements and implied covenant of good faith and fair dealing.",
+                "location": "Section 12.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All communications delivered in person or by courier service shall be deemed to have been received upon delivery, shall be deemed to have been received on the business day following transmission with confirmed answer back, and all notices and other communications sent by registered mail shall be deemed to have been received within 3 business days after posting.",
+                "changed_text": "All communications delivered in person or by courier service shall be deemed to have been received 7 days after delivery, shall be deemed to have been received 10 business days following transmission with confirmed answer back, and all notices and other communications sent by registered mail shall be deemed to have been received within 15 business days after posting.",
+                "explanation": "The original text has a more standard and reasonable timeline for the receipt of communications. By extending the timelines significantly in the modified text, especially for in-person or courier deliveries, introduces unreasonable delays that could negatively impact time-sensitive actions required under the contract. For example, if a notice of breach requiring a cure period is sent, delaying its deemed receipt by a week or more could prejudice the receiving party's ability to cure the breach within the specified timeframe. This could conflict with principles of fairness and good faith in contract administration.",
+                "contradicted_law": "Potentially contradicts principles of good faith and fair dealing under contract law by creating unreasonable delays in communication and affecting the ability to meet contractual obligations. Could also conflict with specific state laws requiring prompt notice in certain situations.",
+                "location": "Section 14.6"
+            }
+        ]
+    }
+]

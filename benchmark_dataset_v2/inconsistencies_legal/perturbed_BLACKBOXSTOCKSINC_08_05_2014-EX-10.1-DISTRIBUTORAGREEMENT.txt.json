@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Terms are net cash upon delivery.",
+                "changed_text": "Terms are net 90 days from delivery.",
+                "explanation": "This change introduces a contradiction by extending the payment terms to 90 days. While not inherently illegal, excessively long and undefined payment terms can be deemed unfair or unconscionable under general contract law principles, especially if the Company is a small entity and this represents a significant financial burden. Standard business practice often dictates shorter payment windows, and this may violate implied duties of good faith and fair dealing.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing; potential violation of state-level prompt payment laws or unfair trade practice laws depending on the specific circumstances.",
+                "location": "1.03"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company warrants all Products to be free from defects in material or workmanship under normal use and service for a period of ninety (90) days from the date of delivery. Any defects must be replaced by the Company within sixty (60) days within this scope of the warranty and all charges for labor and material, will be borne by Company.",
+                "changed_text": "Company warrants all Products to be free from defects in material or workmanship under normal use and service for a period of thirty (30) days from the date of delivery. Any defects must be replaced by the Company within one hundred and eighty (180) days within this scope of the warranty and all charges for labor and material, will be borne by Company.",
+                "explanation": "The changes made alter the warranty period to 30 days. The replacement period will be 180 days. By reducing the warranty timeframe to 30 days it is in contradiction of consumer protection laws. The 180 day replacement period does not fit the 30 day warranty period.  Both may make the contract unconscionable.",
+                "contradicted_law": "Consumer protection laws, potentially the Magnuson-Moss Warranty Act (if applicable), and general contract law principles regarding unconscionability.",
+                "location": "5.01"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any such notice or communication so mailed shall be deemed delivered and effective seventy-two (72) hours after mailing thereof in the United States.",
+                "changed_text": "Any such notice or communication so mailed shall be deemed delivered and effective forty-eight (48) hours after mailing thereof in the United States.",
+                "explanation": "This reduces the notice period, which could be problematic. While Texas law doesn't mandate a specific minimum timeframe for notice delivery via mail in all contexts, reducing it to 48 hours creates a potential conflict. Depending on the nature of the notice (e.g., breach of contract, termination), such a short timeframe might be deemed unreasonable, particularly if the recipient is located far away or if the notice requires a response within a limited time. This could lead to claims of insufficient notice and procedural unfairness, making enforcement of actions taken based on the notice questionable.",
+                "contradicted_law": "General contract law principles requiring reasonable notice and procedural fairness; potential conflict with specific notice requirements in other relevant statutes depending on the subject matter of the notice.",
+                "location": "7.02"
+            }
+        ]
+    }
+]

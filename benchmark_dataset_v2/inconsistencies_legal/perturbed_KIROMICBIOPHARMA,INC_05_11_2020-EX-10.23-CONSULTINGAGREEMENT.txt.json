@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company shall be obliged to pay, within thirty (30) days after receipt of Consultant's final statement, all amounts owing to Consultant for unpaid Services completed by Consultant and related expenses, if any, in accordance with the provisions of Section 1 hereof, and Sections 2, 3, S(c), 6, 7, 8 and 10 shall survive termination of this Agreement.",
+                "changed_text": "Company shall be obliged to pay, within sixty (60) days after receipt of Consultant's final statement, all amounts owing to Consultant for unpaid Services completed by Consultant and related expenses, if any, in accordance with the provisions of Section 1 hereof, and Sections 2, 3, S(c), 6, 7, 8 and 10 shall survive termination of this Agreement.",
+                "explanation": "In Texas, where the contract is governed, the prompt payment act states that payment to contractors should be made within 30 days. Changing the payment term to 60 days directly violates this requirement, introducing a legal contradiction.",
+                "contradicted_law": "Texas Prompt Payment Act",
+                "location": "Section 5(c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Consultants shall be given written notice of any adjustments to compensation at least fourteen (14) days prior to adjustments becoming effective.",
+                "changed_text": "Consultants shall be given written notice of any adjustments to compensation at least five (5) days prior to adjustments becoming effective.",
+                "explanation": "In Texas, sudden significant compensation adjustments may be subject to scrutiny. A notice period of only five days may be considered unreasonably short, particularly for substantial changes, potentially leading to claims of breach of contract or unfair labor practices. This timeframe is too short, especially considering the consultant's potential need to adjust their financial planning.",
+                "contradicted_law": "Texas Labor Code, implied duty of good faith and fair dealing",
+                "location": "Exhibit A, Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of Texas, without reference to its conflicts of law principles.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of Delaware, without reference to its conflicts of law principles.",
+                "explanation": "While the company is registered in Delaware, the agreement is operating in Texas, therefore the Texas laws should govern the agreement. Changing the governing law to Delaware introduces potential conflicts because many protective employment laws that apply in Texas would not necessarily apply under Delaware law, disadvantaging the consultant who is working in Texas. The address listed in the agreement is in Texas, indicating that the consultant will likely be completing the agreed upon work in Texas. The introduction of this clause contradicts Texas's interest in the subject matter.",
+                "contradicted_law": "Texas choice of law rules, conflict of laws principles",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

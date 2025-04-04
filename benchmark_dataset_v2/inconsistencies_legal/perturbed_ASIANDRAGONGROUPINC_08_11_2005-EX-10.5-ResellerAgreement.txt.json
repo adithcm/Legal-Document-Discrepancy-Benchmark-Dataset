@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Telnet shall give notice to Galaxy of all errors and inaccuracies in an invoice within 15 days of receipt by Telnet of the invoice at issue. Thereafter, Telnet will be deemed to have agreed with the accuracy of the invoice.",
+                "changed_text": "Telnet shall give notice to Galaxy of all errors and inaccuracies in an invoice within 5 days of receipt by Telnet of the invoice at issue. Thereafter, Telnet will be deemed to have agreed with the accuracy of the invoice.",
+                "explanation": "Reducing the time frame for disputing invoices to 5 days may conflict with standard accounting practices and legal norms that typically allow for a more reasonable period (e.g., 30 days) for reviewing financial documents. This could be considered an unreasonably short timeframe, potentially violating fair business practice regulations.",
+                "contradicted_law": "Potentially violates general principles of fair business practices; may conflict with implied duty of good faith and fair dealing present in contract law.",
+                "location": "7.7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Telnet hereby covenants to pay all invoices rendered to its account by Galaxy within 15 days of the date of invoice; Interest shall accrue on overdue accounts at the rate of 1.5% per month calculated and payable from the date of invoice until the date of payment in full of the overdue amount.",
+                "changed_text": "Telnet hereby covenants to pay all invoices rendered to its account by Galaxy within 30 days of the date of invoice; Interest shall accrue on overdue accounts at the rate of 5% per week calculated and payable from the date of invoice until the date of payment in full of the overdue amount.",
+                "explanation": "The original text includes an interest rate of 1.5% per month on overdue invoices. By changing the interest rate to 5% per week, this could violate usury laws, which regulate the maximum interest rate that can be charged on a debt. The laws are in place to prevent predatory lending practices.",
+                "contradicted_law": "Usury laws (vary by state/province, but many jurisdictions have limits below 20% APR)",
+                "location": "7.8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All covenants of confidentiality herein shall survive the term of this agreement by three (3) additional years counting from the date of termination of this Agreement.",
+                "changed_text": "All covenants of confidentiality herein shall survive the term of this agreement by one (1) additional year counting from the date of termination of this Agreement.",
+                "explanation": "Reducing the confidentiality period from three years to one year may contradict industry standards or reasonable expectations for the protection of confidential information, especially trade secrets. If the information has a longer useful life or requires a longer protection period to maintain its value, a one-year term may be deemed insufficient and commercially unreasonable, potentially weakening protections afforded to trade secrets or other proprietary data.",
+                "contradicted_law": "Potentially conflicts with trade secret laws or other intellectual property protections that require reasonable measures to maintain confidentiality for a commercially appropriate duration.",
+                "location": "11.5"
+            }
+        ]
+    }
+]

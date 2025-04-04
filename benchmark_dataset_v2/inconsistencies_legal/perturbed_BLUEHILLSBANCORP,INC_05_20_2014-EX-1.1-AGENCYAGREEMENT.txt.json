@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 45 days after the completion of the Subscription Offering, unless extended (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date. In the event the Offering is extended beyond the End Date, the Blue Hills Parties and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "changed_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 15 days after the completion of the Subscription Offering, unless extended (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in thirty days at the earlier of the Closing Date (as hereinafter defined) or the End Date. In the event the Offering is extended beyond the End Date, the Blue Hills Parties and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "explanation": "Shortening the termination period to 15 days and changing payment terms to 'thirty days' creates a potential conflict. It may not allow sufficient time to finalize administrative tasks, potentially violating regulations about fair compensation and contract finalization. The original text stated that fees are payable in 'next day funds' but in the new text it says 'thirty days.'",
+                "contradicted_law": "General contract law principles requiring reasonable timeframes; potential violation of Massachusetts wage and hour laws regarding timely payment for services rendered, although this is a service contract, such tight deadlines may still be contested.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Holding Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 90 days after the Closing Date, without the Agent's prior written consent, any of its shares of common stock, other than the Shares or other than in connection with any plan or arrangement described in the Prospectus.",
+                "changed_text": "The Holding Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 30 days after the Closing Date, without the Agent's prior written consent, any of its shares of common stock, other than the Shares or other than in connection with any plan or arrangement described in the Prospectus.",
+                "explanation": "Reducing the lock-up period to 30 days may be viewed negatively by regulators since such a short lock-up period creates the potential for insider sales too quickly, which can destabilize the market for the newly issued stock and potentially violate securities laws if insider information is used. A longer lock-up period provides stability.",
+                "contradicted_law": "Potential violation of SEC regulations regarding market manipulation and insider trading (although not direct, creates environment where violations are more likely); best practices regarding initial public offerings and stock stabilization",
+                "location": "Section 6(m)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Holding Company will make generally available to its security holders as soon as practicable, but not later than 60 days after the close of the period covered thereby, an earnings statement (in form complying with the provisions of Rule 158 of the 1933 Act Regulations) covering a twelve­month period beginning not later than the first day of the Holding Company's fiscal quarter next following the effective date (as defined in such Rule 158) of the Registration Statement.",
+                "changed_text": "The Holding Company will make generally available to its security holders as soon as practicable, but not later than 180 days after the close of the period covered thereby, an earnings statement (in form complying with the provisions of Rule 158 of the 1933 Act Regulations) covering a twelve­month period beginning not later than the first day of the Holding Company's fiscal quarter next following the effective date (as defined in such Rule 158) of the Registration Statement.",
+                "explanation": "Changing the deadline for providing earnings statements to 180 days after the close of the period can contradict SEC regulations that require more timely financial reporting. SEC rules typically mandate quarterly (Form 10-Q) and annual (Form 10-K) filings with specific deadlines. Delaying the availability of the earnings statement to 180 days puts the company out of compliance.",
+                "contradicted_law": "SEC reporting requirements, specifically deadlines for filing Form 10-Q (quarterly reports) and Form 10-K (annual reports) under the Securities Exchange Act of 1934.",
+                "location": "Section 6(r)"
+            }
+        ]
+    }
+]

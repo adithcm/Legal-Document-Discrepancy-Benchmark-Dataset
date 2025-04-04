@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the period of nonperformance exceeds [**] from the receipt of notice of the Force Majeure Event, the Party whose ability to perform has not been so affected may, by giving written notice, terminate the Agreement.",
+                "changed_text": "If the period of nonperformance exceeds [**] from the receipt of notice of the Force Majeure Event, the Party whose ability to perform has not been so affected may, by giving written notice, terminate the Agreement. However, if the Force Majeure event is due to a labor dispute at Conformis, Stryker may terminate the agreement immediately.",
+                "explanation": "This change introduces a clause allowing Stryker to terminate the agreement immediately if a Force Majeure event is due to a labor dispute at Conformis. This could potentially conflict with laws protecting workers' rights to strike or engage in collective bargaining, depending on the specific circumstances and jurisdiction. The original clause provided a waiting period before termination, whereas the changed text allows immediate termination, which could be viewed as an unfair labor practice in certain jurisdictions, conflicting with the National Labor Relations Act.",
+                "contradicted_law": "National Labor Relations Act (potentially)",
+                "location": "10.4(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If any Party believes the other is in material breach of any of its material obligations under this Agreement in a manner other than as set forth in Article III to which this Section 8.2(b) does not apply, it may give notice of such material breach to the allegedly breaching Party, which Party shall have [**] (or such longer period of time as may be reasonably commensurate with the effort reasonably required to remedy such default) in which to remedy such default.",
+                "changed_text": "If any Party believes the other is in material breach of any of its material obligations under this Agreement in a manner other than as set forth in Article III to which this Section 8.2(b) does not apply, it may give notice of such material breach to the allegedly breaching Party, which Party shall have five (5) days to remedy such default.",
+                "explanation": "This change modifies the cure period for a material breach from a period reasonably commensurate with the effort required to remedy the default to a fixed five (5) day period. This could be deemed unreasonable and unenforceable, especially for complex breaches that require more time to rectify. This short timeframe may conflict with the implied covenant of good faith and fair dealing present in most US contract laws, potentially making the termination clause triggered by such a short cure period unenforceable.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing (various state laws)",
+                "location": "8.2(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Conformis shall have the first right to prepare, file, prosecute and maintain Patents or copyrights arising from any Improved Conformis Background IP (\"Conformis-Prosecuted Joint IP Rights\", and together with the Stryker-\nPsecuted Joint IP Rights, \"Joint IP Rights\"). With respect to Joint IP Rights, the non-prosecuting Party will have the right, but\nnot the obligation, to review and comment, and have the comments reasonably considered by the prosecuting Party, with regard to\nthe filing, prosecution,",
+                "changed_text": "Conformis shall have the first right to prepare, file, prosecute and maintain Patents or copyrights arising from any Improved Conformis Background IP (\"Conformis-Prosecuted Joint IP Rights\", and together with the Stryker-\nPsecuted Joint IP Rights, \"Joint IP Rights\"). Conformis's decision on whether to prosecute the Joint IP Rights is final, and Stryker waives all rights to review, comment, or influence Conformis's decisions, even if such decisions demonstrably harm Stryker's interests.",
+                "explanation": "By removing Stryker's right to review and comment on the prosecution of Joint IP Rights and stating that Conformis's decision is final even if it demonstrably harms Stryker, the modified text creates a situation where Conformis could potentially act in bad faith. This violates the implied covenant of good faith and fair dealing present in New York contract law. Normally, Joint IP would require both parties to act reasonably in protecting it, but this change lets Conformis harm the IP without recourse.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing (New York State law)",
+                "location": "5.8"
+            }
+        ]
+    }
+]

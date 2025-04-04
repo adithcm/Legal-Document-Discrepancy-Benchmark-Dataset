@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3) Payments shall be made by Ultragenyx in Euro and within [***] days after receipt of a proper invoice.",
+                "changed_text": "3) Payments shall be made by Ultragenyx in Euro and within 120 days after receipt of a proper invoice.",
+                "explanation": "The modified text extends the payment period to 120 days. While Germany doesn't have a strict law mandating payment terms for commercial contracts, excessively long payment terms can be deemed unfair, especially to smaller suppliers, under general principles of good faith and fair dealing as interpreted by German courts. A 120-day term could be considered unreasonably long in many industries, creating a potential contradiction with commercial norms and fair business practices.",
+                "contradicted_law": "Sections 242 (Good Faith) and 307 (Unreasonable disadvantage) of the German Civil Code (BGB) could be invoked if the payment term is considered unfair.",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5) If Ultragenyx obtains regulatory approval for the processed Product, the Parties shall enter into a separate commercial supply agreement for the Product that sets forth the forecasting and ordering mechanism for commercial supply of the Product, enablement of the manufacturing process in the event of a failure to supply, the term of such commercial supply agreement and other customary terms and conditions.",
+                "changed_text": "5) If Ultragenyx obtains regulatory approval for the processed Product, the Parties shall enter into a separate commercial supply agreement for the Product; however, Cremer reserves the right to unilaterally alter the terms of said agreement at any time without prior notice.",
+                "explanation": "This modification introduces a clause granting Cremer the right to unilaterally alter the supply agreement terms without notice after regulatory approval. This contradicts fundamental principles of German contract law, which require mutual agreement for contract modifications. Unilateral alterations are generally invalid under German law unless explicitly permitted by law or pre-agreed upon in very specific and limited circumstances, neither of which appear to be present here. This contradicts the principle of 'pacta sunt servanda' (agreements must be kept).",
+                "contradicted_law": "Sections 311 and 145 ff. of the German Civil Code (BGB) which cover contract formation and modification and require mutual agreement.",
+                "location": "Article 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5) In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within [***] days after receipt of the Product and all documentation (except such [***] day period will not apply for any latent defect). Within [***] days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Ultragenyx's choice, replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "changed_text": "5) In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within 5 days after receipt of the Product and all documentation (such 5 day period will apply for any latent defect). Within 90 days following receipt of the rejected and returned Product from Ultragenyx, Cremer, under no circumstances will replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "explanation": "By changing 'rejected Product' to not be replace or refund. German law requires appropriate remedies for defective goods, including the right to repair or replace the goods (Nacherfüllung) or, failing that, to receive a refund or price reduction. The modified clause removes any obligation for Cremer to provide a remedy for non-conforming goods, potentially violating German statutory warranty law (Mängelhaftung).",
+                "contradicted_law": "Sections 437, 439, and 440 of the German Civil Code (BGB) concerning warranty rights for defective goods.",
+                "location": "Article 4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "b. The Royalty owed Theismann shall be calculated on a quarterly calendar basis (\"Royalty Period\") commencing on the first (1st) day  of June, September, December, and March, except that the first and last calendar quarters may be \"short\" depending on the  effective date of this Agreement. Payment of the Royalty shall be made no later than 45 days after the termination of the preceding  full calendar quarter. The foregoing notwithstanding, if this Agreement is terminated in accordance with the provisions herein  during a Royalty Period, the Royalty shall be calculated up to and including the Termination Date and payment of the Royalty shall  be made as provided herein.",
+                "changed_text": "b. The Royalty owed Theismann shall be calculated on a quarterly calendar basis (\"Royalty Period\") commencing on the first (1st) day of June, September, December, and March, except that the first and last calendar quarters may be \"short\" depending on the effective date of this Agreement. Payment of the Royalty shall be made no later than 45 days after the termination of the preceding full calendar quarter. The foregoing notwithstanding, if this Agreement is terminated in accordance with the provisions herein during a Royalty Period, the Royalty shall be calculated up to and including the Termination Date and payment of the Royalty shall be made within 15 days.",
+                "explanation": "This creates a conflict regarding the payment deadline upon termination. One clause specifies 45 days after the quarter, but the revised clause mandates payment within 15 days, leading to uncertainty about which deadline should be enforced.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "d. Bizzingo agrees to defend, indemnify, and hold Theismann harmless against all costs, expenses, and losses (including reasonable  attorney fees and costs) incurred through claims of third parties against Theismann based on the manufacture or sale of the  Network including, but not limited to, actions founded on network liability. In this regarding, within thirty (30) days from the  execution of this Agreement, Bizzingo will secure an insurance policy with limits of $5,000,000 per event and $ 5,000,000 umbrella,  naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d.",
+                "changed_text": "d. Bizzingo agrees to defend, indemnify, and hold Theismann harmless against all costs, expenses, and losses (including reasonable attorney fees and costs) incurred through claims of third parties against Theismann based on the manufacture or sale of the Network including, but not limited to, actions founded on network liability. Bizzingo will secure an insurance policy naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d. Bizzingo is not required to obtain this insurance if Theismann is deemed to have engaged in conduct detrimental to the network.",
+                "explanation": "The original clause states Bizzingo *will* secure an insurance policy, but the modified clause introduces a condition where Bizzingo is *not* required to do so if Theismann's conduct is 'detrimental'. This is a direct contradiction and creates uncertainty about Bizzingo's obligation to secure the insurance.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "d. Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such  termination to become effective at the conclusion of such 30-day period.",
+                "changed_text": "d. Theismann shall have the right to terminate this Agreement at any time upon thirty (30) days' written notice to Bizzingo, such termination to become effective at the conclusion of such 30-day period. However, Theismann must pay a termination fee of $50,000 if terminating within the first 6 months.",
+                "explanation": "This modification introduces a conflict about termination. The original clause allows termination with 30 days notice at any time with no conditions, but the modified clause adds a termination fee if done within the first six months. This creates a direct contradiction about the cost of terminating the agreement.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The breaching party will have thirty (30) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within five (5) days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice.",
+                "changed_text": "The breaching party will have fifteen (15) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within two (2) days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice.",
+                "explanation": "This change reduces the cure periods for breaches, potentially violating legal standards that require reasonable opportunity to remedy defaults. This can be seen as an act of bad faith.",
+                "contradicted_law": "General principles of contract law regarding 'reasonable time to cure' breaches; specific state laws may define minimum cure periods.",
+                "location": "Section 4.0"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment IBM invoices will specify the amount due. Payment is due and payable by month end for any invoice received by the 10th of the month, otherwise payment is due thirty (30) days from receipt of invoice. Customer agrees to pay accordingly, including any late payment fees.",
+                "changed_text": "Payment IBM invoices will specify the amount due. Payment is due and payable immediately upon receipt of invoice. Customer agrees to pay accordingly, including any late payment fees.",
+                "explanation": "This change mandates immediate payment upon receipt of the invoice, which is unreasonable and conflicts with standard business practices and potentially usury laws if late fees are applied without a reasonable payment window. This can be seen as an act of bad faith.",
+                "contradicted_law": "Usury laws if late fees are applied; general principles of contract law requiring 'reasonable' payment terms.",
+                "location": "Section 5.0"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Actions Period Neither party will bring a legal action related to this Agreement more than two years after the cause of action accrued.",
+                "changed_text": "Actions Period Neither party will bring a legal action related to this Agreement more than six months after the cause of action accrued.",
+                "explanation": "This modification shortens the statute of limitations for legal claims arising from the agreement. This can be seen as an act of bad faith.",
+                "contradicted_law": "Statutes of limitations in New York (governing law per the contract) may provide for longer periods for certain types of claims, rendering this provision unenforceable.",
+                "location": "Section 14.0"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ADMABioManufacturing,LLC-Amendment#3toManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All claims by Sanofi Pasteur for breach or default under this Agreement shall be brought within [***] year after the cause of action comes into existence or otherwise shall be waived.",
+                "changed_text": "All claims by Sanofi Pasteur for breach or default under this Agreement shall be brought within 6 months after the cause of action comes into existence or otherwise shall be waived.",
+                "explanation": "The original text allows for a one-year period to bring claims for breach of contract. Florida law, which governs this contract according to the location of ADMA BioManufacturing, LLC, typically provides a longer statute of limitations for breach of contract claims, generally five years for written contracts. Reducing this to six months creates a contradiction and unduly restricts the time Sanofi Pasteur has to bring a claim, making the clause potentially unenforceable.",
+                "contradicted_law": "Florida Statutes, Chapter 95, Section 95.11(2)(b) - Statute of limitations for written contracts (five years).",
+                "location": "Section 7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such payments shall be made in accordance with Section 3.4 of the Agreement; provided, however, that the initial payment described in Section 5(a) above shall be due no later than December 31,2017.",
+                "changed_text": "Such payments shall be made in accordance with Section 3.4 of the Agreement; provided, however, that the initial payment described in Section 5(a) above shall be due no later than 90 days after December 31, 2017.",
+                "explanation": "Changing the payment deadline to 90 days after December 31, 2017, introduces ambiguity and potential conflict with standard commercial practices. While payment terms are generally negotiable, unreasonably delaying a stipulated payment could be construed as a breach of contract, especially if it deviates significantly from typical payment timelines and industry standards. This delay does not directly violate a specific statute but creates a contractual term that may conflict with good faith dealing principles and accepted payment norms, thereby creating a legal inconsistency and potentially undermining the enforceability of the payment schedule.",
+                "contradicted_law": "Florida's Uniform Commercial Code (UCC) which implies a duty of good faith in contract performance and enforcement; general principles of contract law related to timely performance and breach.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Shipment of the Source Plasma to Sanofi Pasteur shall be made in compliance with the transportation conditions as provided in the Quality Agreement (as defined below), to be further amended by the Parties as contemplated in Section 9 below.",
+                "changed_text": "Shipment of the Source Plasma to Sanofi Pasteur shall be made in compliance with the transportation conditions as provided in the Quality Agreement (as defined below), to be further amended by ADMA as contemplated in Section 9 below. Transportation will be made by any freight service that ADMA deems fit.",
+                "explanation": "Modifying the text to grant ADMA sole authority to amend the Quality Agreement and select any freight service introduces an inconsistency regarding regulatory compliance for transporting biological materials. In Florida, as in other states, the transportation of biological materials (like Source Plasma) is subject to specific regulations aimed at ensuring safety and preventing contamination. By unilaterally allowing ADMA to amend transportation conditions and choose any freight service without Sanofi Pasteur's agreement, the amendment could conflict with these regulations, as the chosen methods might not meet the required standards for temperature control, tracking, or handling of biohazardous materials. This alteration creates a legal contradiction by potentially violating health and safety regulations governing the transport of biological materials.",
+                "contradicted_law": "Florida Administrative Code Chapter 64E-16, which regulates biomedical waste management and transportation, and relevant federal regulations related to the transport of biological materials.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

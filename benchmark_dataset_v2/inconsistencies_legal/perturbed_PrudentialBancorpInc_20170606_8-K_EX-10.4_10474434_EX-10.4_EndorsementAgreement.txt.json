@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within 60 days after the death of the Employee, the Employer will provide to the \"Insurer\" a written statement indicating the amount of each policy's proceeds the Employee's beneficiary is entitled to receive.",
+                "changed_text": "Within 180 days after the death of the Employee, the Employer will provide to the \"Insurer\" a written statement indicating the amount of each policy's proceeds the Employee's beneficiary is entitled to receive.",
+                "explanation": "Increasing the timeframe for the employer to provide a statement to the insurer to 180 days after the employee's death may conflict with Pennsylvania's laws regarding prompt payment of life insurance benefits. Pennsylvania law requires insurance companies to pay claims promptly after receiving proof of death and claim documentation. While there's no specific statutory deadline for *employer* action here, unduly delaying this notification could hinder the insurer's ability to meet its own prompt payment obligations under state regulations.",
+                "contradicted_law": "Pennsylvania's Unfair Insurance Practices Act and general contract law principles regarding good faith and timely performance.",
+                "location": "ARTICLE IV"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(2) Notification to Claimant. If a claim request is wholly or partially denied, the Plan Administrator will furnish to the Claimant a notice of the decision within 90 days in writing and in a manner calculated to the understood by the Claimant, which notice will contain the following information: (a) The specific reason or reasons for the denial; (b) Specific reference to the pertinent Plan provisions upon which the denial is based; (c) A description of any additional material or information necessary for the Claimant to perfect the Claim and an explanation of why such material or information is necessary; and (d) An explanation of the Plan's claims review procedure describing the steps to be taken by a Claimant who wishes to submit his claim for review.",
+                "changed_text": "(2) Notification to Claimant. If a claim request is wholly or partially denied, the Plan Administrator will furnish to the Claimant a notice of the decision within 180 days in writing and in a manner calculated to the understood by the Claimant, which notice will contain the following information: (a) The specific reason or reasons for the denial; (b) Specific reference to the pertinent Plan provisions upon which the denial is based; (c) A description of any additional material or information necessary for the Claimant to perfect the Claim and an explanation of why such material or information is necessary; and (d) An explanation of the Plan's claims review procedure describing the steps to be taken by a Claimant who wishes to submit his claim for review.",
+                "explanation": "Extending the claim denial notification period to 180 days is possibly non-compliant with the ERISA guidelines (if this plan falls under ERISA) and common interpretations of reasonable timeframes for claim processing. ERISA typically mandates a faster turnaround for benefit claim decisions.",
+                "contradicted_law": "ERISA regulations regarding claims processing timelines (if applicable).",
+                "location": "ARTICLE VIII"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(3) Review Procedure. A Claimant or his authorized representative may with respect to any denied claim: (a) Request a review upon written application filed within 60 days after receipt by the Claimant of notice of the denial of his claim; (b) Review pertinent documents; and (c) Submit issues and comments in writing",
+                "changed_text": "(3) Review Procedure. A Claimant or his authorized representative may with respect to any denied claim: (a) Request a review upon written application filed within 30 days after receipt by the Claimant of notice of the denial of his claim; (b) Review pertinent documents; and (c) Submit issues and comments in writing",
+                "explanation": "Reducing the time to request a review from 60 days to 30 days may violate ERISA's standards for reasonable claims review procedures. ERISA requires plans to afford claimants a reasonable opportunity to appeal denied claims, and shortening the appeal window could be deemed unreasonable.",
+                "contradicted_law": "ERISA regulations regarding reasonable claims review procedures (if applicable).",
+                "location": "ARTICLE VIII"
+            }
+        ]
+    }
+]

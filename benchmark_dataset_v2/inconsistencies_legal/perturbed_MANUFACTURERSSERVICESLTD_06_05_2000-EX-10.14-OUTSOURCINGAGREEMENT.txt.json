@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MANUFACTURERSSERVICESLTD_06_05_2000-EX-10.14-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Attachment will automatically be renewed for periods of six (6) months unless either party gives twelve (12) months written notice of its intent to terminate this Agreement. Such renewals shall continue for successive periods under the same terms and conditions, unless otherwise agreed in writing by both Parties.",
+                "changed_text": "This Attachment will automatically be renewed for periods of six (6) months unless either party gives one (1) months written notice of its intent to terminate this Agreement. Such renewals shall continue for successive periods under the same terms and conditions, unless otherwise agreed in writing by both Parties.",
+                "explanation": "The original text requires a twelve (12) month notice for termination, while the modification shortens it to one (1) month. This could be problematic in situations where federal laws or state laws require longer notification periods to protect employees or to ensure a smooth transition of services, potentially leading to legal challenges for insufficient notice.",
+                "contradicted_law": "Potential violation of state or federal labor laws requiring longer notice periods for contract terminations affecting employees.",
+                "location": "SECTION 2.0 TERM"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Recipient may disclose Information to the extent required bylaw. However, the Recipient must give the Discloser prompt notice to allow the Discloser a reasonable opportunity to obtain a protective order.",
+                "changed_text": "The Recipient may disclose Information to the extent required by law. The Recipient is not required to give notice to the Discloser before disclosure.",
+                "explanation": "By removing the obligation to provide prompt notice, the modified text contradicts legal standards that protect confidential information. A 'reasonable opportunity to obtain a protective order' allows the disclosing party to seek legal remedies to minimize the impact of legally mandated disclosure. Eliminating this opportunity could result in the waiver of trade secret protection or other legal rights.",
+                "contradicted_law": "Violation of trade secret laws (e.g., Defend Trade Secrets Act) and contract law principles regarding the duty of good faith and fair dealing.",
+                "location": "SECTION 3 OBLIGATION"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In no event may IBM be liable for action, regardless of form, arising out of this Agreement more than [*] years after the cause of action arose.",
+                "changed_text": "In no event may IBM be liable for action, regardless of form, arising out of this Agreement more than one (1) year after the cause of action arose.",
+                "explanation": "Reducing the statute of limitations to one (1) year may contradict standard statute of limitations for breach of contract claims under New York law, which typically allows for 6 years. This may make the contract unenforceable if a party doesn't meet that 1 year requirement, depending on if the other party challenges it in court.",
+                "contradicted_law": "Breach of contract claims under New York law.",
+                "location": "SECTION 16 GENERAL"
+            }
+        ]
+    }
+]

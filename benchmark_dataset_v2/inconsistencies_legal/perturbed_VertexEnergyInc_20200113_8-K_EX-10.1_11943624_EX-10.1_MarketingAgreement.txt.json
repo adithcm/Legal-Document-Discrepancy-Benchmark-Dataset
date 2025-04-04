@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_MarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within three (3) Business Days after the date Vertex invoices Bunker One, to an account designated from time to time by Vertex.",
+                "changed_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within ten (10) Business Days after the date Vertex invoices Bunker One, to an account designated from time to time by Vertex.",
+                "explanation": "The original text requires payment within three business days, while the modification extends the payment term to ten business days. While seemingly beneficial to the payer, this change introduces a contradiction. Many jurisdictions have prompt payment laws that mandate specific, often shorter, payment terms for goods and services, particularly within the energy sector. Extending the payment deadline beyond what's legally permissible can create non-compliance with these prompt payment regulations.",
+                "contradicted_law": "State Prompt Payment Laws (e.g., laws applicable to the sale of goods and services). Specific regulations vary by state.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A Party fails to make, when due, any payment under this JSMA and such failure is not remedied within three (3) Business Days after written notice of such failure is given to the Party;",
+                "changed_text": "A Party fails to make, when due, any payment under this JSMA and such failure is not remedied within one (1) Business Day after written notice of such failure is given to the Party;",
+                "explanation": "Reducing the cure period for payment failures from three business days to one business day creates a contradiction with standard commercial law practices and could violate fair debt collection practices. Many jurisdictions require reasonable opportunity to cure a payment default before initiating legal action. A one-day cure period is likely insufficient and could be deemed unconscionable, especially for substantial payment obligations.",
+                "contradicted_law": "Uniform Commercial Code (UCC) and state-specific debt collection laws requiring reasonable opportunity to cure defaults.",
+                "location": "Section 6.1.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Both Parties undertake, during the Term of this JSMA and for 2 (two) years from the termination or expiry of the JSMA not to directly conduct or otherwise promote activities which compete at the point source of the other Party's business in the Area.",
+                "changed_text": "Both Parties undertake, during the Term of this JSMA and for 5 (five) years from the termination or expiry of the JSMA not to directly conduct or otherwise promote activities which compete at the point source of the other Party's business in the Area.",
+                "explanation": "Extending the non-compete period to five years from the original two years may create an unreasonable restraint of trade, especially in Alabama where the contract is governed. Alabama, like many states, disfavors overly broad non-compete agreements. A five-year restriction may be deemed excessive and unenforceable, particularly if it unduly restricts an individual's ability to earn a livelihood. The enforceability depends on the specific facts and circumstances, but increasing the duration significantly increases the risk of non-compliance with applicable state law governing restrictive covenants.",
+                "contradicted_law": "Alabama state law governing non-compete agreements (e.g., reasonableness of duration and geographic scope).",
+                "location": "Section 9.1"
+            }
+        ]
+    }
+]

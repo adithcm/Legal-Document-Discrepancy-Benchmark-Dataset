@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PROLONGINTERNATIONALCORP_03_23_1998-EX-10.16-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This sponsorship fee of $ [ * ] shall be paid to Sabco in the following installments:  Year One (1998): $ [ * ] (four  equal installments of  $ [ * ] to be paid on 3/15/98, 6/15/98, 8/15/98 and  10/15/98); Year Two (1999): $ [ * ] (four equal installments of $ [ * ] to be  paid on 3/15/99, 6/15/99, 8/15/99 and 10/15/99); Year Three (year-2000): $ [ * ] (four equal installments of $ [ * ] to be paid on 3/15/2000, 6/15/2000,8/15/2000 and 10/15/2000).",
+                "changed_text": "This sponsorship fee of $ [ * ] shall be paid to Sabco in the following installments:  Year One (1998): $ [ * ] (one installment of  $ [ * ] to be paid on 12/31/98); Year Two (1999): $ [ * ] (one installment of $ [ * ] to be  paid on 12/31/99); Year Three (year-2000): $ [ * ] (one installment of $ [ * ] to be paid on 12/31/2000).",
+                "explanation": "Changing the payment schedule from quarterly installments to a single annual payment made at the very end of the year introduces a potential legal contradiction. While not explicitly illegal, such a drastic shift could be deemed unreasonable or unconscionable, especially in light of standard business practices and potential cash flow issues for Sabco. This could violate general principles of good faith and fair dealing implied in most contracts and potentially state-specific laws on unfair business practices.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing, potential violation of state unfair business practices laws.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Sabco shall, within 90 days of the execution of this Agreement,  supply Prolong with a copy of such policy of insurance or a certificate thereof, and such policies shall be cancelable only upon 10 days written notice to  Prolong.",
+                "changed_text": "Sabco shall, within 180 days of the execution of this Agreement,  supply Prolong with a copy of such policy of insurance or a certificate thereof, and such policies shall be cancelable only upon 2 days written notice to  Prolong.",
+                "explanation": "Reducing the insurance cancellation notice period from 10 days to 2 days creates a conflict. Most states and insurance regulations require a minimum notice period (often 10-30 days) for cancellation of insurance policies to protect the insured party. This shorter notice violates standard insurance regulations, leaving Prolong potentially exposed without adequate time to secure alternative coverage.",
+                "contradicted_law": "State insurance regulations regarding minimum cancellation notice periods.",
+                "location": "Section 11"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices, statements and payments shall be deemed delivered when deposited  in the United States mail postage prepaid, when hand delivered if delivered  personally, when telecopied if the sender's telecopier confirms transmission  (with respect to notices and statements) or when wire transferred in federal  funds (with respect to payments).",
+                "changed_text": "All notices, statements and payments shall be deemed delivered when deposited  in the United States mail postage prepaid, or when hand delivered if delivered  personally.",
+                "explanation": "Removing the options for telecopied confirmations for notices/statements and wire transfers for payments creates a contradiction with modern business practices and potentially violates the Uniform Electronic Transactions Act (UETA), which many states, including North Carolina (governing law), have adopted. By excluding electronic methods with confirmation, the contract could be seen as unreasonably restricting acceptable forms of communication and payment, creating uncertainty and potential disputes. Particularly excluding wire transfers introduces ambiguity about payment methods, potentially contradicting financial regulations regarding acceptable payment methods.",
+                "contradicted_law": "Uniform Electronic Transactions Act (UETA), general principles of contract law regarding reasonableness and fairness.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

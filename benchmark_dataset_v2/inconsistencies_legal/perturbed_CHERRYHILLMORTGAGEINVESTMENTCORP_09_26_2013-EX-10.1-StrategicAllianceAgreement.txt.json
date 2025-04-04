@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CHERRYHILLMORTGAGEINVESTMENTCORP_09_26_2013-EX-10.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any such notice or communication shall be deemed to have been given: (i) as of the date delivered by hand; (ii) three (3) Business Days after being delivered to the U.S. mail, postage prepaid; or (iii) one (1) Business Day after being delivered to the overnight courier.",
+                "changed_text": "Any such notice or communication shall be deemed to have been given: (i) as of the date delivered by hand; (ii) ten (10) Business Days after being delivered to the U.S. mail, postage prepaid; or (iii) five (5) Business Days after being delivered to the overnight courier.",
+                "explanation": "The original contract specifies a 3-day and 1-day notice period for mail and courier, respectively. Increasing these periods to 10 and 5 days respectively, could contradict state laws regarding required notification periods, particularly in scenarios where prompt notification is legally mandated (e.g., foreclosure notices, contract termination). These extended timelines could lead to legal challenges based on insufficient or delayed notice.",
+                "contradicted_law": "Potential violation of state laws regarding timely notification for legal or contractual matters, varying by state.",
+                "location": "Section 6(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that a party materially breaches any representation or covenant herein, the other party may give written notice of the breach requiring the same to be remedied within 30 days of receipt of such notice. If the breaching party fails to remedy the material breach in such time period, the non-breaching party may terminate this Agreement by delivery of a written termination notice to the breaching party.",
+                "changed_text": "In the event that a party materially breaches any representation or covenant herein, the other party may give written notice of the breach requiring the same to be remedied within 10 days of receipt of such notice. If the breaching party fails to remedy the material breach in such time period, the non-breaching party may terminate this Agreement by delivery of a written termination notice to the breaching party.",
+                "explanation": "Reducing the cure period for a material breach from 30 days to 10 days may be considered unreasonably short under certain state contract laws or Uniform Commercial Code (UCC) provisions, especially for complex breaches requiring significant effort to remedy. This could be deemed a violation of good faith and fair dealing, potentially making the termination clause unenforceable or giving the breaching party grounds to challenge the termination.",
+                "contradicted_law": "Potential violation of state contract law principles of good faith and fair dealing, and potentially conflicting with UCC provisions regarding reasonable cure periods, depending on the nature of the agreement and breach.",
+                "location": "Section 5(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of New York, without giving effect to its principles of conflicts of laws, other than Section 5-1401 of the New York General Obligations Law.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of Delaware, without giving effect to its principles of conflicts of laws, other than Section 5-1401 of the New York General Obligations Law.",
+                "explanation": "Specifying Delaware law as the governing law (while keeping an exception referencing a New York law section) creates inconsistency and ambiguity, especially since both Freedom Mortgage and Cherry Hill have ties to New Jersey and Maryland respectively. Delaware law might conflict with the legal expectations and regulations applicable to Freedom Mortgage's operations as a New Jersey corporation, particularly if its primary business activities and contractual relationships are centered in New Jersey. This conflict of law could lead to disputes over which state's laws should prevail in interpreting the agreement or resolving disputes.",
+                "contradicted_law": "Conflict with principles of contract law regarding choice of law, potentially violating the reasonable expectations of the parties and creating uncertainty as to which jurisdiction's laws apply.",
+                "location": "Section 6(g)"
+            }
+        ]
+    }
+]

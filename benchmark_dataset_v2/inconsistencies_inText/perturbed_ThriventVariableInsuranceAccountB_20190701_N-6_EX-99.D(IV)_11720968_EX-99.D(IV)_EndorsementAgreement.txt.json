@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged as an indebtedness against the contract with interest compounded at the rate of 5% per year.",
+                "changed_text": "If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged as an indebtedness against the contract. Late payments will not accrue interest.",
+                "explanation": "This change introduces a contradiction regarding interest on late payments. The original text states that interest will be compounded at 5% per year, while the modified text states that late payments will not accrue interest, creating uncertainty about whether interest applies.",
+                "location": "MAINTENANCE OF SOLVENCY section"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "You may transfer ownership of this contract in accordance with our bylaws. Society membership rights and privileges cannot be transferred or assigned.",
+                "changed_text": "You may transfer ownership of this contract at any time. Society membership rights and privileges may be transferred or assigned with written consent from the Society.",
+                "explanation": "This perturbation introduces a contradiction regarding the transferability of ownership and society membership rights. The original text states that ownership can be transferred in accordance with bylaws but society membership cannot be. The modified text states ownership can be transferred at any time, and membership rights can be transferred with written consent, conflicting with the original restriction and creating ambiguity.",
+                "location": "ASSIGNMENT section"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited.",
+                "changed_text": "Since this contract may contribute to divisible surplus, dividends will be credited annually.",
+                "explanation": "The original text explicitly states that dividends are not expected to be credited. The changed text indicates that they will be credited annually. This directly contradicts the prior statement, introducing uncertainty about whether dividends will be paid.",
+                "location": "DIVIDENDS section"
+            }
+        ]
+    }
+]

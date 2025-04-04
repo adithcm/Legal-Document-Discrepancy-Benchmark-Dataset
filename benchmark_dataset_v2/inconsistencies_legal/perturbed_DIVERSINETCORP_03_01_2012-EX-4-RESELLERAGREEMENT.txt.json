@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DIVERSINETCORP_03_01_2012-EX-4-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Invoices are due and payable within 30 calendar days from the invoice date or from when the amount is due, whichever is later.",
+                "changed_text": "Invoices are due and payable within 60 calendar days from the invoice date or from when the amount is due, whichever is later.",
+                "explanation": "This change extends the payment period to 60 days, which may violate prompt payment laws in some jurisdictions if the standard payment term is 30 days or less. Many jurisdictions have regulations that enforce payment timelines to small businesses and subcontractors within a shorter timeframe.",
+                "contradicted_law": "Prompt Payment Laws (e.g., Small Business Act in the US, similar legislation in Canada and Ontario)",
+                "location": "Section 9(c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the Term and for seven (7) years after the expiration or termination of this Agreement, or such longer period as required by applicable law, Reseller agrees to maintain complete books, records and accounts relevant to the computation of and accounting for the amounts payable under this Agreement.",
+                "changed_text": "During the Term and for two (2) years after the expiration or termination of this Agreement, or such longer period as required by applicable law, Reseller agrees to maintain complete books, records and accounts relevant to the computation of and accounting for the amounts payable under this Agreement.",
+                "explanation": "Reducing the record-keeping period to two years contradicts standard accounting practices and potentially tax regulations, which often require businesses to retain financial records for a longer duration (e.g., 6-7 years in the US and Canada) for audit purposes. This change creates non-compliance.",
+                "contradicted_law": "Tax Laws (e.g., IRS regulations in the US, CRA regulations in Canada)",
+                "location": "Section 13"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any notice, demand, or communication between the Parties shall be deemed given and received: (i) when personally delivered; (ii) when transmitted by facsimile with proof of transmittal; or (iii) five (5) days after deposit (properly addressed with postage prepaid) with the postal service for registered/certified mail.",
+                "changed_text": "Any notice, demand, or communication between the Parties shall be deemed given and received: (i) when personally delivered; (ii) when transmitted by facsimile with proof of transmittal; or (iii) fifteen (15) days after deposit (properly addressed with postage prepaid) with the postal service for registered/certified mail.",
+                "explanation": "Changing the notification period to 15 days from 5 days for postal mail can create legal issues. Many jurisdictions have statutory notification periods for legal notices (e.g., breach of contract, termination) that are shorter than 15 days. This could render contractual notifications invalid if they don't meet the legally required timeframe.",
+                "contradicted_law": "Statutory Notification Requirements (various state/provincial contract laws)",
+                "location": "Section 23"
+            }
+        ]
+    }
+]

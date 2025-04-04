@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INTERNATIONALFASTFOODCORP_04_04_1997-EX-99-FRANCHISEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If BKC fails to approve or deny the Franchisee's request for approval of a supplier or distributor within thirty (30) business days then approval shall be deemed to have been given.  Approval of any suppler or distributor by BKC is subject to revocation in its sole discretion.",
+                "changed_text": "If BKC fails to approve or deny the Franchisee's request for approval of a supplier or distributor within five (5) business days then approval shall be deemed to have been given. Approval of any suppler or distributor by BKC is subject to revocation in its sole discretion.",
+                "explanation": "The original text provides a 30-day period for BKC to approve or deny a supplier, which is a reasonable timeframe. Reducing this to 5 business days places an unreasonable burden on BKC, potentially forcing them to approve suppliers without adequate due diligence, this could contradict general business laws around reasonable timeframes for decision-making.",
+                "contradicted_law": "General Business Law, Contract Law - Reasonableness",
+                "location": "5.16.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Franchisee shall pay all costs, including reasonable attorney's fees, incurred by BKC in enforcing the tern s of this Agreement.",
+                "changed_text": "The Franchisee shall pay all costs, including attorney's fees, incurred by BKC in enforcing the tern s of this Agreement, regardless of reasonableness.",
+                "explanation": "By removing the word \"reasonable,\" this clause now forces the Franchisee to pay potentially excessive or unwarranted attorney's fees, violating principles of fairness and reasonableness in contract law. Some jurisdictions limit the recovery of attorney's fees to reasonable amounts.",
+                "contradicted_law": "Contract Law - Reasonableness; Consumer Protection Laws",
+                "location": "9.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Franchisee shall retain sales records for a period of at least twenty-four (24) months.",
+                "changed_text": "The Franchisee shall retain sales records for a period of at least six (6) months.",
+                "explanation": "Reducing the record retention period to six months may conflict with tax regulations or other legal requirements that mandate longer retention periods for financial records. This creates a legal contradiction by not aligning with regulatory standards.",
+                "contradicted_law": "Tax Law, Accounting Standards",
+                "location": "10.3"
+            }
+        ]
+    }
+]

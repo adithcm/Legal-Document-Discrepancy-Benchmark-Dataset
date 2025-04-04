@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BANGIINC_05_25_2005-EX-10-PremiumManagedHostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "24 x 7 emergency phone support and 1-business-day email response on non-critical issues.\n\nIncludes a 99 percent server uptime guarantee.",
+                "changed_text": "24 x 7 emergency phone support and 7-business-day email response on non-critical issues.\n\nIncludes a 90 percent server uptime guarantee.",
+                "explanation": "The original contract specifies a 1-business-day email response time for non-critical issues and a 99% uptime guarantee. Changing this to 7 business days and 90% uptime significantly degrades the service level, which may be considered commercially unreasonable and misrepresentative, violating consumer protection laws. Most jurisdictions in United States have consumer laws protecting consumer rights in service based contracts.",
+                "contradicted_law": "Consumer Protection Laws; Misrepresentation/False Advertising Laws",
+                "location": "Included Monthly Services"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Managed hosting fees are $175 per month for a period of 12 months.  This includes up to 10 G of bandwidth, with overages at $20 for each 1 G beyond 10 in any given month. The billing cycle is the 1st of each month.",
+                "changed_text": "Managed hosting fees are $175 per month for a period of 12 months. This includes up to 10 G of bandwidth, with overages at $100 for each 1 G beyond 10 in any given month. The billing cycle is the 1st of each month.",
+                "explanation": "Increasing the overage fee from $20 to $100 per GB of bandwidth may be considered unconscionable or predatory in many jurisdictions, especially if not clearly disclosed and easily understood by the customer. This constitutes a violation of fair trade practices.",
+                "contradicted_law": "Fair Trade Practices; Unconscionability Laws",
+                "location": "Terms of Agreement"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This includes regular off-site backups of the website itself and the database.",
+                "changed_text": "This includes backups of the website and database at the hosting company's discretion.",
+                "explanation": "By changing 'regular off-site backups' to 'backups at the hosting company's discretion', the contract removes a clear obligation for off-site data protection. In many jurisdictions, data protection laws and industry best practices require reliable and geographically separate backups. Removing the guarantee of regular off-site backups may lead to significant data loss risks and potential legal liabilities if a disaster occurs and data recovery fails.",
+                "contradicted_law": "Data Protection Laws, Negligence Laws",
+                "location": "Included Monthly Services"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(a) This Agreement shall become effective as of the first date above written. This Agreement may be terminated at any time, without the payment of any penalty, upon 60 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote of the Fund's Trustees or by the Blockchain Administrator.",
+                "changed_text": "(a) This Agreement shall become effective as of the first date above written. This Agreement may be terminated at any time, without the payment of any penalty, upon 10 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote of the Fund's Trustees or by the Blockchain Administrator.",
+                "explanation": "Reducing the termination notice period to 10 days could be problematic. While the Investment Company Act doesn't specify a precise notice period for termination of agreements like this, such a short notice period might be deemed unreasonable, particularly if it disrupts the Fund's operations or prejudices the interests of the Fund or its shareholders. A longer notice period is often seen as necessary to ensure an orderly transition of services and compliance with fiduciary duties. Under general contract law principles, a court may find the shortened period unconscionable.",
+                "contradicted_law": "General Contract Law Principles, potentially Investment Company Act fiduciary duties",
+                "location": "Section 7(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.",
+                "changed_text": "(b) This Agreement shall continue in effect for five years from the date hereof, and thereafter shall continue automatically for successive five-year periods, and no annual approval is required.",
+                "explanation": "The Investment Company Act of 1940 requires annual approval of advisory and related agreements by the board of directors or shareholders, particularly including a majority of independent directors. Removing the annual approval requirement directly contradicts Section 15(c) of the Investment Company Act of 1940, making the agreement non-compliant.",
+                "contradicted_law": "Section 15(c) of the Investment Company Act of 1940",
+                "location": "Section 7(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3. Confidentiality The parties hereto agree that each shall treat confidentially the terms and conditions of this Agreement and all information provided by each party to the other regarding its business and operations. All confidential information provided by a party hereto, including nonpublic personal information (regulated pursuant to Regulation S-P), shall be used by any other party hereto solely for the purpose of rendering services pursuant to this Agreement and, except as may be required in carrying out this Agreement, shall not be disclosed to any third party, without the prior consent of such providing party.",
+                "changed_text": "3. Confidentiality The parties hereto agree that each shall treat confidentially the terms and conditions of this Agreement and all information provided by each party to the other regarding its business and operations. All confidential information provided by a party hereto, including nonpublic personal information (regulated pursuant to Regulation S-P), shall be used by any other party hereto solely for the purpose of rendering services pursuant to this Agreement and, except as may be required in carrying out this Agreement, shall not be disclosed to any third party, even with the prior consent of such providing party.",
+                "explanation": "Regulation S-P allows for certain disclosures of nonpublic personal information with consumer consent. By prohibiting disclosure even with prior consent, the modified clause creates an unnecessary restriction that conflicts with the flexibility provided under Regulation S-P. This could limit the Fund's ability to operate efficiently and potentially hinder compliance efforts, for instance, when needing to share information with auditors or regulatory bodies with explicit consent.",
+                "contradicted_law": "Regulation S-P",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

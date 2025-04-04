@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.3 Rejection of defective products The Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product, provided that the Customer shall within seven (7) days after receipt of such alleged defective Product, notify the Manufacturer of its rejection and either: (i) request to destroy in field for credit of the value of the defective product and the associated shipping costs (with approval), or (ii) request a Return Material Authorization (\"RMA\") number and within seven (7) days of receipt of the RMA number from the Manufacturer return such rejected Product to the Manufacturer. Products not rejected within the foregoing time periods shall be deemed accepted by the Customer. In the event that the Manufacturer determines that the returned Product is defective and properly rejected by the Customer, the Manufacturer shall credit to the Customer the value of the defective product and the associated shipping costs.",
+                "changed_text": "5.3 Rejection of defective products The Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product, provided that the Customer shall within two (2) days after receipt of such alleged defective Product, notify the Manufacturer of its rejection and either: (i) request to destroy in field for credit of the value of the defective product and the associated shipping costs (with approval), or (ii) request a Return Material Authorization (\"RMA\") number and within two (2) days of receipt of the RMA number from the Manufacturer return such rejected Product to the Manufacturer. Products not rejected within the foregoing time periods shall be deemed accepted by the Customer. In the event that the Manufacturer determines that the returned Product is defective and properly rejected by the Customer, the Manufacturer shall credit to the Customer the value of the defective product and the associated shipping costs.",
+                "explanation": "Reducing the time frame for the customer to report and return defective products to 2 days is an unreasonable and potentially legally problematic constraint. Under the United Nations Convention on Contracts for the International Sale of Goods (CISG), which may apply given the international nature of the parties, the buyer is entitled to a reasonable time to examine the goods and notify the seller of any defects. Two days might be deemed an unreasonably short period, particularly for complex or high-volume shipments, potentially conflicting with the implied terms of reasonableness under CISG and general contract law principles.",
+                "contradicted_law": "United Nations Convention on Contracts for the International Sale of Goods (CISG)",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "7.2 Rectification of Breach Where the breach is rectifiable, the breaching party has 21 days from the date of notification of its breach to rectify. Following the expiry of this period, the non-breaching party may execute any rights it may have both in law and under this agreement.",
+                "changed_text": "7.2 Rectification of Breach Where the breach is rectifiable, the breaching party has 7 days from the date of notification of its breach to rectify. Following the expiry of this period, the non-breaching party may execute any rights it may have both in law and under this agreement.",
+                "explanation": "Reducing the time to cure a breach to 7 days could be seen as unreasonable depending on the nature of the breach. Many jurisdictions, including England (whose laws govern this agreement), imply a term of reasonableness in contracts. For complex breaches, 7 days might not be a sufficient period to remedy the issue, potentially making the clause unenforceable or leading to disputes. It could be argued that this is a violation of the implied duty of good faith and fair dealing.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (English Common Law)",
+                "location": "Section 7.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "1.3 Renewal This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten (10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement.",
+                "changed_text": "1.3 Renewal This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten (10) year term. A one (1) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement.",
+                "explanation": "Reducing the notification period for terminating the agreement from six months to one month may be considered an unreasonable and insufficient notice period, especially considering the substantial ten-year term and the implied investments each party would make. This could be challenged as conflicting with standard commercial practices and the implied duty of good faith in contracts under English law, potentially making the termination clause less enforceable.",
+                "contradicted_law": "Implied Duty of Good Faith (English Common Law)",
+                "location": "Section 1.3"
+            }
+        ]
+    }
+]

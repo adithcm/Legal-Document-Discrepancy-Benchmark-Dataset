@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTINGANDMANAGEMENTAGREEMENT-EscrowAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "2.1.1 deliver a copy of the Material to NCC within 30 days of the date of this Agreement;",
+                "changed_text": "2.1.1 deliver a copy of the Material to NCC within 60 days of the date of this Agreement;",
+                "explanation": "This change extends the deadline for delivering the Material to NCC. While seemingly innocuous, if state-specific laws mandate a quicker turnaround for delivering essential materials in escrow agreements (to ensure timely access in case of a release event), this modification introduces a contradiction. For example, some states might consider 30 days a standard in similar tech-related agreements, implying a legal expectation of that timeframe. This could create a legal challenge should a dispute arise and faster delivery was crucial. If the Licensee is located in California, for example, the reasonable time frame expectation could be argued to be far less than 60 days.",
+                "contradicted_law": "Potentially contradicts implied terms of reasonable time and industry standards under contract law, specifically relating to escrow agreements and/or general contract law principles depending on the jurisdiction.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "6.3.2 unless within 14 days after the date of delivery the Owner delivers to NCC a counter-notice signed by a duly authorised officer of the Owner stating that no such failure has occurred or that any such failure has been rectified",
+                "changed_text": "6.3.2 unless within 7 days after the date of delivery the Owner delivers to NCC a counter-notice signed by a duly authorised officer of the Owner stating that no such failure has occurred or that any such failure has been rectified",
+                "explanation": "This shortens the timeframe for the Owner to deliver a counter-notice. This creates a legal issue because a longer notification period (14 days) may be considered a reasonable and standard practice in such agreements, particularly where international communications and internal investigations are required. Decreasing that time creates an unnecessary risk to the Owner and may be found unconscionable if challenged. Some jurisdictions might even have statutory notification periods that this violates.",
+                "contradicted_law": "Potentially contradicts principles of reasonable notice and due process, as well as general contract law principles of fairness and equity. May also conflict with statutory notification requirements, depending on the applicable jurisdiction and the nature of the agreement.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11.1 NCC may terminate this Agreement after failure by the Owner or the Licensee to comply with a 30 day written notice from NCC to pay any outstanding fee.",
+                "changed_text": "11.1 NCC may terminate this Agreement after failure by the Owner or the Licensee to comply with a 10 day written notice from NCC to pay any outstanding fee.",
+                "explanation": "Reducing the notice period for payment failure from 30 days to 10 days could be considered unreasonable and conflict with legal standards. Many jurisdictions require reasonable opportunity to cure a breach, and 10 days could be argued as insufficient, especially for international entities where payment processing may take longer. This could violate implied terms of good faith and fair dealing, and possibly consumer protection laws if the Licensee is considered a consumer.",
+                "contradicted_law": "Breach of implied covenant of good faith and fair dealing, and potentially consumer protection laws depending on the nature of the Licensee and the jurisdiction.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

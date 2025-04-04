@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NETGEAR,INC_04_21_2003-EX-10.16-AMENDMENT#2TOTHEDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by and between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay Networks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and its affiliates.",
+                "changed_text": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by and between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay Networks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and its affiliates. NETGEAR is not obligated to honor any claims for payment from Distributor submitted more than 30 days after the invoice date.",
+                "explanation": "The addition of the sentence regarding payment claims introduces a legal contradiction. Many states, including California where Ingram Micro is located, have laws regarding prompt payment and reasonable timeframes for submitting invoices and resolving payment disputes. A blanket 30-day limit on all payment claims, regardless of the complexity of the issue, could be deemed unreasonable and violate these state laws, particularly if it prevents the distributor from pursuing legitimate claims.",
+                "contradicted_law": "California Prompt Payment Laws (potentially California Business and Professions Code Section 7159.5)",
+                "location": "Preamble"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The terms and conditions of this Amendment, shall amend and supersede any conflicting terms of the original Agreement. All other terms of the original Agreement shall remain unchanged.",
+                "changed_text": "The terms and conditions of this Amendment, shall amend and supersede any conflicting terms of the original Agreement. All other terms of the original Agreement shall remain unchanged. NETGEAR reserves the right to unilaterally modify or terminate this agreement with immediate effect and without prior notice if, in its sole discretion, it deems such action necessary.",
+                "explanation": "The added clause grants NETGEAR the right to terminate the agreement with immediate effect and without prior notice. This directly contradicts standard contract law principles and potentially violates laws related to good faith and fair dealing, as well as state laws requiring reasonable notice periods for contract termination. This creates a legal contradiction as it allows NETGEAR to bypass standard legal requirements for contract termination.",
+                "contradicted_law": "Breach of Contract Law, Implied Covenant of Good Faith and Fair Dealing, potential violation of state laws requiring reasonable notice for contract termination.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "2. This Amendment shall remain in effect for the current term and any renewal term of the Agreement.",
+                "changed_text": "2. This Amendment shall remain in effect for the current term and any renewal term of the Agreement. Ingram Micro's liability for product defects is limited to replacement of the defective product only, and any claims must be made within 15 days of receipt.",
+                "explanation": "Limiting liability for product defects and imposing a short 15-day claim window contradicts implied warranties and potentially violates consumer protection laws. State laws often grant consumers and distributors a reasonable time to discover defects, which is typically longer than 15 days. This provision attempts to circumvent legal obligations regarding product liability.",
+                "contradicted_law": "Implied Warranty of Merchantability, State Consumer Protection Laws (e.g., California's Song-Beverly Consumer Warranty Act)",
+                "location": "Amendment 2"
+            }
+        ]
+    }
+]

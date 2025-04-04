@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SOLUTIONSVENDINGINTERNATIONAL,INC_03_31_2020-EX1A-1UNDRAGMT-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If you believe that the Company has billed you incorrectly, you must contact Company no later than 60 days after the closing date on the first billing statement in which the error or problem appeared, in order to receive an adjustment or credit. Inquiries should be directed to contact@startengine.com.",
+                "changed_text": "If you believe that the Company has billed you incorrectly, you must contact Company no later than 15 days after the closing date on the first billing statement in which the error or problem appeared, in order to receive an adjustment or credit. Inquiries should be directed to contact@startengine.com.",
+                "explanation": "Reducing the dispute window to 15 days is against standard business practices and consumer protection laws in many US states, which often provide for a longer period to identify and dispute billing errors, typically 30-60 days.",
+                "contradicted_law": "Consumer Protection Laws, Fair Credit Billing Act (potential violation depending on specific state laws and the nature of the billing)",
+                "location": "Section 2. Fees and expenses a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Amounts which remain unpaid for 30 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service.",
+                "changed_text": "Amounts which remain unpaid for 5 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service.",
+                "explanation": "Reducing the grace period for late payments to 5 days is very aggressive and could be considered an unfair business practice. Most states have regulations or guidelines regarding reasonable grace periods before late fees can be applied or services terminated. A 5-day window may not be deemed reasonable, especially for smaller businesses.",
+                "contradicted_law": "State usury laws and fair business practice regulations regarding reasonable notice and grace periods for late payments.",
+                "location": "Section 2. Fees and expenses b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "unless either party requests termination at least 30 days prior to the end of the then-current term.",
+                "changed_text": "unless either party requests termination at least 5 days prior to the end of the then-current term.",
+                "explanation": "Reducing the termination notice period to 5 days is inconsistent with reasonable commercial practices and may violate state laws requiring adequate notice for contract termination, particularly for service agreements. This short notice period may not provide sufficient time for the other party to find a replacement service provider.",
+                "contradicted_law": "State contract laws regarding reasonable notice for termination of service agreements. Varies by state, but often requires more than 5 days.",
+                "location": "Section 5. Term and Survival a)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.39_11793959_EX-10.39_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "2. Section 6.0 (\"Payment\") of the Agreement is modified by adding the following new Section 6.7: 6.7 [*****]",
+                "changed_text": "2. Section 6.0 (\"Payment\") of the Agreement is modified by adding the following new Section 6.7: 6.7 [*****] Payment is due 60 days after the invoice date.",
+                "explanation": "This change adds a specific payment term (60 days) where previously it was redacted. This could conflict with other unstated payment terms or practices.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "12.1 Distributor shall have the option to return to Cisco, for credit, up [*****] of the dollar value of Products from the Wholesale Price List (or, if no Wholesale Price Lists exists for Distributor's Territory, then the applicable price list) shipped to Distributor, net of credits, less returns to Cisco, in the preceding [*****] period (the \"Balancing Cap\") of the preceding Cisco fiscal quarter.",
+                "changed_text": "12.1 Distributor shall have the option to return to Cisco, for credit, up [*****] of the dollar value of Products from the Wholesale Price List (or, if no Wholesale Price Lists exists for Distributor's Territory, then the applicable price list) shipped to Distributor, net of credits, less returns to Cisco, in the preceding [*****] period (the \"Balancing Cap\") of the preceding Cisco fiscal quarter. Notwithstanding the foregoing, distributor shall be entitled to return all products within 30 days of purchase, regardless of the Balancing Cap.",
+                "explanation": "The change introduces an unlimited return option within 30 days, which directly contradicts the Balancing Cap, creating uncertainty about return limits.",
+                "location": "Section 12.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.0 Section 21.0 (\"Compliance with Laws\") is hereby deleted in its entirety and replaced with the following:\n\n21.0 COMPLIANCE WITH LAWS, INCLUDING ANTI-CORRUPTIONLAWS\n\n21.1 In connection with the sale or distribution of Cisco Products or Services, or otherwise in carrying out its obligations under this Agreement, Distributor represents and warrants the following:\n\n(a) Distributor will comply with all country, federal, state and local laws, ordinances, codes, regulations, rules, policies and procedures, Including, without limitation, all anti-corruption laws, Including, the U.S. Foreign Corrupt Practices Act (Applicable Laws). Distributor can find more information about the Foreign Corrupt Practices Act at the following URL: http://www.usdoj.gov/criminal/fraud/docs/dojdocb.html, o r  b y contacting publicsectorcompllance@cisco.com.",
+                "changed_text": "4.0 Section 21.0 (\"Compliance with Laws\") is hereby deleted in its entirety and replaced with the following:\n\n21.0 COMPLIANCE WITH LAWS, INCLUDING ANTI-CORRUPTIONLAWS\n\n21.1 In connection with the sale or distribution of Cisco Products or Services, or otherwise in carrying out its obligations under this Agreement, Distributor represents and warrants the following:\n\n(a) Distributor will comply with all country, federal, state and local laws, ordinances, codes, regulations, rules, policies and procedures, Including, without limitation, all anti-corruption laws, Including, the U.S. Foreign Corrupt Practices Act (Applicable Laws). Distributor can find more information about the Foreign Corrupt Practices Act at the following URL: http://www.usdoj.gov/criminal/fraud/docs/dojdocb.html, o r  b y contacting publicsectorcompllance@cisco.com. However, distributor's compliance with local laws is at their discretion.",
+                "explanation": "The added sentence 'However, distributor's compliance with local laws is at their discretion' directly contradicts the initial statement that the Distributor 'will comply with all...local laws'. This introduces an explicit contradiction that creates uncertainty as to whether the distributor is legally obligated to comply with local laws.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

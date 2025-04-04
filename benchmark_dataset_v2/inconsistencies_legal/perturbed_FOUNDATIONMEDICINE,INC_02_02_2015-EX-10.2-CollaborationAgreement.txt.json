@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FOUNDATIONMEDICINE,INC_02_02_2015-EX-10.2-CollaborationAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any payment under this Agreement that is not paid on or before the date such payment is due shall bear interest, to the extent permitted by Applicable Law, at […***…] points above the average one-month Euro Interbank Offered Rate (EURIBOR), as reported by Reuters from time to time, calculated on the number of days such payment is overdue.",
+                "changed_text": "Any payment under this Agreement that is not paid on or before the date such payment is due shall bear interest at a rate of 25% per annum, calculated from the date such payment was originally due.",
+                "explanation": "Imposing a 25% per annum interest rate on late payments is usurious and violates state laws on maximum interest rates. Many states have laws that cap the allowable interest rate on debts, and 25% would exceed those limits, making the clause unenforceable.",
+                "contradicted_law": "State usury laws (e.g., New York General Obligations Law § 5-501, which sets the criminal usury rate at 25%)",
+                "location": "9.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "FMI will set up and utilize a basic web-portal for Roche to access Sample Results and patient reports for Roche Clinical Studies. This web-portal shall be similar to the portal that FMI provides to its other major pharmaceutical customers.",
+                "changed_text": "FMI will provide Roche with Sample Results and patient reports via email. FMI is not responsible for ensuring the security of patient data during transmission.",
+                "explanation": "Failing to ensure data security and transmitting patient data via unencrypted email violates HIPAA regulations, which mandate specific security measures to protect patient health information. This change creates non-compliance with regulatory standards.",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "3.1.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "At any time during the processing of Persona Data, FMI shall notify Roche immediately (but no later than […***…] from the date) of any Data Security Breach involving Roche data. FMI shall assist and cooperate with Roche concerning any disclosures to affected parties, government or regulatory agencies and with any other remedial measures requested by Roche or mandated by Applicable Law.",
+                "changed_text": "FMI shall notify Roche of any Data Security Breach involving Roche data within 90 days of discovery. FMI is not responsible for disclosures to affected parties, government, or regulatory agencies.",
+                "explanation": "Delaying notification of a data breach to 90 days violates various state data breach notification laws (e.g., Massachusetts General Law c. 93H), which require notification within a much shorter timeframe (e.g., 30-45 days) and immediately after discovery in some cases. Also, removing responsibility for disclosures is against regulations.",
+                "contradicted_law": "State data breach notification laws (e.g., Massachusetts General Law c. 93H)",
+                "location": "13.8.12"
+            }
+        ]
+    }
+]

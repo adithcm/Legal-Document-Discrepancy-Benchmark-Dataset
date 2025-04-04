@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VIVINTSOLAR,INC.-NON-COMPETITIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "\"Term. This Agreement will become effective on the Effective Date, and will continue until the expiration of the \"Sales Term\" as that term is defined in the Sales Dealer Agreement dated as of August 16, 2017 between Vivint and Vivint Solar Developer, LLC (the \"Term\").\"",
+                "changed_text": "\"Term. This Agreement will become effective on the Effective Date, and will continue for a period of 2 years from the Effective Date, regardless of the Sales Term defined in any other agreement. Following the two-year period, the agreement will automatically renew for successive one-year terms unless either party provides written notice of termination within 15 days of the renewal date.\"",
+                "explanation": "The original agreement ties the non-solicitation term to the 'Sales Term' of another agreement, which could be shorter or longer than legally permissible limits for non-solicitation agreements. The modified text introduces a fixed 2-year term with automatic renewal, subject to a short 15-day notice period for termination. This creates a potential conflict with state laws (e.g., California) that may require longer notice periods for termination or place limits on the duration of non-solicitation agreements to protect employee mobility.",
+                "contradicted_law": "Potential violation of state laws regarding non-solicitation agreement duration and termination notice periods (e.g., California Business and Professions Code Section 16600 regarding restraint of trade).",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5. Master Framework Agreement. This Amendment is governed by the Master Framework Agreement, including, without limitation, the provisions of Sections 4 (Confidentiality) and 6 (Miscellaneous) of the Master Framework Agreement.",
+                "changed_text": "5. Master Framework Agreement. This Amendment is governed by the Master Framework Agreement, including, without limitation, the provisions of Sections 4 (Confidentiality) and 6 (Miscellaneous) of the Master Framework Agreement. Any disputes arising from this agreement must be resolved through mandatory arbitration within 30 days of the initial claim, waiving all rights to a jury trial.",
+                "explanation": "By mandating arbitration within 30 days, the modified text conflicts with federal and state laws that require a reasonable time frame for dispute resolution and discovery. The 30-day limit is likely insufficient for complex legal issues, potentially violating due process rights. Additionally, some states may have regulations impacting the enforceability of mandatory arbitration clauses.",
+                "contradicted_law": "Potential violation of due process rights under the Fifth and Fourteenth Amendments of the U.S. Constitution, as well as state arbitration laws regarding reasonable timeframes for dispute resolution (e.g., California Arbitration Act).",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "WHEREAS, the Parties also desire to extend the term of the non-solicitation obligations under the Non-Competition Agreement.",
+                "changed_text": "WHEREAS, the Parties also desire to extend the term of the non-solicitation obligations under the Non-Competition Agreement. The parties agree that the extended non-solicitation obligation will now restrict the employee from engaging in any competitive business for a period of 10 years after the termination of employment.",
+                "explanation": "The original text expresses a desire to extend non-solicitation obligations. The modified text specifies a 10-year non-solicitation period, which is excessively long and likely unenforceable under many state laws (e.g., California Business and Professions Code Section 16600) that restrict the scope and duration of non-compete and non-solicitation agreements. A 10-year ban is typically considered an unreasonable restraint of trade.",
+                "contradicted_law": "Violation of state laws restricting non-compete and non-solicitation agreements, such as California Business and Professions Code Section 16600, which generally prohibits restraints of trade.",
+                "location": "Recitals"
+            }
+        ]
+    }
+]

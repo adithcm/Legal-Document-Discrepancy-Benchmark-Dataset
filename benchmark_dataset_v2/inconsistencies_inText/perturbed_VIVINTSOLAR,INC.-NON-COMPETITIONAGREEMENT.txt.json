@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VIVINTSOLAR,INC.-NON-COMPETITIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "WHEREAS, Vivint Solar and Vivint are affiliate business entities, under the common control and ownership of 313 Acquisition, LLC, a Delaware limited liability company.",
+                "changed_text": "WHEREAS, Vivint Solar and Vivint are affiliate business entities. WHEREAS, the definition of 'affiliate' will be determined on a project-by-project basis at the discretion of 313 Acquisition, LLC, a Delaware limited liability company.",
+                "explanation": "This introduces an inconsistency by first stating that Vivint Solar and Vivint are affiliates and then defining how affiliates are considered. By stating affiliateship is determined on a project-by-project basis, it contradicts the initial statement by making it uncertain whether they are always considered affiliates. This could lead to disputes on which projects the Non-Competition Agreement applies.",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Term. This Agreement will become effective on the Effective Date, and will continue until the expiration of the \"Sales Term\" as that term is defined in the Sales Dealer Agreement dated as of August 16, 2017 between Vivint and Vivint Solar Developer, LLC (the \"Term\").\"",
+                "changed_text": "Term. This Agreement will become effective on the Effective Date, and will continue for a period of five (5) years. Notwithstanding the foregoing, either party may terminate this agreement with thirty (30) days written notice, even if the \"Sales Term\" as that term is defined in the Sales Dealer Agreement dated as of August 16, 2017 between Vivint and Vivint Solar Developer, LLC (the \"Term\") has not expired.",
+                "explanation": "This change creates a conflict in the term of the agreement. The original text ties the term to the 'Sales Term' defined in another agreement. The modified text introduces a fixed five-year term but also allows for termination with 30 days' notice, regardless of the Sales Term. This creates ambiguity about the actual duration of the agreement and introduces an immediate right to terminate, potentially nullifying the intended duration of the non-competition obligations tied to the Sales Term.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5. Master Framework Agreement. This Amendment is governed by the Master Framework Agreement, including, without limitation, the provisions of Sections 4 (Confidentiality) and 6 (Miscellaneous) of the Master Framework Agreement.",
+                "changed_text": "5. Master Framework Agreement. This Amendment is governed by the Master Framework Agreement, excluding, without limitation, the provisions of Sections 4 (Confidentiality) and 6 (Miscellaneous) of the Master Framework Agreement. Notwithstanding the foregoing, this agreement is also governed by Utah law.",
+                "explanation": "This creates a contradiction by stating that the amendment *is* governed by the Master Framework Agreement while simultaneously stating that specific sections are *excluded*. Additionally, adding that the agreement is governed by Utah law, despite excluding section 6 which likely addresses governing law, further complicates which legal framework should prevail, which creates ambiguity and enforceability issues.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

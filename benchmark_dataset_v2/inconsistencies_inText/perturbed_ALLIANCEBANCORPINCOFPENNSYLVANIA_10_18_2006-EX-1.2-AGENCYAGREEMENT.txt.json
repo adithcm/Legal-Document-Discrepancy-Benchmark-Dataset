@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The appointment of the Agent hereunder shall terminate upon the earlier to occur of (a) forty-five (45) days after the last day of the Subscription and Community Offering, unless the Company and the Agent agree in writing to extend such period and the OTS agrees to extend the period of time in which the Securities may be sold, or (b) the receipt and acceptance of subscriptions and purchase orders for all of the Securities, or (c) the completion of the Syndicated Community Offering.",
+                "changed_text": "The appointment of the Agent hereunder shall terminate upon the earlier to occur of (a) forty-five (45) days after the last day of the Subscription and Community Offering, unless the Company unilaterally decides to extend such period, or (b) the receipt and acceptance of subscriptions and purchase orders for all of the Securities, or (c) the completion of the Syndicated Community Offering.",
+                "explanation": "This change introduces a contradiction by giving the company unilateral power to extend the agent appointment while previously it was only possible with an agreement with the agent, creating potential uncertainty in enforcement.",
+                "location": "SECTION 2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "All fees payable to the Agent hereunder shall be payable in immediately available funds at Closing Time, or upon the termination of this Agreement, as the case may be. In recognition of the long lead times involved in the conversion process, the Bank agreed to make an advance payment to the Agent in the amount of $25,000, all of which has been previously paid, which shall be credited against any fees or reimbursement of expenses payable hereunder. In the event that the advance payment exceeds the amount due in payment of fees and reimbursement of expenses hereunder, the excess shall be refunded.",
+                "changed_text": "All fees payable to the Agent hereunder shall be payable in immediately available funds at Closing Time, or 90 days after the termination of this Agreement, as the case may be. In recognition of the long lead times involved in the conversion process, the Bank agreed to make an advance payment to the Agent in the amount of $25,000, all of which has been previously paid, which shall be credited against any fees or reimbursement of expenses payable hereunder. In the event that the advance payment exceeds the amount due in payment of fees and reimbursement of expenses hereunder, the excess will be kept by the bank.",
+                "explanation": "This perturbation introduces a contradiction by altering the payment terms upon termination of the agreement. Now the payment is due 90 days after termination, while before it was due immediately. Also, the reimbursement conditions were changed so that it will not be reimbursed, creating uncertainty.",
+                "location": "SECTION 2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The Company, the MHCs and the Bank jointly and severally agree to pay certain expenses incident to the performance of the Agent's obligations under this Agreement, regardless of whether the Offerings are consummated, including (i) the filing fees paid or incurred by the Agent in connection with all filings with the NASD, and (ii) all reasonable out-of-pocket expenses incurred by the Agent relating to the Offerings, including without limitation, fees and expenses of the Agent's counsel, advertising, promotional, syndication and travel expenses. All fees and expenses to which the Agent is entitled to reimbursement under this paragraph of this Section 4 shall be due and payable upon receipt by the Company, the MHCs or the Bank of a written accounting therefor setting forth in reasonable detail the expenses incurred by the Agent.",
+                "changed_text": "The Company, the MHCs and the Bank agree to pay expenses incident to the performance of the Agent's obligations under this Agreement if, and only if, the Offerings are consummated, limited to (i) 50% of the filing fees paid by the Agent in connection with all filings with the NASD, and (ii) only Agent's counsel fees. All fees and expenses to which the Agent is entitled to reimbursement under this paragraph of this Section 4 shall be capped at $10,000 and payable only at the discretion of the Bank's CFO.",
+                "explanation": "This perturbation creates an in-text contradiction regarding the payment of the agent's expenses. Before they were paid regardless of consummation, now there is a condition for consummation. The expenses were reduced creating legal uncertainty and potential disputes over obligations.",
+                "location": "SECTION 4"
+            }
+        ]
+    }
+]

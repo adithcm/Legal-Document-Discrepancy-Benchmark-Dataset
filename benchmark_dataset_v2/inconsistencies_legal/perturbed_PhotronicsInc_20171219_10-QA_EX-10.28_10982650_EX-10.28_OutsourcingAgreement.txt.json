@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***]within [***]hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***]within [***]hours shall constitute acceptance of such [***].",
+                "changed_text": "The Suppliers shall notify the Company of acceptance or rejection of a [***] within 4 hours of receipt of a [***]. Failure of the Suppliers to accept or reject a [***] within 4 hours shall constitute acceptance of such [***].",
+                "explanation": "Reducing the acceptance/rejection timeframe for purchase orders to 4 hours may be deemed commercially unreasonable and could contradict the general principles of contract law, especially under the United Nations Convention on Contracts for the International Sale of Goods (CISG), which emphasizes reasonable timeframes for acceptance. Furthermore, depending on the complexity of the products, providing only 4 hours could contradict good faith business practices.",
+                "contradicted_law": "Contract Law Principles - Reasonableness and Good Faith. United Nations Convention on Contracts for the International Sale of Goods (CISG) - Article 18.",
+                "location": "Section 2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within 120 days from the shipment of the applicable Products delivered.",
+                "explanation": "Extending the payment terms to 120 days could violate prompt payment laws or regulations in certain jurisdictions (e.g., if Taiwan law applies to PDMC or Chinese law applies to Xiamen), which often mandate shorter payment periods, especially for businesses dealing with smaller suppliers. This delay could also be considered an unfair trade practice.",
+                "contradicted_law": "Prompt Payment Laws and Regulations (depending on the jurisdiction of the Supplier). Unfair Trade Practices regulations.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A Party shall have the right to terminate its obligations under this Agreement if the other Party materially breaches this Agreement and fails to cure such breach within thirty (30) days after its receipt of written notice of the breach specifying such default.",
+                "changed_text": "A Party shall have the right to terminate its obligations under this Agreement if the other Party materially breaches this Agreement and fails to cure such breach within ten (10) days after its receipt of written notice of the breach specifying such default.",
+                "explanation": "Reducing the cure period for a material breach to just 10 days might be considered unreasonable, especially considering the complexities of an outsourcing agreement. Some jurisdictions may require a longer cure period to ensure fair business practices and to allow the breaching party adequate time to rectify the issue, particularly if the breach involves complex technical or operational challenges.",
+                "contradicted_law": "Contract Law Principles - Reasonableness and Good Faith. Varies depending on jurisdiction, but generally challenges to 'unconscionable' contract terms.",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

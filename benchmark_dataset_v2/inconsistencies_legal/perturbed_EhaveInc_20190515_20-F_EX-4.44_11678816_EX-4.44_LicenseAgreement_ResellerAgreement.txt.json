@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EhaveInc_20190515_20-F_EX-4.44_11678816_EX-4.44_LicenseAgreement_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If CHT gives notice to Ehave of non-acceptance of the Ehave Companion Solution then Ehave shall investigate the reported failure in good faith and correct same, and if the engagement is on a fixed fee basis at no additional cost to CHT, within fifteen (15) Business Days unless an extension is granted by CHT.",
+                "changed_text": "If CHT gives notice to Ehave of non-acceptance of the Ehave Companion Solution then Ehave shall investigate the reported failure in good faith and correct same, and if the engagement is on a fixed fee basis at no additional cost to CHT, within thirty (1) Business Days unless an extension is granted by CHT.",
+                "explanation": "The original text allows for a 15 business day period for Ehave to correct the failure. In Ontario, Canada, where this contract is governed, consumer protection laws could imply a reasonable timeframe for resolution, especially if the product is essential for CHT's operations. Changing this to thirty (1) business days (or six weeks) introduces a contradiction. This is especially true if such an extended period is unreasonable and causes significant damages to CHT's business. Such a delay could be deemed unconscionable.",
+                "contradicted_law": "Potentially violates implied consumer protection laws regarding 'reasonable time' for resolution in Ontario, Canada.",
+                "location": "Section 3(d)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "CHT will provide Ehave and its representatives, auditors and inspectors (\"Auditors\") upon ten (10) Business Days prior written notice with reasonable access, during business hours, to all facilities, systems and assets used by CHT, to CHT personnel and subcontractors and to all relevant CHT books and records, in each case, to the extent relevant to this Agreement, in order to conduct appropriate audits, examinations and inspections (\"Audits\") to: (i) verify compliance with the requirements set out in this Agreement; and (ii) verify the Royalty calculations.",
+                "changed_text": "CHT will provide Ehave and its representatives, auditors and inspectors (\"Auditors\") upon two (2) Business Days prior written notice with reasonable access, during business hours, to all facilities, systems and assets used by CHT, to CHT personnel and subcontractors and to all relevant CHT books and records, in each case, to the extent relevant to this Agreement, in order to conduct appropriate audits, examinations and inspections (\"Audits\") to: (i) verify compliance with the requirements set out in this Agreement; and (ii) verify the Royalty calculations.",
+                "explanation": "Reducing the audit notice period to 2 business days may be considered unreasonably short under Ontario law, potentially hindering CHT's ability to adequately prepare for the audit and protect its own confidential information during the process. A 10-day notice period is more standard.",
+                "contradicted_law": "Potentially violates implied contractual obligations of good faith and fair dealing under Ontario contract law.",
+                "location": "Section 8(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that the force majeure event lasts for fifteen (15) Business Days or longer, either Party shall have the option to terminate this Agreement upon written notice to the other without liability.",
+                "changed_text": "In the event that the force majeure event lasts for five (5) Business Days or longer, either Party shall have the option to terminate this Agreement upon written notice to the other without liability.",
+                "explanation": "Reducing the force majeure event duration to five business days before termination rights arise introduces a contradiction. Under Canadian contract law principles, a party invoking force majeure is typically allowed a reasonable period to recover and resume performance. Five days is likely too short and may be considered commercially unreasonable, especially for complex services that depend on external factors. A 15 day notice period is more standard, giving parties some flexibility during a natural disaster.",
+                "contradicted_law": "Potentially violates implied contractual obligations of good faith and fair dealing under Ontario contract law by setting an unreasonably short time frame before termination rights can be invoked due to force majeure.",
+                "location": "Section 18"
+            }
+        ]
+    }
+]

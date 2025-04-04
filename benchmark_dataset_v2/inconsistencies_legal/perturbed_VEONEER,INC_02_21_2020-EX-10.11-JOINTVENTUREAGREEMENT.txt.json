@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VEONEER,INC_02_21_2020-EX-10.11-JOINTVENTUREAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment shall be governed by and construed in accordance with the laws of Japan.",
+                "changed_text": "This Amendment shall be governed by and construed in accordance with the laws of Delaware, United States of America, without regard to its conflict of laws principles. Any dispute arising under or in connection with this agreement shall be resolved through binding arbitration in Tokyo, Japan, with the arbitration award to be issued within one month of the arbitration commencing.",
+                "explanation": "This change introduces a contradiction by specifying Delaware law for governing the amendment while mandating arbitration in Tokyo with a one-month deadline. Delaware law typically allows for court litigation as a dispute resolution method and does not mandate extremely short arbitration timelines. Furthermore, a one-month arbitration award deadline is unrealistic and conflicts with standard arbitration procedures.",
+                "contradicted_law": "Delaware General Corporation Law, Federal Arbitration Act",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "d.Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements set forth in the JV Agreement that arise prior to the VNBJ Closing or the VNBZ Closing, as applicable.",
+                "changed_text": "d. Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall release each party from any and all liability, regardless of whether the breach of such liability occurred prior to the VNBJ Closing or the VNBZ Closing, as applicable.",
+                "explanation": "This change directly contradicts contract law principles regarding liability for breaches of contract. By stating that termination releases all parties from liability, even for breaches that occurred before the termination, it effectively nullifies the purpose of having representations, warranties, covenants, and agreements in the first place. Under most legal systems, including those of the US and Japan, parties remain liable for breaches that occurred during the contract's effective period, even after termination.",
+                "contradicted_law": "General principles of contract law regarding breach of contract and liability",
+                "location": "Article 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment shall only become effective upon the VNBJ Closing with respect to Article 1.1 and the VNBZ Closing with respect to Article 1.2, and shall terminate without any force or effect in the event that the VNBJ SPA and the VNBZ SPA are terminated in accordance with the terms thereof.",
+                "changed_text": "This Amendment becomes effective immediately upon signing, regardless of the VNBJ Closing or the VNBZ Closing. This amendment shall remain in effect for a period of 30 days after signing, irrespective of whether the VNBJ SPA and the VNBZ SPA are terminated. The parties agree that no extensions will be granted.",
+                "explanation": "The original text makes the effectiveness of the amendment contingent on the closing of the VNBJ and VNBZ transactions. The modified text contradicts this by making the amendment effective immediately upon signing, irrespective of those closings, and sets a fixed, short duration of 30 days. This creates a contradiction and potential conflict in terms if those closings do not occur. Moreover, the condition to terminate after 30 days, even if the transactions are not concluded, is not suitable.",
+                "contradicted_law": "General principles of contract law regarding conditions precedent and termination clauses",
+                "location": "Article 4"
+            }
+        ]
+    }
+]

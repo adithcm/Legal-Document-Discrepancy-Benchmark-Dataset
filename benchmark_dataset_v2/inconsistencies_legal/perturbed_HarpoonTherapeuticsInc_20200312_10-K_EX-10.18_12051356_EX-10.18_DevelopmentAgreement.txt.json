@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No later than [***] following the Effective Date, AbbVie shall pay Harpoon an upfront, non-refundable, non-creditable amount equal to Thirty Million Dollars ($30,000,000).",
+                "changed_text": "No later than [***] following the Effective Date, AbbVie shall pay Harpoon an upfront, non-refundable, non-creditable amount equal to Thirty Million Dollars ($30,000,000). If payment is not made within **60 days**, interest will be calculated at the rate of **15% per month**.",
+                "explanation": "The modification introduces a high monthly interest rate for late payments. Many states have usury laws that limit the maximum interest rate that can be charged. A 15% monthly interest rate, which translates to an annual rate of 180%, would likely be considered usurious and unenforceable in most jurisdictions, thus contradicting standard contract law principles.",
+                "contradicted_law": "Usury laws vary by state but generally cap the maximum allowable interest rate.",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "AbbVie shall calculate all amounts payable to Harpoon pursuant to Section 6.5 at the end of each [***], which amounts shall be converted to Dollars, in accordance with Section 6.7. AbbVie shall pay to Harpoon the royalty amounts due with respect to a given [***] within [***] after the end of such [***]. Each payment of royalties due to Harpoon shall be accompanied by a statement of the amount of Net Sales of each Licensed Product in each country or other jurisdiction the Territory during the applicable [***] (including such amounts expressed in local currency and as converted to Dollars) and a calculation of the amount of royalty payment due on such Net Sales for such [***], including the amount of any reductions pursuant to Section 6.5.3.",
+                "changed_text": "AbbVie shall calculate all amounts payable to Harpoon pursuant to Section 6.5 at the end of each [***], which amounts shall be converted to Dollars, in accordance with Section 6.7. AbbVie shall pay to Harpoon the royalty amounts due with respect to a given [***] within **180 days** after the end of such [***]. Each payment of royalties due to Harpoon shall be accompanied by a statement of the amount of Net Sales of each Licensed Product in each country or other jurisdiction the Territory during the applicable [***] (including such amounts expressed in local currency and as converted to Dollars) and a calculation of the amount of royalty payment due on such Net Sales for such [***], including the amount of any reductions pursuant to Section 6.5.3.",
+                "explanation": "The original text requires royalty payments within a defined timeframe after the end of each period. Extending this payment period to 180 days (approximately 6 months) introduces a contradiction, as such an extended delay might conflict with standard business practices and potentially violate laws regarding timely payments. Some jurisdictions have laws about the prompt payment of royalties.",
+                "contradicted_law": "Prompt payment laws, UCC, and contract law principles regarding reasonable timeframes for payment.",
+                "location": "Section 6.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "At all times during the Term and for a period of [***] following termination or expiration hereof in its entirety, each Party shall, and shall cause its officers, directors, employees and agents to, keep confidential and not publish or otherwise disclose to a Third Party and not use, directly or indirectly, for any purpose, any Confidential Information furnished or otherwise made known to it, directly or indirectly, by the other Party, except to the extent such disclosure or use is expressly permitted by the terms of this Agreement or is necessary or reasonably useful for the performance of, or the exercise of such Party's rights under, this Agreement.",
+                "changed_text": "At all times during the Term and for a period of **90 days** following termination or expiration hereof in its entirety, each Party shall, and shall cause its officers, directors, employees and agents to, keep confidential and not publish or otherwise disclose to a Third Party and not use, directly or indirectly, for any purpose, any Confidential Information furnished or otherwise made known to it, directly or indirectly, by the other Party, except to the extent such disclosure or use is expressly permitted by the terms of this Agreement or is necessary or reasonably useful for the performance of, or the exercise of such Party's rights under, this Agreement.",
+                "explanation": "Reducing the confidentiality period to 90 days may be problematic. Confidentiality clauses often extend for several years to adequately protect trade secrets and sensitive business information. A 90-day term is unusually short and may be deemed insufficient, rendering the protection inadequate and potentially conflicting with common law protections for trade secrets, which can last indefinitely if properly protected.",
+                "contradicted_law": "Varies based on jurisdiction. States adopting the Uniform Trade Secrets Act (UTSA) generally protect trade secrets for as long as they remain confidential and provide a competitive advantage. This modification is incongruent with the purpose of protecting trade secrets.",
+                "location": "Section 9.2"
+            }
+        ]
+    }
+]

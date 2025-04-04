@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ClickstreamCorp_20200330_1-A_EX1A-6MATCTRCT_12089935_EX1A-6MATCTRCT_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3. By either Party for a material breach of any provision of this Agreement by the other Party, if the other Party's material breach is not cured within three (3) days of receipt of written notice thereof. This shall include any delays to the timeline specified in Exhibit A.",
+                "changed_text": "3. By either Party for a material breach of any provision of this Agreement by the other Party, if the other Party's material breach is not cured within one (1) day of receipt of written notice thereof. This shall include any delays to the timeline specified in Exhibit A.",
+                "explanation": "The original text allows a 3-day cure period for a material breach. Shortening this to 1 day is unreasonable and potentially conflicts with principles of contract law requiring reasonable opportunity to cure, especially under Florida law which emphasizes fairness and good faith in contractual dealings. This expedited cure period could be deemed unconscionable in certain breach scenarios.",
+                "contradicted_law": "Florida contract law principles requiring reasonable cure periods for material breaches; potentially violates good faith and fair dealing implied in contracts.",
+                "location": "Section 4(a)(3)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All intellectual property developed pursuant to this Agreement before the Termination Date shall be delivered to the Client within one day of the Termination Date.",
+                "changed_text": "All intellectual property developed pursuant to this Agreement before the Termination Date shall be delivered to the Client within 24 hours of the Termination Date, provided it is a business day.",
+                "explanation": "The change requires the delivery of all intellectual property within 24 hours of termination, with an exception for it being a business day. Florida law requires 'prompt' payment of final wages, which is generally interpreted to mean within a few business days, not necessarily within 24 hours, particularly if termination occurs outside of normal business hours or near a weekend/holiday. The 'business day' exception also creates ambiguity and potential for manipulation.",
+                "contradicted_law": "Florida Statute 532.001 regarding Prompt Payment Act that is intended for final payment of wages upon termination.",
+                "location": "Section 4(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "12. RETURN OF PROPERTY. Within three (3) days of the termination of this Agreement, whether by expiration or otherwise, the Developer agrees to return to the Client all Client products, samples, models, or other property and all documents, retaining no copies or notes, relating to the Client's business including, but not limited to, reports, abstracts, lists, correspondence, information, computer files, computer disks, and all other materials and all copies of such material obtained by the Developer during and in connection with its representation of the Client.",
+                "changed_text": "12. RETURN OF PROPERTY. Within one (1) day of the termination of this Agreement, whether by expiration or otherwise, the Developer agrees to return to the Client all Client products, samples, models, or other property and all documents, retaining no copies or notes, relating to the Client's business including, but not limited to, reports, abstracts, lists, correspondence, information, computer files, computer disks, and all other materials and all copies of such material obtained by the Developer during and in connection with its representation of the Client.",
+                "explanation": "Reducing the return period of property from three days to one day following termination places an unreasonable burden on the Developer. While Florida law does not explicitly dictate a timeframe for returning company property upon termination of a contract, general principles of reasonableness and fairness apply. Requiring all materials to be returned within a single day, regardless of volume or location, may be deemed commercially unreasonable, especially if the developer is based in a different location.",
+                "contradicted_law": "Conflict with implied covenant of good faith and fair dealing under Florida contract law, which requires commercially reasonable terms.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

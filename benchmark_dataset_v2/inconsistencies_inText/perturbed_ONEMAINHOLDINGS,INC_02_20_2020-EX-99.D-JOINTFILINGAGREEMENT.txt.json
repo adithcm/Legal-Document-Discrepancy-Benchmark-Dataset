@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ONEMAINHOLDINGS,INC_02_20_2020-EX-99.D-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing. This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
+                "changed_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing. This Agreement must be executed in a single original document, and electronic copies will not be considered valid or enforceable.",
+                "explanation": "This change introduces a contradiction regarding the execution of the agreement. The original text allows for multiple counterparts, while the modified text insists on a single, physical document. This creates uncertainty about the validity of electronically signed or copied agreements.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
+                "changed_text": "This Agreement may be terminated by any party with a 30-day written notice. However, this agreement is perpetually binding on all parties and cannot be terminated.",
+                "explanation": "This change introduces a conflict between the termination clause. The original text says nothing about termination, while the modified text includes conflicting statements about termination: allowing for termination with 30-day notice while simultaneously stating that the agreement is perpetually binding. This creates ambiguity about the conditions under which the agreement can be terminated, or if it can be terminated at all.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement as of February 20, 2020.",
+                "changed_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement as of February 20, 2020. This agreement shall be governed by the laws of the State of Delaware. However, disputes arising from this agreement will be resolved through binding arbitration in New York.",
+                "explanation": "This change introduces a contradiction about dispute resolution. The clause states the agreement will be governed by Delaware law, but then mandates that all disputes will be resolved through binding arbitration in New York. This creates conflict by designating both Delaware state law and binding arbitration in New York as the controlling venues for resolving disputes. It is uncertain whether state law would prevail or the imposed condition of arbitration would take precedence.",
+                "location": "Paragraph 2"
+            }
+        ]
+    }
+]

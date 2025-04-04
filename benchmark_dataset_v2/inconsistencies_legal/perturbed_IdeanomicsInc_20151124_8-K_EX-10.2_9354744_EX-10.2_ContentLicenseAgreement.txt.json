@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) This Agreement may be terminated at any time by either party, effective immediately upon written notice, if the other party: (i) becomes insolvent; (ii) files a petition in bankruptcy; or (iii) makes an assignment for the benefit of its creditors. Either party may terminate this Agreement upon written notice if the other party materially breaches this Agreement and fails to cure such breach within thirty (30) days after the date that it receives written notice of such breach from the non-breaching party.",
+                "changed_text": "(b) This Agreement may be terminated at any time by either party, effective immediately upon written notice, if the other party: (i) becomes insolvent; (ii) files a petition in bankruptcy; or (iii) makes an assignment for the benefit of its creditors. Either party may terminate this Agreement upon written notice if the other party materially breaches this Agreement and fails to cure such breach within ten (10) days after the date that it receives written notice of such breach from the non-breaching party.",
+                "explanation": "The original contract allows a 30-day cure period for a material breach. Reducing this cure period to 10 days contradicts standard contract law principles, which often consider a 30-day cure period reasonable. Some jurisdictions might view a 10-day cure period as insufficient, especially for complex breaches, making this clause potentially unenforceable or leading to disputes.",
+                "contradicted_law": "General principles of contract law regarding reasonable cure periods for breaches.",
+                "location": "Section 7(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Licensor will deliver each Additional Title in accordance with Section 4(a).",
+                "changed_text": "Licensor will deliver each Additional Title in accordance with Section 4(a), but the Licensor should deliver the additional titles within 90 days after the day the Licensee requests additional titles.",
+                "explanation": "California law states that there should be a good faith and fair dealing agreement in place, especially with third party beneficiaries. Adding this additional clause will increase the risk of unfair dealing and bad faith.",
+                "contradicted_law": "California Law, good faith and fair dealing.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each party agrees that, during the Term and for two (2) years thereafter: (i) it will not disclose to any third party any Confidential Information disclosed to it by the other party except as expressly permitted in this Agreement",
+                "changed_text": "Each party agrees that, during the Term and for one (1) year thereafter: (i) it will not disclose to any third party any Confidential Information disclosed to it by the other party except as expressly permitted in this Agreement",
+                "explanation": "Reducing the confidentiality period from two years to one year weakens the protection of Confidential Information, potentially conflicting with industry standards and best practices for protecting proprietary data. This may be inadequate in some industries where information remains valuable for longer periods.",
+                "contradicted_law": "Common law principles regarding the protection of trade secrets and confidential information.",
+                "location": "Section 14(b)"
+            }
+        ]
+    }
+]
