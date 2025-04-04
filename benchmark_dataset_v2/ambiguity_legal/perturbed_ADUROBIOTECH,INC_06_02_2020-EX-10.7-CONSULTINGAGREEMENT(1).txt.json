@@ -4,26 +4,26 @@
         "perturbation": [
             {
                 "type": "Ambiguities - Ambiguous Legal Obligation",
-                "original_text": "Consultant represents as follows:\n\n(c) Consultant to perform the Services in accordance with all Applicable Law;",
-                "changed_text": "Consultant represents as follows:\n\n(c) Consultant will endeavor to perform the Services in general accordance with what they understand to be Applicable Law;",
-                "explanation": "Changing 'in accordance with all Applicable Law' to 'will endeavor to perform the Services in general accordance with what they understand to be Applicable Law' weakens the obligation. 'Endeavor' implies an attempt rather than a guarantee of compliance, and 'what they understand' introduces subjectivity. This creates ambiguity around the consultant's actual legal obligations.",
-                "contradicted_law": "This weakens the legal obligation to comply with all applicable laws, potentially violating regulations like those from the FDA or other regulatory bodies relevant to Aduro Biotech's operations, which require strict adherence to regulations rather than just an 'endeavor' to comply based on subjective understanding.",
+                "original_text": "Consultant shall keep all Confidential Information confidential, and Consultant shall not disclose, disseminate, publish, reproduce or use Confidential Information except to perform the Services.",
+                "changed_text": "Consultant shall endeavor to keep Confidential Information confidential, and Consultant should not disclose, disseminate, publish, reproduce or use Confidential Information except when deemed necessary to perform the Services.",
+                "explanation": "The phrase 'endeavor to keep' weakens the obligation to maintain confidentiality, making it less strict and more subjective. Furthermore, 'when deemed necessary' introduces ambiguity, allowing the consultant to potentially disclose confidential information based on their own judgment, which could contradict trade secret laws.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "location": "4(b)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Consultant represents as follows: (c) Consultant to perform the Services in accordance with all Applicable Law;",
+                "changed_text": "Consultant represents as follows: (c) Consultant will make reasonable efforts to perform the Services in accordance with Applicable Law;",
+                "explanation": "Replacing 'shall' with 'will make reasonable efforts' weakens the obligation. Applicable Law often requires strict compliance, and 'reasonable efforts' introduces ambiguity that could allow non-compliance. This is because some laws require strict compliance and not just 'reasonable efforts'.",
+                "contradicted_law": "Various federal and California state laws depending on the specific services being provided (e.g., healthcare regulations, environmental regulations, etc.)",
                 "location": "8(c)"
             },
             {
                 "type": "Ambiguities - Ambiguous Legal Obligation",
                 "original_text": "Aduro shall be the sole and exclusive owner of, and Consultant hereby assigns to Aduro, any and all writings, documents, work product, inventions, developments, improvements, discoveries, know-how, processes, chemical entities, compounds, plans, memoranda, tests, research, designs, specifications, models and data that Consultant makes, conceives, discovers or develops, either solely or jointly with any other person in performance of the Services (collectively, \"Work Product\").",
-                "changed_text": "Aduro shall generally be the owner of writings, documents, work product, inventions, developments, improvements, discoveries, know-how, processes, chemical entities, compounds, plans, memoranda, tests, research, designs, specifications, models and data that Consultant makes, conceives, discovers or develops, either solely or jointly with any other person in performance of the Services (collectively, \"Work Product\"), unless otherwise agreed upon in writing.",
-                "explanation": "Adding 'generally' and 'unless otherwise agreed upon in writing' introduces ambiguity to the ownership of Work Product. It weakens Aduro's sole and exclusive ownership and opens the door for disputes over intellectual property rights, making the transfer of ownership uncertain.",
-                "contradicted_law": "This clause may conflict with intellectual property laws, which require clear and unambiguous assignment of ownership. By making the assignment conditional, it creates uncertainty regarding who owns the Work Product, potentially violating the Bayh-Dole Act if federal funding is involved in the research. Clear assignment is essential for patenting and protecting intellectual property rights.",
-                "location": "6"
-            },
-            {
-                "type": "Ambiguities - Ambiguous Legal Obligation",
-                "original_text": "Consultant shall promptly disclose to Aduro all information relating to Work Product as appropriate as part of the Services and at the request of Aduro.",
-                "changed_text": "Consultant should consider disclosing to Aduro information relating to Work Product, as Consultant deems prudent, and upon Aduro's general request.",
-                "explanation": "Replacing 'shall promptly disclose' with 'should consider disclosing' significantly weakens the obligation to disclose information. 'As Consultant deems prudent' introduces subjectivity, and 'general request' lacks specificity, making the duty to disclose vague and discretionary.",
-                "contradicted_law": "This modification weakens the obligation for prompt disclosure, which can contradict regulations related to intellectual property and trade secrets protection. Regulations often mandate timely disclosure to protect innovations and prevent infringement, and this vague clause undermines those protections.",
+                "changed_text": "Aduro shall generally be considered the owner of, and Consultant intends to assign to Aduro, writings, documents, work product, inventions, developments, improvements, discoveries, know-how, processes, chemical entities, compounds, plans, memoranda, tests, research, designs, specifications, models and data that Consultant makes, conceives, discovers or develops, either solely or jointly with any other person in performance of the Services (collectively, \"Work Product\").",
+                "explanation": "Changing 'shall be the sole and exclusive owner' to 'shall generally be considered the owner' and 'hereby assigns' to 'intends to assign' introduces significant ambiguity regarding ownership of the Work Product. The use of 'generally' implies that Aduro's ownership is not absolute. The statement that the consultant 'intends' to assign does not guarantee that assignment which is a contradiction against intellectual property regulations.",
+                "contradicted_law": "United States Patent Act and Copyright Act",
                 "location": "6"
             }
         ]

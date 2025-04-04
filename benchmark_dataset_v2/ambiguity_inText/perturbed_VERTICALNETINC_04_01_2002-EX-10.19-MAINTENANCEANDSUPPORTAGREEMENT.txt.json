@@ -4,24 +4,24 @@
         "perturbation": [
             {
                 "type": "Ambiguities - In Text Contradiction",
-                "original_text": "1. Definitions.\n\n            1.1 \"Affiliate\" means, when used with reference to a party, any individual or entity directly or indirectly Controlling, Controlled by or under common Control with such party.",
-                "changed_text": "1. Definitions.\n\n            1.1 \"Affiliate\" means, when used with reference to a party, any individual or entity directly or indirectly Controlling, Controlled by or under common Control with such party, but only if such control has been pre-approved in writing by VerticalNet, Inc.",
-                "explanation": "This change introduces a condition to the definition of 'Affiliate' that requires pre-approval. This contradicts the original definition, which did not include any such requirement. The uncertainty arises because it's unclear if existing entities automatically qualify or if a new approval process is necessary.",
-                "location": "Section 1.1"
+                "original_text": "1.16 \"Problem\" means a Severity Level 1, 2, 3 or 4 problem with a Supported Product (whether or not attributable or believed to be attributable to an Error), as such problems are described in greater detail in Exhibit A hereto.",
+                "changed_text": "1.16 \"Problem\" means a Severity Level 1 or 2 problem with a Supported Product (whether or not attributable or believed to be attributable to an Error), as such problems are described in greater detail in Exhibit A hereto.",
+                "explanation": "This change introduces ambiguity because section 1.16 now contradicts Exhibit A (Severity Levels of Problems) by not including severity levels 3 & 4 problems.",
+                "location": "Section 1.16"
             },
             {
                 "type": "Ambiguities - In Text Contradiction",
-                "original_text": "1. Definitions.\n\n            1.3 \"Control\" (including all derivations thereof) means, with respect to a party, the direct or indirect ownership of at least 50% of the outstanding voting securities of a party, or the right to control the policy decisions of such party.",
-                "changed_text": "1. Definitions.\n\n            1.3 \"Control\" (including all derivations thereof) means, with respect to a party, the direct ownership of at least 75% of the outstanding voting securities of a party, and not just the right to control the policy decisions of such party.",
-                "explanation": "Here, the definition of 'Control' is changed to specify a different percentage of ownership (75% instead of 50%) and eliminates the 'right to control the policy decisions' as a condition. This creates conflicting criteria. If one section relies on the original 50% definition and another on the new 75% definition, it's uncertain which definition applies.",
-                "location": "Section 1.3"
+                "original_text": "3.1 Project Managers. Each of Converge and VNE shall appoint a Project Manager to coordinate such party's activities with respect to the Professional Services hereunder. The initial VNE Project Manager shall be Michael Decker and the initial Converge Project Manager shall be Farooq Ahmad. Either party may change its Project Manager on notice (via e-mail or in some other reasonable fashion not necessarily in accordance with the express notice 6 provisions of this Agreement) to the other party's Project Manager and Relationship Manager at any time.",
+                "changed_text": "3.1 Project Managers. Each of Converge and VNE shall appoint a Project Manager to coordinate such party's activities with respect to the Professional Services hereunder. The initial VNE Project Manager shall be Michael Decker and the initial Converge Project Manager shall be Farooq Ahmad. Either party may change its Project Manager with 30 days written notice to the other party's General Counsel. ",
+                "explanation": "This change introduces ambiguity because it contradicts itself. The original says to provide notice to the 'Project Manager and Relationship Manager', however, the change now says to provide notice to the 'General Counsel', making it unclear as to who needs to receive the notice. ",
+                "location": "Section 3.1"
             },
             {
                 "type": "Ambiguities - In Text Contradiction",
-                "original_text": "2.10 Provision of Maintenance Updates. VNE shall provide Converge with Maintenance Updates as VNE makes them generally available to its other customers. Converge agrees to install in the recommend environments all Maintenance Updates within a reasonable time following the date they are provided by VNE, taking into consideration any testing and customization required by Converge (the parties expect that the time for such installation generally will not exceed 90 days). Should Converge find one or more material deficiencies in any Maintenance Update, Converge shall promptly identify such deficiencies to VNE in reasonable detail.",
-                "changed_text": "2.10 Provision of Maintenance Updates. VNE may, at its sole discretion, provide Converge with Maintenance Updates. Converge may choose whether or not to install Maintenance Updates and there is no time restriction for testing, customization or installation. Should Converge find one or more material deficiencies in any Maintenance Update, Converge may or may not choose to identify such deficiencies to VNE.",
-                "explanation": "This edit makes providing maintenance updates discretionary and removes the requirement to install them within a reasonable time. The original clause mandates VNE to provide updates and expects Converge to install within 90 days, whereas the new one makes it voluntary for both parties. This contradiction introduces ambiguity regarding maintenance obligations and what is considered fulfilment of the contract.",
-                "location": "Section 2.10"
+                "original_text": "3.10 Acceptance. Each Converge-Requested Enhancement provided to Converge under a Final SOW will be subject to acceptance testing by Converge in accordance with the provisions of its corresponding Final SOW. All other Converge-Requested Enhancements provided to Converge under this Agreement will be deemed accepted by 8 Converge upon Converge's receipt of the complete delivery thereof to a Converge computer located at a Converge place of business.",
+                "changed_text": "3.10 Acceptance. Each Converge-Requested Enhancement provided to Converge under a Final SOW will be subject to acceptance testing by Converge in accordance with the provisions of its corresponding Final SOW. All other Converge-Requested Enhancements provided to Converge under this Agreement will be deemed rejected by Converge if not approved within 30 calendar days.",
+                "explanation": "This change introduces ambiguity because in original text, all Converge-Requested Enhancements are accepted upon delivery, the change now states that it is rejected if not approved within 30 calendar days. This makes it unclear as to when the deliverable is actually accepted.",
+                "location": "Section 3.10"
             }
         ]
     }

@@ -4,24 +4,17 @@
         "perturbation": [
             {
                 "type": "Ambiguities - In Text Contradiction",
-                "original_text": "Exhibit 99.1 JOINT FILING AGREEMENT The undersigned hereby agree that the Schedule 13G/A with respect to the shares of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the undersigned shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
-                "changed_text": "Exhibit 99.1 JOINT FILING AGREEMENT The undersigned hereby agree that the Schedule 13G/A with respect to the shares of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the undersigned shall be, filed on behalf of each of us pursuant to the best interpretation of and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
-                "explanation": "Changing 'pursuant to and in accordance with' to 'pursuant to the best interpretation of and in accordance with' introduces ambiguity regarding the standard of compliance with Rule 13d-1(k). The original wording requires strict adherence, while the revised wording allows for subjective interpretation, potentially conflicting with other clauses requiring strict legal compliance.",
-                "location": "Paragraph 1"
+                "original_text": "The undersigned hereby agree that the Schedule 13G/A with respect to the shares of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the undersigned shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+                "changed_text": "The undersigned hereby agree that the Schedule 13G/A with respect to the shares of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the undersigned may be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+                "explanation": "Changing 'shall be' to 'may be' introduces ambiguity. The original text mandates the filing, while the modified version makes it optional, conflicting with potential legal requirements for mandatory filings elsewhere.",
+                "location": "First Paragraph"
             },
             {
                 "type": "Ambiguities - In Text Contradiction",
-                "original_text": "ABP TRUST /s/ Adam D. Portnoy (Signature) Adam D. Portnoy, President (Name/Title) ADAM D. PORTNOY /s/ Adam D. Portnoy (Signature)",
-                "changed_text": "ABP TRUST /s/ Adam D. Portnoy (Signature) Adam D. Portnoy, Authorized Representative (Name/Title) ADAM D. PORTNOY /s/ Adam D. Portnoy (Signature)",
-                "explanation": "Changing Adam D. Portnoy's title from 'President' to 'Authorized Representative' for ABP Trust creates ambiguity. If another clause defines the President as the only authorized signatory for legal agreements, this change introduces a conflict, potentially invalidating the agreement on behalf of ABP Trust.",
-                "location": "Signature Block 1"
-            },
-            {
-                "type": "Ambiguities - In Text Contradiction",
-                "original_text": "January 22, 2020 (Date) ABP TRUST /s/ Adam D. Portnoy (Signature) Adam D. Portnoy, President (Name/Title) ADAM D. PORTNOY /s/ Adam D. Portnoy (Signature) 10",
-                "changed_text": "January 22, 2021 (Date) ABP TRUST /s/ Adam D. Portnoy (Signature) Adam D. Portnoy, President (Name/Title) ADAM D. PORTNOY /s/ Adam D. Portnoy (Signature) 10",
-                "explanation": "Changing the date from January 22, 2020 to January 22, 2021 introduces a conflict. If another part of an agreement references the original filing date, the discrepancy creates a contradiction about when the agreement took effect.",
-                "location": "Date Line"
+                "original_text": "January 22, 2020 (Date) ABP TRUST /s/ Adam D. Portnoy (Signature) Adam D. Portnoy, President (Name/Title) ADAM D. PORTNOY /s/ Adam D. Portnoy (Signature)",
+                "changed_text": "January 22, 2020 (Date) ABP TRUST /s/ Adam D. Portnoy (Signature) Adam D. Portnoy, CEO (Name/Title) ADAM D. PORTNOY /s/ Adam D. Portnoy (Signature)",
+                "explanation": "Changing 'President' to 'CEO' creates a conflict if the document or related documents specify that only the President has certain signatory authority. This contradiction introduces uncertainty about the validity of the signature.",
+                "location": "Signature Block"
             }
         ]
     }

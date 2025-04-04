@@ -4,27 +4,27 @@
         "perturbation": [
             {
                 "type": "Structural Flaws - Legal Contradiction",
-                "original_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing. This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
-                "changed_text": "In accordance with the general custom, the undersigned hereby confirm their intent towards the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer. While this Agreement will be included as an Exhibit to such filing, its specific legal authority is not binding. This Agreement may be executed in any number of counterparts; however, their individual validity shall be determined separately.",
-                "explanation": "The original text clearly states that the agreement is under Rule 13d-1(k) of the Securities Exchange Act, creating a binding agreement for joint filing. The modified version replaces 'agreement' with 'intent,' introduces ambiguity by stating the legal authority isn't binding, and questions the validity of the counterparts, creating a contradiction regarding the enforceability of the joint filing agreement. This could lead to disputes regarding the obligations of each party involved in the filing.",
+                "original_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing.",
+                "changed_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement. In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing.",
+                "explanation": "Moving the disclosure about Rule 13d-1(k) from the beginning to the middle of the paragraph obscures its importance and makes it less prominent. This could be interpreted as a structural flaw because it potentially reduces the clarity and immediate enforceability of the agreement's compliance with securities regulations.",
                 "contradicted_law": "Securities Exchange Act of 1934, Rule 13d-1(k)",
-                "location": "First paragraph"
+                "location": "Paragraph 1"
             },
             {
                 "type": "Structural Flaws - Legal Contradiction",
                 "original_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
-                "changed_text": "This Agreement may be executed in several copies; however, the interpretation and significance of each copy may vary based on the context and the understanding of the parties involved.",
-                "explanation": "The original clause provides a clear and standard legal declaration affirming that multiple copies of the agreement are equally valid. The modified version introduces subjective elements of 'interpretation' and 'understanding,' suggesting that the counterparts may not have identical legal weight. This is a contradiction that weakens the enforceability and creates grounds for dispute regarding the validity of the different copies. Legal custom dictates that counterpart copies should all carry the same binding authority.",
-                "contradicted_law": "Standard contract law principles related to counterpart execution",
-                "location": "First paragraph"
+                "changed_text": "This Agreement shall only be executed in one counterpart, that needs to have a digital signature in order to be valid.",
+                "explanation": "Changing 'may be executed in any number of counterparts' to 'shall only be executed in one counterpart' introduces a contradiction. The original wording allows for flexibility in execution, while the altered wording restricts it, potentially conflicting with standard business practices and expectations regarding the execution of legal agreements.",
+                "contradicted_law": "General contract law principles regarding agreement execution",
+                "location": "Paragraph 1"
             },
             {
                 "type": "Structural Flaws - Legal Contradiction",
                 "original_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement as of February 20, 2020.",
-                "changed_text": "In anticipation of further discussion, the undersigned signify their provisional consent to this Agreement, subject to further modifications, as of February 20, 2020.",
-                "explanation": "The original text is a standard legal declaration of execution, signifying that the parties have signed and entered into the agreement. The modified version changes this to 'provisional consent' and 'subject to further modifications,' directly contradicting the finality of the execution. This suggests the agreement is not yet binding and is still under negotiation, undermining its legal force. The phrase undermines the agreement, suggesting is not yet fully agreed.",
-                "contradicted_law": "Basic contract law principles regarding execution and agreement",
-                "location": "Introduction to signature section"
+                "changed_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement, but the date of agreement will be determined at a later date.",
+                "explanation": "Changing 'as of February 20, 2020' to 'but the date of agreement will be determined at a later date' introduces uncertainty. The original wording clearly establishes the effective date of the agreement. The changed text creates ambiguity, making it unclear when the agreement becomes legally binding and creating a legal contradiction.",
+                "contradicted_law": "General contract law principles regarding effective dates of agreements",
+                "location": "Paragraph 2"
             }
         ]
     }
