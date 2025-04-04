@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SUCAMPOPHARMACEUTICALS,INC_11_04_2015-EX-10.2-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Offer shall be open for acceptance from the time of commencement until a time that is not earlier than 3:30 p.m. (Tokyo time) on the 30t h Japan Business Day from and including the Launch Date (as adjusted pursuant to Section 2.02(f) below, the \"Offer Period\").",
+                "changed_text": "The Offer shall be open for acceptance from the time of commencement until a time that is not earlier than 3:30 p.m. (Tokyo time) on the 10t h Japan Business Day from and including the Launch Date (as adjusted pursuant to Section 2.02(f) below, the \"Offer Period\").",
+                "explanation": "Reducing the offer period to 10 business days creates a legal contradiction. Tender offer regulations in Japan and potentially the US (if SPI is considered to have sufficient nexus) typically require a minimum offer period that is longer than 10 business days to allow shareholders sufficient time to consider the offer and make informed decisions.",
+                "contradicted_law": "Articles 27-2 through 27-22 of the FIEL (Financial Instruments and Exchange Law of Japan) and potentially SEC regulations if applicable.",
+                "location": "Section 2.02(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "For […***…] ([…***…]) years from and after the date of this Agreement, the Company will hold and treat in confidence, and will not use, and will cause their Affiliates to hold and treat in confidence, all non-public documents and information (including any information with regard to terms and conditions of this Agreement) concerning Acquiror and each of its respective Affiliates, except to the extent that such documents and information (1) are required or requested (with prompt notice of such request to be made to Acquiror) to be disclosed by applicable Law or any Governmental Authority, (2) generally become available to the public through no fault of the Company, (3) become available to the Company on a non-confidential basis, or (4) are independently developed by the Company or its Affiliates without reference to the furnished information.",
+                "changed_text": "For 6 months from and after the date of this Agreement, the Company will hold and treat in confidence, and will not use, and will cause their Affiliates to hold and treat in confidence, all non-public documents and information (including any information with regard to terms and conditions of this Agreement) concerning Acquiror and each of its respective Affiliates, except to the extent that such documents and information (1) are required or requested (with prompt notice of such request to be made to Acquiror) to be disclosed by applicable Law or any Governmental Authority, (2) generally become available to the public through no fault of the Company, (3) become available to the Company on a non-confidential basis, or (4) are independently developed by the Company or its Affiliates without reference to the furnished information.",
+                "explanation": "Reducing the confidentiality period to 6 months for sensitive business information creates a legal contradiction because it may not provide adequate protection for trade secrets or confidential business strategies. This could violate laws related to unfair competition or trade secret protection, depending on the nature of the information and the jurisdiction.",
+                "contradicted_law": "Trade Secret Laws, Unfair Competition Prevention Act (Japan), or similar laws in relevant jurisdictions.",
+                "location": "Section 4.07(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Settlement Date\" shall mean the 5t h Japan Business Day following the last day of the Offer Period, except as such date may be adjusted pursuant to Section 2.02(f).",
+                "changed_text": "\"Settlement Date\" shall mean the 10t h Japan Business Day following the last day of the Offer Period, except as such date may be adjusted pursuant to Section 2.02(f).",
+                "explanation": "Delaying the settlement date to 10 business days following the offer period can introduce inconsistencies since settlement must be completed as soon as practicable following the end of the offer period to ensure certainty for tendering shareholders. Delaying the settlement increases risks of market volatility or other events impacting the shareholders' decisions.",
+                "contradicted_law": "Articles 27-2 through 27-22 of the FIEL (Financial Instruments and Exchange Law of Japan) and relevant regulations regarding tender offer settlement practices.",
+                "location": "Section 1.01"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "OAKTREECAPITALGROUP,LLC_03_02_2020-EX-10.8-ServicesAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.1 In consideration of the provision of services under this Agreement, Oaktree US will pay the Sub-Advisor such fees as may be agreed between the parties from time to time (the \"Service Fee\").",
+                "changed_text": "3.1 In consideration of the provision of services under this Agreement, Oaktree US will pay the Sub-Advisor such fees as may be agreed between the parties from time to time (the \"Service Fee\"). Payment of the Service Fee shall be made within 30 days of the invoice date.",
+                "explanation": "This change introduces a specific payment deadline (30 days) where previously the payment terms were only 'as may be agreed'. This creates a potential conflict with other clauses regarding payment terms or dispute resolution, as the 'agreed' timeframe might differ from this newly introduced 30-day deadline.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.3 The Service Fee shall be reviewed by Oaktree US and the Sub-Advisor once annually (or as the parties agree) for continued appropriateness and in particular, to account for any changes in the Sub-Advisor's business.",
+                "changed_text": "3.3 The Service Fee shall be reviewed by Oaktree US and the Sub-Advisor once annually (or as the parties agree) for continued appropriateness and in particular, to account for any changes in the Sub-Advisor's business. Payment of the adjusted Service Fee after the review must be made within 60 days of the review completion.",
+                "explanation": "This change introduces a payment deadline for the adjusted Service Fee (60 days) following the annual review. This directly contradicts the earlier introduced 30-day payment term in section 3.1. This creates uncertainty on which deadline applies when the review results in a change of the service fee.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.2 Early Termination\n\nThis Agreement may be terminated, either in respect of a Fund or in its entirety, by either Oaktree US or the Sub-Advisor for any reason upon 30 days' written notice to the other.",
+                "changed_text": "10.2 Early Termination\n\nThis Agreement may be terminated, either in respect of a Fund or in its entirety, by either Oaktree US or the Sub-Advisor for any reason upon 30 days' written notice to the other. However, Oaktree US can terminate this agreement with no prior written notice if the Sub-Advisor fails to comply with clauses 3.1 and 3.3 regarding payment deadlines.",
+                "explanation": "This modification introduces a conflicting condition for early termination. The original clause states a 30-day written notice is required for termination by either party, 'for any reason'. The added sentence allows Oaktree US to terminate immediately without notice if payment deadlines are missed. This creates a contradiction as the 'any reason' clause now has an exception, and the '30 days' notice' requirement is waived under specific conditions, generating ambiguity.",
+                "location": "Section 10.2"
+            }
+        ]
+    }
+]

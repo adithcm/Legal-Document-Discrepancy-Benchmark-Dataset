@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, nor shall either party have any authority to bind the other in any respect, it being understood and agreed that all orders submitted by the Distributor are subject to acceptance by Principal in its sole discretion.",
+                "changed_text": "The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, nor shall either party have any authority to bind the other in any respect, it being understood and agreed that all orders submitted by the Distributor are subject to automatic acceptance by Principal upon submission.",
+                "explanation": "Changing 'subject to acceptance by Principal in its sole discretion' to 'subject to automatic acceptance by Principal upon submission' contradicts the definition of an independent contractor. Independent contractors typically bear their own risk and have control over how they perform services, including the ability to negotiate terms. Automatic acceptance of orders implies a level of control and obligation by the Principal, blurring the line between independent contractor and employee, potentially violating labor laws regarding misclassification.",
+                "contradicted_law": "Texas Labor Code and IRS guidelines for independent contractor classification",
+                "location": "Paragraph 13"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall be construed in accordance with and governed by the laws of the State of Texas without regard to principles of conflicts of laws.",
+                "changed_text": "This Agreement shall be construed in accordance with and governed by the laws of the State of Texas, specifically excluding all business regulations.",
+                "explanation": "By excluding all business regulations, the altered text creates a legal contradiction because contracts in Texas are inherently subject to business regulations, such as those concerning contract law, sales, and commercial transactions. A blanket exclusion undermines the enforceability and legal standing of the entire agreement. This creates uncertainty around which laws actually govern the contract.",
+                "contradicted_law": "Texas Business and Commerce Code, Texas Contract Law",
+                "location": "Paragraph 17"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Official communication from Distributor or the Principal shall be in written form or by email, acknowledged by the recipient.",
+                "changed_text": "Official communication from Distributor or the Principal shall be by word of mouth or considered received if not responded to, regardless if the recipient is notified.",
+                "explanation": "Replacing 'written form or by email, acknowledged by the recipient' with 'by word of mouth or considered received if not responded to' directly contradicts standard legal practices for contractually binding communications. Contract law generally requires clear, documented communication, especially for important notices. This change introduces significant ambiguity and potential disputes over whether communication was actually received and understood, undermining the enforceability of terms dependent on such communication. Legal statutes require official communication to have acknowledgment from both parties, otherwise they cannot be enforced.",
+                "contradicted_law": "General Contract Law, Texas Rules of Evidence regarding admissible communication",
+                "location": "Paragraph 16"
+            }
+        ]
+    }
+]

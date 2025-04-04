@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ZtoExpressCaymanInc_20160930_F-1_EX-10.10_9752871_EX-10.10_TransportationAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3. Freight and payment method:   (a) Verification of freight: Party A pays freight based on carload rate (such freight includes pick-up charges, door-to-door delivery charges and tax fees).   (b) Party A shall not pay any other charges other than the freight.",
+                "changed_text": "3. Freight and payment method:   (a) Verification of freight: Party A pays freight based on carload rate (such freight includes pick-up charges, door-to-door delivery charges and tax fees).   (b) Party A shall be responsible for all tolls and other road-related charges in addition to the freight.",
+                "explanation": "This change introduces a contradiction. Originally, Party A was only responsible for the freight. The modified clause (b) now states Party A is responsible for tolls and other road charges, which are additional charges beyond the 'freight' defined earlier, thus creating an inconsistency.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5. In order to guarantee rapid transfer of Party A's parcel, Party B shall strictly comply with the following obligations:   (e) Party B shall arrive at the network partners determined by Party A according to the time and route stipulated in this Agreement, and strictly comply with the start time and end time. Unless otherwise approved by Party A, in the event of parcel transfer due to Party B's vehicle delay, Party B shall pay liquidated damages to Party A at the standard rate of RMB500 per trip on the first working day, RMB1,000 per trip on the second working day and RMB2,000 per trip on the third working day (based on the time records on the parcel transfer documents) and such liquidated damages will be deducted from the current month's freight.",
+                "changed_text": "5. In order to guarantee rapid transfer of Party A's parcel, Party B shall strictly comply with the following obligations:   (e) Party B shall arrive at the network partners determined by Party A according to the time and route stipulated in this Agreement, and strictly comply with the start time and end time. In the event of parcel transfer due to Party B's vehicle delay, Party B shall be exempt from paying liquidated damages if the delay is less than 24 hours.",
+                "explanation": "This change directly contradicts the original liquidated damages clause. The original text states specific penalties for delays, while the modified text states that delays less than 24 hours are exempt from these penalties, creating an inconsistency. It's unclear if late arrival is subject to penalty.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10. Party B shall obtain Party A's written consent in the case the early termination of the Agreement. Party B shall pay one-month freight as liquidated damages in case of termination of the Agreement without consent. Within the contract period, Party B shall not charge the freight difference if Party A rents same-level vehicles. Party B shall also compensate Party A's other losses.",
+                "changed_text": "10. Party B shall obtain Party A's written consent in the case the early termination of the Agreement. Party B may terminate this agreement at any point, regardless of consent. Within the contract period, Party B shall not charge the freight difference if Party A rents same-level vehicles. Party B shall also compensate Party A's other losses.",
+                "explanation": "The original text requires written consent for early termination and imposes liquidated damages for termination without consent. The changed text allows Party B to terminate at any point, regardless of consent, creating a direct contradiction. This makes it ambiguous whether liquidated damages apply upon early termination by Party B.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

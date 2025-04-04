@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AudibleInc_20001113_10-Q_EX-10.32_2599586_EX-10.32_Co-BrandingAgreement_MarketingAgreement_InvestmentDistributionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments called for by this Section 5 which are not received within five (5) business days after the date upon which payment is due will bear interest at a rate equal to the lesser of one and one-half percent (1- 1/2%) per month or the maximum legal rate permitted under the controlling Laws.",
+                "changed_text": "Payments called for by this Section 5 which are not received within thirty (30) business days after the date upon which payment is due will bear interest at a rate equal to the lesser of one-quarter of one percent (.25%) per month or the maximum legal rate permitted under the controlling Laws.",
+                "explanation": "The original text specifies a late payment interest after five business days and 1.5% interest. Changing it to 30 days and .25% reduces the incentive for timely payment and could violate regulations regarding reasonable payment terms. Several states have laws regulating late payment fees and interest rates, this change might fall outside the legally allowed parameters.",
+                "contradicted_law": "State laws on late payment fees and interest rates.",
+                "location": "Section 5.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party will, during the Term and for a period of one (1) year thereafter, maintain complete and accurate books and records sufficient to verify its compliance or non-compliance with the provisions of this Section 9 (and, in the case of Company, Section 5.4  [Royalties]).",
+                "changed_text": "Each Party will, during the Term and for a period of ninety (90) days thereafter, maintain complete and accurate books and records sufficient to verify its compliance or non-compliance with the provisions of this Section 9 (and, in the case of Company, Section 5.4  [Royalties]).",
+                "explanation": "Reducing the record-keeping period to 90 days may conflict with statutes of limitations for breach of contract claims, which typically range from 2-6 years depending on the jurisdiction. This would unduly limit the ability of either party to pursue legal remedies for breaches discovered after that 90 day period.",
+                "contradicted_law": "Statutes of limitations for breach of contract claims.",
+                "location": "Section 9.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company will not modify or terminate any coverage without giving at least thirty (30) days' prior written notice to ACSI.",
+                "changed_text": "Company will not modify or terminate any coverage without giving at least five (5) days' prior written notice to ACSI.",
+                "explanation": "Reducing the insurance notification period to five days might not provide sufficient time for ACSI to secure alternative coverage or assess the risks associated with the modification or termination. This could contradict insurance regulations requiring reasonable notice periods for policy changes, especially if ACSI is named as an additional insured.",
+                "contradicted_law": "Insurance regulations regarding notice periods for policy changes.",
+                "location": "Section 11.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Sonos,Inc.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment terms are [*] from the date of acceptance by Sonos of an applicable invoice from IAC in accordance with Exhibit H and/or other applicable SOW, which acceptance may not be unreasonably withheld.",
+                "changed_text": "Payment terms are [*] from the date of acceptance by Sonos of an applicable invoice from IAC in accordance with Exhibit H and/or other applicable SOW, which acceptance may not be unreasonably withheld. If Sonos fails to remit payment within the specified timeframe, a late fee of 50% of the outstanding balance will be automatically applied to the invoice.",
+                "explanation": "Imposing a 50% late fee without proper legal justification may be considered usurious or an unreasonable penalty under California law. Late fees must be reasonably related to the actual damages incurred due to the late payment.",
+                "contradicted_law": "California Civil Code Section 1671 (Liquidated Damages) and potential usury laws.",
+                "location": "Section 7.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Sonos shall notify IAC in writing at least [*] prior to the approximate date on which Sonos intends to EOL the product, including the date and quantity of the last Product Build and any additional requirements for future, anticipated returns.",
+                "changed_text": "Sonos shall notify IAC in writing at least 15 days prior to the approximate date on which Sonos intends to EOL the product, including the date and quantity of the last Product Build and any additional requirements for future, anticipated returns.",
+                "explanation": "Providing only 15 days' notice for End of Life (EOL) products may be insufficient for IAC to manage its inventory and component orders, potentially leading to financial losses. This timeframe may contradict reasonable business practices and create undue hardship on IAC. California law implies a covenant of good faith and fair dealing, which could be breached by such a short notice period.",
+                "contradicted_law": "California Commercial Code and implied covenant of good faith and fair dealing.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "IAC hereby represents and warrants that for a period of [*] after the Manufacturing Date (the \"Warranty Period\"), a Product Unit will be free from defects in manufacturing process and defects in workmanship, will conform to general expectations of performance of wireless audio products and will conform to the Statement of Work for the applicable Product.",
+                "changed_text": "IAC hereby represents and warrants that for a period of 30 days after the Manufacturing Date (the \"Warranty Period\"), a Product Unit will be free from defects in manufacturing process and defects in workmanship, will conform to general expectations of performance of wireless audio products and will conform to the Statement of Work for the applicable Product.",
+                "explanation": "A 30-day warranty for consumer electronics could be deemed unconscionable or inadequate, especially given the implied warranty of merchantability. The Song-Beverly Consumer Warranty Act in California requires a reasonable warranty period, and 30 days may not be considered reasonable for complex electronic devices.",
+                "contradicted_law": "Song-Beverly Consumer Warranty Act (California Civil Code sections 1790-1795.8)",
+                "location": "Section 10.2"
+            }
+        ]
+    }
+]

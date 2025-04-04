@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OPERALTD_04_30_2020-EX-4.14-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.1 PC Financial shall pay a monthly Fee to Mobimagic in accordance with this Agreement and within the timeline as permitted under the prevailing India regulations.",
+                "changed_text": "4.1 PC Financial shall pay a monthly Fee to Mobimagic in accordance with this Agreement and within 180 days of invoice.",
+                "explanation": "The original text states payment shall be made within the timeline as permitted under prevailing India regulations. The modification sets a fixed 180-day payment term. According to the Micro, Small and Medium Enterprises Development (MSMED) Act, 2006 in India, if the buyer and seller have a written agreement, the payment period cannot exceed 45 days from the date of acceptance or the date of deemed acceptance. Therefore, setting the payment timeline to 180 days is a legal contradiction.",
+                "contradicted_law": "Micro, Small and Medium Enterprises Development (MSMED) Act, 2006, India",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "6.1 Subject to the terms and conditions of this Agreement. PC Financial shall pay to Mobimagic a fixed service fee in the amount of 970,000 United States Dollars (USD 970,000) for each month (the \"Fee\") within the timeline as permitted under the prevailing India regulations. It is stipulated in this Agreement that Mobimagic will send an invoice to PC Financial on monthly basis according to the progress of the service. After PC Financial confirms that invoice contents are correct, PC Financial shall pay within 45 days after confirming thus.",
+                "changed_text": "6.1 Subject to the terms and conditions of this Agreement. PC Financial shall pay to Mobimagic a fixed service fee in the amount of 970,000 United States Dollars (USD 970,000) for each month (the \"Fee\"). It is stipulated in this Agreement that Mobimagic will send an invoice to PC Financial on monthly basis according to the progress of the service. After PC Financial confirms that invoice contents are correct, PC Financial shall pay within 90 days after confirming thus.",
+                "explanation": "The original text specifies that PC Financial shall pay within 45 days after confirming the invoice contents. This aligns with the MSMED Act in India. However, the modified text extends the payment period to 90 days. As the payment period cannot exceed 45 days under the MSMED Act, this modification creates a legal contradiction, potentially rendering the payment term unenforceable.",
+                "contradicted_law": "Micro, Small and Medium Enterprises Development (MSMED) Act, 2006, India",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such obligations will survive the expiration of this Agreement for a period of five (5) years.",
+                "changed_text": "Such obligations will survive the expiration of this Agreement for a period of one (1) year.",
+                "explanation": "While there isn't a specific law mandating a 5-year confidentiality period, reducing it to 1 year could be deemed unreasonably short depending on the nature of the Confidential Information involved, particularly trade secrets or sensitive business data. Indian law, particularly concerning trade secrets, requires reasonable measures to protect confidentiality. A one-year period might be deemed insufficient to provide adequate protection, contradicting the implied duty to safeguard such information for a reasonable duration based on the information's value and lifespan.",
+                "contradicted_law": "Implied Duty of Confidentiality under Indian Contract Law and considerations for reasonable protection of Trade Secrets",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

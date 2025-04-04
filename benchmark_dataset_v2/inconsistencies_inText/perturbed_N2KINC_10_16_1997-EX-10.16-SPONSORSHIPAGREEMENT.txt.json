@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "N2KINC_10_16_1997-EX-10.16-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Sponsor will make payments to Excite according to the                   following schedule:\n\n                   DATE                                  PAYMENT                       ----\nEffective Date                          [****]\nCommencement Date                       [****]\n12/31/97                                [****]\n\n1/1/98                                  [****]\n4/1/98                                  [****]\n7/1/98                                  [****]\n10/1/98                                 [****]\n1/1/99                                  [****]\n4/1/99                                  [****]\n7/1/98                                  [****]",
+                "changed_text": "Sponsor will make payments to Excite according to the                   following schedule:\n\n                   DATE                                  PAYMENT                       ----\nEffective Date                          [****]\nCommencement Date                       [****]\n12/31/97                                [****]\n\n1/1/98                                  [****]\n4/1/98                                  [****]\n7/1/98                                  [****]\n10/1/98                                 [****]\n1/1/99                                  [****]\n4/1/99                                  [****]\n7/1/98                                  [****]\n\nAll payments are due within 30 days of the invoice date, unless otherwise specified above.",
+                "explanation": "This change introduces an in-text contradiction by adding a general payment term that all payments are due within 30 days of the invoice date, while the schedule lists specific dates. This conflicts with the pre-defined dates, creating ambiguity regarding the actual due dates and enforceability of the payment schedule.",
+                "location": "Section 7(e)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Payments of shared gross margin will be due to Excite within                   thirty (30) days of the end of each calendar quarter in which                   the revenue is recognized by Sponsor.",
+                "changed_text": "Payments of shared gross margin will be due to Excite within sixty (60) days of the end of each calendar quarter in which the revenue is recognized by Sponsor.",
+                "explanation": "This change modifies the payment deadline for shared gross margins, creating a direct contradiction with the general payment term introduced in Section 7(e) stipulating all invoices are due within 30 days. This creates confusion over which payment term applies to the shared gross margin revenue, leading to potential disputes.",
+                "location": "Section 7(g)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "All payments that have accrued prior to the termination or                   expiration of this Agreement will be payable in full within                   thirty (30) days thereof.",
+                "changed_text": "All payments that have accrued prior to the termination or                   expiration of this Agreement will be payable in full within fifteen (15) days thereof.",
+                "explanation": "The modified text creates an in-text contradiction by changing the payment deadline upon termination or expiration of the agreement from thirty (30) to fifteen (15) days. This conflicts with Section 7(e) where all payments are due within 30 days of the invoice date, regardless of the termination of this agreement. It introduces potential disputes over the applicable payment deadline in the event of contract termination or expiration.",
+                "location": "Section 11(d)"
+            }
+        ]
+    }
+]

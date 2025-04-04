@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "2.1 The Executive's employment with the Company will commence on the Commencement Date and shall continue, subject to the remaining terms of this Agreement, until terminated by either party giving the other the following minimum advance written notice: 2.1.1 6 weeks' notice;\n\n2.1.2 such other longer period as required by law.",
+                "changed_text": "2.1 The Executive's employment with the Company will commence on the Commencement Date and shall continue, subject to the remaining terms of this Agreement, until terminated by either party giving the other the following minimum advance written notice: 2.1.1 1 week's notice;\n\n2.1.2 such other longer period as required by law.",
+                "explanation": "In the UK, where this contract applies, statutory minimum notice periods increase with length of service. While 1 week's notice might be compliant for employees with very short service, it is insufficient and contradicts legal requirements for someone whose employment commenced in 2013 as stated in section 2.2. They would be entitled to at least one week per year of service, up to a maximum of 12 weeks. Therefore, stipulating 1 week's notice for all scenarios introduces a legal contradiction.",
+                "contradicted_law": "Employment Rights Act 1996 (UK)",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "17.1 The Company may, in its sole and absolute discretion, terminate the Executive's employment under this Agreement at any time and with immediate effect by notifying the Executive that the Company is exercising its right under this clause 17 and that it will make a payment in l ieu of  not ice (\"PILON\") to the Executive. The Executive's employment will terminate immediately and any PILON due to the Executive in accordance with the provisions of this clause 17 will be paid within 28 days. The PILON will be equal to the basic salary (as at the Termination Date) which the Executive would have been entitled to receive under this Agreement during the notice period referred to at clause 2 (or, if notice has already been given, during the remainder of the notice period) less deductions required by law.",
+                "changed_text": "17.1 The Company may, in its sole and absolute discretion, terminate the Executive's employment under this Agreement at any time and with immediate effect by notifying the Executive that the Company is exercising its right under this clause 17 and that it will make a payment in l ieu of  not ice (\"PILON\") to the Executive. The Executive's employment will terminate immediately and any PILON due to the Executive in accordance with the provisions of this clause 17 will be paid within 90 days. The PILON will be equal to the basic salary (as at the Termination Date) which the Executive would have been entitled to receive under this Agreement during the notice period referred to at clause 2 (or, if notice has already been given, during the remainder of the notice period) less deductions required by law.",
+                "explanation": "In the UK, there is a statutory requirement for employers to pay wages and outstanding payments, including PILON, promptly after termination. While there is no explicit legal deadline stated in days, a delay of 90 days in paying PILON would be considered unreasonable and could lead to a breach of contract claim and potential penalties for late payment of wages. A reasonable timeframe is typically within a month, coinciding with the usual pay cycle.",
+                "contradicted_law": "Employment Rights Act 1996 (UK) - implied terms of prompt payment",
+                "location": "Section 17.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "21. Post Termination Restrictions During the term of employment and for one (1) year thereafter, the Executive will not directly or indirectly, either themselves or through others, encourage or solicit any employee of the Company to leave the Company for any reason. This obligation shall not affect any responsibility the Executive has as an employee of the Company with respect to the bona fide hiring and firing of Company personnel.",
+                "changed_text": "21. Post Termination Restrictions During the term of employment and for two (2) years thereafter, the Executive will not directly or indirectly, either themselves or through others, encourage or solicit any employee of the Company to leave the Company for any reason. This obligation shall not affect any responsibility the Executive has as an employee of the Company with respect to the bona fide hiring and firing of Company personnel.",
+                "explanation": "While non-solicitation clauses are generally enforceable in the UK, a two-year restriction may be deemed unreasonable and unenforceable depending on the specific facts and the seniority/influence of the employee. UK courts will scrutinize the length and scope of post-termination restrictions, and if they are deemed to be wider than reasonably necessary to protect the employer's legitimate business interests, they will be struck down. A blanket two-year ban, without considering the executive's role or the specific risks, is likely to be seen as an unlawful restraint of trade.",
+                "contradicted_law": "Restraint of Trade Doctrine (UK Common Law)",
+                "location": "Section 21"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ELECTRAMECCANICAVEHICLESCORP.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "EMV has the right to examine the goods on arrival and has Fifteen (15) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods, or non-conformity to the Specifications. The notice must set forth the basis of the claim in reasonable detail. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods.",
+                "changed_text": "EMV has the right to examine the goods on arrival and has Five (5) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods, or non-conformity to the Specifications. The notice must set forth the basis of the claim in reasonable detail. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods.",
+                "explanation": "Reducing the claim notification period to 5 business days may be unreasonably short, especially for complex manufacturing defects, and can potentially conflict with the implied warranty of merchantability under the United Nations Convention on Contracts for the International Sale of Goods (CISG), which may grant a reasonable time for inspection and notification depending on the nature of the goods and defect. Some jurisdictions interpret 'reasonable time' to be longer than 5 days for complex products.",
+                "contradicted_law": "United Nations Convention on Contracts for the International Sale of Goods (CISG)",
+                "location": "5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement in the event of a material breach of the Agreement provided such breach is not remedied within _sixty_ (_60_) calendar days following delivery of notice of such breach.",
+                "changed_text": "Either party may terminate this Agreement in the event of a material breach of the Agreement provided such breach is not remedied within _thirty_ (_30_) calendar days following delivery of notice of such breach.",
+                "explanation": "Reducing the cure period for a material breach to 30 days may be deemed unreasonably short, especially for complex manufacturing agreements. Some jurisdictions or legal principles, such as good faith and fair dealing, might require a longer, more reasonable period to remedy significant breaches, potentially conflicting with the contract's termination clause.",
+                "contradicted_law": "Principles of good faith and fair dealing in contract law",
+                "location": "8.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notices under this Agreement shall be sufficient only if personally delivered, delivered by a major commercial rapid delivery courier service, or E- mail and other digital communication system , with return receipt requested, to a party at its address first set forth above or as amended by notice pursuant to this subsection. If not received sooner, notice by any of these methods shall be deemed to occur _seven_(7) business days after deposit.",
+                "changed_text": "Notices under this Agreement shall be sufficient only if personally delivered, delivered by a major commercial rapid delivery courier service, or E- mail and other digital communication system , with return receipt requested, to a party at its address first set forth above or as amended by notice pursuant to this subsection. If not received sooner, notice by any of these methods shall be deemed to occur _fifteen_(15) business days after deposit.",
+                "explanation": "Extending the deemed receipt time for notices to 15 business days could violate the principle of reasonableness, especially in contracts requiring timely actions. This extended period may conflict with legal interpretations of 'reasonable notice' or 'prompt action' in commercial law, potentially rendering certain contractual obligations unenforceable due to the delay in notice.",
+                "contradicted_law": "Principle of reasonableness in contract law, commercial law standards for timely notice",
+                "location": "10.2"
+            }
+        ]
+    }
+]

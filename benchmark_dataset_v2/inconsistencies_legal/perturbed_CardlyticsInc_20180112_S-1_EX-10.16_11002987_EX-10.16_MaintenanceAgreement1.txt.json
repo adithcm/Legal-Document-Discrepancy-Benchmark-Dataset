@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "16.4 Bank of America shall pay Supplier for all services and applicable taxes invoiced In arrears in accordance with the terms of this Agreement, within sixty (60) calendar days of the date of receipt of a valid and correct invoice by Bank of America. Bank of America reserves the right to pay prior to the expiration of the sixty (60) day period. If Bank of America pays within thirty (30) calendar days of receipt of a valid invoice by Bank of America, a discount of two percent (2%) will be subtracted from the total invoice amount for Services.",
+                "changed_text": "16.4 Bank of America shall pay Supplier for all services and applicable taxes invoiced In arrears in accordance with the terms of this Agreement, within ninety (90) calendar days of the date of receipt of a valid and correct invoice by Bank of America. Bank of America reserves the right to pay prior to the expiration of the ninety (90) day period. If Bank of America pays within seventy-five (75) calendar days of receipt of a valid invoice by Bank of America, a discount of two percent (2%) will be subtracted from the total invoice amount for Services.",
+                "explanation": "The original text specifies a 60-day payment term, and a 2% discount for payments made within 30 days. The modified text increases the payment term to 90 days, and offers a discount for payments within 75 days, which creates non-compliance with Prompt Payment laws. This change introduces inconsistencies by lengthening the standard payment terms.",
+                "contradicted_law": "Prompt Payment laws (vary by state, but generally require payment within 30-45 days for commercial transactions).",
+                "location": "Section 16.0"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "C. For Class 2 Errors, Supplier shall take reasonable steps to provide a Correction or a workaround reasonable in Bank of America's judgment by the opening of business on the second Business Day after Bank of America reports the Error. These steps shall include assigning fully- qualified",
+                "changed_text": "C. For Class 2 Errors, Supplier shall take reasonable steps to provide a Correction or a workaround reasonable in Bank of America's judgment within seven (7) Business Days after Bank of America reports the Error. These steps shall include assigning fully- qualified",
+                "explanation": "The original text stipulates that for Class 2 errors, a correction or workaround should be provided within two business days. The modified version extends this to seven business days, potentially causing operational disruptions for Bank of America and possibly violating industry standards for timely issue resolution.",
+                "contradicted_law": "Industry standards for software maintenance and support SLAs, which often require faster response times for critical errors.",
+                "location": "SCHEDULE D"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Supplier shall notify Bank of America immediately (within 24 hours or as soon thereafter as practicable) following discovery of any suspected breach or compromise of the security, confidentiality, or integrity of nonpublic personal information of any current or former Bank of America employee or customer (''Affected Persons\") or otherwise provided to Supplier by Bank of America under this agreement through the defined security escalation channel of Bank of America, the Bank of America Incident Response Team (\"InfoSafe\") by calling (800) 207-2322, option 1.",
+                "changed_text": "Supplier shall notify Bank of America within seventy-two (72) hours following discovery of any suspected breach or compromise of the security, confidentiality, or integrity of nonpublic personal information of any current or former Bank of America employee or customer (''Affected Persons\") or otherwise provided to Supplier by Bank of America under this agreement through the defined security escalation channel of Bank of America, the Bank of America Incident Response Team (\"InfoSafe\") by calling (800) 207-2322, option 1.",
+                "explanation": "The original text requires immediate notification (within 24 hours) of a security breach. The modified text changes this to within 72 hours, delaying the reporting of potential data breaches.  This is not compliance of timelines, and this delay is conflict with requirements.",
+                "contradicted_law": "Data breach notification laws (vary by state, but generally require notification within 24-72 hours of discovery).",
+                "location": "SCHEDULE E"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ELECTRAMECCANICAVEHICLESCORP.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5.1.2 Manufacturer will invoice EMV for Products net ten (10) days from when the parties sign the Quality Evaluation Form to confirm delivery of Products. 5.1.3 EMV shall pay 70% of total amount of a Purchase Order within ten (10) days of receipt of Manufacturer's invoice as provided in Section 5.1.2 above.",
+                "changed_text": "5.1.2 Manufacturer will invoice EMV for Products net ten (10) days from when the parties sign the Quality Evaluation Form to confirm delivery of Products. 5.1.3 EMV shall pay 70% of total amount of a Purchase Order within thirty (30) days of receipt of Manufacturer's invoice as provided in Section 5.1.2 above.",
+                "explanation": "This change introduces a conflict by stating that EMV has 30 days to pay the invoice in section 5.1.3, while section 5.1.2 implies that the payment should be received much sooner due to the 'net ten (10) days' invoicing term, creating ambiguity around the payment deadline.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "8.1 Term   This Agreement shall have a term of four (4) years from the effective date first set forth above, and shall automatically renew for additional one year terms unless earlier terminated by either party.",
+                "changed_text": "8.1 Term   This Agreement shall have a term of four (4) years from the effective date first set forth above, and shall automatically renew for additional two year terms unless earlier terminated by either party.",
+                "explanation": "This change creates a contradiction by changing the auto-renewal term from one year to two years, creating uncertainty in the length of the contract term after the initial four years.",
+                "location": "Section 8.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.2 Notices   Notices under this Agreement shall be sufficient only if personally delivered, delivered by a major commercial rapid delivery courier service, or E- mail and other digital communication system , with return receipt requested, to a party at its address first set forth above or as amended by notice pursuant to this subsection. If not received sooner, notice by any of these methods shall be deemed to occur _seven_(7) business days after deposit.",
+                "changed_text": "10.2 Notices   Notices under this Agreement shall be sufficient only if personally delivered, delivered by a major commercial rapid delivery courier service, or E- mail and other digital communication system , with return receipt requested, to a party at its address first set forth above or as amended by notice pursuant to this subsection. If not received sooner, notice by any of these methods shall be deemed to occur _fourteen_(14) business days after deposit.",
+                "explanation": "This change creates a conflict in the amount of days that it takes for the notice to be officially deemed as received, the original says seven days and the new text says fourteen, causing a contradiction.",
+                "location": "Section 10.2"
+            }
+        ]
+    }
+]

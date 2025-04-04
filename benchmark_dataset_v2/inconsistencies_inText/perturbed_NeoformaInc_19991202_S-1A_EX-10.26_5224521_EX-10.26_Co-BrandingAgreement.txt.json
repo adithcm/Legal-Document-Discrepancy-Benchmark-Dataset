@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.7 PAYMENT TERMS. Except as otherwise provided in this Agreement, each Party shall provide the other Party with all amounts due under this Agreement for the prior calendar quarter within 30 days after the end of each calendar quarter during the Term. Each payment shall be accompanied by a statement detailing the amount of applicable gross revenue received, the calculation of the amount due to the other Party and the amount of the payment accompanying such statement. All payments due to either Party hereunder shall be made in immediately available U.S. funds, without set-off or counterclaim, less any taxes, duties, charges, withholdings, restrictions or conditions of any nature imposed or levied by any governmental taxing or other authority.",
+                "changed_text": "10.7 PAYMENT TERMS. Except as otherwise provided in this Agreement, each Party shall provide the other Party with all amounts due under this Agreement for the prior calendar quarter within 60 days after the end of each calendar quarter during the Term. Each payment shall be accompanied by a statement detailing the amount of applicable gross revenue received, the calculation of the amount due to the other Party and the amount of the payment accompanying such statement. All payments due to either Party hereunder shall be made in immediately available U.S. funds, without set-off or counterclaim, less any taxes, duties, charges, withholdings, restrictions or conditions of any nature imposed or levied by any governmental taxing or other authority.",
+                "explanation": "Changing the payment term from '30 days' to '60 days' introduces a contradiction. This creates uncertainty about the exact deadline for payments, as different sections now provide conflicting payment timeframes, potentially leading to disputes about which deadline is correct.",
+                "location": "Section 10.7"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.10 INTEREST. All payments not paid by the date such payments are due shall bear interest from the due date to the date payments are actually paid at the rate of the lower of (a) 1% per month or (b) the maximum rate permitted by law.",
+                "changed_text": "10.10 INTEREST. All payments not paid by the date such payments are due shall bear interest from the due date to the date payments are actually paid at the rate of the lower of (a) 1% per month or (b) the maximum rate permitted by law. However, no interest shall be applied unless payment is more than 90 days overdue.",
+                "explanation": "Adding the phrase 'However, no interest shall be applied unless payment is more than 90 days overdue' introduces a contradiction to the interest policy. It creates uncertainty about the exact conditions under which interest accrues, as one section states interest accrues immediately after the due date while the other states interest will be not charged until 90 days, potentially leading to disputes about when interest payment should start.",
+                "location": "Section 10.10"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "11.1 AUTOMATIC RENEWAL. This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either Party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a \"Termination Notice\").",
+                "changed_text": "11.1 AUTOMATIC RENEWAL. This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either Party notifies the other at least 60 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a \"Termination Notice\").",
+                "explanation": "The contract originally stated 30 days for the renewal notice. By changing to 60 days, there is now a contradiction on how many days should be allowed. This creates uncertainty about the exact timeline to notify.",
+                "location": "Section 11.1"
+            }
+        ]
+    }
+]

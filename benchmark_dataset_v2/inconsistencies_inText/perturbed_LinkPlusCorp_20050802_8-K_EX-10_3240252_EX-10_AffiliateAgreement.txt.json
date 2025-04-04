@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.5 Payments: As defined in section 3.3 above, selling parties may owe the other party some portion of the Proceeds. The payment of amounts owed shall be performed as follows:\n\n                  3.5.1    Payments due shall be made within 45 days of the                            close of each calendar quarter.\n\n                  3.5.2    Payments that are not received within thirty (30)                            days after their due date will bear interest at the                            rate of twelve percent (12.0%) per annum compounded                            monthly from the due date until such payment is                            received.",
+                "changed_text": "3.5 Payments: As defined in section 3.3 above, selling parties may owe the other party some portion of the Proceeds. The payment of amounts owed shall be performed as follows:\n\n                  3.5.1    Payments due shall be made within 45 days of the                            close of each calendar quarter.\n\n                  3.5.2    Payments that are not received within sixty (60) days after their due date will bear interest at the                            rate of twelve percent (12.0%) per annum compounded                            monthly from the due date until such payment is                            received.",
+                "explanation": "This change introduces a contradiction. Section 3.5.1 states payments are due within 45 days of the quarter's close, but section 3.5.2 originally stated that interest accrues after 30 days of their due date. Now section 3.5.2 states that interest will accrue after 60 days of their due date. This means that the party has 45 days to make payment, however, the party will not incur interest until day 60, this creates a contradiction.",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.5.3    Payments not received within sixty (60) days after                            their due date will be considered a material breach                            of this Agreement and the party due payment may                            pursue any and all legal action to recover the                            payment and reasonable legal fees incurred in the                            pursuit of said payment.",
+                "changed_text": "3.5.3    Payments not received within ninety (90) days after their due date will be considered a material breach of this Agreement and the party due payment may pursue any and all legal action to recover the payment and reasonable legal fees incurred in the pursuit of said payment.",
+                "explanation": "This change introduces a contradiction. Earlier, the contract stated that interest would accrue after 60 days of non-payment, after the initial 45 day period of payment. Now, this modified section states that non-payment is not considered a breach until 90 days have passed. This contradicts section 3.5.2, which implies action can be taken, or at least interest accrues, after 60 days. This creates uncertainty about when a breach actually occurs, leading to disputes.",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "7.2      All actions, cases, suits and proceedings in connection with                   this Agreement shall be brought in Maryland. All persons                   affected by this Agreement specifically consent to the                   personal jurisdiction of and venue in said courts. No action,                   case, suit or proceeding, regardless of form, arising out of                   or related to this Agreement, may be brought by either party                   more than one (1) year after the cause of action has arisen,                   or in the case of nonpayment, more than two (2) years from the                   date of the last payment.",
+                "changed_text": "7.2      All actions, cases, suits and proceedings in connection with                   this Agreement shall be brought in Maryland. All persons                   affected by this Agreement specifically consent to the                   personal jurisdiction of and venue in said courts. No action,                   case, suit or proceeding, regardless of form, arising out of                   or related to this Agreement, may be brought by either party                   more than two (2) years after the cause of action has arisen,                   or in the case of nonpayment, more than one (1) years from the                   date of the last payment.",
+                "explanation": "This change introduces a contradiction by reversing the limitations period for general actions and actions of non-payment. The original text stated a one-year limit for general actions and a two-year limit for non-payment actions. Now, it states a two-year limit for general actions and a one-year limit for non-payment actions. This creates confusion and uncertainty, especially in cases involving both general breaches and non-payment, making it unclear which limitation period applies and when legal action must be initiated.",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

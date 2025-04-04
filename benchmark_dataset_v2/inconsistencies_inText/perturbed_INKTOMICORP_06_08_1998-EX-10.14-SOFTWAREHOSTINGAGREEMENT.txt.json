@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "INKTOMICORP_06_08_1998-EX-10.14-SOFTWAREHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.2  Except as set forth in Section 4.1(b) above, Inktomi shall supply to Microsoft written invoices for all amounts due under this Agreement, and payments will be due net [*] ([*]) days from Microsoft's receipt of such invoice. Inktomi shall bear sole responsibility for all expenses incurred in connection with the performance of the Services, unless otherwise set forth herein or agreed to in writing by Microsoft.",
+                "changed_text": "4.2  Except as set forth in Section 4.1(b) above, Inktomi shall supply to Microsoft written invoices for all amounts due under this Agreement, and payments will be due net [*] ([*]) days from Microsoft's receipt of such invoice. However, for invoices exceeding $[*], payment will be due within 15 days of receipt. Inktomi shall bear sole responsibility for all expenses incurred in connection with the performance of the Services, unless otherwise set forth herein or agreed to in writing by Microsoft.",
+                "explanation": "This change introduces a contradiction in the payment terms. The original text states that all invoices are due net [*] ([*]) days. The modified text adds a condition where invoices exceeding $[*] are due within 15 days, contradicting the original payment term. This creates uncertainty regarding the payment deadline for high-value invoices.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.1 Inktomi may terminate this Agreement without cause upon one year's prior written notice, provided that such notice may not be given prior to the second anniversary of the Launch Date.",
+                "changed_text": "10.1 Inktomi may terminate this Agreement without cause upon one year's prior written notice, provided that such notice may not be given prior to the second anniversary of the Launch Date. However, in the event of a change in control of Inktomi, Inktomi may terminate this agreement with only 30 days written notice.",
+                "explanation": "This perturbation adds a conflicting term regarding termination by Inktomi. Section 10.1 originally states Inktomi may terminate with one year's notice after the second anniversary. The added clause allows termination with only 30 days' notice if there is a change in control. This introduces uncertainty and contradiction concerning the length of notice required for termination by Inktomi.",
+                "location": "Section 10.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "12.5  Except as expressly permitted hereunder or in Exhibit F hereto, neither party may transfer, assign or sublicense this Agreement, or any rights or obligations hereunder, whether by contract or by operation of law, except with the express written consent of the other party, and any attempted transfer, assignment or sublicense by a party in violation of this Section shall be void.",
+                "changed_text": "12.5  Except as expressly permitted hereunder or in Exhibit F hereto, neither party may transfer, assign or sublicense this Agreement, or any rights or obligations hereunder, whether by contract or by operation of law, except with the express written consent of the other party, and any attempted transfer, assignment or sublicense by a party in violation of this Section shall be void. However, Microsoft may assign this agreement to any of its affiliates without Inktomi's consent.",
+                "explanation": "The modified section grants Microsoft the right to assign the agreement to any of its affiliates without requiring Inktomi's consent, which contradicts the general restriction on assignment without consent stated in the original text. This creates a contradiction about assignment rights, creating legal uncertainty.",
+                "location": "Section 12.5"
+            }
+        ]
+    }
+]

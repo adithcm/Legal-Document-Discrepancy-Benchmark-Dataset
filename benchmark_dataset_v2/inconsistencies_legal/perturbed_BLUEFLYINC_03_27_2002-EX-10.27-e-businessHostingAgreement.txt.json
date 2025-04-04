@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLUEFLYINC_03_27_2002-EX-10.27-e-businessHostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Service Option Attachment will renew automatically for an additional term equal in duration to the previous term of the applicable Service Option Attachment unless either party notifies the other party in writing at least ninety (90) days prior to the end of the then-current term for the applicable Service Option Attachment that it has elected to terminate such Service Option Attachment.",
+                "changed_text": "Each Service Option Attachment will renew automatically for an additional term equal in duration to the previous term of the applicable Service Option Attachment unless either party notifies the other party in writing at least fifteen (15) days prior to the end of the then-current term for the applicable Service Option Attachment that it has elected to terminate such Service Option Attachment.",
+                "explanation": "The original text requires 90 days' notice for termination, which is a reasonable timeframe. Reducing it to 15 days could be considered an unreasonably short timeframe, potentially violating laws requiring fair notice periods for contract termination, depending on the specific jurisdiction and the nature of the services provided. This is especially true if the services are critical to business operations, as 15 days may not be sufficient time to find a replacement provider.",
+                "contradicted_law": "Potentially contradicts state laws regarding fair notice and reasonable timeframes for contract termination, depending on jurisdiction and context.",
+                "location": "3.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Customer or IBM may terminate this Agreement for material breach of this Agreement by the other upon written notice containing the specific nature and dates of the material breach. The breaching party will have thirty (30) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within seven (7) business days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice; provided, however, it is understood that in the event IBM has so breached this Agreement IBM shall not be entitled to recover the early termination charges described in Section 3.4(b) below.",
+                "changed_text": "Customer or IBM may terminate this Agreement for material breach of this Agreement by the other upon written notice containing the specific nature and dates of the material breach. The breaching party will have ten (10) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within two (2) business days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice; provided, however, it is understood that in the event IBM has so breached this Agreement IBM shall not be entitled to recover the early termination charges described in Section 3.4(b) below.",
+                "explanation": "Reducing the cure period for a material breach from 30 days to 10 days, and for non-payment from 7 to 2 days, is problematic. Such short cure periods could be deemed unreasonable, particularly for complex breaches requiring significant investigation and remediation. Depending on the state, this may violate regulations or common law principles mandating a reasonable opportunity to cure a breach before termination, especially where substantial investments or dependencies are involved.",
+                "contradicted_law": "Potentially contradicts state laws regarding reasonable cure periods for breaches of contract.",
+                "location": "3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Neither party will bring a legal action related to this Agreement more than two years after the cause of action accrued.",
+                "changed_text": "Neither party will bring a legal action related to this Agreement more than six months after the cause of action accrued.",
+                "explanation": "Reducing the statute of limitations from two years to six months is problematic because it limits the time in which a party can bring a lawsuit, violating State laws. Most states have a longer minimum statute of limitations for contract-related claims.",
+                "contradicted_law": "Violates state statutes of limitations for breach of contract claims.",
+                "location": "14.14"
+            }
+        ]
+    }
+]

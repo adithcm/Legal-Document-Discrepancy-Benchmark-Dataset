@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WELLSFARGOMORTGAGEBACKEDSECURITIES2006-6TRUST_05_11_2006-EX-10.3-Yield Maintenance Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The definitions contained in the 2000 ISDA Definitions as published by the International Swaps and Derivatives Association, Inc., are incorporated into this Confirmation. In the event of any inconsistency between any of the definitions listed above and this Confirmation, this Confirmation will govern.",
+                "changed_text": "The definitions contained in the 2000 ISDA Definitions as published by the International Swaps and Derivatives Association, Inc., may be considered but are not binding for this Confirmation. In the event of any perceived inconsistency between any of the definitions listed above and this Confirmation, the UBS AG interpretation will govern.",
+                "explanation": "This change undermines the reliance on standard ISDA definitions, creating ambiguity. ISDA definitions are widely accepted in the financial industry and altering their applicability introduces uncertainty in enforcing the contract. Specifically, giving UBS AG interpretive power allows them to circumvent standard definitions, potentially to the detriment of the Counterparty. This introduces a legal contradiction.",
+                "contradicted_law": "Breach of contract, potentially violating principles of good faith and fair dealing depending on how UBS AG interprets the conflicting terms.",
+                "location": "Beginning of document, setting precedence for all following definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "If a Ratings Event occurs with respect to UBS AG, then UBS AG shall, at       its own expense, (i) assign this Transaction hereunder to a third party within thirty (30) days of such Ratings Event that meets or exceeds, or as       to which any applicable credit support provider meets or exceeds, the       Approved Rating Threshold (as defined below) on terms substantially       similar to this Confirmation or (ii) deliver collateral acceptable in a       form and amount acceptable to Fitch Ratings (\"Fitch\") and Moody's       Investors Service Inc. (\"Moody's) within thirty (30) days of such Ratings       Event and subject to written confirmation from Fitch and Moody's that       delivery of such collateral in the context of such downgrade will not       result in a withdrawal, qualification or downgrade of the then current       ratings assigned to the Certificates. For the avoidance of doubt, a       downgrade of the rating on Wells Fargo Mortgage Backed Securities 2006-6       Trust, Mortgage Pass-Through Certificates, Series 2006-6, Class I-A-22       (the \"Certificates\") could occur in the event that UBS AG does not post       sufficient collateral.",
+                "changed_text": "If a Ratings Event occurs with respect to UBS AG, then UBS AG shall, at its discretion, (i) attempt to assign this Transaction hereunder to a third party within a reasonable timeframe of such Ratings Event or (ii) deliver collateral deemed necessary by UBS AG's internal risk assessment, without necessarily seeking confirmation from Fitch and Moody's. The obligation to avoid a downgrade of the rating on the Certificates is not guaranteed.",
+                "explanation": "This change makes UBS AG's obligation discretionary, undermining the security that the original clause provided to the Counterparty. The term 'reasonable timeframe' is vague compared to 'thirty (30) days'. Removing the requirement for Fitch and Moody's confirmation allows UBS AG to unilaterally determine the adequacy of collateral, creating a conflict. The original agreement sought to prevent a ratings downgrade of the certificates due to UBS AG's financial standing. This undermines that guarantee.",
+                "contradicted_law": "Breach of contract, potentially violating principles of good faith and fair dealing. Could also lead to liability if the downgrade causes damages to the Counterparty.",
+                "location": "Additional Termination Events section"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Each party constitutes an \"eligible contract participant\" as such term is defined in Section 1(a)12 of the Commodity Exchange Act, as amended.",
+                "changed_text": "Each party declares itself to be what they perceive as an \"eligible contract participant\", despite the term defined in Section 1(a)12 of the Commodity Exchange Act, as amended.",
+                "explanation": "By stating that each party 'declares itself' to be an eligible contract participant, despite the actual definition in the CEA, the contract allows for self-certification without meeting the statutory requirements. This creates a conflict as it enables parties to potentially bypass necessary regulations and protections afforded only to true ECPs. The original contract ensures that both parties meet certain financial and sophistication thresholds as defined by law.",
+                "contradicted_law": "Commodity Exchange Act (CEA) - Section 1(a)12 specifies strict criteria for ECP status, which are undermined by this self-declaration clause.",
+                "location": "Relationship Between Parties section"
+            }
+        ]
+    }
+]

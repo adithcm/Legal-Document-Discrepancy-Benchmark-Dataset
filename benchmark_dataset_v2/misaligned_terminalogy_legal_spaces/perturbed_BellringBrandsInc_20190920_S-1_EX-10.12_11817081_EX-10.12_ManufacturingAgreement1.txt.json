@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement1.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "All shipments of the Products shall be by common carrier, F.O.B. the Heritage [***] Facility or the Jasper Facility, as indicated by Premier in the Purchase Order.",
+                "changed_text": "All shipments of the Products shall be by common carrier, shipping costs prepaid to Premier's designated location.",
+                "explanation": "Changing 'F.O.B.' (Free On Board) to prepaid shipping contradicts standard shipping definitions. F.O.B. designates when ownership and liability transfer, while prepaid shipping implies the seller covers the transport costs and retains liability until delivery.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Article 2",
+                "location": "Section 3(a)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The relationship of Heritage to Premier under this Agreement shall be that of an independent contractor and no agency or employment relationship shall be implied by this Agreement. Accordingly, Heritage shall be responsible for payment of all taxes including federal, state and local taxes arising out of Heritage's activities under this Agreement, including, but not limited to, federal and state income tax, social security tax, unemployment insurance tax, and any other taxes or business license fees as required.",
+                "changed_text": "The relationship of Heritage to Premier under this Agreement shall be that of an independent contractor, though Premier shall retain significant control over Heritage's manufacturing processes. Heritage shall still be responsible for its own income taxes but shall remit payroll taxes to Premier, who will handle worker's compensation.",
+                "explanation": "By stating Heritage is an independent contractor yet Premier handles worker's compensation and retains 'significant control,' the contract introduces an internal contradiction. Independent contractors are typically responsible for their own worker's compensation, and 'significant control' can blur the line between independent contractor and employee status, which is a key element in many legal definitions.",
+                "contradicted_law": "IRS guidelines on independent contractor vs. employee classification; State labor laws regarding worker's compensation",
+                "location": "Section 20"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Each Party recognizes that in the performance of this Agreement, it may acquire, directly or indirectly from the other Party, proprietary, confidential, trade secret, or information that is not otherwise available to the general public (\"Confidential Information\"). Each Party shall maintain control of all Confidential Information it receives and not disclose it or use it for any other purpose other than to perform its obligations under this Agreement. Each Party shall return the Confidential Information, along with all materials derived therefrom, to the disclosing Party upon demand or, destroy them and provide verification of destruction upon the termination of this Agreement at the request of the disclosing Party.",
+                "changed_text": "Each Party recognizes that in the performance of this Agreement, it may acquire, directly or indirectly from the other Party, proprietary, confidential, trade secret, or information that is not otherwise available to the general public (\"Confidential Information\"). Each Party may disclose Confidential Information to subcontractors that may be doing work for them. Each Party shall return the Confidential Information, along with all materials derived therefrom, to the disclosing Party upon demand or, destroy them and provide verification of destruction upon the termination of this Agreement at the request of the disclosing Party.",
+                "explanation": "By adding that 'Each Party may disclose Confidential Information to subcontractors that may be doing work for them', the terms about confidential information became misaligned. The initial statement does not allow the parties to share any of the confidential information with subcontractors, and therefore, is misaligned with the original terms and definitions.",
+                "contradicted_law": "Trade Secret Law",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

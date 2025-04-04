@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AntaresPharma,Inc.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "AMAG shall notify Antares within [***] after receipt of the Order Acceptance if such proposed delivery date is unacceptable for AMAG, and in such event, the Parties shall promptly discuss and seek to agree on an alternative delivery date. If AMAG does not respond within such [***] period, the proposed date will be the confirmed delivery date.",
+                "changed_text": "AMAG shall notify Antares within [***] after receipt of the Order Acceptance if such proposed delivery date is unacceptable for AMAG, and in such event, the Parties shall promptly discuss and seek to agree on an alternative delivery date. If AMAG does not respond within such [***] period, the proposed date will be the confirmed delivery date. AMAG's silence for the whole duration of the contract shall be considered as Order Acceptance, as silence gives consent.",
+                "explanation": "The modification introduces a clause stating that AMAG's silence constitutes acceptance, which is legally problematic. Under contract law, silence typically does not equate to acceptance unless there is a prior agreement or established course of dealing that suggests otherwise. This provision could be deemed unenforceable or unconscionable, particularly if AMAG disputes the delivery date later.",
+                "contradicted_law": "Contract Law - Acceptance by Silence (general contract principles)",
+                "location": "Section 3.2(b)(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall promptly (but no later than [***] of receipt of such information) notify the other by telephone (to be confirmed in writing) of any information which might affect the marketability, safety, or effectiveness of the Products, sample Products or Trainers and/or which might result in the Recall or seizure of the Products, sample Products, or Trainers.",
+                "changed_text": "Each Party shall promptly (but no later than **12 hours** of receipt of such information) notify the other by telephone (to be confirmed in writing) of any information which might affect the marketability, safety, or effectiveness of the Products, sample Products or Trainers and/or which might result in the Recall or seizure of the Products, sample Products, or Trainers.",
+                "explanation": "The change from '[***]' to '12 hours' for notifying the other party about information affecting product safety creates a legal contradiction. Depending on the jurisdiction, regulations governing product recalls often mandate a more reasonable timeframe for reporting such critical safety information to regulatory bodies, which often supersedes contract terms. This abbreviated notification period could impede effective investigation and reporting, potentially violating regulatory requirements and increasing liability.",
+                "contradicted_law": "21 CFR Part 7 - Enforcement Policy; Section 3505 - Notification Requirements for Medical Device Recalls",
+                "location": "Section 5.2(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Antares shall refer any questions and complaints (including safety and efficacy inquiries, quality complaints and adverse event reports) that it receives concerning the Device or the Products, sample Products or Trainers to AMAG (together with all available evidence and other information relating thereto) as soon as practicable and, in any event within [***] of Antares' receipt of such question or complaint; provided that all complaints concerning Product and sample Product tampering, contamination or mix-up (e.g., wrong ingredients) shall be delivered within [***] of Antares' receipt thereof.",
+                "changed_text": "Antares shall refer any questions and complaints (including safety and efficacy inquiries, quality complaints and adverse event reports) that it receives concerning the Device or the Products, sample Products or Trainers to AMAG (together with all available evidence and other information relating thereto) as soon as practicable and, in any event within **30 days** of Antares' receipt of such question or complaint; provided that all complaints concerning Product and sample Product tampering, contamination or mix-up (e.g., wrong ingredients) shall be delivered within **15 days** of Antares' receipt thereof.",
+                "explanation": "Changing the notification timeframe to '30 days' and '15 days' for serious complaints like tampering or contamination directly contradicts established regulations requiring immediate reporting of such incidents. FDA regulations and similar guidelines mandate rapid communication regarding potential health hazards. Delaying notification significantly increases the risk of harm and regulatory penalties.",
+                "contradicted_law": "21 CFR Part 7 - Enforcement Policy; specific FDA reporting requirements for adulterated products",
+                "location": "Section 5.5"
+            }
+        ]
+    }
+]

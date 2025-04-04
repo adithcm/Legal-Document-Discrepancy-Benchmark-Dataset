@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "9.2.4 ELEPHANT TALK shall pay all invoices no later than *** after the invoice date. ELEPHANT TALK ***, in the event that ELEPHANT TALK fails to meet ***",
+                "changed_text": "9.2.4 ELEPHANT TALK shall pay all invoices no later than 60 days after the invoice date. ELEPHANT TALK shall not be subject to any late payment fees or interest, in the event that ELEPHANT TALK fails to meet this deadline.",
+                "explanation": "This change contradicts standard payment term regulations and business practices. Many jurisdictions have laws regarding reasonable payment terms and the allowance of interest on late payments. A blanket waiver of late fees and interest, especially with an extended payment period, could be deemed commercially unreasonable and potentially violate regulations concerning fair business practices. In the Netherlands, where the contract is governed, statutory interest is typically applied to late payments in commercial transactions.",
+                "contradicted_law": "Potentially conflicts with Dutch laws regarding fair business practices and statutory interest on late payments (e.g., Article 6:119a of the Dutch Civil Code).",
+                "location": "Section 9.2.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11.5 This article 11 shall survive the termination of this Agreement as provided for in articles 17 and 18 for a period of two (2) years but shall not in any way limit or restrict either Party's use of its own Confidential Information.",
+                "changed_text": "11.5 This article 11 shall survive the termination of this Agreement as provided for in articles 17 and 18 for a period of six (6) months but shall not in any way limit or restrict either Party's use of its own Confidential Information.",
+                "explanation": "Reducing the confidentiality period to only six months from the original two years may be considered unreasonably short for the protection of valuable confidential information, especially considering the nature of the business relationship involving mobile network services. This short duration may not comply with standard business practices and legal expectations regarding the protection of trade secrets and proprietary information in similar industries. Depending on the type of information shared, a longer protection period might be legally required to ensure adequate safeguarding.",
+                "contradicted_law": "Potentially conflicts with legal standards for reasonable trade secret protection and contractual obligations in the Netherlands.",
+                "location": "Section 11.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "12.5 Any claim for damages must be notified to the other Party within six (6) months as from the date on which the damage was caused, failing which such claim is deemed to be waived.",
+                "changed_text": "12.5 Any claim for damages must be notified to the other Party within one (1) month as from the date on which the damage was caused, failing which such claim is deemed to be waived.",
+                "explanation": "Reducing the claim notification period to one month may be considered unreasonably short and could be challenged under Dutch law as limiting the claimant's ability to properly investigate and prepare their claim. This extremely short timeframe could violate legal principles of fairness and reasonableness in contract law, especially considering the complexities involved in assessing damages related to network services and hosting agreements.",
+                "contradicted_law": "Potentially conflicts with Dutch legal principles requiring reasonable timeframes for claim notification (e.g., related to Article 6:89 of the Dutch Civil Code concerning the obligation to examine and notify defects).",
+                "location": "Section 12.5"
+            }
+        ]
+    }
+]

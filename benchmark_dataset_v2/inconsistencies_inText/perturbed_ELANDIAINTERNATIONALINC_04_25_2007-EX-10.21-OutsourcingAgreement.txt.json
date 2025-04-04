@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ELANDIAINTERNATIONALINC_04_25_2007-EX-10.21-OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The BSP then have the option to renew the agreement for another 5 years subject to any restructuring of the agreement as required by the parties.\n\nEither party may advise the other of the impending expiry of the then current term, generally in accordance with section 14 .",
+                "changed_text": "The BSP then have the option to renew the agreement for another 5 years subject to any restructuring of the agreement as required by the parties.\n\nEither party may advise the other of the impending expiry of the then current term, generally in accordance with section 14. However, Datec may only renew the contract one time, while BSP has unlimited renewals .",
+                "explanation": "This change introduces a contradiction regarding the renewal terms. Originally, both parties could advise on expiry. Now, Datec is limited to one renewal, while BSP has unlimited, creating uncertainty and conflicting obligations regarding renewal rights.",
+                "location": "1.4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The maximum rebate in any given month will be 50% of the monthly base fee. The rebate calculation will be completed before the 15th Day of the following month for the preceding month together with supporting monthly reports and provided to the BSP.\n\nFor the purposes of determining SLA achievement the \"Time to Respond\" measurement will be used.",
+                "changed_text": "The maximum rebate in any given month will be 50% of the monthly base fee. The rebate calculation will be completed before the 15th Day of the following month for the preceding month together with supporting monthly reports and provided to the BSP.\n\nFor the purposes of determining SLA achievement the \"Time to Resolve\" measurement will be used, but may be superseded by 'Time to Respond' depending on which metric is more favorable to Datec. ",
+                "explanation": "This change creates ambiguity in SLA measurement. Initially, 'Time to Respond' was the metric. Now, Datec has the option to choose either 'Time to Resolve' or 'Time to Respond' depending on which is more favorable, introducing a clear conflict of interest and making enforcement of SLA unreliable.",
+                "location": "8.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Datec must ensure that, at all times during the agreement, on 60 days notice it is able to deploy all necessary resources to complete Disengagement in accordance with the agreed Disengagement Plan.\n\n(a) Datec must ensure there is no degradation of quality of service during Disengagement;\n\n(b) Datec acknowledges all Service Levels apply during Disengagement but subject to agreement of the viability of the Disengagement Plan",
+                "changed_text": "Datec must ensure that, at all times during the agreement, on 60 days notice it is able to deploy all necessary resources to complete Disengagement in accordance with the agreed Disengagement Plan.\n\n(a) Datec must ensure there is a 50% degradation of quality of service during Disengagement;\n\n(b) Datec acknowledges all Service Levels do not apply during Disengagement and can change the Disengagement Plan without approval",
+                "explanation": "This alteration introduces a contradiction about service levels during disengagement. Originally, there was to be no degradation of service, and all SLAs applied, now there will be a 50% degradation of services and the SLAs do not apply. Also Datec can change the plan without approval creating conflict and uncertainty about the expected quality and terms of disengagement.",
+                "location": "20.2"
+            }
+        ]
+    }
+]

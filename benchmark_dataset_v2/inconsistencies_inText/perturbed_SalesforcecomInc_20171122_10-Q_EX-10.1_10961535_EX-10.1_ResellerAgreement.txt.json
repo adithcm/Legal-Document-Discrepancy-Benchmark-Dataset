@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days. If such period is greater than ten (10) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "changed_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days. If such period is greater than twenty (20) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "explanation": "This change introduces a contradiction by changing the allowable time between signatures from ten (10) business days to twenty (20) business days before the agreement becomes null and void. This creates uncertainty as to which timeframe is valid.",
+                "location": "Signature Page"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with some of the terms of the Agreement applicable to Reseller; however, Sub-Reseller is considered a third-party beneficiary of the Agreement, entitled to enforce specific clauses outlined in Exhibit A. Any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "explanation": "This change introduces a contradiction by stating that the sub-reseller is now a third-party beneficiary, which directly conflicts with the original statement that it is *not* a third-party beneficiary. Furthermore, indicating that sub-reseller only needs to comply with 'some of the terms' creates ambiguity.",
+                "location": "1. Resale Rights."
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement; however, this is superseded by any future written agreements between SFDC and the Reseller. Any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof are void.",
+                "explanation": "This change introduces a contradiction by stating the agreement is 'entire' but then allows future written agreements to supersede it. This creates uncertainty about which agreements are actually in effect, which undermines the purpose of an entire agreement clause.",
+                "location": "3. Entire Agreement."
+            }
+        ]
+    }
+]

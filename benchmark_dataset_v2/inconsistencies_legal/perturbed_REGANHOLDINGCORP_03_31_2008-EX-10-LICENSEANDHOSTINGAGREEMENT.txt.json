@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "REGANHOLDINGCORP_03_31_2008-EX-10-LICENSEANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "TAG shall make payment within twenty (20) days after receipt of LMG's invoice. Any amount not paid when due will thereafter bear interest at the rate of one percent (1%) per month.",
+                "changed_text": "TAG shall make payment within sixty (60) days after receipt of LMG's invoice. Any amount not paid when due will thereafter bear interest at the rate of ten percent (10%) per month.",
+                "explanation": "This change violates California law regarding payment terms and usury laws. California law typically requires payments to be made within a reasonable timeframe, and a 60-day payment window without justification could be considered unreasonable. Additionally, charging 10% interest per month (120% annually) significantly exceeds California's usury limits, which are generally capped at 10% per year or 5% over the discount rate, depending on the specific situation.",
+                "contradicted_law": "California Civil Code Section 3260 and California Constitution Article XV Section 1.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All such policies of insurance of LMG shall provide that the insurer will give at least thirty (30) days prior written notice of cancellation to TAG. No such cancellation or material modification shall affect LMG's obligation to maintain the insurance coverages required by the Agreement. TAG shall be named as an additional insured on the commercial general liability insurance policies described above. All liability insurance policies shall be written on an \"occurrence\" policy form except for the policies described in (vii) and (viii) above which shall be on a \"claims made\" basis.",
+                "changed_text": "All such policies of insurance of LMG shall provide that the insurer will give at least ten (10) days prior written notice of cancellation to TAG. No such cancellation or material modification shall affect LMG's obligation to maintain the insurance coverages required by the Agreement. TAG shall be named as an additional insured on the commercial general liability insurance policies described above. All liability insurance policies shall be written on a \"claims made\" policy form.",
+                "explanation": "Reducing the notice period for insurance cancellation to 10 days violates standard insurance regulations and best practices, which typically require a longer notice period (e.g., 30 days) to allow the additional insured (TAG) sufficient time to obtain alternative coverage. Furthermore, stipulating that 'all liability insurance policies shall be written on a 'claims made' policy form' introduces a conflict. The original excerpt stated that policies (vii) and (viii) should be written as \"claims made,\" but the excerpt changed stipulates *all* policies be written as \"claims made.\" By requiring all liability insurance policies to be on a 'claims made' basis, it reduces the scope of coverage for TAG as an additional insured, since 'claims made' policies only cover incidents reported during the policy term, potentially leaving TAG exposed to liabilities for incidents occurring during the policy term but reported later. This violates the intended purpose of requiring insurance and naming TAG as an additional insured.",
+                "contradicted_law": "General insurance regulatory standards and practices.",
+                "location": "Section 5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon TAG's request, LMG shall return, destroy or securely erase, as directed by TAG, all copies of the Customer Data in LMG's possession or under LMG's control within thirty (30) business days. LMG shall not withhold Customer Data under any circumstance including as a means of resolving a dispute. Customer Data shall not be utilized by LMG for any purpose other than the performance of the LMG Services and shall not be sold, assigned, leased, commercially exploited or otherwise provided to third parties by or on behalf of LMG or any LMG Personnel.",
+                "changed_text": "Upon TAG's request, LMG shall return, destroy or securely erase, as directed by TAG, all copies of the Customer Data in LMG's possession or under LMG's control within ninety (90) business days. LMG may withhold Customer Data if there is a dispute related to outstanding payments for services rendered. Customer Data may be utilized by LMG for internal data analytics purposes to improve its service offerings.",
+                "explanation": "Extending the data return/destruction timeframe to 90 business days conflicts with data protection regulations that emphasize timely data handling. Allowing LMG to withhold Customer Data during payment disputes violates the principle of uninterrupted data access and could be seen as a coercive practice. Permitting LMG to use Customer Data for internal analytics, without explicit consent and proper anonymization safeguards, violates data privacy principles and potentially conflicts with regulations like the California Consumer Privacy Act (CCPA) or similar data protection laws, as it repurposes data beyond the explicitly agreed-upon LMG Services.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA) and general data protection principles.",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]

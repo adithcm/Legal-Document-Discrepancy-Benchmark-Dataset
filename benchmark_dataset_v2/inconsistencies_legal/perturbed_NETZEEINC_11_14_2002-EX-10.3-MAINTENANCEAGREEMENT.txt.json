@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NETZEEINC_11_14_2002-EX-10.3-MAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Following the completion of such maintenance term, Bankers Bank may, at its option, renew maintenance for subsequent periods of one (1) year each, subject to adjustments proposed by Netzee not to exceed 5% at least sixty (60) days in advance of the applicable renewal date.",
+                "changed_text": "Following the completion of such maintenance term, Bankers Bank may, at its option, renew maintenance for subsequent periods of one (1) year each, subject to adjustments proposed by Netzee not to exceed 5% at least ten (10) days in advance of the applicable renewal date.",
+                "explanation": "Reducing the notification period for renewal adjustments to 10 days may violate state laws requiring longer notice periods for contract changes. Many states require companies to give vendors a reasonable amount of time to consider significant changes to contracts. Ten days might not be considered adequate, potentially making the adjustment unenforceable.",
+                "contradicted_law": "General Contract Law - Reasonable Notice Requirements (Varies by state)",
+                "location": "Paragraph 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Maintenance provided by Netzee during the term of this Agreement shall include (2) 5x12 call-in support between hours of 6:30 a.m. and 6:30 p.m. Eastern Time Monday through Friday",
+                "changed_text": "Maintenance provided by Netzee during the term of this Agreement shall include (2) call-in support during Netzee's business hours at Netzee's discretion.",
+                "explanation": "Changing '5x12 call-in support between hours of 6:30 a.m. and 6:30 p.m. Eastern Time Monday through Friday' to 'call-in support during Netzee's business hours at Netzee's discretion' creates ambiguity and can be deemed as a breach of contract if Netzee decides not to provide the mentioned support. Some states have regulatory requirements around the provision of reasonable technical support for essential services; this vague phrasing could be interpreted as non-compliant.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing (General Contract Law, varies by state)",
+                "location": "Paragraph 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Maintenance provided by Netzee during the term of this Agreement shall include (4) availability of basic Services with at least 99% uptime between 4:00 a.m Monday and 7:00 p.m. Friday and between 8:00 a.m. Saturday and 2:00 p.m. Saturday Eastern Time, exclusive of outages caused by off-peak prescheduled maintenance or causes beyond Netzee's reasonable control (including third-party equipment or communications).",
+                "changed_text": "Maintenance provided by Netzee during the term of this Agreement shall include availability of basic Services with uptime at Netzee's discretion.",
+                "explanation": "Removing the uptime guarantee ('at least 99% uptime...') and the specific hours of availability, and replacing it with 'uptime at Netzee's discretion,' may violate requirements for reasonable service levels, especially if the services are critical for Bankers Bank's operations. This conflicts with general principles that the agreement needs to be honored, and such terms can be viewed as unfair or unconscionable, making them unenforceable. This is particularly true if state regulations specify a minimum level of service availability for similar systems or software.",
+                "contradicted_law": "Unconscionability Doctrine (General Contract Law, varies by state), potentially sector-specific regulations on uptime",
+                "location": "Paragraph 5"
+            }
+        ]
+    }
+]

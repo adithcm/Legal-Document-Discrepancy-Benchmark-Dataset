@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HEMISPHERX-Sales,Marketing,Distribution,andSupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients.",
+                "changed_text": "SCIEN shall pay HEMISPHERX for each order of Product within 180 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients.",
+                "explanation": "Extended payment terms to 180 days could violate the U.S. laws regarding fair and reasonable payment terms, especially if such extended terms put undue financial strain on HEMISPHERX, a U.S. based company. While the contract is governed by the laws of Delaware and disputes settled in London, the performance of payment obligations related to a US company could be subject to scrutiny under US commercial and contract law principles, particularly regarding fairness and good faith dealing.",
+                "contradicted_law": "Potential violation of U.S. commercial and contract law principles regarding fairness and good faith dealing.",
+                "location": "IV. SUPPLY, C"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon the occurrence of a breach or default as to any obligation hereunder by either Party and the failure of the breaching Party to cure (within thirty (30) days after receiving written notice thereof from the non-breaching Party) such breach or default, this Agreement may be terminated by the non- breaching Party by giving written notice of termination to the breaching Party, such termination being immediately effective upon the giving of such notice of termination.",
+                "changed_text": "Upon the occurrence of a breach or default as to any obligation hereunder by either Party and the failure of the breaching Party to cure (within ten (10) days after receiving written notice thereof from the non-breaching Party) such breach or default, this Agreement may be terminated by the non- breaching Party by giving written notice of termination to the breaching Party, such termination being immediately effective upon the giving of such notice of termination.",
+                "explanation": "Reducing the cure period to 10 days may be considered unreasonably short under US contract law principles, especially considering the complexity of potential breaches in a distribution agreement. This may conflict with principles of reasonableness and good faith, making the termination clause potentially unenforceable. Under Delaware law, while parties have freedom of contract, courts may scrutinize clauses that are deemed unduly harsh or oppressive, especially if there is a significant power imbalance between the parties.",
+                "contradicted_law": "Potential conflict with U.S. contract law principles regarding reasonableness and good faith, and Delaware law regarding unduly harsh or oppressive clauses.",
+                "location": "VI. TERM/TERMINATION, C"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such Confidential Information will be kept confidential until 5 years after the expiration of termination of this Agreement.",
+                "changed_text": "Such Confidential Information will be kept confidential until 1 year after the expiration of termination of this Agreement.",
+                "explanation": "Reducing the confidentiality period to one year may be insufficient to protect trade secrets under US law, specifically the Defend Trade Secrets Act (DTSA). The DTSA requires reasonable measures to protect trade secrets. A one-year confidentiality period may be deemed inadequate for certain types of confidential information, potentially undermining HEMISPHERX's ability to enforce its trade secret rights. Delaware law also recognizes trade secret protection, and a short confidentiality period might be seen as evidence that the information was not treated as a valuable trade secret.",
+                "contradicted_law": "Potential conflict with the Defend Trade Secrets Act (DTSA) and Delaware trade secret law regarding reasonable measures to protect trade secrets.",
+                "location": "XI. CONFIDENTIALITY, B"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "No later than <<enter Customization Documents Delivery Date>>, Supplier shall deliver to Bank of America the documents described below for this Customization. The detailed specifications so delivered shall be incorporated herein when approved by Bank of America.",
+                "changed_text": "No later than <<enter Customization Documents Delivery Date>>, Supplier shall deliver to Bank of America the documents described below for this Customization. Bank of America will approve or reject these documents at their sole discretion.",
+                "explanation": "This modification removes the requirement for Bank of America to approve the documents in accordance with detailed specifications. By allowing Bank of America to approve or reject documents at their sole discretion, the supplier loses some legal protection regarding the acceptance of work and payment which goes against standard contract law.",
+                "contradicted_law": "General Contract Law - Good Faith and Fair Dealing",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "If the proposed price Is Increased by Supplier, Bank of America may terminate this Schedule but will not receive a refund of amounts previously paid hereunder.",
+                "explanation": "By removing the refund clause, this creates a situation where the supplier potentially benefits from the termination, regardless of fault, which goes against contract law principles. This can create non-compliance because, in most jurisdictions, a party terminating a contract due to the other party's breach isn't automatically entitled to retain all payments made without providing some consideration or offsetting damages.",
+                "contradicted_law": "Breach of Contract - Remedies",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Delivery and Installation Schedule for this Customization is:\n\nDelivery Date:\n\nInstallation Date:",
+                "changed_text": "The Delivery and Installation Schedule for this Customization is:\n\nDelivery Date: <<enter Delivery Date - must be no more than 5 business days after contract signing>>\n\nInstallation Date: <<enter Installation Date - must be same day as Delivery Date>>",
+                "explanation": "The modified text sets unrealistic and restrictive timelines for delivery and installation (5 business days and same-day installation). This might be impossible, especially for complex customizations, potentially leading to breaches and legal disputes. The text creates non-compliance by making the delivery and installation impractical and likely infeasible, which a court may deem unconscionable or unenforceable.",
+                "contradicted_law": "Contractual Impracticability/Impossibility",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

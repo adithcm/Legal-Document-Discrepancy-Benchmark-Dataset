@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BANUESTRAFINANCIALCORP_09_08_2006-EX-10.16-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate and the Company shall cause the Escrow Agent (as defined below) to refund to any persons who have subscribed for any of the Shares the full amount it received from them, without interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "changed_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate and the Company shall cause the Escrow Agent (as defined below) to refund to any persons who have subscribed for any of the Shares the full amount it received from them, without interest, within 90 days of termination. None of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "explanation": "The original text mandates a full refund upon failure to meet the sales target by a specific date. The modification introduces a delay of 90 days for the refund, which could violate SEC rules requiring prompt return of funds in a failed offering, potentially harming investors.",
+                "contradicted_law": "SEC Rule 15c2-4, which requires prompt transmission or return of funds received in connection with securities offerings under certain circumstances.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company and the Agent shall transmit all funds received from subscribers to the Escrow Agent by noon of the next business day following receipt thereof. The Company shall direct the Escrow Agent to make payment for Shares sold hereunder by wire transfer or certified or bank cashier's check drawn to the order of the Company in next day funds.",
+                "changed_text": "The Company and the Agent shall transmit all funds received from subscribers to the Escrow Agent within five business days following receipt thereof. The Company shall direct the Escrow Agent to make payment for Shares sold hereunder by company check drawn to the order of the Company in standard funds.",
+                "explanation": "The original text specifies next business day transfer of funds to escrow. The modified text allows a five-day delay and removes the requirement for next-day funds, potentially violating SEC Rule 15c2-4 by delaying the deposit of investor funds and increasing risk.",
+                "contradicted_law": "SEC Rule 15c2-4, which requires prompt transmission or return of funds received in connection with securities offerings under certain circumstances.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any out-of-pocket expenses or commissions payable under this Agreement shall be paid in next day funds on the earlier of the initial Closing Date or a determination by the Company to terminate or abandon the Offering, and on each subsequent Closing Date thereafter.",
+                "changed_text": "Any out-of-pocket expenses or commissions payable under this Agreement shall be paid within 30 days of the initial Closing Date or a determination by the Company to terminate or abandon the Offering, and on each subsequent Closing Date thereafter.",
+                "explanation": "The original text requires immediate payment of expenses and commissions in next day funds. Delaying the payment to within 30 days contradicts standard practices and potentially violates NASD/FINRA rules regarding timely payment of commissions and expenses in securities offerings. The delay also creates uncertainty and potential financial risk for the Agent.",
+                "contradicted_law": "NASD/FINRA rules regarding timely payment of commissions and expenses in securities offerings.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

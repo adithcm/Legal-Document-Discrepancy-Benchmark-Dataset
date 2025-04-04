@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OFGBANCORP_03_28_2007-EX-10.23-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Customer shall, upon Metavante's demand, immediately pay to Metavante any settlement amount that Metavante is unable to collect from the settlement account for any reason. Metavante will provide Customer with daily settlement and accounting information, and Customer agrees that Customer is responsible for the daily maintenance and reconciliation of all accounting entries. Customer agrees to compensate Metavante for carrying any unfunded settlement based on the Federal Reserve Overnight borrowing rate. Upon prior written notice to Customer, Metavante may terminate this Agreement in the event that settlement remains unfunded by Customer for more than two (2) business days.",
+                "changed_text": "Customer shall, upon Metavante's demand, immediately pay to Metavante any settlement amount that Metavante is unable to collect from the settlement account for any reason. Metavante will provide Customer with weekly settlement and accounting information, and Customer agrees that Customer is responsible for the weekly maintenance and reconciliation of all accounting entries. Customer agrees to compensate Metavante for carrying any unfunded settlement based on the Federal Reserve Overnight borrowing rate. Metavante may terminate this Agreement without prior notice in the event that settlement remains unfunded by Customer.",
+                "explanation": "This change introduces a conflict because the original text provides for daily accounting reconciliation and a two-business-day grace period before termination for unfunded settlements. The modified text weakens the customer's protections by only providing weekly settlement information. It also removes the prior notice requirement and two-day grace period before termination, potentially violating regulations that require reasonable notice and opportunity to cure before contract termination, especially in financial services.",
+                "contradicted_law": "Breach of contract and violation of Puerto Rico regulations requiring reasonable notice before termination of services.",
+                "location": "4.4.A"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within 10 days of the Effective Date of Termination, Customer shall, at its own expense, return the Incidental Software to Metavante and/or destroy all copies thereof.",
+                "changed_text": "Within 2 days of the Effective Date of Termination, Customer shall, at its own expense, return the Incidental Software to Metavante and/or destroy all copies thereof.",
+                "explanation": "This change reduces the time allowed for returning incidental software from 10 to 2 days. This may introduce a contradiction with general commercial reasonableness standards if the software requires more than 2 days to uninstall or return, potentially rendering the clause unenforceable. This impacts legal compliance by creating an unrealistic and potentially punitive deadline.",
+                "contradicted_law": "Contract law principles of commercial reasonableness.",
+                "location": "3.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Undisputed charges not paid by the applicable due date shall be subject to annual interest at the prevailing U.S. prime rate published by Citibank, N.A., from time to time or the highest rate permitted by law, whichever is lower.",
+                "changed_text": "Undisputed charges not paid by the applicable due date shall be subject to annual interest at 30%, compounded monthly.",
+                "explanation": "This change modifies the interest rate on late payments to a fixed 30% compounded monthly. Depending on the jurisdiction (Puerto Rico), this rate may be usurious and illegal under applicable lending laws. This change directly contradicts regulations on permissible interest rates.",
+                "contradicted_law": "Usury laws in Puerto Rico.",
+                "location": "5.5"
+            }
+        ]
+    }
+]

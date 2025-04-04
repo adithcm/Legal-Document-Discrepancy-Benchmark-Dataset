@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days. If such period is greater than ten (10) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "changed_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than one hundred eighty (180) business days. If such period is greater than one hundred eighty (180) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "explanation": "The original agreement states that if the signature dates are separated by more than 10 business days, the agreement is void. Extending this period to 180 days could create enforceability issues, especially if one party attempts to withdraw before the 180-day period elapses. Contract law requires agreements to be entered into with reasonable promptness, and such an extended window might be deemed unreasonable, especially in a rapidly changing business environment.",
+                "contradicted_law": "General Principles of Contract Law - Offer and Acceptance (Reasonable Timeframe)",
+                "location": "Signature Page"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller is not responsible for the Sub-Reseller's compliance with the terms of the Agreement. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "explanation": "The removal of the sentence requiring the Reseller to ensure the Sub-Reseller's compliance creates a potential legal issue. Typically, in sub-contracting or reseller arrangements, the primary contractor (Reseller) has a duty to ensure their sub-contractors (Sub-Reseller) comply with the main contract. Removing this obligation could violate standard agency law principles.",
+                "contradicted_law": "Agency Law Principles - Duty of Oversight",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement. Any breach by Sub-Reseller of the Agreement will only be addressed directly between SFDC and Sub-Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "explanation": "By stating that breaches by the Sub-Reseller will only be addressed directly between SFDC and Sub-Reseller, the agreement attempts to absolve the Reseller of responsibility for the actions of their sub-reseller. This could conflict with the principles of agency law, where a principal (SFDC) can often hold an agent (Reseller) liable for the actions of a sub-agent (Sub-Reseller), particularly if the sub-agent's actions cause damages.",
+                "contradicted_law": "Agency Law Principles - Liability for Sub-Agent Actions",
+                "location": "Section 1"
+            }
+        ]
+    }
+]

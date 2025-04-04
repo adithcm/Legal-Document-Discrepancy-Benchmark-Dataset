@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL.",
+                "changed_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 60 days upon completion and handover on the Project to VAL.",
+                "explanation": "Modifying the payment term to '60 days upon completion' contradicts standard business practices and potentially labor laws in many jurisdictions, including Hong Kong and the United States, which typically require more prompt payment of contractors and employees.",
+                "contradicted_law": "Potentially violates labor laws regarding timely payment of contractors, varies by jurisdiction (Hong Kong Employment Ordinance; US Fair Labor Standards Act).",
+                "location": "Clause 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed. If the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by giving two (2) weeks' notice in writing to VAL.",
+                "changed_text": "VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement without any prior notice. If the customer terminates the agreement, then VAL is not obligated to compensate the Developer. Developer may also terminate this Agreement by giving two (2) weeks' notice in writing to VAL.",
+                "explanation": "The modified text allows VAL to terminate the agreement without notice and removes the obligation to compensate the developer, contradicting standard contract law principles of good faith and fair dealing, which requires reasonable notice and compensation for work performed. This violates basic principles applicable under Hong Kong contract law and similar laws in the US.",
+                "contradicted_law": "Violates principles of good faith and fair dealing in contract law (varies by jurisdiction, including Hong Kong Contract Law and the US Uniform Commercial Code).",
+                "location": "Clause 12.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Change Orders do not however cover any bug or glitch fixing produced out of the code written by Developer as any \"bug\" will be fixed by Developer for free up to 3 months after final delivery (Bug Fixing Warranty).",
+                "changed_text": "Change Orders do not however cover any bug or glitch fixing produced out of the code written by Developer as any \"bug\" will be fixed by Developer for free up to 1 week after final delivery (Bug Fixing Warranty).",
+                "explanation": "Reducing the bug fixing warranty to only 1 week is unreasonable given the complexity of software development and potentially violates implied warranties of merchantability or fitness for a particular purpose under commercial law, as a one-week warranty may be deemed insufficient to ensure the software functions as intended.",
+                "contradicted_law": "Potentially violates implied warranties of merchantability or fitness for a particular purpose under commercial law (varies by jurisdiction, including Hong Kong Sale of Goods Ordinance and the US Uniform Commercial Code).",
+                "location": "Clause 7"
+            }
+        ]
+    }
+]

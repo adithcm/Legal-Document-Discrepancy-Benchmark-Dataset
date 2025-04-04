@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MorganStanleyDirectLendingFund_20191119_10-12GA_EX-10.5_11898508_EX-10.5_TrademarkLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 4.3. Termination for Breach. If either party materially breaches one or more of its obligations hereunder, the other party may terminate this Agreement, effective upon written notice, if the breaching party does not cure such breach within 15 days after written notice thereof (or any mutually agreed extension). Licensor may terminate this Agreement immediately, effective upon written notice, if (i) Licensee attempts to violate Section 8 or (ii) a sublicensee materially breaches its sublicense in a manner that harms the Brand, and (a) such sublicensee does not cure the same within 15 days after notice from Licensor or Licensee or (b) Licensee does not terminate such sublicense within 15 days after notice from Licensor.",
+                "changed_text": "Section 4.3. Termination for Breach. If either party materially breaches one or more of its obligations hereunder, the other party may terminate this Agreement, effective upon written notice, if the breaching party does not cure such breach within 5 days after written notice thereof (or any mutually agreed extension). Licensor may terminate this Agreement immediately, effective upon written notice, if (i) Licensee attempts to violate Section 8 or (ii) a sublicensee materially breaches its sublicense in a manner that harms the Brand, and (a) such sublicensee does not cure the same within 5 days after notice from Licensor or Licensee or (b) Licensee does not terminate such sublicense within 5 days after notice from Licensor.",
+                "explanation": "Reducing the cure period for a material breach from 15 days to 5 days may be deemed unreasonable and contradict the implied covenant of good faith and fair dealing under New York law, potentially making the termination clause unenforceable. New York courts often consider the reasonableness of cure periods, and a shorter period may be seen as unduly harsh, especially for complex breaches.",
+                "contradicted_law": "New York law - Implied covenant of good faith and fair dealing",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 7.2. Indemnification Procedure. Licensor will promptly notify Licensee in writing of any indemnified claim and promptly as practicable tender its defense to Licensee. Any delay in such notice or tender will not relieve Licensee from its obligations to the extent it is not prejudiced thereby. Licensor will cooperate with Licensee at Licensee's expense in the defense of any indemnified claim. Licensee may not settle any indemnified claim without Licensor's prior written consent in Licensor's sole discretion. Licensor may participate in its defense of an indemnified claim with counsel of its own choice at its own expense.",
+                "changed_text": "Section 7.2. Indemnification Procedure. Licensor will notify Licensee of any indemnified claim within 90 days of Licensor becoming aware of the claim. Any delay in such notice will relieve Licensee from its indemnification obligations, regardless of prejudice. Licensor will not cooperate with Licensee in the defense of any indemnified claim. Licensee may settle any indemnified claim without Licensor's prior written consent. Licensor may not participate in its defense of an indemnified claim.",
+                "explanation": "This change creates several contradictions: \n1. It sets a fixed 90-day notification period, and it states that any delay in providing notice relieves Licensee from its indemnification obligations, regardless of whether the delay prejudices the Licensee. This contradicts general contract law principles requiring prejudice for breach of notice provisions.\n2. It absolves Licensor from cooperating in the defense of an indemnified claim. This contradicts the implied covenant of good faith and fair dealing, which requires parties to cooperate in fulfilling their contractual obligations.\n3. It permits the Licensee to settle claims without the Licensor's consent, thereby undermining the Licensor's control over the claim's resolution and contradicting standard indemnification practices.",
+                "contradicted_law": "New York law - Implied covenant of good faith and fair dealing; General contract law principles on prejudice and notice",
+                "location": "Section 7.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 4.1. Term. The term of this Agreement commences on the Effective Date and continues in perpetuity, unless termination occurs pursuant to Sections 4.2 through 4.4.",
+                "changed_text": "Section 4.1. Term. The term of this Agreement commences on the Effective Date and continues for 5 years, after which it automatically renews for another 5 years unless either party provides written notice of termination 15 days prior to the renewal date.",
+                "explanation": "Under New York law, contracts with automatic renewal clauses require specific conspicuous notice to the lessee (Licensee in this case) of the renewal provisions. The changed clause, which stipulates a short 15-day notice period, could be deemed unconscionable and unenforceable as it does not provide the Licensee with reasonable time to evaluate and decide against automatic renewal. This contradicts New York General Obligations Law § 5-903 regarding automatic renewal clauses.",
+                "contradicted_law": "New York General Obligations Law § 5-903",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]

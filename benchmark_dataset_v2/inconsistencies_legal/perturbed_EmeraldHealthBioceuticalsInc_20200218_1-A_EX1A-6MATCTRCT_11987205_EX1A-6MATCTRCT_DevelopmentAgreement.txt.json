@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6MATCTRCT_11987205_EX1A-6MATCTRCT_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.1 Payment for Services. EHN will pay Dr. Murray $8,333 per month at the end of each month during the first twelve months that this agreement is in effect.",
+                "changed_text": "5.1 Payment for Services. EHN will pay Dr. Murray $8,333 per month 90 days after the end of each month during the first twelve months that this agreement is in effect.",
+                "explanation": "The original text requires payment at the end of each month. Modifying it to 90 days after the end of the month contradicts prompt payment laws in many states, including Arizona, which require timely payment for services rendered, typically within a much shorter timeframe.",
+                "contradicted_law": "Arizona Revised Statutes § 23-353 regarding timely payment of wages and services.",
+                "location": "Article 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "6.2 Termination EHS or EHN, on the one hand, and Dr. Murray, on the other, may terminate any Services Term of this Agreement by delivering 60 days written notice to the other party. Notwithstanding the foregoing, EHS or EHN may immediately terminate the Services Term without notice should Dr. Murray be in breach of this Agreement.",
+                "changed_text": "6.2 Termination EHS or EHN, on the one hand, and Dr. Murray, on the other, may terminate any Services Term of this Agreement by delivering 15 days written notice to the other party. Notwithstanding the foregoing, EHS or EHN may immediately terminate the Services Term without notice should Dr. Murray be in breach of this Agreement.",
+                "explanation": "Reducing the written notice period for termination to 15 days may conflict with general contract law principles requiring reasonable notice, especially considering the potential impact on Dr. Murray's ability to secure alternative engagements. A shorter notice period may be deemed unconscionable or violate implied duties of good faith and fair dealing.",
+                "contradicted_law": "Implied duty of good faith and fair dealing in contract law, potentially violating Arizona case law on reasonable notice periods.",
+                "location": "Article 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(6) Disputes: The parties shall first attempt to resolve any dispute related to this Agreement in an amicable manner by mediation conducted in Phoenix, Arizona. The mediation shall take place no more than sixty (60) days after written notice from the party requesting such mediation. Any disputes remaining unresolved after mediation shall be settled by binding arbitration conducted in Phoenix, Arizona under the Commercial Arbitration Rules of the American Arbitration Association (AAA).",
+                "changed_text": "(6) Disputes: The parties shall resolve any dispute by binding arbitration conducted in Reno, Nevada. The arbitration shall take place no more than thirty (30) days after written notice from the party requesting such arbitration, and all arbitration decisions will be final.",
+                "explanation": "Changing the dispute resolution process to binding arbitration in Reno, Nevada, and shortening the timeframe for arbitration to 30 days may conflict with Arizona law, as the original contract specifies Arizona as the governing law and venue. Moreover, requiring all arbitration decisions to be final with no appeals may contradict legal principles allowing for limited judicial review of arbitration awards based on fraud, corruption, or misconduct of the arbitrator.",
+                "contradicted_law": "Arizona Revised Statutes Title 12, Chapter 9, regarding arbitration; potential conflict with enforcement of arbitration clauses under the Federal Arbitration Act (FAA) if the Nevada arbitration clause is deemed unenforceable under Arizona law.",
+                "location": "Article 9"
+            }
+        ]
+    }
+]

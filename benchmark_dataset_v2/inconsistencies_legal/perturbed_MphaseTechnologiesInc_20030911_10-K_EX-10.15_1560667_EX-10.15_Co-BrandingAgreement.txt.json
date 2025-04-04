@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11. The Term of this Agreement will commence on the date above, and shall          continue for a term of one (1) year. mPhase shall have the right to          annually renew this agreement for a period of one year upon each annual          expiration with the written consent of Lucent, which written consent          shall not be unreasonably withheld. Either party wishing to terminate          the Agreement must give written notice to the other party at least          thirty (30) days prior to the desired date of termination.",
+                "changed_text": "11. The Term of this Agreement will commence on the date above, and shall          continue for a term of one (1) year. mPhase shall have the right to          annually renew this agreement for a period of one year upon each annual          expiration with the written consent of Lucent, which written consent          shall not be unreasonably withheld. Either party wishing to terminate          the Agreement must give written notice to the other party at least          ten (10) days prior to the desired date of termination.",
+                "explanation": "The original agreement requires a 30-day notice for termination. Changing this to 10 days could be problematic under New Jersey law (where mPhase is located) if it's deemed unreasonably short, particularly if it significantly disadvantages one party or contradicts industry standards for similar agreements. A shorter notice period may not allow sufficient time for the other party to make necessary adjustments, potentially leading to disputes.",
+                "contradicted_law": "General contract law principles regarding reasonable notice and good faith, potentially violating implied covenants under New Jersey law.",
+                "location": "Section 11"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "8.       If Lucent determines that mPhase's Goods are no longer maintained at          the current level of quality, Lucent shall so notify mPhase, in          writing, and Lucent shall have the right to terminate this Agreement.",
+                "changed_text": "8.       If Lucent determines that mPhase's Goods are no longer maintained at          the current level of quality, Lucent shall immediately terminate this Agreement without any prior written notification to mPhase.",
+                "explanation": "By removing the written notification requirement before termination, Lucent can immediately terminate the contract based solely on their determination of quality, potentially violating New Jersey's implied covenant of good faith and fair dealing, as it does not allow the other party the right to cure any quality deficiencies.",
+                "contradicted_law": "New Jersey implied covenant of good faith and fair dealing in contracts.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "15. The validity, construction and performance of this Agreement shall be          governed by the laws of the State of New York.",
+                "changed_text": "15. The validity, construction and performance of this Agreement shall be          governed solely by Lucent's internal policies and procedures, without regard to any state or federal law.",
+                "explanation": "This change attempts to supersede the applicability of any state or federal law, including New York law, and replace it with Lucent's internal policies. This is legally problematic because parties cannot contract out of mandatory legal requirements. This violates fundamental contract law principles in both New Jersey and New York and would likely be deemed unenforceable.",
+                "contradicted_law": "Fundamental principles of contract law, New York and New Jersey contract law regarding choice of law and mandatory legal compliance.",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

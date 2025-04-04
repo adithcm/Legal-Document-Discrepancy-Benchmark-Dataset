@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIPANDDEVELOPMENTAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments shall be made 15 days from the end of each quarter. Smith's net payment after any such charges or deductions shall equal the amount set forth above. Past due payments hereunder shall bear interest at the rate of (i) one and one-half percent (1-1/2%) per month, or (ii) the maximum interest rate permissible under law, whichever is less.",
+                "changed_text": "Payments shall be made 90 days from the end of each quarter. Smith's net payment after any such charges or deductions shall equal the amount set forth above. Past due payments hereunder shall bear interest at the rate of (i) twenty percent (20%) per month, or (ii) the maximum interest rate permissible under law, whichever is greater.",
+                "explanation": "The original contract specifies payment 15 days after the end of each quarter and a default interest rate of 1.5% per month. I've changed it to 90 days after the end of each quarter, which is an unreasonably long delay for payment, potentially violating prompt payment laws depending on the context, and increased the interest rate to 20% per month. An interest rate of 20% per month (240% annually) may violate usury laws, which set legal limits on interest rates to prevent predatory lending.",
+                "contradicted_law": "Arizona Revised Statutes § 44-1201; Arizona Revised Statutes § 44-1205",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Smith shall have the right to engage an independent accounting firm to examine the Licensee's sales information and all other books and records necessary to establish the accuracy and timeliness of the royalty statements required hereunder. Such examination shall be at the premises of Licensee on ten (10) working days written notice and during normal business hours.",
+                "changed_text": "Smith shall have the right to engage an independent accounting firm to examine the Licensee's sales information and all other books and records necessary to establish the accuracy and timeliness of the royalty statements required hereunder. Such examination shall be at the premises of Licensee on one (1) working days written notice and during normal business hours.",
+                "explanation": "The contract provides for Smith engaging an independent accounting firm with ten (10) working days written notice. The edit changes it to one (1) working day written notice, which creates non-compliance with regulatory standards, because this may be unreasonably short notice to prepare for a comprehensive audit, making it difficult for the licensee to gather necessary documents and personnel and potentially breaching good faith and fair dealing principles.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing in Arizona Contract Law",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All books of account and records of Licensee covering all transactions relating to the Licensee shall be retained by the Licensee until at least two (2) years after the expiration or termination of the Term for possible inspection by Smith.",
+                "changed_text": "All books of account and records of Licensee covering all transactions relating to the Licensee shall be retained by the Licensee until at least six (6) months after the expiration or termination of the Term for possible inspection by Smith.",
+                "explanation": "The contract specifies a two-year retention period for financial records after the contract term. I have shortened this to six months, which creates non-compliance with regulatory standards, potentially violating record-keeping requirements imposed by the IRS or other tax authorities, as well as general business best practices and potential litigation discovery needs.",
+                "contradicted_law": "IRS Record Retention Requirements (varying based on type of record and business)",
+                "location": "Section 5.3"
+            }
+        ]
+    }
+]

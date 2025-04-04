@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PFSFUNDS_06_26_2020-EX-99.HOTHMATCONT-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Services Agreement shall continue in effect from year to year thereafter, subject to termination as hereinafter provided, if such continuance is approved at least annually by vote of a majority of the Trustees who are not interested persons of the Trust or the Adviser. This Agreement may be terminated without the payment of any penalty by either party upon sixty (60) days' written notice to the other party.",
+                "changed_text": "This Services Agreement shall continue in effect from year to year thereafter, subject to termination as hereinafter provided, if such continuance is approved at least annually by vote of a majority of the Trustees who are not interested persons of the Trust or the Adviser. This Agreement may be terminated without the payment of any penalty by either party upon fifteen (15) days' written notice to the other party.",
+                "explanation": "Changing the termination notice period to 15 days creates a conflict. While Massachusetts law doesn't specify a mandatory notice period for service agreements, such short notice may be deemed unreasonable, particularly given the scope of services provided. Courts often imply a 'reasonable' notice period, which is generally longer than 15 days for complex financial service agreements. This could be deemed a breach of the implied covenant of good faith and fair dealing.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing under Massachusetts contract law; general principles of contract law regarding 'reasonable' notice.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "For the performance of the Adviser's obligations under this Agreement, including payment of certain expenses of each of the Funds pursuant to paragraph 3 hereof, each Fund shall pay the Adviser, on the first business day following the end of each month, a fee at an annual rate of 0.65% of a Fund's average daily net assets up to $25 million, 0.35% of a Fund's average daily net assets from $25 million to $100 million, and 0.25% of a Fund's average daily net assets for such assets in excess of $100 million.",
+                "changed_text": "For the performance of the Adviser's obligations under this Agreement, including payment of certain expenses of each of the Funds pursuant to paragraph 3 hereof, each Fund shall pay the Adviser, sixty (60) days following the end of each month, a fee at an annual rate of 0.65% of a Fund's average daily net assets up to $25 million, 0.35% of a Fund's average daily net assets from $25 million to $100 million, and 0.25% of a Fund's average daily net assets for such assets in excess of $100 million.",
+                "explanation": "Delaying the payment to sixty days following the end of each month, can be considered a breach of fiduciary duty if this delay isn't clearly disclosed and justified, and if it unreasonably restricts the fund's liquidity. While the Investment Company Act of 1940 does not specifically dictate payment timelines for advisors, any unreasonable delay that harms the fund or its investors could be challenged. This would violate standards of fair dealing and prudent management expected of investment advisers.",
+                "contradicted_law": "Investment Company Act of 1940 (implied fiduciary duties); general principles of fiduciary duty under Massachusetts law; SEC regulations regarding fair dealing.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Adviser agrees to defend and indemnify the Trust, and its trustees, officers and agent from and against any and all liability, losses, claims and damages arising from your willful misfeasance, bad faith or gross negligence on the Adviser's part or the part of the Adviser's officers, employees, directors and agents in the performance of the Adviser's duties under this Agreement, or by reason of reckless disregard by any of such persons of the Adviser's obligations and duties under this Agreement.",
+                "changed_text": "The Adviser agrees to defend and indemnify the Trust, and its trustees, officers and agent from and against any and all liability, losses, claims and damages arising from the Adviser's gross negligence on the Adviser's part or the part of the Adviser's officers, employees, directors and agents in the performance of the Adviser's duties under this Agreement.",
+                "explanation": "Removing 'willful misfeasance, bad faith or reckless disregard' from the indemnification clause limits the Adviser's liability protection only to gross negligence, contradicting the standard set by the Investment Company Act of 1940. The Act doesn't permit investment advisers to be indemnified for behavior involving bad faith or recklessness. Making Adviser not liable for reckless disregard is a violation of standards expected of investment advisors.",
+                "contradicted_law": "Investment Company Act of 1940 (standards of conduct for investment advisors), SEC interpretations regarding indemnification.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

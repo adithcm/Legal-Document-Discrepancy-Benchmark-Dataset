@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "2.3.3. Purchase. To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order,  which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray shall either  accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of  such Purchase Order in such period constituting disapproval.",
+                "changed_text": "2.3.3. Purchase. To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order,  which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray shall either  accept or reject such Purchase Order within **60 days** after receipt thereof, with any failure to approve or disapprove of  such Purchase Order in such period constituting disapproval.",
+                "explanation": "This change extends the period for Accuray to accept or reject a purchase order to 60 days. This could potentially violate prompt payment laws in some jurisdictions if the distributor is considered a small business or if the purchase order qualifies under specific industry regulations that mandate faster payment or response times. This would create non-compliance with regulatory standards designed to protect smaller vendors or ensure timely transactions.",
+                "contradicted_law": "Potentially violates prompt payment laws or regulations affecting vendor relationships in specific jurisdictions (e.g., laws protecting small businesses or those in specific sectors).",
+                "location": "Section 2.3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.4.1.2.2. The remaining balance is due net 30 days after delivery by Accuray at the specified F.C.A. location  pursuant to Section 4.1.2 and receipt by Distributor of a reasonably undisputed invoice.",
+                "changed_text": "5.4.1.2.2. The remaining balance is due net **90 days** after delivery by Accuray at the specified F.C.A. location  pursuant to Section 4.1.2 and receipt by Distributor of a reasonably undisputed invoice.",
+                "explanation": "This change extends the payment term to 90 days. While seemingly benign, this could violate prompt payment laws or regulations in specific jurisdictions, particularly if the distributor is considered a smaller entity or if the transaction falls under industries with specific payment timeline mandates. The delay in payment might cause financial strain on Accuray if it is relying on quicker revenue cycles, thus creating a legal inconsistency.",
+                "contradicted_law": "Prompt payment laws in jurisdictions that mandate shorter payment terms, especially affecting small to medium-sized enterprises.",
+                "location": "Section 5.4.1.2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "6.2.1. Breach. If either party commits a material breach of a material provision of this Agreement, if such breach was not excused as a  force majeure pursuant to Section 12.12, and if the breaching party has not cured such breach to the other party's  reasonable satisfaction within 30 days after written notice from the other party specifying the nature of such breach, then  the other party shall have the right to terminate this Agreement upon delivery of written notice to the breaching Party.",
+                "changed_text": "6.2.1. Breach. If either party commits a material breach of a material provision of this Agreement, if such breach was not excused as a  force majeure pursuant to Section 12.12, and if the breaching party has not cured such breach to the other party's  reasonable satisfaction within **10 days** after written notice from the other party specifying the nature of such breach, then  the other party shall have the right to terminate this Agreement upon delivery of written notice to the breaching Party.",
+                "explanation": "This reduces the cure period for a material breach to 10 days. This shortened period could be deemed unreasonable or unconscionable under contract law in some jurisdictions, especially considering the complexity of potential breaches in a distribution agreement involving medical equipment. It may not provide sufficient time to rectify complex issues, thus contradicting fair dealing or good faith requirements.",
+                "contradicted_law": "Contract law principles of fair dealing, good faith, and unconscionability, which might invalidate overly restrictive or unreasonable cure periods.",
+                "location": "Section 6.2.1"
+            }
+        ]
+    }
+]

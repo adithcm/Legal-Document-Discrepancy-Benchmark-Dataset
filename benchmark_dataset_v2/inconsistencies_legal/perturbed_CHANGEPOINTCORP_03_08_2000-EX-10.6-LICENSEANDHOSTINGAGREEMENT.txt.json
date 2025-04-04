@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSEANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within one hundred twenty (120) days after delivery of the          Software, Corio shall test the Software for conformance with the          Documentation (\"Acceptance Test\"). If the Software performs in          substantial accordance with the Documentation, then Corio shall notify          Changepoint in writing of its acceptance of the Software. In the event          Corio finds material errors or defects with the Software, Corio shall          notify Changepoint in writing of such errors or defects and provide          adequate detail to facilitate Changepoint replicating the error or          defect. Upon receipt of written notice, Changepoint shall have fifteen          (15) days to correct the defect, reinstall the Software at the Corio          site and re-perform the Acceptance Test. If Corio does not accept the          Software after the second Acceptance Test, a third Acceptance Test will          be performed. If after the third          Acceptance Test Corio does not accept the Software, Corio may, at          its sole option, elect to (i) repeat the Acceptance Test in          accordance with the provisions of this Section 3.1 as many times as          Corio chooses or (ii) terminate the Agreement and receive a refund          of any fees paid to Changepoint as of such date.",
+                "changed_text": "Within thirty (30) days after delivery of the Software, Corio shall test the Software for conformance with the Documentation (\"Acceptance Test\"). If the Software performs in substantial accordance with the Documentation, then Corio shall notify Changepoint in writing of its acceptance of the Software. In the event Corio finds material errors or defects with the Software, Corio shall notify Changepoint in writing of such errors or defects and provide adequate detail to facilitate Changepoint replicating the error or defect. Upon receipt of written notice, Changepoint shall have forty-five (45) days to correct the defect, reinstall the Software at the Corio site and re-perform the Acceptance Test. If Corio does not accept the Software after the second Acceptance Test, a third Acceptance Test will be performed. If after the third Acceptance Test Corio does not accept the Software, Corio may, at its sole option, elect to (i) repeat the Acceptance Test in accordance with the provisions of this Section 3.1 as many times as Corio chooses or (ii) terminate the Agreement and receive a refund of any fees paid to Changepoint as of such date.",
+                "explanation": "The original contract provided 120 days for software acceptance testing. Reducing this to 30 days places an unreasonable burden on Corio, potentially conflicting with implied warranty laws that ensure software functions as intended for a reasonable period. Some jurisdictions might view 30 days as insufficient for complex software, making the clause unenforceable.",
+                "contradicted_law": "Implied Warranty Laws",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If either party breaches any material term or condition of          this Agreement and fails to cure such breach within sixty (60) days          after receiving written notice of the breach, the nonbreaching party          may terminate this Agreement on written notice at any time following          the end of such sixty (60) day period. Notwithstanding the foregoing,          Corio shall have thirty (30) calendar days after receipt of written          notice from Changepoint to cure any nonpayment.",
+                "changed_text": "If either party breaches any material term or condition of          this Agreement and fails to cure such breach within fifteen (15) days          after receiving written notice of the breach, the nonbreaching party          may terminate this Agreement on written notice at any time following          the end of such fifteen (15) day period. Notwithstanding the foregoing,          Corio shall have ten (10) calendar days after receipt of written          notice from Changepoint to cure any nonpayment.",
+                "explanation": "Reducing the cure period for breaches of contract to 15 days creates an unreasonable deadline, particularly for complex issues. Contract law often requires a reasonable cure period, and 15 days may be deemed insufficient, especially in cases involving substantial performance or good faith efforts. Similarly, a 10-day cure period for nonpayment may not comply with laws requiring sufficient time for payment processing and dispute resolution.",
+                "contradicted_law": "Contract Law - Reasonable Cure Period",
+                "location": "Section 11.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All overdue payments shall bear interest at a rate of 12% per annum on the amounts outstanding from the time such amounts become due until payment is received by Changepoint.",
+                "changed_text": "All overdue payments shall bear interest at a rate of 25% per annum on the amounts outstanding from the time such amounts become due until payment is received by Changepoint.",
+                "explanation": "Charging 25% per annum interest on overdue payments may violate usury laws in California, which limit the maximum interest rate that can be charged on certain types of debts. Exceeding these limits can render the interest provision unenforceable and subject Changepoint to legal penalties.",
+                "contradicted_law": "California Usury Laws",
+                "location": "Section 4.3(b)"
+            }
+        ]
+    }
+]

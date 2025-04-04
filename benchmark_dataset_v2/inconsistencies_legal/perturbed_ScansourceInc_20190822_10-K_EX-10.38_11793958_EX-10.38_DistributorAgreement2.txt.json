@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_DistributorAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE BINDING THE BUSINESS ENTITY THAT YOU REPRESENT (\"CUSTOMER\") TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN (A) DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE, AND (B) YOU MAY RETURN THE SOFTWARE FOR A FULL REFUND, OR, IF THE SOFTWARE IS SUPPLIED AS PART OF ANOTHER PRODUCT, YOU MAY RETURN THE ENTIRE PRODUCT FOR A FULL REFUND. YOUR RIGHT TO RETURN AND REFUND EXPIRES 30 DAYS AFTER PURCHASE FROM CISCO OR AN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF CUSTOMER IS THE ORIGINAL END USER PURCHASER.",
+                "changed_text": "BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE BINDING THE BUSINESS ENTITY THAT YOU REPRESENT (\"CUSTOMER\") TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN (A) DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE, AND (B) YOU MAY RETURN THE SOFTWARE FOR A PARTIAL REFUND, OR, IF THE SOFTWARE IS SUPPLIED AS PART OF ANOTHER PRODUCT, YOU MAY RETURN THE ENTIRE PRODUCT FOR A PARTIAL REFUND. YOUR RIGHT TO RETURN AND REFUND EXPIRES 14 DAYS AFTER PURCHASE FROM CISCO OR AN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF CUSTOMER IS THE ORIGINAL END USER PURCHASER.",
+                "explanation": "The modification reduces the return period to 14 days and specifies a partial refund instead of a full refund. This may violate consumer protection laws, which often mandate a longer return period (e.g., 30 days in some jurisdictions for software) and require a full refund for defective or non-conforming goods. It creates a legal contradiction by reducing the consumer's rights.",
+                "contradicted_law": "Various state consumer protection laws (e.g., California Consumer Rights Act, Song-Beverly Consumer Warranty Act) regarding return periods and refund policies.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Limited Warranty Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more than ninety (90) days after original shipment by Cisco), and continuing for a period of the longer of (a) ninety (90) days or (b) the software warranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be free of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications.",
+                "changed_text": "Limited Warranty Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more than thirty (30) days after original shipment by Cisco), and continuing for a period of the longer of (a) thirty (30) days or (b) the software warranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be free of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications.",
+                "explanation": "The modification reduces the warranty period from 90 days to 30 days. This may conflict with implied warranty laws, such as the implied warranty of merchantability, which, depending on the jurisdiction and product, can extend beyond 30 days. By shortening the warranty period, the contract attempts to limit the consumer's legal rights beyond what is legally permissible.",
+                "contradicted_law": "Implied Warranty of Merchantability under the Uniform Commercial Code (UCC) and state-specific warranty laws.",
+                "location": "Section: Limited Warranty"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Customer Records. Customer grants to Cisco and its independent accountants the right to examine Customer's books, records and accounts during Customer's normal business hours to verify compliance with this Agreement. In the event such audit discloses non-compliance with this Agreement, Customer shall promptly pay to Cisco the appropriate license fees.",
+                "changed_text": "Customer Records. Customer grants to Cisco and its independent accountants the right to examine Customer's books, records and accounts to verify compliance with this Agreement. In the event such audit discloses non-compliance with this Agreement, Customer shall have 72 hours to pay to Cisco the appropriate license fees.",
+                "explanation": "This modification limits the time frame for remediation to 72 hours. Depending on the amount owed and the complexity of the non-compliance, this may be an unreasonably short period, particularly if the customer needs to conduct its own internal investigation or secure financing. This could contradict the implied covenant of good faith and fair dealing present in most contracts, which requires reasonable time for compliance.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing",
+                "location": "Section: Customer Records"
+            }
+        ]
+    }
+]

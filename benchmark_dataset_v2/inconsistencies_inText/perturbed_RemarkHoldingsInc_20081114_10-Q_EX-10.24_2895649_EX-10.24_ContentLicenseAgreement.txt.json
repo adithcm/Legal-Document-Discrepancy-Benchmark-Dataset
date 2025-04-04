@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "RemarkHoldingsInc_20081114_10-Q_EX-10.24_2895649_EX-10.24_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "HSWI shall pay to World Book Royalties calculated as a defined percentage of the Net Revenue received by HSWI from advertising generated directly from Content by web pages containing Content or any portion of the Content provided by World Book to HSWI hereunder. The Royalty rate shall be [*] percent ([*]%) on the Affinities and Reference Content; and [*] percent ([*]%) on Translated Content.",
+                "changed_text": "HSWI shall pay to World Book Royalties calculated as a defined percentage of the Net Revenue received by HSWI from advertising generated directly from Content by web pages containing Content or any portion of the Content provided by World Book to HSWI hereunder. The Royalty rate shall be [*] percent ([*]%) on the Affinities and Reference Content; and [*] percent ([*]%) on Translated Content. Notwithstanding the foregoing, royalties for Reference Content shall be calculated at [*]% for the first year, and then at [*]% thereafter.",
+                "explanation": "The modified text creates an in-text contradiction by introducing a different royalty calculation for Reference Content, specifying a tiered rate over time that conflicts with the initial, flat royalty rate. This creates ambiguity regarding how royalties for Reference Content should be calculated, particularly in the first year.",
+                "location": "Section 4.1(i)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Royalties for Content will be calculated based on the Royalty rates set forth in Subsection (i) and compared to the Payments/Advances paid by HSWI during the term of this Agreement. If such calculated Royalties exceed all Payments/Advances paid during the term of this Agreement (\"Excess Royalties\"), HSWI will pay such Excess Royalties within [*] ([*]) days after the end of the calendar year in which such Excess Royalties were earned.",
+                "changed_text": "Royalties for Content will be calculated based on the Royalty rates set forth in Subsection (i) and compared to the Payments/Advances paid by HSWI during the term of this Agreement. If such calculated Royalties exceed all Payments/Advances paid during the term of this Agreement (\"Excess Royalties\"), HSWI will pay such Excess Royalties within [*] ([*]) days after the end of the calendar quarter in which such Excess Royalties were earned.",
+                "explanation": "The modification introduces a contradiction by changing the payment frequency of Excess Royalties. The original text specifies payment within [*] days after the end of the calendar *year*, while the modified text requires payment within [*] days after the end of the calendar *quarter*. This inconsistency creates ambiguity over the exact timing when excess royalties are due.",
+                "location": "Section 4.1(iii)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Upon the expiration or termination of this Agreement, HSWI shall pay World Book all amounts due and owing up to the date of termination, within [*] ([*]) days after such expiration or termination.",
+                "changed_text": "Upon the expiration or termination of this Agreement, HSWI shall pay World Book all amounts due and owing up to the date of termination, within [*] ([*]) days after such expiration or termination. Notwithstanding the foregoing, all payments must be received within 15 days of termination, regardless of any outstanding invoices.",
+                "explanation": "The modified text introduces a contradiction by adding a clause requiring all payments to be received within 15 days of termination, regardless of outstanding invoices. This conflicts with the initial clause that allows [*] days for payment of all amounts due, creating uncertainty about the actual payment deadline.",
+                "location": "Section 6.3"
+            }
+        ]
+    }
+]

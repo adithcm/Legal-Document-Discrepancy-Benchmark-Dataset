@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITEDEVELOPMENTANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.2 Payments to HDI shall be due monthly within thirty (30) days of the end of each calendar month and shall be accompanied by documentation reasonably detailing the calculation of the payment.",
+                "changed_text": "3.2 Payments to HDI shall be due monthly within sixty (60) days of the end of each calendar month and shall be accompanied by documentation reasonably detailing the calculation of the payment.",
+                "explanation": "This change introduces a contradiction. Section 3.2 now states payments are due within 60 days, while later (in the third perturbation) the termination payment timeline relies on payments being made within 30 days. This creates uncertainty about the actual payment deadline.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.1 Term; Termination. This Agreement shall be effective as of that date (the \"Effective Date\") the Site becomes fully operational as set forth in writing and executed by both Parties and shall continue for a period of one (1) year from the Effective Date. This Agreement shall be automatically renewed for an additional one year period on each anniversary of the Effective Date, unless terminated by either Party hereto upon ninety (90) days written notice to the other. Such notice shall specify the date on which this Agreement is to be terminated (the \"Termination Date\").",
+                "changed_text": "4.1 Term; Termination. This Agreement shall be effective as of that date (the \"Effective Date\") the Site becomes fully operational as set forth in writing and executed by both Parties and shall continue for a period of one (1) year from the Effective Date. This Agreement shall be automatically renewed for an additional one year period on each anniversary of the Effective Date, unless terminated by either Party hereto upon sixty (60) days written notice to the other. Such notice shall specify the date on which this Agreement is to be terminated (the \"Termination Date\").",
+                "explanation": "Changing the termination notice period from 90 days to 60 days creates a direct contradiction. The original clause requires 90 days' notice, while the modified clause requires only 60, thus causing in-text contradiction and uncertainty.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": " (c) The Termination Payment, if any, shall be payable by the Company in eight (8) equal payments to be made quarterly, commencing thirty (30) days after the termination date.",
+                "changed_text": " (c) The Termination Payment, if any, shall be payable by the Company in eight (8) equal payments to be made quarterly, commencing sixty (60) days after the termination date.",
+                "explanation": "This change makes the commencement of termination payment at 60 days. This in turn conflicts with Section 3.2. The original clause requires 30 days from the end of the month for normal payments, but the changed termination payment requires 60 days after the termination date for the first payment. This in-text contradiction generates confusion.",
+                "location": "Section 4.2 (c)"
+            }
+        ]
+    }
+]

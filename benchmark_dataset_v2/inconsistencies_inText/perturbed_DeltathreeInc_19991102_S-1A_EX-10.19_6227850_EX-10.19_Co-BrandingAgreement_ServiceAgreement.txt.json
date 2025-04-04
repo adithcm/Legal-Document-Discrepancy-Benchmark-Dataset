@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-BrandingAgreement_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Section 3.06  [Reporting]. Reporting. On or before the tenth day of each calendar month, PrimeCall shall prepare for DeltaThree a report detailing the total revenues and expenses associated with the sale and use of the Calling Cards in the previous month. In the event that DeltaThree disputes any amounts set forth on the report, DeltaThree shall provide PrimeCall with written notice of such dispute, which notice shall detail the reasons for the dispute, within seven (7) days of its receipt thereof. The parties shall negotiate in good faith to resolve any such disputes.",
+                "changed_text": "Section 3.06  [Reporting]. Reporting. On or before the tenth day of each calendar month, PrimeCall shall prepare for DeltaThree a report detailing the total revenues and expenses associated with the sale and use of the Calling Cards in the previous month. In the event that DeltaThree disputes any amounts set forth on the report, DeltaThree shall provide PrimeCall with written notice of such dispute, which notice shall detail the reasons for the dispute, within fourteen (14) days of its receipt thereof. The parties shall negotiate in good faith to resolve any such disputes.",
+                "explanation": "This change creates a contradiction with Section 4.02 [Reporting], which states a seven-day dispute notice period. Now, there's ambiguity about whether DeltaThree has 7 or 14 days to dispute PrimeCall's report.",
+                "location": "Section 3.06"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Section 4.02  [Reporting]. Reporting. On or before the tenth day of each calendar month, DeltaThree shall prepare for PrimeCall a report detailing the total revenues and expenses associated with the sale of PrimeCall's calling cards via the World Wide Web in the previous month. In the event that PrimeCall disputes any amounts set forth on the report, PrimeCall shall provide DeltaThree with written notice of such dispute, which notice shall detail the reasons for the dispute, within seven (7) days of its receipt thereof. The parties shall negotiate in good faith to resolve any such disputes.",
+                "changed_text": "Section 4.02  [Reporting]. Reporting. On or before the tenth day of each calendar month, DeltaThree shall prepare for PrimeCall a report detailing the total revenues and expenses associated with the sale of PrimeCall's calling cards via the World Wide Web in the previous month. In the event that PrimeCall disputes any amounts set forth on the report, PrimeCall shall provide DeltaThree with written notice of such dispute, which notice shall detail the reasons for the dispute, within ten (10) days of its receipt thereof. The parties shall negotiate in good faith to resolve any such disputes.",
+                "explanation": "This change introduces a conflict with the payment terms in Section 5.01, which requires payment within twenty-five (25) business days of receipt of the reports. If PrimeCall now has ten days to dispute the report, it potentially delays the report's finalization, squeezing the time available for DeltaThree to make payment within the original 25-day window.",
+                "location": "Section 4.02"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Section 5.01. Payment Terms. Any amounts due hereunder shall be calculated and paid in U.S. dollars on a monthly basis within twenty-five (25) business days following the receipt of the reports detailed in Sections 3.06  [Reporting] and 4.02  [Reporting] hereof or any other invoices provided for herein. All payments shall be made via wire transfer in accordance with written instructions from the parties.",
+                "changed_text": "Section 5.01. Payment Terms. Any amounts due hereunder shall be calculated and paid in U.S. dollars on a monthly basis within thirty (30) business days following the receipt of the reports detailed in Sections 3.06  [Reporting] and 4.02  [Reporting] hereof or any other invoices provided for herein. All payments shall be made via wire transfer in accordance with written instructions from the parties.",
+                "explanation": "This change provides a longer payment timeline of thirty (30) days, whereas the modified Section 4.02 extends the period to dispute the report. If PrimeCall disputes the report close to the 10-day deadline, and DeltaThree is now working with a new payment term of 30 days from report finalization, there are conflicting interpretations as to when the payments are due.",
+                "location": "Section 5.01"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Contractor shall apply for and receive the ISO13488 standard for the production facility, by no later than . During the term of this Agreement, the manufacturing services provided by the Contractor hereto shall confirm in all material respects with the ISOl3488 standard.",
+                "changed_text": "Contractor shall apply for and receive the ISO13488 standard for the production facility within 18 months of the effective date. During the term of this Agreement, the manufacturing services provided by the Contractor are not required to conform with the ISOl3488 standard.",
+                "explanation": "The original text implies adherence to ISO 13488 standards throughout the agreement term, which is expected in manufacturing, especially for medical devices. Changing this to explicitly state non-conformance directly contradicts regulatory expectations and industry standards, especially in Israel, where the contract is based. Additionally, setting a long, undefined deadline (18 months) to obtain the certification introduces potential non-compliance issues with medical device manufacturing regulations that require timely certification.",
+                "contradicted_law": "ISO 13485 (harmonized with ISO 13488) is a quality management standard specifically for the medical device industry. Many countries, including those in the EU, and the US, require compliance with these standards for medical device manufacturers. The change contradicts the implied expectation of regulatory compliance.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Contractor will issue written purchase orders, which specify all Products to be delivered within a minimum three (3) months period commencing on the date of acceptance of the purchase order by Contractor (\"Purchase Order\"). Contractor shall accept or reject (in writing summarizing the rejection causes) each Purchase Order according to its terms (including the delivery date) within five (5) working days of receipt of such order, if an order has not been confirmed within such period it shall be deemed rejected.",
+                "changed_text": "Contractor will issue verbal purchase orders, which specify Products without regard to specific delivery periods. Contractor is not obligated to respond to Purchase Orders and acceptance is assumed unless explicitly rejected within one (1) working day. Orders not explicitly rejected within this timeframe are considered accepted with no recourse.",
+                "explanation": "This modification reduces the formal requirements for purchase orders, relying on verbal orders. Moreover, reducing the response time for rejection to one day and assuming acceptance by default (with no recourse) puts Customer in a disadvantageous position, especially if terms are unfavorable or unfeasible. This contrasts with established business practices and potentially violates principles of good faith and fair dealing.",
+                "contradicted_law": "General principles of contract law, particularly those related to offer and acceptance, require clear communication and mutual agreement on terms. The modified clause's accelerated acceptance timeframe and elimination of recourse contradict standard commercial practice and could be deemed unconscionable or unenforceable.",
+                "location": "Section 7.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Contractor and Customer agree to terms of payments of current plus thirty (30) days from the date of invoice. Payment shall be affected in US Dollars.",
+                "changed_text": "Contractor and Customer agree to terms of payment of current plus one hundred and eighty (180) days from the date of invoice. The Contractor reserves the right to change payment terms to 365 days or later at their sole discretion. Payment shall be affected in a currency of the Contractor's choosing.",
+                "explanation": "Extending the payment terms to 180 days and adding a clause where the contractor can arbitrarily extend the payment terms introduces ambiguity and potential unfairness. Also, leaving the payment currency open to the Contractor's discretion introduces financial risk and potential non-compliance, as it could be a currency that causes major problems for the client.",
+                "contradicted_law": "While not directly illegal, excessively long and unilaterally changeable payment terms could be challenged under principles of good faith and fair dealing in commercial contracts. These changes could put an excessive burden on the Customer's cash flow and create a potentially untenable financial situation.",
+                "location": "Section 14.2"
+            }
+        ]
+    }
+]

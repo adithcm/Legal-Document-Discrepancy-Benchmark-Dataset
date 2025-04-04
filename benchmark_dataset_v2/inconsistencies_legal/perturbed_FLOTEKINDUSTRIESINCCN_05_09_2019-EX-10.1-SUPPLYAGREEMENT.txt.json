@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(c) FCC shall invoice Flotek for Terpene Product at the time of shipment. Payment of FCC invoices shall be due within sixty (60) days of the respective invoice date.",
+                "changed_text": "(c) FCC shall invoice Flotek for Terpene Product at the time of shipment. Payment of FCC invoices shall be due within ninety (90) days of the respective invoice date.",
+                "explanation": "Extending the payment terms to 90 days may violate the Prompt Payment Act, which ensures timely payments to contractors and subcontractors. The Prompt Payment Act (and similar state laws) often sets shorter deadlines than 90 days, especially for government contracts, which can influence general standards for reasonable payment terms.",
+                "contradicted_law": "Prompt Payment Act (potential violation depending on contract specifics and jurisdiction)",
+                "location": "Section 6(c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(a) Either Flotek or FCC may terminate the Term immediately, upon a written notice to the other such party, when one of the following events occurs:\n\n(i) When the other Party materially violates one or more clause set forth herein or violates one or more purchase order relating to this Agreement and does not remedy such violation within 30 days from receiving the written notice from the other party of such fact (\"Cure Period\"). For the avoidance of doubt, the Parties understand that the postponing of the delivery of the Terpene Product pursuant to Section 11 of this Agreement, shall not be a cause for termination of the Term.",
+                "changed_text": "(a) Either Flotek or FCC may terminate the Term immediately, upon a written notice to the other such party, when one of the following events occurs:\n\n(i) When the other Party materially violates one or more clause set forth herein or violates one or more purchase order relating to this Agreement and does not remedy such violation within 10 days from receiving the written notice from the other party of such fact (\"Cure Period\"). For the avoidance of doubt, the Parties understand that the postponing of the delivery of the Terpene Product pursuant to Section 11 of this Agreement, shall not be a cause for termination of the Term.",
+                "explanation": "Reducing the cure period to 10 days for a material breach could be considered unconscionable or a violation of good faith and fair dealing, particularly in Delaware (governing law) where a reasonable opportunity to cure is generally implied. It could be seen as insufficient time to rectify a complex breach, making the termination clause unduly harsh.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing (Delaware law)",
+                "location": "Section 18(a)(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices, consents, demands or other communications required or permitted to be given pursuant to this Agreement shall be deemed sufficiently given when delivered personally during business days to the appropriate location described below or three (3) business days after the posting thereof by United States first class, registered or certified mail, return receipt requested, with postage fee prepaid and addressed or if sent by email to the email address indicated below, four hours after transmitted:",
+                "changed_text": "All notices, consents, demands or other communications required or permitted to be given pursuant to this Agreement shall be deemed sufficiently given when delivered personally during business days to the appropriate location described below or ten (10) business days after the posting thereof by United States first class, registered or certified mail, return receipt requested, with postage fee prepaid and addressed or if sent by email to the email address indicated below, after one week of transmission:",
+                "explanation": "Setting the timeframe for when notices are considered sufficient after transmitted can contradict state laws if the timeframe is too extended. Some state laws mandate more strict delivery expectations, especially depending on the information transmitted.",
+                "contradicted_law": "Varies by State Law",
+                "location": "Section 22"
+            }
+        ]
+    }
+]
