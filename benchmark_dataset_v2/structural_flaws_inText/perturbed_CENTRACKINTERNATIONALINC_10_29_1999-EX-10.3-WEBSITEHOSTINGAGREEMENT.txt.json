@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends.",
+                "changed_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on may, at its sole discretion, suspend services for maintenance at any time without prior notice.",
+                "explanation": "The original text specifies that maintenance will be performed during off-peak hours. The modified text contradicts this by stating that i-on can suspend services for maintenance at any time without notice, creating uncertainty about the guaranteed uptime and predictability of service interruptions.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "changed_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. i-on will provide a grace period of ten business days to the customer to pay the fees. The Customer acknowledges that failure to pay such fees in a timely manner may or may not result in the interruption or discontinuation of services for the Hosted Site; i-on reserves the right to determine the consequences of late payment on a case-by-case basis.",
+                "explanation": "The original text states a fixed payment date and a clear consequence (interruption/discontinuation) for late payment. The modified text introduces a grace period but also introduces ambiguity by saying failure to pay in a timely manner *may or may not* result in service interruption, giving i-on discretion and creating uncertainty about payment obligations and consequences.",
+                "location": "RESPONSIBILITIES OF THE CUSTOMER"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
+                "changed_text": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods. Renewal of this agreement is at the discretion of i-on and may be dependent on a new agreement or different commercial terms. The notice not to renew should be given fifteen (15) days before the end of the respective initial or renewal term by the customer.",
+                "explanation": "The original text indicates automatic renewal unless either party provides notice. The modified text states the renewal is at i-on's discretion, overriding the automatic renewal clause and creating uncertainty for the Customer about whether the agreement will continue even if they don't provide notice. This makes the renewal terms one-sided and contradicts the original agreement.",
+                "location": "TERM AND TERMINATION"
+            }
+        ]
+    }
+]

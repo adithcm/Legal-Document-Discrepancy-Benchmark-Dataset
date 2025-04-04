@@ -4,27 +4,27 @@
         "perturbation": [
             {
                 "type": "Inconsistencies - Legal Contradiction",
-                "original_text": "Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
-                "changed_text": "Upon and subject to credit approval by Cisco, payment terms shall be 180 days from shipping date. All payments shall be made in the currency in which the Price List is quoted for the applicable Purchase Order [*****].",
-                "explanation": "Extended payment terms significantly beyond typical industry standards (e.g., net 30, net 60) can create issues under the UCC, especially if they are deemed unconscionable or place undue burden on the supplier (Cisco). While not a direct violation, such extended terms could be challenged as commercially unreasonable.",
-                "contradicted_law": "Uniform Commercial Code (UCC) - potential issues with commercial reasonableness and unconscionability.",
+                "original_text": "Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date.",
+                "changed_text": "Upon and subject to credit approval by Cisco, payment terms shall be 120 days from shipping date.",
+                "explanation": "Many small businesses would struggle with 120 day payment terms and this might violate prompt payment laws if ScanSource is considered a large business by state law. Most states have prompt payment laws requiring payment within a much shorter window (30-45 days is common).",
+                "contradicted_law": "Prompt Payment Laws (various state laws)",
                 "location": "Section 6.2"
             },
             {
                 "type": "Inconsistencies - Legal Contradiction",
                 "original_text": "Distributor must make the initial credit request to Cisco, in writing, within [*****] of the underlying point of sale transaction. Any initial credit requests submitted by the Distributor to Cisco greater than [*****] after the underlying point of sale transaction will not be honored by Cisco and Cisco will not grant such credit to Distributor.",
-                "changed_text": "Distributor must make the initial credit request to Cisco, in writing, within 10 days of the underlying point of sale transaction. Any initial credit requests submitted by the Distributor to Cisco greater than 10 days after the underlying point of sale transaction will not be honored by Cisco and Cisco will not grant such credit to Distributor.",
-                "explanation": "Reducing the timeframe for credit requests to 10 days is problematic because it may conflict with standard accounting practices and dispute resolution timelines, particularly for complex transactions, violating principles of fair dealing. While not a specific statute, such a short timeframe could be deemed commercially unreasonable and unenforceable in some jurisdictions.",
-                "contradicted_law": "General principles of contract law - commercial reasonableness, good faith and fair dealing.",
+                "changed_text": "Distributor must make the initial credit request to Cisco, in writing, within 15 days of the underlying point of sale transaction. Any initial credit requests submitted by the Distributor to Cisco greater than 15 days after the underlying point of sale transaction will not be honored by Cisco and Cisco will not grant such credit to Distributor.",
+                "explanation": "This change reduces the time to make credit requests which can create conflict. Statutes of limitations for breach of contract claims can be much longer (e.g., several years). This short window could potentially conflict with legal rights to claim credits for errors or discrepancies.",
+                "contradicted_law": "Statutes of Limitations for Breach of Contract (various state laws)",
                 "location": "Section 6.7"
             },
             {
                 "type": "Inconsistencies - Legal Contradiction",
-                "original_text": "Distributor shall provide to its Resellers, [*****] all warranty service for a minimum of the warranty period set forth in the published Product warranty provided with the original Product. Such warranty shall commence upon shipment to the End User.",
-                "changed_text": "Distributor shall provide to its Resellers, [*****] all warranty service for a minimum of 30 days regardless of what is set forth in the published Product warranty provided with the original Product. Such warranty shall commence upon shipment to the End User.",
-                "explanation": "Limiting the warranty service period to 30 days, irrespective of the original product warranty provided by Cisco, could violate consumer protection laws and the Magnuson-Moss Warranty Act in the United States, if the original warranty extends beyond 30 days. This Act prevents deceptive warranty practices and ensures consumers receive clear warranty information.",
-                "contradicted_law": "Magnuson-Moss Warranty Act (US) and various state consumer protection laws.",
-                "location": "Exhibit B, Section 3.3"
+                "original_text": "Either party may terminate this Agreement, without cause, by giving the other party [*****] days prior written notice.",
+                "changed_text": "Either party may terminate this Agreement, without cause, by giving the other party 15 days prior written notice.",
+                "explanation": "This timeline could be considered unreasonably short. Courts sometimes scrutinize termination clauses, especially if one party has made significant investments based on the contract. A 15-day notice period for a distributor agreement may be challenged as too short to allow the distributor to wind down operations, potentially violating principles of good faith and fair dealing.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing (various state laws)",
+                "location": "Section 18.2"
             }
         ]
     }

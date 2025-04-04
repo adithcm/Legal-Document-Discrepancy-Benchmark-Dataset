@@ -1,30 +1,30 @@
 [
     {
-        "file_name": "ENTRUSTINC_07_24_1998-EX-10.5-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "file_name": "ENTRUSTINC_07_24_1998-EX-10.5-STRATEGICALLIANCEAGREEMENT.txt",
         "perturbation": [
             {
                 "type": "Misaligned Terminology - Legal Contradiction",
-                "original_text": "\"Entrust\" shall mean ETI and all Subsidiaries thereof.",
-                "changed_text": "\"Entrust\" shall mean ETI only.",
-                "explanation": "By removing 'all Subsidiaries thereof' from the definition of \"Entrust,\" the contract now contradicts common legal and business understanding of how a company operates with its subsidiaries. This creates confusion because later clauses refer to 'Entrust' without clarifying whether they include subsidiaries, especially in the areas of liability.",
-                "contradicted_law": "General principles of corporate law regarding subsidiaries and parent company responsibilities.",
+                "original_text": "\"Subsidiary\" shall mean: (i) a corporation, company or other entity, in which a ---------- Party now or hereafter, owns or controls, directly or indirectly, fifty percent (50%) or more of the outstanding shares or securities (representing the right to vote for the election of directors or other managing authority), provided, however, that such corporation, company, or other entity shall be deemed to be a Subsidiary only so long as such ownership or control exists; or (ii) an entity which does not have outstanding shares or securities, as may be the case in a partnership, joint venture or unincorporated association, but in which a Party now or hereafter, owns or controls, directly or indirectly, fifty percent (50%) or more of the ownership interest representing the right to make the decisions for such entity, provided, however, that such entity shall be deemed to be a Subsidiary only so long as such ownership or control exists.",
+                "changed_text": "\"Subsidiary\" shall mean: (i) a corporation, company or other entity, in which a ---------- Party now or hereafter, owns or controls, directly or indirectly, twenty-five percent (25%) or more of the outstanding shares or securities (representing the right to vote for the election of directors or other managing authority), provided, however, that such corporation, company, or other entity shall be deemed to be a Subsidiary only so long as such ownership or control exists; or (ii) an entity which does not have outstanding shares or securities, as may be the case in a partnership, joint venture or unincorporated association, but in which a Party now or hereafter, owns or controls, directly or indirectly, twenty-five percent (25%) or more of the ownership interest representing the right to make the decisions for such entity, provided, however, that such entity shall be deemed to be a Subsidiary only so long as such ownership or control exists.",
+                "explanation": "The original definition of 'Subsidiary' requires a 50% or more ownership or control. Changing this to 25% directly contradicts standard corporate law definitions and creates ambiguity regarding which entities are considered subsidiaries under the agreement.",
+                "contradicted_law": "General Corporate Law - Definition of Subsidiary",
                 "location": "Article I - Definitions"
             },
             {
                 "type": "Misaligned Terminology - Legal Contradiction",
-                "original_text": "Patent License Term\" shall mean that period of time that ETI is a Subsidiary of  NTL.",
-                "changed_text": "\"Patent License Term\" shall mean a period of five years from the effective date, regardless of ETI's subsidiary status.",
-                "explanation": "The original text clearly ties the Patent License Term to ETI's status as a subsidiary of NTL. The modification completely severs this tie, establishing a fixed term irrespective of ownership. This could be problematic under intellectual property law, where licenses are often tied to the duration of a business relationship or control.",
-                "contradicted_law": "General principles of contract law relating to the enforceability of agreements when a condition precedent (subsidiary status) is altered.",
-                "location": "Article I - Definitions"
+                "original_text": "Section 6.02. Nortel Benefit from Cross Licenses. Subject to the terms and ----------------------------------- conditions of this Agreement, Entrust, to the extent of its legal right to do so, hereby grants to Nortel, under the Entrust Patents, an irrevocable, non- transferable, non-assignable, indivisible, non-exclusive, royalty-free, worldwide license for Licensed Products and Licensed Services.",
+                "changed_text": "Section 6.02. Nortel Benefit from Cross Licenses. Subject to the terms and ----------------------------------- conditions of this Agreement, Entrust, to the extent of its legal right to do so, hereby grants to Nortel, under the Entrust Patents, a revocable, non- transferable, non-assignable, indivisible, non-exclusive, royalty-free, worldwide license for Licensed Products and Licensed Services.",
+                "explanation": "Changing 'irrevocable' to 'revocable' fundamentally alters the nature of the license granted. An irrevocable license provides certainty, while a revocable license creates uncertainty in the rights granted, contradicting the implied stability intended in a strategic alliance.",
+                "contradicted_law": "Patent Law - License Agreements",
+                "location": "Section 6.02"
             },
             {
                 "type": "Misaligned Terminology - Legal Contradiction",
-                "original_text": "NTL shall make all reasonable efforts to perform in all material respects the obligations required to maintain the licenses for the NTL Technology in good standing for their respective terms.",
-                "changed_text": "NTL shall use their discretion whether to maintain the licenses for the NTL Technology.",
-                "explanation": "Original text commits NTL to 'reasonable efforts' to maintain licenses. Modification replaces this with 'NTL shall use their discretion' to decide. This is a legal contradiction because the original text establishes a clear obligation, while the modified text makes it optional and not legally binding. This undermines the enforceability of the clause because it gives NTL absolute power of determination, rather than a duty subject to a reasonableness standard.",
-                "contradicted_law": "Breach of contract; good faith.",
-                "location": "Section 2.02. NTL Obligations"
+                "original_text": "Section 12.06. Governing Law. This Agreement shall be governed by and be --------- ---- construed in accordance with the laws of the Province of Ontario, Canada.",
+                "changed_text": "Section 12.06. Governing Law. This Agreement shall be governed by and be --------- ---- construed in accordance with the principles of international comity.",
+                "explanation": "Replacing the explicit governing law (Province of Ontario, Canada) with the vague 'principles of international comity' introduces substantial uncertainty. International comity is a doctrine of deference, not a defined body of law. This change makes it unclear which jurisdiction's laws will apply, creating a legal contradiction and enforcement challenges.",
+                "contradicted_law": "Contract Law - Choice of Law",
+                "location": "Section 12.06"
             }
         ]
     }

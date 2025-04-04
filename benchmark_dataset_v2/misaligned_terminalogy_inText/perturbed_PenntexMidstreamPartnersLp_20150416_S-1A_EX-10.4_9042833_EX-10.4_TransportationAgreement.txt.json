@@ -1,27 +1,27 @@
 [
     {
-        "file_name": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.txt",
+        "file_name": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_TransportationAgreement.txt",
         "perturbation": [
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
                 "original_text": "\"Customer\" shall have the meaning given to such term in the preamble of this Agreement.",
                 "changed_text": "\"Client\" shall have the meaning given to such term in the preamble of this Agreement.",
-                "explanation": "Replaced 'Customer' with 'Client' in the definition. The preamble still refers to 'Customer,' creating ambiguity about which entity is bound by the agreement. This introduces confusion about who is responsible for payments and obligations.",
+                "explanation": "The term 'Customer' is now replaced with 'Client' in this definition, while the rest of the agreement continues to use 'Customer,' creating confusion about which entity is being referred to and thus creating uncertainty in enforcement.",
                 "location": "Article I. Definitions"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "Customer shall pay Transporter an amount that is the product of the Negative Imbalance each Month, if any, and the Cash-out Price.",
-                "changed_text": "Client shall pay Transporter an amount that is the product of the Negative Imbalance each Month, if any, and the Cash-out Price.",
-                "explanation": "Replaced 'Customer' with 'Client.' The contract now refers to both 'Customer' and 'Client,' without specifying if they are the same entity. Since only the original 'Customer' is introduced, now 'Client' would not be liable for payments.",
-                "location": "Article IV. Cash Out"
+                "original_text": "For each Day during the Term, (i) Transporter agrees to provide Firm Service on the Transportation System for Customer Gas delivered to the Transportation System in a quantity not to exceed Customer's Firm Service Gas for such Day, and Interruptible Service for all quantities in excess of Customer's Firm Service Gas for such Day, and deliver to Customer, or for the account of Customer, at the applicable Points of Delivery, Equivalent Quantities of Customer Gas received at the Points of Receipt, and (ii) Customer, or its designee, shall accept such Equivalent Quantities of Customer Gas at the Points of Delivery.",
+                "changed_text": "For each Day during the Term, (i) Transporter agrees to provide Firm Service on the Transportation System for Customer Gas delivered to the Transportation System in a quantity not to exceed Client's Firm Service Gas for such Day, and Interruptible Service for all quantities in excess of Customer's Firm Service Gas for such Day, and deliver to Customer, or for the account of Client, at the applicable Points of Delivery, Equivalent Quantities of Customer Gas received at the Points of Receipt, and (ii) Client, or its designee, shall accept such Equivalent Quantities of Customer Gas at the Points of Delivery.",
+                "explanation": "Here, 'Client' and 'Customer' are used seemingly interchangeably in the same sentence. This leads to confusion in understanding the contract terms, particularly when the obligations are specified. Given the previous change, it's unclear if the Firm Service Gas limit applies to 'Client' or 'Customer' or both.",
+                "location": "Article II. Dedication, Commencement Date Facilities, Post-Commencement Date Facilities and Transporter Services"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "CUSTOMER SHALL RELEASE, DEFEND, INDEMNIFY AND HOLD HARMLESS TRANSPORTER AND TRANSPORTER'S MEMBERS, DIRECTORS, OFFICERS, AGENTS AND EMPLOYEES FROM AND AGAINST ANY AND ALL SUITS, ACTIONS, CAUSES OF ACTION, CLAIMS, DEMANDS, LOSSES, LIABILITIES AND EXPENSES (INCLUDING, WITHOUT LIMITATION, INTEREST, COURT COSTS, REASONABLE ATTORNEYS' FEES AND EXPENSES, AND OTHER COSTS OF DEFENSE) (COLLECTIVELY, \"CLAIMS\") RELATING TO, CAUSED BY OR ARISING OUT OF CUSTOMER'S BREACH OF ANY REPRESENTATION, WARRANTY OR COVENANT MADE BY CUSTOMER HEREUNDER, BUT NOT TO THE PROPORTIONATE EXTENT THAT SUCH CLAIM IS CAUSED BY OR RESULTS FROM OR ARISES OUT OF THE GROSS NEGLIGENCE OR WILLFUL MISCONDUCT OF TRANSPORTER.",
-                "changed_text": "CLIENT SHALL RELEASE, DEFEND, INDEMNIFY AND HOLD HARMLESS TRANSPORTER AND TRANSPORTER'S MEMBERS, DIRECTORS, OFFICERS, AGENTS AND EMPLOYEES FROM AND AGAINST ANY AND ALL SUITS, ACTIONS, CAUSES OF ACTION, CLAIMS, DEMANDS, LOSSES, LIABILITIES AND EXPENSES (INCLUDING, WITHOUT LIMITATION, INTEREST, COURT COSTS, REASONABLE ATTORNEYS' FEES AND EXPENSES, AND OTHER COSTS OF DEFENSE) (COLLECTIVELY, \"CLAIMS\") RELATING TO, CAUSED BY OR ARISING OUT OF CUSTOMER'S BREACH OF ANY REPRESENTATION, WARRANTY OR COVENANT MADE BY CUSTOMER HEREUNDER, BUT NOT TO THE PROPORTIONATE EXTENT THAT SUCH CLAIM IS CAUSED BY OR RESULTS FROM OR ARISES OUT OF THE GROSS NEGLIGENCE OR WILLFUL MISCONDUCT OF TRANSPORTER.",
-                "explanation": "Using 'Client' instead of 'Customer' within the indemnification clause when the operative part refers to Customer's breach creates confusion. It's unclear whether Client's obligation extends to breaches by 'Customer,' or if 'Client' is a completely separate entity. This introduces ambiguity about who is responsible for indemnifying Transporter.",
-                "location": "Article XIII. Limitation of Liability & Indemnifications"
+                "original_text": "In the event Transporter is required to pay or remit any such Tax or surcharge owed by Customer as a result of Customer Gas being transported on the Transportation System, Customer shall reimburse Transporter for such Tax or surcharge pursuant to Transporter's invoice for the same. Customer hereby agrees to indemnify, defend and hold harmless Transporter from and against any and all claims and losses arising out of or related to such Taxes or surcharges.",
+                "changed_text": "In the event Transporter is required to pay or remit any such Tax or surcharge owed by Client as a result of Customer Gas being transported on the Transportation System, Customer shall reimburse Transporter for such Tax or surcharge pursuant to Transporter's invoice for the same. Client hereby agrees to indemnify, defend and hold harmless Transporter from and against any and all claims and losses arising out of or related to such Taxes or surcharges.",
+                "explanation": "Client is now obligated to pay for Customer Taxes. Given the change of definitions for both it is unclear who is responsible for the different actions.",
+                "location": "Article XII. Taxes and Surcharges"
             }
         ]
     }

@@ -4,27 +4,27 @@
         "perturbation": [
             {
                 "type": "Inconsistencies - Legal Contradiction",
-                "original_text": "LeadersOnline shall limit contact with a Candidate to either one phone contact or one e-mail contact per calendar quarter, unless expressly agreed to by the Candidate.",
-                "changed_text": "LeadersOnline shall have unlimited contact with Candidates and their information, including corporate Affiliates of LeadersOnline, without the written consent of the individual whose information would be disclosed.",
-                "explanation": "This modification directly contradicts privacy laws and regulations that protect personal information and limit unsolicited contact. Specifically, it violates the implied consent and reasonable contact frequency principles found in many state data protection laws. The modification also fails to comply with the federal CAN-SPAM Act, which sets requirements for commercial email, including providing recipients with a clear opt-out method. Offering unlimited contact also clashes with California Consumer Privacy Act (CCPA) and GDPR in Europe, where they have stringent requirements for processing personal data.",
-                "contradicted_law": "CAN-SPAM Act, California Consumer Privacy Act (CCPA), GDPR",
-                "location": "5.2"
-            },
-            {
-                "type": "Inconsistencies - Legal Contradiction",
-                "original_text": "LeadersOnline shall pay VerticalNet *** percent (***%) of LeadersOnline- VerticalNet Revenue, payable to VerticalNet  on or before the fifteenth day of  the calendar month immediately following the month in which such revenue was received by LeadersOnline.",
-                "changed_text": "LeadersOnline shall pay VerticalNet *** percent (***%) of LeadersOnline- VerticalNet Revenue, payable to VerticalNet at the company's discretion, with no specific due date.",
-                "explanation": "By removing the specific due date for payment, the modified text contradicts basic contract law principles that require payment terms to be clearly defined and enforceable. It also potentially violates state prompt payment laws, which mandate specific timelines for payment in certain industries. Furthermore, the phrase 'at the company's discretion' introduces significant ambiguity, making the payment obligation unenforceable and conflicting with established commercial practices.",
-                "contradicted_law": "Basic contract law principles, State prompt payment laws",
-                "location": "6.3.1"
-            },
-            {
-                "type": "Inconsistencies - Legal Contradiction",
-                "original_text": "If the amount owed by LeadersOnline to VerticalNet was underpaid, the additional amount owed shall be paid to VerticalNet within 15 days of notice of such underpayment to LeadersOnline.",
-                "changed_text": "If the amount owed by LeadersOnline to VerticalNet was underpaid, the additional amount owed shall be paid to VerticalNet within 90 days of notice of such underpayment to LeadersOnline.",
-                "explanation": "By changing the payment period to 90 days, this perturbation clashes with typical commercial practices and potentially violates state laws that mandate shorter payment terms, especially for smaller debts or specific types of transactions. The longer repayment period can also impact VerticalNet's cash flow, creating a financial burden that may contradict reasonable business expectations and standard accounting practices.",
-                "contradicted_law": "State prompt payment laws, Commercial Accounting Practices",
+                "original_text": "During the 12 month period following the payment of any amount due under this Article 6, VerticalNet or its representative shall have the right to audit LeadersOnline's financial and other pertinent records relating to such payment in order to verify the amount of the payments owed and/or paid.",
+                "changed_text": "During the 36 month period following the payment of any amount due under this Article 6, VerticalNet or its representative shall have the right to audit LeadersOnline's financial and other pertinent records relating to such payment in order to verify the amount of the payments owed and/or paid.",
+                "explanation": "By extending the audit period to 36 months, the contract creates a potential conflict with statutes of limitations for breach of contract claims in Pennsylvania, which is four years. While a longer audit period isn't necessarily illegal, it could lead to disputes if financial records are no longer readily available or legally required to be maintained, increasing litigation risk. Record-keeping laws and regulations for business documents vary, but generally, a 3-year retention period for financial records is standard, and extending the audit window beyond this creates potential legal issues.",
+                "contradicted_law": "Statute of limitations for breach of contract in Pennsylvania",
                 "location": "6.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Party may terminate this Agreement immediately upon written notice to the other Party in the event of any material breach of a term of this Agreement by such other Party that remains uncured 30 days after notice of such breach was received by such other Party or, if the breach is not reasonably capable of cure within 30 days, such longer period, not to exceed 60 days, so long as the cure is commenced within the 30-day period and thereafter is diligently prosecuted to completion as soon as possible and in any event within 60 days.",
+                "changed_text": "Either Party may terminate this Agreement immediately upon written notice to the other Party in the event of any material breach of a term of this Agreement by such other Party that remains uncured 10 days after notice of such breach was received by such other Party or, if the breach is not reasonably capable of cure within 10 days, such longer period, not to exceed 20 days, so long as the cure is commenced within the 10-day period and thereafter is diligently prosecuted to completion as soon as possible and in any event within 20 days.",
+                "explanation": "Reducing the cure period for a material breach to 10 days (with a maximum extension to 20) is generally unfavorable and creates a legal risk because such a short timeframe might be deemed commercially unreasonable, especially for complex breaches. Courts often require a reasonable opportunity to cure, and 10-20 days might be seen as insufficient, making the termination clause vulnerable to legal challenge.",
+                "contradicted_law": "Common law principles of reasonable opportunity to cure a breach of contract",
+                "location": "7.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The confidentiality obligations contained in this Article 9 shall survive termination of this Agreement for a period of three (3) years.",
+                "changed_text": "The confidentiality obligations contained in this Article 9 shall survive termination of this Agreement for a period of one (1) year.",
+                "explanation": "Reducing the confidentiality period to one (1) year may be deemed insufficient to protect trade secrets or other sensitive information, particularly given the nature of the data exchanged, and could potentially open the door to claims of breach of confidentiality if the one-year survival period is deemed unreasonably short by a court or arbitrator",
+                "contradicted_law": "Trade Secret Law and potential for insufficient protection",
+                "location": "9.3"
             }
         ]
     }

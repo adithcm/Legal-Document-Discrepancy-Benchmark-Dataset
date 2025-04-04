@@ -1,27 +1,27 @@
 [
     {
-        "file_name": "RUBIOSRESTAURANTSINC_03_31_2008-EX-10.75-SPONSORSHIP AGREEMENT.txt",
+        "file_name": "RUBIOSRESTAURANTSINC_03_31_2008-EX-10.75-SPONSORSHIPAGREEMENT.txt",
         "perturbation": [
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "SPONSOR:                         Name: Rubio's Fresh Mexican Grill Phone: 760/602-3611               Address: 1902 Wright Place, Suite 300                     Carlsbad, CA 92008 E-mail: ***               Attn: Lawrence A. Rusinko",
-                "changed_text": "SPONSOR:                         Name: Rubio's Fresh Mexican Grill Phone: 760/602-3611               Address: 1902 Wright Place, Suite 300                     Carlsbad, CA 92008 E-mail: ***               Attn: Lawrence A. Rusinko\n\n...Later...\n\nCLIENT:                        Name: Rubio's Fresh Mexican Grill Phone: 760/602-3611               Address: 1902 Wright Place, Suite 300                     Carlsbad, CA 92008 E-mail: ***               Attn: Lawrence A. Rusinko",
-                "explanation": "The term 'Sponsor' is a defined role, but the contract starts to refer to the same entity as 'Client' later on, creating uncertainty about the obligations tied to each term. Are they the same or different?",
-                "location": "Agreement Summary"
+                "original_text": "Sponsor shall pay $*** to SDBF pursuant to the following: $ *** due on or before April 30, 2008 $ *** due on or before June 30, 2008 $ *** due on or before August 31, 2008",
+                "changed_text": "Sponsor shall remit $*** to SDBF according to the following schedule: $ *** due on or before April 30, 2008 $ *** due on or before June 30, 2008 $ *** due on or before August 31, 2008",
+                "explanation": "Changing 'pay' to 'remit' introduces a subtle ambiguity. While generally synonymous, 'remit' can sometimes imply a slightly different method or obligation, potentially causing confusion if the contract relies heavily on the specific interpretation of 'pay'.",
+                "location": "Agreement Summary, Page 1"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "SDBF shall provide Sponsor with the following benefits, subject to the terms of the General Provisions attached hereto (the \"General Provisions\"):\nSignage benefits\noOne Terrace Level fascia sign. The sign is approximately 3' x 16'. SDBF to pay production costs for installation of new signage. SDBF shall install this sign on or before March 28, 2008.",
-                "changed_text": "SDBF shall provide Sponsor with the following benefits, subject to the terms of the General Provisions attached hereto (the \"General Provisions\"):\nSignage benefits\noOne Terrace Level fascia sign. The sign is approximately 3' x 16'. SDBF to pay production costs for installation of new signage. The Stadium Authority shall install this sign on or before March 28, 2008.",
-                "explanation": "Initially SDBF installs the signage but then the Stadium Authority is responsible for installing the same signage, this will lead to confusion.",
-                "location": "Agreement Summary"
+                "original_text": "In consideration of the Sponsorship Benefits to be furnished by SDBF to Sponsor hereunder, Sponsor shall pay to SDBF the Annual Payments set forth in the Agreement Summary on the dates set forth therein. Any payment due pursuant to this Section that is not received by SDBF within fifteen (15) days after such payment is due shall bear interest from the date the payment was due until paid, at a per annum rate of interest equal to the prime rate of interest as published in the Wall Street Journal, plus five (5) percentage points, or if such interest rate is not permitted by applicable law, at the highest non-usurious interest rate permitted by applicable law.",
+                "changed_text": "In consideration of the Sponsorship Benefits to be furnished by SDBF to Sponsor hereunder, Sponsor shall contribute to SDBF the Annual Payments detailed in the Agreement Summary on the dates specified therein. Any contribution due pursuant to this Section that is not collected by SDBF within fifteen (15) days after such contribution is due shall accrue interest from the date the contribution was due until settled, at an annual interest rate equivalent to the prime rate as published in the Wall Street Journal, plus five (5) percentage points, or if such rate is legally restricted, at the maximum permissible non-usurious interest rate.",
+                "explanation": "Here, 'pay' is replaced with 'contribute', 'received' with 'collected', and 'paid' with 'settled'. This alters the nature of the obligation from a simple monetary transaction to something akin to a donation or investment, blurring the lines regarding SDBF's responsibilities and Sponsor's rights. Furthermore, changing 'payment' to 'contribution' and 'due' to 'detailed' can create uncertainty around if it's the responsibility of the sponsor to initiate the payment or SDBF to collect it.",
+                "location": "General Provisions, Section 3.a"
             },
             {
                 "type": "Misaligned Terminology - In Text Contradiction",
-                "original_text": "Sponsor shall pay $*** to SDBF pursuant to the following:\n$ *** due on or before April 30, 2008     $ *** due on or before June 30, 2008     $ *** due on or before August 31, 2008",
-                "changed_text": "Sponsor shall pay $*** to SDBF pursuant to the following:\n$ *** due on or before April 30, 2008     $ *** due on or before June 30, 2008     $ *** due on or before August 31, 2008\n...Later...\nLicensee shall pay $*** to SDBF pursuant to the following:\n$ *** due on or before April 30, 2008     $ *** due on or before June 30, 2008     $ *** due on or before August 31, 2008",
-                "explanation": "The sponsor is responsible for the payments, but somewhere else the 'Licensee' also has to pay, creating contradiction and possible dispute about payment responsibilities.",
-                "location": "Agreement Summary"
+                "original_text": "During the Term, for and in consideration of the Payments set forth herein, SDBF will furnish to Sponsor Sponsorship Benefits set forth in the Agreement Summary, subject to any limitations and conditions imposed by the Office of the Commissioner of Baseball generally or with respect to specific events such as nationally-televised games, All-Star Games, playoff games and World Series Games, provided, however, that in no event shall SDBF be obligated to furnish Sponsorship Benefits for any period after a default by Sponsor in payment when due of any amount due hereunder.",
+                "changed_text": "During the Term, in return for the Installments specified herein, SDBF will provide Sponsor Promotional Considerations as described in the Agreement Summary, in accordance with any constraints and qualifications stipulated by the Office of the Commissioner of Baseball regarding nationally-televised games, All-Star Games, playoff games, and World Series Games. However, SDBF is not required to continue offering Promotional Considerations if Sponsor defaults by not paying the due payment.",
+                "explanation": "Swapping 'Payments' for 'Installments', 'Sponsorship Benefits' for 'Promotional Considerations', and rephrasing the final clause alters the legal feel of the obligations. 'Installments' might imply a structured payment plan rather than a lump sum or series of payments. 'Promotional Considerations' is vague, and the last clause about payment being 'due' is also vague. ",
+                "location": "General Provisions, Section 1"
             }
         ]
     }

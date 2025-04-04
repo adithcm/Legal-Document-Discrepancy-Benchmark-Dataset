@@ -5,23 +5,23 @@
             {
                 "type": "Omissions - In Text Contradiction",
                 "original_text": "Throughout this Agreement, and unless the context otherwise requires, the terms shown on Exhibit A (whether or not capitalized) shall have the meanings there specified. If other terms are defined in the text of this Agreement, then throughout this Agreement, those terms shall have the meanings respectively ascribed to them.",
-                "changed_text": "Throughout this Agreement, unless explicitly redefined in a specific section, terms, whether or not capitalized, shall have their common, everyday meaning. If other terms are defined in the text of this Agreement, then throughout this Agreement, those terms shall have the meanings respectively ascribed to them, but only within that specific section.",
-                "explanation": "By removing the reference to Exhibit A, which contains key definitions, and introducing ambiguity with 'common, everyday meaning,' while limiting defined terms to only the sections they appear in, the contract now has internal contradictions. Later sections rely on definitions in Exhibit A, but this section now suggests those definitions are irrelevant unless explicitly repeated, creating uncertainty in enforcement.",
-                "location": "1.1"
+                "changed_text": "Throughout this Agreement, terms defined in the text of this Agreement shall have the meanings respectively ascribed to them.",
+                "explanation": "By removing the reference to Exhibit A which contains key definitions, the contract becomes ambiguous. Sections referring to terms defined in Exhibit A now lack clear meaning, creating uncertainty in enforcement. For example, terms like 'Axiometric', 'LKPL', 'AMR Product Suite', 'Gross Proceeds', 'Net Proceeds' are now undefined, impacting the proceeds distribution calculation as defined in section 3.3",
+                "location": "1. DEFINITIONS - 1.1"
             },
             {
                 "type": "Omissions - In Text Contradiction",
-                "original_text": "LKPL shall pay Axiometric the higher of a) five-percent (5%) of the Gross Proceeds or b) twenty-percent (25%) of the Net Proceeds",
+                "original_text": "LKPL shall pay Axiometric the higher of: a) five-percent (5%) of the Gross Proceeds OR b) twenty-percent (25%) of the Net Proceeds",
                 "changed_text": "LKPL shall pay Axiometric a percentage of the proceeds.",
-                "explanation": "By removing the clear specifications of how to calculate the amount LKPL pays Axiometric, it removes the means of calculating the value of the payment. While the original text stated the amount shall be either a) five-percent (5%) of the Gross Proceeds or b) twenty-percent (25%) of the Net Proceeds, now the new text only states a percentage. This creates ambiguity for enforcement because calculating the amount is not possible, but other sections in the contract still reference the payments, creating ambiguity in enforcement.",
+                "explanation": "By removing the specific percentages and the defined terms Gross Proceeds and Net Proceeds, the contract becomes ambiguous about the payment amounts. Section 3.3.3 previously relied on these definitions for the calculation of payments, but without them, it is unclear how much Axiometric is entitled to. This creates a contradiction as Section 3 continues to refer to payments based on proceeds without a clear calculation method.",
                 "location": "3.3.3"
             },
             {
                 "type": "Omissions - In Text Contradiction",
-                "original_text": "Payments not received within sixty (60) days after their due date will be considered a material breach of this Agreement and the party due payment may pursue any and all legal action to recover the payment and reasonable legal fees incurred in the pursuit of said payment.",
-                "changed_text": "Payments not received after their due date may be subject to legal action as deemed necessary.",
-                "explanation": "This modification removes the definition of what constitutes a material breach (60 days late) and removes the guarantee of recovering reasonable legal fees. This weakens the enforcement mechanism for late payments, contradicting the intent of prompt payment outlined elsewhere. Without specifying a timeframe for a material breach or guaranteeing coverage of legal fees, it creates uncertainty in how the contract will be enforced regarding late payments, and what legal actions are deemed necessary.",
-                "location": "3.5.3"
+                "original_text": "The RFM shall specify delivered product cost, credit requirements, delivery schedules, warranty service, quality using industry standard terms, and other industry standard manufacturing requirements.",
+                "changed_text": "The RFM shall specify product requirements.",
+                "explanation": "By removing the detailed requirements for the Request for Manufacture (RFM), the contract introduces vagueness. While LKPL still has the first right of refusal on RFMs, the omitted details create uncertainty. This means section 3.4 still references an RFM with less specific guidelines for LKPL to reject or accept the manufacturing request. This could lead to disputes over whether LKPL's refusal was justified, and how that impacts Axiometric's freedom to contract with an alternate manufacturer.",
+                "location": "3.4"
             }
         ]
     }
