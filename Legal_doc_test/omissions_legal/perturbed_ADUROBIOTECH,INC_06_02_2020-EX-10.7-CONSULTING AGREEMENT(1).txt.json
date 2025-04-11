@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING AGREEMENT(1).txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Aduro Biotech, Inc., with a place of business at 740 Heinz Avenue, Berkeley, CA 94710 (\"Aduro\") and IREYA B.V having an address at Staalwijkstraat 16, 2313 XR Leiden, the Netherlands, represented by Andrea van Elsas, (\"Consultant\") agree to all terms and conditions of this Consulting Agreement (\"Agreement\") dated June 1, 2020, effective as of July 1, 2020 (\"Effective Date\").",
+                "changed_text": "IREYA B.V having an address at Staalwijkstraat 16, 2313 XR Leiden, the Netherlands, represented by Andrea van Elsas, (\"Consultant\") agree to all terms and conditions of this Consulting Agreement (\"Agreement\") dated June 1, 2020, effective as of July 1, 2020 (\"Effective Date\").",
+                "explanation": "Removing Aduro Biotech, Inc. as a party to the agreement potentially removes legal rights and obligations that would apply to Aduro under California law, where Aduro has its place of business. This omission could create a situation where California laws protecting businesses are not automatically applied, particularly regarding intellectual property and trade secrets.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "law_citation": "California Civil Code § 3426 et seq.",
+                "law_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=4.&title=5.&part=1.&chapter=5.&article=",
+                "law_explanation": "By omitting Aduro as a clear party to the agreement, the contract may not explicitly provide Aduro the full protections afforded under CUTSA in California. CUTSA protects trade secrets, and without Aduro explicitly included, the contract's enforceability regarding trade secrets could be challenged under California law, creating legal risk for Aduro.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement shall be construed and enforced in accordance with the laws of the State of California, without regard to the conflict of law principles of California or any other jurisdiction.",
+                "changed_text": "This Agreement shall be construed and enforced in accordance with the laws of the Netherlands, without regard to the conflict of law principles of California or any other jurisdiction.",
+                "explanation": "Changing the governing law from California to the Netherlands removes the protections afforded to Aduro Biotech under California law. This is particularly problematic because Aduro is located in California and the consulting services are likely to be related to their business operations in California.",
+                "contradicted_law": "California Labor Code",
+                "law_citation": "California Labor Code § 2802",
+                "law_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=LAB&sectionNum=2802",
+                "law_explanation": "California Labor Code § 2802 requires employers to indemnify employees for expenses incurred as a direct consequence of the discharge of their duties. While the consultant is not an employee, changing the governing law makes it ambiguous whether Aduro must still comply with the spirit of this law regarding expenses incurred in California related to the services. This introduces legal risk.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Consultant is subject to and will comply with Aduro's Insider Trading and Trading Window Policy.",
+                "changed_text": "Consultant will comply with Aduro's policies.",
+                "explanation": "Removing the explicit mention of the 'Insider Trading and Trading Window Policy' weakens the consultant's obligation to avoid insider trading, potentially violating securities laws. This omission introduces legal risk for both Aduro and the Consultant.",
+                "contradicted_law": "Securities Exchange Act of 1934",
+                "law_citation": "15 U.S. Code § 78j",
+                "law_url": "https://www.law.cornell.edu/topn/insider_trading",
+                "law_explanation": "The Securities Exchange Act of 1934 prohibits insider trading. By removing the specific reference to Aduro's Insider Trading Policy, the contract becomes less clear about the consultant's obligation to comply with insider trading laws, increasing the risk of violations. While the general statement about complying with Aduro's policies remains, it is not sufficient in highlighting the importance of compliance with Insider Trading policies.",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

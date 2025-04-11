@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval.",
+                "changed_text": "Accuray shall either accept or reject such Purchase Order within 7 calendar days after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval.",
+                "explanation": "Reducing the purchase order approval/rejection timeframe to 7 days may be unreasonably short and conflict with general contract law principles requiring reasonable time for review, especially for complex medical equipment purchases. This could be seen as bad faith dealing, depending on the specifics.",
+                "contradicted_law": "General Contract Law - Reasonable Time for Review",
+                "law_citation": "UCC § 2-206(1)",
+                "law_url": "https://www.law.cornell.edu/ucc/2/206",
+                "law_explanation": "UCC 2-206(1) states that an offer to make a contract shall be construed as inviting acceptance in any manner and by any medium reasonable in the circumstances. Shortening the acceptance window may be deemed unreasonable especially given the complexity of the transaction.",
+                "location": "2.3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "For each such sale, Distributor must send a Purchase Order to Accuray at least six (6) months prior to the expected shipment date.",
+                "changed_text": "For each such sale, Distributor must send a Purchase Order to Accuray at least one (1) month prior to the expected shipment date.",
+                "explanation": "Reducing the purchase order lead time to one month may be insufficient for Accuray to fulfill the order, potentially violating implied duties to provide products within a reasonable timeframe. This timeframe may not allow enough time to ensure the product meets safety and quality standards.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing",
+                "law_citation": "Restatement (Second) of Contracts § 205",
+                "law_url": "https://www.law.cornell.edu/wex/good_faith",
+                "law_explanation": "The Restatement (Second) of Contracts § 205 implies a duty of good faith and fair dealing in the performance and enforcement of every contract. Requiring a distributor to adhere to a shorter lead-time creates a likelihood that the implied conditions of product safety and regulatory standards are unmet.",
+                "location": "3.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon a termination of this Agreement, Accuray shall continue to make available to Customers support services on commercially reasonable terms, including, without limitation, spare parts for the Systems for a minimum period of 10 years after the last shipment of a System pursuant to this Agreement.",
+                "changed_text": "Upon a termination of this Agreement, Accuray shall continue to make available to Customers support services on commercially reasonable terms, including, without limitation, spare parts for the Systems for a minimum period of 1 year after the last shipment of a System pursuant to this Agreement.",
+                "explanation": "Reducing the availability of support services and spare parts to only one year could violate consumer protection laws, particularly if the product has a longer expected lifespan. This would reduce the reasonable time to receive support on a product where the expected life span is significantly longer, thereby reducing access to replacement parts.",
+                "contradicted_law": "Magnuson-Moss Warranty Act",
+                "law_citation": "15 U.S. Code § 2301",
+                "law_url": "https://www.ftc.gov/legal-library/browse/statutes/magnuson-moss-warranty-federal-trade-commission-improvements-act",
+                "law_explanation": "The Magnuson-Moss Warranty Act indirectly requires reasonable availability of services and parts for the duration of the implied warranty of merchantability. Significantly curtailing support services and parts availability to one year for high-value items where that timeframe would fall well short of the product's typical life is in conflict with the reasonable expectation that the warranted product maintains that value throughout it's life.",
+                "location": "4.15"
+            }
+        ]
+    }
+]
