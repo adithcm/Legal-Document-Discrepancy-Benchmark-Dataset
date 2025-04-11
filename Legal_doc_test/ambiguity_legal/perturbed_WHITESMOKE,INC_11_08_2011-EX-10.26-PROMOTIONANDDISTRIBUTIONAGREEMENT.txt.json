@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Distributor shall begin distribution of Bundles in accordance with this Agreement (\"Launch\") within [ * ] days following the Effective Date (the date of such Launch, the \"Launch Date\"). Beginning on the Launch Date and continuing throughout the Term, Distributor shall ensure that [ * ]Distributor App distributed by or on behalf of Distributor is bundled with the Distribution Products as set out in this Agreement.",
+                "changed_text": "Distributor shall endeavor to begin distribution of Bundles in accordance with this Agreement (\"Launch\") within a reasonable timeframe following the Effective Date (the date of such Launch, the \"Launch Date\"). Beginning on the Launch Date and continuing throughout the Term, Distributor should aim to ensure that a significant portion of Distributor Apps distributed by or on behalf of Distributor is bundled with the Distribution Products as set out in this Agreement.",
+                "explanation": "This modification introduces ambiguity by replacing 'shall begin distribution' with 'shall endeavor to begin distribution within a reasonable timeframe,' making the obligation to start distribution less definitive. 'Reasonable timeframe' is subjective and lacks a clear deadline. Furthermore, changing 'shall ensure that' to 'should aim to ensure that a significant portion' weakens the commitment to bundling, introducing further uncertainty about the extent of compliance. This creates a vague legal obligation.",
+                "contradicted_law": "Breach of Contract - Failure to Perform",
+                "law_citation": "Restatement (Second) of Contracts § 235",
+                "law_url": "https://www.law.cornell.edu/wex/contract",
+                "law_explanation": "By replacing 'shall' with weaker, subjective terms like 'endeavor' and 'reasonable timeframe,' the contract creates ambiguity that makes it difficult to prove a breach of contract due to failure to perform a specific action within a defined timeframe. The Restatement (Second) of Contracts § 235 states that when performance of a duty under a contract is due any non-performance is a breach. The modified language makes it harder to enforce a specific performance date.",
+                "location": "3.4 Launch"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Google shall deliver the Distribution Products electronically to Distributor at a [ * ] following the Effective Date and prior to Launch (as defined in Clause 3.4 (Launch)).",
+                "changed_text": "Google may attempt to deliver the Distribution Products electronically to Distributor in a timely manner following the Effective Date and prior to Launch (as defined in Clause 3.4 (Launch)).",
+                "explanation": "This change significantly weakens Google's obligation to deliver the distribution products. 'Shall deliver' is replaced with 'may attempt to deliver,' making the delivery discretionary rather than mandatory. The addition of 'in a timely manner' introduces a vague timeframe that is subject to interpretation, conflicting with the need for a clear delivery schedule. ",
+                "contradicted_law": "Breach of Contract - Duty of Good Faith",
+                "law_citation": "Uniform Commercial Code (UCC) § 1-304",
+                "law_url": "https://www.law.cornell.edu/ucc/1/1-304",
+                "law_explanation": "The UCC § 1-304 implies a duty of good faith in the performance of every contract. By changing 'shall deliver' to 'may attempt to deliver in a timely manner', Google creates a loophole. The modified language provides no guarantee of delivery, potentially contradicting the good faith requirement of providing the product necessary for the Distributor to fulfill their obligations under the contract.",
+                "location": "3.1 Delivery"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Distributor agrees that in connection with its exercise of the right granted in Clause 2.1 (Products Licence Grant) it shall accurately reproduce the Distribution Products and shall not: (a) modify any Product (including modify the Chrome Browser or Google Toolbar configuration files or registry settings); or (b) insert into the Products any viruses, worms, date bombs, time bombs, or other code that is specifically designed to cause the Products to cease operating, or to damage, interrupt, or interfere with any Products or End User data.",
+                "changed_text": "Distributor agrees that in connection with its exercise of the right granted in Clause 2.1 (Products Licence Grant) it should endeavor to accurately reproduce the Distribution Products and should try to avoid: (a) modifying the core functionality of any Product (including modifying the Chrome Browser or Google Toolbar configuration files or registry settings in a way that fundamentally alters its intended use); or (b) inserting into the Products any known viruses, worms, date bombs, time bombs, or other code that is definitively proven to cause the Products to cease operating, or to damage, interrupt, or interfere with any Products or End User data.",
+                "explanation": "This change weakens the restriction on modifying the Products and inserting malicious code. Replacing 'shall accurately reproduce' with 'should endeavor to accurately reproduce' softens the obligation. Adding qualifiers like 'modifying the core functionality' and 'in a way that fundamentally alters its intended use' introduces subjectivity. Similarly, limiting the prohibition to 'known viruses' and requiring definitive proof of harm weakens the protection against malicious code. This makes it harder to enforce these restrictions.",
+                "contradicted_law": "Computer Fraud and Abuse Act (CFAA) 18 U.S. Code § 1030",
+                "law_citation": "18 U.S. Code § 1030",
+                "law_url": "https://www.law.cornell.edu/topn/computer_fraud_and_abuse_act",
+                "law_explanation": "The Computer Fraud and Abuse Act (CFAA) prohibits knowingly transmitting a program, information, code, or command, and as a result of such conduct, intentionally causing damage without authorization, to a protected computer. By weakening the prohibition against inserting malicious code and requiring proof of intent, this modification could potentially allow for actions that violate the spirit and purpose of the CFAA, making it harder to prosecute if the distributor claims lack of knowledge or intent.",
+                "location": "3.7 Accurate Reproduction"
+            }
+        ]
+    }
+]

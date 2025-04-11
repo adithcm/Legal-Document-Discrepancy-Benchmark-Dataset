@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "MetLife,Inc.-RemarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day on which banking institutions in New York, New York are authorized or required by law or executive order to remain closed.",
+                "changed_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day on which the Company chooses to remain closed.",
+                "explanation": "The definition of 'Business Day' is altered to give the Company discretion over which days are considered business days. This contradicts standard legal and financial definitions of 'Business Day,' which are typically tied to objective criteria like banking holidays.",
+                "contradicted_law": "New York General Construction Law § 24",
+                "law_citation": "New York General Construction Law § 24",
+                "law_url": "https://www.nysenate.gov/legislation/laws/GCN/24",
+                "law_explanation": "New York General Construction Law § 24 defines holidays that are considered non-business days in New York. Allowing the Company to arbitrarily choose business days contradicts this statute, potentially affecting contract performance and deadlines.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(g) During the period beginning from the Applicable Time and continuing to and including the Remarketing Settlement Date for the Remarketed Securities, not to offer, sell, contract to offer or sell or otherwise dispose of any debt securities of the Company having pricing characteristics similar to the Securities exceeding an aggregate principal amount of $3 billion, except, for the avoidance of doubt, debt securities issued under the Global Medium Term Note Program of Metropolitan Life Global Funding I, Global Medium Term Note Program of MetLife Institutional Funding II, or any commercial paper program of, or sponsored by, the Company or any subsidiaries, without the prior written consent of the Remarketing Agents, which consent shall not be unreasonably withheld;",
+                "changed_text": "(g) During the period beginning from the Applicable Time and continuing to and including the Remarketing Settlement Date for the Remarketed Securities, the Company may offer, sell, contract to offer or sell or otherwise dispose of debt securities at its own discretion.",
+                "explanation": "This removes the restriction on the Company's ability to issue similar debt securities during the remarketing period. This contradicts the implied agreement to protect the value of the remarketed securities by limiting the supply of similar securities, which could be seen as a breach of good faith and fair dealing.",
+                "contradicted_law": "Uniform Commercial Code § 1-304",
+                "law_citation": "UCC § 1-304",
+                "law_url": "https://www.law.cornell.edu/ucc/1/1-304",
+                "law_explanation": "UCC § 1-304 states that every contract or duty within the Uniform Commercial Code imposes an obligation of good faith in its performance and enforcement. By removing the limitation on issuing similar debt, MetLife could potentially undermine the value of the remarketed securities and breach the implicit covenant of good faith.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "changed_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF DELAWARE, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "explanation": "The governing law of the contract is changed from New York to Delaware, where the Company is incorporated. However, the primary place of business and execution of the contract is in New York. This may cause disputes about which state's laws apply, especially if there are conflicts between New York and Delaware law regarding securities or contract interpretation.",
+                "contradicted_law": "Restatement (Second) of Conflict of Laws § 187",
+                "law_citation": "Restatement (Second) of Conflict of Laws § 187",
+                "law_url": "https://law.justia.com/codes/restatement/second/conflict-of-laws/law-applicable-to-contracts/topic-2/187/.",
+                "law_explanation": "Restatement (Second) of Conflict of Laws § 187 addresses the law of the state chosen by the parties. The choice of law is respected unless the chosen state has no substantial relationship to the parties or the transaction and there is no other reasonable basis for the parties choice, or application of the law of the chosen state would be contrary to a fundamental policy of a state which has a materially greater interest than the chosen state. Given the significant contacts with New York, switching to Delaware law may be contested and found unenforceable if New York has a materially greater interest.",
+                "location": "Section 15"
+            }
+        ]
+    }
+]

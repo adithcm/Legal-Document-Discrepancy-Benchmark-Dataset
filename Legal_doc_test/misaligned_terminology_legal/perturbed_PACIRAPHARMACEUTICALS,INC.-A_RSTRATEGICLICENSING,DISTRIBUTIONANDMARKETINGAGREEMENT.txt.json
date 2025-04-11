@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "PACIRAPHARMACEUTICALS,INC.-A_RSTRATEGICLICENSING,DISTRIBUTIONANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Affiliate\" With respect to any Party to this Agreement shall mean any company, corporation, firm, individual or other entity which Controls, is Controlled by or is under common Control with such Party to this Agreement for only so long as such Control exists;",
+                "changed_text": "\"Affiliate\" With respect to any Party to this Agreement shall mean any vaguely related company, corporation, firm, individual or other entity with some association to such Party to this Agreement for only so long as such association exists;",
+                "explanation": "The original definition uses 'Controls, is Controlled by or is under common Control' which has a specific legal and financial meaning. Changing the definition to 'any vaguely related company...with some association' introduces ambiguity. This undermines the purpose of defining affiliates, which is to clearly delineate entities with specific influence or ownership ties.",
+                "contradicted_law": "Securities Exchange Act of 1934",
+                "law_citation": "17 CFR § 230.405",
+                "law_url": "https://www.law.cornell.edu/cfr/text/17/230.405",
+                "law_explanation": "The modified definition introduces uncertainty by replacing the clear criterion of 'control' with vague terms like 'vaguely related' and 'some association.' This directly contradicts the definition of affiliate under the Securities Exchange Act of 1934 (17 CFR § 230.405), which requires 'control' (the power to direct management and policies) to establish affiliation. The change could allow parties to exploit loopholes by claiming or denying affiliate status based on subjective interpretations, affecting compliance with securities laws.",
+                "location": "1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Applicable Laws\" Shall mean all laws, rules and regulations regarding the manufacture, packaging, labeling, import, export, storage, distribution, representation, promotion, marketing and sale of the Products including but not limited to the Federal Food, Drug and Cosmetic Act of 1938, as amended (\"FD&C Act\") and the Controlled Substances Act, as amended (21 U.S.C. §801 et seq.), or as defined in attendant regulations promulgated under authorities granted by the FD&C Act, together with any equivalent laws, rules, regulations, codes or guidelines having effect in any jurisdiction in the Territory;",
+                "changed_text": "\"Applicable Laws\" Shall mean some suggestions or recommendations about the manufacture, packaging, labeling, import, export, storage, distribution, representation, promotion, marketing and sale of the Products, or guidelines that parties may choose to follow, that may influence the contract.",
+                "explanation": "The change replaces explicit legally binding statutes with suggestions and recommendations, which undermines the enforceability and compliance requirements of the contract.",
+                "contradicted_law": "Federal Food, Drug, and Cosmetic Act",
+                "law_citation": "21 U.S.C. § 301 et seq.",
+                "law_url": "https://www.fda.gov/regulatory-information/federal-food-drug-and-cosmetic-act",
+                "law_explanation": "The modified definition directly contradicts the Federal Food, Drug, and Cosmetic Act (21 U.S.C. § 301 et seq.) by treating legally mandated regulations as optional guidelines. The FD&C Act imposes strict requirements on the manufacturing, labeling, and distribution of drugs and devices. By redefining 'Applicable Laws' to encompass only suggestions, the contract fails to ensure compliance with these mandatory legal standards, rendering the agreement unenforceable and potentially exposing parties to legal penalties for non-compliance with the FD&C Act.",
+                "location": "1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Confidential Information\" Means all confidential information, data and materials in whatever form disclosed by or on behalf of one Party or its Affiliates to the other Party or its Affiliates including, without limitation, the terms of this Agreement, data, formulae, unpublished patent disclosures, processes, protocols, marketing studies, sales information, specifications and know-how, (and, in the case of EKR's Confidential Information, EKR's marketing plans and EKR's sales forecasts), but excluding information which either Party can establish by written documentation: (i) at the time of disclosure, is in the public domain or is public knowledge; (ii) after disclosure, becomes part of the public domain by publication, except by breach of any obligation of confidentiality by a Party hereto or an Affiliate of such Party; (iii) was already in its possession at the time of its receipt and was not acquired directly or indirectly from the other Party or its Affiliates; or (iv) received from Third Parties who were lawfully entitled to disclose such information;",
+                "changed_text": "\"Confidential Information\" Means what each Party considers it to be, as long as they mark the document with the word 'confidential' regardless of its nature or availability to the public, with no exclusions, creating an unlimited interpretation of what qualifies as such.",
+                "explanation": "The initial definition provides specific criteria and exceptions, whereas the modified version lets each party subjectively designate anything as confidential. This ignores public domain status, prior knowledge, and lawful third-party disclosures, conflicting with established legal principles concerning trade secrets and confidential information.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "Varies by State (e.g., California Civil Code § 3426)",
+                "law_url": "https://www.uniformlaws.org/acts/utsa",
+                "law_explanation": "The modified definition conflicts with the Uniform Trade Secrets Act (UTSA), which defines a trade secret as information that (a) derives independent economic value from not being generally known and (b) is subject to reasonable efforts to maintain its secrecy. The change removes the requirement that the information has independent economic value and allows parties to designate publicly available information as 'confidential' simply by marking it as such. This contradicts the UTSA's requirement for genuine secrecy and economic value, potentially leading to the wrongful assertion of trade secret claims over non-confidential information.",
+                "location": "1.1"
+            }
+        ]
+    }
+]
