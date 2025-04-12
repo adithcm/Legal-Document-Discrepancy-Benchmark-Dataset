@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11. \"Product\" means photolithographic integrated circuit photomasks for [***] and related services.",
+                "changed_text": "11. \"Product\" means photolithographic integrated circuit photomasks for [***] only.",
+                "explanation": "This change introduces a contradiction. Initially, \"Product\" included both photomasks and related services. Now, it explicitly excludes related services, potentially leading to disputes about whether certain offerings fall under the agreement.",
+                "location": "Schedule 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.2 Invoices; Payments   The Suppliers shall issue invoices to the Company for any amounts payable to the Suppliers pursuant to this Agreement upon shipment of the applicable Products to the Company. Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "4.2 Invoices; Payments   The Suppliers shall issue invoices to the Company for any amounts payable to the Suppliers pursuant to this Agreement upon the Company's acceptance of the Products. Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the date of the invoice, regardless of product acceptance.",
+                "explanation": "This change introduces a contradiction regarding payment terms. Originally, invoices were tied to shipment. Now, invoices are tied to acceptance, but payment is due a set time from the invoice date, regardless of whether the product is accepted. This creates a conflict where payment may be required for non-conforming goods, causing uncertainty and potential disputes.",
+                "location": "Article 4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.1 Suppliers Limited Warranty   Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant Supplier and the Company in writing that is applicable to such Products for the Warranty Period. This warranty does not apply to any Product failures resulting from misuse, storage in or exposure to environmental conditions inconsistent with those specified in the applicable specifications or documentation, modification of the Product by anyone other than the relevant Supplier. If a Product fails to comply with the foregoing warranty, the relevant Supplier shall, at its option, either [***]such Product, or, in the event the foregoing options are not commercially practicable, [***]to the Company any amounts paid for the applicable Product. Without limiting the remedies specified in Article 8 and Section 9.2, this Section 6.1 states the exclusive remedy of the Company for failure of a Product to conform to the warranty provisions set forth in this Section 6.1.",
+                "changed_text": "6.1 Suppliers Limited Warranty   Each of the Suppliers warrants that the Products shall comply with the specifications and documentation agreed by the relevant Supplier and the Company in writing that is applicable to such Products for the Warranty Period. If a Product fails to comply with the foregoing warranty, the relevant Supplier shall, at its option, either [***]such Product, or, in the event the foregoing options are not commercially practicable, [***]to the Company any amounts paid for the applicable Product. This Section 6.1 states the non-exclusive remedy of the Company for failure of a Product to conform to the warranty provisions set forth in this Section 6.1. The Company may pursue additional remedies under applicable law.",
+                "explanation": "The initial clause explicitly states this section is the \"exclusive remedy\", while the modified clause now claims it's a \"non-exclusive remedy\" allowing the company to seek more remedies. This is an in-text contradiction causing confusion about the Company's rights in case of a warranty breach.",
+                "location": "Article 6"
+            }
+        ]
+    }
+]

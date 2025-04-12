@@ -1,0 +1,21 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "2. Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "2. Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 within 15 days of the completion of Stage 2 of the Scope of Work, as defined in Exhibit A.",
+                "explanation": "This change introduces a contradiction by specifying that the remaining $3,100 is due within 15 days of Stage 2 completion rather than 'on completion of the Scope of Work' (which is Stage 3). This creates uncertainty about when the final payment is actually due, potentially leading to disputes.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(b) Due Dates and Delays. Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client.",
+                "changed_text": "(b) Due Dates and Delays. Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to delay under any circumstances, and Company is responsible for delivering the website by May 3, 2018, regardless of any delays from Client. Any failure to deliver by this date will result in a 10% reduction in the Contract Price.",
+                "explanation": "This change contradicts the original clause by stating that the due dates are *not* subject to delay, even if caused by the Client. This directly conflicts with the initial agreement that client delays can impact the timeline, and introduces a penalty for the Company that was not initially present in the agreement. This creates a legal uncertainty.",
+                "location": "Section 1(b)"
+            }
+        ]
+    }
+]

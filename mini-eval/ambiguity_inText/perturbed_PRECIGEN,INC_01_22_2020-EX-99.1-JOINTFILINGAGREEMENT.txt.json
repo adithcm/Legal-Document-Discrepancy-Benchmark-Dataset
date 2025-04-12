@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PRECIGEN,INC_01_22_2020-EX-99.1-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Additional Reporting Person (a): Merck Serono SA Address: Zone Industrielle 1267 Coinsins, Switzerland Additional Reporting Person (b): Merck KGaA Address: Frankfurter Str. 250 64293 Darmstadt, Germany",
+                "changed_text": "Additional Reporting Person (a): Merck Serono SA Address: Zone Industrielle 1267 Coinsins, Switzerland Additional Reporting Person (b): Merck KGaA Address: Unknown",
+                "explanation": "The address for Merck KGaA is changed to 'Unknown'. This creates a contradiction, as the original text clearly states the address. It is now ambiguous whether communication to that address will legally suffice, or if Merck KGaA can claim non-receipt due to incorrect address.",
+                "location": "Top of document, specifying Reporting Persons"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Designated Filer: Ares Trading SA Issuer and CUSIP: Intrexon Corporation (46122T102)",
+                "changed_text": "Designated Filer: Ares Trading SA Issuer and CUSIP: Intrexon Corporation (Unverified)",
+                "explanation": "The CUSIP number is now marked as 'Unverified'. This creates ambiguity because the original text implied a valid, verified CUSIP. Now, it's unclear if this CUSIP is accurate, or if the filing is associated with the correct issuer, potentially leading to legal challenges.",
+                "location": "Top of document, specifying Filing Information"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "MERCK KGAA, DARMSTADT, GERMANY By: /s/ Rando Bruns By: /s/ Tim Nielsen Name: Rando Bruns Name: Tim Nielsen Title: Head of Treasury Title: Head of Capital Markets",
+                "changed_text": "MERCK KGAA, DARMSTADT, GERMANY By: /s/ Rando Bruns By: /s/ Tim Nielsen Name: Rando Bruns Name: Tim Nielsen Title: Employee Title: Employee",
+                "explanation": "The titles of Rando Bruns and Tim Nielsen have been changed from 'Head of Treasury' and 'Head of Capital Markets' to simply 'Employee.' This introduces ambiguity regarding their authority to sign on behalf of Merck KGaA, as their original titles implied specific financial responsibilities. It is now unclear whether they have the authorization to bind the company to this agreement, creating uncertainty in enforcement.",
+                "location": "Bottom of the document, under Merck KGaA signature."
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Xencor hereby grants to Aimmune during the Term an exclusive, worldwide, payment-bearing license under and with respect to Xencor Patents and Xencor's interest in Joint Collaboration Patents, and a non-exclusive, payment bearing license under and with respect to Xencor Know-How, in each case, with the right to sublicense solely in accordance with Section 2.3.2, solely to Develop, Manufacture and Commercialize the Product in and for the Licensed Field; provided that notwithstanding the foregoing, Xencor shall retain the right under and with respect to Xencor Patents and Xencor's interest in Joint Collaboration Patents to the extent necessary to perform its obligations under this Agreement.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Xencor hereby grants to Aimmune during the Term a non-exclusive, worldwide, payment-bearing license under and with respect to Xencor Patents and Xencor's interest in Joint Collaboration Patents, and a non-exclusive, payment bearing license under and with respect to Xencor Know-How, in each case, with the right to sublicense solely in accordance with Section 2.3.2, solely to Develop, Manufacture and Commercialize the Product in and for the Licensed Field; provided that notwithstanding the foregoing, Xencor shall retain the right under and with respect to Xencor Patents and Xencor's interest in Joint Collaboration Patents to the extent necessary to perform its obligations under this Agreement.",
+                "explanation": "The clause initially states that Xencor grants Aimmune an 'exclusive' license. By changing it to 'non-exclusive' we are in direct contradiction with the original exclusivity. Creates uncertainty about Aimmune's competitive advantage.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Milestone Event Milestone Payment\nDevelopment Milestone\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\nSales Milestones\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]",
+                "changed_text": "Milestone Event Milestone Payment\nDevelopment Milestone\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\nSales Milestones\n[***] $ [***]\n[***] $ [***]\n[***] $ [***]\n[***] $0",
+                "explanation": "This perturbation makes it so that one of the sales milestones has no payment associated with it. This may cause conflict between the parties as Xencor will likely believe it is entitled to a payment upon completion of the milestone, but Aimmune may not believe it is required to pay.",
+                "location": "Section 7.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The audit shall be limited to pertinent records kept by Aimmune and its Affiliates and Sublicensees for any year ending not more than [***] ([***]) months prior to the date of the written notice. An audit under this Section 8.4 shall not occur more than [***] in any Calendar Year, except in the case of any subsequent \"for cause\" audit.",
+                "changed_text": "The audit shall be limited to pertinent records kept by Aimmune and its Affiliates and Sublicensees for any year ending not more than [***] ([***]) months prior to the date of the written notice. An audit under this Section 8.4 shall occur more than [***] in any Calendar Year, except in the case of any subsequent \"for cause\" audit.",
+                "explanation": "The original text restricts the number of audits to a limited amount. The modified text contradicts this limitation by stating that audits shall occur more than that number, creating conflict and uncertainty.",
+                "location": "Section 8.4"
+            }
+        ]
+    }
+]

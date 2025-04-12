@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Distributor agrees that the Products, including the name Snotarator ™ Nasal Aspirator (the \"Brand\") are the sole property of the Company and Distributor has no interest whatsoever in such Brand and Products, and Distributor shall use the Brand and Products only for so long as the rights granted hereby remains in full force and effect.  Distributor shall not take any actions, or aid or assist any other party to take any actions that would infringe upon, harm or contest the proprietary rights of Company in and to the Brand and Products.",
+                "changed_text": "Distributor agrees that the Products, including the name Snotarator ™ Nasal Aspirator (the \"Brand\") are the sole property of the Company and Distributor has no interest whatsoever in such Brand and Products, and Distributor shall use the Brand and Products only for so long as the rights granted hereby remains in full force and effect.  Distributor may take actions that promote or contest the value of the Brand and Products but not the Company's ownership.",
+                "explanation": "This change introduces a contradiction by stating in one part that the Distributor shall not take any actions to harm the brand, but then later states that the distributor can take actions to contest the value of the brand. This contradicts the former restriction.",
+                "location": "1.01"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Distributor shall use commercially reasonable efforts to market, distribute and promote the Brand and Products in the Territory at its own cost.",
+                "changed_text": "Distributor may use commercially reasonable efforts to market, distribute and promote the Goods and Products in the Territory at its own cost.",
+                "explanation": "This change uses \"Goods\" instead of \"Brand\", creating ambiguity. It is not defined if \"Goods\" and \"Brand\" are interchangeable, thus causing uncertainty in enforcement because the Distributor can argue they only need to promote the Product but not the Brand.",
+                "location": "2.01"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Company warrants that Distributor shall acquire Products purchased hereunder free and clear of all liens and encumbrances except for Company's purchase money security interest defined in Section 1.03, above. Company further warrants all Products to be free from defects in material or workmanship under normal use and service for a period of ninety (90) days from the date of delivery. Any defects must be replaced by the Company within sixty (60) days within this scope of the warranty and all charges for labor and material, will be borne by Company.",
+                "changed_text": "Company warrants that Reseller shall acquire Products purchased hereunder free and clear of all liens and encumbrances except for Company's purchase money security interest defined in Section 1.03, above. Company further warrants all Products to be free from defects in material or workmanship under normal use and service for a period of ninety (90) days from the date of delivery. Any defects must be replaced by the Business within sixty (60) days within this scope of the warranty and all charges for labor and material, will be borne by Business.",
+                "explanation": "This change uses \"Reseller\" and \"Business\" instead of \"Distributor\" and \"Company\", creating ambiguity. It is not defined if these terms are interchangeable, thus causing uncertainty in enforcement. It also redefines the scope of the replacement responsibilities from 'Company' to 'Business'.",
+                "location": "5.01"
+            }
+        ]
+    }
+]

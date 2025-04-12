@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-SupplyAgreement-FUSION.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "FUSION shall pay such invoice within [***] of receipt of the invoice in accordance with the Supply Agreement",
+                "changed_text": "FUSION shall pay such invoice within [***] of receipt of the invoice. However, should the payment be made after [***], a late fee of 10% will be applied to the invoice.",
+                "explanation": "This change introduces an inconsistency in the payment terms. The original text specifies payment within [***] of invoice receipt. The added sentence introduces a late fee if payment is made after a different unspecified duration, creating confusion about the exact payment deadline and applicable penalties.",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "CPDC may terminate this Agreement immediately on written notice to FUSION if: (a) FUSION fails to pay or dispute any invoice in accordance with Section 3.5 and fails to remedy such breach within [***] of a notice from CPDC requiring FUSION to remedy the same and stipulating that FUSION is in breach of this Agreement",
+                "changed_text": "CPDC may terminate this Agreement immediately on written notice to FUSION if: (a) FUSION fails to pay or dispute any invoice in accordance with Section 3.5 and fails to remedy such breach within [***] of a notice from CPDC requiring FUSION to remedy the same and stipulating that FUSION is in breach of this Agreement; or (b) FUSION fails to pay any invoice within 15 days of the invoice date.",
+                "explanation": "This change adds another termination condition that directly contradicts the original payment terms. While Section 3.5 allows for [***] payment period, this modification allows CPDC to terminate the agreement if payment is not received within 15 days, creating a direct conflict regarding the allowable payment timeframe and the consequences of late payment.",
+                "location": "Section 7.4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Supply Agreement shall commence on the Effective Date, and shall continue for a period of [***] unless terminated earlier in accordance with the terms of this Supply Agreement.",
+                "changed_text": "This Supply Agreement shall commence on the Effective Date, and shall continue for a period of [***] unless terminated earlier in accordance with the terms of this Supply Agreement. Notwithstanding the preceding sentence, this agreement will automatically terminate if FUSION fails to achieve a minimum purchase volume of [***] within the first year.",
+                "explanation": "This adds another automatic termination condition based on a purchase volume that was not part of the original contract conditions for remaining active. This creates a conflict as it gives CPDC a new unilateral avenue to terminate the contract which contradicts the original terms of termination.",
+                "location": "Section 6.1"
+            }
+        ]
+    }
+]

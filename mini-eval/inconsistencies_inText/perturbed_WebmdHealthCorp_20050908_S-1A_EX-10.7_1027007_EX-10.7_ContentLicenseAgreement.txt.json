@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "WebmdHealthCorp_20050908_S-1A_EX-10.7_1027007_EX-10.7_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "All amounts payable shall be due be due thirty (30) days after the receipt of WebMD's invoice.",
+                "changed_text": "All amounts payable shall be due fifteen (15) days after the receipt of WebMD's invoice.",
+                "explanation": "This change introduces a conflict by changing the payment deadline from 30 days to 15 days after receipt of the invoice, creating uncertainty about when payment is actually due.",
+                "location": "4(a)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.",
+                "changed_text": "Late payments are not subject to any interest charge, regardless of when the payment is made.",
+                "explanation": "This change introduces a direct contradiction by stating that late payments will not incur any interest, conflicting with the original clause that imposes an interest charge of 1.5% per month or the maximum legal rate. This will create ambiguity about whether interest should be applied to late payments.",
+                "location": "4(c)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1) year term upon the expiration of the Initial Term.",
+                "changed_text": "This Agreement shall be automatically renewed for one (1) additional one (1) year term upon the expiration of the Initial Term, unless either party provides written notice of termination at least ninety (90) days prior to the expiration date.",
+                "explanation": "This creates a conflict because the original text requires mutual agreement for renewal, while the modified text introduces automatic renewal unless notice is given. This creates ambiguity regarding renewal conditions and the need for agreement, which may affect the interests of each party.",
+                "location": "3(a)"
+            }
+        ]
+    }
+]

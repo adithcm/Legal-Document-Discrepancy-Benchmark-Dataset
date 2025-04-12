@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The parties agree that while Services Recipients outside of the United States of America may access the Services, Customer's rights and IBM's obligations arising out of the Agreement are valid only in the United States of America.",
+                "changed_text": "The parties agree that while Services Recipients outside of the United States of America may access the Services, Customer's rights and IBM's obligations arising out of the Agreement are valid globally.",
+                "explanation": "Original states US only rights/obligations. Modified states globally. This creates uncertainty about the geographical scope of the agreement's validity.",
+                "location": "Section 14.0"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Customer agrees to allow IBM and its Affiliates to store and use Customer's business contact information, including names, business phone numbers, and business e-mail addresses, anywhere they do business. Such information will be processed and used in connection with our business relationship, and may be provided to contractors acting on IBM's behalf, IBM business partners who promote, market, and support certain IBM products and services, and assignees of IBM and it's Affiliates for uses consistent with our business relationship.",
+                "changed_text": "Customer agrees to allow IBM and its Affiliates to store and use Customer's business contact information, including names, business phone numbers, and business e-mail addresses, anywhere they do business. Such information will be processed and used in connection with our business relationship, and will not be provided to contractors acting on IBM's behalf, IBM business partners who promote, market, and support certain IBM products and services, and assignees of IBM and it's Affiliates for uses consistent with our business relationship.",
+                "explanation": "The original text says the data may be shared; the modified text directly contradicts that by stating it will NOT be shared, creating ambiguity about how the business contact information is used.",
+                "location": "Section 14.0"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In no event will either party be liable to the other for special, incidental, or indirect damages or for any consequential damages (including lost profits or savings), even if they are informed of the possibility; provided that this Section 10.0 does not apply to Customer's failure to pay any amounts owing to IBM under this Agreement (including amounts owing for Services that would have been rendered but for Customer's breach of this Agreement).",
+                "changed_text": "In no event will either party be liable to the other for special, incidental, or indirect damages or for any consequential damages (including lost profits or savings), even if they are informed of the possibility; provided that this Section 10.0 also applies to Customer's failure to pay any amounts owing to IBM under this Agreement (including amounts owing for Services that would have been rendered but for Customer's breach of this Agreement).",
+                "explanation": "The original text created an exception for customer payments. The modified text now includes them, contradicting the exception and creating uncertainty whether consequential damages apply to payment failures.",
+                "location": "Section 10.0"
+            }
+        ]
+    }
+]

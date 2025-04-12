@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NATIONALPROCESSINGINC_07_18_1996-EX-10.4-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.1 APPOINTMENT AS AGENT. NCB appoints NPC, and NPC agrees to serve, as NCB's sole agent (i) to provide authorization, processing and settlement services with respect to Visa and MasterCard transactions (\"Merchant Processing Services\") to merchants who desire to receive Merchant Processing Services from NCB or NPC (\"Merchants\") and (ii) to enter into contracts with merchants (\"Merchant Contracts\") for the provision of Merchant Processing Services as agent of NCB; provided, however, that nothing herein shall limit NPC's right to provide, as agent for other members of Visa and MasterCard, Merchant Processing Services to merchants who desire to receive such services from NCB or others. NCB agrees that NPC may use NCB's name and its BIN, ICA and any other Visa and MasterCard identification numbers to the extent necessary or appropriate to perform the Merchant Processing Services.",
+                "changed_text": "1.1 APPOINTMENT AS AGENT. NCB appoints NPC, and NPC agrees to serve, as NCB's agent (i) to provide authorization, processing and settlement services with respect to Visa and MasterCard transactions (\"Merchant Processing Services\") to merchants who desire to receive Merchant Processing Services from NCB or NPC (\"Merchants\") and (ii) to enter into contracts with merchants (\"Merchant Contracts\") for the provision of Merchant Processing Services as agent of NCB; provided, however, that nothing herein shall limit NPC's right to provide, as agent for other members of Visa and MasterCard, Merchant Processing Services to merchants who desire to receive such services from NCB or others. NCB agrees that NPC may use NCB's name and its BIN, ICA and any other Visa and MasterCard identification numbers to the extent necessary or appropriate to perform the Merchant Processing Services.",
+                "explanation": "The removal of the word 'sole' changes the agreement by introducing ambiguity. Initially, it stated NPC was the 'sole agent'. Now it only states that NPC is 'an agent'. This makes the text contradict itself if in other clauses there are exclusivity clauses based on sole agency.",
+                "location": "ARTICLE I - MERCHANT PROCESSING, SETTLEMENT AND AUTHORIZATION SERVICES, Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.3 MERCHANT CONTRACTS. NPC, as agent of NCB, shall be responsible for establishing the terms and conditions of the Merchant Contracts, including all changes thereunder, subject to Section 1.7 below. Without in any way limiting the authority granted in Section 1.1, NCB hereby authorizes NPC to use NCB's name to the extent necessary or appropriate in accordance with the terms of this Agreement to enter into and to renew Merchant Contracts, to modify Merchant Contracts to the extent necessary to assign them to NCB, to perform the Merchant Contracts and to take other necessary or appropriate actions with respect to the Merchant Contracts, all in accordance with requirements of Visa and MasterCard. As between NPC and NCB, NPC shall be responsible for all credit, fraud and other risks associated with each Merchant Contract.",
+                "changed_text": "1.3 MERCHANT CONTRACTS. NPC, as agent of NCB, shall use reasonable efforts to establish the terms and conditions of the Merchant Contracts, including all changes thereunder, subject to Section 1.7 below. Without in any way limiting the authority granted in Section 1.1, NCB hereby authorizes NPC to use NCB's name to the extent necessary or appropriate in accordance with the terms of this Agreement to enter into and to renew Merchant Contracts, to modify Merchant Contracts to the extent necessary to assign them to NCB, to perform the Merchant Contracts and to take other necessary or appropriate actions with respect to the Merchant Contracts, all in accordance with requirements of Visa and MasterCard. As between NPC and NCB, NPC shall be responsible for all credit, fraud and other risks associated with each Merchant Contract.",
+                "explanation": "Changing 'shall be responsible' to 'shall use reasonable efforts' introduces ambiguity regarding the level of responsibility. Other clauses may assume NPC has strict and full responsibility. This contradiction introduces uncertainty.",
+                "location": "ARTICLE I - MERCHANT PROCESSING, SETTLEMENT AND AUTHORIZATION SERVICES, Section 1.3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4.1 CHARGES TO MERCHANTS. As between NPC and NCB, NPC shall receive all fees, discounts and other amounts payable by Merchants for Merchant Processing Services with respect to Merchant Contracts.",
+                "changed_text": "4.1 CHARGES TO MERCHANTS. As between NPC and NCB, NPC shall receive the majority of fees, discounts and other amounts payable by Merchants for Merchant Processing Services with respect to Merchant Contracts.",
+                "explanation": "By changing 'all fees' to 'the majority of fees', there is now ambiguity as to who receives the remaining fees. If in other sections of the document, it is implied or stated that NPC receives all fees, then this change creates a contradiction.",
+                "location": "ARTICLE IV - FEES AND EXPENSES, Section 4.1"
+            }
+        ]
+    }
+]

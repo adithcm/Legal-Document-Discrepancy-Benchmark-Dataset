@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "e. \"Net Revenue\" shall mean gross receipts collected by Company or Reseller from the distribution of Company Products, [less third party commissions, equipment sales, delivery costs, taxes, refunds, and credits.",
+                "changed_text": "e. \"Net Revenue\" shall mean gross receipts collected by Company or Reseller from the distribution of Company Products.",
+                "explanation": "By removing the deductions from gross receipts in the definition of 'Net Revenue,' it now conflicts with Exhibit B, which specifies deductions such as third-party commissions, delivery costs, and taxes. This creates ambiguity in calculating the Referral Fee and Registered Opportunity discounts.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller, and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents, representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing or prospective customer of the Reseller.",
+                "changed_text": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof, (i) the Reseller shall have the exclusive right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller, and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents, representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing or prospective customer of the Reseller.",
+                "explanation": "By removing 'and for a period of six (6) months following the termination of this Agreement or the discontinuation of any of the Company Products' in Section 5, the exclusivity clause is now limited to 'During the Term hereof' only. This creates a conflict because Section 10(e) mentions the right to payments accruing prior to termination survives termination, implying continued obligations, but the exclusivity is no longer explicitly enforced after termination.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "b. This Agreement may be terminated by Reseller for cause immediately upon the occurrence of any of the following events: (i) if the use or sale of Company Products are enjoined due to any claim of infringement of any U.S. patent or copyright or of any misappropriation of trade secrets; (ii) if Company ceases to do business, or otherwise terminates its business operations; or (iii) if Company breaches any provision of this Agreement and fails to fully cure such breach within fifteen (15) business days of written notice from Reseller describing the breach.",
+                "changed_text": "b. This Agreement may be terminated by Reseller for cause immediately upon the occurrence of any of the following events: (i) if the use or sale of Company Products are enjoined due to any claim of infringement of any U.S. patent or copyright or of any misappropriation of trade secrets; (ii) if Company ceases to do business, or otherwise terminates its business operations; or (iii) if Company breaches any provision of this Agreement.",
+                "explanation": "By removing the clause 'and fails to fully cure such breach within fifteen (15) business days of written notice from Reseller describing the breach' from Section 10b, it now contradicts Section 10c, which states that Company also has the right to cure breaches. The Reseller can now terminate for any breach, regardless of whether Company can cure it, while Company still has the right to cure. This creates an imbalance in termination rights and potential disputes over what constitutes grounds for immediate termination by Reseller.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

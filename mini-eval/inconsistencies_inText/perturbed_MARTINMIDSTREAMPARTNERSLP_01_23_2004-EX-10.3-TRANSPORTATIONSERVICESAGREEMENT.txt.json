@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MARTINMIDSTREAMPARTNERSLP_01_23_2004-EX-10.3-TRANSPORTATIONSERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Owner will invoice such fees to Charterer on a monthly basis and Charterer will pay such invoiced amounts within 30 days of invoice date.",
+                "changed_text": "Owner will invoice such fees to Charterer on a monthly basis and Charterer will pay such invoiced amounts within 60 days of invoice date.",
+                "explanation": "This change introduces a direct contradiction regarding the payment deadline. Section 3 now states that Charterer has 60 days to pay invoices, while Exhibit A, Section 1 states invoices are to be paid within 30 days of invoice date, creating uncertainty about the correct payment term.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "1. INVOICING & PAYMENT. All monthly Owner invoices to Charterer for rates and cost items will be paid by Charterer within 30 days of invoice date in accordance with Owner's normal payment protocols, which will be specified in the applicable invoice.",
+                "changed_text": "1. INVOICING & PAYMENT. All monthly Owner invoices to Charterer for rates and cost items will be paid by Charterer within 45 days of invoice date in accordance with Owner's normal payment protocols, which will be specified in the applicable invoice.",
+                "explanation": "This creates an in-text contradiction with the modified Section 3, which now specifies 60 days for payment. This discrepancy creates ambiguity concerning the actual due date for invoice payment, leading to potential disputes.",
+                "location": "Exhibit A, Section 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Within 30 days of the end of the Initial Term, and within 30 days of the end of each Renewal Term, both parties hereto shall have the right renegotiate the fee specified below for the use of the vessels. If no such agreement on such fee is reached by such parties by the commencement of a Renewal Term, this Agreement shall automatically terminate.",
+                "changed_text": "Within 45 days of the end of the Initial Term, and within 30 days of the end of each Renewal Term, both parties hereto shall have the right renegotiate the fee specified below for the use of the vessels. If no such agreement on such fee is reached by such parties by the commencement of a Renewal Term, this Agreement shall automatically terminate.",
+                "explanation": "Here, the period for renegotiation changes, creating ambiguity regarding the actual negotiation window at the end of the Initial Term. This introduces a contradiction and uncertainty regarding the duration for fee renegotiation. Because the other time periods remain the same, it's not clear which timeframe applies to which term.",
+                "location": "Section 1"
+            }
+        ]
+    }
+]

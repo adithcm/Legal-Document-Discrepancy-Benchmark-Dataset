@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3) Payments shall be made by Ultragenyx in Euro and within [***] days after receipt of a proper invoice.",
+                "changed_text": "3) Payments shall be made by Ultragenyx in Euro and within [***] days after receipt of a proper invoice. Notwithstanding the foregoing, for all invoices exceeding €1,000,000, payment shall be due within 30 days.",
+                "explanation": "This change introduces a contradiction regarding payment deadlines. The original text specifies a payment timeframe of '[***] days' after invoice receipt. The added sentence introduces a shorter, fixed 30-day payment term for invoices exceeding €1,000,000. This creates ambiguity as to which payment deadline applies to high-value invoices, potentially leading to disputes. It is unclear whether the '[***] days' still apply to larger invoices or whether the 30-day rule overrides it.",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5) Ultragenyx will perform final release of the Product. Ultragenyx may rely on the documentation provided by Cremer and Ultragenyx will not need to independently test the Product unless Ultragenyx determines such independent testing is necessary. In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within [***] days after receipt of the Product and all documentation (except such [***] day period will not apply for any latent defect). Within [***] days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Ultragenyx's choice, replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "changed_text": "5) Ultragenyx will perform final release of the Product. Ultragenyx may rely on the documentation provided by Cremer and Ultragenyx will not need to independently test the Product unless Ultragenyx determines such independent testing is necessary. In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within [***] days after receipt of the Product and all documentation (except such [***] day period will not apply for any latent defect). Notwithstanding the above, if Ultragenyx performs independent testing, the rejection period is extended to 90 days from the date of independent test completion. Within [***] days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Ultragenyx's choice, replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "explanation": "The original text specifies a '[***] days' window for Ultragenyx to reject the product if it doesn't conform to specifications. The added sentence creates a contradiction by extending the rejection period to 90 days from the date of independent testing completion if Ultragenyx chooses to perform such testing. This leads to uncertainty because it's unclear whether the initial '[***] days' rejection period still applies if no independent testing is done, or if the 90-day period always applies once independent testing occurs, regardless of when the original '[***] days' might expire. It introduces two different timelines for the same action.",
+                "location": "Article 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "2) If a Party materially breaches an obligation under this Agreement and does not cure such breach within sixty (60) days of receiving notice of such breach from the non-breaching Party, the non-breaching Party may terminate this Agreement immediately upon written notice to the breaching Party.",
+                "changed_text": "2) If a Party materially breaches an obligation under this Agreement and does not cure such breach within sixty (60) days of receiving notice of such breach from the non-breaching Party, the non-breaching Party may terminate this Agreement immediately upon written notice to the breaching Party. However, in the case of a breach related to a failure to meet Product Specifications outlined in Annex A, the breaching party shall have 120 days to cure the breach.",
+                "explanation": "The original clause allows for termination if a material breach is not cured within 60 days. The added sentence introduces a specific exception for breaches related to Product Specifications, granting the breaching party 120 days to cure. This creates a direct conflict, as it's unclear whether the 60-day cure period applies generally or if the 120-day period supersedes it for Product Specification breaches. This inconsistency could lead to disputes over when termination is permissible.",
+                "location": "Article 5"
+            }
+        ]
+    }
+]

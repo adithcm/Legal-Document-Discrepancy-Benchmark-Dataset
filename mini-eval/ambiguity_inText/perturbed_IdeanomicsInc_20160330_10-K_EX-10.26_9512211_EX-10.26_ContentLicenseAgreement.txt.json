@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IdeanomicsInc_20160330_10-K_EX-10.26_9512211_EX-10.26_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "(n) \"Territory\" shall mean mainland China.",
+                "changed_text": "(n) \"Territory\" shall mean mainland China, excluding Hong Kong and Macau.",
+                "explanation": "The original definition of 'Territory' is mainland China. The modified definition excludes Hong Kong and Macau, creating a conflict about where the licensed content can be distributed. This creates uncertainty in enforcement.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Licensee shall have the right to assign or sublicense any or all of its rights granted under this Agreement, in whole or in part, to third parties exhibiting the Titles in the ordinary course of Licensee's business with prior written notice to Licensor and subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]. Except as otherwise specified in the previous sentence, Licensee may not sublicense any of its rights under Section 2(a) [License Grant] without Licensor's prior written consent, which shall not be unreasonably withheld or delayed.",
+                "changed_text": "Licensee shall have the right to assign or sublicense any or all of its rights granted under this Agreement, in whole or in part, to third parties exhibiting the Titles in the ordinary course of Licensee's business with prior written notice to Licensor and subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]. Notwithstanding the preceding sentence, Licensee may sublicense its rights under Section 2(a) [License Grant] without Licensor's prior written consent, provided the sublicensee is an Affiliate of Licensee.",
+                "explanation": "The original text states that outside of the ordinary course of business, sublicensing requires Licensor's consent. The modified text introduces an exception for Licensee's Affiliates, allowing sublicensing to them without consent. This creates a contradiction and makes it unclear whether Licensor's consent is required in all situations not in the ordinary course of Licensee's business. The first sentence requires a notice while the second sentence makes no mention of it, making the first sentence non-enforcable.",
+                "location": "Section 2(b)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Term of this Agreement (the \"Term\") shall commence on the Effective Date listed above and continue for twenty (20) years, unless sooner terminated as provided in Section 7(b) [Term and Termination].",
+                "changed_text": "The Term of this Agreement (the \"Term\") shall commence on the Effective Date listed above and continue for twenty (20) years, unless sooner terminated as provided in Section 7(b) [Term and Termination]. Notwithstanding the foregoing, Licensor may terminate this agreement at anytime with a 90 day notice.",
+                "explanation": "The original text specifies a 20-year term with specific termination clauses. The modified text adds a clause allowing the Licensor to terminate with 90 days notice, contradicting the original 20-year term and creating uncertainty about the actual duration of the agreement. This impacts expectations and investments made based on a long-term agreement.",
+                "location": "Section 7(a)"
+            }
+        ]
+    }
+]

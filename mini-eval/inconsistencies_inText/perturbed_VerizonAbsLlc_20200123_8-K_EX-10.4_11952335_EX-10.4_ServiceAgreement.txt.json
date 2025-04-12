@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(b) Deposit of Collections.\n\n(i) If Cellco is the Servicer and (x) Verizon's long-term unsecured debt is rated equal to or higher than \"Baa2\" by Moody's and \"A\" by S&P (the \"Monthly Deposit Required Ratings\"), (y) Verizon guarantees certain payment obligations of Cellco, as Servicer, as provided in the Parent Support Agreement and (z) no Servicer Termination Event has occurred, the Servicer may deposit Collections into the Collection Account on the second Business Day before each Payment Date.",
+                "changed_text": "(b) Deposit of Collections.\n\n(i) Regardless of Cellco's status as Servicer or the rating of Verizon's long-term unsecured debt, the Servicer must deposit Collections into the Collection Account within five (5) Business Days after identification of receipt of good funds. This requirement applies under all circumstances to ensure timely reconciliation and prevent commingling of funds. This applies even if Verizon's long-term unsecured debt is rated equal to or higher than \"Baa2\" by Moody's and \"A\" by S&P (the \"Monthly Deposit Required Ratings\"), Verizon guarantees certain payment obligations of Cellco, as Servicer, as provided in the Parent Support Agreement and no Servicer Termination Event has occurred, the Servicer may deposit Collections into the Collection Account on the second Business Day before each Payment Date.",
+                "explanation": "This change introduces a contradiction by stating that all collections must be deposited within five business days, irrespective of Verizon's credit rating or other conditions, while the original text allows for deposits on the second Business Day before each Payment Date under specific conditions.",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "If the Servicer resigns under Section 7.1, it will continue to perform its obligations as Servicer under this Agreement until the earlier to occur of (a) a Successor Servicer accepting its engagement as Servicer under Section 7.4 or (b) the date the Servicer is legally unable to act as Servicer. If the Servicer is terminated under this Agreement, it will continue to perform its obligations as Servicer under this Agreement until the date stated in the notice of termination.",
+                "changed_text": "If the Servicer resigns under Section 7.1, it will cease all servicing activities immediately and transfer all responsibilities and data to the Indenture Trustee without delay. It is not required to perform any further obligations after the resignation. If the Servicer is terminated under this Agreement, it will continue to perform its obligations as Servicer under this Agreement until the date stated in the notice of termination.",
+                "explanation": "This change creates a contradiction because the original text states the Servicer will continue to perform obligations after resignation until a Successor Servicer is appointed or it's legally unable to act. The new text states the Servicer will cease activities immediately upon resignation, causing conflicting obligations.",
+                "location": "Section 7.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Section 3.8 Servicer's Fees. As compensation for performing its obligations under this Agreement, the Servicer will be paid the Servicing Fee. On each Payment Date, the Issuer will pay the Servicing Fee to the Servicer according to Section 8.2 of the Indenture. In addition, the Servicer may retain any Supplemental Servicing Fees. The Servicer will also receive the Temporarily Excluded Receivables Servicing Fee on each Payment Date, which will be payable solely from Collections on the Temporarily Excluded Receivables, as set forth in Section 3.5(b).",
+                "changed_text": "Section 3.8 Servicer's Fees. As compensation for performing its obligations under this Agreement, the Servicer will be paid a fixed annual fee of $1,000,000, payable in equal monthly installments, regardless of the pool balance or performance. This fixed fee covers all services, and the Servicer is not entitled to any additional payments such as Servicing Fees, Supplemental Servicing Fees, or Temporarily Excluded Receivables Servicing Fees. On each Payment Date, the Issuer will pay the Servicer the monthly installment according to Section 8.2 of the Indenture. In addition, the Servicer may retain any Supplemental Servicing Fees. The Servicer will also receive the Temporarily Excluded Receivables Servicing Fee on each Payment Date, which will be payable solely from Collections on the Temporarily Excluded Receivables, as set forth in Section 3.5(b).",
+                "explanation": "This edit changes the fee structure for the Servicer, conflicting with the original terms. It introduces a fixed annual fee while simultaneously mentioning the Servicing Fee, Supplemental Servicing Fees and Temporarily Excluded Receivables Servicing Fee. This conflicting information makes it unclear what compensation the Servicer is actually entitled to.",
+                "location": "Section 3.8"
+            }
+        ]
+    }
+]

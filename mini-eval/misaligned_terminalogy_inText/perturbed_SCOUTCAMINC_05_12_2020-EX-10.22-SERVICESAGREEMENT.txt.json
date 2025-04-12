@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SCOUTCAMINC_05_12_2020-EX-10.22-SERVICES AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, the Company desires to engage Maimon as the Company's Chief Executive Officer (\"CEO\"), to provide services to the Company that are ordinarily and customarily performed by a CEO, and Maimon is willing to serve as the CEO and member of the board of directors of the Company, on the terms and conditions set forth below; and WHEREAS, the Company desires Maimon to serve on the Company's Board of Directors.",
+                "changed_text": "WHEREAS, the Company desires to engage Maimon as the Company's Chief Executive Officer (\"CEO\"), to provide services to the Company that are ordinarily and customarily performed by a CEO, and Maimon is willing to serve as the Chief Administrator Officer and member of the board of directors of the Company, on the terms and conditions set forth below; and WHEREAS, the Company desires Maimon to serve on the Company's Board of Directors.",
+                "explanation": "The term 'Chief Executive Officer' is replaced with 'Chief Administrator Officer'. This introduces ambiguity as it's not clear whether these roles are equivalent, and the rest of the document refers only to CEO.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5. Termination. If Maimon should become unable to serve as CEO, or should fail to perform any of the obligations hereunder for any cause including death or disability, always in the sole judgment and decision of the Company, then the Company shall have the right to terminate this agreement on five days prior written notice. Maimon shall have the right to resign at any time upon 30 days prior written notice. The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon.",
+                "changed_text": "5. Termination. If Maimon should become unable to serve as CEO, or should fail to perform any of the obligations hereunder for any cause including death or disability, always in the sole judgment and decision of the Company, then the Company shall have the right to terminate this agreement on five days prior written notice. Maimon shall have the right to leave the agreement at any time with no prior written notice. The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon.",
+                "explanation": "The term 'resign' is replaced with 'leave the agreement' and the notice period changes from 30 days to none. This creates a contradiction about the conditions required for Maimon to end the agreement.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Maimon agrees during the term of this Agreement not to accept work or enter into a contract or accept an obligation inconsistent or incompatible with Maimon's obligations under this Agreement or with the scope of services to be rendered for the Company. Maimon warrants that to the best of Maimon's knowledge, there is no other contract or duty on Maimon's part now in existence inconsistent with this Agreement.",
+                "changed_text": "Maimon agrees during the term of this Agreement not to accept work or enter into a contract or accept an obligation inconsistent or incompatible with Maimon's obligations under this Agreement or with the scope of services to be rendered for the Company. Maimon understands that the company supports his decisions even if there is another contract or duty on Maimon's part now in existence inconsistent with this Agreement.",
+                "explanation": "The original text prohibits Maimon from conflicting obligations, while the modified text says the company supports him even if such conflicts exist. This is a direct contradiction of obligations.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

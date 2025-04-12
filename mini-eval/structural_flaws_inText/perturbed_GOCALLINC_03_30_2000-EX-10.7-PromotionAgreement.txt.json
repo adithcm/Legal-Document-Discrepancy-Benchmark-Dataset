@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GOCALLINC_03_30_2000-EX-10.7-PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This promotion shall begin on June 1,1999 and shall terminate June 1, 2000 (herein \"Term\") This term shall be extended for a 1 year period provided 3000 pagers per month are distributed to Purchase customers.",
+                "changed_text": "This promotion shall begin on June 1,1999 and shall terminate June 1, 2000 (herein \"Term\"). This term may be extended at PageMaster Corporation's sole discretion, regardless of the number of pagers distributed to Purchase customers.",
+                "explanation": "The original text clearly states the conditions for extending the contract term (3000 pagers/month). The modified text gives PageMaster sole discretion, contradicting the original condition. This creates uncertainty about the actual term of the agreement and under what circumstances it might be extended.",
+                "location": "3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "PageMaster Corporation shall pay to Go Call, Co-Op Marketing funds for the promotion. PageMaster Corporation will pay Go Call $3.00 per pager (beginning with pager # 1) and 5% of all airtime renewal revenue for each pager redeemed for this promotion consistent with the terms of paragraph 6b of this Agreement.",
+                "changed_text": "PageMaster Corporation may, at its sole discretion, pay to Go Call Co-Op Marketing funds for the promotion. Any co-op marketing funds will be provided based on PageMaster Corporation's internal policies, and are subject to change. The specifics of the funding will be outlined in a separate agreement, if any.",
+                "explanation": "The original text states that the PageMaster Corporation *shall* pay funds and gives specific amounts. The modified version introduces uncertainty by saying PageMaster Corporation *may* pay funds *at its sole discretion*, directly contradicting the original mandatory payment. It also refers to a separate agreement, when none was previously mentioned. This creates uncertainty about whether Go Call will receive any funds at all.",
+                "location": "7"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each party shall indemnify and hold harmless the other from any loss or damages, including reasonable attorneys' fees incurred by the other because of claims, suits or demands based on personal injury, death or property damage or third party claims, suits or demands of any kind to the extent such loss or damage is caused by or results from the negligent or willful acts or omissions of the other or its employees or agents, including but not limited to the unauthorized use of the trademark, logos, or other property of third parties without the consent and approval of PageMaster Corporation. PageMaster Corporation's participation in the promotion does not constitute an endorsement of the products or services of Go Call nor does Go Call's participation in the promotion constitute an endorsement of PageMaster Corporations or any third party's products or services.",
+                "changed_text": "Each party shall indemnify and hold harmless the other from any loss or damages directly caused by their gross negligence. The indemnification only extends to direct damages. Indirect damages are explicitly excluded. Each party's liability for indemnification is capped at $10,000. PageMaster Corporation's participation in the promotion does constitute an endorsement of the products or services of Go Call, making PageMaster Corporation jointly liable for any claims arising from those products and services, except for the unauthorized use of the trademark, logos, or other property of third parties without the consent and approval of PageMaster Corporation.",
+                "explanation": "The original indemnity clause covers 'any' loss or damage, and specifically included attorney's fees. The modified version limits this to 'direct' damages resulting from 'gross' negligence and caps the liability. More importantly, it reverses the explicit statement that there's no endorsement, now stating PageMaster's participation *does* constitute an endorsement, making them liable for Go Call's products. This creates a major contradiction concerning the scope and limits of indemnification, and introduces potential liability where previously disclaimed.",
+                "location": "9"
+            }
+        ]
+    }
+]

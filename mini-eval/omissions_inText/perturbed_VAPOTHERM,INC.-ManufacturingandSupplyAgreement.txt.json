@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VAPOTHERM,INC.-ManufacturingandSupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.1 Supply of Cartridge. Subject to the terms of this Agreement, Medica shall manufacture, in such quantities as Vapotherm orders, the Cartridge.",
+                "changed_text": "1.1 Supply of Cartridge. Subject to the terms of this Agreement, Medica shall manufacture the Cartridge based on Medica's internal capacity.",
+                "explanation": "By changing Medica's obligation to manufacture based on Medica's internal capacity instead of Vapotherm's orders, it creates a contradiction as Article 2 and 3 still refer to Vapotherm's forecasts and purchase orders. This creates uncertainty in enforcement as Medica may not fulfill Vapotherm's order if it exceeds Medica's capacity, even if Vapotherm follows the forecasting and ordering procedures outlined in the agreement.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.1 Price. The price paid by Vapotherm for any given shipment of Cartridges during the Initial Term is as stated in Exhibit A-1. No later than [* * *] days prior to the end of the Initial Term and each Renewal Term, Medica shall provide Vapotherm with reasonable documentation of its actual and direct costs in manufacturing the Cartridges (the \"Costs\"). The parties will then negotiate in good faith the Cartridge prices for the subsequent",
+                "changed_text": "3.1 Price. The price paid by Vapotherm for any given shipment of Cartridges during the Initial Term will be determined by Medica's discretion. No later than [* * *] days prior to the end of the Initial Term and each Renewal Term, Medica shall provide Vapotherm with reasonable documentation of its actual and direct costs in manufacturing the Cartridges (the \"Costs\"). The parties will then negotiate in good faith the Cartridge prices for the subsequent",
+                "explanation": "By changing the price determination to Medica's discretion and removing Exhibit A-1, this contradicts sections that assume a fixed or negotiated price based on a schedule. This affects sections 3.2, 3.5 and 4.3 creating an enforcement issue, as the basis for calculating the order price is not based on a fixed Exhibit anymore.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "9.1 Cartridge Recalls. If any Governmental Authority withdraws its approval to sell the Cartridge in any country or issues a directive or request that some or all Cartridges be recalled for safety reasons relating to the Cartridge or Vapotherm reasonably determines that some or all Cartridges should be recalled, and if that recall is due to any reason other than Medica having manufactured Cartridges that fail to conform to the Specifications or that was not manufactured in accordance with any applicable Laws, Vapotherm shall pay all costs, including Medica's reasonable out-of-pocket expenses, associated with that recall. Those actions may include developing reports on records pertaining to the lot traceability, assist in conducting an investigation to rule out a root cause for failure and other related activities requiring Medica's resources. Vapotherm shall provide Medica in writing specific instructions as to actions required. Medical shall in good faith provide an estimate for expenses if the request has material burden.",
+                "changed_text": "9.1 Cartridge Recalls. If any Governmental Authority withdraws its approval to sell the Cartridge in any country or issues a directive or request that some or all Cartridges be recalled for safety reasons relating to the Cartridge or Vapotherm reasonably determines that some or all Cartridges should be recalled, Vapotherm shall pay all costs, including Medica's reasonable out-of-pocket expenses, associated with that recall. Those actions may include developing reports on records pertaining to the lot traceability, assist in conducting an investigation to rule out a root cause for failure and other related activities requiring Medica's resources. Vapotherm shall provide Medica in writing specific instructions as to actions required. Medical shall in good faith provide an estimate for expenses if the request has material burden.",
+                "explanation": "By removing the section 'and if that recall is due to any reason other than Medica having manufactured Cartridges that fail to conform to the Specifications or that was not manufactured in accordance with any applicable Laws', it contradicts 9.3. Now Vapotherm will always pay for the recall, creating an inconsistency.",
+                "location": "Section 9.1"
+            }
+        ]
+    }
+]

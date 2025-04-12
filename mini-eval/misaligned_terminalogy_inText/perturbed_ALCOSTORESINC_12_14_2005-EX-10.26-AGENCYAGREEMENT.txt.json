@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ALCOSTORESINC_12_14_2005-EX-10.26-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Lessor hereby appoints the Company, and the Company hereby agrees to accept such appointment, as the agent of Lessor, without any fee for acting as such agent, pursuant to the terms and conditions of this Agreement, for the purpose of ordering and, subject to the conditions set forth in Section's 2.01 and 2.05 hereof, accepting Equipment on Lessor's behalf for leasing to the Company under the Lease from the respective supplier thereof (each a \"Supplier\" and collectively, the \"Suppliers\"). It is specifically agreed that all of the power and authority vested to the Company herein shall be subject to any modifications as may from time to time be made by Lessor.",
+                "changed_text": "Lessor hereby appoints the Company, and the Company hereby agrees to accept such appointment, as the representative of Lessor, without any fee for acting as such agent, pursuant to the terms and conditions of this Agreement, for the purpose of ordering and, subject to the conditions set forth in Section's 2.01 and 2.05 hereof, accepting Equipment on Lessor's behalf for leasing to the Company under the Lease from the respective supplier thereof (each a \"Supplier\" and collectively, the \"Suppliers\"). It is specifically agreed that all of the power and authority vested to the Company herein shall be subject to any modifications as may from time to time be made by Lessor.",
+                "explanation": "Changing 'agent' to 'representative' introduces ambiguity. While seemingly synonymous, legal definitions can differ. The contract heavily relies on the 'agent' designation, especially regarding liability and obligations. Using 'representative' without defining its specific powers creates uncertainty about the Company's authority and duties.",
+                "location": "Section 1.01"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Upon the written acknowledgment by the Company and Lessor of each jointly approved purchase agreement, purchase order or invoice (\"Purchase Order\"), the Company, pursuant to the agency granted to it by Lessor in Article I hereof, may order, receive, accept the Equipment to be leased in accordance with the Economic Terms (as hereafter defined and described).",
+                "changed_text": "Upon the written acknowledgment by the Company and Lessor of each jointly approved purchase agreement, purchase order or invoice (\"Order Form\"), the Company, pursuant to the agency granted to it by Lessor in Article I hereof, may order, receive, accept the Equipment to be leased in accordance with the Economic Terms (as hereafter defined and described).",
+                "explanation": "Changing 'Purchase Order' to 'Order Form' creates confusion about the formal document required for equipment acquisition. While 'Purchase Order' is defined, 'Order Form' is not. This could lead to disputes about whether a specific document qualifies for triggering the Company's ordering authority, especially considering the detailed conditions in later sections.",
+                "location": "Section 2.01"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Company additionally agrees that all Purchase Orders executed by the Company as Lessor's agent hereunder shall: (A) condition Lessor's obligation to pay for and purchase the Equipment on the Company's acceptance of such Equipment; (B) not permit passage of title or risk of loss for the Equipment earlier than such acceptance by the Company; (C) not permit the Supplier or any other person or entity to retain any security in, or lien on, any of the Equipment; and (D) otherwise be on terms and conditions acceptable to Lessor in its sole discretion.",
+                "changed_text": "The Company additionally agrees that all Equipment Requests submitted by the Company as Lessor's agent hereunder shall: (A) condition Lessor's obligation to pay for and purchase the Equipment on the Company's acceptance of such Equipment; (B) not permit passage of title or risk of loss for the Equipment earlier than such acceptance by the Company; (C) not permit the Supplier or any other person or entity to retain any security in, or lien on, any of the Equipment; and (D) otherwise be on terms and conditions acceptable to Lessor in its sole discretion.",
+                "explanation": "Changing 'Purchase Orders' to 'Equipment Requests' makes it unclear which documents bind the Lessor. 'Purchase Orders' has a defined meaning in Section 2.01. Because, 'Equipment Requests' are undefined; this inconsistency makes it difficult to enforce the conditions outlined in this section, as it is uncertain whether the condition applies to the 'Equipment Request' or the 'Purchase Order.'",
+                "location": "Section 2.01"
+            }
+        ]
+    }
+]

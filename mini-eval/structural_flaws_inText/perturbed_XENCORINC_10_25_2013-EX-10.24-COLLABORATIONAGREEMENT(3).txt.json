@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "XENCORINC_10_25_2013-EX-10.24-COLLABORATIONAGREEMENT(3).txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Therefore, XENCOR shall use commercially reasonable efforts to conduct and complete at its own cost and risk a Phase 1 clinical trial with the Product as described in Section 2.8.3 within the timelines set forth herein (subject to Section 2.8.3); and find one or more suitable third party/parties as business partner(s) for the further development of the Product into a medicinal product (\"Business Partner\").",
+                "changed_text": "Therefore, XENCOR shall use commercially reasonable efforts to conduct and complete at its own cost and risk a Phase 1 clinical trial with the Product as described in Section 2.8.3 within the timelines set forth herein (subject to Section 2.8.3); and XENCOR is not obligated to find one or more suitable third party/parties as business partner(s) for the further development of the Product into a medicinal product (\"Business Partner\").",
+                "explanation": "This change directly contradicts the original text, which states that XENCOR 'shall' find a business partner, by stating they are not obligated to. This creates uncertainty about XENCOR's responsibilities and the overall purpose of the collaboration, as the original agreement emphasizes the importance of finding a partner for successful development.",
+                "location": "2.8.2 Obligations of XENCOR"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In the event that XENCOR wishes to use or have used (e.g. by a Business Partner) the Process outside this Agreement or the terms and conditions set forth in a contract manufacturing agreement with BII, except as provided below, XENCOR shall pay BII a technology access fee of three million five hundred thousand (3,500,000.00) US dollars (the \"Technology Access Fee\").",
+                "changed_text": "In the event that XENCOR wishes to use or have used (e.g. by a Business Partner) the Process outside this Agreement or the terms and conditions set forth in a contract manufacturing agreement with BII, except as provided below, XENCOR may choose whether or not to pay BII a technology access fee of three million five hundred thousand (3,500,000.00) US dollars (the \"Technology Access Fee\").",
+                "explanation": "This perturbation contradicts the original text, which clearly states XENCOR 'shall pay' a technology access fee. The change to 'may choose whether or not to pay' introduces uncertainty about whether the fee is mandatory. The 'shall' creates an obligation while 'may choose' denotes that it is optional.",
+                "location": "5.2.3 Technology Access Fee and Technology Transfer"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In case of a termination by BII according to Section 10.2.2, the Total Amount shall become immediately due and BII shall be free to claim for damages according to the applicable law and, subject to Section 7.4 above. All licenses granted by either Party to the other Party hereunder shall be null and void. For the avoidance of doubt, XENCOR may not use the Process outside BII, except as otherwise agreed in writing by XENCOR and BII; except that, if XENCOR has already exercised its rights under Sections 5.2.3, 5.2.4 and 5.2.5, all such rights granted prior to termination shall remain in effect.",
+                "changed_text": "In case of a termination by BII according to Section 10.2.2, the Total Amount may not become immediately due and BII shall be free to claim for damages according to the applicable law and, subject to Section 7.4 above. All licenses granted by either Party to the other Party hereunder shall be null and void. For the avoidance of doubt, XENCOR may not use the Process outside BII, except as otherwise agreed in writing by XENCOR and BII; except that, even if XENCOR has not already exercised its rights under Sections 5.2.3, 5.2.4 and 5.2.5, all such rights granted prior to termination shall remain in effect.",
+                "explanation": "By changing 'shall' to 'may not,' the obligation for the Total Amount to become immediately due is removed, creating uncertainty on whether total amount is due upon termination from BII. Additionally, changing 'if' to 'even if' removes the condition of XENCOR previously exercising the rights under Sections 5.2.3, 5.2.4, and 5.2.5, meaning that even if XENCOR has not already exercised these rights, such rights shall remain in effect after termination, which contradicts a prior statement that all licenses granted are null and void.",
+                "location": "10.3.3 Effect of Termination due to Material Breach"
+            }
+        ]
+    }
+]

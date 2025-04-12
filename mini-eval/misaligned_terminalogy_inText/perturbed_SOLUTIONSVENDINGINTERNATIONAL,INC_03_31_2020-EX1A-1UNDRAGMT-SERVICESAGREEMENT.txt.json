@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SOLUTIONSVENDINGINTERNATIONAL,INC_03_31_2020-EX1A-1 UNDR AGMT-SERVICES AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Services Agreement (\"Services Agreement\" or \"Agreement\") is entered into as of the date noted below (the \"Effective Date\") between StartEngine Crowdfunding, Inc., a Delaware corporation (\"Company\"), and Solutions Vending International, Inc a ___ DE corporation (\"Customer\" or \"you\").",
+                "changed_text": "This Services Agreement (\"Services Agreement\" or \"Agreement\") is entered into as of the date noted below (the \"Effective Date\") between StartEngine Crowdfunding, Inc., a Delaware corporation (\"Provider\"), and Solutions Vending International, Inc a ___ DE corporation (\"Client\" or \"you\").",
+                "explanation": "Changing 'Company' to 'Provider' and 'Customer' to 'Client' introduces uncertainty. Later sections refer to 'Company' and 'Customer,' creating confusion about which entity is bound by those obligations. This is further amplified as it fails to define that 'Provider' and 'Client' replace the original terms, thus making any enforcement dubious.",
+                "location": "Beginning of Document"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In exchange for the Services, you shall pay the Company the then applicable fees and expenses set out below. The Company reserves the right to change the applicable charges and to institute new charges and fees at the end of the Initial Term (as defined below) or then current renewal term, upon 30 days prior notice to you.",
+                "changed_text": "In exchange for the Services, you shall pay the Provider the then applicable fees and expenses set out below. The Firm reserves the right to change the applicable charges and to institute new charges and fees at the end of the Initial Term (as defined below) or then current renewal term, upon 30 days prior notice to you.",
+                "explanation": "Here, 'Company' is replaced by 'Provider' at the start, but then 'Firm' is used later in the paragraph. This creates further confusion as 'Firm' is not defined anywhere, so it is not clear if the client is paying 'Provider' or 'Firm', making the payment obligations of the contract unclear.",
+                "location": "Section 2. Fees and expenses a) Generally"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Customer represents and warrants to the Company that then executed and delivered by Customer, this Service Agreement will constitute the legal, valid, and binding obligation of Customer, enforceable in accordance with its terms.",
+                "changed_text": "Client represents and warrants to the Organization that then executed and delivered by Client, this Service Agreement will constitute the legal, valid, and binding obligation of Customer, enforceable in accordance with its terms.",
+                "explanation": "This perturbation changes 'Customer' to 'Client' at the beginning of the sentence but reverts to 'Customer' towards the end. The same happens when 'Company' is changed to 'Organization'. This creates an internal contradiction, making it unclear which entity is bound by the warranties and obligations, which will cause major interpretational issues later on.",
+                "location": "Section 3. Customer Representations and Warranties"
+            }
+        ]
+    }
+]

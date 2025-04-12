@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement4.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Software License and Maintenance will be provided at no charge.",
+                "changed_text": "The Software License will be provided at no charge. The Maintenance will be provided at no charge for the first year, after which standard maintenance fees apply as outlined in a separate document.",
+                "explanation": "This change introduces a contradiction regarding the maintenance fees. Initially, maintenance is stated to be at no charge. The modification suggests that after the first year, fees will apply based on a separate document, creating uncertainty about the duration and applicability of the 'no charge' maintenance.",
+                "location": "Page A-3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, including Bank of America holidays.",
+                "changed_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, excluding Bank of America holidays unless explicitly agreed upon and documented separately.",
+                "explanation": "This introduces ambiguity regarding maintenance during Bank of America holidays. The original text clearly includes holidays, while the modified text excludes them 'unless explicitly agreed upon'. This creates uncertainty and potential disputes over maintenance obligations during holidays.",
+                "location": "Page A-4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Bank of America shall maintain its copy of the Source Code on the terms of this Agreement at the following address:    Address:  TBD",
+                "changed_text": "Bank of America may maintain its copy of the Source Code either on its own premises or at a mutually agreed upon secure third-party location. The terms of maintaining the Source Code are subject to a separate Source Code Escrow Agreement, which will supersede any conflicting terms in this agreement.",
+                "explanation": "This change introduces a contradiction about the location and governing terms for the Source Code. Initially, the agreement specifies that the source code should be maintained at a 'to be determined' (TBD) address per the terms of this agreement. The modified text provides flexibility on the location (either on premises or at a third-party location) but subjects those terms to a different agreement. If there's a conflict between the main agreement and the 'Source Code Escrow Agreement' it's unclear which term will apply.",
+                "location": "Page A-5"
+            }
+        ]
+    }
+]

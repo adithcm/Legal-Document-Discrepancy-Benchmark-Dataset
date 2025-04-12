@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VALENCETECHNOLOGYINC_02_14_2003-EX-10-JOINTVENTURECONTRACT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Affiliate\" means, in relation to Party A, any enterprise or other entity which, directly or indirectly, controls, or is controlled by, Party A; the term \"control\" meaning ownership of fifty percent (50%) or more of the registered capital or voting stock or the power to appoint the general manager, factory chief or other principal person in charge of an enterprise or other entity.",
+                "changed_text": "\"Affiliate\" means, in relation to Party A, any enterprise or other entity associated with Party A.",
+                "explanation": "The original text provides a detailed definition of 'Affiliate' with a clear criterion for 'control' (50% ownership or power to appoint key personnel). The modified text replaces this with a vague definition ('associated with'), removing the 50% threshold. However, the contract still relies on the original definition in other clauses creating a contradiction.",
+                "location": "CHAPTER 3 DEFINITIONS - Article 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Joint Venture Company's registered capital shall be Twenty-Nine Million Nine Hundred Thousand United States Dollars (US$29,900,000), including:\n\nParty A's contribution to the registered capital of the Joint Venture Company shall be Fourteen Million Six Hundred Fifty-One Thousand United States Dollars (US$14,651,000), representing a forty-nine percent (49%) share of the Joint Venture Company's registered capital. Party B's contribution to the registered capital of the Joint Venture Company shall be Fifteen Million Two Hundred Forty Nine Thousand United States Dollars (US$15,249,000), representing a fifty-one percent (51%) share of the Joint Venture Company's registered capital.",
+                "changed_text": "The Joint Venture Company's registered capital shall be Twenty-Nine Million Nine Hundred Thousand United States Dollars (US$29,900,000), including:\n\nParty A's contribution to the registered capital of the Joint Venture Company. Party B's contribution to the registered capital of the Joint Venture Company.",
+                "explanation": "The original text explicitly states the contribution amount and percentage share of each party (A and B). The modified text removes these details, leaving only a general statement that both parties contribute to the registered capital. This is problematic, because some sections depend on those values.",
+                "location": "CHAPTER 6 TOTAL AMOUNT OF INVESTMENT AND REGISTERED CAPITAL - Article 31"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Joint Venture Company shall adopt Renminbi as its bookkeeping base currency, but may also adopt United States Dollars or other foreign currencies as supplementary bookkeeping currencies. The debit and credit method, as well as the accrual basis of accounting, shall be adopted as the methods and principles for keeping accounts.",
+                "changed_text": "The Joint Venture Company shall adopt a bookkeeping base currency. Accepted accounting methods will be determined by the Board of Directors.",
+                "explanation": "The original text specifies Renminbi as the base currency and the debit/credit and accrual methods. The modified text removes the specified currency and accounting method, stating the board will decide. But other contract sections still assume the original currency or the accrual method. For example, the contract mentions specifically the way for converting currencies using the median rate for buying and selling for such currency announced by the People's Bank of China on the date of actual receipt or payment by the Joint Venture Company. If the base currency changes, the Board of Directors should adapt this specific clause.",
+                "location": "CHAPTER 15 FINANCIAL AFFAIRS AND ACCOUNTING - Article 83"
+            }
+        ]
+    }
+]

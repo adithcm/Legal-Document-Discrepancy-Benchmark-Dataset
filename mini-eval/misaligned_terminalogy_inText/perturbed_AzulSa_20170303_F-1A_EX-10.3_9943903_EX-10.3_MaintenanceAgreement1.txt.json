@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_MaintenanceAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "BETWEEN: AZUL LINHAS AÉREAS BRASILEIRAS S/A, a company incorporated under the laws of Brazil, the registered office of which is located at Avenida Marcos Penteado de Ulhôa Rodrigues, 939 - Edif. Castello Branco Office Park - Torre Jatobá - 9° andar - CEP 06460-040 - Alphaville Industrial - Barueri - São Paulo - Brazil, identified under Cadastro Nacional de pessoa Juridica (CNPJ) number 09.296.295/0001-60. Hereafter referred to as the \"Company\" or \"AZUL\", on the one part, AND: AVIONS DE TRANSPORT REGIONAL, G.I.E., a French groupement d'intérêt économique established under articles L.251-1 to L251-23 of the French Commercial Code, whose registered office is at 1 allée Pierre Nadot, 31712 Blagnac, France identified under Corporate and Trade Register of Toulouse number 323 932 236, Hereafter referred to as the \"Repairer\"or \"ATR\", on the other part.",
+                "changed_text": "BETWEEN: AZUL LINHAS AÉREAS BRASILEIRAS S/A, a company incorporated under the laws of Brazil, the registered office of which is located at Avenida Marcos Penteado de Ulhôa Rodrigues, 939 - Edif. Castello Branco Office Park - Torre Jatobá - 9° andar - CEP 06460-040 - Alphaville Industrial - Barueri - São Paulo - Brazil, identified under Cadastro Nacional de pessoa Juridica (CNPJ) number 09.296.295/0001-60. Hereafter referred to as the \"Company\" or \"AZUL\", on the one part, AND: AVIONS DE TRANSPORT REGIONAL, G.I.E., a French groupement d'intérêt économique established under articles L.251-1 to L251-23 of the French Commercial Code, whose registered office is at 1 allée Pierre Nadot, 31712 Blagnac, France identified under Corporate and Trade Register of Toulouse number 323 932 236, Hereafter referred to as the \"Vendor\" or \"ATR\", on the other part.",
+                "explanation": "The term 'Repairer' is replaced with 'Vendor' in the definition of AVIONS DE TRANSPORT REGIONAL, G.I.E. This creates confusion because the contract uses 'Repairer' extensively, and now a different term is introduced for the same entity without explicit definition, which may lead to conflicting interpretations.",
+                "location": "Page 4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement describes the terms and conditions according to which the Repairer (i) shall provide, or cause its Subcontractors to provide, Services for the Company's Aircraft fleet; and (ii) agrees to lease the Stock to the Company and the Company agrees to take the Stock on lease, subject to the terms and conditions set forth on Exhibit 8.",
+                "changed_text": "This Agreement describes the terms and conditions according to which the Vendor (i) shall provide, or cause its Subcontractors to provide, Services for the Company's Aircraft fleet; and (ii) agrees to lease the Stock to the Client and the Customer agrees to take the Stock on lease, subject to the terms and conditions set forth on Exhibit 8.",
+                "explanation": "Here the term 'Repairer' is replaced with 'Vendor' and 'Company' replaced with 'Client' and 'Customer', creating doubt as to whether 'Vendor', 'Client', and 'Customer' are equivalent to their counterparties.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement has been executed in two (2) original copies in the English language on the Signing Date. On behalf of: On behalf of: AZUL LINHAS AÉREAS BRASILEIRAS AVIONS DE TRANSPORT REGIONAL (Company) (Repairer) Signed by: /s/ Amir Nasruddin Signed by: /s/ Massimo Castorina Function: Attorney in fact Function: Vice-President Commercial Product Support & Services",
+                "changed_text": "This Agreement has been executed in two (2) original copies in the English language on the Signing Date. On behalf of: On behalf of: AZUL LINHAS AÉREAS BRASILEIRAS AVIONS DE TRANSPORT REGIONAL (Customer) (Supplier) Signed by: /s/ Amir Nasruddin Signed by: /s/ Massimo Castorina Function: Attorney in fact Function: Vice-President Commercial Product Support & Services",
+                "explanation": "The terms 'Company' and 'Repairer' are replaced with 'Customer' and 'Supplier'. Given the definitions earlier in the contract, and now this change in the execution page, uncertainty is introduced as to whether all these terms can be used interchangeably.",
+                "location": "Execution Page"
+            }
+        ]
+    }
+]

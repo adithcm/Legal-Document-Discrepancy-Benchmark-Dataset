@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PhotronicsInc_20171219_10-QA_EX-10.28_10982650_EX-10.28_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.2 Invoices; Payments   The Suppliers shall issue invoices to the Company for any amounts payable to the Suppliers pursuant to this Agreement upon shipment of the applicable Products to the Company. Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered.",
+                "changed_text": "4.2 Invoices; Payments   The Suppliers shall issue invoices to the Company for any amounts payable to the Suppliers pursuant to this Agreement upon shipment of the applicable Products to the Company. Payments for Products delivered in accordance with the Purchase Orders, and any other to be made by the Company to Suppliers hereunder, shall be made in the Applicable Currency within [***]from the shipment of the applicable Products delivered. Late payment will incur a penalty of 10% of the invoiced amount if payment is not received within 15 days of the invoice date.",
+                "explanation": "This change introduces a contradiction in payment terms. The original text states the payment deadline is [***] from the shipment date. The modified text adds a clause imposing a 10% penalty if payment is not received within 15 days of the invoice date. This creates ambiguity, as the company might interpret the first [***] days is not under penalty. The addition of late fees after 15 days creates a direct contradiction to the longer timeframe for payment, leading to uncertainty about which term is enforceable.",
+                "location": "Article 4.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Schedule 1\n\nDefinitions\n\nCapitalized words and phrases used and not otherwise defined elsewhere in this Agreement shall have the following meanings:\n\n1. \"Affiliate\" of a Person means any other Person which, directly or indirectly, controls, is controlled by, or is under common control with, such Person. The term \"control\" (including, with correlative meaning, the terms \"controlled by\" and \"under common control with\"), as used with respect to any Person, means the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of such Person, whether through the ownership of voting securities, by contract or otherwise. A Person shall be deemed an Affiliate of another Person only so long as such control relationship exists.",
+                "changed_text": "Schedule 1\n\nDefinitions\n\nCapitalized words and phrases used and not otherwise defined elsewhere in this Agreement shall have the following meanings:\n\n1. \"Affiliate\" of a Person means any other Person which, directly or indirectly, controls, is controlled by, or is under common control with, such Person. The term \"control\" (including, with correlative meaning, the terms \"controlled by\" and \"under common control with\"), as used with respect to any Person, means the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of such Person, whether through the ownership of fifty percent (50%) of the voting securities. A Person shall be deemed an Affiliate of another Person only so long as such control relationship exists.",
+                "explanation": "The definition of 'control' within the 'Affiliate' definition is changed from generally directing management and policies, to specifically owning 50% of voting securities. This creates an in-text contradiction because other sections may rely on the broader definition of control. This introduces potential disputes about who qualifies as an affiliate and is covered by associated terms.",
+                "location": "Schedule 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "7.1 Term   This Agreement shall become effective as of the Effective Date and shall continue to be in full force and effect for so long as Photronics and DNP, or any of their Affiliates, each remains a Shareholder of the Company.",
+                "changed_text": "7.1 Term   This Agreement shall become effective as of the Effective Date and shall continue to be in full force and effect for a period of five (5) years, unless earlier terminated in accordance with the provisions herein.",
+                "explanation": "The original text defines the term based on Photronics and DNP remaining shareholders, whereas the modified text sets a fixed term of five years. This creates an in-text contradiction regarding the duration of the agreement. The original text can be interpreted to suggest an indefinite term while Photronics and DNP are shareholders which will cause ambiguity in enforcing the contract duration.",
+                "location": "Article 7.1"
+            }
+        ]
+    }
+]

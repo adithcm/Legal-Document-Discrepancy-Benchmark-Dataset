@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "N2KINC_10_16_1997-EX-10.16-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "e) Sponsor will make payments to Excite according to the following schedule:\nDATE PAYMENT\n----\t-------\nEffective Date\t[****]\nCommencement Date\t[****]\n12/31/97\t[****]\n1/1/98\t[****]\n4/1/98\t[****]\n7/1/98\t[****]\n10/1/98\t[****]\n1/1/99\t[****]\n4/1/99\t[****]\n7/1/98\t[****]",
+                "changed_text": "e) Sponsor will make payments to Excite according to the following schedule:\nDATE PAYMENT\n----\t-------\nEffective Date\t[****]\nCommencement Date\t[****]\n12/31/97\t[****]\n1/1/98\t[****]\n4/1/98\t[****]\n7/1/98\t[****]\n10/1/98\t[****]\n1/1/99\t[****]\n4/1/99\t[****]\n7/1/98\t[****]\nSponsor has the option of delaying any payment up to 90 days, without penalty.",
+                "explanation": "This change introduces an in-text contradiction. The original text specifies a strict payment schedule with specific dates and amounts. The added sentence grants Sponsor the option to delay payments by up to 90 days without penalty. This directly contradicts the established payment schedule, creating uncertainty about the actual payment deadlines and enforcement.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "All payments that have accrued prior to the termination or expiration of this Agreement will be payable in full within thirty (30) days thereof.",
+                "changed_text": "All payments that have accrued prior to the termination or expiration of this Agreement will be payable in full within thirty (30) days thereof, unless otherwise negotiated between the parties at the time of termination.",
+                "explanation": "The original clause states that all accrued payments must be paid within 30 days of termination. The added phrase allows for the parties to negotiate a different payment schedule at termination. This creates uncertainty and potential contradiction, as the 'otherwise negotiated' terms could conflict with the original 30-day requirement, making it unclear which deadline applies.",
+                "location": "Section 11(d)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "c) Either party may terminate this Agreement if the other party materially breaches its obligations hereunder and such breach remains uncured for thirty (30) days following the notice to the breaching party of the breach, with the following exceptions:\ni) Excite will promptly notify Sponsor of any errors, failures or outages of the Content. Sponsor will promptly notify Excite of any errors, failures or outages of the Co-Branded Area.",
+                "changed_text": "c) Either party may terminate this Agreement if the other party materially breaches its obligations hereunder and such breach remains uncured for thirty (30) days following the notice to the breaching party of the breach, with the following exceptions:\ni) Excite will promptly notify Sponsor of any errors, failures or outages of the Content. Sponsor will promptly notify Excite of any errors, failures or outages of the Co-Branded Area. However, either party can terminate this agreement immediately if the other party experiences any downtime related to content delivery.",
+                "explanation": "The original text allows for termination after a 30-day uncured breach. The added sentence enables immediate termination for any content delivery downtime. This is a contradiction as it suggests one type of breach requires a 30 day window for rectification and another similar type allows for immediate termination, without accounting for the severity or the impact of the breach.",
+                "location": "Section 11(c)"
+            }
+        ]
+    }
+]

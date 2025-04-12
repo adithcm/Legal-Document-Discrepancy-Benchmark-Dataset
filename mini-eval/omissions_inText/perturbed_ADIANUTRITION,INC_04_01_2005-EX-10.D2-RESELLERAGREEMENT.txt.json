@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.1 LICENSE. Subject to the terms and conditions of this Agreement, PivX hereby grants to Detto a non-transferable, exclusive license to distribute PivX's Qwik-Fix Pro and any documentation supporting Qwik-Fix Pro provided from time to time by PivX (the \"Documentation\") within North America, solely to third parties to whom Detto licenses Qwik-Fix Pro (\"Third Parties\"), and as governed by the terms set forth in Exhibit A (PivX/Detto Reseller Agreement Addendum). PivX also hereby grants to Detto a non-transferable, non-exclusive license to distribute PivX's Qwik-Fix Pro and the Documentation outside of North America, solely to Third Parties and as governed by the terms in Exhibit A. Detto shall have no right to reproduce Qwik-Fix Pro or any part thereof. All copies of Qwik-Fix Pro distributed by Detto shall be distributed pursuant to PivX's current Enterprise License Agreement, as amended by PivX from time to time (the \"License\"), a copy of which PivX will provide Detto. Detto shall not distribute Qwik-Fix Pro to any Third Party unless the Third Party has accepted the terms of PivX's current License under penalty of perjury and in writing.",
+                "changed_text": "1.1 LICENSE. Subject to the terms and conditions of this Agreement, PivX hereby grants to Detto a non-transferable license to distribute PivX's Qwik-Fix Pro and any documentation supporting Qwik-Fix Pro provided from time to time by PivX (the \"Documentation\") within North America, solely to third parties to whom Detto licenses Qwik-Fix Pro (\"Third Parties\"). Detto shall have no right to reproduce Qwik-Fix Pro or any part thereof. All copies of Qwik-Fix Pro distributed by Detto shall be distributed pursuant to PivX's Enterprise License Agreement (the \"License\").",
+                "explanation": "By removing 'exclusive' and 'as governed by the terms set forth in Exhibit A' and 'non-exclusive license to distribute PivX's Qwik-Fix Pro and the Documentation outside of North America, solely to Third Parties and as governed by the terms in Exhibit A' a contradiction is introduced because later sections still refer to the terms specified in Exhibit A, especially regarding distribution and marketing obligations, but the core licensing agreement no longer explicitly binds Detto to those terms. This creates uncertainty about Detto's obligations and PivX's rights.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.2 PER COPY FEES. Detto shall pay to PivX for each unit of Qwik-Fix Pro distributed hereunder per copy fees (the \"Per Copy Fees\") as governed by the terms set forth in Exhibit A. In the event that PivX changes the Third Party prices, Per Copy Fees based on such changed prices shall apply to any order for Qwik-Fix Pro received by PivX after the effective date of the increase. PivX shall provide Detto with at least forty-five (45) days written notice of any increase in the Per Copy Fees.",
+                "changed_text": "3.2 PER COPY FEES. Detto shall pay to PivX for each unit of Qwik-Fix Pro distributed hereunder per copy fees (the \"Per Copy Fees\"). PivX shall provide Detto with at least forty-five (45) days written notice of any increase in the Per Copy Fees.",
+                "explanation": "By removing 'as governed by the terms set forth in Exhibit A', while leaving the 'Per Copy Fees' definition, it creates an internal contradiction. Exhibit A likely outlines the exact calculation and schedule of these fees. Later sections will now refer to 'Per Copy Fees' without a clear definition, making enforcement of payment terms ambiguous and open to interpretation.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.1 TERM OF AGREEMENT. The term of this Agreement shall commence on the Effective Date and continue for six (6) months.",
+                "changed_text": "5.1 TERM OF AGREEMENT. The term of this Agreement shall commence on the Effective Date.",
+                "explanation": "By omitting the 'and continue for six (6) months', the contract provides the starting date, but not the expiration date. This can cause an internal contradiction since it is unclear how long the agreement is valid.",
+                "location": "Section 5.1"
+            }
+        ]
+    }
+]

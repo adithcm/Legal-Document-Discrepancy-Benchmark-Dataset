@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATIONSERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5.5    Every invoice shall be reviewed by the invoiced Party and subject to        paragraphs 5.2, shall pay the invoice net fifteen (15) days from the        date of invoicing. Invoices shall be delivered to the invoiced Party        within three (3) days of the date of invoicing.",
+                "changed_text": "5.5    Every invoice shall be reviewed by the invoiced Party and subject to        paragraphs 5.2, shall pay the invoice net fifteen (15) days from the        date of invoicing. Invoices shall be delivered to the invoiced Party        within thirty (30) days of the date of invoicing.",
+                "explanation": "The change introduces a contradiction by altering the invoice delivery timeframe. Section 5.5 initially states invoices should be delivered within three days, while another section states that invoices should be delivered within thirty days, creating uncertainty regarding the expected delivery timeline and potentially delaying payment.",
+                "location": "5.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5.6    Interest, at the prime rate then charged to commercial customers by the        Canadian Imperil Bank of Commerce (Toronto Main Branch), shall be        payable on all amounts overdue for thirty (30) days or more.",
+                "changed_text": "5.6    Interest, at the prime rate then charged to commercial customers by the        Canadian Imperil Bank of Commerce (Toronto Main Branch), shall be        payable on all amounts overdue for forty-five (45) days or more.",
+                "explanation": "This perturbation modifies the timeframe for accruing interest on overdue payments. Originally, interest applied after 30 days, but now it applies after 45 days. This directly conflicts with the initial payment term of net fifteen (15) days, as now there are now two different clauses referencing different time periods for payment and interest accrual.",
+                "location": "5.6"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5.7    Any discrepancy in an invoice which is discovered by either Party may        result in the issuance of a debit note or credit note by the appropriate        Party, and notwithstanding any prior payment, the same shall be         accompanied by supporting documentation. Payment shall be made by the         appropriate Party net fifteen (15) days from receipt and acceptance of         the documentation.",
+                "changed_text": "5.7    Any discrepancy in an invoice which is discovered by either Party may        result in the issuance of a debit note or credit note by the appropriate        Party, and notwithstanding any prior payment, the same shall be         accompanied by supporting documentation. Payment shall be made by the         appropriate Party net thirty (30) days from receipt and acceptance of         the documentation.",
+                "explanation": "This alteration changes the payment timeline for discrepancies in invoices. Initially, payment was due in fifteen (15) days after receipt and acceptance of documentation but is now thirty (30) days. This contradicts the original fifteen (15) day payment term in section 5.5, creating confusion as to which term applies to discrepancy payments.",
+                "location": "5.7"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IPAYMENT,INC_05_14_2007-EX-10.1-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Minimum Balance\" shall have the meaning provided in Section 6.1(a).",
+                "changed_text": "\"Minimum Balance\" shall have the meaning as defined by ISO's internal risk management policies.",
+                "explanation": "By modifying the definition of 'Minimum Balance' to depend on ISO's internal policies, while Section 6.1(a) still exists, it introduces ambiguity. It is not clear if SERVICERS can still enforce a minimum balance based on what is due to them, or if the balance is only determined by ISO's policies.",
+                "location": "SECTION 1 DEFINITIONS"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "ISO shall also be responsible for ensuring all Merchant Reserve Accounts are adequately funded. All Merchant Reserve Accounts, along with any other monies or collateral collected from Approved Merchants, shall be deposited with Bank.",
+                "changed_text": "ISO shall strive to ensure Merchant Reserve Accounts have funds available as needed. All Merchant Reserve Accounts, along with any other monies or collateral collected from Approved Merchants, shall be handled per ISO's discretion.",
+                "explanation": "The omission of the mandatory language to a recommendation and allowing discretion introduces contradiction. Section 4.4 still exists which relies on the account being 'adequately funded'. SERVICERS can no longer guarantee funds are available for covering risk, fees, etc. per original contract language.",
+                "location": "SECTION 4.4 Merchant Reserve Accounts."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "ISO and each Other MSP shall at all times, at ISO's and/or each Other MSP's cost and expense, maintain in effect during the term of this Agreement, a valid and effective registration as an independent service organization with Visa and a member service provider with MasterCard and shall provide any information as Visa and MasterCard may reasonably request in connection therewith or in connection with the services of ISO hereunder, and shall provide SERVICERS the information as it may reasonably request concerning compliance with all applicable Rules, laws, regulations and the requirements set forth herein in connection with this Agreement. The parties hereto will work together expeditiously and in good faith to register and maintain the registration of ISO and each Other MSP with the appropriate Bank Card associations as required under the Rules.",
+                "changed_text": "ISO shall attempt to maintain a registration as an independent service organization with Visa and a member service provider with MasterCard. The parties hereto will attempt to work together expeditiously to register ISO and each Other MSP with the appropriate Bank Card associations.",
+                "explanation": "By changing shall to attempt and removing ISO's responsibility in cost and providing information, creates uncertainty and contradictions with Section 2.5(a) where Bank agrees to maintain such sponsorships, but ISO is not necessarily required to maintain registrations. ISO now has less of a requirement to comply with Rules in Section 8.4.",
+                "location": "SECTION 8.5 Registration as ISO."
+            }
+        ]
+    }
+]

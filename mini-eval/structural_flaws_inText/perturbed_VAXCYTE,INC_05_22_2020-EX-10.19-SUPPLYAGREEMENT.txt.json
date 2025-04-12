@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.5 \"Extract\" means Sutro's extract derived from strains of E. coli identified on Schedule 1 attached hereto, as may be amended from time to time in accordance with Section 12.7, and any new versions and improvements thereof that may be included in Schedule 1 by written agreement of the Parties in accordance with Section 12.7.",
+                "changed_text": "1.5 \"Extract\" means Sutro's extract derived from strains of E. coli identified on Schedule 1 attached hereto, as may be amended from time to time in accordance with Section 12.7.  Extract can be derived from any source, so long as the chemical makeup is nearly identical.",
+                "explanation": "This change introduces contradiction. The original text specifies the extract must come from specific E. coli strains on Schedule 1. The modified text broadens this to 'any source', creating ambiguity. This could create disputes over the source and quality of the extract.",
+                "location": "ARTICLE 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.3 Work Orders. From time to time, Sutro and SutroVax may execute one or more work orders, that describe the Product to be Manufactured, the quantities of each Product to be Manufactured and supplied to SutroVax, the Price to be charged by Sutro (which shall be as set forth in Section 3.2) and paid by SutroVax for the Product, and the delivery date(s) for such Product, (as executed, a \"Work Order\"). Each Work Order will expressly refer to this Supply Agreement, will form a part of this Supply Agreement, and will be subject to the terms and conditions contained herein. Sutro shall not unreasonably withhold its agreement to any proposed Work Order requested by SutroVax. Sutro shall be obligated to execute proposed Work Orders requested by SutroVax (except with respect to Other Extracts) with respect to quantities in such proposed Work Order for delivery at least [***] months after SutroVax's request to the extent such quantities of Product (when added to the quantities of such Product in Work Orders previously agreed between the Parties for delivery within the one (1) calendar year period prior to the requested delivery date of the proposed Work Order) are less than (a) [***] liters with respect to Extract or (b) a corresponding amount of each Custom Reagent to support use of [***] liters of Extract. Sutro shall notify SutroVax as soon as possible if Sutro believes it will be unable to deliver Product in accordance with the applicable Work Order. Sutro's providing of such notification shall not be interpreted in any manner as relieving Sutro of its obligations under this Supply Agreement, nor shall it prevent SutroVax from pursuing any and all rights and remedies SutroVax may have based on Sutro's failure to be able to deliver any Product in accordance with the terms of this Supply Agreement.",
+                "changed_text": "2.3 Work Orders. From time to time, Sutro and SutroVax may execute one or more work orders, that describe the Product to be Manufactured, the quantities of each Product to be Manufactured and supplied to SutroVax, the Price to be charged by Sutro (which shall be as set forth in Section 3.2) and paid by SutroVax for the Product, and the delivery date(s) for such Product, (as executed, a \"Work Order\"). Each Work Order will expressly refer to this Supply Agreement, will form a part of this Supply Agreement, and will be subject to the terms and conditions contained herein. Sutro's acceptance of a Work Order is purely discretionary and at Sutro's sole convenience. Sutro is under no obligation to fulfill any proposed Work Orders requested by SutroVax, regardless of quantity or timing.",
+                "explanation": "This modification contradicts the original section's requirement that Sutro 'shall not unreasonably withhold its agreement' to Work Orders, and is 'obligated to execute' them under certain volume restrictions. The edited section introduces uncertainty by giving Sutro full discretion, making it unclear whether SutroVax can rely on Sutro to fulfill their orders.  This undermines the supply commitment of the agreement.",
+                "location": "ARTICLE 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "12.11 This Supply Agreement shall be governed by, and construed and enforced in accordance with, the laws of the State of California, without regard to any conflict of laws rules to the contrary.",
+                "changed_text": "12.11 This Supply Agreement shall be governed by, and construed and enforced in accordance with, the laws of the State of Delaware, without regard to any conflict of laws rules to the contrary. However, if the matter involves intellectual property, the laws of the People's Republic of China will govern.",
+                "explanation": "This modification introduces contradiction by specifying different governing laws for different scenarios. While the original stated that California law governs, the new addition states that if the dispute involves intellectual property, then the laws of the People's Republic of China will govern.  This could lead to disputes over which jurisdiction's laws apply, creating uncertainty during dispute resolution.",
+                "location": "ARTICLE 12"
+            }
+        ]
+    }
+]

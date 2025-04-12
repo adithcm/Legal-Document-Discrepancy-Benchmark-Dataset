@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GRIDIRONBIONUTRIENTS,INC_02_05_2020-EX-10.3-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Either Party may terminate this Agreement at any time prior to delivery of the Product.",
+                "changed_text": "Either Party may terminate this Agreement at any time prior to delivery of the Product, provided that a written notice of at least 30 days is given to the other party.",
+                "explanation": "This adds a condition to the termination clause that contradicts the original clause allowing termination 'at any time'. It creates uncertainty as to whether immediate termination is permissible or if a 30-day notice is always required.",
+                "location": "2. Term and Termination. A. Termination."
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Product. Shi Farms agrees to sell Product and Gridiron agrees to purchase 30,000 lbs. of hemp biomass (\"Biomass\") from Shi Farms. Biomass must contain a minimum of six percent (6%) total Cannabidiol (CBD/and or CBDA) and all Biomass must have less than three percent (3%) total TCH content. The Biomass must contain no contaminates that are above acceptable industry standards for processing Biomass including but not limited to: Mold and Mildew; Non- Hemp Plant Material; Soil; Insects; Rodent Droppings; Wet or Rotting Material; Heavy Metals; Residual Pesticides or Herbicides; Bacteria.",
+                "changed_text": "Product. Shi Farms agrees to sell Product and Gridiron agrees to purchase approximately 30,000 lbs. of hemp biomass (“Biomass”) from Shi Farms. Biomass should ideally contain a minimum of six percent (6%) total Cannabidiol (CBD/and or CBDA) and all Biomass should ideally have less than three percent (3%) total TCH content. The Biomass must contain no contaminates that are above acceptable industry standards for processing Biomass including but not limited to: Mold and Mildew; Non- Hemp Plant Material; Soil; Insects; Rodent Droppings; Wet or Rotting Material; Heavy Metals; Residual Pesticides or Herbicides; Bacteria.",
+                "explanation": "By changing 'must contain' to 'should ideally contain' and adding 'approximately' to the quantity, we introduce uncertainty. The original text is definitive, while the changed text suggests the specifications are merely targets, not strict requirements. However, in the original contract it states 'Shi Farms shall be responsible for delivery of the Biomass to the processor determined by Gridiron, in good form as described above \"A. Product\"' which enforces the original specificiations. This creates an internal contradiction regarding the required specifications of the Biomass.",
+                "location": "1. Products and Payments A. Product."
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Both Parties agree that CBD potency numbers are determined by a third-party lab according to standard testing protocol which was provided by the seller. Buyer may take their own samples (\"Product Samples\") for testing as well.",
+                "changed_text": "Both Parties agree that CBD potency numbers are determined by a third-party lab chosen by the seller. Buyer may take their own samples (\"Product Samples\") for testing as well, however in cases of dispute the seller's third party lab results will be considered the final and binding determination.",
+                "explanation": "This introduces a contradiction regarding the acceptance of testing results. While the Buyer can test samples, the Seller's lab results are deemed 'final and binding'. This contradicts the Buyer's right to independently verify the CBD potency, creating uncertainty about whose results are authoritative in case of disagreement, given that the product specifications section requires a minimum amount of CBD/CBDA.",
+                "location": "1. Products and Payments C. Certificate of Analysis (COA)."
+            }
+        ]
+    }
+]

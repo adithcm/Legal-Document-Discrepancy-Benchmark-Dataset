@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital securities and administration of the smart contracts underlying the Fund's digital securities in the manner and on the terms set forth herein; WHEREAS, the Blockchain Administrator is willing to provide such services to the Fund on the terms and conditions set forth herein; WHEREAS, the Blockchain Administrator will also serve as the Fund's investment adviser (the \"Adviser\") pursuant to an Investment Advisory Agreement entered into by and between the Fund and the Adviser (as amended from time to time, the \"Advisory Agreement\"); and WHEREAS, the Fund bears all costs and expenses incurred in its operation, administration and transactions which are not specifically assumed by the Adviser pursuant to the Advisory Agreement or this Agreement.",
+                "changed_text": "WHEREAS, the Fund desires to retain the Blockchain Administrator to provide services related to the development of ERC-1404 compatible digital securities and administration of the smart contracts underlying the Fund's digital securities in the manner and on the terms set forth herein; WHEREAS, the Blockchain Administrator is willing to provide such services to the Fund on the terms and conditions set forth herein; WHEREAS, the Blockchain Service Provider will also serve as the Fund's investment adviser (the \"Adviser\") pursuant to an Investment Advisory Agreement entered into by and between the Fund and the Adviser (as amended from time to time, the \"Advisory Agreement\"); and WHEREAS, the Fund bears all costs and expenses incurred in its operation, administration and transactions which are not specifically assumed by the Adviser pursuant to the Advisory Agreement or this Agreement.",
+                "explanation": "Changing \"Blockchain Administrator\" to \"Blockchain Service Provider\" creates confusion as to which entity is responsible for the blockchain administration. The contract now references both terms without clearly defining if they are interchangeable.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative services necessary for the issuance of the Fund's shares as ERC-1404 compatible digital securities (\"Shares\") and the on-going maintenance and administration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Administrator shall provide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject to review by the Board, shall from time to time determine to be necessary or useful to perform its obligations under this Agreement.",
+                "changed_text": "The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative services necessary for the issuance of the Fund's shares as ERC-1404 compatible digital securities (\"Shares\") and the on-going maintenance and administration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Service Provider shall provide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject to review by the Board, shall from time to time determine to be necessary or useful to perform its obligations under this Agreement.",
+                "explanation": "Switching \"Blockchain Administrator\" to \"Blockchain Service Provider\" in this section creates uncertainty about who is responsible for providing the facilities and technology. This contradicts the initial definition, making enforcement ambiguous.",
+                "location": "Section 1(c)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the Blockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be accrued daily and paid monthly in arrears.",
+                "changed_text": "In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the Digital Asset Manager a fees calculated at the annual rate of 0.20% of the value of the Fund's average annual net assets. Such fee shall be accrued daily and paid monthly in arrears.",
+                "explanation": "Changing \"Blockchain Administrator\" to \"Digital Asset Manager\" in the compensation clause introduces significant ambiguity. It becomes unclear to whom the payment is owed, creating a direct contradiction with the intended recipient of the fees, and complicating financial accountability.",
+                "location": "Section 4(a)"
+            }
+        ]
+    }
+]

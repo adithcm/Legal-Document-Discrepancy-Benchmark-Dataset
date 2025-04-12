@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SECURIANFUNDSTRUST_05_01_2012-EX-99.28.H.9-NET INVESTMENT INCOME MAINTENANCE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1 Net Investment Income. \"Fund Investment Income\", as defined in paragraph 1.2 below, minus \"Fund Operating Expenses\" as defined  in paragraph 1.3 below equals Net Investment Income. If the Fund's Net Investment Income on any day is below zero, the Investment  Adviser shall waive its Advisory Fee or reimburse the Fund an amount (defined as \"Expense Waiver\") sufficient to produce a Net  Investment Income of zero.",
+                "changed_text": "1.1 Net Investment Income. \"Portfolio Investment Revenue\", as defined in paragraph 1.2 below, minus \"Fund Operating Expenses\" as defined  in paragraph 1.3 below equals Net Investment Income. If the Fund's Net Investment Income on any day is below zero, the Investment  Adviser shall waive its Advisory Fee or reimburse the Fund an amount (defined as \"Expense Waiver\") sufficient to produce a Net  Investment Income of zero.",
+                "explanation": "Changing 'Fund Investment Income' to 'Portfolio Investment Revenue' creates uncertainty about whether these terms are interchangeable. It's unclear if the calculation of Net Investment Income now relies on a different revenue stream.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.4 Method of Computing Expense Waiver. To determine the Expense Waiver (Investment Adviser's liability), each day the Fund  Operating Expenses shall be subtracted from the Fund Investment Income to produce the daily Net Investment Income. If the daily Net  Investment Income is below zero for any day, the Investment Adviser shall first waive or reduce its advisory fee for such day by an  amount sufficient to bring the Net Investment Income to zero. If the amount of the waived or reduced advisory fee for any such day is  insufficient to bring the Net Investment Income to zero , the Investment Adviser shall also pay Fund expenses or reimburse the Fund  an amount that, together with the waived or reduced advisory fee, is sufficient to bring the Net Investment Income to zero.",
+                "changed_text": "1.4 Method of Computing Expense Waiver. To determine the Expense Waiver (Investment Adviser's liability), each day the Fund  Operating Expenses shall be subtracted from the Portfolio Investment Revenue to produce the daily Net Investment Income. If the daily Net  Investment Income is below zero for any day, the Investment  Adviser shall first waive or reduce its advisory fee for such day by an  amount sufficient to bring the Net Investment Income to zero. If the amount of the waived or reduced advisory fee for any such day is  insufficient to bring the Net Investment Income to zero , the Investment Adviser shall also pay Fund expenses or reimburse the Fund  an amount that, together with the waived or reduced advisory fee, is sufficient to bring the Net Investment Income to zero.",
+                "explanation": "In Section 1.1, 'Fund Investment Income' was renamed to 'Portfolio Investment Revenue'. Using 'Portfolio Investment Revenue' in this Section where 'Fund Investment Income' was previously used increases the contradiction, as it is unclear whether Investment Adviser liability is based on revenue of the fund or the portfolio.",
+                "location": "Section 1.4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.7 Operating Expense Limit. Any Expense Waiver recovery payment by the Fund to the Investment Adviser shall not cause the Operating  Expense for the Fund's full year of operations to exceed 1.25% of the Fund's average daily net assets.",
+                "changed_text": "1.7 Operating Expense Limit. Any Expense Waiver recovery payment by the Trust to the Investment Manager shall not cause the Operating  Expense for the Fund's full year of operations to exceed 1.25% of the Fund's average daily net assets.",
+                "explanation": "Replacing 'Fund' with 'Trust' and 'Investment Adviser' with 'Investment Manager' introduces inconsistencies. 'Fund' and 'Trust' are defined but have different roles. 'Investment Manager' is undefined and may or may not be the same as 'Investment Adviser,' creating further ambiguity in expense recovery payments.",
+                "location": "Section 1.7"
+            }
+        ]
+    }
+]

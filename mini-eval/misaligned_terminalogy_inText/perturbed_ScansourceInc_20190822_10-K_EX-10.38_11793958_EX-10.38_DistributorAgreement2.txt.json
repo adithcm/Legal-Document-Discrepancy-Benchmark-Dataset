@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE BINDING THE BUSINESS ENTITY THAT YOU REPRESENT (\"CUSTOMER\") TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN (A) DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE, AND (B) YOU MAY RETURN THE SOFTWARE FOR A FULL REFUND, OR, IF THE SOFTWARE IS SUPPLIED AS PART OF ANOTHER PRODUCT, YOU MAY RETURN THE ENTIRE PRODUCT FOR A FULL REFUND. YOUR RIGHT TO RETURN AND REFUND EXPIRES 30 DAYS AFTER PURCHASE FROM CISCO OR AN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF CUSTOMER IS THE ORIGINAL END USER PURCHASER.",
+                "changed_text": "BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE BINDING THE BUSINESS ENTITY THAT YOU REPRESENT (\"CUSTOMER\") TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN (A) DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE, AND (B) YOU MAY RETURN THE SOFTWARE FOR A PARTIAL REFUND, OR, IF THE SOFTWARE IS SUPPLIED AS PART OF ANOTHER PRODUCT, YOU MAY RETURN THE ENTIRE PRODUCT FOR A FULL REIMBURSEMENT. YOUR RIGHT TO RETURN AND REFUND EXPIRES 60 DAYS AFTER PURCHASE FROM CISCO OR AN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF SUBSCRIBER IS THE INITIAL END USER PURCHASER.",
+                "explanation": "The terms \"CUSTOMER\" is replaced with \"SUBSCRIBER,\" and \"FULL REFUND\" is replaced with \"PARTIAL REFUND\" and \"FULL REIMBURSEMENT\" creating contradiction with the original meaning and creating confusion of the identity of the client.",
+                "location": "Paragraph 2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "License. Subject to the terms and conditions of this Agreement, Cisco Systems, Inc. or its subsidiary licensing the Software instead of Cisco Systems, Inc. (\"Cisco\"), grants to Customer a nonexclusive and nontransferable license to use for Customer's internal business purposes the Software and the Documentation for which Customer has paid the required license fees. \"Documentation\" means written information (whether contained in user or technical manuals, training materials, specifications or otherwise) regarding the Software and made available by Cisco in any manner (including on CD-Rom, or on-line).",
+                "changed_text": "Permit. Subject to the terms and conditions of this Agreement, Cisco Systems, Inc. or its subsidiary licensing the Software instead of Cisco Systems, Inc. (\"Cisco\"), grants to Client a nonexclusive and nontransferable license to use for Supplier's internal business purposes the Software and the Documentation for which Subscriber has remitted the necessary payments. \"Documentation\" means electronic records (whether contained in user or technical manuals, training materials, specifications or otherwise) regarding the Software and accessible by Cisco solely through online means.",
+                "explanation": "Changing 'License' to 'Permit', 'Customer' to 'Client', 'Customer's' to 'Supplier's', 'license fees' to 'necessary payments', and 'made available by Cisco in any manner' to 'accessible by Cisco solely through online means', introduces ambiguity. It's unclear whether the entities and terms have the same meaning and scope.",
+                "location": "Paragraph 4"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Customer Records. Customer grants to Cisco and its independent accountants the right to examine Customer's books, records and accounts during Customer's normal business hours to verify compliance with this Agreement. In the event such audit discloses non-compliance with this Agreement, Customer shall promptly pay to Cisco the appropriate license fees.",
+                "changed_text": "Client Data. Subscriber grants to Cisco and its certified auditors the ability to review Client's data, logs, and digital assets during Subscriber's customary operational times to validate adherence to this Contract. Should this review indicate a discrepancy with this Contract, Subscriber must immediately provide Cisco with applicable service charges.",
+                "explanation": "Changing 'Customer Records' to 'Client Data', 'accountants' to 'auditors', 'books, records, and accounts' to 'data, logs, and digital assets', 'normal business hours' to 'customary operational times', 'verify compliance with this Agreement' to 'validate adherence to this Contract', 'non-compliance' to 'discrepancy', and 'license fees' to 'service charges' introduce ambiguity and create potential disputes over which records Cisco can access and what constitutes a discrepancy.",
+                "location": "Paragraph 13"
+            }
+        ]
+    }
+]

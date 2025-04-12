@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VirtuosoSurgicalInc_20191227_1-A_EX1A-6MATCTRCT_11933379_EX1A-6MATCTRCT_LicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3. GRANT 3.1 License Granted: Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD. 3.2 No Sublicensing: Company shall not sublicense to others under this Agreement, nor extend the rights granted hereunder to any affiliated company.",
+                "changed_text": "3. GRANT 3.1 License Granted: Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD. 3.2 Sublicensing: Company may sublicense to others under this Agreement. Company can also extend the rights granted hereunder to any affiliated company at their discretion.",
+                "explanation": "The original text explicitly states that the Company cannot sublicense or extend rights to affiliated companies. The modified text directly contradicts this by allowing sublicensing and extension of rights to affiliated companies, creating uncertainty about the permissible scope of the license.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6. TERM AND TERMINATION 6.1 Expiration: This term of this Agreement shall commence on the EFFECTIVE DATE and shall continue, in each country, until the date of expiration of the last to expire patent within PATENT RIGHT(S) in that country. 6.2 Termination by Company: Company may terminate this Agreement and the license granted herein, for any reason, upon giving JHU sixty (60) days written notice under Paragraph 8.1.",
+                "changed_text": "6. TERM AND TERMINATION 6.1 Expiration: This term of this Agreement shall commence on the EFFECTIVE DATE and shall continue, in each country, until the date of expiration of the last to expire patent within PATENT RIGHT(S) in that country. 6.2 Termination by Company: Company may terminate this Agreement only if JHU breaches this agreement. Company needs to follow the procedure in Paragraph 7.1 before terminating this agreement.",
+                "explanation": "Originally, Company can terminate the agreement for any reason with 60 days written notice. The modification restricts Company's termination rights, stating it can only terminate if JHU breaches the agreement and only after following the default procedure. This creates a direct contradiction and makes the termination clause ambiguous.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "9.2 Assignment: This Agreement is binding upon and shall inure to the benefit of JHU, its successors and assignees and shall not be assignable to another party, except that the Company shall have the right to assign this Agreement to another party in the case of the sale or transfer by the Company of all, or substantially all, of its assets relating to the LICENSED PRODUCT(S), LICENSED SERVICE(S) or PATENT RIGHT(S), to that party.",
+                "changed_text": "9.2 Assignment: This Agreement is binding upon and shall inure to the benefit of JHU, its successors and assignees and shall be assignable to another party at any time, without any need to acquire agreement from JHU. The Company needs to make sure that there is no disruption in production or availability of product to the public. ",
+                "explanation": "The original text limits the Company's ability to assign the agreement, only allowing it in cases of a sale of assets. The revised text completely removes this restriction, allowing assignment at any time and to any party. This contradicts the original clause and causes confusion.",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

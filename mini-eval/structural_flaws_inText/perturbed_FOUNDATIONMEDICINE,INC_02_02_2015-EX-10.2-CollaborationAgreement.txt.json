@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FOUNDATIONMEDICINE,INC_02_02_2015-EX-10.2-CollaborationAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "17.2.3 Termination by Roche without Cause\n\nRoche shall have the right to terminate the Agreement in its entirety, or on a Work Stream-by-Work Stream basis, except for the ctDNA Work Stream, upon […***…] prior written notice, without cause. With regard to the CDx Development Program, Roche shall also have the right to terminate, without cause, the development of an Approved Marker and/or an Investigational Marker for inclusion in a CDx Assay, upon […***…] prior written notice; provided however that this right shall expire with respect to each Approved Marker for inclusion in a particular CDx Assay at such time as FMI has completed analytical validation for such Approved Marker. With regard to the Molecular Information Platform Program, Roche shall have the right to terminate without cause either or both of the Sample Profiling or Molecular Information Database Access activities individually.",
+                "changed_text": "17.2.3 Termination by Roche without Cause\n\nRoche shall have the right to terminate the Agreement in its entirety, or on a Work Stream-by-Work Stream basis, including the ctDNA Work Stream, upon […***…] prior written notice, without cause. With regard to the CDx Development Program, Roche shall not have the right to terminate, without cause, the development of an Approved Marker and/or an Investigational Marker for inclusion in a CDx Assay, upon […***…] prior written notice; provided however that this right will apply with respect to each Approved Marker for inclusion in a particular CDx Assay at such time as FMI has completed analytical validation for such Approved Marker. With regard to the Molecular Information Platform Program, Roche shall have the right to terminate without cause neither Sample Profiling nor Molecular Information Database Access activities individually.",
+                "explanation": "The original text states Roche does not have the right to terminate the ctDNA Work Stream without cause, but the modified text says that they can. The original text states Roche has the right to terminate, without cause, the development of an Approved Marker and/or an Investigational Marker but the modified text says that they don't. The original text states Roche has the right to terminate Sample Profiling or Molecular Information Database Access activities individually, but the modified text says that they don't.",
+                "location": "Section 17.2.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "17.4 Other Obligations\n\nTermination of this Agreement by a Party, for any reason, shall not release Roche from any obligation to make payments to FMI that are due and payable prior to the effective date of termination. Termination of this Agreement by a Party, for any reason, will release Roche from any obligation to any payments to FMI that would otherwise become due or payable on or after the effective date of termination.",
+                "changed_text": "17.4 Other Obligations\n\nTermination of this Agreement by a Party, for any reason, shall release Roche from any obligation to make payments to FMI that are due and payable prior to the effective date of termination. Termination of this Agreement by a Party, for any reason, will not release Roche from any obligation to any payments to FMI that would otherwise become due or payable on or after the effective date of termination.",
+                "explanation": "The original text states that termination does *not* release Roche from obligations prior to termination, but *does* release them from obligations after termination. The modified text states that termination *does* release Roche from obligations prior to termination, but *does not* release them from obligations after termination.",
+                "location": "Section 17.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.1.5.2 ctDNA Platform\n\nFMI will have final decision-making rights at the JMC with respect to the ctDNA Platform Development, provided that FMI may not change the timelines agree in Section 8.4, and any change to the Roche specifications (\"TPP\") for a ctDNA Assay specifically requested by Roche as part of the R&D Plan will require Roche's prior approval.",
+                "changed_text": "6.1.5.2 ctDNA Platform\n\nRoche will have final decision-making rights at the JMC with respect to the ctDNA Platform Development, provided that FMI may change the timelines agree in Section 8.4, and any change to the Roche specifications (\"TPP\") for a ctDNA Assay specifically requested by Roche as part of the R&D Plan will not require Roche's prior approval.",
+                "explanation": "The original text states that FMI will have final decision-making rights, but the modified text says Roche will have final decision-making rights. The original text says FMI may *not* change the agreed timelines, but the modified version says FMI *may* change those timelines. Finally, it changes Roche's prior approval from *required* to *not required*.",
+                "location": "Section 6.1.5.2"
+            }
+        ]
+    }
+]

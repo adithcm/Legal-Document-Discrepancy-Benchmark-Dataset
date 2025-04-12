@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company agrees to pay Consultant the compensation set forth on Exhibit A hereto for the performance of the Services.",
+                "changed_text": "Company agrees to pay Consultant the compensation set forth on Exhibit A hereto for the performance of the Services. However, the Company reserves the right to unilaterally adjust the compensation at any time without prior notice.",
+                "explanation": "This adds a contradiction by stating that while Exhibit A defines compensation, the company can adjust it arbitrarily, making the initially agreed-upon compensation uncertain.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Either Consultant or Company may terminate this Agreement upon prior written notice thereof to the other party.",
+                "changed_text": "Either Consultant or Company may terminate this Agreement upon prior written notice thereof to the other party. However, the Company can terminate the agreement with immediate effect if it deems the Consultant's performance unsatisfactory. Consultant however needs a 30 days notice to terminate the contract.",
+                "explanation": "This introduces a contradiction in termination terms. It states that both parties can terminate with prior written notice, but then adds an exception allowing the Company to terminate immediately under subjective conditions ('unsatisfactory performance') while the Consultant requires a 30 day notice. This creates uncertainty about the true termination conditions.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement (together with the Exhibits hereto) is the sole agreement and understanding between Company and Consultant concerning the subject matter hereof, and it supersedes any and all prior agreements and understandings with respect to such matter, whether written or oral, provided, that, except as set forth in Exhibit B.",
+                "changed_text": "This Agreement (together with the Exhibits hereto) is the sole agreement and understanding between Company and Consultant concerning the subject matter hereof, and it supersedes any and all prior agreements and understandings with respect to such matter, whether written or oral, provided, that, except as set forth in Exhibit B. Notwithstanding the foregoing, any verbal agreements made between the Company's executive team and the Consultant shall also be considered binding and part of this agreement.",
+                "explanation": "This adds a contradiction by stating that any verbal agreements made between the Company's executive team and the Consultant shall also be considered binding and part of this agreement even when the written agreement states that it is the \"sole agreement\".",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

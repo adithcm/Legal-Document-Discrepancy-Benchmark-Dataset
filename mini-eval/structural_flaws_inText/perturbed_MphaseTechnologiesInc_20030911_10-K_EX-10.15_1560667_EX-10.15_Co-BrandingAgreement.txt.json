@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.      The Term of this Agreement will commence on the date above, and shall          continue for a term of one (1) year. mPhase shall have the right to          annually renew this agreement for a period of one year upon each annual          expiration with the written consent of Lucent, which written consent          shall not be unreasonably withheld. Either party wishing to terminate          the Agreement must give written notice to the other party at least          thirty (30) days prior to the desired date of termination.",
+                "changed_text": "11.      The Term of this Agreement will commence on the date above, and shall          continue for a term of one (1) year. mPhase may request to annually renew this agreement for a period of one year upon each annual          expiration. Lucent's consent to renewal will be at its sole discretion. Either party wishing to terminate          the Agreement must give written notice to the other party at least          thirty (30) days prior to the desired date of termination.",
+                "explanation": "The original text states that Lucent's consent to renewal 'shall not be unreasonably withheld'. The modified text gives Lucent 'sole discretion' which means they can withhold consent for any reason, contradicting the original clause and creating uncertainty around the renewal process.",
+                "location": "Section 11"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "8.       If Lucent determines that mPhase's Goods are no longer maintained at          the current level of quality, Lucent shall so notify mPhase, in          writing, and Lucent shall have the right to terminate this Agreement.",
+                "changed_text": "8.       If Lucent determines that mPhase's Goods are no longer maintained at          the current level of quality, Lucent shall so notify mPhase, in          writing, and Lucent may, at its sole discretion, choose not to exercise its right to terminate this agreement.",
+                "explanation": "The original text states that Lucent 'shall have the right to terminate this Agreement' if the quality is not maintained. The modified text contradicts this by saying Lucent 'may, at its sole discretion, choose not to exercise its right to terminate'. This introduces uncertainty because it's no longer clear if Lucent *will* terminate the agreement for quality issues. Now, the option is up to Lucent, even if goods do not meet the quality standards.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "12.      Upon termination of this Agreement, mPhase shall immediately cease use          of the Lucent Co-Branding Logo, provided, however, that mPhase shall          have no obligation to remove such Co-Branding Logo from any Goods sold          prior to the date of such termination.",
+                "changed_text": "12.      Upon termination of this Agreement, mPhase shall immediately cease use          of the Lucent Co-Branding Logo, unless otherwise agreed upon in writing by both parties. mPhase shall          have no obligation to remove such Co-Branding Logo from any Goods sold          prior to the date of such termination.",
+                "explanation": "The original text states that mPhase MUST cease use of the logo immediately. The modified version adds 'unless otherwise agreed upon in writing by both parties'. This contradicts the initial clause that stated an immediate cease, and makes the whole clause less certain as now they may continue to use logo depending on any future written agreement, introducing an ambiguity and contradicting the original spirit of the termination.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

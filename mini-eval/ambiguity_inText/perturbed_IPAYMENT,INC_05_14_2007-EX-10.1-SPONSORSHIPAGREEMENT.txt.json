@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IPAYMENT,INC_05_14_2007-EX-10.1-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Approved Merchant\" means any Merchant that: (a) Is solicited by ISO (or ISO's Other MSP's or IC's) for participation in the Program; (b) Meets the established criteria for participation in the Program, including the Merchant Processing Policy; and (c) Enters into a Merchant Processing Agreement. Approved Merchants may also include Merchants converted to the Program as part of the initial BIN/ICA transfer and/or subsequently acquired Merchants that meet the established criteria for participation in the Program, including the Merchant Processing Policy, and whose sponsorship is assigned to Bank.",
+                "changed_text": "\"Approved Merchant\" means any Merchant that: (a) Is solicited by ISO (or ISO's Other MSP's or IC's) for participation in the Program; (b) Meets the established criteria for participation in the Program, including the Merchant Processing Policy; and (c) Enters into a Merchant Processing Agreement. Approved Merchants will only include Merchants directly solicited and approved under this agreement.",
+                "explanation": "The original definition includes merchants from multiple origins while the modified version explicitly states that only merchants directly solicited are approved. This creates an internal contradiction because, according to one section, legacy merchants from the BIN/ICA transfer are 'Approved Merchants,' but under the altered definition, they might not be.",
+                "location": "SECTION 1 DEFINITIONS"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "ISO shall collect completed and signed Application Materials and Merchant Processing Agreements from Applicants and shall forward them to SERVICERS within [***] [***] Business Days after the merchant is boarded (which may be accessed by SERVICERS online or forwarded to SERVICERS via ISO's automated application system or to a facsimile number designated by SERVICERS, provided such complies with the Rules and applicable laws, rules and regulations) or to any other place(s) as SERVICERS may designate for processing and document storage. ISO shall retain copies of all Application Materials, Merchant Processing Agreements and documents forwarded to SERVICERS.",
+                "changed_text": "ISO shall collect completed and signed Application Materials and Merchant Processing Agreements from Applicants and may, at their discretion, forward them to SERVICERS within [***] [***] Business Days after the merchant is boarded or retain them for their records. ISO shall retain copies of all Application Materials, Merchant Processing Agreements and documents forwarded to SERVICERS.",
+                "explanation": "The original contract states that ISO *shall* forward the application materials. The modified version states that ISO *may, at their discretion* forward application materials. This introduces ambiguity by giving ISO the option to not forward completed application materials. This creates an internal contradiction because in other places of the original contract, ISO had to forward them, while now they have a choice.",
+                "location": "SECTION 4.1 Applications"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "ISO shall be responsible for determining the amount of any Merchant Reserve Accounts. ISO shall also be responsible for ensuring all Merchant Reserve Accounts are adequately funded. All Merchant Reserve Accounts, along with any other monies or collateral collected from Approved Merchants, shall be deposited with Bank.",
+                "changed_text": "SERVICERS shall be responsible for determining the amount of any Merchant Reserve Accounts. SERVICERS shall also be responsible for ensuring all Merchant Reserve Accounts are adequately funded. All Merchant Reserve Accounts, along with any other monies or collateral collected from Approved Merchants, shall be deposited with Bank.",
+                "explanation": "The original states that ISO is responsible for determining the amount of the reserve and funding it. The new modified text states that SERVICERS is responsible for determining the amount of the reserve and funding it. This creates a direct contradiction in responsibility between ISO and SERVICERS.",
+                "location": "SECTION 4.4 Merchant Reserve Accounts"
+            }
+        ]
+    }
+]

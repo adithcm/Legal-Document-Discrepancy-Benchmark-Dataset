@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENTAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Unless otherwise provided for in this Agreement, the term of this Agreement shall be three years, commencing on the date of this Agreement and expiring on the third anniversary date of this Agreement (the \"Termination\n\n\n\nDate\"). In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 60 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 60-day period, without any further responsibility by either Party except as provided in Section 5.",
+                "changed_text": "Unless otherwise provided for in this Agreement, the term of this Agreement shall be three years, commencing on the date of this Agreement and expiring on the third anniversary date of this Agreement (the \"Termination\n\n\n\nDate\"). In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 60 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 60-day period, without any further responsibility by either Party except as provided in Section 5. Notwithstanding the foregoing, AGI reserves the right to terminate this agreement at any time with only 30 days written notice.",
+                "explanation": "This creates a contradiction regarding the termination clause. The original text states the company needs to provide 60 days notice, but the added text allows AGI to terminate with only 30 days notice, creating an inconsistency.",
+                "location": "Section 3A"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This fee shall be fully earned by AGI upon the receipt thereof and shall not be refundable for any reason. As consideration for the License, the Company shall pay to AGI such fees as may be established from time to time by mutual agreement of the Company and AGI.",
+                "changed_text": "This fee shall be fully earned by AGI upon the receipt thereof and shall not be refundable for any reason except in the event that AGI breaches its warranty in Section 1A. As consideration for the License, the Company shall pay to AGI such fees as may be established from time to time by mutual agreement of the Company and AGI.",
+                "explanation": "The original clause states the fee is non-refundable for *any* reason. The modified text introduces an exception where the fee *is* refundable if AGI breaches its warranty, directly contradicting the 'for any reason' clause.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Any notices hereunder shall be sent to the Company and AGI at their respective address above set forth. Any notice shall be given by registered or certified mail, postage prepaid, and shall be deemed to have been given when deposited in the United States mail.",
+                "changed_text": "Any notices hereunder shall be sent to the Company and AGI at their respective address above set forth. Any notice shall be given by registered or certified mail, postage prepaid, and shall be deemed to have been given when deposited in the United States mail. However, notices regarding termination of this agreement may be sent via electronic mail, and shall be deemed given upon sending.",
+                "explanation": "This creates a contradiction regarding acceptable forms of notice. The original states notices must be sent via registered or certified mail. The added text permits termination notices to be sent via email, which contradicts the original clause.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

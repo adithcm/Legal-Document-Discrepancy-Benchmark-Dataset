@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ADMABioManufacturing,LLC-Amendment#3toManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Should ADMA fail to supply a minimum of [***] Batches of Product (the \"Minimum Volume\") of Product during the time period as specified in this Amendment #3, ADMA agrees that Sanofi Pasteur shall be entitled to obtain from ADMA as liquidated damages, and not a penalty, amounting to $[***] ([***]) USD. ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma. In addition to the Minimum Volume of Product to be manufactured by ADMA, should ADMA deliver the Minimum Volume of Product but fail to meet the Updated Supply Plan as provided in Exhibit A as attached hereto and made an integral part hereof, then it is agreed upon by the Parties that ADMA shall pay to Sanofi Pasteur an amount equal to $[***] ([***]) USD for each Batch of Product that is less than the agreed upon quantity in Exhibit A, as liquidated damages, and not as a penalty. The foregoing liquidated damages [***] respect to the [***] within the [***] agreed in this Amendment #3.",
+                "changed_text": "Should ADMA fail to supply a minimum number of batches of product during the specified period, ADMA agrees that Sanofi Pasteur shall be entitled to damages. In addition to the product to be manufactured by ADMA, should ADMA deliver the product but fail to meet the Updated Supply Plan as provided in Exhibit A as attached hereto and made an integral part hereof, then it is agreed upon by the Parties that ADMA shall pay to Sanofi Pasteur damages.",
+                "explanation": "By removing the specific amounts for liquidated damages, the contract becomes internally contradictory. It states that ADMA will pay damages for failing to meet the Minimum Volume and the Updated Supply Plan, but does not specify the amount, making enforcement uncertain. The term 'liquidated damages' is also removed, furthering this ambiguity.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "In such a case, the remaining Source Plasma shall be immediately returned to Sanofi Pasteur, under ADMA's liability and expenses. Shipment of the Source Plasma to Sanofi Pasteur shall be made in compliance with the transportation conditions as provided in the Quality Agreement (as defined below), to be further amended by the Parties as contemplated in Section 9 below.",
+                "changed_text": "In such a case, the remaining Source Plasma shall be immediately returned to Sanofi Pasteur, under ADMA's liability and expenses.",
+                "explanation": "Removing the clause about compliance with the transportation conditions as provided in the Quality Agreement, while still referencing the return of Source Plasma, creates a contradiction. The Agreement mandates a return, but removes the stipulation ensuring safe and compliant transport as dictated by the Quality Agreement, potentially leading to disputes regarding the return process and liability if the plasma is damaged during transport. Section 9 makes reference to this Quality Agreement.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Parties further agree to amend that certain Quality and Technical Agreement between Sanofi Pasteur and ADMA (as successor to BPC) effective as of September 15, 2015 (the \"Quality Agreement\") to modify the address where the Source Plasma shall be stocked and the conditions associated therewith, as well as to ensure consistency with the other terms of this Amendment. The Parties shall use best efforts to complete such amendment to the Quality Agreement within 60 days after the Amendment Effective Date.",
+                "changed_text": "The Parties may consider amending that certain Quality and Technical Agreement between Sanofi Pasteur and ADMA (as successor to BPC) effective as of September 15, 2015.",
+                "explanation": "By changing the mandatory 'agree to amend' and 'shall use best efforts' to 'may consider amending', this section introduces uncertainty. While the previous clause in Section 3 mentions the Quality Agreement's transport conditions, this modification weakens the obligation to update it, creating an inconsistency regarding the governing standards and conditions for plasma-related procedures. This may impact how the 'transportation conditions' are interpretted in section 3, since it is no longer mandatory to ensure consistency with other terms of this amendment.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

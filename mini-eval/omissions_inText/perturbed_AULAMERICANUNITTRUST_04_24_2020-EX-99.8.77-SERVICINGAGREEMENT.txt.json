@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AULAMERICANUNITTRUST_04_24_2020-EX-99.8.77-SERVICINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "In consideration for the services and facilities provided by you hereunder, Nationwide (on behalf of the Funds) will pay to you, and you will accept as full payment therefore, a fee at the annual rate designated in Appendix A of the average daily net assets of a Fund's Shares owned of record or beneficially by your customers from time to time for which you provide administrative support services hereunder. Such fee will be computed daily and payable monthly by Nationwide within thirty (30) days of receipt from you of a valid invoice (in excel format) that identifies, for each CUSIP of each Fund, the number of sub-accounts, participants or beneficial shareholders serviced by you and such other information as may be necessary to validate the fee payable.",
+                "changed_text": "In consideration for the services and facilities provided by you hereunder, Nationwide (on behalf of the Funds) will pay to you, and you will accept as full payment therefore, a fee at a rate to be determined by Nationwide. Such fee will be computed as determined by Nationwide and payable monthly by Nationwide within thirty (30) days of receipt from you of a valid invoice that identifies the services provided.",
+                "explanation": "By removing 'annual rate designated in Appendix A of the average daily net assets' and replacing it with 'a rate to be determined by Nationwide', the contract introduces ambiguity regarding how the service agent will be paid. Appendix A still exists later in the document referencing specific rates, creating a contradiction. It also creates uncertainty, because the fee is no longer tied to a definite value.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "All notices and other communications to either you or Nationwide will be duly given if mailed, telegraphed, telexed or transmitted by similar telecommunications device to the address contained in the \"Acceptance of Agreement\" (Section 19) portion of this Agreement.",
+                "changed_text": "All notices and other communications to either you or Nationwide will be duly given if communicated electronically. Details regarding communication methods and acceptable addresses will be provided separately.",
+                "explanation": "This change removes the explicit reference to Section 19 for addresses, while the later section still contains the 'Acceptance of Agreement' and addresses. The ambiguity now surrounds how the 'details regarding communication methods' are determined.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Notwithstanding the foregoing, Nationwide may amend or modify the Exhibits incorporated herein, as provided throughout this Agreement, by providing new exhibits to you. However, such amendment shall only become effective and part of this Agreement and be considered binding upon the first transaction placed by you following receipt of the new exhibits.",
+                "changed_text": "Notwithstanding the foregoing, Nationwide may amend or modify the Exhibits incorporated herein. Amendments become effective immediately upon notification.",
+                "explanation": "By removing the clause tying effectiveness to the 'first transaction placed by you following receipt of new exhibits', there's a potential contradiction. The previous clause suggested a dependence on the Servicing Agent's action (placing a transaction), which no longer exists, raising a question of validity if an amendment is provided but no transactions occur.",
+                "location": "Section 14"
+            }
+        ]
+    }
+]

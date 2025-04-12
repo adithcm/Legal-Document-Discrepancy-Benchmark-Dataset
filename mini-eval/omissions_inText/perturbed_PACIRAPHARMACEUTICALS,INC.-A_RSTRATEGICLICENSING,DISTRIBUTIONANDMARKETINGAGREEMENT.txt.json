@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PACIRAPHARMACEUTICALS,INC.-A_RSTRATEGICLICENSING,DISTRIBUTIONANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Applicable Laws\" Shall mean all laws, rules and regulations regarding the manufacture, packaging, labeling, import, export, storage, distribution, representation, promotion, marketing and sale of the Products including but not limited to the Federal Food, Drug and Cosmetic Act of 1938, as amended (\"FD&C Act\") and the Controlled Substances Act, as amended (21 U.S.C. §801 et seq.), or as defined in attendant regulations promulgated under authorities granted by the FD&C Act, together with any equivalent laws, rules, regulations, codes or guidelines having effect in any jurisdiction in the Territory;",
+                "changed_text": "\"Applicable Laws\" Shall mean all laws, rules and regulations regarding the manufacture, packaging, labeling, import, export, storage, distribution, representation, promotion, marketing and sale of the Products.",
+                "explanation": "By removing the reference to the Federal Food, Drug, and Cosmetic Act (FD&C Act) and the Controlled Substances Act, the definition of 'Applicable Laws' becomes vague. Later sections might assume compliance with these specific laws, creating a contradiction if the changed definition is interpreted narrowly.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "EKR shall at its own cost and expense launch and achieve Commercial Launch of the Products in accordance with the Marketing Plan but no later than 18 months following receipt of Marketing Authorization in each country in the Territory provided however that EKR shall not be obligated to launch such Product in such country of the Territory where the approved pricing in such country provides EKR a gross margin of less than [**]% (after payment of Royalties, Additional Royalties and Cost of Goods) or where the launch of the Product in such country of the Territory as determined by EKR is not commercially reasonable.",
+                "changed_text": "EKR shall at its own cost and expense launch and achieve Commercial Launch of the Products in accordance with the Marketing Plan but no later than 18 months following receipt of Marketing Authorization in each country in the Territory.",
+                "explanation": "By removing the clause allowing EKR not to launch the product if it does not provide a gross margin of less than a certain amount or not commercially reasonable, it creates a contradiction as it forces EKR to launch regardless of commercial outcomes. It creates uncertainty as other sections rely on EKR's commercial success, which is now uncertain.",
+                "location": "Section 4.5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "PPI Improvements shall be owned by PPI and be licensed to EKR hereunder. EKR Improvements shall be owned by EKR and upon termination of this Agreement by PPI pursuant to Section, shall be deemed be licensed to PPI on a worldwide, non-exclusive, irrevocable basis, at a royalty or for such other consideration as may be mutually agreed upon by the parties in writing. Joint Improvements shall be owned jointly by the Parties, and PPI's interest therein shall be licensed to EKR hereunder.",
+                "changed_text": "PPI Improvements shall be owned by PPI and be licensed to EKR hereunder. EKR Improvements shall be owned by EKR. Joint Improvements shall be owned jointly by the Parties, and PPI's interest therein shall be licensed to EKR hereunder.",
+                "explanation": "Removing the clause related to the license of EKR Improvements upon termination introduces ambiguity. Later sections discussing rights after termination may assume PPI has rights to EKR Improvements. It creates uncertainty as EKR might expect to be compensated for the termination of those rights which are ill-defined.",
+                "location": "Section 8.6"
+            }
+        ]
+    }
+]

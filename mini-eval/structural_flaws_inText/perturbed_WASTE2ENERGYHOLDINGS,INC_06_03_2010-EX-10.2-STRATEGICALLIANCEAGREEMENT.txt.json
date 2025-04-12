@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "WASTE2ENERGYHOLDINGS,INC_06_03_2010-EX-10.2-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Territory shall mean the world with the exception of the following countries which are expressly reserved by W2E: Spain, Italy and Canada.",
+                "changed_text": "Territory shall mean the world. W2E reserves the right to operate in Spain, Italy and Canada under separate agreements, but this Agreement does not preclude W2E from conducting business in those regions.",
+                "explanation": "The original text defines the 'Territory' as the entire world EXCEPT Spain, Italy, and Canada, creating a clear geographic limitation. The modified text initially defines 'Territory' as the entire world, then states that W2E reserves the right to operate in the previously excluded countries, but also implies they *can* operate there under this agreement. This creates an internal conflict: is the agreement valid in those countries or not? This introduces uncertainty about the geographic scope of the Alliance, the validity of agreements signed under it, and enforcement rights in those areas.",
+                "location": "Clause 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each Party agrees that during the Term of this Agreement and for a period of six (6) months thereafter it shall not, without the prior written consent of the other Party, either on its own account or through its employees or agents or otherwise or on behalf of any other person, firm, company or other organisation and other than by general advertising, solicit, interfere with, procure or entice away (or, in each case, attempt so to do), either directly or indirectly, any employee or contractor of the other Party.",
+                "changed_text": "Each Party agrees that during the first year of this Agreement it shall not, without the prior written consent of the other Party, either on its own account or through its employees or agents or otherwise or on behalf of any other person, firm, company or other organisation and other than by general advertising, solicit, interfere with, procure or entice away (or, in each case, attempt so to do), either directly or indirectly, any employee or contractor of the other Party. After this initial period, the non-solicitation clause will be void.",
+                "explanation": "Clause 8 originally created a non-solicitation agreement during the term of the contract. The revised clause creates a non-solicitation agreement for the first year of the contract, and then makes it void. This is an in-text contradiction because it now implies that after the first year either party is free to poach the employees of the other party without recourse, while the intent of a strategic alliance is for both entities to operate for a longer mutually-beneficial term.",
+                "location": "Clause 8"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Parties submit to the non-exclusive jurisdiction of the courts of England and Wales.",
+                "changed_text": "The Parties agree that all disputes will be handled via binding arbitration in Hong Kong. However, each party reserves the right to seek injunctive relief in the courts of their choosing.",
+                "explanation": "The original text clearly specifies the non-exclusive jurisdiction of English courts for dispute resolution. The modified text mandates binding arbitration in Hong Kong, fundamentally contradicting the initial agreement on court jurisdiction. While preserving the right to seek injunctive relief *partially* mitigates this, it introduces confusion regarding the primary dispute resolution mechanism: is it arbitration or court action? This creates uncertainty regarding where disputes will be resolved, increasing potential legal costs and strategic disadvantages.",
+                "location": "Clause 22.2"
+            }
+        ]
+    }
+]

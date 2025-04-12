@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Section 1.31 \"Depomed Sales Force\" means the field force of Sales Representatives employed or contracted by Depomed.",
+                "changed_text": "Section 1.31 \"Depomed Sales Force\" means the Sales Representatives who are direct employees of Depomed. Contractors are not considered part of the Depomed Sales Force under any circumstances.",
+                "explanation": "This change adds a restriction to the definition of 'Depomed Sales Force' excluding contracted Sales Representatives, conflicting with the original definition that includes both employed and contracted representatives. This creates ambiguity about the scope and responsibilities regarding the 'Depomed Sales Force'.",
+                "location": "Section 1.31"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Section 1.75 \"Product\" means any once-daily oral tablet formulation containing metformin as the sole active pharmaceutical ingredient, including the 1000mg Formulation.",
+                "changed_text": "Section 1.75 \"Product\" means any once-daily oral tablet formulation containing metformin as the sole active pharmaceutical ingredient, explicitly excluding the 1000mg Formulation until Depomed provides written notice that the 1000mg formulation is available for promotion.",
+                "explanation": "This perturbation adds a condition where 'Product' excludes the 1000mg formulation until a written notice. This conflicts with the original definition that explicitly includes it. This creates confusion on whether activities should include the 1000mg formulation or not.",
+                "location": "Section 1.75"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Section 1.89 \"Sales Representatives\" means sales representatives employed by King or Depomed, or a Third Party engaged by King or Depomed, to Promote the Product, who have been trained and equipped to Promote the Product in accordance with this Agreement. In the case of King, Third Parties may only be engaged as Sales Representatives if they are full-time contractors of King, exclusive to King, and carry King's business card.",
+                "changed_text": "Section 1.89 \"Sales Representatives\" means sales representatives employed by King or Depomed to Promote the Product, who have been trained and equipped to Promote the Product in accordance with this Agreement. Third Party representatives are not considered sales representatives for purposes of calculating performance metrics.",
+                "explanation": "This change introduces conflicting criteria in the definition of 'Sales Representatives' by removing Third Parties and stating they do not account towards metrics. This conflicts with original text that included them if they are exclusive. This creates ambiguity in what should be used to measure the performance of the parties.",
+                "location": "Section 1.89"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SOLUTIONSVENDINGINTERNATIONAL,INC_03_31_2020-EX1A-1UNDRAGMT-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Amounts which remain unpaid for 30 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service.",
+                "changed_text": "Amounts which remain unpaid for 60 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service.",
+                "explanation": "The original text specifies a late fee for unpaid amounts after 30 days. Changing this to 60 days introduces a contradiction. This creates confusion about when late fees apply.",
+                "location": "Section 2. Fees and expenses b) Monthly Fees and Billing"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to earlier termination as provided below, this Service Agreement is for the total duration of the Company's Offering (the \"Initial Term\") unless either party requests termination at least 30 days prior to the end of the then-current term.",
+                "changed_text": "Subject to earlier termination as provided below, this Service Agreement is for the total duration of the Company's Offering (the \"Initial Term\") and automatically renews for successive one-year terms, unless either party requests termination at least 30 days prior to the end of the then-current term.",
+                "explanation": "The original clause allows either party to terminate by providing 30-day notice. Appending 'and automatically renews for successive one-year terms' creates a direct contradiction, as the agreement now implies automatic renewal despite the termination option. This creates uncertainty around the agreement's duration.",
+                "location": "Section 5. Term and Survival a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Customer is liable for all User Activity and Reversals associated with User Activity; ii) If Company's agent receives a Reversal, the Company may in its sole discretion charge Customer the full amount of the Reversal (\"Reversed Payment\") plus an additional $7 reversal fee (\"Reversal Fee\" and collectively the \"Reversal Liability\"); iii) The Company has sole discretion to determine who is at fault and liable for the Reversed Payment and Reversal Fee;",
+                "changed_text": "Customer is liable for all User Activity and Reversals associated with User Activity; ii) If Company's agent receives a Reversal, the Company may in its sole discretion charge Customer the full amount of the Reversal (\"Reversed Payment\") plus an additional $7 reversal fee (\"Reversal Fee\" and collectively the \"Reversal Liability\"); iii) The Company will conduct a thorough investigation to determine who is at fault and liable for the Reversed Payment and Reversal Fee;",
+                "explanation": "The original states the 'The Company has sole discretion to determine who is at fault'. The modified states 'The Company will conduct a thorough investigation to determine who is at fault'. This change imposes a requirement for a 'thorough investigation', contradicting the 'sole discretion' outlined earlier. The creates uncertainty around who is at fault and liable for the Reversed Payment and Reversal Fee.",
+                "location": "Section 4. Returns and Reversals a)"
+            }
+        ]
+    }
+]

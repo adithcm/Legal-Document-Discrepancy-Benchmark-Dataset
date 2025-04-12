@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_Manufacturing Agreement_ Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement\"), dated as of [●] (the \"Effective Date\"), is by and between Pfizer Inc., a Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Customer\"). Manufacturer and Customer may be referred to herein individually as a \"Party\" or collectively as the \"Parties\".",
+                "changed_text": "THIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement\"), dated as of [●] (the \"Effective Date\"), is by and between Pfizer Inc., a Delaware corporation (hereinafter \"Producer\"), and Upjohn Inc., a Delaware corporation (hereinafter \"Client\"). Producer and Client may be referred to herein individually as a \"Party\" or collectively as the \"Parties\".",
+                "explanation": "Changing 'Manufacturer' to 'Producer' and 'Customer' to 'Client' creates uncertainty about the entities involved, especially since these terms are used throughout the document to define obligations and responsibilities.  It introduces a lack of clarity, making it difficult to determine if 'Producer' and 'Client' have the same obligations as 'Manufacturer' and 'Customer'.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "2.1 Agreement to Supply. (a) Affiliates and Facility Addenda. Either the entity designated above as Customer or any Affiliate of Customer and either the entity designated above as Manufacturer or any Affiliate of Manufacturer may enter into Facility Addenda under this Agreement. The entities that execute a Facility Addendum are also deemed to be \"Customer\" and \"Manufacturer\" (respectively) for all purposes of the Facility Addendum and this Agreement (with respect to the applicable Facility Addendum).",
+                "changed_text": "2.1 Agreement to Supply. (a) Affiliates and Facility Addenda. Either the entity designated above as Client or any Affiliate of Client and either the entity designated above as Producer or any Affiliate of Producer may enter into Facility Addenda under this Agreement. The entities that execute a Facility Addendum are also deemed to be \"Customer\" and \"Manufacturer\" (respectively) for all purposes of the Facility Addendum and this Agreement (with respect to the applicable Facility Addendum).",
+                "explanation": "Using both the new terms 'Client' and 'Producer' alongside the original 'Customer' and 'Manufacturer' within the same paragraph introduces direct contradiction. It is not clear which terms apply. If a facility addendum uses the definition 'Customer' for responsibilities, it creates a conflict.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5.3 Manufacturer's Social Responsibility. (a) Manufacturer covenants that it shall not, during the Term of this Agreement (i) use involuntary or underage labor (defined in accordance with applicable Laws) at the Facilities where its performance under this Agreement will occur or (ii) maintain unsafe or unhealthy conditions in any dormitories or lodging that it provides for its employees. Manufacturer agrees that during the Term of this Agreement, it shall promptly correct unsafe or unhealthy conditions in any dormitories or lodging that it provides for its employees.",
+                "changed_text": "5.3 Producer's Social Responsibility. (a) Manufacturer covenants that it shall not, during the Term of this Agreement (i) use involuntary or underage labor (defined in accordance with applicable Laws) at the Facilities where its performance under this Agreement will occur or (ii) maintain unsafe or unhealthy conditions in any dormitories or lodging that it provides for its employees. Producer agrees that during the Term of this Agreement, it shall promptly correct unsafe or unhealthy conditions in any dormitories or lodging that it provides for its employees.",
+                "explanation": "Using both 'Manufacturer' and 'Producer', making it unclear which entity is held responsible for the mentioned social responsibilities. This could lead to disputes regarding enforcement of these clauses.",
+                "location": "Section 5.3"
+            }
+        ]
+    }
+]
