@@ -1,7 +1,7 @@
 [
     {
-        "section": "In the event that the parties are unable to agree to an SOW within 2 months following the Effective Date, either party may, in its sole discretion, terminate this Agreement by providing written notice. Once approved, the parties shall use commercially reasonable efforts to diligently implement their respective obligations under the SOW.",
-        "explanation": "The clause states that either party can terminate if an SOW isn't agreed upon within 2 months. However, it also states that once approved, the parties must use 'commercially reasonable efforts' to implement it. This creates an ambiguity: If one party is not diligently implementing the SOW after approval (but still using commercially reasonable efforts), it's not clear whether the other party can terminate based on the initial failure to agree within 2 months, or if they are now bound by the approved SOW.",
+        "section": "In the event that the parties are unable to agree to an SOW within 2 months following the Effective Date, either party may, in its sole discretion, terminate this Agreement by providing written notice.",
+        "explanation": "While the clause grants a termination right if an SOW isn't agreed upon in 2 months, Section 2.3 provides another termination right if the Launch Date isn't met within 4 months of the Effective Date. The interplay isn't clear; can a party terminate after 2 months even if both are working diligently towards a launch? This ambiguity could lead to disputes.",
         "location": "Section 2.2",
         "category": 1,
         "location_match": false,
@@ -10,20 +10,20 @@
     },
     {
         "section": "After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the volume of Customer Engagements. This advertising remuneration will equal a rate per Customer Engagement that is determined by multiplying 0.025% by the median revenue per Customer from the prior fiscal period. This rate may be updated periodically during the duration of the contract following market analysis and with written consent from both parties (\"the Revised Pricing\"). The Revised Pricing will be attached as an exhibit to this contract.",
-        "explanation": "This section outlines how advertising fees are calculated but it is unclear if the 'Customer Engagements' are the same as 'Transaction Inquiries' or if they are the same as 'Transactions', as defined in Section 1. This misalignment could lead to disputes over how fees are calculated.",
+        "explanation": "This section details how advertising fees are calculated. However, it stipulates that the Revised Pricing, if any, will be attached as an exhibit. If a 'Revised Pricing' exist, it should have already been incorporated to this contract for the sake of clarity, instead of it potentially being changed in the future. The median revenue from the prior fiscal period is vague because we do not know the date of the period. It also may not be reflective of advertising engagement in the future.",
         "location": "Section 5.1",
-        "category": 5,
+        "category": 1,
         "location_match": true,
         "text_match": true,
         "explanation_match": false
     },
     {
-        "section": "Each party (the \"Guarantor\") shall protect the other party (the \"Protected Party\") from any and all liabilities, damages, charges, and expenditures, specifically including legal counsel payments, that the Protected Party accrues due to external grievances resulting from the Guarantor's actions, failures, or deceptive statements, provided the Protected Party is considered a key agent of the Guarantor.",
-        "explanation": "The phrase 'Protected Party is considered a key agent of the Guarantor' is structurally flawed and doesn't make logical sense. It suggests a condition where the Protected Party (the one being indemnified) must also be considered a key agent of the Guarantor (the one providing indemnification). This condition undermines the basic premise of indemnification, which is to protect a party from the actions of another, regardless of an agency relationship.",
-        "location": "Section 9",
-        "category": 9,
-        "location_match": true,
-        "text_match": true,
+        "section": "The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
+        "explanation": "The text says if either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year. This clause creates a contradiction because the text states that the renewal requires mutual written agreement of the parties. It's unclear how the agreement to automatically renew is valid without written notice.",
+        "location": "Section 8.1",
+        "category": 3,
+        "location_match": false,
+        "text_match": false,
         "explanation_match": false
     }
 ]

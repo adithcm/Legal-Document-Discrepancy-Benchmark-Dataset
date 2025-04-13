@@ -1,27 +1,27 @@
 [
     {
         "section": "1.4. \"Multiple LINAC or Multi-Modality Purchase\" means a purchase.",
-        "explanation": "This definition is structurally flawed and circular. It defines the term as simply 'a purchase,' which provides no meaningful information or context. This lack of clarity undermines the purpose of defining the term and creates potential ambiguity in interpreting other sections of the agreement that reference it.",
+        "explanation": "The definition of \"Multiple LINAC or Multi-Modality Purchase\" is circular and uninformative, as it simply states that it \"means a purchase.\" This lacks clarity and does not provide a meaningful understanding of what constitutes a Multiple LINAC or Multi-Modality Purchase. This is an in-text contradiction as other sections rely on this definition to define the scope of the agreement.",
         "location": "Section 1.4",
-        "category": 9,
+        "category": 1,
         "location_match": false,
         "text_match": false,
         "explanation_match": false
     },
     {
-        "section": "2.3.4. Cancellation; Amendment; Conflict. Distributor may cancel the Purchase Order if Accuray has not executed such Purchase Order within two weeks of receipt. Any amendment or addition to the Purchase Order shall only be effective if Distributor and Accuray confirm such amendment or addition in writing. To the extent of any inconsistency between a Quote or a Purchase Order and this Agreement, this Agreement shall prevail, unless such Quote or Purchase Order is signed by both the CFO or General Counsel of Accuray and the CFO of Distributor, expressly refers to this Section 2.3.4, and states that the Quote or Purchase Order is intended to supersede this Agreement.",
-        "explanation": "This section outlines a specific method for a Quote or Purchase Order to supersede the main agreement, requiring signatures from specific high-level executives. However, it is possible that a duly authorized representative of Accuray could modify the purchase order through written agreement, per section 12.2. This section states 'Notwithstanding any provision to the contrary in this Agreement, Distributor and Accuray may agree, by execution of a written agreement, to modify any term or provision of this Agreement'. This is a contradiction to section 2.3.4.",
-        "location": "Section 2.3.4",
-        "category": 3,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "4.1.2. Shipment. ...Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
-        "explanation": "This creates ambiguity around force majeure. It suggests that Accuray is responsible for expedited shipping costs if the delivery deadline is at least six months after the purchase order submission. This seems absolute, yet Section 12.13 states that neither party is responsible for failures in performance due to causes beyond its reasonable control, which might include shipping delays caused by weather or other external factors. It is unclear if Accuray is responsible for paying for expedited shipping costs when the delay is outside of its control due to force majeure.",
+        "section": "4.1.2. Shipment. All shipments shall be made F.C.A. Port of Oakland, California, USA. Transfer of risk from Accuray to Distributor shall occur at such F.C.A. location as provided in F.C.A. terms and transfer of title shall occur at the same time. Distributor may request Accuray to use a particular freight carrier, and Accuray agrees to do so, if feasible. If not feasible in Accuray's reasonable judgment, then Accuray shall promptly advise Distributor of the reasons. If no such request is made, Accuray shall ship in accordance with any instructions contained in the Purchase Order or via FedEx ground, with no extra insurance. Accuray shall bill any actual freight costs to Distributor. Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
+        "explanation": "This section creates ambiguity regarding responsibility for expedited shipping costs. While it states Accuray is responsible if the delivery deadline is at least six months after submission, the initial part allows the distributor to specify a freight carrier or shipping instructions, which could imply they bear the cost if they require expedited shipping. This internal contradiction makes it unclear who pays when expedited delivery is linked to meeting a distributor-specified but still '6 months after' deadline.",
         "location": "Section 4.1.2",
         "category": 1,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "12.7. Conduct.\n12.7.1. Both parties prohibit the harassment of their employees and contractors in any form. They consider harassment of, or discrimination against, their employees and affiliated persons a very serious matter and will investigate all complaints of inappropriate conduct. Where the investigation uncover harassment or discrimination, the other party may take reasonable corrective action, including, without limitation, termination of this Agreement for material breach.\n12.7.2. During the Term, Accuray shall comply, in all material respects, with Siemens' Code of Conduct, attached hereto as Exhibit B (the \"Code of Conduct\"). Siemens shall give Accuray written notice of any change to its Code of Conduct as soon as reasonably practicable.\n12.7.3. During the Term, Distributor shall comply, in all material respects, with the Business Conduct Guidelines of Siemens and all other Siemens internal regulations and guidelines.",
+        "explanation": "Section 12.7 outlines conduct expectations but is structurally flawed. While 12.7.1 states both parties prohibit harassment and will investigate complaints, 12.7.2 and 12.7.3 then place conduct requirements on Accuray (to comply with Siemens' Code of Conduct) and Siemens/Distributor (to comply with Siemens' Business Conduct Guidelines). This implies a double standard where Accuray is subject to Siemens' specific guidelines, but Siemens isn't explicitly bound by Accuray's equivalent guidelines, creating an unbalanced obligation. This could lead to disputes over what constitutes acceptable conduct and how it's enforced, especially concerning non-Siemens entities or guidelines.",
+        "location": "Section 12.7",
+        "category": 9,
         "location_match": false,
         "text_match": false,
         "explanation_match": false

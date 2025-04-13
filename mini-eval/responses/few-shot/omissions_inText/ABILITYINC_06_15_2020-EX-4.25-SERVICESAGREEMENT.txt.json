@@ -1,27 +1,27 @@
 [
     {
-        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"), by and between [ * * * ] (the \"Provider\"), and TELCOSTAR PTE, LTD., a company organized and existing under the laws of Singapore and Ability Computer & Software Industries Ltd, a company organized and existing under the laws of the State of Israel (each and both of them \"Recipient\").",
-        "explanation": "The agreement identifies both 'TELCOSTAR PTE, LTD.' and 'Ability Computer & Software Industries Ltd' as 'Recipient', which implies both entities are jointly the Recipient. However, subsequent clauses do not consistently address both entities, leading to potential confusion about obligations and rights. For example, notice provisions (Section 7) only list contact information for TELCOSTAR. It's unclear if notices to TELCOSTAR are sufficient for Ability Computer & Software Industries Ltd. as well. This represents an in-text contradiction as the agreement sets up a dual-recipient structure but then fails to maintain clarity in how provisions apply to both.",
+        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"),",
+        "explanation": "The Agreement states that it is entered into on October 1, 2019, but made effective as of November 1, 2019. This discrepancy in dates could lead to confusion regarding when the actual terms of the agreement become enforceable. Activities or events occurring between October 1 and November 1 might be subject to dispute regarding whether the agreement governs them.",
         "location": "Preamble",
-        "category": 5,
+        "category": 1,
         "location_match": false,
         "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Recipient shall own all rights, title, and interest in any invention, technique, process, device, discovery, improvement, or know-how made by Provider which results from the Services.",
+        "explanation": "This section is overly broad regarding the ownership of intellectual property. It stipulates that Recipient owns all rights to any invention, technique, etc. made by Provider which results from the Services. This could create a conflict if the Provider independently develops an invention outside the scope of the services that are similar to the services. Also, it fails to address what happens if the Provider already had existing intellectual property that is necessary to perform the services.",
+        "location": "Section 1.4(a)",
+        "category": 2,
+        "location_match": false,
+        "text_match": true,
         "explanation_match": false
     },
     {
         "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "This section contains a structural flaw, specifically in its phrasing. It redundantly states 'Agreement' after indicating the effective date and contains awkward wording that obscures the intended meaning. It needs restructuring for clarity. It should read, 'This Agreement shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.'",
+        "explanation": "There is a structural flaw in the text that makes the sentence make no sense. The section states, 'This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.' The text is not grammatically correct and has unnecessary words that make it hard to read.",
         "location": "Section 3.1",
         "category": 9,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel (including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute), without giving effect to any choice or conflict of law provision or rule (whether of the State of Israel or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Israel.",
-        "explanation": "The governing law clause specifies Israeli law but does not adequately address the international context of the parties involved (a Singaporean and an Israeli company). While it excludes conflict of law provisions, it doesn't clarify the application of Israeli law in a way that considers potential conflicts with international regulations or the laws of Singapore. This omission creates a legal loophole as it fails to fully account for how Israeli law interacts with the international elements of the agreement.",
-        "location": "Section 7.2",
-        "category": 8,
         "location_match": false,
         "text_match": false,
         "explanation_match": false
