@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Specified Partner Registration Ordinance - Japanese/English - Japanese Law Translation</title>
+    <link href="/favicon.ico" type="image/x-icon" rel="icon"/><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+	<link rel="stylesheet" href="/css/color.css"/>
+    
+	<link rel="stylesheet" href="/css/light.css" id="colorMode"/>
+    
+	<script src="/js/main.js"></script>
+    
+	<script src="/js/setting.js"></script>
+    
+	<script src="/js/color.js"></script>
+    
+	<link rel="stylesheet" href="/css/main.css"/>
+    
+	<script src="/js/font.js" defer="defer"></script>
+        <link rel="stylesheet" href="/css/laws.css"/><link rel="stylesheet" href="/css/style.css"/><link rel="stylesheet" href="/css/toc.css"/>    <script src="/js/laws.js"></script><script src="/js/balloon.js"></script>    
+	<link rel="stylesheet" href="/css/law_contents.css"/>
+</head>
+
+<body class="en">
+    <header>
+        <nav>
+            <div class="top-header">
+    <div class="site-name">
+        <a id="pageTop" href="/en" class="title">Japanese Law Translation</a>
+    </div>
+    <div class="top-links">
+        <a href="#" class="language" onclick="langChange(event, '/ja/laws/view/2509')">
+            <span class="material-icons">language</span>
+            <span class="menu-label">日本語</span>
+        </a>
+        <a class="pc" href="/help/en" target="_blank">
+            <span class="material-icons">menu_book</span>
+            <span class="menu-label">User Guide</span>
+        </a>
+        <div class="font-size pc">
+            <div class="icon">
+                <a id="fstSmall" href="#" class="small" onclick="applyFontSize(event, 1)">A</a>
+                <a id="fstMedium" href="#" class="medium" onclick="applyFontSize(event, 2)">A</a>
+                <a id="fstLarge" href="#" class="large" onclick="applyFontSize(event, 3)">A</a>
+            </div>
+            <script>
+                if (fontSize == 2) {
+                    document.getElementById('fstSmall').classList.remove('selected');
+                    document.getElementById('fstMedium').classList.add('selected');
+                    document.getElementById('fstLarge').classList.remove('selected');
+                } else if (fontSize == 3) {
+                    document.getElementById('fstSmall').classList.remove('selected');
+                    document.getElementById('fstMedium').classList.remove('selected');
+                    document.getElementById('fstLarge').classList.add('selected');
+                } else {
+                    document.getElementById('fstSmall').classList.add('selected');
+                    document.getElementById('fstMedium').classList.remove('selected');
+                    document.getElementById('fstLarge').classList.remove('selected');
+                }
+            </script>
+            <div class="menu-label">Text Size</div>
+        </div>
+        <a href="#" class="invert pc" onclick="changeColor(event)">
+            <span class="material-icons">invert_colors</span>
+            <span class="menu-label">Invert</span>
+        </a>
+    </div>
+</div>        </nav>
+    </header>
+    <main class="main law-contents" id="main">
+        <script>
+            if (this.window.innerWidth <= 768) {
+                hideMenuOnMain();
+            }
+        </script>
+        <div class="main-contents laws">
+    <div class="submenu">
+                    <div class="mode">
+                <button id="modeButton" type="button" class="mode-button" onclick="openModeSwitch()"><span class="material-icons">translate</span></button>
+                <div class="mode-switch" id="modeSwitch">
+                    <div class="switch">
+                        <a href="/en/laws/view/2509/ja" >Japanese</a>
+                        <a href="/en/laws/view/2509/en" >English</a>
+                        <a href="/en/laws/view/2509/je" class="selected">Japanese/English</a>
+                        <a href="/en/laws/view/2509/tb" >Comparison Table</a>
+                    </div>
+                    <button type="button" class="close" onclick="closeModeSwitch()"><span class="material-icons">close</span></button>
+                </div>
+            </div>
+                            <div id="file" class="file">
+                    <button type="button" class="download-button" onclick="openFileDownload()"><span class="material-icons">download</span></button>
+                    <div class="file-download" id="fileDownload">
+                        <div class="download">
+                            <a id="textDownload" href="/en/laws/download/2509/13/h19Cop00830110je3.0.txt">Text (.txt)</a>
+                            <a id="wordDownload" href="/en/laws/download/2509/15/h19Cop00830110je3.0.docx">Word (.docx)</a>
+                            <a id="pdfDownload" href="/en/laws/download/2509/14/h19Cop00830110je3.0.pdf">PDF (.pdf)</a>
+                            <a id="tmxDownload" href="/en/laws/download/2509/23/4570.tmx">TMX (.tmx)</a>
+                                                    </div>
+                        <button type="button" class="close" onclick="closeFileDownload()"><span class="material-icons">close</span></button>
+                    </div>
+                </div>
+                                </div>
+    <div class="law-contents">
+        <div id="lawInfo" class="law-info">
+                            <div class="title">
+                    特定社員登録規則（平成十九年内閣府令第八十三号）
+                </div>
+                                        <div class="title">
+                    Specified Partner Registration Ordinance（Cabinet Office Ordinance No. 83 of 2007）
+                </div>
+                                        <div class="last-version">
+                                            <span class="label">最終更新：</span>                                    </div>
+                                        <div class="last-version">
+                                            <span class="label">Last Version： </span>                                    </div>
+                        <div class="tab">
+                <div id="tocTab" class="tab-item active" onclick="changeInfoArea(event)">TOC</div>
+                <div id="historyTab" class="tab-item" onclick="changeInfoArea(event)">History</div>
+            </div>
+            <div class="info-area active">
+                <div id="tocArea" class="info-area-item active">
+                                                                        <div class="check-all">
+                                <a href="#" onclick="checkAll(event)">Check All</a>
+                                <a href="#" onclick="uncheckAll(event)">Uncheck All</a>
+                            </div>
+                                                ﻿<ul id="tocTree" class="toc-tree">
+  <li>
+    <div class="toc-check"><input id="mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'mp')" class="toc-checkbox" checked></div>
+    <div class="caret">▶</div>
+    <div class="toc-title">Main Provision<ul>
+        <li class="toc-check">
+          <div><input id="je_at1-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at1')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at1" onclick="showContents()">Article 1 (Definitions)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at2-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at2')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at2" onclick="showContents()">Article 2 (Matters to be Registered)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at3-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at3')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at3" onclick="showContents()">Article 3 (Form of a Specified Partners' Roster)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at4-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at4')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at4" onclick="showContents()">Article 4 (Application Procedure for Specified Partner Registration)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at5-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at5')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at5" onclick="showContents()">Article 5 (Application Procedure for Registration of a Change)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at6-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at6')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at6" onclick="showContents()">Article 6 (Notification Procedure Concerning Cancellation of Specified Partner Registration)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at7-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at7')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at7" onclick="showContents()">Article 7 (Institute's Procedure Concerning Specified Partner Registration)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at8-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at8')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at8" onclick="showContents()">Article 8 (Institute's Procedure Concerning Registration of a Change)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at9-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at9')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at9" onclick="showContents()">Article 9 (Institute's Procedure Concerning Cancellation of Specified Partner Registration)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at10-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at10')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at10" onclick="showContents()">Article 10 (Registration of a Disposition)</a></div>
+        </li>
+        <li class="toc-check">
+          <div><input id="je_at11-mp-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_at11')" class="toc-checkbox" checked></div>
+          <div class="toc-title"><a href="#je_at11" onclick="showContents()">Article 11 (Notice to the Commissioner of the Financial Services Agency)</a></div>
+        </li>
+      </ul>
+    </div>
+  </li>
+  <li>
+    <div class="toc-check"><input id="je_s1-chk" type="checkbox" onchange="toggleCheckboxes(this, 'je_s1')" class="toc-checkbox" checked></div>
+    <div class="toc-title"><a href="#je_s1" onclick="showContents()">Supplementary Provisions</a></div>
+  </li>
+</ul>                                    </div>
+                <script>
+                    var toggler = document.getElementsByClassName("caret");
+                    var i;
+                    for (i = 0; i < toggler.length; i++) {
+                        toggler[i].addEventListener("click", function() {
+                            this.classList.toggle("caret-up");
+                        });
+                    }
+                                    </script>
+                <div id="historyArea" class="info-area-item">
+                    <ul class="history">
+                                                                            <li>
+                                                                    <b>July 23, 2015</b>
+                                                                <ul>
+                                    <li><span class="label">Last Version: </span></li>
+                                    <li><span class="label">Translated Date: </span>May 10, 2010</li>
+                                    <li><span class="label">Dictionary Version: </span>3.0</li>
+                                </ul>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+        <div id="lawBody" class="law-body">
+                                            ﻿<div class="Laws">
+  <div class="LawBody anchor">
+    <div class="LawTitle"><span class="LawTitle_text">特定社員登録規則</span><span><br><span class="LawTitle_text">Specified Partner Registration Ordinance</span></span></div>
+    <div class="LawNum">平成十九年十二月七日内閣府令第八十三号<span><br>Cabinet Office Ordinance No. 83 of December 7, 2007</span></div>
+    <div class="MainProvision anchor" id="mp">
+      <div class="Article anchor" id="je_at1">
+        <div class="ArticleCaption">（定義）</div>
+        <div class="ArticleCaption">(Definitions)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第一条</span>この府令において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 1</span>In this Cabinet Office Ordinance, the meanings of the terms listed in the following items shall be as prescribed respectively in those items:</div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">一</span>特定社員　<a href="/en/laws/link/3328" target="_blank">公認会計士法</a>（以下「法」という。）第一条の三第六項に規定する特定社員をいう。</div>
+            <div class="ItemSentence"><span class="ItemTitle">(i)</span>Specified partner -- Specified partner prescribed in Article 1-3, paragraph (6) of the <a href="/en/laws/link/3328" target="_blank">Certified Public Accountants Act</a> (hereinafter referred to as the "Act")</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">二</span>特定社員登録　法第三十四条の十の八に規定する登録をいう。</div>
+            <div class="ItemSentence"><span class="ItemTitle">(ii)</span>Specified partner registration -- Registration prescribed in Article 34-10-8 of the Act</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">三</span>変更登録　法第三十四条の十の十三の変更の登録をいう。</div>
+            <div class="ItemSentence"><span class="ItemTitle">(iii)</span>Registration of a change -- Registration of a change set forth in Article 34-10-13 of the Act</div>
+          </div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at2">
+        <div class="ArticleCaption">（登録事項）</div>
+        <div class="ArticleCaption">(Matters to be Registered)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第二条</span>特定社員名簿（法第三十四条の十の八に規定する特定社員名簿をいう。次条及び第十条において同じ。）への登録事項は、次に掲げる事項とする。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 2</span>Matters to be registered in a specified partners' roster (meaning the specified partners' roster prescribed in Article 34-10-8 of the Act; the same shall apply in the following Article and Article 10) shall be as follows:</div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">一</span>登録番号</div>
+            <div class="ItemSentence"><span class="ItemTitle">(i)</span>Registration number</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">二</span>氏名、生年月日、住所及び本籍</div>
+            <div class="ItemSentence"><span class="ItemTitle">(ii)</span>Name, date of birth, address and registered domicile</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">三</span>所属する監査法人の名称及び主たる事務所の所在地並びに主として執務する事務所の名称及びその所在地</div>
+            <div class="ItemSentence"><span class="ItemTitle">(iii)</span>Name of the audit corporation to which the specified partner belongs, the location of its principal office, and the name and location of the office where the specified partner mainly engages in work</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">四</span>特定社員登録及び変更登録の年月日</div>
+            <div class="ItemSentence"><span class="ItemTitle">(iv)</span>Date of the specified partner registration and of any registration of a change</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">五</span>法第三十四条の十の十七第一項各号に掲げる処分を受けたときは、その種類及び処分を受けた年月日</div>
+            <div class="ItemSentence"><span class="ItemTitle">(v)</span>If the specified partner has received any of the dispositions listed in the items of Article 34-10-17, paragraph (1) of the Act, the type and date of the disposition</div>
+          </div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at3">
+        <div class="ArticleCaption">（特定社員名簿の様式）</div>
+        <div class="ArticleCaption">(Form of a Specified Partners' Roster)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第三条</span>特定社員名簿の様式は、別紙様式第一号による。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 3</span>The form of a specified partners' roster shall be in accordance with appended form 1.</div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at4">
+        <div class="ArticleCaption">（特定社員登録の申請手続）</div>
+        <div class="ArticleCaption">(Application Procedure for Specified Partner Registration)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第四条</span>特定社員登録を受けようとする者は、別紙様式第二号による特定社員登録申請書を日本公認会計士協会（以下「協会」という。）に提出しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 4</span><span class="ParagraphNum">(1)</span>A person who intends to be registered as a specified partner shall submit a written application for specified partner registration using appended form 2 to the Japanese Institute of Certified Public Accountants (hereinafter referred to as the "Institute").</div>
+        </div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ParagraphNum">２</span>前項の特定社員登録申請書には、次に掲げる書類（官公署が証明する書類の場合には、申請の日前三月以内に作成されたものに限る。）を添付しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ParagraphNum">(2)</span>A written application for specified partner registration set forth in the preceding paragraph shall have attached the following documents (in the case of a document certified by a public agency, limited to one prepared within three months prior to the day of application):</div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">一</span>申請者の写真（撮影後三月以内のものに限る。）</div>
+            <div class="ItemSentence"><span class="ItemTitle">(i)</span>Photograph of the applicant (limited to one taken within the past three months)</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">二</span>履歴書</div>
+            <div class="ItemSentence"><span class="ItemTitle">(ii)</span>Personal history</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">三</span>戸籍の謄本若しくは抄本又は戸籍に記載した事項に関する証明書</div>
+            <div class="ItemSentence"><span class="ItemTitle">(iii)</span>Copy or extract of the family register or a certificate concerning the matters stated in the family register</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">四</span>住民票の写し</div>
+            <div class="ItemSentence"><span class="ItemTitle">(iv)</span>Copy of the certificate of residence</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">五</span>法第三十四条の十の十第二号（民法の一部を改正する法律（平成十一年法律第百四十九号）附則第三条第一項において成年被後見人とみなされる者及び同条第二項において被保佐人とみなされる者並びに民法の一部を改正する法律の施行に伴う関係法律の整備等に関する法律（平成十一年法律第百五十一号）附則第三条においてなお従前の例によることとされる準禁治産者を含む。）及び第五号の規定に該当しない旨の官公署の証明書</div>
+            <div class="ItemSentence"><span class="ItemTitle">(v)</span>Certificate by a public agency to the effect that the applicant does not fall under the provisions of Article 34-10-10, item (ii) (including a person who is deemed to be an adult ward under Article 3, paragraph (1) of the Supplementary Provisions of the Act for Partial Revision of the Civil Code (Act No. 149 of 1999), a person who is deemed to be a person under curatorship under paragraph (2) of the same Article, and a quasi-incapacitated person for whom the provisions then in force shall remain applicable under Article 3 of the Supplementary Provisions of the Act on Coordination, etc. of Related Acts in Line with Enforcement of the Act for Partial Revision of the Civil Code (Act No. 151 of 1999)) and item (v) of the Act</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">六</span>法第三十四条の十の十第三号、第四号及び第六号から第十二号までのいずれにも該当しない旨の宣誓書</div>
+            <div class="ItemSentence"><span class="ItemTitle">(vi)</span>Written oath to the effect that the applicant does not fall under any of the provisions of Article 34-10-10, items (iii), (iv) and (vi) to (xii) of the Act</div>
+          </div>
+          <div class="Item">
+            <div class="ItemSentence"><span class="ItemTitle">七</span>第二条第三号の監査法人に所属することとなることを証する書面</div>
+            <div class="ItemSentence"><span class="ItemTitle">(vii)</span>Document proving that the applicant will belong to an audit corporation under Article 2, item (iii)</div>
+          </div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at5">
+        <div class="ArticleCaption">（変更登録の申請手続）</div>
+        <div class="ArticleCaption">(Application Procedure for Registration of a Change)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第五条</span>特定社員が変更登録を申請するときは、別紙様式第三号による変更登録申請書を協会に提出しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 5</span><span class="ParagraphNum">(1)</span>When a specified partner intends to file an application for registration of a change, he/she shall submit a written application for registration of a change using appended form 3 to the Institute.</div>
+        </div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ParagraphNum">２</span>前項の変更登録申請書には、変更の事実を証する書類を添付しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ParagraphNum">(2)</span>A written application for registration of a change set forth in the preceding paragraph shall have attached a document proving that the change is real.</div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at6">
+        <div class="ArticleCaption">（特定社員登録の抹消に関する届出手続）</div>
+        <div class="ArticleCaption">(Notification Procedure Concerning Cancellation of Specified Partner Registration)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第六条</span>特定社員が法第三十四条の十の十四第一項各号のいずれかに該当するに至ったとき（法第三十四条の十の十第九号又は第十二号に該当するときを除く。）は、本人、法定代理人又は相続人は、遅滞なく、その旨を記載した別紙様式第四号による特定社員登録の抹消に関する届出書を協会に提出しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 6</span><span class="ParagraphNum">(1)</span>When a specified partner has fallen under any of the items of Article 34-10-14, paragraph (1) of the Act (excluding when falling under Article 34-10-10, paragraph (9) or (12) of the Act), the specified partner or his/her statutory representative or heir shall, without delay, submit a written notice concerning cancellation of specified partner registration using appended form 4, which contains a statement to that effect, to the Institute.</div>
+        </div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ParagraphNum">２</span>前項の届出書を提出する者が本人以外の者であるときは、当該届出書に本人の戸籍抄本又は戸籍に記載した事項に関する証明書を添付しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ParagraphNum">(2)</span>When a person submitting a written notice set forth in the preceding paragraph is a person other than the specified partner concerned, said written notice shall have attached an extract of the family register of said specified partner or a certificate concerning the matters stated in the family register.</div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at7">
+        <div class="ArticleCaption">（特定社員登録に関する協会の手続）</div>
+        <div class="ArticleCaption">(Institute's Procedure Concerning Specified Partner Registration)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第七条</span>協会は、特定社員登録申請書の提出があったときは、直ちに当該申請者が特定社員登録を受けることができるかどうか、並びに申請書及び添付書類が完備しているかどうかを法及びこの府令に準拠して審査しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 7</span><span class="ParagraphNum">(1)</span>When a written application for specified partner registration has been submitted, the Institute shall immediately examine, in conformity with the Act and this Cabinet Office Ordinance, whether or not the applicant may be registered as a specified partner and whether or not the written application and the attached documents are fully furnished.</div>
+        </div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ParagraphNum">２</span>協会は、前項の審査の結果、当該申請者の特定社員登録の申請が適法であることを確認したときは、遅滞なく、特定社員登録を行い、その旨、特定社員登録の年月日及び登録番号を当該申請者に通知しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ParagraphNum">(2)</span>When the Institute has confirmed, as a result of the examination set forth in the preceding paragraph, that the applicant's application for specified partner registration is lawful, it shall, without delay, effect the specified partner registration and notify the applicant to that effect and of the date of the specified partner registration and the registration number.</div>
+        </div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ParagraphNum">３</span>協会は、第一項の審査の結果、提出書類に不備があるときは、不備の点を指摘してその補完を命ずることができる。</div>
+          <div class="ParagraphSentence"><span class="ParagraphNum">(3)</span>When, as a result of the examination set forth in paragraph (1), there is any deficiency in the submitted documents, the Institute may indicate the deficiency and order the applicant to supplement said documents.</div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at8">
+        <div class="ArticleCaption">（変更登録に関する協会の手続）</div>
+        <div class="ArticleCaption">(Institute's Procedure Concerning Registration of a Change)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第八条</span>協会は、変更登録申請書の提出があったときは、審査の上、遅滞なく、変更登録を行い、その旨及び変更登録の年月日を当該申請者に通知しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 8</span>When a written application for registration of a change has been submitted, the Institute shall, without delay after carrying out an examination, effect the registration of the change and notify the applicant to that effect and of the date of the registration of the change.</div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at9">
+        <div class="ArticleCaption">（特定社員登録の抹消に関する協会の手続）</div>
+        <div class="ArticleCaption">(Institute's Procedure Concerning Cancellation of Specified Partner Registration)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第九条</span>協会は、特定社員登録の抹消に関する届出書の提出があったときは、審査の上、遅滞なく、特定社員登録の抹消を行い、その旨及び特定社員登録の抹消の年月日を当該届出者に通知しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 9</span><span class="ParagraphNum">(1)</span>When a written notice concerning cancellation of specified partner registration has been submitted, the Institute shall, without delay after carrying out an examination, effect the cancellation of specified partner registration and notify the person who has given the notification to that effect and of the date of the cancellation of specified partner registration.</div>
+        </div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ParagraphNum">２</span>協会は、特定社員が法第三十四条の十の十第九号に該当するに至ったときは、遅滞なく、特定社員登録の抹消を行い、その旨及び特定社員登録の抹消の年月日をこれらの規定に該当する者に通知しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ParagraphNum">(2)</span>When a specified partner has fallen under Article 34-10-10, item (ix) of the Act, the Institute shall, without delay, effect the cancellation of specified partner registration and notify the person who has fallen under these provisions to that effect and of the date of the cancellation of specified partner registration.</div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at10">
+        <div class="ArticleCaption">（処分の登録）</div>
+        <div class="ArticleCaption">(Registration of a Disposition)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第十条</span>協会は、特定社員が法第三十四条の十の十七第一項第一号又は第二号に掲げる処分を受けたときは、遅滞なく、第二条第五号に掲げる事項を特定社員名簿に登録しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 10</span>When a specified partner has received a disposition set forth in Article 34-10-17, paragraph (1), item (i) or (ii) of the Act, the Institute shall, without delay, effect registration of the matters set forth in Article 2, item (v) in the specified partners' roster.</div>
+        </div>
+      </div>
+      <div class="Article anchor" id="je_at11">
+        <div class="ArticleCaption">（金融庁長官への通知）</div>
+        <div class="ArticleCaption">(Notice to the Commissioner of the Financial Services Agency)</div>
+        <div class="Paragraph">
+          <div class="ParagraphSentence"><span class="ArticleTitle">第十一条</span>協会は、特定社員登録、変更登録又は特定社員登録の抹消を行ったときは、遅滞なく、その旨を金融庁長官に通知しなければならない。</div>
+          <div class="ParagraphSentence"><span class="ArticleTitle">Article 11</span>When the Institute has effected specified partner registration, registration of a change, or cancellation of specified partner registration, it shall, without delay, notify the Commissioner of the Financial Services Agency to that effect.</div>
+        </div>
+      </div>
+    </div>
+    <div class="SupplProvision anchor" id="je_s1">
+      <div class="SupplProvisionLabel"><span>附　則</span><br><span>Supplementary Provisions</span></div>
+      <div class="Paragraph">
+        <div class="ParagraphSentence_noi">この府令は、公認会計士法等の一部を改正する法律（平成十九年法律第九十九号）の施行の日から施行する。</div>
+        <div class="ParagraphSentence_noi">This Cabinet Office Ordinance shall come into effect as from the day of enforcement of the Act for Partial Revision of the Certified Public Accountants Act, etc. (Act No. 99 of 2007).</div>
+      </div>
+    </div>
+  </div>
+</div>                    </div>
+    </div>
+</div>        <form id="hiddenForm" action="" method="post">
+            <input type="hidden" name="_csrfToken" autocomplete="off" value="3+twdOJdd5IslMgUJt+WA2PpAuunF0gLK/ViX79uBkvvgmjFTaqMZTHWhmjjmszpw1z2FB6lKOjln8fuRCkqQk8QQU3S0IsOVdhhiZMkfj0SkFNt2VgzKta1WPwszL8DA7W/X9Osr9H7bMctLZNO3g==">                    </form>
+    </main>
+    <footer>
+        <div class="copyright">Japanese Law Translation Database System<br/>Copyright &copy; 2025 Ministry of Justice, Japan. All Rights Reserved.</div>
+        <nav>
+            <div class="footer-tab">
+                <div id="fti1" class="footer-tab-item active" onclick="showContents()">Main Text</div>
+                <div id="fti2" class="footer-tab-item" onclick="showInfo()">TOC/History</div>
+            </div>
+        </nav>
+        <script>
+            updateVisitCount();
+            showEnqMessage();
+
+            function showContents() {
+                if (window.innerWidth < 768) {
+                    let fti1 = document.getElementById('fti1');
+                    let fti2 = document.getElementById('fti2');
+                    fti1.classList.add('active');
+                    fti2.classList.remove('active');
+                    let lawBody = document.getElementById('lawBody');
+                    let lawInfo = document.getElementById('lawInfo');
+                    lawBody.style.display = 'block';
+                    lawInfo.style.display = 'none';
+                }
+            }
+
+            function showInfo() {
+                let fti1 = document.getElementById('fti1');
+                let fti2 = document.getElementById('fti2');
+                fti1.classList.remove('active');
+                fti2.classList.add('active');
+                let lawBody = document.getElementById('lawBody');
+                let lawInfo = document.getElementById('lawInfo');
+                lawBody.style.display = 'none';
+                lawInfo.style.display = 'block';
+            }
+
+            function toggleCheckboxes(el, id) {
+                toggleDescendant(el, id);
+                toggleAncestor(el, id);
+            }
+
+            function toggleDescendant(el, id) {
+                if (el.checked) {
+                    checkDescendant(id)
+                } else {
+                    uncheckDescendant(id)
+                }
+            }
+
+            function toggleAncestor(el, id) {
+                if (el.checked) {
+                    checkAncestor(el, id)
+                } else {
+                    // do nothing
+                }
+            }
+
+            function checkAll(ev) {
+                ev.preventDefault();
+                let checkboxes = document.getElementsByClassName('toc-checkbox');
+                for (chk of checkboxes) {
+                    chk.checked = true;
+                }
+                toggleContents();
+            }
+
+            function checkDescendant(id) {
+                let checkboxes
+                if (id == 'mp') {
+                    checkboxes = document.querySelectorAll('input[id*="mp"]');
+                } else {
+                    checkboxes = document.querySelectorAll('input[id^=' + id + ']');
+                }
+                for (chk of checkboxes) {
+                    let re = new RegExp(id + '[0-9]');
+                    if (re.test(chk.id) == false) {
+                        chk.checked = true;
+                    }
+                }
+                toggleContents();
+            }
+
+            function checkAncestor(el) {
+                let selfId = el.id;
+                // main provisionのチェック
+                if (selfId.indexOf('-mp') > -1) {
+                    let mpChk = document.getElementById('mp-chk');
+                    mpChk.checked = true;
+                }
+                checkboxes = document.getElementsByClassName('toc-checkbox');
+                for (chk of checkboxes) {
+                    let ancId = chk.id;
+                    let ancIdShort = ancId.replace(/-.+/, '');
+                    if (selfId.indexOf(ancIdShort) == 0) {
+                        chk.checked = true;
+                    }
+                }
+                toggleContents();
+            }
+
+            function uncheckAll(ev) {
+                ev.preventDefault();
+                let checkboxes = document.getElementsByClassName('toc-checkbox');
+                for (chk of checkboxes) {
+                    chk.checked = false;
+                }
+                toggleContents();
+            }
+
+            function uncheckDescendant(id) {
+                let checkboxes
+                if (id == 'mp') {
+                    checkboxes = document.querySelectorAll('input[id*="mp"]');
+                } else {
+                    checkboxes = document.querySelectorAll('input[id^=' + id + ']');
+                }
+                for (chk of checkboxes) {
+                    let re = new RegExp(id + '[0-9]');
+                    if (re.test(chk.id) == false) {
+                        chk.checked = false;
+                    }
+                }
+                toggleContents();
+            }
+
+            function toggleContents() {
+                let checkboxes = document.getElementsByClassName('toc-checkbox');
+                for (chk of checkboxes) {
+                    let id = chk.id;
+                    id = id.replace('-chk', '');
+                    id = id.replace('-mp', '');
+                    let elem = document.getElementById(id);
+                    if (elem) {
+                        if (chk.checked) {
+                            elem.style.display = 'block';
+                        } else {
+                            elem.style.display = 'none';
+                        }
+                    }
+                }
+            }
+
+            function showMemo(el) {
+                console.log(el);
+                let memo = el.getElementsByClassName('balloon');
+                console.log(memo[0]);
+                memo[0].style.display = 'inline-block';
+            }
+
+            function hideMemo(el) {
+                let memo = el.getElementsByClassName('balloon');
+                memo[0].style.display = 'none';
+            }
+
+        </script>
+    </footer id="footer">
+    <script>
+        if (this.window.innerWidth <= 768) {
+            hideMenuOnFooter();
+        }
+    </script>
+</body>
+
+</html>
