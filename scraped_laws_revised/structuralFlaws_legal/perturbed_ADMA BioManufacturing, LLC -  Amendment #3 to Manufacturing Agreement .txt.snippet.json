@@ -1,0 +1,43 @@
+[
+  {
+    "file_name": "ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma.",
+        "changed_text": "ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma. 9. All other terms of the Agreement shall remain in full force and effect except to the extent superseded by the terms of this Amendment #3.",
+        "explanation": "The clause about liquidated damages being 'fair and equitable compensation' is critical for enforceability. Appending 'All other terms of the Agreement shall remain in full force and effect' reduces the clarity of the liquidated damages provision by implying other sections of the agreement can change that enforceability. The statement that other terms stay in full force could be misconstrued to mean contradictory clauses also stand, which complicates interpreting the original intent.",
+        "contradicted_law": "Contract Law Principles Regarding Liquidated Damages",
+        "law_citation": "Restatement (Second) of Contracts § 356",
+        "law_url": "https://www.law.cornell.edu/wex/liquidated_damages",
+        "law_explanation": "The Restatement (Second) of Contracts § 356 states that liquidated damages must be a reasonable forecast of just compensation for the harm caused by a breach. By adding a clause implying other sections could contradict the fairness of the liquidated damages, it undermines the enforceability as a fair and reasonable forecast, potentially rendering it unenforceable as a penalty.",
+        "location": "Section 2",
+        "scraped_snippet": "liquidated damages | Wex | US Law | LII / Legal Information Institute Please help us improve our site! × No thank you liquidated damages Liquidated damages are an exact amount of money, or a set formula to calculate the amount of money, a party will owe if it breaches a contract , in order to compensate the injured party for its losses. Liquidated damages must be clearly stated in a section or clause of a contract and agreed upon by the parties prior to entering a contract. Liquidated damages are a variety of actual damages and a remedy for breach of contract. Parties to a contract use liquidated damages where actual damages, though real, are difficult or impossible to prove. Liquidated damages provide a clear monetary value to compensate the injured party while saving time and resources on litigation determining compensatory damages . Liquidated damages can also be used to deter parties from breaching contracts. Legal disputes surrounding liquidated damages arise following a breach of contract when either the injured party believes the liquidated damages are not adequately compensatory or the breaching party believes the liquidated damages are unreasonably high. Courts will not im"
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "In no event shall either party be liable to the other party for incidental, indirect, special and consequential or punitive damages, including without limitation any claims for damages based upon lost profits or lost business opportunity.",
+        "changed_text": "8. The Parties further agree to amend that certain Quality and Technical Agreement between Sanofi Pasteur and ADMA (as successor to BPC) effective as of September 15, 2015 (the \"Quality Agreement\") to modify the address where the Source Plasma shall be stocked and the conditions associated therewith, as well as to ensure consistency with the other terms of this Amendment. In no event shall either party be liable to the other party for incidental, indirect, special and consequential or punitive damages, including without limitation any claims for damages based upon lost profits or lost business opportunity.",
+        "explanation": "Moving the 'no liability for consequential damages' clause into the section describing the Quality Agreement amendment makes it appear that the limitation applies only to issues arising from the Quality Agreement, rather than the entire Manufacturing Agreement. This weakens the protection against such damages for breaches outside the scope of the Quality Agreement, creating a false impression of limited scope.",
+        "contradicted_law": "UCC § 2-719: Contractual Modification or Limitation of Remedy",
+        "law_citation": "Uniform Commercial Code § 2-719",
+        "law_url": "https://www.law.cornell.edu/ucc/2/719",
+        "law_explanation": "UCC § 2-719 allows parties to limit or exclude consequential damages unless the limitation is unconscionable. However, the disclaimer must be clear and conspicuous. By burying the general liability disclaimer within a section specific to the Quality Agreement amendment, it's less likely to be considered a clear and conspicuous exclusion of consequential damages for the entire agreement, potentially making it unenforceable outside the Quality Agreement's scope.",
+        "location": "Section 7",
+        "scraped_snippet": null
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA.",
+        "changed_text": "The Parties shall use best efforts to complete such amendment to the Quality Agreement within 60 days after the Amendment Effective Date. At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA.",
+        "explanation": "The risk of loss clause is crucial for determining liability in case of damage to the Source Plasma. Moving it into a section dealing with the Quality Agreement amendment suggests the transfer of risk is contingent on the Quality Agreement amendment being completed, or only applies to matters covered by the quality agreement. This introduces ambiguity about when the risk transfer actually occurs, and if it occurs at all prior to the quality agreement amendment.",
+        "contradicted_law": "UCC § 2-509: Risk of Loss in the Absence of Breach",
+        "law_citation": "Uniform Commercial Code § 2-509",
+        "law_url": "https://www.law.cornell.edu/ucc/2/509",
+        "law_explanation": "UCC § 2-509 specifies rules for risk of loss when a contract doesn't explicitly address it. By embedding the risk of loss transfer within a section about amending the Quality Agreement, the clarity of the risk transfer is compromised. It is no longer clear when risk of loss actually transfers if the Quality Agreement is not amended, therefore the lack of clarity leaves room for legal challenges based on UCC § 2-509.",
+        "location": "Section 7",
+        "scraped_snippet": null
+      }
+    ]
+  }
+]
