@@ -1,29 +1,26 @@
 [
     {
-        "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "The sentence is structurally flawed and does not make sense. It has grammatical errors and repeats the word 'Agreement'.",
+        "section": "1.2 (c) Provider shall use its best efforts to provide for employees or contractors to perform the Services, each of whose names, positions, and respective levels of experience and relevant licenses shall be set out in Exhibit A attached hereto (collectively, the \"Provider Representatives\"). Provider may not make any change in the Provider Representatives without the prior consent of the Recipient. Provider Representatives shall be dedicated to solely providing the Services to Recipient and shall not provide any such services or resources to Provider or any other customer of Provider.",
+        "explanation": "This section states that the Provider Representatives must be solely dedicated to providing services to the Recipient. However, Section 1.2(e) allows Provider to use subcontractors. If those subcontractors are not solely dedicated to the Recipient, this creates a contradiction, as those subcontractors would also be considered Provider Representatives.",
+        "location": "Section 1.2(c)",
+        "category": 3,
+        "location_match": false,
+        "text_match": false
+    },
+    {
+        "section": "3.1 Termination of Agreement. This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
+        "explanation": "This section states that the agreement will terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2. However, Section 3.2 allows either party to terminate the agreement at any time with 90 days written notice. The initial term ending on December 31, 2020 contradicts the open ended termination clause.",
         "location": "Section 3.1",
-        "category": 9,
+        "category": 3,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": false
     },
     {
-        "section": "Recipient may freely assign its rights under this Agreement to receive the Services to any of its affiliates.",
-        "explanation": "While seemingly straightforward, the contract lacks a clear definition of 'affiliates'. Without this definition, the scope of permissible assignment is unclear, potentially leading to disputes over which entities qualify as affiliates and can receive the Services. This creates ambiguity within the text regarding a key contractual term.",
-        "location": "Section 1.1(b)",
-        "category": 1,
+        "section": "3.5 Effect of Termination. Upon termination of this Agreement in its entirety pursuant to Section 3.1, all obligations of the Parties hereto shall terminate, except for the provisions of Section 2.2, and the entirety of Sections 4, 5 and 6, which shall survive any termination or expiration of this Agreement.",
+        "explanation": "This section states that upon termination of the agreement, all obligations terminate except for sections 2.2, 4, 5, and 6. Section 2.2 outlines 'Terms of Payment and Related Matters'. Logically, if the agreement is terminated, there should be no further payment terms, yet they survive termination.",
+        "location": "Section 3.5",
+        "category": 3,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel (including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute), without giving effect to any choice or conflict of law provision or rule (whether of the State of Israel or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Israel.",
-        "explanation": "While specifying Israeli law as governing, the phrase 'whether arising in contract, tort, equity or otherwise' is broad. Certain tort claims (e.g., those involving significant activities or damages outside of Israel) might be subject to different legal requirements or standards in other jurisdictions. By not providing exceptions or clarifications, the clause could create ambiguity about the specific types of claims to which Israeli law exclusively applies.  Additionally, the phrase '(including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute)' is redundant and does not add to the sentence. It is not well structured.",
-        "location": "Section 7.2",
-        "category": 2,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": false
     }
 ]

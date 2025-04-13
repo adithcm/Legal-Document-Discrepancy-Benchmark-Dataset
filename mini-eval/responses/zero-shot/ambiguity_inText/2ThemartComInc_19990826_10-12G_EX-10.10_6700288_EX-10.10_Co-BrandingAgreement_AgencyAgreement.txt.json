@@ -1,29 +1,26 @@
 [
     {
-        "section": "CUSTOMERS means all users who access Co-Branded Site and complete at least one transaction per month.",
-        "explanation": "This definition is ambiguous. It's unclear whether 'at least one transaction per month' refers to each individual user completing one transaction monthly to be continuously considered a 'Customer,' or if it refers to the Co-Branded Site collectively achieving at least one transaction involving any users. This ambiguity affects payment calculations and obligations linked to 'Customers.'",
-        "location": "Section 1(c)",
+        "section": "6.7 SERVICE STANDARDS. i-Escrow will comply with all laws and regulations and act as an Independent Escrow Agent as per the guidelines of California Escrow Law (California Financial Code Section17000 et seq., or its successor). Should any of the terms, conditions or provisions of this Agreement conflict with the California Escrow Law, its rules or regulations, which govern i-Escrow's business practices, the California Escrow Law shall prevail. Notwithstanding the foregoing, at any time that i-Escrow reasonably believes such a conflict exists, i-Escrow will give 2TheMart written notice of such conflict and the parties will use their best efforts to resolve such conflict.",
+        "explanation": "This section outlines that California Escrow Law will prevail if there is a conflict. However, it later states that i-Escrow only needs to notify 2TheMart of the conflict and use \"best efforts\" to resolve it. This is contradictory because the law should prevail regardless of whether the conflict is resolved or not, which makes the resolution process ambiguous.",
+        "location": "Section 6.7",
         "category": 1,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": false
     },
     {
-        "section": "In the event that neither party expresses a desire to renew the agreement in writing, the term of this Agreement shall expire automatically.",
-        "explanation": "This statement implies that the agreement requires an active renewal by one party to be valid. This contradicts the previous statements in the same section, which imply the agreement needs to be renewed by mutual written agreement.",
+        "section": "8.1 TERM. The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that neither party expresses a desire to renew the agreement in writing, the term of this Agreement shall expire automatically.",
+        "explanation": "The paragraph repeats the sentence, 'A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect.' This repetition is a structural flaw and doesn't add any value to the sentence.",
         "location": "Section 8.1",
-        "category": 3,
-        "location_match": false,
-        "text_match": true,
-        "explanation_match": false
-    },
-    {
-        "section": "Notice shall be deemed given: only upon personal delivery; if sent by fax, only if acknowledged by phone; or if sent by a reputable overnight courier with tracking capabilities, only three (3) days after the date of mailing:",
-        "explanation": "The section is structurally flawed because it is incomplete. It starts like a list of requirements, but it doesn't finish the statement properly. This section attempts to define when a notice is officially considered 'given,' but the lack of clarity leaves the reader without a full understanding of the rule.",
-        "location": "Section 12.6",
         "category": 9,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": false
+        "text_match": false
+    },
+    {
+        "section": "8.2 TERMINATION FOR BREACH. In addition to other remedies that may be available to it, by providing written notice, a party may immediately terminate this Agreement: (a) if the other party materially breaches this Agreement and fails to cure that breach within sixty (60) days after receiving written notice of the breach, or (b) as provided in Sections 2.2 [INITIAL INFORMATION TRANSFER MECHANISM DEVELOPMENT], 2.4 [RESTRICTIONS ON COMMUNICATIONS], or 12.4.",
+        "explanation": "The termination clause allows for immediate termination for breach under specific conditions (failure to cure breach within 60 days), but also allows for immediate termination as provided in sections 2.2, 2.4, or 12.4. The wording implies that termination under these sections is also considered a breach. This is a structural flaw because Section 2.2 and 12.4 outline conditions that either party can terminate the agreement, not just the non-breaching party.",
+        "location": "Section 8.2",
+        "category": 9,
+        "location_match": false,
+        "text_match": false
     }
 ]
