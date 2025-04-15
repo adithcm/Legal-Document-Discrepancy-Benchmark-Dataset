@@ -20,7 +20,6 @@
 6. Sketch out LLM eval and test it if possible.
 
 Add `explanation_match` (check reasoning) - Use LLM, along with context
-Use explanation + textto gauge + 1 / -1
 1) `text match` but `explanation !match` = -1
 2) `text match` and `explanation match` = +1
 3) `text !match` and `explanation match` = -1
