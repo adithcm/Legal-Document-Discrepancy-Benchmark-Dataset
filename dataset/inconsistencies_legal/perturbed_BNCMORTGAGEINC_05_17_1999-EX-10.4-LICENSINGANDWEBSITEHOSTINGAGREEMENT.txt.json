@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSINGANDWEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Invoices will be paid within 15 days of receipt.",
+                "changed_text": "Invoices will be paid within 60 days of receipt.",
+                "explanation": "This change extends the payment timeframe beyond what is typically considered reasonable or legally compliant in many jurisdictions, potentially violating prompt payment laws.",
+                "contradicted_law": "Potential violation of California Prompt Payment Laws (though specific requirements vary depending on industry and contract type). General contract law principles of reasonableness.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than thirty (30) days prior to the end of said year.",
+                "changed_text": "This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than five (5) days prior to the end of said year.",
+                "explanation": "This reduces the notice period for non-renewal to five days, which is likely unreasonable and potentially violates implied covenant of good faith and fair dealing. Many states require more substantial notice periods for contract non-renewal.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing, potential violation of state-specific contract laws regarding reasonable notice.",
+                "location": "Section 13"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices will be deemed given (i) when delivered by hand, (ii) one (l) day after delivery to a reputable overnight carrier, or (iii) three (3) days after placement in first-class mail, postage prepaid, return receipt requested.",
+                "changed_text": "All notices will be deemed given when sent by email, regardless of whether confirmation of receipt is obtained.",
+                "explanation": "This change specifies that notice is deemed given upon sending an email, disregarding whether the email was actually received or read. This can lead to legal problems because it doesn't ensure actual notice, potentially contradicting legal requirements for proper notification.",
+                "contradicted_law": "General contract law principles requiring adequate notice, potential conflicts with specific statutes requiring proof of receipt for certain legal notices.",
+                "location": "Section 20"
+            }
+        ]
+    }
+]

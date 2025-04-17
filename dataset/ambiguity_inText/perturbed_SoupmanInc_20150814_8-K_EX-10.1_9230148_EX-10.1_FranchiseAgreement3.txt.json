@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "7. The Master Franchise Agreement requires application of the laws of New York. This provision may not be enforceable under California law.",
+                "changed_text": "7. The Master Franchise Agreement requires application of the laws of New York. For all disputes directly related to franchise fees, New York law shall apply. However, for all other matters arising within the state of California, California law will govern.",
+                "explanation": "This introduces a contradiction by stating that New York law applies generally, but then specifying California law for matters within California, creating ambiguity about which law applies in specific situations.",
+                "location": "Paragraph 7"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8. You must sign a general release if you renew or transfer your franchise. California Corporation Code 31512 voids a waiver of your rights under the Franchise Investment Law (California Corporations Code 31000 through 31516). Business and Professions Code 20010 voids a waiver of your rights under the Franchise Relations Act (Business and Professions Code 20000 through 20043).",
+                "changed_text": "8. You must sign a general release if you renew or transfer your franchise. While California Corporation Code 31512 voids a waiver of your rights under the Franchise Investment Law (California Corporations Code 31000 through 31516) and Business and Professions Code 20010 voids a waiver of your rights under the Franchise Relations Act (Business and Professions Code 20000 through 20043), this release covers only unintentional oversights and does not protect against gross negligence.",
+                "explanation": "This change creates an internal contradiction by first stating that waivers are void under California law, but then implying that the general release is valid under some circumstances (unintentional oversights). This creates ambiguity around the extent of rights that are actually being waived.",
+                "location": "Paragraph 8"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10. The Master Franchise Agreement contains a liquidated damages clause. Under California Civil Code Section 1671, certain liquidated damages clauses are unenforceable.",
+                "changed_text": "10. The Master Franchise Agreement contains a liquidated damages clause. While California Civil Code Section 1671 states certain liquidated damages clauses are unenforceable, only clauses exceeding $10,000 are subject to this limitation.",
+                "explanation": "This modifies the agreement by first acknowledging that certain liquidated damages clauses are unenforceable, and then providing an arbitrary monetary threshold for what clauses are impacted. This creates a contradiction that it is unenforceable in general and adds a monetary condition to the enforceability.",
+                "location": "Paragraph 10"
+            }
+        ]
+    }
+]

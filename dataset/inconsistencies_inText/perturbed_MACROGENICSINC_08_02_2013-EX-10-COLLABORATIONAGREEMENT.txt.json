@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MACROGENICSINC_08_02_2013-EX-10-COLLABORATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Each Calendar Quarter, Green Cross shall reimburse MacroGenics for *** of the costs incurred by MacroGenics in connection with the management of Clinical Data from the Phase I Clinical Trials during such Calendar Quarter. MacroGenics will invoice Green Cross at the end of the applicable Calendar Quarter for the amounts due hereunder, and all such amounts shall be paid to MacroGenics by Green Cross in US Dollars not later than *** following the receipt of the applicable invoice.",
+                "changed_text": "Each Calendar Quarter, Green Cross shall reimburse MacroGenics for *** of the costs incurred by MacroGenics in connection with the management of Clinical Data from the Phase I Clinical Trials during such Calendar Quarter. MacroGenics will invoice Green Cross at the end of the applicable Calendar Quarter for the amounts due hereunder, and all such amounts shall be paid to MacroGenics by Green Cross in US Dollars not later than thirty (30) days following the receipt of the applicable invoice.",
+                "explanation": "This change introduces an inconsistency in the payment terms. Section 3.4(a)(iii) stipulates a 60-day payment window, while this modified Section 3.4(a)(iv) reduces that window to 30 days, creating ambiguity. This could lead to disputes as to which deadline is valid.",
+                "location": "Section 3.4(a)(iv)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "All milestone payments shall be due and payable within *** after the event for which the payment is due.",
+                "changed_text": "All milestone payments shall be due and payable within thirty (30) days after the event for which the payment is due.",
+                "explanation": "The change to the term of payment of milestones from TBD (***) to 30 days after the due date creates a conflict with the already existing timelines set, especially with Section 3.4(a)(iv). This creates ambiguity and could lead to disputes as to which deadline is valid.",
+                "location": "Section 8.8"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(b) Submission and Payment Schedule (i) Reports. Reports under this Section 8.9 shall be due on the ninetieth (90 ) day following the close of each Calendar Quarter. (ii) Royalties. Royalties shown to have accrued by each report shall, unless otherwise specified under this Agreement, be due and payable on the date such report is due.",
+                "changed_text": "(b) Submission and Payment Schedule (i) Reports. Reports under this Section 8.9 shall be due on the ninetieth (90 ) day following the close of each Calendar Quarter. (ii) Royalties. Royalties shown to have accrued by each report shall, unless otherwise specified under this Agreement, be due and payable within thirty (30) days of the date such report is due.",
+                "explanation": "The introduction of 'within thirty (30) days' creates a direct contradiction. Previously, royalties were due 'on the date such report is due' which is the 90th day after the quarter. Now, royalties are due within 30 days *of* that 90th day, meaning payments are potentially due later. This introduces ambiguity and a clear conflict that could trigger legal disputes.",
+                "location": "Section 8.9(b)"
+            }
+        ]
+    }
+]

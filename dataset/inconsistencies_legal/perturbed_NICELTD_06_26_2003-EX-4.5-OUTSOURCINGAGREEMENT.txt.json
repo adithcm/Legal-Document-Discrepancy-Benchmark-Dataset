@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NICELTD_06_26_2003-EX-4.5-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Contractor will deliver the repaired or replacement unit to NICE, within seven (7) Days of Contractor's receipt of such Product or parts thereof. NICE may require a shorter repair and replacement time for up to ten percent (10%) of the returned Products for warranty service, and Contractor shall use its best reasonable commercial efforts to accommodate same.",
+                "changed_text": "Contractor will deliver the repaired or replacement unit to NICE, within fourteen (14) Days of Contractor's receipt of such Product or parts thereof. NICE may require a shorter repair and replacement time for up to ten percent (10%) of the returned Products for warranty service, and Contractor shall use its best reasonable commercial efforts to accommodate same.",
+                "explanation": "The original text specifies a 7-day turnaround for warranty repairs. Changing this to 14 days creates a conflict if the applicable law mandates a shorter repair timeframe for certain electronic goods, which is a common consumer protection measure.",
+                "contradicted_law": "Potentially violates consumer protection laws in jurisdictions that mandate quicker repair times for electronics.",
+                "location": "Section 9.7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "NICE shall give Contractor a written forecast of the Products, by type, quantity and expected Due Date (the \"FORECAST\") as follows: A Forecast shall be a rolling forecast for the current Quarter and the two (2) consecutive Quarters, detailed by week. Upon the Effective Date, NICE shall deliver a Forecast for the period commencing on the expected completion of the Relocation Phase for the first Product, for the current Quarter and for the next coming two Quarters and so on thereafter during the term of this Agreement. The Forecast may be updated by NICE on a weekly basis, or more frequently (at NICE' discretion).",
+                "changed_text": "NICE shall give Contractor a written forecast of the Products, by type, quantity and expected Due Date (the \"FORECAST\") as follows: A Forecast shall be a rolling forecast for the current Quarter only, detailed by month. Upon the Effective Date, NICE shall deliver a Forecast for the period commencing on the expected completion of the Relocation Phase for the first Product, for the current Quarter only. The Forecast may be updated by NICE on a monthly basis, or less frequently (at NICE' discretion).",
+                "explanation": "This change reduces the forecast horizon from three quarters to one quarter and reduces the updating frequency, thus impacting inventory planning. This could violate 'good faith' contract performance if it makes it practically impossible for the contractor to fulfill orders.",
+                "contradicted_law": "Potentially violates the implied covenant of good faith and fair dealing, which exists in contract law.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment by NICE is due current thirty (30) Days from the date of receipt of the invoice, on the 2nd or 16th of the month, whichever is following the invoice date and may be made by check or wire transfer. Purchase Orders, invoices and payments will be presented and effected in US dollars.",
+                "changed_text": "Payment by NICE is due current ninety (90) Days from the date of receipt of the invoice, at NICE's discretion, and may be made by check or wire transfer. Purchase Orders, invoices and payments will be presented and effected in US dollars.",
+                "explanation": "The original text provides a 30-day payment term. Extending this to 90 days and making it discretionary breaches prompt payment laws in many jurisdictions that ensure suppliers are paid within a reasonable timeframe.",
+                "contradicted_law": "Violates prompt payment laws, which exist in many US states and other countries, designed to ensure timely payment to suppliers and contractors.",
+                "location": "Section 8.4.1"
+            }
+        ]
+    }
+]

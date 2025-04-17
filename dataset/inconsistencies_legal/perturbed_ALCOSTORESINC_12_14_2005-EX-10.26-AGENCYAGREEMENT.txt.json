@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ALCOSTORESINC_12_14_2005-EX-10.26-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "With respect to any Equipment ordered by the Company as agent for Lessor, the Company agrees to perform all obligations of the purchaser in the time and manner required by the applicable Purchase Order.",
+                "changed_text": "With respect to any Equipment ordered by the Company as agent for Lessor, the Company agrees to perform all obligations of the purchaser; however, the Company is not obligated to adhere to any timelines specified in the applicable Purchase Order, and may delay payment at its sole discretion without penalty.",
+                "explanation": "This change introduces a legal contradiction by allowing the Company to disregard payment timelines outlined in the Purchase Order. This could violate prompt payment laws or breach of contract principles, which generally require adherence to agreed-upon payment schedules.",
+                "contradicted_law": "Breach of Contract, Prompt Payment Laws (depending on the jurisdiction of the Supplier)",
+                "location": "Section 2.02"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "On or before the Lease Commencement Date for any Schedule, the Company shall present to Lessor documentation (\"Purchase Documentation\"), in form and substance satisfactory to Lessor in its sole discretion, which (i) describes all units of Equipment ordered, received and accepted by the Company as agent for Lessor in connection with such Schedule, and (ii) if Company has paid any Supplier for any of the Equipment, includes evidence of the Purchase Price paid to Supplier for each such unit of Equipment and of passage of title thereto to Lessor.",
+                "changed_text": "The Company will provide Purchase Documentation to Lessor when available, and at the Company's convenience. Lessor shall pay the Supplier or reimburse the Company at its own discretion.",
+                "explanation": "The original agreement specifies the documentation needed and that Lessor *shall* pay after the documents are received. The revision allows the company to give the document when they please and the Lessor to pay at their own discretion. This is a legal contradiction because payment is no longer tied to documentation being provided or the schedule.",
+                "contradicted_law": "Breach of Contract, Promissory Estoppel",
+                "location": "Section 2.03"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(a) So long as no default exists and is continuing hereunder or under the Lease, either party may terminate this Agreement at any time upon ____________ (______30________) days written notice to the other party; provided however that such termination shall not act as a termination of any Equipment leased hereunder.",
+                "changed_text": "(a) Either party may terminate this Agreement immediately, verbally, without any written notice to the other party. Such termination shall act as a termination of any Equipment leased hereunder.",
+                "explanation": "The original agreement requires 30 days written notice for termination. The change allows immediate verbal termination without notice and also states that the termination will terminate equipment leases. This violates the original contract and could violate lease agreements which would require notice to terminate.",
+                "contradicted_law": "Breach of Contract, Commercial Law - Lease Agreements",
+                "location": "Section 3.01"
+            }
+        ]
+    }
+]

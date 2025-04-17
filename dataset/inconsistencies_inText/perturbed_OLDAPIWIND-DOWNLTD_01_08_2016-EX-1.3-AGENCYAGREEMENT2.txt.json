@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "OLDAPIWIND-DOWNLTD_01_08_2016-EX-1.3-AGENCYAGREEMENT2.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Terms used in this certificate have the meanings given to them in the Agency Agreement, including Schedule A attached hereto, unless otherwise defined herein.",
+                "changed_text": "Terms used in this certificate have the meanings given to them in the Agency Agreement, except that the definition of \"Accredited Investor\" used in this certificate will be as defined by the Agent, notwithstanding any definition in Schedule A attached hereto. If no definition is provided by the Agent, Schedule A's definition applies.",
+                "explanation": "This change introduces a contradiction by allowing the Agent to define \"Accredited Investor\" differently than Schedule A of the Agency Agreement, potentially creating uncertainty about who qualifies as an Accredited Investor and undermining the intended compliance with securities laws. This uncertainty is especially problematic given the Agents Certificate’s role in confirming Accredited Investor status.",
+                "location": "Terms used in this certificate section"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(vi) the Agent represents and warrants that with respect to Offered Shares to be sold in reliance on Rule 506(b) of Regulation D, none of it, the U.S. Affiliate, any of its or the U.S. Affiliate's directors, executive officers, general partners, managing members or other officers participating in the Offering, or any other person associated with the Agent who will receive, directly or indirectly, remuneration for solicitation of Subscribers of Offered Shares pursuant to Rule 506(b) of Regulation D (each, a \"Dealer Covered Person\" and, together, \"Dealer Covered Persons\"), is subject to any Disqualification Event except for a Disqualification Event (i) covered by Rule 506(d)(2)(i) of Regulation D and (ii) a description of which has been furnished in writing to the Corporation prior to the date hereof;",
+                "changed_text": "(vi) the Agent represents and warrants that with respect to Offered Shares to be sold in reliance on Rule 506(b) of Regulation D, none of it, the U.S. Affiliate, any of its or the U.S. Affiliate's directors, executive officers, general partners, managing members or other officers participating in the Offering, or any other person associated with the Agent who will receive, directly or indirectly, remuneration for solicitation of Subscribers of Offered Shares pursuant to Rule 506(b) of Regulation D (each, a \"Dealer Covered Person\" and, together, \"Dealer Covered Persons\"), is subject to any Disqualification Event except for a Disqualification Event (i) covered by Rule 506(d)(2)(i) of Regulation D and (ii) a description of which has been furnished in writing to the Corporation prior to, or within 5 business days after, the date hereof; ",
+                "explanation": "This perturbation introduces a contradiction concerning the timing of disclosing Disqualification Events. The original text mandates that descriptions of the Disqualification Events must be furnished *prior* to the date of the certificate. The altered text allows the description to be furnished up to *5 business days after* the date of the certificate. This contradicts the requirement for pre-existing disclosure and creates uncertainty about whether compliance is determined before or after the certificate date. This also weakens the Corporation's ability to properly assess risks before the transaction.",
+                "location": "(vi) the Agent represents and warrants that with respect to Offered Shares to be sold in reliance on Rule 506(b) of Regulation D"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(viii) the offering of the Securities in the United States has been conducted by us in accordance with the terms of the Agency Agreement, including Schedule A attached hereto.",
+                "changed_text": "(viii) the offering of the Securities in the United States has been conducted by us in accordance with the terms of the Agency Agreement, except that the Agent may, at its sole discretion, waive certain non-essential requirements of Schedule A attached hereto.",
+                "explanation": "This change directly contradicts the original text by allowing the Agent to waive \"non-essential requirements\" of Schedule A. Since the original clause states that the offering *has been* conducted in accordance with Schedule A, this later exception creates an inconsistency. It is unclear what constitutes a \"non-essential requirement\" and who determines this, which injects ambiguity and potential disputes.",
+                "location": "(viii) the offering of the Securities in the United States has been conducted by us in accordance with the terms of the Agency Agreement, including Schedule A attached hereto."
+            }
+        ]
+    }
+]

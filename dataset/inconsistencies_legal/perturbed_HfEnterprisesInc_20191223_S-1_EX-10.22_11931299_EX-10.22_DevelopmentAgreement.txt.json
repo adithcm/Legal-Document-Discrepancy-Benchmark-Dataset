@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30- days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any extension or renewal terms, shall hereinafter be collectively referred to as the \"Term\".",
+                "changed_text": "The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 5-days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any extension or renewal terms, shall hereinafter be collectively referred to as the \"Term\".",
+                "explanation": "Reducing the notice period for termination to 5 days creates a potential conflict with standard contract law principles, especially in New York, which often require a more reasonable notice period, particularly in ongoing business relationships. A 5-day notice may be deemed unreasonably short and could be challenged in court, depending on the specific circumstances and the relationship between the parties.",
+                "contradicted_law": "Contract Law - Reasonable Notice Principles (NY)",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the Term of this Agreement and thereafter for a period of five (5) years, the parties shall be bound by all of the protective terms and conditions of the NDA.",
+                "changed_text": "During the Term of this Agreement and thereafter for a period of one (1) year, the parties shall be bound by all of the protective terms and conditions of the NDA.",
+                "explanation": "Decreasing the confidentiality period to one year could be deemed unreasonably short depending on the nature of the confidential information being protected. Many trade secret and intellectual property protection agreements require longer periods (e.g., 3-5 years or even indefinite) to ensure adequate protection. This could violate standard business practices and legal expectations for protecting sensitive technology and business information, making it more susceptible to challenge.",
+                "contradicted_law": "Trade Secret Laws; Contract Law - Reasonable Duration of Confidentiality (NY)",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All notices sent under this Agreement shall be in writing and shall be deemed effectively given (i) upon personal delivery to the party to be notified; (ii) when sent by e-mail PDF or confirmed facsimile, if sent during normal business hours of the recipient, if not, then on the next business day; (iii) three (3) days after having been sent by registered or certified mail, return receipt requested, postage prepaid; or (iv) two (2) days after deposit with an internationally recognized overnight courier, specifying two (2) day delivery, with written verification of receipt.",
+                "changed_text": "All notices sent under this Agreement shall be in writing and shall be deemed effectively given (i) upon personal delivery to the party to be notified; (ii) when sent by e-mail without confirmation of receipt; (iii) five (5) days after having been sent by standard mail, postage prepaid; or (iv) five (5) days after deposit with a local courier, without written verification of receipt.",
+                "explanation": "Modifying the notice provisions to remove receipt confirmation for email and courier services, and using standard mail could violate standard contract law and expectations regarding valid notice. For critical legal notices, proof of receipt is generally required to establish that the notice was properly delivered and received. Removing these safeguards could lead to disputes over whether proper notice was given, making the notice provisions unenforceable.",
+                "contradicted_law": "Contract Law - Notice Requirements and Due Process (NY)",
+                "location": "Section 9.8"
+            }
+        ]
+    }
+]

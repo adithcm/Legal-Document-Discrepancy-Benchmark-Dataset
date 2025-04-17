@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "STAMPSCOMINC_06_24_1999-EX-10.18-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Each monthly installment should be payable in advance and due no --- later than the fifth (5th) of the month.",
+                "changed_text": "Each monthly installment should be payable in advance and due no --- later than the fifth (5th) of the month. However, the client has a grace period of 15 days for each installment.",
+                "explanation": "This change introduces a contradiction regarding the payment deadline. One part of the sentence states the payment is due on the 5th, while the added sentence provides a 15-day grace period, creating uncertainty about the actual due date and potential late fee application.",
+                "location": "10.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "All undisputed payments that have accrued prior to the termination or expiration of this Agreement for any reason will be payable in full within thirty (30) days thereof.",
+                "changed_text": "All undisputed payments that have accrued prior to the termination or expiration of this Agreement for any reason will be payable in full within thirty (30) days thereof. However, if termination is due to Intuit's breach, all payments are due immediately upon termination.",
+                "explanation": "This change introduces a contradiction regarding the payment deadline after termination. The original text states payments are due within 30 days. The added sentence stipulates immediate payment if termination results from Intuit's breach, creating ambiguity on the payment timeline.",
+                "location": "12.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The audit rights set forth herein shall continue for one (1) year following the termination of this Agreement for any reason. No such audit may occur more than once a year during the Term.",
+                "changed_text": "The audit rights set forth herein shall continue for one (1) year following the termination of this Agreement for any reason. The client can request an audit every quarter during the term.",
+                "explanation": "This change introduces a contradiction regarding the audit frequency. The original text allows one audit per year during the term. The added sentence states that the client can request an audit every quarter during the term. This creates a contradiction because both statement are mutually exclusive.",
+                "location": "8.5"
+            }
+        ]
+    }
+]

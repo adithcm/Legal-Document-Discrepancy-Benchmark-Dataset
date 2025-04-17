@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS ENDORSEMENT AGREEMENT (\"Agreement\") by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a  Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 (\"Berkshire\")(Each or both of which shall  hereinafter be referred to as the \"PARTY\" or \"PARTIES,\" respectively).",
+                "changed_text": "THIS ENDORSEMENT AGREEMENT (\"Agreement\") by and between GENO AURIEMMA (\"Auriemma\") and BERKSHIRE BANK, a  Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01210 (\"Berkshire\")(Each or both of which shall  hereinafter be referred to as the \"PARTY\" or \"Berkshire Entity,\" respectively).",
+                "explanation": "The term 'PARTIES' is replaced by 'Berkshire Entity' which is undefined. This creates ambiguity because it is unclear whether 'Berkshire Entity' and 'PARTY' are interchangeable throughout the rest of the agreement, particularly concerning obligations and rights.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "2. ENDORSEMENT AND GRANT OF RIGHTS. During the Contract Period:\n     a) Subject to the terms of Paragraph 6 below, Auriemma will make the appearances and provide to Berkshire during the Services Period  the services, initiatives and programs described in Schedule A attached hereto (the \"Endorsement Services\"); and\n     b) Auriemma grants to Berkshire the exclusive right and license (the \"License Rights\") to use the Auriemma Identification during the  Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial  Services;",
+                "changed_text": "2. ENDORSEMENT AND GRANT OF RIGHTS. During the Agreement Term:\n     a) Subject to the terms of Paragraph 6 below, Auriemma will make the appearances and provide to Berkshire during the Provision Term  the services, initiatives and programs described in Schedule A attached hereto (the \"Endorsement Services\"); and\n     b) Auriemma grants to Berkshire the exclusive right and license (the \"License Rights\") to use the Auriemma Identification during the  Agreement Term and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial  Services;",
+                "explanation": "The terms 'Contract Period' and 'Services Period' are replaced by 'Agreement Term' and 'Provision Term', respectively, which are undefined. Although they sound the same, they could be different and create confusion regarding the duration of rights and obligations.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "11. TERMINATION BY BERKSHIRE.\n\n     Berkshire may terminate this Agreement immediately by giving Auriemma notice if (i) Auriemma dies or is prevented by injury or illness from  satisfactorily performing the obligations required by this Agreement; (ii) Auriemma is convicted of a felony or criminal offense involving  dishonesty or fraud; or (iii) Auriemma publicly disparages Berkshire and/ or its products.",
+                "changed_text": "11. TERMINATION BY Berkshire Bank.\n\n     Berkshire may terminate this Agreement immediately by giving Auriemma notice if (i) Auriemma dies or is prevented by injury or illness from  satisfactorily performing the obligations required by this Agreement; (ii) Auriemma is convicted of a felony or criminal offense involving  dishonesty or fraud; or (iii) Auriemma publicly disparages Berkshire Financial Institution and/ or its products.",
+                "explanation": "Replacing 'Berkshire' with 'Berkshire Financial Institution' creates uncertainty. While it may seem like they are the same, the agreement never defines 'Berkshire Financial Institution'. This raises the question of whether disparagement of other Berkshire entities (e.g., Berkshire Insurance Group, Inc. mentioned earlier) would also trigger termination rights. It is never explicitly stated which creates internal contradictions.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

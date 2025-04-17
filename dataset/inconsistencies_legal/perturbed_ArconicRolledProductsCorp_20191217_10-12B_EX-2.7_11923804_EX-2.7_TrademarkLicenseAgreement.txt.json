@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_TrademarkLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that Licensee has not taken appropriate steps to restore such quality within one-hundred twenty (120) days after notification by Licensor, Licensor shall have the right to terminate this Agreement.",
+                "changed_text": "In the event that Licensee has not taken appropriate steps to restore such quality within thirty (30) days after notification by Licensor, Licensor shall have the right to terminate this Agreement.",
+                "explanation": "Reducing the cure period for quality issues from 120 days to 30 days may be considered unreasonably short under certain state laws regarding contract performance and good faith, potentially contradicting legal standards that require a reasonable opportunity to cure a breach, specifically concerning product quality and manufacturing processes.",
+                "contradicted_law": "Potentially conflicts with state contract law principles related to 'reasonable opportunity to cure' a breach, varies by state but generally requires a fair timeframe.",
+                "location": "1.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Licensor and Licensee will be entitled to terminate this Agreement by written notice to the other party in the event the other party is in material breach of any of its obligations hereunder and shall fail to remedy any such default within one hundred twenty (120) days after notice thereof by the non-breaching party.",
+                "changed_text": "Licensor and Licensee will be entitled to terminate this Agreement by written notice to the other party in the event the other party is in material breach of any of its obligations hereunder and shall fail to remedy any such default within thirty (30) days after notice thereof by the non-breaching party.",
+                "explanation": "Reducing the cure period for a material breach from 120 days to 30 days may be considered unreasonably short under Delaware law, which governs this agreement (see section 6.1). Delaware courts typically require a reasonable opportunity to cure a breach, and 30 days might be insufficient for complex breaches.",
+                "contradicted_law": "Delaware contract law principles related to 'reasonable opportunity to cure' a material breach.",
+                "location": "4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may not be assigned by Licensee without the consent of Licensor which consent shall not be unreasonably withheld.",
+                "changed_text": "This Agreement may not be assigned by Licensee without the consent of Licensor, which consent may be withheld for any reason whatsoever.",
+                "explanation": "Changing the language to allow Licensor to withhold consent 'for any reason whatsoever' could be viewed as a violation of the implied covenant of good faith and fair dealing present in Delaware contracts. Delaware law requires parties to a contract to act reasonably and in good faith, and an arbitrary denial of assignment could be seen as a breach of that covenant.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing under Delaware contract law.",
+                "location": "6.10"
+            }
+        ]
+    }
+]

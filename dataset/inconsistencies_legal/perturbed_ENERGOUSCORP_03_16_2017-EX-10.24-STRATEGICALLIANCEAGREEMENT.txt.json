@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payments of Royalties and Service Fees will be due on a calendar quarterly basis, within [***] days after the end of the calendar quarter in which the applicable Licensed Products were Sold or services were rendered. From the date a payment is due, unless otherwise agreed, any late payment will accrue a late payment fee of [***] per month, or the highest interest rate permitted by law, whichever is less.",
+                "changed_text": "Payments of Royalties and Service Fees will be due on a calendar quarterly basis, within 60 days after the end of the calendar quarter in which the applicable Licensed Products were Sold or services were rendered. From the date a payment is due, unless otherwise agreed, any late payment will accrue a late payment fee of 10% per month, or the highest interest rate permitted by law, whichever is less.",
+                "explanation": "This change introduces a potential legal contradiction. Setting a late payment fee of 10% per month (120% annually) may violate usury laws in California, which place limits on the maximum interest rates that can be charged on debts. While the contract includes a clause stating 'or the highest interest rate permitted by law, whichever is less', the specified 10% creates an initial violation that might be challenged. Also, California law requires that payments to employees who are terminated from the company are obligated to have their final paycheck given to them by the company within 72 hours of being terminated. The text contradicts this rule.",
+                "contradicted_law": "California Usury Law, California Labor Code Section 201",
+                "location": "Section 9.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon any termination of this Agreement or, in the event of any Wind Down Period or Continuing Obligation period, upon the expiration of such period, and within fifteen (15) days after request by the disclosing party, each receiving party will return the Confidential Information of the other or destroy such Confidential Information and all copies of it and all information, records and materials developed therefrom, except that the recipient may retain one copy for archival purposes to ensure compliance with the provisions of this Agreement, and nothing contained herein will require the erasure, deletion, alteration or destruction of any Confidential Information required to be retained for legal or regulatory purposes or stored on back-up tapes or other back-up media or archiving systems made in the ordinary course of business, subject in each case to the confidentiality obligations set forth herein.",
+                "changed_text": "Upon any termination of this Agreement or, in the event of any Wind Down Period or Continuing Obligation period, upon the expiration of such period, each receiving party will return the Confidential Information of the other or destroy such Confidential Information and all copies of it and all information, records and materials developed therefrom, as soon as is practical. Each party will make its best reasonable effort to ensure they comply as soon as possible.",
+                "explanation": "The original clause specifies a clear deadline of fifteen (15) days for returning or destroying Confidential Information. The modified version replaces this with a vague and subjective obligation to act 'as soon as is practical' and make 'best reasonable effort'. This weakens the contractual obligation and creates uncertainty about the time frame for compliance. The change contradicts standard contract law principles that require clearly defined obligations, especially for something as important as the return of confidential information. This creates non-compliance because the original text set a deadline of 15 days, which has now been removed.",
+                "contradicted_law": "Breach of Contract Principles (lack of definite terms)",
+                "location": "Section 10.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "DIALOG must notify ENERGOUS within thirty (30) business days after receipt of actual notice of any Claim by a third party for which it seeks indemnification; provided, however, any failure or delay in notice will not relieve ENERGOUS of its obligations hereunder except to the extent that ENERGOUS is actually prejudiced by such failure to notify.",
+                "changed_text": "DIALOG must notify ENERGOUS within ten (10) business days after receipt of actual notice of any Claim by a third party for which it seeks indemnification; provided, however, any failure or delay in notice will relieve ENERGOUS of its obligations hereunder.",
+                "explanation": "This change shortens the notification period for indemnification claims from thirty (30) business days to ten (10) business days and removes the clause protecting DIALOG in the event of a slight delay. Such a short notification period could be deemed unreasonable, especially for complex legal claims that require thorough investigation. By making any delay, regardless of prejudice to ENERGOUS, sufficient to relieve ENERGOUS of its obligations, the clause becomes potentially unconscionable. In California, the law requires sufficient time to comply with contractual obligations.",
+                "contradicted_law": "California Contract Law - Unconscionability, Implied Covenant of Good Faith and Fair Dealing",
+                "location": "Section 12.3"
+            }
+        ]
+    }
+]

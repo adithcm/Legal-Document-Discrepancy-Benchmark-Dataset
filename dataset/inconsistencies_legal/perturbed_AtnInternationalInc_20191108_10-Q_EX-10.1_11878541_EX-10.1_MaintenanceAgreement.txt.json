@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_MaintenanceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "AT&T shall pay Vendor no later than sixty (60) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than ninety (90) days after receipt of an invoice for Maintenance Fees.",
+                "changed_text": "AT&T shall pay Vendor no later than ninety (90) days after receipt of such monthly payment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith dispute to, Vendor no later than one hundred eighty (180) days after receipt of an invoice for Maintenance Fees.",
+                "explanation": "The change extends the payment terms for both Structured Payments and Maintenance Fees beyond what is considered standard and legally acceptable in many jurisdictions.  Extended payment terms, particularly to 180 days for Maintenance Fees, can be viewed as exploitative and could violate prompt payment laws depending on the specific state.",
+                "contradicted_law": "Potential violation of state prompt payment laws (e.g., laws that require payment within 30-45 days for services rendered).",
+                "location": "Section 3.19(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Vendor will maintain and retain the records set forth in Subsection (a) during the term of the Agreement and for three (3) years thereafter (unless a discovery or legal hold request is made with respect to such records, in which case Vendor shall retain such records until AT&T notifies Vendor that such discovery or legal hold request has expired).",
+                "changed_text": "Vendor will maintain and retain the records set forth in Subsection (a) during the term of the Agreement and for one (1) year thereafter (unless a discovery or legal hold request is made with respect to such records, in which case Vendor shall retain such records until AT&T notifies Vendor that such discovery or legal hold request has expired).",
+                "explanation": "Reducing the record retention period to one year conflicts with various statutes of limitations and regulatory requirements that mandate longer retention periods for financial and operational records. This creates a legal inconsistency because Vendor may be legally obligated to retain records for longer than the contractually agreed-upon period.",
+                "contradicted_law": "Various state and federal statutes of limitations (e.g., IRS regulations requiring retention of tax records for at least three years, Sarbanes-Oxley Act requirements for financial records).",
+                "location": "Section 3.31(e)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All representations and warranties set forth above in Section 3.46(b) or elsewhere in this Agreement (other than the specific warranty periods specified in Section 3.46(a)) will survive expiration or termination of this Agreement for a period of [***] years from such expiration or termination; provided however, that any such representation and warranty that relates solely to the Build Services provided pursuant to the Build Addendum shall survive for a period of [***] years following Location Acceptance of all Cell Sites.",
+                "changed_text": "All representations and warranties set forth above in Section 3.46(b) or elsewhere in this Agreement (other than the specific warranty periods specified in Section 3.46(a)) will survive expiration or termination of this Agreement for a period of six (6) months from such expiration or termination; provided however, that any such representation and warranty that relates solely to the Build Services provided pursuant to the Build Addendum shall survive for a period of six (6) months following Location Acceptance of all Cell Sites.",
+                "explanation": "Reducing the survival period for representations and warranties to six months is inconsistent with typical commercial practice and potentially conflicts with statutes of limitations for certain types of claims (e.g., breach of contract).  Six months may be insufficient time for AT&T to discover certain latent defects or breaches, rendering the warranties effectively worthless.",
+                "contradicted_law": "Potential conflict with state statutes of limitations for breach of contract or warranty claims, which often extend beyond six months.",
+                "location": "Section 3.46(c)"
+            }
+        ]
+    }
+]

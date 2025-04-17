@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement is made and entered into by and between 695014 B.C. Ltd. dba Galaxy Telecom, having a principal office at 200 - 375 Water Street, Vancouver, British Columbia V6B 5C6 Canada (\"Galaxy\") and Galaxy Telnet SRL, having a principal office at Aleea Malinului, Nr. 11, Bl. D, Scara C, Apt. 43, Constanta, Judetul Constanta, Romania (\"Telnet\") as of the 1s t day of June, 2004.",
+                "changed_text": "This Agreement is made and entered into by and between 695014 B.C. Ltd. dba Galaxy Telecom, having a principal office at 200 - 375 Water Street, Vancouver, British Columbia V6B 5C6 Canada (\"Galaxy\") and Galaxy Telnet SRL, also known as the Affiliate, having a principal office at Aleea Malinului, Nr. 11, Bl. D, Scara C, Apt. 43, Constanta, Judetul Constanta, Romania (\"Telnet\") as of the 1s t day of June, 2004.",
+                "explanation": "Introducing the alias 'Affiliate' for Telnet creates uncertainty regarding its exact status and obligations. Later sections do not consistently refer to Telnet as Affiliate, leading to potential conflicts.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Galaxy is a wholesale provider of Voice over Internet Protocol (\"VoIP\") telephony and related services and products. Telnet is a provider of VoIP telephony and related services and products to Subscribers, as defined hereafter. Galaxy wishes to provide to Telnet and Telnet wishes to acquire from Galaxy VOIP related services and products from time to time for the purpose of providing them to Telnet's existing and future clients.",
+                "changed_text": "Galaxy is a wholesale provider of Voice over Internet Protocol (\"VoIP\") telephony and related services and products. Telnet is a provider of VoIP telephony and related services and products to End-Users, as defined hereafter. Galaxy wishes to provide to Telnet and Telnet wishes to acquire from Galaxy VOIP related services and products from time to time for the purpose of providing them to Telnet's existing and future clients.",
+                "explanation": "Changing 'Subscribers' to 'End-Users' without clear definition creates ambiguity. 'Subscribers' is later defined in Section 1.1, while 'End-Users' is not, leading to confusion about who Telnet's clients are.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Telnet shall include those terms set out in Schedule \"C\" as a term in each Subscriber agreement for Services.",
+                "changed_text": "Telnet shall include those terms set out in Schedule \"C\" as a term in each Customer agreement for Services.",
+                "explanation": "The switch from 'Subscriber' to 'Customer' introduces confusion as to which entity Telnet is entering into agreements with. This also generates a conflict with the definition of 'Subscriber' in section 1.1.",
+                "location": "3.5"
+            }
+        ]
+    }
+]

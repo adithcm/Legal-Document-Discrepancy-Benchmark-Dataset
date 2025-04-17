@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ATHENSBANCSHARESCORP_11_02_2009-EX-1.2-AGENCYAGREEMENT,2009.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 45 days after the completion of the Subscription Offering (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date.",
+                "changed_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 15 days after the completion of the Subscription Offering (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds 90 days after the End Date.",
+                "explanation": "Shortening the termination deadline to 15 days after the offering and delaying payment to 90 days after termination can create inconsistencies if state laws mandate longer periods for contract termination rights or faster payment of services rendered.  Tennessee law, like many states, implies a 'reasonable time' for contract performance if no specific date is given, and 90 days may be seen as unreasonable in this context.",
+                "contradicted_law": "Potential conflict with Tennessee contract law regarding 'reasonable time' for performance and industry standards regarding payment for services.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company will make generally available to its security holders as soon as practicable, but not later than 60 days after the close of the period  covered thereby, an earnings statement (in form complying with the provisions of Rule 158 of the 1933 Act Regulations) covering a twelve-month  period beginning not later than the first day of the Company's fiscal quarter next following the effective date (as defined in such Rule 158) of the  Registration Statement.",
+                "changed_text": "The Company will make generally available to its security holders as soon as practicable, but not later than 180 days after the close of the period covered thereby, an earnings statement covering a twelve-month period beginning not later than 90 days following the effective date of the Registration Statement.",
+                "explanation": "Changing the reporting deadline to 180 days and delaying the start of the twelve-month period violates SEC Rule 158 under the Securities Act of 1933, which requires more timely reporting. Public companies are required to provide timely and accurate information to investors.",
+                "contradicted_law": "SEC Rule 158 of the 1933 Act Regulations",
+                "location": "Section 6(s)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company and the Bank will not sell or issue, contract to sell or otherwise dispose of, for a period of 90 days after the Closing Date, without  the Agent's prior written consent, any of their shares of their common stock, other than the Common Shares or other than in connection with any  plan or arrangement described in the Prospectus.",
+                "changed_text": "The Company and the Bank will not sell or issue, contract to sell or otherwise dispose of, for a period of 15 days after the Closing Date, without the Agent's prior written consent, any of their shares of their common stock, other than the Common Shares or other than in connection with any plan or arrangement described in the Prospectus.",
+                "explanation": "Reducing the lock-up period for selling shares to 15 days may conflict with standard underwriting practices and SEC regulations concerning market manipulation and stabilization following an IPO.  A longer lock-up period (often 90-180 days) is common to prevent insider selling from destabilizing the stock price immediately after the offering.",
+                "contradicted_law": "Potential conflict with SEC regulations regarding market manipulation and stabilization (though not explicitly defined by a hard rule).",
+                "location": "Section 6(m)"
+            }
+        ]
+    }
+]

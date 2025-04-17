@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INTERSECTENT,INC_05_11_2020-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "INTERSECT shall pay the price to HOVIONE for API within thirty (30) calendar days of the date of invoice of such API.",
+                "changed_text": "INTERSECT shall pay the price to HOVIONE for API within sixty (60) calendar days of the date of invoice of such API.",
+                "explanation": "This change extends the payment term to 60 days. While seemingly innocuous, if INTERSECT is a small business supplier, it might violate prompt payment laws designed to protect small businesses by ensuring timely payment for goods and services. Many states have prompt payment laws that mandate shorter payment periods, often 30 days or less, particularly for government contracts or specific industries.",
+                "contradicted_law": "Potential violation of state prompt payment laws designed to protect small businesses (e.g., California Prompt Payment Act if INTERSECT is a small business supplying to a larger entity).",
+                "location": "Section 4.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "HOVIONE sole responsibility shall be to replace any non-conforming API within thirty (30) days of receiving the notice of non- conformity.",
+                "changed_text": "HOVIONE sole responsibility shall be to replace any non-conforming API at HOVIONE's discretion after receiving the notice of non- conformity.",
+                "explanation": "This change eliminates a defined timeframe for replacing non-conforming API, granting HOVIONE complete discretion. This is a legal contradiction because under the Uniform Commercial Code (UCC), which governs the sale of goods, sellers have an obligation to cure defects within a reasonable time. By removing a specific deadline and introducing complete discretion, the clause becomes potentially unenforceable and violates the UCC's implied warranty of merchantability and the right to cure defects within a reasonable timeframe.",
+                "contradicted_law": "Violation of the Uniform Commercial Code (UCC) provisions regarding the right to cure defects within a reasonable time and implied warranty of merchantability.",
+                "location": "Section 5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the term of this Agreement and for a period [*] after any expiration or termination of this Agreement, each of INTERSECT and HOVIONE shall maintain in full force and effect a comprehensive general liability insurance policy, including Products Liability coverage, with minimum limits of [*] for bodily injury including death.",
+                "changed_text": "During the term of this Agreement, INTERSECT and HOVIONE may, but are not required to, maintain general liability insurance, including Products Liability coverage, for bodily injury including death.",
+                "explanation": "This alteration makes insurance coverage optional, contradicting typical risk management practices and potentially violating regulatory requirements depending on the industry. While the original text leaves the specific period after termination blank, it clearly mandates insurance. The change removes this mandate. Depending on the nature of the API and Finished Product, there may be regulations (e.g., FDA regulations for pharmaceutical products) requiring manufacturers and distributors to maintain adequate insurance coverage. Making insurance optional could lead to significant liability exposure and potential non-compliance.",
+                "contradicted_law": "Potential violation of FDA regulations or other industry-specific regulations requiring manufacturers and distributors to maintain adequate insurance coverage, as well as general principles of risk management and duty of care.",
+                "location": "Section 9.1"
+            }
+        ]
+    }
+]

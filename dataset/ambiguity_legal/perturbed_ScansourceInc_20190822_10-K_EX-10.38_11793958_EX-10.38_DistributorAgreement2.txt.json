@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_DistributorAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Protection of Information. Customer agrees that aspects of the Software and associated Documentation, including the specific design and structure of individual programs, are trade secrets and/or copyrighted materials of Cisco, its suppliers or licensors. Customer shall not disclose, provide, or otherwise make available such trade secrets or copyrighted material in any form to any third party without the prior written consent of Cisco. Customer shall implement reasonable security measures to protect such trade secrets and copyrighted materials. Title to Software and Documentation shall remain solely with Cisco, its suppliers or licensors.",
+                "changed_text": "Protection of Information. Customer agrees that aspects of the Software and associated Documentation, including the specific design and structure of individual programs, are trade secrets and/or copyrighted materials of Cisco, its suppliers or licensors. Customer shall endeavor not to disclose, provide, or otherwise make available such trade secrets or copyrighted material in any form to any third party without the prior written consent of Cisco. Customer shall consider implementing security measures to protect such trade secrets and copyrighted materials. Title to Software and Documentation shall remain solely with Cisco, its suppliers or licensors.",
+                "explanation": "Changing 'agrees' to 'shall endeavor' makes the obligation to protect trade secrets less binding. Replacing 'shall implement reasonable security measures' with 'shall consider implementing security measures' introduces ambiguity and makes the security measures discretionary. This weakens the protection of Cisco's intellectual property.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "location": "Paragraph starting with 'Protection of Information'"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Customer Records. Customer grants to Cisco and its independent accountants the right to examine Customer's books, records and accounts during Customer's normal business hours to verify compliance with this Agreement. In the event such audit discloses non-compliance with this Agreement, Customer shall promptly pay to Cisco the appropriate license fees.",
+                "changed_text": "Customer Records. Customer may allow Cisco and its independent accountants to request examination of Customer's books, records and accounts during what Customer considers normal business hours to potentially verify compliance with this Agreement. In the event such a review suggests possible non-compliance with this Agreement, Customer will consider paying Cisco the suggested license fees.",
+                "explanation": "The original text created a definitive obligation, while the changed text makes the Customer's actions entirely discretionary. Terms like 'may allow', 'request examination', 'what Customer considers normal business hours', 'potentially verify compliance' and 'consider paying' significantly weaken Cisco's ability to audit for compliance and receive appropriate fees, creating an ambiguous and unenforceable situation.",
+                "contradicted_law": "Contract Law - Enforceability of Audit Clauses",
+                "location": "Paragraph starting with 'Customer Records'"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Export. Software, including technical data, may be subject to U.S. export control laws, including the U.S. Export Administration Act and its associated regulations, and may be subject to export or import regulations in other countries. Customer agrees to comply strictly with all such regulations and acknowledges that it has the responsibility to obtain licenses to export, re-export, or import Software.",
+                "changed_text": "Export. Software, including technical data, might be subject to U.S. export control laws, including the U.S. Export Administration Act and its associated regulations, and could be subject to export or import regulations in other countries. Customer should attempt to generally comply with such regulations and acknowledges that it may have some responsibility to seek licenses to export, re-export, or import Software.",
+                "explanation": "Changing 'may be subject' to 'might be subject' introduces uncertainty about whether export control laws apply. Replacing 'agrees to comply strictly' with 'should attempt to generally comply' weakens the obligation to comply with export regulations. Changing 'has the responsibility to obtain licenses' to 'may have some responsibility to seek licenses' makes the responsibility for obtaining export licenses unclear, potentially leading to violations of export control laws.",
+                "contradicted_law": "U.S. Export Administration Regulations (EAR)",
+                "location": "Paragraph starting with 'Export'"
+            }
+        ]
+    }
+]

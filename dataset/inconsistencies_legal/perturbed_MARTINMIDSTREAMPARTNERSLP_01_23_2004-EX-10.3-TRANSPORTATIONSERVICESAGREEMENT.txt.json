@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MARTINMIDSTREAMPARTNERSLP_01_23_2004-EX-10.3-TRANSPORTATIONSERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within 30 days of the end of the Initial Term, and within 30 days of the end of each Renewal Term, both parties hereto shall have the right renegotiate the fee specified below for the use of the vessels. If no such agreement on such fee is reached by such parties by the commencement of a Renewal Term, this Agreement shall automatically terminate.",
+                "changed_text": "Within 10 days of the end of the Initial Term, and within 10 days of the end of each Renewal Term, both parties hereto shall have the right renegotiate the fee specified below for the use of the vessels. If no such agreement on such fee is reached by such parties by the commencement of a Renewal Term, this Agreement shall automatically terminate.",
+                "explanation": "Reducing the renegotiation period to 10 days creates a potential legal issue if state laws provide for longer negotiation periods or impose requirements for good-faith negotiation, which 10 days may not satisfy. This also could be an issue if the initial term is a long term, because it would not allow the recipient to have an adequate amount of time to renegotiate or find another deal. This creates an unreasonable deadline and thus is unconscionable and unenforceable.",
+                "contradicted_law": "Contract Law Principles - Good Faith Negotiation, Unconscionability; Statute of Frauds if the contract falls under it requiring more formal renegotiation processes. ",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Owner will invoice such fees to Charterer on a monthly basis and Charterer will pay such invoiced amounts within 30 days of invoice date.",
+                "changed_text": "Owner will invoice such fees to Charterer on a monthly basis and Charterer will pay such invoiced amounts within 60 days of invoice date.",
+                "explanation": "Changing the payment term to 60 days from invoice date introduces a potential contradiction. Many jurisdictions have Prompt Payment Acts, which dictate payment timelines, especially in B2B transactions or government contracts. A 60-day payment term could be considered a violation of such acts if they mandate quicker payment timelines, for example, 30 or 45 days.",
+                "contradicted_law": "Texas Prompt Payment Act (if applicable depending on specific details of the transaction and parties involved), General Contract Law regarding reasonable time for payment.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party hereto shall have the right to terminate this Agreement in the event of a breach by the other party of its obligations hereunder, subject to 10 days prior written notice of such breach given by the non-breaching party to the breaching party and the opportunity for such breaching party to cure such breach during such 10 day period.",
+                "changed_text": "Either party hereto shall have the right to terminate this Agreement in the event of a breach by the other party of its obligations hereunder, subject to 3 days prior written notice of such breach given by the non-breaching party to the breaching party and the opportunity for such breaching party to cure such breach during such 3 day period.",
+                "explanation": "Reducing the cure period to 3 days may conflict with legal standards of 'reasonable opportunity to cure' a breach. Depending on the nature of the breach, 3 days might be deemed insufficient, particularly if significant corrective action is needed. This could lead to claims of wrongful termination.",
+                "contradicted_law": "Contract Law - Reasonable Opportunity to Cure Breach, Good Faith and Fair Dealing.",
+                "location": "Section 1"
+            }
+        ]
+    }
+]

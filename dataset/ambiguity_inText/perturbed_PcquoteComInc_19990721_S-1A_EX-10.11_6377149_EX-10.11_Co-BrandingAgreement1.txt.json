@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-BrandingAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "D. Any payments which have not been received by PCQ within thirty (30) days of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month which is a corresponding ANNUAL PERCENTAGE RATE of 12% on the outstanding balance.",
+                "changed_text": "D. Any payments which have not been received by PCQ within thirty (30) days of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month which is a corresponding ANNUAL PERCENTAGE RATE of 12% on the outstanding balance. However, PCQ may, at its sole discretion, waive this finance charge for the first instance of late payment.",
+                "explanation": "The original text specifies a mandatory finance charge for late payments. The modified text introduces an exception, allowing PCQ to waive the charge at its discretion. This creates a contradiction as it's unclear when the finance charge is actually applicable, potentially leading to disputes over payment terms.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "ABW agrees to include the following in the co-branded pages displaying quotes:  \"All quotes provided by PC Quote, Inc.\"  ABW also agrees to include the following disclaimer on the access page to the co-branded service:\n\n         \"PC Quote is not subject to liability for truth, accuracy, or           completeness of the market data information nor is PC Quote liable           for errors, mistakes or omissions in the data or for any delays or           interruptions in the end user's receipt of the data.  PC Quote does           not warrant that the data provided may be relied upon for trading           purposes.\"",
+                "changed_text": "ABW agrees to include the following in the co-branded pages displaying quotes:  \"All quotes provided by PC Quote, Inc.\"  ABW also agrees to include a disclaimer on the access page to the co-branded service, the specific wording of which will be mutually agreed upon by both parties on a quarterly basis. In the absence of a mutually agreed upon disclaimer, the standard industry disclaimer, as determined by ABW, shall be used.",
+                "explanation": "The original text provides a specific disclaimer that ABW must include. The modified text introduces a requirement for both parties to agree on the disclaimer quarterly, and if they fail to agree, ABW uses a 'standard industry disclaimer'. This contradicts the original fixed disclaimer, creating uncertainty over what disclaimers are actually valid and enforceable, particularly if ABW chooses a disclaimer that is less protective of PCQ.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Notwithstanding the provisions of (A), and (B) above, should a party to this Agreement be in material breach of the Agreement, the other party may terminate the Agreement thirty (30) days after notice of said material breach is received, and only if such material breach is not cured within thirty (30) days of receipt of notice.",
+                "changed_text": "Notwithstanding the provisions of (A), and (B) above, should a party to this Agreement be in material breach of the Agreement, the other party may terminate the Agreement thirty (30) days after notice of said material breach is received, and only if such material breach is not cured within thirty (30) days of receipt of notice. However, PCQ's failure to provide the HYPERFEED as outlined in Section 1A will not be considered a material breach unless the interruption lasts for more than 72 hours continuously.",
+                "explanation": "The original text states that any material breach allows for termination after a 30-day cure period. The modified text adds a specific exception for PCQ's HYPERFEED failure, stating it's only a material breach if the interruption lasts for more than 72 hours. This creates a contradiction: a failure to provide HYPERFEED *could* be a material breach under the general clause, but *isn't* under the specific exception unless it exceeds the 72-hour threshold. This could lead to disputes over whether a shorter interruption constitutes a breach.",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

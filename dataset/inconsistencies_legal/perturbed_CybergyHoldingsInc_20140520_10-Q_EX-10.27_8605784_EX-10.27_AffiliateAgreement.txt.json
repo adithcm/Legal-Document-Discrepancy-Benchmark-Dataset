@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be terminated by either party at the expiration of its term or any renewal term upon thirty (30) days written notice to the other party. Company acknowledges that this Agreement shall not be terminated for MA's failure to follow an operating plan, standard procedure, training manual, or substantial equivalent published in Paragraph 3 (k) of this Agreement, except that Company does reserve the right to terminate this Agreement for MA's failure to follow required procedures relating to the processing of sales contracts, invoices and billing related to Technology sold under this Agreement.",
+                "changed_text": "This Agreement may be terminated by either party at any time with no prior written notice. Company acknowledges that this Agreement shall not be terminated for MA's failure to follow an operating plan, standard procedure, training manual, or substantial equivalent published in Paragraph 3 (k) of this Agreement, except that Company does reserve the right to terminate this Agreement for MA's failure to follow required procedures relating to the processing of sales contracts, invoices and billing related to Technology sold under this Agreement.",
+                "explanation": "The modified text allows either party to terminate the agreement at any time without any prior written notice. This contradicts the principle of providing adequate notice for contract termination, potentially violating legal standards that require reasonable notice periods to avoid undue hardship or disruption of business operations. Many jurisdictions mandate a reasonable notice period, which is fact-dependent but is almost certainly longer than zero days.",
+                "contradicted_law": "General Contract Law - Requirement for reasonable notice of termination",
+                "location": "18.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Material breach of any covenant, term, condition or other provisions of this Agreement, which breach is not remedied within ten (10) days after notice of such breach is received by the breaching party;",
+                "changed_text": "Material breach of any covenant, term, condition or other provisions of this Agreement, which breach is not remedied within two (2) days after notice of such breach is received by the breaching party;",
+                "explanation": "The original text allows a 10-day cure period for a material breach. Reducing this cure period to two days creates an unreasonable and potentially unlawful standard. Many jurisdictions recognize the right to cure a breach of contract, and require a reasonable time to do so. Two days is likely insufficient, especially for complex breaches, making the clause potentially unenforceable and contradictory to legal norms.",
+                "contradicted_law": "General Contract Law - Right to cure a breach; reasonableness standards.",
+                "location": "18.2 (a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "MA shall return any and all full and/or partial copies of material related to the Technology, including demonstrations of the Technology, in MA's possession or under its control to Company within ten (10) days following the termination or cancellation date of this Agreement;",
+                "changed_text": "MA shall return any and all full and/or partial copies of material related to the Technology, including demonstrations of the Technology, in MA's possession or under its control to Company within one (1) day following the termination or cancellation date of this Agreement;",
+                "explanation": "Reducing the time frame for returning materials to one day after termination is likely to be unreasonable, particularly if the MA has a large amount of material or is geographically distant from the company. This short time frame does not allow sufficient time for proper inventory, packaging, and shipping, potentially conflicting with fairness and reasonableness standards in contract law. A court could find that this unreasonably burdens the MA.",
+                "contradicted_law": "General Contract Law - Reasonableness and fairness in contract terms.",
+                "location": "18.3 (b)"
+            }
+        ]
+    }
+]

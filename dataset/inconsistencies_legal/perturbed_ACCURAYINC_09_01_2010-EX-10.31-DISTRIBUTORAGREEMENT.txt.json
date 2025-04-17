@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5.4.1.1.1. US $100,000 (non-refundable but, in case of cancellation of the Purchase Order, automatically applied to Distributor's next purchase of a System) upon Accuray's acceptance of the Purchase Order, which must be at least four (4) months prior to the Distributor's proposed shipment date; and",
+                "changed_text": "5.4.1.1.1. US $100,000 (non-refundable under any circumstances) upon Accuray's acceptance of the Purchase Order, which must be at least four (4) months prior to the Distributor's proposed shipment date; and",
+                "explanation": "Making the deposit completely non-refundable, even in cases where Accuray fails to deliver or breaches the contract, contradicts fundamental principles of contract law. Under German law, where the contract is governed as per section 12.1, such a clause would likely be deemed unconscionable and unenforceable under § 307 BGB (German Civil Code) because it unreasonably disadvantages the distributor.",
+                "contradicted_law": "§ 307 BGB (German Civil Code)",
+                "location": "5.4.1.1.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.6.1. Scope of Warranty. Accuray will provide a warranty to each Customer that the Products will be free from material defects and perform substantially in accordance with the written Specifications provided by Accuray as reflected in the regulatory clearance at the time of sale for a period of one (1) year following Installation of the Products at Customer's facility, but not to exceed eighteen (18) months following shipment of such Products to Distributor (\"Warranty Period\").",
+                "changed_text": "4.6.1. Scope of Warranty. Accuray will provide a warranty to each Customer that the Products will be free from material defects and perform substantially in accordance with the written Specifications provided by Accuray as reflected in the regulatory clearance at the time of sale for a period of six (6) months following Installation of the Products at Customer's facility, but not to exceed twelve (12) months following shipment of such Products to Distributor (\"Warranty Period\").",
+                "explanation": "Reducing the warranty period to six months may be deemed unreasonable and could violate mandatory warranty provisions or consumer protection laws, particularly in jurisdictions with minimum warranty requirements. The original text uses 'one (1) year' which can be argued to align with consumer protection laws, decreasing the time frame to six (6) months may be perceived as an effort to circumvent liability. This is particularly of concern because of the medical application of the product and because the system is complex.",
+                "contradicted_law": "Potentially violates implied warranty laws and consumer protection regulations varying by jurisdiction but pertinent in Germany where the Distributor has registered offices.",
+                "location": "4.6.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "2.3.3. Purchase. To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order, which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval.",
+                "changed_text": "2.3.3. Purchase. To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order, which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray's acceptance or rejection of such Purchase Order shall be at Accuray's sole discretion and may take up to 90 days after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting approval.",
+                "explanation": "Extending the period for Accuray to accept or reject a Purchase Order to 90 days could be considered commercially unreasonable and potentially contradict principles of good faith and fair dealing under German law. The standard period for acceptance under German Law is considerably shorter. By including that the failure to act means approval will contradict the earlier part of that same sentence. This creates ambiguity and could give rise to misrepresentation.",
+                "contradicted_law": "Violates principles of good faith and fair dealing; inconsistent with reasonable acceptance periods under German commercial law.",
+                "location": "2.3.3"
+            }
+        ]
+    }
+]

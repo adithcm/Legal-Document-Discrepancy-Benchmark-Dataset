@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "RemarkHoldingsInc_20081114_10-Q_EX-10.24_2895649_EX-10.24_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Excess Royalties are earned before all Payments/Advances have been paid, the Excess Royalties will be deducted from future Payments/Advances. In the event that Royalties are [*] than Payments/Advances, [*]. By way of example, if the calculated Royalties for 2008 are $[*]. Royalty statements shall be final and accepted by the parties unless World Book has, in good faith, notified HSWI of the amount and specific reasons for the dispute within [*] ([*]) days from the date of the statement.",
+                "changed_text": "If Excess Royalties are earned before all Payments/Advances have been paid, the Excess Royalties will be deducted from future Payments/Advances. In the event that Royalties are [*] than Payments/Advances, [*]. By way of example, if the calculated Royalties for 2008 are $[*]. Royalty statements shall be final and accepted by the parties without opportunity for dispute from the date of the statement.",
+                "explanation": "The original text allows a period ([*] days) for disputing royalty statements. The modified text eliminates this dispute period, requiring immediate acceptance of statements. This contradicts general contract law principles of good faith and fair dealing, and potentially specific state laws regarding reasonable opportunity to review financial records. This can also violate accounting standards.",
+                "contradicted_law": "General contract law principles of good faith and fair dealing; potential violation of state laws regarding accounting practices and dispute resolution.",
+                "location": "4.1(iii)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be terminated by a party in the event of:   (i) any material default in, or material breach of, any of the material terms and conditions of this Agreement by the other party, which default continues in effect after the defaulting party has been provided with written notice of default and sixty (60) days to cure such default;",
+                "changed_text": "This Agreement may be terminated by a party in the event of:   (i) any material default in, or material breach of, any of the material terms and conditions of this Agreement by the other party, which default continues in effect after the defaulting party has been provided with written notice of default and ten (10) days to cure such default;",
+                "explanation": "The original text provides a 60-day cure period for material breaches. The modified text reduces this to 10 days. Depending on the nature of the breach and the governing law (New York), a 10-day cure period may be deemed unreasonably short, particularly for complex contractual breaches requiring significant remedial action. This could be seen as unconscionable and unenforceable, especially for smaller breaches that require more time to rectify.",
+                "contradicted_law": "Contract law principles of reasonableness and fairness; potential conflict with state laws regarding cure periods in commercial contracts.",
+                "location": "6.2(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon the expiration or termination of this Agreement, HSWI shall pay World Book all amounts due and owing up to the date of termination, within [*] ([*]) days after such expiration or termination.",
+                "changed_text": "Upon the expiration or termination of this Agreement, HSWI shall pay World Book all amounts due and owing up to the date of termination, within 1 day after such expiration or termination.",
+                "explanation": "The original text allows a period ([*] days) for payment after termination. The modified text reduces this to 1 day. Depending on the amount owed, and the governing laws in place for payment deadlines (New York), a 1-day deadline may be deemed unreasonably short, particularly if it necessitates immediate fund transfers or reconciliation. ",
+                "contradicted_law": "Contract law principles of reasonableness and fairness; potential conflict with state laws regarding payment deadlines in commercial contracts.",
+                "location": "6.3"
+            }
+        ]
+    }
+]

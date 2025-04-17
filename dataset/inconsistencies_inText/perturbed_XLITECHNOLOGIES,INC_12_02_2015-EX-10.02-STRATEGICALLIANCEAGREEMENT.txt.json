@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "XLITECHNOLOGIES,INC_12_02_2015-EX-10.02-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+                "changed_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" to sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\". These reserved rights can be revoked at any time by BOSCH with 30 days written notice. The exclusive distribution license rights are perpetual and cannot be revoked.",
+                "explanation": "This introduces a contradiction. Section 5 initially grants both 'Exclusive Distribution License Rights' and 'Reserved Rights' without specifying conditions for revocation of the exclusive rights. By adding a clause that allows BOSCH to revoke the 'Reserved Rights' with 30 days' notice, while stating the 'Exclusive Distribution License Rights' are perpetual, it creates uncertainty. A potential dispute arises: could the exclusive rights be effectively undermined by the revocation of the reserved rights, depending on how crucial the reserved rights are for distribution? Or does perpetual truly mean perpetual and unchangeable?",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6. EXCLUSIVE RIGHTS: Bosch hereby grants to Client the exclusive rights to sell and distribute the Product, subject to the Territory as set forth below, to certain select companies in the Automotive Industry, each of which shall be approved by Bosch in writing as requested by the Client on a case by case basis.",
+                "changed_text": "6. EXCLUSIVE RIGHTS: Bosch hereby grants to Client the exclusive rights to sell and distribute the Product, subject to the Territory as set forth below, to certain select companies in the Automotive Industry, each of which shall be approved by Bosch in writing as requested by the Client on a case by case basis. However, Bosch reserves the right to independently sell the Product to any companies within the Automotive Industry, even if they are on Client's approved list, upon paying Client a 5% commission on those sales.",
+                "explanation": "This adds a contradiction to the definition of 'Exclusive Rights'. Initially, Section 6 grants exclusive rights to the Client to sell to approved automotive companies. The added clause allows BOSCH to also sell to those companies, undermining the exclusivity. While a 5% commission is offered, it creates uncertainty and conflict. Does 'exclusive' truly mean exclusive if BOSCH can also sell in that market? This is a clear in-text contradiction regarding the scope and enforcement of the 'Exclusive Rights'.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations. This is in concert and approval with BOSCH and is limited to any and all of BOSCH's current clients. CLIENT will not exercise nor authorize any other Party to to take any action which would reasonably be deemed to derogate from, impair or compete with the Exclusive Rights, Reserved rights, and Rights Granted herein granted.",
+                "changed_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations, *except* for the specific entities within the Automotive Industry covered by Section 6's Exclusive Rights granted to Client. This is in concert and approval with BOSCH and is limited to any and all of BOSCH's current clients. CLIENT will not exercise nor authorize any other Party to to take any action which would reasonably be deemed to derogate from, impair or compete with the Exclusive Rights, Reserved rights, and Rights Granted herein granted. Notwithstanding the above, BOSCH reserves the right to solicit business from any client regardless of prior dealings, if any, with Client.",
+                "explanation": "Section 8 initially defines 'Reserved Rights' broadly. The initial clause of the modified text tries to clarify that the Automotive Industry mentioned in Section 6 is excluded. However, the *notwithstanding* clause then completely contradicts both this clarification *and* Section 5 & 6, by giving BOSCH the explicit right to solicit business from *any* client, regardless of any supposed exclusivity granted to the Client. This creates significant confusion and undermines the entire premise of the exclusive rights, and generates uncertainty about which clients Client is protected with.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

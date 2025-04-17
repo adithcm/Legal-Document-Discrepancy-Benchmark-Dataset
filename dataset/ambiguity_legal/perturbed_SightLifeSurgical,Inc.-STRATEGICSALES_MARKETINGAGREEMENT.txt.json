@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SightLifeSurgical,Inc.-STRATEGICSALES_MARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Surgical shall perform the Services in compliance with all applicable federal, state and local laws and regulations.",
+                "changed_text": "Surgical shall endeavor to perform the Services in general accordance with applicable federal, state, and local laws and regulations.",
+                "explanation": "Replacing 'shall perform... in compliance with' with 'shall endeavor to perform... in general accordance with' introduces ambiguity and weakens the obligation to strictly comply with all laws and regulations. 'Endeavor' suggests an effort rather than a guarantee of compliance, and 'general accordance' implies that deviations are acceptable. This contradicts the legal requirement for strict adherence to regulations.",
+                "contradicted_law": "Various state and federal laws including FDA regulations and anti-kickback statutes which require strict compliance, not just a general effort.",
+                "location": "1.2(b)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Surgical agrees that it shall disclose promptly to Imprimis all inventions, ideas, concepts, and discoveries, including but not limited to processes, methods, formulas, biological materials, specimens, chemical compounds, formulations, software, data, techniques, products, applications, systems, procedures, technical information, drawings, reports and designs as well as improvements and modifications thereof and know-how thereto (whether  or not protectable by copyright, patent, trademark, trade secret or any other proprietary rights), that it makes, conceives of, discovers or develops as a result of the receipt of Confidential Information (as defined in the Confidentiality Agreement referenced in Section 6 below) (\"Work Product\"). Surgical agrees that all Work Product shall be the sole and exclusive property of Imprimis.",
+                "changed_text": "Surgical will use reasonable discretion to disclose to Imprimis inventions, ideas, concepts, and discoveries related to Work Product. Surgical agrees that Imprimis should generally own the Work Product.",
+                "explanation": "The original text created a strict obligation to disclose all work product promptly. The modified text replaces 'shall disclose promptly' with 'will use reasonable discretion to disclose', allowing Surgical to decide what and when to disclose. 'Reasonable discretion' is vague and creates uncertainty. Furthermore, replacing 'shall be the sole and exclusive property' with 'should generally own' significantly weakens Imprimis's ownership rights, making them non-exclusive and uncertain.",
+                "contradicted_law": "Intellectual property law, which requires clear assignment of ownership for inventions and discoveries. The vague language undermines the enforceability of IP assignment.",
+                "location": "5"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Surgical and its employees shall conduct all activities under this Agreement or relating to the Product in accordance with all applicable laws and regulations and all quality standards, protocols and systems established by Imprimis from time to time therefor.",
+                "changed_text": "Surgical and its employees will attempt to conduct activities relating to the Product in alignment with applicable laws and regulations and Imprimis's quality standards, protocols and systems.",
+                "explanation": "Changing 'shall conduct... in accordance with' to 'will attempt to conduct... in alignment with' introduces a lower standard of compliance. 'Attempt' suggests effort but not necessarily achievement, and 'alignment with' is less stringent than 'in accordance with,' indicating that deviations may be acceptable. This contradicts the requirements of various regulations that demand strict compliance, not just an attempt to align activities.",
+                "contradicted_law": "FDA regulations, HIPAA, and other regulatory frameworks that demand strict adherence, which requires strict compliance, not just an attempt to align activities.",
+                "location": "9"
+            }
+        ]
+    }
+]

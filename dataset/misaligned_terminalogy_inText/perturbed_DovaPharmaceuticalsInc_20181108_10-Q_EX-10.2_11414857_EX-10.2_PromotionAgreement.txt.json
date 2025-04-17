@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.54 \"Sales Representative\" shall mean an individual employed and compensated by Valeant as a full-time employee as part of its sales forces and who engages in Detailing of the Designated Product (or the Alternate Product, as the case may be) in the Territory, and who is also trained with respect to the Product in accordance with this Agreement (including the Product Labeling and the use of the Promotional Materials) to deliver Details for the Product in the Field in the Territory.",
+                "changed_text": "1.54 \"Sales Representative\" shall mean an individual contracted by Valeant as a full-time employee as part of its sales forces and who engages in Detailing of the Designated Product (or the Alternate Product, as the case may be) in the Territory, and who is also trained with respect to the Product in accordance with this Agreement (including the Product Labeling and the use of the Promotional Materials) to deliver Details for the Product in the Field in the Territory.",
+                "explanation": "Changing 'employed and compensated' to 'contracted' creates ambiguity. The agreement hinges on the behavior of Sales Representatives. Changing their employment status affects liability. This change creates uncertainty in enforcement because the type of employment relationship between Valeant and the Sales Representatives is not consistent.",
+                "location": "ARTICLE 1 DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4.1.2 Number of Sales Representatives. Without limiting the generality of the foregoing, [***]) and continuing throughout the remainder of the Term, Valeant shall maintain at least one hundred (100) Sales Representatives with responsibility to Detail the Product in the Specialty in the Territory.",
+                "changed_text": "4.1.2 Number of Marketing Personnel. Without limiting the generality of the foregoing, [***]) and continuing throughout the remainder of the Term, Valeant shall maintain at least one hundred (100) Sales Representatives or Marketing Personnel with responsibility to Detail the Product in the Specialty in the Territory.",
+                "explanation": "By changing \"Sales Representatives\" to \"Sales Representatives or Marketing Personnel,\" Valeant could fulfill its obligation by using marketing personnel who may not be trained or equipped to perform the detailing activities required by the agreement, contradicting the specific requirements for 'Sales Representatives' elsewhere in the contract. It is not clear if 'Marketing Personnel' has the same constraints and definition. This undermines the intent of having dedicated and trained sales representatives.",
+                "location": "ARTICLE 4 VALEANT ACTIVITIES FOR THE PRODUCT"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4.4.1 Training, Training Materials and Promotional Materials. (a) Subject to the terms of this Section 4.4.1, Dova shall prepare and control the content of (i) all Product training materials for Field Force Personnel (the \"Product Training Materials\") and (ii) all Product marketing and educational materials (the \"Promotional Materials\") (the Product Training Materials and the Promotional Materials, collectively, the \"Product Materials\").",
+                "changed_text": "4.4.1 Training, Training Materials and Promotional Materials. (a) Subject to the terms of this Section 4.4.1, Dova shall prepare and control the content of (i) all Product training materials for Sales Representatives (the \"Product Training Materials\") and (ii) all Product marketing and educational materials (the \"Promotional Materials\") (the Product Training Materials and the Promotional Materials, collectively, the \"Product Materials\").",
+                "explanation": "Changing “Field Force Personnel” to “Sales Representatives” restricts the applicability of training to only Sales Representatives, while other personnel involved in promoting the product, such as institutional account managers mentioned in Section 4.1.5, may not receive the necessary training. This undermines the quality and consistency of product promotion, making enforcement of training obligations uncertain.",
+                "location": "ARTICLE 4 VALEANT ACTIVITIES FOR THE PRODUCT"
+            }
+        ]
+    }
+]

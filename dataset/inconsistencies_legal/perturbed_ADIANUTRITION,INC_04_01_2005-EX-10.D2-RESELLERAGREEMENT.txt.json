@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All payments to PivX shall be made within thirty (30) days after the receipt by Detto of the PivX's invoice. Detto shall pay PivX a late charge on outstanding amounts due equal to one and one-half percent (1.50%) per month or the maximum amount allowed by law, whichever is less.",
+                "changed_text": "All payments to PivX shall be made within sixty (60) days after the receipt by Detto of the PivX's invoice. Detto shall pay PivX a late charge on outstanding amounts due equal to three percent (3.0%) per month on outstanding amounts due.",
+                "explanation": "The modification extends the payment period to 60 days, which may conflict with standard business practices and prompt payment laws in some jurisdictions that favor shorter payment terms, creating uncertainty and potential disputes. Increasing the late charge to 3% per month, which is 36% annually, could be considered usurious and violate state usury laws that set maximum interest rates on debts.",
+                "contradicted_law": "State Usury Laws",
+                "location": "3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Detto shall inspect all software delivered to it, upon receipt and shall, within 10 days of receipt, give written notice to PivX of any claim of damage or missing portions. Should Detto fail to give such notice, or fail to obtain an extension of such 10-day period from PivX, the packages shall be deemed to be accepted by Detto.",
+                "changed_text": "Detto shall inspect all software delivered to it, upon receipt and shall, within 2 days of receipt, give written notice to PivX of any claim of damage or missing portions. Should Detto fail to give such notice, or fail to obtain an extension of such 2-day period from PivX, the packages shall be deemed to be accepted by Detto.",
+                "explanation": "Reducing the inspection period to 2 days is unreasonable, especially for complex software. This unreasonably short inspection window may be deemed unconscionable and unenforceable, particularly if defects are not immediately apparent. It also reduces the legal protection the buyer has to claim defects.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Implied Warranty of Merchantability",
+                "location": "3.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The term of this Agreement shall commence on the Effective Date and continue for six (6) months.",
+                "changed_text": "The term of this Agreement shall commence on the Effective Date and continue in perpetuity.",
+                "explanation": "Changing the term to 'in perpetuity' creates an unreasonable duration, potentially conflicting with laws against contracts with no defined end. Courts often disfavor contracts with no termination date, especially in reseller agreements where market conditions change rapidly, thus making the contract potentially unenforceable.",
+                "contradicted_law": "Contract Law - Requirement for Definite Term",
+                "location": "5.1"
+            }
+        ]
+    }
+]

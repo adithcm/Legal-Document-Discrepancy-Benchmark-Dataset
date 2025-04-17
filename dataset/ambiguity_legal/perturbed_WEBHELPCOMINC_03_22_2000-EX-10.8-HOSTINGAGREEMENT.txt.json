@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Customer shall be responsible for maintaining the confidentiality of such passwords and shall permit only authorized employees of Customer to access the eGain System.",
+                "changed_text": "Customer shall endeavor to maintain the confidentiality of such passwords and should generally permit authorized employees of Customer to access the eGain System.",
+                "explanation": "The original text clearly states the customer 'shall be responsible' and 'shall permit', which are mandatory obligations. The modified text introduces ambiguity by using 'shall endeavor' and 'should generally permit.' 'Shall endeavor' weakens the obligation to maintain confidentiality, as it suggests an effort rather than a guarantee. 'Should generally permit' makes the access control discretionary, opening the door to potential breaches without clear accountability. This undermines data security requirements by making password control and authorized access non-compulsory.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA) and other data protection laws, which require businesses to implement and maintain reasonable security procedures and practices to protect personal information. These laws often mandate strict access controls and confidentiality measures, not just general efforts.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "eGain will use commercially reasonable efforts to adequately maintain, and upgrade as necessary, the eGain System to provide the Hosting Services to its customers.",
+                "changed_text": "eGain will aim to maintain, and potentially upgrade, the eGain System to provide the Hosting Services to its customers.",
+                "explanation": "The original text states eGain will use 'commercially reasonable efforts' to 'adequately maintain' and 'upgrade as necessary'. The changed version alters this to 'aim to maintain' and 'potentially upgrade'. 'Aim to maintain' is less binding than 'commercially reasonable efforts to adequately maintain', suggesting a goal rather than a firm commitment. 'Potentially upgrade' weakens the obligation to upgrade, making it discretionary even when upgrades are necessary to maintain service quality. This undermines the reliability and security of the services provided, potentially violating implied warranties of fitness.",
+                "contradicted_law": "Implied warranty of fitness for a particular purpose under California law, which requires that goods or services sold are suitable for the purpose for which they are intended. By making maintenance and upgrades discretionary, the contract creates uncertainty about whether the services will remain fit for their intended purpose.",
+                "location": "Section 6.4"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Notices under this Agreement shall be in writing, addressed to the party at its last-provided address, and shall be deemed given when delivered personally, or by e-mail (with confirmation of receipt) or conventional mail (registered or certified, postage prepaid with return receipt requested).",
+                "changed_text": "Notices under this Agreement may be in writing, possibly addressed to the party at an address, and may be considered given when sent by a method.",
+                "explanation": "The original text establishes clear requirements for notices: they 'shall' be in writing, addressed to a specific address, and deemed given upon specific methods of delivery. The modified text introduces substantial ambiguity. 'May be in writing' makes written notice optional. 'Possibly addressed to an address' removes the certainty of where the notice should be sent. 'May be considered given when sent by a method' makes the method of delivery and the confirmation of receipt unclear, undermining the legal certainty of notice. This creates potential disputes about whether proper notice was given, affecting the enforceability of the contract.",
+                "contradicted_law": "Contract law principles requiring clear and unambiguous notice provisions. Ambiguous notice provisions can render contract terms unenforceable because it is unclear how parties are expected to communicate legally binding information. In California, contract ambiguities are typically construed against the drafter, but this ambiguity makes it difficult to determine if notice was properly given.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

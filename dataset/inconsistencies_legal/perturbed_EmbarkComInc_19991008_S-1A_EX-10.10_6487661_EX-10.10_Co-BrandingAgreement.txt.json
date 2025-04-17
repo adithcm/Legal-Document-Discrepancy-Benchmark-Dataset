@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EmbarkComInc_19991008_S-1A_EX-10.10_6487661_EX-10.10_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the Term, and for a period of five (5) years thereafter, the receiving party will not disclose to others or use for any purpose of its own, other than in performance of this Agreement, any Confidential Information of the other party. Each party shall take, at a minimum, measures consistent with those taken to protect its own similar types of Confidential Information (and in any event, at least reasonable measures) to protect the other's Confidential Information against disclosures prohibited by this Agreement.",
+                "changed_text": "During the Term, the receiving party will not disclose to others or use for any purpose of its own, other than in performance of this Agreement, any Confidential Information of the other party. Each party shall take only those measures it deems necessary to protect the other's Confidential Information against disclosures prohibited by this Agreement.",
+                "explanation": "The original clause stipulated a five-year confidentiality period post-termination. The modified version eliminates this fixed term, potentially conflicting with trade secret laws. Under California law, trade secrets can be protected indefinitely as long as they remain secret and provide economic value. Eliminating a defined post-term confidentiality period could be interpreted as a failure to take reasonable measures to protect trade secrets, thereby jeopardizing their legal protection. The change to 'measures it deems necessary' also introduces ambiguity and could be seen as insufficient under California's Uniform Trade Secrets Act (CUTSA), which requires reasonable efforts to maintain secrecy.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "location": "SECTION 8.1 CONFIDENTIALITY"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate the Term upon not less than sixty (60) days prior written notice to the other party of any breach hereof by such other party.",
+                "changed_text": "Either party may terminate the Term upon ten (10) days prior written notice to the other party of any breach hereof by such other party.",
+                "explanation": "Reducing the notice period for termination due to breach to ten days may be considered unreasonably short, especially in a complex commercial agreement. While California law generally allows parties to contractually agree to notice periods, courts may find a ten-day notice period to be unconscionable or insufficient to allow the breaching party a reasonable opportunity to cure the breach, especially if the breach involves complex issues. This could lead to legal challenges regarding the validity of the termination.",
+                "contradicted_law": "General Contract Law Principles - Reasonableness of Notice",
+                "location": "SECTION 4.2 TERMINATION"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Sponsor hereby irrevocably consents to personal jurisdiction and venue in the state and federal courts located in San Francisco, California with respect to any actions, claims or proceedings arising out of or in connection with this Agreement.",
+                "changed_text": "Sponsor hereby consents to personal jurisdiction and venue in the courts of its choosing with respect to any actions, claims or proceedings arising out of or in connection with this Agreement.",
+                "explanation": "By allowing the 'Sponsor' to choose any court they want, this clause introduces a risk of non-compliance with California's rules on venue and jurisdiction. California Code of Civil Procedure Section 395 generally requires that actions be brought in the county where the defendant resides or has its principal place of business, or where the obligation was to be performed, or where the injury occurred. This modification lets the Sponsor disregard this and go to a court that does not have jurisdiction. This is not always the case, but in some instances, depending on what court the Sponsor chooses, this will violate the State's rules and laws.",
+                "contradicted_law": "California Code of Civil Procedure Section 395",
+                "location": "SECTION 8.4 CHOICE OF LAW; FORUM SELECTION"
+            }
+        ]
+    }
+]

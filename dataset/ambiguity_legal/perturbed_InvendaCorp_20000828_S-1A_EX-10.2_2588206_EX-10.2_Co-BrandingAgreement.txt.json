@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Application Provider will retain all right, title and interest in and to its trademarks, service marks and trade names worldwide, subject to the limited license granted to Excite@Home in Section 11(c)  [TRADEMARK OWNERSHIP AND LICENSE] below.",
+                "changed_text": "Application Provider will endeavor to retain right, title and interest in its trademarks, service marks and trade names worldwide, subject to the limited license granted to Excite@Home in Section 11(c)  [TRADEMARK OWNERSHIP AND LICENSE] below.",
+                "explanation": "Changing 'will retain' to 'will endeavor to retain' introduces ambiguity. 'Endeavor' is a subjective term, implying an attempt rather than a guarantee of maintaining ownership, potentially conflicting with intellectual property laws requiring clear and consistent assertion of ownership.",
+                "contradicted_law": "Trademark Law (Lanham Act in the US) requires consistent use and enforcement of trademarks to maintain rights.",
+                "location": "Section 11(a)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each party agrees (i) that it will not disclose to any third party or use any Confidential Information disclosed to it by the other except as expressly permitted in this Agreement and (ii) that it will take all reasonable measures to maintain the confidentiality of all Confidential Information of the other party in its possession or control, which will in no event be less than the measures it uses to maintain the confidentiality of its own information of similar importance.",
+                "changed_text": "Each party acknowledges that it will try not to disclose to any third party or use any Confidential Information disclosed to it by the other except as permitted. It will also attempt to take measures to maintain the confidentiality of all Confidential Information, which measures may be similar to the measures it uses to maintain its own information.",
+                "explanation": "This change uses words like 'try not to disclose' and 'attempt to take measures' which are vague and make the obligation to protect confidential information less stringent. It also replaces the 'not less than' clause with 'may be similar to' introducing further ambiguity and potentially failing to meet industry standards for data protection.",
+                "contradicted_law": "Trade Secrets Law, which requires reasonable and consistent efforts to maintain confidentiality.",
+                "location": "Section 18(c)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Agreement will be governed by and construed in accordance with the laws of the State of California, notwithstanding the actual state or country of residence or incorporation of Application Provider.",
+                "changed_text": "The parties hope that the Agreement will generally align with the spirit of the laws of the State of California, with possible consideration for the location of Application Provider.",
+                "explanation": "The phrase 'hope that the Agreement will generally align with the spirit of the laws' creates significant ambiguity and moves away from strict legal compliance. Adding 'with possible consideration for the location of Application Provider' contradicts the certainty and enforceability of choosing California law, as the location of the Application provider is a non-factor. This could render dispute resolution unpredictable.",
+                "contradicted_law": "Contract Law principles on Governing Law, which requires a clear and unambiguous choice of jurisdiction.",
+                "location": "Section 22(a)"
+            }
+        ]
+    }
+]

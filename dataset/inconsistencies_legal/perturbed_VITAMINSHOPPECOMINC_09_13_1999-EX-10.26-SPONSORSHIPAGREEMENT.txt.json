@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VITAMINSHOPPECOMINC_09_13_1999-EX-10.26-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will pay Excite these revenue share payments within thirty (30) days after the close of the financial quarter in which Client recognizes the Net Revenue on these transactions.",
+                "changed_text": "Client will pay Excite these revenue share payments within sixty (60) days after the close of the financial quarter in which Client recognizes the Net Revenue on these transactions.",
+                "explanation": "Changing the payment terms to 60 days after the close of the financial quarter, where payment should be within 30 days as this violates California's Prompt Payment Laws.",
+                "contradicted_law": "California Prompt Payment Laws",
+                "location": "Section 7(g)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement if the other party materially breaches its obligations hereunder and such breach remains uncured for thirty (30) days following the notice to the breaching party of the breach.",
+                "changed_text": "Either party may terminate this Agreement if the other party materially breaches its obligations hereunder and such breach remains uncured for ten (10) days following the notice to the breaching party of the breach.",
+                "explanation": "Reducing the cure period for a material breach to 10 days may be considered unreasonable and contradict general contract law principles which often imply a reasonable cure period, potentially longer than 10 days.",
+                "contradicted_law": "General Contract Law - Reasonable Cure Period",
+                "location": "Section 9(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client will not use User Data to specifically target any Excite and/or WebCrawler users, as distinct from all users of the Client Site, for solicitations (except as specifically provided in this Agreement), either individually or in the aggregate, during the term of this Agreement and for a period of twelve (12) months following the expiration or termination of this Agreement.",
+                "changed_text": "Client will not use User Data to specifically target any Excite and/or WebCrawler users, as distinct from all users of the Client Site, for solicitations (except as specifically provided in this Agreement), either individually or in the aggregate, during the term of this Agreement and for a period of twenty-four (24) months following the expiration or termination of this Agreement.",
+                "explanation": "Extending the restriction on using user data for solicitations to 24 months after termination, especially in the context of California's Consumer Privacy Act (CCPA), may be seen as an unreasonably long period and could conflict with consumer rights regarding data usage and purpose limitation. The CCPA emphasizes the right of consumers to control their personal information.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "location": "Section 12(i)"
+            }
+        ]
+    }
+]

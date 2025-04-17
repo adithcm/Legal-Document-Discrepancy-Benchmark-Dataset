@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such fees and expenses will be due and payable by the later of the fifteenth (15 ) day of every month or fifteen (15) days after the date such invoice is received.",
+                "changed_text": "Such fees and expenses will be due and payable by the later of the sixtieth (60th) day of every month or sixty (60) days after the date such invoice is received.",
+                "explanation": "This change extends the payment deadline to sixty days, which contradicts prompt payment laws in many states, including Minnesota (where both companies are based, according to the contract). These laws often require payment within a much shorter timeframe, such as 30 days, to protect contractors and ensure timely compensation.",
+                "contradicted_law": "Minnesota Statutes 181.13, et seq. (or similar prompt payment laws in other states)",
+                "location": "Section 2.03 (c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Unless otherwise requested by the Company, or unless otherwise required by Governmental Rules, the Contractor shall retain, with respect to each Note, for a period of 24 months from the date the Note is fully paid, all records, files and documents related to each such Note. At the end of such 24-month period, unless otherwise directed by the Company, all such items shall be transferred to the Company, or to a third party as designated by the Company, at the Company's sole cost and expense.",
+                "changed_text": "Unless otherwise requested by the Company, or unless otherwise required by Governmental Rules, the Contractor shall retain, with respect to each Note, for a period of 6 months from the date the Note is fully paid, all records, files and documents related to each such Note. At the end of such 6-month period, unless otherwise directed by the Company, all such items shall be transferred to the Company, or to a third party as designated by the Company, at the Company's sole cost and expense.",
+                "explanation": "This change shortens the record retention period to 6 months.  Many financial regulations and statutes of limitations (especially concerning securities) require longer retention periods (e.g., 3-7 years). This violates regulations like those under the Securities Exchange Act of 1934, which often imply or mandate longer retention for compliance and audit purposes.",
+                "contradicted_law": "Securities Exchange Act of 1934, related SEC regulations concerning record retention.",
+                "location": "Section 3.02 (d)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company will have the ability to terminate this Agreement by giving 60 days' prior written notice to the Contractor. The Contractor will have the ability to terminate this Agreement by giving 90 days' prior written notice to the Company.",
+                "changed_text": "The Company will have the ability to terminate this Agreement immediately. The Contractor will have the ability to terminate this Agreement by giving 180 days' prior written notice to the Company.",
+                "explanation": "This change allows the company to terminate the agreement immediately, which may conflict with state laws requiring reasonable notice or good faith termination, particularly if the contractor has relied on the agreement for its business operations. In Minnesota, there's an implied covenant of good faith and fair dealing in contracts, and immediate termination could violate that. Additionally, increasing the contractor's notice period to 180 days is unusually long and could be deemed unconscionable in some jurisdictions, especially considering the company's ability to terminate immediately. The disparity in termination notice periods creates an imbalance that may be legally questionable.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing under Minnesota law; potential violation of unconscionability principles in contract law.",
+                "location": "Section 8.02"
+            }
+        ]
+    }
+]

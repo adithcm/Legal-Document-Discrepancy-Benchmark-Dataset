@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "CUSTOMER AGREES TO PAY FOR HOSTING SERVICES ON OR BEFORE THE FIRST DAY OF THE MONTH IN WHICH THE HOSTING SERVICES ARE PROVIDED, except that, with respect to Additional Fees (as defined in Exhibit A), eGain will invoice Customer for such Fees in the month after the month in which such fees accrue as provided in Exhibit A.",
+                "changed_text": "CUSTOMER AGREES TO PAY FOR HOSTING SERVICES WITHIN 90 DAYS OF RECEIPT OF EGain's INVOICE, except that, with respect to Additional Fees (as defined in Exhibit A), eGain will invoice Customer for such Fees six months after the month in which such fees accrue as provided in Exhibit A.",
+                "explanation": "This change extends the payment terms beyond what is typically considered standard and reasonable in commercial agreements, potentially violating prompt payment laws that exist in California and other states. These laws often mandate payment within a shorter timeframe (e.g., 30 days) to protect businesses, particularly small businesses, from cash flow problems.",
+                "contradicted_law": "California Prompt Payment Laws (potentially Cal. Civ. Code §§ 3302.5, depending on the specific context and industry)",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment received by eGain after the due date shall be subject to a late fee equal to one and one-half percent (1.5%) per month, or, if less, the maximum amount allowed by applicable law.",
+                "changed_text": "Payment received by eGain after the due date shall be subject to a late fee equal to twenty percent (20%) per month.",
+                "explanation": "This change imposes a late fee that could be considered usurious and violate California's usury laws, which limit the maximum interest rate that can be charged on certain types of debts. A rate of 20% per month is extremely high and likely exceeds the legal limit.",
+                "contradicted_law": "California Usury Law (California Constitution Article XV Section 1)",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of California exclusive of its conflict of laws principles.",
+                "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles, and excluding the application of the Delaware Uniform Computer Information Transactions Act.",
+                "explanation": "This changes the governing law to Delaware and actively excludes UCITA. UCITA, even though not widely adopted, aims to standardize computer information transactions. By excluding it, it creates potential uncertainty and contradiction if any provision of the contract touches on areas that UCITA would normally regulate, such as software licenses and data usage. This change also removes the consumer protections built into California law.",
+                "contradicted_law": "Potentially conflicts with California consumer protection laws depending on the nature of the 'Online Messages' and 'Reports', and also introduces uncertainty in the application of relevant IT transaction standards (e.g., UCITA principles).",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

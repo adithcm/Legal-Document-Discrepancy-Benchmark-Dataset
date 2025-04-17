@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_MarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within three (3) Business Days after the date Vertex invoices Bunker One, to an account desig- nated from time to time by Vertex.",
+                "changed_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made at Bunker One's discretion, up to 45 Business Days after the date Vertex invoices Bunker One, to an account desig- nated from time to time by Vertex.",
+                "explanation": "The original contract specifies payment within three business days. The modification extends this to 'up to 45 business days,' potentially violating prompt payment laws in many states. For example, Alabama does not have specific laws for the private sector; a significant delay may be deemed unreasonable, creating legal issues under general contract law and potentially exposing Bunker One to breach of contract claims.",
+                "contradicted_law": "Breach of Contract, general contract law principles regarding reasonable payment terms.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If at any time an Event of Default (as defined below) has occurred and is continuing, the Defaulting Party shall have ten (10) days after receipt of written notice from the Non-Defaulting Party speci- fying the default, within which to cure any such default, unless such default is not susceptible of cure within such ten (10) day period in which case the Defaulting Party shall have such additional time as may be accepted by the Non-Defaulting Party (in its sole discretion), provided that the Defaulting Party initiates cure proceedings promptly and thereafter diligently pursues cure to completion. Notwithstanding the foregoing, in no event shall the cure period exceed thirty (30) days.",
+                "changed_text": "If at any time an Event of Default (as defined below) has occurred and is continuing, the Defaulting Party shall have two (2) days after receipt of written notice from the Non-Defaulting Party specifying the default, within which to cure any such default, and in no event shall the cure period exceed five (5) days.",
+                "explanation": "The original text allows a 10-day cure period for defaults, extendable to 30 days under certain conditions. The modification reduces the cure period to an inadequate two days, extendable to a maximum of five. This conflicts with general principles of contract law, which require a reasonable opportunity to cure a breach. Shortening the cure period makes it unreasonably difficult for the defaulting party to remedy the breach, potentially leading to premature termination of the contract, especially where complex issues or delays are involved. A court could deem this unreasonable and unenforceable.",
+                "contradicted_law": "General Contract Law, principles of reasonableness in contract performance and cure periods.",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The obligation of confidentiality shall be of a continuing nature for 2 years after termination of this JSMA and shall not be canceled by the expiration, suspension or termination of the JSMA.",
+                "changed_text": "The obligation of confidentiality shall cease immediately upon termination of this JSMA and shall be canceled by the expiration, suspension or termination of the JSMA.",
+                "explanation": "The original text establishes a two-year confidentiality obligation post-termination. The modification eliminates this obligation entirely. This could be deemed an unreasonable restriction, particularly with respect to trade secrets or confidential customer information. Courts in Alabama, where the contract is governed, balance the protection of legitimate business interests with the need for fair competition. Eliminating any post-termination confidentiality could be considered an unreasonable and unenforceable restriction on competition, especially in industries with long product development cycles or sensitive client relationships.",
+                "contradicted_law": "Alabama Trade Secrets Act, common law restrictions on non-compete agreements and protection of confidential information.",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]

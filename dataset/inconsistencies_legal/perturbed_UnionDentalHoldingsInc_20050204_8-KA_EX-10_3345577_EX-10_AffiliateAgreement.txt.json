@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Report to the other Party, in writing, any use and/or disclosure of the  Confidential  Information  that is not  permitted  or required by this  Agreement of which a Party  becomes aware within five (5) days of a Party=s  discovery of such unauthorized use and/or disclosure;",
+                "changed_text": "Report to the other Party, in writing, any use and/or disclosure of the  Confidential  Information  that is not  permitted  or required by this  Agreement of which a Party  becomes aware within one (1) day of a Party=s  discovery of such unauthorized use and/or disclosure;",
+                "explanation": "The original text allows five days for reporting unauthorized disclosures of confidential information. Reducing this timeframe to one day is inconsistent with HIPAA's breach notification rule, which allows a reasonable timeframe for investigation and assessment before mandatory reporting. This timeframe is often longer than 24 hours.",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA) Breach Notification Rule",
+                "location": "Section 3. b."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Make available,  during normal business hours, at a Party=s offices  all records, books, agreements, policies and procedures relating to the use  and/or  disclosure  of  Confidential  Information  that is  subject to this  Agreement,  to the other  Party  within ten (10) days of a Party's  written  request,  for the purpose of  enabling a Party to verify the other  Party=s  compliance with the terms of this Agreement;",
+                "changed_text": "Make available,  during normal business hours, at a Party=s offices  all records, books, agreements, policies and procedures relating to the use  and/or  disclosure  of  Confidential  Information  that is  subject to this  Agreement,  to the other  Party  within thirty (30) days of a Party's  written  request,  for the purpose of  enabling a Party to verify the other  Party=s  compliance with the terms of this Agreement;",
+                "explanation": "The original text requires records to be made available within ten days of a written request. Modifying the deadline to thirty days could violate laws that mandate quicker responses to records requests, such as those related to patient health information under HIPAA or state privacy laws depending on the information involved and the nature of the request.",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA), State Privacy Laws",
+                "location": "Section 3. e."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Return to a Party or  destroy,  as  requested  by a Party,  within  fifteen (15) days of the  termination of this Agreement,  any  Confidential  Information  provided  to such  Party and in its  possession  and retain no  copies or back-up tapes;",
+                "changed_text": "Return to a Party or  destroy,  as  requested  by a Party,  within  sixty (60) days of the  termination of this Agreement,  any  Confidential  Information  provided  to such  Party and in its  possession  and retain no  copies or back-up tapes;",
+                "explanation": "The original text mandates the return or destruction of confidential information within 15 days of termination. Lengthening this period to 60 days could be problematic under regulations that demand prompt data disposal upon contract termination, particularly if the information includes personal data governed by privacy laws like GDPR or CCPA, or PHI governed by HIPAA, depending on the data involved and the sensitivity.",
+                "contradicted_law": "General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "Section 3. g."
+            }
+        ]
+    }
+]

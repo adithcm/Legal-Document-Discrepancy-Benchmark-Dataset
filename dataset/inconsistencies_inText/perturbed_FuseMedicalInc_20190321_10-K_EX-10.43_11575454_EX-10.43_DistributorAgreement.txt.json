@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5. Prices and payment\n\n5.1 The prices to be paid by the Distributor to the Supplier for the Products are to be the Price, as set out in Schedule 4.\n\n5.2 Any and all expenses, costs and charges incurred by the Distributor in the performance of its obligations under this agreement will be paid by the Distributor, unless the Supplier has expressly agreed in advance in writing to pay such expenses, costs and charges.\n\n5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the date of invoice.\n\n5.4 Neither party may withhold payment of any amount due to the other because of any set-off, counter-claim, abatement, or other similar deduction.",
+                "changed_text": "5. Prices and payment\n\n5.1 The prices to be paid by the Distributor to the Supplier for the Products are to be the Price, as set out in Schedule 4.\n\n5.2 Any and all expenses, costs and charges incurred by the Distributor in the performance of its obligations under this agreement will be paid by the Distributor, unless the Supplier has expressly agreed in advance in writing to pay such expenses, costs and charges.\n\n5.3 The Distributor must pay fifty percent of the full amount invoiced to it by the Supplier in USD$'s within thirty (30) days of the date of invoice and the remaining amount within sixty (90) days of the date of the invoice.\n\n5.4 Neither party may withhold payment of any amount due to the other because of any set-off, counter-claim, abatement, or other similar deduction.",
+                "explanation": "The payment term in clause 5.3 is contradicted. The original text states that the distributor must pay the full amount invoiced within 45 days, but the modified text states that the distributor must pay the full amount invoiced within 30 days. The added text requests that 50% of the payment is due in 30 days with the remaining in 90.",
+                "location": "5.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "11. Duration and termination\n\n11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.\n\n11.2 Without affecting any other rights that it may be entitled to, either party may give notice in writing to the other terminating this agreement immediately if:\n\n(a) the other party fails to pay any amount due under this agreement on the due date for payment and remains in default not less than 14 days after being notified in writing to make such payment; or",
+                "changed_text": "11. Duration and termination\n\n11.1 This agreement begins on the Commencement Date and shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term. However, this agreement can be terminated by either party with a 30-day notice at any time.\n\n11.2 Without affecting any other rights that it may be entitled to, either party may give notice in writing to the other terminating this agreement immediately if:\n\n(a) the other party fails to pay any amount due under this agreement on the due date for payment and remains in default not less than 14 days after being notified in writing to make such payment; or",
+                "explanation": "The change adds that the agreement can be terminated with a 30-day notice which is a contradiction to the original twelve-month notice period.",
+                "location": "11.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "12.2 At the Supplier's option, on termination of this agreement:\n\n(a) the Supplier may buy from the Distributor all or any stocks of Products for the current market value for those Products. The Distributor must deliver such Products to the Supplier within 14 days of receiving the Supplier's notice, and the Supplier must pay for the Products in full within 30 days of their delivery. The Supplier shall be responsible for the costs of packaging, insurance and carriage of the Products; or",
+                "changed_text": "12.2 At the Supplier's option, on termination of this agreement:\n\n(a) the Supplier may buy from the Distributor all or any stocks of Products for the original purchase price for those Products. The Distributor must deliver such Products to the Supplier within 14 days of receiving the Supplier's notice, and the Supplier must pay for the Products in full within 60 days of their delivery. The Distributor shall be responsible for the costs of packaging, insurance and carriage of the Products; or",
+                "explanation": "This changes the price the supplier must pay to buy back any outstanding stock. The original text says current market value while the new text says the original purchase price. In addition, the new text shifts the payment to 60 days.",
+                "location": "12.2(a)"
+            }
+        ]
+    }
+]

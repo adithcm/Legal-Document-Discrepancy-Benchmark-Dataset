@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 at the company's discretion, no earlier than 180 days after completion of the Scope of Work.",
+                "explanation": "The modification introduces a delay in the final payment, making it subject to the company's discretion and delaying it by 180 days. This contradicts prompt payment laws, which generally require employers to pay contractors in a timely fashion.",
+                "contradicted_law": "Prompt Payment Laws (varying by state, generally requiring payment within 30-60 days of invoice or completion of work).",
+                "location": "Section 2. Payment Terms"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company representatives are available during Company's normal business hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday.",
+                "changed_text": "Company representatives are available during Company's normal business hours which are 11 a.m. to 1 p.m. UTC +2, Monday through Wednesday.",
+                "explanation": "The modification reduces the availability of company representatives, potentially violating consumer protection laws if it hinders the client's ability to access customer service or support. This could be especially problematic if the reduced hours are insufficient for addressing client issues in a timely manner.",
+                "contradicted_law": "Consumer Protection Laws (varying by state, requiring reasonable access to customer support).",
+                "location": "Section 3. Business Hours; Rush Work"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Client agrees that any unsolicited positive feedback Client provides to Company may be used in any Company marketing and/or advertising materials (i.e., customer testimonials).",
+                "changed_text": "Client agrees that any unsolicited feedback Client provides to Company may be used in any Company marketing and/or advertising materials without notice. The company can make changes to the feedback before release.",
+                "explanation": "Using client feedback without explicit consent and the possibility of changing it before release violates privacy laws in certain states and federal consumer protection regulations regarding deceptive advertising. It is illegal in some jurisdictions to use a person's likeness or statement without their permission for commercial purposes.",
+                "contradicted_law": "Federal Trade Commission Act (FTC Act) regarding deceptive advertising, and state laws on privacy and right of publicity.",
+                "location": "Section 1.(d) Company License and Credit"
+            }
+        ]
+    }
+]

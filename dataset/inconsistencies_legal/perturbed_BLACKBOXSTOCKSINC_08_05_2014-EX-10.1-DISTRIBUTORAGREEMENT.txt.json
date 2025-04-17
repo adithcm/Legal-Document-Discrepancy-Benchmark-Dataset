@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Terms are net cash upon delivery.",
+                "changed_text": "Terms are net 90 days upon delivery.",
+                "explanation": "This change introduces a legal contradiction because extending payment terms to 90 days without specifying interest or late payment fees may violate usury laws or prompt payment laws in certain states. Many states have regulations regarding the maximum allowable time for payment and the assessment of interest on overdue invoices, particularly for commercial transactions. This can potentially create legal and financial risks for both parties.",
+                "contradicted_law": "Potential violation of state usury laws or prompt payment laws (e.g., Texas Finance Code Chapter 302 on interest rates).",
+                "location": "1.03"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company further warrants all Products to be free from defects in material or workmanship under normal use and service for a period of ninety (90) days from the date of delivery.",
+                "changed_text": "Company further warrants all Products to be free from defects in material or workmanship under normal use and service for a period of thirty (30) days from the date of delivery.",
+                "explanation": "By reducing the warranty period to 30 days, this modification may violate implied warranty laws in many states, especially the implied warranty of merchantability. A 30-day warranty may be considered unreasonably short for certain products, especially if state laws mandate a longer reasonable period for implied warranties to apply.",
+                "contradicted_law": "Potential violation of state implied warranty laws (e.g., Texas Business and Commerce Code, which adopts the Uniform Commercial Code's provisions on implied warranties).",
+                "location": "5.01"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any such notice or communication so mailed shall be deemed delivered and effective seventy-two (72) hours after mailing thereof in the United States.",
+                "changed_text": "Any such notice or communication so mailed shall be deemed delivered and effective thirty (30) days after mailing thereof in the United States.",
+                "explanation": "This creates a legal contradiction because a 30-day notice period for mailed communications is excessive and conflicts with standards of reasonableness and good faith in contract law. Such a long delay could severely prejudice a party's rights or obligations, particularly where time is of the essence. This would be considered commercially unreasonable.",
+                "contradicted_law": "Conflicts with principles of reasonableness and good faith in contract law and potentially violates the implied duty of good faith and fair dealing.",
+                "location": "7.02"
+            }
+        ]
+    }
+]

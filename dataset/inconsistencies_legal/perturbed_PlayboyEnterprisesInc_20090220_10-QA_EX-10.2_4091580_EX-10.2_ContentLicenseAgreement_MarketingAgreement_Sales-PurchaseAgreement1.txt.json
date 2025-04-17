@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PlayboyEnterprisesInc_20090220_10-QA_EX-10.2_4091580_EX-10.2_ContentLicenseAgreement_MarketingAgreement_Sales-PurchaseAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "EFS shall pay a royalty (\"Royalty\") to Client to be calculated and paid as follows: (a) the Royalty shall be determined based upon the percentage applicable to the Merchandise Gross Margin (pursuant to the chart in Exhibit 10, attached hereto and hereby incorporated by reference); (b) multiplied by the Net Merchandise Sales (as defined below) as applicable in each case for the applicable Calendar Quarter or Year (each as defined below). The Royalty calculation period shall begin upon the first order received by EFS via any order channel (e.g., on a Website, via mail, fax or telephone) and shall be paid to Client within fifteen (15) days following the conclusion of each calendar quarter (\"Calendar Quarter\") based on the calendar year (\"Year\"), as calculated on the actual Merchandise Gross Margin and Net Merchandise Sales (each as defined below) for such Calendar Quarter.",
+                "changed_text": "EFS shall pay a royalty (\"Royalty\") to Client to be calculated and paid as follows: (a) the Royalty shall be determined based upon the percentage applicable to the Merchandise Gross Margin (pursuant to the chart in Exhibit 10, attached hereto and hereby incorporated by reference); (b) multiplied by the Net Merchandise Sales (as defined below) as applicable in each case for the applicable Calendar Quarter or Year (each as defined below). The Royalty calculation period shall begin upon the first order received by EFS via any order channel (e.g., on a Website, via mail, fax or telephone) and shall be paid to Client within ninety (90) days following the conclusion of each calendar quarter (\"Calendar Quarter\") based on the calendar year (\"Year\"), as calculated on the actual Merchandise Gross Margin and Net Merchandise Sales (each as defined below) for such Calendar Quarter.",
+                "explanation": "By changing the payment deadline from 15 days to 90 days after the end of each calendar quarter, the contract introduces a delay in payment. Many jurisdictions have laws regarding prompt payment, and a 90-day delay could potentially violate these laws, particularly if it's significantly longer than industry standards or legal allowances. This is more apparent if eFashion Solutions, LLC is providing a service rather than solely selling a product.",
+                "contradicted_law": "Prompt Payment Laws (various state laws regarding timely payments for services)",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such amount shall be paid Net ninety (90) days following entry of such Client Inventory into EFS' system; provided, however, that EFS shall enter all such Client Inventory upon receipt or shall promptly notify Client in the event it is unable to do so due to missing information (i.e. barcodes) or because any product is incomplete or otherwise in a condition not fit for immediate resale.",
+                "changed_text": "Such amount shall be paid Net one hundred eighty (180) days following entry of such Client Inventory into EFS' system; provided, however, that EFS shall enter all such Client Inventory upon receipt or shall promptly notify Client in the event it is unable to do so due to missing information (i.e. barcodes) or because any product is incomplete or otherwise in a condition not fit for immediate resale.",
+                "explanation": "Extending the payment term to 180 days may violate state-level prompt payment laws, which mandate payment within a reasonable timeframe. This timeframe often falls far short of 180 days, especially if the Client inventory is already received. The delay could be seen as an unfair business practice, leading to potential legal challenges.",
+                "contradicted_law": "State Prompt Payment Laws for Goods or Services",
+                "location": "Section 6.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the result of the audit reveals deviations that indicate that Client was underpaid, EFS shall immediately pay the sum of such underpayment plus interest at a rate of ***** from the date such payment was first due.",
+                "changed_text": "If the result of the audit reveals deviations that indicate that Client was underpaid, EFS shall pay the sum of such underpayment plus interest at a rate of ***** from the date such payment was first due, but no sooner than 180 days after the audit results are communicated to EFS.",
+                "explanation": "This modification introduces a contradiction by delaying the payment of underpaid amounts following an audit. Labor laws and wage regulations often require prompt correction of payment errors. Mandating a 180-day waiting period after the audit results are communicated could violate these regulations, particularly those pertaining to wage and hour laws requiring timely and accurate compensation.",
+                "contradicted_law": "Wage and Hour Laws (regarding timely correction of wage errors)",
+                "location": "Section 6.11"
+            }
+        ]
+    }
+]

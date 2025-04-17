@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3) Payments shall be made by Ultragenyx in Euro and within [***] days after receipt of a proper invoice.",
+                "changed_text": "3) Payments shall be made by Ultragenyx in Euro and within 120 days after receipt of a proper invoice.",
+                "explanation": "In Germany, payment terms exceeding 60 days are considered unusual and could be deemed unfair, especially if one party has significantly more bargaining power. Setting a payment term of 120 days contradicts standard business practices and could be challenged under German law regarding unfair contract terms (Sections 305 ff. BGB - German Civil Code).",
+                "contradicted_law": "Sections 305 ff. BGB (German Civil Code) regarding unfair contract terms.",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "5) If Ultragenyx obtains regulatory approval for the processed Product, the Parties shall enter into a separate commercial supply agreement for the Product that sets forth the forecasting and ordering mechanism for commercial supply of the Product, enablement of the manufacturing process in the event of a failure to supply, the term of such commercial supply agreement and other customary terms and conditions.",
+                "changed_text": "5) If Ultragenyx obtains regulatory approval for the processed Product, the Parties shall not be required to enter into a separate commercial supply agreement and Cremer may refuse to supply the Product for commercial purposes.",
+                "explanation": "German law (and contract law generally) requires good faith in contractual relationships (Treu und Glauben, § 242 BGB). If Ultragenyx relied on Cremer to supply the product after regulatory approval and Cremer refuses to enter into a commercial supply agreement, it could be viewed as a breach of this good faith requirement, particularly given the initial agreement's intention. This change contradicts the implied obligation to negotiate in good faith.",
+                "contradicted_law": "§ 242 BGB (German Civil Code) - good faith in contractual relationships.",
+                "location": "Article 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "2) If a Party materially breaches an obligation under this Agreement and does not cure such breach within sixty (60) days of receiving notice of such breach from the non-breaching Party, the non-breaching Party may terminate this Agreement immediately upon written notice to the breaching Party.",
+                "changed_text": "2) If a Party materially breaches an obligation under this Agreement and does not cure such breach within fifteen (15) days of receiving notice of such breach from the non-breaching Party, the non-breaching Party may terminate this Agreement immediately upon written notice to the breaching Party.",
+                "explanation": "A 15-day cure period for a material breach is unusually short, especially considering the complexity of pharmaceutical supply agreements. German law requires reasonable notice and cure periods for breaches, especially if significant investments or dependencies are involved. A 15-day period may be deemed unreasonably short and unenforceable, particularly if it involves complex operational or regulatory compliance issues. This contradicts principles of fairness and reasonableness in German contract law.",
+                "contradicted_law": "Principles of fairness and reasonableness in German contract law related to breach of contract and cure periods.",
+                "location": "Article 5"
+            }
+        ]
+    }
+]

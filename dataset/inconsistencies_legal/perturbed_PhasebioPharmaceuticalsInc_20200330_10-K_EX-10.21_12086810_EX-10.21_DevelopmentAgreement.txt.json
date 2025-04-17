@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PhasebioPharmaceuticalsInc_20200330_10-K_EX-10.21_12086810_EX-10.21_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "6.3 Method and Timing of Payment. The US Approval Payments, EU Approval Payments and Japan/China Approval Payments to SFJ will be due as of the applicable annual anniversary of the date of the applicable Regulatory Approval. SFJ shall deliver invoices to PB for the US Approval Payments, EU Approval Payments and Japan/China Approval Payments at least [***] before the applicable anniversary of the date of Regulatory Approval, and such payments will be made by PB on or before the later of (a) [***] and (b) [***] following delivery of such invoices, by wire transfer to SFJ's account that SFJ shall designate on such invoice. PB will provide SFJ with written notice of each wire transfer to SFJ's account. All amounts payable and calculations under this Agreement shall be in US dollars.",
+                "changed_text": "6.3 Method and Timing of Payment. The US Approval Payments, EU Approval Payments and Japan/China Approval Payments to SFJ will be due as of the applicable annual anniversary of the date of the applicable Regulatory Approval. SFJ shall deliver invoices to PB for the US Approval Payments, EU Approval Payments and Japan/China Approval Payments at least [***] before the applicable anniversary of the date of Regulatory Approval, and such payments will be made by PB on or before the later of (a) [***] and (b) 180 days following delivery of such invoices, by wire transfer to SFJ's account that SFJ shall designate on such invoice. PB will provide SFJ with written notice of each wire transfer to SFJ's account. All amounts payable and calculations under this Agreement shall be in US dollars.",
+                "explanation": "The original text requires payments to be made within a time frame that is compliant with the law. This text has been modified to extend the period of invoice payments to 180 days, which could be inconsistent with standard business practice or regulations regarding prompt payment, introducing a legal contradiction.",
+                "contradicted_law": "Prompt Payment Regulations",
+                "location": "Section 6.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "9.1 Accounting. Each Party will maintain materially complete and accurate accounting records related to this Agreement in accordance with GAAP. Each Party will retain such records for [***] after the earlier of expiration or early termination of this Agreement.",
+                "changed_text": "9.1 Accounting. Each Party will maintain materially complete and accurate accounting records related to this Agreement in accordance with their own established practices. Each Party will retain such records for 1 year after the earlier of expiration or early termination of this Agreement.",
+                "explanation": "GAAP sets standards for accounting. Allowing companies to keep records in line with their established practices could violate those standards. The modified text decreases the retention period to 1 year, conflicting with the legal requirements to maintain records for longer periods of time for legal compliance, audits, or tax reasons. For example, IRS guidelines often require maintaining records for 3-7 years.",
+                "contradicted_law": "IRS Record Retention Guidelines; Generally Accepted Accounting Principles (GAAP)",
+                "location": "Section 9.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "10.1 Confidentiality. Except to the extent expressly authorized by this Agreement or otherwise agreed in writing by the Parties (including, if applicable, in the Program Transfer Agreement), each Party (each, a \"Receiving Party\") agrees that, during the Term and for the [***] period following the expiration or termination of this Agreement (except that the obligations will survive thereafter with respect to any Confidential Information that constitutes a trade secret under Applicable Law) or such longer periods for which such Confidential Information may be maintained pursuant to ARTICLE 9, it will keep confidential and will not publish or otherwise disclose and will not use for any purpose other than as provided for in this Agreement or, if applicable, the Program Transfer Agreement (which includes the exercise of any rights or the performance of any obligations hereunder or thereunder) any Confidential Information furnished to it by or on behalf of the other Party (each, a \"Disclosing Party\") or its Affiliates in connection with this Agreement or, if applicable, the Program Transfer Agreement. The foregoing obligations will not apply to any portion of such information or materials that the Receiving Party can demonstrate:",
+                "changed_text": "10.1 Confidentiality. Each Party (each, a \"Receiving Party\") agrees that, during the Term, it will keep confidential and will not publish or otherwise disclose and will not use for any purpose other than as provided for in this Agreement any Confidential Information furnished to it by or on behalf of the other Party (each, a \"Disclosing Party\") or its Affiliates in connection with this Agreement. The foregoing obligations will not apply to any portion of such information or materials that the Receiving Party can demonstrate:",
+                "explanation": "The modified text eliminates the post-termination confidentiality obligations.  This is a contradiction to Trade Secret laws, which state that Trade Secrets should be protected indefinitely.",
+                "contradicted_law": "Trade Secret Law",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

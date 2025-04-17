@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may resell such Services to Customer or any other reseller. Reseller must ensure that Sub-Reseller complies with some of the terms of the Agreement applicable to Reseller, but it is not required to adhere to all sections as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by the Sub-Reseller itself. Sub-Reseller is a third-party beneficiary of the Agreement.",
+                "explanation": "The original text restricts Sub-Reseller's resale to 'Customer' only. The modified version allows resale to 'Customer or any other reseller,' creating a contradiction. Also, the initial agreement holds the Reseller responsible for breaches of contract by the Sub-Reseller, and the changed agreement makes the Sub-Reseller responsible for its own breaches of contract. Initially, Sub-Reseller is not a third-party beneficiary, and the changed agreement, says that it is a third-party beneficiary.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained constitute a partial agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and do not supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "explanation": "The original text states the agreement is the 'entire agreement,' superseding all prior agreements. The modified version states it is a 'partial agreement' and does not supersede prior agreements, introducing a direct contradiction. If there are disputes, it is unclear which agreement is the source of truth.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned copies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together, will be deemed to constitute a single instrument.",
+                "changed_text": "This Sub-Reseller Agreement must be executed in one or more original counterparts, and facsimiles or scanned copies sent via email or otherwise, each of which will be deemed to be a copy of the original, but all of which, taken together, will be deemed to constitute multiple instruments.",
+                "explanation": "The original text says that counterparts can be 'facsimiles' and are considered 'duplicate originals,' where the modified version specifies it must be executed in original counterparts. In addition, the modified text also says that it constitutes 'multiple instruments,' whereas the original text says it's a single instrument.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "XACCTTechnologies,Inc.SUPPORTANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "XACCT will provide reasonable commercial efforts to provide the appropriate solutions for reported Incidents. Initial response times for reported Incidents are as set forth in Attachment 1.",
+                "changed_text": "XACCT will attempt to provide solutions for reported Incidents. Initial response times may vary.",
+                "explanation": "Replacing 'reasonable commercial efforts' with 'attempt' weakens the obligation, making the level of effort subjective and less enforceable. Removing the definitive statement about response times and replacing it with 'may vary' introduces uncertainty and contradicts potential service level agreements (SLAs) that might be implicitly expected or explicitly defined in Attachment 1.",
+                "contradicted_law": "Breach of Contract/Failure to Provide Services (potentially conflicting with implied or explicit SLAs).",
+                "location": "3.1"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "In order for Licensee to receive the Support Services referenced above, Licensee must:\n\n         (a)      Appoint Designated Support Contact(s), trained and qualified,                   who will maintain the integrity of the&sbsp;Product and who will                   act as Licensee's liaison for all technical communications                   with XACCT. The number of Designated Support Contact(s) will                   be determined by the level of Support Services purchased by                   Licensee set forth in Attachment 1referenced in Section 2.                   Names of Designated Support Contact(s) must be provided to                   XACCT prior to initial contact with the XACCT support center.                   All technical communications by Licensee to XACCT shall only                   be made by the Designated Support Contact(s). All information                   and materials provided to Licensee by XACCT pursuant to this                   Agreement will be routed to the Designated Support Contact(s).                   Licensee may change the Designated Support Contact(s) upon                   written notice to XACCT;",
+                "changed_text": "In order for Licensee to receive some Support Services, Licensee may:\n\n         (a)      Consider appointing Support Contact(s), with some training, who may act as Licensee's liaison for technical communications with XACCT.  The number of Support Contacts may be influenced by the level of Support Services purchased. Contact information may be provided to XACCT prior to contacting the support center. Some technical communications by Licensee to XACCT could be made by the Support Contact(s). Information provided to Licensee by XACCT might be routed to the Support Contact(s).",
+                "explanation": "The changes weaken the obligation for the Licensee to appoint qualified support contacts, replacing 'must' with 'may consider' and 'shall only' with 'could be'. It removes the requirement for the contacts to be fully trained and qualified by adding \"with some training\", and also changes Designated Support Contact to Support Contact. The phrase 'might be routed' also adds ambiguity to whether information provided by XACCT is actually being received by Licensee.",
+                "contradicted_law": "Breach of Contract/Inadequate Support (especially if it leads to failures in using the software and loss).",
+                "location": "3.2 (a)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "From time to time XACCT in its sole discretion may develop and provide          Major Releases which will be made available to Licensee with or without          additional fees according to the level of Support Services purchased by          Licensee as set forth in Attachment 1 referenced in Section 2.",
+                "changed_text": "XACCT might, at its discretion, develop Major Releases, which might be made available to Licensee, possibly with additional fees.",
+                "explanation": "Changing 'may develop and provide' to 'might, at its discretion, develop' makes it uncertain if major releases will ever be developed. Further, changing 'will be made available' to 'might be made available' introduces doubt as to whether even if a Major Release is developed, it will be provided to the Licensee. Removing the phrase 'according to the level of Support Services purchased' further obfuscates the conditions under which the Major Release will be provided.",
+                "contradicted_law": "Breach of Contract/Failure to Provide Adequate Product Maintenance (potentially conflicting with implied warranty or representations about product evolution).",
+                "location": "4.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LeadersonlineInc_20000427_S-1A_EX-10.8_4991089_EX-10.8_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the 12 month period following the payment of any amount due under this Article 6, VerticalNet or its representative shall have the right to audit LeadersOnline's financial and other pertinent records relating to such payment in order to verify the amount of the payments owed and/or paid.",
+                "changed_text": "During the 36 month period following the payment of any amount due under this Article 6, VerticalNet or its representative shall have the right to audit LeadersOnline's financial and other pertinent records relating to such payment in order to verify the amount of the payments owed and/or paid.",
+                "explanation": "By extending the audit period to 36 months, the contract creates a potential conflict with statutes of limitations for breach of contract claims in Pennsylvania, which is four years. While a longer audit period isn't necessarily illegal, it could lead to disputes if financial records are no longer readily available or legally required to be maintained, increasing litigation risk. Record-keeping laws and regulations for business documents vary, but generally, a 3-year retention period for financial records is standard, and extending the audit window beyond this creates potential legal issues.",
+                "contradicted_law": "Statute of limitations for breach of contract in Pennsylvania",
+                "location": "6.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Party may terminate this Agreement immediately upon written notice to the other Party in the event of any material breach of a term of this Agreement by such other Party that remains uncured 30 days after notice of such breach was received by such other Party or, if the breach is not reasonably capable of cure within 30 days, such longer period, not to exceed 60 days, so long as the cure is commenced within the 30-day period and thereafter is diligently prosecuted to completion as soon as possible and in any event within 60 days.",
+                "changed_text": "Either Party may terminate this Agreement immediately upon written notice to the other Party in the event of any material breach of a term of this Agreement by such other Party that remains uncured 10 days after notice of such breach was received by such other Party or, if the breach is not reasonably capable of cure within 10 days, such longer period, not to exceed 20 days, so long as the cure is commenced within the 10-day period and thereafter is diligently prosecuted to completion as soon as possible and in any event within 20 days.",
+                "explanation": "Reducing the cure period for a material breach to 10 days (with a maximum extension to 20) is generally unfavorable and creates a legal risk because such a short timeframe might be deemed commercially unreasonable, especially for complex breaches. Courts often require a reasonable opportunity to cure, and 10-20 days might be seen as insufficient, making the termination clause vulnerable to legal challenge.",
+                "contradicted_law": "Common law principles of reasonable opportunity to cure a breach of contract",
+                "location": "7.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The confidentiality obligations contained in this Article 9 shall survive termination of this Agreement for a period of three (3) years.",
+                "changed_text": "The confidentiality obligations contained in this Article 9 shall survive termination of this Agreement for a period of one (1) year.",
+                "explanation": "Reducing the confidentiality period to one (1) year may be deemed insufficient to protect trade secrets or other sensitive information, particularly given the nature of the data exchanged, and could potentially open the door to claims of breach of confidentiality if the one-year survival period is deemed unreasonably short by a court or arbitrator",
+                "contradicted_law": "Trade Secret Law and potential for insufficient protection",
+                "location": "9.3"
+            }
+        ]
+    }
+]

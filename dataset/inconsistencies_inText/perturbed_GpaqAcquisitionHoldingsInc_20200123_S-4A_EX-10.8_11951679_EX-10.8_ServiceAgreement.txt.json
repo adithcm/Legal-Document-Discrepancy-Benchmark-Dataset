@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Constellation shall be invoiced by the HOF Entities for any such materials at the retail cost charged to the HOF Entities (or either of them) by the supplier, without mark-up. Payment with respect to such invoice will be due thirty (30) days following receipt by Constellation of such invoice.",
+                "changed_text": "Constellation shall be invoiced by the HOF Entities for any such materials at the retail cost charged to the HOF Entities (or either of them) by the supplier, without mark-up. Payment with respect to such invoice will be due sixty (60) days following receipt by Constellation of such invoice.",
+                "explanation": "This introduces a contradiction in payment terms. Initially, payment is due in 30 days, but this is changed to 60 days, creating confusion on when the payment is exactly due.",
+                "location": "Section 3.2(c)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Payment with respect to such invoice will be due thirty (30) days following receipt. The HOF Entities shall be solely responsible for the maintenance of the advertising signs covered by this Agreement during the Term.",
+                "changed_text": "Payment with respect to such invoice will be due thirty (30) days following receipt. Constellation shall be solely responsible for the maintenance of the advertising signs covered by this Agreement during the Term.",
+                "explanation": "There is a contradiction of who is responsible for the maintenance of the advertising signs covered by the agreement. Initially, HOF Entities are responsible. However, it is modified so that Constellation is responsible for the maintenance. This causes uncertainty as to who is responsible.",
+                "location": "Section 3.2(c)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "In the event Constellation fails to pay to the HOF Entities when due any sum required by this Agreement to be paid, whether pursuant to this Section 3.4 or otherwise, interest shall accrue from the date due on the unpaid amount at the rate of [***] per month or, if less, the highest rate permitted by law.",
+                "changed_text": "In the event Constellation fails to pay to the HOF Entities when due any sum required by this Agreement to be paid, whether pursuant to this Section 3.4 or otherwise, interest will not be charged to the amount due.",
+                "explanation": "There is a contradiction in the interest payment if Constellation fails to make a payment on time. Originally, interest is to be charged on the unpaid amount, but the modified text says that interest will not be charged. Thus, causing uncertainty on whether interest is to be charged.",
+                "location": "Section 3.4"
+            }
+        ]
+    }
+]

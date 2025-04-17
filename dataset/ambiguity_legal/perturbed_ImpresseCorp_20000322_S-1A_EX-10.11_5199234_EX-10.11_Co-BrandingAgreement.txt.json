@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each party shall comply with all prevailing laws, rules and regulations and obtain all necessary approvals, consents and permits required by the applicable agencies of the government of the jurisdictions that apply to its activities or obligations under this Agreement.",
+                "changed_text": "Each party shall endeavor to comply with applicable laws, rules, and regulations and seek necessary approvals, consents, and permits as it deems reasonably practical for its activities or obligations under this Agreement.",
+                "explanation": "The original clause mandates strict compliance with all laws and regulations, which is a clear legal obligation. The modified version replaces 'shall comply' with 'shall endeavor to comply,' making compliance discretionary. The phrase 'as it deems reasonably practical' introduces significant ambiguity, allowing parties to decide unilaterally the extent of their compliance. This creates a loophole that contradicts the intent of regulations that require mandatory compliance.",
+                "contradicted_law": "General principles of contract law requiring good faith and diligent performance; specific environmental or labor laws that mandate strict compliance.",
+                "location": "10.16"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "User Data shall be maintained by each Party as Confidential Information of the other Party during the Term and 5 years thereafter, provided such User Data may be disclosed only as part of an aggregation or analysis of all User Data but not as independent data. Upon termination of the Agreement, VerticalNet and Impresse shall jointly own all User Data. Neither Party shall use the User Data other than in accordance with the VerticalNet privacy policy and all applicable laws during the Term and thereafter.",
+                "changed_text": "User Data should generally be treated as confidential, although it may sometimes be necessary to share it. After the contract is terminated, it will continue to be jointly owned. The VerticalNet privacy policy is a guideline, but may not always be strictly followed.",
+                "explanation": "The modified text weakens the confidentiality obligation ('shall be maintained' becomes 'should generally be treated'), introduces uncertainty about data use after termination, and dilutes the adherence to the VerticalNet privacy policy by suggesting it's merely a 'guideline.' This vague wording undermines the original intent of protecting user data and potentially contradicts data privacy laws.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA) or General Data Protection Regulation (GDPR), which require specific and enforceable privacy policies and data protection measures.",
+                "location": "7.6"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "All payments not paid by the date such payments are due shall bear interest from the due date to the date payments are actually paid at the lower of (i) 1% per month or (ii) the maximum rate permitted by law.",
+                "changed_text": "All payments not paid by the date such payments are due may, at the discretion of the receiving party, bear interest at a reasonable rate.",
+                "explanation": "This clause originally sets a clear and legally defined interest rate for late payments. By changing 'shall bear interest' to 'may...bear interest at a reasonable rate,' the obligation to charge interest becomes optional and the rate itself becomes vague. The term 'reasonable rate' is subjective and open to interpretation, creating ambiguity. This potentially contradicts state usury laws if a 'reasonable rate' is later determined to exceed the maximum legal rate, or if no interest is charged when legally required.",
+                "contradicted_law": "State usury laws setting maximum interest rates; principles of contract law requiring clear and definite terms.",
+                "location": "4.9"
+            }
+        ]
+    }
+]

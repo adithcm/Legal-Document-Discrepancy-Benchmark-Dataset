@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INGEVITYCORP_05_16_2016-EX-10.5-INTELLECTUALPROPERTYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Subject to subsections (i)-(iii) of this Section 5.1(a), each Party agrees that prior to the date that is six (6) months after the Effective Time (\"Delivery Date\"), it will deliver possession of any Tangible/Intangible Information of the other Party that is in its possession or control to the other Party, without retaining any copies.",
+                "changed_text": "Subject to subsections (i)-(iii) of this Section 5.1(a), each Party agrees that prior to the date that is thirty (30) days after the Effective Time (\"Delivery Date\"), it will deliver possession of any Tangible/Intangible Information of the other Party that is in its possession or control to the other Party, without retaining any copies.",
+                "explanation": "The original text specifies a six-month period for delivering Tangible/Intangible Information. Reducing this to thirty days may contradict legal requirements for data transition periods following a corporate separation, potentially hindering compliance with data privacy regulations or industry standards. A shorter transition might not allow enough time for proper data segregation and migration, thus creating non-compliance risks. Especially concerning Personally Identifiable Information (PII).",
+                "contradicted_law": "Data privacy regulations (e.g., GDPR, CCPA) often require a reasonable transition period for data migration and segregation during corporate separations.",
+                "location": "Section 5.1(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding the foregoing, it is understood that signage, letterhead, invoices, business cards, promotional materials and similar items may reference the Parent Name or Parent Mark \"MeadWestvaco\" and \"MWV\" in the same manner as used by SpinCo prior to the Effective Time, during a twelve-month phase out period as SpinCo replaces such Parent Name and Parent Mark with the SpinCo Name and SpinCo Mark.",
+                "changed_text": "Notwithstanding the foregoing, it is understood that signage, letterhead, invoices, business cards, promotional materials and similar items may reference the Parent Name or Parent Mark \"MeadWestvaco\" and \"MWV\" in the same manner as used by SpinCo prior to the Effective Time, indefinitely as SpinCo replaces such Parent Name and Parent Mark with the SpinCo Name and SpinCo Mark.",
+                "explanation": "The original clause allows a twelve-month phase-out period for using the Parent's trademarks. By changing this to \"indefinitely,\" the modified text creates a potential trademark infringement issue if SpinCo continues to use Parent's trademarks without a proper license or agreement after a reasonable transition period. This conflicts with trademark law, which protects brand names and logos and prevents unauthorized use that could cause consumer confusion. Continuing use indefinitely would almost certainly lead to consumer confusion.",
+                "contradicted_law": "Trademark Law (Lanham Act in the United States) prohibits unauthorized use of trademarks that could cause consumer confusion.",
+                "location": "Section 3.8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "To the extent (a) Parent, or any member of the Parent Group, receives from SpinCo, or any member of the SpinCo Group, or (b) SpinCo, or any member of the SpinCo Group receives from Parent, or any member of the Parent Group, any Information that is trade secret under applicable law, the five (5) year confidentiality period of Section 6.9(a) of the Separation Agreement with respect to such Information shall be extended until such time as the received Information is no longer trade secret.",
+                "changed_text": "To the extent (a) Parent, or any member of the Parent Group, receives from SpinCo, or any member of the SpinCo Group, or (b) SpinCo, or any member of the SpinCo Group receives from Parent, or any member of the Parent Group, any Information that is trade secret under applicable law, the one (1) year confidentiality period of Section 6.9(a) of the Separation Agreement with respect to such Information shall be extended until such time as the received Information is no longer trade secret.",
+                "explanation": "The confidentiality period for trade secrets is changed from five years to one year. Under trade secret law, reasonable measures must be taken to maintain secrecy. A one-year confidentiality period may be deemed unreasonably short, particularly for trade secrets that have a long commercial life or involve substantial investment. If a dispute arises, a court might find that a one-year period does not constitute a 'reasonable effort' to maintain secrecy, potentially jeopardizing trade secret protection.",
+                "contradicted_law": "Trade Secret Law (e.g., Defend Trade Secrets Act in the United States) requires 'reasonable measures' to maintain secrecy; a short confidentiality period may undermine this.",
+                "location": "Section 5.4"
+            }
+        ]
+    }
+]

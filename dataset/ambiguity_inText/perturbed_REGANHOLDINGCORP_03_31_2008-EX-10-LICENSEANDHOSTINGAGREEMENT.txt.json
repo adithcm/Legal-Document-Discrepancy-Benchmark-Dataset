@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "REGANHOLDINGCORP_03_31_2008-EX-10-LICENSEANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"LMG Tools\" means the LMG-developed computer programs identified in  Exhibit A, including, where applicable object code (including microcode) and/or source code, that are provided or to be provided by LMG pursuant to this Agreement. The definition of LMG Tools also includes any enhancements, translations, modifications, updates, releases, or other changes to LMG Tools.",
+                "changed_text": "\"LMG Tools\" means the LMG-developed computer programs identified in Exhibit A, including, where applicable object code (including microcode) and/or source code, that are provided or to be provided by LMG pursuant to this Agreement. The definition of LMG Tools specifically excludes any enhancements, translations, modifications, updates, releases, or other changes to LMG Tools made by TAG.",
+                "explanation": "This change introduces a contradiction in the definition of 'LMG Tools'. Initially, it includes all modifications, but the modified definition excludes modifications made by TAG. This creates ambiguity regarding ownership and usage rights of TAG's modifications.",
+                "location": "ARTICLE I AGREEMENT AND DEFINITIONS"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "TAG shall be entitled to modify the LMG Tools and Documentation and to develop software derivative of or interfacing with the LMG Tools. All modifications of and software derivative of the LMG Tools and Documentation developed by TAG shall be and remain the property of TAG, and LMG shall have no rights or interests therein.",
+                "changed_text": "TAG shall be entitled to modify the LMG Tools and Documentation and to develop software derivative of or interfacing with the LMG Tools. All modifications of and software derivative of the LMG Tools and Documentation developed by TAG shall be jointly owned by TAG and LMG.",
+                "explanation": "This introduces a contradiction regarding ownership of modifications made by TAG. Originally, TAG owned all modifications, but now the modifications are jointly owned. This will lead to disputes about controlling the product.",
+                "location": "ARTICLE II LICENSE OF LMG TOOLS"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "LMG shall provide (or will cause the third party vendor to provide) to TAG all error corrections and all operational and support assistance necessary to cause the LMG Tools, CSC Software and Other Third Party Software to perform in accordance with their Applicable Specifications.",
+                "changed_text": "LMG shall provide (or will cause the third party vendor to provide) to TAG all error corrections and all operational and support assistance necessary to cause the LMG Tools, CSC Software and Other Third Party Software to perform in accordance with their Applicable Specifications. However, LMG's obligation to provide error corrections and support assistance is limited to issues reported by TAG in writing within 5 business days of their occurrence.",
+                "explanation": "The original text commits LMG to providing support to confirm with their Applicable Specifications. This change creates a contradiction with an additional condition limiting LMG’s obligation based on a reporting timeframe which wasn't previously present.",
+                "location": "ARTICLE III SUPPORT AND HOSTING SERVICES"
+            }
+        ]
+    }
+]

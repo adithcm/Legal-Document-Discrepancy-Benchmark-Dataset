@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "M&I shall be responsible for, and shall establish and maintain safeguards against, a disaster, loss or alteration of the Customer Data in the possession of M&I. Such safeguard shall be no less rigorous than that M&I uses to protect its own data of a similar nature.",
+                "changed_text": "M&I should attempt to establish safeguards against a disaster, loss, or alteration of the Customer Data in the possession of M&I. Such safeguards should be generally similar to those M&I uses to protect its own data.",
+                "explanation": "This change introduces ambiguity and weakens the obligation. Replacing 'shall be responsible for, and shall establish and maintain' with 'should attempt to establish' makes the obligation discretionary. Additionally, replacing 'no less rigorous than' with 'generally similar to' introduces vagueness in the standard of care.",
+                "contradicted_law": "FFIEC guidelines and GLBA (Gramm-Leach-Bliley Act), which require specific and rigorous data security standards for financial institutions and their service providers.",
+                "location": "17.5 Security"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Customer shall (a) on a daily basis, review all input and output, controls, reports, and documentation, to ensure the integrity of data processed by M&I; and (b) on a daily basis, check exception reports to verify that all file maintenance entries and nondollar transactions were correctly entered.  Customer shall be responsible for initiating timely remedial action to correct any improperly processed data which these reviews disclose.",
+                "changed_text": "Customer should periodically review input and output, controls, reports, and documentation, to check the integrity of data processed by M&I; and Customer should check exception reports to verify that file maintenance entries and nondollar transactions were entered correctly. Customer will attempt to initiate remedial action to correct any improperly processed data these reviews may reveal, if feasible.",
+                "explanation": "This weakens the customer's obligations by replacing 'shall' with 'should', making the review and verification processes discretionary. The removal of 'on a daily basis' introduces ambiguity about the frequency of these reviews. Replacing 'shall be responsible for initiating timely remedial action' with 'will attempt to initiate remedial action to correct any improperly processed data these reviews may reveal, if feasible' further reduces the obligation to a mere attempt at correction if it is deemed feasible, creating vagueness.",
+                "contradicted_law": "FFIEC guidelines for internal controls and data integrity in financial institutions, which mandate specific and consistent monitoring and correction processes.",
+                "location": "21.6 Balancing and Controls"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "M&I agrees to perform the Services in accordance with the Performance Standards and, where there are no Performance Standards, in a commercially reasonable manner and with no other or higher degree of care.",
+                "changed_text": "M&I will endeavor to perform the Services consistent with the Performance Standards and, where there are no Performance Standards, in a manner that is believed to be commercially reasonable.",
+                "explanation": "By replacing 'agrees to perform' with 'will endeavor to perform', the legal obligation becomes aspirational rather than mandatory. Removing 'with no other or higher degree of care' eliminates the specific standard of care. Also adding in 'that is believed to be' adds subjectivity to the commercially reasonable standard which makes it difficult to enforce.",
+                "contradicted_law": "Industry standards and regulatory expectations for consistent and reliable performance of outsourced services in the financial sector (e.g., OCC guidelines on outsourcing).",
+                "location": "9.1 General"
+            }
+        ]
+    }
+]

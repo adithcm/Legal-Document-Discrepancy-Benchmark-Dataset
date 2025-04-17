@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 5.3 Invoices. Provider shall submit or cause to be submitted to Recipient in writing, within 15 days after the end of each month, an invoice setting forth the Fees for the Services provided to Recipient during such month in reasonable detail, as applicable, due under such invoice.",
+                "changed_text": "Section 5.3 Invoices. Provider shall submit or cause to be submitted to Recipient in writing, within 60 days after the end of each month, an invoice setting forth the Fees for the Services provided to Recipient during such month in reasonable detail, as applicable, due under such invoice.",
+                "explanation": "In many jurisdictions, prompt payment laws require invoices to be issued within a reasonable timeframe (often less than 60 days) to ensure timely payment and avoid disputes. Delaying invoice submission to 60 days could be considered an unreasonable delay and create legal issues related to payment terms.",
+                "contradicted_law": "Prompt Payment Laws",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 5.4 Payment. Recipient shall pay, or cause to be paid, the Fees shown on an invoice no later than the last business day of the month Recipient received such invoice unless disputed in accordance with Section 5.7. Any amount not received from the invoiced Party within such period shall bear interest at the Applicable Rate, from and including the last date of such period to, but excluding, the date of payment.",
+                "changed_text": "Section 5.4 Payment. Recipient shall pay, or cause to be paid, the Fees shown on an invoice no later than 90 days after the Recipient received such invoice unless disputed in accordance with Section 5.7. Any amount not received from the invoiced Party within such period shall bear interest at a rate of 0.1%, from and including the last date of such period to, but excluding, the date of payment.",
+                "explanation": "This change directly contradicts standard business practices and potentially usury laws, which regulate maximum interest rates. Imposing a 90-day payment term significantly exceeds typical net-30 terms and imposing a 0.1% interest rate on late payments is unreasonably low and may violate usury laws depending on the jurisdiction and applicable rate.",
+                "contradicted_law": "Usury Laws, Prompt Payment Laws",
+                "location": "Section 5.4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 6.2 Termination of Services. Except as agreed by the Parties in writing or as otherwise stated in the Exhibits, Company may terminate for convenience any Transition Service, and RGHI may terminate for convenience any Reverse Transition Service, upon 30 days' prior written notice of such termination; provided, (a) that, with respect to the Services described in Section G1 of Exhibit A, unless otherwise indicated therein, those Services may not be terminated independently except in accordance with an agreed Migration Plan and, (b) any unamortized costs associated with Provider's purchase of any license or other costs incurred specifically for the purpose of providing the Services hereunder will be passed through to the Terminating Party.",
+                "changed_text": "Section 6.2 Termination of Services. Except as agreed by the Parties in writing or as otherwise stated in the Exhibits, Company may terminate for convenience any Transition Service, and RGHI may terminate for convenience any Reverse Transition Service, upon 10 days' prior written notice of such termination; provided, (a) that, with respect to the Services described in Section G1 of Exhibit A, unless otherwise indicated therein, those Services may not be terminated independently except in accordance with an agreed Migration Plan and, (b) any unamortized costs associated with Provider's purchase of any license or other costs incurred specifically for the purpose of providing the Services hereunder will be passed through to the Terminating Party.",
+                "explanation": "Reducing the termination notice period to 10 days could be deemed unreasonable, particularly for complex service agreements. Many jurisdictions require reasonable notice periods for contract terminations to allow parties adequate time to make alternative arrangements. A 10-day notice might be challenged as insufficient and therefore unenforceable.",
+                "contradicted_law": "Contract Law - Reasonableness of Notice",
+                "location": "Section 6.2"
+            }
+        ]
+    }
+]

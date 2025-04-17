@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CerusCorporation-FIRSTAMENDTOSUPPLYANDMANUFACTURINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "1.5.3 Porex will invoice Cerus monthly for Services performed by Porex during the prior month. Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due [*] days following Cerus' receipt of the invoice submitted by Porex. Payment information, including Tax Identification Number will be included on each invoice.",
+                "changed_text": "1.5.3 Porex will invoice Cerus monthly for Services performed by Porex during the prior month. Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due [*] days following Cerus' receipt of the invoice submitted by Porex. Notwithstanding the foregoing, for all invoices related to Services performed under Section 3a (Non-Production Related Work), payment shall be due upon Cerus's acceptance of the deliverables, regardless of the [*] day period. Payment information, including Tax Identification Number will be included on each invoice.",
+                "explanation": "This change introduces a contradiction by specifying that for invoices under Section 3a, payment is due upon acceptance of deliverables, overriding the standard [*] day payment term. This creates uncertainty as to which payment term applies in Section 3a.",
+                "location": "Section 1.5.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Cerus shall have the right to accept or reject the Services, or any portion thereof, in writing within [*] days from Porex's completion of the Services. Such acceptance or rejection shall be consistent with the criteria set forth in the Statement of Work, if any. If Cerus does not reject in writing within [*] days, the Services shall be considered accepted by Cerus. Within [*] days of any notice of rejection, Porex shall present a corrective plan of action to Cerus. Upon approval by Cerus of the corrective plan, Porex, at no additional expense to Cerus, shall then make the corrections and, where applicable, Porex shall resubmit the corrected Services to Cerus. For disputed invoices or the disputed portion of an invoice, Cerus shall use reasonable efforts to provide to Porex, in writing, within [*] days, a description of the disputed amounts.",
+                "changed_text": "Cerus shall have the right to accept or reject the Services, or any portion thereof, in writing within [*] days from Porex's completion of the Services. Such acceptance or rejection shall be consistent with the criteria set forth in the Statement of Work, if any. However, for Non-Production Related Work, Cerus's acceptance period is limited to 7 days. If Cerus does not reject in writing within [*] days, the Services shall be considered accepted by Cerus. Within [*] days of any notice of rejection, Porex shall present a corrective plan of action to Cerus. Upon approval by Cerus of the corrective plan, Porex, at no additional expense to Cerus, shall then make the corrections and, where applicable, Porex shall resubmit the corrected Services to Cerus. For disputed invoices or the disputed portion of an invoice, Cerus shall use reasonable efforts to provide to Porex, in writing, within [*] days, a description of the disputed amounts.",
+                "explanation": "This change introduces a contradiction by establishing a 7-day acceptance period for Non-Production Related Work. While the earlier sentence provides [*] days for acceptance, this creates confusion on the exact acceptance timeframe.",
+                "location": "Section 1.5.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Cerus will not have responsibility to pay for identified errors, incomplete or inaccurate items (collectively the \"invoice errors\") which result in increases to previously invoiced amounts if the aforementioned invoice errors are communicated to Cerus later than [*] days from the original invoice date.",
+                "changed_text": "Cerus will not have responsibility to pay for identified errors, incomplete or inaccurate items (collectively the \"invoice errors\") which result in increases to previously invoiced amounts if the aforementioned invoice errors are communicated to Cerus later than [*] days from the original invoice date. Notwithstanding the foregoing, any invoice errors related to Services under Section 3a must be communicated within 15 days of the invoice date, after which Cerus will have no obligation to raise them.",
+                "explanation": "This change introduces a contradiction by creating a different timeframe for reporting invoice errors. The original text states [*] days, while the added sentence restricts it to 15 days for services under Section 3a, leading to confusion.",
+                "location": "Section 1.5.3"
+            }
+        ]
+    }
+]

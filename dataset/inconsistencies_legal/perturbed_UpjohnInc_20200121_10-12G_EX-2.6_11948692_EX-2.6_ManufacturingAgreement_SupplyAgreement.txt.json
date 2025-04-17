@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Unless otherwise set forth in the applicable Facility Addendum with respect to a particular Product or Products, Customer shall pay all undisputed amounts due in the currency specified in the applicable Facility Addendum within sixty (60) calendar days from the date of the invoice.",
+                "changed_text": "Unless otherwise set forth in the applicable Facility Addendum with respect to a particular Product or Products, Customer shall pay all undisputed amounts due in the currency specified in the applicable Facility Addendum within ninety (90) calendar days from the date of the invoice.",
+                "explanation": "By extending the payment period to 90 days, the contract could conflict with laws or regulations in some jurisdictions that mandate shorter payment terms, especially for pharmaceutical products or transactions involving smaller businesses.",
+                "contradicted_law": "Potentially conflicts with prompt payment laws or regulations in various states or countries.",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If any payment required to be made under this Agreement is not made within twenty (20) days of the applicable date when such payment is due (the \"Late Payment Date\"), interest shall accrue on such past due amount from the Late Payment Date until the date payment is actually made at a quarterly rate equal to the lesser of (i) the Three-Month U.S. dollar LIBOR (Reuters Page LIBOR01) on the Late Payment Date (or the next Business Day if such Late Payment Date is not a Business Day), and (ii) the maximum rate permitted by applicable Law.",
+                "changed_text": "If any payment required to be made under this Agreement is not made within ninety (90) days of the applicable date when such payment is due (the \"Late Payment Date\"), interest shall accrue on such past due amount from the Late Payment Date until the date payment is actually made at a quarterly rate equal to the lesser of (i) the Three-Month U.S. dollar LIBOR (Reuters Page LIBOR01) on the Late Payment Date (or the next Business Day if such Late Payment Date is not a Business Day), and (ii) the maximum rate permitted by applicable Law.",
+                "explanation": "Extending the grace period for late payments to 90 days may contradict state laws regarding timely payments, potentially voiding the late payment interest terms, specifically for businesses in the USA.",
+                "contradicted_law": "Conflicts with state-specific laws on late payment penalties and interest accrual.",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Manufacturer must engage such Third-Party laboratory within the thirty (30) day period following Manufacturer's receipt of Customer's rejection notice.",
+                "changed_text": "Manufacturer must engage such Third-Party laboratory within the fifteen (15) day period following Manufacturer's receipt of Customer's rejection notice.",
+                "explanation": "The reduction of the timeframe to engage a third-party laboratory from 30 to 15 days might not be enough to comply with the regulatory standards.  It creates non-compliance with regulatory standards.",
+                "contradicted_law": "Conflicts with regulatory requirements of the engagement timeframe.",
+                "location": "Section 4.8(d)"
+            }
+        ]
+    }
+]

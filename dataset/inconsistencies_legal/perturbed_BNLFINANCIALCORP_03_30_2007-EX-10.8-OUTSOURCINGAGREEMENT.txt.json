@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any sum due VIP hereunder for which a time for payment is not otherwise specified will be due and payable within ten (10) days after the date of the postmark for an invoice therefor from VIP. If BNL fails to pay any amount due within ten (10) days from the date of the postmark for the invoice, late charges of 1-1/2% per month, or the maximum amount allowable by law, whichever is less, shall also become payable by BNL to VIP.",
+                "changed_text": "Any sum due VIP hereunder for which a time for payment is not otherwise specified will be due and payable within five (5) days after the date of the postmark for an invoice therefor from VIP. If BNL fails to pay any amount due within five (5) days from the date of the postmark for the invoice, late charges of 5% per month, shall also become payable by BNL to VIP.",
+                "explanation": "The original text allows for a 10-day payment period and a late charge of 1.5% per month. The modified text shortens the payment period to 5 days and increases the late charge to 5% per month. Many states have regulations regarding late payment fees and usury laws. Charging 5% per month may exceed the maximum allowable interest rate in some states, and providing only 5 days for payment may be considered an unfair business practice.",
+                "contradicted_law": "State usury laws and potentially unfair business practice regulations.",
+                "location": "5.D"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that BNL fails to pay any sums of money due to VIP hereunder and does not cure such default within thirty (30) days after receipt of written notice of such nonpayment from VIP , provided that if BNL notifies VIP in writing that BNL disputes a billing and BNL pays any undisputed portion of such billing VIP shall not institute formal proceedings by arbitration or judicial review or terminate this Agreement with respect to such disputed billing until after VIP has afforded BNL an opportunity for a meeting to discuss such dispute.",
+                "changed_text": "In the event that BNL fails to pay any sums of money due to VIP hereunder and does not cure such default within ten (10) days after receipt of written notice of such nonpayment from VIP , VIP can immediately institute formal proceedings by arbitration or judicial review or terminate this Agreement with respect to such disputed billing.",
+                "explanation": "The original text provides a 30-day cure period for non-payment and requires VIP to offer a meeting to discuss disputed billings before instituting formal proceedings. The modified text reduces the cure period to 10 days and removes the requirement for a meeting, allowing VIP to immediately pursue formal action. This contradicts standard contract law principles of providing reasonable notice and opportunity to cure, and may also violate state laws regarding debt collection practices.",
+                "contradicted_law": "Contract law principles of reasonable notice and opportunity to cure, and potentially state debt collection laws.",
+                "location": "7.A"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Unless either party gives written notice to terminate this Agreement at least six (6) months prior to the end of said Initial Term, this Agreement shall continue on a year to year basis (\"Extended Term(s)\") until terminated by either party by giving written notice of termination thereof to the other party at least six (6) months prior to the end of the then current Extended Term.",
+                "changed_text": "Unless either party gives written notice to terminate this Agreement at least one (1) month prior to the end of said Initial Term, this Agreement shall continue on a year to year basis (\"Extended Term(s)\") until terminated by either party by giving written notice of termination thereof to the other party at least one (1) month prior to the end of the then current Extended Term.",
+                "explanation": "The original text requires a six-month notice period for termination. The modified text reduces this to one month. Depending on the specific industry and state, a one-month notice period may be deemed unreasonable, especially in the context of a long-term outsourcing agreement. This could violate implied covenants of good faith and fair dealing, and might be challenged in court as unconscionable.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing; potential unconscionability under state contract law.",
+                "location": "15.B"
+            }
+        ]
+    }
+]

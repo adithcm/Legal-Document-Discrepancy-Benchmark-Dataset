@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Manufacturer shall manufacture and supply each Product (including disposing of all Waste and other materials) in accordance with all applicable Specifications, applicable Laws, requirements under the applicable Quality Agreement, and this Agreement.",
+                "changed_text": "Manufacturer shall manufacture and supply each Product (including disposing of all Waste and other materials) in accordance with the general industry standards, applicable Laws, guidelines under the applicable Quality Agreement, and this Agreement.",
+                "explanation": "This change introduces ambiguity by replacing 'all applicable Specifications' with 'general industry standards'. The original contract requires strict adherence to set specifications, but the modified version creates uncertainty by using a less precise standard. This creates a potential for dispute over what constitutes acceptable manufacturing quality.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Manufacturer shall not release any Product for Delivery to Customer that does not conform to the covenants set forth in Section 5.2(e) (such non-conforming Product, \"Non-Complying Product\"), without the prior written approval of Customer.",
+                "changed_text": "Manufacturer may release any Product for Delivery to Customer that substantially conforms to the covenants set forth in Section 5.2(e) (such non-conforming Product, \"Non-Complying Product\"), without the prior written approval of Customer.",
+                "explanation": "This change introduces ambiguity regarding the standards required for a product to be released for delivery to the customer. The term 'substantially conforms' creates ambiguity regarding what level of deviation from the standards defined in section 5.2(e) is acceptable. It potentially clashes with the explicit standards in the earlier section.",
+                "location": "Section 4.7"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "With respect to each Product for which Manufacturer provides Technical Support under this Agreement, Manufacturer shall provide to Customer any analytical materials and methods in Manufacturer's possession or control that are required in connection with disclosures to any applicable Governmental Authority to qualify the applicable Product Materials, Buy-Sell Materials, or Customer- Supplied Materials for such Product or such Product itself for release testing to meet the then-current applicable marketing authorization, in each case, subject to Section 13.",
+                "changed_text": "With respect to each Product for which Manufacturer provides Technical Support under this Agreement, Manufacturer may provide to Customer any analytical materials and methods in Manufacturer's possession or control at their discretion that are required in connection with disclosures to any applicable Governmental Authority to qualify the applicable Product Materials, Buy-Sell Materials, or Customer- Supplied Materials for such Product or such Product itself for release testing to meet the then-current applicable marketing authorization, in each case, subject to Section 13.",
+                "explanation": "The modification from 'shall' to 'may' introduces ambiguity and undermines the obligation. The initial text requires the manufacturer to provide all analytical details for product qualification. But the altered text allows manufacturer to act as its own discretion, hence leading to conflicting interpretations of technical assistance obligations.",
+                "location": "Section 2.10(g)"
+            }
+        ]
+    }
+]

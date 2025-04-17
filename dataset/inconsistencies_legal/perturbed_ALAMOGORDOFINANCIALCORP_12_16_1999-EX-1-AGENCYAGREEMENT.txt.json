@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The obligations of the Agent pursuant to this Agreement (other than those set forth in Sections 2(d), 8 and 9 hereof) shall terminate upon the completion or termination or abandonment of the Plan by the Company or upon termination of the Offering, but in no event later than the date (the \"End Date\") which is 45 days after the Closing Date (as hereinafter defined).  All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date.  In the event the Offering is extended beyond the End Date, the Company, the MHC, the Bank and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "changed_text": "The obligations of the Agent pursuant to this Agreement (other than those set forth in Sections 2(d), 8 and 9 hereof) shall terminate upon the completion or termination or abandonment of the Plan by the Company or upon termination of the Offering, but in no event later than the date (the \"End Date\") which is 15 days after the Closing Date (as hereinafter defined). All fees or expenses due to the Agent but unpaid will be payable to the Agent within 90 days of the Closing Date (as hereinafter defined) or the End Date. In the event the Offering is extended beyond the End Date, the Company, the MHC, the Bank and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "explanation": "The original contract specifies 45 days for the termination date, which is consistent. This change reduces the termination timeframe to 15 days, which could be problematic if it doesn't allow enough time for reconciliation or completion of all agent duties post-closing, potentially leading to disputes and violating implied duties of good faith and fair dealing. Additionally, the change extends payment terms to 90 days, which contradicts standard practices requiring prompt payment, creating inconsistency.",
+                "contradicted_law": "Implied duties of good faith and fair dealing; potentially state laws regarding prompt payment.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company will not, at any time after the date the Registration Statement is declared effective, file any amendment or supplement to the Registration Statement without providing the Agent and its counsel an opportunity to\n\n                                       15\n\nreview such amendment or supplement or file any amendment or supplement to which amendment or supplement the Agent or its counsel shall reasonably object.",
+                "changed_text": "The Company may, at any time after the date the Registration Statement is declared effective, file any amendment or supplement to the Registration Statement without providing the Agent and its counsel an opportunity to review such amendment or supplement or file any amendment or supplement regardless of the Agent's objections.",
+                "explanation": "The original text requires the Company to provide the Agent with an opportunity to review any amendments or supplements to the registration statement, which is compliant. This change removes the Agent's right to review amendments and allows the Company to proceed even if the Agent objects. This change introduce a contradiction since this could impair the Agent's ability to fulfill its regulatory obligations and increases its liability. It also violates securities laws that require full and accurate disclosure.",
+                "contradicted_law": "Securities Act of 1933; NASD/FINRA rules regarding due diligence.",
+                "location": "Section 5.l (a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company, the MHC and the Bank will not sell or issue, contract to sell or otherwise dispose of, for a period of 90 days after the Closing Date, without the Agent's prior written consent, any Common Stock other than the Shares or other than in connection with any plan or arrangement described in the Prospectus, including existing stock benefit plans.",
+                "changed_text": "The Company, the MHC and the Bank may sell or issue, contract to sell or otherwise dispose of, immediately after the Closing Date, without the Agent's prior written consent, any Common Stock other than the Shares or other than in connection with any plan or arrangement described in the Prospectus, including existing stock benefit plans.",
+                "explanation": "The original text includes a 90-day lock-up period to prevent dilution of the stock's value post-offering. This change removes the lock-up period, allowing the company to issue more shares immediately after the closing date. This action directly contradicts standard underwriting practices aimed at maintaining market stability and value post-IPO or secondary offering. This change introduces a legal inconsistency, since this could be a violation of the Duty of Good Faith and Fair Dealing.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing; Securities regulations related to market manipulation.",
+                "location": "Section 5.l (i)"
+            }
+        ]
+    }
+]

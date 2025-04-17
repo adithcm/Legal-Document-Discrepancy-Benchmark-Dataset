@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_MaintenanceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Network Build and Maintenance Agreement is entered into as of the 31 day of July, 2019 (the \"Effective Date\") by and between Commnet Wireless, LLC, a Delaware limited liability company (hereinafter referred to as \"Vendor\"), and AT&T Mobility LLC, a Delaware limited liability company on behalf of itself and its Affiliates (as such term is defined herein) (collectively and hereinafter referred to as \"AT&T\"), each of which may be referred to in the singular as a \"Party\" or in the plural as the \"Parties.\"",
+                "changed_text": "This Network Build and Maintenance Agreement is entered into as of the 31 day of July, 2019 (the \"Effective Date\") by and between Commnet Wireless, LLC, a Delaware limited liability company (hereinafter referred to as \"Contractor\"), and AT&T Mobility LLC, a Delaware limited liability company on behalf of itself and its Affiliates (as such term is defined herein) (collectively and hereinafter referred to as \"AT&T\"), each of which may be referred to in the singular as a \"Party\" or in the plural as the \"Parties.\"",
+                "explanation": "The term 'Vendor' is replaced with 'Contractor' in the introduction. This sets the stage for potential confusion later if 'Vendor' is used again.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1 Scope of Agreement. Subject to the terms and conditions of this Agreement, Vendor shall (i) build, install and deploy a radio access network (\"RAN\") at certain Cell Sites in one or more states for AT&T and its Affiliates as more particularly described in Addendum 1: Network Build and Structured Payments (the \"Build Addendum\") attached hereto, (ii) provide ongoing maintenance of the RAN network constructed by Vendor pursuant to the Build Addendum as more particularly described in Addendum 2: Maintenance (the \"Maintenance Addendum\") attached hereto and (iii) provide to AT&T certain other Material and Services related thereto as described herein and therein.",
+                "changed_text": "1.1 Scope of Agreement. Subject to the terms and conditions of this Agreement, the Supplier shall (i) build, install and deploy a radio access network (\"RAN\") at certain Cell Sites in one or more states for AT&T and its Affiliates as more particularly described in Addendum 1: Network Build and Structured Payments (the \"Build Addendum\") attached hereto, (ii) provide ongoing maintenance of the RAN network constructed by Contractor pursuant to the Build Addendum as more particularly described in Addendum 2: Maintenance (the \"Maintenance Addendum\") attached hereto and (iii) provide to AT&T certain other Material and Services related thereto as described herein and therein.",
+                "explanation": "Uses 'Supplier' instead of 'Vendor' and keeps Contractor in other parts. This creates ambiguity: Is 'Supplier' the same as 'Contractor'? Which entity is responsible for what?",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "2.43 Vendor Indemnified Parties. \"Vendor Indemnified Parties\" means Vendor and its Affiliates, as well as their respective officers, directors, employees, representatives and agents, individually or collectively, as the case may be, and all of their successors and assigns.",
+                "changed_text": "2.43 Vendor Indemnified Parties. \"Vendor Indemnified Parties\" means Subcontractor and its Affiliates, as well as their respective officers, directors, employees, representatives and agents, individually or collectively, as the case may be, and all of their successors and assigns.",
+                "explanation": "Defines 'Vendor Indemnified Parties' as 'Subcontractor and its Affiliates', despite defining Vendor independently. Introduces major confusion about liability and indemnification.",
+                "location": "Section 2.43"
+            }
+        ]
+    }
+]

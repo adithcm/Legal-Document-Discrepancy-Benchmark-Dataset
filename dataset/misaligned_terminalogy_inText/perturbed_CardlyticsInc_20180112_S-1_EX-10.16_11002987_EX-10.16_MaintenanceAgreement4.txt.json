@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Product License Schedule is issued pursuant to the Software License, Customization and Maintenance Agreement (the \"Agreement\") executed by and between Bank of America, N.A. (\"Bank of America\") and Cardlytics, (\"Supplier\") and incorporates by reference all of the terms and conditions of the Agreement.",
+                "changed_text": "This Product License Schedule is issued pursuant to the Software License, Customization and Maintenance Agreement (the \"Agreement\") executed by and between Bank of America, N.A. (\"Bank of America\") and Cardlytics, (\"Vendor\") and incorporates by reference all of the terms and conditions of the Agreement.",
+                "explanation": "The term 'Supplier' is replaced with 'Vendor'. While seemingly innocuous, if the 'Agreement' elsewhere only refers to 'Supplier' and defines obligations only for the 'Supplier', this creates ambiguity. It's unclear if 'Vendor' now has the same obligations as the original 'Supplier'.",
+                "location": "SCHEDULE A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Beginning three (3) years after the General Services Agreement Effective Date, the Supplier Software version in place one (1) yearfollowing the Service reaching 10,000,000 Users $[***]",
+                "changed_text": "Beginning three (3) years after the General Services Agreement Effective Date, the Vendor Software version in place one (1) yearfollowing the Service reaching 10,000,000 Users $[***]",
+                "explanation": "Changing 'Supplier Software' to 'Vendor Software' creates a contradiction. If the Agreement defines 'Supplier Software' but not 'Vendor Software', it is uncertain whether the 'Vendor Software' is covered by the same stipulations as 'Supplier Software'.",
+                "location": "TERM FOR ORDERING - B"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The method of delivery and name of the State where Supplier shall deliver and Bank of America shall receive Software and Documentation:\n\nTBD",
+                "changed_text": "The method of delivery and name of the State where Vendor shall deliver and Bank of America shall receive Software and Documentation:\n\nTBD",
+                "explanation": "Changing 'Supplier shall deliver' to 'Vendor shall deliver'. If the Agreement only specifies delivery obligations for the 'Supplier' and the 'Vendor' is not explicitly defined as interchangeable, it is unclear if the 'Vendor' is bound by the same delivery terms.",
+                "location": "PAYMENT TERMS - METHOD OF DELIVERY AND STATE WHERE SOFTWARE AND DOCUMENTATION ARE RECEIVED"
+            }
+        ]
+    }
+]

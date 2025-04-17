@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "changed_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. However, the customer will have a grace period of 10 days after the due date to make the payment, without any interruption of service. The Customer acknowledges that failure to pay such fees after the grace period will result in the interruption or discontinuation of services for the Hosted Site.",
+                "explanation": "This change introduces a contradiction by stating that the customer has a 10-day grace period after the 5th of each month to pay fees without interruption. This conflicts with the original text, which implies service interruption if payment is not received by the 5th, creating ambiguity about the actual payment deadline and enforcement.",
+                "location": "Responsibilities of the Customer"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the 4 Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+                "changed_text": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the 4 Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. Either party may terminate this Agreement with cause at any time effective immediately upon written notice if the other party breaches this agreement.",
+                "explanation": "The original text allows termination without cause with 30 days notice. The modified version allows termination 'with cause' effective immediately. The original text does not clarify what action would cause the agreement to break, so this perturbation has created a contradiction regarding the termination terms.",
+                "location": "Term and Termination"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
+                "changed_text": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including gross negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees. However, i-on shall bear full liability for the loss of any customer data.",
+                "explanation": "The original text limits i-on's liability to one month's fees. The modified text still limits liability to one month's fees, but goes on to say that I-on will bear full liability for the loss of any customer data. The term 'full liability' is not defined, and is contradictory to limiting the liability to one month's fees.",
+                "location": "Limitation of Liability"
+            }
+        ]
+    }
+]

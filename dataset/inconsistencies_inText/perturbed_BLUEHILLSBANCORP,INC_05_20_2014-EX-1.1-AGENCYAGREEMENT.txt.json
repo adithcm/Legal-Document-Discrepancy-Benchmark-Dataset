@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 45 days after the completion of the Subscription Offering, unless extended (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or the End Date. In the event the Offering is extended beyond the End Date, the Blue Hills Parties and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "changed_text": "The obligations of the Agent pursuant to this Agreement shall terminate upon termination of the Offering, but in no event later than 60 days after the completion of the Subscription Offering, unless extended (the \"End Date\"). All fees or expenses due to the Agent but unpaid will be payable to the Agent in next day funds at the earlier of the Closing Date (as hereinafter defined) or 30 days after the End Date. In the event the Offering is extended beyond the End Date, the Blue Hills Parties and the Agent may agree to renew this Agreement under mutually acceptable terms.",
+                "explanation": "This change introduces a contradiction by extending the termination date of the Agent's obligations to 60 days while also stipulating that unpaid fees are payable 30 days after the original End Date. This creates uncertainty regarding when the Agent's obligations truly cease and when final payment is due, potentially leading to disputes.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The Agent shall receive the following compensation for its services hereunder: (a) A management fee of $50,000 payable in four installments of $12,500 on the first day of October 2013, December 2013, March 2014 and June 2014. Such fees shall be deemed to have been earned when due. Should the Offering be terminated for any reason not attributable to the action or inaction of Agent, Agent shall have earned and be entitled to be paid fees accruing through the stage at which point the termination occurred.",
+                "changed_text": "The Agent shall receive the following compensation for its services hereunder: (a) A management fee of $50,000 payable in four installments of $12,500 on the first day of October 2013, December 2013, March 2014 and June 2014. Such fees shall be deemed to have been earned when due. Should the Offering be terminated for any reason not attributable to the action or inaction of Agent, Agent shall only be entitled to 50% of fees accruing through the stage at which point the termination occurred.",
+                "explanation": "This changes the amount of management fee that the Agent is entitled to if the offering is terminated which is a direct contradiction.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The Holding Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 90 days after the Closing Date, without the Agent's prior written consent, any of its shares of common stock, other than the Shares or other than in connection with any plan or arrangement described in the Prospectus.",
+                "changed_text": "The Holding Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 120 days after the Closing Date, without the Agent's prior written consent, any of its shares of common stock, other than the Shares or other than in connection with any plan or arrangement described in the Prospectus.",
+                "explanation": "This change alters the lock-up period, potentially conflicting with other clauses that might reference the original 90-day period. This introduces ambiguity about the actual duration of the restriction, especially if other documents or communications refer to the initial 90 days.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

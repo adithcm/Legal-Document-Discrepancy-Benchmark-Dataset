@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SCOUTCAMINC_05_12_2020-EX-10.22-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4. Compensation. In consideration of the services to be rendered by Maimon hereunder and for Maimon's service as a director on the Board of Directors of the Company, the Company will pay Maimon a monthly fee of $1,000 during the Minimum Period, beginning on the Effective Date.",
+                "changed_text": "4. Compensation. In consideration of the services to be rendered by Maimon hereunder and for Maimon's service as a director on the Board of Directors of the Company, the Company will pay Maimon a monthly fee of $1,000 during the first 6 months of the Minimum Period, beginning on the Effective Date.",
+                "explanation": "This change creates a contradiction with Section 3, which states the agreement continues for a 'minimum period of 12 months'. Section 4 now implies the agreed compensation only covers the first 6 months, potentially leading to disputes over payment for the latter half of the Minimum Period.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5. Termination. If Maimon should become unable to serve as CEO, or should fail to perform any of the obligations hereunder for any cause including death or disability, always in the sole judgment and decision of the Company, then the Company shall have the right to terminate this agreement on five days prior written notice. Maimon shall have the right to resign at any time upon 30 days prior written notice. The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon.",
+                "changed_text": "5. Termination. If Maimon should become unable to serve as CEO, or should fail to perform any of the obligations hereunder for any cause including death or disability, always in the sole judgment and decision of the Company, then the Company shall have the right to terminate this agreement on five days prior written notice. Maimon shall have the right to resign at any time upon 30 days prior written notice. The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon. The Company can terminate this agreement, for any reason, with a payment of $50,000 USD to Maimon.",
+                "explanation": "This change adds another clause in termination stating that 'The Company can terminate this agreement, for any reason, with a payment of $50,000 USD to Maimon.' It creates a conflict with the rest of Section 5 regarding termination conditions. This implies there could be termination 'for any reason', which potentially diminishes the prior termination clauses with specific conditions (inability to serve, etc), causing uncertainty.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "8. Conflicts of Interest, Non-Competition, Non-Solicitation. Maimon agrees during the term of this Agreement not to accept work or enter into a contract or accept an obligation inconsistent or incompatible with Maimon's obligations under this Agreement or with the scope of services to be rendered for the Company. Maimon warrants that to the best of Maimon's knowledge, there is no other contract or duty on Maimon's part now in existence inconsistent with this Agreement. During the term of this Agreement and for a period of two (2) years after expiration or termination for any reason of this Agreement, Maimon agrees not to: (a) compete with the business of the Company, whether individually or through any entity, or to use (or permit the use of) any Confidential Information, directly or indirectly, for the purpose of competing with the business of the Company; or (b) suggest to, induce or persuade any customer, client, vendor, supplier, employee, consultant or agent of the Company to terminate or diminish its relationship with the Company..",
+                "changed_text": "8. Conflicts of Interest, Non-Competition, Non-Solicitation. Maimon agrees during the term of this Agreement not to accept work or enter into a contract or accept an obligation inconsistent or incompatible with Maimon's obligations under this Agreement or with the scope of services to be rendered for the Company. Maimon warrants that to the best of Maimon's knowledge, there is no other contract or duty on Maimon's part now in existence inconsistent with this Agreement. During the term of this Agreement Maimon agrees not to: (a) compete with the business of the Company, whether individually or through any entity, or to use (or permit the use of) any Confidential Information, directly or indirectly, for the purpose of competing with the business of the Company; or (b) suggest to, induce or persuade any customer, client, vendor, supplier, employee, consultant or agent of the Company to terminate or diminish its relationship with the Company..",
+                "explanation": "This creates an in-text contradiction by removing 'and for a period of two (2) years after expiration or termination for any reason of this Agreement'. This creates an ambiguity if the Maimon's agreement to not compete extends past the termination of this agreement.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]
