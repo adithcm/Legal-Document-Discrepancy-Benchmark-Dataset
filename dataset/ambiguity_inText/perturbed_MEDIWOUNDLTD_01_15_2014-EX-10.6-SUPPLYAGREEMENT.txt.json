@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MEDIWOUNDLTD_01_15_2014-EX-10.6-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.13 \"Specifications\" means the specifications for Bromelain SP set forth as Exhibit 1.13 hereto, as the same may be amended with the consent of both parties hereto, it being agreed that no amendment may be made thereto or refused which would\n\n*** Confidential treatment has been requested for redacted portions of this exhibit. This copy omits the information subject to the confidentiality request. Omissions are designated as [***]. A complete version of this exhibit has been provided separately to the Securities and Exchange Commission.   3\n\nrender Product incapable of application on humans or the use, supply or sale thereof in breach of any regulations.",
+                "changed_text": "1.13 \"Specifications\" means the specifications for Bromelain SP set forth as Exhibit 1.13 hereto, as the same may be amended unilaterally by CBC. CBC shall notify MediWound of any changes. It is agreed that CBC shall endeavor to ensure that no amendment is made thereto that would\n\n*** Confidential treatment has been requested for redacted portions of this exhibit. This copy omits the information subject to the confidentiality request. Omissions are designated as [***]. A complete version of this exhibit has been provided separately to the Securities and Exchange Commission.   3\n\nrender Product incapable of application on humans or the use, supply or sale thereof in breach of any regulations.",
+                "explanation": "The original definition requires mutual consent to amend the specifications. The modified definition allows CBC to unilaterally amend the specifications, creating a conflict. This raises uncertainty over which version of the specifications is controlling and who ultimately has the authority to change the product characteristics.",
+                "location": "Section 1.13"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6.2 MediWound shall furnish CBC with a non-binding forecast of its anticipated annual requirements of Bromeline SP by no later than November 1 of each year (\"Annual Forecast\"), for the next calendar year. Notwithstanding the foregoing, the first forecast for the calendar year that commenced on January 1, 2001, was furnished by MediWound to CBC by March 15, 2001. MediWound undertakes to order at least [***]% of the Annual Forecast per each year.",
+                "changed_text": "6.2 MediWound shall furnish CBC with a non-binding forecast of its anticipated annual requirements of Bromeline SP by no later than November 1 of each year (\"Annual Forecast\"), for the next calendar year. Notwithstanding the foregoing, the first forecast for the calendar year that commenced on January 1, 2001, was furnished by MediWound to CBC by March 15, 2001. MediWound is encouraged to order at least [***]% of the Annual Forecast per each year.",
+                "explanation": "The original text states that the forecast is non-binding, but then mandates MediWound to order at least [***]% of the Annual Forecast. The modified text changes 'undertakes to order' to 'is encouraged to order,' removing the obligation to purchase a specific amount. This creates a contradiction with other sections relying on the forecast for capacity planning and pricing, making it unclear what level of obligation the buyer has to the forecast.",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10.2 CBC may terminate this Agreement by no less than 24 (twenty four) months notice given in writing by CBC to MediWound, or such greater period as may be reasonable for MediWound to establish an alternative source of manufacture of Bromelain SP and/or to acquire sufficient inventory of Bromelain SP for a 24 (twenty four) months period.",
+                "changed_text": "10.2 CBC may terminate this Agreement by no less than 6 (six) months notice given in writing by CBC to MediWound, regardless of whether MediWound can establish an alternative source of manufacture of Bromelain SP and/or to acquire sufficient inventory of Bromelain SP for a 24 (twenty four) months period.",
+                "explanation": "The original text mandates a minimum 24 month notice period for termination by CBC, but qualifies it with a provision for a potentially longer period if MediWound needs more time to find an alternative supplier. The modified text removes this qualification and shortens the minimum notice period to 6 months, creating a conflict regarding the appropriate amount of notice required. This impacts MediWound's ability to secure supply if CBC decides to terminate.",
+                "location": "Section 10.2"
+            }
+        ]
+    }
+]

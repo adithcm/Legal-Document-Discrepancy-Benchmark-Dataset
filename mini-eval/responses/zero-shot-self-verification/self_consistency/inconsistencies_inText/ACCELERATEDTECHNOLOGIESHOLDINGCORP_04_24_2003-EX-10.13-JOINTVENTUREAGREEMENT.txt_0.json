@@ -1,26 +1,29 @@
 [
     {
         "section": "Except as agreed upon by mutual consent, the Joint Venturers shall not be required to make any capital contribution to the Joint Venture.",
-        "explanation": "This clause states that capital contributions are not required unless mutually agreed upon. However, Section 9 later mentions that 'No Joint Venturer shall withdraw, transfer or have paid to him in any manner any part of his capital contribution or account...' This implies that capital contributions exist, contradicting the initial statement that they are not required unless agreed upon. This creates confusion as to whether there are indeed capital contributions, even without mutual consent.",
+        "explanation": "This section states that capital contributions are not required unless mutually agreed upon. However, Section 9 later mentions that 'No Joint Venturer shall withdraw, transfer or have paid to him in any manner any part of his capital contribution or account...'. This implies that there might be capital contributions, even if not initially required, creating an in-text contradiction.",
         "location": "Section 3",
         "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "However, either Joint Venturer may unilaterally terminate the agreement with written notice of sixty (60) days.",
-        "explanation": "This statement allows unilateral termination with 60 days written notice. Section 11 describes the procedure on termination and liquidation, stating 'On any termination of the Joint Venture, its debt shall be paid or provided for in a manner satisfactory to the Joint Venturers.' If one party can unilaterally terminate the agreement, it is unclear how debts can be paid in a manner satisfactory to both joint ventures, as one party may not be in agreement with the other, creating a structural flaw within the legal terms.",
+        "explanation": "Section 8 specifies that the Joint Venture will last until February 28, 2004, unless extended by written agreement. However, it also allows either party to unilaterally terminate with 60 days' notice. This creates ambiguity. If one party terminates with 60 days' notice before February 28, 2004, does that override the initial term? This presents an in-text contradiction, making the term of the agreement unclear.",
         "location": "Section 8",
-        "category": 10,
+        "category": 3,
         "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": true
     },
     {
         "section": "Notwithstanding the foregoing, PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability.",
-        "explanation": "This clause guarantees PVSS a payment of $10,000 per month regardless of profitability. However, section 9 states 'Distributions may only be made if after any distribution is made, the Joint Venture assets are in excess of all liabilities of the Joint Venture.' If the joint venture does not have enough assets to cover the $10,000 per month payment, then it would be a legal contradiction since the agreement states that payments can only be made when assets are in excess of all liabilities.",
+        "explanation": "Section 9 states that distributions may only be made if the Joint Venture assets are in excess of all liabilities. However, it then provides that PVSS is entitled to a guaranteed payment of $10,000 per month, regardless of profitability. This is a contradiction because the guaranteed payment could violate the condition that distributions can only be made when assets exceed liabilities. It is a contradiction in text and legal terms.",
         "location": "Section 9",
-        "category": 4,
+        "category": 3,
         "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": false
     }
 ]

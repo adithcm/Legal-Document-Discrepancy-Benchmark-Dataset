@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTINGANDMANAGEMENTAGREEMENT-EscrowAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.3   \"Licence Agreement\" means the licence granted to the Licensee for             the Package;",
+                "changed_text": "1.3   \"Licence Agreement\" means the original license agreement granted to the Licensee for the Package and any renewals or extensions thereof, provided such renewals or extensions are explicitly documented and provided to NCC;",
+                "explanation": "The original definition of 'Licence Agreement' is straightforward. The modified definition introduces ambiguity by requiring 'explicitly documented' renewals/extensions given to NCC. If not properly documented, disputes could arise as to whether renewed terms are covered by the escrow agreement. The definition will create an ambiguity in enforcement, for example, if the licensee is entitled to an updated material.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "2.2   The Owner warrants that:\n\n            2.2.1 it owns the Intellectual Property Rights in the Material and                   has authority to enter into this Agreement; and\n\n            2.2.2 the Material lodged under Clause 2.1 shall contain all                   information in human-readable form and on suitable media to                   enable a reasonably skilled programmer or analyst to                   understand, maintain and correct the Package without the                   assistance of any other person.",
+                "changed_text": "2.2   The Owner warrants that:\n\n            2.2.1 it owns the Intellectual Property Rights in the Material and                   has authority to enter into this Agreement; and\n\n            2.2.2 the Material lodged under Clause 2.1 shall contain most                   information in human-readable form and on suitable media to                   enable a reasonably skilled programmer or analyst to                   understand, maintain and correct the Package with the                   assistance of other resources, if necessary.",
+                "explanation": "Original 2.2.2 implies complete self-sufficiency of the material. The changed version, by using 'most' instead of 'all' and introducing 'assistance of other resources', contradicts the original warranty of self-sufficiency for understanding, maintaining, and correcting the Package. This will create an uncertainty during enforcement, as there is no certainty that the licensee can resolve the issue.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.4  If the Licence Agreement has expired or has been lawfully terminated             this Agreement will automatically terminate on the same date.",
+                "changed_text": "11.4  If the Licence Agreement has expired or has been lawfully terminated this Agreement will automatically terminate on the same date. However, in the event of termination due to breach by the Owner, this agreement will remain in effect for an additional 90 days to allow the Licensee to transition to a new solution.",
+                "explanation": "The original clause states automatic termination. The addition creates an exception: if termination is due to the Owner's breach, the agreement continues for 90 days. This contradicts the 'automatic termination' aspect. The contradiction creates an ambiguity. For instance, what happens to NCC's obligations during that 90-day transition period? What type of access does the Licensee retain to the material? These questions create uncertainty during enforcement.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

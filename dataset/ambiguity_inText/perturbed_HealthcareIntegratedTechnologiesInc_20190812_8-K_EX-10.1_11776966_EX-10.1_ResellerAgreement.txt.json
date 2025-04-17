@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Customer\" means a third party who purchases the Products from Reseller within the Territory, for its internal use only (including for the personal use of its End Users), such as nursing homes. \"End User\" means a third party who is a customer of Customer or is otherwise related to a customer of Customer, and who purchases and/or uses the Products within the Territory, for its personal use only.",
+                "changed_text": "\"Customer\" means a third party who purchases the Products from Reseller within the Territory, for its internal use only (including for the personal use of its End Users), such as nursing homes. For the purposes of warranty claims, a 'Customer' refers only to the direct purchaser of the product from the Reseller and not any subsequent user. \"End User\" means a third party who is a customer of Customer or is otherwise related to a customer of Customer, and who purchases and/or uses the Products within the Territory, for its personal use only.",
+                "explanation": "The definition of 'Customer' is changed to exclude subsequent users from warranty claims, creating a contradiction with the initial, broader definition. This introduces uncertainty about who can claim warranty, the direct purchaser or the end user.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Reseller shall be solely responsible for all of its costs and expenses related to the resale of the Products.",
+                "changed_text": "Reseller shall be solely responsible for all of its costs and expenses related to the resale of the Products, except for marketing materials which will be split equally between the Supplier and Reseller.",
+                "explanation": "The original text states that the reseller is solely responsible for all costs, but the new text says that marketing materials expenses are shared. It introduces an ambiguity regarding who pays for the marketing materials",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Orders, Payment and Delivery ***. If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 30 days after the end of the Initial Term. Upon payment of such amount, Seller shall deliver the Products paid for to Reseller in a commercially reasonable timeframe (and in no event any later than 150 days from the date such payment is received in full) to be sold by Reseller in accordance with this Agreement as contemplated by the last sentence of Section 12.4.",
+                "changed_text": "Orders, Payment and Delivery ***. If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 30 days after the end of the Initial Term. Upon payment of such amount, Seller *may* deliver the Products paid for to Reseller in a commercially reasonable timeframe (and in no event any later than 150 days from the date such payment is received in full) to be sold by Reseller in accordance with this Agreement as contemplated by the last sentence of Section 12.4.",
+                "explanation": "The original text states that upon payment of shortfall, Seller *shall* deliver the products. Modified text introduces ambiguity by replacing 'shall deliver' with 'may deliver.' It is unclear whether the Supplier is obligated to deliver the products.",
+                "location": "Section 4.2"
+            }
+        ]
+    }
+]

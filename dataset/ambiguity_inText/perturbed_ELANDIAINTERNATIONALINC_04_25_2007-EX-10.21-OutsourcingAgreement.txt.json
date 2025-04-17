@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ELANDIAINTERNATIONALINC_04_25_2007-EX-10.21-OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Business Hours\" means Monday to Friday 07.30 hours to 18.00 hours.",
+                "changed_text": "\"Business Hours\" means Monday to Friday 08.00 hours to 17.00 hours.",
+                "explanation": "This change introduces a conflict in the definition of business hours. One section defines it as 07.30 to 18.00, while the other defines it as 08.00 to 17.00. This creates uncertainty regarding when standard service levels apply and impacts service requests and incident management.",
+                "location": "Definitions"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "As a component of the base fee Datec will perform any required MACs that fall within the scope of work contained in this agreement.",
+                "changed_text": "As a component of the base fee Datec will perform only 50% of the required MACs per year that fall within the scope of work contained in this agreement.",
+                "explanation": "Here, the original contract stated that Datec would perform all necessary MACs within the agreement as part of the base fee, the changed definition, now restricts this to only half the MACs per year being covered in the base fee. This creates confusion and potential for disputes on who is responsible for the rest.",
+                "location": "2.14 Moves, Adds And Changes (MACs)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Datec will adhere to the BSP's DRP policy and procedures and will assist wherever possible to further enhance these within the scope of this agreement.",
+                "changed_text": "Datec will adhere to Datec's DRP policy and procedures but will make best efforts to adhere to BSP's DRP policy and procedures. Datec will assist wherever possible to further enhance these within the scope of this agreement.",
+                "explanation": "The original text commits Datec to BSP's Disaster Recovery Plan, whilst the changed text prioritizes Datec's DRP while making best efforts to stick to BSP's. This leads to the question of which DRP should be followed first, creating disputes in times of disaster.",
+                "location": "2.21 Business Continuity Planning (BCP) And Disaster Recovery Plan (DRP)"
+            }
+        ]
+    }
+]

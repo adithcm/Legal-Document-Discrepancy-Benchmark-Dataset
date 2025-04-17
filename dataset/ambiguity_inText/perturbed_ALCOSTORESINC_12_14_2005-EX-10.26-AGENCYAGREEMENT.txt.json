@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ALCOSTORESINC_12_14_2005-EX-10.26-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Section 1.01 Appointment. Lessor hereby appoints the Company, and the Company hereby agrees to accept such appointment, as the agent of Lessor, without any fee for acting as such agent, pursuant to the terms and conditions of this Agreement, for the purpose of ordering and, subject to the conditions set forth in Section's 2.01 and 2.05 hereof, accepting Equipment on Lessor's behalf for leasing to the Company under the Lease from the respective supplier thereof (each a \"Supplier\" and collectively, the \"Suppliers\"). It is specifically agreed that all of the power and authority vested to the Company herein shall be subject to any modifications as may from time to time be made by Lessor.",
+                "changed_text": "Section 1.01 Appointment. Lessor hereby appoints the Company, and the Company hereby agrees to accept such appointment, as the agent of Lessor, with a fee of 1% of the equipment cost for acting as such agent, pursuant to the terms and conditions of this Agreement, for the purpose of ordering and, subject to the conditions set forth in Section's 2.01 and 2.05 hereof, accepting Equipment on Lessor's behalf for leasing to the Company under the Lease from the respective supplier thereof (each a \"Supplier\" and collectively, the \"Suppliers\"). It is specifically agreed that all of the power and authority vested to the Company herein shall be subject to any modifications as may from time to time be made by Lessor.",
+                "explanation": "This change introduces a contradiction by specifying a fee for the Company acting as an agent, while the original text explicitly states there is no fee.",
+                "location": "Section 1.01"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Company and the Lessor hereby agree that Schedules entered into pursuant to this Agency Agreement shall conform with the following \"Economic Terms\":\n\n1. Maximum Aggregate Capitalized Lessor's Cost:  $14,500,000.00",
+                "changed_text": "The Company and the Lessor hereby agree that Schedules entered into pursuant to this Agency Agreement shall conform with the following \"Economic Terms\":\n\n1. Maximum Aggregate Capitalized Lessor's Cost:  $10,000,000.00",
+                "explanation": "This change introduces a contradiction by modifying the agreed-upon Maximum Aggregate Capitalized Lessor's Cost to a different value. This creates ambiguity regarding the upper limit of the lessor's cost.",
+                "location": "Section 2.05"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Section 3.01 Termination.\n\n(a) So long as no default exists and is continuing hereunder or under the Lease, either party may terminate this Agreement at any time upon ____________ (______30________) days written notice to the other party; provided however that such termination shall not act as a termination of any Equipment leased hereunder.",
+                "changed_text": "Section 3.01 Termination.\n\n(a) So long as no default exists and is continuing hereunder or under the Lease, either party may terminate this Agreement at any time upon ____________ (______30________) days written notice to the other party; provided however that such termination will act as a termination of any Equipment leased hereunder.",
+                "explanation": "This change introduces a contradiction by stating that the termination *will* act as a termination of the equipment leased hereunder, directly opposing the original statement that it *will not*.",
+                "location": "Section 3.01"
+            }
+        ]
+    }
+]

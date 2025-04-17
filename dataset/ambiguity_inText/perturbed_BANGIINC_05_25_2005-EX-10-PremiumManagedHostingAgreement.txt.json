@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BANGIINC_05_25_2005-EX-10-PremiumManagedHostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Includes a 99 percent server uptime guarantee.",
+                "changed_text": "Includes a 99 percent server uptime guarantee, averaged annually. Server uptime is only guaranteed during regular business hours, excluding scheduled maintenance.",
+                "explanation": "The original text guarantees 99% uptime, but the modified version introduces conditions (annual averaging, business hours only, excluding maintenance) that weaken the guarantee. This contradiction creates uncertainty about the scope of the uptime guarantee.",
+                "location": "Included Monthly Services"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Managed hosting fees are $175 per month for a period of 12 months.  This includes up to 10 G of bandwidth, with overages at $20 for each 1 G beyond 10 in any given month. The billing cycle is the 1st of each month.",
+                "changed_text": "Managed hosting fees are $175 per month for a period of 12 months. The monthly fee covers bandwidth usage that is considered 'reasonable'. AstroNutrition.com will be notified if bandwidth usage exceeds reasonable use, and overage charges may apply. The billing cycle is the 1st of each month.",
+                "explanation": "The original text explicitly defines bandwidth limits and overage charges. The modified version replaces this with the vague term 'reasonable use' and introduces uncertainty about when overage charges apply and how they are calculated, contradicting the original defined pricing.",
+                "location": "Terms of Agreement"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Management of SMTP, IMAP, DNS, SQL database and HTTP server software and systems for the AstroNutrition.com domain and web site.  This includes regular off-site backups of the website itself and the database.",
+                "changed_text": "Management of SMTP, IMAP, DNS, SQL database and HTTP server software and systems for the AstroNutrition.com domain and web site. Backups of the website itself and the database will be performed at deep system's discretion.",
+                "explanation": "The original text states that backups will be done regularly. The modification changes this to at deep system's discretion, therefore, they may not be done regularly. This create ambiguity and uncertainty.",
+                "location": "Included Monthly Services"
+            }
+        ]
+    }
+]

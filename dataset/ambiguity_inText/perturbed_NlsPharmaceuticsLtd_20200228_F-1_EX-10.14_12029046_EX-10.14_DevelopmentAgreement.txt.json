@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NlsPharmaceuticsLtd_20200228_F-1_EX-10.14_12029046_EX-10.14_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Licensed Product Any and all products that are manufactured, sold, or otherwise supplied by the Licensee (including any Affiliate or Distributor of the Licensee) and which incorporate, or their development makes use of, any Intellectual Property or Developed Intellectual Property.",
+                "changed_text": "Licensed Product Any and all products that are manufactured, sold, or otherwise supplied by the Licensee (including any Affiliate or Distributor of the Licensee) and which incorporate, or their development makes use of, any Key Intellectual Property or Developed Intellectual Property. Key Intellectual Property solely consists of Patent rights.",
+                "explanation": "This change adds a qualifier of Key to the definition of Intellectual Property in Licensed Products to only consist of Patent rights, to make it conflicting with other parts of the contract. This will create ambiguity in the contract enforcement.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Know-how shall mean with respect to the Licensed Product (as defined hereunder), all materials, laboratory, pre-clinical and clinical data, knowhow, trade secrets and all other scientific, technical, including manufacturing or regulatory information, patentable or otherwise, developed, applied or acquired by NLS which relates to the identification, characterization, expression, synthesis, use, or production of the Licensed Product and which is reasonably useful or necessary to research, develop, use, make, have made, import, distribute, offer for sale, and/or sell the Product.",
+                "changed_text": "Know-how shall mean with respect to the Licensed Product (as defined hereunder), only regulatory information that is not available to the public developed, applied or acquired by NLS which relates to the identification, characterization, expression, synthesis, use, or production of the Licensed Product and which is reasonably useful or necessary to research, develop, use, make, have made, import, distribute, offer for sale, and/or sell the Product. The know-how is limited to explicit knowledge documented in formal reports.",
+                "explanation": "The initial text has a very broad scope of what know-how means and the modified text restricts know-how to solely regulatory information not publicly available and documented in reports. This leads to a discrepancy on which information is covered under Know-How, since the later is a very narrow definition compared to the original one, leading to uncertainty in enforcement.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Trademarks shall have the meaning set forth in Article 7.",
+                "changed_text": "Trademarks shall have the meaning set forth in Article 7, and solely includes the official trademark registrations listed by the Licensor to the Licensee at the start of this agreement. The Licensee is responsible for registering and maintaining any new trademarks.",
+                "explanation": "The modification limits the definition of Trademarks to only those initially listed, putting the responsibility for new trademarks on the Licensee. This conflicts with the original intent and other sections where the Licensor maintains control over trademarks and their registration, potentially leading to disputes over trademark ownership and usage.",
+                "location": "Section 1"
+            }
+        ]
+    }
+]

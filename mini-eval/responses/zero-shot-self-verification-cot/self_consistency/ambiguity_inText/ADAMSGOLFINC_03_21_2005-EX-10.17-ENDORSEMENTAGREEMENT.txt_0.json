@@ -1,26 +1,29 @@
 [
     {
-        "section": "7. CONSULTANT'S SATISFACTION OF MANDATORY PRODUCT It is particularly and expressly understood and agreed that if CONSULTANT shall find in his sincere best reasonable judgment that the MANDATORY PRODUCT so supplied is not suitable for his use in tournament competition, then he shall promptly notify ADAMS GOLF in writing of such fact and the reasons therefor. Thereafter, ADAMS GOLF shall have a period of thirty (30) days to either, at ADAMS GOLF'S sole discretion, supply CONSULTANT with MANDATORY PRODUCT that is acceptable to him or terminate the agreement. It is agreed that if the contract is terminated pursuant to this paragraph, the compensation due CONSULTANT shall be prorated from the date this Agreement is terminated. Proration of compensation shall be determined on the same repayment schedule as provide in paragraph 8A below.",
-        "explanation": "Section 7 outlines the consultant's recourse if they find the mandatory product unsuitable. Adams Golf then has 30 days to either provide suitable replacements or terminate the agreement. If terminated, compensation is prorated based on paragraph 8A. However, paragraph 8A deals with the repayment schedule if the consultant doesn't meet the minimum number of tournaments played, not a general compensation repayment schedule. This creates a contradiction because the method for calculating the prorated compensation in the event of termination due to unsuitable product is linked to a clause that covers an entirely different scenario.",
-        "location": "Section 7",
-        "category": 3,
-        "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "14. INDEMNITY CONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses (excluding attorneys' fees and expenses) for which it becomes liable or is compelled to pay by reason of a breach of any covenant or representation by CONSULTANT in this Agreement. However, ADAMS GOLF will cover CONSULTANT's attorney fees up to $10,000.",
-        "explanation": "The first sentence of Section 14 states that the consultant indemnifies Adams Golf from all liabilities, claims, etc., *excluding* attorney's fees and expenses. However, the second sentence immediately contradicts this by stating that Adams Golf will cover the consultant's attorney fees, up to $10,000. This creates an in-text contradiction regarding who is responsible for attorney's fees in an indemnification scenario. It's unclear whether Adams Golf is covering the Consultant's fees in a case where the Consultant is indemnifying Adams Golf, or if this is a separate arrangement.",
+        "section": "14. INDEMNITY\nCONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses (excluding attorneys' fees and expenses) for which it becomes liable or is compelled to pay by reason of a breach of any covenant or representation by CONSULTANT in this Agreement. However, ADAMS GOLF will cover CONSULTANT's attorney fees up to $10,000.",
+        "explanation": "This section presents an inconsistency. Initially, it states that the CONSULTANT is responsible for indemnifying ADAMS GOLF for all expenses, excluding attorney's fees. However, the subsequent sentence states that ADAMS GOLF will cover CONSULTANT's attorney fees up to $10,000. This creates an ambiguity regarding the allocation of responsibility for attorney's fees in cases where ADAMS GOLF seeks indemnity from the CONSULTANT. It's unclear whether the CONSULTANT is always responsible for ADAMS GOLF's attorney's fees, or if there's a cap of $10,000 on ADAMS GOLF's coverage of CONSULTANT's fees.",
         "location": "Section 14",
         "category": 3,
         "location_match": false,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": false
     },
     {
-        "section": "22. FAILURE TO PLAY Notwithstanding any other paragraph of this Agreement, in the event that CONSULTANT dies or is unable to play tour golf at all, ADAMS GOLF may terminate this Agreement on thirty (30) days' written notice. Upon such termination, CONSULTANT and/or CONSULTANT'S estate shall be required to repay ADAMS GOLF for that period of the Agreement not performed by CONSULTANT. The repayment amount shall be calculated in the same way as repayment is calculated under paragraph 8A.",
-        "explanation": "Section 22 states that if the consultant dies or is unable to play golf, Adams Golf can terminate the agreement, and the consultant's estate must repay Adams Golf for the unperformed period, calculated as in paragraph 8A. Paragraph 8A details a repayment schedule *specifically* related to the consultant *not achieving the minimum number of tournaments.* This introduces a contradiction: why would a schedule based on failing to meet a tournament quota be used to calculate repayment in the event of death or permanent disability? This is an inappropriate and illogical application of the repayment method, making the repayment obligation unclear and potentially unfair.",
-        "location": "Section 22",
-        "category": 3,
+        "section": "8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION\nA. In each and every calendar year of this Agreement, CONSULTANT shall achieve a satisfactory record of play in a minimum of [* ****] professional golf association events on the SPGA and/or PGA tour (which shall include both the PGA and SPGA Tour Skins Games). If for any reason, CONSULTANT should achieve a satisfactory record of play in less than [*****] SPGA and/or PGA tour events in a calendar year, he shall repay ADAMS GOLF an amount per event for each event under [*****] achieved in the given calendar year as follows:\nThe agreed upon repayment amount per event per calendar year:\n1.  Year 1. $[*****]\n2.  Year 2 $[*****]\n3.  Year 3 $[*****]\n4.  Year 4 $[*****]\n5.  Year 5 $[*****]",
+        "explanation": "The section lacks clarity and consistency regarding the minimum number of tournaments. It states the consultant must achieve a 'satisfactory record of play' in a minimum number of events, but this minimum number is redacted. It also indicates repayment is due for each event *under* a certain number of events achieved, but that number is also redacted. Without knowing these numbers, it's impossible to determine the consultant's obligations or the consequences of not meeting them, leading to ambiguity.",
+        "location": "Section 8.A",
+        "category": 1,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "22. FAILURE TO PLAY\nNotwithstanding any other paragraph of this Agreement, in the event that CONSULTANT dies or is unable to play tour golf at all, ADAMS GOLF may terminate this Agreement on thirty (30) days' written notice. Upon such termination, CONSULTANT and/or CONSULTANT'S estate shall be required to repay ADAMS GOLF for that period of the Agreement not performed by CONSULTANT. The repayment amount shall be calculated in the same way as repayment is calculated under paragraph 8A.",
+        "explanation": "This section describes the financial consequences of termination due to the consultant's inability to play, including death. However, the method of repayment is based on Section 8A, which concerns the minimum number of tournaments played and a *pro rata* repayment schedule if the consultant fails to meet the yearly minimum number of tournaments. Applying this repayment scheme to a situation where the consultant dies or is permanently disabled and unable to play makes very little sense. This is a structural flaw because Section 8A does not consider this situation and only considers if the minimum number of games was not attended, not death or permanent inability to play.",
+        "location": "Section 22",
+        "category": 10,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

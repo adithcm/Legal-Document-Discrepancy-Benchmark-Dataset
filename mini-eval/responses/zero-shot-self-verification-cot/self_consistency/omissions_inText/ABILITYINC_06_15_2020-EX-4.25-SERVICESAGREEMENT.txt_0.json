@@ -1,26 +1,29 @@
 [
     {
-        "section": "1.2 Standard of Service. (c) Provider shall use its best efforts to provide for employees or contractors to perform the Services, each of whose names, positions, and respective levels of experience and relevant licenses shall be set out in Exhibit A attached hereto (collectively, the \"Provider Representatives\"). Provider may not make any change in the Provider Representatives without the prior consent of the Recipient. Provider Representatives shall be dedicated to solely providing the Services to Recipient and shall not provide any such services or resources to Provider or any other customer of Provider.",
-        "explanation": "This section describes that the Provider Representatives should be outlined in Exhibit A. However, Exhibit A only describes 'Services.' This is a contradiction because Exhibit A is supposed to contain information that it does not actually have. This may lead to the Recipient not knowing who the Provider Representatives are.",
+        "section": "Provider Representatives shall be dedicated to solely providing the Services to Recipient and shall not provide any such services or resources to Provider or any other customer of Provider.",
+        "explanation": "This section mandates that Provider Representatives be exclusively dedicated to Recipient, which is a very specific and potentially limiting condition. However, section 1.1(a) states that Provider agrees to respond in good faith to any reasonable request by Recipient for access to any additional services and resources that are necessary for the operation of the Recipient. It is possible that, to fulfill such requests, the Provider might need to utilize the same Provider Representatives. If those Provider Representatives are entirely dedicated to Recipient, fulfilling those requests may not be possible. This creates a contradiction because it would not be possible for the provider to fulfill the new requests from the Recipient.",
         "location": "Section 1.2(c)",
         "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021.",
+        "explanation": "Section 3.1 states that the agreement will terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2. This means that the agreement is valid until December 31, 2020. However, Section 2.2(c) states that Provider shall allow the Recipient to use a service at no cost, until December 31, 2021. Since the agreement expires on December 31, 2020, there is a contradiction as to how the Recipient can use the service until December 31, 2021 when the agreement will have expired.",
+        "location": "Section 2.2(c)",
+        "category": 3,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "The beginning of this section has a structural flaw as it contains the word 'Agreement' twice. This does not make sense structurally.",
+        "explanation": "This section contains a structural flaw in the text, specifically the redundant use of the word \"Agreement.\" This makes the section confusing and difficult to read because it is not grammatically correct. This could lead to misinterpretations, or confusion when trying to interpret the contract.",
         "location": "Section 3.1",
         "category": 9,
         "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "Upon termination of this Agreement in its entirety pursuant to Section 3.1, all obligations of the Parties hereto shall terminate, except for the provisions of Section 2.2, and the entirety of Sections 4, 5 and 6, which shall survive any termination or expiration of this Agreement.",
-        "explanation": "Section 2.2 outlines the terms of payment. The document states that the terms of payment should survive even after the agreement has been terminated. This does not make sense as there is no agreement to pay after the document has been terminated.",
-        "location": "Section 3.5",
-        "category": 10,
-        "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     }
 ]

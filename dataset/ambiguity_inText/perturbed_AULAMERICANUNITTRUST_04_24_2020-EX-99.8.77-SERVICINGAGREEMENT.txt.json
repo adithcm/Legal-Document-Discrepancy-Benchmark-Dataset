@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AULAMERICANUNITTRUST_04_24_2020-EX-99.8.77-SERVICINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "All notices and other communications to either you or Nationwide will be duly given if mailed, telegraphed, telexed or transmitted by similar telecommunications device to the address contained in the \"Acceptance of Agreement\" (Section 19) portion of this Agreement.",
+                "changed_text": "All notices and other communications to either you or Nationwide will be duly given if mailed to the address contained in the \"Acceptance of Agreement\" (Section 19) portion of this Agreement.",
+                "explanation": "This change introduces a contradiction. The original text allows for multiple methods of communication (mailed, telegraphed, telexed, etc.) while the modified version restricts communication to only mail. If another section relies on urgent communication via electronic means, this change could cause issues with proper notification. The definition of valid notice is now ambiguous.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "You agree to provide the Funds, upon written request, the taxpayer identification number (\"TIN\"), if known, of any or all Shareholder(s) of an account and the amount, date, name or other identifier of any registered representative(s) associated with the Shareholder(s) or account (if known), and transaction type (purchase, redemption, transfer, or exchange) of every purchase, redemption, transfer, or exchange of Shares held through an account maintained by you during the period covered by the request.",
+                "changed_text": "You agree to provide the Funds, upon written request, the taxpayer identification number (\"TIN\") of any or all Shareholder(s) of an account and the amount, date, name or other identifier of any registered representative(s) associated with the Shareholder(s) or account, and transaction type (purchase, redemption, transfer, or exchange) of every purchase, redemption, transfer, or exchange of Shares held through an account maintained by you during the period covered by the request.",
+                "explanation": "By removing 'if known' from 'TIN', this creates a contradictory obligation. The original text implies that providing the TIN is only mandatory if it is known. Now, it suggests that the servicing agent must provide TIN, regardless of whether the Servicing agent knows it or not. This leads to potential breaches due to an inability to fully comply with the instruction",
+                "location": "Section 18.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The term \"Nationwide Mutual Funds\" refers to the Trust created by, and the terms \"Board of Trustees\" and \"Trustees\" refer to the Trustees, as trustees but not individually or personally, acting from time to time under, the Amended and Restated Agreement and Declaration of Trust made and dated as of October 28, 2004, as has been or may be amended and/or restated from time to time (\"Agreement and Declaration of Trust\"), and to which reference is hereby made. Nothing herein contained shall be deemed to require the Trust to take any action contrary to the Trust's Agreement and Declaration of Trust or By-Laws, or any applicable statutory or regulatory requirement to which the Trust is subject or by which the Trust is bound, or to relieve or deprive the Trust's Board of Trustees of the Board's responsibility for and control of the conduct of the affairs of the Trust.",
+                "changed_text": "The term \"Nationwide Mutual Funds\" refers to the Trust created by, and the terms \"Board of Trustees\" and \"Trustees\" refer to the Trustees, individually and personally, acting from time to time under, the Amended and Restated Agreement and Declaration of Trust made and dated as of October 28, 2004, as has been or may be amended and/or restated from time to time (\"Agreement and Declaration of Trust\"), and to which reference is hereby made. Nothing herein contained shall be deemed to require the Trust to take any action contrary to the Trust's Agreement and Declaration of Trust or By-Laws, or any applicable statutory or regulatory requirement to which the Trust is subject or by which the Trust is bound, or to relieve or deprive the Trust's Board of Trustees of the Board's responsibility for and control of the conduct of the affairs of the Trust.",
+                "explanation": "The text originally defined the Trustees as acting in their capacity as trustees, specifically excluding individual liability. By changing 'not individually or personally' to 'individually and personally', this introduces a direct contradiction. The agreement now implies that trustees can be held individually liable, conflicting with the standard understanding of a trust and creating legal uncertainty about their responsibilities.",
+                "location": "Section 13"
+            }
+        ]
+    }
+]

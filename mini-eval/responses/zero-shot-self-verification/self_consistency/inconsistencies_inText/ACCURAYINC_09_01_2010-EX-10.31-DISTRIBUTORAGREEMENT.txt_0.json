@@ -1,26 +1,29 @@
 [
     {
-        "section": "Shipment. All shipments shall be made F.C.A. Port of Oakland, California, USA. Transfer of risk from Accuray to Distributor shall occur at such F.C.A. location as provided in F.C.A. terms and transfer of title shall occur at the same time. Distributor may request Accuray to use a particular freight carrier, and Accuray agrees to do so, if feasible. If not feasible in Accuray's reasonable judgment, then Accuray shall promptly advise Distributor of the reasons. If no such request is made, Accuray shall ship in accordance with any instructions contained in the Purchase Order or via FedEx ground, with no extra insurance. Accuray shall bill any actual freight costs to Distributor. Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
-        "explanation": "This section outlines the responsibility for expedited shipping costs based on the delivery deadline requested in the Purchase Order. It states that if the delivery deadline is at least six months after the Purchase Order submission, Accuray bears the expedited costs. However, if the deadline is shorter, the Distributor bears the costs. This creates an inconsistency with Section 2.4, which states that Accuray's standard lead time for delivery of Products is six months. This means that Accuray is stating their standard lead time is six months, but is not adhering to this standard lead time, and potentially charging the distributor extra when it may be Accuray's fault to begin with for not meeting this standard lead time.",
-        "location": "Section 4.1.2",
-        "category": 3,
-        "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order, which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval. Each purchase of Accuray Components and Interfaces shall be accomplished and a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray. To the extent of any inconsistency between the Quote and the related Purchase Order, the terms and conditions of such Quote shall govern and Distributor acknowledges and agrees that Accuray shall not be bound by any terms, conditions or boilerplate language included in a Distributor purchase order submitted to Accuray. The Purchase Order shall be delivered to Accuray via fax, electronic mail, or mail at the following address: Accuray Incorporated ATTN: Contracts Administration 1310 Chesapeake Terrace Sunnyvale, CA 94089 Main: (408) 716-4600 Fax: (408) 789-4205 Email: Orders@accuray.com 2.3.4. Cancellation; Amendment; Conflict. Distributor may cancel the Purchase Order if Accuray has not executed such Purchase Order within two weeks of receipt. Any amendment or addition to the Purchase Order shall only be effective if Distributor and Accuray confirm such amendment or addition in writing. To the extent of any inconsistency between a Quote or a Purchase Order and this Agreement, this Agreement shall prevail, unless such Quote or Purchase Order is signed by both the CFO or General Counsel of Accuray and the CFO of Distributor, expressly refers to this Section 2.3.4, and states that the Quote or Purchase Order is intended to supersede this Agreement.",
-        "explanation": "In section 2.3.3 it states that 'Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval.' then in section 2.3.4, it says 'Distributor may cancel the Purchase Order if Accuray has not executed such Purchase Order within two weeks of receipt.' This is a discrepancy because in section 2.3.3 it is referring to disapproval, but in section 2.3.4 is referring to execution.",
+        "section": "Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval. Each purchase of Accuray Components and Interfaces shall be accomplished and a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray.",
+        "explanation": "This section states that failure to respond to a Purchase Order within two weeks constitutes disapproval. However, the subsequent sentence implies that acceptance requires execution of the Purchase Order by Accuray. This creates a contradiction: is a lack of response a disapproval, or is explicit execution required for acceptance?",
         "location": "Section 2.3.3",
         "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
-        "section": "Letter of Credit. An irrevocable trade finance letter of credit issued by Distributor's bank, confirmed by a bank designated by Accuray in all respects and delivered to Accuray upon the acceptance of the Purchase Order by Accuray. The letter of credit will provide that Accuray can draw against the letter of credit according to the following schedule: 5.4.1.1.1. US $100,000 (non-refundable but, in case of cancellation of the Purchase Order, automatically applied to Distributor's next purchase of a System) upon Accuray's acceptance of the Purchase Order, which must be at least four (4) months prior to the Distributor's proposed shipment date; and 5.4.1.1.2. Balance upon presentation of documents by Accuray evidencing shipment of the Products to Distributor or Customer as designated in the Purchase Order.",
-        "explanation": "This section describes the payment schedule when using a letter of credit. A deposit of US $100,000 is required upon Accuray's acceptance of the Purchase Order, at least four months prior to the proposed shipment date. However, the $100,000 is non-refundable, but in case of cancellation of the Purchase Order, automatically applied to Distributor's next purchase of a System. This condition is contradicted by section 6.5 which states 'No termination or expiration of this Agreement will terminate any obligation of payment which has accrued prior to the effective date of such termination or expiration'.",
-        "location": "Section 5.4.1.1",
+        "section": "Distributor may cancel the Purchase Order if Accuray has not executed such Purchase Order within two weeks of receipt.",
+        "explanation": "This section grants the Distributor the right to cancel the Purchase Order if Accuray fails to execute it within two weeks of receiving it. This contradicts Section 2.3.3, which specifies that Accuray must either accept or reject the Purchase Order within two weeks of receipt.",
+        "location": "Section 2.3.4",
         "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Distributor will make commercially reasonable efforts to sell a Service Agreement to each Customer. For the avoidance of doubt, (i) the obligations of the parties with respect to the Service Agreement are as set forth in Sections 3.6 and 4.8 and (ii) the failure of Distributor to sell a Service Agreement to any Customer shall not be deemed to be a breach of this Agreement.",
+        "explanation": "The first sentence states the Distributor will make commercially reasonable efforts to sell a service agreement, but then it is stated that the failure to sell the agreement is not a breach of contract. This is a contradiction because it is implying the distributor needs to sell the agreement but if they don't it is okay. This could be more clear and concise.",
+        "location": "Section 3.9",
+        "category": 1,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

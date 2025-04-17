@@ -1,26 +1,29 @@
 [
     {
-        "section": "8.1 TERM. The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
-        "explanation": "This section describes the term and renewal process of the agreement. The text states that the agreement can be renewed for successive one-year terms by mutual written agreement, requiring a 30-day notice before expiration. However, the last sentence contradicts this by stating that the agreement will be automatically renewed for another year if neither party provides such notice. This creates confusion about whether explicit agreement is necessary for renewal or if it occurs automatically without notice.",
-        "location": "Section 8.1",
-        "category": 3,
-        "location_match": false,
-        "text_match": false
-    },
-    {
         "section": "5.1 ADVERTISING FEES. After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter. The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), unilaterally by 2TheMart without requiring i-Escrow's consent. The Adjusted Rate will be communicated to i-Escrow and will be effective immediately.",
-        "explanation": "This section outlines how advertising fees are calculated and adjusted. The primary contradiction lies in allowing 2TheMart to unilaterally adjust the rate without i-Escrow's consent and making the change effective immediately. This contradicts general contract law principles, which require mutual agreement for modifications. Such a clause could be deemed unconscionable or unenforceable because it creates an imbalance of power and deprives i-Escrow of the ability to negotiate a significant term affecting their financial obligations.",
+        "explanation": "This section allows 2TheMart to unilaterally adjust the advertising fees paid by i-Escrow without requiring i-Escrow's consent. This creates a significant imbalance of power, as 2TheMart can increase the fees at any time, potentially making the agreement financially unsustainable for i-Escrow. The phrase 'to reflect present market conditions' is vague and could be interpreted very broadly, giving 2TheMart considerable leeway in setting the Adjusted Rate.",
         "location": "Section 5.1",
         "category": 2,
         "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": true
+    },
+    {
+        "section": "8.1 TERM. The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
+        "explanation": "This section contains contradictory statements regarding the renewal of the agreement. It first states that renewal requires mutual written agreement. However, it then states that the term will be automatically renewed if either party does not give notice of non-renewal. This creates ambiguity: does the agreement automatically renew unless there is explicit notice of termination, or does it require explicit mutual agreement to renew?",
+        "location": "Section 8.1",
+        "category": 3,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "8.5 EFFECTS OF TERMINATION. Upon expiration or termination of this Agreement for any reason: (a) all rights granted herein shall terminate, (b) i-Escrow shall pay all amounts owed to 2TheMart within thirty (30) days of termination, and (c) each party shall remove the other party's content and Marks from their servers. Notwithstanding the foregoing, even if this Agreement was terminated for a material breach, all provisions of this Agreement shall survive to the extent necessary for i-Escrow to complete any Customer transactions which are pending at the time of expiration or termination. Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall not survive expiration or termination of this Agreement.",
-        "explanation": "This section describes what happens when the agreement ends. It states that upon termination, all rights end, i-Escrow pays what's owed, and content/marks are removed. However, it also says that provisions survive for pending transactions. Then, it lists sections that *don't* survive, including Section 8.5 itself. This is a contradiction because Section 8.5 is stating the effects of termination, but then says the entire section does not survive termination. This creates ambiguity about what actually happens upon termination.",
+        "explanation": "This section contains an internal contradiction. It states that upon termination, all rights terminate, and sections 1,7, 8.5, 9, 10, 11, and 12 do not survive the termination. However, it also states that all provisions of the agreement will survive to the extent necessary for i-Escrow to complete any customer transactions. This contradicts the list of sections that do not survive termination, creating uncertainty about which provisions remain in effect post-termination, particularly if completing pending transactions necessitates reliance on those sections.",
         "location": "Section 8.5",
         "category": 3,
         "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": true
     }
 ]

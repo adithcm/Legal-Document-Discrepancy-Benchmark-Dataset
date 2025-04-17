@@ -1,26 +1,29 @@
 [
     {
-        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\")",
-        "explanation": "The contract states it is 'entered into' on October 1, 2019, but its 'Effective Date' is November 1, 2019. This presents a discrepancy because the agreement is technically created on the former date but only becomes operational on the latter. This could cause confusion regarding the period between these dates.",
-        "location": "Preamble",
+        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"),",
+        "explanation": "The agreement is 'entered into' on October 1, 2019, but 'effective' as of November 1, 2019. This creates a slight ambiguity. It's unclear whether any actions taken between these dates are covered or not.",
+        "location": "Page 1, Paragraph 1",
         "category": 1,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
-        "section": "Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 30 (thirty) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
-        "explanation": "This termination clause permits either party to terminate the agreement \"in whole or in part\" without cause, subject to 30 days' notice. However, the implications of partial termination (i.e., terminating only specific Services) are not clearly defined. This ambiguity could result in disputes over which specific aspects of the agreement remain in effect following a partial termination.",
-        "location": "Section 3.2",
-        "category": 1,
-        "location_match": true,
-        "text_match": true
-    },
-    {
-        "section": "This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel (including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute), without giving effect to any choice or conflict of law provision or rule (whether of the State of Israel or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Israel.",
-        "explanation": "The section specifies that Israeli law governs the agreement, including its statute of limitations. However, enforcing Israeli statutes of limitations in jurisdictions outside of Israel can pose practical challenges and may conflict with local procedural rules. This presents a potential legal contradiction because while the agreement stipulates Israeli law, the application of specific aspects of that law may be limited or altered by the legal system where enforcement is sought.",
-        "location": "Section 7.2",
-        "category": 4,
+        "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
+        "explanation": "The sentence structure is flawed and confusing. It awkwardly repeats 'Agreement' and does not read smoothly, making it hard to understand the intended duration clearly.",
+        "location": "Section 3.1",
+        "category": 9,
         "location_match": false,
-        "text_match": false
+        "text_match": true,
+        "explanation_match": false
+    },
+    {
+        "section": "7. Notices. All notices, requests, consents, claims, demands, waivers and other communications hereunder shall be in writing and shall be deemed to have been given (a) when delivered by hand (with written confirmation of receipt); (b) when received by the addressee if sent by a nationally recognized overnight courier (receipt requested); (c) on the date sent by facsimile or e-mail of a PDF document (with confirmation of transmission) if sent during normal business hours of the recipient, and on the next Business Day if sent after normal business hours of the recipient or (d) on the third day after the date mailed, by certified or registered mail, return receipt requested, postage prepaid.",
+        "explanation": "In 7(c), it mentions email is valid with confirmation of transmission. However, it is not clear what happens if a confirmation of transmission isn't available.",
+        "location": "Section 7",
+        "category": 1,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "WHEREAS: Galaxy is a wholesale provider of Voice over Internet Protocol (\"VoIP\") telephony and related services and products. Telnet is a provider of VoIP telephony and related services and products to Subscribers, as defined hereafter. Galaxy wishes to provide to Telnet and Telnet wishes to acquire from Galaxy VOIP related services and products from time to time for the purpose of providing them to Telnet's existing and future clients.",
+                "changed_text": "WHEREAS: Galaxy is a wholesale provider of Voice over Internet Protocol (\"VoIP\") telephony and related services and products. Telnet is a provider of VoIP telephony and related services and products to Subscribers. Galaxy wishes to provide to Telnet and Telnet wishes to acquire from Galaxy VOIP related services and products from time to time for the purpose of providing them to Telnet's existing clients.",
+                "explanation": "The original text defines 'Subscribers' 'as defined hereafter', implying a specific, contract-defined meaning. Removing the phrase 'as defined hereafter' implies that Subscribers are simply end-users, creating a conflict with Section 1.1 where 'Subscriber' is specifically defined as a 'client of Telnet who is a consumer of the Products or Services as provided by Galaxy and sold by Telnet'.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.5 Tier 2 Support  Galaxy shall provide \"Tier 2\" technical support to Telnet which would include assistance with any technical issues related to the Services and Products that could not be resolved by Telnet's Tier 1 Subscriber support personnel.",
+                "changed_text": "5.5 Tier 2 Support  Galaxy may provide \"Tier 2\" technical support to Telnet which would include assistance with any technical issues related to the Services and Products that could not be resolved by Telnet's Tier 1 Subscriber support personnel.",
+                "explanation": "Changing 'shall' to 'may' makes Galaxy's obligation to provide Tier 2 support optional. This contradicts the earlier section 5 which states 'Subject to the terms and conditions of this Agreement, Galaxy shall provide the Products and Services to Telnet', implying a mandatory obligation, including all associated support.",
+                "location": "Section 5.5"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Telnet shall include those terms set out in Schedule \"C\" as a term in each Subscriber agreement for Services.",
+                "changed_text": "Telnet should endeavor to include those terms set out in Schedule \"C\" as a term in each Subscriber agreement for Services.",
+                "explanation": "Changing 'shall' to 'should endeavor to' makes it non-mandatory for Telnet to include the terms set out in Schedule C. This creates uncertainty in contract enforcement because Subscriber agreements might not have the necessary clauses, undermining the intent of Schedule C.",
+                "location": "Section 3.5"
+            }
+        ]
+    }
+]

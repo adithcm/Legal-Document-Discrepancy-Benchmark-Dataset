@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Adaptimmune shall have responsibility for IND filing and monitoring unless otherwise agreed by JSC.",
+                "changed_text": "Adaptimmune shall have responsibility for IND filing, however, MD Anderson will handle all monitoring responsibilities.",
+                "explanation": "This change introduces a contradiction regarding the responsibility for IND monitoring. The original text assigns it to Adaptimmune unless the JSC decides otherwise. The modified version definitively assigns monitoring to MD Anderson, creating a conflict if the JSC makes a different decision later, or if other sections assume Adaptimmune's monitoring role.",
+                "location": "1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "MD Anderson and Adaptimmune will promptly notify each other upon identifying any aspect of a Protocol, including information discovered during site monitoring visits, or Study results that may adversely affect the safety, well-being, or medical care of the Study subjects, or that may affect the willingness of Study subjects to continue participation in a Study, influence the conduct of the Study, or that may alter the IRB's approval to continue the Study.",
+                "changed_text": "MD Anderson will promptly notify Adaptimmune upon identifying any aspect of a Protocol, including information discovered during site monitoring visits, or Study results that may adversely affect the safety, well-being, or medical care of the Study subjects, or that may affect the willingness of Study subjects to continue participation in a Study, influence the conduct of the Study, or that may alter the IRB's approval to continue the Study. Adaptimmune is solely responsible for notifying MD Anderson of data results discovered from Adaptimmune's monitoring visits only.",
+                "explanation": "This edit creates conflicting requirements for reporting adverse findings. Previously, both parties were responsible for mutual notification. Now, Adaptimmune's notification to MD Anderson is limited to data results from *Adaptimmune's* monitoring. If MD Anderson discovers issues through their own oversight, it's unclear if Adaptimmune should be notified, creating uncertainty in communication and potential safety oversight.",
+                "location": "2.9"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Parties agree that any termination of a Study Order shall allow for: (i) the wind down of the Study to ensure the safety of Study subjects; and (ii) Adaptimmune's final reconciliation of Data related to the Study in addition to Adaptimmune's final monitoring visit.",
+                "changed_text": "The Parties agree that any termination of a Study Order shall allow for: (i) the wind down of the Study to ensure the safety of Study subjects; and (ii) MD Anderson's final reconciliation of Data related to the Study. The final reconciliation of Data is Adaptimmune's responsibility.",
+                "explanation": "Conflicting responsibilities are defined, at termination. Data reconcilation responsibilities is given to both parites.",
+                "location": "8.3"
+            }
+        ]
+    }
+]

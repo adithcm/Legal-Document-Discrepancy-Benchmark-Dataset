@@ -1,26 +1,29 @@
 [
     {
         "section": "8.1 TERM. The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
-        "explanation": "This section details the term and renewal process of the agreement. It states that the agreement is automatically renewed for another year if neither party gives notice of non-renewal at least 30 days before expiration. However, it also mentions that the agreement can be renewed for successive one-year terms by mutual written agreement prior to the conclusion of the term. These two sentences contradict each other. One sentence suggests automatic renewal unless notice is given, while the other suggests renewal requires a mutual written agreement. This creates ambiguity regarding the actual renewal process.",
+        "explanation": "This section presents a contradiction regarding the renewal of the agreement. It states that the agreement can be renewed for successive one-year terms by mutual written agreement. However, it then states that if neither party gives notice of non-renewal at least 30 days before expiration, the agreement is automatically renewed. This contradicts the requirement for 'mutual written agreement,' as it implies renewal can occur without explicit agreement, simply by lack of objection.",
         "location": "Section 8.1",
         "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "9. INDEMNITY. Each party (the \"Guarantor\") shall protect the other party (the \"Protected Party\") from any and all liabilities, damages, charges, and expenditures, specifically including legal counsel payments, that the Protected Party accrues due to external grievances resulting from the Guarantor's actions, failures, or deceptive statements, provided the Protected Party is considered a key agent of the Guarantor. Furthermore, 2TheMart will protect i-Escrow from all liabilities, damages, charges, and expenditures, inclusive of justifiable legal costs, that i-Escrow bears due to external grievances derived from 2TheMart Material. Additionally, i-Escrow will protect 2TheMart from all liabilities, damages, charges, and expenditures, including justified attorney costs, that 2TheMart bears due to external grievances arising from i-Escrow Media and/or the Deliverables provided to Patrons.",
-        "explanation": "The initial part of this section states that the Guarantor will protect the Protected Party from liabilities resulting from the Guarantor's actions, failures, or deceptive statements, provided the Protected Party is considered a key agent of the Guarantor. This condition of the Protected Party being a 'key agent' introduces ambiguity, as it is undefined and could lead to disputes about whether the indemnity applies in a specific situation. Also the last sentence of this section does not make sense. It seems like the word patrons does not fit here and does not make sense. It could be assumed it means customers, but that assumption would be an error.",
+        "explanation": "The indemnity clause contains ambiguity that creates a potential contradiction. The first sentence states indemnity is provided when the 'Protected Party is considered a key agent of the Guarantor.' However, the remainder of the section provides specific indemnities without reference to the 'key agent' condition. This creates uncertainty as to whether the 'key agent' condition applies to the entire indemnity section, or only the initial general statement.",
         "location": "Section 9",
         "category": 1,
         "location_match": true,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "5.1 ADVERTISING FEES. After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the volume of Customer Engagements. This advertising remuneration will equal a rate per Customer Engagement that is determined by multiplying 0.025% by the median revenue per Customer from the prior fiscal period. This rate may be updated periodically during the duration of the contract following market analysis and with written consent from both parties (\"the Revised Pricing\"). The Revised Pricing will be attached as an exhibit to this contract.",
-        "explanation": "The calculation method for the advertising fees is vague and potentially contradictory. It states the fee is calculated by multiplying 0.025% by the median revenue per Customer from the prior fiscal period. However, 'Customer Engagement' is not clearly defined, leading to ambiguity. Also, even though 'Customer Engagement' is not clearly defined it states that the fees are based on the volume of customer engagements. The two statements do not go hand in hand.",
+        "explanation": "The method for determining the advertising fee lacks specificity, which can be seen as a structural flaw. While it provides a formula (0.025% multiplied by the median revenue per Customer), it fails to clearly define \"Customer Engagement\". This lack of clarity makes it difficult to calculate the fees accurately. Furthermore, the intention of attaching the Revised Pricing as an exhibit creates a structural flaw as it implies that there are different pricing structures when only one is explained.",
         "location": "Section 5.1",
-        "category": 1,
+        "category": 9,
         "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": true
     }
 ]

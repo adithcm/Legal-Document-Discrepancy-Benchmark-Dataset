@@ -1,26 +1,29 @@
 [
     {
-        "section": "The parties shall negotiate in good faith to determine the initial operation of the Information Transfer Mechanism and to describe such operation and development fees, in a statement of work (\"SOW\"). Each party shall make available sufficient and qualified engineers to negotiate the SOW. No SOW shall be binding on the parties unless mutually approved by both parties. In the event that the parties are unable to agree to an SOW within 2 months following the Effective Date, either party may, in its sole discretion, terminate this Agreement by providing written notice.",
-        "explanation": "This section outlines the process for creating a Statement of Work (SOW) but states that if an SOW isn't agreed upon within 2 months, either party can terminate the agreement. However, Section 2.3 later states that if the Launch Date hasn't occurred within 4 months of the Effective Date due to a lack of good faith and reasonable efforts, either party can terminate. It is ambiguous as to what would happen if both conditions were satisfied for either party.",
+        "section": "In the event that the parties are unable to agree to an SOW within 2 months following the Effective Date, either party may, in its sole discretion, terminate this Agreement by providing written notice.",
+        "explanation": "This section allows termination if an SOW isn't agreed upon within 2 months. However, Section 2.3 allows termination if the Launch Date (dependent on the SOW) hasn't occurred within 4 months. This creates a discrepancy as it's unclear if failing to agree on the SOW and then missing the Launch Date deadline allows for two separate termination events or if they are linked.",
         "location": "Section 2.2",
-        "category": 1,
+        "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
-        "section": "After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount. The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), but only by mutual consent of the parties after good faith discussions. The Adjusted Rate shall be added as an addendum to this Agreement.",
-        "explanation": "This section states that the advertising fees are based on Transaction Inquiries, and the rate can be adjusted by mutual consent. It omits the initial agreed-upon rate. The lack of a clearly defined initial rate creates ambiguity, as there's no baseline for calculating payments until an adjustment is made.",
-        "location": "Section 5.1",
-        "category": 7,
-        "location_match": true,
-        "text_match": false
+        "section": "After Launch Date, 2TheMart will widely promote the Services: (a) To every seller and high bidder through means including, but not limited to, end of auction emails containing links, such that, it shall be possible for the buyer or seller to initiate a Transaction Inquiry with i-Escrow, without having to re-enter all their personal or transaction related information.",
+        "explanation": "The language 'means including, but not limited to' in the context of promoting 'to every seller and high bidder' creates ambiguity. While it suggests broad promotion, it doesn't definitively mandate that every single seller and high bidder receives the promotion, making it potentially unenforceable if 2TheMart misses some users.",
+        "location": "Section 3",
+        "category": 1,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "Each party (the \"Indemnifying Party\") shall indemnify the other party (the \"Indemnified Party\") against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which the Indemnified Party may incur as a result of claims in any form by third parties arising from the Indemnifying Party's acts, omissions or misrepresentations to the extent that the Indemnified Party is deemed a principal of the Indemnifying Party.",
-        "explanation": "The phrase 'to the extent that the Indemnified Party is deemed a principal of the Indemnifying Party' is unclear and may limit the scope of indemnification. The legal standard for when an indemnified party would be considered a principal of the indemnifying party is not defined, leading to uncertainty.",
+        "explanation": "The phrase 'to the extent that the Indemnified Party is deemed a principal of the Indemnifying Party' is vague and could drastically limit the scope of indemnification. It's unclear what 'deemed a principal' means legally, potentially creating a loophole where indemnification is avoided even for clear acts of negligence.",
         "location": "Section 9",
-        "category": 2,
+        "category": 1,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     }
 ]
