@@ -1,18 +1,58 @@
-[
-    {
-        "section": "[SECTION]",
-        "explanation": "[EXPLANATION]",
-        "location": "Section 8.8",
-        "category": 1,
-        "location_match": false,
-        "text_match": false
+{
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\zero-shot-self-verification": {
+        "ambiguity_inText": { "text_matches": 2, "explanation_matches": 1, "correct": 0, "total": 15 },
+        "inconsistencies_inText": { "text_matches": 5, "explanation_matches": 4, "correct": 3, "total": 15 },
+        "misaligned_terminalogy_inText": { "text_matches": 4, "explanation_matches": 1, "correct": 1, "total": 15 },
+        "omissions_inText": { "text_matches": 2, "explanation_matches": 2, "correct": 2, "total": 15 },
+        "structural_flaws_inText": { "text_matches": 11, "explanation_matches": 6, "correct": 4, "total": 15 }
     },
-    {
-        "section": "[SECTION]",
-        "explanation": "[EXPLANATION]",
-        "location": "Section 8.8",
-        "category": 1,
-        "location_match": false,
-        "text_match": false
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\few-shot": {
+        "ambiguity_inText": { "text_matches": 1, "explanation_matches": 1, "correct": 0, "total": 15 },
+        "inconsistencies_inText": { "text_matches": 4, "explanation_matches": 1, "correct": 1, "total": 15 },
+        "misaligned_terminalogy_inText": { "text_matches": 0, "explanation_matches": 1, "correct": 0, "total": 15 },
+        "omissions_inText": { "text_matches": 1, "explanation_matches": 1, "correct": 1, "total": 15 },
+        "structural_flaws_inText": { "text_matches": 9, "explanation_matches": 5, "correct": 4, "total": 15 }
     },
-]
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\zero-shot-self-verification-cot": {
+        "ambiguity_inText": { "text_matches": 2, "explanation_matches": 1, "correct": 0, "total": 15 },
+        "inconsistencies_inText": { "text_matches": 5, "explanation_matches": 3, "correct": 2, "total": 15 },
+        "misaligned_terminalogy_inText": { "text_matches": 2, "explanation_matches": 3, "correct": 2, "total": 15 },
+        "omissions_inText": { "text_matches": 2, "explanation_matches": 1, "correct": 1, "total": 15 },
+        "structural_flaws_inText": { "text_matches": 11, "explanation_matches": 7, "correct": 6, "total": 15 }
+    },
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\zero-shot": {
+        "ambiguity_inText": { "text_matches": 12, "explanation_matches": 20, "correct": 11, "total": 75 },
+        "inconsistencies_inText": { "text_matches": 31, "explanation_matches": 25, "correct": 20, "total": 75 },
+        "misaligned_terminalogy_inText": { "text_matches": 18, "explanation_matches": 16, "correct": 13, "total": 75 },
+        "omissions_inText": { "text_matches": 8, "explanation_matches": 7, "correct": 6, "total": 75 },
+        "structural_flaws_inText": { "text_matches": 9, "explanation_matches": 6, "correct": 5, "total": 15 }
+    },
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\zero-shot-cot": {
+        "ambiguity_inText": { "text_matches": 11, "explanation_matches": 23, "correct": 11, "total": 76 },
+        "inconsistencies_inText": { "text_matches": 27, "explanation_matches": 19, "correct": 17, "total": 75 },
+        "misaligned_terminalogy_inText": { "text_matches": 11, "explanation_matches": 16, "correct": 10, "total": 75 },
+        "omissions_inText": { "text_matches": 8, "explanation_matches": 9, "correct": 8, "total": 75 },
+        "structural_flaws_inText": { "text_matches": 8, "explanation_matches": 8, "correct": 4, "total": 15 }
+    },
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\few-shot-self-verification-cot": {
+        "ambiguity_inText": { "text_matches": 2, "explanation_matches": 4, "correct": 2, "total": 15 },
+        "inconsistencies_inText": { "text_matches": 3, "explanation_matches": 4, "correct": 3, "total": 15 },
+        "misaligned_terminalogy_inText": { "text_matches": 1, "explanation_matches": 1, "correct": 0, "total": 15 },
+        "omissions_inText": { "text_matches": 1, "explanation_matches": 1, "correct": 1, "total": 15 },
+        "structural_flaws_inText": { "text_matches": 7, "explanation_matches": 8, "correct": 5, "total": 15 }
+    },
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\few-shot-cot": {
+        "ambiguity_inText": { "text_matches": 9, "explanation_matches": 11, "correct": 7, "total": 36 },
+        "inconsistencies_inText": { "text_matches": 2, "explanation_matches": 2, "correct": 1, "total": 15 },
+        "misaligned_terminalogy_inText": { "text_matches": 3, "explanation_matches": 2, "correct": 1, "total": 15 },
+        "omissions_inText": { "text_matches": 1, "explanation_matches": 0, "correct": 0, "total": 15 },
+        "structural_flaws_inText": { "text_matches": 6, "explanation_matches": 8, "correct": 5, "total": 15 }
+    },
+    "\\\\?\\c:\\Users\\Noel\\Documents\\Projects\\School\\CSE 576\\Legal-Document-Discrepancy-Benchmark-Dataset\\mini-eval\\responses\\few-shot-self-verification": {
+        "ambiguity_inText": { "text_matches": 2, "explanation_matches": 3, "correct": 2, "total": 15 },
+        "inconsistencies_inText": { "text_matches": 5, "explanation_matches": 4, "correct": 3, "total": 15 },
+        "misaligned_terminalogy_inText": { "text_matches": 1, "explanation_matches": 0, "correct": 0, "total": 15 },
+        "omissions_inText": { "text_matches": 1, "explanation_matches": 0, "correct": 0, "total": 15 },
+        "structural_flaws_inText": { "text_matches": 6, "explanation_matches": 9, "correct": 5, "total": 15 }
+    }
+}
