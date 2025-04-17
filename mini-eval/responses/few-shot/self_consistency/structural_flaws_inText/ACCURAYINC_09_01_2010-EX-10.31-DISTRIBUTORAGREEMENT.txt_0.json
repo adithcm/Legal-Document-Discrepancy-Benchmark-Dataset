@@ -1,29 +1,29 @@
 [
     {
         "section": "For the avoidance of doubt, 'Accuray Regions' shall only refer to North America.",
-        "explanation": "Section 1.1 defines Accuray Regions to include 'the Americas (North America and South America), APAC (Asia Pacific, including Australia and other than India and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan' but then restricts the meaning to only North America. This creates an internal contradiction as the definition initially includes multiple regions but is immediately limited to only one.",
-        "location": "Section 1.1",
+        "explanation": "This contradicts the definition of 'Accuray Regions' provided in the previous sentence. The first sentence defines it as 'Accuray's sales regions (as of the Effective Date) of the Americas (North America and South America), APAC (Asia Pacific, including Australia and other than India and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan.'",
+        "location": "1.1",
         "category": 1,
-        "location_match": true,
+        "location_match": false,
         "text_match": true,
         "explanation_match": false
     },
     {
-        "section": "Distributor shall make an offer to a Customer based on the Quote provided by Accuray pursuant to the process set forth in Section 2.3. Submission and acceptance of an order shall be completed pursuant to Section 2.3.3.",
-        "explanation": "The phrase 'Distributor shall make an offer to a Customer based on the Quote provided by Accuray' is followed by 'Submission and acceptance of an order shall be completed pursuant to Section 2.3.3.' This is structurally flawed, because the submission and acceptance of an order does not mean that an offer will be made to a customer",
-        "location": "Section 5.1",
-        "category": 9,
+        "section": "Notwithstanding the foregoing, Accuray retains the right to appoint additional exclusive distributors within specific geographic territories, even if those territories overlap with the Distributor's existing customer base.",
+        "explanation": "Paragraph 2.1 starts by appointing Distributor as a *non-exclusive* distributor, then later states that Accuray can appoint *exclusive* distributors that overlap with the Distributor's territories, creating a potential conflict.",
+        "location": "2.1",
+        "category": 3,
         "location_match": false,
-        "text_match": false,
+        "text_match": true,
         "explanation_match": false
     },
     {
-        "section": "Accuray will provide a warranty to each Customer that the Products will be free from material defects and perform substantially in accordance with the written Specifications provided by Accuray as reflected in the regulatory clearance at the time of sale for a period of one (1) year following Installation of the Products at Customer's facility, but not to exceed eighteen (18) months following shipment of such Products to Distributor ('Warranty Period'). However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product.",
-        "explanation": "In Section 4.6.1, the text establishes a warranty period of one year after installation (up to 18 months after shipment). The statement, 'However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product' directly contradicts the preceding limited warranty period, because there is no clear definition of what the expected lifetime of the product actually is. This creates uncertainty and could undermine the enforceability of the initial warranty.",
-        "location": "Section 4.6.1",
-        "category": 1,
-        "location_match": true,
-        "text_match": false,
-        "explanation_match": true
+        "section": "However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product.",
+        "explanation": "Section 4.6.1 initially states that the warranty is for a period of one (1) year, with a maximum of eighteen (18) months after shipment. It then states 'Accuray makes no warranties or representations to Customers or to any other party regarding any Products or Services provided by Accuray.' before stating 'However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product.', which contradicts and creates an ambiguity",
+        "location": "4.6",
+        "category": 3,
+        "location_match": false,
+        "text_match": true,
+        "explanation_match": false
     }
 ]

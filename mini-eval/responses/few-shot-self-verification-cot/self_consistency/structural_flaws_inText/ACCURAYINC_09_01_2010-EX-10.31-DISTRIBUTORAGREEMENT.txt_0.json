@@ -1,29 +1,38 @@
 [
     {
-        "section": "1.1. \"Accuray Regions\" means Accuray's sales regions (as of the Effective Date) of the Americas (North America and South America), APAC (Asia Pacific, including Australia and other than India and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan. For the avoidance of doubt, 'Accuray Regions' shall only refer to North America.",
-        "explanation": "This definition provides a list of Accuray Regions but then specifically states that it shall only refer to North America. This creates an ambiguity because the initial part of the definition lists other regions that are specifically excluded by the final sentence.",
-        "location": "Section 1.1",
+        "section": "For the avoidance of doubt, 'Accuray Regions' shall only refer to North America.",
+        "explanation": "The original definition of 'Accuray Regions' includes multiple regions. By stating it 'shall only refer to North America', directly contradicts the first definition.",
+        "location": "1.1",
         "category": 1,
-        "location_match": true,
-        "text_match": false,
+        "location_match": false,
+        "text_match": true,
         "explanation_match": true
     },
     {
-        "section": "2.3.3. Purchase. To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order, which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval.",
-        "explanation": "This section indicates that failure to respond to a purchase order within two weeks constitutes disapproval, which could cause confusion. However, the following sentence contradicts this by indicating that a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray. It is not clear if acceptance is only valid through execution of the Purchase Order and not through a response to the purchase order, or if the response could also mean acceptance.",
-        "location": "Section 2.3.3",
+        "section": "Accuray hereby appoints Distributor as a non-exclusive, worldwide distributor of Products and Services to Customers solely in connection with Multiple LINAC or Multi-Modality Purchases, not to the exclusion of Accuray itself or any of its other current or future distributors and subject to the terms and conditions of this Agreement. Notwithstanding the foregoing, Accuray retains the right to appoint additional exclusive distributors within specific geographic territories, even if those territories overlap with the Distributor's existing customer base.",
+        "explanation": "The original text grants a non-exclusive, worldwide distribution right. The added clause allows Accuray to appoint 'additional exclusive distributors' even in areas overlapping with the current distributor. This directly contradicts the non-exclusive nature of the agreement, potentially significantly limiting the distributor's rights.",
+        "location": "2.1",
         "category": 3,
         "location_match": false,
         "text_match": false,
-        "explanation_match": false
+        "explanation_match": true
     },
     {
-        "section": "4.6.1. Scope of Warranty. Accuray will provide a warranty to each Customer that the Products will be free from material defects and perform substantially in accordance with the written Specifications provided by Accuray as reflected in the regulatory clearance at the time of sale for a period of one (1) year following Installation of the Products at Customer's facility, but not to exceed eighteen (18) months following shipment of such Products to Distributor (\"Warranty Period\"). However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product.",
-        "explanation": "The first part of the section defines a specific warranty period, but the last sentence then warrants that the system will be free from any defects for the expected lifetime of the product. This creates a contradiction because this statement expands the warranty beyond the explicitly defined warranty period.",
-        "location": "Section 4.6.1",
-        "category": 1,
-        "location_match": true,
+        "section": "Accuray will provide a warranty to each Customer that the Products will be free from material defects and perform substantially in accordance with the written Specifications provided by Accuray as reflected in the regulatory clearance at the time of sale for a period of one (1) year following Installation of the Products at Customer's facility, but not to exceed eighteen (18) months following shipment of such Products to Distributor (\"Warranty Period\"). \"Installation\" of the System shall occur upon completion by Accuray or the entity installing the System, as applicable, of Accuray's acceptance test procedure demonstrating that the System substantially conforms to the written Specifications. If Accuray does not perform the Installation, Distributor will notify Accuray in writing within ten (10) days following Installation (including any testing procedures undertaken by Customer or its installation service provider). In no event shall Distributor, Customer or their respective agents use the System (or any portion thereof) for any purpose before Installation thereof without the express written approval of Accuray. Distributor 8 shall indemnify and hold Accuray harmless from any such use. Accuray makes no warranty that the operation of any software will be uninterrupted or error-free. Except as set forth in the preceding sentences, Accuray makes no warranties or representations to Customers or to any other party regarding any Products or Services provided by Accuray. However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ACCURAY DISCLAIMS ALL OTHER WARRANTIES AND REPRESENTATIONS, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.",
+        "explanation": "The original warranty period is clearly defined as one year after installation or 18 months after shipment. The added sentence, 'However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product', directly contradicts and undermines the defined warranty. It also introduces ambiguity regarding the actual duration and scope of the warranty, while the prior sentences disclaim all other warranties. This could be interpreted as an attempt to negate the original warranty and replace it with a vague, unenforceable lifetime warranty.",
+        "location": "4.6",
+        "category": 3,
+        "location_match": false,
         "text_match": false,
         "explanation_match": true
+    },
+    {
+        "section": "Accuray or its distributor will obtain and maintain all required import licenses, and shall serve as importer of record for all Products and Services delivered in or into any country or region, other than the United States, pursuant to this Agreement; provided, however, that if Accuray does not have a direct presence in or Accuray does not have a distributor specifically for the sales of Systems in the country in which the Customer requests delivery, as a condition to any sale of Products or Services to such Customer, Accuray may require Distributor (solely with the consent of Distributor) to enter into a distribution agreement with Accuray pursuant to Section 3.2 of the Strategic Alliance Agreement providing, among other things, that Distributor will obtain and maintain all required import licenses and will act as the importer of record for the Products and Services ordered by such Customer.",
+        "explanation": "Initially, Accuray or its distributor assumes responsibility for import licenses except in the US. The language is then changes to allow the same responsibility to switch to the distributor and requires that Distributor will obtain and maintain all required import licenses, essentially shifting responsibilities.",
+        "location": "4.5",
+        "category": 5,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

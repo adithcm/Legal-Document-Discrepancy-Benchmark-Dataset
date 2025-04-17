@@ -1,29 +1,29 @@
 [
     {
-        "section": "In the event that the parties are unable to agree to an SOW within 2 months following the Effective Date, either party may, in its sole discretion, terminate this Agreement by providing written notice.",
-        "explanation": "While seemingly straightforward, this clause lacks clarity on the procedure for notification. It only states 'written notice' but doesn't specify the method (e.g., email, registered mail), leading to potential disputes over whether notice was properly given. The lack of detail introduces ambiguity around the mechanism of termination.",
-        "location": "Section 2.2",
-        "category": 1,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
-        "explanation": "There is an inconsistency here. It first states that renewal requires mutual written agreement, but it continues to say that if the notice is not given the contract is AUTOMATICALLY renewed for one year. This contradicts what was said earlier.",
-        "location": "Section 8.1",
-        "category": 3,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "Each party (the \"Guarantor\") shall protect the other party (the \"Protected Party\") from any and all liabilities, damages, charges, and expenditures, specifically including legal counsel payments, that the Protected Party accrues due to external grievances resulting from the Guarantor's actions, failures, or deceptive statements, provided the Protected Party is considered a key agent of the Guarantor.",
-        "explanation": "The initial broad indemnification is then restricted by requiring the 'Protected Party' to be a 'key agent' of the 'Guarantor.' The term 'key agent' is not defined, which introduces ambiguity. It's unclear under what circumstances the 'Protected Party' would be considered a 'key agent,' leading to uncertainty about the scope of indemnification and potentially making it difficult to enforce.",
-        "location": "Section 9",
+        "section": "\"CONTENT\" means all digital assets, regardless of medium, that either party provides to the other for use in the performance of its obligations under this Agreement. This includes, but is not limited to, text, audio files, visual recordings, images, datasets, or programs. Assets given by 2TheMart will be known as \"2TheMart Material,\" while assets given by i-Escrow are termed \"i-Escrow Media.\"",
+        "explanation": "This section defines \"Content\" as all digital assets provided by either party. It further refines this by labeling assets from 2TheMart as \"2TheMart Material\" and assets from i-Escrow as \"i-Escrow Media.\" This creates a distinction that is used later in the contract, specifically in the indemnity section (Section 9).",
+        "location": "Section 1(a)",
         "category": 1,
         "location_match": true,
         "text_match": true,
-        "explanation_match": false
+        "explanation_match": true
+    },
+    {
+        "section": "After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the volume of Customer Engagements. This advertising remuneration will equal a rate per Customer Engagement that is determined by multiplying 0.025% by the median revenue per Customer from the prior fiscal period. This rate may be updated periodically during the duration of the contract following market analysis and with written consent from both parties (\"the Revised Pricing\"). The Revised Pricing will be attached as an exhibit to this contract.",
+        "explanation": "This section details the advertising fees i-Escrow is supposed to pay 2TheMart. However, it defines the fee calculation based on a percentage of median revenue per customer, which requires consistent tracking and agreement on what constitutes 'median revenue per Customer.' Attaching a 'Revised Pricing' as an exhibit suggests the initial calculation method could change, creating uncertainty if the 'Revised Pricing' is significantly different and not clearly justified.",
+        "location": "Section 5.1",
+        "category": 1,
+        "location_match": true,
+        "text_match": true,
+        "explanation_match": true
+    },
+    {
+        "section": "Each party (the \"Guarantor\") shall protect the other party (the \"Protected Party\") from any and all liabilities, damages, charges, and expenditures, specifically including legal counsel payments, that the Protected Party accrues due to external grievances resulting from the Guarantor's actions, failures, or deceptive statements, provided the Protected Party is considered a key agent of the Guarantor. Furthermore, 2TheMart will protect i-Escrow from all liabilities, damages, charges, and expenditures, inclusive of justifiable legal costs, that i-Escrow bears due to external grievances derived from 2TheMart Material. Additionally, i-Escrow will protect 2TheMart from all liabilities, damages, charges, and expenditures, including justified attorney costs, that 2TheMart bears due to external grievances arising from i-Escrow Media and/or the Deliverables provided to Patrons.",
+        "explanation": "This indemnity clause creates several ambiguities. First, it states that the Guarantor protects the Protected Party from liabilities resulting from the Guarantor's actions, failures, or deceptive statements, but *only* if the Protected Party is considered a 'key agent' of the Guarantor. The term 'key agent' is undefined, making it unclear when this protection applies. Second, it provides separate indemnity obligations: 2TheMart protects i-Escrow from liabilities derived from \"2TheMart Material,\" and i-Escrow protects 2TheMart from liabilities arising from \"i-Escrow Media and/or the Deliverables provided to Patrons.\" The term \"Deliverables provided to Patrons\" is not defined anywhere else in the agreement. This creates confusion as to the scope of i-Escrow's indemnity obligation.",
+        "location": "Section 9",
+        "category": 1,
+        "location_match": true,
+        "text_match": false,
+        "explanation_match": true
     }
 ]

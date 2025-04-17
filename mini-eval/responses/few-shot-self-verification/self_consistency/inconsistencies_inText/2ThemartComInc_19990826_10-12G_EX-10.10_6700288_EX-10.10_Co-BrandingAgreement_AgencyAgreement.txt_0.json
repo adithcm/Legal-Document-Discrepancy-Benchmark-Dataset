@@ -1,29 +1,29 @@
 [
     {
-        "section": "The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions ('the Adjusted Rate'), unilaterally by 2TheMart without requiring i-Escrow's consent. The Adjusted Rate will be communicated to i-Escrow and will be effective immediately.",
-        "explanation": "This clause allows 2TheMart to unilaterally change the payment terms (the Adjusted Rate) without i-Escrow's consent, creating a significant imbalance of power and potentially leading to financial unpredictability for i-Escrow. This ambiguity regarding the future cost creates a discrepancy within the contract.",
+        "section": "5.1 ADVERTISING FEES. After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter. The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), unilaterally by 2TheMart without requiring i-Escrow's consent. The Adjusted Rate will be communicated to i-Escrow and will be effective immediately.",
+        "explanation": "The provision allowing 2TheMart to unilaterally revise the advertising fee formula creates an imbalance. While the initial rate is defined, the ability to change it 'unilaterally...effective immediately' without i-Escrow's consent introduces significant financial uncertainty for i-Escrow and could be deemed unconscionable.",
         "location": "Section 5.1",
-        "category": 1,
+        "category": 2,
         "location_match": true,
-        "text_match": false,
-        "explanation_match": true
-    },
-    {
-        "section": "This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
-        "explanation": "This clause contains contradictory statements regarding renewal. It initially states that renewal requires mutual written agreement, but then asserts that the agreement automatically renews if neither party provides notice of non-renewal. This creates ambiguity regarding the actual process for renewal.",
-        "location": "Section 8.1",
-        "category": 3,
-        "location_match": false,
-        "text_match": false,
+        "text_match": true,
         "explanation_match": false
     },
     {
-        "section": "Each party (the \"Indemnifying Party\") shall indemnify the other party (the \"Indemnified Party\") against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which the Indemnified Party may incur as a result of claims in any form by third parties arising from the Indemnifying Party's acts, omissions or misrepresentations to the extent that the Indemnified Party is deemed a principal of the Indemnifying Party.",
-        "explanation": "This section states that indemnification is required to the extent that the Indemnified Party is deemed a 'principal' of the Indemnifying Party. This is structurally flawed, as the indemnitee would be unlikely to seek indemnification from a party for whom they are a principal. This also fails to properly identify what constitutes as the agent, therefore creating a discrepancy within the text.",
-        "location": "Section 9",
-        "category": 9,
-        "location_match": false,
-        "text_match": false,
+        "section": "8.5 EFFECTS OF TERMINATION. Upon expiration or termination of this Agreement for any reason: (a) all rights granted herein shall terminate, (b) i-Escrow shall pay all amounts owed to 2TheMart within thirty (30) days of termination, and (c) each party shall remove the other party's content and Marks from their servers. Notwithstanding the foregoing, even if this Agreement was terminated for a material breach, all provisions of this Agreement shall survive to the extent necessary for i-Escrow to complete any Customer transactions which are pending at the time of expiration or termination. Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall not survive expiration or termination of this Agreement.",
+        "explanation": "This section creates a contradiction. It states that 'all rights granted herein shall terminate' upon expiration or termination. However, it then provides an exception allowing provisions to survive termination for i-Escrow to complete pending transactions. It then states that Section 8.5 does not survive. This means the original provision will come back into play again.",
+        "location": "Section 8.5",
+        "category": 3,
+        "location_match": true,
+        "text_match": true,
+        "explanation_match": true
+    },
+    {
+        "section": "8.5 EFFECTS OF TERMINATION. Upon expiration or termination of this Agreement for any reason: (a) all rights granted herein shall terminate, (b) i-Escrow shall pay all amounts owed to 2TheMart within thirty (30) days of termination, and (c) each party shall remove the other party's content and Marks from their servers. Notwithstanding the foregoing, even if this Agreement was terminated for a material breach, all provisions of this Agreement shall survive to the extent necessary for i-Escrow to complete any Customer transactions which are pending at the time of expiration or termination. Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall not survive expiration or termination of this Agreement.",
+        "explanation": "The exclusion of Section 9 (Indemnity) from the surviving provisions after termination could create a significant legal loophole. If a claim arises after termination but is based on actions that occurred *during* the agreement's term, it's unclear whether the indemnification obligations still apply. This omission leaves the parties vulnerable to post-termination liabilities without a clear mechanism for recourse, which is a significant issue.",
+        "location": "Section 8.5",
+        "category": 8,
+        "location_match": true,
+        "text_match": true,
         "explanation_match": false
     }
 ]

@@ -1,29 +1,29 @@
 [
     {
-        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"), by and between [ * * * ] (the \"Provider\"), and TELCOSTAR PTE, LTD., a company organized and existing under the laws of Singapore and Ability Computer & Software Industries Ltd, a company organized and existing under the laws of the State of Israel (each and both of them \"Recipient\"). Each of the foregoing parties is referred to herein as a \"Party\" and together as the \"Parties\".",
-        "explanation": "The document lists both TELCOSTAR PTE, LTD. and Ability Computer & Software Industries Ltd. as the 'Recipient'. This is structurally flawed because it uses the singular term 'Recipient' to refer to two distinct entities. Subsequent references to 'Recipient' become ambiguous as it is unclear if those references apply to both companies jointly and severally, or if they are meant to be interpreted differently in different contexts. This lack of clarity can lead to disputes regarding which entity is responsible for fulfilling the Recipient's obligations under the agreement.",
-        "location": "Preamble",
-        "category": 9,
+        "section": "Each of the foregoing parties is referred to herein as a \"Party\" and together as the \"Parties\". RECITALS A. Recipient wishes to engage the Vendor to provide certain services and resources (the \"Deliverables\") and Provider desires to provide Recipient with the Services all in accordance with the terms and conditions set forth herein.",
+        "explanation": "There's a misalignment in terminology. The recitals section introduces 'Vendor' where 'Provider' should be used, creating confusion. The contract then continues using 'Provider' consistently. The term 'Vendor' is not formally defined but Recipient wishes to engage the Vendor implying it may have been used in a previous agreement. The inconsistent use of 'Vendor' instead of 'Provider' creates an in-text contradiction.",
+        "location": "Recitals",
+        "category": 5,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": true,
+        "explanation_match": true
     },
     {
-        "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "This section contains a structural flaw in its text. The repetition of the word \"Agreement\" directly after the phrase \"Effective Date\" is nonsensical and disrupts the sentence's logical flow. This suggests a drafting error that compromises the clarity of the termination clause.",
-        "location": "Section 3.1",
-        "category": 9,
+        "section": "Supplier shall maintain complete and accurate records relating to the provision of the Services under this Agreement, in such form as Recipient shall approve.",
+        "explanation": "The term 'Supplier' is not defined anywhere in the document and should be referring to 'Provider'. The contract refers to two parties, Provider and Recipient, using an incorrect term creates a contradiction. This discrepancy creates ambiguity and contradicts the already established terminology of the agreement.",
+        "location": "Section 1.2(b)",
+        "category": 5,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": true,
+        "explanation_match": true
     },
     {
-        "section": "This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel (including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute), without giving effect to any choice or conflict of law provision or rule (whether of the State of Israel or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Israel.",
-        "explanation": "While seemingly straightforward, this governing law clause could be problematic under certain legal standards. A blanket application of Israeli law, including its statute of limitations, may contradict established principles of conflict of laws, particularly in jurisdictions outside of Israel where enforcement is sought. Courts might refuse to apply Israeli statutes of limitations if they are deemed procedural rather than substantive, or if they violate public policy. Moreover, the phrase 'without giving effect to any choice or conflict of law provision or rule' attempts to completely circumvent conflict of laws principles, which might be viewed as an overreach and deemed unenforceable by certain courts, potentially leading to unpredictability in enforcement depending on the forum.",
-        "location": "Section 7.2",
-        "category": 2,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "section": "During the term of this Agreement and thereafter, the Signatories hereto shall, and shall instruct their respective representatives to, maintain in confidence and not disclose the other Signatory's financial, technical, sales, marketing, development, personnel, and other information, records, or data, including, without limitation, customer lists, vendor lists, trade secrets, designs, product formulations, product specifications or any other proprietary or confidential information, however recorded or preserved, whether written or oral (any such information, \"Proprietary Information\").",
+        "explanation": "There's an ambiguity in text, since the parties are called \"Parties\" throughout the document and not \"Signatories\". If the parties are \"Signatories\" what makes them so and what are the implications. It would be better to use the correct terminology, to avoid ambiguity.",
+        "location": "Section 4.1",
+        "category": 1,
+        "location_match": true,
+        "text_match": true,
+        "explanation_match": true
     }
 ]

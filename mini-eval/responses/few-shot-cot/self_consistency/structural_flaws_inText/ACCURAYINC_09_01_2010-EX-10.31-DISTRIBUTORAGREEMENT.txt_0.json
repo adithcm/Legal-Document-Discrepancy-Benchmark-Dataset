@@ -1,29 +1,29 @@
 [
     {
         "section": "1.1. \"Accuray Regions\" means Accuray's sales regions (as of the Effective Date) of the Americas (North America and South America), APAC (Asia Pacific, including Australia and other than India and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan. For the avoidance of doubt, 'Accuray Regions' shall only refer to North America.",
-        "explanation": "There is an ambiguity because the definition initially includes multiple regions but then restricts 'Accuray Regions' solely to North America. This creates an in-text contradiction because the first sentence describes multiple regions, but the second sentence limits it to North America, leading to confusion about the actual scope of the term.",
-        "location": "Section 1.1",
+        "explanation": "This is an example of ambiguity because the term is defined in a broad context, then immediately limited to a single region ('North America'). This is an inconsistency because the initial definition includes multiple regions, but the subsequent clarification contradicts this by stating it 'shall only refer to North America.' This could create confusion and disputes over which regions are actually covered under the agreement.",
+        "location": "1.1",
         "category": 1,
-        "location_match": true,
+        "location_match": false,
         "text_match": false,
         "explanation_match": true
     },
     {
-        "section": "2.1. Appointment. Accuray hereby appoints Distributor as a non-exclusive, worldwide distributor of Products and Services to Customers solely in connection with Multiple LINAC or Multi-Modality Purchases, not to the exclusion of Accuray itself or any of its other current or future distributors and subject to the terms and conditions of this Agreement. Notwithstanding the foregoing, Accuray retains the right to appoint additional exclusive distributors within specific geographic territories, even if those territories overlap with the Distributor's existing customer base.",
-        "explanation": "The agreement states the distributor is a non-exclusive worldwide distributor, but Accuray retains the right to appoint additional *exclusive* distributors even in overlapping territories. This creates a contradiction as exclusive appointments inherently limit the non-exclusive nature of the original distributor's rights.",
-        "location": "Section 2.1",
+        "section": "4.5. Import License. Accuray or its distributor will obtain and maintain all required import licenses, and shall serve as importer of record for all Products and Services delivered in or into any country or region, other than the United States, pursuant to this Agreement; provided, however, that if Accuray does not have a direct presence in or Accuray does not have a distributor specifically for the sales of Systems in the country in which the Customer requests delivery, as a condition to any sale of Products or Services to such Customer, Accuray may require Distributor (solely with the consent of Distributor) to enter into a distribution agreement with Accuray pursuant to Section 3.2 of the Strategic Alliance Agreement providing, among other things, that Distributor will obtain and maintain all required import licenses and will act as the importer of record for the Products and Services ordered by such Customer.",
+        "explanation": "There are conflicting obligations. The main clause assigns responsibility for import licenses and acting as importer of record to Accuray or its distributor for countries outside the US. However, the 'provided that' clause shifts this responsibility to Siemens (Distributor) under certain conditions, but only with Siemens' consent. This creates an ambiguity and contradiction about who is ultimately responsible and under what conditions, potentially leading to delays or disputes in importing the products.",
+        "location": "4.5",
         "category": 1,
-        "location_match": true,
+        "location_match": false,
         "text_match": false,
-        "explanation_match": true
+        "explanation_match": false
     },
     {
-        "section": "4.6.1. Scope of Warranty. Accuray will provide a warranty to each Customer that the Products will be free from material defects and perform substantially in accordance with the written Specifications provided by Accuray as reflected in the regulatory clearance at the time of sale for a period of one (1) year following Installation of the Products at Customer's facility, but not to exceed eighteen (18) months following shipment of such Products to Distributor (\"Warranty Period\"). ... However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product.",
-        "explanation": "There is a contradiction related to the warranty period. The warranty is initially defined as one year following installation but no more than 18 months after shipment. The subsequent sentence expands the warranty to cover any defects for the 'expected lifetime' of the product, which conflicts with the explicitly defined warranty period in the preceding sentences.",
-        "location": "Section 4.6.1",
-        "category": 1,
-        "location_match": true,
+        "section": "4.6. Warranty. 4.6.1. Scope of Warranty. Accuray will provide a warranty to each Customer that the Products will be free from material defects and perform substantially in accordance with the written Specifications provided by Accuray as reflected in the regulatory clearance at the time of sale for a period of one (1) year following Installation of the Products at Customer's facility, but not to exceed eighteen (18) months following shipment of such Products to Distributor (\"Warranty Period\"). \"Installation\" of the System shall occur upon completion by Accuray or the entity installing the System, as applicable, of Accuray's acceptance test procedure demonstrating that the System substantially conforms to the written Specifications. If Accuray does not perform the Installation, Distributor will notify Accuray in writing within ten (10) days following Installation (including any testing procedures undertaken by Customer or its installation service provider). In no event shall Distributor, Customer or their respective agents use the System (or any portion thereof) for any purpose before Installation thereof without the express written approval of Accuray. Distributor 8 shall indemnify and hold Accuray harmless from any such use. Accuray makes no warranty that the operation of any software will be uninterrupted or error-free. Except as set forth in the preceding sentences, Accuray makes no warranties or representations to Customers or to any other party regarding any Products or Services provided by Accuray. However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ACCURAY DISCLAIMS ALL OTHER WARRANTIES AND REPRESENTATIONS, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.",
+        "explanation": "There is an in-text contradiction on the system free from defect. The first text says that Accuray provides a warranty for each customer and the products will be free from any material defects for a year. But then the text then states, 'However, Accuray warrants that the system will be free from any defects for the expected lifetime of the product'. One states that there is a one year warranty, and the other states that the warrranty is for a lifetime.",
+        "location": "4.6",
+        "category": 3,
+        "location_match": false,
         "text_match": false,
-        "explanation_match": true
+        "explanation_match": false
     }
 ]

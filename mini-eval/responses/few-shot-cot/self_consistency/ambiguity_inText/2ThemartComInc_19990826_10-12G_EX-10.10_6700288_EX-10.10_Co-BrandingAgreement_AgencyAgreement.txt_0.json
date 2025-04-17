@@ -1,29 +1,29 @@
 [
     {
         "section": "(c) \"CUSTOMERS\" means all users who access Co-Branded Site and complete at least one transaction per month.",
-        "explanation": "The definition of 'CUSTOMERS' is ambiguous. It states that to be considered a customer, a user must complete at least one transaction *per month*. This is unclear. Does it mean at least one transaction *every* month? Or at least one transaction within a month, but not necessarily every month? This ambiguity can lead to disputes in determining the advertising fees, as the fees are based on transactions from 'Customers'. If the definition is interpreted strictly, a user who skips a month without a transaction would cease to be a 'Customer', which could affect the calculation of advertising fees. This ambiguity could potentially devalue 2TheMart's fees.",
-        "location": "Section 1(c)",
-        "category": 1,
-        "location_match": false,
+        "explanation": "The definition of \"CUSTOMERS\" as users who complete at least one transaction *per month* is overly restrictive and misaligned with the payment terms outlined later in Section 5.1, which base advertising fees on Transaction Inquiries. A user could generate multiple Transaction Inquiries in a month but only complete one transaction, still qualifying as a \"Customer\" under this definition but potentially devaluing the advertising fee calculation for 2TheMart. This means that the term Customer should only mean that they complete 1 transaction, not 1 transaction per month.",
+        "location": "1(c)",
+        "category": 5,
+        "location_match": true,
         "text_match": true,
         "explanation_match": true
     },
     {
-        "section": "4 RESTRICTIONS ON COMMUNICATIONS. i-Escrow may place banner advertising on the Co-Branded Site upon prior written approval of 2TheMart, which shall be at the discretion of 2TheMart.",
-        "explanation": "This gives 2TheMart complete discretion over i-Escrow's advertising on the Co-Branded Site. However, this could be interpreted as an overreach. If 2TheMart arbitrarily withholds approval for advertising that is beneficial to i-Escrow, it may violate the 'good faith' clause in Section 12.8. The contract should include provisions to guarantee advertising for i-Escrow so that 2TheMart does not arbitrarily not allow any advertising.",
-        "location": "Section 2.4",
-        "category": 2,
-        "location_match": false,
+        "section": "8.1 TERM. The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that neither party expresses a desire to renew the agreement in writing, the term of this Agreement shall expire automatically.",
+        "explanation": "There is duplicate language indicating that 'A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect.'",
+        "location": "8.1",
+        "category": 3,
+        "location_match": true,
         "text_match": false,
         "explanation_match": false
     },
     {
-        "section": "After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter.",
-        "explanation": "The calculation of advertising fees is based on '0.025% by the amount of the average Transaction.' This is unclear without knowing what the average transaction is. What amount of average transaction are they taking this from and is it agreed upon. This could be a low or high number based on what kind of transaction is agreed upon.",
-        "location": "Section 5.1",
-        "category": 1,
-        "location_match": false,
+        "section": "12.6 NOTICE. Any notices hereunder shall be given to the appropriate party at the address specified below or at such other address as the party shall specify in writing. Notice shall be deemed given: only upon personal delivery; if sent by fax, only if acknowledged by phone; or if sent by a reputable overnight courier with tracking capabilities, only three (3) days after the date of mailing: To i-Escrow: i-Escrow, Inc. 1730 South Amphlett Blvd., #215 San Mateo, CA 94402 Fax no. (650) 638-7890 Attention: President",
+        "explanation": "1.  Notice Requirements Contradiction: This section defines how notices are to be given and when they are deemed received. However, the requirements are contradictory: the text states that notice is only deemed given \"only three (3) days after the date of mailing\" if sent by overnight courier. This contradicts the earlier part of the sentence, creating ambiguity regarding the valid methods and timing for delivering legally binding notices.",
+        "location": "12.6",
+        "category": 3,
+        "location_match": true,
         "text_match": false,
-        "explanation_match": false
+        "explanation_match": true
     }
 ]

@@ -1,29 +1,29 @@
 [
     {
-        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"), by and between [ * * * ] (the \"Provider\"), and TELCOSTAR PTE, LTD., a company organized and existing under the laws of Singapore and Ability Computer & Software Industries Ltd, a company organized and existing under the laws of the State of Israel (each and both of them \"Recipient\").",
-        "explanation": "The text defines 'Recipient' as both TELCOSTAR PTE, LTD. and Ability Computer & Software Industries Ltd. However, it is unclear whether these entities act jointly or separately under the agreement, leading to potential confusion about obligations and rights, creating an in-text contradiction.",
-        "location": "Preamble",
-        "category": 5,
+        "section": "Provider shall maintain records relating to the provision of the Services under this Agreement.",
+        "explanation": "This imposes a general obligation on the Provider to maintain records. There is no further explanation what records are required or how long the records must be kept. This creates ambiguity as the the nature of the records required.",
+        "location": "Section 1.2(b)",
+        "category": 1,
         "location_match": false,
-        "text_match": false,
+        "text_match": true,
+        "explanation_match": true
+    },
+    {
+        "section": "Recipient shall own all rights, title, and interest in any invention, technique, process, device, discovery, improvement, or know-how made by Provider which results from the Services.",
+        "explanation": "This clause purports to assign all intellectual property rights in anything created by the Provider during the provision of services to the Recipient. The breadth of this clause is overly broad and may be unenforceable, as it doesn't specify any limitations regarding the connection between the invention and the services provided.",
+        "location": "Section 1.4(a)",
+        "category": 2,
+        "location_match": false,
+        "text_match": true,
         "explanation_match": false
     },
     {
-        "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "The phrase 'This Agreement be deemed effective as of the Effective Date, Agreement' is structurally flawed and does not make grammatical sense. It is unclear what the intention of the author was when writing this phrase.",
-        "location": "Section 3.1",
-        "category": 9,
+        "section": "As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount for providing the Services. In addition to such amount, Recipient shall reimburse Provider for out-of-pocket expenses.",
+        "explanation": "This section states that the Recipient will pay the Provider an amount for providing the services but it does not specify the amount that will be paid to the provider and the section does not mention any reference to any exhibit or other section that specifies payment amount.",
+        "location": "Section 2.2(a)",
+        "category": 7,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "The Parties hereby irrevocably submit any disputes under this Agreement to the exclusive jurisdiction of the courts located in Tel-Aviv, Israel, provided however, that Recipient shall be entitled to seek an injunction or other appropriate remedy against Provider in the country in which Provider has acted in breach of the terms hereof.",
-        "explanation": "The governing law is the State of Israel, but the agreement allows the Recipient to seek injunctive relief in any country where the Provider breaches the agreement. This is a legal contradiction because it is unclear which country's laws would apply to the injunction, given the contract specifies Israeli law.",
-        "location": "Section 7.3",
-        "category": 4,
-        "location_match": false,
-        "text_match": false,
+        "text_match": true,
         "explanation_match": false
     }
 ]

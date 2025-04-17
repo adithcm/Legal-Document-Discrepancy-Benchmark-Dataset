@@ -1,29 +1,29 @@
 [
     {
-        "section": "TERM OF CONTRACT The Term of this Agreement shall be for a period of [* ****] years and [*****] months commencing the 1st day of September 2004 and terminating the [*****] day of [*****].",
-        "explanation": "The specific termination date is redacted, creating ambiguity regarding the actual duration of the contract. Without knowing the exact end date, it's impossible to definitively determine the contract's end date, leading to uncertainty about the rights and obligations of both parties beyond September 1, 2004 plus the redacted period. This omission becomes an in-text contradiction because several sections reference the 'term of this agreement' without providing a clear endpoint.",
-        "location": "Section 1",
-        "category": 7,
-        "location_match": false,
+        "section": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON, (hereinafter referred to as \"CONSULTANT\") and ADAMS GOLF, LTD. (hereinafter referred to as \"the Company\").",
+        "explanation": "While not a direct contradiction, referring to Tom Watson as 'CONSULTANT' when the document is explicitly an 'ENDORSEMENT AGREEMENT' is misaligned. This sets a confusing tone, as the agreement focuses on endorsement rights, not consulting services. The document later defines consultant's endorsement, but never as a consultant, creating misalignment.",
+        "location": "Preamble",
+        "category": 5,
+        "location_match": true,
+        "text_match": true,
+        "explanation_match": false
+    },
+    {
+        "section": "A. CONSULTANT'S \"ENDORSEMENT\" means the right to use the CONSULTANT'S name, fame, nickname, autograph, voice, facsimile, signature, photograph, likeness, and image in connection with the marketing, advertising, promotion and sale of ADAMS GOLF'S PRODUCT. B.\"ITEM\" shall mean all golf clubs including, but not limited to, metal woods, drivers, fairway woods, irons, iron- woods, utility clubs, wedges, and putters, bags, and headwear.",
+        "explanation": "The terms 'Endorsement' and 'Item' are defined, but 'Product' which appears in both definitions is never defined. This is a misalignment as the contract never specifically states what is considered Adams Golf's 'Product' which could cause confusion when regarding the product of use and exclusivity.",
+        "location": "Section 2",
+        "category": 5,
+        "location_match": true,
         "text_match": false,
         "explanation_match": false
     },
     {
-        "section": "Notwithstanding any other paragraph of this Agreement, in the event that CONSULTANT dies or is unable to play tour golf at all, ADAMS GOLF may terminate this Agreement on thirty (30) days' written notice. Upon such termination, CONSULTANT and/or CONSULTANT'S estate shall be required to repay ADAMS GOLF for that period of the Agreement not performed by CONSULTANT. The repayment amount shall be calculated in the same way as repayment is calculated under paragraph 8A.",
-        "explanation": "This section describes termination upon death or inability to play and dictates repayment. Section 23 describes termination for cause and dictates repayment of a similar fashion to Section 8A. However, section 19C states \u201cIn the event of ADAMS GOLF'S insolvency or bankruptcy, it is expressly agreed to by the parties that CONSULTANT shall not be obligated to repay any money so long as CONSULTANT continues to fully perform his obligations under this Agreement.\u201d This is a contradiction on whether CONSULTANT should be required to repay ADAMS GOLF or not.",
-        "location": "Section 22",
+        "section": "During the term of this Agreement, CONSULTANT shall use best efforts to cooperate with the Company in giving advice, suggestions and recommendations concerning the acceptability and playability of current ADAMS GOLF lines, the development of new ADAMS GOLF lines, and information about significant golf ITEM and golf market trends, and meet as reasonably requested with ADAMS GOLF'S Design/Testing Teams.",
+        "explanation": "This change introduces an inconsistency with the overall nature of the agreement. While the agreement is an endorsement agreement, this section seems to be pointing towards consulting services. It also uses the term ITEM, even though the Consultant is to be referred to as Adams Golf's 'Product'.",
+        "location": "Section 9",
         "category": 3,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "This Agreement shall be governed and construed according to the laws of the State of Kansas.",
-        "explanation": "While choosing Kansas law isn't inherently problematic, many aspects of the agreement (endorsement, advertising, talent agreements) often involve considerations of federal law and the laws of the state where the endorser resides or the advertising is disseminated (likely California, given Watson's profile). Limiting it solely to Kansas law might create ambiguity if issues arise related to intellectual property, advertising standards, or right of publicity, potentially conflicting with federal statutes or the laws of other relevant jurisdictions. This can cause a structural flaw in legal terms used.",
-        "location": "Section 25",
-        "category": 10,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "location_match": true,
+        "text_match": true,
+        "explanation_match": true
     }
 ]

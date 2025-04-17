@@ -1,29 +1,29 @@
 [
     {
-        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"), by and between [ * * * ] (the \"Provider\"), and TELCOSTAR PTE, LTD., a company organized and existing under the laws of Singapore and Ability Computer & Software Industries Ltd, a company organized and existing under the laws of the State of Israel (each and both of them \"Recipient\").",
-        "explanation": "The agreement lists both TELCOSTAR PTE, LTD. and Ability Computer & Software Industries Ltd as \"Recipient\" but does not clearly define how responsibilities and rights are divided between them. This creates potential ambiguities in how the contract applies to each entity.",
-        "location": "Preamble",
-        "category": 1,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "The sentence 'This Agreement be deemed effective as of the Effective Date, Agreement...' contains a structural flaw. It's awkwardly worded and repeats 'Agreement,' making its intended meaning unclear. This makes the text harder to understand.",
-        "location": "Section 3.1",
-        "category": 9,
+        "section": "As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee. In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs. (b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within thirty (30) days after the date of receipt of an Invoice by Recipient from Provider.",
+        "explanation": "The original text includes a payment structure of 'Provider's actual cost of providing the Services plus a 10% service fee' as well as Out-of-Pocket costs. The additional clause in the text has an exclusion for actual cost of providing services, and creates an in-text contradiction. This introduces uncertainty regarding the final payment owed to Provider.",
+        "location": "2.2",
+        "category": 3,
         "location_match": false,
         "text_match": true,
         "explanation_match": false
     },
     {
-        "section": "The Parties hereby irrevocably submit any disputes under this Agreement to the exclusive jurisdiction of the courts located in Tel-Aviv, Israel, provided however, that Recipient shall be entitled to seek an injunction or other appropriate remedy against Provider in the country in which Provider has acted in breach of the terms hereof.",
-        "explanation": "This clause creates an inconsistency. It stipulates that disputes are under the exclusive jurisdiction of the courts in Tel-Aviv, Israel, but then allows the Recipient to seek injunctive relief against the Provider in 'the country in which Provider has acted in breach.' This raises jurisdictional issues as both sets of courts can have the ability to oversee legal matters.",
-        "location": "Section 7.3",
+        "section": "During the term of this Agreement and thereafter, the Parties hereto shall, and shall instruct their respective representatives to, maintain in confidence and not disclose the other Party's financial, technical, sales, marketing, development, personnel, and other information, records, or data, including, without limitation, customer lists, supplier lists, trade secrets, designs, product formulations, product specifications or any other proprietary or confidential information, however recorded or preserved, whether written or oral (any such information, \"Confidential Information\"). Each Party hereto shall use the same degree of care, but no less than reasonable care, to protect the other Party's Confidential Information as it uses to protect its own Confidential Information of like nature. Unless otherwise authorized in any other agreement between the Parties, any Party receiving any Confidential Information of the other Party (the \"Receiving Party\") may use Confidential Information only for the purposes of fulfilling its obligations under this Agreement (the \"Permitted Purpose\"). Any Receiving Party may disclose such Confidential Information only to its representatives who have a need to know such information for the Permitted Purpose and who have been advised of the terms of this Section 4.1 and the Receiving Party shall be liable for any breach of these confidentiality provisions by such Persons; provided, however, that any Receiving Party may disclose such Confidential Information to the extent such Confidential Information is required to be disclosed by law, in which case the Receiving Party shall promptly notify, to the extent possible, the disclosing party (the \"Disclosing Party\"), and take reasonable steps to assist in contesting such disclosure requirement or in protecting the Disclosing Party's rights prior to disclosure, and in which case the Receiving Party shall only disclose such Confidential Information that it is advised by its counsel in writing that it is legally bound to disclose.",
+        "explanation": "The clause states that the Receiving Party should 'take reasonable steps to assist in contesting such disclosure requirement or in protecting the Disclosing Party's rights prior to disclosure'. However, the phrase in the brackets suggests that the Receiving Party can disclose if 'it is advised by its counsel in writing that it is legally bound to disclose'. This is a contradiction because the initial statement makes it clear that the party should assist but the latter statement makes it clear that the Receiving party can ignore the initial statement.",
+        "location": "4.1",
         "category": 1,
         "location_match": false,
         "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Provider shall indemnify, defend, and hold harmless Recipient and its officers, directors, employees, agents, affiliates, successors, and permitted assigns (collectively, \"Indemnified Party\") against any and all losses, damages, liabilities, deficiencies, claims, actions, judgments, settlements, interest, awards, penalties, fines, costs, or expenses of whatever kind, including attorneys' fees, fees and the costs of enforcing any right to indemnification under this Agreement, and the cost of pursuing any insurance providers, incurred by Indemnified Party or awarded against Indemnified Party (collectively, \"Losses\"), relating to/arising out of or resulting from any claim of a third party arising out of or occurring in connection with Provider's gross negligence, willful misconduct, or breach of this Agreement.",
+        "explanation": "The change adds 'or the negligence of Recipient'. This significantly broadens the scope of indemnification, as it now requires Provider to indemnify Recipient even for Recipient's own negligence. This is a contradiction because it could potentially conflict with standard legal principles regarding liability for one's own actions.",
+        "location": "5.1",
+        "category": 3,
+        "location_match": false,
+        "text_match": true,
         "explanation_match": false
     }
 ]

@@ -1,29 +1,29 @@
 [
     {
-        "section": "Accuray wishes to appoint Distributor (as defined below) as a non-exclusive, worldwide distributor for the Products and Services to Customer in connection with Multiple LINAC or Multi-Modality Purchases (as defined below), subject to the terms and conditions of this Agreement, and Distributor wishes to accept such appointment.",
-        "explanation": "The agreement states the distributor is appointed as a non-exclusive, worldwide distributor. However, Section 4.4 states that Accuray may require the distributor to enter into a distribution agreement pursuant to Section 3.2 of the Strategic Alliance Agreement if Accuray does not have a direct presence or distributor in the customer's country. This creates a legal contradiction because the distributor's 'worldwide' distribution is contingent on Accuray's presence in a specific country.",
-        "location": "Recitals",
-        "category": 4,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "The following terms, as used herein, have the following meaning: ... 1.3. 'Distributor' means Siemens. For the purposes of clarity within this document, a Partner is classified as Siemens, its Affiliates, or any Third Party which has been granted distribution rights whose scope includes the Products and/or Services by Siemens.",
-        "explanation": "The definition of \"Distributor\" includes Siemens, its Affiliates, or any Third Party granted distribution rights by Siemens. This is an in-text contradiction because it uses multiple terms ('Distributor,' 'Partner,' 'Affiliates,' 'Third Party') interchangeably without clearly defining how these roles interrelate or differ. This creates ambiguity, especially concerning obligations and liabilities.",
-        "location": "Section 1.3",
+        "section": "1.3.  \"Distributor\" means Siemens. For the purposes of clarity within this document, a Partner is classified as Siemens, its Affiliates, or any Third Party which has been granted distribution rights whose scope includes the Products and/or Services by Siemens.",
+        "explanation": "The definition of \"Distributor\" as Siemens is clear. However, the introduction of \"Partner\" as Siemens, its Affiliates, or any Third Party introduces ambiguity. The document does not consistently use \"Partner\" and \"Distributor\" interchangeably, nor does it clearly delineate when \"Partner\" encompasses a broader scope than just Siemens. This misalignment creates confusion about the roles and responsibilities of different entities involved in the distribution process.",
+        "location": "1.3",
         "category": 5,
-        "location_match": true,
+        "location_match": false,
         "text_match": false,
         "explanation_match": true
     },
     {
-        "section": "4.1.2. Shipment. All shipments shall be made F.C.A. Port of Oakland, California, USA. Transfer of risk from Accuray to Distributor shall occur at such F.C.A. location as provided in F.C.A. terms and transfer of title shall occur at the same time. ... Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
-        "explanation": "The paragraph creates ambiguity regarding the responsibility for expedited shipping costs. It says Accuray bears the costs if the deadline is at least six months after submission, but it is not clearly stated what happens if the delivery deadline is not met due to Accuray's fault, despite the six-month window. This creates ambiguity about liability in such scenarios.",
-        "location": "Section 4.1.2",
-        "category": 1,
+        "section": "4.1. Fulfillment and Shipment. <*$p$*>4.1.1. Fulfillment of Executed Purchase Orders. Accuray is responsible for ensuring that the goods supplied are of good quality as further described below. Accuray will use commercially reasonable efforts to provide to Retailer or Customer, as applicable, in a timely manner those Products and Services required to fill confirmed Purchase Orders received from Distributor in accordance with the terms of this Agreement.<*$p$*>",
+        "explanation": "The text refers to both \"Retailer\" and \"Customer\", implying that the goods could either be provided to the Retailer or Customer, however, there is no clause to suggest who Retailer is. The omission of a proper defintion for \"Retailer\" can lead to confusion in the terms of who the goods can go to.",
+        "location": "4.1.1",
+        "category": 7,
         "location_match": false,
-        "text_match": false,
+        "text_match": true,
         "explanation_match": false
+    },
+    {
+        "section": "3.1. Independent Vendor. Distributor shall be and must at all times make it clear that it is an independent entity contracting with Accuray, and is not the employee, representative or agent of Accuray. Distributor does not have the ability or authority to enter into any legal agreements or obligations that would bind Accuray in any manner.",
+        "explanation": "In this section, it is structured as an independent vendor, not as an independent distributor. The text reads as vendor, rather than distributor.",
+        "location": "3.1",
+        "category": 9,
+        "location_match": false,
+        "text_match": true,
+        "explanation_match": true
     }
 ]
