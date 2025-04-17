@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "XACCTTechnologies,Inc.SUPPORTANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THE TERMS OF THE LICENSE AGREEMENT PERTAINING TO LIMITED WARRANTY,          DISCLAIMERS OF WARRANTY AND LIMITATION OF LIABILITY SHALL APPLY TO THE          MAJOR AND MINOR RELEASES OF PRODUCT DELIVERED ACCORDING TO THIS          AGREEMENT.",
+                "changed_text": "THE TERMS OF THE LICENSE AGREEMENT PERTAINING TO LIMITED WARRANTY SHALL APPLY IF THE LICENSEE ACCEPTS ADDITIONAL TERMS. DISCLAIMERS OF WARRANTY AND LIMITATION OF LIABILITY ARE SUBJECT TO FURTHER NEGOTIATION.",
+                "explanation": "This change introduces a contradiction regarding the applicability of the License Agreement's warranty and liability terms. The original text clearly states their applicability. The modified text introduces uncertainty by making the limited warranty conditional and suggesting that disclaimers and limitations are negotiable, contradicting the original agreement.",
+                "contradicted_law": "Contract Law - creates ambiguity regarding the enforceability of warranty disclaimers and liability limitations.",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All disputes arising under or relating to this Agreement shall be resolved          exclusively in the appropriate state court in Santa Clara County,          California or in the federal court in the Northern District of          California, and it is explicitly agreed that no other court shall have          such jurisdiction.",
+                "changed_text": "All disputes arising under or relating to this Agreement shall be resolved in a manner deemed appropriate by XACCT Technologies, Inc..",
+                "explanation": "The original clause mandates that disputes be resolved in California courts. The modified clause gives XACCT sole discretion over the dispute resolution method, potentially overriding the original jurisdiction clause and introducing uncertainty about how disputes will be handled. This contradicts the specific jurisdiction agreement.",
+                "contradicted_law": "Contract Law - Jurisdiction and Venue clauses.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "XACCT'S SOLE LIABILITY AND LICENSEE'S EXCLUSIVE REMEDY          FOR DAMAGES WITH RESPECT TO THE SUPPORT SERVICES UNDER ANY CONTRACT,          TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHER THEORY, SHALL BE          LIMITED TO THE AMOUNT PAID BY LICENSEE FOR THE SUPPORT SERVICES FOR THE          PRIOR 12 MONTHS. XACCT'S SOLE LIABILITY AND LICENSEE'S EXCLUSIVE REMEDY          FOR DAMAGES WITH RESPECT TO PRODUCT MAINTENANCE SHALL BE AS SET FORTH          IN THE LICENSE AGREEMENT.",
+                "changed_text": "XACCT'S LIABILITY AND LICENSEE'S REMEDY ARE TO BE DETERMINED BASED ON A 'GOOD FAITH EFFORT'.",
+                "explanation": "The change replaces a clear, specific limitation of liability (amount paid for support services in the prior 12 months) with a vague concept of 'good faith effort'. This introduces ambiguity and contradicts the original clause's defined liability limit, making it unclear what the actual remedy is and weakening the enforceability of the liability cap.",
+                "contradicted_law": "Contract Law - Limitation of Liability clauses.",
+                "location": "Section 7.1"
+            }
+        ]
+    }
+]

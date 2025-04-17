@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VnueInc_20150914_8-K_EX-10.1_9259571_EX-10.1_Promotion Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Promotion Agreement (\"Agreement\") is entered into effective September 10, 2015 between BookingEntertainment.com (\"Promoter\") of 275 Madison Avenue, 6t h Floor, New York, NY 10016 and VNUE, Inc., (\"VNUE\"), a Nevada corporation quoted on the OTCMarkets, with offices at 104 West 29th Street 11th Floor, New York, NY 10001.",
+                "changed_text": "This Promotion Agreement (\"Agreement\") is entered into effective September 10, 2015 between BookingEntertainment.com (\"Marketer\") of 275 Madison Avenue, 6t h Floor, New York, NY 10016 and VNUE, Inc., (\"VNUE\"), a Nevada corporation quoted on the OTCMarkets, with offices at 104 West 29th Street 11th Floor, New York, NY 10001.",
+                "explanation": "Replaces 'Promoter' with 'Marketer' at the beginning of the contract. This creates confusion later as the original 'Promoter' term is still used in subsequent sections, making it unclear if 'Marketer' and 'Promoter' refer to the same entity and if all obligations assigned to 'Promoter' apply to 'Marketer'.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Section 1. Promotion Services. Promoter to provide the following services to VNUE in accordance with the terms and conditions set forth in this agreement:  A. VNUE hereby engages the Promoter as an Independent Contractor to secure contracts for VNUE with Thirty (30) music venues.",
+                "changed_text": "Section 1. Promotion Services. Representative to provide the following services to VNUE in accordance with the terms and conditions set forth in this agreement:  A. VNUE hereby engages the Sales Representative as an Independent Contractor to secure contracts for VNUE with Thirty (30) music venues.",
+                "explanation": "Replaces 'Promoter' with 'Representative' and 'Sales Representative' in Section 1. This creates contradiction because the term 'Promoter' is still used in other sections, making it uncertain whether 'Representative' and 'Promoter' are the same, and if obligations specified for the 'Promoter' applies to 'Representative'.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "VNUE agrees to indemnify and hold Promoter harmless for any and all liability or loss arising in any way out of the actions, during the term of this Agreement, of VNUE officers, directors, employees, agents or third parties not under the control of Promoter.",
+                "changed_text": "VNUE agrees to indemnify and hold the Beneficiary harmless for any and all liability or loss arising in any way out of the actions, during the term of this Agreement, of VNUE officers, directors, employees, agents or third parties not under the control of the Beneficiary.",
+                "explanation": "Replaces 'Promoter' with 'Beneficiary' in Section 7, which deals with liability. Now, it's unclear if the indemnity applies to the 'Promoter' initially defined or to this undefined 'Beneficiary'. This adds another layer of confusion around who bears the risk and liability.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "REGANHOLDINGCORP_03_31_2008-EX-10-LICENSEANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "TAG shall make payment within twenty (20) days after receipt of LMG's invoice. Any amount not paid when due will thereafter bear interest at the rate of one percent (1%) per month. TAG may contest, in good faith, any portion of an invoice and withhold payment of such contested amount, provided that TAG pays the portion of any invoice that it does not contest and attempts to try to resolve the dispute. Once the matter is resolved, TAG shall pay the agreed-upon amount within five (5) days thereafter.",
+                "changed_text": "TAG shall make payment within ninety (90) days after receipt of LMG's invoice. Any amount not paid when due will thereafter bear interest at the rate of five percent (5%) per month. TAG may contest, in bad faith, any portion of an invoice and withhold payment of such contested amount, provided that TAG pays half the portion of any invoice that it does not contest and attempts to try to resolve the dispute. Once the matter is resolved, TAG shall pay the agreed-upon amount within thirty (30) days thereafter.",
+                "explanation": "The changes contradict typical prompt payment laws and usury laws. Most jurisdictions do not allow for extremely long payment periods (90 days) without reasonable justification and would consider 5% monthly interest as usurious. Also, the requirement to pay \"half the portion\" even when contesting an invoice and the 'bad faith' clause are likely unenforceable, as parties have a right to contest charges in good faith.",
+                "contradicted_law": "Prompt Payment Laws, Usury Laws, Good Faith and Fair Dealing",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All such policies of insurance of LMG shall provide that the insurer will give at least thirty (30) days prior written notice of cancellation to TAG.",
+                "changed_text": "All such policies of insurance of LMG shall provide that the insurer will give at least ten (10) days prior written notice of cancellation to TAG.",
+                "explanation": "Reducing the notice period for insurance cancellation from 30 days to 10 days violates standard insurance regulations in many states, which often require a minimum of 30 days' notice to allow the insured party adequate time to secure replacement coverage, which could be viewed as insufficient notice under applicable state law.",
+                "contradicted_law": "State Insurance Regulations regarding Cancellation Notice Periods",
+                "location": "Section 5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that either party materially defaults in the performance of its duties or obligations set forth in this Agreement, and such default is not cured within thirty (30) days after written notice is given to the defaulting party specifying the default, then the party not in default may, by giving written notice thereof to the defaulting party, terminate the Agreement as of a date specified in such notice of termination.",
+                "changed_text": "In the event that either party materially defaults in the performance of its duties or obligations set forth in this Agreement, and such default is not cured within ten (10) days after written notice is given to the defaulting party specifying the default, then the party not in default may, by giving written notice thereof to the defaulting party, terminate the Agreement as of a date specified in such notice of termination.",
+                "explanation": "Reducing the cure period for a material breach from 30 days to 10 days may be deemed unreasonable, especially in complex contractual relationships. Courts often require a reasonable opportunity to cure, and 10 days may be considered insufficient, particularly for complex breaches, potentially leading to wrongful termination claims if it doesn't meet the standard for reasonable time.",
+                "contradicted_law": "Common Law Principles of Contract Cure Periods and Reasonableness",
+                "location": "Section 6.2"
+            }
+        ]
+    }
+]

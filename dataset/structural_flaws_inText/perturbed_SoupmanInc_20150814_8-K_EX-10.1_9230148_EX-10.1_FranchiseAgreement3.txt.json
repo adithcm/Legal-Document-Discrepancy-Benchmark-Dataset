@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1. California Business and Professions Code Sections 20000 through 20043 provide rights to you concerning termination or non-renewal of a franchise. If the Master Franchise Agreement contains provisions that are inconsistent with the law, the law will control.",
+                "changed_text": "1. California Business and Professions Code Sections 20000 through 20043 provide rights to you concerning termination or non-renewal of a franchise. Regardless of the Master Franchise Agreement's provisions, the terms outlined within this agreement will govern all franchise operations and agreements.",
+                "explanation": "This change introduces a contradiction by stating that the Master Franchise Agreement's terms will always govern, regardless of any inconsistencies with California law. The original clause acknowledges that California law takes precedence in case of conflict, while the modified clause asserts the opposite, creating uncertainty and potential legal disputes.",
+                "location": "1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "7. The Master Franchise Agreement requires application of the laws of New York. This provision may not be enforceable under California law.",
+                "changed_text": "7. The Master Franchise Agreement requires application of the laws of New York. This provision is fully enforceable and binding on all franchisees, regardless of their location or any conflicting state laws.",
+                "explanation": "The original text acknowledges that the New York law provision may not be enforceable under California law. The changed text directly contradicts this by stating that it *is* fully enforceable and binding, regardless of any conflicting state laws. This creates uncertainty about which laws actually govern the franchise agreement within California.",
+                "location": "7"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "8. You must sign a general release if you renew or transfer your franchise. California Corporation Code 31512 voids a waiver of your rights under the Franchise Investment Law (California Corporations Code 31000 through 31516). Business and Professions Code 20010 voids a waiver of your rights under the Franchise Relations Act (Business and Professions Code 20000 through 20043).",
+                "changed_text": "8. You must sign a general release if you renew or transfer your franchise. While California Corporation Code 31512 and Business and Professions Code 20010 may exist, by signing this agreement, you voluntarily agree to waive any rights afforded to you under the Franchise Investment Law (California Corporations Code 31000 through 31516) and the Franchise Relations Act (Business and Professions Code 20000 through 20043).",
+                "explanation": "This alteration acknowledges the existence of California laws that void waivers of rights but then claims that by signing the agreement, the franchisee voluntarily agrees to waive those rights anyway. This creates a direct contradiction, since California law would invalidate the waiver, but the modified text attempts to enforce it, leading to ambiguity about whether the franchisee's rights are truly protected or not.",
+                "location": "8"
+            }
+        ]
+    }
+]

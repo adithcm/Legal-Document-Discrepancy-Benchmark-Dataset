@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ICORECONNECTINC_10_13_2010-EX-7.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS, iMedicor is a secure, HIPAA compliant online portal that creates a virtual healthcare community amongst physicians and other medical professionals for the purpose of real-time Health Information Exchange. Physicians are provided with a secure HIPPA compliant transport account(s), similar to e-mail with attachments, that enable them to share patient specific personal health information with other participating physicians.",
+                "changed_text": "WHEREAS, iMedicor is a secure, online portal that creates a virtual healthcare community amongst medical professionals for the purpose of general Health Information exchange. Physicians are provided with a transport account(s), that enable them to share patient information with other participating physicians.",
+                "explanation": "By removing 'HIPAA compliant' and 'personal' relating to health information, the modified text contradicts HIPAA's strict requirements for handling protected health information (PHI). This creates uncertainty as to whether the platform adheres to federal health information privacy laws.",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "A HIPAA compliant transport system for digital / electronic records and images",
+                "changed_text": "A transport system for records and images",
+                "explanation": "Removing \"HIPAA compliant\" from the description of the transport system creates ambiguity about the level of security and privacy protocols in place. This conflicts with HIPAA regulations, which mandate specific safeguards for electronic protected health information (ePHI).",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "All revenue sharing will be reconciled monthly and funds distributed by the 20th of each month by wire transfer for all net collected revenues for the previous month (net of returns and refunds, if any).",
+                "changed_text": "Revenue sharing will be reconciled when possible and funds distributed at a future date by a transfer method. All net collected revenues for the previous month may be returned.",
+                "explanation": "The change removes the set date on revenue distribution and makes it up to 'when possible' which can lead to a lack of transparency on when the funds will actually be sent to both parties. In addition, the ambiguity around 'net collected revenues' allows for manipulation of revenue records.",
+                "contradicted_law": "General Contract Law - Breach of Contract, lack of good faith and fair dealing",
+                "location": "Section 1"
+            }
+        ]
+    }
+]

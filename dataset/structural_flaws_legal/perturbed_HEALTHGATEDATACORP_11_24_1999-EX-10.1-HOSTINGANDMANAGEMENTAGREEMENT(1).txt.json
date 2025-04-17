@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTINGANDMANAGEMENTAGREEMENT(1).txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The parties agree to ensure that they will at all times comply with the       provisions and obligations imposed by the Data Protection Act 1984, the EU       Data Protection Directive 95/46 and any implementing legislation in the       United Kingdom. Both parties agree to indemnify each other in respect of       any unauthorised disclosure of data by them.",
+                "changed_text": "The parties agree to ensure that they will at all times comply with the       provisions and obligations imposed by the Data Protection Act 1984, the EU       Data Protection Directive 95/46 and any implementing legislation in the       United Kingdom. However, compliance will be subject to internal reviews, but compliance cannot be guaranteed. Both parties agree to indemnify each other in respect of       any unauthorised disclosure of data by them.",
+                "explanation": "A clause mandating compliance with the Data Protection Act and EU Data Protection Directive is moved to an irrelevant section, 'Content Management'. The additional clause 'However, compliance will be subject to internal reviews, but compliance cannot be guaranteed' creates ambiguity and undermines the initial compliance statement, making the obligation less clear and enforceable.",
+                "contradicted_law": "Data Protection Act 1984, EU Data Protection Directive 95/46",
+                "location": "31"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The parties hereby agree that this Agreement shall be construed in             accordance with English law. Any and all disputes between the             parties arising under or in connection with this Agreement which             cannot be resolved amicably by the parties, shall be resolved in the             courts located in London, England, except with respect to any action             brought by the Publishers against HealthGate, in which case             jurisdiction and venue shall be in Boston Massachusetts.",
+                "changed_text": "The parties hereby agree that this Agreement shall be construed in             accordance with English law. Any and all disputes between the             parties arising under or in connection with this Agreement which             cannot be resolved amicably by the parties, shall be resolved in the             courts located in London, England, except with respect to any action             brought by the Publishers against HealthGate, in which case jurisdiction and venue shall be determined by mutual agreement.",
+                "explanation": "The original clause stipulates English law and specifies the jurisdiction for disputes, but in the case of an action brought by the Publishers against HealthGate, the place of jurisdiction and venue 'shall be determined by mutual agreement'.  By removing the jurisdiction specification for those actions, the clause contradicts itself.",
+                "contradicted_law": "English Law - contract law regarding jurisdiction",
+                "location": "34.8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "HealthGate shall replace and upgrade the Software to satisfy the       requirements of the Specification at no extra cost to the Publishers.",
+                "changed_text": "HealthGate shall replace and upgrade the Software to satisfy the       requirements of the Specification, although any extra charges involved shall be covered by all parties involved.",
+                "explanation": "This change contradicts the original clause that specified upgrades would be provided 'at no extra cost'. By adding that 'extra charges involved shall be covered by all parties involved' introduces financial ambiguity.",
+                "contradicted_law": "Contract Law - breach of contract",
+                "location": "15"
+            }
+        ]
+    }
+]

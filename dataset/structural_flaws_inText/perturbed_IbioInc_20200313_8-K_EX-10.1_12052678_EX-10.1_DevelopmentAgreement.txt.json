@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "IbioInc_20200313_8-K_EX-10.1_12052678_EX-10.1_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.2 All rights to inventions, patentable or non-patentable, made solely by employees of iBio during the term of this Agreement shall belong solely to iBio. All rights to inventions, patentable or non-patentable, made solely by employees of CC-Pharming during the term of this Agreement shall belong solely to CC-Pharming.",
+                "changed_text": "4.2 All rights to inventions, patentable or non-patentable, made solely by employees of iBio during the term of this Agreement shall belong solely to CC-Pharming. All rights to inventions, patentable or non-patentable, made solely by employees of CC-Pharming during the term of this Agreement shall belong solely to iBio.",
+                "explanation": "This change creates a direct contradiction regarding intellectual property ownership. The original text clearly states that iBio owns inventions made by its employees, and CC-Pharming owns inventions made by its employees. The modified text swaps the ownership, making it unclear which party owns the inventions made by which party's employees, causing uncertainty and potential disputes.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "7.3 Each of the parties agrees that for five (5) years from the date of disclosure, the receiving Party agrees to limit disclosure of the disclosing Party's Confidential Information to those of the receiving party's employees and contractors, and employees and contractors of its Subsidiaries, who have a need to know it, and the receiving Party agrees to use the same care and discretion to avoid disclosure, publication or dissemination outside of those employees and contractors as the receiving Party does with similar information of its own which it does not desire to publish, disclose or disseminate.",
+                "changed_text": "7.3 Each of the parties agrees that for five (5) years from the date of disclosure, the receiving Party agrees to limit disclosure of the disclosing Party's Confidential Information to those of the receiving party's employees and contractors, and employees and contractors of its Subsidiaries, who have a need to know it, and the receiving Party agrees to only use 'best effort' to avoid disclosure, publication or dissemination outside of those employees and contractors.",
+                "explanation": "Here, we are introducing a contradiction in the duty of care required for Confidential Information. Initially, the receiving party was expected to handle the Confidential Information with the same care as it would its own highly sensitive information. With the change, the receiving party is only required to apply 'best efforts'. The uncertainty introduced pertains to the scope and adequacy of measures to be taken to protect Confidential Information, with conflicting terms and potentially weaker protections than initially agreed upon.",
+                "location": "Section 7.3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "9.8 Assignment. Neither Party may assign its rights or delegate any of its duties under this Agreement without the prior written consent of the other Party. Any unauthorized assignment of this Agreement is void.",
+                "changed_text": "9.8 Assignment. Either Party may assign its rights or delegate any of its duties under this Agreement with notification to the other Party. Any unauthorized assignment of this Agreement is still valid.",
+                "explanation": "The original text strictly prohibits assignment without prior written consent, rendering any unauthorized assignment void. The modified text allows assignment simply with notification, contradicting the requirement for consent. Furthermore, it states that unauthorized assignments are valid, directly contradicting the original text and creating significant uncertainty regarding the transferability of rights and obligations under the agreement.",
+                "location": "Section 9.8"
+            }
+        ]
+    }
+]

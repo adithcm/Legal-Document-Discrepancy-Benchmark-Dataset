@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VERICELCORP_08_06_2019-EX-10.10-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11.9 Governing Law. This Agreement, and all claims arising under or in connection therewith, shall be governed by and interpreted in accordance with the substantive laws of the State of New York, without regard to conflict of law principles thereof.",
+                "changed_text": "11.7 Descriptive Headings. The descriptive headings of this Agreement are for convenience only and shall be of no force or effect in construing or interpreting any of the provisions of this Agreement.\n\n11.9 Governing Law. This Agreement, and all claims arising under or in connection therewith, shall be governed by and interpreted in accordance with the substantive laws of the State of Delaware, without regard to conflict of law principles thereof.",
+                "explanation": "Changing governing law to Delaware from New York within an irrelevant section (Descriptive Headings) affects enforceability by misdirecting legal interpretation. New York law typically governs contracts for companies with significant operations or headquarters there. Switching it to Delaware, where many companies are incorporated but may not have substantial operations, could create confusion about which state's contract law applies, thus weakening enforceability.",
+                "contradicted_law": "Contract Law - Choice of Law Principles",
+                "location": "Section 11.7 and 11.9"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "7.6 LIMITATION OF LIABILITY. NEITHER PARTY SHALL BE LIABLE FOR ANY SPECIAL, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY KIND (INCLUDING LOST PROFITS) REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, NEGLIGENCE, BREACH OF STATUTORY DUTY OR OTHERWISE, SUFFERED BY THE OTHER PARTY, EVEN IF THAT PARTY HAS BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH DAMAGES IN ADVANCE. [***].",
+                "changed_text": "7.6 LIMITATION OF LIABILITY. Neither Party shall be liable for any special, incidental, exemplary or consequential damages of any kind (including lost profits) regardless of the form of action, whether in contract, tort, negligence, breach of statutory duty or otherwise, suffered by the other party, even if that party has been informed of the possibility of any such damages in advance; however, both Parties are responsible for gross negligence or wilful misconduct. [***].",
+                "explanation": "This pertubation adds contradictory language. While initially disclaiming liability for incidental damages, it then states both parties *are* responsible for gross negligence or willful misconduct. Most jurisdictions hold parties accountable for gross negligence, rendering the initial limitation of liability for such actions potentially unenforceable. It adds ambiguity making enforcement more complicated.",
+                "contradicted_law": "Contract Law - Limitation of Liability Clauses",
+                "location": "Section 7.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.3 Termination for Breach. Subject to the provisions of Article 10 below, either Party may terminate this Agreement in its entirety if the other Party materially breaches a material provision and does not cure such breach, or does not take reasonable steps required under the circumstances to cure such breach going forward, within [***] after receiving notice of the breach.",
+                "changed_text": "8.3 Termination for Breach. Subject to the provisions of Article 10 below, either Party may terminate this Agreement in its entirety if the other Party materially breaches a material provision; however, that provision is optional and does not affect the entirety of the agreement, or does not take reasonable steps required under the circumstances to cure such breach going forward, within [***] after receiving notice of the breach.",
+                "explanation": "Introducing language that undermines the impact of a material breach. By adding that a breaching provision is 'optional', this weakens the right to termination. If breaches of 'optional' provisions are not actionable, enforceability declines.",
+                "contradicted_law": "Contract Law - Termination Clauses",
+                "location": "Section 8.3"
+            }
+        ]
+    }
+]

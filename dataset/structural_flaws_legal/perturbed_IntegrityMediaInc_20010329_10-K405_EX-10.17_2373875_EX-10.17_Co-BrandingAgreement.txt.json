@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The venue for any controversy or claim arising out of or relating to this Agreement or breach thereof, shall be the appropriate state and federal courts located in Nashville, Tennessee. Accordingly, each party hereto consents and submits to the jurisdiction of such courts. The prevailing party in any such dispute arising hereunder will be entitled to recover from the other party its reasonable attorneys' fees in connection therewith in addition to the costs thereof.",
+                "changed_text": "The venue for any controversy or claim arising out of or relating to this Agreement or breach thereof, shall be determined through private mediation agreed upon by both parties. Each party consents to participate in mediation. However, the prevailing party in any such dispute arising hereunder will be entitled to recover from the other party its reasonable attorneys' fees in connection therewith in addition to the costs thereof. If mediation fails, the parties can then decide on a venue.",
+                "explanation": "By initially stating that disputes will be resolved through private mediation, then later indicating that the prevailing party is entitled to attorney's fees. The lack of a clearly defined legal process for resolving the dispute creates contradiction and uncertainty about how disputes will be settled.",
+                "contradicted_law": "Contract Law - Dispute Resolution Clause Requirements",
+                "location": "13. Miscellaneous b."
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Integrity will pay and be responsible for all royalties due to owners of the recorded masters, which such royalties will be inclusive of all performer, artist, producer and other fees.",
+                "changed_text": "Integrity will pay some of the royalties due to owners of the recorded masters, but which royalties might be inclusive of all performer, artist, producer and other fees.",
+                "explanation": "Changing 'all' to 'some' and 'will' to 'might' creates ambiguity regarding Integrity's financial responsibilities. This contradicts the original clause, which states a clear and defined requirement for royalty payments and creates room for interpretation on what fees are covered.",
+                "contradicted_law": "Contract Law - Financial Obligations Clause",
+                "location": "4. Royalties payable by Integrity a."
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Each party hereto agrees to indemnify the other party and save and hold the other harmless from any and all claims, causes of action, damages, liabilities, costs, losses, and expenses (including legal costs and attorneys' fees) arising out of or connected with any claim, demand or action which is inconsistent with any of the warranties, representations, covenants or agreements which the indemnifying party has made in this Agreement.",
+                "changed_text": "Each party hereto agrees to consider indemnifying the other party and potentially save and hold the other harmless from only some claims, causes of action, damages, liabilities, costs, losses, and expenses (excluding legal costs and attorneys' fees) arising out of or connected with certain claims, demands or actions which are arguably inconsistent with some of the warranties, representations, covenants or agreements which the indemnifying party has made in this Agreement.",
+                "explanation": "The modified text significantly weakens the indemnification clause. Replacing 'agrees to indemnify' with 'agrees to consider indemnifying', replacing 'all' with 'some', and inserting qualifiers like 'potentially', 'only some', 'certain', and 'arguably' drastically reduces the scope of the indemnification, making it difficult to enforce. The exclusion of legal costs and attorneys' fees further reduces the value of the indemnification.",
+                "contradicted_law": "Contract Law - Indemnification Clause Requirements",
+                "location": "10. Indemnification"
+            }
+        ]
+    }
+]

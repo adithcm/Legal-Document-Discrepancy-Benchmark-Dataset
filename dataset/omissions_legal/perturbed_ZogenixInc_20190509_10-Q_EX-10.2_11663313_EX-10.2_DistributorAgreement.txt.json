@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ZogenixInc_20190509_10-Q_EX-10.2_11663313_EX-10.2_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Party, at its own expense, shall maintain product liability and other appropriate insurance (or self- insure) in an amount consistent with industry standards during the Term. Each Party shall provide a certificate of insurance (or evidence of self-insurance) evidencing such coverage to the other Party upon written request.",
+                "changed_text": "Each Party, at its own expense, shall maintain product liability insurance (or self- insure) during the Term. Evidence of insurance may be requested by either party.",
+                "explanation": "The original text contains a clear obligation to maintain 'product liability and other appropriate insurance' 'in an amount consistent with industry standards', and provide 'a certificate of insurance' upon request. By removing 'other appropriate insurance' and 'in an amount consistent with industry standards' creates a loophole. By removing 'certificate of insurance' ensures a lack of consistent, verifiable documentation, making it more difficult to confirm compliance. This creates a legal contradiction with general insurance law, which requires a certain level of insurance coverage.",
+                "contradicted_law": "General insurance law.",
+                "location": "11.4"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event that any payment due under this Agreement or the Supply Agreement is not made when due, the payment shall accrue interest from the date due at a rate per annum equal to [***] above the U.S. Prime Rate (as set forth in The Wall Street Journal, Eastern U.S. Edition) for the date on which payment was due, calculated daily on the basis of a 365-day year, or similar reputable data source; provided that in no event shall such rate exceed the maximum legal annual interest rate. The payment of such interest shall not limit a Party from exercising any other rights it may have as a consequence of the lateness of any payment.",
+                "changed_text": "In the event that any payment due under this Agreement or the Supply Agreement is not made when due, the payment may accrue interest from the date due. The payment of such interest shall not limit a Party from exercising any other rights it may have as a consequence of the lateness of any payment.",
+                "explanation": "Removing the specific interest rate calculation, as well as the provision that the rate cannot exceed the maximum legal annual interest rate, introduces ambiguity and potential non-compliance with usury laws. Without a defined interest rate or cap, the interest charged could potentially violate usury laws, which protect against excessive interest rates.",
+                "contradicted_law": "Usury laws.",
+                "location": "7.6"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Distributor shall keep, and require its Affiliate and Sub-distributors to keep, complete, fair and true books of accounts and records for the purpose of (a) determining the amounts payable to Zogenix pursuant to this Agreement and the Supply Agreement and (b) ensuring that Distributor and its Affiliates and Sub-distributors do not otherwise cause any Zogenix Indemnitees to be in violation of the FCPA or other Applicable Laws. Such books and records shall be kept for such period of time required by Applicable Laws, but no less than three (3) years following the end of the Fiscal Year to which they pertain. Such records shall be subject to inspection in accordance with Section 7.5.",
+                "changed_text": "Distributor shall keep books of accounts and records for the purpose of determining the amounts payable to Zogenix pursuant to this Agreement and the Supply Agreement. Such books and records shall be kept for three (3) years following the end of the Fiscal Year to which they pertain. Such records shall be subject to inspection in accordance with Section 7.5.",
+                "explanation": "Removing the requirement to ensure that neither Distributor or its Affiliates and Sub-distributors cause any Zogenix Indemnitees to be in violation of the FCPA, weakens Zogenix's protection against potential violations of this law. The complete books are also weakened by removing 'fair and true'. Also removing compliance with applicable laws for record keeping, creates contradiction with the requirement to keep the records for this long.",
+                "contradicted_law": "Foreign Corrupt Practices Act (FCPA).",
+                "location": "7.4"
+            }
+        ]
+    }
+]

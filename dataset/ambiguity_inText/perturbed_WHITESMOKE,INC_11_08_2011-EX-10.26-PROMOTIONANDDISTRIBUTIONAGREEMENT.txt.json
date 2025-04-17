@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6.1 In this Agreement, \"Confidential Information\" means information disclosed by (or on behalf of) one party to the other party under this  Agreement that is marked as confidential or, from its nature, content or the circumstances in which it is disclosed, might reasonably be  supposed to be confidential, including the terms and conditions (including the Exhibits) of this Agreement. It does not include  information that the recipient already knew, that becomes public through no fault of the recipient, that was independently developed by  the recipient or that was lawfully given to the recipient by a third party.",
+                "changed_text": "6.1 In this Agreement, \"Confidential Information\" means information disclosed by (or on behalf of) one party to the other party under this  Agreement that is marked as confidential or, from its nature, content or the circumstances in which it is disclosed, might reasonably be  supposed to be confidential, including the terms and conditions (including the Exhibits) of this Agreement. It includes information that the recipient already knew, that becomes public through no fault of the recipient, that was independently developed by  the recipient or that was lawfully given to the recipient by a third party.",
+                "explanation": "Section 6.1 originally excludes specific types of information from the definition of Confidential Information. By changing 'It does not include' to 'It includes', these types of information are now defined as confidential, directly contradicting the original intention of the clause. This creates uncertainty about what information is protected, potentially leading to disputes over disclosure obligations.",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.2 Termination for breach. A party may suspend performance and/or terminate this Agreement, with immediate effect, if the other party:\n\n  (a) is in material breach of this Agreement where the breach is incapable of remedy; or\n\n  (b) is in material breach of this Agreement where the breach is capable of remedy and fails to remedy that breach within thirty (30)  days after receiving written notice of such breach.",
+                "changed_text": "5.2 Termination for breach. A party may suspend performance and/or terminate this Agreement, with immediate effect, if the other party:\n\n  (a) is in material breach of this Agreement where the breach is incapable of remedy; or\n\n  (b) is in material breach of this Agreement where the breach is capable of remedy and fails to remedy that breach within ten (10) days after receiving written notice of such breach.",
+                "explanation": "The original Section 5.2(b) states a 30-day period for remedy of a material breach. By modifying this period to 'ten (10) days', this creates a contradiction because another clause of the contract may rely on a standard 30-day cure period. This inconsistency affects the termination rights and creates dispute around the time frame for remedying breaches, which is a critical aspect of contract enforcement.",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.12 Entire Agreement. Subject to Clause 9.1, this Agreement sets out all terms agreed between the parties in relation to its subject matter and  supersedes all previous agreements between the parties relating to the same. In entering into this Agreement neither party has relied on  any statement, representation or warranty not expressly set out in this Agreement.",
+                "changed_text": "11.12 Entire Agreement. Subject to Clause 9.1, this Agreement sets out all terms agreed between the parties in relation to its subject matter and  does not supersede all previous agreements between the parties relating to the same. In entering into this Agreement neither party has relied on  any statement, representation or warranty not expressly set out in this Agreement.",
+                "explanation": "In original contract, this states that the agreement supersedes any others made before it, but the modified version states that it doesn't. This introduces ambiguity to whether the parties are bound by their new, or old, agreement.",
+                "location": "Section 11.12"
+            }
+        ]
+    }
+]

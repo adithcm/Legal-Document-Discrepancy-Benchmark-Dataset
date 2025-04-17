@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the date of invoice.",
+                "changed_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (60) days of the date of invoice.",
+                "explanation": "The modification changes the payment timeframe from thirty (45) days to thirty (60) days.  The original phrasing implies a grace period, the modified version extends it potentially creating conflicts regarding late payment penalties and breach of contract definitions depending on other sections of the document.",
+                "location": "Clause 5.3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10.3 During the Term, the Supplier shall maintain product liability insurance with a reputable insurer of no less than AU$10 million for any one occurrence for any and all liability (however arising) for a claim that the Products are faulty or defective. The Supplier shall provide a copy of the insurance policy to the Distributor on request.",
+                "changed_text": "10.3 During the Term, the Supplier shall maintain product liability insurance with a reputable insurer of no less than AU$10 million for any one occurrence for any and all liability (however arising) for a claim that the Products are faulty or defective. The Supplier shall provide a copy of the insurance policy to the Distributor only if legally required.",
+                "explanation": "The change modifies when the Supplier is required to provide the distributor with the insurance policy.  The original text gives the Distributor the right to see the policy upon request. The changed version limits this right and makes it conditional to legal requirements, which introduces conflict and makes it hard to check insurance policy when needed.",
+                "location": "Clause 10.3"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+                "changed_text": "11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least six (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+                "explanation": "Here, the notice period needed to terminate the agreement after the initial term is changed from twelve months to six (12) months (ambiguous). This creates conflict and uncertainty about the required period for termination. The 'six' introduces a lower number that is contradictory to the '12' enclosed by parentheses, as either party could argue that the intended notice period was actually six months, not twelve.",
+                "location": "Clause 11.1"
+            }
+        ]
+    }
+]

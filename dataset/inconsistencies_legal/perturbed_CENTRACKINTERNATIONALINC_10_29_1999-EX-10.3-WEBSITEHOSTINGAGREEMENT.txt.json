@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "changed_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 25th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees after 2 days will result in the immediate interruption or discontinuation of services for the Hosted Site.",
+                "explanation": "Florida Statute 83.060 states that a landlord (i-on, in this case providing a service) must provide a 3-day notice before interrupting services. Shortening the grace period to 2 days before interruption contradicts this statute.",
+                "contradicted_law": "Florida Statute 83.060",
+                "location": "Responsibilities of the Customer"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the 4 Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
+                "changed_text": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the 4 Agreement, which notice must be given not less than five (5) days before the end of the respective initial or renewal term.",
+                "explanation": "Reducing the non-renewal notice period to five (5) days may be deemed unconscionable in Florida, particularly if the customer is a small business with limited legal resources. While there isn't a specific statute mandating a specific notice period in this type of service agreement, courts often consider reasonableness, and five days is potentially too short, especially considering the complexities involved in transitioning web hosting services.",
+                "contradicted_law": "Florida contract law principles of reasonableness and conscionability.",
+                "location": "Term and Termination"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+                "changed_text": "Either party may terminate this Agreement without cause at any time effective upon ten (10) days' written notice.",
+                "explanation": "While Florida law permits termination clauses, reducing the notice period for termination without cause to ten (10) days may be deemed unreasonable, particularly if the other party would suffer significant damages because of such short notice. A short time may create an undue burden for the Customer to migrate their website on time. Contract law implies a covenant of good faith and fair dealing, which this change may violate.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing in Florida contract law.",
+                "location": "Term and Termination"
+            }
+        ]
+    }
+]

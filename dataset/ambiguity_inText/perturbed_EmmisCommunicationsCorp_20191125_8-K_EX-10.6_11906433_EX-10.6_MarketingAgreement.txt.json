@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_MarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.1 Programmer's Events of Default. The occurrence of any of the following will be deemed an Event of Default by Programmer under this Agreement: (a) Programmer fails to observe or perform its obligations contained in this Agreement in any material respect; or (b) Programmer breaches the representations and warranties made by it under this Agreement in any material respect.",
+                "changed_text": "11.1 Programmer's Events of Default. The occurrence of any of the following *may* be deemed an Event of Default by Programmer under this Agreement: (a) Programmer fails to observe or perform its obligations contained in this Agreement in any material respect; or (b) Programmer breaches the representations and warranties made by it under this Agreement in any material respect.",
+                "explanation": "Changing 'will be deemed' to 'may be deemed' introduces ambiguity regarding whether a failure to perform or a breach automatically constitutes an event of default. It gives the Licensee discretion, which is further contradicted by Section 11.4 that states 'Upon the occurrence of an Event of Default... the non-defaulting party *may* terminate this Agreement'. This is a contradiction because 11.1 says the event *may* be deemed a default, while 11.4 gives the non-defaulting party the right to terminate *upon the occurrence* of a default. Therefore, it is unclear what has to occur for a default to be actionable.",
+                "location": "Section 11.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4. Advertising Sales. Programmer shall not separately sell advertising time on the HD2 Channel but may market the WLIB Programs as being rebroadcast on the HD2 Channel.",
+                "changed_text": "4. Advertising Sales. Programmer shall not separately sell advertising time on the HD2 Channel but may market the WLIB Programs as being rebroadcast on the HD2 Channel. Programmer may also enter into revenue-sharing agreements with Licensee for advertising sold on the HD2 channel.",
+                "explanation": "The first sentence of section 4 explicitly prohibits the programmer from selling adds on the HD2 channel but then allows the programmer to market the same adds as being rebroadcast. The second sentence introduces the option of revenue-sharing, indirectly enabling the Programmer to profit from advertising sales on the HD2 Channel which is conflicting to the first sentence.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10. Call Signs. During the Term, Licensee will retain all rights to the call letters of the Station or any other call letters which may be assigned by the FCC for use by the Station. Programmer shall include in the WLIB Programs it delivers for broadcast an announcement at the beginning of each hour of such WLIB Programs to identify such call letters, as well as any other announcements required by the rules and regulations of the FCC. Programmer is specifically authorized to use such call letters in its WLIB Programs and in any promotional material, in any media, used to promote the WLIB Programs.",
+                "changed_text": "10. Call Signs. During the Term, Licensee will retain all rights to the call letters of the Station or any other call letters which may be assigned by the FCC for use by the Station. While the Programmer is permitted to mention the station's call letters during broadcasts, all promotional material must be approved by the Licensee in writing. Programmer is specifically authorized to use such call letters in its WLIB Programs and in any promotional material, in any media, used to promote the WLIB Programs.",
+                "explanation": "The original text grants the programmer clear authorization to use the call letters in programs and promotional material. The changed text introduces a requirement that all promotional material must be approved in writing. This contradicts the later part of the section and could be read as the permission being limited or requiring extra-contractual permission to do something that is otherwise allowed.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

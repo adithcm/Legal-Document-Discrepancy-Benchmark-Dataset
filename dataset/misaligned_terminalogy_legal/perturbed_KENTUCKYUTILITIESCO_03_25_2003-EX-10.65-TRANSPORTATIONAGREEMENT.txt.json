@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "KENTUCKYUTILITIESCO_03_25_2003-EX-10.65-TRANSPORTATION AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.1 TRANSPORTATION QUANTITY - shall mean the maximum daily quantity of gas which Transporter agrees to receive and transport on a firm basis, subject to Article II herein, for the account of Shipper hereunder on each day during each year during the term hereof, which shall be 51,000 dekatherms. Any limitations on the quantities to be received from each Point of Receipt and/or delivered to each Point of Delivery shall be as specified on Exhibit \"A\" attached hereto.",
+                "changed_text": "1.1 TRANSPORTATION QUANTITY - shall mean the approximate daily quantity of gas which Transporter agrees to receive and transport, subject to Article II herein, for the account of Shipper hereunder on each day during each year during the term hereof, which shall be approximately 51,000 dekatherms. Any limitations on the quantities to be received from each Point of Receipt and/or delivered to each Point of Delivery shall be at the Transporter's discretion.",
+                "explanation": "The original definition of 'TRANSPORTATION QUANTITY' provides a fixed, firm quantity. The modified version introduces ambiguity by using 'approximate' and removing the firm basis, making the quantity uncertain. This contradicts the requirement for firm transportation service as defined under FERC regulations, which requires a predictable and guaranteed quantity.",
+                "contradicted_law": "18 CFR § 284.8 - Firm Transportation Service",
+                "location": "ARTICLE I - DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Transportation Service - Transporter agrees to accept and receive daily on a firm basis, at the Point(s) of Receipt from Shipper or for Shipper's account such quantity of gas as Shipper makes available up to the Transportation Quantity, and to deliver to or for the account of Shipper to the Point(s) of Delivery an Equivalent Quantity of gas.",
+                "changed_text": "Transportation Service - Transporter agrees to attempt to accept and receive daily, at the Point(s) of Receipt from Shipper or for Shipper's account such quantity of gas as Shipper makes available up to an estimated Transportation Quantity, and to deliver to or for the account of Shipper to the Point(s) of Delivery a Roughly Equivalent Quantity of gas.",
+                "explanation": "By changing 'agrees to accept and receive daily on a firm basis' to 'agrees to attempt to accept and receive daily' and 'Equivalent Quantity' to 'Roughly Equivalent Quantity', the obligation on the Transporter becomes weaker and less defined. 'Firm basis' has a specific meaning in the context of gas transportation, indicating a guaranteed service. This change contradicts the firm transportation requirements under federal regulations by introducing uncertainty.",
+                "contradicted_law": "18 CFR § 284.8 - Firm Transportation Service",
+                "location": "ARTICLE II - TRANSPORTATION"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Pursuant to Article VIII, Section 1 of the General Terms and Conditions of Transporter's Tariff (\"GT&C\"), Transporter shall cause the delivery of natural gas to Shipper at the Shipper's Primary Point of Delivery as nearly as practicable to Transporter's line pressure, provided that such line pressure shall not be less than 500 pounds per square inch gauge at Monroe, meter number 020843, and 600 pounds per square inch gauge at Calvary, meter number 020844.",
+                "changed_text": "Pursuant to Article VIII, Section 1 of the General Terms and Conditions of Transporter's Tariff (\"GT&C\"), Transporter may attempt the delivery of natural gas to Shipper at the Shipper's Primary Point of Delivery at their discretion to Transporter's line pressure, provided that such line pressure may vary at any given time.",
+                "explanation": "The original text specifies minimum pressure requirements for gas delivery. The modification removes the firm obligation to maintain minimum pressures by using 'may attempt' and 'may vary at any given time'. This contradicts the standards of reliable service, a key component regulated by FERC, which are intended to ensure predictable delivery conditions.",
+                "contradicted_law": "18 CFR § 284.9 - Standards of Conduct and Communications",
+                "location": "ARTICLE IV"
+            }
+        ]
+    }
+]

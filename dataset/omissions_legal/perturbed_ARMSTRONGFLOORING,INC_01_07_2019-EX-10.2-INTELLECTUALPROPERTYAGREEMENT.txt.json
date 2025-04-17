@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ARMSTRONGFLOORING,INC_01_07_2019-EX-10.2-INTELLECTUALPROPERTYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Arizona agrees to assign and hereby assigns its entire right, title and interest in and to the Arizona Assigned IP to the Company.",
+                "changed_text": "Arizona may assign its rights in the Arizona Assigned IP to the Company.",
+                "explanation": "The original text mandates the assignment of Arizona's IP rights. The modified text makes the assignment optional ('may assign'). This creates a legal contradiction because without a guaranteed assignment, the Buyer's rights to use the IP are uncertain, which could violate implied warranty of merchantability. Delaware law requires a clear transfer of rights in IP agreements.",
+                "contradicted_law": "Delaware Uniform Commercial Code, implied warranty of merchantability (6 Del. C. § 2-314)",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Company shall ensure that all goods and services provided by the Company, under or in association with any of the Seller Licensed Trademarks, shall (i) be substantially the same as or greater than the quality of goods and services provided under such Seller Licensed Trademarks immediately prior to the Effective Date and (ii) not be associated with any goods or services, including any activities, that are reasonably likely to have an adverse effect on (A) the image or reputation of any of the Seller Licensed Trademarks or (B) Seller's right, title or interest in and to, any of the Arizona Licensed Trademarks.",
+                "changed_text": "The Company shall use reasonable efforts to ensure that all goods and services provided by the Company, under or in association with any of the Seller Licensed Trademarks, are of acceptable quality.",
+                "explanation": "The original text sets a clear quality standard (substantially the same or greater). The modified text weakens this to 'reasonable efforts' and 'acceptable quality,' which is subjective and removes the requirement to maintain or exceed the original quality. This is a legal contradiction. The Lanham Act (federal trademark law) requires trademark licensors to maintain quality control over the use of their trademarks by licensees. Failure to do so can result in abandonment of the trademark.",
+                "contradicted_law": "Lanham Act, 15 U.S.C. § 1127 (abandonment of trademark due to lack of quality control)",
+                "location": "Section 6.3(a)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Party hereto acknowledges that money damages would be both incalculable and an insufficient remedy for any breach of this Agreement by such Party and that any such breach would cause Arizona, on the one hand, and the Buyer Entities, on the other hand, irreparable harm. Accordingly, each Party hereto also agrees that, in the event of any breach or threatened breach of the provisions of this Agreement by such Party, Arizona, on the one hand, and the Buyer Entities, on the other hand, shall be entitled to equitable relief without the requirement of posting a bond or other security, including in the form of injunctions and orders for specific performance.",
+                "changed_text": "Each Party hereto acknowledges that money damages may be an insufficient remedy for any breach of this Agreement by such Party. In the event of a breach or threatened breach of the provisions of this Agreement, the availability of equitable relief shall be determined by the court.",
+                "explanation": "The original text acknowledges irreparable harm and grants the right to equitable relief (injunctions, specific performance) without a bond. The modified text removes the acknowledgement of irreparable harm, makes equitable relief discretionary ('shall be determined by the court'), and eliminates the waiver of the bond requirement. This creates a legal risk. Delaware law generally requires a showing of irreparable harm and posting of a bond before granting equitable relief. Removing these provisions makes it harder for either party to obtain an injunction, potentially violating the implied covenant of good faith and fair dealing.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing under Delaware law; Delaware Court of Chancery Rules regarding injunctive relief.",
+                "location": "Section 13.4"
+            }
+        ]
+    }
+]

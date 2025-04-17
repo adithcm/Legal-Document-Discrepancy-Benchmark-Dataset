@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_ManufacturingAgreement4.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment No. 3 (the \"Third Amendment\"), entered into by and between Stremicks Heritage Foods, LLC (\"Heritage\") Premier Nutrition Corporation (\"Premier\") is effective as of July 3, 2019 (\"Third Amendment Effective Date\") and amends that certain Manufacturing Agreement between Heritage and Premier dated July 1, 2017 as amended (\"Agreement\"). Heritage and Premier are each referred to herein as a \"Party\" and collectively as the \"Parties.\"",
+                "changed_text": "This Amendment No. 3 (the \"Third Amendment\"), entered into by and between Stremicks Heritage Foods, LLC (\"Heritage\") Premier Nutrition Corporation (\"Premier\") is effective immediately upon signing, regardless of the actual date, and amends that certain Manufacturing Agreement between Heritage and Premier dated July 1, 2017 as amended (\"Agreement\"). Heritage and Premier are each referred to herein as a \"Party\" and collectively as the \"Parties.\"",
+                "explanation": "By stating the amendment is effective immediately upon signing regardless of the actual date, it could contradict state laws related to contract formation and the reasonable time period for review before a contract becomes binding. Many states offer statutory cooling-off periods for certain contracts (e.g., door-to-door sales, timeshares), making immediate effectiveness potentially illegal.",
+                "contradicted_law": "State laws regarding contract formation, cooling-off periods, and consumer protection laws.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Except as otherwise specified above in this Amendment, all other terms, conditions and covenants of the Agreement shall remain in full force and effect.",
+                "changed_text": "Except as otherwise specified above in this Amendment, all other terms, conditions and covenants of the Agreement shall remain in full force and effect unless superseded by future communications between the parties.",
+                "explanation": "This modification introduces ambiguity and potential conflict with the Statute of Frauds. The Statute of Frauds requires certain contracts (e.g., those involving the sale of goods over $500, real estate transactions) to be in writing to be enforceable. Allowing future 'communications' to supersede written terms creates a situation where oral or informal agreements could alter the contract, potentially invalidating it under the Statute of Frauds. Additionally, it could violate the parol evidence rule, which generally prevents parties from introducing evidence of prior or contemporaneous agreements that contradict a fully integrated written contract.",
+                "contradicted_law": "Statute of Frauds, Parol Evidence Rule",
+                "location": "Penultimate paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "IN WITNESS WHEREOF, the Parties have caused this Amendment to be signed by their respective duly authorized representatives as of the Amendment Effective Date. Premier Nutrition Corporation Stremick's Heritage Foods, LLC.\n\nBy: /s/ Darcy Davenport By: /s/ Sam Stremick Name: Darcy Davenport Name: Sam Stremick Title: President Title: President",
+                "changed_text": "IN WITNESS WHEREOF, the Parties have caused this Amendment to be signed by one representative from either party, binding both parties to the agreement, as of the Amendment Effective Date. Premier Nutrition Corporation Stremick's Heritage Foods, LLC.\n\nBy: /s/ Darcy Davenport Name: Darcy Davenport Title: President",
+                "explanation": "This modification stipulates that only ONE representative needs to sign for the amendment to be binding. This directly contradicts corporate law principles requiring proper authorization and representation. If the single signer lacks the authority to bind the other party (Stremick's Heritage Foods, LLC) to the amended terms, the modification could be deemed unenforceable. Corporate law generally necessitates signatures from authorized representatives of each party or proper delegation of authority.",
+                "contradicted_law": "Corporate law regarding authorization and representation",
+                "location": "Final signing section"
+            }
+        ]
+    }
+]

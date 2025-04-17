@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "EMERALDHEALTHTHERAPEUTICSINC_06_10_2020-EX-4.5-CONSULTINGAGREEMENT-DR.GAETANOMORELLON.D.INC..txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1. Definitions\n\n1.1 In this Agreement, including the recitals and the schedules, the defined words and expressions have the meanings set out on Schedule \"A\" to this Agreement unless the context otherwise required.",
+                "changed_text": "1. Definitions\n\n1.1 In this Agreement, including the recitals and the schedules, the defined words and expressions have the meanings set out on Schedule \"A\" to this Agreement, regardless of context.",
+                "explanation": "The original clause allows for contextual interpretation of defined terms. The modified clause removes this flexibility, creating a conflict if Schedule A's definitions contradict the implicit or understood meaning in a specific section of the agreement. This forces Schedule A definition always, no matter what the context is.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.2 Contractor's Right to Terminate Agreement for any Reason. The Contractor may terminate this Agreement and his or her engagement for any reason at any time upon providing 30 days advance notice in writing to Emerald. Termination will be effective, at Emeralds' election, on a date which is no earlier than the date such notice is received and no later than the date which is 30 days following that date.",
+                "changed_text": "5.2 Contractor's Right to Terminate Agreement for any Reason. The Contractor may terminate this Agreement and his or her engagement for any reason at any time upon providing 30 days advance notice in writing to Emerald. Termination will be effective exactly 30 days after the date such notice is received.",
+                "explanation": "The original clause gives Emerald the election to choose the termination date between the date the notice is received and 30 days after. The modified clause removes Emerald's election by making termination effective exactly 30 days after notice. This creates a contradiction, potentially impacting the timing of obligations and responsibilities post-termination.",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6.2 Confidentiality. \"Confidential Information\" means information disclosed to the Contractor as a consequence of or through its, his or her position as a director, officer, employee or consultant of Emerald, which information is not generally known in the industry in which Emerald operates. All Confidential Information will, during the Term of this Agreement and for a period of five years thereafter, be held by the Contractor in a fiduciary capacity for Emerald, in the strictest confidence, and will be used by the Contractor solely for the benefit of Emerald, and will not be used by the Contractor, directly or indirectly, for any purpose other than for the benefit of Emerald, nor will the Contractor divulge or communicate, directly or indirectly, such verbally, in writing or otherwise to any party.",
+                "changed_text": "6.2 Confidentiality. \"Confidential Information\" means information disclosed to the Contractor as a consequence of or through its, his or her position as a director, officer, employee or consultant of Emerald, regardless of whether this information is generally known in the industry in which Emerald operates. All Confidential Information will, only during the Term of this Agreement, be held by the Contractor in a fiduciary capacity for Emerald, in the strictest confidence, and will be used by the Contractor solely for the benefit of Emerald, and will not be used by the Contractor, directly or indirectly, for any purpose other than for the benefit of Emerald, nor will the Contractor divulge or communicate, directly or indirectly, such verbally, in writing or otherwise to any party.",
+                "explanation": "The original definition limited \"Confidential Information\" to items 'not generally known in the industry'. The modification expands it to ANY information disclosed to contractor no matter it is publicly available or not, creating a broader definition. Furthermore, the original clause restricted the confidentiality for 5 years after the termination; the changed clause restrict it only during the term of the agreement, so now is a much shorter period of time.",
+                "location": "Section 6.2"
+            }
+        ]
+    }
+]

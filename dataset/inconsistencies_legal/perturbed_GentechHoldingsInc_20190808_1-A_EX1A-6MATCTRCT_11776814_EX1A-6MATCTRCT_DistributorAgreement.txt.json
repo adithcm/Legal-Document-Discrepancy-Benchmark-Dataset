@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GentechHoldingsInc_20190808_1-A_EX1A-6MATCTRCT_11776814_EX1A-6MATCTRCT_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company shall have Seven (7) business days after its receipt to accept (or reject for a legitimate business reason) any order submitted by Distributor. All the negotiations between Company and Distributor will be by INCOTERMS Ex-works, in origin farm, in Brazil. So will must be respected the Transite Time to destiny delivery. Should Company fail to timely accept or reject an order from Distributor in accordance with this Section, such order shall be deemed accepted and shall become binding on Company. All orders shall be fulfilled by Company within Seven (7) business days of order acceptance.",
+                "changed_text": "Company shall have One (1) business day after its receipt to accept (or reject for a legitimate business reason) any order submitted by Distributor. All the negotiations between Company and Distributor will be by INCOTERMS Ex-works, in origin farm, in Brazil. So will must be respected the Transite Time to destiny delivery. Should Company fail to timely accept or reject an order from Distributor in accordance with this Section, such order shall be deemed accepted and shall become binding on Company. All orders shall be fulfilled by Company within Fifteen (15) business days of order acceptance.",
+                "explanation": "The original text provides Company with seven business days to accept or reject an order. The modified text reduces this to one business day, which may be deemed an unreasonably short time frame under general contract law principles, especially considering the international nature of the transaction and the 'legitimate business reason' clause. Furthermore, it extends the order fulfillment to fifteen business days, potentially creating delays, without the Distributor consent. This creates conflicting obligations and possible breach of contract claims under Florida law should a prompt response from the Company be prevented.",
+                "contradicted_law": "Florida contract law regarding reasonable timeframes for acceptance and fulfillment of orders, potentially leading to breach of contract claims.",
+                "location": "2. ORDERS, PRICE, TERMS OF SALE & PAYMENT. (a) Communications Pursuant to this Distributor Agreement and Orders."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within Seven (7) days of receipt of such Products, Distributor will notify Company of any shortages, defects, non-conformance, and Company will promptly replace such Products free of charge.",
+                "changed_text": "Within One (1) day of receipt of such Products, Distributor will notify Company of any shortages, defects, non-conformance, and Company will replace such Products within 90 days from the notification of the shortage, defects or non-conformance.",
+                "explanation": "The original text requires the Distributor to notify the Company of defects within seven days and obligates the Company to promptly replace defective products free of charge. The modified text reduces the notification period to one day, which might be insufficient for a thorough inspection, especially for large shipments. Furthermore, the replacement period is extended to ninety days, contradicting the original requirement of prompt replacement. This alteration could violate implied warranties of merchantability under the Uniform Commercial Code (UCC), which Florida has adopted, as it unreasonably restricts the time for claims and significantly delays the remedy.",
+                "contradicted_law": "Florida's adoption of the Uniform Commercial Code (UCC) and implied warranties of merchantability, specifically regarding reasonable time for inspection and prompt remedy for defective goods.",
+                "location": "2. ORDERS, PRICE, TERMS OF SALE & PAYMENT. (c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(g) The obligations of the Recipient Party under this Section 6 shall survive termination or nonrenewal of this Agreement for a period of thee (3) years.",
+                "changed_text": "(g) The obligations of the Recipient Party under this Section 6 shall survive termination or nonrenewal of this Agreement for a period of one (1) year.",
+                "explanation": "The original text states that confidentiality obligations survive for three years after termination. The modified text reduces this to one year. This creates a legal contradiction as it unreasonably shortens the standard period for protecting trade secrets and confidential business information, potentially exposing the Disclosing Party to competitive harm sooner than originally agreed. Depending on the industry and nature of the Proprietary Information, a one-year period may be deemed insufficient to provide adequate protection, thus conflicting with legal standards for reasonable protection of trade secrets and confidential information.",
+                "contradicted_law": "Florida trade secret laws and legal principles regarding reasonable duration of confidentiality obligations to protect proprietary information.",
+                "location": "6. CONFIDENTIAL & PROPRIETARY INFORMATION. (g)"
+            }
+        ]
+    }
+]

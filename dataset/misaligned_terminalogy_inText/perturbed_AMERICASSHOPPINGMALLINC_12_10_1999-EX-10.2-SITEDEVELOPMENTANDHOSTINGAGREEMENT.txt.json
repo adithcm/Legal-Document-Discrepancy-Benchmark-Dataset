@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITEDEVELOPMENTANDHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1 HDI shall design, develop, implement, operate, maintain and manage, and enable the Company to establish a presence on the World Wide Web (\"Site\") to make available to Internet users on demand, men's and women's apparel and accessories from the Deerskin Catalog (\"Deerskin Products\"). As used in this Agreement, \"Deerskin Products\" shall not include (i) closeout merchandise which the Company may identify as \"Deerskin\" branded items, if such is the case, nor (ii) products from the Company's Joan Cook Catalog.",
+                "changed_text": "1.1 HDI shall design, develop, implement, operate, maintain and manage, and enable the Company to establish a presence on the World Wide Web (\"Webpage\") to make available to Internet users on demand, men's and women's apparel and accessories from the Deerskin Catalog (\"Merchandise\"). As used in this Agreement, \"Deerskin Products\" shall not include (i) closeout merchandise which the Company may identify as \"Deerskin\" branded items, if such is the case, nor (ii) products from the Company's Joan Cook Catalog.",
+                "explanation": "Changing 'Site' to 'Webpage' and 'Deerskin Products' to 'Merchandise' in this section, while leaving the definition of 'Deerskin Products' unchanged, creates a conflict. It's now unclear if 'Webpage' is the same as 'Site' or if 'Merchandise' exclusively refers to 'Deerskin Products' as previously defined. This introduces uncertainty in the scope of HDI's responsibilities.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "5.2 The Company shall have exclusive artistic and editorial control over the Site, including, without limitation, the implementation of the Content on the Site and the design and look and feel of the Site. Neither the Site nor any portion of thereof shall be deemed accepted and approved by the Company unless and until the Company accepts and approves same in writing to HDI. No portion of the Site shall be made available on the Internet without the consent of the Company.",
+                "changed_text": "5.2 The Company shall have exclusive artistic and editorial control over the Webpage, including, without limitation, the implementation of the Content on the Website and the design and look and feel of the Internet Presence. Neither the Platform nor any portion of thereof shall be deemed accepted and approved by the Company unless and until the Company accepts and approves same in writing to HDI. No portion of the Webpage shall be made available on the Internet without the consent of the Company.",
+                "explanation": "Using 'Webpage,' 'Website,' 'Internet Presence,' and 'Platform' interchangeably without defining them against the already defined 'Site' causes confusion. The Company's control, approval, and consent are now ambiguously linked to these different terms, making it difficult to determine the extent of their authority over the online presence.",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "3.1 The Company shall pay HDI thirty percent (3016) of the Net Sales in excess of Eleven Thousand Dollars ($11,000) per calendar month. \"Net Sales\" shall mean all revenues from the sale of Deerskin Products on the Site including shipping and handling charges, minus refunds and exchanges.",
+                "changed_text": "3.1 The Company shall pay HDI thirty percent (3016) of the Gross Revenue in excess of Eleven Thousand Dollars ($11,000) per calendar month. \"Net Sales\" shall mean all revenues from the sale of Deerskin Products on the Site including shipping and handling charges, minus refunds and exchanges.",
+                "explanation": "Changing 'Net Sales' to 'Gross Revenue' but keeping the definition as 'Net Sales' creates a direct contradiction. It becomes unclear which metric the 30% is based on, leading to potential disputes over payments. This is further exacerbated by not defining Gross Revenue.",
+                "location": "Section 3.1"
+            }
+        ]
+    }
+]

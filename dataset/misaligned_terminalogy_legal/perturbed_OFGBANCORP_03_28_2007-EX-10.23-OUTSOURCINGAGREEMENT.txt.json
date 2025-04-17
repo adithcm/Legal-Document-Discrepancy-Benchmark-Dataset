@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OFGBANCORP_03_28_2007-EX-10.23-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "For purposes of this Agreement, the term \"Customer\" includes all Affiliates listed in Exhibit A, attached hereto.",
+                "changed_text": "For purposes of this Agreement, the term \"Customer\" includes only the parent company, Oriental Financial Group Inc., and excludes all Affiliates listed in Exhibit A, attached hereto.",
+                "explanation": "The original definition of 'Customer' includes all listed affiliates, creating a broad scope of responsibility and benefit under the contract. The modified text explicitly excludes these affiliates, contradicting the original definition and potentially creating disputes over which entities are bound by the contract's terms, particularly concerning service delivery and payment obligations.",
+                "contradicted_law": "Contract Law: Definition of Parties; Agency Law: Authority of Parent Company over Subsidiaries",
+                "location": "Preamble (after the listing of schedules)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "In addition, Metavante agrees to provide to Customer, at Customer's expense, all necessary assistance to facilitate the orderly transition of Services to Customer or its designee (\"Termination Assistance\"). As part of the Termination Assistance, Metavante shall assist Customer to develop a plan for the transition of all Services then being performed by Metavante under this Agreement, from Metavante to Customer or Customer's designee, on a reasonable schedule developed jointly by Metavante and Customer.",
+                "changed_text": "In addition, Metavante may, at its sole discretion, provide to Customer, at Customer's expense, limited assistance to facilitate the disorderly transition of Services to Customer or its designee (\"Termination Hindrance\"). As part of the Termination Hindrance, Metavante will actively impede the Customer in developing a plan for the transition of all Services then being performed by Metavante under this Agreement, from Metavante to Customer or Customer's designee, on an unreasonable schedule dictated solely by Metavante.",
+                "explanation": "This change completely reverses the meaning of 'Termination Assistance,' now termed 'Termination Hindrance.' Instead of facilitating a smooth transition, Metavante now actively impedes it. This directly contradicts the reasonable expectation of cooperation during termination, potentially making the original termination clause unenforceable. It also affects the Customer's ability to comply with regulatory requirements related to data access and continuity of operations.",
+                "contradicted_law": "Contract Law: Duty of Good Faith and Fair Dealing; Regulatory Compliance: Business Continuity Requirements",
+                "location": "2.2. Termination Assistance"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Metavante warrants that it will provide all Services in a commercially reasonable manner in material conformance with the applicable Documentation (the \"Performance Warranty\").",
+                "changed_text": "Metavante makes no warranties that it will provide any Services and will not be held accountable to the applicable Documentation, and will not provide a Performance Warranty.",
+                "explanation": "The Performance Warranty explicitly warrants service delivery in a commercially reasonable manner and conforming to documentation, setting a clear expectation of service quality. The modified version completely removes any warranty, giving Metavante the latitude to provide any level of service without recourse, directly contradicting the original warranty and impacting enforceability of service obligations. It also removes the assurance of compliance with the applicable documentation.",
+                "contradicted_law": "Contract Law: Warranty of Services; Uniform Commercial Code (UCC) Article 2",
+                "location": "6.1. Performance Warranty."
+            }
+        ]
+    }
+]

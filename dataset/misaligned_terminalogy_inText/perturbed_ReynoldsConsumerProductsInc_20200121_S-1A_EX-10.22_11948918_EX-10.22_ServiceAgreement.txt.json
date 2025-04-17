@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ReynoldsConsumerProductsInc_20200121_S-1A_EX-10.22_11948918_EX-10.22_Service Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Each Party or any of its Affiliates providing services hereunder shall be a \"Provider,\" and each Party or any of its Affiliates receiving services hereunder shall be a \"Recipient.\"",
+                "changed_text": "Each Party or any of its Affiliates providing services hereunder shall be a \"Provider,\" and each Party or any of its Affiliates receiving services hereunder shall be a \"Consumer.\"",
+                "explanation": "The terms \"Recipient\" and \"Consumer\" are used interchangeably. The definition of \"Recipient\" in the preamble is changed to \"Consumer\". In later sections, only the word \"Recipient\" is used. This creates confusion since the changed term may not be interpreted in the same way by both parties.",
+                "location": "PRELIMINARY STATEMENT"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Provider shall perform the Services (i) at a level of quality substantially similar in all material respects to that at which such Services were performed or enjoyed during the twelve (12) month period prior to the date hereof and (ii) in accordance with applicable Law (collectively, (i) and (ii), the \"Service Standard\").",
+                "changed_text": "Provider shall perform the Services (i) at a level of quality substantially similar in all material respects to that at which such Services were performed or enjoyed during the twelve (12) month period prior to the date hereof and (ii) in accordance with industry best practices (collectively, (i) and (ii), the \"Service Standard\").",
+                "explanation": "The original text clearly states that the services should be performed in accordance with applicable law. The modified text introduces the term 'industry best practices' which can deviate from 'applicable law', leading to contradictions about legal and quality obligations. The definition of 'Service Standard' now uses the term 'industry best practices' instead of 'applicable Law'.",
+                "location": "Section 3.1(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "In the event of any material failure of a Provider to perform the Services, as applicable, in accordance with the Service Standards, Recipient shall provide Provider with written notice of such material failure, and Provider will use commercially reasonable efforts to remedy such failure as soon as reasonably possible and in the same manner that Provider would remedy such a failure for their other businesses undergoing such a material failure.",
+                "changed_text": "In the event of any material failure of a Vendor to perform the Services, as applicable, in accordance with the Service Standards, Consumer shall provide Vendor with written notice of such material failure, and Vendor will use commercially reasonable efforts to remedy such failure as soon as reasonably possible and in the same manner that Vendor deems appropriate.",
+                "explanation": "The modified text swaps 'Provider' with 'Vendor' and 'Recipient' with 'Consumer', and eliminates the obligation to remedy the failure in the same manner as the provider would for its own business. This introduces ambiguity about which entity is responsible for which actions, and what standards are to be followed in the fixing of failures. The terms “Provider” and “Consumer” from the beginning are changed here to new terms but no definition is provided.",
+                "location": "Section 3.1(b)"
+            }
+        ]
+    }
+]

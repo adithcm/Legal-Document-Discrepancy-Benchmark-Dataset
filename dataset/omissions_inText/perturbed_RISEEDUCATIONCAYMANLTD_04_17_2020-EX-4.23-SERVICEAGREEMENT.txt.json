@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "RISEEDUCATIONCAYMANLTD_04_17_2020-EX-4.23-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Service Recipient shall pay Service Provider the [service fees]/ [commissions and service fees] ([collectively,] \"Service Fee\") (inclusive of all applicable taxes) in accordance with Schedule 1 for the Services provided by Service Provider.\n\n[To facilitate the operation of Service Recipient, in the event that Service Recipient incurs losses, Service Provider may agree to waive the obligations of Service Recipient to pay Service Fee to Service Provider.]",
+                "changed_text": "Service Recipient shall pay Service Provider the Service Fee in accordance with Schedule 1 for the Services provided by Service Provider.",
+                "explanation": "The removal of the definition of 'Service Fee' and the section regarding potential waiver of the service fee creates ambiguity. Later sections and Schedule 1 still reference 'Service Fee', but without a clear definition of whether it is [service fees] or [commissions and service fees], creating uncertainty on payment calculation and enforcement. In addition, without the waiver the contract is more strict and the Service Recipient won't have a clause to point back to in case of losses.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Notwithstanding the foregoing, upon any delay by Service Recipient in its payment of any Service Fee to Service Provider, for each day of delay in such payment, Service Recipient must pay Service Provider liquidated damages at 0.5 percent (0.5%) of the Service Fee that are due and unpaid. In the event that such delay in payment is more than fifteen (15) days, Service Provider may terminate this Agreement. Service Recipient shall be liable for indemnifying Service Provider in full for the losses it incurred therefrom.",
+                "changed_text": "Notwithstanding the foregoing, upon any delay by Service Recipient in its payment to Service Provider, Service Provider may terminate this Agreement. Service Recipient shall be liable for indemnifying Service Provider in full for the losses it incurred therefrom.",
+                "explanation": "Removing the part where there is liquidated damages creates uncertainty. Now it is not clear what are the consequences of any delays. The Service Provider can just terminate the Agreement.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "During the term of this Agreement, Service Recipient shall pay to Service Provider the Service Fee on a quarterly basis. The amount of the Service Fee shall be [determined on the basis of the actual costs incurred by Service Provider in connection with its provision of the services, plus a mark-up at a percentage as agreed upon between both Parties, to be allocated to Service Recipient and other service recipients in proportion to their respective revenues] / [computed at a percentage (as agreed upon between both Parties) of Service Recipient's revenues] and confirmed by a letter of confirmation substantially in the form attached hereto.",
+                "changed_text": "During the term of this Agreement, Service Recipient shall pay to Service Provider the Service Fee on a quarterly basis. The amount of the Service Fee shall be confirmed by a letter of confirmation substantially in the form attached hereto.",
+                "explanation": "The removal of the section regarding the ways to determine the fee, creates uncertainty regarding how the 'Service Fee' is calculated. The contract stipulates the payment but doesn't provide clear guidance and now is at the will of the letter of confirmation.",
+                "location": "Schedule 1"
+            }
+        ]
+    }
+]

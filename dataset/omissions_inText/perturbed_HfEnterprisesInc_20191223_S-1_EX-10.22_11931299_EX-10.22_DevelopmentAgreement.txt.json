@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.2. Development Fees. As payment for Developer's satisfactory performance of the services set forth in Schedule 1 hereto (the \"Technology Development Services\"), DSS shall pay Developer the sum of US $23,000 per month, for the duration of the Term hereof, with payments to commence on March 1, 2018.",
+                "changed_text": "1.2. Development Fees. As payment for Developer's satisfactory performance of the services set forth in Schedule 1 hereto (the \"Technology Development Services\"), DSS shall pay Developer the fees as agreed upon in writing by both parties.",
+                "explanation": "By removing the fixed payment amount of $23,000 per month, the modified text introduces uncertainty regarding the compensation. Later in Section 9.5, amendments have to be in writing and signed by both parties. This creates a contradiction: Section 1.2 implies fees will be agreed in writing, but without the initial specified amount, it's unclear what is being amended if an agreement has not been reached. This makes enforcement ambiguous.",
+                "location": "Section 1.2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "2. Term and Termination.\n\n2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of twelve (12) months (the \"Initial Term\"). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30- days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any extension or renewal terms, shall hereinafter be collectively referred to as the \"Term\".",
+                "changed_text": "2. Term and Termination.\n\n2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter as long as both parties are in agreement. The term may be terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any extension or renewal terms, shall hereinafter be collectively referred to as the \"Term\".",
+                "explanation": "By changing the initial term from a defined 12-month period with automatic renewal to 'as long as both parties are in agreement,' the contract loses a clear duration. While Section 2.2 still allows for termination, the absence of a fixed term creates a contradiction. The contract refers to an 'Initial Term,' which is now undefined, leading to uncertainty in enforcement and potential disputes regarding the agreement's duration.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "SCHEDULE 1\n\nTECHNOLOGY DEVELOPMENT SERVICES\n\n(Attached)",
+                "changed_text": "SCHEDULE 1\n\nTECHNOLOGY DEVELOPMENT SERVICES\n\n(Intentionally Omitted)",
+                "explanation": "By removing the schedule 1 that contains specific technology development services that will be rendered, it creates contradiction with the Section 1.2. Development Fees which states 'As payment for Developer's satisfactory performance of the services set forth in Schedule 1 hereto (the \"Technology Development Services\"), DSS shall pay Developer the sum of US $23,000 per month'. With schedule 1 intentionally omitted, the actual development services that will be performed cannot be measured, hence enforcement is ambigious.",
+                "location": "SCHEDULE 1"
+            }
+        ]
+    }
+]

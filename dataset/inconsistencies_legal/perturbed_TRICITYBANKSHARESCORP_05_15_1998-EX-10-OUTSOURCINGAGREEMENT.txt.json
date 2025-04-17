@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Customer will respond to such proposal within six (6) months following receipt and inform M&I in writing whether or not Customer desires to renew this Agreement.  If M&I and Customer are unable to agree upon the terms for renewal of this Agreement at least six (6) months prior to the expiration of the Term, then Customer may, at its option, renew this Agreement for one (1) twelve month period at the then-current terms and conditions of this Agreement.  Customer shall exercise its option, if at all, by delivering written notice to M&I at least five (5) months prior to expiration of the Term.",
+                "changed_text": "Customer will respond to such proposal within two (2) months following receipt and inform M&I in writing whether or not Customer desires to renew this Agreement. If M&I and Customer are unable to agree upon the terms for renewal of this Agreement at least three (3) months prior to the expiration of the Term, then Customer may, at its option, renew this Agreement for one (1) twelve month period at the then-current terms and conditions of this Agreement. Customer shall exercise its option, if at all, by delivering written notice to M&I at least one (1) month prior to expiration of the Term.",
+                "explanation": "This change shortens the notification periods, potentially violating contract law principles that require reasonable timeframes for renewal negotiations and decisions. This creates a legal contradiction because the reduced timeframes could be deemed insufficient for proper due diligence and decision-making, rendering the renewal clause potentially unenforceable.",
+                "contradicted_law": "General Contract Law - Reasonable Notice Requirements",
+                "location": "Section 2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "M&I may modify, amend, enhance, update, or provide an appropriate replacement for the software used to provide the Services, or any element of its systems at any time to: (i) improve the Services or (ii) facilitate the continued economic provision of the Services to Customer or M&I, provided that the functionality of the Services is not materially adversely affected.",
+                "changed_text": "M&I may modify, amend, enhance, update, or provide an appropriate replacement for the software used to provide the Services, or any element of its systems at any time to: (i) improve the Services or (ii) facilitate the continued economic provision of the Services to Customer or M&I, without needing to guarantee that the functionality of the Services will not be affected.",
+                "explanation": "By removing the guarantee that the functionality of the services will not be affected, M&I would be allowed to modify services regardless of the quality provided to the customer. This is a legal contradiction because it impacts the quality of the business relationship between the customer and M&I. The lack of guarantee could make the provision unenforceable.",
+                "contradicted_law": "General Contract Law - Duty of Good Faith and Fair Dealing",
+                "location": "Section 10.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Commencing six (6) months prior to the expiration of the Term of this Agreement, or upon any termination of this Agreement for any reason, M&I shall provide Customer, at Customer's expense, all necessary assistance to allow the Services to continue without interruption or adverse affect to Customer and to facilitate the orderly transition of Services to Customer or its designee (\"Termination Assistance\"). At the written request of Customer, given at least 100 days prior to expiration of the Term of the Agreement, M&I shall continue to provide Customer all Services at the rates set forth in this Agreement, for a maximum period of six (6) months.",
+                "changed_text": "Commencing one (1) month prior to the expiration of the Term of this Agreement, or upon any termination of this Agreement for any reason, M&I shall provide Customer, at Customer's expense, all necessary assistance to allow the Services to continue without interruption or adverse affect to Customer and to facilitate the orderly transition of Services to Customer or its designee (\"Termination Assistance\"). At the written request of Customer, given at least 15 days prior to expiration of the Term of the Agreement, M&I shall continue to provide Customer all Services at the rates set forth in this Agreement, for a maximum period of one (1) month.",
+                "explanation": "The original text provides 6 months for termination assistance, in which the client can prepare and transition their work. The new text only gives 1 month to transition and prepare, which can be deemed as unreadable. This will cause the termination agreement to become legally unenforceable.",
+                "contradicted_law": "General Contract Law - Duty of Good Faith and Fair Dealing",
+                "location": "Section 11.4"
+            }
+        ]
+    }
+]

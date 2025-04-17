@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GRIDIRONBIONUTRIENTS,INC_02_05_2020-EX-10.3-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "A. Product. Shi Farms agrees to sell Product and Gridiron agrees to purchase 30,000 lbs. of hemp biomass (\"Biomass\") from Shi Farms. Biomass must contain a minimum of six percent (6%) total Cannabidiol (CBD/and or CBDA) and all Biomass must have less than three percent (3%) total TCH content. The Biomass must contain no contaminates that are above acceptable industry standards for processing Biomass including but not limited to: Mold and Mildew; Non- Hemp Plant Material; Soil; Insects; Rodent Droppings; Wet or Rotting Material; Heavy Metals; Residual Pesticides or Herbicides; Bacteria.",
+                "changed_text": "A. Product. Shi Farms agrees to sell Product and Gridiron agrees to purchase hemp biomass (\"Biomass\") from Shi Farms. The Biomass must contain no contaminates that are above acceptable industry standards for processing Biomass.",
+                "explanation": "By removing the specific quantity (30,000 lbs), CBD/TCH content requirements, and a list of specific contaminants the definition of 'Product' becomes vague. However, section 1B still references a purchase price based on a per-pound basis, which creates a contradiction as the total quantity is now undefined. The deletion of explicit requirements for CBD/TCH levels creates an enforceability issue, as section 1.C defines how the CBD potency number are determined, creating an obligation when it is not explicit that there is CBD in the product.",
+                "location": "1. Products and Payments - A. Product"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "B. Pricing. Both Parties mutually agree that the Purchase Price of the Product is determined on a $5.00 per pound basis for a total cost of one hundred fifty thousand dollars ($150,000).",
+                "changed_text": "B. Pricing. Both Parties mutually agree that the Purchase Price of the Product will be determined at a later date.",
+                "explanation": "By stating that the price will be determined at a later date removes the price condition in the contract but section 1.D states that payment will be made upon execution of this agreement, resulting in a contradiction because without a purchase price, the payment term is rendered incoherent. This creates uncertainty for both parties.",
+                "location": "1. Products and Payments - B. Pricing"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "F. Delivery. Product Samples. The point of delivery of the Product Samples shall be a laboratory determined by Gridiron, if Gridiron determines that third party analysis of the Biomass is required for processing. Shi Farms shall be responsible to ship the Product Samples to the designated laboratory. Biomass. Shi Farms shall be responsible for delivery of the Biomass to the processor determined by Gridiron, in good form as described above \"A. Product\".",
+                "changed_text": "F. Delivery. Biomass. Shi Farms shall be responsible for delivery of the Biomass to the processor determined by Gridiron.",
+                "explanation": "Removing the delivery terms regarding Product Samples, specifically 'The point of delivery of the Product Samples shall be a laboratory determined by Gridiron, if Gridiron determines that third party analysis of the Biomass is required for processing. Shi Farms shall be responsible to ship the Product Samples to the designated laboratory' creates a contradiction. Section 1.C states that 'Buyer may take their own samples (\"Product Samples\") for testing as well', but section F removes the obligation on Shi Farms to ship those products for analysis. ",
+                "location": "1. Products and Payments - F. Delivery"
+            }
+        ]
+    }
+]

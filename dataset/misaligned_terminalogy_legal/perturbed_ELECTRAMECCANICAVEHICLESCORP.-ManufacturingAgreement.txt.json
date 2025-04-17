@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ELECTRAMECCANICA VEHICLES CORP. - Manufacturing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Lead-time\" is defined as the amount of time between Manufacturer receiving an order and EMV receipt of the goods ordered. The ordering processes are listed in Section 4.",
+                "changed_text": "\"Lead-time\" is defined as the estimated time EMV needs to receive an order. The ordering processes are listed in Section 4.",
+                "explanation": "The original definition of \"Lead-time\" refers to the time between the manufacturer receiving the order and EMV receiving the goods. The modified definition now only considers the time EMV needs to receive an order, regardless of manufacturer's processing time. This creates a contradiction, as lead time typically includes both manufacturer and delivery times. By altering the definition, the contract now conflicts with the conventional understanding and potentially impacts delivery obligations.",
+                "contradicted_law": "Breach of contract, misunderstanding of delivery obligations.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS the Manufacturer desires to manufacture the Products and represents to EMV that Manufacturer has sufficient expertise, resources, and personnel to perform its obligations under this Agreement; and",
+                "changed_text": "WHEREAS the Manufacturer desires to manufacture the Products and makes no representation to EMV regarding sufficient expertise, resources, and personnel to perform its obligations under this Agreement; and",
+                "explanation": "The original clause states the Manufacturer assures EMV that it has the necessary capabilities to fulfill its obligations. The modified clause removes this assurance. This is a conflict because typically, manufacturing agreements include some representation of capability, and removing it creates uncertainty about the manufacturer's responsibility if they fail to deliver due to lack of resources or expertise.",
+                "contradicted_law": "Breach of contract, failure to meet standards",
+                "location": "Recitals"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Manufacturer shall include the information provided by EMV in the packaging in which the Products are sold and shall modify any of the packaging if requested by EMV.",
+                "changed_text": "Manufacturer shall include the information provided by EMV in the packaging in which the Products are sold but has no obligation to modify any of the packaging if requested by EMV.",
+                "explanation": "Originally, the manufacturer had an obligation to modify packaging per EMV's request. The revised text states they 'shall include' EMV's info but are 'not obligated' to modify packaging. This creates a clear contradiction, shifting the responsibility and potentially undermining EMV's branding and compliance efforts. The original language creates an enforceable obligation, while the changed language removes that enforceability, leading to potential disputes.",
+                "contradicted_law": "Breach of contract regarding packaging modifications",
+                "location": "Section 2.9"
+            }
+        ]
+    }
+]

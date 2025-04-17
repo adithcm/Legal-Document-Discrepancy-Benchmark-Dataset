@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NATIONALPROCESSINGINC_07_18_1996-EX-10.4-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement without penalty and without prejudice to any claims arising prior to termination as follows:\n\n               (a) Upon the written agreement of both parties.\n\n               (b) Upon the other party's breach of this Agreement provided          the terminating party has given written notice of the breach to the          other party specifying the breach, the action necessary to cure the          breach and the breaching party has not cured the breach within five          business days after notice is given of any failure by NPC to provide          any funds required hereunder to be provided by NPC to pay Merchants or          within thirty business days after notice is given of any other breach.",
+                "changed_text": "Either party may terminate this Agreement without penalty and without prejudice to any claims arising prior to termination as follows:\n\n               (a) Upon the written agreement of both parties.\n\n               (b) Upon the other party's breach of this Agreement provided          the terminating party has given written notice of the breach to the          other party specifying the breach, the action necessary to cure the          breach and the breaching party has given written notice of the breach to the          other party specifying the breach, the action necessary to cure the          breach and the breaching party has not cured the breach within one business day after notice is given of any failure by NPC to provide          any funds required hereunder to be provided by NPC to pay Merchants or          within fifteen business days after notice is given of any other breach.",
+                "explanation": "The original text provides a 5-business-day cure period for failure to provide funds and a 30-business-day cure period for other breaches. The modified text changes these periods to one business day and 15 business days respectively, which is unduly restrictive and potentially violates legal standards that require reasonable opportunity to cure breaches of contract.",
+                "contradicted_law": "General contract law principles regarding 'reasonable opportunity to cure' breaches, as interpreted by courts and statutes which determine what length of time is reasonable. This may be considered an 'unconscionable' clause.",
+                "location": "Section 7.2(b)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The term of this Agreement shall be five years commencing on the Effective Date and ending at the close of business on the fifth anniversary of the Effective Date. This Agreement shall automatically renew for successive one-year terms unless one party gives the other party written notice of non-renewal at least six months prior to automatic renewal.",
+                "changed_text": "The term of this Agreement shall be five years commencing on the Effective Date and ending at the close of business on the fifth anniversary of the Effective Date. This Agreement shall automatically renew for successive one-year terms unless one party gives the other party written notice of non-renewal at least one month prior to automatic renewal.",
+                "explanation": "The original text requires a six-month notice for non-renewal, while the modified text reduces this to one month. This may not provide sufficient time for the other party to find an alternative agreement/service, potentially violating laws requiring reasonable notice for contract changes.",
+                "contradicted_law": "Contract law regarding reasonable notice periods, particularly if the service provided is critical and requires substantial time to replace.",
+                "location": "Section 7.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "NPC agrees to comply with all laws and regulations relating to confidentiality of customer lists and other information which are applicable to NCB and its agents or to NPC. NCB agrees to comply with all contractual obligations of NPC actually known to NCB and all laws and regulations applicable to NCB or NPC relating to confidentiality of customer lists and other information.",
+                "changed_text": "NPC agrees to comply with only those laws and regulations relating to confidentiality of customer lists and other information which are explicitly provided to them in writing by NCB. NCB agrees to comply with all contractual obligations of NPC actually known to NCB and all laws and regulations applicable to NCB or NPC relating to confidentiality of customer lists and other information.",
+                "explanation": "By stating that NPC only needs to comply with laws explicitly provided by NCB, the modified contract potentially creates non-compliance with privacy laws (such as GDPR or CCPA, depending on the data involved) that NPC is independently obligated to follow. It shifts the responsibility of legal compliance entirely onto NCB, which may not be permissible under applicable regulations.",
+                "contradicted_law": "Privacy laws such as GDPR, CCPA, and other state/federal laws concerning data protection and confidentiality.",
+                "location": "Section 8.1"
+            }
+        ]
+    }
+]

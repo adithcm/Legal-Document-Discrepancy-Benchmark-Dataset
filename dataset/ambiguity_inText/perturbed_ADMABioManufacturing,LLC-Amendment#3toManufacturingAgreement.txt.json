@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ADMABioManufacturing,LLC-Amendment#3toManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Should ADMA fail to supply a minimum of [***] Batches of Product (the \"Minimum Volume\") of Product during the time period as specified in this Amendment #3, ADMA agrees that Sanofi Pasteur shall be entitled to obtain from ADMA as liquidated damages, and not a penalty, amounting to $[***] ([***]) USD. ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma.",
+                "changed_text": "Should ADMA fail to supply a minimum of [***] Batches of Product (the \"Minimum Volume\") of Product during the time period as specified in this Amendment #3, ADMA agrees that Sanofi Pasteur shall be entitled to *negotiate* with ADMA for damages, and not a penalty, amounting to *an amount to be determined by mutual agreement*. ADMA *does not necessarily* accept and declare that *any* amount of damages is *necessarily* a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma.",
+                "explanation": "This change introduces ambiguity regarding the liquidated damages. The original text specifies a fixed amount, whereas the modified text replaces it with a negotiation process and removes ADMA's guaranteed acceptance of the original fair amount, thus creating a contradiction.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "In the event of a non-conformance in the Source Plasma at the time of delivery of the Source plasma at ADMA's place, or in the event of damaged Source Plasma, which non-conformance, damage or loss in the Source Plasma occurred prior to the transfer of risks in the Source Plasma to ADMA as per Section 7 below, it is agreed upon by the Parties that Sanofi Pasteur shall not be responsible, nor liable, to compensate or indemnify ADMA for the loss of business arising from the fact that, in such a case, the Source Plasma will no longer be manufactured by ADMA and consequently Sanofi Pasteur will not pay for the unproduced batch.",
+                "changed_text": "In the event of a non-conformance in the Source Plasma at the time of delivery of the Source plasma at ADMA's place, or in the event of damaged Source Plasma, which non-conformance, damage or loss in the Source Plasma occurred prior to the transfer of risks in the Source Plasma to ADMA as per Section 7 below, it is agreed upon by the Parties that Sanofi Pasteur shall not be responsible, nor liable, to compensate or indemnify ADMA for the loss of business arising from the fact that, in such a case, the Source Plasma will no longer be manufactured by ADMA and consequently Sanofi Pasteur will not pay for the unproduced batch *unless ADMA can demonstrate that the non-conformance was due to Sanofi Pasteur's negligence*.",
+                "explanation": "This change introduces a condition where Sanofi Pasteur might be liable despite the original clause stating they wouldn't be. The addition of 'unless ADMA can demonstrate that the non-conformance was due to Sanofi Pasteur's negligence' creates an exception that contradicts the initial absolute statement of non-responsibility.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss.",
+                "changed_text": "At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma *may* transfer to ADMA, subject to inspection and acceptance by ADMA within *five business days*. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss *if and only if ADMA has formally accepted the plasma after inspection*.",
+                "explanation": "The original text states the risk of loss transfers to ADMA upon delivery. The modified text introduces a conditional transfer based on inspection and acceptance, creating a period where the risk of loss is unclear, directly contradicting the original provision.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

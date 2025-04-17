@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GOCALLINC_03_30_2000-EX-10.7-PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This promotion shall begin on June 1,1999 and shall terminate June 1, 2000 (herein \"Term\") This term shall be extended for a 1 year period provided 3000 pagers per month are distributed to Purchase customers.",
+                "changed_text": "This promotion shall begin on June 1,1999 and shall terminate June 1, 2000 (herein \"Term\") This term shall be extended for a 1 year period provided 3000 pagers per month are distributed to Purchase customers. The term may also be extended indefinitely by mutual written agreement of both parties, regardless of pager distribution numbers.",
+                "explanation": "The original text specifies a clear condition (3000 pagers/month) for extending the term. The added sentence introduces a conflicting condition (mutual agreement, irrespective of pager numbers) which creates uncertainty and potential disputes about the actual term length.",
+                "location": "3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "On the last day of each month, the refund of Go Call's portion of the deposit shall be calculated by PageMaster Corporation for the           &bbsp;    prior month and will be forwarded to Go Call by check, along with                an extended accounting of all pagers and customers until                September 1, 2000, unless otherwise instructed by Go Call.",
+                "changed_text": "On the last day of each month, the refund of Go Call's portion of the deposit shall be calculated by PageMaster Corporation for the           &bbsp;    prior month and will be forwarded to Go Call by check, along with                an extended accounting of all pagers and customers until                September 1, 2000, unless otherwise instructed by Go Call. PageMaster Corporation reserves the right to withhold refund payments if Go Call is deemed to be in breach of any other clause of this agreement, regardless of pager delivery numbers.",
+                "explanation": "The original text clearly defines the refund schedule. The added sentence allows PageMaster to withhold payments based on a subjective 'breach' assessment, regardless of pager deliveries. This creates conflict and uncertainty in the payment terms. It contradicts the initial clear instruction to refund Go Call's deposit.",
+                "location": "6.b"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Each party shall bear its own cost of these procedures. A party                seeking discovery shall reimburse the responding party the cost                of production of the documents (to include search time and                reproduction time costs). The parties shall equally share the                fees of the arbitration and the arbitrator.",
+                "changed_text": "Each party shall bear its own cost of these procedures, unless the arbitrator determines that one party's claims or defenses were frivolous, in which case that party shall bear all costs, including attorney's fees, for both parties. A party seeking discovery shall reimburse the responding party the cost of production of the documents (to include search time and reproduction time costs). The parties shall equally share the fees of the arbitration and the arbitrator.",
+                "explanation": "The original text clearly states how costs are divided in dispute resolution. The added clause introduces a condition where one party bears all costs if their claims/defenses are deemed frivolous by the arbitrator. This creates an inconsistency and could deter parties from pursuing legitimate claims or defenses due to fear of incurring all costs.",
+                "location": "12.d"
+            }
+        ]
+    }
+]

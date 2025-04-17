@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information\") is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the time of the disclosure to Member, had become a part of the public domain.",
+                "changed_text": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information relating to Franchisor, its business plans, Franchised Businesses, or the System is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the time of the disclosure to Member, had become a part of the public domain.",
+                "explanation": "By removing 'knowledge, trade secrets or know-how' from the definition of Confidential Information, the clause becomes less specific. This creates uncertainty as to what constitutes confidential information, while later sections (like 2(a) regarding valuable specialized training) still rely on the original broader definition, causing contradiction.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "(c) Member covenants and agrees that during the Post-Term Period (defined below), except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a three (3) mile radius of the premises of your Franchised Business or within a three (3) mile radius of any Franchised Business then-operating or under construction to operate under the System.\n(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "changed_text": "(c) Member covenants and agrees that during the Post-Term Period (defined below), except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a three (3) mile radius of the premises of your Franchised Business or within a three (3) mile radius of any Franchised Business then-operating or under construction to operate under the System.",
+                "explanation": "By omitting the definition of \"Post-Term Period\" in section 2(d), section 2(c) becomes ambiguous. The contract mentions a Post-Term Period but fails to clearly define when this period begins and ends. This is a contradiction as the agreement relies on this period for enforcement but makes it impossible to enforce.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "Member acknowledges that any failure to comply with the requirements of this Agreement may cause Franchisor injury.",
+                "explanation": "By removing 'irreparable' as well as the 'Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement,' this creates an uncertainty. This clause will now be more difficult to enforce, by removing the previous text.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

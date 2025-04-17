@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "NETGEAR,INC_04_21_2003-EX-10.16-AMENDMENTTOTHEDISTRIBUTORAGREEMENTBETWEENINGRAMMICROANDNETGEAR.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products and is governed by the laws of the State of California except that body of law dealing with conflicts of law.",
+                "changed_text": "This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products.",
+                "explanation": "Removal of governing law provision. The governing law provision, which specifies that California law governs the contract, has been removed entirely. This creates ambiguity regarding which jurisdiction's laws apply in case of a dispute, potentially undermining the enforceability of the agreement. Without a designated jurisdiction, parties may argue over which laws should apply, leading to legal challenges and increased costs. Since the location is specified in the company addresses and implicitly California, the removal obscures the clear intentions of the parties to be under California law.",
+                "contradicted_law": "Contract Law - Governing Law Principles",
+                "location": "Section 19"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement may not be assigned by either party without prior written permission from the other party, which permission shall not be unreasonably withheld or delayed. Any attempt by either party to assign any right, or delegate any duty or obligation which arises under the Agreement without such permission will be voidable.",
+                "changed_text": "This Agreement may not be assigned by either party; any attempt by either party to assign any right, or delegate any duty or obligation which arises under the Agreement will be permissible.",
+                "explanation": "By removing the phrase \"without prior written permission from the other party, which permission shall not be unreasonably withheld or delayed.\" and changing \"voidable\" to \"permissible\" the text now contradicts itself. The first part states that the agreement may not be assigned and the second says assigning rights under the agreement will be permissible. This creates contradiction with regard to whether agreement can be assigned. This is especially important because assignment is often litigated.",
+                "contradicted_law": "Contract Law - Assignment Principles",
+                "location": "Section G"
+            }
+        ]
+    }
+]

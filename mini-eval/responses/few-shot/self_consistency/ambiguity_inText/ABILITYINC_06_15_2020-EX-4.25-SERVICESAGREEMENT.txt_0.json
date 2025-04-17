@@ -1,26 +1,29 @@
 [
     {
-        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\")",
-        "explanation": "There is a period of time between when the agreement is entered into (October 1, 2019) and when it becomes effective (November 1, 2019). However, the agreement does not specify how actions taken during this period are to be handled. This ambiguity could cause issues if the Recipient begins utilizing services before the Effective Date, as there would be uncertainty about which terms govern. This creates ambiguity around the obligations and responsibilities of each party between October 1st and November 1st.",
+        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"), by and between [ * * * ] (the \"Provider\"), and TELCOSTAR PTE, LTD., a company organized and existing under the laws of Singapore and Ability Computer & Software Industries Ltd, a company organized and existing under the laws of the State of Israel (each and both of them \"Recipient\").",
+        "explanation": "The agreement identifies both TELCOSTAR PTE, LTD. and Ability Computer & Software Industries Ltd as 'Recipient.' However, it later refers to 'Recipient' in the singular, potentially causing confusion when obligations apply to only one or both entities.",
         "location": "Preamble",
-        "category": 1,
+        "category": 5,
         "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "Provider may not make any change in the Provider Representatives without the prior consent of the Recipient. Provider Representatives shall be dedicated to solely providing the Services to Recipient and shall not provide any such services or resources to Provider or any other customer of Provider.",
-        "explanation": "The requirement that Provider Representatives be 'solely providing the Services to Recipient' conflicts with the Provider's business model as an independent contractor who should be free to work for other clients. This creates an in-text contradiction as it restricts the Provider's ability to operate its business independently, undermining the independent contractor relationship described in Section 1.2(d). If they are solely dedicated to the recipient then that almost creates more of an employee/employer relationship.",
-        "location": "Section 1.2(c)",
-        "category": 3,
-        "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "The phrase 'Agreement be deemed effective as of the Effective Date, Agreement' is structurally flawed and grammatically incorrect. It doesn't convey a clear meaning regarding when the agreement becomes effective, other than referring to the 'Effective Date' which is defined earlier but repeats the word 'Agreement' unnecessarily. This lack of clarity affects understanding the start date of obligations under the contract.",
+        "explanation": "The phrase 'This Agreement be deemed effective as of the Effective Date, Agreement' is structurally flawed and grammatically incorrect. It should read more clearly to establish the agreement's start date.",
         "location": "Section 3.1",
         "category": 9,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 90 (ninety) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
+        "explanation": "The termination clause allows termination 'in whole or in part,' but Section 3.5 states that upon termination 'in its entirety,' certain obligations survive. This raises a contradiction as to what obligations survive if termination is only 'in part.'",
+        "location": "Section 3.2",
+        "category": 1,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NYLIACVARIABLEANNUITYSEPARATEACCOUNTIII_04_10_2020-EX-99.8.KK-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "FIIOC may terminate this Agreement at any time upon ninety (90) days' written notice to Company.",
+                "changed_text": "FIIOC may terminate this Agreement at any time upon fourteen (14) days' written notice to Company.",
+                "explanation": "This change shortens the notice period FIIOC must provide to the Company before terminating the agreement. While contract law generally allows parties to agree on termination terms, unreasonably short notice periods can be challenged, particularly if they significantly disadvantage one party. In some jurisdictions, such a short notice period might be deemed unconscionable or not in good faith, especially considering the potential impact on the Company's operations and staffing if they rely on the agreement. A fourteen-day notice period could also run afoul of state laws requiring 'reasonable' notice, as what is considered reasonable depends on the nature and duration of the agreement. Given the complexity of financial services agreements, fourteen days is likely insufficient to meet the standard of reasonableness.",
+                "contradicted_law": "Potential violation of implied covenant of good faith and fair dealing; potential violation of state laws requiring 'reasonable' notice for contract termination.",
+                "location": "4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Should any Participation Agreement(s) between Company and any Fund(s) be terminated effective before the last day of a quarter, Company shall be entitled to a fee for that portion of the quarter during which the Participation Agreement was still in effect, unless such termination is due to misconduct on the part of the Company.",
+                "changed_text": "Should any Participation Agreement(s) between Company and any Fund(s) be terminated effective before the last day of a quarter, Company shall not be entitled to any fee regardless of when the termination happened, including if such termination is due to misconduct on the part of the Company.",
+                "explanation": "Denying payment for services rendered before termination, even for a partial quarter and even in the absence of misconduct, could violate principles of quantum meruit (unjust enrichment) and fair compensation. If the Company performed services during the quarter, denying payment for those services, regardless of the reason for termination, may be considered an unfair labor practice or a breach of contract in bad faith under Massachusetts law. Labor laws mandate compensation for work performed, and this clause attempts to circumvent that.",
+                "contradicted_law": "Potential violation of Massachusetts labor laws regarding payment for services rendered; principles of quantum meruit.",
+                "location": "3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may not be assigned without the written consent of the other party, which consent shall not be unreasonably withheld, except that it shall be assigned automatically to any successor to FIIOC as the Funds' transfer agent, and any such successor shall be bound by the terms of this Agreement.",
+                "changed_text": "This Agreement may be assigned without the written consent of the other party. FIIOC can assign this Agreement to whomever, regardless of if they are a Funds' transfer agent or not.",
+                "explanation": "This change allows FIIOC to assign the agreement to any third party without the Company's consent. This is problematic because the Company entered into the agreement based on FIIOC's capabilities and reputation as a qualified service provider. Allowing assignment to any entity, regardless of their qualifications or financial stability, could expose the Company to significant risk. This could conflict with the implied duty of good faith and fair dealing, as it undermines the Company's reasonable expectations when entering into the contract.",
+                "contradicted_law": "Potential violation of the implied duty of good faith and fair dealing under Massachusetts law; common law restrictions on assigning contracts where personal services or specific qualifications are material.",
+                "location": "6"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FuelcellEnergyInc_20191106_8-K_EX-10.1_11868007_EX-10.1_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within fifteen (15) days after the end of each calendar month that occurs during the remainder of the Term of the Agreement, subject to Paragraph 10.01(e), FCE will calculate and invoice ExxonMobil for the actual amounts incurred (for charges permitted in accordance with the respective Project Description(s)) during the immediately preceding calendar month.",
+                "changed_text": "Within sixty (60) days after the end of each calendar month that occurs during the remainder of the Term of the Agreement, subject to Paragraph 10.01(e), FCE will calculate and invoice ExxonMobil for the actual amounts incurred (for charges permitted in accordance with the respective Project Description(s)) during the immediately preceding calendar month.",
+                "explanation": "Changing the invoicing period to 60 days could violate prompt payment laws in certain states if the standard payment terms are significantly shorter for similar services. This creates a legal contradiction if state law mandates a faster invoicing timeline.",
+                "contradicted_law": "State Prompt Payment Laws (example: California Prompt Payment Act)",
+                "location": "Paragraph 10.01(c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Except as otherwise specifically provided herein, ExxonMobil agrees to pay FCE the amount of each invoice under this Agreement within thirty (30) days following ExxonMobil's receipt. Notwithstanding the foregoing, if ExxonMobil has a good faith dispute regarding any amounts invoiced by FCE, ExxonMobil may withhold payment for the disputed amount, provided that ExxonMobil pays the undisputed amount and notifies FCE in writing of the specific amount and nature of the dispute promptly upon receipt of FCE's invoice in which case the Parties shall attempt to resolve the dispute in good faith. The Parties shall endeavor to resolve such dispute within fifteen (15) days of notice of the dispute, and ExxonMobil shall remit payment to FCE within fifteen (15) days of resolution of such dispute.",
+                "changed_text": "Except as otherwise specifically provided herein, ExxonMobil agrees to pay FCE the amount of each invoice under this Agreement within sixty (60) days following ExxonMobil's receipt. Notwithstanding the foregoing, if ExxonMobil has a good faith dispute regarding any amounts invoiced by FCE, ExxonMobil may withhold payment for the disputed amount, provided that ExxonMobil pays the undisputed amount and notifies FCE in writing of the specific amount and nature of the dispute promptly upon receipt of FCE's invoice in which case the Parties shall attempt to resolve the dispute in good faith. The Parties shall endeavor to resolve such dispute within thirty (30) days of notice of the dispute, and ExxonMobil shall remit payment to FCE within thirty (30) days of resolution of such dispute.",
+                "explanation": "Extending the payment term to 60 days could contradict state laws mandating shorter payment periods for certain types of contracts. Similarly, increasing the dispute resolution and subsequent payment timeframe to 30 days each may violate prompt payment regulations that require faster dispute resolution and payment.",
+                "contradicted_law": "State Prompt Payment Laws (example: New York State Finance Law)",
+                "location": "Paragraph 10.04"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Such notice, demand, request, or other communications will be deemed to have been sufficiently given by and will be effective upon the earliest of: (a) delivering the same to a reputable courier service that requires a signature upon delivery; (b) mailing the same by registered or certified first-class mail, postage prepaid, return receipt requested; (c) if an e-mail is provided, then by e-mail with receipt confirmation followed by mailing the same or (d) actual receipt by the addressee.",
+                "changed_text": "Such notice, demand, request, or other communications will be deemed to have been sufficiently given by and will be effective only upon: (a) delivering the same to a reputable courier service that requires a signature upon delivery; (b) mailing the same by registered or certified first-class mail, postage prepaid, return receipt requested.",
+                "explanation": "Removing email as a valid form of legal notification could be problematic under the Electronic Signatures in Global and National Commerce Act (ESIGN) if it hinders the ability of parties to conduct business electronically, or conflicts with specific state laws which authorize email as a form of legal notice.",
+                "contradicted_law": "Electronic Signatures in Global and National Commerce Act (ESIGN), Uniform Electronic Transactions Act (UETA)",
+                "location": "Article 16"
+            }
+        ]
+    }
+]

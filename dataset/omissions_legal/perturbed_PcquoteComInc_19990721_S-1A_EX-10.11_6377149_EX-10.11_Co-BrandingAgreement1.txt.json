@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-BrandingAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "ABW also agrees to include the following disclaimer on the access page to the co-branded service: \"PC Quote is not subject to liability for truth, accuracy, or completeness of the market data information nor is PC Quote liable for errors, mistakes or omissions in the data or for any delays or interruptions in the end user's receipt of the data. PC Quote does not warrant that the data provided may be relied upon for trading purposes.\"",
+                "changed_text": "ABW also agrees to include the following disclaimer on the access page to the co-branded service: \"PC Quote is not subject to liability for delays or interruptions in the end user's receipt of the data.\"",
+                "explanation": "The original disclaimer attempts to limit PC Quote's liability regarding the accuracy and completeness of market data. By removing the part of the disclaimer stating that PC Quote is not liable for the truth, accuracy, or completeness of the data, the contract no longer explicitly protects PC Quote from liability for providing inaccurate or incomplete data. This could create a legal contradiction because under consumer protection laws, particularly in states like Illinois (where PC Quote is based) and New York (where AB Watley is based), companies can be held liable for providing inaccurate information that leads to financial loss. The omission of this key liability protection makes the contract potentially non-compliant.",
+                "contradicted_law": "Illinois Consumer Fraud and Deceptive Business Practices Act, New York General Business Law § 349",
+                "location": "1.E"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "LIABILITY UNDER THIS AGREEMENT FROM ANY AND ALL CAUSES, INCLUDING, BUT NOT LIMITED TO, PROGRAM MALFUNCTION OR OPERATIONAL NEGLIGENCE, SHALL BE LIMITED TO GENERAL MONEY DAMAGES IN AN AMOUNT NOT TO EXCEED THE TOTAL CHARGES PAID BY ABW FOR THE SERVICES DURING THE MOST RECENT TWELVE (12) MONTHS OF THE AGREEMENT. SUCH LIMITATION SHALL BE THE EXTENT OF PCQ OR ABW'S LIABILITY REGARDLESS OF THE FORM IN WHICH ANY LEGAL OR EQUITABLE ACTION MAY BE BROUGHT AGAINST PCQ OR ABW, AND THE FOREGOING SHALL CONSTITUTE PCQ'S OR ABW'S SOLE REMEDY. IN NO EVENT WILL EITHER PARTY BE RESPONSIBLE FOR LOST PROFITS OR SPECIAL INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES WHICH ABW OR PCQ INCUR OR EXPERIENCE ON ACCOUNT OF ENTERING INTO OR RELYING ON THIS AGREEMENT, EVEN IF PCQ OR ABW HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "changed_text": "LIABILITY UNDER THIS AGREEMENT FROM ANY AND ALL CAUSES SHALL BE LIMITED TO GENERAL MONEY DAMAGES. IN NO EVENT WILL EITHER PARTY BE RESPONSIBLE FOR LOST PROFITS OR SPECIAL INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES WHICH ABW OR PCQ INCUR OR EXPERIENCE ON ACCOUNT OF ENTERING INTO OR RELYING ON THIS AGREEMENT, EVEN IF PCQ OR ABW HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "explanation": "The original clause limits liability to the total charges paid in the last 12 months, offering some financial protection. By removing this cap and the reference to 'operational negligence', the modified clause creates ambiguity. It is more difficult to determine the maximum liability, and leaves out the part about negligance. This removal could be construed as an attempt to circumvent regulations concerning the limits of liability waivers, which are often scrutinized under consumer protection laws. For instance, if PCQ's negligence causes significant financial harm exceeding the original limit, ABW might have a stronger legal argument to challenge the enforceability of the liability clause, particularly in states that disfavor overly broad liability waivers.",
+                "contradicted_law": "Illinois Compiled Statutes 815 ILCS 505/2 (Consumer Fraud Act), common law principles regarding unconscionable contract terms",
+                "location": "6.C"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "It is expressly understood and agreed to by the parties hereto that EXCEPT AS Source: PCQUOTE COM INC, S-1/A, 7/21/1999 SPECIFICALLY PROVIDED HEREIN, ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY EXCLUDED.",
+                "changed_text": "It is expressly understood and agreed to by the parties hereto that ALL WARRANTIES, EXPRESSED OR IMPLIED, ARE HEREBY EXCLUDED.",
+                "explanation": "The original clause includes the preface 'EXCEPT AS SPECIFICALLY PROVIDED HEREIN'. Removing this phrase strengthens the warranty disclaimer. In Illinois (applicable law as per section 11), while disclaiming implied warranties is generally permissible, the Uniform Commercial Code (UCC) requires such disclaimers to be conspicuous and not unconscionable. The complete removal of any exception clause combined with removing 'INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE' makes the disclaimer less balanced. Depending on the context and the nature of the 'SOFTWARE and HYPERFEED' provided, this could be deemed an unconscionable or overly broad disclaimer, especially if essential functionality is not guaranteed, potentially violating consumer protection principles embedded in the UCC.",
+                "contradicted_law": "Uniform Commercial Code (UCC), as adopted in Illinois (810 ILCS 5/2-316)",
+                "location": "7"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GIGGLESN_HUGS,INC_06_23_2016-EX-10.2-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement will be governed by and construed in accordance with the laws of the State of California excluding that body of law pertaining to conflict of laws, except with respect to issues governed by the copyright laws of the United States. Any legal action or proceeding arising under this Agreement will be brought exclusively in the federal or state courts located in Los Angeles County, California, and the parties hereby irrevocably consent to the personal jurisdiction and venue therein.",
+                "changed_text": "This Agreement will be governed by and construed in accordance with the laws of the State of Nevada excluding that body of law pertaining to conflict of laws, except with respect to issues governed by the copyright laws of the United States. Any legal action or proceeding arising under this Agreement will be brought exclusively in the federal or state courts located in Miami-Dade County, Florida, and the parties hereby irrevocably consent to the personal jurisdiction and venue therein.",
+                "explanation": "The agreement initially states it is governed by California law and disputes will be handled in Los Angeles County. However, the modified version indicates the law of Nevada shall govern the agreement while stating disputes shall be handled in Florida, creating a legal contradiction as to which state laws and jurisdiction apply.",
+                "contradicted_law": "Choice of Law and Venue clauses under contract law.",
+                "location": "11(a)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The parties agree to attempt to resolve any disputes, controversies or claims (\"Dispute\") arising out of or relating to this Agreement in a meeting between a representative of each party who has decision-making authority with respect to a Dispute. Should the meeting either not take place or not result in a resolution of the Dispute within thirty (30) days following notice of the Dispute to the other party, then either party may bring suit or action in accordance with this Agreement. Each party hereto agrees that in the event that the other party is required to engage an attorney to enforce any of the terms or obligations contained in this Agreement, the non-prevailing party shall pay all reasonable costs and expenses of that attorney or firm, whether or not a complaint or suit is filed with any court of competent jurisdiction.",
+                "changed_text": "The parties agree to attempt to resolve any disputes, controversies or claims (\"Dispute\") arising out of or relating to this Agreement in a meeting between a representative of each party who has decision-making authority with respect to a Dispute. Should the meeting either not take place or not result in a resolution of the Dispute within thirty (30) days following notice of the Dispute to the other party, then either party may bring suit or action in accordance with this Agreement. Each party hereto agrees that in the event that the other party is required to engage an attorney to enforce any of the terms or obligations contained in this Agreement, the non-prevailing party shall pay all reasonable costs and expenses of that attorney or firm, only if a complaint or suit is filed with any court of competent jurisdiction.",
+                "explanation": "The original clause states that the non-prevailing party will pay all reasonable costs and expenses regardless of whether a complaint or suit is filed with any court of competent jurisdiction. The altered clause introduces an ambiguity: The altered section says if suit is not filed, each party is responsible for its own costs. This uncertainty undermines the clarity and enforceability of the attorney's fees clause.",
+                "contradicted_law": "Contract Law related to attorney's fees and enforcement costs.",
+                "location": "11(b)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Sections 5, 6 and 11 shall survive termination of this Agreement.",
+                "changed_text": "Only Section 11 shall survive termination of this Agreement.",
+                "explanation": "The agreement initially states that the confidentiality (section 5), non-solicitation (section 6), and general provisions (section 11) sections survive termination of the agreement. Altering it to state that only section 11 survives termination introduces contradiction. Sections 5 and 6 regarding Confidentiality and Non-solicitation, respectively, are significant protections for the company. If they do not survive termination, the consultant is then free to solicit clients, and may use confidential information after the contract ends, creating a vulnerability for the company.",
+                "contradicted_law": "Contract law regarding survivability of clauses, specifically related to confidentiality and non-solicitation agreements.",
+                "location": "11(i)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LiquidmetalTechnologiesInc_20200205_8-K_EX-10.1_11968198_EX-10.1_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.2 Payment Terms. Eutectix may issue an invoice for Liquidmetal Products any time after the shipment thereof to Liquidmetal. Payment terms are net 30 days after the date of the invoice, or the date of receipt by Liquidmetal of the invoice if the invoice is received more than 10 days after the date of the invoice. Unless otherwise stated in the applicable Order or as otherwise agreed in writing by the Parties, payment shall be made in U.S. Dollars.",
+                "changed_text": "3.2 Payment Terms. Eutectix may issue an invoice for Liquidmetal Products any time after the shipment thereof to Liquidmetal. Payment terms are net 30 days after the date of the invoice, or the date of receipt by Liquidmetal of the invoice if the invoice is received more than 10 days after the date of the invoice. However, Liquidmetal shall be entitled to a 2% early payment discount if payment is remitted within 15 days of the invoice date. Unless otherwise stated in the applicable Order or as otherwise agreed in writing by the Parties, payment shall be made in U.S. Dollars.",
+                "explanation": "This change introduces an in-text contradiction by offering an early payment discount. The original text states 'Payment terms are net 30 days,' implying that full payment is due within 30 days. The addition of a 2% discount for payment within 15 days creates an optional, conflicting deadline. It is now unclear whether Liquidmetal can take the discount and still be fully compliant if they remit between 15 and 30 days, or if the 'net 30' clause truly applies if they are missing out on a possible discount. This creates uncertainty in enforcement.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.9 Acceptance. Acceptance of the Liquidmetal Product shall be based on characteristics that are measurable by a quality system and designed to demonstrate compliance with the Specifications. Unless Liquidmetal notifies Eutectix that the Liquidmetal Product does not meet the Specifications within thirty (30) calendar days after receipt of the Liquidmetal Product, then the Liquidmetal Product shall be deemed Accepted.",
+                "changed_text": "3.9 Acceptance. Acceptance of the Liquidmetal Product shall be based on characteristics that are measurable by a quality system and designed to demonstrate compliance with the Specifications. Liquidmetal has ten (10) calendar days after receipt of the Liquidmetal Product to notify Eutectix that the Liquidmetal Product does not meet the Specifications. However, Unless Liquidmetal notifies Eutectix that the Liquidmetal Product does not meet the Specifications within thirty (30) calendar days after receipt of the Liquidmetal Product, then the Liquidmetal Product shall be deemed Accepted.",
+                "explanation": "The modified text creates an in-text contradiction regarding the time frame for Liquidmetal to notify Eutectix of non-conforming Liquidmetal Products. One sentence gives Liquidmetal ten (10) days to notify Eutectix, while the subsequent sentence states Liquidmetal has thirty (30) days to do so. This introduces uncertainty in enforcement, as it is unclear whether Liquidmetal has ten or thirty days to report defects.",
+                "location": "Section 3.9"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5.2 Termination for Convenience. Either Party may terminate this Agreement for any reason upon providing 180 days prior written notice to the other Party prior to the expiration of the then-current term or unless sooner terminated in accordance with the terms of this Agreement.",
+                "changed_text": "5.2 Termination for Convenience. Either Party may terminate this Agreement for any reason upon providing 180 days prior written notice to the other Party prior to the expiration of the then-current term or unless sooner terminated in accordance with the terms of this Agreement. However, Eutectix may terminate for convenience with only 90 days written notice if Liquidmetal's orders fall below $1,000,000 in the prior 12 month period.",
+                "explanation": "This change introduces a contradiction regarding the notice period required for termination for convenience. The original text states that either party may terminate with 180 days' notice. The added sentence creates an exception allowing Eutectix to terminate with only 90 days' notice under specific conditions. This ambiguity leads to uncertainty regarding which notice period applies in which situations, potentially leading to disputes.",
+                "location": "Section 5.2"
+            }
+        ]
+    }
+]

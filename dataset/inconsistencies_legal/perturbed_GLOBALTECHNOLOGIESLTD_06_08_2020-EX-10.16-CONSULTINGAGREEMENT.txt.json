@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GLOBALTECHNOLOGIESLTD_06_08_2020-EX-10.16-CONSULTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Party shall have the right to terminate this Agreement with notice, and the effective date of termination shall be the date such notice is received (by mail, overnight delivery, or fax) by the terminated Party.",
+                "changed_text": "Either Party shall have the right to terminate this Agreement with notice, and the effective date of termination shall be within 24 hours of when such notice is received (by mail, overnight delivery, or fax) by the terminated Party.",
+                "explanation": "This change introduces a legal contradiction because it stipulates that the termination is effective within 24 hours of receipt. This is problematic because it might not align with the specific notice periods required by Florida law (where the company is located), which might require a longer notice period depending on the circumstances and the nature of the agreement. By mandating a 24-hour turnaround, the contract potentially violates legal requirements for reasonable notice.",
+                "contradicted_law": "Florida law regarding contract termination and reasonable notice periods.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If they do not reach such solution within a period of 60 days, then, upon notice by either party to the other, all disputes, claims, questions, or differences shall be finally settled by arbitration administered by the American Arbitration Association in accordance with the provisions of its Commercial Arbitration Rules. This Agreement and the legal relations among the Parties hereto shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict of law doctrine. The Parties agree that the venue for the resolution of all disputes arising under the terms of this Agreement and the transactions contemplated herein will be the County of Pinellas, State of Florida.",
+                "changed_text": "If they do not reach such solution within a period of 15 days, then, upon notice by either party to the other, all disputes, claims, questions, or differences shall be finally settled by arbitration administered by the American Arbitration Association in accordance with the provisions of its Commercial Arbitration Rules. This Agreement and the legal relations among the Parties hereto shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict of law doctrine. The Parties agree that the venue for the resolution of all disputes arising under the terms of this Agreement and the transactions contemplated herein will be the County of Pinellas, State of Florida.",
+                "explanation": "The original text provides a 60-day period for mediation before resorting to arbitration. This change reduces that period to 15 days. By shortening the mediation period to 15 days, the contract could be deemed as not providing a reasonable opportunity to resolve disputes through mediation, potentially conflicting with Florida's preference for alternative dispute resolution and good faith negotiation.",
+                "contradicted_law": "Florida statutes regarding mediation and good faith negotiation in contract disputes.",
+                "location": "Section 10(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company will regularly report amounts paid, if any, to the Consultant by filing Form 1099-MISC and/or other appropriate form with the Internal Revenue Service as required by law.",
+                "changed_text": "The Company will not report amounts paid, if any, to the Consultant, and the consultant is responsible for any reporting needed.",
+                "explanation": "By stating that 'The Company will not report amounts paid, if any, to the Consultant,' the contract directly contradicts IRS regulations that require companies to report payments made to independent contractors exceeding a certain threshold (typically $600) using Form 1099-NEC or 1099-MISC. This is a clear violation of federal tax law.",
+                "contradicted_law": "IRS regulations regarding Form 1099 reporting requirements for payments to independent contractors.",
+                "location": "Section 5"
+            }
+        ]
+    }
+]

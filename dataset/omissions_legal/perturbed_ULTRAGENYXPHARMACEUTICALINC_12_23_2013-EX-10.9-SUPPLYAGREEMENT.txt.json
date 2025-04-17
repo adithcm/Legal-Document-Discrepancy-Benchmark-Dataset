@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Cremer represents and warrants that all quantities of Product delivered under the Agreement were manufactured in accordance with GMP. The Product shall be free from defects if it is within the specifications according to Annex A.",
+                "changed_text": "Cremer represents and warrants that the Product shall be free from defects if it is within the specifications according to Annex A.",
+                "explanation": "By removing the warranty that the product is manufactured in accordance with GMP (Good Manufacturing Practices), the contract introduces a legal risk. Both German and US law (given Ultragenyx's location and intention to market the product) require pharmaceutical ingredients to be manufactured under GMP. Omitting this warranty exposes Ultragenyx to potential liability if the product is not manufactured to the required standards.",
+                "contradicted_law": "Sec. 4 para. 19 AMG (German Pharmaceuticals Act) and 21 CFR Part 210 (US FDA GMP regulations)",
+                "location": "Article 4, Section 3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Cremer's liability arising from this Agreement is limited to intentional misconduct or gross negligence. This limitation of liability does not apply to the injury of the life, body or health of a person, to claims according to the Product Liability Act (Produkthaftungsgesetz) or any other coercive legal liability claims.",
+                "changed_text": "Cremer's liability arising from this Agreement is limited to intentional misconduct or gross negligence.",
+                "explanation": "Removing the exceptions to the liability limitation, specifically the exclusion for injury to life, body, or health and claims under the Product Liability Act, violates fundamental principles of German law (where the contract is governed). German law prohibits the exclusion of liability for bodily harm and for claims arising from defective products under the Produkthaftungsgesetz. This omission creates a significant legal contradiction.",
+                "contradicted_law": "Produkthaftungsgesetz (German Product Liability Act) and § 276 BGB (German Civil Code)",
+                "location": "Article 4, Section 9"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within [***] days after receipt of the Product and all documentation (except such [***] day period will not apply for any latent defect). Within [***] days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Ultragenyx's choice, replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "changed_text": "In the event that the Product fails to conform to the Product Specifications, Ultragenyx may reject the Product by giving written notice to Cremer within [***] days after receipt of the Product and all documentation. Within [***] days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Cremer's choice, replace such quantity of Product with Product conforming to the Product Specifications or refund Ultragenyx the Price paid for such Product.",
+                "explanation": "By removing 'and/or GMP' from the rejection clause, the contract weakens Ultragenyx's right to reject non-conforming products if they fail to meet GMP standards. This is a legal contradiction, as German law (AMG) and US law (FDA regulations) require pharmaceutical ingredients to adhere to GMP. Also, by changing 'Ultragenyx's choice' to 'Cremer's choice' it takes away the right of Ultragenyx to choose between replacing the product and refunding it, this is a considerable loss of rights that violates state and federal laws.",
+                "contradicted_law": "Sec. 4 para. 19 AMG (German Pharmaceuticals Act) and 21 CFR Part 210 (US FDA GMP regulations) and UCC 2-714",
+                "location": "Article 4, Section 5"
+            }
+        ]
+    }
+]

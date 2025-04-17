@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2. Term This Agreement shall commence on the Effective Date and shall continue for an initial term of year as of the Effective Date. This Agreement shall automatically be renewed for successive one (1) year increments unless either party request in writing, at least ninety (90) days prior to the anniversary date, that this Agreement not to be renewed.",
+                "changed_text": "2. Term This Agreement shall commence on the Effective Date and shall continue for an initial term of year as of the Effective Date. This Agreement may be renewed at the sole discretion of the contractor, with no obligation to provide prior notice to the customer.",
+                "explanation": "The original text specified an automatic renewal unless a party objects in writing, creating an expectation of continued service. The modified text states the agreement may be renewed at the sole discretion of the contractor. The original text allows the customer to expect renewal unless they are notified, while the changed text gives the contractor unilateral power, contradicting the initial understanding of renewal conditions.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "10. Express Limited Warranty For the purpose of this Agreement, \"Warranty Period\" shall mean twelve (12) months as of the date of delivery to Customer. Contractor represents and warrants that, for the Warranty Period, the Products (i) will be free from defects in workmanship, material (only to the same extent as the original manufacturer of the material warrants the Contractor), and manufacture; (ii) will comply the Specifications IPC610.B standard (in all material respects and unless otherwise was instructed by Customer). Contractor further represents and warrants that the Product will consist of new materials.",
+                "changed_text": "10. Express Limited Warranty For the purpose of this Agreement, \"Warranty Period\" shall mean twelve (12) months as of the date of delivery to Customer. Notwithstanding the foregoing, Contractor offers no warranty on products sold under this agreement. Products are provided 'as is'.",
+                "explanation": "The original text establishes a 12-month warranty period for products delivered. The modified text completely negates this by stating 'Contractor offers no warranty,' creating a direct contradiction. This introduces uncertainty regarding the customer's rights related to defective products.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "14. Terms of Payments 14.1 Contractor will invoice Customer per each delivery or as provided in Sections 6 and 8 hereinabove. The invoice shall include all purchase order details. The invoice will be quoted in US Dollars. 14.2 Contractor and Customer agree to terms of payments of current plus thirty (30) days from the date of invoice. Payment shall be affected in US Dollars.",
+                "changed_text": "14. Terms of Payments 14.1 Contractor will invoice Customer per each delivery or as provided in Sections 6 and 8 hereinabove. The invoice shall include all purchase order details. The invoice will be quoted in US Dollars. 14.2 The customer is expected to remit payment immediately upon receipt of the invoice, and all payments are final.",
+                "explanation": "The original text clearly states payment terms as 'current plus thirty (30) days'. The modified text contradicts this by requiring 'immediate payment upon receipt of the invoice.' This contradiction creates uncertainty about when payment is actually due, increasing the risk of disputes.",
+                "location": "Section 14"
+            }
+        ]
+    }
+]

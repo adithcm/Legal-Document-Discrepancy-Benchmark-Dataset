@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DYNTEKINC_07_30_1999-EX-10-ONLINEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Late payments shall accrue interest at a rate equal to fifteen (15%) percent per annum.",
+                "changed_text": "Late payments shall accrue interest at a rate equal to twenty-five (25%) percent per annum.",
+                "explanation": "Many states have usury laws that limit the maximum interest rate that can be charged on debts. Charging 25% per annum may violate these laws, making the interest rate clause unenforceable. New York's usury laws, which govern this contract, restrict interest rates to 16% per annum.",
+                "contradicted_law": "New York General Obligations Law § 5-501 and New York Banking Law § 14-a",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(c) Tadeo shall have the right (but not the obligation) to terminate this Agreement and the rights granted to Diplomat hereunder if: (i) Diplomat is in material breach of any of its obligations hereunder, which breach is not cured within five days of receipt of written notice from Tadeo of such breach;",
+                "changed_text": "(c) Tadeo shall have the right (but not the obligation) to terminate this Agreement and the rights granted to Diplomat hereunder if: (i) Diplomat is in material breach of any of its obligations hereunder, which breach is not cured within two days of receipt of written notice from Tadeo of such breach;",
+                "explanation": "Providing only two days to cure a material breach may be considered unreasonably short, especially for complex or significant breaches, potentially violating the implied covenant of good faith and fair dealing. Standard commercial contracts typically provide a longer cure period, such as 10-30 days, and courts may find a 2-day period insufficient, making the termination clause unenforceable. This violates standard contract law principles requiring reasonable notice and opportunity to cure.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing under New York contract law.",
+                "location": "Section 3(c)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Diplomat will be required to notify Tadeo at least five business days before the date of planned examination.",
+                "changed_text": "Diplomat will be required to notify Tadeo at least one business day before the date of planned examination.",
+                "explanation": "Requiring only one business day's notice before an audit is unreasonable and can be viewed as restricting the auditing party's right to examine records effectively. Standard auditing practices and legal norms usually mandate a more substantial notice period (e.g., 10-30 days) to allow for adequate preparation and coordination, ensuring compliance with accounting principles and verification by governmental agencies. This short notice period contradicts the purpose of allowing Diplomat to effectively examine records and violates the implied duty of cooperation.",
+                "contradicted_law": "Implied Duty of Cooperation in contract performance under New York law.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

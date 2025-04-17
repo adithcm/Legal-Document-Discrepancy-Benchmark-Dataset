@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "USASYNTHETICFUELCORP_10_21_2010-EX-10.10-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(g) Attorneys' Fees. In the event either Party files an action to enforce or otherwise arising out of this Agreement, the prevailing Party in such action shall be entitled to reasonable attorneys' fees and court costs in addition to such other relief to which it may be entitled.",
+                "changed_text": "(g) Attorneys' Fees. In the event either Party files an action to enforce or otherwise arising out of this Agreement, each Party shall bear its own attorneys' fees and court costs regardless of the outcome.",
+                "explanation": "By stating that each party will bear its own attorneys' fees regardless of the outcome, this clause eliminates the possibility of the prevailing party recovering legal fees, which may be required or permitted under certain New York laws, such as those concerning breach of contract or specific performance. This alteration creates a legal risk by potentially contradicting statutory provisions that allow for fee shifting in certain types of cases. This creates a financial disincentive for parties to fully pursue their legal rights, especially if the potential recovery is less than the cost of litigation.",
+                "contradicted_law": "Potentially contradicts New York law regarding attorneys' fees in breach of contract or other relevant actions (though New York generally follows the American Rule, specific statutes or contractual provisions can alter this).",
+                "location": "Section 10(g)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(d) Consequential Damages. Neither Party shalI be liable to the other Party in connection with this Agreement or the subject matter hereof for any indirect, incidental, special or consequential damages, including but not limited to loss of revenue, cost of capital or loss of profit or business opportunity, whether such liability arises out of contract, tort (including negligence), strict liability or otherwise.",
+                "changed_text": "(d) Consequential Damages. Neither Party shall be liable to the other Party in connection with this Agreement or the subject matter hereof for any damages whatsoever, whether such liability arises out of contract, tort (including negligence), strict liability or otherwise.",
+                "explanation": "By removing the limitation to 'indirect, incidental, special or consequential damages' and stating 'any damages whatsoever,' this clause attempts to eliminate *all* forms of damage recovery. While parties can contractually limit consequential damages, a complete bar on all damages may be deemed unconscionable or against public policy, especially in situations involving gross negligence or willful misconduct. This introduces legal risk by potentially violating implied covenants of good faith and fair dealing under New York law, as it could effectively shield a party from liability even for egregious breaches of contract.",
+                "contradicted_law": "Potentially contradicts New York's implied covenant of good faith and fair dealing and general principles of contract law regarding enforceability of exculpatory clauses.",
+                "location": "Section 10(d)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(h) Governing Law. This Agreement, and the rights and obligations of the Parties hereunder, shall be subject to, and construed in accordance with, the laws of the State of New York.",
+                "changed_text": "(h) Governing Law. This Agreement, and the rights and obligations of the Parties hereunder, shall be subject to, and construed in accordance with the laws of the State of Delaware, excluding its conflict of laws principles.",
+                "explanation": "While choosing Delaware law is not inherently problematic, specifying the exclusion of Delaware's conflict of laws principles can create uncertainty. Delaware's conflict of laws principles might, in certain situations, point to another jurisdiction's law that provides stronger consumer protections or other mandatory rules that Delaware law lacks. By excluding these principles, the agreement attempts to rigidly adhere to Delaware law, even if doing so would deprive a party of legally mandated protections or benefits they would otherwise receive under the law that would normally apply. For example, if a dispute arises relating to property situated outside of Delaware, excluding conflict of law principles could lead to the application of Delaware contract law in a manner that contradicts local real property law.",
+                "contradicted_law": "Potential conflict with laws of jurisdictions outside of Delaware that may have a stronger connection to the dispute but are bypassed due to the exclusion of conflict of laws principles. Could undermine consumer protection laws that would otherwise apply.",
+                "location": "Section 10(h)"
+            }
+        ]
+    }
+]

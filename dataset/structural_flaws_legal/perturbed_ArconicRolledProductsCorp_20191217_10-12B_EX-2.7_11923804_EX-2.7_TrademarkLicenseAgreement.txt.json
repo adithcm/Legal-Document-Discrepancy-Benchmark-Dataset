@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_TrademarkLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Licensee shall defend, indemnify and hold harmless Licensor and its officers, directors, employees, agents, corporate subsidiaries, parents, and affiliates (\"Licensor Indemnitees\") from and against any and all demands, claims, actions or causes of action, assessments, deficiencies, damages, losses, liabilities and expenses (including, without limitation, reasonable expenses of investigation and attorneys' fees and expenses), incurred in conjunction with or arising out of or relating to any third-party claim concerning the Licensed Products and any acts or omissions of Licensee with respect to the Licensed Mark, including without limitation Licensee's performance of its obligations under this Agreement. The Licensor Indemnitees agree to cooperate with Licensee, at Licensee's expense, to provide copies of any documents or materials reasonably requested by Licensee in support of its defense of the Licensor Indemnitees.",
+                "changed_text": "Licensee shall defend, indemnify and hold harmless Licensor and its officers, directors, employees, agents, corporate subsidiaries, parents, and affiliates (\"Licensor Indemnitees\") from and against any and all demands, claims, actions or causes of action, assessments, deficiencies, damages, losses, liabilities and expenses (including, without limitation, reasonable expenses of investigation and attorneys' fees and expenses), incurred in conjunction with or arising out of or relating to any third-party claim concerning the Licensed Products and any acts or omissions of Licensee with respect to the Licensed Mark, including without limitation Licensee's performance of its obligations under this Agreement. The Licensor Indemnitees agree to cooperate with Licensee, at Licensee's own expense, to provide copies of any documents or materials reasonably requested by Licensee in support of its defense of the Licensor Indemnitees.",
+                "explanation": "By changing 'Licensee's expense' to 'Licensor's own expense', the indemnification clause becomes contradictory. It initially states Licensee is responsible for all costs related to claims, but then implies Licensor will bear its own expenses related to providing defense materials, blurring the lines of financial responsibility.",
+                "contradicted_law": "General contract law principles regarding indemnification, which typically require clear assignment of financial responsibility.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW EACH PARTY HEREBY IRREVOCABLY WAIVES ALL RIGHT OF TRIAL BY JURY IN ANY ACTION, PROCEEDING, CLAIM, OR COUNTERCLAIM ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR ANY MATTER ARISING HEREUNDER.",
+                "changed_text": "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW EACH PARTY HEREBY IRREVOCABLY WAIVES ALL RIGHT OF TRIAL BY JURY IN ANY ACTION, PROCEEDING, CLAIM, OR COUNTERCLAIM ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR ANY MATTER ARISING HEREUNDER. However, either party can reverse the waiver with a written statement sent within 30 days of the start of a dispute.",
+                "explanation": "The addition of 'However, either party can reverse the waiver with a written statement sent within 30 days of the start of a dispute' introduces a direct contradiction to the initial irrevocable waiver of a jury trial. This makes the clause ambiguous and creates doubt on whether the waiver is truly binding.",
+                "contradicted_law": "7th Amendment of the US Constitution and general contract law principles regarding waivers.",
+                "location": "Section 6.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement may not be assigned by Licensee without the consent of Licensor which consent shall not be unreasonably withheld. Notwithstanding the foregoing, no such consent of Licensor is required under this Agreement in the event of a Change of Control of Licensee so long as: (a) the resulting, surviving or transferee Person assumes all the obligations of the Licensee by operation of Law or pursuant to an agreement in form and substance reasonably satisfactory to the Licensor; and (b) the licenses granted herein shall not be transferrable or sublicensable to Affiliates of such Person unless such Affiliates were Affiliates of Licensee prior to such Change of Control.",
+                "changed_text": "This Agreement may not be assigned by Licensee without the consent of Licensor which consent shall not be unreasonably withheld. Notwithstanding the foregoing, no such consent of Licensor is required under this Agreement in the event of a Change of Control of Licensee; however, any assignment will automatically void this agreement.",
+                "explanation": "By adding 'however, any assignment will automatically void this agreement' after the exception for change of control, a contradiction is formed. The initial sentence allows assignment under specific conditions (change of control), while the added clause negates this possibility by terminating the agreement upon any assignment, creating a conflict in the clause.",
+                "contradicted_law": "General contract law principles regarding assignment and change of control clauses.",
+                "location": "Section 6.10"
+            }
+        ]
+    }
+]

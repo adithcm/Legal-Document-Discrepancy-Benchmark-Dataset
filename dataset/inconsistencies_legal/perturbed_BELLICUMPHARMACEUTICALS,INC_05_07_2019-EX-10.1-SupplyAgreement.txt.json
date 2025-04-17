@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BELLICUMPHARMACEUTICALS,INC_05_07_2019-EX-10.1-SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Bellicum shall inform Miltenyi in writing at least twelve (12) months in advance prior to any intended regulatory filing in an Additional Country.",
+                "changed_text": "Bellicum shall inform Miltenyi in writing at least one (1) month in advance prior to any intended regulatory filing in an Additional Country.",
+                "explanation": "The original text requires Bellicum to inform Miltenyi 12 months in advance of any regulatory filing in an additional country, ensuring compliance with regulatory timelines. This change reduces that notification period to one month, which is insufficient time to prepare the necessary regulatory documentation or Master Files and may violate regulatory requirements and prevent Miltenyi from adequately supporting the regulatory filing, potentially rendering the product unapprovable in that country. The regulatory requirements for submissions usually require far more than 1 month, like the 12 months initially provided.",
+                "contradicted_law": "Varies depending on the specific regulations of each country regarding regulatory filings, but generally violates requirements for adequate preparation and submission timelines.",
+                "location": "Section 2.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Except in the case of latent defects as described in Section 7.3, each shipment of Miltenyi Products shall be deemed accepted by Bellicum if Bellicum or its designated recipient of the shipment does not provide Miltenyi with written notice of rejection (a \"Rejection Notice\") within [...***...] days from the date of receipt of the relevant shipment of Miltenyi Product, describing the reasons for the rejection and the non-conforming characteristics of such Rejected Product in reasonable detail.",
+                "changed_text": "Except in the case of latent defects as described in Section 7.3, each shipment of Miltenyi Products shall be deemed accepted by Bellicum if Bellicum or its designated recipient of the shipment does not provide Miltenyi with written notice of rejection (a \"Rejection Notice\") within five (5) days from the date of receipt of the relevant shipment of Miltenyi Product, describing the reasons for the rejection and the non-conforming characteristics of such Rejected Product in reasonable detail.",
+                "explanation": "The original text allows a reasonable time period for the rejection of non-conforming products, but this change reduces the time for rejection to 5 days. This short time frame may not be sufficient for Bellicum to conduct thorough quality control testing, especially for complex pharmaceutical products, and may violate the implied warranty of merchantability, which requires a reasonable opportunity to inspect the goods. In the United States, the UCC requires a reasonable time for inspection and rejection. Most industries for these products will require at least 30 days, not the 5 provided here.",
+                "contradicted_law": "Uniform Commercial Code (UCC) Section 2-602, which requires a 'reasonable time' for rejection of goods. Also, potentially violates implied warranty of merchantability.",
+                "location": "Section 7.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notification to Miltenyi by Bellicum must occur within [...***...] days after Bellicum or Bellicum's designated recipient of the shipment becomes aware or reasonably should have become aware that the Miltenyi Product fails to comply with the Miltenyi Product Warranty.",
+                "changed_text": "Notification to Miltenyi by Bellicum must occur within ten (10) days after Bellicum or Bellicum's designated recipient of the shipment becomes aware or reasonably should have become aware that the Miltenyi Product fails to comply with the Miltenyi Product Warranty.",
+                "explanation": "The original text provides an undisclosed period for Bellicum to notify Miltenyi of latent defects discovered after initial acceptance, but this change sets a time limit of 10 days for notification of latent defects, which may not be sufficient, especially since latent defects are, by definition, not immediately discoverable. This change can be deemed unreasonable as it might not allow sufficient time to discover the latent defect. This is especially important when a third party, other than the contract parties, is involved. In this case, Miltenyi is using Bellicum's Subcontractor as a 'designated recipient of the shipment,' so 10 days for both those parties to identify the defect is unreasonable.",
+                "contradicted_law": "Potentially violates implied warranty laws and the requirement for reasonable notice under UCC, depending on the nature of the latent defect and the product.",
+                "location": "Section 7.3"
+            }
+        ]
+    }
+]

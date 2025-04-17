@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than ten (10) business days. If such period is greater than ten (10) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "changed_text": "This Sub-Reseller Agreement is effective as of the later of the dates beneath the Parties' signatures below (\"Sub-Reseller Effective Date\"), provided, however, that the dates of the Parties' signatures are not separated by a period of time greater than one hundred twenty (120) business days. If such period is greater than one hundred twenty (120) business days then this Sub-Reseller Agreement shall be deemed null and void and to be of no effect.",
+                "explanation": "The original agreement stipulates that the agreement is void if the signature dates are separated by more than ten business days. Extending this period to one hundred twenty business days could create enforceability issues. Contract law requires reasonable and timely execution; a period this long is unusual and may be viewed as commercially unreasonable, potentially conflicting with standard business practices and raising questions about the intent to enter into the agreement promptly.",
+                "contradicted_law": "General Contract Law - Reasonableness and Timeliness of Agreement Execution",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller; however, any breach by Sub-Reseller of the Agreement will not be deemed a breach by Reseller, except in cases of gross negligence.",
+                "explanation": "This change limits the Reseller's liability for Sub-Reseller breaches, except in cases of gross negligence. Vicarious liability principles often hold a principal responsible for the actions of their agents. Limiting this responsibility, especially when the Sub-Reseller acts as an agent or extension of the Reseller, could conflict with established legal principles of agency and vicarious liability.",
+                "contradicted_law": "Agency Law - Vicarious Liability",
+                "location": "Section 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained constitute the agreement between the Parties with respect to the primary subject matter of this Sub-Reseller Agreement but do not supersede any previous oral agreements between the Parties hereto with respect to specific performance metrics.",
+                "explanation": "This alteration introduces an exception to the 'entire agreement' clause by stating that previous oral agreements regarding specific performance metrics are not superseded. This conflicts with the parol evidence rule, which generally prevents the introduction of prior or contemporaneous oral agreements to contradict a fully integrated written contract. This change creates ambiguity and could render the 'entire agreement' clause ineffective, potentially undermining the certainty and enforceability of the written contract.",
+                "contradicted_law": "Contract Law - Parol Evidence Rule",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Servicer will manage, service, administer and collect on the Receivables with reasonable care using that degree of skill and attention that the Servicer exercises for all comparable device payment plan agreement receivables that it services for itself or others according to the Servicing Procedures.",
+                "changed_text": "The Servicer will attempt to manage, service, administer and collect on the Receivables using a level of skill and attention it deems appropriate for comparable device payment plan agreement receivables, subject to available resources and internal priorities.",
+                "explanation": "This change introduces ambiguity by replacing the standard of 'reasonable care' with a more subjective 'level of skill and attention it deems appropriate.' Adding 'subject to available resources and internal priorities' further weakens the obligation and could allow the Servicer to deprioritize servicing the Receivables.",
+                "contradicted_law": "This could potentially contradict the general fiduciary duties required in servicing agreements, as it allows for potentially negligent servicing based on internal factors.",
+                "location": "Section 3.2(a)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Servicer will maintain perfection of the security interest of the Issuer and the Indenture Trustee in each Receivable.",
+                "changed_text": "The Servicer will endeavor to maintain the security interest of the Issuer and the Indenture Trustee in each Receivable.",
+                "explanation": "Changing 'will maintain perfection' to 'will endeavor to maintain' weakens the legal obligation. 'Endeavor' suggests an attempt, but does not guarantee the required outcome. This introduces uncertainty about whether the security interest will actually be maintained.",
+                "contradicted_law": "This change potentially contradicts Article 9 of the UCC, which requires specific actions to maintain a perfected security interest.",
+                "location": "Section 3.2(c)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "On or about the 15th day of each month, and in no case later than at least two (2) Business Days before each Payment Date, the Servicer will deliver to the Depositor, the Indenture Trustee, the Owner Trustee, the Note Paying Agent, the Cap Counterparty, the Rating Agencies and the Administrator a servicing report (the \"Monthly Investor Report\") for that Payment Date and the related Collection Period.",
+                "changed_text": "On or about the 15th day of each month, and when feasible at least two (2) Business Days before each Payment Date, the Servicer will endeavor to deliver to the Depositor, the Indenture Trustee, the Owner Trustee, the Note Paying Agent, the Cap Counterparty, the Rating Agencies and the Administrator a servicing report (the \"Monthly Investor Report\") for that Payment Date and the related Collection Period.",
+                "explanation": "This change weakens the obligation by adding 'when feasible' and 'endeavor to deliver'. It makes the timely delivery of the Monthly Investor Report, a critical component for informing the stakeholders, conditional and uncertain.",
+                "contradicted_law": "This potentially conflicts with SEC regulations and reporting requirements for asset-backed securities, which demand consistent and predictable reporting timelines to ensure compliance and investor protection.",
+                "location": "Section 3.5(a)(i)"
+            }
+        ]
+    }
+]

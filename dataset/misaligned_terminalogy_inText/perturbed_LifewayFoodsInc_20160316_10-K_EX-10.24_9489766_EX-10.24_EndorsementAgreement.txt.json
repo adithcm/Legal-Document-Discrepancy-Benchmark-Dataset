@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LifewayFoodsInc_20160316_10-K_EX-10.24_9489766_EX-10.24_Endorsement Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "9. Compensation (a) In consideration of the rights granted by Individual hereunder, Lifeway agrees to pay Individual a royalty (the \"Royalty\") equal to $0.02 for each Lifeway product or individual item sold by Lifeway during each calendar month of the Term bearing Individual's first name, last name or other identifying personal characteristics; provided, however, the Royalty will cease being paid upon the death of Individual. Notwithstanding anything to the contrary herein, the Royalty will not exceed $50,000 in any month. All undisputed Royalty payments shall be made in U.S. dollars in cash or to the order of Individual and shall be due and payable within thirty (30) days after the end of each calendar month for sales during the previous month.",
+                "changed_text": "9. Compensation (a) In consideration of the rights granted by Individual hereunder, Lifeway may provide Individual a compensation (the \"Payment\") equal to $0.02 for each Lifeway product or individual item sold by Lifeway during each calendar month of the Term bearing Individual's first name, last name or other identifying personal characteristics; provided, however, the Payment may cease being paid upon the death of Individual. Notwithstanding anything to the contrary herein, the Payment will not exceed $50,000 in any month. All undisputed Payment amounts shall be made in U.S. dollars at Lifeway's discretion and shall be due and payable within sixty (60) days after the end of each calendar month for sales during the previous month.",
+                "explanation": "The terms 'Royalty' is changed to 'Payment' and 'agrees to pay' is changed to 'may provide', creating ambiguity. Additionally, 'shall be made in cash' is changed to 'at Lifeway's discretion' and the payment date has been changed from '30' to '60' days, introducing contradictory payment obligations.",
+                "location": "Section 9(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1. License - Individual grants Lifeway together with its affiliates, subsidiaries, parent companies and their representatives and employees have an unlimited, perpetual, non-exclusive, worldwide and, except as set forth in Section 9, royalty-free, right to use, reuse, publish, reproduce, perform, copy, create derivative works, exhibit, broadcast, and display throughout the world the name, image and likeness of Individual in Marketing Materials (as defined below) in connection with marketing, advertising or otherwise promoting the Lifeway products and/or services and for historical reference and display purposes and other internal purposes, including without limitation, internal sales meetings. Notwithstanding anything herein to the contrary, Lifeway shall be under no obligation to cause the Marketing Materials to be displayed, published or performed. Individual further waives the right to inspect or approve the Marketing Materials.",
+                "changed_text": "1. License - Individual grants Lifeway together with its affiliates, subsidiaries, parent companies and their representatives and employees have an unlimited, temporary, exclusive, worldwide and, except as set forth in Section 9, paid, right to use, reuse, publish, reproduce, perform, copy, create derivative works, exhibit, broadcast, and display throughout the world the name, image and likeness of Individual in Marketing Materials (as defined below) in connection with marketing, advertising or otherwise promoting the Lifeway products and/or services and for historical reference and display purposes and other internal purposes, including without limitation, internal sales meetings. Notwithstanding anything herein to the contrary, Lifeway may choose to cause the Marketing Materials to be displayed, published or performed. Individual further waives the right to inspect or approve the Marketing Materials.",
+                "explanation": "The terms 'perpetual' is changed to 'temporary', 'non-exclusive' is changed to 'exclusive', 'royalty-free' is changed to 'paid', and 'shall' is changed to 'may choose', creating ambiguity, this makes the contract internally contradictory.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "8. Indemnification - Individual agrees to indemnify, defend and hold harmless Lifeway from and against any and all claims, actions, causes or other expenses incurred arising from any misrepresentations or false statements made by the Individual in the Marketing Materials.",
+                "changed_text": "8. Indemnification - Individual may be required to protect Lifeway from any expenses related to inaccuracies in advertising content created by the Individual.",
+                "explanation": "Changing 'agrees to indemnify, defend and hold harmless' to 'may be required to protect' weakens the obligation and introduces ambiguity. Removing 'all claims, actions, causes' and specifying 'expenses related to inaccuracies in advertising content created by the Individual' narrows the scope of indemnification, potentially conflicting with a broader interpretation elsewhere in the contract related to 'Marketing Materials'. This also could be interpreted as no legal duty to 'defend'.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_FranchiseAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A. Guarantors shall pay or cause to be paid to Franchisor all monies payable by Master Franchisee under the Master Franchise Agreement on the days and times and in the manner therein appointed for payment thereof.",
+                "changed_text": "A. Guarantors shall pay or cause to be paid to Franchisor all monies payable by Master Franchisee under the Master Franchise Agreement within 180 days of the date when payment is due.",
+                "explanation": "This modification extends the payment deadline to 180 days. This creates a contradiction if the original Master Franchise Agreement specifies a shorter payment period (e.g., 30 days), which is common in franchise agreements. Extending the payment period unilaterally violates the original payment terms which are legally binding.",
+                "contradicted_law": "Breach of Contract - Violates the original terms of payment as specified in the Master Franchise Agreement.",
+                "location": "Section A"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "D. Franchisor shall not be obligated to proceed against Master Franchisee or exhaust any security from Master Franchisee or pursue or exhaust any remedy, including any legal or equitable relief against Master Franchisee, before proceeding to enforce the obligations of the Guarantors under this Guarantee, and the enforcement of such obligations may take place before, after, or contemporaneously with, enforcement of any debt or obligation of Master Franchisee under the Master Franchise Agreement.",
+                "changed_text": "D. Franchisor is obligated to proceed directly against the Guarantors without any prior attempt to recover from Master Franchisee. The Franchisor may pursue immediate legal action against the Guarantors without notifying the Master Franchisee of any default.",
+                "explanation": "This alteration removes the franchisor's obligation to first pursue remedies against the franchisee before seeking recourse from the guarantors. Many jurisdictions require lenders or creditors to first exhaust remedies against the primary debtor (Master Franchisee) before pursuing a guarantor, especially in scenarios involving small business franchises. By bypassing the Master Franchisee entirely and pursuing immediate action against the Guarantors, it can violate standard legal practice concerning guarantees and potentially expose the Guarantors to unfair liability before the primary debtor's inability to pay is established.",
+                "contradicted_law": "Guaranty Laws - Legal requirements regarding the order of pursuing debtors and guarantors may vary by jurisdiction. Some laws mandate pursuing the primary debtor first.",
+                "location": "Section D"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "H. This Guarantee shall be interpreted and construed under the laws of the state in which Franchisor has its principal place of business at the time the action is initiated. In the event of any conflict of law, the laws of such state shall prevail, without regard to the application of such state's conflict of law rules. If, however, any provision of this Guarantee would not be enforceable under the laws of the state in which Franchisor has its principal place of business at the time the action is initiated, and if the Master Franchisee's franchised business is located outside of such state and such provision would be enforceable under the laws of the state in which the Master Franchisee's franchised business is located, then such provision shall be interpreted and construed under the laws of that state. Any action brought to enforce or interpret this Guarantee in any court, whether federal or state, shall be brought within the county and state in which Franchisor has its principal place of business at the time the action is initiated, and Guarantors hereby waive all questions of personal jurisdiction or venue for the purpose of carrying out this provision.",
+                "changed_text": "H. This Guarantee shall be interpreted and construed solely under the laws of the state in which the Franchisor's lawyer is licensed. Guarantors hereby irrevocably consent to the exclusive jurisdiction and venue of the Franchisor's lawyer's county, waiving any objection to such venue. Any legal challenge must be submitted within 10 days of notification, or the right to challenge is forfeited.",
+                "explanation": "This modification attempts to impose the laws of the state where the Franchisor's lawyer is licensed, overriding the standard conflict of laws principles and potentially disadvantaging the Guarantors. It also restricts the venue to the Franchisor's lawyer's county, violating the Guarantors' right to a fair venue. Setting a deadline of just 10 days to challenge any legal action is highly restrictive and may conflict with statutory limitations periods for legal challenges. This also conflicts with the clause that indicates the laws of the state of business will apply.",
+                "contradicted_law": "Choice of Law and Venue - Violates principles of fair venue and choice of law, potentially conflicting with state laws regarding jurisdiction and statute of limitations.",
+                "location": "Section H"
+            }
+        ]
+    }
+]

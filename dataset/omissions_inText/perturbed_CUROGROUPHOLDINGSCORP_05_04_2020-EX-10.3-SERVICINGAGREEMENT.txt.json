@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CUROGROUPHOLDINGSCORP_05_04_2020-EX-10.3-SERVICINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "(b) From and after the date on which a Receivable or Participation Interest, as applicable, is sold to the Owner, the Servicer shall service and administer each related Serviced Asset for the benefit of the Owner and shall extend, amend or otherwise modify such Serviced Asset, by complying in all material respects with the following (collectively, the \"Servicing Standard\"): (A) reasonable care, using that degree of skill and attention that the Servicer exercises with respect to comparable receivables that it services for itself or others, and (B) Applicable Law.",
+                "changed_text": "(b) From and after the date on which a Receivable or Participation Interest, as applicable, is sold to the Owner, the Servicer shall service and administer each related Serviced Asset for the benefit of the Owner and shall extend, amend or otherwise modify such Serviced Asset, using that degree of skill and attention that the Servicer deems appropriate. Servicer shall always act in good faith.",
+                "explanation": "Removing the Servicing Standard definition creates an inconsistency. Later sections reference compliance with the Servicing Standard, but it is no longer clearly defined.  The phrase \"Servicer shall always act in good faith\" is subjective, and does not provide enough guidance or instruction to the Servicer.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Section 9. Compensation. The Servicer will be entitled to receive the Servicing Fee for the performance of the duties and provision of the services called for in this Agreement in accordance with, and subject to, the Loan Agreement. The Servicing Fee shall be payable on each Payment Date for the immediately prior Servicing Period in accordance with Section 2.4 of the Loan Agreement. Any opinion, filing or other services performed by the Servicer hereunder that generates additional costs shall be at the expense of the Owner.",
+                "changed_text": "Section 9. Compensation. The Servicer will be entitled to receive a fee for the performance of the duties and provision of the services called for in this Agreement. Any opinion, filing or other services performed by the Servicer hereunder that generates additional costs shall be at the expense of the Owner.",
+                "explanation": "By removing any reference to the Servicing Fee being related to or subject to the Loan Agreement, the contract now contradicts itself. Annex A defines 'Servicing Fee' with specific calculation instructions tied to the Loan Agreement, but Section 9 no longer explicitly connects the Servicer's compensation to that defined term or the Loan Agreement. It creates uncertainty on how the fee is calculated, because it's mentioned in Annex A, but Section 9 fails to give more guidance. ",
+                "location": "Section 9"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Section 7. Term of Agreement; Resignation and Removal of Servicer.\n\n(a) This Agreement shall continue in force until the earlier to occur of (i) the Owner no longer owns any Receivables or Participation Interests, and (ii) subject to Section 7(d), the delivery of written notice of termination by the Owner to the Servicer pursuant to Section 7(c), in each case upon which event this Agreement shall automatically terminate unless otherwise agreed in writing between the Servicer and the Owner.\n\n(b) Subject to Section 7(d), the Servicer may resign its duties hereunder by providing the Owner with at least 60 days' prior written notice.",
+                "changed_text": "Section 7. Term of Agreement; Resignation and Removal of Servicer.\n\n(a) This Agreement shall continue in force until the Owner no longer owns any Receivables or Participation Interests, upon which event this Agreement shall automatically terminate unless otherwise agreed in writing between the Servicer and the Owner.\n\n(b) The Servicer may resign its duties hereunder by providing the Owner with at least 60 days' prior written notice.",
+                "explanation": "By removing \"subject to Section 7(d)\" in Section 7(a) and 7(b), this creates an internal contradiction because 7(d) describes that no termination, resignation or removal of the Servicer pursuant to this Section shall be effective until a successor servicer has been appointed and has agreed in writing to be bound by the terms of this agreement. However, with 7(a) and 7(b) saying termination/resignation can occur under their new conditions, there's a contradiction.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

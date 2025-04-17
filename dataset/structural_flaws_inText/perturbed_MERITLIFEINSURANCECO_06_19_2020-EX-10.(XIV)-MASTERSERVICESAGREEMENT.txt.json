@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTERSERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In all instances of a conflict, between the provisions of this Agreement and the specific provisions set forth in a Statement of Work, the provisions of this Agreement shall control.",
+                "changed_text": "In all instances of a conflict, between the provisions of this Agreement and the specific provisions set forth in a Statement of Work, the provisions of the Statement of Work shall control.",
+                "explanation": "This change directly contradicts the original agreement by stating that the Statement of Work takes precedence over the Master Services Agreement in case of conflict. This creates uncertainty about which set of terms is applicable.",
+                "location": "Section 1(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other.",
+                "changed_text": "At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason with written consent from both parties.",
+                "explanation": "The original clause allowed termination with just a 15-day notice. This change requires written consent from both parties for termination, effectively contradicting the 'for any or no reason' provision and adding a condition for termination.",
+                "location": "Section 6(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In the event that any term or provision of this Agreement shall be held to be invalid, void or unenforceable, then the remainder of this Agreement shall not be affected, impaired or invalidated, and each such term and provision of this Agreement shall be valid and enforceable to the fullest extent permitted by law.",
+                "changed_text": "In the event that any term or provision of this Agreement shall be held to be invalid, void or unenforceable, the entire Agreement shall be considered null and void.",
+                "explanation": "The original clause ensures the rest of the contract remains valid even if one part is invalid. This change states the entire agreement is void if any part is unenforceable, contradicting the principle of severability and potentially invalidating the whole contract based on one minor issue.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

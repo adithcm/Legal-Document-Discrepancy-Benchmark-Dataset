@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "STARTECGLOBALCOMMUNICATIONSCORP_11_16_1998-EX-10.30-CONSTRUCTIONANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "CAPACITY Capacity shall be categorized as follows: (i) Design Capacity The design ring capacity of Segment S of TAT-14, which is 640 Gbit/s. (ii) Allocated Capacity Number of Ring-MlUs distributed to Parties, based on their financial commitments at the time of signing of this Agreement, as shown in Schedule C. (iii) Purchased Capacity Capacity purchased after signing of this Agreement by a Purchase Contract. (iv) Sold Capacity The sum of the Allocated Capacity and the Purchased Capacity. (v) Common Reserve Capacity (CRC) The difference between the Design Capacity and the Sold Capacity.",
+                "changed_text": "CAPACITY Capacity shall be categorized as follows: (i) Design Capacity The design ring capacity of Segment S of TAT-14, which is 640 Gbit/s. (ii) Allocated Capacity Number of units distributed to Parties, based on their commitments at the time of signing of this Agreement, as shown in Schedule C. (iii) Purchased Capacity Capacity purchased after signing of this Agreement by a Purchase Contract. (iv) Sold Capacity The sum of the Allocated Capacity and the Purchased Capacity. (v) Common Reserve Capacity (CRC) The difference between the Design Capacity and the Sold Capacity.",
+                "explanation": "By changing 'Ring-MlUs' to 'units', the definition of 'Allocated Capacity' becomes vague. Later sections that rely on the specific definition of Ring-MlUs for billing and capacity management will become unenforceable due to this lack of clarity. This change introduces ambiguity, as the type of 'units' is now undefined.",
+                "location": "Page 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "16.1 The Terminal Parties, on behalf of the Parties and Purchasers, are responsible for operation and maintenance as follows: (i) Sprint shall be responsible for Segment T1; (ii) AT&T shall be responsible for Segment T2; (iii) BT shall be responsible for Segment T3; (iv) FT shall be responsible for Segment T4; (v) KPN shall be responsible for Segment T5; (vi) DTAG shall be responsible for Segment T6; (vii) Telia shall be responsible for Segment T7;",
+                "changed_text": "16.1 The Terminal Parties, on behalf of the Parties and Purchasers, are responsible for operation and maintenance as follows: (i) Sprint shall be responsible for Segment T1; (ii) AT&T shall be responsible for Segment T2; (iii) BT shall be responsible for Segment T3; (iv) FT shall be responsible for Segment T4; (v) KPN shall be responsible for Segment T5; (vi) DTAG shall be responsible for Segment T6;",
+                "explanation": "By removing the explicit assignment of operation and maintenance responsibility for Segment T7 to Telia, while leaving the other assignments intact, the contract now lacks clarity regarding who is responsible for this crucial segment. Other sections that reference the responsibilities outlined in Section 16.1 will be affected, particularly those concerning maintenance costs and liabilities related to Segment T7.",
+                "location": "Page 20"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "18.3 The Procurement Group is responsible for submitting all the detailed costs of the Cable Stations to the Managing Group for review and approval. 18.4 The capital costs associated with Segments T1 to T7 will be borne by the Parties in accordance with Schedule B. 18.5 The operation and maintenance costs associated with Segments T1 to T7 will be borne by the Parties in accordance with Schedule B. The Managing Group shall be responsible for determining the method and procedure for the charging of O&M costs to Purchasers and the distribution of any credit to the Parties in accordance with Schedule B.",
+                "changed_text": "18.3 The Procurement Group is responsible for submitting some of the costs of the Cable Stations to the Managing Group for review and approval. 18.4 The capital costs associated with Segments T1 to T7 will be borne by the Parties. 18.5 The operation and maintenance costs associated with Segments T1 to T7 will be borne by the Parties.",
+                "explanation": "By removing the phrase 'all the detailed costs' in 18.3 and 'in accordance with Schedule B' in sections 18.4 and 18.5, it creates uncertainty regarding how and what is submitted by the Procurement Group and the capital and operational costs will be distributed, making the financial obligations of the parties ambiguous and contradicting Schedule B later on, also impacting 'Cable Station Right of Use' and potential disputes.",
+                "location": "Page 23"
+            }
+        ]
+    }
+]

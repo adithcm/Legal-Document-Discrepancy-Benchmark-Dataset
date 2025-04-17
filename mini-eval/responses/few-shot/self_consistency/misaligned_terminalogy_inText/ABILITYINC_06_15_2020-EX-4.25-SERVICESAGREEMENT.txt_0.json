@@ -1,26 +1,29 @@
 [
     {
-        "section": "This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\")",
-        "explanation": "The contract states that it is entered into on October 1, 2019, but made effective on November 1, 2019. This can create ambiguity because the contract may be considered in effect between the period of October 1, 2019 and November 1, 2019.",
-        "location": "Preamble",
-        "category": 1,
-        "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "Provider shall use its best efforts to provide for employees or contractors to perform the Services, each of whose names, positions, and respective levels of experience and relevant licenses shall be set out in Exhibit A attached hereto (collectively, the \"Provider Representatives\"). Provider may not make any change in the Provider Representatives without the prior consent of the Recipient. Provider Representatives shall be dedicated to solely providing the Services to Recipient and shall not provide any such services or resources to Provider or any other customer of Provider.",
-        "explanation": "This section requires Provider Representatives to be dedicated solely to Recipient and not provide services to Provider's other customers. However, Section 1.1(a) allows for additional services 'at a price to be agreed upon.' This raises ambiguity: if those additional services require Provider Representatives to work beyond their capacity dedicated to Recipient, it creates a contradiction.",
-        "location": "Section 1.2(c)",
-        "category": 3,
-        "location_match": false,
-        "text_match": false
-    },
-    {
         "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "This section contains a structural flaw because it repeats the word 'Agreement' and is awkwardly phrased. It doesn't read smoothly and has questionable grammar, reducing clarity on the termination date.",
+        "explanation": "The phrase 'This Agreement be deemed effective as of the Effective Date, Agreement' is structurally flawed and grammatically incorrect, making it difficult to understand the intended meaning regarding the commencement of the agreement.",
         "location": "Section 3.1",
         "category": 9,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 90 (ninety) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
+        "explanation": "The text uses both '90' and '(ninety)' which could be interpreted as being different. Redundancy can cause confusion as it can be seen as an error.",
+        "location": "Section 3.2",
+        "category": 1,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "The Parties hereby irrevocably submit any disputes under this Agreement to the exclusive jurisdiction of the courts located in Tel-Aviv, Israel, provided however, that Recipient shall be entitled to seek an injunction or other appropriate remedy against Provider in the country in which Provider has acted in breach of the terms hereof.",
+        "explanation": "The clause states exclusive jurisdiction in Tel-Aviv, Israel, but then allows the Recipient to seek injunctions against the Provider in any country where the breach occurred. This creates a legal contradiction and ambiguity around the jurisdiction for dispute resolution.",
+        "location": "Section 7.3",
+        "category": 2,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

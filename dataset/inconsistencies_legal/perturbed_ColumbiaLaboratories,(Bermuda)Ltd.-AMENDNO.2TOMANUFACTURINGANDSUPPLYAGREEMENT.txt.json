@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ColumbiaLaboratories,(Bermuda)Ltd.-AMENDNO.2TOMANUFACTURINGANDSUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Claims relating to quantity, weight and loss or damage to any Product sold under this Agreement shall be waived by Columbia unless made within [***] of receipt of Product by Columbia.",
+                "changed_text": "Claims relating to quantity, weight and loss or damage to any Product sold under this Agreement shall be waived by Columbia unless made within 24 hours of receipt of Product by Columbia.",
+                "explanation": "Reducing the claim window to 24 hours is unreasonably short and likely contradicts standard commercial practices and potentially applicable sale of goods laws. A reasonable timeframe is typically required to allow for proper inspection and assessment of damages. This creates an unfair and likely unenforceable term.",
+                "contradicted_law": "Sale of Goods Act (UK) - Implied terms regarding reasonable opportunity to inspect goods.",
+                "location": "Section 3.3 (a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Columbia shall pay each invoice in full within [***] after the date of receipt by Columbia of such invoice, which shall be issued no earlier than the date on which the Product is delivered to the carrier by Fleet.",
+                "changed_text": "Columbia shall pay each invoice in full within 90 days after the date of receipt by Columbia of such invoice, which shall be issued no earlier than the date on which the Product is delivered to the carrier by Fleet.",
+                "explanation": "Extending the payment term to 90 days without specifying interest may violate UK Late Payment legislation. UK law sets specific guidelines for payment terms and the right to claim statutory interest for late payments, particularly for smaller businesses. This delay without addressing interest conflicts with these regulations.",
+                "contradicted_law": "Late Payment of Commercial Debts (Interest) Act 1998 (UK)",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Neither party shall, during the period of this Agreement nor for five (5) years thereafter, without the other party's express prior written consent, other than as provided under this Agreement, use or disclose any such Confidential Information for any purpose other than to carry out its obligations hereunder. Each Party shall guard such Confidential Information using the same degree of care as it normally uses to guard its own confidential, proprietary information of like importance, but in any event no less than reasonable care.",
+                "changed_text": "Neither party shall, during the period of this Agreement nor for one (1) year thereafter, without the other party's express prior written consent, other than as provided under this Agreement, use or disclose any such Confidential Information for any purpose other than to carry out its obligations hereunder. Each Party shall guard such Confidential Information using the same degree of care as it normally uses to guard its own confidential, proprietary information of like importance, but in any event no less than minimal care.",
+                "explanation": "Reducing the confidentiality period to one year for proprietary information and lowering the required standard of care to 'minimal care' could be deemed unreasonable and unenforceable under UK law. Courts typically expect a reasonable period for confidentiality and a standard of care consistent with protecting commercially sensitive information. Such a drastic reduction may be seen as unconscionable.",
+                "contradicted_law": "General contract law principles regarding reasonable terms and unconscionability (UK)",
+                "location": "Section 11.1"
+            }
+        ]
+    }
+]

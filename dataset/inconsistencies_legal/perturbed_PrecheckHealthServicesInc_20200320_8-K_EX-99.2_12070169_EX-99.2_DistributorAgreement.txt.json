@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "10. This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.",
+                "changed_text": "10. This Agreement shall be in effect until March 18, 2021, unless sooner terminated by either party upon (10) days written notice, without cause.",
+                "explanation": "Reducing the termination notice period to 10 days may violate state laws that require longer notice periods for contract termination, especially if the distributor has made significant investments based on the agreement. Many states favor reasonable notice which often exceeds 10 days considering the effort required to establish a distribution network.",
+                "contradicted_law": "Potentially violates implied covenant of good faith and fair dealing under Texas law, which requires reasonable notice for termination of contracts, especially when significant investments have been made by one party. Also, state franchise laws might mandate longer notice periods.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "11. In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory. Payment to be made upon shipment.",
+                "changed_text": "11. In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory. Payment to be made 90 days after shipment, contingent upon Principal's customer payment.",
+                "explanation": "Changing the payment terms to 90 days after shipment and making it contingent on the Principal's customer payment conflicts with standard commercial practices and potentially violates prompt payment laws or regulations in several states. Such a delayed and conditional payment term is significantly unfavorable to the distributor.",
+                "contradicted_law": "Potentially violates prompt payment laws in several states (e.g., California, New York) which mandate specific payment deadlines for goods or services rendered. Could also be seen as an unfair business practice.",
+                "location": "Section 11"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "17. This Agreement shall be construed in accordance with and governed by the laws of the State of Texas without regard to principles of conflicts of laws.",
+                "changed_text": "17. This Agreement shall be construed in accordance with and governed by the laws of the State of Delaware without regard to principles of conflicts of laws.",
+                "explanation": "While choice of law clauses are generally enforceable, a change to Delaware law may be problematic if the contract's performance and the parties involved are primarily based in Texas. Texas has specific regulations and case law regarding distributor agreements, and switching to Delaware law could potentially bypass these protections, leading to unintended legal consequences and conflicts with established Texas jurisprudence on distributor rights.",
+                "contradicted_law": "Potentially conflicts with Texas public policy and established case law regarding the protection of distributors within the state if the contract's performance is primarily centered in Texas.",
+                "location": "Section 17"
+            }
+        ]
+    }
+]

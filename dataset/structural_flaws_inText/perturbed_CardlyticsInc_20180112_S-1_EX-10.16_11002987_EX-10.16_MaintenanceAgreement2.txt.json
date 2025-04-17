@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4. Fees for Customizations:\n\n[SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE]\n\nIf the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "4. Fees for Customizations:\n\n[SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE]\n\nIf the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder. However, Bank of America's right to a refund is subject to the Supplier's sole discretion, depending on project status.",
+                "explanation": "The original text states that Bank of America 'shall receive a refund' if the price increases. The modified text adds a clause making the refund 'subject to the Supplier's sole discretion', contradicting the mandatory refund and creating uncertainty.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6 The Delivery and Installation Schedule for this Customization is:\n\nDelivery Date:\n\nInstallation Date:\n\n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "changed_text": "6 The Delivery and Installation Schedule for this Customization is:\n\nDelivery Date:\n\nInstallation Date:\n\n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]\n\nNotwithstanding the above, Supplier is not bound to any delivery or installation date mentioned here, as delays may occur.",
+                "explanation": "The original text sets up a Delivery and Installation Schedule. The added clause states the supplier is 'not bound to any delivery or installation date,' directly contradicting the purpose of the schedule and creating uncertainty about the actual delivery and installation commitments.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "8. Project Personnel:\n\n Bank of America Project Administrator:   Supplier Project Administrator:\n\n\n\n Bank of America Project Manager:   Supplier Project Manager:",
+                "changed_text": "8. Project Personnel:\n\n Bank of America Project Administrator:   Supplier Project Administrator:\n\n\n\n Bank of America Project Manager:   Supplier Project Manager:\n\nHowever, the Supplier reserves the right to change its assigned personnel at any time without prior notice or consent from Bank of America.",
+                "explanation": "The original text defines the Project Personnel. The added sentence allows the Supplier to change its assigned personnel 'at any time without prior notice,' contradicting the implied stability and potentially disrupting the project without Bank of America's input or consent.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

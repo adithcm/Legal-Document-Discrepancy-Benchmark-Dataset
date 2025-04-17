@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "STARTECGLOBALCOMMUNICATIONSCORP_11_16_1998-EX-10.30-CONSTRUCTIONANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.1      Definition of Terms\n\nAFFILIATE\n\n        A company in which not less than either ten percent (10%) or the highest         percentage  allowed by the local law,  whichever  is the lowest,  of its         voting  capital is owned  directly or indirectly by a Party or a company         owning  directly  or  indirectly  not less than  either ten (10%) or the         highest percentage allowed by the local law, whichever is the lowest, of         the voting capital of a Party.",
+                "changed_text": "1.1      Definition of Terms\n\nAFFILIATE\n\n        A company in which at least twenty percent (20%) of its voting capital is owned directly or indirectly by a Party. This definition shall only apply to Sections 9 and 30 of this agreement.",
+                "explanation": "The original definition of 'Affiliate' specified 'not less than either ten percent (10%) or the highest percentage allowed by the local law, whichever is the lowest.' The modified definition raises the minimum percentage to twenty percent (20%) without considering local law and restricts the application of this definition to Sections 9 and 30. This placement creates a conflict because the original definition still applies to all other sections, introducing ambiguity and uncertainty regarding the definition of 'Affiliate' throughout the agreement.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "9        ACQUISITION AND USE OF CAPACITY\n\n9.1      The Parties hereby acquire Allocated  Capacity in the form of Ring-MlUs          on an ownership basis as shown in Schedule C. After the signing of this          Agreement, capacity may only be acquired through a Purchase Contract or          through a Private Agreement, in accordance with this Paragraph 9.",
+                "changed_text": "9        ACQUISITION AND USE OF CAPACITY\n\n9.1      The Parties hereby acquire Allocated  Capacity in the form of Ring-MlUs          on an ownership basis as shown in Schedule C. After the signing of this          Agreement, capacity may be acquired through a Purchase Contract, Private Agreement, or mutual agreement amongst the parties, in accordance with this Paragraph 9.",
+                "explanation": "The original text clearly states that after signing the agreement, capacity may ONLY be acquired through a Purchase Contract or a Private Agreement. The changed text introduces the possibility of acquiring capacity through 'mutual agreement amongst the parties'. This creates an internal contradiction as it broadens the methods of capacity acquisition beyond the explicitly defined limits in the original text. This could lead to disputes about the validity of capacity acquired outside Purchase Contracts or Private Agreements.",
+                "location": "Section 9.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "25       DURATION OF AGREEMENT AND REALIZATION OF ASSETS\n\n25.1     This Agreement  shall become  effective on the Effective Date and shall          continue in operation for at least a period of  twenty-five  (25) years          (hereinafter  called \"Initial Period\") after the RFCS Date and shall be          terminable  thereafter by agreement of the Parties.  However, any Party          may terminate  its  participation  in this  Agreement at the end of the          Initial Period or at any time  thereafter by giving at least one year's          prior notice,  in writing,  to the other  remaining  Parties.",
+                "changed_text": "25       DURATION OF AGREEMENT AND REALIZATION OF ASSETS\n\n25.1     This Agreement  shall become  effective on the Effective Date and shall continue in operation for a period determined by the managing group after the RFCS Date. The managing group shall consider, as part of its decision, factors such as the profitability of the TAT-14 Cable Network and any outstanding financial obligations. Any Party may terminate its participation in this Agreement with termination effective immediately following written notice to the managing group.",
+                "explanation": "The original clause establishes a fixed Initial Period of twenty-five years after the RFCS Date with a one-year notice period for termination after that. The modified clause contradicts this by making the duration variable ('period determined by the managing group') and allowing immediate termination with written notice. This introduces significant uncertainty about the lifespan of the agreement and the commitment of the parties, potentially disrupting long-term planning and investment. The changed clause creates ambiguity and conflicts with subsequent sections that rely on the fixed 25-year initial period and 1-year notice period.",
+                "location": "Section 25.1"
+            }
+        ]
+    }
+]

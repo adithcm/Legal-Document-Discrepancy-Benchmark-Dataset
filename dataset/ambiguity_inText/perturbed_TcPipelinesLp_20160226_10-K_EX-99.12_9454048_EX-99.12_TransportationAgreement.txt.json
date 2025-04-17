@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_TransportationAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8. MAXIMUM DAILY QUANTITY (Dth/Day): 101,300\n\nPlease see Appendix A for further detail.",
+                "changed_text": "8. MAXIMUM DAILY QUANTITY (Dth/Day): 101,300\n\nNotwithstanding the above, the Maximum Daily Quantity is subject to operational adjustments, and the Transporter reserves the right to reduce this quantity based on system capacity. Shipper should refer to Appendix A for typically expected daily quantities.",
+                "explanation": "The original text states a clear maximum daily quantity. The modified text introduces ambiguity by stating that this quantity is subject to adjustments and may be reduced, creating a contradiction in the certainty of the specified quantity. This introduces uncertainty as to what constitutes the real maximum daily quantity.",
+                "location": "Paragraph 8"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "15. NOTICES AND COMMUNICATIONS:\n\nAll notices and communications with respect to this Agreement shall be in writing by mail, e-mail, or fax, or other means as agreed to by the parties, and sent to the addresses stated below or to any other such address(es) as may be designated in writing by mail, e-mail, or fax, or other means similarly agreed to:\n\nADMINISTRATIVE MATTERS Great Lakes Gas Transmission Limited Partnership Commercial Services 700 Louisiana St., Suite 700 Houston, TX 77002-2700\n\nANR PIPELINE COMPANY 700 Louisiana St., Suite 700 Houston, TX 77002-2700 Attn:",
+                "changed_text": "15. NOTICES AND COMMUNICATIONS:\n\nAll notices and communications with respect to this Agreement shall be in writing by mail, e-mail, or fax, or other means as agreed to by the parties, and sent to the addresses stated below or to any other such address(es) as may be designated in writing by mail, e-mail, or fax, or other means similarly agreed to. However, urgent operational communications may be delivered verbally, followed by written confirmation within 24 hours:\n\nADMINISTRATIVE MATTERS Great Lakes Gas Transmission Limited Partnership Commercial Services 700 Louisiana St., Suite 700 Houston, TX 77002-2700\n\nANR PIPELINE COMPANY 700 Louisiana St., Suite 700 Houston, TX 77002-2700 Attn:",
+                "explanation": "The original clause strictly requires all communications to be in writing. The change introduces an exception for urgent operational communications, which can be verbal initially. This creates a conflict because a party could argue that a critical notice was properly given verbally despite the earlier general requirement for written notices, leading to disputes regarding compliance and evidence of notification.",
+                "location": "Paragraph 15"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "12. INCORPORATION OF TARIFF INTO AGREEMENT:\n\nThis Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate Schedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time to time. Transporter may file and seek Commission approval under Section 4 of the Natural Gas Act (NGA) at any time and from time to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the \"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the right to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes and any such changes",
+                "changed_text": "12. INCORPORATION OF TARIFF INTO AGREEMENT:\n\nThis Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate Schedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time to time. However, in the event of any conflict between the terms of this Agreement and the FERC Gas Tariff, the terms of this Agreement shall prevail, unless the FERC Gas Tariff expressly mandates otherwise under applicable law. Transporter may file and seek Commission approval under Section 4 of the Natural Gas Act (NGA) at any time and from time to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the \"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the right to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes and any such changes",
+                "explanation": "The original clause states that the Agreement is subject to the General Terms and Conditions of the FERC Gas Tariff. The modification introduces a condition that in case of conflict, the terms of *this* agreement prevail, *unless* the Tariff mandates otherwise. This makes it unclear which document takes precedence, and on what grounds a conflicting provision in the Tariff would 'expressly mandate otherwise,' creating a significant ambiguity.",
+                "location": "Paragraph 12"
+            }
+        ]
+    }
+]

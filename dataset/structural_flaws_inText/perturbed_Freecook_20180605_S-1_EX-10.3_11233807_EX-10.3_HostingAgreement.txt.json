@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company, either directly or through its authorized service provider, shall provide customer service (the \"Customer Service\") relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is not obligated to provide any Customer Service except as specified in this Section. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
+                "changed_text": "Company, either directly or through its authorized service provider, shall provide customer service (the \"Customer Service\") relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is obligated to provide Customer Service as part of this agreement. Company's provision of customer service is entirely at its discretion and may be terminated or altered as the company sees fit without any prior notice or liability to company.",
+                "explanation": "The original text states Company *shall* provide customer service, but is *not obligated* to provide any except as specified. It then further states that company *at its sole discretion* may at any time alter or cease providing the Customer Service. The modified text attempts to create a contradiction by asserting an obligation to provide customer service, while simultaneously asserting the right to alter or cease providing it at the company's sole discretion without liability.",
+                "location": "4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+                "changed_text": "Client agrees to pay to Company a sum, to be determined at a later date based on an hourly rate of $40, to design and develop a website for Client (the \"Client Website\") and is not necessarily in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A. The company has the discretion to alter the initially agreed upon rate.",
+                "explanation": "The original text establishes a fixed contract price of $5,000. The modification changes the payment terms to an hourly rate to be determined later and removes the commitment to the agreed Scope of Work. It also grants the company the right to alter the initial rate, contradicting the intent of the defined contract price and creating potential for future disputes.",
+                "location": "1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "Client shall make a prepayment of $1,900, with the outstanding balance to be determined upon a final company evaluation of the scope of work. If the Client is not happy with the final company evaluation of the work done, the company may request a review with the Client, however, the company's decision remains binding.",
+                "explanation": "The original text states a payment of $3,100 on completion of the Scope of Work. The modified version introduces a 'final company evaluation', which contradicts the initial agreement. Additionally, it declares the company's decision as binding in case of a review, creating uncertainty and weakening the initially outlined payment agreement, therefore contradicting the original text.",
+                "location": "2"
+            }
+        ]
+    }
+]

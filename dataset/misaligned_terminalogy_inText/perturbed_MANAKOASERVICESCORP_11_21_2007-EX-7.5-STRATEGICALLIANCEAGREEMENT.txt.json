@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Strategic Alliance Agreement is made and entered into this 14 day of June 2006, by and between UTEK Corporation (\"UTEK\"), a Delaware Corporation, 2109 Palm Avenue, Tampa, Florida 33605, and Manakoa Services Corporation (\"MKOS\"), a Nevada Corporation, 7203 W Deschutes Avenue, Suite B, Kennewick, Washington 99336.",
+                "changed_text": "This Strategic Alliance Agreement is made and entered into this 14 day of June 2006, by and between UTEK Corporation (\"UTEK\"), a Delaware Corporation, 2109 Palm Avenue, Tampa, Florida 33605, and Manakoa Services Corporation (\"Client\"), a Nevada Corporation, 7203 W Deschutes Avenue, Suite B, Kennewick, Washington 99336.",
+                "explanation": "The term 'MKOS' is replaced with 'Client' in the introductory paragraph. While MKOS is defined later, this initial change creates ambiguity as to whether 'Client' and 'MKOS' are the same entity throughout the agreement. This can lead to confusion in later sections that refer only to MKOS.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "MKOS agrees that it will put in place, if it has not already done so, policies and procedures relating to and addressing, with the commercially reasonable intent to ensure compliance with, applicable securities laws, rules and regulations, including, but not limited to: A. Disclosure requirements regarding the required disclosure of the nature and terms of UTEK's relationship with, including, but not limited to press releases, publications on its web site, letters to investors and telephone or other personal communication with potential or current investors. B. No press releases or any other forms of communication to third parties, which mention both UTEK and MKOS, shall be released without the prior written consent and approval of both UTEK and MKOS.",
+                "changed_text": "Client agrees that it will put in place, if it has not already done so, policies and procedures relating to and addressing, with the commercially reasonable intent to ensure compliance with, applicable securities laws, rules and regulations, including, but not limited to: A. Disclosure requirements regarding the required disclosure of the nature and terms of UTEK's relationship with, including, but not limited to press releases, publications on its web site, letters to investors and telephone or other personal communication with potential or current investors. B. No press releases or any other forms of communication to third parties, which mention both UTEK and MKOS, shall be released without the prior written consent and approval of both UTEK and Client.",
+                "explanation": "Replaces one instance of \"MKOS\" with \"Client\", leading to uncertainty as to whether those separate instances refer to the same entity in the same section.",
+                "location": "VI. LEGAL COMPLIANCE"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "UTEK shall indemnify, defend and hold harmless MKOS from and against any and all losses incurred by MKOS which arise out of or result from misrepresentation, breach of warranty or breach or non- fulfillment of any covenant contained herein or Schedules annexed hereto or in any other documents or instruments furnished by UTEK pursuant hereto or in connection with this Agreement. 2. MKOS shall indemnify, defend and hold harmless UTEK from and against any and all losses incurred by UTEK which arise out of or result from misrepresentation, breach of warranty or breach or non-fulfillment of any covenant contained herein or Schedules annexed hereto or in any other documents or instruments furnished by MKOS pursuant hereto or in connection with this Agreement.",
+                "changed_text": "UTEK shall indemnify, defend and hold harmless MKOS from and against any and all losses incurred by MKOS which arise out of or result from misrepresentation, breach of warranty or breach or non- fulfillment of any covenant contained herein or Schedules annexed hereto or in any other documents or instruments furnished by UTEK pursuant hereto or in connection with this Agreement. 2. Client shall indemnify, defend and hold harmless UTEK from and against any and all losses incurred by UTEK which arise out of or result from misrepresentation, breach of warranty or breach or non-fulfillment of any covenant contained herein or Schedules annexed hereto or in any other documents or instruments furnished by MKOS pursuant hereto or in connection with this Agreement.",
+                "explanation": "Again, replacing 'MKOS' with 'Client' in section 2 of the indemnity clause. Coupled with the initial 'Client' definition, it makes it unclear whether the indemnity obligations are actually reciprocal or apply to distinct entities.",
+                "location": "VIII. OTHER MATERIAL TERMS AND CONDITIONS - A. INDEMNITY"
+            }
+        ]
+    }
+]

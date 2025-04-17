@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Supplier shall provide Bank of America with the scope of the audit and a complete copy of each report prepared in connection with each such audit within thirty (30) calendar days after it receives such report.",
+                "changed_text": "Supplier should endeavor to provide Bank of America with a general overview of the audit and a copy of the relevant excerpts from each report prepared in connection with each such audit when reasonably practical after it receives such report.",
+                "explanation": "The original text mandates a specific action within a defined timeframe, creating a clear legal obligation. The revised text introduces ambiguity by replacing 'shall provide' with 'should endeavor to provide,' making the action discretionary. 'General overview' and 'relevant excerpts' are vague and subjective, and 'when reasonably practical' weakens the timeframe, contradicting the Sarbanes-Oxley Act. This act requires specific financial reporting and auditing requirements, while this change does not comply with the strictness that is needed for financial reporting.",
+                "contradicted_law": "Sarbanes-Oxley Act",
+                "location": "33.2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "This media must be shredded using shredding techniques or machines such that Confidential Information in this media is completely destroyed as set forth herein when Supplier is finished with the Confidential Information contained thereon and it is no longer needed.",
+                "changed_text": "This media may be shredded using shredding techniques or machines such that Confidential Information in this media is generally unrecoverable when Supplier determines it is no longer actively needed.",
+                "explanation": "The original text mandates complete destruction of confidential information through shredding. The modified text weakens this obligation by using 'may be shredded,' making the action optional. The phrase 'generally unrecoverable' introduces ambiguity, as it does not guarantee complete data destruction. Additionally, 'when Supplier determines' gives the supplier sole discretion. This change potentially violates GLBA (Gramm-Leach-Bliley Act) requirements, which mandates secure and complete disposal of customer information. Using 'generally unrecoverable' as a standard doesn't meet the act's requirements.",
+                "contradicted_law": "Gramm-Leach-Bliley Act (GLBA)",
+                "location": "SCHEDULE E Information Security - INFORMATION DESTRUCTION REQUIREMENTS - Paper and Other Shreddable Media"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Supplier shall notify Bank of America immediately (within 24 hours or as soon thereafter as practicable) following discovery of any suspected breach or compromise of the security, confidentiality, or integrity of nonpublic personal information of any current or former Bank of America employee or customer (''Affected Persons\") or otherwise provided to Supplier by Bank of America under this agreement through the defined security escalation channel of Bank of America, the Bank of America Incident Response Team (\"InfoSafe\") by calling (800) 207-2322, option 1.",
+                "changed_text": "Supplier should use reasonable efforts to notify Bank of America within a reasonable time following discovery of a potential issue relating to the security of personal information of Bank of America personnel, if feasible, through existing communication channels.",
+                "explanation": "The original text mandates immediate notification (within 24 hours) of security breaches using a specific communication channel. The revised text weakens this obligation by replacing 'shall notify immediately' with 'should use reasonable efforts to notify within a reasonable time,' making the notification discretionary and delaying the timeframe. Replacing the defined security escalation channel with 'existing communication channels' introduces ambiguity, while the added 'if feasible' provides an easy out. This change could violate data breach notification laws (like those in California or GDPR), which often require specific timelines and methods for reporting data breaches.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA) / GDPR",
+                "location": "SCHEDULE E Information Security - DETECTION AND RESPONSE"
+            }
+        ]
+    }
+]

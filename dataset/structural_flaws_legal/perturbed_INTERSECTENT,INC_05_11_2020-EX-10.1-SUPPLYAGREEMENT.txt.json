@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INTERSECTENT,INC_05_11_2020-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6.3. DISCLAIMER. EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER PARTY MAKES ANY REPRESENTATION OR EXTENDS ANY WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.",
+                "changed_text": "14.15 Disclaimer: EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER PARTY MAKES ANY REPRESENTATION OR EXTENDS ANY WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.",
+                "explanation": "Moving the warranty disclaimer to a later section, and renaming it 'Disclaimer', makes it less prominent and harder to find. The original section 'Warranties' is designed to be very visible and easy to find by anyone reading the document. This is further degraded by renaming it to simply 'Disclaimer', further reducing its effectiveness.",
+                "contradicted_law": "Uniform Commercial Code (UCC) Article 2, which governs warranties in sales contracts.",
+                "location": "Section 6.3 to Section 14.15"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "14.6. Governing Law. This Agreement is to be governed by and construed in accordance with the laws of the State of New York, United States, notwithstanding any conflict of law provisions to the contrary. The United Nations Convention on Contracts for the International Sale of Goods shall not apply to this Agreement. Any action which in any way involves the rights, duties and obligations of either party hereto under this Agreement shall be brought in the courts of Geneva and the Parties to this Agreement hereby submit to the personal jurisdiction of any such court. The Parties waive any and all rights to have any dispute, claim or controversy arising out of or relating to this Agreement tried before a jury.",
+                "changed_text": "4.6 Governing Law. This Agreement is to be governed by and construed in accordance with the laws of the State of New York, United States, notwithstanding any conflict of law provisions to the contrary. The United Nations Convention on Contracts for the International Sale of Goods shall not apply to this Agreement. Any action which in any way involves the rights, duties and obligations of either party hereto under this Agreement shall be brought in the courts of Switzerland and the Parties to this Agreement hereby submit to the personal jurisdiction of any such court. The Parties waive any and all rights to have any dispute, claim or controversy arising out of or relating to this Agreement tried before a jury.",
+                "explanation": "Relocating the Governing law to an earlier section is confusing as many individuals would expect to find legal disclosures towards the latter portion of the text, rather than the former. This is further exasperated as the text now contradicts itself by stating it is governed by the laws of New York, but also governed by the courts of Switzerland.",
+                "contradicted_law": "General principles of contract law regarding clarity and consistency in legal agreements.",
+                "location": "Section 14.6 to Section 4.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.4. NOTWITHSTANDING ANYTHING IN THIS AGREEMENT TO THE CONTRARY, IN NO EVENT WILL EITHER PARTY BE LIABLE FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL OR INDIRECT DAMAGES ARISING OUT OF THIS AGREEMENT, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY. THIS LIMITATION WILL APPLY EVEN IF THE OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE; PROVIDED, HOWEVER, THAT THIS LIMITATION WILL NOT APPLY TO DAMAGES RESULTING FROM BREACHES BY A PARTY OF ITS DUTY OF CONFIDENTIALITY AND NON-USE IMPOSED UNDER THIS AGREEMENT OR THE CONFIDENTIALITY AGREEMENT OR SUCH PARTY'S INDEMNIFICATION OBLIGATIONS STATED ABOVE. FURTHER AND NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS AGREEMENT, THE TOTAL LIABILITY PER YEAR OF HOVIONE SHALL BE LIMITED TO THE VALUE OF THE REVENUES COLLECTED IN THE PREVIOUS CONTRACTUAL YEAR.",
+                "changed_text": "14.16. NOTWITHSTANDING ANYTHING IN THIS AGREEMENT TO THE CONTRARY, IN NO EVENT WILL EITHER PARTY BE LIABLE FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL OR INDIRECT DAMAGES ARISING OUT OF THIS AGREEMENT, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY. FURTHER AND NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS AGREEMENT, THE TOTAL LIABILITY PER YEAR OF HOVIONE SHALL BE LIMITED TO THE VALUE OF THE REVENUES COLLECTED IN THE PREVIOUS CONTRACTUAL YEAR; PROVIDED, HOWEVER, THAT THIS LIMITATION WILL NOT APPLY TO DAMAGES RESULTING FROM BREACHES BY A PARTY OF ITS DUTY OF CONFIDENTIALITY AND NON-USE IMPOSED UNDER THIS AGREEMENT OR THE CONFIDENTIALITY AGREEMENT OR SUCH PARTY'S INDEMNIFICATION OBLIGATIONS STATED ABOVE. THIS LIMITATION WILL APPLY EVEN IF THE OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+                "explanation": "The liability limitations clause is now located at 14.16, and the limitation of damages resulting from breaches has now been moved to the beginning, making it potentially less clear. The clause about being advised of such damage is moved to the end, making it harder to immediately notice.",
+                "contradicted_law": "General contract law principles requiring clear and unambiguous language regarding limitation of liability.",
+                "location": "Section 8.4 to Section 14.16"
+            }
+        ]
+    }
+]

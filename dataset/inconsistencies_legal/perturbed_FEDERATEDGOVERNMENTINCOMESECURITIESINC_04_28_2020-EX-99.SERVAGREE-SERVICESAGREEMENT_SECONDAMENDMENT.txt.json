@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERVAGREE-SERVICESAGREEMENT_SECONDAMENDMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon completion of a transaction, the transaction settlement group works with the broker and the account custodian to ensure timely and accurate exchange of securities and monies.",
+                "changed_text": "Upon completion of a transaction, the transaction settlement group will work with the broker and the account custodian to exchange securities and monies, provided such exchange occurs within 90 days of the transaction date.",
+                "explanation": "This change introduces a delay that could violate SEC regulations regarding the timely settlement of securities transactions. SEC Rule 15c6-1 requires settlement to occur no later than two business days after the trade date (T+2). Specifying a 90-day settlement period directly contradicts this requirement.",
+                "contradicted_law": "SEC Rule 15c6-1",
+                "location": "Section 1, Exhibit A, Paragraph 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Based on this proprietary analysis, the analyst makes buy, sell or hold recommendations to the Adviser.",
+                "changed_text": "Based on this analysis, which may or may not be proprietary, the analyst will provide buy, sell, or hold recommendations to the Adviser. The Adviser is required to act on these recommendations within 24 hours.",
+                "explanation": "This change requires the Adviser to act on recommendations within 24 hours. Investment advisors must have a reasonable basis for recommendations and cannot act solely based on analyst's advice, this change removes due diligence. SEC regulations require advisors to conduct their own independent analysis.",
+                "contradicted_law": "Investment Advisers Act of 1940 Section 206",
+                "location": "Section 1, Exhibit A, Paragraph 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Second Amendment shall be governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania.",
+                "changed_text": "This Second Amendment shall be governed by and construed in accordance with the laws of the Republic of Panama.",
+                "explanation": "Selecting a jurisdiction with potentially weaker investor protections and regulatory oversight could be seen as an attempt to evade US securities laws and regulations. This violates general principles of jurisdictional requirements and creates uncertainty about the applicable law and where disputes can be adjudicated.",
+                "contradicted_law": "Violates principle of 'minimum contacts' for jurisdiction",
+                "location": "Section 2"
+            }
+        ]
+    }
+]

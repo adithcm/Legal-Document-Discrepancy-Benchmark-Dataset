@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SigaTechnologiesInc_20190603_8-K_EX-10.1_11695818_EX-10.1_PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "\"Customer\" means a Third Party that has entered into a Customer Contract with MMT.",
+                "changed_text": "\"Customer\" means any Third Party that MMT contacts, regardless of whether a Customer Contract exists.",
+                "explanation": "This change introduces ambiguity in the definition of 'Customer'. In the original definition, there needs to be a Customer Contract. The change allows for a broader definition where the term applies to any third party that MMT approaches. This creates uncertainty about who is actually considered a 'Customer' under the agreement, especially in sections related to Customer Contracts and related obligations.",
+                "location": "ARTICLE 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "MMT will provide appropriate (as determined by MMT in its sole discretion) training (including regarding compliance with applicable Laws) of the MMT Promotion Personnel who will be communicating with potential customers about the Product.",
+                "changed_text": "MMT may provide training (excluding compliance with applicable Laws) of the MMT Promotion Personnel who will be communicating with potential customers about the Product.",
+                "explanation": "The original text specifies that MMT will provide appropriate training of the MMT Promotion Personnel including training on applicable laws but determined at MMT's sole discretion. The modified text removes the shall from the original statement and now states that MMT may provide training excluding compliance with applicable laws. This creates a contradiction and ambiguity, as another part of the contract enforces strict adherence to Laws. This creates an **internal contradiction** that creates uncertainty about the extent to which MMT promotion personnel are required to be compliant with laws.",
+                "location": "Section 4.1(e)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Parties agree that the material terms of this Agreement are the Confidential Information of both Parties, subject to the special authorized disclosure provisions set forth in this Section 10.4.",
+                "changed_text": "The Parties agree that the financial terms of this Agreement are NOT the Confidential Information of both Parties, subject to the special authorized disclosure provisions set forth in this Section 10.4.",
+                "explanation": "The original text states that the material terms of this agreement are the confidential information of both parties whereas the altered text states that the financial terms of this agreement are NOT the confidential information of both parties. Both are subject to the special authorized disclosure provisions but the **internal contradiction** creates uncertainty about whether the agreement is confidential or not.",
+                "location": "Section 10.4(a)"
+            }
+        ]
+    }
+]

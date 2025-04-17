@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Parties expressly agree that any and all uses or disclosures of the Confidential Information by a Party will be done in accordance with the terms of this Agreement and the provisions of all applicable federal and state laws and regulations.",
+                "changed_text": "The Parties shall endeavor to ensure that uses or disclosures of Confidential Information are generally aligned with the terms of this Agreement and should consider applicable federal and state laws and regulations.",
+                "explanation": "The original text mandates strict compliance with laws and the agreement terms. The revised version uses vague terms like 'endeavor to ensure' and 'generally aligned,' weakening the obligation. The phrase 'should consider' makes compliance optional rather than mandatory.",
+                "contradicted_law": "HIPAA (Health Insurance Portability and Accountability Act) - HIPAA mandates strict adherence to privacy and security rules regarding Protected Health Information (PHI). The modification introduces ambiguity that could lead to non-compliance with HIPAA's stringent requirements.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Use appropriate safeguards to maintain the security of the Confidential Information and to prevent unauthorized use and/or disclosure of such Confidential Information;",
+                "changed_text": "Use safeguards that are deemed reasonable to maintain the security of Confidential Information and attempt to prevent unauthorized use and/or disclosure of such Confidential Information;",
+                "explanation": "The original text requires 'appropriate safeguards' while the modified version changes that to safeguards 'deemed reasonable.' This introduces subjectivity and could result in insufficient security measures. Changing 'prevent' to 'attempt to prevent' further weakens the obligation.",
+                "contradicted_law": "HIPAA Security Rule - This rule requires specific and robust security measures to protect electronic Protected Health Information (ePHI). The ambiguous language could lead to inadequate security measures, violating HIPAA's specific requirements.",
+                "location": "Section 3.c"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Require all of its employees, representatives, subcontractors or agents that receive or use or have access to Confidential Information under this Agreement to agree in writing to adhere to the same restrictions and conditions on the use and/or disclosure of Confidential Information that apply herein, including the obligation to return or destroy the Confidential Information as provided under paragraph g of this Section 3.",
+                "changed_text": "Encourage its employees, representatives, subcontractors or agents that receive or use or have access to Confidential Information under this Agreement to acknowledge, potentially in writing, the restrictions and conditions on the use and/or disclosure of Confidential Information. The return or destruction of Confidential Information as provided under paragraph g of this Section 3 should be considered.",
+                "explanation": "The original text clearly states that all relevant parties MUST agree in writing. The modified version replaces 'Require' with 'Encourage' and states that they should 'potentially' agree in writing. This makes adherence voluntary. Furthermore, changing 'obligation' to 'should be considered' further weakens the requirement to return or destroy confidential information, making it optional.",
+                "contradicted_law": "HIPAA Business Associate Agreements - HIPAA requires covered entities to have Business Associate Agreements (BAAs) with any subcontractors or agents who have access to PHI, ensuring that they are contractually obligated to protect the information. This modification could invalidate the BAA by not ensuring that subcontractors are legally bound to the same standards, thus violating HIPAA.",
+                "location": "Section 3.d"
+            }
+        ]
+    }
+]

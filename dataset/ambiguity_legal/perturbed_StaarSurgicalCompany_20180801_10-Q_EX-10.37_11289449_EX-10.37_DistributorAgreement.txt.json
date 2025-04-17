@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "StaarSurgicalCompany_20180801_10-Q_EX-10.37_11289449_EX-10.37_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Distributor shall comply with all applicable laws, statutes, regulations and treaties relating to the marketing, distribution and sale of the Products and the performance of its duties and obligations hereunder.",
+                "changed_text": "Distributor shall endeavor to comply with applicable laws, statutes, regulations and treaties relating to the marketing, distribution and sale of the Products and the performance of its duties and obligations hereunder, to the extent reasonably practicable.",
+                "explanation": "Replacing 'shall comply' with 'shall endeavor to comply, to the extent reasonably practicable' weakens the obligation. 'Reasonably practicable' is subjective and creates ambiguity, making it difficult to enforce full compliance with all laws. This can create non-compliance with regulatory bodies.",
+                "contradicted_law": "Varies depending on the specific law in question within the relevant jurisdiction (defaulting to US law, consider FDA regulations for medical device distribution).",
+                "location": "Section 2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Distributor agrees to deliver to its customers at or before sale all specifications, inserts, instructions, and warnings furnished by STAAR and to retain records evidencing such delivery.",
+                "changed_text": "Distributor agrees to make a good faith effort to deliver to its customers specifications, inserts, instructions, and warnings furnished by STAAR, and to retain records documenting these efforts.",
+                "explanation": "Changing 'agrees to deliver' to 'make a good faith effort' introduces ambiguity and weakens the requirement for absolute delivery. Adding 'documenting these efforts' instead of 'evidencing such delivery' further diminishes the obligation to prove actual delivery. This conflicts with requirements to ensure adequate warnings are provided to patients.",
+                "contradicted_law": "FDA regulations regarding medical device labeling and provision of adequate warnings (21 CFR Part 801).",
+                "location": "Section 9.2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Distributor shall fully document and inform STAAR in writing of any Complaints or other matters addressed in this Section 10. Documentation with respect to Complaints shall include the Product model and serial or lot number, customer contact information, and as much detail as possible regarding the nature of the Complaint.",
+                "changed_text": "Distributor shall make reasonable attempts to document and inform STAAR in writing of Complaints or other matters addressed in this Section 10. Documentation with respect to Complaints should, where feasible, include the Product model and serial or lot number, customer contact information, and relevant details regarding the nature of the Complaint.",
+                "explanation": "Changing 'shall fully document and inform' to 'make reasonable attempts' and 'shall include' to 'should, where feasible, include' weakens the obligation to thoroughly document and report complaints. The phrase 'where feasible' allows distributor discretion in omitting key information, conflicting with post-market surveillance responsibilities.",
+                "contradicted_law": "FDA regulations regarding medical device reporting (MDR) and post-market surveillance (21 CFR Part 803).",
+                "location": "Section 10.3"
+            }
+        ]
+    }
+]

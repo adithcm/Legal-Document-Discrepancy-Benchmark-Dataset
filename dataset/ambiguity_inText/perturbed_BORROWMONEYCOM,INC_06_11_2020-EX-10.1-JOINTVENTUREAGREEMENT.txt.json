@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINTVENTUREAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4. The duration of this Venture (the \"Term\") will begin on March 1, 2020 and continue in full force and effect until February 28, 2025 or as otherwise provided in this Agreement. 5. The Term may be extended with the unanimous consent of all Members.",
+                "changed_text": "4. The duration of this Venture (the \"Term\") will begin on March 1, 2020 and continue in full force and effect until February 28, 2025 unless mutually terminated earlier. 5. The Term may be extended with the unanimous consent of all Members.",
+                "explanation": "The original text defines the term as lasting until a fixed date, or as otherwise provided in the agreement, while the changed version allows for mutual termination before that date. This creates a contradiction because 'Term' now has both a fixed end date and a variable one depending on mutual agreement. It is now unclear if the agreement can be terminated earlier than the fixed date of February 28, 2025, even without unanimous consent for an extension.",
+                "location": "Section 4 and 5"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "10. Within the limits of the Purpose of the Venture and the terms of this Agreement, the Managers, acting jointly, will have full authority to bind the Members in all matters relating to the direction, control and management of the Venture. Conduct and actions of the Managers will be dictated by policy and procedure established by the Members. Authority to bind the Venture in contract or in any third party business relation lies exclusively with the Managers, acting jointly.",
+                "changed_text": "10. Within the limits of the Purpose of the Venture and the terms of this Agreement, the Managers will have the authority to oversee the daily activities. However, any action that exceeds $10,000 requires explicit Member approval. Conduct and actions of the Managers will be dictated by policy and procedure established by the Members. Authority to bind the Venture in contract or in any third party business relation lies exclusively with the Managers, acting jointly, unless the amount exceeds $10,000, in which case prior approval of all members is required.",
+                "explanation": "The original text grants the Managers full authority to bind the members, while the modified version adds a condition that any action exceeding $10,000 requires member approval. This contradicts the initial grant of 'full authority' and introduces ambiguity about the scope of the Managers' power. It's uncertain which provision takes precedence.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "38. On the liquidation of the Venture assets, distribution of any amounts to Members will be made in proportion to their respective capital accounts or as otherwise may be agreed in writing.",
+                "changed_text": "38. On the liquidation of the Venture assets, distribution of any amounts to Members will be made equally to each member, regardless of their respective capital accounts, unless otherwise may be agreed in writing. Any debt to be paid before.",
+                "explanation": "The original text dictates distribution based on capital accounts, whereas the modified version stipulates equal distribution, overriding the capital account proportion. The phrase 'unless otherwise may be agreed in writing' maintains a superficial consistency, but the fundamental principle of distribution is now contradictory. It's now unclear which rule governs the distribution of assets.",
+                "location": "Section 38"
+            }
+        ]
+    }
+]

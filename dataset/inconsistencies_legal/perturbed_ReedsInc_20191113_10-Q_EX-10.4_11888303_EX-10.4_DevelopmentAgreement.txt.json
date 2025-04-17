@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ReedsInc_20191113_10-Q_EX-10.4_11888303_EX-10.4_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement at any time if any of the following occur: (i) the other party fails to comply with any requirements or obligations under this Agreement, and such non-compliance is not cured within 30 days following written notice from the other party identifying the non-compliance",
+                "changed_text": "Either party may terminate this Agreement at any time if any of the following occur: (i) the other party fails to comply with any requirements or obligations under this Agreement, and such non-compliance is not cured within 10 days following written notice from the other party identifying the non-compliance",
+                "explanation": "Reducing the cure period for non-compliance to 10 days may be considered unreasonably short, particularly for complex contractual obligations, and therefore could be deemed unconscionable or against public policy in some jurisdictions. New York courts often consider the reasonableness of cure periods, and a shorter period could be seen as insufficient to allow a party to rectify a significant breach.",
+                "contradicted_law": "General contract law principles regarding reasonable cure periods and unconscionability.",
+                "location": "Section 8(b)(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Impacted Party shall give notice within seven (7) days of the Force Majeure Event to the other party, stating the period of time the occurrence is expected to continue.",
+                "changed_text": "The Impacted Party shall give notice within one (1) day of the Force Majeure Event to the other party, stating the period of time the occurrence is expected to continue.",
+                "explanation": "Reducing the notification period for a Force Majeure Event to one day might be considered unreasonably short, especially given the potential for communication disruptions during such events. This may not provide sufficient time to assess the situation and prepare a comprehensive notice, potentially leading to disputes over the validity of the Force Majeure claim. This contradicts principles of good faith and fair dealing, requiring reasonable time for notification.",
+                "contradicted_law": "General contract law principles regarding reasonable notice and good faith performance.",
+                "location": "Section 15"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by, and any dispute arising hereunder shall be determined in accordance with, the laws of State of New York (without giving effect to conflict of laws principles) including all matters of construction, validity and performance. The parties agree that any claim or dispute arising under this Agreement shall be resolved by a court located in New York City, New York.",
+                "changed_text": "This Agreement shall be governed by, and any dispute arising hereunder shall be determined in accordance with, the laws of State of New York (without giving effect to conflict of laws principles) including all matters of construction, validity and performance. The parties agree that any claim or dispute arising under this Agreement shall be resolved by binding arbitration, with no right to appeal, regardless of the amount in controversy.",
+                "explanation": "Forcing binding arbitration with no right to appeal, regardless of the amount in controversy, may conflict with principles of fairness and due process, especially if the arbitration process is not transparent or if the arbitrator is biased. This may be deemed unconscionable in some jurisdictions, particularly if there is a significant power imbalance between the parties.",
+                "contradicted_law": "Contract law principles regarding enforceability of arbitration clauses and due process.",
+                "location": "Section 14"
+            }
+        ]
+    }
+]

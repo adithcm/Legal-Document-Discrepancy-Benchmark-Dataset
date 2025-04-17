@@ -1,26 +1,29 @@
 [
     {
         "section": "(c) \"CUSTOMERS\" means all users who access Co-Branded Site and complete at least one transaction per month.",
-        "explanation": "The definition of 'Customers' is ambiguous. Does 'complete at least one transaction per month' mean they need to complete one transaction every month, or just one transaction ever to be considered a 'Customer'? This lack of clarity could lead to disputes, especially regarding the calculation of advertising fees based on transaction inquiries from Customers.",
+        "explanation": "The definition of 'Customers' is ambiguous as it requires completing 'at least one transaction per month.' However, the agreement's term may extend beyond one month, making the temporal qualification unclear. This could lead to disputes regarding fees or obligations calculated based on the number of 'Customers.'",
         "location": "Section 1(c)",
         "category": 1,
         "location_match": false,
-        "text_match": true
-    },
-    {
-        "section": "The parties shall meet, at least once per month either in person, or by telephone, to coordinate the implementation of this agreement over time.",
-        "explanation": "This requirement to meet monthly lacks specifics. What is the duration of the meetings? Who specifically from each company needs to attend? What is the agenda or objective of these meetings? The ambiguity could lead to a party not taking the meeting seriously or claiming the other party is not fulfilling the meeting requirement.",
-        "location": "Section 2.6",
-        "category": 1,
-        "location_match": false,
-        "text_match": false
+        "text_match": true,
+        "explanation_match": false
     },
     {
         "section": "After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter.",
-        "explanation": "The calculation for advertising fees is based on 0.025% of the average transaction amount. It is unclear what 'the amount of the average Transaction' refers to. Is it the total dollar value of all transactions divided by the number of transactions? Or the dollar value of each transaction, and then calculate the average? The ambiguity can cause arguments.",
+        "explanation": "The fee calculation is not clearly defined. 0.025% multiplied by the average transaction amount would result in a very small number. It is unclear if this result is the 'per Transaction Inquiry amount' itself, or if it is used in a further calculation. This can lead to disputes over the payable amount.",
         "location": "Section 5.1",
         "category": 1,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "In addition, 2TheMart shall indemnify i-Escrow against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which i-Escrow may incur as a result of claims in any form by third parties arising from 2TheMart Content. In addition, i-Escrow shall indemnify 2TheMart against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which 2TheMart may incur as a result of claims in any form by third parties arising from i-Escrow Content and or the Services provided to Customers.",
+        "explanation": "The indemnification clauses are broad ('any and all claims in any form') and might not be enforceable in all jurisdictions. Some states limit the scope of indemnification, especially concerning certain types of damages or liabilities. This creates a potential legal contradiction between the contract and applicable state laws.",
+        "location": "Section 9",
+        "category": 6,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OMINTO,INC_03_29_2004-EX-10-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "MediaNet Group Technologies will remit payment as directed by Reseller in the time frames noted on the Compensation Schedule attached hereto.",
+                "changed_text": "MediaNet Group Technologies will remit payment as directed by Reseller within 90 days of receiving the invoice.",
+                "explanation": "The original contract references a 'Compensation Schedule' for payment timeframes, but the modified text sets a fixed 90-day payment term. This change introduces a contradiction if state law mandates shorter payment terms, especially for certain types of services or industries.",
+                "contradicted_law": "Varies by state; for example, some states have prompt payment laws for construction or government contracts with shorter deadlines.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate the Agreement on 60-days written notice during a renewed term.",
+                "changed_text": "Either party may terminate this Agreement on 15 days written notice during any term.",
+                "explanation": "Reducing the termination notice period to 15 days may conflict with state laws that require longer notice periods for contract termination, especially if it involves significant business relationships or ongoing obligations.",
+                "contradicted_law": "Varies by state; some states have laws requiring 30-day or longer notice for termination of certain types of contracts.",
+                "location": "Section 9.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each party shall, within 30 days of such expiration or termination return to other party or destroy all Confidential Information and all other material received from such other party.",
+                "changed_text": "Each party shall, within 90 days of such expiration or termination return to other party or destroy all Confidential Information and all other material received from such other party.",
+                "explanation": "Extending the deadline to 90 days might cause problems with state regulations regarding the immediate protection of trade secrets, especially in the context of potential theft or intellectual property infringement that has already been done.",
+                "contradicted_law": "It may conflict with the Uniform Trade Secrets Act if the business does not apply the regulation immediately.",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

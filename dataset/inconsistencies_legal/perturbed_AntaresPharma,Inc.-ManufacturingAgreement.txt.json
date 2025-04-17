@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AntaresPharma,Inc.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall promptly (but no later than [***] of receipt of such information) notify the other by telephone (to be confirmed in writing) of any information which might affect the marketability, safety, or effectiveness of the Products, sample Products or Trainers and/or which might result in the Recall or seizure of the Products, sample Products, or Trainers.",
+                "changed_text": "Each Party shall promptly (but no later than 72 hours of receipt of such information) notify the other by telephone (to be confirmed in writing) of any information which might affect the marketability, safety, or effectiveness of the Products, sample Products or Trainers and/or which might result in the Recall or seizure of the Products, sample Products, or Trainers.",
+                "explanation": "The original text utilizes a vague timeframe '[***]' for notifying the other party about information affecting product marketability or safety. The modified text changes this to a specific deadline of '72 hours'. While seemingly more precise, this timeframe could be insufficient under certain FDA regulations or guidelines, which might require immediate notification depending on the severity and nature of the issue. For example, if there is potential risk to the consumers the law requires to notify immediately.",
+                "contradicted_law": "21 CFR Part 7",
+                "location": "5.2(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Antares shall refer any questions and complaints (including safety and efficacy inquiries, quality complaints and adverse event reports) that it receives concerning the Device or the Products, sample Products or Trainers to AMAG (together with all available evidence and other information relating thereto) as soon as practicable and, in any event within [***] of Antares' receipt of such question or complaint; provided that all complaints concerning Product and sample Product tampering, contamination or mix-up (e.g., wrong ingredients) shall be delivered within [***] of Antares' receipt thereof.",
+                "changed_text": "Antares shall refer any questions and complaints (including safety and efficacy inquiries, quality complaints and adverse event reports) that it receives concerning the Device or the Products, sample Products or Trainers to AMAG (together with all available evidence and other information relating thereto) as soon as practicable and, in any event within 30 days of Antares' receipt of such question or complaint; provided that all complaints concerning Product and sample Product tampering, contamination or mix-up (e.g., wrong ingredients) shall be delivered within 25 days of Antares' receipt thereof.",
+                "explanation": "The changed text modifies the deadline for reporting complaints to AMAG to '30 days' generally and '25 days' for tampering/contamination issues. FDA regulations and guidance typically require much faster reporting of adverse events and product quality issues, particularly those involving potential safety risks. This extended timeframe could violate requirements for prompt reporting, potentially leading to delayed investigations and corrective actions.",
+                "contradicted_law": "21 CFR 314.80",
+                "location": "5.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall obtain and maintain commercial general liability insurance, including product liability insurance covering the obligations of that Party under this Agreement through the Term and for a period of [***] thereafter, which insurance shall afford limits of not less than (i) $[***] for each occurrence; and (ii) $[***] in the aggregate per annum.",
+                "changed_text": "Each Party shall obtain and maintain commercial general liability insurance, including product liability insurance covering the obligations of that Party under this Agreement through the Term and for a period of 1 year thereafter, which insurance shall afford limits of not less than (i) $1,000,000 for each occurrence; and (ii) $2,000,000 in the aggregate per annum.",
+                "explanation": "The original text uses '[***]' to indicate an undisclosed period for which insurance coverage must be maintained after the term of the agreement. The modification changes this to a specific duration of '1 year' and sets the minimum insurance limits to 'i) $1,000,000 for each occurrence; and ii) $2,000,000 in the aggregate per annum'. Depending on the nature of the pharmaceutical products and the scope of potential liabilities, this insurance coverage may be inadequate to meet regulatory requirements or cover potential claims. Some regulations require much higher coverage limits, therefore, this would cause a non-compliance with regulatory standards.",
+                "contradicted_law": "Varies based on product liability regulations and industry standards; potentially state-level insurance requirements for pharmaceutical manufacturers.",
+                "location": "9.3"
+            }
+        ]
+    }
+]

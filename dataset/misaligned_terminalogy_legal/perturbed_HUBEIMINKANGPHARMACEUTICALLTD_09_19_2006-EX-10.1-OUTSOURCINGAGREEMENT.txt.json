@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HUBEIMINKANGPHARMACEUTICALLTD_09_19_2006-EX-10.1-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Nevada, USA in force therein without regard to its conflict of law rules. All parties agree that by executing this Agreement they have attorned to the jurisdiction of the Supreme Court of the United States. The Supreme Court shall have exclusive jurisdiction over this Agreement.",
+                "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Nevada, USA in force therein without regard to its conflict of law rules. All parties agree that by executing this Agreement they have attorned to the jurisdiction of the Nevada Small Claims Court. The Nevada Small Claims Court shall have exclusive jurisdiction over this Agreement.",
+                "explanation": "The original text incorrectly assigns jurisdiction to the Supreme Court of the United States, which generally handles constitutional and federal law issues, not routine contract disputes. The modified text assigns jurisdiction to the Nevada Small Claims Court, which would be inappropriate for the USD amount specified in the contract if it exceeds the jurisdictional limit of that court. This misallocation of jurisdiction creates a legal contradiction because it conflicts with standard jurisdictional rules and could render this clause unenforceable.",
+                "contradicted_law": "Federal and State Jurisdictional Laws",
+                "location": "Governing Law And Arbitration"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Dolphin shall be entitled to defer any obligation hereunder in the event of force majeure, where force majeure is defined as an act of God, war, revolution, insurrection, riot, blockade or any other unlawful act against public order or authority, strike, lockout or other industrial disturbance, storm, fire, flood, explosion or lightning, the failure to obtain the approval or any government, governmental agency, commission, board or other tribunal having jurisdiction, and any other event not reasonably within the control of Dolphin",
+                "changed_text": "Dolphin shall be entitled to defer any obligation hereunder in the event of force majeure, where force majeure is defined as anything Dolphin deems to be disruptive to business operations. This includes, but is not limited to, weather, illness, employee dissatisfaction, and market fluctuations.",
+                "explanation": "The original 'force majeure' clause lists events typically considered outside a party's control. The modified clause broadens the definition to include events that are often within a party's control or are standard business risks, like 'employee dissatisfaction' or 'market fluctuations'. This is a legal contradiction because the standard legal definition of force majeure requires an unforeseeable act outside of one's control, whereas this expanded definition includes foreseeable and controllable events.",
+                "contradicted_law": "Common Law Definition of Force Majeure",
+                "location": "General: 1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Dolphin hereby indemnifies, holds harmless and defends DGT, its Board of Directors, officers, and agents against any and all claims (including all legal fees and disbursements incurred in association therewith) arising out of the exercise of any rights under this Agreement including, without limiting the generality of the foregoing, against any damages or losses, consequential or otherwise, arising from or out of the use of DGT's products under this Agreement by Dolphin or their customers or end-users howsoever the same may arise.",
+                "changed_text": "Dolphin hereby indemnifies, holds harmless and defends DGT, its Board of Directors, officers, and agents against any claims, regardless of origin. This includes situations where DGT's own gross negligence or willful misconduct caused the claim.",
+                "explanation": "Standard indemnity clauses do not typically cover situations where the indemnified party (DGT) is grossly negligent or engages in willful misconduct. By stating 'regardless of origin' and explicitly including DGT's gross negligence, the modified clause contradicts established legal principles that limit indemnity to situations where the indemnifying party (Dolphin) is at fault or contributes to the loss. This creates a legal contradiction and could make the indemnity clause unenforceable in many jurisdictions.",
+                "contradicted_law": "Common Law Limitations on Indemnity Agreements",
+                "location": "Indemnity And Limitation of Liability"
+            }
+        ]
+    }
+]

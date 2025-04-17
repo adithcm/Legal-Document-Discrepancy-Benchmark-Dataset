@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CerusCorporation-FIRSTAMENDTOSUPPLYANDMANUFACTURINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due [*] days following Cerus' receipt of the invoice submitted by Porex.",
+                "changed_text": "Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due 120 days following Cerus' receipt of the invoice submitted by Porex.",
+                "explanation": "Extended payment terms beyond a reasonable timeframe can be considered an unfair business practice, potentially conflicting with prompt payment laws that exist in many states to protect suppliers and small businesses. While federal law does not mandate specific payment deadlines in most commercial contracts, unreasonably long payment terms could be challenged under state-level 'prompt payment' statutes or general principles of good faith and fair dealing.",
+                "contradicted_law": "State Prompt Payment Laws and principles of good faith and fair dealing",
+                "location": "Section 1.5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Cerus shall have the right to accept or reject the Services, or any portion thereof, in writing within [*] days from Porex's completion of the Services. Such acceptance or rejection shall be consistent with the criteria set forth in the Statement of Work, if any. If Cerus does not reject in writing within [*] days, the Services shall be considered accepted by Cerus. Within [*] days of any notice of rejection, Porex shall present a corrective plan of action to Cerus.",
+                "changed_text": "Cerus shall have the right to accept or reject the Services, or any portion thereof, at any time after Porex's completion of the Services. Such acceptance or rejection shall be at Cerus' sole discretion. If Cerus does not reject the Services, it shall not be considered acceptance. There is no requirement for Porex to present a corrective plan of action to Cerus.",
+                "explanation": "Removing a defined timeframe for acceptance/rejection and eliminating the corrective action plan introduces ambiguity and potential unfairness. This could be seen as violating the implied duty of good faith and fair dealing, which requires parties to act honestly and reasonably in performing their contractual obligations. Setting no time limit on acceptance undermines Porex's ability to plan and manage its resources, as they won't have certainty about whether their services are accepted.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing",
+                "location": "Section 1.5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Cerus will not have responsibility to pay for identified errors, incomplete or inaccurate items (collectively the \"invoice errors\") which result in increases to previously invoiced amounts if the aforementioned invoice errors are communicated to Cerus later than [*] days from the original invoice date.",
+                "changed_text": "Cerus will not have responsibility to pay for identified errors, incomplete or inaccurate items (collectively the \"invoice errors\") which result in increases to previously invoiced amounts if the aforementioned invoice errors are communicated to Cerus later than 5 days from the original invoice date.",
+                "explanation": "Reducing the time frame to report invoice errors to a very short window (5 days) places an unreasonable burden on Porex and could violate the implied duty of good faith and fair dealing. A very short reporting window could be seen as an attempt to unfairly avoid paying for legitimate services rendered. Commercial reasonableness typically dictates a longer timeframe to identify and report invoice discrepancies.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing; principles of commercial reasonableness",
+                "location": "Section 1.5.3"
+            }
+        ]
+    }
+]

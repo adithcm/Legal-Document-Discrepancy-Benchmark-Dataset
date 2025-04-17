@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MIDDLEBROOKPHARMACEUTICALS,INC_03_18_2010-EX-10.1-PROMOTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Unless terminated in accordance with the provisions of Section 18, this Agreement shall automatically renew for each subsequent one-year term.",
+                "changed_text": "Unless terminated in accordance with the provisions of Section 18, this Agreement may renew for each subsequent one-year term based on performance metrics.",
+                "explanation": "The original text mandates automatic renewal barring Section 18 termination. The modified text introduces 'may renew' contingent on 'performance metrics,' creating uncertainty. It's unclear whether renewal is guaranteed or subject to MBRK's assessment, contradicting the initial automatic renewal clause and making enforcement ambiguous.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MBRK will pay DD an Up-Front Payment of $50,000 upon execution of this Agreement.",
+                "changed_text": "MBRK may pay DD an Up-Front Payment of up to $50,000 upon successful completion of phase 1 objectives as determined by MBRK.",
+                "explanation": "The original text states a definite upfront payment. The revised text changes this to a potential payment contingent on vaguely defined 'phase 1 objectives' and MBRK's determination of success. This contradicts the initial obligation, creating uncertainty as to whether DD will receive the payment, and making it difficult to enforce.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "These Promotion Fees represent fair market value payment for such services rendered.",
+                "changed_text": "These Promotion Fees are an initial estimate of fair market value for services rendered, subject to adjustment based on MBRK's internal valuation.",
+                "explanation": "The original clause asserts that promotion fees equal fair market value. The modified clause introduces ambiguity, describing the fees as an 'initial estimate' subject to 'adjustment' based on MBRK's valuation. This contradicts the initial assertion of fair market value, creating uncertainty about the final payment amount and allowing MBRK to unilaterally change the fees, thus affecting enforceability.",
+                "location": "Section 5.3"
+            }
+        ]
+    }
+]

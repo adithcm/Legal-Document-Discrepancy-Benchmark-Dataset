@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "e) \"Excite@Home Member(s)\" shall mean a User who has registered as a member of the Excite@Home Network, regardless of that User's stated preference regarding allowing their registration information to be shared with third parties. f) \"Program Member(s)\" shall mean an Excite@Home Member who has: Source: INVENDA CORP, S-1/A, 8/28/2000 i) Been provided access to the Co-Branded Application, and ii) Has opted-in to allow all his or her registration information to be shared with Application Provider and/or unspecified third parties.",
+                "changed_text": "e) \"Excite@Home Member(s)\" shall mean a User who has registered as a member of the Excite@Home Network, and has explicitly consented to share their registration information with third parties. f) \"Program Member(s)\" shall mean an Excite@Home Member who has: Source: INVENDA CORP, S-1/A, 8/28/2000 i) Been provided access to the Co-Branded Application, and ii) Has the *potential* to allow all his or her registration information to be shared with Application Provider and/or unspecified third parties.",
+                "explanation": "The original definitions of 'Excite@Home Member(s)' and 'Program Member(s)' establish a clear distinction based on opt-in status. The revised definitions introduce conflict. 'Excite@Home Member(s)' now requires explicit consent for sharing data, while 'Program Member(s)' suggests only the *potential* for data sharing. This creates uncertainty about the requirements for each category and whether explicit consent is always necessary.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Application Provider may not sell, disclose, transfer, rent, or license Payment-Eligible User Data in a form identifiable to any particular user to any third party. Notwithstanding the foregoing, Application Provider may disclose User Data if it is aggregated in a non-associatable way with data from multiple online properties or in an anonymous format on a per user basis.",
+                "changed_text": "Application Provider may not sell, disclose, transfer, rent, or license Payment-Eligible User Data in a form identifiable to any particular user to any third party. Notwithstanding the foregoing, Application Provider *is encouraged* to disclose User Data if it is aggregated in a non-associatable way with data from multiple online properties or in an anonymous format on a per user basis *to improve service offerings*.",
+                "explanation": "The initial text states that application provider may not sell data to any third party, but then it states that it can disclose it if it is aggregated in a non-associatable way. Adding 'is encouraged' introduces ambiguity by suggesting a preference or obligation to disclose aggregated data which conflicts with the initial statement.",
+                "location": "Section 6.b.ii"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Agreement will be governed by and construed in accordance with the laws of the State of California, notwithstanding the actual state or country of residence or incorporation of Application Provider.",
+                "changed_text": "The Agreement will be governed by and construed in accordance with the laws of the State of California, notwithstanding the actual state or country of residence or incorporation of Application Provider. *However, in matters pertaining to intellectual property, the laws of the jurisdiction where the intellectual property was first created shall apply*.",
+                "explanation": "The original clause specifies California law as governing the entire agreement. The added sentence introduces an exception for intellectual property matters, potentially leading to disputes over which jurisdiction's laws apply in cases involving intellectual property rights under this agreement.",
+                "location": "Section 22.a"
+            }
+        ]
+    }
+]

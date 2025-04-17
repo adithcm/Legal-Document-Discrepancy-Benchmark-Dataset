@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Customer is the owner of certain technology and patent rights regarding the Product (as defined herein) having the description set out in Exhibit A (Description of Product) and Exhibit B (Chemical Synthesis);",
+                "changed_text": "Paratek is the owner of certain technology and patent rights regarding the API (as defined herein) having the description set out in Exhibit A (Description of Product) and Exhibit B (Chemical Synthesis);",
+                "explanation": "The term 'Product' is replaced with 'API'. Throughout the contract, 'Product' is defined, whereas 'API' is not, creating confusion as to whether 'Product' and 'API' are interchangeable and what exactly Paratek owns the rights to. This introduces ambiguity in the scope of the agreement.",
+                "location": "WHEREAS, A"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "During the Term, Supplier shall Manufacture the Product and perform all Services at its facilities located at Bubendorf, Switzerland and at Neuland, Switzerland (such facilities, the \"Facilities\" and each, a \"Facility\"). Supplier will supply to Customer or Customer's designee, the Product, Manufactured in accordance with the accepted Purchase Order placed by Customer, Master Batch Record, the Product Specifications, the Quality Agreement and cGMP Requirements and, subject to Section 3.1(b), in such quantities as ordered by Customer in Purchase Orders submitted pursuant to Section 6.1 and accepted pursuant to Section 6.2.",
+                "changed_text": "During the Term, Supplier shall produce the API and perform all Services at its facilities located at Bubendorf, Switzerland and at Neuland, Switzerland (such facilities, the \"Facilities\" and each, a \"Facility\"). Supplier will supply to Customer or Customer's designee, the API, Manufactured in accordance with the accepted Purchase Order placed by Customer, Master Batch Record, the Product Specifications, the Quality Agreement and cGMP Requirements and, subject to Section 3.1(b), in such quantities as ordered by Customer in Purchase Orders submitted pursuant to Section 6.1 and accepted pursuant to Section 6.2.",
+                "explanation": "Again, 'Product' is replaced by 'API'. The contract specifies that the Product is Manufactured according to specific documents, which now creates an inconsistency because the Supplier is producing an undefined 'API' but using standards set for 'Product'. This could lead to disputes about quality control and conformity.",
+                "location": "Article 3, 3.1 a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Customer shall pay to Supplier, in respect of each Purchase Order placed by Customer, the applicable Fees for the supply of the Product in bulk quantities under this Agreement, in accordance with the terms of this Agreement.",
+                "changed_text": "Customer shall pay to Supplier, in respect of each Purchase Order placed by Customer, the applicable Fees for the supply of the API in bulk quantities under this Agreement, in accordance with the terms of this Agreement.",
+                "explanation": "Replaced 'Product' with 'API' again. If 'API' is not equivalent to 'Product', the pricing structure defined for the Product may not be appropriate for the undefined 'API'. This inconsistency can cause financial disputes.",
+                "location": "Article 9, 9.1 a)"
+            }
+        ]
+    }
+]

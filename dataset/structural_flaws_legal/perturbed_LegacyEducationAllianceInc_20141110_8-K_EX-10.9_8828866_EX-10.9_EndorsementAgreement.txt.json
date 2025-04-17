@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LegacyEducationAllianceInc_20141110_8-K_EX-10.9_8828866_EX-10.9_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "13. JURISDICTION/DISPUTES\n\nThis Agreement shall be deemed to have been made in England. This Agreement shall be governed by the laws of England and Wales, and all actions brought hereunder whether at law or in equity shall be brought in England. The parties hereby agree that any and all claims arising from or in connection with the subject matter of this Agreement must be brought in England before the County Court or High Court.",
+                "changed_text": "19. HEADINGS\n\nThis Agreement shall be deemed to have been made in England. This Agreement shall be governed by the laws of England and Wales, and all actions brought hereunder whether at law or in equity shall be brought in England. The parties hereby agree that any and all claims arising from or in connection with the subject matter of this Agreement must be brought in England before the County Court or High Court.",
+                "explanation": "Moving the jurisdiction clause from a dedicated 'Jurisdiction/Disputes' section to the 'Headings' section makes it less conspicuous and harder to find. This could lead a party to overlook the clause and potentially bring a dispute in another jurisdiction, increasing the cost and complexity of enforcement. Some jurisdictions require that the dispute section to be explicit.",
+                "contradicted_law": "Contract Law (General Principles of Disclosure and Prominence)",
+                "location": "Section 13 -> Section 19"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15. ASSIGNABILITY\n\nThe Parties may not assign this Agreement or the rights and obligations hereunder to any third party without the prior express written approval of the other Party.",
+                "changed_text": "21. EXPENSES\n\nSubject to the terms outlined in clause 1A, each party shall bear all expenses incidental to the performance of its obligations under this Agreement, and this Agreement or the rights and obligations hereunder can be assigned to any third party should both parties deem fit.",
+                "explanation": "Changing the assignability clause from requiring 'prior express written approval' to allowing assignment if 'both parties deem fit' introduces ambiguity and weakens the original restriction. The phrase 'deem fit' is vague, making it unclear under what conditions assignment is permissible, and making it unenforceable. The contradiction arises because the modification attempts to permit assignment without requiring explicit prior written approval.",
+                "contradicted_law": "Contract Law (General Principles of Assignment)",
+                "location": "Section 15 -> Section 21"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "18. SURVIVAL\n\nThe parties' rights and obligations under the Primary Agreement and Articles 4, 6, 7, 9, 10, 12, 13, 14, and 15 shall survive any expiration or earlier termination of this Agreement.",
+                "changed_text": "20. NO DRAFTER\n\nBoth parties warrant and represent that each have had equal input in drafting this Agreement and have had the opportunity to consult with independent legal counsel, but the clauses that will survive any expiration or earlier termination of this Agreement will be determined later and written into a separate document, subject to mutual agreement.",
+                "explanation": "This change introduces a significant flaw by removing the specification of which clauses survive termination and replacing it with a vague promise of a future agreement. The original clause clearly listed the surviving articles. The modified clause makes the survival of these articles uncertain and dependent on a future agreement that may never materialize. This uncertainty can create disputes about the parties' rights and obligations after the agreement ends. This contradicts the function of a survival clause.",
+                "contradicted_law": "Contract Law (General Principles of Survival Clauses)",
+                "location": "Section 18 -> Section 20"
+            }
+        ]
+    }
+]

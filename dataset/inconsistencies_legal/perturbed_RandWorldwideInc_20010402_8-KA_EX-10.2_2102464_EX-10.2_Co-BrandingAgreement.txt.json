@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within 7 Business Days after the end of each calendar quarter, the Billing Party shall provide the other party with an itemized statement, subject to adjustment within 30 days of receipt of such statement, setting forth the Net Revenue achieved over the preceding calendar quarter, and shall include such other information as may be mutually agreed upon by the parties (the \"Revenue Report\"). The Revenue Report shall be accompanied by payment to the Non-Billing Party of all amounts owed as set forth on such Revenue Report, as well as - when applicable - the exchange currency rate.",
+                "changed_text": "Within 60 Business Days after the end of each calendar year, the Billing Party shall provide the other party with a summary statement, not subject to adjustment, setting forth the Net Revenue achieved over the preceding calendar year, and shall include only the total revenue amount (the \"Revenue Report\"). The Revenue Report shall be accompanied by payment to the Non-Billing Party of all amounts owed as set forth on such Revenue Report, with no specification on the exchange currency rate.",
+                "explanation": "The modified text changes the reporting frequency from quarterly to annually, significantly delaying revenue reporting and payment. This introduces a delay that may violate standard accounting practices and potentially state laws regarding timely payments and financial transparency. Removing the 'subject to adjustment' clause and the requirement to specify the exchange currency rate also makes the statement less transparent and auditable, potentially conflicting with requirements for fair business dealings.",
+                "contradicted_law": "Potential violations of state-specific laws regarding accounting practices, timely payments, and financial transparency. For example, the California Prompt Payment Act requires timely payments for services and goods.",
+                "location": "Section 5.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement at any time in the event that the other party is in default or breach of any material provision of this Agreement, and such default or breach continues unremedied for a period of sixty days after written notice thereof.",
+                "changed_text": "Either party may terminate this Agreement immediately in the event that the other party is in default or breach of any material provision of this Agreement, without any requirement for notice or opportunity to cure.",
+                "explanation": "The original text allows a 60-day cure period for a breach of contract. The modified text removes this cure period, allowing for immediate termination. This change contradicts standard contract law principles that typically require a reasonable opportunity to cure a breach before termination, especially in commercial agreements. Failing to provide an opportunity to cure may expose the terminating party to legal challenges.",
+                "contradicted_law": "General contract law principles requiring a reasonable opportunity to cure a breach before termination, as interpreted and applied in New York state (governing law of the contract).",
+                "location": "Section 10.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(a) During the Term of this Agreement, and for a period of one year thereafter, except as expressly provided in this Agreement, PlanetCAD shall not market any services to Customers without the prior written approval of Dassault Systemes.",
+                "changed_text": "(a) During the Term of this Agreement, and for a period of five years thereafter, PlanetCAD shall not market any services to Customers, even with the prior written approval of Dassault Systemes.",
+                "explanation": "The original non-compete clause restricts PlanetCAD from marketing services to customers for one year after the agreement's term. The modified text extends this restriction to five years and removes the possibility of marketing even with approval, making the non-compete significantly broader. This creates a potential issue with enforceability under state laws governing non-compete agreements. Many states, including California (where PlanetCAD is located), disfavor overly broad non-compete clauses.",
+                "contradicted_law": "California Business and Professions Code Section 16600, which generally prohibits non-compete agreements, and similar laws in other states that restrict the scope and duration of non-compete clauses.",
+                "location": "Section 7.1"
+            }
+        ]
+    }
+]

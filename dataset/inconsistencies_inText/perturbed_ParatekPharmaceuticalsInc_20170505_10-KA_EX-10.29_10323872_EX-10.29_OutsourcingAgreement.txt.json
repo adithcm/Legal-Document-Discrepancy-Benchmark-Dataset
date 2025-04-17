@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.4 Payment of Invoices Each invoice provided by Supplier to Customer under Section 10.1, to the extent accurate, shall be paid by Customer to Supplier within [* * *] after the date of the invoice to the extent that Customer does not reasonably dispute that portion of the invoice in good faith. All payments will be made in U.S. Dollars by SWIFT bank transfer directly to the Supplier account as specified in the respective Purchase Orders.",
+                "changed_text": "10.4 Payment of Invoices Each invoice provided by Supplier to Customer under Section 10.1, to the extent accurate, shall be paid by Customer to Supplier within [* * *] after the date of the invoice to the extent that Customer does not reasonably dispute that portion of the invoice in good faith. However, for invoices exceeding $[* * *], the payment term shall be 60 days. All payments will be made in U.S. Dollars by SWIFT bank transfer directly to the Supplier account as specified in the respective Purchase Orders.",
+                "explanation": "This change introduces a contradiction in the payment terms. The original text states a standard payment term of [* * *] days. The modified text adds an exception, extending the payment term to 60 days for invoices exceeding $[* * *]. This creates uncertainty as to which payment term applies to high-value invoices.",
+                "location": "Article 10"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "10.2 Invoice Contents All invoices issued by Supplier under Section 10.1 shall show: a) the actual quantity of Product shipped; b) the lot number of each batch of Product shipped; c) the Fees for the quantity of Product shipped, based on the Fees for the Product set out in the applicable Purchase Order; and d) the Purchase Order number placed by Customer for the Product shipped. If Customer disputes for any reason with the amount of any invoice submitted by Supplier, Customer shall notify Supplier of such dispute within [* * *] after the date of the invoice, and the Parties shall promptly attempt to resolve the dispute. If Customer does not notify Supplier of any such dispute within such [* * *] period, such invoice will be final and binding on Customer and Supplier, subject to the correction of mathematical errors.",
+                "changed_text": "10.2 Invoice Contents All invoices issued by Supplier under Section 10.1 shall show: a) the actual quantity of Product shipped; b) the lot number of each batch of Product shipped; c) the Fees for the quantity of Product shipped, based on the Fees for the Product set out in the applicable Purchase Order; and d) the Purchase Order number placed by Customer for the Product shipped. If Customer disputes for any reason with the amount of any invoice submitted by Supplier, Customer shall notify Supplier of such dispute within [* * *] after the date of the invoice, and the Parties shall promptly attempt to resolve the dispute. However, any disputes related to quality of product must be notified within 15 days. If Customer does not notify Supplier of any such dispute within the specified period, such invoice will be final and binding on Customer and Supplier, subject to the correction of mathematical errors.",
+                "explanation": "This change introduces conflicting dispute notification periods. The original text provides a [* * *] timeframe for disputing invoices for any reason. The modified text adds a caveat requiring disputes related to product quality to be notified within 15 days. This creates a contradiction regarding the applicable dispute period for quality-related issues, leading to potential disputes over timeliness.",
+                "location": "Article 10"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "1.5 Exhibits The Exhibits attached hereto shall be deemed to form an integral part of this Agreement. In the event of a conflict between the terms and conditions set out in this Agreement and the terms and conditions set out in any Exhibit hereto, the terms and conditions set out in this Agreement shall govern.",
+                "changed_text": "1.5 Exhibits The Exhibits attached hereto shall be deemed to form an integral part of this Agreement. In the event of a conflict between the terms and conditions set out in this Agreement and the terms and conditions set out in any Exhibit hereto, the terms and conditions set out in Exhibit C (Fee Schedule) shall govern with respect to fees and payment terms.",
+                "explanation": "This change creates a direct conflict in the order of precedence. The original text states that the main body of the Agreement governs in case of conflicts with Exhibits. The modified text introduces an exception, stating that Exhibit C (Fee Schedule) takes precedence concerning fees and payment terms, overriding the general rule. This conflict makes it unclear which terms control in disputes involving fees or payment deadlines.",
+                "location": "Article 1"
+            }
+        ]
+    }
+]

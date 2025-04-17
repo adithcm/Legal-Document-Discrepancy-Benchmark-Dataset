@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "MorganStanleyDirectLendingFund_20191119_10-12GA_EX-10.5_11898508_EX-10.5_TrademarkLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Section 6.2. EXCEPT AS EXPRESSLY SET FORTH IN SECTION 6.1, LICENSOR MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THIS AGREEMENT AND THE BRAND, AND EXPRESSLY DISCLAIMS ALL SUCH REPRESENTATIONS AND WARRANTIES, INCLUDING ANY WITH RESPECT TO TITLE, NON-INFRINGEMENT, MERCHANTABILITY, VALUE, RELIABILITY OR FITNESS FOR USE.",
+                "changed_text": "Section 6.2. LICENSOR MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THIS AGREEMENT AND THE BRAND, AND EXPRESSLY DISCLAIMS ALL SUCH REPRESENTATIONS AND WARRANTIES, INCLUDING ANY WITH RESPECT TO VALUE OR RELIABILITY.",
+                "explanation": "By removing 'TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR USE' the contract removes consumer protections related to the brand. In New York, there's an implied warranty of merchantability (NY UCC § 2-314) that goods are fit for the ordinary purpose for which they are used. Excluding 'merchantability' and the other listed warranties weakens consumer rights and shifts more risk onto the Licensee. This omission introduces a legal risk because the disclaimer becomes less comprehensive and potentially unenforceable under New York law if it's deemed too broad or unconscionable.",
+                "contradicted_law": "NY UCC § 2-314",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "LICENSEE AGREES THAT LICENSOR WOULD BE IRREPARABLY HARMED BY ANY BREACH OF THIS AGREEMENT BY LICENSEE THAT HARMS THE BRAND, AND THAT LICENSOR MAY (IN ADDITION TO ITS OTHER RIGHTS AND REMEDIES HEREIN) SEEK TEMPORARY, PRELIMINARY OR PERMANENT INJUNCTIVE RELIEF (INCLUDING SPECIFIC PERFORMANCE) TO ENJOIN OR PREVENT ANY SUCH BREACH, WITHOUT POSTING BOND OR OTHER SECURITY.",
+                "changed_text": "LICENSEE AGREES THAT LICENSOR WOULD BE HARMED BY ANY BREACH OF THIS AGREEMENT BY LICENSEE THAT HARMS THE BRAND, AND THAT LICENSOR MAY (IN ADDITION TO ITS OTHER RIGHTS AND REMEDIES HEREIN) SEEK INJUNCTIVE RELIEF TO ENJOIN OR PREVENT ANY SUCH BREACH, WITHOUT POSTING BOND.",
+                "explanation": "By removing 'IRREPARABLY' before harmed, this weakens the standard required for licensor to seek legal recourse. In New York, injunctive relief generally requires demonstrating irreparable harm. Removing 'temporary, preliminary or permanent', and 'SPECIFIC PERFORMANCE', and 'OTHER SECURITY' limits the options and weakens the protections for the licensor that goes against normal proceedings under New York law. Therefore this introduces a legal risk, because it limits the possible types of recourse for Licensor.",
+                "contradicted_law": "New York Civil Practice Law and Rules (CPLR)",
+                "location": "Section 9.5"
+            }
+        ]
+    }
+]

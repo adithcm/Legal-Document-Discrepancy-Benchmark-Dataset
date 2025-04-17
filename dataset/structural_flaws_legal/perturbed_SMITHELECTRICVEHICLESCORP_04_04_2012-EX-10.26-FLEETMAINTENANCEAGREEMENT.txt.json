@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SMITHELECTRICVEHICLESCORP_04_04_2012-EX-10.26-FLEETMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "28. Law and jurisdiction This Agreement shall be governed by and construed in all respects in accordance with the law of England and Wales and both parties submit to the exclusive jurisdiction of the English Courts.",
+                "changed_text": "29. Headings Headings to Clauses in this Agreement are for the purposes of information and identification only and shall not be construed as forming part of this Agreement. 28. Law and jurisdiction This Agreement shall be governed by and construed in all respects in accordance with the law of England and Wales and both parties submit to the non-exclusive jurisdiction of the English Courts.",
+                "explanation": "The relocation of the law and jurisdiction clause from its dedicated section to the 'Headings' section makes it less prominent. Additionally, changing 'exclusive' to 'non-exclusive' jurisdiction introduces a legal ambiguity. Normally law and jurisdiction clauses dictate where disputes are settled and by what law, with 'exclusive jurisdiction' meaning only those courts can hear the dispute. By moving it and changing it to 'non-exclusive' means other courts may also have jurisdiction.",
+                "contradicted_law": "Contract Law - Jurisdiction Clause Interpretation",
+                "location": "28"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3.6 Subject to a genuine dispute, SEV reserves the right to charge DCL interest in respect of the rate payment of any Maintenance Charges or Additional Charges due under this Agreement at the rate of 3% per annum above the base rate from time to time of Lloyds TSB Bank PLC from the due date therefor until payment (as well after as before any judgement binding on either party).",
+                "changed_text": "4.12.4 minor repairs to remove sharp edges, straighten bent panels, refit bumpers and secure loose items. 3.6 Subject to a genuine dispute, SEV reserves the right to charge DCL interest at a rate determined at SEV discretion, but not exceeding market rates, as defined by SEV, in respect of late payments of any Maintenance Charges or Additional Charges due under this Agreement.",
+                "explanation": "The interest rate clause is relocated to a section detailing the minor repairs. The specific reference to a fixed interest rate of '3% per annum above the base rate from time to time of Lloyds TSB Bank PLC' is removed and replaced with a vague and subjective 'rate determined at SEV discretion, but not exceeding market rates'. This removes a clear, agreed-upon term and replaces it with an ambiguous one that could be exploited.",
+                "contradicted_law": "Contract Law - Clear and Unambiguous Terms",
+                "location": "3.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "13.4 Subject always to Clause 13.7, SEV shall indemnify DCL against all claims, demands, actions, costs and expenses (including legal costs and disbursements) which DCL incurs directly or indirectly as a result of any act, omission or default of SEV, its employees, officers, agents, sub-contractors, suppliers and invitees in respect of: 13.4.1 any breach of the warranties in Clause 13.2; 13.4.2 damage to real or personal property; 13.4.3 injury to persons, including injury resulting in death.",
+                "changed_text": "1.1.10 any phrase introduced by the term \"include\", including\", \"in particular\" or any similar expression will be construed as illustrative and will not limit the sense of the words preceding that term. 13.4 Subject always to Clause 13.7, SEV MAY indemnify DCL against claims resulting from its actions under some conditions.",
+                "explanation": "The indemnification clause is moved from a section detailing 'Warranties and Liability' to section 1.1.10, which pertains to definitions and interpretations of terms. This makes it more difficult to find and enforce. Additionally, the word 'shall' is replaced with 'may,' significantly weakening the obligation of SEV to indemnify DCL, introducing uncertainty and making the clause almost discretionary. The detail for instances such as 'any breach of the warranties in Clause 13.2; 13.4.2 damage to real or personal property; 13.4.3 injury to persons, including injury resulting in death.' are removed.",
+                "contradicted_law": "Contract Law - Indemnification Clauses, Duty of Care",
+                "location": "13.4"
+            }
+        ]
+    }
+]

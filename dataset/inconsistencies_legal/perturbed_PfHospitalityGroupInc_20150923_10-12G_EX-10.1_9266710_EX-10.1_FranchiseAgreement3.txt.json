@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "changed_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of five (5) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "explanation": "Increasing the non-compete period to five years may be deemed unreasonable and unenforceable under California law (and potentially other states), which favors employee mobility. California Business and Professions Code Section 16600 generally prohibits non-compete agreements, and while there are exceptions, a five-year restriction is likely to be challenged as overly broad.",
+                "contradicted_law": "California Business and Professions Code Section 16600",
+                "location": "2(d)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement. The Member will only have 10 days to respond to an injunctive relief request.",
+                "explanation": "Adding the statement about a '10 days to respond to an injunctive relief request' could be problematic because it may not comply with state and federal rules of civil procedure regarding the time frame given to respond to such legal actions. Rule 6(c) of the Federal Rules of Civil Procedure requires at least 14 days to respond. This would violate due process if the member doesn't have adequate time to prepare a defense",
+                "contradicted_law": "Rule 6(c) of the Federal Rules of Civil Procedure",
+                "location": "3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+                "changed_text": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, and the member has no right to legal representation or consultation of any kind. Franchisor can pursue all legal options.",
+                "explanation": "By stating that 'the member has no right to legal representation' is problematic. The Seventh Amendment guarantees the right to a jury trial in civil cases, and this extends to the right to counsel. Attempting to waive right to council is unenforceable",
+                "contradicted_law": "Seventh Amendment of the U.S. Constitution",
+                "location": "6"
+            }
+        ]
+    }
+]

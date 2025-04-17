@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IpassInc_20181203_8-K_EX-99.1_11445874_EX-99.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All payments hereunder will be in US Dollars and are due and payable within thirty (30) days after the date of invoice.",
+                "changed_text": "All payments hereunder will be in US Dollars and are due and payable within sixty (60) days after the date of invoice.",
+                "explanation": "This change extends the payment deadline to sixty days, potentially conflicting with California Prompt Payment laws which often require payments within a shorter timeframe (e.g., 30 days) for certain types of commercial transactions, thus creating a legal contradiction. A longer payment term could be considered an unfair business practice, particularly for smaller vendors.",
+                "contradicted_law": "California Prompt Payment Laws (e.g., Cal. Pub. Contract Code § 7107)",
+                "location": "3.2 Payment"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "iPass reserves the right to suspend or to terminate any Services ten (10) days after sending written notice of a payment that is thirty (30) or more days past due.",
+                "changed_text": "iPass reserves the right to suspend or to terminate any Services two (2) days after sending written notice of a payment that is thirty (30) or more days past due.",
+                "explanation": "Reducing the notice period for service suspension or termination to just two days may violate California's requirements for reasonable notice before termination of services, particularly if such termination would significantly impact the Channel Partner's business operations. Two days is an unreasonably short time frame.",
+                "contradicted_law": "California law on reasonable notice for contract termination and unfair business practices.",
+                "location": "3.2 Payment"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Channel Partner reasonably disputes an invoiced amount, Channel Partner may: (a) withhold such amount from Channel Partner's payment, provided that Channel Partner gives iPass written notice of the dispute and the reason for such dispute within thirty (30) days after the date of invoice, and pays all invoiced amounts not subject to such dispute by the due date; or (b) in the event that the invoiced amount has already been paid in full, submit a claim to iPass within sixty (60) days following the date of the original invoice.",
+                "changed_text": "If Channel Partner reasonably disputes an invoiced amount, Channel Partner may: (a) withhold such amount from Channel Partner's payment, provided that Channel Partner gives iPass written notice of the dispute and the reason for such dispute within fifteen (15) days after the date of invoice, and pays all invoiced amounts not subject to such dispute by the due date; or (b) in the event that the invoiced amount has already been paid in full, submit a claim to iPass within thirty (30) days following the date of the original invoice.",
+                "explanation": "Shortening the dispute notification and claim submission periods to 15 and 30 days, respectively, imposes an unreasonably short timeframe on Channel Partner. This may violate California's implied covenant of good faith and fair dealing, which requires parties to a contract to act reasonably and in good faith. Such a short window may not allow sufficient time for a thorough review of complex invoices.",
+                "contradicted_law": "California's Implied Covenant of Good Faith and Fair Dealing",
+                "location": "3.2 Payment"
+            }
+        ]
+    }
+]

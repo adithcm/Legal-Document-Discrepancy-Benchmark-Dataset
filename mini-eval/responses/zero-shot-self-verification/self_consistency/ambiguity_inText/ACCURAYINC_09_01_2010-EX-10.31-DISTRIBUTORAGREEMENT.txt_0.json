@@ -1,26 +1,29 @@
 [
     {
         "section": "4.1.2. Shipment. All shipments shall be made F.C.A. Port of Oakland, California, USA. Transfer of risk from Accuray to Distributor shall occur at such F.C.A. location as provided in F.C.A. terms and transfer of title shall occur at the same time. Distributor may request Accuray to use a particular freight carrier, and Accuray agrees to do so, if feasible. If not feasible in Accuray's reasonable judgment, then Accuray shall promptly advise Distributor of the reasons. If no such request is made, Accuray shall ship in accordance with any instructions contained in the Purchase Order or via FedEx ground, with no extra insurance. Accuray shall bill any actual freight costs to Distributor. Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
-        "explanation": "This section outlines responsibility for expedited shipping costs based on the delivery deadline requested in the Purchase Order. It states that Accuray bears the cost if the delivery deadline is at least six months after the Purchase Order submission. However, the examples provided use 'June 1' and 'December 1' (six months) and 'October 1' (four months) as the requested delivery dates. This creates an in-text contradiction. The text initially says 'at least six months' but implies less than six months in the second example by saying 'while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor', making the delivery timeline in question ambigious.",
+        "explanation": "This section contains contradictory statements regarding who bears the supplementary shipping costs for expedited delivery. It states that Accuray bears the costs if the delivery deadline is at least six months after the Purchase Order submission, but then the example shows Accuray bearing the cost for December 1 delivery when the Purchase Order was submitted on June 1 (exactly six months). This example contradicts the 'at least six months' rule stated previously.",
         "location": "Section 4.1.2",
+        "category": 3,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "3.6. Purchase Schedule. For each sale completed by Distributor, the resulting contract for the sale of Products shall be between Distributor and the Customer and the Service Agreement, if any, shall be between Accuray and the Customer or Accuray and the Distributor, as determined pursuant to Section 4.8. For each such sale, Distributor must send a Purchase Order to Accuray at least six (6) months prior to the expected shipment date.",
+        "explanation": "This section specifies that the distributor must send a Purchase Order at least six months prior to the expected shipment date. However, Section 4.1.2 indicates that Accuray's standard lead time for delivery is six months. If the lead time and the required purchase order submission time are both six months, it is impossible to expedite shipping. This creates a misallignment of deadlines. If the distributor is requesting expedited delivery, it may not be possible to do so, as the company is already working with the standard lead time.",
+        "location": "Section 3.6",
+        "category": 3,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "5.5. Collections. Notwithstanding Section 5.4.3 above, Distributor shall be solely responsible for determining the creditworthiness of and collecting payment from its Customers. The risk of non-collection from the Customer will be borne entirely by Distributor, which shall be responsible for making timely payment to Accuray for Products whether or not Distributor is successful in collecting from its Customer. In the event that full payment is not received by Accuray, Accuray shall not be liable to Distributor for any margin or commission unless and until it has received payment of amounts sufficient to cover the costs incurred by Accuray to provide the applicable Products to Distributor and the applicable Services to Customer (\"Accuray Cost\"). Distributor acknowledges and agrees that it shall not be entitled to receive payment of any margin or commission until Accuray has received payment of the Accuray Cost amount in relation to the applicable Products and Services.",
+        "explanation": "This section creates an ambiguity. It states that the distributor is responsible for making timely payments to Accuray regardless of whether they collect from the customer. However, it also says that if Accuray doesn't receive full payment, they are not liable to pay the distributor's commission until they receive enough to cover their costs. This sets up a scenario where the distributor could pay Accuray on time but not receive their commission if the customer doesn't pay, effectively meaning the distributor's profit depends on the customer's payment, despite them being responsible for paying Accuray regardless.",
+        "location": "Section 5.5",
         "category": 1,
         "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "Distributor shall report promptly and in writing to Accuray any complaints or expressions of dissatisfaction by the Customers to Distributor relating to the Products or Services. Any such reports shall be provided to Accuray via electronic mail to the following address: complaints@accuray.com.",
-        "explanation": "This section is a contradiction in legal terms due to an omission. While it stipulates the Distributor's duty to report customer complaints to Accuray via email, it omits specifying a timeframe within which these reports must be made. This omission creates a loophole, potentially undermining the purpose of the reporting requirement, as delays in reporting could hinder Accuray's ability to address issues promptly and maintain product/service quality under applicable laws.",
-        "location": "Section 3.7",
-        "category": 8,
-        "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "Notwithstanding the foregoing, in the event that Accuray does not approve the issuance of a Quote to a potential Customer and later contracts directly (or through one of its distributors) with such potential Customer, of which Accuray shall inform Distributor without undue delay, Distributor shall receive credit for any sales of Systems to such potential Customer pursuant to and subject to the fulfillment of the conditions set forth in Section 3.4 of the Strategic Alliance Agreement.",
-        "explanation": "This section describes a scenario where the Distributor receives credit for sales even if Accuray contracts directly with a potential customer after initially not approving a Quote. However, it refers to conditions in 'Section 3.4 of the Strategic Alliance Agreement' without clearly defining what those conditions are within this current agreement, Exhibit 10.31, creating ambiguity. This reference requires the reader to consult another document to fully understand the obligations and entitlements of the Distributor, creating an in-text contradiction.",
-        "location": "Section 5.3",
-        "category": 7,
-        "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     }
 ]

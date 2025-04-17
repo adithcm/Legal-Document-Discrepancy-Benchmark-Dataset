@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SteelVaultCorp_20081224_10-K_EX-10.16_3074935_EX-10.16_Affiliate Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Marketing Affiliate shall be responsible for collecting all amounts due directly from the Consumer and  shall bear sole responsibility for non-payment of any fees charged to the Consumer. Marketing Affiliate shall pay to  Equidata, as compensation for its providing of Services under this agreement, such amounts as outlined and detailed in  Exhibit A attached hereto. Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in  full by Marketing Affiliate 30 days from the invoice date.",
+                "changed_text": "Marketing Partner shall be responsible for collecting all amounts due directly from the Consumer and  shall bear sole responsibility for non-payment of any fees charged to the Consumer. Marketing Participant shall pay to  Equidata, as compensation for its providing of Services under this agreement, such amounts as outlined and detailed in  Exhibit A attached hereto. Such amounts shall be billed on a bi-monthly basis by Equidata and are due and payable in  full by Marketing Partner 30 days from the invoice date.",
+                "explanation": "The terms 'Marketing Affiliate', 'Marketing Partner,' and 'Marketing Participant' are used interchangeably within the same paragraph without defining if they all refer to the same entity. This creates confusion about which entity is responsible for collecting and paying amounts due.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Marketing Affiliate nor Equidata, shall engage in any practice or activity that is not in compliance with the Fair  Credit Reporting Act (FCRA), the Fair Debt Collection Practices Act (FDCPA) and the Health Insurance Portability and Accountability Act (HIPAA) as well as, but not limited to, any practice or activity that:\n\n  5.1.   Violates any applicable law or regulation; including but not limited to the sale of illegal goods or the violation of export  control or obscenity laws; that invade the privacy of any third party; that are in any way connected with the  transmission of \"junk mail\",  \"spam\"  or the unsolicited mass distribution of e-mail, or with any unethical marketing  practices.\n      5.2.   Is misleading, deceptive, confusing or abusive as outlined in the Telemarketing Fraud Prevention Act;\n      5.3.   Makes any representation or statement, or grants any warranty or creates any other obligation with respect to the  Services, that is in addition to or otherwise inconsistent with any representation, statement or warranty stated  expressly by Equidata.",
+                "changed_text": "Marketing Associate nor Equidata, shall engage in any practice or activity that is not in compliance with the Fair  Credit Reporting Act (FCRA), the Fair Debt Collection Practices Act (FDCPA) and the Health Insurance Portability and Accountability Act (HIPAA) as well as, but not limited to, any practice or activity that:\n\n  5.1.   Violates any applicable law or regulation; including but not limited to the sale of illegal goods or the violation of export  control or obscenity laws; that invade the privacy of any third party; that are in any way connected with the  transmission of \"junk mail\",  \"spam\"  or the unsolicited mass distribution of e-mail, or with any unethical promotional activities.\n      5.2.   Is misleading, deceptive, confusing or abusive as outlined in the Telemarketing Fraud Prevention Act;\n      5.3.   Makes any representation or statement, or grants any warranty or creates any other obligation with respect to the  Services, that is in addition to or otherwise inconsistent with any representation, statement or warranty stated  expressly by Equidata.",
+                "explanation": "Changing 'Marketing Affiliate' to 'Marketing Associate' introduces uncertainty about which entity is bound by the compliance requirements. Further, the term 'marketing practices' in 5.1 is changed to 'promotional activities'. The contract fails to clarify whether or not marketing practices are the same as promotional activities, potentially leading to confusion about what constitutes a violation.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Equidata may audit, at Equidata's expense, the Marketing Affiliate's marketing, practices and activities for the  purpose of assuring compliance with this Agreement. Equidata reserves the right to site inspect Marketing Affiliate's  physical location of business at any time.",
+                "changed_text": "Equidata may audit, at Equidata's expense, the Marketing Representative's promotion, practices and activities for the  purpose of assuring compliance with this Agreement. Equidata reserves the right to site inspect Marketing Contractor's  physical location of business at any time.",
+                "explanation": "The terms 'Marketing Affiliate', 'Marketing Representative', and 'Marketing Contractor' are used interchangeably. The shift from 'marketing practices' to 'promotion' also causes confusion as 'promotion' may be interpreted differently than 'marketing practices'. Also, it is not clear if Marketing Representative's promotion would mean the same as Marketing Contractor's physical location of business.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

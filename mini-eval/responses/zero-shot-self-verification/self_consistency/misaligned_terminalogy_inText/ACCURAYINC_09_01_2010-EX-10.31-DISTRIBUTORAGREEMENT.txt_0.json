@@ -1,26 +1,29 @@
 [
     {
-        "section": "5.4.1.1. Letter of Credit. An irrevocable trade finance letter of credit issued by Distributor's bank, confirmed by a bank designated by Accuray in all respects and delivered to Accuray upon the acceptance of the Purchase Order by Accuray. The letter of credit will provide that Accuray can draw against the letter of credit according to the following schedule: 5.4.1.1.1. US $100,000 (non-refundable but, in case of cancellation of the Purchase Order, automatically applied to Distributor's next purchase of a System) upon Accuray's acceptance of the Purchase Order, which must be at least four (4) months prior to the Distributor's proposed shipment date; and 5.4.1.1.2. Balance upon presentation of documents by Accuray evidencing shipment of the Products to Distributor or Customer as designated in the Purchase Order.",
-        "explanation": "Section 5.4.1.1.1 states that the initial payment must be made at least four months prior to the proposed shipment date. This contradicts the general understanding that payment terms are usually linked to delivery or performance milestones, not merely the proposal of a shipment date. This timeline is not standard.",
-        "location": "Section 5.4.1.1",
-        "category": 4,
+        "section": "2.3.3. Purchase. To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order, which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval. Each purchase of Accuray Components and Interfaces shall be accomplished and a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray. To the extent of any inconsistency between the Quote and the related Purchase Order, the terms and conditions of such Quote shall govern and Distributor acknowledges and agrees that Accuray shall not be bound by any terms, conditions or boilerplate language included in a Distributor purchase order submitted to Accuray.",
+        "explanation": "The first sentence says that Accuray has two weeks to accept or reject the purchase order, but if they fail to do so, it means that it is automatically disapproved, so in essence, Accuray can reject the purchase order in two weeks. The next sentence states that Each purchase of Accuray Components and Interfaces shall be accomplished and a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray. This is implying that Accuray does not have two weeks to reject or accept the purchase order, but rather it can be accepted right away, creating an ambiguity.",
+        "location": "Section 2.3.3",
+        "category": 1,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "4.1.2. Shipment. All shipments shall be made F.C.A. Port of Oakland, California, USA. Transfer of risk from Accuray to Distributor shall occur at such F.C.A. location as provided in F.C.A. terms and transfer of title shall occur at the same time. Distributor may request Accuray to use a particular freight carrier, and Accuray agrees to do so, if feasible. If not feasible in Accuray's reasonable judgment, then Accuray shall promptly advise Distributor of the reasons. If no such request is made, Accuray shall ship in accordance with any instructions contained in the Purchase Order or via FedEx ground, with no extra insurance. Accuray shall bill any actual freight costs to Distributor. Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
-        "explanation": "There is an inconsistency in who bears the supplementary shipping costs. If the requested delivery date is at least six months after the submission of the Purchase Order, Accuray bears the cost. However, the last sentence of this section mentions that if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor. The whole purpose of the 6 month buffer is not upheld.",
+        "explanation": "The last two sentences contradict each other with the delivery dates. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor. This implies that the Acuuray is responsible for December 1st, but the distributor is for October 1st.",
         "location": "Section 4.1.2",
         "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
-        "section": "3.6. Purchase Schedule. For each sale completed by Distributor, the resulting contract for the sale of Products shall be between Distributor and the Customer and the Service Agreement, if any, shall be between Accuray and the Customer or Accuray and the Distributor, as determined pursuant to Section 4.8. For each such sale, Distributor must send a Purchase Order to Accuray at least six (6) months prior to the expected shipment date.",
-        "explanation": "Section 3.6 requires the Distributor to send a Purchase Order to Accuray at least six months prior to the expected shipment date. This requirement is time-sensitive and directly impacts Accuray's ability to fulfill the order, which needs to align with Accuray's standard lead time for delivery of Products, which is six months. This creates a discrepancy when it comes to lead time.",
-        "location": "Section 3.6",
-        "category": 4,
+        "section": "12.17. Entire Agreement. This Agreement and the Strategic Alliance Agreement contain the entire agreement of the parties hereto with To Accuray: To Distributor: Accuray Incorporated Siemens AG Attention: Chief Financial Officer Henkestr. 127 1310 Chesapeake Terrace 91054 Erlangen Sunnyvale, CA 94089 Germany Facsimile: +1 (408) 789-4205 Attn: Healthcare General Counsel, Ritva Sotamaa with cc to: General Counsel Facsimile: + 49/### - ## - #### respect to the subject matter hereof, and supersedes all prior understandings, representations and warranties, written and oral. If any part of the terms and conditions stated herein are held void or unenforceable, such part will be treated 21 as severable, leaving valid the remainder of the terms and conditions. In case of any contradiction between this Agreement and the Strategic Alliance Agreement, the terms of this Agreement shall prevail.",
+        "explanation": "The agreement states 'This Agreement and the Strategic Alliance Agreement contain the entire agreement of the parties hereto'. Then it states 'In case of any contradiction between this Agreement and the Strategic Alliance Agreement, the terms of this Agreement shall prevail.' This does not make sense as if there is a contradiction, the agreements do not have the exact same terms, which means it is not the entire agreement of the parties.",
+        "location": "Section 12.17",
+        "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     }
 ]

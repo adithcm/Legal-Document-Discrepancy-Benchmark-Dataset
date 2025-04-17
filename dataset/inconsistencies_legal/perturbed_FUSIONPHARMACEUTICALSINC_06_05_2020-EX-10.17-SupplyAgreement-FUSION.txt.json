@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-SupplyAgreement-FUSION.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "FUSION shall pay such invoice within [***] of receipt of the invoice in accordance with the Supply Agreement",
+                "changed_text": "FUSION shall pay such invoice within 60 days of receipt of the invoice in accordance with the Supply Agreement.",
+                "explanation": "The original text allows for payment terms to be determined elsewhere ([***]), whereas the modification sets a fixed 60-day payment term. Under the United States' Prompt Payment Act, federal agencies must pay invoices within 30 days, and while this isn't a federal agency, setting longer payment terms for suppliers is inconsistent with general principles of timely payment and could be challenged under contract law principles related to fairness and good faith, especially if the supplier is a smaller entity. I've set the timeline to a 60 day payment which contradicts the federal regulation of 30 days for the Prompt Payment Act.",
+                "contradicted_law": "Prompt Payment Act (United States)",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "FUSION shall have the right within [***] of receipt of such notice to request that CPDC maintain such records in an off-site storage facility for such longer periods as FUSION requests, provided that FUSION pays all costs associated with such off-site storage.",
+                "changed_text": "FUSION shall have the right within 10 days of receipt of such notice to request that CPDC maintain such records in an off-site storage facility for such longer periods as FUSION requests, provided that FUSION pays all costs associated with such off-site storage.",
+                "explanation": "The original text allows for a timeline that is determined elsewhere ([***]), whereas the modification sets a fixed 10-day period for FUSION to request off-site storage of records after CPDC provides notice of intent to destroy them. Under regulations such as those enforced by the FDA for pharmaceutical records, retention periods can extend far beyond typical contractual timelines. Reducing this window to 10 days creates a high risk of non-compliance with regulatory requirements for record retention, particularly if those requirements exceed this short timeframe.",
+                "contradicted_law": "FDA regulations on record retention (United States)",
+                "location": "Section 4.9"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In the event that CPDC disputes FUSION'S determination that the fault is due to CPDC and/or to its employees or agents, the Parties will select a mutually agreeable outside consulting firm which will be instructed to review the applicable information and data and to confirm or dissent from FUSION'S determination. If the consulting firm confirms FUSION'S determination, CPDC will pay the fees of such consulting firm. If the consulting firm dissents from FUSION'S determination, CPDC will not have the obligations set forth herein with respect to the Recall and FUSION will pay the fees of such consulting firm.",
+                "changed_text": "In the event that CPDC disputes FUSION'S determination that the fault is due to CPDC and/or to its employees or agents, FUSION's determination is final and binding.",
+                "explanation": "The original text includes a process for resolving disputes about recall responsibility through an outside consulting firm. The modified text eliminates this impartial process and gives FUSION the sole authority to determine fault, effectively removing CPDC's right to challenge FUSION's determination. This modification could be considered unfair or unconscionable under general contract law principles, especially if CPDC is a smaller entity with less bargaining power. While not directly violating a specific statute, it undermines the principle of fair dispute resolution and could be deemed unenforceable.",
+                "contradicted_law": "General principles of contract law (United States/Canada)",
+                "location": "Section 4.7"
+            }
+        ]
+    }
+]

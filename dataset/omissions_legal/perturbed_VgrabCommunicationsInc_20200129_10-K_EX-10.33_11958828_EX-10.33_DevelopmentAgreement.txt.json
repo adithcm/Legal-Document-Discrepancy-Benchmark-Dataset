@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This agreement shall be construed, interpreted and governed by and in accordance with the laws of Hong Kong. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL is subject to the binding laws of Hong Kong as a first attempt at formal resolution. Should arbitration fail to reach a resolution and either party wish to pursue the dispute further, this shall be conducted within the binding laws of Hong Kong.",
+                "changed_text": "This agreement shall be construed and interpreted in accordance with principles of general contract law. In case the arbitration proceedings fail, an unresolved dispute between Developer and VAL will be resolved as the parties see fit.",
+                "explanation": "By removing the explicit reference to Hong Kong law, the contract now lacks a clear governing law clause. This omission creates a legal contradiction because Hong Kong law provides specific consumer protections and legal standards that would otherwise apply. The altered text also omits guidance for future resolution, creating an ambiguous dispute resolution pathway.",
+                "contradicted_law": "Hong Kong's Sale of Goods Ordinance and Supply of Services (Implied Terms) Ordinance.",
+                "location": "15"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+                "changed_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL.",
+                "explanation": "The removal of 'after the fulfillment of all commercial obligations by the VAL' creates a legal contradiction. Under Hong Kong law, a developer who creates intellectual property is entitled to payment. Removing this clause suggests that the developer must turn over the IP even if they are not paid, potentially violating their rights under Hong Kong's intellectual property laws and contract law.",
+                "contradicted_law": "Hong Kong's Copyright Ordinance and general contract law principles regarding consideration.",
+                "location": "11.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Developer will develop the Duesey Coffee Mini Program which incorporates the website, products storefront, inventory, ordering systems and payment system. Developer shall ensure the app is technically compliant to WeChat's App guidelines, and VAL's business compliance. Being Developer of the project, Developer will be responsible and liable for the product's business compliance with WeChat Mini Program and Payment guidelines.",
+                "changed_text": "Developer will develop the Duesey Coffee Mini Program which incorporates the website, products storefront, inventory, ordering systems and payment system. Developer shall ensure the app is technically compliant to WeChat's App guidelines. ",
+                "explanation": "By removing 'VAL's business compliance. Being Developer of the project, Developer will be responsible and liable for the product's business compliance with WeChat Mini Program and Payment guidelines', the clause now omits the developer's liability for business compliance with WeChat's rules. Under Hong Kong law and principles of agency, the principal (VAL) ultimately bears the responsibility for ensuring its business practices are compliant. Removing the developer's specific liability shifts undue risk onto VAL without specifying the proper legal framework, which could create a legal contradiction in enforcement.",
+                "contradicted_law": "Hong Kong's Business Registration Ordinance and relevant e-commerce regulations.",
+                "location": "6.5"
+            }
+        ]
+    }
+]

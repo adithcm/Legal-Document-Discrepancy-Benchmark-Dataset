@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CHERRYHILLMORTGAGEINVESTMENTCORP_09_26_2013-EX-10.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(g) This Agreement shall be governed by the laws of the State of New York, without giving effect to its principles of conflicts of laws, other than Section 5-1401 of the New York General Obligations Law.",
+                "changed_text": "(g) This Agreement shall be governed by the laws of the State of Delaware, without giving effect to its principles of conflicts of laws.",
+                "explanation": "Changing the governing law from New York to Delaware removes the specific reference to Section 5-1401 of the New York General Obligations Law. This section provides specific protections to consumers in certain transactions. By removing this, the contract omits a legally mandated consumer protection, potentially leading to non-compliance if the agreement affects New York consumers and their rights under this law are not otherwise addressed.",
+                "contradicted_law": "New York General Obligations Law Section 5-1401",
+                "location": "Section 6(g)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(j) FREEDOM MORTGAGE AND CHERRY HILL HEREBY IRREVOCABLY WAIVE, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY AND ALL RIGHT TO TRIAL BY JURY IN ANY LEGAL PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT, ANY OTHER TRANSACTION DOCUMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY OR THEREBY.",
+                "changed_text": "(j) FREEDOM MORTGAGE AND CHERRY HILL HEREBY WAIVE ANY RIGHT TO TRIAL BY JURY IN ANY LEGAL PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT, ANY OTHER TRANSACTION DOCUMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY OR THEREBY.",
+                "explanation": "By removing \"TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW\", the waiver of jury trial is no longer explicitly constrained by legal limits. This can be problematic because some jurisdictions may have laws that restrict or invalidate jury trial waivers in certain types of cases, especially those involving consumers or weaker bargaining parties. The omission of the limiting phrase creates ambiguity and a risk that the waiver could be challenged and deemed unenforceable, particularly in a jurisdiction with strong consumer protection laws. In those cases, such waivers are often unenforceable or require very specific and conspicuous language to be valid. Removing this clause opens the agreement up to legal challenge.",
+                "contradicted_law": "Varies by jurisdiction, but generally affects consumer protection laws related to fair legal proceedings.",
+                "location": "Section 6(j)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(b) In the event that a party materially breaches any representation or covenant herein, the other party may give written notice of the breach requiring the same to be remedied within 30 days of receipt of such notice. If the breaching party fails to remedy the material breach in such time period, the non-breaching party may terminate this Agreement by delivery of a written termination notice to the breaching party. Any such termination shall not relieve the breaching party from any obligation or liability arising prior to such termination.",
+                "changed_text": "(b) In the event that a party breaches any representation or covenant herein, the other party may terminate this Agreement by delivery of a written termination notice to the breaching party. Any such termination shall not relieve the breaching party from any obligation or liability arising prior to such termination.",
+                "explanation": "By removing the wording regarding 'materially breaches,' and 'written notice of the breach requiring the same to be remedied within 30 days of receipt of such notice. If the breaching party fails to remedy the material breach in such time period,' this allows for termination of the agreement for any breach, regardless of how small it may be. This removes a protection for the breaching party, as minor mistakes that would have otherwise been fixed can instead result in a full contract termination. Some state laws may require a 'cure period' for certain breaches before termination is permitted, especially in contracts with significant financial implications for consumers or small businesses. The omission creates a scenario where termination is easier to initiate, potentially running afoul of laws aimed at preventing unfair or predatory contract terms.",
+                "contradicted_law": "Varies by jurisdiction, but generally affects consumer protection laws requiring good faith and fair dealing, and restrictions on unfair contract terms.",
+                "location": "Section 5(b)"
+            }
+        ]
+    }
+]

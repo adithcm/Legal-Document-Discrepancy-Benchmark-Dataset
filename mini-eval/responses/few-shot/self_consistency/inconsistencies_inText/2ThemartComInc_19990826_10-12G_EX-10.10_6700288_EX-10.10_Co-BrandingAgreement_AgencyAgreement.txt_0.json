@@ -1,26 +1,29 @@
 [
     {
-        "section": "In the event that the parties are unable to agree to an SOW within 2 months following the Effective Date, either party may, in its sole discretion, terminate this Agreement by providing written notice.",
-        "explanation": "Section 2.2 states that if the parties do not agree to a SOW within 2 months either party may terminate. Section 2.3 states that if the launch date has not occurred within 4 months after the effective date, either party may terminate. These sections seem misaligned in purpose. They both set a deadline, and if either party doesn't meet the deadline, the other party can terminate. However, agreeing to a SOW and setting a launch date are different things.",
-        "location": "Section 2.2",
-        "category": 5,
-        "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), unilaterally by 2TheMart without requiring i-Escrow's consent. The Adjusted Rate will be communicated to i-Escrow and will be effective immediately.",
-        "explanation": "This clause gives 2TheMart the unilateral right to change the advertising fees without i-Escrow's consent. Although 2TheMart must communicate the new rate, i-Escrow has no recourse. This could be considered unconscionable or lacking good faith, since one party has complete control over the payment terms without the other party's agreement.",
+        "section": "After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter. The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), unilaterally by 2TheMart without requiring i-Escrow's consent. The Adjusted Rate will be communicated to i-Escrow and will be effective immediately.",
+        "explanation": "The clause allows 2TheMart to unilaterally adjust the advertising fees without i-Escrow's consent. This gives 2TheMart unchecked power to modify the payment terms, which may be unenforceable under general contract law principles requiring mutual agreement for modifications.",
         "location": "Section 5.1",
-        "category": 1,
+        "category": 6,
         "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": false
     },
     {
-        "section": "Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall not survive expiration or termination of this Agreement.",
-        "explanation": "This sentence specifies which sections do not survive termination. However, Section 9 provides an indemnity clause, and indemnification obligations typically survive termination of an agreement. By stating that Section 9 does not survive termination, it creates an ambiguity and potential legal contradiction since the indemnity obligations would cease upon termination, defeating the purpose of such a clause.",
-        "location": "Section 8.5",
-        "category": 7,
-        "location_match": true,
-        "text_match": true
+        "section": "The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
+        "explanation": "There is a contradiction regarding the renewal process. It states that the agreement can be renewed by 'mutual written agreement,' but then continues to say 'In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.' This contradicts the mutual agreement and makes renewal automatic if there is no notice.",
+        "location": "Section 8.1",
+        "category": 3,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Each party (the \"Indemnifying Party\") shall indemnify the other party (the \"Indemnified Party\") against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which the Indemnified Party may incur as a result of claims in any form by third parties arising from the Indemnifying Party's acts, omissions or misrepresentations to the extent that the Indemnified Party is deemed a principal of the Indemnifying Party.",
+        "explanation": "The phrase 'any and all claims' is overly broad and may conflict with state limitations on indemnification. In some jurisdictions, such blanket indemnification may be unenforceable without clearer limits.",
+        "location": "Section 9",
+        "category": 6,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

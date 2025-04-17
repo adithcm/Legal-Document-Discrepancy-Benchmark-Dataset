@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_ContentLicenseAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensee hereby grants all licenses to Fox to enable Fox to provide Wireless Products to VGSL and T-Mobile for distribution to VGSL and T-Mobile subscribers outside of the United States in accordance with the terms of this Agreement, and shall further deliver such Wireless Products to VGSL and T-Mobile on behalf of Fox. Licensee further acknowledges and agrees that pursuant to the VGSL Agreement and the T-Mobile Agreement, VGSL and T-Mobile will remit directly to Fox all receipts generated from sales of the Wireless Products to VGSL and T-Mobile subscribers. Fox will pass through all such receipts received from VGSL and T-Mobile to Licensee and such receipts shall be treated as Gross Receipts, as defined in Paragraph 7(a)(ii) below, for the purpose of this Agreement.",
+                "changed_text": "Licensee hereby grants all licenses to Fox to enable Fox to provide Wireless Products to VGSL and T-Mobile for distribution to VGSL and T-Mobile subscribers outside of the United States in accordance with the terms of this Agreement, and shall further deliver such Wireless Products to VGSL and T-Mobile on behalf of Fox. Licensee further acknowledges and agrees that pursuant to the VGSL Agreement and the T-Mobile Agreement, VGSL and T-Mobile will remit directly to Fox a portion of the receipts generated from sales of the Wireless Products to VGSL and T-Mobile subscribers, as determined by Fox. Fox may or may not pass through all such receipts received from VGSL and T-Mobile to Licensee, and the treatment of these receipts as Gross Receipts is subject to Fox's discretion.",
+                "explanation": "The original text states that Fox will pass through ALL receipts from VGSL and T-Mobile to the Licensee, and these receipts WILL be treated as Gross Receipts. The modified text introduces ambiguity by stating Fox will pass through a PORTION of receipts, as determined by Fox, and the treatment of these receipts as Gross Receipts is SUBJECT TO FOX'S DISCRETION. This creates a contradiction about how revenue is shared and calculated, causing uncertainty about royalty payments.",
+                "location": "2(c)(ii)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "For the avoidance of doubt, Fox will have no right or license to develop, publish, and or distribute any Wireless Products for the Wireless Platform, or to permit any third party to do so, or to otherwise use or exploit any Licensee Materials, except in accordance with Paragraphs 1(b) (with respect to bundling), 2(c)(iii) (with respect to Japan), and 2(c)(ii) (with respect to VGSL and T-Mobile).",
+                "changed_text": "For the avoidance of doubt, Fox will have the right or license to develop, publish, and or distribute some Wireless Products for the Wireless Platform, and Fox may permit any third party to do so, and Fox may otherwise use or exploit some Licensee Materials, except in accordance with Paragraphs 1(b) (with respect to bundling), 2(c)(iii) (with respect to Japan), and 2(c)(ii) (with respect to VGSL and T-Mobile).",
+                "explanation": "The original text explicitly states that Fox has NO right to develop, publish, or distribute Wireless Products, except as specifically outlined. The modified text directly contradicts this by stating that Fox DOES have the right to develop, publish, and distribute SOME Wireless Products and can exploit SOME Licensee Materials. The contradiction introduces uncertainty about the exclusivity of Licensee's rights.",
+                "location": "7(b)(iv)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each party agrees that it shall not be entitled to withhold any portion of the royalties as a reserve.",
+                "changed_text": "Each party agrees that it may be entitled to withhold a reasonable portion of the royalties as a reserve to cover potential disputes or adjustments.",
+                "explanation": "The original text is a firm statement that NEITHER party can hold back royalties as a reserve. The modified text allows either party to withhold royalties for \"potential disputes\", making royalty amounts uncertain and conflicting with the earlier statement. This creates an immediate point of contention and directly opposes the original statement.",
+                "location": "7(c)"
+            }
+        ]
+    }
+]

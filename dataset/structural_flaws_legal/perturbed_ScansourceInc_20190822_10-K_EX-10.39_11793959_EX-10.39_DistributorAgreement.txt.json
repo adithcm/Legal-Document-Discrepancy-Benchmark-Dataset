@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.39_11793959_EX-10.39_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Distributor can find more information about the Foreign Corrupt Practices Act at the following URL: http://www.usdoj.gov/criminal/fraud/docs/dojdocb.html, o r  b y contacting publicsectorcompllance@cisco.com.",
+                "changed_text": "Distributor can find more information about product returns at the following URL: http://www.usdoj.gov/criminal/fraud/docs/dojdocb.html, o r  b y contacting publicsectorcompllance@cisco.com.",
+                "explanation": "The original text correctly directed the distributor to resources regarding the Foreign Corrupt Practices Act. The modified text repurposes this guidance within a section that mandates compliance with anti-corruption laws, but incorrectly links the distributor to resources regarding product returns. This obfuscates where to find the relevant legal information and potentially misleads the distributor, weakening compliance.",
+                "contradicted_law": "U.S. Foreign Corrupt Practices Act",
+                "location": "Section 21.1(a)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(o) Distributor can report to Cisco any concerns it may have regarding any business practices by emailing ethics@cisco.com, or by calling Cisco's Helpline toll free number In North America 1- 877-571-1700 or worldwide number (reverse calling charges to Cisco) 001-770-776-5611. Contact ethics@cisco.com for other Cisco) 001-770-776-5611. Contact ethics@cisco.com for other available regional hotline numbers;",
+                "changed_text": "Distributor may, but is not required, to report to Cisco any concerns it may have regarding business practices by emailing ethics@cisco.com, or calling Cisco's helpline with no guarantee of a response. Contact ethics@cisco.com for other available regional hotline numbers, but response times may vary.",
+                "explanation": "By changing 'can report' to 'may, but is not required, to report', the modification weakens the encouragement for reporting unethical business practices. The phrase 'with no guarantee of a response' further discourages reporting and makes it difficult to enforce a claim that Cisco provides a method to report these practices.",
+                "contradicted_law": "U.S. Foreign Corrupt Practices Act",
+                "location": "Section 21.1(o)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(n) Notwithstanding any other provision in this Agreement, Cisco may terminate this Agreement immediately upon written notice if Distributor breaches any of the representations and warranties set forth in this section.",
+                "changed_text": "(n) Notwithstanding any other provision in this Agreement, Cisco may consider terminating this Agreement upon written notice if Distributor breaches any of the representations and warranties set forth in this section; termination is not guaranteed.",
+                "explanation": "By changing 'may terminate immediately' to 'may consider terminating', the modification introduces ambiguity and weakens Cisco's ability to enforce immediate termination in case of a breach of the representations and warranties. The phrase 'termination is not guaranteed' further waters down the original intent.",
+                "contradicted_law": "U.S. Foreign Corrupt Practices Act",
+                "location": "Section 21.1(n)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "INTERSECTENT,INC_05_11_2020-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.1. Supply. During the term of this Agreement and subject to the terms and conditions set forth herein, INTERSECT shall purchase [*] of its annual API requirement, from HOVIONE and HOVIONE shall manufacture and supply API to INTERSECT (or a third party designated by INTERSECT) in such quantities as from time to time may be ordered by INTERSECT.",
+                "changed_text": "2.1. Supply. During the term of this Agreement and subject to the terms and conditions set forth herein, INTERSECT may purchase API from any supplier of its choosing, and HOVIONE may supply API to INTERSECT (or a third party designated by INTERSECT) in such quantities as HOVIONE deems appropriate. INTERSECT is under no obligation to purchase any specific quantity of API from HOVIONE.",
+                "explanation": "Section 2.1 originally states INTERSECT *shall* purchase a certain percentage of its annual API requirement from HOVIONE, creating a binding obligation. The modified version states INTERSECT *may* purchase API from any supplier and is under no obligation to purchase any specific quantity from HOVIONE, contradicting the original binding obligation and creating uncertainty about INTERSECT's commitment to purchase API from HOVIONE. This creates a conflict between the obligation and the optionality, making the obligations uncertain.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "10.1. Term.\n\nUnless terminated in accordance with the provisions of Section 10.2 below, the term of this Agreement shall commence on the Effective Date and shall continue in effect for a FIVE (5) year period.",
+                "changed_text": "10.1. Term.\n\nUnless terminated in accordance with the provisions of Section 10.2 below, the term of this Agreement shall commence on the Effective Date and shall continue in effect until either party provides written notice of termination, which may be given at any time and for any reason. The notice period shall be thirty (30) days.",
+                "explanation": "Section 10.1 originally states the agreement has a fixed five-year term. The modified version allows either party to terminate the agreement at any time for any reason with a thirty-day notice, directly contradicting the fixed-term provision and creating uncertainty about the agreement's duration and enforceability. This undermines the original intention of a guaranteed five-year relationship, making it unclear how long the contract is supposed to last.",
+                "location": "Section 10.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "14.6. Governing Law. This Agreement is to be governed by and construed in accordance with the laws of the State of New York, United States, notwithstanding any conflict of law provisions to the contrary. The United Nations Convention on Contracts for the International Sale of Goods shall not apply to this Agreement. Any action which in any way involves the rights, duties and obligations of either party hereto under this Agreement shall be brought in the courts of Geneva and the Parties to this Agreement hereby submit to the personal jurisdiction of any such court. The Parties waive any and all rights to have any dispute, claim or controversy arising out of or relating to this Agreement tried before a jury.",
+                "changed_text": "14.6. Governing Law. This Agreement is to be governed by and construed in accordance with the laws of Switzerland, notwithstanding any conflict of law provisions to the contrary. The United Nations Convention on Contracts for the International Sale of Goods shall apply to this Agreement. Any action which in any way involves the rights, duties and obligations of either party hereto under this Agreement shall be brought in the courts of New York and the Parties to this Agreement hereby submit to the personal jurisdiction of any such court. The Parties expressly reserve all rights to have any dispute, claim or controversy arising out of or relating to this Agreement tried before a jury.",
+                "explanation": "The original clause specifies New York law as governing law, excludes the UN Convention, designates Geneva courts, and waives jury trials. The modified clause specifies Swiss law, includes the UN Convention, designates New York courts, and reserves the right to a jury trial. This directly contradicts the original terms, creating ambiguity about which legal system and procedures apply to disputes, adding considerable uncertainty to enforcement. This shifts the potential legal interpretation, forum and procedures dramatically.",
+                "location": "Section 14.6"
+            }
+        ]
+    }
+]

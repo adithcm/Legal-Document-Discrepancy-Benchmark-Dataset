@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "QIWI_06_16_2017-EX-99.(D)(2)-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "\"Affiliate\" means, with respect to any person, any other person directly or indirectly, through one or more intermediaries, Controlling, Controlled by or under common Control with such person and, in the case of a trust, any trustee or beneficiary (actual or potential) of that trust and, in the case of an individual, any person connected with him; provided that, for the purposes of this Agreement, neither QIWI nor any of its subsidiaries is to be regarded as an Affiliate of Otkritie;",
+                "changed_text": "\"Affiliate\" means, with respect to any person, any other person directly or indirectly, through one or more intermediaries, Controlling, Controlled by or under common Control with such person and, in the case of a trust, any trustee or beneficiary (actual or potential) of that trust and, in the case of an individual, any person connected with him; provided that, for the purposes of this Agreement, QIWI and some of its subsidiaries may be regarded as an Affiliate of Otkritie under certain circumstances determined at the discretion of both parties;",
+                "explanation": "The original text explicitly excludes QIWI and its subsidiaries from being considered affiliates of Otkritie. The modified text introduces ambiguity by stating that they *may* be considered affiliates under certain circumstances, contradicting the initial definitive statement. This creates uncertainty about the scope of 'Affiliate' and its implications for other clauses relying on this definition.",
+                "location": "1.1 Definitions"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.5 The Steering Committee shall validly act only at a duly convened meeting with the approval of at least four (4) of the Committee Members present at such meeting. Upon the approval of a proposal by the Steering Committee, the Steering Committee shall present such proposal to the respective governing body of each Otkritie and of QIWI for approval. For the avoidance of doubt, no decision of the Steering Committee shall be binding on the Parties unless, and the Parties are only required to act upon any decision of the Steering Committee if and to the extent that, such decision is properly approved/ratified by the relevant governing bodies of both Otkritie and QIWI.",
+                "changed_text": "3.5 The Steering Committee shall validly act only at a duly convened meeting with the approval of at least four (4) of the Committee Members present at such meeting. Upon the approval of a proposal by the Steering Committee, the Steering Committee shall present such proposal to the respective governing body of each Otkritie and of QIWI for approval. For the avoidance of doubt, decisions of the Steering Committee are immediately binding on the Parties, and the Parties are required to act upon any decision of the Steering Committee without waiting for approval/ratification by the relevant governing bodies of both Otkritie and QIWI.",
+                "explanation": "The original text states clearly that Steering Committee decisions are *not* binding until ratified by both companies' governing bodies. The modified text directly contradicts this by stating that decisions *are* immediately binding, removing the safeguard of higher-level approval. This creates a conflict of authority and enforcement uncertainty.",
+                "location": "3.5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "8.1 A notice (including any approval, consent or other communication) in connection with this Agreement and the documents referred to in it or with any arbitration under this Agreement:\n\n (a) must be in writing in English;\n\n (b) for the avoidance of doubt, must not be sent by electronic mail;",
+                "changed_text": "8.1 A notice (including any approval, consent or other communication) in connection with this Agreement and the documents referred to in it or with any arbitration under this Agreement:\n\n (a) must be in writing in English;\n\n (b) notices can be sent via electronic mail and will be considered valid upon confirmation of receipt by the receiving party.",
+                "explanation": "The original text explicitly forbids the use of electronic mail for any notices related to the agreement. The modified text directly contradicts this by allowing electronic mail notices and outlining a condition for their validity (confirmation of receipt). This creates a direct conflict in the prescribed method of communication.",
+                "location": "8.1"
+            }
+        ]
+    }
+]

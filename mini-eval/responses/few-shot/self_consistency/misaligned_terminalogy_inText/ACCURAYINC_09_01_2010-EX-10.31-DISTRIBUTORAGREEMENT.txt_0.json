@@ -1,26 +1,29 @@
 [
     {
-        "section": "1.3. \"Distributor\" means Siemens. For the purposes of clarity within this document, a Partner is classified as Siemens, its Affiliates, or any Third Party which has been granted distribution rights whose scope includes the Products and/or Services by Siemens.",
-        "explanation": "This definition creates ambiguity. It defines 'Distributor' as Siemens, but then defines 'Partner' to include Siemens, its affiliates, or any third party granted distribution rights by Siemens. This implies that entities other than Siemens could act as distributors under this agreement, which contradicts the initial definition of 'Distributor.'",
-        "location": "Section 1.3",
-        "category": 1,
-        "location_match": true,
-        "text_match": true
-    },
-    {
-        "section": "Accuray will defend or settle any action brought against Distributor and shall indemnify and hold Distributor harmless from any liability, damages and expenses (including court costs and reasonable attorneys' fees) to the extent that it is based upon a third-party claim that a Product, as provided by Accuray to Distributor under this Agreement, infringes any patent issued in the United States, Germany, or in the country in which the Customer requested delivery of the Product or any copyright or misappropriates any trade secret, and will pay any costs and damages made in settlement or awarded against Distributor in final decision resulting from any such claim, provided that Distributor: (i) gives Accuray prompt notice of any such claim; (ii) gives Accuray sole control of the defense and any related settlement of any such claim; and (iii) gives Accuray, at Accuray's expense, all reasonable information, assistance and authority in connection with the foregoing. Accuray will not be bound by any settlement or compromise that Distributor enters into without Accuray's express prior written consent.",
-        "explanation": "This indemnification clause limits Accuray's liability to patent infringement claims in the US, Germany, or the Customer's country. However, the agreement establishes a 'worldwide' distributorship in Section 2.1. If a claim arises in another country, it's unclear whether Accuray would be responsible. This geographic limitation contradicts the scope of the distributorship and creates ambiguity.",
-        "location": "Section 10.1",
+        "section": "Accuray hereby appoints Distributor as a non-exclusive, worldwide distributor of Products and Services to Customers solely in connection with Multiple LINAC or Multi-Modality Purchases, not to the exclusion of Accuray itself or any of its other current or future distributors and subject to the terms and conditions of this Agreement. By way of clarification, this Agreement does not relate to any Cayman Product, including, without limitation, the distribution or sale thereof or any services related thereto.",
+        "explanation": "The appointment of the Distributor is specified as 'non-exclusive, worldwide distributor...solely in connection with Multiple LINAC or Multi-Modality Purchases.' However, it is unclear what happens if a customer wants to purchase a single LINAC or modality. This creates ambiguity about whether the distributor can facilitate such a sale and how it would be handled.",
+        "location": "Section 2.1",
         "category": 1,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
-        "section": "Unless otherwise agreed by Accuray and Distributor (including, without limitation, pursuant to the terms of any distributorship agreement entered into pursuant to Section 3.2 of the Strategic Alliance Agreement), Accuray shall be responsible for installation of Accuray Products at Customer sites.",
-        "explanation": "There is an omission of terms. This section states that Accuray is responsible for installation 'unless otherwise agreed', which creates a lack of clarity on when distributor handles it themselves, it makes it hard to see when this happens and what the procedure is.",
-        "location": "Section 4.7",
+        "section": "Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval.",
+        "explanation": "The consequence of Accuray failing to respond to a purchase order within two weeks is defined as 'disapproval.' However, the impact of a disapproval is not fully specified. Does this mean the Distributor can then cancel the order, or does it lead to other penalties or obligations? The omission of these details creates ambiguity.",
+        "location": "Section 2.3.3",
         "category": 7,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "The letter of credit will provide that Accuray can draw against the letter of credit according to the following schedule:\n5.4.1.1.1. US $100,000 (non-refundable but, in case of cancellation of the Purchase Order, automatically applied to Distributor's next purchase of a System) upon Accuray's acceptance of the Purchase Order, which must be at least four (4) months prior to the Distributor's proposed shipment date; and\n5.4.1.1.2. Balance upon presentation of documents by Accuray evidencing shipment of the Products to Distributor or Customer as designated in the Purchase Order.",
+        "explanation": "The first part says that the US $100,000 is non-refundable, but if there is a cancellation of the Purchase Order, automatically applied to Distributor's next purchase of a System, but does not specify any kind of time frame on when that next purchase of the system has to be.",
+        "location": "Section 5.4.1.1",
+        "category": 1,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

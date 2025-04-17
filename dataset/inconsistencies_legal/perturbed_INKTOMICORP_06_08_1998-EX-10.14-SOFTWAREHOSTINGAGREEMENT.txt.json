@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INKTOMICORP_06_08_1998-EX-10.14-SOFTWAREHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Except as set forth in Section 4.1(b) above, Inktomi shall supply to Microsoft written invoices for all amounts due under this Agreement, and payments will be due net [*] ([*]) days from Microsoft's receipt of such invoice.",
+                "changed_text": "Except as set forth in Section 4.1(b) above, Inktomi shall supply to Microsoft written invoices for all amounts due under this Agreement, and payments will be due net 90 days from Microsoft's receipt of such invoice.",
+                "explanation": "Changing the payment terms to 'net 90 days' could create a legal contradiction if it violates state prompt payment laws, which often mandate shorter payment periods, especially for specific industries or types of contracts. For example, California law often requires payments within 30-45 days.",
+                "contradicted_law": "California Prompt Payment Laws (hypothetical violation)",
+                "location": "4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Inktomi may terminate this Agreement without cause upon one year's prior written notice, provided that such notice may not be given prior to the second anniversary of the Launch Date.",
+                "changed_text": "Inktomi may terminate this Agreement without cause upon 30 days' prior written notice, provided that such notice may not be given prior to the second anniversary of the Launch Date.",
+                "explanation": "Reducing the termination notice period to 30 days for a complex hosting agreement could be deemed unconscionable or violate implied duties of good faith and fair dealing, depending on the specific circumstances and jurisdiction. Courts may find the original one-year notice period more reasonable, and a shorter period could be seen as giving insufficient time for Microsoft to transition its services.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (potential violation)",
+                "location": "10.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Microsoft may terminate this Agreement at any time without cause upon [*] ([*]) days prior written notice.",
+                "changed_text": "Microsoft may terminate this Agreement at any time without cause upon 10 days prior written notice.",
+                "explanation": "Reducing the termination notice period to 10 days may be regarded as unconscionable, depending on jurisdiction, and violate implied duties of good faith and fair dealing. It might be regarded as insufficient for Inktomi to find a replacement client or for Inktomi's potential losses, requiring greater recompense. Courts may find a longer notice period is appropriate.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing (potential violation)",
+                "location": "10.2"
+            }
+        ]
+    }
+]

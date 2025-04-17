@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ApolloEndosurgery-ManufacturingandSupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.5 Insurance. ESTABLISHMENT, at its sole cost and expense, will maintain appropriate insurance including, but not limited to, Commercial General Liability Insurance with premises, operations coverage including Person Injury/Property Damage coverage, with limits of not less than $1,000,000 per occurrence. As of January 1, 2015, such insurance shall also have annual aggregate limits not less than $2,000,000. Evidence of insurance indicating such coverage will be delivered to APOLLO upon request. The evidence will (a) indicate that the policy will not change or terminate without at least fifteen (15) days prior written notice to APOLLO, (b) APOLLO shall be listed as an additional insured on the commercial general liability policy.",
+                "changed_text": "10.1 Relationship Between the Parties. In fulfilling its obligations pursuant to this Agreement, each Party shall be acting as an independent contractor. Neither Party is granted any right or authority to assume or to create any obligation or responsibility, express or implied, on behalf of or in the name of the other Party.\n\n8.5 Insurance. ESTABLISHMENT, at its sole cost and expense, will maintain appropriate insurance including, but not limited to, Commercial General Liability Insurance with premises, operations coverage including Person Injury/Property Damage coverage. Evidence of insurance indicating such coverage will be delivered to APOLLO upon request.",
+                "explanation": "Moved the insurance requirement from Indemnification, Limitation of Liability and Insurance to Relationship Between the Parties. Some jurisdictions require insurance clauses to be clearly stated near liability clauses.",
+                "contradicted_law": "Various state laws regarding clear contract language and insurance requirements.",
+                "location": "Section 8.5, 10.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.8 Governing Law and Venue. Notwithstanding its place of execution or performance, this Agreement shall be governed by and construed in accordance with the laws of the State of Texas, irrespective of its laws regarding choice or conflict of laws. Any dispute arising under or relating to this Agreement shall be submitted for resolution to a state or federal court of competent jurisdiction in Austin, Texas, and the Parties hereby agree to submit to the jurisdiction and venue of such court.",
+                "changed_text": "10.2 Nonexclusivity. Nothing in this Agreement shall limit or restrict Apollo from establishing a second source for the manufacture of the Products.\n\n10.8 Governing Law and Venue. Notwithstanding its place of execution or performance, this Agreement shall be governed by and construed in accordance with laws, irrespective of its laws regarding choice or conflict of laws. Any dispute arising under or relating to this Agreement shall be submitted for resolution to a court of competent jurisdiction.",
+                "explanation": "Removed governing location to Venue. Governing law and venue is essential for resolving disputes and is usually expected to be explicitly stated.",
+                "contradicted_law": "Varies depending on jurisdiction, but affects enforceability of contract disputes.",
+                "location": "Section 10.8"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6.2Debarment. ESTABLISHMENT represents, warrants and covenants that no person or entity that will be involved in the performance of ESTABLISHMENT's obligations under this Agreement is under investigation by the FDA or other Regulatory Authority for debarment or is presently debarred by the FDA or other Regulatory Authority. In addition, ESTABLISHMENT represents and warrants that it has not engaged in any conduct or activity that could lead to any such debarment actions. If during the Term, ESTABLISHMENT or any person or entity that will be involved in the performance of ESTABLISHMENT's obligations under this Agreement (i) comes under investigation by the FDA for a debarment action, (ii) is debarred, or (iii) engages in any conduct or activity that could lead to debarment, ESTABLISHMENT shall notify APOLLO immediately after gaining knowledge of the situation.",
+                "changed_text": "10.3 No Third Party Beneficiaries. This Agreement is neither expressly nor impliedly made for the benefit of any party other than those executing it.\n\n6.2Debarment. ESTABLISHMENT represents that no person or entity that will be involved in the performance of ESTABLISHMENT's obligations under this Agreement is under investigation by the FDA or other Regulatory Authority for debarment.",
+                "explanation": "Moved debarment to a non-relevant section. Removing the warranty impacts the safety of product APOLLO is providing.",
+                "contradicted_law": "Food, Drug and Cosmetic Act",
+                "location": "Section 6.2, 10.3"
+            }
+        ]
+    }
+]

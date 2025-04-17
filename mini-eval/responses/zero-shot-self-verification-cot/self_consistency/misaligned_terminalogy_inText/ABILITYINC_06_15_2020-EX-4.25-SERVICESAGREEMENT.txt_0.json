@@ -1,26 +1,29 @@
 [
     {
         "section": "A. Recipient wishes to engage the Vendor to provide certain services and resources (the \"Deliverables\") and Provider desires to provide Recipient with the Services all in accordance with the terms and conditions set forth herein.",
-        "explanation": "The Recitals section introduces the term \"Vendor\" and states that Recipient wishes to engage the Vendor. However, the rest of the agreement refers to the service provider as \"Provider\", not \"Vendor\". This creates confusion because it is not clear if \"Vendor\" and \"Provider\" are supposed to be the same entity. This introduces ambiguity as to which party is responsible for providing the services.",
-        "location": "Recitals",
+        "explanation": "The Recitals section introduces both \"Vendor\" and \"Provider\" but only defines \"Provider\" later in the document (Section 1.1(a)). It is not explicitly stated whether the \"Vendor\" and \"Provider\" are the same entity. This creates potential confusion, as it is unclear if the Recipient is engaging two different parties or if the terms are used interchangeably. It introduces an in-text contradiction",
+        "location": "Recitals, Section A",
         "category": 5,
         "location_match": false,
-        "text_match": true
-    },
-    {
-        "section": "1.2 Standard of Service. (b) Supplier shall maintain complete and accurate records relating to the provision of the Services under this Agreement, in such form as Recipient shall approve.",
-        "explanation": "The 'Standard of Service' section mentions \"Supplier\" instead of \"Provider,\" creating confusion and misalignment. It's not explicitly clear whether 'Supplier' refers to the same entity as 'Provider,' leading to uncertainty about who is responsible for maintaining the required records.",
-        "location": "Section 1.2 (b)",
-        "category": 5,
-        "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": true
     },
     {
         "section": "3.1 Termination of Agreement. This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "This section has structural flaws that make it difficult to read and understand. The text states \"This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020\". The word \"Agreement\" shows up twice and the sentence structure makes no sense.",
+        "explanation": "This section describes the term and termination of the agreement. This section is a structural flaw because it does not make sense. It appears to have extraneous words like 'Agreement' that was not meant to be there. This creates an in-text contradiction because the wording is too difficult to understand.",
         "location": "Section 3.1",
         "category": 9,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "Notwithstanding anything to the contrary in this Section 1.2: (a) in the event that Provider uses any subcontractors to perform any Services, Provider is not released from responsibility for its obligations under this Agreement; (b) Provider shall remain fully responsible, financially and otherwise, for the Services provided by each subcontractor to the same extent as if Provider had performed the Services itself (subject to the limitations set forth in this Agreement) and agrees to pay the fees and expenses of any such subcontractor; (c) Provider shall remain ultimately responsible for ensuring that the Services are provided and any such subcontractor performs any such obligations in accordance with the terms of this Agreement, and (d) the obligations with respect to the nature, quality and standards of care set forth in Section 1.2 are satisfied with respect to any Service provided by any subcontractor.",
+        "explanation": "This Section 1.2 outlines the responsibilities of the Provider when using subcontractors. This part may cause ambiguity in legal terms and also introduce a legal contradiction. While (a),(b), and (c) states that Provider remains ultimately responsible even when subcontractors are used, (d) only requires that the standards of care in Section 1.2 are 'satisfied'. It does not say the provider is responsible. This could be interpreted to mean that if a subcontractor provides substandard service but still 'satisfies' the terms of 1.2, the provider is not liable. This is an ambiguity in the responsibility of the provider.",
+        "location": "Section 1.2",
+        "category": 2,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

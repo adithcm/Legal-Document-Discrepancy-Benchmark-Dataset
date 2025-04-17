@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SEASPINEHOLDINGSCORP_10_10_2018-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.10. \"Integra Customers\" means Third Parties who purchase Treated Integra Products and Partially Treated Integra Products from Integra or its Affiliates and does not include any Integra Affiliates.\"Integra Products\" means any implantable spinal surgery interbody and/or intervertebral medical device designed and/or manufactured by or for Integra.",
+                "changed_text": "1.10. \"Integra Customers\" means any entity, including Integra Affiliates, who directly or indirectly acquire Treated Integra Products and Partially Treated Integra Products. \"Integra Products\" means any device, whether implantable or not, related to spinal surgery.",
+                "explanation": "This change introduces a contradiction in the definition of 'Integra Customers'. The original text explicitly excludes Integra Affiliates, while the modified text includes them. The definition of Integra Product also changes to include all spinal surgery devices, not just implantable ones, which contradicts implicit understanding.",
+                "location": "Section 1.10"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.1. Grant of Exclusive Rights. Subject to the terms and conditions of this Agreement, PcoMed hereby grants to Integra and its Affiliates a sole and exclusive worldwide right to sell and commercialize Integra Products treated by PcoMed, with the PcoMed Surface Modification Technology (the \"Right\") for use in the Field in the Territory, including the right to conduct research and development in support of any of the foregoing. Nothing herein grants any rights to Integra (i) to manufacture any products using the PcoMed Surface Modification Technology or (ii) to sell or commercialize any products utilizing the PcoMed Surface Modification Technology other than the Integra Products for use in the Field in the Territory. Neither PcoMed nor its Affiliates shall sell or offer for sale, or grant rights under the PcoMed Surface Modification Technology to any Third Party in the Field in the Territory for products that utilize or embody the PcoMed Surface Modification Technology. Except as expressly stated in the preceding sentence, PcoMed shall not be subject to any restriction under this Agreement with regard to the PcoMed Surface Modification Technology. Without limiting the foregoing or Section 8.3 below, the exclusive nature of the Rights shall not in any way limit PcoMed from making, having made, using, selling or offering for sale products and/or services that do not utilize or embody the PcoMed Surface Modification Technology.",
+                "changed_text": "3.1. Grant of Exclusive Rights. Subject to the terms and conditions of this Agreement, PcoMed hereby grants to Integra and its Affiliates a sole and exclusive worldwide right to sell and commercialize Integra Products treated by PcoMed, with the PcoMed Surface Modification Technology (the \"Right\") for use in the Field in the Territory, including the right to conduct research and development in support of any of the foregoing. Furthermore, Integra is also granted the right to manufacture products using the PcoMed Surface Modification Technology for internal research purposes only. Neither PcoMed nor its Affiliates shall sell or offer for sale, or grant rights under the PcoMed Surface Modification Technology to any Third Party in the Field in the Territory for products that utilize or embody the PcoMed Surface Modification Technology. PcoMed shall be subject to restrictions under this Agreement with regard to the PcoMed Surface Modification Technology. Without limiting the foregoing or Section 8.3 below, the exclusive nature of the Rights shall not in any way limit PcoMed from making, having made, using, selling or offering for sale products and/or services that do not utilize or embody the PcoMed Surface Modification Technology.",
+                "explanation": "The original text explicitly denies Integra the right to manufacture products. The changed text grants Integra the right to manufacture for internal research purposes, creating a direct contradiction. Also, PcoMed was initially not subject to any restriction but in the changed text it says PcoMed shall be subject to restrictions.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "12.3. Governing Law. This Agreement shall be construed and enforced in accordance with the laws of the State of New Jersey.",
+                "changed_text": "12.3. Governing Law. This Agreement shall be construed and enforced in accordance with the laws of the State of Delaware, except for matters concerning intellectual property, which shall be governed by federal law.",
+                "explanation": "The original text states that New Jersey law governs the entire agreement. The modified text states Delaware law governs, except for IP matters, which are governed by federal law. This introduces a contradiction and ambiguity regarding which law applies to specific aspects of the contract.",
+                "location": "Section 12.3"
+            }
+        ]
+    }
+]

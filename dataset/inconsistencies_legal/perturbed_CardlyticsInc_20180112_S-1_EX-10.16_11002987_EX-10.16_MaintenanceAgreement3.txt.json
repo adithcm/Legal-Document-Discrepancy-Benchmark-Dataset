@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"SLCMA\"). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.",
+                "changed_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"SLCMA\"). Any capitalized term used but not defined herein shall have a meaning at the Supplier's discretion, regardless of the meaning assigned in the SLCMA.",
+                "explanation": "This change introduces ambiguity and potential contradiction by allowing the Supplier to define capitalized terms differently from their definitions in the existing SLCMA. This could lead to misinterpretations and disputes, undermining the contract's clarity and enforceability. This contradicts standard contract law principles requiring consistent and clear definitions.",
+                "contradicted_law": "General contract law principles regarding clarity, consistency, and mutual understanding in contractual terms.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "NOW THEREFORE, in consideration of the promises and accords made herein, and the exchange of such good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, Bank of America and Supplier agree as follows:",
+                "changed_text": "NOW THEREFORE, in consideration of the promises and accords made herein, and the exchange of such good and valuable consideration, the receipt and sufficiency of which may or may not be acknowledged, Bank of America and Supplier agree as follows:",
+                "explanation": "The change introduces uncertainty regarding the acknowledgement of receipt and sufficiency of consideration. Consideration is a fundamental element of a valid contract. Stating that the receipt and sufficiency 'may or may not be acknowledged' creates a significant legal risk that the contract could be deemed unenforceable due to lack of proven consideration. The Uniform Commercial Code (UCC) requires consideration for a contract to be valid.",
+                "contradicted_law": "Basic contract law principles requiring consideration for a valid contract, potentially violating Article 2 of the Uniform Commercial Code (UCC) if the software is considered 'goods'.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The attached Schedule [A] is hereby incorporated into the SLCMA describing the Offer Placement System Software for use by Bank of America.",
+                "changed_text": "The attached Schedule [A] is hereby understood and agreed to be non-binding and for informational purposes only and is not incorporated into the SLCMA describing the Offer Placement System Software for use by Bank of America.",
+                "explanation": "The change negates the integration of Schedule [A] into the SLCMA, rendering it non-binding. By stating that the schedule is 'non-binding and for informational purposes only', the clause contradicts the intent of incorporating the schedule as part of the agreement. This could impact the enforceability of terms outlined in Schedule A. This could lead to misinterpretations of the original terms. This could create issues with the legal requirements of a binding contract.",
+                "contradicted_law": "General contract law principles regarding the enforceability of incorporated documents and the mutual intent to be bound by all parts of an agreement.",
+                "location": "Paragraph after Preamble"
+            }
+        ]
+    }
+]

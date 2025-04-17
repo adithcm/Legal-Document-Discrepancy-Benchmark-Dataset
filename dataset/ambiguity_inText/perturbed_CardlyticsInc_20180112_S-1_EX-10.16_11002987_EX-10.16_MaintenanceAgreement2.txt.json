@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1. The Customizations shall fulfill or exceed all of the functional, performance and other specifications described in the Program Materials and the documents prepared either by Bank of America or Supplier pursuant to this Agreement. as indicated below.",
+                "changed_text": "1. The Customizations shall fulfill all of the functional specifications described in the Program Materials and the documents prepared either by Bank of America or Supplier pursuant to this Agreement. While Supplier will strive to exceed performance and other specifications, it is not guaranteed.",
+                "explanation": "The original text states that customizations 'shall fulfill or exceed' all specifications. The modified text makes fulfilling functional specifications mandatory but weakens the obligation to exceed performance and other specifications, creating ambiguity as to the required standard for those latter specifications.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "4. Fees for Customizations:\n\n[SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE]\n\nIf the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+                "changed_text": "4. Fees for Customizations:\n\n[SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE]\n\nIf the proposed price is increased by Supplier upon delivery to Bank of America of detailed specifications, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder. However, price increases at any other time will be subject to negotiation.",
+                "explanation": "The original text allows Bank of America to terminate the schedule and receive a refund if the price increases at any time. The modified version restricts this right to only apply when the price increase occurs 'upon delivery of detailed specifications', thus introducing ambiguity and contradiction about Bank of America's rights to cancel upon price increases at other points in time.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6 The Delivery and Installation Schedule for this Customization is:\n\nDelivery Date:\n\nInstallation Date:\n\n[Insert any other Schedule Information pertaining to the Delivery or Installation of the Product]",
+                "changed_text": "6 The Delivery and Installation Schedule for this Customization is:\n\nDelivery Date: To be determined\n\nInstallation Date: To be determined\n\nWhile the Supplier will make reasonable efforts to meet mutually agreed upon delivery and installation dates, these dates are estimates and not binding.",
+                "explanation": "The original text implies a fixed schedule with specified delivery and installation dates. The modified version states 'To be determined' and explicitly makes the dates 'estimates and not binding'. This creates a contradiction because the original schedule suggests a firm commitment, whereas the modified text introduces flexibility and uncertainty, making it unclear if the schedule is enforceable.",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

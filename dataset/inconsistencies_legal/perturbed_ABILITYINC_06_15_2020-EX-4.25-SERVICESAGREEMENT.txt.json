@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within fifteen (15) days after the date of receipt of an Invoice by Recipient from Provider.",
+                "changed_text": "(b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within sixty (60) days after the date of receipt of an Invoice by Recipient from Provider.",
+                "explanation": "The original contract stipulates payment within 15 days of invoice receipt. Changing this to 60 days introduces a potential conflict with standard business practices and potentially Israeli law (where one of the recipients is located), which may consider excessively long payment terms to be unfair or unreasonable, especially for smaller service providers. The modified term could be construed as an attempt to exert undue financial pressure on the Provider.",
+                "contradicted_law": "Potentially violates Israeli contract law regarding fair and reasonable payment terms.",
+                "location": "2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3.2 Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 90 (ninety) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
+                "changed_text": "3.2 Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 30 (thirty) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
+                "explanation": "Reducing the termination notice period from 90 days to 30 days may violate the implied covenant of good faith and fair dealing in contracts, particularly if the Provider relies on the 90-day notice period to manage its resources and obligations. A shorter notice period could cause undue hardship or financial loss for the Provider, making the termination clause potentially unenforceable under Israeli law (governing law of the agreement) if deemed unreasonable or exploitative.",
+                "contradicted_law": "Potentially violates the implied covenant of good faith and fair dealing under Israeli contract law.",
+                "location": "3.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "7.2 Governing Law. This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel (including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute), without giving effect to any choice or conflict of law provision or rule (whether of the State of Israel or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Israel.",
+                "changed_text": "7.2 Governing Law. This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of Singapore, without giving effect to any choice or conflict of law provision or rule (whether of Singapore or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than Singapore.",
+                "explanation": "The original governing law is the State of Israel. The recipient companies are located in Singapore and Israel. Changing it to Singapore when the contract is clearly operated in Israel may violate the implied covenant of good faith and fair dealing in contracts, particularly since changing the governing law alters the legal landscape under which the parties operate and resolve disputes. This could disadvantage the Provider, especially if Israeli law offers more favorable protections in certain areas relevant to the contract, leading to unenforceability under the original contract's jurisdiction.",
+                "contradicted_law": "Potentially violates the implied covenant of good faith and fair dealing under Israeli contract law.",
+                "location": "7.2"
+            }
+        ]
+    }
+]

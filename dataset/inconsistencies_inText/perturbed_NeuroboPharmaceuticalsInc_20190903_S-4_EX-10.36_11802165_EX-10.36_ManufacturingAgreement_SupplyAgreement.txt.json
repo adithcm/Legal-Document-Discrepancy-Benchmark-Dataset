@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "NeuroBo shall pay to Dong-A [***] ([***]%) of the fees as agreed by the Parties within [***] days prior to conducting such activities by Dong-A, and shall pay the balance due within [***] days after delivery by Dong-A to NeuroBo of the deliverables as agreed by the Parties.",
+                "changed_text": "NeuroBo shall pay to Dong-A [***] ([***]%) of the fees as agreed by the Parties within [***] days prior to conducting such activities by Dong-A, and shall pay the balance due within 90 days after delivery by Dong-A to NeuroBo of the deliverables as agreed by the Parties.",
+                "explanation": "The modified text creates an in-text contradiction regarding payment terms. While the original text specifies that the balance is due within '[***] days' after delivery, the changed text states that the balance is due within '90 days' after delivery. This creates ambiguity and uncertainty over when the payment is actually due.",
+                "location": "Section 2.7"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than [***] days prior to the shipment date by way of wire transfer to Dong-A.",
+                "changed_text": "Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than [***] days after the shipment date by way of wire transfer to Dong-A.",
+                "explanation": "The modified text creates an in-text contradiction regarding payment deadlines. Originally, payment was due prior to the shipment date, offering Dong-A a degree of financial security before transferring the goods. The changed text, however, stipulates payment after the shipment date, altering the risk profile and potentially impacting cash flow. This inconsistency causes confusion and ambiguity.",
+                "location": "Section 4.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement shall commence on the Effective Date and, unless earlier terminated, shall continue in full force and effect for a period of [***] years thereafter.",
+                "changed_text": "This Agreement shall commence on the Effective Date and, unless earlier terminated, shall continue in full force and effect for a period of [***] years thereafter. Notwithstanding the foregoing, either party may terminate this agreement after 2 years with no penalty.",
+                "explanation": "The original text establishes a defined term length, and the changed text introduces an element that allows termination with no penalty after 2 years. This introduces an in-text contradiction because the original text implies a commitment for the entire defined term, while the added sentence provides a means to break that commitment after a shorter period without incurring penalties. This inconsistency could lead to disputes regarding the expected duration and termination rights under the contract.",
+                "location": "Section 5.1"
+            }
+        ]
+    }
+]

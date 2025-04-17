@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSINGANDWEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Client will comply in all material respects with applicable state and federal consumer credit reporting, privacy and similar laws in connection with its use of the Interface.",
+                "changed_text": "Client will endeavor to comply with consumer credit reporting, privacy and similar laws in connection with its use of the Interface.",
+                "explanation": "By changing 'will comply in all material respects' to 'will endeavor to comply', the contract weakens the client's obligation to adhere to consumer protection laws. This creates a legal risk because it suggests that compliance is not mandatory and absolute, potentially violating the Fair Credit Reporting Act (FCRA) and similar state laws which mandate strict adherence to consumer rights regarding credit data.",
+                "contradicted_law": "Fair Credit Reporting Act (FCRA) and California Consumer Credit Reporting Agencies Act (CCRAA)",
+                "location": "8.a"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "TrueLink shall transmit such credit data to Client through the Interface as may be permitted under the Credit Repository Agreements and applicable law, each as in affect from time to tome, and in accordance with the certain Credit Bureau Agreement between TrueLink and Client dated of even date herewith. Subject to the foregoing, Client shall order TrueLink a credit report on each borrower for which an underwriting approval is requested through a System using the Interface. TrueLink makes no representation or warranty, and shall have no liability for the truth or completeness of any data so transmitted.",
+                "changed_text": "TrueLink shall transmit credit data to Client through the Interface and Client shall order TrueLink a credit report on each borrower for which an underwriting approval is requested through a System using the Interface. TrueLink makes no representation or warranty, and shall have no liability for the truth or completeness of any data so transmitted.",
+                "explanation": "The removal of 'as may be permitted under the Credit Repository Agreements and applicable law, each as in affect from time to tome, and in accordance with the certain Credit Bureau Agreement between TrueLink and Client dated of even date herewith' omits the critical legal constraints under which TrueLink is allowed to transmit credit data. This introduces a legal risk because it creates the impression that TrueLink has unlimited discretion in transmitting credit data, disregarding obligations under FCRA and related agreements designed to protect consumer privacy and data accuracy.",
+                "contradicted_law": "Fair Credit Reporting Act (FCRA)",
+                "location": "3.i"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In any action brought under this Agreement, the prevailing party shall be entitled to recover its actual costs and attorney fees pursuant to California Civil Code section 1717 and all other litigation costs, including expert witness fees, and all actual attorney fees and litigation costs incurred in connection with the enforcement of a judgment arising from such action or proceeding. The provisions of the preceding sentence shall be severable from the provisions of this Agreement and shall survive the entry of any such judgment.",
+                "changed_text": "In any action brought under this Agreement, each party shall bear its own costs and attorney fees.",
+                "explanation": "Removing the prevailing party's right to recover attorney fees contradicts California Civil Code section 1717. This creates a legal risk because it discourages consumers from pursuing legitimate claims against the company due to the potential financial burden of legal representation, violating the intent of the statute to ensure fair access to justice.",
+                "contradicted_law": "California Civil Code section 1717",
+                "location": "28"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTINGANDMANAGEMENTAGREEMENT(1).txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The parties agree to ensure that they will at all times comply with the provisions and obligations imposed by the Data Protection Act 1984, the EU Data Protection Directive 95/46 and any implementing legislation in the United Kingdom. Both parties agree to indemnify each other in respect of any unauthorised disclosure of data by them.",
+                "changed_text": "The parties agree to ensure that they will comply with data protection regulations. Both parties agree to address data disclosure issues as they arise.",
+                "explanation": "This change removes the explicit commitment to comply with the Data Protection Act 1984 and EU Data Protection Directive 95/46. By replacing it with a general statement, the contract no longer guarantees adherence to specific legal standards for data protection, potentially violating UK and EU laws. The removal of explicit indemnification further weakens protection for data subjects.",
+                "contradicted_law": "Data Protection Act 1984, EU Data Protection Directive 95/46, GDPR (as it supersedes 95/46)",
+                "location": "Clause 31"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "HealthGate will ensure that all documents, data and Software are kept under secure conditions with back up arrangements satisfactory to the Publishers, to protect them effectively from unauthorised access and so that they can be recovered from any malfunction of the System.",
+                "changed_text": "HealthGate will use commercially reasonable efforts to keep documents, data and Software secure, and will maintain backup arrangements.",
+                "explanation": "This alteration removes the requirement for 'secure conditions' and 'back up arrangements satisfactory to the Publishers,' weakening the security and data recovery obligations. Replacing 'effectively' with 'commercially reasonable efforts' provides HealthGate with leeway and reduces their responsibility to ensure data protection measures are robust and compliant with data security laws.",
+                "contradicted_law": "Various data security laws depending on the type of data involved, including but not limited to HIPAA if health data is included, and data breach notification laws.",
+                "location": "Clause 24.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "HealthGate will not without the written consent of the Publishers disclose any of the Publishers' data or Publishers' Content to any third party.",
+                "changed_text": "HealthGate will endeavor not to disclose Publishers' data or Content to third parties without consent.",
+                "explanation": "The removal of 'written consent' and replacing 'will not' with 'will endeavor not to' weakens the restriction on data disclosure. This introduces ambiguity and potentially allows HealthGate to disclose data without explicit permission, creating a potential violation of data privacy regulations.",
+                "contradicted_law": "Various data privacy laws depending on the type of data involved, including but not limited to HIPAA if health data is included, GDPR if EU citizen data is involved.",
+                "location": "Clause 24.3"
+            }
+        ]
+    }
+]

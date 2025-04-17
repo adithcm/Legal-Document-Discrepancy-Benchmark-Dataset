@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BANUESTRAFINANCIALCORP_09_08_2006-EX-10.16-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate and the Company shall cause the Escrow Agent (as defined below) to refund to any persons who have subscribed for any of the Shares the full amount it received from them, without interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "changed_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+                "explanation": "By removing the clause that requires the Escrow Agent to refund the full amount to subscribers if the minimum share sale is not met, the contract now contradicts consumer protection laws. In Georgia, the Fair Business Practices Act requires transparency and fair dealing, which implicitly includes the return of funds if a condition precedent to the investment is not met. Removing the explicit refund clause weakens consumer protections, making the agreement potentially non-compliant.",
+                "contradicted_law": "Georgia Fair Business Practices Act",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Agent shall not be obligated to purchase any Shares and shall not be obligated to take any action which Agent deems to be inconsistent with any applicable law, regulation, decision or order. Subscriptions will be offered as described in the Registration Statement. Except as otherwise provided in this Agreement, the appointment of the Agent will terminate upon completion, expiration or termination of the Offering.",
+                "changed_text": "The Agent shall not be obligated to purchase any Shares. Subscriptions will be offered as described in the Registration Statement. Except as otherwise provided in this Agreement, the appointment of the Agent will terminate upon completion, expiration or termination of the Offering.",
+                "explanation": "The phrase 'and shall not be obligated to take any action which Agent deems to be inconsistent with any applicable law, regulation, decision or order' provides a safeguard for the agent, ensuring they do not have to act against the law. By removing this, it could be argued that the agent is now obligated to act in ways that *could* violate laws, particularly securities laws related to due diligence and suitability. This removal introduces legal risk and weakens consumer protection by potentially obligating the agent to actions that might not be fully compliant.",
+                "contradicted_law": "Federal and State Securities Laws regarding due diligence and suitability",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Company will deliver to the Agent copies of the Registration Statement, as originally filed and each amendment thereto. Further, the Company will deliver such additional copies of the foregoing documents to counsel to the Agent as may be required for any NASD filings. The Company will also deliver to the Agent such number of copies of the Prospectus, as amended or supplemented, as the Agent may reasonably request.",
+                "changed_text": "The Company will deliver to the Agent copies of the Registration Statement, as originally filed and each amendment thereto. The Company will also deliver to the Agent such number of copies of the Prospectus, as amended or supplemented, as the Agent may reasonably request.",
+                "explanation": "By removing the clause stating that 'the Company will deliver such additional copies of the foregoing documents to counsel to the Agent as may be required for any NASD filings', there is an omission that contradicts regulations of the Financial Industry Regulatory Authority (FINRA), formerly NASD. FINRA mandates that member firms ensure their legal counsel has access to all relevant documentation for compliance reviews. The removal of this clause potentially hinders the agent's ability to comply with FINRA regulations, creating a legal risk.",
+                "contradicted_law": "FINRA Regulations regarding legal counsel access to documentation",
+                "location": "Section 6b"
+            }
+        ]
+    }
+]

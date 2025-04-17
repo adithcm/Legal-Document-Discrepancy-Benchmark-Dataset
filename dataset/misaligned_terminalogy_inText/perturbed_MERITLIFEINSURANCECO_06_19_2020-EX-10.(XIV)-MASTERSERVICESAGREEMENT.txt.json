@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS MASTER SERVICES AGREEMENT (\"Agreement\"), dated as of 09/24/2018 (the \"Effective Date\"), is between Clear Capital (the \"Company\") and RadialSpark, LLC (the \"Contractor\").",
+                "changed_text": "THIS MASTER SERVICES AGREEMENT (\"Agreement\"), dated as of 09/24/2018 (the \"Effective Date\"), is between Clear Capital (the \"Company\") and RadialSpark, LLC (the \"Vendor\").",
+                "explanation": "The original text defines RadialSpark, LLC as the 'Contractor'. The modified text redefines it as the 'Vendor'. This introduces confusion because the term 'Contractor' is used throughout the agreement, and now RadialSpark, LLC is referred to by a different term, creating ambiguity.",
+                "location": "Page 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Contractor shall provide sufficient qualified personnel to perform the Services in a professional and workmanlike manner in accordance with industry standards. A Statement of Work may designate certain individuals as \"Key Personnel\" for an engagement, and the parties subsequently may agree in writing that additional individuals are Key Personnel for such engagement. If there are Key Personnel for an engagement, Contractor shall provide the Services through those personnel and such additional personnel of Contractor as Contractor may from time to time determine to be required for the performance of the Services.",
+                "changed_text": "Vendor shall provide sufficient qualified personnel to perform the Services in a professional and workmanlike manner in accordance with industry standards. A Statement of Work may designate certain individuals as \"Key Personnel\" for an engagement, and the parties subsequently may agree in writing that additional individuals are Key Personnel for such engagement. If there are Key Personnel for an engagement, Contractor shall provide the Services through those personnel and such additional personnel of Contractor as Contractor may from time to time determine to be required for the performance of the Services.",
+                "explanation": "Building on the previous change, even though RadialSpark LLC is now named as 'Vendor' in the beginning of the contract, here we maintain the original term for 'Contractor', creating an internal contradiction as to the nature of RadialSpark's identity.",
+                "location": "Page 1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "(c) To the extent that Contractor incorporates any of Contractor's Information into the Works, Contractor hereby grants to Company a royalty-free, non- exclusive perpetual license (including the right to grant a sublicense) to use, copy, modify, create, derivative version, publicly perform and publicly display such Contractor's Information in connection with Company's business operations.",
+                "changed_text": "(c) To the extent that Vendor incorporates any of Vendor's Information into the Works, Vendor hereby grants to Company a royalty-free, non- exclusive perpetual license (including the right to grant a sublicense) to use, copy, modify, create, derivative version, publicly perform and publicly display such Vendor's Information in connection with Company's business operations.",
+                "explanation": "Here, we consistently use the term 'Vendor' instead of 'Contractor'. The text now implies that there are two separate entities ('Vendor' and 'Contractor') even though they are the same, making the agreement contradictory.",
+                "location": "Page 4"
+            }
+        ]
+    }
+]

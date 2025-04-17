@@ -1,26 +1,29 @@
 [
     {
         "section": "1.4. \"Multiple LINAC or Multi-Modality Purchase\" means a purchase.",
-        "explanation": "This definition is circular and unhelpful. It defines the term as simply \"a purchase,\" which provides no specific meaning or context. This lack of a clear definition creates ambiguity regarding what qualifies as a 'Multiple LINAC or Multi-Modality Purchase' under the agreement.",
+        "explanation": "This definition is incomplete and does not provide any useful information about what a 'Multiple LINAC or Multi-Modality Purchase' actually is. It simply states that it means 'a purchase' which is redundant and uninformative. This lack of a clear definition creates ambiguity as to which purchases fall under this category, impacting the scope of the agreement.",
         "location": "Section 1.4",
         "category": 1,
         "location_match": false,
-        "text_match": false
-    },
-    {
-        "section": "1.5. \"Multi-Modality Purchase\" means the purchase, on a single purchase order, of at least one Distributor imaging product.\n1.6. \"Multiple LINAC Purchase\" means the purchase, on a single purchase order, of at least one Distributor linear accelerator product.",
-        "explanation": "The terms 'Distributor imaging product' and 'Distributor linear accelerator product' are used, but the document doesn't explicitly define what constitutes a 'Distributor's' product in this context. It's unclear if this refers to products manufactured by the Distributor (Siemens), products distributed by them, or both. This lack of clarity could lead to disputes about which products qualify under these definitions.",
-        "location": "Sections 1.5 and 1.6",
-        "category": 5,
-        "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
         "section": "2.3.3. Purchase. To purchase Products or Services based on a Quote provided by Accuray, Distributor will issue a purchase order, which shall include specific references to the quote number of such Quote (the \"Purchase Order\"). Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval. Each purchase of Accuray Components and Interfaces shall be accomplished and a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray.",
-        "explanation": "This section contains an inconsistency. It first states that failure to approve or disapprove a Purchase Order within two weeks constitutes disapproval. However, it then states that a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray. This implies a positive action (execution) is required for acceptance, contradicting the earlier statement about passive disapproval after two weeks. The contradiction makes it unclear how a Purchase Order is definitively accepted.",
+        "explanation": "The part of this section that states 'Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval' seems to conflict with the statement 'Each purchase of Accuray Components and Interfaces shall be accomplished and a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray.' The first statement implies that inaction constitutes disapproval. The second statement implies acceptance only occurs with an affirmative action (execution of the Purchase Order). This inconsistency creates ambiguity about when a purchase order is actually considered accepted.",
         "location": "Section 2.3.3",
         "category": 3,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
+    },
+    {
+        "section": "4.1.2. Shipment. All shipments shall be made F.C.A. Port of Oakland, California, USA. Transfer of risk from Accuray to Distributor shall occur at such F.C.A. location as provided in F.C.A. terms and transfer of title shall occur at the same time. Distributor may request Accuray to use a particular freight carrier, and Accuray agrees to do so, if feasible. If not feasible in Accuray's reasonable judgment, then Accuray shall promptly advise Distributor of the reasons. If no such request is made, Accuray shall ship in accordance with any instructions contained in the Purchase Order or via FedEx ground, with no extra insurance. Accuray shall bill any actual freight costs to Distributor. Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
+        "explanation": "This section details responsibility for expedited shipping costs based on the delivery deadline requested in the purchase order. The wording '...if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor' sets a condition for Accuray bearing the costs. However, the subsequent example creates confusion. In the example, a PO submitted on June 1 with a requested delivery date of December 1 (exactly six months later) has Accuray bearing the costs. This contradicts the 'at least six months' requirement, as six months is not 'at least six months'. This creates an inconsistency in the interpretation of the clause.",
+        "location": "Section 4.1.2",
+        "category": 3,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

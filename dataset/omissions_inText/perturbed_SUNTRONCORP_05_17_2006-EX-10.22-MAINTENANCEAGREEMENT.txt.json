@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SUNTRONCORP_05_17_2006-EX-10.22-MAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Required Capital Contributions\" means some combination of (a) one or      more unrestricted cash contributions to the capital of one or more of the      Borrowers made by the Investor, and/or (b) one or more Qualified      Subordinated Loans made by the Investor to one or more of the Borrowers, in      each case as required under Section 2 below, in any or all cases, in an      aggregate amount not to exceed $5,000,000 during the term of this      Agreement.",
+                "changed_text": "\"Required Capital Contributions\" means contributions to the capital of one or more of the Borrowers made by the Investor as required under Section 2 below.",
+                "explanation": "By removing the explicit details about the types of contributions (cash or qualified subordinated loans) and the aggregate amount, the contract becomes less clear. Section 2 still references 'Required Capital Contributions' assuming it will comply with Section 2 of Schedule 10.28 to the Financing Agreement but with only a vague definition, the enforceability of this clause is put into question.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "All Required Capital Contributions shall be made by Investor via wire transfer directly into the Special Account.",
+                "changed_text": "All Required Capital Contributions shall be made by Investor.",
+                "explanation": "By removing the requirement for wire transfers into a 'Special Account', the contract becomes less clear about how the contributions should be made. The term 'Special Account' is used and referenced but is not defined. Section 4, 6 and 20 still references 'Special Account' without it existing. This creates uncertainty in enforcement, as there's no instruction of where to send the funds.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Investor agrees to deliver to the Agent, from time to time, promptly following Agent's request therefor, a sworn affidavit or other evidence reasonably acceptable to the Agent substantiating that the Investor has committed capital in an aggregate minimum amount equal to $5,000,000 less the sum of all Required Capital Contributions (if any) actually made by the Investor during the term of this Agreement.",
+                "changed_text": "The Investor agrees to deliver to the Agent, from time to time, promptly following Agent's request therefor, evidence substantiating that the Investor has committed capital.",
+                "explanation": "By omitting the specifics on the minimum capital commitment ($5,000,000 less prior contributions), it's unclear how much committed capital the Investor needs to demonstrate. Section 10 (d) still references to the $5,000,000 which is now no longer clear and may lead to conflict. The change makes it difficult to enforce as the baseline of 'committed capital' is now not well defined.",
+                "location": "Section 20"
+            }
+        ]
+    }
+]

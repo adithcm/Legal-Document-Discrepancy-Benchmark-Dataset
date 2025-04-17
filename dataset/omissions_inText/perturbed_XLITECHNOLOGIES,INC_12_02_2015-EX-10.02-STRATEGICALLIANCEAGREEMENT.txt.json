@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "XLITECHNOLOGIES,INC_12_02_2015-EX-10.02-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+                "changed_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\".",
+                "explanation": "By removing the clause granting un-exclusive 'Reserved Rights', the contract now only specifies 'Exclusive Distribution License Rights'. However, Section 8, which details 'Reserved Rights', still exists. This creates an internal contradiction as the contract grants exclusive rights but then describes rights that are supposed to be reserved, leading to uncertainty regarding distribution rights outside of the explicitly defined exclusive rights.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "6. EXCLUSIVE RIGHTS: Bosch hereby grants to Client the exclusive rights to sell and distribute the Product, subject to the Territory as set forth below, to certain select companies in the Automotive Industry, each of which shall be approved by Bosch in writing as requested by the Client on a case by case basis.",
+                "changed_text": "6. EXCLUSIVE RIGHTS: Bosch hereby grants to Client the exclusive rights to sell and distribute the Product, subject to the Territory as set forth below.",
+                "explanation": "By removing the clause 'to certain select companies in the Automotive Industry, each of which shall be approved by Bosch in writing as requested by the Client on a case by case basis', the clause creates ambiguity in who exactly has the exclusive rights and if there's a specific limitation to the Automotive Industry or companies that are selected. This contradicts section 8, which mentions that the exclusive rights are limited to any and all of BOSCH's current clients.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations. This is in concert and approval with BOSCH and is limited to any and all of BOSCH's current clients. CLIENT will not exercise nor authorize any other Party to to take any action which would reasonably be deemed to derogate from, impair or compete with the Exclusive Rights, Reserved rights, and Rights Granted herein granted.",
+                "changed_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations. This is in concert and approval with BOSCH. CLIENT will not exercise nor authorize any other Party to to take any action which would reasonably be deemed to derogate from, impair or compete with the Exclusive Rights, Reserved rights, and Rights Granted herein granted.",
+                "explanation": "By removing 'and is limited to any and all of BOSCH's current clients', this section broadens the scope of reserved rights, seemingly removing the limitation to Bosch's current clients. This contradicts the intent for Bosch to restrict the reserved rights with their existing clients. This creates ambiguity about the intended limitations, potentially leading to disputes over who can be considered as under these reserved rights.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

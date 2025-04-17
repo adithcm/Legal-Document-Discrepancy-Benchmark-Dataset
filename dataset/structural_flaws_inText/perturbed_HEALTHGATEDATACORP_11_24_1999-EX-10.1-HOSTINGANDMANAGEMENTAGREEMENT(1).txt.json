@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTINGANDMANAGEMENTAGREEMENT(1).txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "In this Agreement, the following words and expressions shall have the       following meanings:\n\n\"Acceptance\" or \"Accepted\"      Means acceptance of any part or the whole of the                                       System by the Publishers when the System                                       has successfully passed the acceptance                                       tests in accordance with Clause 9 below                                       but for the avoidance of doubt does not                                       refer to the continuing Services after the                                       Site goes live",
+                "changed_text": "In this Agreement, the following words and expressions shall have the       following meanings:\n\n\"Acceptance\" or \"Accepted\"      Means initial approval of any part or the whole of the                                       System by the Publishers. Final Acceptance only happens after the site goes live and is fully functional for at least a calendar month",
+                "explanation": "The original definition of 'Acceptance' clearly states that it occurs when the system passes acceptance tests *before* the site goes live. The modified definition contradicts this by stating that *final* acceptance happens *after* the site goes live. This creates uncertainty about when the system is officially accepted, which could affect payment schedules and responsibility.",
+                "location": "1. Definitions"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "HealthGate shall maintain the Site on HealthGate's web server and/or other       servers through the term of this Agreement insofar as it relates to the       Services. HealthGate shall acquire and maintain all necessary equipment       and hardware (collectively the \"Hardware\") for Site. The Hardware shall be       capable of storing the Content, including future issues of the Journals       within the Content. HealthGate shall replace and upgrade such Hardware to       satisfy the requirements of the Specification. The Hardware for the Site       shall include redundancy so that the Site may remain operational despite       an equipment failure. The Hardware shall be located at HealthGate's       computer facilities in Malden, Massachusetts. The Hardware may be       relocated only with Publishers' written consent, which consent shall not       be unreasonably withheld. HealthGate, at its cost and expense, shall       maintain adequate access via telecommunications to the Site at service\n\n\n\n      levels that shall be maintained at the same extent as HealthGate provides       to its own users.",
+                "changed_text": "HealthGate shall maintain the Site on HealthGate's web server and/or other servers through the term of this Agreement insofar as it relates to the Services. HealthGate may, at its discretion, acquire and maintain equipment and hardware (collectively the \"Hardware\") for the Site. The Hardware will store current content only.  HealthGate can choose whether or not to replace and upgrade the Hardware. Redundancy for the Site’s hardware will be implemented as and when HealthGate sees fit. HealthGate can move the Hardware without the Publisher's consent. HealthGate will try to maintain adequate access via telecommunications to the Site at service levels that it can achieve, but it does not have to match HealthGate's service levels to its own users.",
+                "explanation": "The original text places an obligation on HealthGate to maintain, upgrade, and keep the site operational on the hardware which must be capable of storing all current and future content, and cannot be relocated. The modified text removes these obligations, giving HealthGate significant discretion over the hardware, which directly contradicts the original terms. This creates uncertainty about the level of service the Publishers will receive.",
+                "location": "8. Procurement of Hardware"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Interest on late payment by either party shall be charged at 2%             above base rate for the time being of Barclays Bank plc in England.             This sub-Clause 19.5 shall survive termination under Clause 9.4.",
+                "changed_text": "Interest on late payment by either party may or may not be charged, depending on the circumstances and at the discretion of the invoicing party. Any interest calculation will use a rate determined by the invoicing party. This sub-Clause 19.5 will not survive termination under Clause 9.4.",
+                "explanation": "The original text mandates a specific interest rate (2% above Barclays Bank's base rate) for late payments, and clarifies that the condition survives termination. The modified text removes the mandatory nature, making interest charges discretionary, removes the fixed interest calculation, and specifies that the condition *does not* survive termination. This directly contradicts the original agreement on late payment interest and makes it less certain.",
+                "location": "19.5. Interest"
+            }
+        ]
+    }
+]

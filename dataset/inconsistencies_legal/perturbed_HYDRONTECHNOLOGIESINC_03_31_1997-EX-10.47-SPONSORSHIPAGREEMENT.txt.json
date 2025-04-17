@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HYDRONTECHNOLOGIESINC_03_31_1997-EX-10.47-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Dolphins agree to provide written notice to Hydron of the failure to receive any payment, and Hydron shall have a five (5) business day period following delivery of written notice in which to cure the payment default before the Dolphins may elect to terminate this Agreement and pursue applicable remedies.",
+                "changed_text": "The Dolphins agree to provide written notice to Hydron of the failure to receive any payment, and Hydron shall have a one (1) business day period following delivery of written notice in which to cure the payment default before the Dolphins may elect to terminate this Agreement and pursue applicable remedies.",
+                "explanation": "Reducing the cure period for payment default to one business day is unreasonable and potentially conflicts with general contract law principles regarding adequate opportunity to cure a breach, which often implies a more reasonable timeframe. While Florida law doesn't explicitly mandate a cure period for all contracts, a one-day cure period could be deemed unconscionable or against public policy, especially considering the potential for administrative delays or errors in payment processing.",
+                "contradicted_law": "General Contract Law - Reasonableness and Unconscionability (potentially violates principles of fair dealing and good faith).",
+                "location": "3.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Without prejudice to any other rights, the Dolphins shall have the right to terminate this Agreement upon written notice to Hydron if Hydron fails to perform or comply with any term or condition of this Agreement within five (5) business days following delivery of written notice for a payment default or within thirty (30) days following written notice of any other breach of this Agreement sent to Hydron stating such failure or failures; provided that any such failure remains uncured at the end of such period.",
+                "changed_text": "Without prejudice to any other rights, the Dolphins shall have the right to terminate this Agreement upon providing immediate written notice to Hydron if Hydron fails to perform or comply with any term or condition of this Agreement.  No cure period shall be provided.",
+                "explanation": "Eliminating the cure period entirely violates basic principles of contract law, which generally require a reasonable opportunity to cure a breach before termination, especially for non-material breaches. A complete lack of a cure period can render the termination clause unconscionable and unenforceable under Florida law, as it deprives the breaching party of any chance to rectify their mistake.",
+                "contradicted_law": "General Contract Law - Right to Cure Breach (violates principles of fair dealing and good faith).",
+                "location": "8.1(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Jurisdiction and venue for any legal proceedings arising out of this Agreement shall exclusively lie in the state and federal courts situate in Broward County, Florida.",
+                "changed_text": "Jurisdiction and venue for any legal proceedings arising out of this Agreement shall exclusively lie in the courts of the People's Republic of China.",
+                "explanation": "The original clause specifies Florida jurisdiction and venue. The modified clause designates the courts of the People's Republic of China, which may be unenforceable or against public policy if the contract involves a US-based company and performance primarily in the US. Florida Statute 685.102 (Choice of Law and Forum) generally respects parties' choice of law and forum unless it violates public policy. A foreign forum selection clause that effectively deprives a party of a reasonable remedy or is obtained through fraud or overreaching might be deemed unenforceable.",
+                "contradicted_law": "Florida Statute 685.102 (Choice of Law and Forum) - Public Policy Exception.",
+                "location": "9.5"
+            }
+        ]
+    }
+]

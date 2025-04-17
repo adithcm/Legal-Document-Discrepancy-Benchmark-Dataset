@@ -1,26 +1,29 @@
 [
     {
-        "section": "The Joint Venturers recognize that both of the Joint Venturers are and will continue to be engaged in the conduct of their respective businesses for their own account. Neither Joint Venturer shall be entitled to compensation for services rendered to the Joint Venture as such, but each Joint Venturer shall be reimbursed for all direct expenses, including travel, office, and all other out-of-pocket expenses incurred in the operation of the affairs of the Joint Venture and the promotion of its businesses.",
-        "explanation": "While stating neither joint venturer will receive compensation for services, it provides for reimbursement of expenses. This sets a conflicting expectation, where one joint venturer could dedicate significantly more time and effort but only receive reimbursement for direct expenses, potentially creating an imbalance and disagreement over what constitutes a 'direct expense'. The definition of 'services' could be interpreted differently, allowing one party to claim certain contributions are not services but contributions, creating ambiguity.",
-        "location": "Section 5",
-        "category": 3,
+        "section": "Except as agreed upon by mutual consent, the Joint Venturers shall not be required to make any capital contribution to the Joint Venture.",
+        "explanation": "This section states that capital contributions are not required unless mutually agreed upon. However, Section 9 later mentions that no interest shall be allowed to any Joint Venturer upon the amount of his contribution. This implies that there *could* be a contribution, even though Section 3 suggests it's not required without mutual consent. This creates ambiguity - are contributions optional or are they expected under certain circumstances?",
+        "location": "Section 3",
+        "category": 1,
         "location_match": false,
-        "text_match": false
+        "text_match": false,
+        "explanation_match": false
     },
     {
-        "section": "Distributions may only be made if after any distribution is made, the Joint Venture assets are in excess of all liabilities of the Joint Venture. Each distribution shall be made ratably to the Joint Venturers according to their prorata interest in the Joint Venture as shown in Section 6. Notwithstanding the foregoing, PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability.",
-        "explanation": "This section contains a contradiction. It first states that distributions can only be made if the Joint Venture's assets exceed its liabilities, ensuring profitability. However, it then states that PVSS is entitled to a guaranteed payment of $10,000 per month 'regardless of the Joint Venture's profitability.' This means PVSS receives payment even if the assets are not in excess of liabilities, directly contradicting the initial condition for distributions. This clause gives preferential treatment to PVSS over CCGI.",
+        "section": "Distributions may only be made if after any distribution is made, the Joint Venture assets are in excess of all liabilities of the Joint Venture.",
+        "explanation": "This sentence is a structural flaw because it is worded poorly and hard to understand. What is meant by the Joint Venture assets are in excess of all liabilities of the Joint Venture?",
+        "location": "Section 9",
+        "category": 9,
+        "location_match": true,
+        "text_match": true,
+        "explanation_match": false
+    },
+    {
+        "section": "Notwithstanding the foregoing, PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability.",
+        "explanation": "Section 9 generally discusses distributions based on pro-rata interest and profitability. However, this sentence introduces an exception: PVSS receives a guaranteed payment regardless of profitability. This contradicts the earlier implication that distributions are dependent on the Joint Venture's financial success and the pro rata ownership.",
         "location": "Section 9",
         "category": 3,
         "location_match": true,
-        "text_match": true
-    },
-    {
-        "section": "On any termination of the Joint Venture, its debt shall be paid or provided for in a manner satisfactory to the Joint Venturers. Then, any unexpended portion of Joint Venture funds shall be distributed to the Joint Venturers in accordance with their prorata ownership in the Joint Venture and all other assets of the Joint Venture shall be distributed as undivided interests to the Joint Venturers ratably according to their prorata interests in the Joint Venture as set forth in Section 6. If any asset is not capable of being distributed on an undivided basis, the Parties shall agree on a price for such asset and it shall be distributed to one Party and a corresponding balance, in cash or property, shall be made of the Joint Venture assets so that each Party receives his proportionate share of all the Joint Venture assets. However, in the event of a dispute regarding the valuation of assets during liquidation, Collectible Concepts Group, Inc. will have the final say on the asset's value.",
-        "explanation": "The clause 'in the event of a dispute regarding the valuation of assets during liquidation, Collectible Concepts Group, Inc. will have the final say on the asset's value' creates an imbalance of power and potential for unfairness during liquidation. While the agreement states that assets should be distributed according to prorata ownership, giving CCGI the final say on asset valuation allows them to potentially undervalue assets distributed to PVSS and overvalue assets distributed to themselves, undermining the prorata distribution principle. This represents an inconsistency in ensuring fair asset distribution upon termination.",
-        "location": "Section 11",
-        "category": 3,
-        "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": false
     }
 ]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BERKELEYLIGHTS,INC_06_26_2020-EX-10.12-COLLABORATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Ginkgo shall pay all undisputed amounts under an invoice received from BLI under this Section 2.4.2 (Payment) within [***] ([***]) days after receipt of such BLI invoice, and any overdue payments on undisputed amounts shall be subject to payment of interest pursuant to Section 7.10 (Late Payment).",
+                "changed_text": "Ginkgo shall pay all undisputed amounts under an invoice received from BLI under this Section 2.4.2 (Payment) within 90 days after receipt of such BLI invoice, and any overdue payments on undisputed amounts shall be subject to payment of interest pursuant to Section 7.10 (Late Payment).",
+                "explanation": "The original contract specifies a payment timeline of '[***] days', which is flexible and can be interpreted in multiple ways. The edit sets this timeline to 90 days. This change introduces a conflict because it alters the expected payment timeframe. While there is no general law requiring companies to pay invoices within a specific timeframe in every US state, extending the payment deadline to 90 days could violate prompt payment laws in several states, especially if BLI is a small business, potentially leading to disputes and legal challenges.",
+                "contradicted_law": "Prompt Payment Laws in Various US States",
+                "location": "Section 2.4.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within [***] ([***]) days following the Effective Date and on or before the first Business Day of each [***] thereafter, Ginkgo shall furnish BLI with a rolling forecast of the quantities of Beacon Optofluidic Machines (including related Hardware and Software) and Consumables (on a Consumable-by-Consumable basis) that Ginkgo expects to require from BLI under this Agreement during the ensuing [***] ([***]) month period on a [***] basis (each such forecast, a \"Rolling Forecast\").",
+                "changed_text": "Within 60 days following the Effective Date and on or before the first Business Day of each quarter thereafter, Ginkgo shall furnish BLI with a rolling forecast of the quantities of Beacon Optofluidic Machines (including related Hardware and Software) and Consumables (on a Consumable-by-Consumable basis) that Ginkgo expects to require from BLI under this Agreement during the ensuing 3 month period on a monthly basis (each such forecast, a \"Rolling Forecast\").",
+                "explanation": "The original contract specifies a time frame of '[***] days' and '[***] thereafter', which are open to various interpretations, for rolling forecasts. Modifying these to \"60 days following the Effective Date\" and \"first Business Day of each quarter thereafter,\" makes those time limits fixed and defined. This change might introduce regulatory non-compliance because, depending on the specifics of the business relationship, predictability, consistency, and adherence to standards set by various federal and state regulations might need adjustment, impacting forecasting accuracy and potentially violating industry-specific standards. In some sectors, forecasting frequency and accuracy are mandated.",
+                "contradicted_law": "Various industry-specific regulations regarding forecasting frequency and accuracy.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall, and shall cause its Affiliates and Permitted Subcontractors to, maintain records in sufficient detail for the other Party to confirm compliance with this Agreement and in good scientific manner appropriate for patent and regulatory purposes under Applicable Law, which shall [***] properly reflect all activities conducted and results achieved by such Party under this Agreement. Such records shall be retained by such Party, its Affiliates or Permitted Subcontractors until [***] ([***]) years after the end of the period to which such books and records pertain or for such longer period as may be required by Applicable Law.",
+                "changed_text": "Each Party shall, and shall cause its Affiliates and Permitted Subcontractors to, maintain records in sufficient detail for the other Party to confirm compliance with this Agreement and in good scientific manner appropriate for patent and regulatory purposes under Applicable Law, which shall be approximate and high-level, reflecting all activities conducted by such Party under this Agreement. Such records shall be retained by such Party, its Affiliates or Permitted Subcontractors until 3 years after the end of the period to which such books and records pertain or for such longer period as may be required by Applicable Law.",
+                "explanation": "The original text requires records to be maintained in 'sufficient detail' and retained for '[***] years', which is flexible. Changing these to \"approximate and high-level\" and \"3 years\" creates a legal contradiction. Reducing the record retention period to just 3 years violates many state and federal regulations that mandates longer retention. Additionally, allowing “approximate and high-level” record-keeping undermines regulatory requirements for detailed scientific records, especially in industries governed by stringent regulatory oversight, such as biotechnology, pharmaceutical or health care.",
+                "contradicted_law": "Federal and state regulations mandating specific record retention periods (e.g., FDA regulations, Sarbanes-Oxley Act)",
+                "location": "Section 2.8"
+            }
+        ]
+    }
+]

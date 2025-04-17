@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11. The Term of this Agreement will commence on the date above, and shall continue for a term of one (1) year. mPhase shall have the right to annually renew this agreement for a period of one year upon each annual expiration with the written consent of Lucent, which written consent shall not be unreasonably withheld. Either party wishing to terminate the Agreement must give written notice to the other party at least thirty (30) days prior to the desired date of termination.",
+                "changed_text": "11. The Term of this Agreement will commence on the date above, and shall continue for a term of one (1) year. mPhase shall have the right to annually renew this agreement for a period of one year upon each annual expiration with the written consent of Lucent, which written consent may be withheld at Lucent's sole discretion. Either party wishing to terminate the Agreement must give written notice to the other party at least thirty (30) days prior to the desired date of termination.",
+                "explanation": "The original text states Lucent's consent for renewal 'shall not be unreasonably withheld', implying a good faith requirement. The modified text allows Lucent to withhold consent at its 'sole discretion', removing this constraint and creating a contradiction. This uncertainty affects mPhase's confidence in securing future renewals and their long-term investment decisions.",
+                "location": "Paragraph 11"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "7. Lucent is generally aware of the current quality of mPhase's Goods. mPhase agrees to maintain the quality of its Goods associated with the Lucent Co-Branding Logo to a level of quality comparable to the current quality of their Goods.\n\n8. If Lucent determines that mPhase's Goods are no longer maintained at the current level of quality, Lucent shall so notify mPhase, in writing, and Lucent shall have the right to terminate this Agreement.",
+                "changed_text": "7. Lucent is generally aware of the current quality of mPhase's Goods. mPhase agrees to use its best efforts to maintain the quality of its Goods associated with the Lucent Co-Branding Logo to a level of quality comparable to similar products on the market.\n\n8. If any third party informs Lucent that mPhase's Goods are no longer of acceptable quality, Lucent may terminate this Agreement without notice.",
+                "explanation": "Originally, mPhase agreed to maintain quality at a level 'comparable to the current quality of their Goods', with Lucent determining compliance. The modified version changes the benchmark to 'similar products on the market' (making the comparison less clear) and only requires 'best efforts.' Furthermore, Lucent can now terminate the agreement based on third-party information without any specific process, creating an inconsistency between what is considered a quality breach and how it is determined.",
+                "location": "Paragraphs 7 and 8"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "9. mPhase agrees to allow Lucent to inspect the Approved Uses bearing the Lucent Co-Branding Logo, to ensure that those uses reviewed and approved pursuant to the procedure set forth in Schedule B continue to be in compliance with the terms of this Agreement.",
+                "changed_text": "9. mPhase agrees to allow Lucent to inspect the Approved Uses bearing the Lucent Co-Branding Logo at any time, with no prior notice, to ensure compliance with the terms of any agreement Lucent deems applicable.",
+                "explanation": "The original text specified inspections to ensure compliance with *this* agreement, aligning with the procedures in Schedule B. The changed text allows inspections to ensure compliance with *any* agreement Lucent 'deems applicable', and removes the original procedure. This contradicts the initial framework, as Lucent could theoretically impose new, unagreed-upon standards during inspections.",
+                "location": "Paragraph 9"
+            }
+        ]
+    }
+]

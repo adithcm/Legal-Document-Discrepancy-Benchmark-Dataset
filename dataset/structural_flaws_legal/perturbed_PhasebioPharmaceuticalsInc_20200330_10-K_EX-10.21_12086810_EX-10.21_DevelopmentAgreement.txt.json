@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PhasebioPharmaceuticalsInc_20200330_10-K_EX-10.21_12086810_EX-10.21_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6.4 Late Payments. If PB fails to pay any amount due under this Agreement on the due date therefore, then, without prejudice to any other remedies that SFJ may have, that amount will bear interest from the due date until payment of such amount is made, both before and after any judgment, at a rate equal to, [***] percent ([***]%) per annum computed on the basis of a year of 360 days for the actual number of days payment is delinquent or if such rate exceeds the maximum amount permitted by Applicable Law, at such maximum rate.",
+                "changed_text": "6.4 Late Payments. If PB fails to pay any amount due under this Agreement on the due date therefore, then, without prejudice to any other remedies that SFJ may have, that amount *may* bear interest from the due date until payment of such amount is made, both before and after any judgment, at a rate to be determined at the discretion of SFJ, not to exceed [***] percent ([***]%) per annum computed on the basis of a year of 360 days for the actual number of days payment is delinquent or if such rate exceeds the maximum amount permitted by Applicable Law, at such maximum rate.",
+                "explanation": "Changing 'will' to 'may' and adding discretion to SFJ significantly weakens the enforceability of the late payment interest clause. It creates ambiguity about whether interest *will* actually be charged, making the original clause's obligation uncertain.",
+                "contradicted_law": "Contract Law - Enforceability of Terms",
+                "location": "Section 6.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15.10.2.4 The arbitrators shall have no authority to award punitive or other damages not measured by the prevailing Party's actual damages, except as may be required by statute. Each Party expressly waives and foregoes any right to consequential, punitive, special, exemplary or similar damages or lost profits. The arbitrators shall have no power or authority, under the ICDR rules and procedures or otherwise, to relieve the Parties from their agreement hereunder to arbitrate or otherwise to amend or disregard any provision of this Agreement. The cost of the arbitration, including the fees of the arbitrators and reasonable attorney's fees of the prevailing Party, shall be borne by the Party the arbitrator determines has not prevailed in the arbitration.",
+                "changed_text": "15.10.2.4 The arbitrators shall have no authority to award punitive or other damages not measured by the prevailing Party's actual damages, except as may be required by statute. Each Party expressly waives and foregoes any right to consequential, punitive, special, exemplary or similar damages or lost profits. The arbitrators shall have no power or authority, under the ICDR rules and procedures or otherwise, to relieve the Parties from their agreement hereunder to arbitrate or otherwise to amend or disregard any provision of this Agreement. The cost of the arbitration, including the fees of the arbitrators and reasonable attorney's fees, shall be borne equally between the parties, regardless of who is prevailing.",
+                "explanation": "Changing this makes the term less clear about who is going to pay the cost. The original phrase 'borne by the Party the arbitrator determines has not prevailed' provides a definite side that bears the cost, while changing this to 'shall be borne equally' is significantly different because there is now a financial impact for both parties, and not just one.",
+                "contradicted_law": "Contract Law - Dispute Resolution",
+                "location": "Section 15.10.2.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15.7 Further Assurances. The Parties will execute such further reasonable documents and perform such further reasonable acts as may be necessary to comply with or more fully effectuate the terms of this Agreement.",
+                "changed_text": "15.7 Further Assurances. The Parties will execute such further documents and perform such further acts as *they deem necessary in their sole discretion* to comply with or more fully effectuate the terms of this Agreement.",
+                "explanation": "By adding 'they deem necessary in their sole discretion', there is a potential for a party to prevent the fulfillment of the contract if they decide to not comply with it. There is no reason to further the assurances because of their 'sole discretion'.",
+                "contradicted_law": "Contract Law - Good Faith and Fair Dealing",
+                "location": "Section 15.7"
+            }
+        ]
+    }
+]

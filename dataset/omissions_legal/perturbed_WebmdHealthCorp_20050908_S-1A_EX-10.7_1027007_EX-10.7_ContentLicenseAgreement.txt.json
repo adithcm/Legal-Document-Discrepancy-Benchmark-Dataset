@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WebmdHealthCorp_20050908_S-1A_EX-10.7_1027007_EX-10.7_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "WebMD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO THE CONTENT OR THE ACCURACY OF THE CONTENT. WEBMD EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND ALL WARRANTIES ARISING FROM CONDUCT, COURSE OF DEALING OR CUSTOM OF TRADE. IN NO EVENT WILL WEBMD OR ITS SUPPLIERS OR LICENSORS BE LIABLE UNDER ANY THEORY OF LIABILITY, HOWEVER ARISING, FOR ANY COSTS OF COVER OR FOR INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND ARISING OUT OF THIS AGREEMENT, OR THE PROVISION OR USE OF CONTENT, EVEN IF WEBMD HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WEBMD'S AGGREGATE LIABILITY FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION IN ANY WAY RELATED TO THIS AGREEMENT OR THE CONTENT, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, EITHER JOINTLY OR SEVERALLY, SHALL NOT EXCEED FIFTY DOLLARS ($50). THIS SECTION REFLECTS AN ALLOCATION OF RISK BETWEEN THE PARTIES, IS NOT A PENALTY, AND SHALL BE EXCLUSIVE. THIS SECTION SHALL APPLY DESPITE ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED WARRANTY OR REMEDY.",
+                "changed_text": "WebMD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO THE CONTENT OR THE ACCURACY OF THE CONTENT. IN NO EVENT WILL WEBMD OR ITS SUPPLIERS OR LICENSORS BE LIABLE UNDER ANY THEORY OF LIABILITY, HOWEVER ARISING, FOR ANY COSTS OF COVER OR FOR INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND ARISING OUT OF THIS AGREEMENT, OR THE PROVISION OR USE OF CONTENT, EVEN IF WEBMD HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WEBMD'S AGGREGATE LIABILITY FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION IN ANY WAY RELATED TO THIS AGREEMENT OR THE CONTENT, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, EITHER JOINTLY OR SEVERALLY, SHALL NOT EXCEED FIFTY DOLLARS ($50). THIS SECTION REFLECTS AN ALLOCATION OF RISK BETWEEN THE PARTIES, IS NOT A PENALTY, AND SHALL BE EXCLUSIVE. THIS SECTION SHALL APPLY DESPITE ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED WARRANTY OR REMEDY.",
+                "explanation": "By removing 'WEBMD EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND ALL WARRANTIES ARISING FROM CONDUCT, COURSE OF DEALING OR CUSTOM OF TRADE.', the contract is omitting a key disclaimer that protects WebMD from liability if the content is unfit for its intended purpose or inaccurate. This removal could expose WebMD to implied warranty claims under New York law, where the contract is governed, specifically the Uniform Commercial Code (UCC), which implies warranties of merchantability and fitness for a particular purpose unless explicitly disclaimed. Omitting this disclaimer creates a legal loophole that could be exploited by Emdeon or a third party if the Content proves to be harmful or inaccurate.",
+                "contradicted_law": "New York Uniform Commercial Code (UCC) § 2-314 and § 2-315 (Implied Warranties of Merchantability and Fitness for a Particular Purpose)",
+                "location": "6"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to remove the Content from the Software.",
+                "changed_text": "Upon any expiration or termination of this Agreement, Emdeon shall immediately cease use of the Content.",
+                "explanation": "The original clause grants Emdeon a 'reasonable period of time' to remove content upon termination. This aligns with typical practices allowing for orderly transitions. The modified clause, demanding immediate cessation, potentially violates consumer protection laws in several states (including New York, as indicated in section 8(b)) regarding data access and continued service. If the software is used in healthcare settings, this immediate cessation could disrupt patient care if doctors are relying on the Content. Removing the 'reasonable period' creates a scenario where Emdeon might be forced to abruptly cut off access, potentially violating patient safety regulations or creating liability for disruption of services.",
+                "contradicted_law": "Potential violations of state-level consumer protection laws regarding service continuity and data access, particularly in healthcare-related software.",
+                "location": "3(c)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.",
+                "changed_text": "Late payments are subject to an interest charge to be determined by WebMD.",
+                "explanation": "The original clause sets a clear limit on late payment interest rates, either 1.5% per month or the maximum legal rate, whichever is lower. This provides Emdeon with certainty and protects them from excessively high interest charges. The modified clause, which gives WebMD the discretion to determine the interest rate, removes this protection. Under New York law (governing law per Section 8(b)), there are usury laws that set limits on interest rates. Removing the reference to the 'maximum legal rate' creates a risk that WebMD could impose an interest rate exceeding the legal limit, violating New York's usury laws and potentially rendering the interest provision unenforceable. This also removes a consumer protection element by making the fees unpredictable.",
+                "contradicted_law": "New York General Obligations Law § 5-501 (Usury Laws)",
+                "location": "4(c)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARELICENSEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "THE LICENSED TECHNOLOGY IS PROVIDED ON AN \"AS IS\" BASIS WITHOUT WARRANTY OF ANY KIND AND LICENSOR HEREBY\n\nDISCLAIMS ALL WARRANTIES CONCERNING THE LICENSED TECHNOLOGY, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT\n\nLIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, FITNESS FOR PARTICULAR PURPOSE ,\n\nCOMPLETENESS, USE, ACCURACY AND/OR TITLE. LICENSOR DOES NOT WARRANT THAT THE LICENSED TECHNOLOGY IS ERROR-\n\nFREE OR THAT IT WILL MEET LICENSEE'S REQUIREMENTS OR THAT THE OPERATION OF THE LICENSED TECHNOLOGY WILL BE\n\nUNINTERRUPTED,TIMELY SECURE OR ERROR-FREE, OR THAT ERRORS IN THE LICENSED TECHNOLOGY OR NONCONFORMITY TO ITS\n\nDOCUMENTATION CAN OR WILL BE CORRECTED.",
+                "changed_text": "THE LICENSED TECHNOLOGY IS PROVIDED ON AN \"AS IS\" BASIS WITHOUT WARRANTY OF ANY KIND AND LICENSOR HEREBY\n\nDISCLAIMS ALL WARRANTIES CONCERNING THE LICENSED TECHNOLOGY, WHETHER EXPRESS OR IMPLIED. LICENSOR DOES NOT WARRANT THAT THE LICENSED TECHNOLOGY IS ERROR-\n\nFREE OR THAT IT WILL MEET LICENSEE'S REQUIREMENTS OR THAT THE OPERATION OF THE LICENSED TECHNOLOGY WILL BE\n\nUNINTERRUPTED,TIMELY SECURE OR ERROR-FREE, OR THAT ERRORS IN THE LICENSED TECHNOLOGY OR NONCONFORMITY TO ITS\n\nDOCUMENTATION CAN OR WILL BE CORRECTED.",
+                "explanation": "By removing the disclaimer of implied warranties of MERCHANTABILITY, NON-INFRINGEMENT, FITNESS FOR PARTICULAR PURPOSE, COMPLETENESS, USE, ACCURACY AND/OR TITLE, the contract may appear to provide these warranties, which could be misconstrued under New York law. It's more subtle, but the omission of the disclaimer creates a legal ambiguity and potential liability for the licensor by not explicitly disclaiming these implied warranties as allowed under the UCC.",
+                "contradicted_law": "Uniform Commercial Code (UCC), New York law regarding implied warranties.",
+                "location": "ARTICLE VIX"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(b) COMPLIANCE WITH LAWS. Licensee agrees to comply in all material respects with all applicable laws, rules, and regulations in connection\nwith its activities under this Agreement, including without limitation, any applicable export controls imposed by the U.S. Export Administration Act\nof 1978, as amended (the \"ACT\") and the regulations promulgated under the Act.",
+                "changed_text": "(b) COMPLIANCE WITH LAWS. Licensee agrees to comply in all material respects with all applicable laws, rules, and regulations in connection\nwith its activities under this Agreement.",
+                "explanation": "Removing the specific reference to compliance with U.S. export control laws (Export Administration Act of 1978) weakens the licensee's obligation. While a general compliance clause remains, the explicit mention of export controls is omitted, which is problematic because this type of activity often involves international transactions where the licensee could be exposed to export violations, creating legal ambiguity and risk, because this is an agreement between two Delaware companies in New York City.",
+                "contradicted_law": "U.S. Export Administration Act of 1978, as amended.",
+                "location": "ARTICLE XXIV"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event that any action or proceeding is brought in connection with this Agreement, the prevailing party shall be\nentitled to recover its costs and reasonable attorneys' fees following a final judgment.",
+                "changed_text": "In the event that any action or proceeding is brought in connection with this Agreement, the prevailing party may recover costs.",
+                "explanation": "Removing the \"reasonable attorneys' fees\" provision significantly alters the financial risk for the parties. New York law allows parties to contract for attorney's fees, and removing that entitlement creates uncertainty and could discourage valid claims. This is particularly impactful because without the guarantee of recovering attorney's fees, a party might be less willing to pursue a breach of contract claim, creating a legal contradiction with established contractual practice.",
+                "contradicted_law": "New York law regarding contractual rights to attorney's fees.",
+                "location": "ARTICLE XXIV"
+            }
+        ]
+    }
+]

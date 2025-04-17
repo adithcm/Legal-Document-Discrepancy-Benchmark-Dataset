@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "QBIOMEDINC_04_08_2020-EX-99.1-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The undersigned hereby agree that the statement on Schedule 13G with respect to the equity securities of Q Biomed, Inc. is, and any amendment thereto signed by each of the undersigned shall be, filed on behalf of each of the undersigned pursuant to and in accordance with the provisions of Rule 13d-1(k) promulgated under the Securities Exchange Act of 1934, as amended. The undersigned hereby further agree that this Joint Filing Agreement be included as an exhibit to such statement and any such amendment.",
+                "changed_text": "The undersigned hereby agree that the statement on Schedule 13G with respect to the equity securities of Q Biomed, Inc. is, and any amendment thereto signed by each of the undersigned may be, filed on behalf of each of the undersigned pursuant to and in accordance with the provisions of Rule 13d-1(k) promulgated under the Securities Exchange Act of 1934, as amended. The undersigned hereby further agree that this Joint Filing Agreement be included as an exhibit to such statement and any such amendment.",
+                "explanation": "Changing 'shall be' to 'may be' introduces a contradiction. The first part of the sentence suggests a mandatory filing, but the modification allows for optional filing, creating ambiguity. If, in other part of agreement, filing is assumed to be mandatory, this creates contradiction.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The undersigned acknowledge that each shall be responsible for the timely filing of such amendments, and for the completeness and accuracy of the information concerning him or it contained herein and therein, but shall not be responsible for the completeness and accuracy of the information concerning the others.",
+                "changed_text": "The undersigned acknowledge that each shall use commercially reasonable efforts to be responsible for the timely filing of such amendments, and will endeavor to provide complete and accurate information concerning him or it contained herein and therein, but shall not be held liable for the completeness and accuracy of the information concerning the others.",
+                "explanation": "Replacing 'shall be responsible' with 'shall use commercially reasonable efforts to be responsible' and 'completeness and accuracy' with 'will endeavor to provide complete and accurate information' introduces ambiguity regarding the level of responsibility. The first statement imposes a strict obligation, whereas the second introduces a 'reasonable efforts' standard, lowering the bar and creating a contradiction if elsewhere the agreement enforces a strict accountability. Furthermore, changing 'shall not be responsible' to 'shall not be held liable' also changes the legal accountability.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "This Joint Filing Agreement may be executed in any number of counterparts, all of which taken together shall constitute one and the same instrument.",
+                "changed_text": "This Joint Filing Agreement may be executed in any number of counterparts, but it is preferred that all parties sign the same original document if feasible.",
+                "explanation": "The original text states that counterparts 'shall constitute one and the same instrument', implying that the number of counter parts are equivalent of one original, where the modification introduces a preference for a single original. This introduces a contradiction regarding which type of document supersedes the other. If another clause requires that only the original document is accepted, this contradicts that.",
+                "location": "First paragraph"
+            }
+        ]
+    }
+]

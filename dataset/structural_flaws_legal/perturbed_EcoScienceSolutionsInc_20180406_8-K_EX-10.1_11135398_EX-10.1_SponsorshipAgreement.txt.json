@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EcoScienceSolutionsInc_20180406_8-K_EX-10.1_11135398_EX-10.1_SponsorshipAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Governing Law: This Agreement shall be governed by and interpreted in accordance with the laws of the State of Florida, without regard to its conflict-of-laws or choice-of law principles. In case of a dispute, the parties agree to pursue Arbitration as the preferred method to seek a remedy and the parties waive the right to a jury trial.",
+                "changed_text": "Governing Law: This Agreement shall be governed by and interpreted in accordance with the laws of the State of Florida, without regard to its conflict-of-laws or choice-of law principles.",
+                "explanation": "Moving the arbitration clause to the 'General Provisions' section and altering the terms buries the mandatory arbitration agreement in an unexpected place. Further, I've removed the actual language pertaining to Arbitration and rewritten in such a way as to become non-binding.",
+                "contradicted_law": "Federal Arbitration Act (FAA)",
+                "location": "General Provisions"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Relationship of Parties: The parties are independent contractors with respect to one another. Nothing in this Agreement shall create any association, joint venture, partnership or agency relationship of any kind between the parties.",
+                "changed_text": "Relationship of Parties: The parties are independent contractors with respect to one another. Nothing in this Agreement shall create any association, joint venture, partnership or agency relationship of any kind between the parties. However, should the sponsor provide direct management or operational control over the event, this may be re-evaluated.",
+                "explanation": "Adding the phrase \"However, should the sponsor provide direct management or operational control over the event, this may be re-evaluated\" creates uncertainty about the relationship between the parties. It contradicts the initial statement of an independent contractor relationship, introducing ambiguity that could be exploited in litigation.",
+                "contradicted_law": "Common Law - Agency Law",
+                "location": "Relationship of Parties"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Terms and Termination: The term of this agreement will begin on April 1, 2018 and continue until April 30, 2018 at 11:59pm.",
+                "changed_text": "Terms and Termination: The term of this agreement will begin on April 1, 2018 and continue until April 30, 2018 at 11:59pm. However, either party can terminate the agreement without cause, providing a 24-hour written notice.",
+                "explanation": "Adding the sentence \"However, either party can terminate the agreement without cause, providing a 24-hour written notice\" allows for contract termination under any conditions, thus, invalidating the former fixed terms, thereby creating legal contradiction regarding duration.",
+                "contradicted_law": "Contract Law - Breach of Contract",
+                "location": "Terms and Termination"
+            }
+        ]
+    }
+]

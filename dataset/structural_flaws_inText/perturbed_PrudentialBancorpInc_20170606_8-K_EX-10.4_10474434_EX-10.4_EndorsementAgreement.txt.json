@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "\"Net Amount at Risk\" will mean the total face amount of the policies (including death benefit by rider if applicable) reduced by the Cash Value of the Policies.\n\n\"Employer's Interest in the Policies\" is defined in Articles IV and V.",
+                "changed_text": "\"Net Amount at Risk\" will mean the total face amount of the policies (including death benefit by rider if applicable) which can be changed by the Employer at any time.\n\n\"Employer's Interest in the Policies\" is defined in Articles IV and V.",
+                "explanation": "The original text defines 'Net Amount at Risk' clearly. The changed text introduces ambiguity by stating it can be changed by the Employer at any time which contradicts the earlier definition. This creates uncertainty about the death benefit.",
+                "location": "ARTICLE I \"Definitions\""
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page 6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an amount equal to the lesser of: (a) (two (2) times the Employee's annualized base salary at the time of death as provided by the Employer's payroll department) plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk. The Employer shall be the beneficiary of the remaining death proceeds of the policy after the Employee's interest is determined. Within 60 days after the death of the Employee, the Employer will provide to the \"Insurer\" a written statement indicating the amount of each policy's proceeds the Employee's beneficiary is entitled to receive.",
+                "changed_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page 6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an amount to be determined by the Employer at its sole discretion. The Employer shall be the beneficiary of the remaining death proceeds of the policy after the Employee's interest is determined. Within 60 days after the death of the Employee, the Employer will provide to the \"Insurer\" a written statement indicating the amount of each policy's proceeds the Employee's beneficiary is entitled to receive.",
+                "explanation": "The original text provides a formula for calculating the Employee's beneficiary's entitlement. The modified text removes the formula and gives the Employer sole discretion in determining the amount. This directly contradicts the previous defined method, creating significant uncertainty and potential for disputes.",
+                "location": "ARTICLE IV \"Rights to the Proceeds at Death\""
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement may be altered, amended or modified, including the addition of any extra policy provisions, by a written instrument signed by the Employer and the Employee.",
+                "changed_text": "This Agreement may be altered, amended or modified, including the addition of any extra policy provisions, by a written instrument signed by the Employer.",
+                "explanation": "The original text states that any modifications to the agreement require the signature of both the Employer and the Employee. The modified text removes the Employee's signature requirement, implying the Employer can unilaterally alter the agreement. This contradicts the initial agreement requiring mutual consent.",
+                "location": "ARTICLE X \"Amendment and Assignment\""
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BANGIINC_05_25_2005-EX-10-PremiumManagedHostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Includes a 99 percent server uptime guarantee.",
+                "changed_text": "Server uptime is guaranteed.",
+                "explanation": "Removing the '99 percent' specificity creates ambiguity. While the contract still mentions an 'uptime guarantee,' the lack of a defined percentage makes it difficult to enforce and contradicts an earlier implicit promise of a specific performance level.",
+                "location": "Included Monthly Services"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Management of site source code and integration of contributed software updates and bug fixes into zencart is included.",
+                "changed_text": "Management of site is included.",
+                "explanation": "Removing the specific duties related to source code and integration removes specific obligations of deep systems. This omission creates uncertainty and potential disputes regarding the scope of 'management'.",
+                "location": "Included Monthly Services"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Managed hosting fees are $175 per month for a period of 12 months.  This includes up to 10 G of bandwidth, with overages at $20 for each 1 G beyond 10 in any given month. The billing cycle is the 1st of each month.",
+                "changed_text": "Managed hosting fees are $175 per month for a period of 12 months. The billing cycle is the 1st of each month.",
+                "explanation": "By removing the bandwidth clause completely, there is no longer any context on what happens if the client goes over bandwidth, creating ambiguity. The customer would not know what the consequences are if this parameter is surpassed.",
+                "location": "Terms of Agreement"
+            }
+        ]
+    }
+]

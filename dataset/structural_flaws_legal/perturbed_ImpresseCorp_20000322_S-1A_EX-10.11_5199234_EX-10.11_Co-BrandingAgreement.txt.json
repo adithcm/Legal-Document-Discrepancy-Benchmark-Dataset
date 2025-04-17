@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6.2. ARBITRATION. Any controversy or claim between the parties concerning any breach or alleged breach of this Agreement or performance or nonperformance of any obligation under this Agreement which cannot be resolved by negotiation will be resolved by binding arbitration under this Section 6.2  [ARBITRATION] and the then-current Commercial Rules and supervision of the American Arbitration Association (the \"AAA\"). If any part of this Section 6.2  [ARBITRATION] is held to be unenforceable, it will be severed and will not affect either the duty to arbitrate or any other part of this Section 6.2  [ARBITRATION]. The arbitration will be held before a sole disinterested arbitrator who is knowledgeable in business information and the Internet and experienced in handling commercial disputes. The arbitrator shall be appointed jointly by the parties hereto within 30 days following the date on which the arbitration is instituted. If the parties are unable to agree upon the arbitrator within such 30-day period, the AAA shall be instructed to select such arbitrator within 15 days thereafter. The arbitrator's award will be final and binding and may be entered in any court having jurisdiction. The arbitrator will not have the power to award punitive or exemplary damages, or any damages excluded by, or in excess of, any damage limitations expressed in this Agreement. Issues of arbitrability will be determined in accordance solely with the federal substantive and procedural laws relating to arbitration; in all other respects, the arbitrator will be obligated to apply and follow the substantive law of the State of Delaware.",
+                "changed_text": "6.2. ARBITRATION. Any controversy or claim between the parties concerning any breach or alleged breach of this Agreement or performance or nonperformance of any obligation under this Agreement which cannot be resolved by negotiation will be resolved by arbitration under this Section 6.2 [ARBITRATION]. If any part of this Section 6.2 [ARBITRATION] is held to be unenforceable, it will be severed and will not affect either the duty to arbitrate or any other part of this Section 6.2 [ARBITRATION]. The arbitration will be held before an arbitrator who is knowledgeable in business information and the Internet and experienced in handling commercial disputes, the arbitrator shall be appointed based on agreement. The arbitrator's award will be final and binding and may be entered in any court having jurisdiction. The arbitrator will not have the power to award punitive or exemplary damages, or any damages excluded by, or in excess of, any damage limitations expressed in this Agreement. Issues of arbitrability will be determined based upon mutual agreement.",
+                "explanation": "The revised arbitration clause removes the binding aspect of the arbitration. The original clause states binding arbitration under AAA rules, making the award final and enforceable in court. The revised clause removes the reference to binding arbitration and removes supervision by the American Arbitration Association. It states that the arbitrator shall be appointed based on agreement, meaning either party can refuse to agree to the other's arbitrator suggestion, preventing arbitration. The final change makes the issues of arbitrability determined based upon mutual agreement rather than federal law.",
+                "contradicted_law": "Federal Arbitration Act",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.2. GOVERNING LAW. This Agreement shall be governed by and interpreted under the laws of the State of Delaware without regard to its conflicts of law provisions.",
+                "changed_text": "10.2. GOVERNING LAW. This Agreement shall be governed by and interpreted under the laws of the State determined by the parties at the time of dispute without regard to its conflicts of law provisions.",
+                "explanation": "The modification introduces ambiguity regarding the governing law. The original clause specifies Delaware law, providing certainty. The changed clause makes the governing law dependent on the parties' agreement at the time of dispute. The parties may not be able to agree which leads to a dispute of which state law governs and therefore contradiction.",
+                "contradicted_law": "Contract Law Principles - Certainty of Terms",
+                "location": "Section 10.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.13. WAIVER OF JURY TRIAL. Each party hereby irrevocably waives all rights a party may have to a trial by jury in any legal action or proceeding arising out of or in connection with this Agreement or the transactions contemplated hereby.",
+                "changed_text": "10.13. WAIVER OF JURY TRIAL. Each party hereby waives all rights a party may have to a trial by jury in any legal action or proceeding arising out of or in connection with this Agreement or the transactions contemplated hereby if they both agree to the waiver at the time the dispute is submitted.",
+                "explanation": "The modification introduces contingency in the waiver of jury trial. The original clause provides an irrevocable waiver, preventing either party from demanding a jury trial. The revised clause makes the waiver conditional on both parties agreeing to it at the time of the dispute. One party can refuse the waiver, allowing a jury trial. This contradicts the original's clear and irrevocable intention.",
+                "contradicted_law": "7th Amendment, Contract Law Principles - Certainty of Terms",
+                "location": "Section 10.13"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LegacyEducationAllianceInc_20200330_10-K_EX-10.18_12090678_EX-10.18_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "9.6 T&B ACKNOWLEDGES AND AGREES THAT NO REPRESENTATIONS OR STATEMENTS OF ACTUAL, AVERAGE, PROJECTED OR FORECASTED SALES, PROFITS, ROYALTIES, OR EARNINGS HAVE BEEN MADE WITH RESPECT TO THE BUSINESS CONTEMPLATED BY THIS AGREEMENT.",
+                "changed_text": "1.13. The term “Historical Projections” shall mean that T&B ACKNOWLEDGES AND AGREES THAT NO REPRESENTATIONS OR STATEMENTS OF ACTUAL, AVERAGE, PROJECTED OR FORECASTED SALES, PROFITS, ROYALTIES, OR EARNINGS HAVE BEEN MADE WITH RESPECT TO THE BUSINESS CONTEMPLATED BY THIS AGREEMENT. Such projections are available upon request.",
+                "explanation": "Moving the disclaimer about the lack of sales projections from the 'Royalties and Reporting' section to a definition section makes it less visible to someone reviewing the financial terms of the agreement. Additionally, the disclaimer is redefined as 'Historical Projections' and made available upon request which could create confusion and decrease its enforceability as it implies projections exist when the original clause explicitly states they do not.",
+                "contradicted_law": "Securities Exchange Act of 1934 (Potential Misleading Statements)",
+                "location": "Section 9.6 to Section 1. Definitions"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "14.8 Cost of Enforcement. If a party commences any action at law or in equity, or for declaratory relief to secure or protect any rights under, or to enforce any provision of, this Agreement, then, in addition to any judgment, order, or other relief obtained in such proceedings, the prevailing party shall be entitled to recover from the losing party all reasonable costs, expenses, and attorneys' fees incurred by the party in connection with such proceedings, including, attorneys' fees incurred for consultation and other legal services performed prior to the filing of such proceeding.",
+                "changed_text": "5.3 Launch events are subject to change, but Cost of Enforcement may apply to the winning party in the event of legalities secured or protected.",
+                "explanation": "Moving the cost of enforcement clause to a more general section about Brand Development and Launch reduces clarity about its enforceability. The new placement implies that the enforcement cost only applies to 'launch events' and no other clause. The original clause clearly states that the prevailing party should be entitled to recover all reasonable costs, expenses, and attorney's fees, while the change places the clause in a discussion regarding Launch events, meaning costs may or may not apply.",
+                "contradicted_law": "Contract Law - Enforceability of Terms",
+                "location": "Section 14.8 to Section 5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "12.2. EXCEPT FOR AMOUNTS PAYABLE TO THIRD PARTIES IN CONNECTION WITH CLAIMS SUBJECT TO THE INDEMNIFICATION PROVISIONS OF SECTION 9.1 OR A BREACH OF EITHER PARTY'S OBLIGATIONS UNDER SECTION 5 (CONFIDENTIALITY), NEITHER PARTY WILL, UNDER ANY CIRCUMSTANCES, BE LIABLE TO THE OTHER PARTY FOR ANY LOST PROFITS OR ANY OTHER SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATING TO THIS AGREEMENT EVEN IF THE PARTY HAS BEEN NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "changed_text": "1.14. The term “Consequential Damages” shall mean that EXCEPT FOR AMOUNTS PAYABLE TO THIRD PARTIES IN CONNECTION WITH CLAIMS SUBJECT TO THE INDEMNIFICATION PROVISIONS OF SECTION 9.1 OR A BREACH OF EITHER PARTY'S OBLIGATIONS UNDER SECTION 5 (CONFIDENTIALITY), NEITHER PARTY WILL, UNDER ANY CIRCUMSTANCES, BE LIABLE TO THE OTHER PARTY FOR ANY LOST PROFITS OR ANY OTHER SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATING TO THIS AGREEMENT EVEN IF THE PARTY HAS BEEN NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES. No liability whatsoever.",
+                "explanation": "This change redefines the term 'Consequential Damages' using the original text that limits liability. The original section clearly defines the terms. However, changing the location to the definitions introduces an ambiguous clause. By placing it as a definition and adding the phrase 'No liability whatsoever', it creates ambiguity as to which conditions the limitation of liability applies, making it difficult to determine the intended scope of the provision.",
+                "contradicted_law": "Contract Law - Limitation of Liability",
+                "location": "Section 12.2 to Section 1. Definitions"
+            }
+        ]
+    }
+]

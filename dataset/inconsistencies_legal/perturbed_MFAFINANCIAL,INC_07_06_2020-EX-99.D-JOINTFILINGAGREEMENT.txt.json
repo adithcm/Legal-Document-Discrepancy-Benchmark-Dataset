@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MFAFINANCIAL,INC_07_06_2020-EX-99.D-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing.",
+                "changed_text": "Notwithstanding Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the parties may choose individually whether to participate in joint filings of the Statement on Schedule 13D and any amendments. Each party is solely responsible for their filings, regardless of the agreement.",
+                "explanation": "This modification attempts to negate the requirement for a formal joint filing agreement, suggesting that parties can individually decide whether or not to jointly file, which contradicts SEC regulations that mandate a formal agreement when parties act as a group.",
+                "contradicted_law": "Rule 13d-1(k) of the Securities Exchange Act of 1934",
+                "location": "First Paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
+                "changed_text": "This Agreement requires physical signatures on a single document. Digital signatures or counterparts are strictly prohibited, and failure to adhere invalidates the agreement.",
+                "explanation": "This contradicts the Electronic Signatures in Global and National Commerce Act (ESIGN Act) and most state laws (like the Uniform Electronic Transactions Act - UETA) which give legal validity to electronic signatures and allow agreements to be formed via counterparts.",
+                "contradicted_law": "Electronic Signatures in Global and National Commerce Act (ESIGN Act), Uniform Electronic Transactions Act (UETA)",
+                "location": "First Paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement as of July 6, 2020.",
+                "changed_text": "This Agreement is valid only if executed before January 1, 2020. Any execution after this date renders it null and void.",
+                "explanation": "By setting the effective date to be *before* the actual execution date, the contract introduces an inconsistency that makes the agreement immediately invalid. Contract law requires agreements to reflect the actual dates of agreement and execution.",
+                "contradicted_law": "General contract law principles regarding effective dates and validity of agreements.",
+                "location": "Second Paragraph"
+            }
+        ]
+    }
+]

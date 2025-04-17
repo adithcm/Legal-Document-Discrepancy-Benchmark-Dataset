@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SightLifeSurgical,Inc.-STRATEGICSALES_MARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within sixty (60) days after the end of each calendar quarter during the Term, Imprimis shall deliver to Surgical a report setting forth for such calendar quarter the calculation of the applicable Sales Commission due under this Agreement for the sale of the Product (as defined in the SOW). Imprimis shall remit the total Sales Commission payments due for the sale of Product during such calendar quarter at the time such report is made.",
+                "changed_text": "Within one hundred and twenty (120) days after the end of each calendar quarter during the Term, Imprimis shall deliver to Surgical a report setting forth for such calendar quarter the calculation of the applicable Sales Commission due under this Agreement for the sale of the Product (as defined in the SOW). Imprimis shall remit the total Sales Commission payments due for the sale of Product during such calendar quarter at the discretion of Imprimis, taking into account operational needs.",
+                "explanation": "The original text stipulates a 60-day period for commission reporting and payment. Changing the delivery timeframe to 120 days may be inconsistent with California Labor Code Section 204, which requires timely payment of earned wages. Moreover, stating that commission payments will be made at Imprimis' discretion introduces uncertainty and potential conflicts with the legal requirement for definite and timely payment of earned wages.",
+                "contradicted_law": "California Labor Code Section 204",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Surgical agrees that it shall disclose promptly to Imprimis all inventions, ideas, concepts, and discoveries, including but not limited to processes, methods, formulas, biological materials, specimens, chemical compounds, formulations, software, data, techniques, products, applications, systems, procedures, technical information, drawings, reports and designs as well as improvements and modifications thereof and know-how thereto (whether or not protectable by copyright, patent, trademark, trade secret or any other proprietary rights), that it makes, conceives of, discovers or develops as a result of the receipt of Confidential Information (as defined in the Confidentiality Agreement referenced in Section 6 below) (\"Work Product\"). Surgical agrees that all Work Product shall be the sole and exclusive property of Imprimis.",
+                "changed_text": "Surgical agrees that it shall disclose inventions, ideas, concepts, and discoveries to Imprimis upon mutual agreement. Surgical agrees that all Work Product shall be the sole and exclusive property of Imprimis. If Surgical does not disclose promptly the required information Imprimis can terminate the contract.",
+                "explanation": "The initial clause requires 'prompt' disclosure of all Work Product to Imprimis. Amending this to 'upon mutual agreement' introduces ambiguity and could potentially contradict the California Uniform Trade Secrets Act (CUTSA) if it impedes the protection or proper assignment of trade secrets. This is because trade secret law requires reasonable efforts to maintain secrecy. If the disclosure is delayed or not disclosed in a timely manner because of lack of 'mutual agreement', it could risk the trade secret status. Also, the addendum about termination has to be related to an amount that's aligned to federal laws. Otherwise, an employee can sue for wrongful termination.",
+                "contradicted_law": "California Uniform Trade Secrets Act",
+                "location": "Section 5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party shall have the right to terminate this Agreement at any time for any reason. Expiration or termination of this Agreement shall not limit any obligations of a party that were incurred prior to such expiration or termination.",
+                "changed_text": "Either party shall have the right to terminate this Agreement at any time for any reason with 1 day's notice. Expiration or termination of this Agreement shall not limit any obligations of a party that were incurred prior to such expiration or termination.",
+                "explanation": "While 'at any time for any reason' is generally permissible, providing only 1 day's notice, without specifying conditions that mitigate potential harm to the other party, could be deemed unconscionable or a violation of the implied covenant of good faith and fair dealing under California law. This is especially true if the termination would cause significant disruption or loss to the other party without adequate time to prepare or mitigate the impact.",
+                "contradicted_law": "Implied covenant of good faith and fair dealing (California law)",
+                "location": "Term & Termination - Section 2"
+            }
+        ]
+    }
+]

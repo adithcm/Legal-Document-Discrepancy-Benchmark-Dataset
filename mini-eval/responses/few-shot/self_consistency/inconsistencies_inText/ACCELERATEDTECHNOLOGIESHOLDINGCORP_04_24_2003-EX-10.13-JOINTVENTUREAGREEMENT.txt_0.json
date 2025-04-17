@@ -1,26 +1,29 @@
 [
     {
-        "section": "However, either Joint Venturer may unilaterally terminate the agreement with written notice of sixty (60) days.",
-        "explanation": "This clause contradicts the earlier statement that the Joint Venture will last until February 28, 2004, unless extended by written agreement. The unilateral termination clause allows a party to end the agreement before the agreed-upon end date, creating an inconsistency.",
-        "location": "Section 8",
-        "category": 3,
-        "location_match": true,
-        "text_match": true
-    },
-    {
-        "section": "Notwithstanding the foregoing, PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability.",
-        "explanation": "This clause contradicts Section 9, which states, '...there may be distributed to the Joint Venturers, from time to time, so much of the gross income of the Joint Venture as shall not be needed to defray the necessary and expected costs and expenses of the Joint Venture business.' PVSS is guaranteed 10,000 dollars no matter what, and Section 9 says that distributions can only be made if it does not get in the way of necessary costs. This creates ambiguity around distribution of wealth.",
-        "location": "Section 9",
-        "category": 3,
-        "location_match": true,
-        "text_match": true
-    },
-    {
-        "section": "However, in the event of a dispute regarding the valuation of assets during liquidation, Collectible Concepts Group, Inc. will have the final say on the asset's value.",
-        "explanation": "The phrase 'Collectible Concepts Group, Inc. will have the final say on the asset's value' creates a structural flaw, as this creates an imbalance of power and could lead to unfair valuation of assets.",
+        "section": "On any termination of the Joint Venture, its debt shall be paid or provided for in a manner satisfactory to the Joint Venturers. Then, any unexpended portion of Joint Venture funds shall be distributed to the Joint Venturers in accordance with their prorata ownership in the Joint Venture and all other assets of the Joint Venture shall be distributed as undivided interests to the Joint Venturers ratably according to their prorata interests in the Joint Venture as set forth in Section 6. If any asset is not capable of being distributed on an undivided basis, the Parties shall agree on a price for such asset and it shall be distributed to one Party and a corresponding balance, in cash or property, shall be made of the Joint Venture assets so that each Party receives his proportionate share of all the Joint Venture assets. However, in the event of a dispute regarding the valuation of assets during liquidation, Collectible Concepts Group, Inc. will have the final say on the asset's value.",
+        "explanation": "This section describes the procedure for asset distribution upon termination, but then gives Collectible Concepts Group, Inc. unilateral authority to determine asset valuation in disputes. This contradicts the initial fair distribution principle and potentially disadvantages Pivotal Self Service Tech, Inc., creating an imbalance.",
         "location": "Section 11",
-        "category": 10,
+        "category": 3,
         "location_match": true,
-        "text_match": true
+        "text_match": true,
+        "explanation_match": false
+    },
+    {
+        "section": "Distributions may only be made if after any distribution is made, the Joint Venture assets are in excess of all liabilities of the Joint Venture. Each distribution shall be made ratably to the Joint Venturers according to their prorata interest in the Joint Venture as shown in Section 6. Notwithstanding the foregoing, PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability.",
+        "explanation": "This creates ambiguity because it says that distributions can only happen if assets exceed liabilities. However, it also says PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability.",
+        "location": "Section 9",
+        "category": 1,
+        "location_match": true,
+        "text_match": true,
+        "explanation_match": true
+    },
+    {
+        "section": "The Joint Venturers recognize that both of the Joint Venturers are and will continue to be engaged in the conduct of their respective businesses for their own account. Neither Joint Venturer shall be entitled to compensation for services rendered to the Joint Venture as such, but each Joint Venturer shall be reimbursed for all direct expenses, including travel, office, and all other out-of-pocket expenses incurred in the operation of the affairs of the Joint Venture and the promotion of its businesses.",
+        "explanation": "This is a structural flaw because the text does not flow properly and makes it difficult to read and understand.",
+        "location": "Section 5",
+        "category": 9,
+        "location_match": false,
+        "text_match": false,
+        "explanation_match": false
     }
 ]

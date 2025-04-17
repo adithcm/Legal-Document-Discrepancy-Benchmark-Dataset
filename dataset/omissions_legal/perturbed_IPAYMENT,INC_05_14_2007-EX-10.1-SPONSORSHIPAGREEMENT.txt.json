@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "IPAYMENT,INC_05_14_2007-EX-10.1-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "  (d)   Bank will maintain all cardholder information under its control and/or possession in a safe and secure manner in compliance with the Rules, and will report to Bank Card associations as required by the Rules relating to internal policies and procedures related to cardholder information security. Furthermore, Bank agrees to inform the ISO immediately regarding any breach of information security that may have an adverse effect to the ISO or to its Merchants.",
+                "changed_text": "  (d)   Bank will maintain cardholder information under its control and/or possession. Bank agrees to inform the ISO regarding any breach of information security.",
+                "explanation": "Removing 'in a safe and secure manner in compliance with the Rules' weakens the data protection obligations, potentially violating data security laws like the California Consumer Privacy Act (CCPA) or the EU's General Data Protection Regulation (GDPR) if applicable to the cardholders. Deleting the reporting requirement 'to Bank Card associations as required by the Rules relating to internal policies and procedures related to cardholder information security' also removes a critical compliance measure. This change creates a legal risk related to data protection.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA), EU's General Data Protection Regulation (GDPR) and Payment Card Industry Data Security Standard (PCI DSS)",
+                "location": "Section 2.5(d)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "All documents and any changes to the form and content thereof must be approved in writing by SERVICERS prior to use by ISO, which approval will not be unreasonably withheld or delayed beyond fifteen (15) days.",
+                "changed_text": "All documents and any changes to the form and content thereof must be approved by SERVICERS prior to use by ISO.",
+                "explanation": "Deleting 'which approval will not be unreasonably withheld or delayed beyond fifteen (15) days' gives SERVICERS unchecked power over ISO's marketing materials. This omission can introduce legal risk, particularly concerning fair business practices and potential antitrust issues, if SERVICERS use the approval process to hinder ISO's business unfairly. In many jurisdictions, contracts require parties to act in good faith, and unreasonable delays could be considered a breach of that duty. The fifteen day approval period ensures ISO is compliant with regulations. By omitting this line, they are subject to delays that affect the ability to comply with the state and/or federal laws.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing, potential violations of antitrust laws",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The parties hereto waive their right to a jury trial in the event of any legal proceedings between them.",
+                "changed_text": "",
+                "explanation": "By removing the jury trial waiver the text no longer specifies that this right has been waived. In some US states the **right to a jury trial** is considered a key right, particularly in contract law. Omitting a clear waiver could render the contract non-compliant with certain requirements regarding the informed consent of such waivers. It is required to have the parties waive this specific right.",
+                "contradicted_law": "Seventh Amendment to the United States Constitution.",
+                "location": "Section 12.8"
+            }
+        ]
+    }
+]

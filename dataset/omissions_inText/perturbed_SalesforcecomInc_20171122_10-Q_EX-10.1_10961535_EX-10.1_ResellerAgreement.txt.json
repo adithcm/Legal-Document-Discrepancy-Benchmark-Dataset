@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller operates ethically. Sub-Reseller is not a party to the original Agreement.",
+                "explanation": "By removing \"in accordance with Section 2(ii) of the Agreement\" and \"complies with the terms of the Agreement applicable to Reseller as if Sub-Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller\", but not clarifying the ethical standard, the contract now lacks clarity on the specific contractual obligations of the Sub-Reseller. The new condition of 'operates ethically' is vague and open to interpretation, creating uncertainty and potential disputes. The statement that Sub-Reseller is not a party to the original agreement is contradictory, since it is being appointed based off of that agreement.",
+                "location": "1. Resale Rights."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Subject to the above modifications, the Agreement remains in full force and effect.",
+                "changed_text": "Subject to the modifications outlined by SFDC, the Agreement is in effect.",
+                "explanation": "By removing the specification that 'above' modifications are the only ones that apply, the agreement opens the door to other changes that are not outlined anywhere else. In addition, it now states that the agreement is in effect per the discretion of SFDC, while the original statement notes that the agreement will exist as is with the above modifications. The new statement is very vague and introduces ambiguity.",
+                "location": "2. Effect of Sub-Reseller Agreement."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "This outlines the responsibilities of both parties. Previous agreements may still apply.",
+                "explanation": "By changing this clause, there is no longer the same protection that the terms and conditions herein contain the entire agreement between the parties. Removing this clause creates an internal contradiction as it now allows for previous agreements to still apply, while the sub-reseller agreement is supposedly the most up-to-date agreement.",
+                "location": "3. Entire Agreement."
+            }
+        ]
+    }
+]

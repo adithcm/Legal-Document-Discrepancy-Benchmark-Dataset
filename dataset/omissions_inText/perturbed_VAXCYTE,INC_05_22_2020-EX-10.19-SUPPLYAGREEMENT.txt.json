@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.19 \"Required Standards\" means Applicable Law, the Specifications, and the warranties given by Sutro in Section 7.3, provided that Required Standards shall not include compliance with cGMPs for Custom Reagents, Extract identified as \"research grade\" Extract or Other Extracts.",
+                "changed_text": "1.19 \"Required Standards\" means Applicable Law, the Specifications, and the warranties given by Sutro in Section 7.3.",
+                "explanation": "By removing the exemption for cGMP compliance for certain Extracts and Custom Reagents, this change creates a contradiction if later sections of the contract assume or state that these items do not need to comply with cGMPs. This could create confusion about which standards apply and when.",
+                "location": "Section 1.19"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.1 Product Testing and Inspections. Each shipment of Product shall be accompanied by a certificate of analysis describing all current requirements of the Specifications and results of tests performed on such Product and a certificate of conformity certifying that the quantities of Product supplied have been Manufactured, controlled and released according to the Required Standards (\"COA/COC\") as set forth in the applicable Quality Agreement (subject to SutroVax's conduct of the SutroVax Activity Test to confirm Extract meets the SutroVax Activity Criteria). The COA/COC acceptance criteria for each Product shall be set forth in the Specification for such Product. Two of the tests and corresponding COA/COC acceptance criteria for the Extract shall be the performance of a productivity (Activity) test of the applicable Sutro protein (the \"Sutro Activity Test\" and \"Sutro Activity Criteria\") and the performance of a productivity (activity) test of the applicable Vaccine Composition (the \"SutroVax Activity Test\" and \"SutroVax Activity Criteria\"). Sutro shall perform the Sutro Activity Test to confirm that all shipments of Extract meet the Sutro Activity Criteria and SutroVax (or its designee) shall perform the SutroVax Activity Test to confirm that all shipments of Extract meet the SutroVax Activity Criteria. Sutro will also provide SutroVax with Material Safety Data Sheets (\"MSDS\") or an equivalent instrument recognized by the applicable Regulatory Authority as required for the Product(s), and updates of the same as necessary.",
+                "changed_text": "4.1 Product Testing and Inspections. Each shipment of Product shall be accompanied by a certificate of analysis describing all current requirements of the Specifications and results of tests performed on such Product and a certificate of conformity certifying that the quantities of Product supplied have been Manufactured, controlled and released according to the Required Standards (\"COA/COC\") as set forth in the applicable Quality Agreement. Sutro will also provide SutroVax with Material Safety Data Sheets (\"MSDS\") or an equivalent instrument recognized by the applicable Regulatory Authority as required for the Product(s), and updates of the same as necessary.",
+                "explanation": "By removing the details about the Sutro and SutroVax Activity Tests and Criteria, this introduces ambiguity on how exactly the quality of the extract is tested. Sections referring to these activity tests will now be unclear, especially concerning acceptance/rejection of non-conforming goods.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.3 Sutro Audits. Without limiting the foregoing; Sutro is responsible for auditing the facilities of the suppliers of Components, if any, periodically, and Sutro agrees to provide SutroVax, upon SutroVax's request with a current copy of the audit report of such facilities and to incorporate SutroVax's comments with respect to any corrective action plan related to the Product.",
+                "changed_text": "5.3 Sutro Audits. Without limiting the foregoing; Sutro is responsible for auditing the facilities of the suppliers of Components, if any, periodically.",
+                "explanation": "By omitting the requirement for Sutro to provide audit reports to SutroVax and incorporate their comments, the changed text undermines SutroVax's oversight capabilities. Any clauses mentioning SutroVax review and incorporation of comments will now be unenforceable or unclear, creating a contradiction.",
+                "location": "Section 5.3"
+            }
+        ]
+    }
+]

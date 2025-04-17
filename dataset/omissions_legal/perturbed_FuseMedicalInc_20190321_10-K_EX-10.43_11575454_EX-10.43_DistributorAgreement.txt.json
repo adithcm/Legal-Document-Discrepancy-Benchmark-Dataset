@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_DistributorAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "2.4 The Distributor shall not:\n\n(a) represent itself as an agent of the Supplier for any purpose; or\n\n(b) pledge the Supplier's credit; or\n\n(c) give any condition or warranty on the Supplier's behalf except for any warranty or guarantee which cannot be excluded under law; or\n\n(d) make any representation on the Supplier's behalf; or",
+                "changed_text": "2.4 The Distributor shall not:\n\n(a) represent itself as an agent of the Supplier for any purpose; or\n\n(b) pledge the Supplier's credit; or\n\n(c) give any condition or warranty on the Supplier's behalf; or\n\n(d) make any representation on the Supplier's behalf; or",
+                "explanation": "By removing 'except for any warranty or guarantee which cannot be excluded under law' from section 2.4(c), the distributor is now prohibited from providing any warranty, even those legally mandated. This violates consumer protection laws, such as implied warranty laws, that exist in most US states, including Texas where CPM Medical Consultants, LLC is located. This introduces a legal risk as it restricts consumer rights.",
+                "contradicted_law": "Implied Warranty laws (e.g., Uniform Commercial Code as adopted by Texas)",
+                "location": "2.4(c)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "10.1 Subject to the Distributor fulfilling all the conditions in this clause 10, the Supplier shall indemnify the Distributor, defend and hold harmless against any liability incurred by the Distributor in respect of damage to property, death or personal injury arising from any fault or defect in the design of the Products and any reasonable costs, claims, demands and expenses, including reasonable attorneys' fees, arising out of or in connection with that liability (Relevant Claim), except to the extent the liability arises as a result of the wilful misconduct of the Distributor. The Supplier shall add the distributor to their current insurance certificate.",
+                "changed_text": "10.1 Subject to the Distributor fulfilling all the conditions in this clause 10, the Supplier shall indemnify the Distributor, defend and hold harmless against any liability incurred by the Distributor in respect of damage to property, death or personal injury arising from any fault or defect in the design of the Products and any reasonable costs, claims, demands and expenses, including reasonable attorneys' fees, arising out of or in connection with that liability (Relevant Claim), except to the extent the liability arises as a result of the wilful misconduct of the Distributor.",
+                "explanation": "By removing the sentence 'The Supplier shall add the distributor to their current insurance certificate,' the contract no longer explicitly requires the Supplier to include the distributor on its insurance policy. This weakens the distributor's protection in case of product liability claims and contradicts the general principle of product liability law, which requires manufacturers to bear responsibility for defects. Moreover, without being added to the Supplier's insurance, the Distributor will be completely liable to any claims arising from damages in the event that a Supplier is unable to defend them due to bankruptcy or other extenuating circumstances.",
+                "contradicted_law": "General principles of product liability law; state laws regarding insurance coverage for distributors",
+                "location": "10.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "10.3 During the Term, the Supplier shall maintain product liability insurance with a reputable insurer of no less than AU$10 million for any one occurrence for any and all liability (however arising) for a claim that the Products are faulty or defective. The Supplier shall provide a copy of the insurance policy to the Distributor on request.",
+                "changed_text": "10.3 During the Term, the Supplier may maintain product liability insurance with a reputable insurer for any and all liability (however arising) for a claim that the Products are faulty or defective. The Supplier may provide a copy of the insurance policy to the Distributor on request.",
+                "explanation": "By changing 'shall' to 'may' in two places and removing the minimum insurance amount of 'AU$10 million', the obligation on the supplier to maintain product liability insurance is weakened. The minimum amount insures the liability of the client, and its removal causes a consumer protection law violation. This omission undermines the distributor's financial protection and is in contradiction with expectations under product liability laws for adequate coverage.",
+                "contradicted_law": "General principles of product liability law relating to adequate insurance coverage; potential violation of state laws requiring minimum insurance levels for certain products.",
+                "location": "10.3"
+            }
+        ]
+    }
+]

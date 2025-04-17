@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AntaresPharma,Inc.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "12.5 Governing Law; Choice of Forum. This Agreement shall be governed by and interpreted in accordance with the substantive laws of the State of New York, without regard to its conflict of law provisions. The Parties agree that the United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement. Except as otherwise provided in ARTICLE 11, all claims and proceedings under this Agreement shall be brought exclusively in the state or federal courts of competent subject matter jurisdiction in New York City, State of New York. The Parties hereby waive (i) any objection which it may have at any time to the venue of the proceeding in any such court, (ii) any claim that such proceedings have been brought in an inconvenient forum, and (iii) the right to object, with respect to such proceedings, that such court does not have any jurisdiction over such Party.",
+                "changed_text": "12.5 Governing Law; Choice of Forum. This Agreement shall be governed by and interpreted in accordance with the substantive laws of the State of New York, without regard to its conflict of law provisions. The Parties agree that the United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement. Except as otherwise provided in ARTICLE 11, all claims and proceedings under this Agreement shall be brought exclusively in a location to be determined at a later date. The Parties hereby waive (i) any objection which it may have at any time to the venue of the proceeding in any such court, (ii) any claim that such proceedings have been brought in an inconvenient forum, and (iii) the right to object, with respect to such proceedings, that such court does not have any jurisdiction over such Party.",
+                "explanation": "The original clause specifies New York City as the exclusive forum for legal proceedings. The modified clause contradicts this by stating the location will be determined later, introducing ambiguity and potentially hindering enforcement, creating a legal contradiction.",
+                "contradicted_law": "New York General Obligations Law - Choice of Law and Forum",
+                "location": "Section 12.5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.6 No Warranty. NEITHER PARTY MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, BY FACT OR LAW, OTHER THAN THOSE EXPRESSLY SET FORTH IN THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE OR WARRANTY OF MERCHANTABILITY OR WARRANTY OF NON-INFRINGEMENT OF THIRD PERSON RIGHTS.",
+                "changed_text": "8.6 No Warranty. NEITHER PARTY MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, BY FACT OR LAW, OTHER THAN THOSE EXPRESSLY SET FORTH IN THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE OR WARRANTY OF MERCHANTABILITY OR WARRANTY OF NON-INFRINGEMENT OF THIRD PERSON RIGHTS. However, Antares warrants that all Products shall conform to industry standards.",
+                "explanation": "The original clause clearly disclaims all warranties. The modified clause contradicts this by introducing a warranty of conformance to industry standards for Antares' Products, creating uncertainty about the actual warranties applicable. This introduces ambiguity, creating a legal contradiction.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Warranty Disclaimers",
+                "location": "Section 8.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "7.2 Termination By AMAG. This Agreement may be terminated in its entirety by AMAG, upon AMAG's prior written notice to Antares:\n\n(a) Subject to Sections 11.1 and 12.4, if Antares commits a material breach of this Agreement and such material breach remains uncured for [***] following written notice of breach by Antares. Notwithstanding the foregoing, AMAG's termination rights with respect to an Antares' failure to supply Products, sample Products or Trainers, including a Supply Failure, are not subject this Section 7.2(a) and are set forth in Section 7.2(b);",
+                "changed_text": "7.2 Termination By AMAG. This Agreement may be terminated in its entirety by AMAG, upon AMAG's prior written notice to Antares:\n\n(a) Subject to Sections 11.1 and 12.4, if Antares commits a material breach of this Agreement and such material breach remains uncured for [***] following written notice of breach by Antares. AMAG's termination rights with respect to an Antares' failure to supply Products, sample Products or Trainers, including a Supply Failure, are also subject to this Section 7.2(a) and are set forth in Section 7.2(b);",
+                "explanation": "The original clause explicitly states that AMAG's termination rights for supply failures are *not* subject to Section 7.2(a). The changed text contradicts this by stating that these rights *are* subject to Section 7.2(a), which introduces a contradiction in terms relating to the termination conditions. This affects the obligations of the termination rights, potentially hindering enforcement.",
+                "contradicted_law": "Contract Law - Material Breach and Termination Clauses",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

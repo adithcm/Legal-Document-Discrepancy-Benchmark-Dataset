@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HEMISPHERX-Sales,Marketing,Distribution,andSupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Product Unit\" means 1 x1ml vial containing 5 million international units (I.U.) of Interferon alfa-n3 (human leukocyte derived)",
+                "changed_text": "\"Product Unit\" means a vial of Interferon alfa-n3 (human leukocyte derived)",
+                "explanation": "By removing the specific quantity of international units (I.U.) contained in the product unit, and only designating 'a vial', creates ambiguity. Other clauses referencing 'Product Unit' now lack clarity regarding the actual quantity being transacted, affecting pricing, forecasting, and inventory obligations. This creates uncertainty in enforcement.",
+                "location": "I. DEFINITIONS"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "C. SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients. All purchase orders are final.",
+                "changed_text": "C. SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods. All purchase orders are final.",
+                "explanation": "The removal of the clause 'except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients.' contradicts the implied understanding in other sections of the agreement relating to the initial clinical trial and MOH approval, specifically section II. LICENSE, where it is stated that the clinical trial needs to be successful.",
+                "location": "IV. SUPPLY"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "XIII. BUYOUT\n\nHEMISPHERX will have the option at any time to buy out this Agreement. If exercised within the first two (2) years HEMISPHERX will pay SCIEN three (3) times the Product sales for the preceding 12 months. If exercised after year 3, HEMISPHERX will pay SCIEN two (2) times the Product sales for the preceding 12 months.",
+                "changed_text": "XIII. BUYOUT\n\nHEMISPHERX will have the option at any time to buy out this Agreement. If exercised, HEMISPHERX will pay SCIEN based on an evaluation to be determined.",
+                "explanation": "By changing the clause 'If exercised within the first two (2) years HEMISPHERX will pay SCIEN three (3) times the Product sales for the preceding 12 months. If exercised after year 3, HEMISPHERX will pay SCIEN two (2) times the Product sales for the preceding 12 months.' to 'If exercised, HEMISPHERX will pay SCIEN based on an evaluation to be determined' makes the actual buyout process vague. While the process of buying out the agreement remains, the method to properly value such remains unclear. There is no indication as to what 'evaluation to be determined' entails.",
+                "location": "XIII. BUYOUT"
+            }
+        ]
+    }
+]

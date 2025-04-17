@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "If in any month during the term of Managed Hosting Services the Monthly Availability Percentage for a Qualifying Server is less than the SLA Target Percentage for that Qualifying Server, Customer shall be eligible to receive an Availability Credit, subject to Section 8.3(b), 8.4, 8.5, 8.6 and 8.7.",
+                "changed_text": "If in any month during the term of Managed Hosting Services the Monthly Availability Percentage for a Qualifying Server is less than the SLA Target Percentage for that Qualifying Server, Customer *may* be eligible to receive an Availability Credit, subject to Section 8.3(b), 8.4, 8.5, 8.6 and 8.7.",
+                "explanation": "Changing 'shall' to 'may' makes the availability credit discretionary rather than a guaranteed right. This omission undermines consumer protection by creating uncertainty about compensation for service failures, conflicting with general principles of contract law that imply a duty of good faith and fair dealing.",
+                "contradicted_law": "General principles of contract law regarding good faith and fair dealing. State consumer protection laws related to service guarantees.",
+                "location": "Attachment A - Services, Service Level Agreement"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Customer agrees to contact the IBM Help Desk to report problems and open trouble tickets that reflect the start time of the Outage event.",
+                "changed_text": "Customer agrees to report problems to the IBM Help Desk.",
+                "explanation": "The omission of 'and open trouble tickets that reflect the start time of the Outage event' removes the requirement for a documented record of the outage's beginning. Without this, IBM can dispute the duration or occurrence of the outage, reducing the likelihood of an availability credit. This contradicts the goal of service level agreements and is a violation of good faith, as it disadvantages the Customer from proving a service failure.",
+                "contradicted_law": "General principles of contract law regarding good faith and fair dealing.",
+                "location": "Attachment A - Services, Customer Care"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event that IBM determines that it is necessary to relocate Managed Hosting Services within the same or to another e-business Hosting Center, Customer will cooperate in good faith with IBM to facilitate such relocation, provided that such relocation is based on reasonable business needs of IBM (including the needs of other IBM customers), or the expansion of the space requirements of Customer.",
+                "changed_text": "In the event that IBM determines that it is necessary to relocate Managed Hosting Services within the same or to another e-business Hosting Center, Customer will cooperate with IBM to facilitate such relocation.",
+                "explanation": "The omission of 'provided that such relocation is based on reasonable business needs of IBM (including the needs of other IBM customers), or the expansion of the space requirements of Customer.' gives IBM unilateral power to relocate Managed Hosting Services and no requirement to provide reasonable justification. It weakens customer rights because there is no guarantee that customer needs are considered. This contradicts business and good faith law that implies a duty to consider customers when applying terms that would affect them.",
+                "contradicted_law": "General principles of contract law regarding good faith and fair dealing.",
+                "location": "Attachment A - Services, Relocation of Managed Hosting Services"
+            }
+        ]
+    }
+]

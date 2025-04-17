@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLACKROCKMUNIHOLDINGSINVESTMENTQUALITYFUND_04_07_2020-EX-99.01-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This agreement shall remain in full force and effect until revoked by any party hereto in a signed writing provided to each other party hereto, and then only with respect to such revoking party.",
+                "changed_text": "This agreement shall remain in full force and effect for a period of 90 days, after which it automatically terminates without any further notice required from any party.",
+                "explanation": "The original text allows the agreement to remain in effect until revoked by a party with written notice. The modified text limits the agreement to 90 days, potentially conflicting with securities laws requiring ongoing disclosure obligations under Section 13 or Section 16 of the Exchange Act, where continued filings are necessary beyond 90 days. The automatic termination contradicts the need for continuous compliance.",
+                "contradicted_law": "Section 13 and Section 16 of the Securities Exchange Act of 1934",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Pursuant to and in accordance with the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), and the rules and regulations thereunder, each party hereto hereby agrees to the joint filing, on behalf of each of them, of any filing required by such party under Section 13 or Section 16 of the Exchange Act or any rule or regulation thereunder (including any amendment, restatement, supplement, and/or exhibit thereto) with the Securities and Exchange Commission (and, if such security is registered on a national securities exchange, also with the exchange), and further agrees to the filing, furnishing, and/or incorporation by reference of this agreement as an exhibit thereto.",
+                "changed_text": "Pursuant to and in accordance with the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), each party agrees to joint filing only for initial filings under Section 13 or Section 16 of the Exchange Act. Amendments, restatements, supplements, and exhibits are the sole responsibility of the filing party and do not require joint action or agreement.",
+                "explanation": "The original text mandates joint filing for any filing required under Section 13 or 16, including amendments. The modified text restricts joint filing to only initial filings, making subsequent amendments the sole responsibility of the filing party. This conflicts with the potential need for ongoing joint filings to accurately reflect changes in ownership or control, as required by the SEC under the Exchange Act. This also may conflict with beneficial ownership reporting requirements.",
+                "contradicted_law": "Section 13(d) and Section 16(a) of the Securities Exchange Act of 1934 and related SEC rules",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Date: April 7, 2020 BANK OF AMERICA CORPORATION\n\nBy: Ally Pecarro Name: Ally Pecarro Title: Attorney-in-fact\n\nBANC OF AMERICA PREFERRED FUNDING CORPORATION\n\nBy: Michael Jentis Name: Michael Jentis Title: Authorized Signatory",
+                "changed_text": "Date: April 7, 2020 BANK OF AMERICA CORPORATION\n\nBy: Ally Pecarro Name: Ally Pecarro Title: Intern\n\nBANC OF AMERICA PREFERRED FUNDING CORPORATION\n\nBy: Michael Jentis Name: Michael Jentis Title: Temporary Worker",
+                "explanation": "The original text lists individuals with authority to sign the agreement (Attorney-in-fact and Authorized Signatory). The modified text replaces these titles with 'Intern' and 'Temporary Worker,' which may not have the legal authority to bind the corporations to the agreement. This undermines the validity of the agreement, conflicting with corporate law requirements for authorized representatives to execute contracts on behalf of a company. This also possibly violates securities laws requiring accurate and truthful representation of signing authority.",
+                "contradicted_law": "State corporate law regarding authorized signatures and SEC rules regarding truthful representation in filings",
+                "location": "Signature Block"
+            }
+        ]
+    }
+]

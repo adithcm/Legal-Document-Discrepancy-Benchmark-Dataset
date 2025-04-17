@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_MaintenanceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(a) Vendor shall submit annual participation plans in the form set forth at http://www.attsuppliers.com no later than the Effective Date and by December 31 of each calendar year thereafter, establishing Vendor's goals for the upcoming reporting period for participation by minority owned business enterprises (\"MBE\"), women owned business enterprises (\"WBE\") and disabled veteran owned business enterprises (\"DVBE\"), with \"participation\" expressed as a percentage of aggregate estimated annual purchases by AT&T for the reporting period.\n(b) By the tenth day following the close of each calendar month, Vendor shall, in a format and manner acceptable to AT&T, report actual results of its efforts to meet the goals set forth in the applicable participation plan during the preceding calendar month. When reporting results, Vendor shall count only expenditures with entities that are certified as MBE, WBE, or DVBE firms by third party certifying agencies recognized by AT&T, as listed on http://www.attsuppliers.com.",
+                "changed_text": "(a) Vendor shall submit annual participation plans establishing Vendor's goals for participation by business enterprises.",
+                "explanation": "This change removes the specific requirement to prioritize and report on the participation of minority, women, and disabled veteran-owned business enterprises (MBE, WBE, DVBE). Many jurisdictions (including federal contracts) have specific requirements or preferences for utilizing such businesses. Removing this requirement makes the contract potentially non-compliant with those regulations.",
+                "contradicted_law": "Small Business Act, Executive Order 11625, and similar state and local laws promoting MBE/WBE/DVBE participation in government contracts.",
+                "location": "Section 3.43"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Vendor will provide, at no additional cost to AT&T, full and complete technical assistance to AT&T for the Material and Services provisioned under this Agreement, including ongoing technical support and field service and assistance, and telephone assistance to assist with installation, operation, maintenance and problem resolution as set forth in the terms of the Maintenance Addendum. The availability or performance of this technical support will not be construed as altering or affecting Vendor's obligations as set forth in the \"Warranty\" Section or as provided elsewhere in this Agreement. Field Service and technical support, including emergency support (service affecting), will be available on call twenty-four (24) hours a day. Vendor will provide to AT&T, and keep current, an escalation document that includes names, titles and telephone numbers, including after-hours telephone numbers, of Vendor personnel responsible for providing technical support to AT&T. Vendor will maintain a streamlined escalation process to speed resolution of reported problems.",
+                "changed_text": "Vendor will provide technical assistance to AT&T for the Material and Services provisioned under this Agreement, as set forth in the terms of the Maintenance Addendum. The availability or performance of this technical support will not be construed as altering or affecting Vendor's obligations as set forth in the \"Warranty\" Section or as provided elsewhere in this Agreement.",
+                "explanation": "This change removes the guarantee of 'full and complete' technical assistance at 'no additional cost', and the specific requirements for 24/7 emergency support, escalation documents, and a streamlined escalation process. These are important components of service level agreements (SLAs). Their omission weakens the support commitment and could violate implied warranty of merchantability if the product is not reasonably supported.",
+                "contradicted_law": "Implied Warranty of Merchantability (UCC § 2-314) - in some jurisdictions, adequate support is required for a product to be considered merchantable.",
+                "location": "Section 4.23"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "4.26 Business Continuity Plan. Vendor shall maintain and upon AT&T's request, promptly furnish to AT&T Supplier's Business Continuity Plan that complies with the requirements set forth in Appendix F - Business Continuity Plan Requirements (BCPR) available at http://attsuppliers.com/downloads/Business-Continuity- Plan-Requirements-BCPR.pdf, and incorporated herein by reference, which may be changed from time to time by AT&T.",
+                "changed_text": "4.26 Business Continuity Plan. Vendor shall maintain a Business Continuity Plan.",
+                "explanation": "This change omits the requirement that the Business Continuity Plan (BCP) comply with AT&T's specific requirements (BCPR) as detailed in Appendix F. For critical infrastructure services, a robust BCP is often legally mandated or a contractual necessity to ensure service availability in the event of a disruption. By removing the compliance requirement, the contract creates a loophole that could lead to inadequate business continuity measures, violating regulatory expectations.",
+                "contradicted_law": "NERC Reliability Standards (for power grid related services, if applicable), HIPAA (if dealing with healthcare data), and other regulations requiring robust disaster recovery and business continuity planning.",
+                "location": "Section 4.26"
+            }
+        ]
+    }
+]

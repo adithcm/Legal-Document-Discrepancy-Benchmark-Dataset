@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TURNKEYCAPITAL,INC_07_20_2017-EX-1.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of Florida. Any disputes arising under or in connection with the validity, interpretation and performance of this Agreement that cannot be resolved amicably by the parties shall be settled in arbitration before a single arbitrator. If arbitration fails to render a mutually agreement resolution the Courts of the State of Florida will be deemed to have jurisdiction. In addition to all other remedies provided in this Agreement, the prevailing party shall be entitled to all costs and expenses reasonably incurred as a result of said breach, including arbitration and court costs, and reasonable attorney's fees.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of Florida. Any disputes arising under or in connection with the validity, interpretation and performance of this Agreement that cannot be resolved amicably by the parties may be settled in arbitration before a single arbitrator. If arbitration fails to render a mutually agreement resolution the Courts of the State of Florida will be deemed to have jurisdiction. In addition to all other remedies provided in this Agreement, the prevailing party shall be entitled to all costs and expenses reasonably incurred as a result of said breach, including arbitration and court costs, and reasonable attorney's fees.",
+                "explanation": "By changing 'shall' to 'may' regarding arbitration, the mandatory nature of arbitration is removed, creating ambiguity and reducing enforceability. It now suggests arbitration is optional, which could contradict Florida law requirements for clear dispute resolution clauses.",
+                "contradicted_law": "Florida law regarding contract enforceability and dispute resolution clarity",
+                "location": "10.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Each party (\"the Defaulting party\") shall indemnify the other party (\"the Innocent party\") and keep the Innocent Party indemnified and harmless from and against any claims brought against the Innocent Party as a result of any acts or omissions of the Defaulting Party, whether such acts or omissions relate to the Defaulting Party's tasks under this Agreement or not. The Defaulting Party's liability under this provision shall extend to legal fees and to court and/or arbitration expenses, as the case may be as well as any other expenses incurred by the Innocent Party in the course of defending and/or handling and/or settling such claim.",
+                "changed_text": "Each party (\"the Defaulting party\") shall indemnify the other party (\"the Innocent party\") and keep the Innocent Party indemnified and harmless from and against any claims brought against the Innocent Party as a result of any acts or omissions of the Defaulting Party, whether such acts or omissions relate to the Defaulting Party's tasks under this Agreement or not. The Defaulting Party's liability under this provision shall extend to legal fees and to court and/or arbitration expenses, as the case may be as well as any other expenses incurred by the Innocent Party in the course of defending and/or handling and/or settling such claim. However, this indemnification is limited to the funds available to the Defaulting party at the time the claim arises.",
+                "explanation": "Adding the phrase 'However, this indemnification is limited to the funds available to the Defaulting party at the time the claim arises' introduces a significant limitation on the indemnification clause. This creates a contradiction because, while the initial part of the clause promises full indemnification, the added sentence caps the liability, making the protection less effective. This contradicts the initial commitment of full indemnification and introduces uncertainty about the actual extent of protection.",
+                "contradicted_law": "General contract law principles regarding clear and unambiguous indemnification clauses.",
+                "location": "8.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "TKCI will have First Right of Refusal with regard to any sale or disposition of any part or the whole of companies or projects developed in relationship with this alliance.",
+                "changed_text": "TKCI will have First Right of Refusal with regard to any sale or disposition of any part or the whole of companies or projects developed in relationship with this alliance, unless SIC deems such sale or disposition to be in its best interest.",
+                "explanation": "Adding the clause 'unless SIC deems such sale or disposition to be in its best interest' severely undermines TKCI's First Right of Refusal. This makes the right conditional and gives SIC unilateral power to negate it, creating a legal contradiction. The initial right becomes illusory as SIC can simply claim any sale is in its best interest, thus eliminating TKCI's right.",
+                "contradicted_law": "Contract law principles regarding illusory promises and the enforceability of rights.",
+                "location": "9.5"
+            }
+        ]
+    }
+]

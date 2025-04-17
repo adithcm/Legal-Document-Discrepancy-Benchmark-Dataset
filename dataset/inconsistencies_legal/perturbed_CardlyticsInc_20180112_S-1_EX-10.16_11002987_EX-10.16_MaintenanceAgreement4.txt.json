@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement4.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+                "changed_text": "The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 36 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+                "explanation": "Changing the renewal period to 36 months (3 years) may conflict with state laws regarding automatic renewal clauses, which often require specific disclosures and consent for renewals exceeding 12 months to protect businesses from evergreen contracts. Some states have laws about how long a service can automatically renew for.",
+                "contradicted_law": "State Laws Regarding Automatic Renewal Clauses (e.g., California Business and Professions Code Section 17600 et seq.)",
+                "location": "Schedule A, Section C"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If Bank of America terminates the Maintenance Services, Bank of America shall have the right to reinstate the Maintenance Services without paying any reinstatement fee.",
+                "changed_text": "If Bank of America terminates the Maintenance Services, Bank of America may reinstate the Maintenance Services, subject to a reinstatement fee of $[***] plus all accrued interest and penalties.",
+                "explanation": "Introducing a reinstatement fee after termination could be problematic under certain consumer protection laws or fair business practice regulations, especially if the original agreement didn't clearly outline such a fee. It may also conflict with the implied duty of good faith and fair dealing, depending on the reasons for termination.",
+                "contradicted_law": "Implied Duty of Good Faith and Fair Dealing; potential violation of consumer protection statutes.",
+                "location": "Schedule A, Section C"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, including Bank of America holidays.",
+                "changed_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be eight (8) hours per day, five (5) days per week, excluding Bank of America holidays.",
+                "explanation": "Reducing the maintenance availability could be considered a material breach if it significantly diminishes the value of the services provided. It could also violate implied warranties of merchantability or fitness for a particular purpose, depending on the nature of the software and its intended use. Diminishes value and doesn't give Bank of America 24/7 use of the product.",
+                "contradicted_law": "Breach of Contract (Material Breach); Implied Warranties (Uniform Commercial Code)",
+                "location": "PAYMENT TERMS section under 'Maintenance Period'"
+            }
+        ]
+    }
+]

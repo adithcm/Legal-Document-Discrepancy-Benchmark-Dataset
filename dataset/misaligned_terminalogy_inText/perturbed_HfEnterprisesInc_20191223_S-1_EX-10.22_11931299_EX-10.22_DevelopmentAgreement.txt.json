@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Developer shall be fully liable, without limitation, for money damages resulting from its improper or unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements, or resulting from its failure to provide functional and merchantable Improvements hereunder, which failure shall be deemed a material breach of this Agreement by Developer.",
+                "changed_text": "The Software Provider might be responsible for some monetary losses if it misuses, changes, licenses, or gives away the Technology or Improvements without permission. Also, if the Software Provider doesn't deliver Improvements that work well and can be sold, it's considered a serious violation of this Agreement by the Software Provider.",
+                "explanation": "The terms 'Developer' and 'Software Provider' are used interchangeably without definition, creating ambiguity about who is liable. Additionally, replacing 'shall be fully liable, without limitation' with 'might be responsible for some monetary losses' significantly weakens the enforceability of the clause.",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Subject to Developer's expressly granted rights under this Agreement, Developer acknowledges and agrees that DSS shall own all right, title, and interest in and to the Technology, the Improvements, its Intellectual Property, and all future derivative works derived therefrom or developed hereunder.",
+                "changed_text": "Given the rights the Application Builder has in this agreement, the Application Builder knows and agrees that DSS owns everything related to the Technology, the Enhancements, its Ideas, and anything new that comes from them.",
+                "explanation": "The terms 'Developer' and 'Application Builder', 'Improvements' and 'Enhancements', and 'Intellectual Property' and 'Ideas' are used interchangeably without clear definitions, creating ambiguity regarding ownership and rights. This can lead to disputes about what exactly DSS owns.",
+                "location": "Section 3.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "All notices sent under this Agreement shall be in writing and shall be deemed effectively given (i) upon personal delivery to the party to be notified; (ii) when sent by e-mail PDF or confirmed facsimile, if sent during normal business hours of the recipient, if not, then on the next business day; (iii) three (3) days after having been sent by registered or certified mail, return receipt requested, postage prepaid; or (iv) two (2) days after deposit with an internationally recognized overnight courier, specifying two (2) day delivery, with written verification of receipt.",
+                "changed_text": "Every communication about this Deal must be written down. It's considered officially delivered (i) when handed over in person to the intended company; (ii) when sent via electronic mail or fax during regular working hours; (iii) three working days after being sent by certified mail or (iv) two working days after being sent by a well-known express delivery company.",
+                "explanation": "Using 'notices' vs 'communication,' 'Agreement' vs 'Deal,' 'party to be notified' vs 'intended company' introduces inconsistency. Switching from 'registered or certified mail, return receipt requested, postage prepaid' to 'certified mail' leaves out critical details for validating notice. The addition of the word 'working' for the mail options also shifts the agreement.",
+                "location": "Section 9.8"
+            }
+        ]
+    }
+]

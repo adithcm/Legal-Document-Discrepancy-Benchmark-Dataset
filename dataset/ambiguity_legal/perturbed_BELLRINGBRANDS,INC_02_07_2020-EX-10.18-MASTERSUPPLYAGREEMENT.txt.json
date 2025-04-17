@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BELLRINGBRANDS,INC_02_07_2020-EX-10.18-MASTERSUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Supplier will comply with all applicable laws addressing the working requirements and conditions for child workers.",
+                "changed_text": "Supplier will attempt to comply with applicable laws addressing the working requirements and conditions for child workers.",
+                "explanation": "Changing 'will comply' to 'will attempt to comply' weakens the obligation, making it ambiguous whether the supplier is fully committed to adhering to child labor laws. This introduces a level of discretion that may contradict the strict requirements of labor laws designed to protect children, such as the Fair Labor Standards Act (FLSA) in the United States, which mandates specific protections for child laborers.",
+                "contradicted_law": "Fair Labor Standards Act (FLSA)",
+                "location": "17.3"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each Party will hold in strict confidence and keep confidential all Confidential Information disclosed to it by the other. The Parties will use at least the same degree of care to avoid publication or dissemination of such Confidential Information as it uses with respect to similarly confidential information of its own, but in no event less than reasonable care.",
+                "changed_text": "Each Party will endeavor to hold Confidential Information in confidence. The Parties will use a degree of care they deem appropriate to avoid publication or dissemination of such Confidential Information.",
+                "explanation": "This change weakens the obligation to protect confidential information. Replacing 'will hold in strict confidence' with 'will endeavor to hold Confidential Information in confidence' introduces uncertainty. Also, replacing the standard of care 'at least the same degree of care...but in no event less than reasonable care' with 'a degree of care they deem appropriate' makes the protection of confidential information subjective and discretionary. This ambiguity can violate the Defend Trade Secrets Act (DTSA), which requires reasonable measures to protect trade secrets. What one party 'deems appropriate' might not meet the legal threshold of 'reasonable measures'.",
+                "contradicted_law": "Defend Trade Secrets Act (DTSA)",
+                "location": "5.1"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Supplier shall provide workers with clean, safe and healthy work environments; recognize and respect the right of employees to free association and collective bargaining in accordance with law; comply with all applicable wage and hour laws; and properly verify the employment eligibility of its employees.",
+                "changed_text": "Supplier should consider providing workers with reasonably clean, safe and healthy work environments; acknowledge the theoretical right of employees to free association and collective bargaining; strive to adhere to wage and hour laws; and occasionally verify the employment eligibility of its employees.",
+                "explanation": "This modification weakens the supplier's commitment to fair labor practices. Changing 'shall provide' to 'should consider providing', 'recognize and respect' to 'acknowledge the theoretical right', 'comply with all applicable wage and hour laws' to 'strive to adhere to wage and hour laws', and 'properly verify' to 'occasionally verify' significantly reduces the enforceability of these obligations. This creates ambiguity around the supplier's responsibility to maintain basic labor standards and could violate the National Labor Relations Act (NLRA) if the 'theoretical right' is not supported by actual practices.",
+                "contradicted_law": "National Labor Relations Act (NLRA)",
+                "location": "17.1"
+            }
+        ]
+    }
+]

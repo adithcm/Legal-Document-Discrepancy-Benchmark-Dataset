@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Contractor and Customer agree to terms of payments of current plus thirty (30) days from the date of invoice.",
+                "changed_text": "Contractor and Customer agree to terms of payments of current plus ninety (90) days from the date of invoice.",
+                "explanation": "The original text states payment terms of net 30 days. Many jurisdictions, especially for small businesses, have laws promoting faster payment terms. Increasing this to net 90 could be considered an unreasonable delay in payment, especially if it deviates significantly from industry norms and potentially violates prompt payment laws designed to protect suppliers.",
+                "contradicted_law": "Prompt Payment Laws (varies by jurisdiction but aims to ensure timely payment to vendors and subcontractors).",
+                "location": "Section 14.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the defaulting party fails to cure such default or submit an acceptable written plan to resolve such default within thirty (30) days following notice of default, the non-defaulting party shall have the right to terminate this Agreement by furnishing the defaulting party with sixty (60) days written notice of termination.",
+                "changed_text": "If the defaulting party fails to cure such default or submit an acceptable written plan to resolve such default within ten (10) days following notice of default, the non-defaulting party shall have the right to terminate this Agreement immediately.",
+                "explanation": "The original text provides a 30-day cure period and a 60-day notice period for termination. Reducing the cure period to 10 days and eliminating the notice period introduces a legal contradiction. Many jurisdictions require reasonable cure periods and notice before termination to ensure fairness and prevent unjust enrichment. An immediate termination clause after only 10 days might be deemed unconscionable or a breach of good faith and fair dealing, particularly in a complex manufacturing agreement.",
+                "contradicted_law": "Breach of Contract Laws, Good Faith and Fair Dealing requirements (common law principles).",
+                "location": "Section 15.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Contractor and the Customer will not be allowed to employ employees of the other party, directly or indirectly, for one (1) year from the date the employee has ceased to be employed by the other party.",
+                "changed_text": "The Contractor and the Customer will not be allowed to employ employees of the other party, directly or indirectly, for five (5) years from the date the employee has ceased to be employed by the other party.",
+                "explanation": "The original text imposes a one-year non-solicitation period. Extending this to five years creates a legal contradiction. Many jurisdictions have laws that restrict the duration of non-compete and non-solicitation agreements to prevent undue restrictions on an individual's ability to earn a living. A five-year restriction might be considered unreasonable and unenforceable, particularly if it is not narrowly tailored to protect legitimate business interests or if it is unduly burdensome on the former employee. Israel courts are quite wary of long non compete times.",
+                "contradicted_law": "Non-Compete and Non-Solicitation Agreement Laws (varies by jurisdiction, but often limits the duration and scope of such agreements).",
+                "location": "Section 20.1"
+            }
+        ]
+    }
+]

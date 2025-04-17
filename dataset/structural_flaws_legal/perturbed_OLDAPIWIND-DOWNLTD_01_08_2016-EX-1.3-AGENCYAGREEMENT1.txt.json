@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OLDAPIWIND-DOWNLTD_01_08_2016-EX-1.3-AGENCYAGREEMENT1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in accordance with the laws of the Province of Ontario and the federal laws of Canada applicable in the Province of Ontario.",
+                "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of a jurisdiction to be determined by mutual agreement between the Agents and the Corporation.",
+                "explanation": "The original clause specifies Ontario law. The modified clause introduces ambiguity and potential unenforceability by making the governing law subject to future agreement. This contradicts the need for a clear and defined jurisdiction from the outset, which is vital for contract enforcement. The original clause provides certainty, while the modified clause introduces potential disputes over which laws apply.",
+                "contradicted_law": "General principles of contract law requiring certainty and clarity in governing law clauses.",
+                "location": "Section 20"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In consideration for the Agents' services hereunder, the Corporation will pay to the Agents the Agents' Fee and the Corporation shall issue to the Agents that number of Compensation Options equal to 3.5% of the number of Offered Shares sold pursuant to the Offering. Unless otherwise stated herein, the Offered Shares shall also refer to the Compensation Options.",
+                "changed_text": "In consideration for the Agents' services hereunder, the Corporation *may* pay to the Agents the Agents' Fee and the Corporation *may* issue to the Agents that number of Compensation Options equal to 3.5% of the number of Offered Shares sold pursuant to the Offering. Unless otherwise stated herein, the Offered Shares shall also refer to the Compensation Options.",
+                "explanation": "The original clause clearly states the compensation to be paid to the agents with the word 'will', making it a mandatory part of the agreement. The modified clause uses the term 'may', introducing ambiguity and potentially voiding the compensation clause. The uncertainty in the agent's compensation directly impacts the enforceability of the entire agreement. ",
+                "contradicted_law": "General principles of contract law requiring certainty in financial consideration clauses.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Agents agree to obtain from each Subscriber executed Subscription Agreements (including the execution of applicable Schedules to such Subscription Agreements) and deliver such Subscription Agreements (including applicable Schedules) to the Corporation at or prior to the Closing Time.",
+                "changed_text": "The Agents agree to *attempt* to obtain from each Subscriber executed Subscription Agreements (including the execution of applicable Schedules to such Subscription Agreements) and deliver such Subscription Agreements (including applicable Schedules) to the Corporation at or prior to the Closing Time.",
+                "explanation": "The original text specifies that agents 'agree to obtain' subscription agreements, which is a condition to the deal. Modifying to 'attempt' weakens this obligation, reducing the enforceability, it shifts the standard from an obligation to only a best-effort. This introduces uncertainty and lowers the agents accountability of making reasonable effort.",
+                "contradicted_law": "General contract law principles regarding the importance of clear obligations and conditions.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

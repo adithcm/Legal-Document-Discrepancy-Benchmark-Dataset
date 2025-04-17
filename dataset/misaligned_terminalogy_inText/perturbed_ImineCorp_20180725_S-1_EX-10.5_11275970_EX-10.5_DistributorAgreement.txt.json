@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.7 \"Products\" shall mean the products offered by JRVS for sale to the Distributor; the Products shall include iMine cryptocurrency mining rigs and its parts and components.",
+                "changed_text": "1.7 \"Products\" shall mean the products offered by JRVS for sale to the Distributor; the Items shall include iMine cryptocurrency mining rigs and its parts and components.",
+                "explanation": "The term 'Products' is a key defined term. Changing it to 'Items' in the definition itself introduces immediate contradiction and makes it unclear what the scope of the agreement covers.",
+                "location": "Section 1.7"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "7.1 Packing and Shipping. All Products to the Distributor shall be packaged in JRVS's standard containers, or, at the Distributor's expense, in accordance with instructions provided by the Distributor, and shall be shipped to the Distributor's address set forth above, or to an address specified in the purchase order. Unless otherwise agreed, shipment shall conform to JRVS's standard shipping procedures, or such terms as both shall agree. Title and risk of loss shall pass to the Distributor at the Delivery Point. All customs duties, freight, insurance and other shipping expenses from the Delivery Point, as well as any other special packing expenses requested by the Distributor, shall be borne by the Distributor. The Distributor agrees to satisfy all import formalities pertaining to shipment of units of the Product to destinations outside the United States.",
+                "changed_text": "7.1 Packing and Shipping. All Products to the recipient shall be packaged in JRVS's standard containers, or, at the recipient's expense, in accordance with instructions provided by the recipient, and shall be shipped to the recipient's address set forth above, or to an address specified in the purchase order. Unless otherwise agreed, shipment shall conform to JRVS's standard shipping procedures, or such terms as both shall agree. Title and risk of loss shall pass to the recipient at the Delivery Point. All customs duties, freight, insurance and other shipping expenses from the Delivery Point, as well as any other special packing expenses requested by the recipient, shall be borne by the recipient. The recipient agrees to satisfy all import formalities pertaining to shipment of units of the product to destinations outside the United States.",
+                "explanation": "Changing 'Distributor' to 'recipient' creates confusion regarding who is responsible for shipping costs, import formalities, and who receives the product. The contract defines distributor previously, but not recipient. This could be interpreted as anyone receiving the goods, removing obligation from the defined distributor. This contradicts the defined role of the Distributor in Section 2.1.",
+                "location": "Section 7.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS. 10.2 Warranty Period. JRVS shall NOT provide a warranty of any kind for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor. 10.3 No Other Warranty. EXCEPT AS EXPRESSLY PROVIDED IN THIS SECTION 10, JRVS PROVIDES NO WARRANTY, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, AND SPECIFICALLY DISCLAIMS ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE PRODUCT AND DOCUMENTATION.",
+                "changed_text": "10.1 Sole Guarantee. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE items SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE vendor OR CUSTOMERS. 10.2 Guarantee Period. JRVS shall NOT provide a warranty of any kind for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the client. 10.3 No Other Guarantee. EXCEPT AS EXPRESSLY PROVIDED IN THIS SECTION 10, JRVS PROVIDES NO WARRANTY, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, AND SPECIFICALLY DISCLAIMS ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE PRODUCT AND DOCUMENTATION.",
+                "explanation": "Replacing 'Warranty' with 'Guarantee', 'Distributor' with 'vendor'/'client', and 'Products' with 'items' creates multiple layers of confusion. 'Guarantee' is not defined, so it is unclear if it has the same meaning as warranty. By using 'vendor' and 'client' interchangeably with 'Distributor,' it becomes unclear who is bound by the warranty terms. Plus, replacing 'Products' with 'items' and not changing it back causes a contradiction of which product should be in question.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

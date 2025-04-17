@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CCAINDUSTRIESINC_04_14_2014-EX-10.1-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Service Fees shall be paid to Contractor within five (5) days after the end of each month.",
+                "changed_text": "Service Fees shall be paid to Contractor within forty-five (45) days after the end of each month.",
+                "explanation": "Many states have laws regarding prompt payment to contractors and subcontractors. While the exact requirements vary, extending the payment period to 45 days could violate state laws that mandate shorter payment timelines, potentially leading to legal disputes and penalties.",
+                "contradicted_law": "State Prompt Payment Acts (e.g., for subcontractors)",
+                "location": "Section 4.01"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the Term of this agreement, and for a period of twenty four (24)months after Termination (the \"Withholding Period\"), Contractor may retain monies (collections in Accounts Receivable) against any reasonable anticipated deductions for product recalls, unsalables, rebates, allowances or any audits or other adjustments it deems necessary.",
+                "changed_text": "During the Term of this agreement, and indefinitely after Termination (the \"Withholding Period\"), Contractor may retain monies (collections in Accounts Receivable) against any anticipated deductions. The retention of monies shall only be to the extent that the anticipated deductions are perceived necessary by Contractor.",
+                "explanation": "This change introduces significant legal concerns. First, the 'indefinitely' term contradicts the statute of limitations laws, varying among the states, which put a cap on legal proceedings to recover debts. Second, the term that 'deductions are perceived necessary by Contractor' grants the contractor unilateral power to decide on deductions without proper justification, which could violate contractual law principles of good faith and fair dealing.",
+                "contradicted_law": "Statute of Limitations (Contract Law) and Contractual Good Faith Principles",
+                "location": "Section 4.03"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party hereto may terminate this Agreement after the Initial Period upon at least six (6) months' prior written notice to the other party thereof. The Company may terminate this Agreement in accordance with the immediately preceding sentence but with less than six (6) months' prior written notice to Contractor; provided, that in such event, the Company shall pay Contractor an amount equal to the Termination Fee.",
+                "changed_text": "Either party hereto may terminate this Agreement at any time with no prior written notice to the other party thereof. The Company may terminate this Agreement at any time with no prior written notice to Contractor and without penalty.",
+                "explanation": "Eliminating the notice period and termination fee for the Company introduces a contradiction with contract law principles of good faith and fair dealing, particularly if the Contractor has made substantial investments in reliance on the agreement. This could also be construed as an unconscionable clause, especially if there's a significant power imbalance between the parties.",
+                "contradicted_law": "Contractual Good Faith Principles and Unconscionability Doctrine",
+                "location": "Section 8.01(d)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ELECTRAMECCANICAVEHICLESCORP.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All disputes arising out of or in connection with this contract, or in respect of any defined legal relationship associated therewith or derived therefrom, shall be referred to and finally resolved by administered by the Hong Kong International Arbitration Centre (HKIAC) under the UNCITRAL Arbitration Rules in force when the Notice of Arbitration is submitted, as modified by the HKIAC Procedures for the Administration of International Arbitration. The place of arbitration shall be Hong Kong.This Agreement shall be governed by and construed under the laws of Hong Kong without regard to choice of laws principles. The language of arbitration shall be English",
+                "changed_text": "All disputes arising out of or in connection with this contract shall be resolved via a method agreed upon by both parties. This Agreement shall be governed by and construed under the laws of Hong Kong without regard to choice of laws principles. The language of any dispute resolution process shall be determined by mutual agreement.",
+                "explanation": "Moving the arbitration clause into a vague agreement section and changing the terms removes the mandatory arbitration previously required, directly contradicting the intent for binding arbitration and potentially violating standard practices for dispute resolution clarity. Now it just says the method will be agreed upon later and the language will be as well, making it unenforceable.",
+                "contradicted_law": "UNCITRAL Arbitration Rules; Hong Kong Arbitration Ordinance",
+                "location": "10.4 Arbitration and Governing Law"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Manufacturer will comply with all applicable laws, restrictions and regulations in the Peoples Republic of China. EMV will comply with all applicable laws, restrictions and regulations in Canada.",
+                "changed_text": "Manufacturer will endeavor to comply with laws in the Peoples Republic of China as reasonably practical. EMV will consider compliance with regulations in Canada when feasible.",
+                "explanation": "Replacing 'comply' with softer language such as 'endeavor to comply' and 'consider compliance when feasible' significantly weakens the obligation to adhere to local laws. This creates ambiguity and makes it difficult to enforce legal compliance, especially considering the mandatory nature of laws and regulations.",
+                "contradicted_law": "Various laws and regulations in China and Canada",
+                "location": "10.3 Compliance with Local Laws"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Manufacturer shall promptly replace or repair, at its sole expense, any defective Products arising from the assembly or manufacturing by the Manufacturer due to failure of the set Standard and Specification within the Product Warranty Period, including without limitations related shipping expenses. The replacement parts are preferred to be shipped by vessel together with the next shipment of mass production order. Shipment by air will be confirmed by both parties in emergency case.",
+                "changed_text": "The Manufacturer may consider replacing or repairing defective Products, subject to mutual agreement on expenses, if defects arise due to manufacturing failures within a vaguely defined 'reasonable' timeframe. Replacement parts will ideally be shipped by vessel, and air shipment options are subject to further negotiation.",
+                "explanation": "This change introduces considerable ambiguity and weakens the warranty obligation. Terms like 'may consider,' 'subject to mutual agreement on expenses,' and 'vaguely defined 'reasonable' timeframe' replace clear obligations, making it much harder for EMV to enforce the warranty and ensure defective products are promptly addressed. Shipping is also subject to further negotiations instead of being covered.",
+                "contradicted_law": "Potentially Chinese Consumer Law and Contract Law regarding warranties",
+                "location": "5.6 Inspection and Claim"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PRECIGEN,INC_01_22_2020-EX-99.1-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Additional Reporting Person (a): Merck Serono SA Address: Zone Industrielle 1267 Coinsins, Switzerland Additional Reporting Person (b): Merck KGaA Address: Frankfurter Str. 250 64293 Darmstadt, Germany Designated Filer: Ares Trading SA Issuer and CUSIP: Intrexon Corporation (46122T102) Dated: January 7, 2019",
+                "changed_text": "Additional Reporting Person (a): Merck Serono SA Address: Zone Industrielle 1267 Coinsins, Switzerland. Payment for services rendered by Merck Serono SA must be completed within 30 days of invoice. Additional Reporting Person (b): Merck KGaA Address: Frankfurter Str. 250 64293 Darmstadt, Germany. Payment for services rendered by Merck KGaA can be completed within 60 days of invoice. Designated Filer: Ares Trading SA Issuer and CUSIP: Intrexon Corporation (46122T102) Dated: January 7, 2019",
+                "explanation": "This change introduces conflicting payment terms. One party, Merck Serono SA, has a 30-day payment deadline, while the other, Merck KGaA, has a 60-day deadline. This creates uncertainty and potential disputes over which payment term applies, introducing legal ambiguity.",
+                "location": "Beginning of Document"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "ARES TRADING SA ARES TRADING SA By: /s/ Cédric Hyde By: /s/ Luigia Bocola Name: Cédric Hyde Name: Luigia Bocola Title: CFO Title: Finance Manager",
+                "changed_text": "ARES TRADING SA ARES TRADING SA By: /s/ Cédric Hyde By: /s/ Luigia Bocola Name: Cédric Hyde Name: Luigia Bocola Title: CFO Title: Finance Manager. Payment terms for Ares Trading SA are net 45 days. However, should Ares Trading SA fail to meet its obligations under this agreement, payment will be immediately withheld.",
+                "explanation": "This change introduces a contradiction. It states 'Payment terms for Ares Trading SA are net 45 days' but immediately contradicts this by saying payment will be 'immediately withheld' if they fail to meet obligations. This creates ambiguity about the actual payment terms.",
+                "location": "Following Signature Block for Ares Trading SA"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "MERCK KGAA, DARMSTADT, GERMANY MERCK KGAA, DARMSTADT, GERMANY By: /s/ Rando Bruns By: /s/ Tim Nielsen Name: Rando Bruns Name: Tim Nielsen Title: Head of Treasury Title: Head of Capital Markets",
+                "changed_text": "MERCK KGAA, DARMSTADT, GERMANY MERCK KGAA, DARMSTADT, GERMANY By: /s/ Rando Bruns By: /s/ Tim Nielsen Name: Rando Bruns Name: Tim Nielsen Title: Head of Treasury Title: Head of Capital Markets. Payment to Merck KGaA is due within 60 days unless otherwise specified. However, any discrepancies in provided documentation will immediately void this 60-day agreement and will only be fulfilled when the documentation is validated.",
+                "explanation": "This change introduces another contradiction relating to the payment deadline for Merck KGaA. It states that payments are due within 60 days 'unless otherwise specified'. However, it adds the payment is only 'fulfilled when the documentation is validated'. This clause overrides the former, generating a contradiction regarding the maximum due date.",
+                "location": "Following Signature Block for Merck KGaA"
+            }
+        ]
+    }
+]

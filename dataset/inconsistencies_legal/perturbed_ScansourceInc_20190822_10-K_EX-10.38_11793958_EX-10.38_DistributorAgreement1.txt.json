@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_DistributorAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon and subject to credit approval by Cisco, payment terms shall be [*****] days from shipping date.",
+                "changed_text": "Upon and subject to credit approval by Cisco, payment terms shall be 120 days from shipping date.",
+                "explanation": "Many small businesses would struggle with 120 day payment terms and this might violate prompt payment laws if ScanSource is considered a large business by state law. Most states have prompt payment laws requiring payment within a much shorter window (30-45 days is common).",
+                "contradicted_law": "Prompt Payment Laws (various state laws)",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor must make the initial credit request to Cisco, in writing, within [*****] of the underlying point of sale transaction. Any initial credit requests submitted by the Distributor to Cisco greater than [*****] after the underlying point of sale transaction will not be honored by Cisco and Cisco will not grant such credit to Distributor.",
+                "changed_text": "Distributor must make the initial credit request to Cisco, in writing, within 15 days of the underlying point of sale transaction. Any initial credit requests submitted by the Distributor to Cisco greater than 15 days after the underlying point of sale transaction will not be honored by Cisco and Cisco will not grant such credit to Distributor.",
+                "explanation": "This change reduces the time to make credit requests which can create conflict. Statutes of limitations for breach of contract claims can be much longer (e.g., several years). This short window could potentially conflict with legal rights to claim credits for errors or discrepancies.",
+                "contradicted_law": "Statutes of Limitations for Breach of Contract (various state laws)",
+                "location": "Section 6.7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either party may terminate this Agreement, without cause, by giving the other party [*****] days prior written notice.",
+                "changed_text": "Either party may terminate this Agreement, without cause, by giving the other party 15 days prior written notice.",
+                "explanation": "This timeline could be considered unreasonably short. Courts sometimes scrutinize termination clauses, especially if one party has made significant investments based on the contract. A 15-day notice period for a distributor agreement may be challenged as too short to allow the distributor to wind down operations, potentially violating principles of good faith and fair dealing.",
+                "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing (various state laws)",
+                "location": "Section 18.2"
+            }
+        ]
+    }
+]

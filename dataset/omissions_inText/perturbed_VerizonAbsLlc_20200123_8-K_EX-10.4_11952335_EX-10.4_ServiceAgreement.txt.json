@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "For any acquisition of a Receivable by the Servicer under this Section 3.3, the Servicer will acquire the Receivable by remitting the related Acquisition Amount on or prior to the second Business Day before the Payment Date related to the Collection Period in which such Receivable was acquired by the Servicer. If Cellco is the Servicer, it may pay any Acquisition Amounts according to Section 4.3(c).",
+                "changed_text": "For any acquisition of a Receivable by the Servicer under this Section 3.3, the Servicer will acquire the Receivable. The timing of such acquisition will be at the discretion of the Servicer.",
+                "explanation": "This introduces a contradiction because Section 3.3 originally specified the time and method of Acquisition Amount remittance, but in Section 4.3(c) Cellco was granted permission to pay these amounts according to a different section, adding a layer of complexity in enforcement and increasing uncertainty about the actual process",
+                "location": "Section 3.3(d)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Within ten (10) days following the earlier to occur of (i) a ratings downgrade by each of the Rating Agencies of Verizon to below investment grade, or (ii) a Servicer Termination Event, the Servicer will send a notice to all Obligors indicating (a) that their Receivables have been assigned to the Issuer, and (b)(x) if Cellco has not been removed as Servicer, that the Obligors shall continue to make their payments as they had previously, or (y) if Cellco has been removed as Servicer, the name of the Successor Servicer and any new instructions with respect to their payments. In addition, if the Servicer Termination Event was as a result of the failure of the Marketing Agent to satisfy its obligation to make, or to cause the related Originators to make, required Upgrade Payments pursuant to Section 7.2(a)(i)(y), then Cellco shall also send a notice to (i) all Obligors who have a continuing right to an upgrade, indicating that Cellco has recently failed to make the necessary prepayments with respect to one or more of its customers in connection with an Upgrade Offer, and that if any Obligor chooses to upgrade and Cellco fails to make the related Upgrade Payment with respect to them, such Obligor will still be required to make payments on his or her original device payment plan agreement, but that such Obligor will have a corresponding recoupment right against his or her new device payment plan agreement with Verizon Wireless, and (ii) all Obligors who had initiated upgrades under an Upgrade Offer, indicating that Cellco had failed to make the relevant Upgrade Payment, and stating that such Obligors will continue to have an obligation to make payments on their original device payment plan agreements, but will have a corresponding right of recoupment against their new device payment plan agreements with Verizon Wireless.",
+                "changed_text": "Following a ratings downgrade by each of the Rating Agencies of Verizon to below investment grade or a Servicer Termination Event, the Servicer may send a notice to all Obligors. If such notice is sent, it will provide instructions with respect to their payments.",
+                "explanation": "This removes Cellco's specific obligation to send a more detailed notice regarding recoupment rights if the Servicer Termination Event is due to the Marketing Agent failing to make required Upgrade Payments. While the Servicer is still permitted to send a notice, there’s now a contradiction between Sections 3.12(b) and 3.13, which reference Obligor recoupment rights. The Obligors are given no clear understanding of their financial rights and obligations during such transitions, creating an in-text contradiction.",
+                "location": "Section 3.13"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "As compensation for performing its obligations under this Agreement, the Servicer will be paid the Servicing Fee. On each Payment Date, the Issuer will pay the Servicing Fee to the Servicer according to Section 8.2 of the Indenture. In addition, the Servicer may retain any Supplemental Servicing Fees. The Servicer will also receive the Temporarily Excluded Receivables Servicing Fee on each Payment Date, which will be payable solely from Collections on the Temporarily Excluded Receivables, as set forth in Section 3.5(b).",
+                "changed_text": "As compensation for performing its obligations under this Agreement, the Servicer will be paid the Servicing Fee. The Servicer may also receive fees as the Issuer deems appropriate.",
+                "explanation": "This removes the defined Servicing Fee and references to the Supplemental Servicing Fees and Temporarily Excluded Receivables Servicing Fee, creating ambiguity about Servicer compensation. This omission now stands in contradiction to Section 8.2 of the Indenture, which specifies how the Servicing Fee is to be paid. The phrase, 'the Issuer deems appropriate' has no defined meaning in the contract. This generates significant ambiguity, and could lead to severe and unexpected financial results.",
+                "location": "Section 3.8"
+            }
+        ]
+    }
+]

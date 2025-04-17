@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPOKHOLDINGS,INC_06_19_2020-EX-10.1-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(g) Governing Law; Choice of Venue. (i) This Agreement shall be governed by and construed in accordance with the internal laws of the State of Delaware applicable to agreements made and to be performed within that state. (ii) Each Party (A) consents to submit itself to the personal jurisdiction of the Court of Chancery or other federal or state courts of the State of Delaware in the event any dispute arises out of this Agreement or the transactions contemplated by this Agreement, (B) agrees that it shall not attempt to deny or defeat such personal jurisdiction by motion or other request for leave from any such court, (C) agrees that it shall not bring any action relating to this Agreement or the transactions contemplated by this Agreement in any court other than the Court of Chancery or other federal or state courts of the State of Delaware, and each Party irrevocably waives the right to trial by jury and (D) each Party irrevocably consents to service of process by a reputable overnight mail delivery service, signature requested, to the address of such Party's principal place of business or as otherwise provided by applicable law.",
+                "changed_text": "(g) Governing Law; Choice of Venue. (i) This Agreement shall be governed by and construed in accordance with the internal laws of the State of Delaware applicable to agreements made and to be performed within that state. (ii) Each Party (A) consents to submit itself to the personal jurisdiction of the Court of Chancery or other federal or state courts of the State of Delaware in the event any dispute arises out of this Agreement or the transactions contemplated by this Agreement, (B) agrees that it shall not attempt to deny or defeat such personal jurisdiction by motion or other request for leave from any such court, (C) agrees that it shall not bring any action relating to this Agreement or the transactions contemplated by this Agreement in any court other than the Court of Chancery or other federal or state courts of the State of Delaware, and each Party waives the right to trial by jury and (D) each Party consents to service of process by first class mail to the address of such Party's principal place of business or as otherwise provided by applicable law.",
+                "explanation": "Changing 'irrevocably waives the right to trial by jury' to 'waives the right to trial by jury' and 'reputable overnight mail delivery service, signature requested,' to 'first class mail' weakens the enforceability of the jurisdiction clause. The removal of 'irrevocably' suggests the waiver might be revocable, and switching to standard mail instead of requiring signature upon receipt for service of process introduces ambiguity about proof of service.",
+                "contradicted_law": "Delaware law regarding jurisdiction and service of process.",
+                "location": "Section 7(g)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(h) Reimbursement. The Company shall reimburse the White Hat Parties for their out-of-pocket expenses, including the fees and expenses of counsel, incurred in connection with their engagement with the Company, the Nominations and the negotiation of, and all matters arising under this Agreement; provided, however, that such reimbursement shall not exceed $55,000.",
+                "changed_text": "(h) Reimbursement. The Company may reimburse the White Hat Parties for some of their out-of-pocket expenses, possibly including some of the fees and expenses of counsel, incurred in connection with their engagement with the Company, the Nominations and the negotiation of, and all matters arising under this Agreement; provided, however, that such reimbursement might not exceed $55,000.",
+                "explanation": "Changing 'shall reimburse' to 'may reimburse', 'their out-of-pocket expenses' to 'some of their out-of-pocket expenses', 'including the fees and expenses of counsel' to 'possibly including some of the fees and expenses of counsel', and 'shall not exceed' to 'might not exceed', introduces ambiguity. The original language clearly obligated the Company to reimburse expenses up to $55,000. The changes make the reimbursement discretionary and uncertain, affecting the enforceability of this financial obligation.",
+                "contradicted_law": "Breach of contract regarding financial obligations.",
+                "location": "Section 7(h)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(m) Termination. Unless earlier terminated as provided in this Agreement, upon the expiration of the Support Period in accordance with Section 4, this Agreement shall immediately and automatically terminate in its entirety and no Party shall have any further rights or obligations under this Agreement; provided, however, no Party shall be released from any breach of this Agreement that occurred prior to the termination of this Agreement.",
+                "changed_text": "(m) Termination. Unless earlier terminated as provided in this Agreement, upon the expiration of the Support Period in accordance with Section 4, this Agreement shall immediately and automatically terminate in its entirety and no Party shall have any further rights or obligations under this Agreement; provided, however, that no Party shall be released from any breach of this Agreement unless both parties are in agreement.",
+                "explanation": "Adding the clause 'unless both parties are in agreement' gives the breaching party an out, contradictory to the intention of protecting the other party in the event of a breach. Now, even if a breach occurred prior to termination, it can be disregarded if both parties agree, essentially nullifying the original provision's protection.",
+                "contradicted_law": "Contract law regarding termination and breach clauses.",
+                "location": "Section 7(m)"
+            }
+        ]
+    }
+]

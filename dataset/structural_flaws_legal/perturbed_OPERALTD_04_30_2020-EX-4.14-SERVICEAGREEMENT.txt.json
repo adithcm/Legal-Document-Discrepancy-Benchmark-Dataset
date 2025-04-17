@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OPERALTD_04_30_2020-EX-4.14-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Mobimagic warrants that it will not take any action, or collect any data, which causes a breach of applicable law or PC Financial'& privacy policy and consent driven architecture.",
+                "changed_text": "Mobimagic warrants that it will not take any action that causes a breach of PC Financial’s privacy policy and consent driven architecture, without regard to applicable law.",
+                "explanation": "The removal of 'applicable law' clause and replacing it with warrants introduces a contradiction. The original clause ensures compliance with both PC Financial's privacy policy and applicable laws. The modified version only focuses on the privacy policy which can cause a legal contradiction.",
+                "contradicted_law": "Data protection and privacy laws in India, such as the Information Technology Act, 2000, and related regulations.",
+                "location": "Section 4.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The courts of New Delhi shall have exclusive jurisdiction to settle any dispute between the Parties whether arising In connection with this agreement or otherwise. In the event of any dispute with respect to the construction, execution and performance of the provisions of this Agreement, such dispute shall be settled by arbitration in accordance with the Arbitration and Conciliation Act, 1996 and rules made thereunder in force as on that date. The arbitration shall be carried out in English language and the venue/seat of arbitration shall be New Delhi. The Arbitration award shall be final and binding on the parties.",
+                "changed_text": "The courts of New Delhi shall have exclusive jurisdiction to settle any dispute between the Parties whether arising in connection with this agreement or otherwise. In the event of any dispute with respect to the construction, execution and performance of the provisions of this Agreement, such dispute shall be settled by arbitration by mutual agreement. The arbitration shall be carried out in English language.",
+                "explanation": "The restructuring of the sentence introduces contradiction—the first part states courts of New Delhi have exclusive jurisdiction, but the latter part allows for 'mutual agreement' on the arbitration resolution. This contradicts the original clause's explicit jurisdiction.",
+                "contradicted_law": "Arbitration and Conciliation Act, 1996 (India), contract law principles regarding jurisdiction and dispute resolution.",
+                "location": "Section 10.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Neither Party shall disclose the other Party's Confidential Information to any third party or use Confidential Information for any purpose other than fur the proper fulfillment of this Agreement. Each Party undertakes to safeguard the Confidential Information of the other Party with the same degree of care as it would apply to Its own Confidential Information and, in any case, with no less than reasonable care. Such obligations will survive the expiration of this Agreement for a period of five (5) years.",
+                "changed_text": "Neither Party shall disclose the other Party's Confidential Information to any third party or use Confidential Information for any purpose other than fur the proper fulfillment of this Agreement. Each Party undertakes to safeguard the Confidential Information of the other Party with the same degree of care as it would apply to Its own Confidential Information. Such obligations will survive the expiration of this Agreement for a period of one (1) year.",
+                "explanation": "Reducing the duration that confidential information cannot be shared from five years to one introduces a legal contradiction for some industries. A one year commitment in the modern business context can be an unreasonable amount of time for protecting proprietary methods and secrets.",
+                "contradicted_law": "Contract law principles regarding reasonable protection of confidential information and trade secrets; industry standards for confidentiality agreements.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

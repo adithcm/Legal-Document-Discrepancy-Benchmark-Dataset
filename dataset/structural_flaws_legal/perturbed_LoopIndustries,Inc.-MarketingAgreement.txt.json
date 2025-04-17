@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LoopIndustries,Inc.-MarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "3.1 LIMITATION OF LIABILITY. IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER UNDER THIS AGREEMENT OR OTHERWISE FOR CONSEQUENTIAL, SPECIAL, INCIDENTAL, EXEMPLARY, STATUTORY, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT. JOINT VENTURE COMPANY'S TOTAL CUMULATIVE LIABILITY TO THE LOOP PARTIES WITH RESPECT TO A TRANSFERRED CONTRACT, IN ALL CIRCUMSTANCES AND REGARDLESS OF THE THEORY OF RECOVERY, SHALL BE LIMITED TO THE AMOUNT OF ACTUAL, DIRECT, AND DOCUMENTED DAMAGES THE APPLICABLE AUTHORIZED CUSTOMER ACTUALLY RECOVERS FROM THE LOOP PARTIES UNDER THE TRANSFERRED CONTRACT BASED SOLELY ON JOINT VENTURE COMPANY'S BREACH OF SUCH TRANSFERRED CONTRACT. JOINT VENTURE COMPANY SHALL NOT HAVE ANY LIABILITY TO ANY LOOP PARTY WITH RESPECT TO ANY ELIGIBLE CONTRACT THAT DOES NOT BECOME A TRANSFERRED CONTRACT AS PROVIDED IN SECTION 2.3. NOTWITHSTANDING THE FOREGOING, NONE OF THE FOREGOING LIMITATIONS OF LIABILITY SET FORTH IN THIS SECTION 3.1 SHALL BE AVAILABLE TO EITHER PARTY WITH RESPECT TO A BREACH OF SECTION 4, CONFIDENTIAL INFORMATION, OR FOR CLAIMS TO THE EXTENT THEY ARISE OUT OF A PARTY'S GROSS NEGLIGENCE, FRAUD, OR WILLFUL MISCONDUCT.",
+                "changed_text": "7.1 Independent Contractors. The Parties are independent contractors. Nothing contained in this Agreement or done pursuant to this Agreement shall constitute either Party as the agent of the other Party for any purpose or in any sense whatsoever, or constitute the Parties as partners or joint venturers.\n\n3.1 LIMITATION OF LIABILITY. IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER UNDER THIS AGREEMENT OR OTHERWISE FOR CONSEQUENTIAL, SPECIAL, INCIDENTAL, EXEMPLARY, STATUTORY, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT. JOINT VENTURE COMPANY'S TOTAL CUMULATIVE LIABILITY TO THE LOOP PARTIES WITH RESPECT TO A TRANSFERRED CONTRACT, IN ALL CIRCUMSTANCES AND REGARDLESS OF THE THEORY OF RECOVERY, SHALL BE LIMITED TO THE AMOUNT OF ACTUAL, DIRECT, AND DOCUMENTED DAMAGES THE APPLICABLE AUTHORIZED CUSTOMER ACTUALLY RECOVERS FROM THE LOOP PARTIES UNDER THE TRANSFERRED CONTRACT BASED SOLELY ON JOINT VENTURE COMPANY'S BREACH OF SUCH TRANSFERRED CONTRACT. JOINT VENTURE COMPANY SHALL NOT HAVE ANY LIABILITY TO ANY LOOP PARTY WITH RESPECT TO ANY ELIGIBLE CONTRACT THAT DOES NOT BECOME A TRANSFERRED CONTRACT AS PROVIDED IN SECTION 2.3. NOTWITHSTANDING THE FOREGOING, NONE OF THE FOREGOING LIMITATIONS OF LIABILITY SET FORTH IN THIS SECTION 3.1 SHALL BE AVAILABLE TO EITHER PARTY WITH RESPECT TO A BREACH OF SECTION 4, CONFIDENTIAL INFORMATION, OR FOR CLAIMS TO THE EXTENT THEY ARISE OUT OF A PARTY'S SIMPLE NEGLIGENCE, FRAUD, OR WILLFUL MISCONDUCT.",
+                "explanation": "The exclusion of liability for gross negligence, fraud, or willful misconduct is replaced with simple negligence, fraud, or willful misconduct, weakening the protection against liability and creates a contradiction. The clause now allows for limitations of liability even in cases of simple negligence, which may be impermissible under Delaware law, which governs the contract per section 7.4.",
+                "contradicted_law": "Delaware law regarding limitations of liability for negligence and willful misconduct.",
+                "location": "Section 3.1 and Section 7.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "7.4 Choice of Law. This Agreement shall be governed by and interpreted in accordance with the laws of the State of Delaware, United States of America, without reference to conflict-of-laws principles.",
+                "changed_text": "7.4 Choice of Law. This Agreement shall be governed by and interpreted in accordance with the laws of the State of Quebec, Canada, without reference to conflict-of-laws principles.",
+                "explanation": "The original choice of law clause specifies Delaware law. This modification introduces a contradiction by replacing Delaware law with the laws of Quebec, Canada. This change could impact the interpretation and enforcement of the contract, especially regarding issues such as contract formation, breach, and remedies, as Quebec's civil law system differs significantly from Delaware's common law system.",
+                "contradicted_law": "Principles of contract law relating to choice of law and its impact on enforceability.",
+                "location": "Section 7.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "7.5 Disputes. All disputes arising out of or in connection with this Agreement shall be finally settled in accordance with Section 13.11 of the LLC Agreement and such provisions shall be incorporated herein mutatis mutandis; provided that each reference to \"Party\" shall be deemed a Party hereunder notwithstanding them being different entities.",
+                "changed_text": "7.5 Disputes. All disputes arising out of or in connection with this Agreement shall be settled in a jurisdiction of Loop Industry's choosing.",
+                "explanation": "The original clause mandates disputes to be settled according to a specific section of the LLC Agreement, ensuring a defined process. This modified clause allows Loop Industries to choose the jurisdiction for settling disputes, potentially conflicting with principles of fairness and impartiality in dispute resolution. This is especially true if the chosen jurisdiction has laws heavily favoring Loop Industries, creating an unfair advantage and potentially rendering the clause unenforceable due to unconscionability.",
+                "contradicted_law": "Principles of fairness and impartiality in dispute resolution, potentially conflicting with standard contract law regarding unconscionability.",
+                "location": "Section 7.5"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "EhaveInc_20190515_20-F_EX-4.44_11678816_EX-4.44_LicenseAgreement_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(f) Governing Law: This Agreement shall be governed by, and construed and enforced in accordance with, the laws in force in the Province of Ontario (excluding any conflict of laws rule or principle which might refer such construction to the laws of another jurisdiction). The Parties hereto agree to submit to the exclusive jurisdiction of the courts of the Province of Ontario and waive any objection relating to improper venue or forum non conveniens to the conduct of any proceeding in any such court.",
+                "changed_text": "(f) Governing Law: This Agreement shall be governed by the principles of mutual agreement and good faith. Disputes arising shall first be addressed through informal discussions, promoting a collaborative approach rather than strict legal enforcement.",
+                "explanation": "The 'Governing Law' clause dictates which jurisdiction's laws apply to the contract. By removing the explicit reference to the laws of the Province of Ontario and replacing it with a vague statement about 'mutual agreement and good faith,' the enforceability of the contract is significantly reduced. It becomes unclear which legal standards will be used to interpret the agreement, making it difficult to resolve disputes legally.",
+                "contradicted_law": "Contract Law - Choice of Law Principles",
+                "location": "Section 1(f)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Subject to Section 19(d), any dispute that has proceeded through mediation established in Section 19(b) without resolution may be submitted to arbitration. Any arbitration conducted pursuant to this Agreement shall take place in the City of Toronto, Ontario. The costs of the arbitration shall be borne equally by the Parties or as may be specified in the arbitrator's decision. The provisions of the Arbitration Act of Ontario, as amended, except as otherwise provided in this Agreement shall govern the arbitration process. The Parties agree to exclude the appeal provisions of the Arbitration Act, as may be amended from time to time, and in particular, section 45 thereof. The determination arising out of the arbitration process shall be final and binding upon the Parties to the arbitration.",
+                "changed_text": "Any dispute that has proceeded through mediation established in Section 19(b) without resolution may be submitted to arbitration. Arbitration details and procedures are subject to change at the discretion of both parties. The parties agree that the appeal provisions of the Arbitration Act may or may not be excluded.",
+                "explanation": "By adding the statement that 'Arbitration details and procedures are subject to change at the discretion of both parties,' the binding nature of the arbitration clause is undermined. This creates uncertainty about how disputes will be resolved, potentially invalidating the arbitration agreement. The phrase 'may or may not be excluded' introduces ambiguity concerning the exclusion of the appeal provisions of the Arbitration Act, directly contradicting the clarity of the original clause.",
+                "contradicted_law": "Arbitration Act of Ontario",
+                "location": "Section 19(c)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(c) Injunctive Relief: Each Party acknowledges and agrees that any unauthorized use or disclosure by it of any of the other Party's Confidential Information, in whole or part, will cause irreparable damage to the disclosing Party, that monetary damages would be an inadequate remedy and that the amount of such damages would be extremely difficult to measure. The receiving Party agrees that the disclosing Party shall be entitled to seek temporary and permanent injunctive relief to restrain the receiving Party from any unauthorized disclosure or use. Nothing in this Agreement shall be construed as preventing the disclosing Party from pursuing any and all remedies available to it for a breach or threatened breach of a covenant made in this Section 13, including the recovery of monetary damages from the receiving Party.",
+                "changed_text": "(c) Injunctive Relief: Each Party acknowledges that unauthorized use or disclosure of Confidential Information may cause damage, however, access to injunctive relief is subject to review and approval by both parties and is not guaranteed. The receiving Party may or may not agree that the disclosing Party shall be entitled to seek temporary and permanent injunctive relief.",
+                "explanation": "By adding the phrase 'however, access to injunctive relief is subject to review and approval by both parties and is not guaranteed' to the clause concerning injunctive relief for unauthorized disclosure of confidential information, the right to seek such relief is severely weakened. This change introduces uncertainty and makes it more difficult for the disclosing party to protect its confidential information through legal means, directly contradicting the purpose of the original clause. By adding the clause 'may or may not agree that the disclosing Party shall be entitled to seek temporary and permanent injunctive relief' also introduces ambiguity concerning access to remedies.",
+                "contradicted_law": "Contract Law - Remedies for Breach of Contract",
+                "location": "Section 13(c)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GOLDRESOURCECORP_12_11_2008-EX-10.1-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "12.4 Applicable Law. This Agreement shall be construed and enforced in accordance with, and the rights of the parties shall be governed by, the laws of the State of New York and the laws of the United States applicable therein. Any and all disputes arising under this Agreement, whether as to interpretation, performance or otherwise, shall be subject to the non-exclusive jurisdiction of the courts of Colorado and each of the parties hereto hereby irrevocably attorns to the jurisdiction of the courts of such province.",
+                "changed_text": "1.3 Applicable Law. This Agreement shall be construed and enforced in accordance with the mutual agreement by both parties, whether the laws of the State of New York and the laws of the United States applicable therein, and/or the laws of England and Wales.",
+                "explanation": "Moving the applicable law provision from its own section to the 'Definitions' section and rewording it introduces ambiguity. The original clause specifies New York law, while the modified text suggests a mutual agreement may determine the law, conflicting the clause. This is a structural flaw.",
+                "contradicted_law": "Contract Law - Choice of Law principles; potential violation of established legal standards for determining governing law.",
+                "location": "Article 1, section 1.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "5.5 Indemnification and Director's and Officer's Insurance. So long as HOC is entitled to nominate and maintain a director pursuant to this Article 5, the Company shall indemnify each current and former HOC Director and shall maintain director's and officer's liability insurance for the benefit of each such director, with the same rights and benefits as are accorded the directors of the Company generally.",
+                "changed_text": "12.11 Indemnification and Director's and Officer's Insurance. Indemnification and insurance shall not be a guarantee under this agreement.",
+                "explanation": "By moving indemnification and the section on director's and officer's insurance, a mandatory protective measure afforded to board members is placed in the 'Miscellaneous Provisions' section. By changing the wording from a guaranteed protection to 'not a guarantee' also creates a contradiction. This may run afoul of fiduciary duty obligations.",
+                "contradicted_law": "Corporate Law - Fiduciary Duty, Indemnification requirements for directors.",
+                "location": "Article 12, section 12.11"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11.1 Indemnification by the Company.\n\n  The Company will indemnify and save harmless the HOC Entities and the directors, officers, employees and agents of the HOC Entities (collectively, the \"HOC Indemnitees\") from and against all Claims incurred by any one or more of the HOC Indemnitees directly or indirectly resulting from any breach of any covenant, representation or warranty of the Company contained in this Agreement.",
+                "changed_text": "3.3 Indemnification by the Company.\n\n The Company will indemnify and save harmless the HOC Entities and the directors, officers, employees and agents of the HOC Entities (collectively, the \"HOC Indemnitees\") from and against all Claims incurred by any one or more of the HOC Indemnitees directly or indirectly resulting from any breach of any covenant, representation or warranty of the Company contained in this Agreement, so long as the HOC entities have less than 30% pro rata interest.",
+                "explanation": "By moving an indemnification section from where indemnification is supposed to be stated into 'Market Purchases and Private Purchases' also creates a contradiction by saying the the Company would only indemnify only if HOC Entities have less than 30% pro rata interest.",
+                "contradicted_law": "Contract Law - Indemnification standards.",
+                "location": "Article 3, section 3.3"
+            }
+        ]
+    }
+]

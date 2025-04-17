@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MorganStanleyDirectLendingFund_20191119_10-12GA_EX-10.5_11898508_EX-10.5_TrademarkLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK. EACH OF THE PARTIES IRREVOCABLY AND UNCONDITIONALLY SUBMITS TO THE EXCLUSIVE JURISDICTION OF THE STATE AND FEDERAL COURTS LOCATED IN NEW YORK CITY FOR THE PURPOSE OF ANY ACTION RELATING TO OR ARISING OUT OF THIS AGREEMENT.",
+                "changed_text": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK. EACH OF THE PARTIES SUBMITS TO THE JURISDICTION OF THE STATE AND FEDERAL COURTS LOCATED IN NEW YORK CITY FOR THE PURPOSE OF ANY ACTION RELATING TO OR ARISING OUT OF THIS AGREEMENT.",
+                "explanation": "Removing 'IRREVOCABLY AND UNCONDITIONALLY' weakens the jurisdiction clause. While New York law is still specified, the absence of the explicit waiver could allow a party to argue for jurisdiction elsewhere, contradicting the intent of the original clause.",
+                "contradicted_law": "General contract law principles regarding forum selection clauses and the requirement for clear and unambiguous language.",
+                "location": "Section 9.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EACH PARTY HEREBY IRREVOCABLY AND UNCONDITIONALLY WAIVES TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY RIGHT SUCH PARTY MAY HAVE TO A TRIAL BY JURY IN RESPECT TO ANY ACTION RELATING TO OR ARISING OUT OF THIS AGREEMENT.",
+                "changed_text": "EACH PARTY HEREBY WAIVES ANY RIGHT SUCH PARTY MAY HAVE TO A TRIAL BY JURY IN RESPECT TO ANY ACTION RELATING TO OR ARISING OUT OF THIS AGREEMENT, unless otherwise mutually agreed upon.",
+                "explanation": "Adding 'unless otherwise mutually agreed upon' introduces a loophole to the jury trial waiver. It creates an exception that can be exploited to argue against the waiver, contradicting the initial intent of an 'IRREVOCABLE AND UNCONDITIONAL' waiver and potentially leading to litigation on whether such mutual agreement was reached.",
+                "contradicted_law": "Seventh Amendment to the United States Constitution (right to a jury trial) and principles of contract law requiring clear and unambiguous waivers of rights.",
+                "location": "Section 9.5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "LICENSEE AGREES THAT LICENSOR WOULD BE IRREPARABLY HARMED BY ANY BREACH OF THIS AGREEMENT BY LICENSEE THAT HARMS THE BRAND, AND THAT LICENSOR MAY (IN ADDITION TO ITS OTHER RIGHTS AND REMEDIES HEREIN) SEEK TEMPORARY, PRELIMINARY OR PERMANENT INJUNCTIVE RELIEF (INCLUDING SPECIFIC PERFORMANCE) TO ENJOIN OR PREVENT ANY SUCH BREACH, WITHOUT POSTING BOND OR OTHER SECURITY.",
+                "changed_text": "LICENSEE AGREES THAT LICENSOR *might* BE HARMED BY ANY BREACH OF THIS AGREEMENT BY LICENSEE THAT HARMS THE BRAND, AND THAT LICENSOR MAY (IN ADDITION TO ITS OTHER RIGHTS AND REMEDIES HEREIN) SEEK TEMPORARY, PRELIMINARY OR PERMANENT INJUNCTIVE RELIEF (INCLUDING SPECIFIC PERFORMANCE) TO ENJOIN OR PREVENT ANY SUCH BREACH, *possibly* WITHOUT POSTING BOND OR OTHER SECURITY.",
+                "explanation": "Changing 'would be irreparably harmed' to '*might* be harmed' and 'without posting bond or other security' to '*possibly* without posting bond or other security' weakens the Licensor's position regarding injunctive relief. The original clause presumes irreparable harm and waives the bond requirement, making it easier to obtain an injunction. The modified clause introduces uncertainty regarding both, potentially requiring Licensor to prove irreparable harm and post a bond, thereby hindering their ability to quickly enforce the agreement.",
+                "contradicted_law": "Principles of equity and requirements for obtaining injunctive relief, which often involve demonstrating irreparable harm and posting a bond.",
+                "location": "Section 9.5"
+            }
+        ]
+    }
+]

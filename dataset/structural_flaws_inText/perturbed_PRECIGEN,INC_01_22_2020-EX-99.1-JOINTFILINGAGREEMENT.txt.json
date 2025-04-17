@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PRECIGEN,INC_01_22_2020-EX-99.1-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Additional Reporting Person (a): Merck Serono SA Address: Zone Industrielle 1267 Coinsins, Switzerland",
+                "changed_text": "Additional Reporting Person (a): Merck Serono SA Address: Zone Industrielle 1267 Coinsins, Switzerland. This address is considered the primary contact point for all legal correspondence.",
+                "explanation": "Adding a sentence designating the address as the primary contact point for legal correspondence introduces a conflict if another section specifies a different contact method or address for legal notices, creating uncertainty about which address should be used.",
+                "location": "Header Section"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Designated Filer: Ares Trading SA",
+                "changed_text": "Designated Filer: Ares Trading SA. The designation of Ares Trading SA as the filer is irrevocable.",
+                "explanation": "Adding that the designation is irrevocable conflicts with the implicit possibility that a new agreement or amendment could change the designated filer. This raises the question of whether the designation can be changed in the future, creating uncertainty.",
+                "location": "Header Section"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Dated: January 7, 2019",
+                "changed_text": "Dated: January 7, 2019. This agreement is considered preliminary and non-binding until further notice from all parties.",
+                "explanation": "Stating the agreement is preliminary and non-binding directly contradicts the initial date suggesting an effective, binding agreement. This creates confusion about the agreement's legal status and enforcement timeline.",
+                "location": "Header Section"
+            }
+        ]
+    }
+]
