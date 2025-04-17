@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "INKTOMICORP_06_08_1998-EX-10.14-SOFTWAREHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.6 \"Microsoft Search Engine\" will mean those versions of the Product developed to Microsoft specifications pursuant to said Software Development Agreement and used to generate search results for Microsoft (or for third parties requesting searches through Microsoft) under said Information Services Agreement.",
+                "changed_text": "1.6 \"Microsoft Search Engine\" will mean those versions of the Product developed to Microsoft specifications pursuant to said Software Development Agreement and used to generate search results for Microsoft (or for third parties requesting searches through Microsoft) under the Inktomi Information Distribution Agreement.",
+                "explanation": "Changing the name from 'Information Services Agreement' to 'Inktomi Information Distribution Agreement' introduces a contradiction and makes it unclear which agreement governs the use of search results, which will create uncertainty in enforcement.",
+                "location": "Section 1.6"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "3.2 Microsoft acknowledges that, pursuant to Inktomi's contractual arrangement with its subcontractor, Exodus Communications, Inc. (\"Exodus\"), Inktomi will locate the Hosting Servers at the facilities of Exodus, and Exodus will provide power and Internet telecommunications services to the Hosting Servers. However, Microsoft will have no obligations or liabilities to Exodus, Inktomi will remain liable for providing all Services to Microsoft notwithstanding its arrangement with Exodus, and Inktomi will [*] and [*] against from any and all [*] to [*] (in accordance with the procedures specified in Section [*] below). A copy of the contract(s) between Inktomi and Exodus is/are attached hereto as Exhibit [*], and Inktomi shall not modify said contract(s) or replace Exodus as its subcontractor for the applicable services (including without limitation by having Inktomi perform the Services directly) without Microsoft's prior written approval (which approval Microsoft agrees to not unreasonably withhold). Inktomi shall provide Exodus with a copy of the Security Measures applicable under this Agreement and will use commercially reasonable efforts to ensure that Exodus strictly adheres to all such Security Measures.",
+                "changed_text": "3.2 Microsoft acknowledges that, pursuant to Inktomi's contractual arrangement with its vendor, Exodus Communications, Inc. (\"Exodus\"), Inktomi will locate the Hosting Servers at the facilities of Exodus, and Exodus will provide power and Internet telecommunications services to the Hosting Servers. However, Microsoft will have no obligations or liabilities to Exodus, Inktomi will remain liable for providing all Services to Microsoft notwithstanding its arrangement with Exodus, and Inktomi will [*] and [*] against from any and all [*] to [*] (in accordance with the procedures specified in Section [*] below). A copy of the contract(s) between Inktomi and Exodus is/are attached hereto as Exhibit [*], and Inktomi shall not modify said contract(s) or replace Exodus as its vendor for the applicable services (including without limitation by having Inktomi perform the Services directly) without Microsoft's prior written approval (which approval Microsoft agrees to not unreasonably withhold). Inktomi shall provide Exodus with a copy of the Security Measures applicable under this Agreement and will use commercially reasonable efforts to ensure that Exodus strictly adheres to all such Security Measures.",
+                "explanation": "Changing 'subcontractor' to 'vendor' creates uncertainty about the true nature of the relationship between Inktomi and Exodus. This could lead to disputes about the extent of Microsoft's rights and remedies against Exodus, creating enforcement difficulties.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "12.11 This Agreement, along with the Ancillary Agreements, together contain the entire agreement of the parties with respect to the premises, and may not be modified or amended except by a written instrument executed by the party sought to be charged or bound thereby.",
+                "changed_text": "12.11 This Agreement, along with all Exhibits, together contain the entire agreement of the parties with respect to the premises, and may not be modified or amended except by a written instrument executed by the party sought to be charged or bound thereby.",
+                "explanation": "Stating the 'Exhibits' contain the entire agreement while previously referencing 'Ancillary Agreements' directly contradicts the written agreement, and raises questions regarding which document supersedes the other in case of conflict.",
+                "location": "Section 12.11"
+            }
+        ]
+    }
+]

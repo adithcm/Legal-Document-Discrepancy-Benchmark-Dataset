@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_ManufacturingAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Premier shall have the sole right, exercisable in its discretion, to initiate and direct the content and scope of a recall, market withdrawal, stock recovery, product correction and/or advisory safety communication (any one or more referred to as a \"Recall Action\") regarding the Products. At Premier's option, Premier can direct Heritage to, and upon such direction Heritage shall, conduct such Recall Action (and Heritage shall ensure Jasper's cooperation).",
+                "changed_text": "Heritage shall have the right, exercisable in its discretion, to initiate and direct the content and scope of a recall, market withdrawal, stock recovery, product correction and/or advisory safety communication (any one or more referred to as a \"Recall Action\") regarding the Products. At Heritage's option, Heritage can direct Premier to, and upon such direction Premier shall, conduct such Recall Action (and Heritage shall ensure Jasper's cooperation).",
+                "explanation": "The original text grants Premier the sole right to initiate and direct recall actions. The modified text gives Heritage the same right, creating a contradiction as to who controls recall decisions. This creates uncertainty and potential disputes over recall management.",
+                "location": "Section 21"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Heritage shall bear all costs, fees and out-of-pocket expenses associated with any Recall Action which results from (i) Heritage's or Jasper's negligence or willful misconduct, (ii) Heritage's or Jasper's failure to comply with Product Specifications or the Post Holdings Quality Expectations Manual set forth on Schedule A, (iii) any breach of this Agreement by Heritage or (iv) ingredients or packaging materials purchased by Heritage or Jasper. In all other cases, Premier shall bear all costs associated with any Recall Action.",
+                "changed_text": "Premier shall bear all costs, fees and out-of-pocket expenses associated with any Recall Action regardless of the cause. Heritage shall bear a fixed fee of $1000 for their participation in the recalling process. In all other cases, Premier shall bear all costs associated with any Recall Action.",
+                "explanation": "The original text specifies that Heritage bears recall costs only when the recall results from their negligence, failure to comply with specifications, breach of agreement, or faulty materials. The modified text mandates that Premier always bears all costs irrespective of cause. This creates a contradiction regarding the financial responsibility for recall actions. Then the addition of the fixed fee of $1000 creates further conflict with the text saying \"In all other cases, Premier shall bear all costs associated with any Recall Action.\"",
+                "location": "Section 21"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall commence on the Effective Date and shall terminate automatically without notice on December 31, 2022, unless the Parties agree in writing to extend the term of the Agreement (the initial term and any renewal terms are referred to collectively herein as the \"Term\").",
+                "changed_text": "This Agreement shall commence on the Effective Date and shall terminate automatically without notice on December 31, 2022, unless either party, at their sole discretion decides to extend the terms of the agreement for up to 2 years (the initial term and any renewal terms are referred to collectively herein as the \"Term\").",
+                "explanation": "The original text requires both parties to agree in writing to extend the contract. The modified text says that either party alone has the power to extend the contract by up to 2 years. This gives unilateral power to extend the contract term to each party which is contradictory.",
+                "location": "Section 11(a)"
+            }
+        ]
+    }
+]

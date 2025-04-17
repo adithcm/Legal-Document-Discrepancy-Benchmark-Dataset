@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "USASYNTHETICFUELCORP_10_21_2010-EX-10.10-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(a) Term. This Agreement shall be for an initial term of five (5) years, and unless earlier terminated in accordance with this Agreement, shall automatically renew for an additional term of five (5) years thereafter.",
+                "changed_text": "(a) Term. This Agreement shall be for an initial term of five (5) years, and any renewal shall require the express written consent of both parties, made no later than thirty days prior to the end of the current term.",
+                "explanation": "This change introduces an in-text contradiction regarding the renewal of the agreement. The original text specifies automatic renewal, while the altered text stipulates explicit agreement for each renewal. This makes it ambiguous if the contract automatically renews, or does not without mutual party agreement, creating uncertainty in enforcement.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(c) Confidential Information. Confidential Information shall not be used for any purpose other than to evaluate and consummate the transactions contemplated by this Agreement, and shall not be disclosed without prior written consent of the other Party, except to: (vi) This covenant shall survive the termination or expiration of this Agreement and shall continue in full force and effect for a period of three (3) years thereafter.",
+                "changed_text": "(c) Confidential Information. Confidential Information shall not be used for any purpose other than to evaluate and consummate the transactions contemplated by this Agreement, and shall not be disclosed without prior written consent of the other Party, except to: (vi) This covenant shall survive the termination or expiration of this Agreement; however, such information is no longer considered confidential after the termination or expiration of this agreement. ",
+                "explanation": "The original text states that the confidentiality agreement will continue for a period of 3 years. The revised text states that after the termination or expiration of the agreement, the information is no longer considered confidential. This creates a contradiction about the confidentiality duration.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(f) Price Protection. If at any time on or prior to the earlier of (i) December 31, 2007, or (ii) the date on which Global Energy completes an initial public offering (\"IPO\") of its common stock, Global Energy sells additional common shares or other financial instruments convertible into its common shares, or enters into any similar transaction for the sale of an ownership interest in Global Energy which is the same or substantially the same as that sold to Oxbow under Section 1 of this Agreement, and the price of which is less than $200.00 per share, Global Energy shall issue additional common shares to Oxbow such that Oxbow's adjusted per-share price for its stockholdings shall be no greater than the lowest price paid by any such subsequent purchaser of its shares. It is understood that the price protection afforded by this covenant extends to and includes the offering price pursuant to the IPO.",
+                "changed_text": "(f) Price Protection. If at any time on or prior to the earlier of (i) December 31, 2007, or (ii) the date on which Global Energy completes an initial public offering (\"IPO\") of its common stock, Global Energy sells additional common shares or other financial instruments convertible into its common shares, or enters into any similar transaction for the sale of an ownership interest in Global Energy which is the same or substantially the same as that sold to Oxbow under Section 1 of this Agreement, and the price of which is less than $200.00 per share, Global Energy *may*, at its sole discretion, issue additional common shares to Oxbow such that Oxbow's adjusted per-share price for its stockholdings shall be no greater than the lowest price paid by any such subsequent purchaser of its shares. It is understood that the price protection afforded by this covenant *does not* extend to and includes the offering price pursuant to the IPO.",
+                "explanation": "The original text makes it mandatory that Global Energy issues additional shares to Oxbow. The altered text changes 'shall' to 'may' giving Global Energy the discretion of whether to issue shares or not, and also that the price protection extends to and includes the IPO. Now the altered text explicitly excludes the IPO from price protection.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

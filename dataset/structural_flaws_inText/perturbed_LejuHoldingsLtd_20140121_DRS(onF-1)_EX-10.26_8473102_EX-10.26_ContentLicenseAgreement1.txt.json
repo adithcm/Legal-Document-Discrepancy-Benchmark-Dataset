@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "LejuHoldingsLtd_20140121_DRS(onF-1)_EX-10.26_8473102_EX-10.26_ContentLicenseAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term. Except as provided in Section 2.3, Licensee's use of the Licensed Domain Names under the terms of this Agreement shall be free of any fees.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, a non-exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term. Except as provided in Section 2.3, Licensee's use of the Licensed Domain Names under the terms of this Agreement shall be free of any fees.",
+                "explanation": "The original text grants an 'exclusive' license to use the domain names. The modified version grants a 'non-exclusive' license. This contradiction creates uncertainty about whether Licensor can license the same domain names to other parties, impacting Licensee's competitive advantage.",
+                "location": "Section 2.1(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Licensee acknowledges that, as between the Parties, Licensor (or its third party providers) is the owner of all right, title and interest in and to the Licensed Domain Names and Licensed Content, and all such right, title and interest shall remain exclusively with Licensor (or its third party providers).",
+                "changed_text": "Licensee acknowledges that, as between the Parties, Licensor (or its third party providers) is the owner of all right, title and interest in and to the Licensed Domain Names and Licensed Content, but this ownership is subject to the Licensee's right to perpetual use of the domain names and content for the Business, unless otherwise specified in writing by both parties.",
+                "explanation": "The original text clearly states Licensor's exclusive ownership. The modified text introduces an exception for Licensee's 'right to perpetual use', creating a contradiction. This uncertainty could lead to disputes regarding ownership rights and the duration of the license.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Either Party may immediately terminate this Agreement in the event that the other Party (a) becomes insolvent or unable to pay its debts as they mature; (b) makes an assignment for the benefit of its creditors; (c) seeks relief, or if proceedings are commenced against such other Party or on its behalf, under any bankruptcy, insolvency or debtors' relief law and such proceedings have not been vacated or set aside within seven (7) days from the date of commencement thereof.",
+                "changed_text": "Either Party may terminate this Agreement at any time, but such termination will not be immediate and will be subject to a 90-day cure period, even in the event that the other Party (a) becomes insolvent or unable to pay its debts as they mature; (b) makes an assignment for the benefit of its creditors; (c) seeks relief, or if proceedings are commenced against such other Party or on its behalf, under any bankruptcy, insolvency or debtors' relief law and such proceedings have not been vacated or set aside within seven (7) days from the date of commencement thereof. The terminating party has the option to waive the cure period in their sole discretion.",
+                "explanation": "The original text allows for 'immediate' termination under specific insolvency events. The modified version adds a mandatory 90-day cure period even for these events, directly contradicting the immediate termination clause. This creates uncertainty regarding the ability to terminate the contract swiftly in cases of financial distress. However, a caveat is introduced, offering the terminating party an exception for the 90-day notice.",
+                "location": "Section 6.2"
+            }
+        ]
+    }
+]

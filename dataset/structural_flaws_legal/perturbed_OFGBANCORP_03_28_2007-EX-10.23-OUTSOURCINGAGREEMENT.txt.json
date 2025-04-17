@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OFGBANCORP_03_28_2007-EX-10.23-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The validity, construction and interpretation of this Agreement and the rights and duties of the parties hereto shall be governed by the internal laws of the State of New York, excluding its principles of conflict of laws.",
+                "changed_text": "The validity, construction and interpretation of this Agreement and the rights and duties of the parties hereto shall be governed by principles of conflict of laws.",
+                "explanation": "Removing 'internal laws of the State of New York, excluding its principles of conflict of laws' and replacing it with 'principles of conflict of laws' will introduce contradiction. Contract disputes will become unpredictable, since the contract refers to principles of conflict of laws without specifying which jurisdiction's laws apply, leading to substantial ambiguity and potentially unenforceable terms.",
+                "contradicted_law": "Contract Law, Choice of Law Principles",
+                "location": "17.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Customer agrees to maintain a depository account with Oriental Bank and Trust for the payment of amounts payable hereunder and hereby authorizes Metavante to initiate debit entries to such account for the payment of amounts payable hereunder. Customer agrees to provide Metavante with any and all information necessary for Metavante to initiate such debit entries via the Automated Clearing House (ACH) system.",
+                "changed_text": "Customer agrees to maintain a depository account, the selection of such account is at the discretion of the Customer, for the payment of amounts payable hereunder and hereby authorizes Metavante to initiate debit entries to such account for the payment of amounts payable hereunder. Customer agrees to provide Metavante with any and all information necessary for Metavante to initiate such debit entries via the Automated Clearing House (ACH) system.",
+                "explanation": "Removing 'Oriental Bank and Trust', it removes the guarantee that Customer is able to pay the service charges, and could allow Customer to establish accounts at non-existent banks or accounts with no funds and be in breach of contract.",
+                "contradicted_law": "Contract Law, Obligation of Payment",
+                "location": "5.5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Customer may elect to terminate this Agreement for any reason upon six months written notice to Metavante, provided Customer shall pay Metavante the \"Termination Fee\" defined and computed in accordance with the table below. The \"Termination Fee\" shall be paid prior to the Effective Date of Termination of the Agreement, as applicable. In addition to the foregoing, Customer shall pay to Metavante any amortized but unpaid one-time set-up fees, enhancement fees or implementation fees and all reasonable costs in connection with the disposition of equipment, facilities and contracts exclusively related to Metavante's performance of the Services under this Agreement.",
+                "changed_text": "Customer may elect to terminate this Agreement for any reason upon six months written notice to Metavante. There is no cost for Customer to terminate this agreement.",
+                "explanation": "In case of a termination, the party may be subject to the full cost of the Termination Fee that applies.",
+                "contradicted_law": "Breach of Contract Law",
+                "location": "8.4"
+            }
+        ]
+    }
+]

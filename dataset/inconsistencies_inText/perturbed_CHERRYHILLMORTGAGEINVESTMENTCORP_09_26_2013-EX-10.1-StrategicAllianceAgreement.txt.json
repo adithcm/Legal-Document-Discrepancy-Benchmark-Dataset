@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CHERRYHILLMORTGAGEINVESTMENTCORP_09_26_2013-EX-10.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Unless earlier terminated as provided below, this Agreement shall remain in effect until the later to occur of the date that is (x) three (3) years from the date hereof and (y) the date on which an affiliate of Freedom Mortgage is not acting as the external manager of Cherry Hill.",
+                "changed_text": "Unless earlier terminated as provided below, this Agreement shall remain in effect until the earlier to occur of the date that is (x) three (3) years from the date hereof and (y) the date on which an affiliate of Freedom Mortgage is not acting as the external manager of Cherry Hill.",
+                "explanation": "The original agreement states the term is until the *later* of two dates. Changing this to *earlier* creates a direct contradiction, making the duration of the agreement unclear.",
+                "location": "Section 5(a)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "In the event that a party materially breaches any representation or covenant herein, the other party may give written notice of the breach requiring the same to be remedied within 30 days of receipt of such notice. If the breaching party fails to remedy the material breach in such time period, the non-breaching party may terminate this Agreement by delivery of a written termination notice to the breaching party. Any such termination shall not relieve the breaching party from any obligation or liability arising prior to such termination.",
+                "changed_text": "In the event that a party materially breaches any representation or covenant herein, the other party may give written notice of the breach requiring the same to be remedied within 30 days of receipt of such notice. If the breaching party fails to remedy the material breach in such time period, the non-breaching party may terminate this Agreement by delivery of a written termination notice to the breaching party. Any such termination shall relieve the breaching party from any obligation or liability arising prior to such termination.",
+                "explanation": "The original agreement states that termination does not relieve the breaching party from liability. Changing this to it *does* relieve liability creates a contradiction, impacting enforcement.",
+                "location": "Section 5(b)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement may not be amended except by an instrument in writing signed on behalf of each of the Parties.",
+                "changed_text": "This Agreement may be amended by verbal agreement between authorized representatives of each of the Parties. Any such verbal agreement must be documented in writing within 90 days to be valid.",
+                "explanation": "The original requires written amendments signed by both parties. The change allows verbal agreements, creating uncertainty about amendment validity and contradicting the written requirement.",
+                "location": "Section 6(f)"
+            }
+        ]
+    }
+]

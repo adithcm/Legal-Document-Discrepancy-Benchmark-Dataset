@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America,\n\nWHEREAS, the parties desire to add to the SLCMA the Supplier Offer Placement System Software;",
+                "changed_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America;",
+                "explanation": "By removing the second 'WHEREAS' clause, the contract omits the specific purpose of adding the 'Supplier Offer Placement System Software'. This could be problematic if state laws require clear and conspicuous disclosure of the software's function or specific consumer rights related to its use, potentially creating a legal contradiction if such rights are not adequately addressed elsewhere in the contract.",
+                "contradicted_law": "Potentially contradicts state laws requiring clear disclosure of software functionality and consumer rights related to its use.",
+                "location": "Between 'WHEREAS' clauses, before 'NOW THEREFORE'"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "NOW THEREFORE, in consideration of the promises and accords made herein, and the exchange of such good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, Bank of America and Supplier agree as follows:\n\nThe attached Schedule [A] is hereby incorporated into the SLCMA describing the Offer Placement System Software for use by Bank of America.",
+                "changed_text": "NOW THEREFORE, in consideration of the promises and accords made herein, Bank of America and Supplier agree as follows:\n\nThe attached Schedule [A] is hereby incorporated into the SLCMA.",
+                "explanation": "By removing 'and the exchange of such good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged,' the contract weakens the acknowledgement of consideration. While not always strictly enforced, the absence of this acknowledgement could potentially weaken the enforceability of the contract under certain state contract laws (e.g., in states where a clear record of consideration is required for valid contracts). This is a legal contradiction because a valid contract requires consideration, and removing the acknowledgement of it creates ambiguity. This is relevant in Georgia where Cardlytics is located.",
+                "contradicted_law": "Potentially contradicts state contract laws regarding the requirement and acknowledgement of consideration.",
+                "location": "Following 'NOW THEREFORE'"
+            }
+        ]
+    }
+]

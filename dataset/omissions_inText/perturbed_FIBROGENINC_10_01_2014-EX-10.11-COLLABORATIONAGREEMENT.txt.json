@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FIBROGENINC_10_01_2014-EX-10.11-COLLABORATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.66 \"Technical Product Failure\" shall mean as a [ * ], which is not attributed to Astellas' failure to fulfill its obligations hereunder.",
+                "changed_text": "1.66 \"Technical Product Failure\" shall mean any unforeseen event.",
+                "explanation": "The original definition references [ * ], without elaborating on what that refers to. By replacing it with 'any unforeseen event', it creates an internal contradiction because it is too general, and can not be linked to other sections of the contract that requires a clear standard.",
+                "location": "ARTICLE 1 DEFINITIONS"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1.56 \"Product Specification\" shall mean, with respect to a Bulk Product, the written document describing, the testing procedures and results required to determine compliance with release specifications, including, and quality control testing procedures to be determined, and be amended from time to time, by mutual agreement of both parties. The release specifications of such Product Specifications shall be determined taking into account and shall be designed to meet the shelf life requirements of the Japanese Ministry of Health, Labor and Welfare for the Lead Compound, provided, that the Product Specifications shall not require compliance with such shelf life requirements.",
+                "changed_text": "1.56 \"Product Specification\" shall mean, with respect to a Bulk Product, a simple document listing ingredients.",
+                "explanation": "The original 'Product Specification' is comprehensive. By changing it to a 'simple document listing ingredients', later clauses referencing comprehensive testing and compliance become unenforceable, creating ambiguity and contradiction about quality control.",
+                "location": "ARTICLE 1 DEFINITIONS"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "12.10 Warranty. FG represents and warrants that the Lead Compounds to be supplied to Astellas under this Agreement shall conform to the Product Specifications and shall, as appropriate, be manufactured in compliance with GMP Guidelines. Subject to Sections 12.9 and 17.3 hereof, FG's sole obligation and Astellas' sole remedy with respect to Lead Compound which does not meet the warranty contained herein is limited to replacement of such Lead Compound and reimbursement of Astellas' out of pocket expenses for shipping to FG at the address designated by FG.",
+                "changed_text": "12.10 Warranty. FG provides no warranties, express or implied, regarding the Lead Compounds.",
+                "explanation": "By stating 'FG provides no warranties', this directly contradicts previous sections establishing Product Specifications (1.56) and related obligations, such as Astellas' right to reject shipments (12.7). This introduces an internal contradiction regarding the level of quality expected of Lead Compounds.",
+                "location": "ARTICLE 12 MANUFACTURING RIGHTS"
+            }
+        ]
+    }
+]

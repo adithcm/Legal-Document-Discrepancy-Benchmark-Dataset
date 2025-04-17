@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "RemarkHoldingsInc_20081114_10-Q_EX-10.24_2895649_EX-10.24_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.9 \"Confidential Information\" means any and all trade secrets, proprietary or confidential information of either party and includes, without limitation: (a) any information, software, material, data or business, financial, operational, customer, vendor, and other information disclosed by one party to the other, (b) the terms of this Agreement, and/or (c) the fact of the existence of this Agreement except as specifically permitted in Section 7. Confidential Information will not include information that the receiving party can prove: (w) was already in such party's possession prior to receipt; (x) was independently developed by such party; (y) was obtained from a third party who had the right to disclose such information to such party, and/or (z) was or became generally available to the public other than as a result of disclosure by such party.",
+                "changed_text": "1.9 \"Confidential Information\" means any and all information deemed confidential by either party, regardless of legal protection, and includes, without limitation: (a) any information, software, material, data or business, financial, operational, customer, vendor, and other information disclosed by one party to the other, (b) the terms of this Agreement, and/or (c) the fact of the existence of this Agreement except as specifically permitted in Section 7. Confidential Information will not include information that the receiving party believes: (w) was already known; (x) was created internally; (y) was disclosed by any third party; and/or (z) has become widely known.",
+                "explanation": "The definition of 'Confidential Information' has been broadened to include anything a party *deems* confidential, moving away from the legal standard of 'trade secrets' or 'proprietary information.' The exclusions are also weakened by using subjective beliefs instead of objective proof, creating uncertainty and contradicting established legal definitions of confidential information and trade secrets.",
+                "contradicted_law": "Uniform Trade Secrets Act (if applicable in the governing jurisdiction) or similar state laws protecting trade secrets.",
+                "location": "Section 1.9"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.22 \"Net Revenue\" means gross revenue less costs not to exceed [*] percent ([*]%) of such gross revenue, including reasonable third-party agency/ third-party advertising sales commissions and rebates and serving, bad debts and applicable taxes.",
+                "changed_text": "1.22 \"Net Revenue\" means gross revenue less deductions as determined by HSWI, including but not limited to marketing expenses, administrative overhead, and taxes. The deductions shall be capped at a percentage, to be determined by HSWI, of the gross revenue.",
+                "explanation": "The definition of 'Net Revenue' is altered to give HSWI broad discretion in determining deductions, moving away from the defined set of costs. This contradicts standard accounting practices and could lead to disputes over royalty calculations. This clause introduces a subjective element, potentially conflicting with established revenue recognition principles.",
+                "contradicted_law": "Generally Accepted Accounting Principles (GAAP) regarding revenue recognition.",
+                "location": "Section 1.22"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "11.6 Governing Law. This Agreement, the rights and obligations of the parties hereto, and any claims or disputes thereto, shall be governed by and construed in accordance with the laws of the State of New York without reference to conflict of law principles.",
+                "changed_text": "11.6 Governing Law. This Agreement, the rights and obligations of the parties hereto, and any claims or disputes thereto, shall be governed by the laws most favorable to HSWI at the time of the dispute, as determined by HSWI's legal counsel.",
+                "explanation": "This change introduces a conflict of interest by allowing HSWI's legal counsel to determine the governing law based on which is most favorable to HSWI. This undermines the principle of impartial application of law and contradicts the standard practice of specifying a jurisdiction for governing law. This also gives HSWI and its counsel an unfair advantage during dispute resolution. This deviates from the universally accepted legal standard for choice of law provisions.",
+                "contradicted_law": "Basic principles of contract law regarding fairness and impartiality; established legal precedent regarding choice of law clauses.",
+                "location": "Section 11.6"
+            }
+        ]
+    }
+]

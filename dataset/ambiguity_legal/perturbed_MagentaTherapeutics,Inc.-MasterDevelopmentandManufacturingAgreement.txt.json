@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MagentaTherapeutics,Inc.-MasterDevelopmentandManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Bachem shall maintain true, complete and accurate books, records, test and laboratory data, reports and all other information relating to Services performed and Product manufactured under this Agreement, including all information required to be maintained by Applicable Laws.",
+                "changed_text": "Bachem shall keep books and records, test and laboratory data, reports and other information relating to Services performed and Product manufactured under this Agreement as it deems reasonably appropriate, potentially including information required to be maintained by Applicable Laws.",
+                "explanation": "This change introduces ambiguity by replacing the mandatory 'maintain true, complete and accurate books' with the subjective 'keep books and records…as it deems reasonably appropriate.' Furthermore, weakening 'including all information required to be maintained by Applicable Laws' to 'potentially including' makes compliance discretionary. This contradicts FDA regulations (21 CFR Part 211) regarding accurate and complete record-keeping for pharmaceutical manufacturing, which mandates strict adherence.",
+                "contradicted_law": "21 CFR Part 211",
+                "location": "5.7"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Bachem shall generate, handle, store, ship and dispose of all wastes associated with its manufacture of Product in accordance with Applicable Laws. Notwithstanding the foregoing sentence, if any specially regulated waste must be removed pursuant to a given Project Plan, such specially regulated waste and the process for its removal shall be expressly set forth in such Project Plan. If the specially regulated waste is solely attributable to Magenta's Product and the Specifications and instructions for production of such Product, then unless the Parties otherwise agree, Magenta shall be responsible for the reasonable costs associated with the removal of such specially regulated waste. Such costs shall be included in the Project Plan or, if not specified therein, included in the price of the Services and Product.",
+                "changed_text": "Bachem shall try to handle, store, ship and dispose of all wastes associated with its manufacture of Product in what it considers to be in accordance with Applicable Laws. If any specially regulated waste is identified, the Parties will discuss the possibility of including such specially regulated waste and the process for its removal in a Project Plan. If the waste is solely attributable to Magenta's Product, Magenta may be responsible for costs associated with the removal of such waste, should the Parties agree.",
+                "explanation": "The original clause mandates strict waste disposal in accordance with 'Applicable Laws.' The modification introduces ambiguity by replacing 'shall generate, handle, store, ship and dispose' with 'shall try to handle, store, ship and dispose', making compliance uncertain. Furthermore, the new text shifts from an explicit obligation to 'discuss the possibility of including' waste handling in project plans, and uses 'may be responsible' depending if Parties agree. This contradicts the Resource Conservation and Recovery Act (RCRA) which sets stringent requirements for hazardous waste handling and disposal and does not allow for discretionary compliance.",
+                "contradicted_law": "Resource Conservation and Recovery Act (RCRA)",
+                "location": "5.16"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Magenta and its agents and designees shall have the right to audit Bachem's facilities, systems, records, procedures, and documentation related to this Agreement. In connection with any such audit, Bachem shall also provide Magenta access to its personnel. Magenta may conduct no more than one (1) technical visit and one (1) quality assurance audit per year, unless there is cause for an additional audit (i.e., a technical issue or quality issue). Such audits may be conducted upon reasonable notice during the term of this Agreement and for [***] thereafter. On-site technical discussions may also be requested and held at mutually agreeable times.",
+                "changed_text": "Magenta and its agents and designees may request to audit Bachem's facilities, systems, records, procedures, and documentation related to this Agreement. Bachem will consider such requests. If an audit is agreed upon, Bachem will endeavor to provide Magenta access to relevant personnel. Magenta should aim to conduct no more than one (1) technical visit and one (1) quality assurance audit per year, provided that Bachem agrees such audits are necessary. Audits, if any, may be conducted as Bachem schedules permit. On-site technical discussions may be requested but are subject to Bachem's availability.",
+                "explanation": "The original text grants Magenta a clear 'right to audit.' The modified text weakens this right by changing 'shall have the right' to 'may request,' and 'Bachem shall also provide' to 'Bachem will consider.' The introduction of 'provided that Bachem agrees such audits are necessary' gives Bachem discretion, and 'as Bachem schedules permit' further weakens Magenta's ability to audit. This conflicts with GMP (Good Manufacturing Practice) regulations, which requires manufacturers to allow thorough audits to ensure product quality and compliance. By making audits discretionary and subject to Bachem's agreement, it undermines Magenta's ability to ensure GMP compliance.",
+                "contradicted_law": "Good Manufacturing Practice (GMP) regulations",
+                "location": "5.17"
+            }
+        ]
+    }
+]

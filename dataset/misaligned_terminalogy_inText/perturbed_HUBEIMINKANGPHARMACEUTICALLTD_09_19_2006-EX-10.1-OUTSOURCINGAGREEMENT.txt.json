@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HUBEIMINKANGPHARMACEUTICALLTD_09_19_2006-EX-10.1-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "DGT shall be entitled to terminate this Agreement if Dolphin fails to meet its requirements and material obligation hereunder and only after DGT have given Dolphin written notice of such failure and only after Dolphin has not rectified such failure within 10 days of the notice.",
+                "changed_text": "DGT may terminate this Agreement if Dolphin fails to meet its requirements and material obligation hereunder and only after DGT have given Dolphin written notice of such failure and only after Dolphin has not rectified such failure within 10 days of the notice.",
+                "explanation": "The change from 'shall' to 'may' introduces ambiguity. 'Shall' indicates a mandatory action, whereas 'may' indicates a permissive action. This creates uncertainty regarding DGT's obligation to terminate the agreement if Dolphin fails to meet its obligations. Is it required or optional?",
+                "location": "Termination"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Dolphin hereby indemnifies, holds harmless and defends DGT, its Board of Directors, officers, and agents against any and all claims (including all legal fees and disbursements incurred in association therewith) arising out of the exercise of any rights under this Agreement including, without limiting the generality of the foregoing, against any damages or losses, consequential or otherwise, arising from or out of the use of DGT's products under this Agreement by Dolphin or their customers or end-users howsoever the same may arise.",
+                "changed_text": "Dolphin indemnifies DGT, its Board of Directors, officers, and agents against any and all claims arising out of the exercise of any rights under this Agreement including, without limiting the generality of the foregoing, against any damages or losses arising from or out of the use of DGT's products under this Agreement by Dolphin or their customers or end-users howsoever the same may arise.",
+                "explanation": "By removing 'hereby', 'holds harmless', 'defends', 'consequential or otherwise,' the strength of the indemnification is reduced. 'Hereby' creates a present obligation and the removal creates ambiguity. Removing the clarification of consequential damages leaves room for interpretation and potential legal disputes on whether consequential damages are covered.",
+                "location": "Indemnity And Limitation of Liability"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Dolphin shall deliver to DGT on the date 30 days after each and every year a detailed photo-editing report on all services provided on a unit basis (i.e. customer number, file number, cost).",
+                "changed_text": "Dolphin should deliver to DGT 30 days after each year a report on services provided.",
+                "explanation": "Replacing 'shall' with 'should' weakens the obligation for Dolphin to provide the report, changing it from a mandatory requirement to a suggestion. Removing 'detailed photo-editing report on all services provided on a unit basis (i.e. customer number, file number, cost)' reduces the specific requirements of the report, making it unclear what information needs to be included. This could lead to disputes over the sufficiency of the report.",
+                "location": "Right of photo - Records"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "CerusCorporation-FIRSTAMENDTOSUPPLYANDMANUFACTURINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due [*] days following Cerus' receipt of the invoice submitted by Porex.",
+                "changed_text": "Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due [*] days following Cerus' receipt of the invoice submitted by Porex, unless Porex requests a faster payment.",
+                "explanation": "The addition of 'unless Porex requests a faster payment' introduces ambiguity. While the original clause sets a clear payment term, the added phrase opens the door for potentially conflicting agreements. If Porex requests a faster payment and Cerus doesn't agree in writing, it's unclear whether the original term still applies. This contradiction weakens the enforceability of the payment terms.",
+                "contradicted_law": "Contract Law - Ambiguity and Vagueness",
+                "location": "Section 1.5.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In the event of any conflict between the Agreement and a Statement of Work, the Agreement shall control unless the Statement of Work expressly refers to the Parties' intent to alter the terms of the Agreement with respect to that Statement of Work and shall not be construed as an amendment to the terms of the Agreement.",
+                "changed_text": "In the event of any conflict between the Agreement and a Statement of Work, the Agreement shall control; however, if a Statement of Work is newer, its terms may be used to interpret the Agreement.",
+                "explanation": "The modification introduces a contradiction. Initially, the Agreement is explicitly stated to control in case of conflict. The added phrase suggests that a newer Statement of Work can influence the interpretation, leading to uncertainty. This implies a potential override of the Agreement's terms, contradicting the original clause.",
+                "contradicted_law": "Contract Law - Order of Precedence/Integration Clause",
+                "location": "Section 3a"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Each work order shall set forth the terms and conditions (including specifications (if applicable), delivery and performance schedules, and fees) pursuant to which Porex will perform the Services.",
+                "changed_text": "Each work order shall set forth general guidelines for the Services, with specifics to be determined by Porex.",
+                "explanation": "By changing the requirement for a work order to set forth the terms and conditions, but instead provide general guidelines with Porex determined specifics, is a contradiction. This changes the terms and conditions, giving Porex authority over Cerus.",
+                "contradicted_law": "Contract Law - Mutual Agreement of Terms",
+                "location": "Section 3a"
+            }
+        ]
+    }
+]

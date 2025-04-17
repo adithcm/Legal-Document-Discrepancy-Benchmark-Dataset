@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PROFOUNDMEDICALCORP_08_29_2019-EX-4.5-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS AGREEMENT is made July 31, 2017 BETWEEN: PROFOUND MEDICAL INC., a company incorporated under the laws of the province of Ontario and having its registered address at 2400 Skymark, Unit 6, Mississauga, Ontario L4W 5K5, Canada (hereinafter referred to as \"Customer\") - and - PHILIPS MEDICAL SYSTEMS NEDERLAND B.V., a company incorporated under the laws of the Netherlands with its principal place of business at Veenpluis 4-6 5684 PC Best, the Netherlands (hereinafter referred to as \"Philips\") Customer and Philips hereinafter also collectively referred to as the \"Parties\" and individually as a \"Party\".",
+                "changed_text": "THIS AGREEMENT is made July 31, 2017 BETWEEN: PROFOUND MEDICAL INC., a company incorporated under the laws of the province of Ontario and having its registered address at 2400 Skymark, Unit 6, Mississauga, Ontario L4W 5K5, Canada (hereinafter referred to as \"Purchaser\") - and - PHILIPS MEDICAL SYSTEMS NEDERLAND B.V., a company incorporated under the laws of the Netherlands with its principal place of business at Veenpluis 4-6 5684 PC Best, the Netherlands (hereinafter referred to as \"Philips\") Purchaser and Philips hereinafter also collectively referred to as the \"Parties\" and individually as a \"Party\".",
+                "explanation": "The term 'Customer' is now defined as 'Purchaser' without consistently using the same term throughout the document, introducing confusion and making it unclear which term is legally binding.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "\"Product\" means the Sonalleve MR-guided HIFU device which Philips shall manufacture and supply according to this Agreement as specified in Schedule 1,including spare parts.",
+                "changed_text": "\"Goods\" means the Sonalleve MR-guided HIFU device which Philips shall manufacture and supply according to this Agreement as specified in Schedule 1,including spare parts.",
+                "explanation": "Replaced 'Product' with 'Goods'. Throughout the agreement, the term 'Product' will be used inconsistently alongside the new 'Goods' term, causing ambiguity about whether all references to 'Product' also apply to 'Goods', and vice-versa. This is an internal contradiction because the main definition of 'Product' which is referenced through the agreement is no longer applicable.",
+                "location": "Section 1 (Definitions)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Customer shall provide Philips in good faith on a monthly basis, on the later of (i) seven (7) days prior to the beginning of each calendar month a rolling [Redacted - Commercially Sensitive] forecast for the Products (including the major configuration of each Product such as field strength) (\"Forecast\") it expects to purchase during such [Redacted - Commercially Sensitive] period.",
+                "changed_text": "Client shall provide Philips in good faith on a monthly basis, on the later of (i) seven (7) days prior to the beginning of each calendar month a rolling [Redacted - Commercially Sensitive] forecast for the Products (including the major configuration of each Product such as field strength) (\"Forecast\") it expects to purchase during such [Redacted - Commercially Sensitive] period.",
+                "explanation": "The term 'Customer' has been replaced by the term 'Client'. This introduces a contradiction and inconsistency as both terms have now been used to potentially describe the same party within different sections of the agreement.",
+                "location": "Section 3.2"
+            }
+        ]
+    }
+]

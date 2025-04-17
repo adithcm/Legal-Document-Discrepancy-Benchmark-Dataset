@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "RISEEDUCATIONCAYMANLTD_04_17_2020-EX-4.23-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Service Recipient shall pay Service Provider the [service fees]/ [commissions and service fees] ([collectively,] \"Service Fee\") (inclusive of all applicable taxes) in accordance with Schedule 1 for the Services provided by Service Provider.\n\n[To facilitate the operation of Service Recipient, in the event that Service Recipient incurs losses, Service Provider may agree to waive the obligations of Service Recipient to pay Service Fee to Service Provider.]",
+                "changed_text": "Service Recipient shall pay Service Provider the [service fees]/ [commissions and service fees] ([collectively,] \"Service Fee\") (inclusive of all applicable taxes) in accordance with Schedule 1 for the Services provided by Service Provider.\n\nNotwithstanding the above, Service Recipient is not obligated to pay Service Fee to Service Provider in the event that Service Recipient incurs losses, regardless of Service Provider's agreement.",
+                "explanation": "This change introduces a contradiction because it first states that the Service Recipient shall pay the Service Fee according to Schedule 1, implying an obligation to pay. The added text then states that the Service Recipient is not obligated to pay Service Fees in the event that Service Recipient incurs losses. This is a contradiction, because the original text says the provider *may* waive payment, where this changed text says the recipient is under no obligation to pay in case of losses.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Notwithstanding the foregoing, upon any delay by Service Recipient in its payment of any Service Fee to Service Provider, for each day of delay in such payment, Service Recipient must pay Service Provider liquidated damages at 0.5 percent (0.5%) of the Service Fee that are due and unpaid. In the event that such delay in payment is more than fifteen (15) days, Service Provider may terminate this Agreement.",
+                "changed_text": "Notwithstanding the foregoing, upon any delay by Service Recipient in its payment of any Service Fee to Service Provider, for each day of delay in such payment, Service Recipient must pay Service Provider liquidated damages at 0.5 percent (0.5%) of the Service Fee that are due and unpaid. In the event that such delay in payment is more than fifteen (15) days, Service Provider can only claim for the service fee but termination of this agreement is not allowed.",
+                "explanation": "This change introduces a contradiction in the available recourses for the service provider. The original text allows the service provider to terminate the agreement for late payments of over fifteen days. The added text then limits the service provider to claiming the service fee alone, preventing termination. This is a contradiction, as both cannot be enforced simultaneously, leading to ambiguity.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Service Fee shall be paid after each quarter. Service Recipient shall pay the Service Fee for the preceding quarter in accordance with a written payment instruction of Service Provider during each quarter.",
+                "changed_text": "Service Fee shall be paid after each quarter. Service Recipient shall pay the Service Fee for the preceding quarter in accordance with a written payment instruction of Service Provider within 15 days of the end of each quarter. However, if the Service Recipient deems the invoice incorrect, the payment can be delayed until the next quarter.",
+                "explanation": "This change introduces a contradiction by first establishing a clear payment schedule (after each quarter, based on the service provider's instruction). Then, it introduces an exception allowing the Service Recipient to delay payment if they deem the invoice incorrect. This contradicts the original, strict payment schedule and creates ambiguity about when payment is actually due, particularly if there's a disagreement about the invoice amount.",
+                "location": "Schedule 1"
+            }
+        ]
+    }
+]

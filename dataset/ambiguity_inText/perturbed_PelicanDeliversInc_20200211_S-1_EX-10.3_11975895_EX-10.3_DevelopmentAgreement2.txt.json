@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_DevelopmentAgreement2.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections, corrections, changes or amendments required (a Change Request), within ten (10) days of such Milestone's Acceptance Test Date. Any Change Request shall be sufficient to identify, with clarity, any objection, correction, change or amendment to such Milestone Deliverable. In the absence of a Change Request from Client within the time periods detailed herein, the Milestone Deliverable will be deemed accepted by Client.",
+                "changed_text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections, corrections, changes or amendments required (a Change Request), within thirty (30) days of such Milestone's Acceptance Test Date. Any Change Request shall be sufficient to generally identify any objection, correction, change or amendment to such Milestone Deliverable. In the absence of a Change Request from Client, the Milestone Deliverable will be deemed conditionally accepted by Client pending further review.",
+                "explanation": "Changing the notification period for Change Requests from 'ten (10) days' to 'thirty (30) days' directly contradicts the original timeframe for acceptance. Also replacing 'sufficient to identify with clarity' to 'sufficient to generally identify' creates ambiguities. Furthermore, modifying 'deemed accepted' to 'deemed conditionally accepted' makes the acceptance criteria unclear.",
+                "location": "Section 3.4"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5.2 FEES AND EXPENSES All Fees shall be due pursuant to the Fee payment schedule provided in a SOW hereto (the Fee Payment Schedule). Client's failure to remit payment to Developer for Fees due and owning will constitute a material breach of this Agreement.",
+                "changed_text": "5.2 FEES AND EXPENSES All Fees shall be due pursuant to the Fee payment schedule provided in a SOW hereto (the Fee Payment Schedule). Client's failure to remit payment to Developer for Fees due and owing may, at the Developer's discretion, constitute a material breach of this Agreement.",
+                "explanation": "Changing 'will constitute a material breach' to 'may, at the Developer's discretion, constitute a material breach' introduces uncertainty. The original text made non-payment a definite breach, whereas the modified text allows for developer discretion, potentially conflicting with other sections that specify consequences for material breaches.",
+                "location": "Section 5.2"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.2 TERMINATION FOR CAUSE This Agreement may be immediately terminated by notice of the terminating Party upon: (a) the other Party's material breach of this Agreement and fails to cure such default within ten (10) calendar days after receipt of a notice of default from the terminating Party; (b) if Client fails to pay to Developer any undisputed Fees when du and fails to cure any such breach within ten (10) calendar days after receiving notice from Developer of such failure; (c) misappropriation or unauthorized disclosure of Confidential Information by the Receiving Party; or (d) the other Party engages in any act or omission that is determined to be illegal or in violation of any applicable law or regulation.",
+                "changed_text": "11.2 TERMINATION FOR CAUSE This Agreement may be terminated by notice of the terminating Party within a reasonable time frame upon: (a) the other Party's material breach of this Agreement and fails to cure such default; (b) if Client fails to pay to Developer any Fees and fails to cure any such breach; (c) misappropriation or unauthorized disclosure of Confidential Information by the Receiving Party if it causes significant damages; or (d) the other Party engages in any act or omission that is determined to be in violation of any applicable law or regulation.",
+                "explanation": "Removing 'immediately' and 'ten (10) calendar days' from (a) and (b) makes the termination timeline ambiguous. Adding 'if it causes significant damages' to (c) adds a subjective criterion. Together this create conflicting enforcement as some conditions are absolute and some depends on an interpretation.",
+                "location": "Section 11.2"
+            }
+        ]
+    }
+]

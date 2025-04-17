@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WARNERCHILCOTTPLC_12_31_2003-EX-4.36-DEVELOPMENTAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE INTERNAL LAWS OF THE STATE OF NEW YORK APPLICABLE TO AGREEMENTS MADE AND TO BE PERFORMED ENTIRELY WITHIN SUCH STATE, WITHOUT REGARD TO THE CONFLICTS OF LAW PRINCIPLES OF SUCH STATE OTHER THAN SECTIONS 5-1401 OF THE NEW YORK GENERAL\n\nOBLIGATIONS LAW.",
+                "changed_text": "THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE INTERNAL LAWS OF THE STATE OF DELAWARE APPLICABLE TO AGREEMENTS MADE AND TO BE PERFORMED ENTIRELY WITHIN SUCH STATE, WITHOUT REGARD TO THE CONFLICTS OF LAW PRINCIPLES OF SUCH STATE OTHER THAN SECTIONS 5-1401 OF THE NEW YORK GENERAL\n\nOBLIGATIONS LAW.",
+                "explanation": "The contract is now stating that Delaware law applies to an agreement to be performed in New York, but also includes the New York General Obligations Law, creating confusion about which jurisdiction's laws take precedence.",
+                "contradicted_law": "Choice of Law principles, New York General Obligations Law",
+                "location": "XIII - GOVERNING LAW"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Each Party hereto hereby waives to the fullest extent permitted by applicable Law, any right it may have to a trial by jury in respect to any litigation directly or indirectly arising out of, under or in connection with this Agreement.",
+                "changed_text": "Each Party hereto hereby waives to the fullest extent permitted by applicable Law, any right it may have to a trial by jury in respect to any litigation directly or indirectly arising out of, under or in connection with this Agreement, except in cases of gross negligence or willful misconduct, where the right to a jury trial is explicitly retained.",
+                "explanation": "This change introduces a legal contradiction by initially waiving the right to a jury trial, then carving out an exception for specific circumstances (gross negligence or willful misconduct). This creates ambiguity and uncertainty regarding the waiver's scope and enforceability.",
+                "contradicted_law": "Seventh Amendment to the United States Constitution, Contract Law regarding waivers",
+                "location": "XIII - GOVERNING LAW"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Any notice hereunder shall be deemed to be sufficiently given if sent by registered mail or by fax followed by mail to:",
+                "changed_text": "Any notice hereunder shall be deemed to be sufficiently given if sent by registered mail, but electronic mail may also be used.",
+                "explanation": "The original notice clause specifies registered mail or fax followed by mail. The modified version introduces electronic mail without clarifying whether it supersedes or supplements the registered mail requirement. This creates ambiguity, as it's unclear whether registered mail is still required or if email is sufficient. In legal contexts, the method of notice can be crucial, and this ambiguity can be exploited to argue that proper notice was not given, hindering contract enforcement.",
+                "contradicted_law": "Contract Law regarding notice provisions",
+                "location": "XIV - NOTICES"
+            }
+        ]
+    }
+]

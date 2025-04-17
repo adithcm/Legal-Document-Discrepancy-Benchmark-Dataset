@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "OMINTO,INC_03_29_2004-EX-10-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3. COMPENSATION MediaNet Group Technologies shall pay Reseller a fee in accordance with the annexed Fee Schedule. MediaNet Group Technologies will remit payment as directed by Reseller in the time frames noted on the Compensation Schedule attached hereto.",
+                "changed_text": "3. COMPENSATION MediaNet Group Technologies shall pay Reseller a fee in accordance with the annexed Fee Schedule. MediaNet Group Technologies will remit payment as directed by Reseller within 90 days of invoice receipt, notwithstanding any conflicting time frames noted in the Compensation Schedule attached hereto.",
+                "explanation": "This change introduces a conflict by stating payments will be made within 90 days, overriding potentially shorter timeframes outlined in the Compensation Schedule. This creates uncertainty regarding the actual payment deadline.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "9.1 TERM. The term of this Agreement shall commence on the Effective Date and continue for a period of 1 year after the Effective Date, unless earlier terminated as set forth herein (the \"TERM\"). This Agreement shall renew for successive 1-year periods, after the initial 1 Year Term, if agreed by both parties in writing within 30 days of license expiration. Either party may terminate the Agreement on 60-days written notice during a renewed term. However, in no event shall termination of this Agreement by MediaNet Group Technologies relieve it of the obligation to remit payment to Reseller for sales or Portals, Hosting Services or other products and services to or through Buyers contracted by Reseller prior to such termination. The obligation to remit payment cease 30 days after termination of this Agreement.",
+                "changed_text": "9.1 TERM. The term of this Agreement shall commence on the Effective Date and continue for a period of 1 year after the Effective Date, unless earlier terminated as set forth herein (the \"TERM\"). This Agreement shall renew for successive 1-year periods, after the initial 1 Year Term, if agreed by both parties in writing within 30 days of license expiration. Either party may terminate the Agreement on 60-days written notice during a renewed term. However, in no event shall termination of this Agreement by MediaNet Group Technologies relieve it of the obligation to remit payment to Reseller for sales or Portals, Hosting Services or other products and services to or through Buyers contracted by Reseller prior to such termination. The obligation to remit payment ceases immediately upon termination of this Agreement, regardless of previous sales.",
+                "explanation": "This edit contradicts the original clause which stated payment obligation would cease 30 days after termination. By changing it to cease immediately upon termination, it creates confusion on when payment obligations end, potentially leading to disputes about commissions earned before termination.",
+                "location": "Section 9.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "13.1 ASSIGNMENT. This Agreement will be binding upon and inure to the benefits of the parties hereto and their permitted successors and assigns. Reseller may nat assign or otherwise transfer this Agreement without MediaNet Group Technologies's prior written consent except to a successor.",
+                "changed_text": "13.1 ASSIGNMENT. This Agreement will be binding upon and inure to the benefits of the parties hereto and their permitted successors and assigns. Reseller may assign or otherwise transfer this Agreement to any affiliated entity without MediaNet Group Technologies's prior written consent. Reseller may not assign or otherwise transfer this Agreement to any other entity without MediaNet Group Technologies's prior written consent except to a successor.",
+                "explanation": "This alteration creates conflicting assignment terms. Initially, any assignment requires consent, but now assignments to affiliated entities are allowed without consent, potentially undermining MediaNet Group Technologies's control over the assignment process and creating confusion over which assignments require consent.",
+                "location": "Section 13.1"
+            }
+        ]
+    }
+]

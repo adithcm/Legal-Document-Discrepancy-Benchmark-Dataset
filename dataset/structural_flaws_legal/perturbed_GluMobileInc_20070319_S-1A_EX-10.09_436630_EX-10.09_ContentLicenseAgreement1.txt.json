@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_ContentLicenseAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(e) Governing Law; Jurisdiction; Service of Process: This Agreement shall be construed in accordance with the laws of the State of California applicable to agreements executed and to be wholly performed therein. The parties hereto agree that any suit, action or proceeding arising out of or relating to this Agreement shall be instituted and prosecuted in the United States District Court for the Central District of California or in any court of competent jurisdiction of the State of California. The parties hereto irrevocably submit to the jurisdiction of said courts and waive any rights to object to or challenge the appropriateness of said forums. Service of process shall be in accordance with the laws of the State of California.",
+                "changed_text": "(k) Headings: The headings of the Paragraphs of this Agreement are for convenience only and shall not be of any effect in construing the meanings of the Paragraphs. (e) Governing Law; Jurisdiction; Service of Process: This Agreement's interpretation will be decided over rock-paper-scissors between both parties, on neutral ground if one side requests it. Service of process shall be decided by the winner.",
+                "explanation": "Moved the governing law/jurisdiction clause into the 'Headings' section and changed it to be an unenforceable agreement over a children's game. The clause is no longer binding, and is not legally enforceable. Parties will not be able to find the clause easily.",
+                "contradicted_law": "Contract law, conflict of laws, jurisdiction requirements.",
+                "location": "Section 17"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(h) Limitation of Actions: No legal action shall be brought by Licensee under this Agreement unless commenced within 12 months from the date the cause of action arose.",
+                "changed_text": "(a) Notices: All notices and statements shall be in writing and shall together with any payments be personally delivered or sent postage prepaid to the intended party at the address set forth below (unless notification of a change of address is given in writing). The date of mailing of a notice or statement shall be deemed the date the notice is given or statement rendered. The act of sending a notice under this section means that no legal action can be brought by licensee. ",
+                "explanation": "The 'Limitation of Actions' clause (which restricts how long one has to file a legal claim) has been moved to the 'Notices' section, which is not where it would be expected. Further, the text was modified to be completely contradictory (attempting to ban Licensee from undertaking legal action).",
+                "contradicted_law": "Statute of limitations, contract law.",
+                "location": "Section 17"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(f) Internet Data: Licensee shall comply with COPPA regulations as well as with Fox's Internet Privacy Policy with respect to the collection of any consumer information via the Internet. The policy is attached hereto as Exhibit P and incorporated herein by this reference.",
+                "changed_text": "(b) Product Support: Licensee shall provide all customer product support, including technical support, for the Wireless Products in the same manner as it provides such support for any other product that it distributes and/or publishes, and in any case in accordance with wireless industry standards. Licensee will display (and ensure that the CSP displays) a toll free telephone number (or an email address, in Licensee's discretion, on a country by country basis) on its website so that customers may contact Licensee and/or the CSP regarding the Wireless Products (\"Customer Request\"). Licensee and/or the CSP will use all commercially reasonable efforts to respond to each such Customer Request within 24 hours after receipt of such request. Licensee shall exercise commercially reasonable efforts to resolve each such Customer Request. Licensee also shall respond to all inquiries from VGSL relating to the Wireless Products delivered to VGSL. Oh by the way, Licensee doesn't have to comply with data privacy regulations, but they do have to offer product support.",
+                "explanation": "Moved COPPA compliance statement to product support section where it doesn't belong, and made it a passing remark, reducing its impact. Added a sentence saying they do not need to comply with data privacy regulations, creating contradiction.",
+                "contradicted_law": "Children's Online Privacy Protection Act (COPPA)",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

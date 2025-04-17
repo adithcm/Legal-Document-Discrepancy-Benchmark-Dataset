@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MetLife,Inc.-RemarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(f) To make generally available to securityholders of the Company as soon as practicable, but in any event not later than eighteen months after the effective date of the Registration Statement (as defined in Rule 158(c) under the Act), an earnings statement of the Company and its subsidiaries (which need not be audited) complying with Section 11(a) of the Act and the rules and regulations thereunder (including, at the option of the Company, Rule 158);",
+                "changed_text": "(f) To make generally available to securityholders of the Company at its discretion, an earnings statement of the Company and its subsidiaries, which may not be audited, and may not fully comply with Section 11(a) of the Act and the rules and regulations thereunder;",
+                "explanation": "The original clause guarantees securityholders access to an earnings statement within 18 months, complying with the Act. The modified clause removes this guarantee by making the provision of the statement discretionary and weakening the compliance requirement. This introduces legal risk because Section 11(a) of the Securities Act of 1933 mandates certain disclosures and timelines which this clause now potentially violates.",
+                "contradicted_law": "Section 11(a) of the Securities Act of 1933",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "changed_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK.",
+                "explanation": "The original clause specifies that New York law governs the agreement, explicitly excluding conflict of law principles that might lead to the application of other jurisdictions' laws. The modified clause omits the exclusion of conflict of law principles. This is a **legal contradiction** because some cases may trigger consumer protection laws from other states or countries. Consumer protection laws vary, and New York law may offer fewer protections in some instances. By omitting the exclusion, the contract allows for the *possible* application of laws less favorable to the consumer than what would have been guaranteed by adhering strictly to New York law.",
+                "contradicted_law": "Varies by jurisdiction, e.g., California Consumer Rights Act if a California resident is affected",
+                "location": "Section 15"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "21. Waiver of Jury Trial. The Company and each of the Remarketing Agents hereby irrevocably waives, to the fullest extent permitted by applicable law, any and all right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement or the transactions contemplated hereby.",
+                "changed_text": "21. Waiver of Jury Trial. The Company hereby waives any right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement.",
+                "explanation": "The original clause includes a waiver of jury trial rights by both the Company and the Remarketing Agents, 'to the fullest extent permitted by applicable law'. The modified version omits 'to the fullest extent permitted by applicable law' and only has the company waiving jury trial rights. While waivers of jury trial rights are generally enforceable, they must be knowing and voluntary and applied to both parties involved in the agreement. This omission could create a scenario where one party, the remarketing agents, retains the right to a jury trial while the other (the company) does not. This could be interpreted as unbalanced and raise questions about the fairness and enforceability of the waiver, particularly if the remarketing agents take action against an individual consumer that could be seen as a violation of state or federal law related to Securities and Exchanges. This creates a **legal contradiction** because the company isn't given the same right to have a jury trial.",
+                "contradicted_law": "Seventh Amendment to the US Constitution (right to jury trial), Securities Exchange Act of 1934",
+                "location": "Section 21"
+            }
+        ]
+    }
+]

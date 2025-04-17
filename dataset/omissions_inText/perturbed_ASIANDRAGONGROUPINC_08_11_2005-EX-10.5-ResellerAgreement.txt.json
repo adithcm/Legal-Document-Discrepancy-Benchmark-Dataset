@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Subscriber Support Telnet shall maintain a first line of response, known within the telephony industry as a \"Tier 1 Subscriber help-desk and support function\", as further defined in Schedule \"B\", as is required to maintain Subscriber satisfaction at or above industry standards.",
+                "changed_text": "Subscriber Support Telnet shall maintain a subscriber support function as is required to maintain Subscriber satisfaction.",
+                "explanation": "By removing the explicit reference to \"Tier 1 Subscriber help-desk and support function\" and Schedule B, the contract becomes ambiguous. Other sections may still refer to the Tier 1 support or details in Schedule B, creating an internal contradiction as the detailed definition and requirements are now missing.",
+                "location": "Section 3.6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Telnet shall include those terms set out in Schedule \"C\" as a term in each Subscriber agreement for Services.",
+                "changed_text": "Telnet shall include standard terms in each Subscriber agreement for Services.",
+                "explanation": "By removing the explicit reference to Schedule C, the contract creates ambiguity around which terms must be included in the subscriber agreement. If other sections reference specific clauses or requirements detailed in Schedule C, this omission creates an internal contradiction and makes enforcement unclear.",
+                "location": "Section 3.5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Listed in Schedule \"A\" is a list of the Services which are available to Telnet as of the Effective Date.",
+                "changed_text": "A list of the Services is available to Telnet.",
+                "explanation": "Removing \"Listed in Schedule \"A\"\" creates an ambiguity as to where the list of available services can be found. If Section 7 and other areas of the contract refer to the definitions, products or pricing within Schedule A, it will not make sense, as the section it is referring to, will no longer exist. This creates a contradiction.",
+                "location": "Section 7.1"
+            }
+        ]
+    }
+]

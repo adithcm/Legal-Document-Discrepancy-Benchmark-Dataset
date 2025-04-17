@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Magenta Therapeutics, Inc. - Master Development and Manufacturing Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Agreement may be renewed for additional periods of one (1) year (each such additional period, a \"Renewal Term\") unless either Party provides notice of nonrenewal upon not less than [***] prior written notice to the other Party. Notwithstanding the foregoing, each Project Plan may have separate term and termination provisions, so long as the term of any Project Plan does not extend beyond the Initial Term or a subsequent Renewal Term.",
+                "changed_text": "This Agreement may be renewed for additional periods of one (1) year (each such additional period, a \"Renewal Term\") unless either Party provides notice of nonrenewal upon not less than [***] prior written notice to the other Party. Notwithstanding the foregoing, each Task Order may have separate term and termination provisions, so long as the term of any Task Order does not extend beyond the Initial Term or a subsequent Renewal Term.",
+                "explanation": "The term 'Project Plan' is replaced with 'Task Order' in the second sentence. While 'Project Plan' is defined in Section 1.16, 'Task Order' is not, creating ambiguity and potentially conflicting interpretations regarding the term and termination of individual projects.",
+                "location": "Section 7.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "6.2 Acceptance and Rejection of Products.\n\n(a) Promptly following receipt of Product, Magenta shall have the right but not the obligation to test such Product to determine compliance with the Specifications. Magenta shall have [***] after receipt of the Product to notify Bachem in writing of any rejection of Product based on a sufficiently documented claim that the Product fails to meet the Specifications.",
+                "changed_text": "6.2 Acceptance and Rejection of Products.\n\n(a) Promptly following receipt of Goods, Magenta shall have the right but not the obligation to test such Goods to determine compliance with the Specifications. Magenta shall have [***] after receipt of the Goods to notify Bachem in writing of any rejection of Goods based on a sufficiently documented claim that the Goods fails to meet the Specifications.",
+                "explanation": "The term 'Product' is replaced with 'Goods'. While 'Product' is defined in Section 1.15, 'Goods' is not, creating ambiguity and potentially conflicting interpretations regarding what can be accepted or rejected.",
+                "location": "Section 6.2(a)"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "If to Magenta: Magenta Therapeutics, Inc. Attn: [***] 50 Hampshire Street 8t h Floor Cambridge, MA 02139 [***]\n\nIf to Bachem: Bachem Americas, Inc. Attn: [***] 3132 Kashiwa Street, Torrance, CA 90505 [***]",
+                "changed_text": "If to Magenta: Magenta Therapeutics, Inc. Attn: [***] 50 Hampshire Street 8t h Floor Cambridge, MA 02139 [***]\n\nIf to Bachem: Bachem Americas, Inc. Attn: [***] 3132 Kashiwa Avenue, Torrance, CA 90505 [***]",
+                "explanation": "The 'Street' is replaced with 'Avenue' in the 'If to Bachem' section. There is no clear clarification of whether the street and avenue are the same address and this will impact legal notices and other communications that are required or permitted by this Agreement.",
+                "location": "Section 14"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "MetLife,Inc.-RemarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "changed_text": "4. Fees and Expenses. The Company covenants and agrees with the Remarketing Agents that the Company will pay or cause to be paid the following: (i) the fees, disbursements and expenses of counsel and accountants to the Company in connection with the registration of the Securities under the Act and all other expenses in connection with the preparation, printing and filing of the Registration Statement...15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF DELAWARE, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+                "explanation": "The original 'Governing Law' clause specifies New York law. By moving this to the 'Fees and Expenses' section and changing the state to Delaware, it introduces confusion about which jurisdiction's laws apply. This misplaced clause now appears within a section detailing financial obligations, which is an unexpected and confusing location for a governing law provision.",
+                "contradicted_law": "General Contract Law - Proper placement of governing law clause",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "6. Indemnification and Contribution.\n\n(a) The Company will indemnify and hold harmless each Remarketing Agent, its partners, directors and officers and each person, if any, who controls such Remarketing Agent within the meaning of either Section 15 of the Act or Section 20 of the Exchange Act, against any losses, claims, damages or liabilities, joint or several, to which such Remarketing Agent may become subject, under the Act or otherwise, insofar as such losses, claims, damages or liabilities (or actions in respect thereof) arise out of or are based upon an untrue statement or alleged untrue statement of a material fact contained in (i) the Registration Statement",
+                "changed_text": "10. Dealing in the Remarketed Securities. Each Remarketing Agent, when acting hereunder, or when acting in its individual or any other capacity, may, to the extent permitted by law, buy, sell, hold or deal in any of the Remarketed Securities. The Remarketing Agents may exercise any vote or join in any action which any beneficial owner of Remarketed Securities may be entitled to exercise or take pursuant to the Indenture with like effect as if they did not act in any capacity hereunder. The Remarketing Agents, in their individual capacities, either as principal or agent, may also engage in or have an interest in any financial or other transaction with the Company as freely as if they did not act in any capacity hereunder. 6. Indemnification and Contribution.\n\n(a) The Company will indemnify and hold harmless each Remarketing Agent, its partners, directors and officers and each person, if any, who controls such Remarketing Agent within the meaning of either Section 15 of the Act or Section 20 of the Exchange Act, against any losses, claims, damages or liabilities, joint or several, to which such Remarketing Agent may become subject, under the Act or otherwise, insofar as such losses, claims, damages or liabilities (or actions in respect thereof) arise out of or are based upon an untrue statement or alleged untrue statement of a material fact contained in (i) the Registration Statement",
+                "explanation": "Moving the 'Indemnification and Contribution' clause to the 'Dealing in the Remarketed Securities' section. The 'Dealing' section is about the Remarketing Agent's ability to engage in the process of the agreement. A misplaced indemnification clause would be harder to locate and enforce.",
+                "contradicted_law": "Securities Act of 1933, Exchange Act of 1934",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

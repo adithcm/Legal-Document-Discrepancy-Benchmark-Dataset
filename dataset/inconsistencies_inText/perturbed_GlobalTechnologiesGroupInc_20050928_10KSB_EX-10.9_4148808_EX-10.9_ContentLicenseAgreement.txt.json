@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GlobalTechnologiesGroupInc_20050928_10KSB_EX-10.9_4148808_EX-10.9_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6.2 Payments. All payments hereunder shall be payable to IMNTV in United States Dollars on a quarterly basis upon receipt from the wireless carriers in the Territory, except as follows:\n\n(a) First Payment. The first payment to IMNTV will be payable upon receipt at the end of the first calendar quarter after Launch, and will include any amounts due, pro-rated based on the number of days in such period of time; and\n\n(b) Last Payment. The last payment to IMNTV will be payable upon receipt at the end of the first full month after the termination or expiration of this Agreement, and will include any amounts due: for the last month that the Programming is available, prorated based on the number of days in such final period.",
+                "changed_text": "6.2 Payments. All payments hereunder shall be payable to IMNTV in United States Dollars on a quarterly basis upon receipt from the wireless carriers in the Territory, except as follows:\n\n(a) First Payment. The first payment to IMNTV will be payable upon receipt 90 days after the end of the first calendar quarter after Launch, and will include any amounts due, pro-rated based on the number of days in such period of time; and\n\n(b) Last Payment. The last payment to IMNTV will be payable upon receipt at the end of the first full month after the termination or expiration of this Agreement, and will include any amounts due: for the last month that the Programming is available, prorated based on the number of days in such final period.",
+                "explanation": "The change to section 6.2(a) introduces a contradiction by specifying that the first payment is due 90 days after the quarter, rather than at the end of the first quarter. This creates uncertainty about when the initial payment is actually due, creating an enforcement problem.",
+                "location": "Section 6.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "7.1 General Termination Rights. Either party may terminate the Agreement at any time in the event of a material breach by the other party that remains uncured after thirty (30) days written notice of the breach.",
+                "changed_text": "7.1 General Termination Rights. Either party may terminate the Agreement at any time in the event of a material breach by the other party. No written notice or cure period shall be required for termination based on material breach.",
+                "explanation": "This modification directly contradicts the original clause by removing the requirement for a 30-day written notice and cure period before termination due to a material breach. This introduces significant uncertainty, as it's now unclear whether a party can immediately terminate the agreement upon any perceived material breach, potentially leading to disputes over the validity of termination.",
+                "location": "Section 7.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "3.1 Grant of License. During the Term, for the activities described in this Agreement, IMNTV hereby grants Distributor non-exclusive rights and licenses necessary within the Territory to: (a) copy, store digitally, host and stream the Programming; (b) publicly perform, publicly display, electronically transmit, distribute and broadcast the Programming; (c) promote the Programming and use IMNTV Marks for Distributor's promotion of the Programming as activities described in Section 2.4 above; (d) archive the Programming on Distributor's servers; (e) encode, copy, and create continuous Programming excerpts of up to sixty (60) seconds and transmit, publicly perform, distribute, and redistribute such excerpts to end users via the Distributor's Portal for marketing purposes only(f) deep link to the Programming.",
+                "changed_text": "3.1 Grant of License. During the Term, for the activities described in this Agreement, IMNTV hereby grants Distributor exclusive rights and licenses necessary within the Territory to: (a) copy, store digitally, host and stream the Programming; (b) publicly perform, publicly display, electronically transmit, distribute and broadcast the Programming; (c) promote the Programming and use IMNTV Marks for Distributor's promotion of the Programming as activities described in Section 2.4 above; (d) archive the Programming on Distributor's servers; (e) encode, copy, and create continuous Programming excerpts of up to thirty (30) seconds and transmit, publicly perform, distribute, and redistribute such excerpts to end users via the Distributor's Portal for marketing purposes only(f) deep link to the Programming.",
+                "explanation": "This modification has two contradictions. Firstly, it changes the nature of the license from 'non-exclusive' to 'exclusive,' contradicting the possibility of IMNTV licensing the same content to other distributors in the same territory. Secondly, it changes the length of continuous programming excerpts from 60 seconds to 30 seconds. This creates uncertainty about the extent of distributor's rights and introduces discrepancies in the marketing material the distributor can create.",
+                "location": "Section 3.1"
+            }
+        ]
+    }
+]

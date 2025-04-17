@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "changed_text": "SFDC may appoint SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller is encouraged to ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller; however, Sub-Reseller compliance is not the responsibility of the Reseller, and any breach by Sub-Reseller of the Agreement will not automatically be deemed a breach by Reseller.",
+                "explanation": "By changing \"hereby appoints\" to \"may appoint\", the obligation of SFDC to appoint the Sub-Reseller becomes discretionary. Also, by changing 'Reseller must ensure' to 'Reseller is encouraged to ensure' and by adding 'Sub-Reseller compliance is not the responsibility of the Reseller, and any breach by Sub-Reseller of the Agreement will not automatically be deemed a breach by Reseller,' the responsibility of the Reseller for the Sub-Reseller's compliance is weakened and the automatic attribution of Sub-Reseller's breach to the Reseller is removed, creating uncertainty about liability for breaches.",
+                "location": "1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained generally constitute the agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement but do not supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "explanation": "By changing \"constitute the entire agreement\" to \"generally constitute the agreement\" and \"supersede any previous and contemporaneous agreements\" to \"do not supersede any previous and contemporaneous agreements,\" it introduces uncertainty regarding what constitutes the 'entire' agreement. It becomes unclear which agreements and understandings are actually binding, potentially leading to disputes over pre-existing arrangements.",
+                "location": "3"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned copies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together, will be deemed to constitute a single instrument.",
+                "changed_text": "This Sub-Reseller Agreement should be executed in a single original document; however, if executed in multiple counterparts, including facsimiles or scanned copies sent via email or otherwise, it is at the sole discretion of SFDC to consider each to be a duplicate original, but even if deemed so, this does not guarantee that all such documents taken together will constitute a single instrument.",
+                "explanation": "The original clause clearly states that counterparts are acceptable and will be considered a single agreement. The modified text introduces ambiguity by stating a preference for a single document, then making acceptance of counterparts discretionary for SFDC. Furthermore, even if counterparts are accepted, it creates uncertainty whether all the documents will actually constitute a single agreement, potentially leading to disputes over which version or combination of versions is binding.",
+                "location": "4"
+            }
+        ]
+    }
+]

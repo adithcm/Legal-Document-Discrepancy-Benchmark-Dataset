@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "changed_text": "Reseller should endeavor to ensure that Sub-Reseller generally complies with the terms of the Agreement applicable to Reseller. Any major breach by Sub-Reseller, as determined by SFDC, may be deemed a breach by Reseller.",
+                "explanation": "This change weakens the obligation. 'Must ensure' becomes 'should endeavor to ensure', introducing ambiguity about the level of responsibility. The addition of 'generally complies' further weakens the requirement. Defining a major breach as determined by SFDC introduces subjectivity and potential for arbitrary enforcement, conflicting with standard contract law principles requiring clear and objective standards.",
+                "contradicted_law": "General Contract Law Principles (Requirement for clear and objective standards)",
+                "location": "1"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained generally constitute the agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede most previous agreements and understandings, unless otherwise determined by SFDC.",
+                "explanation": "The terms 'generally constitute' and 'most previous agreements' create uncertainty. The addition of 'unless otherwise determined by SFDC' allows SFDC to arbitrarily decide which agreements are superseded, undermining the purpose of an entire agreement clause and making the contract unenforceable in its intended form. This contradicts the principle of 'complete agreement', which aims to prevent disputes based on prior agreements.",
+                "contradicted_law": "General Contract Law Principles (Entire Agreement/Integration Clause)",
+                "location": "3"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer.",
+                "changed_text": "SFDC may appoint SUB-RESELLER (\"Sub-Reseller\") as a possible sub-reseller to whom Reseller might resell Services, if SFDC permits and Sub-Reseller has not violated any existing salesforce Agreements in the past.",
+                "explanation": "The change introduces a sense of uncertainty where there originally wasn't any. The terms 'may appoint' and 'possible sub-reseller' are not definitive, adding 'if SFDC permits' gives SFDC the liberty to change its mind anytime. It's ambiguous because the contract implies that it has not been determined if Sub-Reseller will be appointed, or if the appointment is a guarantee, contradicting mutual assent contract requirement.",
+                "contradicted_law": "General Contract Law Principles (Mutual Assent)",
+                "location": "1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_MarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1. The term of this JSMA shall commence on May 1, 2020 (the \"Commencement Date\") and ends at April 30, 2029 (the \"Term\"), with automatic renewals each for a period of five (5) years (a \"Renewal Term\") unless notice is given pursuant to 5.2. 5.2. This JSMA will be terminated as of the end of the Term or any Renewal Term, by either Party giving written notice of non-renewal to the other Party no less than 120 prior to the applicable expiry date (the \"Termination Period\").",
+                "changed_text": "5.1. The term of this JSMA shall commence on May 1, 2020 (the \"Commencement Date\") and ends at April 30, 2029 (the \"Term\"), with automatic renewals each for a period of five (5) years (a \"Renewal Term\") unless notice is given pursuant to 5.2. 5.2. This JSMA will be terminated as of the end of the Term or any Renewal Term only by mutual written consent of both Parties no less than 120 prior to the applicable expiry date (the \"Termination Period\").",
+                "explanation": "Section 5.1 states the contract auto-renews, conflicting with 5.2's provision for termination via notice, thus creating uncertainty about auto-renewal enforcement, depending on whether mutual written consent of both Parties is required or either Party can trigger termination.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.1. Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within three (3) Business Days after the date Vertex invoices Bunker One, to an account desig- nated from time to time by Vertex.",
+                "changed_text": "4.1. Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within thirty (30) Business Days after the date Vertex invoices Bunker One, to an account desig- nated from time to time by Vertex.",
+                "explanation": "Section 4.1 originally required payment within three (3) Business Days after the date Vertex invoices Bunker One, which has now been modified to thirty (30) Business Days. This change results in a contradiction because if Bunker One fails to remit within the initial three business days, it can argue that the new timeline provides an extended window for settlement.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.1. Neither Party shall assign or transfer any rights or obligations hereunder without the express prior written consent of the other Party, which may not be unreasonably withheld. Nothing in the JSMA is intended or shall be construed to confer upon or give to any person or entity any rights as a third party beneficiary of the JSMA or any Party thereof.",
+                "changed_text": "11.1. Neither Party shall assign or transfer any rights or obligations hereunder; assignment is permitted at any time without consent. Nothing in the JSMA is intended or shall be construed to confer upon or give to any person or entity any rights as a third party beneficiary of the JSMA or any Party thereof.",
+                "explanation": "Section 11.1 initially stated that no Party can assign or transfer any rights without written consent, which has been contradicted with 'assignment is permitted at any time without consent'. This conflict creates uncertainty about each party's obligations when assigning or transferring rights, because while previously written consent was needed, it can now be done with no approval.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

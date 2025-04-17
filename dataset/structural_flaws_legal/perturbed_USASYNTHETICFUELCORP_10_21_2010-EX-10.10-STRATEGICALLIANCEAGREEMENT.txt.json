@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "USASYNTHETICFUELCORP_10_21_2010-EX-10.10-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Confidential Information shall not be used for any purpose other than to evaluate and consummate the transactions contemplated by this Agreement, and shall not be disclosed without prior written consent of the other Party, except to:\n\n    (i) those employees with a need to know the Confidential Information for the purpose of performing work related to the transactions contemplated by this Agreement; provided, however that the Parties shall require all such employees receiving the Confidential Information abide by the terms of this confidentiality covenant. Each Party shall be responsible for any breach of this Agreement by its employees or Affiliates; or",
+                "changed_text": "Confidential Information shall not be used for any purpose other than to evaluate and consummate the transactions contemplated by this Agreement, and shall not be disclosed without prior written consent of the other Party, except to:\n\n    (i) those employees with a need to know the Confidential Information for the purpose of performing work related to the transactions contemplated by this Agreement; provided, however that the Parties are recommended to require all such employees receiving the Confidential Information abide by the terms of this confidentiality covenant. Each Party shall not be responsible for any breach of this Agreement by its employees or Affiliates; or",
+                "explanation": "Changing 'shall require' to 'are recommended to require' weakens the binding nature of the confidentiality covenant, making it more difficult to enforce. By changing 'shall be' to 'shall not be', it creates a contradiction of the confidentiality agreement.",
+                "contradicted_law": "Trade Secrets Law, Contract Law - Enforceability of Confidentiality Agreements",
+                "location": "Section 7(c)(i)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In the event either Party files an action to enforce or otherwise arising out of this Agreement, the prevailing Party in such action shall be entitled to reasonable attorneys' fees and court costs in addition to such other relief to which it may be entitled.",
+                "changed_text": "In the event either Party files an action to enforce or otherwise arising out of this Agreement, the prevailing Party in such action may be entitled to reasonable attorneys' fees and court costs in addition to such other relief to which it may be entitled.",
+                "explanation": "Changing 'shall be entitled' to 'may be entitled' introduces ambiguity regarding the recovery of attorney's fees. This reduces the predictability and certainty of the legal outcome, potentially discouraging parties from enforcing their rights or increasing the cost of litigation due to the uncertainty.",
+                "contradicted_law": "Contract Law - Enforceability of Fee-Shifting Provisions",
+                "location": "Section 10(g)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement, and the rights and obligations of the Parties hereunder, shall be subject to, and construed in accordance with, the laws of the State of New York.",
+                "changed_text": "This Agreement, and the rights and obligations of the Parties hereunder, shall be subject to, and construed in accordance with, the laws of the State of Delaware.",
+                "explanation": "The contract explicitly states 'laws of the State of New York' but it switches to Delaware. This introduces ambiguity to choice of law, impacting interpretation and enforcement.",
+                "contradicted_law": "Contract Law - Choice of Law Provisions",
+                "location": "Section 10(h)"
+            }
+        ]
+    }
+]

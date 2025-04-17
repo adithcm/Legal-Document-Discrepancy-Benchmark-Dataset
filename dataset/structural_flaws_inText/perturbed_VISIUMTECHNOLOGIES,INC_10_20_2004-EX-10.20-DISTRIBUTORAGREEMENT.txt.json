@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VISIUMTECHNOLOGIES,INC_10_20_2004-EX-10.20-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.1. WLI hereby grants to Power2Ship the non-exclusive right and license to distribute certain WLI's products and services (the \"Products\" or \"Units\") and software programs (\"Licensed Programs\") to Power2Ship's customers (which are end users) located in North America. \"Products\" or \"Units\" in this Agreement are limited to WLI's G3001 GPSLink mobile terminal as defined in Section 1.2. \"Licensed Programs\" in this Agreement are limited to WLI's MidLink Middleware software and G3001 programming tools. Further, Power2Ship shall also be authorized to resell other WLI products, services and support programs subject to separate written amendments to be made by the parties to this Agreement. WLI reserves the right to add additional products and to delete obsolete or superseded products at any time during the term of this Agreement upon sixty (60) days prior written notice to Power2Ship.",
+                "changed_text": "1.1. WLI hereby grants to Power2Ship the non-exclusive right and license to distribute certain WLI's products and services (the \"Products\" or \"Units\") and software programs (\"Licensed Programs\") to Power2Ship's customers (which are end users) located in North America. \"Products\" or \"Units\" in this Agreement *may* include but are not limited to WLI's G3001 GPSLink mobile terminal as defined in Section 1.2. \"Licensed Programs\" in this Agreement are *intended* to include WLI's MidLink Middleware software and G3001 programming tools. Further, Power2Ship shall also be authorized to resell other WLI products, services and support programs subject to separate written amendments to be made by the parties to this Agreement. WLI reserves the right to add additional products and to delete obsolete or superseded products at any time during the term of this Agreement without any prior written notice to Power2Ship.",
+                "explanation": "The original text defines \"Products\" and \"Licensed Programs\" as *limited* to specific items, the changed text introduces uncertainty by using *may* and *intended*, suggesting the definitions are not fixed. Also, prior notice of product deletion is no longer required which create in text contradiction.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.7. The Unit prices and monthly License Fees of $[*] can't be increased by WLI under the terms of this Agreement.",
+                "changed_text": "3.7. The Unit prices and monthly License Fees of $[*] can't be increased by WLI under the terms of this Agreement, *except* in cases of unforeseen economic circumstances or changes in market conditions, in which case, WLI can increase the prices with 30 days notice.",
+                "explanation": "The original text guarantees that Unit prices and monthly license fees will not change. The addition creates an *exception* that allows for price increases, directly contradicting the original statement.",
+                "location": "Section 3.7"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.3. Once an order is placed by Power2Ship, such order can't be cancelled and delivery dates for Units can't be rescheduled.",
+                "changed_text": "5.3. Once an order is placed by Power2Ship, such order can be cancelled *if WLI approves it*, and delivery dates for Units can be rescheduled *subject to WLI's inventory availability.*",
+                "explanation": "The original text states that order cant be cancelled and delivery dates can't be rescheduled. The modified text allows for cancellation and rescheduling, conditioned to WLI's decision, which introduces an element of uncertainty and is contradictory.",
+                "location": "Section 5.3"
+            }
+        ]
+    }
+]

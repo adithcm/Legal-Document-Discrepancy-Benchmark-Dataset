@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(a)  HCI shall pay MLX a guaranteed fixed sum of [*] US per annum during the      Initial Term of this Agreement to be paid out as a monthly payment of [*]      US (the \"Monthly Payment\"). This Monthly Payment shall be due by the 10th      day of each month;",
+                "changed_text": "(a)  HCI shall pay MLX a guaranteed fixed sum of [*] US per annum during the      Initial Term of this Agreement to be paid out as a monthly payment of [*]      US (the \"Monthly Payment\"). This Monthly Payment shall be due by the 10th      day of each month; However, for the first three months of the agreement, the monthly payment is due on the last day of the month.",
+                "explanation": "This introduces a contradiction in the payment terms. Initially, all monthly payments are due on the 10th of each month. The added clause states that for the first three months, payments are due on the last day of the month. This creates confusion about the payment deadline for those initial months.",
+                "location": "6(a)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(d)  Both Parties shall provide the other with quarterly accounting reports as      necessary. The quarterly reporting periods end September 30th and      December 31st, 1999, March 31st, 2000, and June 30th, 2000.      Applicable remittances and accounting reports will follow under separate      cover within sixty (60) days of the end of each quarter.",
+                "changed_text": "(d)  Both Parties shall provide the other with quarterly accounting reports as      necessary. The quarterly reporting periods end September 30th and      December 31st, 1999, March 31st, 2000, and June 30th, 2000. Applicable remittances and accounting reports will follow under separate cover within sixty (60) days of the end of each quarter. Notwithstanding the previous sentence, the accounting report for the period ending December 31st, 1999, must be provided within thirty (30) days of the end of the quarter.",
+                "explanation": "This creates an in-text contradiction regarding the deadline for providing quarterly accounting reports. The original clause specifies a 60-day window after the end of each quarter. The addition shortens the deadline to 30 days for the December 31st, 1999 quarter, creating uncertainty about which deadline applies.",
+                "location": "6(d)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "11.2  Termination\n\n(a)  Either Party may terminate this Agreement upon 30 days prior written notice      to the other Party if 1) such other Party breaches any material term of      this Agreement, unless such breach is cured within 30 days; or 2) if any of      the terms of this Agreement that require mutual approval are not mutually      agreed to;",
+                "changed_text": "11.2  Termination\n\n(a)  Either Party may terminate this Agreement upon 30 days prior written notice      to the other Party if 1) such other Party breaches any material term of      this Agreement, unless such breach is cured within 30 days; or 2) if any of      the terms of this Agreement that require mutual approval are not mutually      agreed to; However, HCI retains the right to terminate this agreement with 15 days written notice if MediaLinx fails to meet the minimum traffic requirements outlined in schedule 2 for two consecutive months.",
+                "explanation": "This introduces conflicting termination clauses. The original clause requires 30 days' notice for termination due to a breach of material terms. The addition allows HCI to terminate with only 15 days' notice under specific circumstances (MediaLinx failing to meet traffic requirements), creating uncertainty about which notice period applies.",
+                "location": "11.2(a)"
+            }
+        ]
+    }
+]

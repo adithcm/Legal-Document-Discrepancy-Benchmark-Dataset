@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_TransportationAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "8. MAXIMUM DAILY QUANTITY (Dth/Day): 101,300\n\nPlease see Appendix A for further detail.",
+                "changed_text": "8. MAXIMUM DAILY QUANTITY (Dth/Day): Refer to subsequent amendments.",
+                "explanation": "By removing the specific quantity and the reference to Appendix A, the contract now lacks a concrete definition of the maximum daily quantity. However, later sections, specifically Appendix A itself, still define specific quantities, creating a contradiction between the general statement and the detailed specifications. Enforcement becomes uncertain because the main body of the contract suggests the quantity is defined elsewhere (amendments), while Appendix A provides a fixed value.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "9. RATES:\n\nUnless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates and charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on file with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the maximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto.",
+                "changed_text": "9. RATES:\n\nRates shall be determined based on market conditions and mutual agreement between Shipper and Transporter.",
+                "explanation": "The original clause specifies that rates are based on Transporter's maximum rates and applicable surcharges, referencing the Rate Schedule and potentially Appendix B for alternative rate agreements. The modified clause removes any reference to maximum rates, surcharges, the Rate Schedule, or Appendix B, and states rates are based on 'market conditions and mutual agreement.' This creates a contradiction. If Appendix B (which is still referenced later) contains specific rate details based on the original clause, it conflicts with the new, vague market-based determination. This makes enforcement difficult as there are two competing rate determination methods specified.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "10. POINTS OF RECEIPT AND DELIVERY:\n\nThe primary receipt and delivery points are set forth on Appendix A.",
+                "changed_text": "10. POINTS OF RECEIPT AND DELIVERY:\n\nThe receipt and delivery points are subject to operational constraints.",
+                "explanation": "The original text clearly states that Appendix A defines the primary receipt and delivery points. The modified text removes this explicit reference and introduces the ambiguous 'operational constraints.' While Appendix A continues to list specific points, the contract now suggests these are not fixed but can be changed based on unspecified 'operational constraints.' This creates a contradiction; Appendix A provides definite points, while Section 10 implies these points are flexible. Enforcement is affected because it's unclear which set of points (those in Appendix A or those dictated by 'operational constraints') are legally binding, creating uncertainty.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

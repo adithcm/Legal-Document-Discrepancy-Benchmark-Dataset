@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "LICENSOR warrants that Content does not infringe an intellectual property right enforceable in the agreed country of delivery or use. LICENSOR indemnifies and holds harmless plan_b against all claims that Content infringes any of the above mentioned rights of a third Party. LICENSOR shall pay all damages awarded in a trial to a third Party.",
+                "changed_text": "LICENSOR warrants that Content does not infringe an intellectual property right enforceable in the agreed country of delivery or use. LICENSOR indemnifies and holds harmless plan_b against all claims that Content infringes any of the above mentioned rights of a third Party. LICENSOR shall pay all damages awarded in a trial to a third Party. However, Licensor shall not be held liable to pay for damages if Plan_b fails to raise the concern in the 30 days.",
+                "explanation": "The addition of 'However, Licensor shall not be held liable to pay for damages if Plan_b fails to raise the concern in the 30 days' introduces a condition that significantly limits Licensor's liability. The original clause unconditionally states Licensor shall pay all damages, but this addition adds a time-sensitive requirement for Plan_b to raise concerns, failing which Licensor is absolved. This creates a contradiction between an absolute guarantee and a conditional limitation, undermining the enforceability of the indemnification clause.",
+                "contradicted_law": "Breach of Contract, Indemnification Laws",
+                "location": "5.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Either Party shall be entitled to cancel this Agreement if the other Party is materially in breach of the terms of this Agreement. If the breach of contract is capable of being remedied, this Agreement can be cancelled only provided that the Party in breach has not rectified its breach within thirty (30) days of the written notice by the other Party.",
+                "changed_text": "Either Party shall be entitled to cancel this Agreement if the other Party is materially in breach of the terms of this Agreement. If the breach of contract is capable of being remedied, this Agreement can be cancelled only provided that the Party in breach has not rectified its breach within thirty (30) days of the written notice by the other Party. However, the cancellation can be only initiated if both the parties agree.",
+                "explanation": "By appending the phrase 'However, the cancellation can be only initiated if both the parties agree' to the original clause, a contradiction is introduced. While the initial part of the clause grants a party the right to cancel the agreement if the other party is in material breach and fails to rectify it within 30 days, the added condition makes the cancellation contingent upon mutual agreement, effectively nullifying the original right to unilateral cancellation. This weakens the enforceability of the cancellation clause, as it requires the breaching party to consent to their own contract termination.",
+                "contradicted_law": "Contract Law - Breach of Contract",
+                "location": "7.2"
+            }
+        ]
+    }
+]

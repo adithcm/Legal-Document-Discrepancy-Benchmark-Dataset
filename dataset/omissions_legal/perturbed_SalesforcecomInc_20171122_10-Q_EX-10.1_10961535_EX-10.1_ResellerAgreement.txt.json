@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "Reseller must ensure that Sub-Reseller complies with some of the terms of the Agreement. Sub-Reseller is not a third-party beneficiary of the Agreement.",
+                "explanation": "This change removes the critical requirement that the Sub-Reseller complies with *all* applicable terms of the original Reseller Agreement, effectively weakening consumer protections afforded under that agreement. By stating 'some of the terms', the contract now provides a loophole where certain consumer rights can be bypassed by the sub-reseller. Many states have laws requiring all downstream resellers to adhere to the original agreement’s consumer protection clauses.",
+                "contradicted_law": "State laws related to consumer protection and downstream liability, varying by state but generally requiring consistent consumer protection across a distribution chain.",
+                "location": "1. Resale Rights."
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement.",
+                "explanation": "By removing 'and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof,' the contract now fails to explicitly address potential conflicts with previous agreements. This omission can allow for ambiguity and potentially negate consumer rights established in earlier agreements or understandings, violating implied warranty laws or other consumer protections.",
+                "contradicted_law": "Implied warranty laws and laws protecting consumers from waivers of rights through ambiguous contract language.",
+                "location": "3. Entire Agreement."
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement.",
+                "explanation": "Removing the clause 'provided that Sub-Reseller may only resell such Services to Customer' opens the door for the sub-reseller to resell to entities other than the intended Customer, potentially bypassing consumer protection measures designed for end-users. This could violate regulations related to distribution channels and consumer safety/protection that are specifically designed to protect the *Customer* and only apply when sold to said Customer.",
+                "contradicted_law": "Regulations related to controlled distribution channels and consumer protection that apply specifically to end-user customers.",
+                "location": "1. Resale Rights."
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HC2HOLDINGS,INC_05_14_2020-EX-10.1-COOPERATION AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(a) The MG Capital Parties shall comply, and shall cause each of their Affiliates and Associates (as hereinafter defined) to comply with the terms of this Agreement and shall be responsible for any breach of this Agreement by any such Affiliate or Associate.",
+                "changed_text": "(a) The MG Capital Parties shall comply, and shall cause each of their Affiliates and Connections (as hereinafter defined) to comply with the terms of this Agreement and shall be responsible for any breach of this Agreement by any such Affiliate or Connection.",
+                "explanation": "The term 'Associate' was replaced with 'Connection'. Under the Exchange Act, 'Affiliate' and 'Associate' have precise legal definitions, whereas 'Connection' is vague. This creates uncertainty as to which entities the MG Capital Parties are responsible for under the agreement, contradicting established securities laws.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 12b-2",
+                "location": "Section 2(a)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(i) fail to comply with all applicable laws and regulatory rules and obtain all applicable regulatory approvals, if and when acquiring, or offering, seeking or agreeing to acquire, by purchase or otherwise, or directing any third party in the acquisition of, any Common Stock or any securities convertible or exchangeable into or exercisable for Common Stock (collectively, \"Company Securities\"), or rights or options to acquire any Company Securities, or engaging in any swap instrument or derivative hedging transactions or other derivative agreements of any nature with respect to Company Securities;",
+                "changed_text": "(i) fail to comply with all applicable laws and suggested guidelines and obtain all industry best practice approvals, if and when acquiring, or offering, seeking or agreeing to acquire, by purchase or otherwise, or directing any third party in the acquisition of, any Common Stock or any securities convertible or exchangeable into or exercisable for Common Stock (collectively, \"Company Securities\"), or rights or options to acquire any Company Securities, or engaging in any swap instrument or derivative hedging transactions or other derivative agreements of any nature with respect to Company Securities;",
+                "explanation": "Changing 'regulatory rules' to 'suggested guidelines' and 'regulatory approvals' to 'industry best practice approvals' undermines the legally binding nature of compliance. It suggests that adherence to legal and regulatory standards is optional, which directly contradicts securities regulations that mandate specific filings and approvals for stock acquisitions.",
+                "contradicted_law": "Securities Act of 1933, Securities Exchange Act of 1934",
+                "location": "Section 3(a)(i)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "(b) Neither the Company, the MG Capital Parties nor any of their respective Affiliates or Associates, will issue a separate press release in connection with this Agreement, other than as mutually agreed by the Company and the MG Capital Parties.",
+                "changed_text": "(b) Neither the Company, the MG Capital Parties nor any of their respective Affiliates or People they Know, will issue a separate press release in connection with this Agreement, other than as mutually agreed by the Company and the MG Capital Parties.",
+                "explanation": "Replacing 'Associates' with 'People they Know' broadens the scope of the restriction in a way that's legally ambiguous and conflicts with the established definition of 'Affiliates' and 'Associates' under securities law. The term is too vague to enforce effectively, making it unclear who is bound by the agreement and potentially leading to non-compliance with disclosure requirements.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 12b-2",
+                "location": "Section 7(b)"
+            }
+        ]
+    }
+]

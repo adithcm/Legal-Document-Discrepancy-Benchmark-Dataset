@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.4 \"Batch\" shall mean the defined quantity of the Product processed in a single process or series of processes in a manner designed to be homogeneous. The Batch size for the Product is **** tablets.",
+                "changed_text": "1.4 \"Batch\" shall mean the defined quantity of the Product processed in a single process or series of processes in a manner designed to be homogeneous. The Batch size for the Product will be determined on a per-order basis and is subject to change at Dexcel's discretion, with no required minimum or maximum number of tablets.",
+                "explanation": "The original text defines Batch size as **** tablets, while the modified text introduces uncertainty by stating it is determined on a per-order basis and subject to change at Dexcel's discretion. It is contradictory because the fixed number of tablets is replaced by a fluctuating number subject to Dexcel, which could create disputes.",
+                "location": "Section 1.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.4 The Supply Prices for the Product shall be:\n\nStrength Pack Size Supply Price/Pack (in US Dollars)\n200/10mg Bottle **** tablets ****\n200/10mg Bottle **** tablets ****\n200/5mg Bottle **** tablets ****\n200/5mg Bottle **** tablets ****\n200/2.5mg Bottle **** tablets ****\n200/2.5mg Bottle **** tablets ****",
+                "changed_text": "3.4 The Supply Prices for the Product are estimates only and may vary based on market conditions, API costs, and Dexcel's production costs. Kitov will be notified of the final Supply Price no less than 30 days prior to shipment. Prices are subject to change without notice.",
+                "explanation": "The original text specifies exact Supply Prices, while the modified text states the listed prices are estimates only and subject to change. This creates conflict because the original prices are definite, while the new statement introduces uncertainty regarding the actual price, potentially leading to billing disputes.",
+                "location": "Section 3.4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1 The Agreement shall commence on the Effective Date and remain in full force and effect for an initial term of **** from the Supply Commencement Date of the Product (\"Initial Term\"). Following the Initial Term, the Agreement shall automatically be renewed for additional periods of **** (each, a \"Renewal Term,\" and, together with the Initial Term, the \"Term\")), unless a Party provides written notification of non-renewal to the other Party at least **** of the Initial Term or a Renewal Term.",
+                "changed_text": "5.1 The Agreement shall commence on the Effective Date and remain in full force and effect for an initial term of **** from the Supply Commencement Date of the Product (\"Initial Term\"). Renewal of the agreement after the Initial Term is not guaranteed and is subject to Dexcel's sole discretion, regardless of any prior agreements or notifications. Dexcel may choose not to renew the agreement at any time without providing a reason.",
+                "explanation": "The original clause stated the contract would automatically renew for additional terms unless there was a written notification of non-renewal, the new version removes the automatic renewal and replaces it with discretionary renewal by Dexcel. The certainty of the renewal terms is lost, potentially enabling Dexcel to terminate the agreement unexpectedly after the Initial Term.",
+                "location": "Section 5.1"
+            }
+        ]
+    }
+]

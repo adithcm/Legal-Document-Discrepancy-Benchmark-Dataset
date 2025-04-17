@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "1.48 Update - a set of procedures or new program code that Supplier implements to correct Errors and which may include modifications to improve performance or a revised version or release of the Software which may incidentally improve its functionality, together with related Documentation.\n\n1.49 Upgrade - a new version or release of computer programs licensed hereunder which Supplier makes generally available to its customers to improve the functionality of, or add functional capabilities to such computer programs, together with related Documentation. Upgrades shall include new programs which replace, or contain functionality similar to, the Software already licensed to Bank of America hereunder.",
+                "changed_text": "1.48 Update - a set of procedures or new program code that Supplier implements to correct Errors and which may include modifications to improve performance or a revised version or release of the Software which may incidentally improve its functionality, together with related Documentation.\n\n1.49 Upgrade - a new version or release of computer programs licensed hereunder which Supplier may choose to make available to its customers to improve the functionality of, or add functional capabilities to such computer programs, together with related Documentation. Upgrades may include new programs which replace, or contain functionality similar to, the Software already licensed to Bank of America hereunder. Bank of America is not guaranteed access to any upgrades.",
+                "explanation": "The original text clearly defines upgrades as something 'Supplier makes generally available to its customers.' The modified version introduces 'Supplier *may* choose to make available,' and adding 'Bank of America is not guaranteed access to any upgrades' contradicts the original implication and creates uncertainty. This could lead to disputes over access to improved versions of the software.",
+                "location": "Section 1.0"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1 Bank of America may terminate this Agreement, an Order and/or any Customization Schedule(s) for its convenience, without cause, at any time without further charge or expense upon at least forty-five (45) calendar days prior written notice to Supplier. Termination of one Order shall not cause a termination of this Agreement or any other Order, unless otherwise specified by Bank of America.",
+                "changed_text": "5.1 Bank of America may terminate this Agreement, an Order and/or any Customization Schedule(s) for its convenience, without cause, at any time but may incur charges as a result of such termination, provided that at least forty-five (45) calendar days prior written notice is given to Supplier. Termination of one Order may cause a termination of this Agreement or any other Order, as determined at the supplier’s discretion.",
+                "explanation": "The original text states the Bank of America may terminate the agreement 'without further charge or expense'. The modified version contradicts this by stating that termination 'may incur charges'. Also, it changes termination conditions stating that termination of order ‘may cause a termination of this agreement’ giving the supplier discretion over the termination of all other orders creating a situation of uncertainty and contradicting previous terms.",
+                "location": "Section 5.0"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "11.0 MAINTENANCE SERVICES\n\n11.1 Supplier shall provide the Maintenance Services attached hereto as SCHEDULE D.",
+                "changed_text": "11.0 MAINTENANCE SERVICES\n\n11.1 Supplier may at times elect to provide Maintenance Services attached hereto as SCHEDULE D. The provision of maintenance services is not guaranteed.",
+                "explanation": "The original text states that the supplier *shall* provide maintenance services. By changing this to ‘may at times elect to provide’ and adding ‘The provision of maintenance services is not guaranteed’ directly contradicts the obligation previously set. This creates uncertainty regarding the supplier’s responsibility for upkeep and error correction of the software. This could lead to disputes over the level of support Bank of America can expect to receive.",
+                "location": "Section 11.0"
+            }
+        ]
+    }
+]

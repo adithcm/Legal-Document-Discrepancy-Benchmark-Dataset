@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "MSCI hereby grants (subject to any existing third party contractual obligations) to MS a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MS to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MSCI Licensed Materials.",
+                "changed_text": "MSCI hereby grants (subject to any existing third party contractual obligations) to MS a non-exclusive license for MS to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MSCI Licensed Materials. This license is valid for a period of five (5) years from the Effective Date.",
+                "explanation": "This change introduces a contradiction regarding the duration of the license. Section 2.2 originally states the license is perpetual and irrevocable, but the modified text limits the license to five years. This creates uncertainty about the actual duration of the license and could lead to disputes regarding its validity after the initial five-year period.",
+                "location": "2.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersede all prior agreements, understandings and negotiations, both written and oral, between the parties with respect to the subject matter hereof.",
+                "changed_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersede all prior agreements, understandings and negotiations, both written and oral, between the parties with respect to the subject matter hereof. However, any pre-existing confidentiality agreements between the parties shall remain in full force and effect.",
+                "explanation": "This change contradicts the 'entire agreement' clause. While the original clause states that the agreement supersedes all prior agreements, the modified text carves out an exception for pre-existing confidentiality agreements. This creates ambiguity about which terms govern the parties' relationship regarding confidential information and could lead to disputes if the terms of the confidentiality agreements conflict with the terms of the IP Agreement.",
+                "location": "6.4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Any provision of this Agreement may be amended or waived if, but only if, such amendment or waiver is in writing and is signed, in the case of an amendment, by each party to this Agreement, or in the case of a waiver, by the party against whom the waiver is to be effective.",
+                "changed_text": "Any provision of this Agreement may be amended or waived if, but only if, such amendment or waiver is in writing and is signed, in the case of an amendment, by each party to this Agreement, or in the case of a waiver, by the party against whom the waiver is to be effective. Notwithstanding the foregoing, the CEO of either party may unilaterally amend the agreement to correct clerical errors or to clarify ambiguous provisions.",
+                "explanation": "This creates a contradiction by allowing the CEO to unilaterally amend the agreement for specific reasons. The original clause mandates that all amendments require both parties' signatures. This modification introduces uncertainty regarding the validity of unilateral amendments and whether a CEO's actions are within the scope of permissible unilateral changes, potentially causing disputes.",
+                "location": "6.6(a)"
+            }
+        ]
+    }
+]

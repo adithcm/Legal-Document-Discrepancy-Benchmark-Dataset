@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-BrandingAgreement1.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "B.  The charges for the services set forth in this Agreement shall be invoiced monthly.  ABW agrees to pay said charges within thirty (30) days of the monthly invoice date.  ABW may issue a purchase order for billing purposes.  The invoices must reference that purchase order number and be sent to the \"Bill To\" address stated on the purchase order.  The terms of this negotiated Agreement shall supercede those contained on that purchase order.",
+                "changed_text": "B.  The charges for the services set forth in this Agreement shall be invoiced monthly.  ABW agrees to pay said charges within forty-five (45) days of the monthly invoice date.  ABW may issue a purchase order for billing purposes.  The invoices must reference that purchase order number and be sent to the \"Bill To\" address stated on the purchase order.  The terms of this negotiated Agreement shall supercede those contained on that purchase order.",
+                "explanation": "This change introduces a contradiction. Section 3.B initially states payment is due within 30 days, while Section 3.H states termination can occur if invoices are not paid within 45 days, creating ambiguity about the actual payment deadline.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "D.  Any payments which have not been received by PCQ within thirty (30) days of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month which is a corresponding ANNUAL\n\nPERCENTAGE RATE of 12% on the outstanding balance.",
+                "changed_text": "D.  Any payments which have not been received by PCQ within sixty (60) days of the Invoice date shall be subject to a FINANCE CHARGE of 1.0% per month which is a corresponding ANNUAL\n\nPERCENTAGE RATE of 12% on the outstanding balance.",
+                "explanation": "This introduces another contradiction related to payment terms. Section 3.D now states late fees apply after 60 days, while Section 3.B. says invoices should be paid in 45 days, and Section 3.H allowing potential termination after 45 days if there are still issues. It's unclear what the exact deadline is before facing penalties.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "H.   In the event that any invoice is not paid by ABW within forty-five (45) days after receipt, and when no discrepancy issues have been identified by ABW which are in some stage of resolution, after giving notice to ABW, PCQ may terminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED provided hereunder unless ABW pays such invoice prior to the termination date",
+                "changed_text": "H.   In the event that any invoice is not paid by ABW within thirty (30) days after receipt, and when no discrepancy issues have been identified by ABW which are in some stage of resolution, after giving notice to ABW, PCQ may terminate this agreement and ABW's access to and use of SOFTWARE and HYPERFEED provided hereunder unless ABW pays such invoice prior to the termination date",
+                "explanation": "This introduces contradiction as the payment date between sections 3B, 3D, and 3H are all different. Each one has a different deadline, making the contract ambiguous.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

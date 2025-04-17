@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "WORLDWIDESTRATEGIESINC_11_02_2005-EX-10-RESELLERAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Payment of the Fees shall be due and payable within ten (10) days of the date of the invoice. All or any portion of the Fees not paid when due shall bear interest at the rate of one and one-half (1.5%) per month, calculated from the date such payment is due until the date on which such payment is made, inclusive; PROVIDED, HOWEVER, that if such interest rate exceeds the amount allowed by applicable law, then the interest rate shall be adjusted to reflect the maximum amount allowed by such applicable law.",
+                "changed_text": "Payment of the Fees shall be due and payable within sixty (60) days of the date of the invoice. All or any portion of the Fees not paid when due shall bear interest at the rate of one and one-half (1.5%) per month, calculated from the date such payment is due until the date on which such payment is made, inclusive; PROVIDED, HOWEVER, that if such interest rate exceeds the amount allowed by applicable law, then the interest rate shall be adjusted to reflect the maximum amount allowed by such applicable law.",
+                "explanation": "This change introduces an in-text contradiction by modifying the payment deadline from ten (10) days to sixty (60) days. This creates uncertainty regarding which deadline is valid and enforceable, which could potentially lead to disputes over contractual obligations.",
+                "location": "Section 6.1(b)"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement shall continue in force for a term of twelve (12) months from the Effective Date, unless terminated earlier under the provisions of this Article 8 (the \"Term\"); PROVIDED that TouchStar shall have the right to terminate this Agreement at any time after the Effective Date upon not less than fifteen (15) days' prior written notice to Reseller. Prior to the end of the Term, each of TouchStar and Reseller may notify the other if it desires to negotiate a further agreement by written request received at least ninety (90) days in advance of the termination of this Agreement. If both parties desire to negotiate a further agreement, they may consider the terms of this Agreement in coming to an understanding. Nothing in this Agreement shall be construed to obligate either party to renew or extend the term of this Agreement. Renewals for additional terms, if any, shall not cause this Agreement to be construed as an agreement of indefinite duration.",
+                "changed_text": "This Agreement shall continue in force for a term of twelve (12) months from the Effective Date, unless terminated earlier under the provisions of this Article 8 (the \"Term\"); PROVIDED that TouchStar shall have the right to terminate this Agreement at any time after the Effective Date upon not less than one hundred and twenty (120) days' prior written notice to Reseller. Prior to the end of the Term, each of TouchStar and Reseller may notify the other if it desires to negotiate a further agreement by written request received at least ninety (90) days in advance of the termination of this Agreement. If both parties desire to negotiate a further agreement, they may consider the terms of this Agreement in coming to an understanding. Nothing in this Agreement shall be construed to obligate either party to renew or extend the term of this Agreement. Renewals for additional terms, if any, shall not cause this Agreement to be construed as an agreement of indefinite duration.",
+                "explanation": "The modification changes the notice period required for TouchStar to terminate the agreement from fifteen (15) days to one hundred and twenty (120) days. Since there are two different periods listed in the same section, ambiguity is created over the accurate notice period, leading to potential conflict.",
+                "location": "Section 8.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "In the event that (i) TouchStar terminates this Agreement in accordance with any one or more of the provisions of Section 8.2 or (ii) Reseller elects not to enter into a new agreement with TouchStar pursuant to Section 8.1, all Customer Agreements with Customers shall be transferred by Reseller to TouchStar.",
+                "changed_text": "In the event that (i) TouchStar terminates this Agreement in accordance with any one or more of the provisions of Section 8.2 or (ii) Reseller elects not to enter into a new agreement with TouchStar pursuant to Section 8.1, all Customer Agreements with Customers shall NOT be transferred by Reseller to TouchStar.",
+                "explanation": "This perturbation creates a direct contradiction regarding whether customer agreements are transferred to TouchStar upon specific termination events. The original text states they *shall* be transferred, while the changed text states they *shall NOT* be transferred, leading to confusion and potential disputes about ownership of customer relationships.",
+                "location": "Section 9.1(a)"
+            }
+        ]
+    }
+]

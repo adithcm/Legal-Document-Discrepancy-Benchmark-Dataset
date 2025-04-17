@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ARTICLE XII \"Governing Law\"\n\nThis Agreement sets forth the entire Agreement of the parties hereto, and any and all prior agreements, to the extent inconsistent herewith, are hereby superseded. This Agreement will be governed by the laws of the State of Pennsylvania.",
+                "changed_text": "ARTICLE IV \"Rights to the Proceeds at Death\"\n\nUpon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page 6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an amount equal to the lesser of: (a) (two (2) times the Employee's annualized base salary at the time of death as provided by the Employer's payroll department) plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk. *This Agreement will be governed by the laws of the State of Pennsylvania.* The Employer shall be the beneficiary of the remaining death proceeds of the policy after the Employee's interest is determined. Within 60 days after the death of the Employee, the Employer will provide to the \"Insurer\" a written statement indicating the amount of each policy's proceeds the Employee's beneficiary is entitled to receive.",
+                "explanation": "Moving the governing law clause to the 'Rights to Proceeds at Death' section buries a critical legal element in a section focused on payout details, making it harder to locate quickly. The clause also becomes less obvious and potentially overlooked during legal reviews. This relocation introduces ambiguity as the governing law's relationship to the death benefit terms may be questioned.",
+                "contradicted_law": "General Contract Law - Clear and conspicuous placement of governing law clauses.",
+                "location": "Article XII and Article IV"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ARTICLE VIII \"Claims Procedure\"\n\n(1) Filing claims. Any insured, beneficiary or other individual (hereinafter \"Claimant\") entitled to benefits under the Plan or under the Policies will file a Claim request with the Plan Administrator with respect to benefits under the Plan and with the \"Insurer\", with respect to benefits under the Policies. The Plan Administrator will, upon written request of a Claimant, make available copies of any claim forms or instructions provided by the \"Insurer\" or advise the Claimant where such forms or instructions may be obtained.",
+                "changed_text": "ARTICLE I \"Definitions\"\n\nFor purposes of this Agreement, the following terms will have the meanings set forth below:\n\n*Any insured, beneficiary or other individual (hereinafter \"Claimant\") entitled to benefits under the Plan or under the Policies will file a Claim request with the Plan Administrator with respect to benefits under the Plan and with the \"Insurer\", with respect to benefits under the Policies. The Plan Administrator will, upon written request of a Claimant, make available copies of any claim forms or instructions provided by the \"Insurer\" or advise the Claimant where such forms or instructions may be obtained.*\n\n\"Base Salary\" means the Employee's total base salary as of each January 1st exclusive of special payments such as bonuses or commissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+                "explanation": "Relocating the claims procedure initiation clause to the 'Definitions' section makes it harder to find and understand in context. Claim procedures are generally expected to be found in a dedicated section on 'Claims' or similar, and burying it within definitions obscures the process for filing a claim and could deter a potential claimant from initiating the process.",
+                "contradicted_law": "ERISA - Requirements for clear communication of claims procedures.",
+                "location": "Article VIII and Article I"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ARTICLE V \"Taxes\"\n\nAny income or employment taxes due for a year on the value of current life insurance coverage provided to the Employee under this Agreement will be the responsibility of the Employee. To the extent that the value of current life insurance coverage is taxable income, it will be subject to withholding requirements and will be reported as income by the Employer to the IRS and state-taxing authorities on the Employee's W-2 Form or other IRS or state-required reporting form to the extent required by law.",
+                "changed_text": "ARTICLE XI \"Possession of Policies\"\n\nThe Employer will keep possession of the Policies. *Any income or employment taxes due for a year on the value of current life insurance coverage provided to the Employee under this Agreement will be the responsibility of the Employee.* The Employer agrees from time to time to make the policies available to the Employee or to the \"Insurer\" for the purpose of endorsing or filing any change of beneficiary on the Policies but the Policies will promptly be returned to the Employer.",
+                "explanation": "The tax liability clause has been moved to the 'Possession of Policies' section. This is structurally misleading because the placement suggests that tax responsibility is directly related to the physical custody of the policy documents, and the clause is now embedded in a completely unrelated part of the contract.",
+                "contradicted_law": "Federal and State Tax Laws - Requirement for clear and conspicuous disclosure of tax liabilities.",
+                "location": "Article V and Article XI"
+            }
+        ]
+    }
+]

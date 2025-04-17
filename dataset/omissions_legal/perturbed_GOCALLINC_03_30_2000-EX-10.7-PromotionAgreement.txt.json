@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "GOCALLINC_03_30_2000-EX-10.7-PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Purchase Customer will be required to purchase twelve months of local numeric airtime at a rate of $10.33 per month through a designated nationwide airtime provider, prepaid in advance. The purchased airtime shall be non-refundable to the consumer. Additionally, Purchase Customers will be required to pay for shipping and handling costs and applicable sales taxes based on their locations.",
+                "changed_text": "Each Purchase Customer will be required to purchase twelve months of local numeric airtime at a rate of $10.33 per month through a designated nationwide airtime provider, prepaid in advance. Additionally, Purchase Customers will be required to pay for shipping and handling costs and applicable sales taxes based on their locations.",
+                "explanation": "Removing the statement 'The purchased airtime shall be non-refundable to the consumer' violates consumer protection laws regarding refunds, particularly in California where this agreement is deemed to be performed. California law often requires refunds or cancellation options under specific circumstances, especially for prepaid services.",
+                "contradicted_law": "California Consumer Rights Laws regarding refunds and cancellation policies for prepaid services.",
+                "location": "2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "PageMaster Corporation make no warranties, either express or implied, concerning the pagers or the transmission of pages by the airtime service provider, including warranties of merchantability or fitness for particular purpose.",
+                "changed_text": "PageMaster Corporation make no warranties, either express or implied, concerning the pagers or the transmission of pages by the airtime service provider.",
+                "explanation": "By removing the explicit disclaimer of warranties of merchantability and fitness for a particular purpose, the contract becomes ambiguous regarding these crucial consumer protections. Under California Commercial Code, these warranties are implied unless specifically disclaimed in a conspicuous manner. The omission raises questions about whether these implied warranties are applicable, potentially creating legal liabilities for PageMaster Corporation if the pagers are defective or not fit for their intended use.",
+                "contradicted_law": "California Commercial Code Section 2314 and 2315 (Implied Warranty of Merchantability and Fitness for Particular Purpose)",
+                "location": "10"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "PageMaster Corporations' liability shall in no event exceed an amount equivalent to the amounts received by PageMaster Corporation hereunder.",
+                "changed_text": "PageMaster Corporations' liability shall be determined by PageMaster Corporation.",
+                "explanation": "By replacing the clause establishing a limitation of liability with 'PageMaster Corporations' liability shall be determined by PageMaster Corporation' introduces an element of arbitrariness that could be deemed unconscionable under California law. California law requires limitations of liability to be fair and reasonable. Giving PageMaster Corporation unilateral control over liability determination violates this principle and creates an unfair advantage for PageMaster Corporation, and is in violation of consumer rights.",
+                "contradicted_law": "California Civil Code Section 1668 (Contracts Contrary to Public Policy) and Unconscionability principles in California contract law.",
+                "location": "10"
+            }
+        ]
+    }
+]

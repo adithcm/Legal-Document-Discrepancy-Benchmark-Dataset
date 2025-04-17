@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "EXCEPT AS SPECIFIED IN THIS AGREEMENT, NEITHER PARTY MAKES ANY WARRANTY IN CONNECTION WITH THE SUBJECT MATTER OF THIS AGREEMENT AND HEREBY DISCLAIMS ANY AND ALL IMPLIED WARRANTIES, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE REGARDING SUCH SUBJECT MATTER.",
+                "changed_text": "NEITHER PARTY MAKES ANY WARRANTY IN CONNECTION WITH THE SUBJECT MATTER OF THIS AGREEMENT.",
+                "explanation": "By removing the explicit disclaimer of implied warranties of merchantability and fitness for a particular purpose, the contract appears to comply with basic contract law at first glance. However, many states have specific consumer protection laws (like the implied warranty of merchantability under the Uniform Commercial Code) that apply to the sale of goods and services. Omitting the explicit disclaimer means these implied warranties *may* still apply, but leaving it unaddressed introduces ambiguity that disadvantages consumers (NetGrocer's potential customers) who might assume these basic protections are absent. In California, for example, the implied warranty of merchantability is codified in the California Commercial Code. This omission creates legal risk by potentially misrepresenting the consumer's rights.",
+                "contradicted_law": "California Commercial Code regarding implied warranty of merchantability.",
+                "location": "Section 11(b)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "NetGrocer retains all right, title and interest to information regarding customers who access the NetGrocer Site pursuant to the Agreement.",
+                "changed_text": "NetGrocer may use information regarding customers who access the NetGrocer Site pursuant to the Agreement.",
+                "explanation": "The original text clearly states NetGrocer retains all rights to customer information. The revised text changes this to 'may use', omitting the explicit statement of ownership. This becomes a legal contradiction because it doesn't explicitly address consumer data privacy rights. California's Consumer Privacy Act (CCPA) gives consumers rights regarding their personal data, including the right to know what data is collected and how it's used. By removing the clear statement of ownership, the agreement becomes ambiguous about data rights, potentially violating CCPA if NetGrocer's actual practices aren't transparent and compliant.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The parties agree that any breach of either of the parties' obligations regarding trademarks, service marks or trade names and/or confidentiality would result in irreparable injury for which there is no adequate remedy at law. Therefore, in the event of any breach or threatened breach of a party's obligations regarding trademarks, service marks or trade names or confidentiality, the aggrieved party will be entitled to seek equitable relief in addition to its other available legal remedies in a court of competent jurisdiction.",
+                "changed_text": "In the event of any breach or threatened breach of a party's obligations regarding confidentiality, the aggrieved party will be entitled to seek legal remedies in a court of competent jurisdiction.",
+                "explanation": "The original clause specifically allows Excite to seek 'equitable relief' for breaches of trademark, service mark, or trade name obligations. Equitable relief can include injunctions (court orders to stop certain actions). Omitting the mention of trademarks, service marks and trade names significantly limits the remedies available to Excite if NetGrocer infringes on Excite's trademarks. While legal remedies like monetary damages are still available, the absence of the right to seek an injunction removes a powerful tool for protecting intellectual property. This creates a legal contradiction, as trademark law typically allows for injunctive relief to prevent ongoing infringement. By omitting trademark/servicemark/tradename, this clause significantly weakens Excite's protection, creating a legal risk.",
+                "contradicted_law": "Federal Trademark Law (Lanham Act) and California state trademark laws allowing for injunctive relief.",
+                "location": "Section 13(a)"
+            }
+        ]
+    }
+]

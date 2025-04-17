@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.",
+                "changed_text": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and may be renewed.",
+                "explanation": "By removing the 'automatic renewal' clause and the reference to paragraph 18 (termination), the agreement's term becomes ambiguous. Subsequent sections detailing termination conditions (formerly paragraph 18) now lack a clear context, creating an inconsistency. This undermines the enforceability and clarity of the agreement's duration.",
+                "location": "2.1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Annual Quota for MA shall be defined in Schedule A of this Agreement. Company reserves the right to adjust or modify the Annual Quota upon renewal of this Agreement or from time to time by mutual agreement of the parties.",
+                "changed_text": "The Annual Quota for MA shall be determined at the discretion of the Company. Company reserves the right to adjust or modify the Annual Quota from time to time.",
+                "explanation": "By removing the reference to 'Schedule A' and 'mutual agreement,' the quota determination becomes unilaterally controlled by the Company. This contradicts other sections where MA's input or agreement might be implied or expected, making enforcement problematic. The original section ensured that the quota was defined in Schedule A, which is no longer the case and it only be at the company's discretion.",
+                "location": "5"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "MA shall make payment for all Technology according to the terms in Schedule A of this Agreement, and provide upon resale of any part of the Technology, two (2) signed copies of the Company License Agreement/Client Registration Card between Company and Client.",
+                "changed_text": "MA shall make payment for all Technology. MA will provide upon resale of any part of the Technology, two (2) signed copies of the Company License Agreement/Client Registration Card between Company and Client.",
+                "explanation": "By removing 'according to the terms in Schedule A of this Agreement', the payment terms for the Technology are undefined in this section. This omission creates an internal contradiction because Schedule A is referenced elsewhere in the document to define pricing and other terms of the agreement. This change introduces uncertainty about the payment obligations for MA.",
+                "location": "7.3"
+            }
+        ]
+    }
+]

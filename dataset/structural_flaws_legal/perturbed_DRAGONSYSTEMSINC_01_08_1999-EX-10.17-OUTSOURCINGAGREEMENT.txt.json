@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "DRAGONSYSTEMSINC_01_08_1999-EX-10.17-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Any lawsuit relating to any matter arising under this Agreement may be initiated in a State or Federal Court located in the Commonwealth of Massachusetts or in any court in the Netherlands having jurisdiction over the matter.",
+                "changed_text": "Any lawsuit relating to any matter arising under this Agreement may be initiated in a State or Federal Court located in the Commonwealth of Massachusetts. The parties can mutually agree on the jurisdiction at the time of dispute.",
+                "explanation": "Moving the specification of the Netherlands as a jurisdiction to be replaced by a more vague 'mutual agreement' undermines the original clause, making jurisdiction uncertain and potentially unenforceable. This relocation reduces clarity and enforceability by allowing for ambiguity where the agreement was previously specific. This introduces contradiction, the first part states Massachusetts but the parties can mutually agree to change it at any time.",
+                "contradicted_law": "Contract Law - Jurisdiction Clause Requirements",
+                "location": "13"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "MMI warrants providing the Services with due diligence and care in accordance with the specifications set by Dragon Systems. Should MMI not supply the Services as agreed or should the Services become defective within 6 months from their delivery to Dragon Systems, Dragon Systems may at its option require MMI to complete or re-perform the Services within a reasonable period of time, rescind the contract or refuse payment of the compensation in part or in total, notwithstanding any damage claims.",
+                "changed_text": "MMI warrants providing the Services with due diligence and care in accordance with the specifications set by Dragon Systems. Should MMI not supply the Services as agreed, Dragon Systems may at its option require MMI to complete or re-perform the Services within a reasonable period of time. The warrant is valid only if Dragon Systems has fully paid MMI and no legal dispute is undergoing.",
+                "explanation": "By adding the condition that the warranty is valid only if Dragon Systems has fully paid MMI and no legal dispute is undergoing, the original clause is contradicted. This introduces a condition that could prevent Dragon Systems from invoking the warranty even if MMI has failed to provide the services as agreed, essentially weakening the warranty. This change also introduce contradiction, by stating that a warranty is active if no legal dispute is active at a time, it makes it hard to define since most of the time if the warranty is not satisfied a legal dispute will occur",
+                "contradicted_law": "Contract Law - Warranty Clause Requirements",
+                "location": "6"
+            }
+        ]
+    }
+]

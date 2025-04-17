@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "UAGHINC_04_14_2004-EX-10.18-MAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "1.2. Extension of Term. This Agreement will extend automatically for monthly periods unless either party to this Agreement notifies the other party in writing at least thirty (30) days before the expiration of the then current term.   1.3 Termination of Term. Notwithstanding the foregoing, either party may terminate this Agreement at any time without liability by providing one hundred eighty (180) days written notice to the other party.",
+                "changed_text": "1.2. Extension of Term. This Agreement will extend automatically for monthly periods unless either party to this Agreement notifies the other party in writing at least thirty (30) days before the expiration of the then current term.   1.3 Termination of Term. Notwithstanding the foregoing, either party may terminate this Agreement at any time without liability by providing thirty (30) days written notice to the other party.",
+                "explanation": "This change creates a conflict between the extension and termination terms. Section 1.2 requires 30 days' notice for non-renewal, implying the agreement continues if no notice is given. However, Section 1.3 initially allowed termination with 180 days' notice, but it now is reduced to 30 days as well, contradicting the initial term. This creates ambiguity: can the contract be terminated quickly (30 days) or does the longer notice period apply, and what is the implication of 1.2?",
+                "location": "SECTION 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.3 Maintenance of Insurance. The Provider will obtain and maintain appropriate liability insurance in an amount of not less than $1,000,000 combined single limit for accidents or occurrences which cause bodily injury, death or property damage related to the performance of the Services. The insurance policy willname the Company as an additional insured. The Provider will provide the Company with a certificate of insurance issued to evidence such coverage. Such certificate will provide that there shall be no cancellation, non-renewal, or modification of such coverage without thirty days' prior written notice to the Company.",
+                "changed_text": "4.3 Maintenance of Insurance. The Provider will obtain and maintain appropriate liability insurance in an amount of not less than $500,000 combined single limit for accidents or occurrences which cause bodily injury, death or property damage related to the performance of the Services. The insurance policy will name the Company as an additional insured. The Provider will provide the Company with a certificate of insurance issued to evidence such coverage. Such certificate will provide that there shall be no cancellation, non-renewal, or modification of such coverage without ten days' prior written notice to the Company.",
+                "explanation": "This change creates a direct conflict regarding the required insurance coverage. The original text specifies a minimum of $1,000,000 coverage and 30 days' notice for changes, while the modified text lowers the coverage to $500,000 and reduces the notice period to 10 days. This introduces uncertainty about the actual insurance requirements and creates potential disputes if an incident occurs and the coverage is insufficient based on the original clause.",
+                "location": "SECTION 4"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "5.5. Assignment; Successors or Assigns. This Agreement and the rights and obligations hereunder may be assigned by the Provider upon written notice to the Company. All rights and obligations under this Agreement shall be binding upon any and all successors or assigns.",
+                "changed_text": "5.5. Assignment; Successors or Assigns. This Agreement and the rights and obligations hereunder may be assigned by the Provider without written notice to the Company. All rights and obligations under this Agreement shall be binding upon any and all successors or assigns.",
+                "explanation": "The original text states that the Provider can assign the agreement with written notice to the Company. The modified text removes the requirement for written notice. This creates a contradiction regarding the assignment process. The company could argue that the assignment is invalid without notice, while the provider might claim the revised clause allows assignment without it.",
+                "location": "SECTION 5"
+            }
+        ]
+    }
+]

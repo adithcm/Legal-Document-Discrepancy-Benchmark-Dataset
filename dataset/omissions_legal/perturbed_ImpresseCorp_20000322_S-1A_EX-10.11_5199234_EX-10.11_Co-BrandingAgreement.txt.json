@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-BrandingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "4.9. INTEREST. All payments not paid by the date such payments are due shall bear interest from the due date to the date payments are actually paid at the lower of (i) 1% per month or (ii) the maximum rate permitted by law.",
+                "changed_text": "4.9. INTEREST. All payments not paid by the date such payments are due may, at the discretion of the creditor, bear interest.",
+                "explanation": "By removing the specification of interest rates and making it discretionary, the contract could violate usury laws, which set legal limits on interest rates. Some states have very specific rules on how interest is calculated and charged, and the omission here creates the potential for non-compliance, especially in California where Impresse is located.",
+                "contradicted_law": "California Usury Law (potentially)",
+                "location": "Section 4.9"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "10.16. COMPLIANCE WITH LAWS. Each party shall comply with all prevailing laws, rules and regulations and obtain all necessary approvals, consents and permits required by the applicable agencies of the government of the jurisdictions that apply to its activities or obligations under this Agreement.",
+                "changed_text": "10.16. COMPLIANCE WITH LAWS. Each party shall use reasonable efforts to comply with applicable laws, rules and regulations relevant to its activities or obligations under this agreement and obtain necessary consents.",
+                "explanation": "The original clause mandates full compliance with all laws, rules, and regulations. The modified clause weakens this requirement by only requiring the parties to use 'reasonable efforts' to comply. This introduces ambiguity and potential non-compliance, especially with consumer protection laws, data privacy regulations (like CCPA in California), or other mandatory legal requirements. Companies are legally required to comply, not merely make reasonable efforts.",
+                "contradicted_law": "Varies depending on the specific law not fully complied with, but could include California Consumer Privacy Act (CCPA) or other state or federal consumer protection laws.",
+                "location": "Section 10.16"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "6.2. ARBITRATION. Any controversy or claim between the parties concerning any breach or alleged breach of this Agreement or performance or nonperformance of any obligation under this Agreement which cannot be resolved by negotiation will be resolved by binding arbitration under this Section 6.2  [ARBITRATION] and the then-current Commercial Rules and supervision of the American Arbitration Association (the \"AAA\"). If any part of this Section 6.2  [ARBITRATION] is held to be unenforceable, it will be severed and will not affect either the duty to arbitrate or any other part of this Section 6.2  [ARBITRATION]. The arbitration will be held before a sole disinterested arbitrator who is knowledgeable in business information and the Internet and experienced in handling commercial disputes. The arbitrator shall be appointed jointly by the parties hereto within 30 days following the date on which the arbitration is instituted. If the parties are unable to agree upon the arbitrator within such 30-day period, the AAA shall be instructed to select such arbitrator within 15 days thereafter. The arbitrator's award will be final and binding and may be entered in any court having jurisdiction. The arbitrator will not have the power to award punitive or exemplary damages, or any damages excluded by, or in excess of, any damage limitations expressed in this Agreement. Issues of arbitrability will be determined in accordance solely with the federal substantive and procedural laws relating to arbitration; in all other respects, the arbitrator will be obligated to apply and follow the substantive law of the State of Delaware.",
+                "changed_text": "6.2. ARBITRATION. Any controversy or claim between the parties concerning any breach or alleged breach of this Agreement or performance or nonperformance of any obligation under this Agreement which cannot be resolved by negotiation will be resolved by arbitration under this Section 6.2 [ARBITRATION]. The arbitrator's award will be final and binding and may be entered in any court having jurisdiction. The arbitrator will not have the power to award punitive or exemplary damages, or any damages excluded by, or in excess of, any damage limitations expressed in this Agreement.",
+                "explanation": "Stripping the text about Commercial Rules and supervision of the American Arbitration Association (the \"AAA\") means that the contract is now incomplete on what the processes will be. Moreover, removing the line: Issues of arbitrability will be determined in accordance solely with the federal substantive and procedural laws relating to arbitration; in all other respects, the arbitrator will be obligated to apply and follow the substantive law of the State of Delaware\", this would be considered an issue, as its omission makes it harder to bring claims that would otherwise be valid under federal law. This is more harmful to consumers, as claims would be limited to Delaware Law.",
+                "contradicted_law": "Federal Arbitration Act (FAA) requirements for clarity and fairness in arbitration agreements",
+                "location": "Section 6.2"
+            }
+        ]
+    }
+]

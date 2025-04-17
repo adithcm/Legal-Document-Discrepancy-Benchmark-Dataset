@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Notwithstanding anything to the contrary in this Agreement or any other agreement between Sekisui and Qualigen, nothing in this Agreement or any other agreement between the Parties prohibits, or is intended in any manner to prohibit, either Sekisui or Qualigen from reporting possible violations of federal law or regulation to any governmental agency or entity, including but not limited to the Department of Justice, the Securities and Exchange Commission, the Congress, and any agency Inspector General, or making other disclosures that are protected under the whistleblower provisions of federal law or regulation. Sekisui and Qualigen do not need the prior authorization of anyone at the other Party or the other Party's legal counsel to make any such reports or disclosures and they are not required to notify the other Party that it has made such reports or disclosures.",
+                "changed_text": "Notwithstanding anything to the contrary in this Agreement or any other agreement between Sekisui and Qualigen, reporting possible violations of federal law or regulation to any governmental agency or entity, including but not limited to the Department of Justice, the Securities and Exchange Commission, the Congress, and any agency Inspector General, or making other disclosures that are protected under the whistleblower provisions of federal law or regulation requires the Parties to notify each other and requires the parties to get authorization from the other Party's legal counsel.",
+                "explanation": "The original clause provides whistleblower protection, ensuring that parties can report violations without needing authorization or notifying the other party. The modified clause states that the parties must notify each other and need prior authorization from the other party's legal counsel which completely contradicts whistleblower protection by potentially deterring individuals from reporting violations due to fear of retaliation or obstruction.",
+                "contradicted_law": "Federal Whistleblower Protection Laws",
+                "location": "Section 13.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15.8. Attorney Fees. If litigation becomes necessary to enforce the provisions of this Agreement, the successful Party shall be entitled to recover from the other Party reasonable expenses, including attorneys' and other professional fees, in addition to any other available remedies.",
+                "changed_text": "1.1. Adverse Event shall mean an incident in which the Product was alleged to have caused or contributed to the death or serious injury of a patient or operator and would require submitting a Medical Devices Report to the FDA (as hereinafter defined) as per 21 CFR 803, or a similar report to a Competent Authority (as hereinafter defined) as per Vigilance Guidance MEDDEV 2.12-1, and the attorney fees will be paid by each party in the event of litigation.",
+                "explanation": "Attorney fees are usually in the miscellaneous section, but now it is now located in the definition of Adverse Event. The shift in content aims to obscure the 'Attorney Fees' clause, rendering it less obvious, and changing the wording in the event of litigation where each party will pay.",
+                "contradicted_law": "Contract Law",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11. Indemnities",
+                "changed_text": "1.2. Affiliate shall mean, (i) with respect to Qualigen, any corporation or other form of business organization, which directly or indirectly owns, controls, is controlled by, or is under common control with Qualigen, and (ii), with respect to Sekisui, shall mean Sekisui Diagnostics (UK) Ltd., Sekisui Diagnostics PEI, Inc., SEKISUI MEDICAL CO., LTD., and Sekisui Diagnostics GmbH, and they are not liable for indemnities, as the parties are separate.",
+                "explanation": "Moving the section regarding Indemnification by either party, to the Affiliate clause. Adding language that says 'they are not liable for indemnities, as the parties are separate', makes it difficult to enforce, if issues come up about the actions of either party.",
+                "contradicted_law": "Contract Law",
+                "location": "Section 1.2"
+            }
+        ]
+    }
+]

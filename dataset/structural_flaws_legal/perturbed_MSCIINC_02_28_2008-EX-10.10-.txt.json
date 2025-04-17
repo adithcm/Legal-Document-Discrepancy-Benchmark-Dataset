@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "THE PARTIES HERETO HEREBY IRREVOCABLY WAIVE ANY AND ALL RIGHT TO TRIAL BY JURY IN ANY LEGAL PROCEEDING ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY.",
+                "changed_text": "THE PARTIES HERETO WAIVE ANY AND ALL RIGHT TO TRIAL BY JURY IN ANY LEGAL PROCEEDING ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY, unless mutually agreed upon by both parties.",
+                "explanation": "The original clause explicitly waives the right to a jury trial. The modification introduces an exception ('unless mutually agreed upon'), creating a contradiction. The 'irrevocable' nature of the waiver is undermined by the conditional exception, making the enforceability of the jury trial waiver uncertain. Contract is under New York law.",
+                "contradicted_law": "7th Amendment to the US Constitution (Right to Jury Trial) and principles of contract law regarding waivers.",
+                "location": "6.1(c)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be construed in accordance with and governed by the substantive internal laws of the State of New York.",
+                "changed_text": "This Agreement shall be construed in accordance with and governed by the substantive internal laws of the State of New York, except where federal law may apply.",
+                "explanation": "The original clause states the contract is governed by New York law. Adding 'except where federal law may apply' introduces ambiguity and potential contradiction. While federal law may preempt state law in certain areas, this clause does not specify which federal laws take precedence, creating uncertainty and potential for disputes over which jurisdiction's laws apply. Contract is under New York law.",
+                "contradicted_law": "Principles of contract law regarding choice of law and preemption doctrines.",
+                "location": "6.1(a)"
+            }
+        ]
+    }
+]

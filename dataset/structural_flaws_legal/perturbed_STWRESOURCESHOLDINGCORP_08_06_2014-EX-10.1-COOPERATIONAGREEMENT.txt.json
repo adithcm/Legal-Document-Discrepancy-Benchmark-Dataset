@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "18.  Venue. This AGREEMENT is controlled by the laws of the State of Texas, and venue for any actions brought to enforce this AGREEMENT shall be brought exclusively in a court of competent jurisdiction in Pecos County, Texas.",
+                "changed_text": "18.  Venue. This AGREEMENT is controlled by the laws of the State of Texas, and venue for any actions brought to enforce this AGREEMENT shall be brought in a location agreed by both parties.",
+                "explanation": "The original clause specifies Pecos County, Texas as the exclusive venue for legal actions. The modified clause introduces ambiguity and contradiction by stating that the venue shall be 'agreed by both parties,' which contradicts the exclusivity provision and creates uncertainty. It makes it less clear where disputes are to be resolved, impacting the enforceability.",
+                "contradicted_law": "Texas venue statutes and general contract law principles requiring clear and unambiguous terms.",
+                "location": "Section 18"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "23.  Notice of Breach. In the event of default by any Party, a non-defaulting party may give the defaulting party written notice specifying the default. If the defaulting party fails to fully cure any monetary default that can be cured by payment within sixty (60) days after receipt of the notice, or fails to commence the curing of any default specified in such notice that is other than a monetary default within sixty (60) days from the date of the notice provided, then the non-defaulting party may pursue all legal or equitable remedies against the defaulting party.",
+                "changed_text": "23.  Notice of Breach. In the event of default by any Party, a non-defaulting party may give the defaulting party written notice specifying the default. If the defaulting party fails to fully cure any monetary default that can be cured by payment within sixty (60) days after receipt of the notice, or fails to commence the curing of any default specified in such notice that is other than a monetary default within sixty (60) days from the date of the notice provided, then the non-defaulting party may pursue legal and equitable remedies, provided these remedies shall not be exercised until a period mutually agreed by both parties.",
+                "explanation": "The original clause specifies that the non-defaulting party 'may pursue all legal or equitable remedies'. The changed text inserts 'provided these remedies shall not be exercised until a period mutually agreed by both parties', which contradicts the original clause. This contradicts the ability to pursue remedies and makes the enforceability of the remedies uncertain, if the parties do not agree on a timeline for the process.",
+                "contradicted_law": "Texas contract law principles requiring clear and unambiguous default and remedy provisions.",
+                "location": "Section 23"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "25.  Indemnification. The Parties shall indemnify, hold harmless, and defend each other, their heirs, successors, and assigns, from and against any and all losses, liabilities, damages, costs, attorney's fees, expenses, causes of action, suits, claims, and judgments of any kind or character for injury to person or property arising in whole or in part out of the responsibilities set forth in this AGREEMENT, whether due to the negligence of a Party or otherwise.",
+                "changed_text": "25.  Indemnification. The Parties shall indemnify, hold harmless, and defend each other, their heirs, successors, and assigns, from and against any and all losses, liabilities, damages, costs, attorney's fees, expenses, causes of action, suits, claims, and judgments of any kind or character for injury to person or property arising in whole or in part out of the responsibilities set forth in this AGREEMENT, whether due to the negligence of a Party or otherwise. Notwithstanding, neither party shall be responsible to indemnify for negligience under any circumstance.",
+                "explanation": "The addition of the 'Notwithstanding, neither party shall be responsible to indemnify for negligience under any circumstance' contradicts the original wording that specifies the indemnification shall cover responsibilities 'whether due to the negligence of a Party or otherwise.' This clause creates a contradiction in that under no circumstance will they be responsible for indemnifying even if they are negligent, thereby limiting the other party's ability to enforce the indemnification clause, since negligence is now specifically excluded.",
+                "contradicted_law": "Texas contract law principles requiring clear and unambiguous indemnity clauses.",
+                "location": "Section 25"
+            }
+        ]
+    }
+]

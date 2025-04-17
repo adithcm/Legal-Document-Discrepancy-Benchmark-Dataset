@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WestPharmaceuticalServicesInc_20200116_8-K_EX-10.1_11947529_EX-10.1_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Buyer Affiliates shall pay ExxonMobil Selling Affiliates' invoice(s) in full within the days set forth below:\n\nLocation Payment Terms Delivery Terms - lncoterms 2010\nBrazil [*****] [*****]\nChina [*****] [*****]\nDenmark [*****] [*****]\nFrance [*****] [*****]\nGermany [*****] [*****]\nIndia [*****] [*****]\nMexico [*****] [*****]\nSerbia [*****] [*****]\nSingapore [*****] [*****]\nU.S.A. [*****] [*****]\nIreland [*****] [*****]",
+                "changed_text": "Buyer Affiliates shall pay ExxonMobil Selling Affiliates' invoice(s) according to terms determined by ExxonMobil Selling Affiliates.\n\nLocation Payment Terms Delivery Terms - lncoterms 2010\nBrazil [*****] [*****]\nChina [*****] [*****]\nDenmark [*****] [*****]\nFrance [*****] [*****]\nGermany [*****] [*****]\nIndia [*****] [*****]\nMexico [*****] [*****]\nSerbia [*****] [*****]\nSingapore [*****] [*****]\nU.S.A. [*****] [*****]\nIreland [*****] [*****]",
+                "explanation": "By removing the fixed payment terms and indicating it is determined by ExxonMobil Selling Affiliates. This allows ExxonMobil to change the payment terms at any time, such as shortening the payment window, which violates buyer protections regarding reasonable payment periods that are implied by law and UCC Article 2.",
+                "contradicted_law": "UCC Article 2 - Implied Obligation of Good Faith and Fair Dealing",
+                "location": "ATTACHMENT E - Payment Terms"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "WARRANTIES There are no warranties which extend beyond the description on the face hereof, and Seller makes no warranty, expressed or implied, of satisfactory quality, merchantability, fitness for any particular use or otherwise, except that the products sold hereunder shall meet Seller's applicable standard specifications or such other specifications as may be notified by Seller to Buyer from time to time. Buyer assumes all risk whatsoever as a result of the use of the products purchased, whether used singly or in combination with other substances or in any process.",
+                "changed_text": "WARRANTIES There are no warranties which extend beyond the description on the face hereof, and Seller makes no warranty, expressed or implied, of satisfactory quality, merchantability, fitness for any particular use or otherwise. Buyer assumes all risk whatsoever as a result of the use of the products purchased, whether used singly or in combination with other substances or in any process.",
+                "explanation": "By removing 'except that the products sold hereunder shall meet Seller's applicable standard specifications or such other specifications as may be notified by Seller to Buyer from time to time', ExxonMobil Selling Affiliates is not guaranteeing that the products being sold adhere to any sort of standard. UCC 2-313 dictates the creation of an expressed warranty if specifications are not met.",
+                "contradicted_law": "UCC 2-313 - Express Warranties by Affirmation, Promise, Description, Sample",
+                "location": "ATTACHMENT G"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "14. EM gives no guarantees or warranties, express or implied, as to the quality, merchantability, fitness for purpose or suitability of the products except that the product sold pursuant to the terms of this Agreement shall meet the relevant EM standard specification in force at the time of loading or such other specification or requirement which may be explicitly agreed in writing between the parties.",
+                "changed_text": "14. EM gives no guarantees or warranties, express or implied, as to the quality, merchantability, fitness for purpose or suitability of the products.",
+                "explanation": "By removing \"except that the product sold pursuant to the terms of this Agreement shall meet the relevant EM standard specification in force at the time of loading or such other specification or requirement which may be explicitly agreed in writing between the parties.\", the company is no longer required to meet a certain specification. UCC 2-313 dictates the creation of an expressed warranty if specifications are not met.",
+                "contradicted_law": "UCC 2-313 - Express Warranties by Affirmation, Promise, Description, Sample",
+                "location": "ATTACHMENT H"
+            }
+        ]
+    }
+]

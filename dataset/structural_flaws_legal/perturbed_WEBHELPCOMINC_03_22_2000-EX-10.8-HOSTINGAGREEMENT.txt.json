@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EXCLUDING LIABILITY FOR INFRINGEMENT CLAIMS AS DISCUSSED IN SECTION 9 OF THIS AGREEMENT, IN NO EVENT SHALL eGAIN BE LIABLE TO CUSTOMER FOR CONSEQUENTIAL, EXEMPLARY, INDIRECT, SPECIAL OR INCIDENTAL DAMAGES (INCLUDING, WITHOUT LIMITATION, LOST PROFITS), OR BE LIABLE TO ANY THIRD PARTY FOR ANY DAMAGES WHATSOEVER, EVEN IF eGAIN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. eGain's entire liability under this Agreement for any damages from any cause whatsoever, regardless of form or action, whether in contract, negligence or otherwise, shall in no event exceed an amount equal to the price paid for the Services out of which the claim arose.",
+                "changed_text": "EXCLUDING LIABILITY FOR INFRINGEMENT CLAIMS AS DISCUSSED IN SECTION 9 OF THIS AGREEMENT, IN NO EVENT SHALL eGAIN BE LIABLE TO CUSTOMER FOR CONSEQUENTIAL, EXEMPLARY, INDIRECT, SPECIAL OR INCIDENTAL DAMAGES (INCLUDING, WITHOUT LIMITATION, LOST PROFITS), OR BE LIABLE TO ANY THIRD PARTY FOR ANY DAMAGES WHATSOEVER, EVEN IF eGAIN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. eGain's entire liability under this Agreement for any damages from any cause whatsoever, regardless of form or action, whether in contract, negligence or otherwise, shall in no event exceed an amount equal to the price paid for the Services out of which the claim arose. Notwithstanding the foregoing, eGain's liability will be determined by the business requirements.",
+                "explanation": "The addition of \"Notwithstanding the foregoing, eGain's liability will be determined by the business requirements.\" introduces a contradiction. The first part of the clause sets a clear limit on liability (price paid for services). The added sentence introduces ambiguity, suggesting that business requirements might override the stated limit, making the limitation of liability clause unclear and potentially unenforceable.",
+                "contradicted_law": "General Contract Law - Clear and Unambiguous Terms",
+                "location": "Section 7"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of California exclusive of its conflict of laws principles.",
+                "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of California exclusive of its conflict of laws principles. However, matters of data privacy will be governed by the laws where the data is stored.",
+                "explanation": "The added sentence \"However, matters of data privacy will be governed by the laws where the data is stored.\" creates a contradiction. While the contract states California law governs, data privacy is now subject to potentially conflicting laws based on data storage location. This can lead to legal uncertainty, especially if data is stored outside of California, and weaken the original governing law clause.",
+                "contradicted_law": "General Contract Law - Choice of Law Principles",
+                "location": "Section 12"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All waivers of any rights or breach hereunder must be in writing to be effective, and no failure to enforce any right or provision shall be deemed to be a waiver of the same or other right or provision on that or any other occasion.",
+                "changed_text": "All waivers of any rights or breach hereunder must be in writing to be effective, and no failure to enforce any right or provision shall be deemed to be a waiver of the same or other right or provision on that or any other occasion. Unless agreed to otherwise by eGain.",
+                "explanation": "Adding \"Unless agreed to otherwise by eGain\" to the waiver clause creates a contradiction. The original clause strictly requires written waivers. The added phrase provides eGain with the unilateral ability to verbally waive rights or breaches, contradicting the written requirement and introducing ambiguity.",
+                "contradicted_law": "General Contract Law - Waiver Provisions",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

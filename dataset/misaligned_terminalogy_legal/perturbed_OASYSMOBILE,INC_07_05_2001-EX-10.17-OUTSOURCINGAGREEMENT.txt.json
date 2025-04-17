@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "OASYSMOBILE,INC_07_05_2001-EX-10.17-OUTSOURCING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"APPLICATION\" means the English version of the E.piphany Application programs listed in Exhibit A, in object code format, any accompanying Documentation, and any Updates (as defined in Section 5.5 (\"Updates\"), only if and when generally commercially available as part of the Maintenance Services provided pursuant to Section 5 (\"Maintenance Services\").",
+                "changed_text": "\"APPLICATION\" means the E.piphany software as provided, but excludes any Updates, modifications, or associated Documentation unless explicitly stated otherwise in subsequent amendments to this agreement.",
+                "explanation": "The original definition included 'Updates' as part of the Application. The modified definition explicitly excludes them. This is problematic because section 5 of the contract details maintenance, which includes providing updates. By excluding updates from the definition of 'Application,' the contract creates ambiguity as to whether HSNS is entitled to receive updates as part of the licensed Application, even though the maintenance section suggests they should. This creates a contradiction.",
+                "contradicted_law": "Contract Law - Ambiguity and Interpretation",
+                "location": "Section 14"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "5.5 UPDATES. E.piphany will, from time to time, provide to HSNS all applicable Updates to the Application, that are commercially released by E.piphany during the term of this Agreement.",
+                "changed_text": "5.5 UPDATES. E.piphany may, at its discretion, provide certain enhancements to HSNS. These enhancements will not be considered mandatory updates and will only be applied if both parties agree.",
+                "explanation": "This modification directly contradicts the obligation to provide 'Updates' as defined in the original Section 14. By making updates discretionary, it shifts the responsibility from a contractual obligation to a negotiable item. This contradicts the original intent and potentially makes the maintenance agreement unenforceable as it relates to updates.",
+                "contradicted_law": "Contract Law - Breach of Contract",
+                "location": "Section 5.5"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "4.1 BY E.PIPHANY. E.piphany warrants that for a period of one (1) year from Effective Date, the Application as used within the scope of this Agreement will perform substantially in accordance with the functions described in the Documentation.",
+                "changed_text": "4.1 BY E.PIPHANY. E.piphany warrants that for a period of one (1) month from Effective Date, the primary Application features will be made available for use.",
+                "explanation": "The original text warrants that the Application will perform substantially in accordance with the functions in the Documentation, but the modified text is just ensuring that the features are made available. With the new text, there is no promise that it will do what is described in the documentation. This creates a legal risk because HSNS could claim that the core functionality is missing.",
+                "contradicted_law": "Contract Law - Breach of Contract",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]

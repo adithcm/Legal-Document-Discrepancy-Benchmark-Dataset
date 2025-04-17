@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Parties acknowledge and agree that Reseller's Customers will acquire the Products and related services under  contract with Reseller, that Diversinet shall not have any contractual interest in Reseller's Customer relationships.",
+                "changed_text": "The Parties acknowledge and agree that Reseller's Clients will acquire the Products and related services under  contract with Reseller, that Diversinet shall not have any contractual interest in Reseller's Customer relationships.",
+                "explanation": "The term 'Customers' was replaced with 'Clients'. While seemingly innocuous, some jurisdictions legally differentiate between 'customer' and 'client,' especially in the context of service agreements. By using 'clients' while still referring to 'Customer relationships,' the contract introduces ambiguity that could affect enforcement, especially regarding liabilities and responsibilities defined elsewhere in the contract with respect to 'Customers.'",
+                "contradicted_law": "Contract Law, specific to jurisdiction defining 'customer' and 'client' differently",
+                "location": "Section 5. Customer Orders (a)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Unless otherwise agreed to by the Parties, delivery of the Products shall take place via electronic transmission or by courier, and will take  place within two (2) Business Days of a written request or purchase order for software and within five (5) Business Days for a standard  appliance. Custom built appliances or software are subject to evaluation and delivery date will be communicated after assessment. \"Business  Day\" shall mean 9:00 a.m. to 5:00 p.m. (Eastern Standard Time), Monday through Friday, excluding all statutory holidays observed in the  Province of Ontario in Canada.",
+                "changed_text": "Unless otherwise agreed to by the Parties, delivery of the Products shall take place via electronic transmission or by courier, and will take  place within two (2) Working Days of a written request or purchase order for software and within five (5) Working Days for a standard  appliance. Custom built appliances or software are subject to evaluation and delivery date will be communicated after assessment. \"Business  Day\" shall mean 9:00 a.m. to 5:00 p.m. (Eastern Standard Time), Monday through Friday, excluding all statutory holidays observed in the  Province of Ontario in Canada.",
+                "explanation": "Changing 'Business Day' to 'Working Day' without altering the definition creates a contradiction. The contract defines 'Business Day' explicitly, but then uses 'Working Day' elsewhere. This introduces confusion because 'Working Day' is not defined, and its common usage might differ from the contractual definition of 'Business Day,' potentially affecting delivery timelines and breach of contract claims.",
+                "contradicted_law": "Contract Interpretation Principles - Ambiguity",
+                "location": "Section 6. Delivery (b)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the province of Ontario, Canada, without regard to its conflict of laws principles. Any litigation  or other dispute resolution between the Parties relating to this Agreement or its construction shall take place in the courts of Toronto, Ontario,  Canada.",
+                "changed_text": "This Agreement shall be governed by the regulations of the province of Ontario, Canada, without regard to its conflict of laws principles. Any litigation  or other dispute resolution between the Parties relating to this Agreement or its construction shall take place in the courts of Toronto, Ontario,  Canada.",
+                "explanation": "The substitution of “laws” with “regulations” creates uncertainty. While regulations are a subset of laws, they do not encompass the entirety of legal principles that might govern a contract (e.g., common law, statutory law not implemented through regulation). This could lead to disputes about which legal standards apply, weakening the enforceability of the agreement.",
+                "contradicted_law": "Canadian Contract Law; Interpretation of Governing Law Clauses",
+                "location": "Section 20. Choice of Forum"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLUEFLYINC_03_27_2002-EX-10.27-e-businessHostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The parties waive any right to a jury trial in any proceeding arising out of or related to this Agreement.",
+                "changed_text": "The parties may consider waiving any right to a jury trial in any proceeding arising out of or related to this Agreement, subject to mutual agreement at the time of the proceeding.",
+                "explanation": "This change introduces uncertainty and potential unenforceability by making the jury trial waiver conditional on future mutual agreement. This contradicts the original intent of a clear, upfront waiver and may violate the requirements for a knowing and voluntary waiver of the right to a jury trial, as required by some jurisdictions, by adding the condition of a mutual agreement at the time of the proceeding.",
+                "contradicted_law": "Seventh Amendment to the United States Constitution (right to jury trial); applicable state laws regarding waiver of jury trial rights.",
+                "location": "14.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement will be governed by the substantive laws of the State of New York, without regard for its conflict of laws provisions.",
+                "changed_text": "This Agreement will be subject to laws the parties find most amicable, taking into account the location where the issues at hand took place.",
+                "explanation": "This change creates a contradiction by replacing the clear choice of New York law with a vague reference to laws that the parties find 'most amicable'. This introduces ambiguity and potential conflict of laws issues, as it's unclear which jurisdiction's laws will ultimately govern, violating the legal standard of specifying a jurisdiction as stated in state and US law.",
+                "contradicted_law": "General principles of contract law regarding choice of law clauses; New York law regarding choice of law.",
+                "location": "14.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Customer will pay or provide appropriate exemption documentation for all taxes, duties, levies, and any other fees (except for taxes based upon IBM's net income) related to the Services imposed by any governmental authorities. Charges specified herein (including in an Order Form) are exclusive of any such taxes, duties, levies or fees.",
+                "changed_text": "Customer might be responsible for some taxes, duties, and fees, depending on the government's requests. Charges may not include any taxes.",
+                "explanation": "This restructuring introduces ambiguity and reduces the clarity of the customer's tax obligations. By using uncertain language like 'might be responsible' and 'depending on the government's requests,' it undermines the original clause's clear statement that the customer is responsible for all taxes (excluding those on IBM's net income). This may be considered a contradiction to the original agreement of who is responsible for said fees.",
+                "contradicted_law": "General principles of contract law requiring clear and unambiguous terms regarding financial obligations.",
+                "location": "4.3"
+            }
+        ]
+    }
+]

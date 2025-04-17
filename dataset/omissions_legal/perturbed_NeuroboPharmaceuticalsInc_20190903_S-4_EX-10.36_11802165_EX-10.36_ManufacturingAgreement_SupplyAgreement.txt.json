@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "If Dong-A does not receive payment of any sum due to it on or before the due date, [***] interest shall thereafter accrue on the sum due to until the date of payment at the [***] rate of [***] percent ([***]%) over the then-current prime rate quoted by Citibank in New York, New York or the maximum rate allowable by New York law, whichever is lower.",
+                "changed_text": "If Dong-A does not receive payment of any sum due to it on or before the due date, interest may accrue on the sum due.",
+                "explanation": "This weakens the obligation for interest on late payments. New York law (where the contract is governed) sets specific guidelines and limits on interest rates for commercial transactions. Removing a defined interest rate and replacing it with 'interest may accrue' introduces ambiguity and could potentially allow for interest charges exceeding legal limits, especially if not clearly defined elsewhere in the agreement.",
+                "contradicted_law": "New York General Obligations Law Section 5-501 and Section 5-511, which regulate interest rates and usury.",
+                "location": "4.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In performing its obligations under this Agreement, NeuroBo shall, and shall cause its Affiliates and sublicensees to, comply with all applicable laws, including any applicable anti-corruption or anti-bribery laws or regulation, of any governmental authority with jurisdiction over the activities performed by NeuroBo or its Affiliates or sublicensees in furtherance of such obligations.",
+                "changed_text": "In performing its obligations under this Agreement, NeuroBo shall comply with all applicable laws.",
+                "explanation": "By removing 'including any applicable anti-corruption or anti-bribery laws or regulation,' the contract becomes less explicit about the requirement to adhere to these critical laws. Given the international nature of the agreement (between a Korean and a US company), compliance with laws like the Foreign Corrupt Practices Act (FCPA) in the US is paramount. The omission creates ambiguity and weakens the explicit commitment to avoid bribery and corruption, increasing legal risk.",
+                "contradicted_law": "U.S. Foreign Corrupt Practices Act (FCPA)",
+                "location": "4.5"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement.",
+                "changed_text": "The laws of the State of New York govern all matters arising out of or relating to this Agreement.",
+                "explanation": "The original text explicitly excludes the 'conflicts of law principles' of New York. Conflicts of law rules determine which jurisdiction's laws apply when there are competing choices. By removing the exclusion, the contract introduces uncertainty. A court might apply another jurisdiction's laws based on conflicts of law principles, which could disadvantage one party or the other. This contradicts the intent to have New York law exclusively govern the agreement.",
+                "contradicted_law": "This change introduces uncertainty and potential conflict with established principles of contract law regarding choice of law and conflicts of law.",
+                "location": "6"
+            }
+        ]
+    }
+]

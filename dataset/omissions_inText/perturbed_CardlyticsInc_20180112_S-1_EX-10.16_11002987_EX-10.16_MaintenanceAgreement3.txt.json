@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"SLCMA\"). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.",
+                "changed_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"Agreement\"). Each capitalized term used but not defined herein shall have the meaning assigned in this Schedule.",
+                "explanation": "The original text explicitly states that undefined capitalized terms inherit their meaning from the SLCMA. The modified text changes this, stating that undefined capitalized terms now derive their meaning from the Schedule itself. This creates an internal contradiction because other sections may still refer to terms defined in the original SLCMA (but not redefined in this Schedule) leading to confusion and potential disputes over interpretation. Furthermore, replacing 'SLCMA' with 'Agreement' creates ambiguity, as 'Agreement' could refer to the SLCMA or the Schedule itself.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America,\n\nWHEREAS, the parties desire to add to the SLCMA the Supplier Offer Placement System Software;",
+                "changed_text": "WHEREAS, Bank of America and Supplier desire to define the terms and conditions pursuant to which Supplier provides certain Software to Bank of America,\n\nWHEREAS, the parties desire to define the scope of the Supplier Offer Placement System Software;",
+                "explanation": "The original 'WHEREAS' clauses clearly state that the SLCMA already exists and defines the terms for software provision, with this Schedule adding to it. The changed text removes the reference to the existing SLCMA, implying that the schedule itself completely defines the terms and scope of the agreement. This contradicts any implicit or explicit references to the SLCMA in other sections of the document, particularly if those sections assume certain clauses from the SLCMA are still in effect. The removal of the explicit link to the SLCMA renders the overall agreement ambiguous. It's unclear how previous agreements are applied and creates a source of conflict.",
+                "location": "WHEREAS Clauses"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The attached Schedule [A] is hereby incorporated into the SLCMA describing the Offer Placement System Software for use by Bank of America.",
+                "changed_text": "The attached Schedule [A] describes the Offer Placement System Software for use by Bank of America.",
+                "explanation": "The original clause explicitly incorporates the Schedule into the existing SLCMA, meaning the SLCMA’s terms and conditions still apply. The modified text removes the reference to the SLCMA, suggesting that Schedule A now stands alone and governs the Offer Placement System Software independently. This contradicts previous (now omitted) clauses referencing the SLCMA, creating uncertainty about which set of terms govern the agreement. If the schedule does not explicitly mention payment terms which existed in SLCMA and now doesn't the enforceability is difficult.",
+                "location": "Final Paragraph"
+            }
+        ]
+    }
+]

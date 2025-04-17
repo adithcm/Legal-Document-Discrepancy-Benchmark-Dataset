@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "MagentaTherapeutics,Inc.-MasterDevelopmentandManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Bachem hereby certifies that it does not and shall not employ, contract with or retain any person directly or indirectly to perform Services under this Agreement or any Project Plan if such person is or has been debarred under 21 U.S.C. 335a (a) or (b) or other equivalent laws, rules, regulations or standards of any other relevant jurisdiction. Upon written request of Magenta, Bachem shall, [***], provide written confirmation that it has complied with the foregoing obligation. Bachem agrees to immediately disclose in writing to Magenta if any employee or agent is debarred, or if any action or investigation is pending or, to the best of Bachem's knowledge, is threatened in relation to the debarment of Bachem or any person performing Services in connection with this Agreement.",
+                "changed_text": "Bachem agrees to immediately disclose in writing to Magenta if any employee or agent is debarred, or if any action or investigation is pending or, to the best of Bachem's knowledge, is threatened in relation to the debarment of Bachem or any person performing Services in connection with this Agreement. Bachem hereby certifies that it does not and shall not employ, contract with or retain any person directly or indirectly to perform Services under this Agreement or any Project Plan if such person is or has been debarred under 21 U.S.C. 335a (a) or (b) or other equivalent laws, rules, regulations or standards of any other relevant jurisdiction. Upon written request of Magenta, Bachem shall, [***], provide written confirmation that it has complied with the foregoing obligation.",
+                "explanation": "By reordering the sentences, the immediate disclosure requirement is placed before the certification. This creates a logical disconnect where Bachem agrees to disclose debarment issues before formally certifying that it complies with debarment regulations, thus obfuscating the certification's enforceability.",
+                "contradicted_law": "21 U.S.C. 335a (a) or (b)",
+                "location": "Section 5.12"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All notices delivered pursuant to this Section 14 shall be considered delivered upon receipt by the intended recipient.",
+                "changed_text": "All notices delivered pursuant to this Section 14 shall be considered delivered upon dispatch by the sender.",
+                "explanation": "The original clause stipulates that a notice is only considered delivered 'upon receipt by the intended recipient'. By changing it to 'upon dispatch by the sender,' this significantly shifts the risk of non-delivery or delays to the recipient, potentially creating disputes over whether a notice was effectively served, even if not received. This contradicts standard legal practice requiring proof of receipt, thus creating a legal contradiction.",
+                "contradicted_law": "Common Law Contract Principles - Notice Requirements",
+                "location": "Section 14"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The parties submit to the exclusive jurisdiction of the state and federal courts in New York for any suit, action or proceeding relating to this Agreement.",
+                "changed_text": "The parties may submit to the jurisdiction of the state and federal courts in New York for any suit, action or proceeding relating to this Agreement.",
+                "explanation": "By changing 'shall submit to the exclusive jurisdiction' to 'may submit to the jurisdiction', the clause is changed from mandatory to permissive. This introduces a significant ambiguity as it suggests the parties have a choice whether to be bound by the New York courts, creating uncertainty about the legal venue for dispute resolution.",
+                "contradicted_law": "Common Law Contract Principles - Forum Selection",
+                "location": "Section 15.11"
+            }
+        ]
+    }
+]

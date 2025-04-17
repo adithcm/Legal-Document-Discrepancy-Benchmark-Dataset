@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "LECLANCHÉS.A.-JOINTDEVELOPMENTANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in accordance with Swiss law. The conflict of law rules and the United Nations Convention on Contracts for the International Sale of Goods do not apply.",
+                "changed_text": "This Agreement shall be governed by and construed in accordance with Swiss law, unless the parties mutually agree to apply the laws of another jurisdiction at a later date. The conflict of law rules and the United Nations Convention on Contracts for the International Sale of Goods do not apply.",
+                "explanation": "The original clause specifies Swiss law as governing, but the modified clause introduces a contradiction by allowing parties to later agree on a different jurisdiction. This weakens the enforceability of the Swiss law provision.",
+                "contradicted_law": "Contract Law - Certainty and Enforceability of Governing Law Clauses",
+                "location": "23.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Parties irrevocably agree that the courts of the city of Zurich have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with this Agreement.",
+                "changed_text": "The Parties agree that the courts of the city of Zurich have jurisdiction to settle any dispute or claim that arises out of or in connection with this Agreement; however, alternative dispute resolution methods may be pursued prior to initiating court proceedings.",
+                "explanation": "By removing 'irrevocably' and adding the clause about alternative dispute resolution, the exclusivity of Zurich courts is undermined. This creates a legal contradiction by implying that court proceedings are not necessarily the primary or exclusive method for dispute resolution, affecting the enforceability of the jurisdiction clause.",
+                "contradicted_law": "Contract Law - Enforceability of Jurisdiction Clauses",
+                "location": "23.2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Parties acknowledge that both companies are publicly quoted companies and may before and/or during the course of this Agreement be in receipt of nonpublic information (including any Confidential Information) (together, \"Non Public Information\") and agree to comply with all relevant laws and regulations applicable to market trading during the term of this Agreement and for a period of 12 months thereafter, and in particular agrees not to:\n\ndirectly nor indirectly engage in any transactions on any exchange, regulated market or over-the-counter in (i) any securities issued by the Leclanché or any affiliated company or (ii) any derivative products the price of which is derived in whole or in substantial part from any such securities;\n\ndivulge directly or indirectly any Non Public Information to any third party without the written consent of Leclanché and if it is",
+                "changed_text": "The Parties acknowledge that both companies are publicly quoted companies and may before and/or during the course of this Agreement be in receipt of nonpublic information (including any Confidential Information) (together, \"Non Public Information\") and agree to comply with all relevant laws and regulations applicable to market trading during the term of this Agreement and for a period of 12 months thereafter, and in particular agrees not to:\n\ndirectly nor indirectly engage in any transactions on any exchange, regulated market or over-the-counter in (i) any securities issued by the Leclanché or any affiliated company or (ii) any derivative products the price of which is derived in whole or in substantial part from any such securities;\n\ndivulge directly or indirectly any Non Public Information to any third party; however, either party can disclose such information to their affiliates and subsidiaries provided they agree to protect it.",
+                "explanation": "This introduces a contradiction by initially prohibiting disclosure of non-public information but then allowing it to be shared with affiliates and subsidiaries under a vague condition. This creates ambiguity regarding the scope of the confidentiality obligation, making it harder to enforce the non-disclosure provision.",
+                "contradicted_law": "Securities Law - Insider Trading Regulations, Contract Law - Confidentiality Clauses",
+                "location": "21.1"
+            }
+        ]
+    }
+]

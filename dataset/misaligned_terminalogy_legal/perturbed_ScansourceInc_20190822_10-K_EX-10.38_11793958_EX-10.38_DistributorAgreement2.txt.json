@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Customer's license to use the Software shall be limited to, and Customer shall not use the Software in excess of, a single hardware chassis or card or that number of agent(s), concurrent users, sessions, IP addresses, port(s), seat(s), server(s) or site(s), as set forth in the applicable Purchase Order which has been accepted by Cisco and for which Customer has paid to Cisco the required license fee.",
+                "changed_text": "Customer's license to use the Software shall be limited to, and Customer shall not use the Software in excess of, a single hardware chassis or card or that number of agent(s), occasional users, sessions, IP addresses, port(s), seat(s), server(s) or site(s), as set forth in the applicable Purchase Order which has been accepted by Cisco and for which Customer has paid to Cisco the required license fee.",
+                "explanation": "The term 'concurrent users' is a well-defined metric in software licensing, usually referring to the maximum number of users accessing the software simultaneously. Changing this to 'occasional users' introduces ambiguity, as 'occasional' is subjective and not legally defined, thus creating a contradiction in how usage is measured and enforced.",
+                "contradicted_law": "Contract Law - Ambiguity in Terms",
+                "location": "Paragraph 5"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Customer agrees that aspects of the Software and associated Documentation, including the specific design and structure of individual programs, are trade secrets and/or copyrighted materials of Cisco, its suppliers or licensors. Customer shall not disclose, provide, or otherwise make available such trade secrets or copyrighted material in any form to any third party without the prior written consent of Cisco. Customer shall implement reasonable security measures to protect such trade secrets and copyrighted materials.",
+                "changed_text": "Customer agrees that aspects of the Software and associated Documentation, including the specific design and structure of individual programs, are confidential materials of Cisco, its suppliers or licensors. Customer shall not disclose, provide, or otherwise make available such confidential materials in any form to any third party without the prior written consent of Cisco. Customer shall implement basic measures to protect such confidential materials.",
+                "explanation": "Replacing 'trade secrets' and 'copyrighted materials' with 'confidential materials' weakens the protection. Trade secrets have specific legal definitions and protections under state and federal law (e.g., Defend Trade Secrets Act). Copyrighted materials are protected under federal copyright law. 'Confidential materials' is a broader, less legally enforceable term. Additionally, changing 'reasonable security measures' to 'basic measures' dilutes the standard of care expected, potentially conflicting with established legal precedents regarding the protection of trade secrets and copyrighted materials.",
+                "contradicted_law": "Defend Trade Secrets Act, Copyright Law",
+                "location": "Paragraph 10"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Consistent with 48 C.F.R.12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4, Customer will provide to Government end user, or, if this Agreement is direct Government end user will acquire, the Software and software documentation with only those rights set forth herein that apply to non- governmental customers.",
+                "changed_text": "Customer will provide to Government end user, or, if this Agreement is direct Government end user will acquire, the Software and software documentation with standard commercial rights.",
+                "explanation": "Removing the reference to specific sections of the Code of Federal Regulations (C.F.R.) related to government end users and replacing it with 'standard commercial rights' directly contradicts established federal procurement law. 48 C.F.R. 12.212 and 227.7202-1 through 227.7202-4 outline specific rights and restrictions when providing software to the U.S. government. Simply stating 'standard commercial rights' ignores these regulations and could lead to non-compliance with federal law.",
+                "contradicted_law": "48 C.F.R. 12.212, 48 C.F.R. 227.7202-1 through 227.7202-4, Federal Acquisition Regulation (FAR)",
+                "location": "Paragraph 12"
+            }
+        ]
+    }
+]

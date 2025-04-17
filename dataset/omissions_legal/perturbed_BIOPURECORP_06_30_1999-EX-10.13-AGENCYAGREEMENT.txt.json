@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BIOPURECORP_06_30_1999-EX-10.13-AGENCYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "See attachment \"C\", \"General Information\", for specific sales, shipping, and return policies.",
+                "changed_text": "",
+                "explanation": "Removing the reference to specific return policies, which under many state laws are required to offer a minimum return period or refund, introduces non-compliance. This omission eliminates transparency regarding consumer rights related to returns, potentially violating state consumer protection laws.",
+                "contradicted_law": "State Consumer Protection Laws (e.g., implied warranty of merchantability, minimum return periods)",
+                "location": "2.5"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Company hereby warrants that all Products sold to the\n\nCustomer hereunder, at the time of shipment to the Customer, (a) will be merchantable and of generally commercially salable quality; and (b) will have a then remaining shelf life of at least twelve (12) months. The Company further",
+                "changed_text": "The Company warrants that all Products sold to the\n\nCustomer hereunder, at the time of shipment to the Customer, will have a then remaining shelf life of at least twelve (12) months. The Company further",
+                "explanation": "By removing the phrase stating that the products 'will be merchantable and of generally commercially salable quality', the contract omits an implied warranty of merchantability, a legally required consumer protection under the Uniform Commercial Code (UCC) as adopted by Massachusetts law.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Implied Warranty of Merchantability",
+                "location": "2.6"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each such liability insurance policy of the Agent will name the Company (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Company of any cancellation, modification or amendment of the policy. Each product liability insurance policy of the Company will name the Agent (as its interest may appear) as an additional insured under the policy and provide for at least thirty (30) days prior written notice to the Agent of any cancellation, modification, or amendment of this policy. Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3.",
+                "changed_text": "Each party will furnish to the other upon request a Certificate of Insurance or other documentation reasonably satisfactory to the other evidencing compliance with this Paragraph 3.3.",
+                "explanation": "Removing the requirement for the Agent's and the Company's liability insurance policies to name each other as additional insureds and provide 30-day written notice of cancellation weakens risk management and fails to comply with prudent business practices to protect each other, thus introduces legal and financial risk. This creates a legal loophole by omitting what could be a legal requirement.",
+                "contradicted_law": "General Prudent Business Practice / Contract Law Principles of Good Faith and Fair Dealing",
+                "location": "3.3"
+            }
+        ]
+    }
+]

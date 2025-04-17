@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PAXMEDICA,INC_07_02_2020-EX-10.12-Master Service Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "This Master Service Agreement (\"Agreement\"), entered into on May 25th, 2018 by and between CRO Consulting (Pty) Limited, whose Registered Office is at OnQ House 250 Market Street Fairland Johannesburg 2170 South Africa (hereinafter referred to as \"CRO\") and Purinix Pharmaceuticals LLC whose Registered Office is at 1266 East Main Street, Suite 700R, Stamford, CT 06902, USA (hereinafter referred to as \"Client\").",
+                "changed_text": "This Master Service Agreement (\"Agreement\"), entered into on May 25th, 2018 by and between CRO Consulting (Pty) Limited, whose Registered Office is at OnQ House 250 Market Street Fairland Johannesburg 2170 South Africa (hereinafter referred to as \"Service Provider\") and Purinix Pharmaceuticals LLC whose Registered Office is at 1266 East Main Street, Suite 700R, Stamford, CT 06902, USA (hereinafter referred to as \"Customer\").",
+                "explanation": "Changing 'CRO' to 'Service Provider' and 'Client' to 'Customer' introduces ambiguity. The rest of the document still refers to CRO and Client, creating confusion about whether 'Service Provider' and 'Customer' are equivalent to or distinct from the defined terms.",
+                "location": "Preamble"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Client will pay CRO for satisfactory performance of Services as agreed in each Project-specific Addendum to this Agreement.",
+                "changed_text": "The Customer will remit payment to the Vendor for acceptable fulfillment of obligations as per each Project-specific Addendum to this Contract.",
+                "explanation": "Here, 'Client' is replaced with 'Customer', 'CRO' with 'Vendor', 'Services' with 'Obligations', and 'Agreement' with 'Contract'. This makes it unclear if 'Customer' and 'Vendor' are the same entities as 'Client' and 'CRO' respectively. The interchangeability creates uncertainty regarding which entity is responsible for payments.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "CRO warrants to Client that the Services will be performed in a professional and workmanlike manner and on a best endeavours basis in accordance with the standard of care ordinarily and reasonably expected in the performance of such Services and that the work performed for Client will be correct in all material respects to the best of the knowledge and belief of CRO.",
+                "changed_text": "The Supplier guarantees to the Purchaser that the Deliverables will be executed with diligence and skill, applying optimal efforts conforming to the customary norms anticipated in executing such Deliverables, and that the work achieved for the Purchaser will be substantially accurate to the best understanding and conviction of the Supplier.",
+                "explanation": "Here, 'CRO' becomes 'Supplier', 'Client' becomes 'Purchaser', and 'Services' becomes 'Deliverables'. Using completely different wording for the same concept introduces inconsistencies and makes the contract open to interpretation and disputes, as the exact relationship between these terms is undefined.",
+                "location": "Section 5.1"
+            }
+        ]
+    }
+]

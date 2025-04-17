@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "1) Subject to the terms and conditions set forth in this Agreement Cremer shall supply Ultragenyx with the Product free from defect and meeting the product specification attached to this Agreement as Annex A (the \"Product Specifications\").",
+                "changed_text": "1) Subject to the terms and conditions set forth in this Agreement Cremer shall supply Ultragenyx with the Product free from defect.",
+                "explanation": "By removing the reference to 'Annex A (the Product Specifications)', the contract now lacks a defined standard for the Product. While Article 4(5) mentions 'Product Specifications,' the explicit reference to Annex A, where these specifications are supposedly detailed, is gone. This creates an ambiguity, making it unclear what standards Cremer is held to, and weakening Ultragenyx's ability to reject a shipment based on quality issues. The term Product Specification is still in the contract, but the definition has been removed which is present in Annex A.",
+                "location": "Article 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5) If Ultragenyx obtains regulatory approval for the processed Product, the Parties shall enter into a separate commercial supply agreement for the Product that sets forth the forecasting and ordering mechanism for commercial supply of the Product, enablement of the manufacturing process in the event of a failure to supply, the term of such commercial supply agreement and other customary terms and conditions.",
+                "changed_text": "5) If Ultragenyx obtains regulatory approval for the processed Product, the Parties may discuss a separate agreement.",
+                "explanation": "The original text mandates entering into a separate commercial supply agreement, while the changed text only suggests the parties can discuss this, which introduces uncertainty about the future supply of the product if regulatory approval is obtained. This directly affects the overall execution of the contract since it changes the nature of how the two parties agree to conduct business post the approval.",
+                "location": "Article 2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3) Cremer represents and warrants that all quantities of Product delivered under the Agreement were manufactured in accordance with GMP. The Product shall be free from defects if it is within the specifications according to Annex A.",
+                "changed_text": "3) Cremer represents and warrants that all quantities of Product delivered under the Agreement were manufactured in accordance with general industry standards.",
+                "explanation": "The original text explicitly states that the product must adhere to GMP and references Annex A for product specifications. Changing 'GMP' to 'general industry standards' weakens the standard Cremer is held to, as GMP is a specific and regulated set of guidelines. Also, since there is an earlier removal of the definition of Product Specification, the meaning of general industry standards are now ambigious. The specific warranty tied to Annex A’s specifications is also removed, increasing the risk to Ultragenyx regarding product quality. This now does not create an in-text contradiction since GMP is mentioned in 4.5. and there are now two contradicting definition of which should be the appropriate standard.",
+                "location": "Article 4"
+            }
+        ]
+    }
+]

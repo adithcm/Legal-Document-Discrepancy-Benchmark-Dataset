@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "WestPharmaceuticalServicesInc_20200116_8-K_EX-10.1_11947529_EX-10.1_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) not later than the days set forth in Attachment E hereto. All invoices shall be paid in full by wire transfer in accordance with the invoice's instructions.",
+                "changed_text": "Buyer Affiliates shall pay ExxonMobil's Selling Affiliates invoice(s) in accordance with standard industry payment practices. All invoices shall be paid in full by wire transfer.",
+                "explanation": "This change omits the specific payment timeframe defined by Attachment E. While the agreement still requires payment via wire transfer, the omission of the 'not later than the days set forth in Attachment E' clause creates uncertainty regarding the acceptable payment period, potentially leading to disputes. This contradicts the purpose of having specific payment terms outlined in Attachment E.",
+                "location": "PRODUCTS, QUANTITY, PRICE"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Product shall conform to ExxonMobil Selling Affiliates' standard sales specifications as of the date of shipment.\n\nSellers agrees to support the creation of purchasing specifications for Products by Buyer and agrees to supply Products in accordance to those purchasing specifications. Seller has the right to review each purchasing specification and needs to accept in writing before such purchasing specifications become effective. Seller has the right to take exceptions to terms and provisions in these purchasing specifications if in contradiction with Seller's Sales specifications, General Terms and Condition of Sales or other Seller's procedures and policies.",
+                "changed_text": "Product shall conform to general industry standards as of the date of shipment.\n\nSeller agrees to support the quality of Products by considering Buyer's feedback.",
+                "explanation": "The original text clearly states that the product must meet ExxonMobil's sales specifications and outlines a process for Buyer to create purchasing specifications, subject to Seller's review and acceptance. The modified text removes the explicit reference to ExxonMobil's sales specifications, replacing it with a vague statement about 'general industry standards.' This omission creates an inconsistency because the rest of the contract implicitly assumes adherence to Seller's specific standards; by removing it enforcement becomes uncertain since there's no defined metric.",
+                "location": "QUALITY"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "PAYMENT TERMS\n\nBuyer/Buyer Affiliates shall pay for Product by Electronic Funds Transfer (EFT) through the Automated Clearing House (ACH) using the Corporate Trade Exchange (CTX) format, according to the payment terms described in Attachment E.",
+                "changed_text": "PAYMENT TERMS\n\nBuyer/Buyer Affiliates shall pay for Product via Electronic Funds Transfer (EFT).",
+                "explanation": "The original text specifies that payment should be made via EFT using the ACH through CTX format which further directs to Attachment E for more information on payment terms. By removing the requirement for the CTX format as well as the the description of payment terms in Attachment E, the modified text creates ambiguity as the rest of the contract refers to the attachment while there's nothing there creating uncertain enforcement.",
+                "location": "PAYMENT TERMS"
+            }
+        ]
+    }
+]

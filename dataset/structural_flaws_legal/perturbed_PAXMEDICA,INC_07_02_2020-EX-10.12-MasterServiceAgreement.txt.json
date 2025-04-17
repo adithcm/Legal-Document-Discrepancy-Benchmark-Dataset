@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PAXMEDICA,INC_07_02_2020-EX-10.12-MasterServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of Connecticut, U.S.A. without regard to conflict of law principles. Any action of any kind by either party arising out of this Agreement must be commenced within five (5) years from the date the right, claim, demand, or cause of action shall first arise.",
+                "explanation": "The clause dictating the statute of limitations for claims arising from the agreement has been moved into the governing law section, which makes it harder to locate and could be misinterpreted as part of the choice of law provision rather than a distinct limitation on legal claims. This obscures the timeframe within which legal action can be taken.",
+                "contradicted_law": "Statute of limitations laws are specific to the causes of action and vary by jurisdiction. The Connecticut law must be followed by all parties.",
+                "location": "12.7"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "CRO will not assign any right or delegate any obligation under this Agreement without the prior written consent of Client. Any attempted assignment or delegation without such consent will be void.",
+                "changed_text": "CRO will not assign any right or delegate any obligation under this Agreement without the prior written consent of Client. Any attempted assignment or delegation without such consent will be permissible with an appeal to the board of directors which is subject to client approval.",
+                "explanation": "The sentence was changed to introduce a contradiction. The first sentence states that no assignment will occur without written consent and the following sentence states that there is a path to allow an appeal to the board of directors that is also subject to client approval. Both cannot happen at the same time.",
+                "contradicted_law": "Contract law governing assignment and delegation.",
+                "location": "12.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "CRO agrees that during the term of this Agreement and for a period of three years thereafter: (a) to disclose and assign to Client as its exclusive property all inventions and technical or business innovations specifically derived from the work assigned by Client to CRO which CRO develops or conceives, solely or in conjunction with others (1) that are based on or involve information of Client, (2) that relate to, constitute, result from, or include the work in which CRO will be engaged for Client, or (3) that are otherwise made through the use of any time, facilities or materials of Client;",
+                "changed_text": "CRO agrees that during the term of this Agreement and for a period of three years thereafter: (a) to disclose and assign to Client as its exclusive property all inventions and technical or business innovations specifically derived from the work assigned by Client to CRO which CRO develops or conceives, solely or in conjunction with others (1) that are based on or involve information of Client, (2) that relate to, constitute, result from, or include the work in which CRO will be engaged for Client, or (3) that are otherwise made through the use of any time, facilities or materials of Client; unless CRO thinks the idea should be assigned to another entity or individual.",
+                "explanation": "The added statement gives CRO the possibility to think that the work should be assigned to another party which directly contradicts what was stated before.",
+                "contradicted_law": "Intellectual property assignment rights.",
+                "location": "6.1"
+            }
+        ]
+    }
+]

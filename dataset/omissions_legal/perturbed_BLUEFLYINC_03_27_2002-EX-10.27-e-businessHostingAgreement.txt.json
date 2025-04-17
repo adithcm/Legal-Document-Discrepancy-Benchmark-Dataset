@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BLUEFLYINC_03_27_2002-EX-10.27-e-businessHostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "IBM represents and warrants that:\n\na.    it will perform the Services using reasonable care and skill and in       accordance with the applicable Service Option Attachments (which means the       degree of knowledge, skill and judgment customarily exercised by members       of the applicable profession with respect to work of a similar nature);       and that it will provide Customer with competent, fully trained, fully       qualified and responsible personnel to perform the Services; and\n\nb.    it has the requisite corporate power and authority to execute, deliver and       perform its obligations under this Agreement.\n\nIBM covenants that it will comply with the laws applicable to IBM's business.",
+                "changed_text": "IBM represents and warrants that:\n\na.    it will perform the Services using reasonable care and skill and in       accordance with the applicable Service Option Attachments (which means the       degree of knowledge, skill and judgment customarily exercised by members       of the applicable profession with respect to work of a similar nature);       and that it will provide Customer with competent personnel to perform the Services; and\n\nb.    it has the requisite corporate power and authority to execute, deliver and       perform its obligations under this Agreement.",
+                "explanation": "By removing 'fully trained, fully qualified, and responsible' from the warranty clause, IBM weakens its commitment to providing a certain standard of service quality. This could violate implied warranties of workmanlike performance, which are consumer protections ensuring services are performed competently. The contract now omits a commitment to providing *qualified* personnel, which could allow IBM to provide poorly trained staff, contradicting consumer protection expectations in service agreements. The jurisdiction is New York, and this change introduces risk because it can be argued that IBM is not providing services in a workmanlike manner if personnel aren't fully qualified.",
+                "contradicted_law": "Implied Warranty of Workmanlike Performance (common law principle)",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "4.1   Charges\n\nCharges for applicable Services will be specified in Service Option Attachments and Order Forms. Charges can be specified as one-time, installment, recurring, or usage. IBM will invoice such Charges when they begin or are due as set forth in Service Option Attachments.\n\n\n\n4.2   Payment\n\nIBM invoices will specify the amount due. Payment is due upon receipt and payable as specified in such invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+                "changed_text": "4.1   Charges\n\nCharges for applicable Services will be specified in Service Option Attachments and Order Forms. Charges can be specified as one-time, installment, recurring, or usage. IBM will invoice such Charges when they begin or are due as set forth in Service Option Attachments.\n\n\n\n4.2   Payment\n\nIBM invoices will specify the amount due. Payment is due upon receipt and payable as specified in such invoice. Customer agrees to pay accordingly. Payment will be made in United States dollars.",
+                "explanation": "By removing 'including any late payment fees' from the payment section, the contract fails to adequately disclose the potential for additional costs, impacting transparency and fairness. Many jurisdictions, including New York, have regulations around disclosing fees and penalties, especially late payment fees. By omitting the fact that there would be any 'late payment fees', this may result in a legal challenge from the customer when late fees are applied without sufficient prior notice or explicit agreement. Thus creating a omission and legal risk in the identified jurisdiction.",
+                "contradicted_law": "New York General Business Law § 399-c (regarding clear and conspicuous disclosure of fees)",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "14.14 Actions Period\n\nNeither party will bring a legal action related to this Agreement more than two years after the cause of action accrued.",
+                "changed_text": "14.14 Actions Period\n\nNeither party will bring a legal action related to this Agreement more than one year after the cause of action accrued.",
+                "explanation": "By reducing the statute of limitations to one year, the contract limits the customer's ability to pursue legal remedies for breaches, potentially violating state laws that prescribe minimum limitations periods for contract claims. In New York, the statute of limitations for breach of contract is six years. Shortening this period could be deemed unconscionable or against public policy, especially in a B2B contract where one party (IBM) has significantly more bargaining power. Thus creating a legal risk in the identified jurisdiction.",
+                "contradicted_law": "New York Civil Practice Law and Rules (CPLR) § 213 (statute of limitations for breach of contract)",
+                "location": "Section 14.14"
+            }
+        ]
+    }
+]

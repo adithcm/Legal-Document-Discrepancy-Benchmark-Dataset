@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Company shall comply with good business practices and all applicable laws and regulations.",
+                "changed_text": "Company shall comply with good business practices.",
+                "explanation": "Removing the phrase 'all applicable laws and regulations' weakens the commitment of the company to legal compliance. This could lead to situations where the company inadvertently or intentionally violates laws and regulations, creating legal risk for the reseller, especially if the reseller is relying on the company's compliance.",
+                "contradicted_law": "Various federal and state laws and regulations applicable to business operations, including but not limited to consumer protection laws, data privacy laws, and environmental regulations.",
+                "location": "4"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Company shall indemnify, defend and hold Reseller and its officers, directors, employees, shareholders, agents, successors and assigns, harmless from and against any claim, demand lawsuit, cause of action or losses of any nature whatsoever, including reasonable attorneys' fees, suffered or incurred by Reseller or any of them, arising out of, (i) any claim that the Company Products infringe any U.S. patent or copyright or that the Company Products incorporate any misappropriated trade secrets or (ii) any claim for injury or other loss to any person arising from the use of Company Products.",
+                "changed_text": "Company shall indemnify, defend and hold Reseller harmless from and against any claim arising out of (i) any claim that the Company Products infringe any U.S. patent or copyright or that the Company Products incorporate any misappropriated trade secrets or (ii) any claim for injury or other loss to any person arising from the use of Company Products. The Company's liability for such claims shall not exceed the total payments made to the Company by the Reseller under this agreement.",
+                "explanation": "By removing 'officers, directors, employees, shareholders, agents, successors and assigns', limiting the scope of indemnification, and adding a liability cap, the protection afforded to the Reseller is substantially reduced. This creates a legal risk if a claim arises that exceeds the capped liability, leaving the reseller and its associated parties vulnerable. Also, the removal of 'reasonable attorneys' fees' decreases the usefulness of this clause.",
+                "contradicted_law": "Principles of indemnification and remedies available under Virginia law, which might provide broader protection than the modified clause.",
+                "location": "13"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia without regard to the conflicts of law provisions thereof.",
+                "changed_text": "This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia, but only to the extent that such laws do not conflict with the Company's internal policies.",
+                "explanation": "By adding 'but only to the extent that such laws do not conflict with the Company's internal policies', the governing law is effectively subordinated to the company's internal policies, potentially overriding mandatory provisions of Virginia law that protect the reseller. This creates uncertainty and legal risk, as the company's internal policies are not publicly accessible and may change without notice.",
+                "contradicted_law": "Contract law principles regarding choice of law and the enforceability of contractual provisions that conflict with mandatory legal requirements under Virginia law.",
+                "location": "14"
+            }
+        ]
+    }
+]

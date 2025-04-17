@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ENERGYXXILTD_05_08_2015-EX-10.13-TransportationAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(c) EACH PARTY HERETO WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY IN RESPECT OF ANY DISPUTE ARISING FROM OR UNDER THIS AGREEMENT.",
+                "changed_text": "(c) EACH PARTY HERETO WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY IN RESPECT OF ANY DISPUTE ARISING FROM OR UNDER THIS AGREEMENT. 16.16 Reductions in the amount of the product lost by shipper will not be reimbursed by Transporter. Transporter is not liable for these product losses. ",
+                "explanation": "The jury waiver, which should be conspicuously placed and clearly understood, is now followed by a statement regarding product loss reimbursement. This juxtaposition buries the important jury waiver within unrelated text, making it less conspicuous and potentially harder to enforce. This affects enforceability because jury waivers must be knowing and voluntary, which is harder to prove if it's obscured.",
+                "contradicted_law": "Texas law requires waivers, including jury waivers, to be knowing, voluntary, and intelligent. Obscuring the waiver affects its enforceability under Texas law.",
+                "location": "16.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11.4 Claims. As a condition precedent to recovery for losses or delay to shipments, claims must be filed in writing with Transporter within one year and one day after delivery of the Crude Petroleum, or, in case of failure to make delivery, then within one year and one day after a reasonable time for delivery has elapsed; and suits arising out of such claims shall be instituted against the Transporter only within two years and one day from the date of delivery, or within two years and one day after a reasonable time for delivery has elapsed. Where claims are not filed or suits are not instituted thereon in accordance with the foregoing provisions, Transporter shall not be liable and such claims will not be paid.",
+                "changed_text": "5.11 Shipper claims. As a condition precedent to recovery for losses or delay to shipments, claims must be filed in writing with Transporter within one year and one day after delivery of the Crude Petroleum, or, in case of failure to make delivery, then within one year and one day after a reasonable time for delivery has elapsed; and suits arising out of such claims shall be instituted against the Transporter only within two years and one day from the date of delivery, or within two years and one day after a reasonable time for delivery has elapsed. Where claims are not filed or suits are not instituted thereon in accordance with the foregoing provisions, Transporter shall not be liable and such claims will not be paid.",
+                "explanation": "Moving the Shipper claims clause to the 'Offshore Platform Facilities and Operating Procedures' section obscures it. It's no longer in the 'Remedies' section where one would reasonably look for claim-related information. This reduces its enforceability, as a party might reasonably miss this crucial clause.",
+                "contradicted_law": "General contract law requires clear and conspicuous placement of important clauses; this change reduces its visibility.",
+                "location": "11.4 Moved to 5.11"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "13.1 Shipper shall release, indemnify, defend, and hold harmless Transporter and its affiliates, directors, officers, employees, agents, consultants, representatives, and invitees from and against all claims and losses arising out of or relating to (i) the operations of Shipper, (ii) any breach of this agreement by Shipper, except to the extent attributable to the negligence, willful misconduct or fault of Transporter, and (iii) operations or activities upstream or downstream of the Gathering System, except to the extent attributable to the negligence, willful misconduct or fault of Transporter.",
+                "changed_text": "16.16 Shipper shall release, indemnify, defend, and hold harmless Transporter and its affiliates, directors, officers, employees, agents, consultants, representatives, and invitees from and against all claims and losses arising out of or relating to (i) the operations of Shipper, (ii) any breach of this agreement by Shipper, except to the extent attributable to the negligence, willful misconduct or fault of Transporter, and (iii) operations or activities upstream or downstream of the Gathering System, except to the extent attributable to the negligence, willful misconduct or fault of Transporter.",
+                "explanation": "By moving the indemnification clause to the miscellaneous section, it is no longer immediately apparent that Shipper is taking on this large liability, it is not in the Indemnification Article anymore. This makes it harder to determine enforceability and clarity of the contract.",
+                "contradicted_law": "General contract law requires clear and conspicuous placement of important clauses; this change reduces its visibility.",
+                "location": "13.1 Moved to 16.16"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL.",
+                "changed_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 30 days upon completion and handover on the Project to VAL.",
+                "explanation": "This change introduces ambiguity by changing the payment term from '7 days upon completion' to '30 days upon completion'. The payment terms now contradict the original agreement, making enforcement uncertain.",
+                "location": "Clause 5"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+                "changed_text": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP All Intellectual Property during the project is initially owned by the Developer, but upon full payment from VAL, the intellectual property will be transferred to VAL. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+                "explanation": "This change introduces ambiguity about IP ownership. In the beginning, it states that IP belongs to VAL during the project, but later it mentions that the IP is 'initially owned by the Developer' until payment, making it unclear when ownership transfer occurs. This could lead to conflict.",
+                "location": "Clause 11.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed. If the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by giving two (2) weeks' notice in writing to VAL. It is applicable only when the project is not completed. In case Developer terminates the agreement, it shall handover the entire project related IPR, work done till date to VAL.",
+                "changed_text": "TERMINATION VAL shall, in the event of Developer committing a material breach of any of the terms and conditions of this agreement, be entitled to terminate this agreement with immediate effect. If the customer terminates the agreement, then VAL shall compensate the Developer a mutually agreed amount. Developer may also terminate this Agreement if VAL fails to provide necessary resources for the project. In case Developer terminates the agreement, it shall handover the entire project related IPR, work done till date to VAL.",
+                "explanation": "This change introduces multiple ambiguities. 1) VAL's termination is now for 'material breach' with 'immediate effect' instead of 'any breach' with two weeks' notice, shifting the standard. 2) Compensation is now a 'mutually agreed amount' instead of a 'pro-rata basis,' introducing uncertainty. 3) Developer termination is now tied to VAL's resource provision, not just a two-week notice, creating a new condition. These contradictions affect termination conditions.",
+                "location": "Clause 12"
+            }
+        ]
+    }
+]

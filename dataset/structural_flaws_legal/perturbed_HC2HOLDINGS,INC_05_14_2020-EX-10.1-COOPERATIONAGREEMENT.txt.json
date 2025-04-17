@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HC2HOLDINGS,INC_05_14_2020-EX-10.1-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "FURTHERMORE, THE PARTIES AGREE (1) ANY NON- BREACHING PARTY WILL BE ENTITLED TO SEEK INJUNCTIVE AND OTHER EQUITABLE RELIEF, WITHOUT PROOF OF ACTUAL DAMAGES; AND (2) THE BREACHING PARTY AGREES TO WAIVE ANY BONDING REQUIREMENT UNDER ANY APPLICABLE LAW, IN THE CASE ANY OTHER PARTY SEEKS TO ENFORCE THE TERMS BY WAY OF EQUITABLE RELIEF. THIS AGREEMENT WILL BE GOVERNED IN ALL RESPECTS, INCLUDING VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE WITHOUT GIVING EFFECT TO THE CHOICE OF LAW PRINCIPLES OF SUCH STATE.",
+                "changed_text": "FURTHERMORE, THE PARTIES AGREE (1) ANY NON-BREACHING PARTY WILL BE ENTITLED TO SEEK INJUNCTIVE AND OTHER EQUITABLE RELIEF, WITH PROOF OF ACTUAL DAMAGES; AND (2) THE BREACHING PARTY AGREES TO DENY ANY BONDING REQUIREMENT UNDER ANY APPLICABLE LAW, IN THE CASE ANY OTHER PARTY SEEKS TO ENFORCE THE TERMS BY WAY OF EQUITABLE RELIEF. THIS AGREEMENT WILL BE GOVERNED IN ALL RESPECTS, INCLUDING VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE WITHOUT GIVING EFFECT TO THE CHOICE OF LAW PRINCIPLES OF SUCH STATE.",
+                "explanation": "The change contradicts the standard legal practice of waiving the need for proof of actual damages in cases where injunctive relief is sought. The original wording supports immediate action to prevent irreparable harm, but the change introduces a need of proof of actual damages before the injunction is granted, hindering the process.",
+                "contradicted_law": "Delaware law regarding injunctive relief",
+                "location": "Section 11"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(a) The MG Capital Parties shall comply, and shall cause each of their Affiliates and Associates (as hereinafter defined) to comply with the terms of this Agreement and shall be responsible for any breach of this Agreement by any such Affiliate or Associate.",
+                "changed_text": "(a) The MG Capital Parties shall comply, and shall cause each of their Affiliates and Associates (as hereinafter defined) to comply with most of the terms of this Agreement and shall be responsible for any breach of this Agreement by such Affiliate or Associate, except for cases of gross negligence.",
+                "explanation": "This perturbation introduces an exception to the MG Capital Parties' responsibility for breaches by their affiliates and associates. The addition of 'except for cases of gross negligence' weakens the original clause's comprehensive liability, creating a loophole that could be exploited to avoid responsibility. This directly contradicts the initial clause's aim to ensure full compliance and responsibility.",
+                "contradicted_law": "General contract law principles of agency and vicarious liability.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement contains the entire understanding of the Parties with respect to the subject matter hereof and supersedes any and all prior and contemporaneous agreements, memoranda, arrangements and understandings, both written and oral, between the Parties, or any of them, with respect to the subject matter of this Agreement.",
+                "changed_text": "This Agreement contains the general understanding of the Parties with respect to the subject matter hereof and supersedes most prior and contemporaneous agreements, memoranda, arrangements and understandings, written or oral, between the Parties, or any of them, with respect to the subject matter of this Agreement, except for side agreements.",
+                "explanation": "The inclusion of 'general understanding' and 'most prior' introduces uncertainty and ambiguity. The explicit exception of 'side agreements' creates a conflict, as such agreements would normally be superseded by an integration clause. By creating an exception, it opens the door for disputes about what constitutes a side agreement and whether it should take precedence over the main agreement.",
+                "contradicted_law": "Parol evidence rule and contract integration clauses.",
+                "location": "Section 18"
+            }
+        ]
+    }
+]

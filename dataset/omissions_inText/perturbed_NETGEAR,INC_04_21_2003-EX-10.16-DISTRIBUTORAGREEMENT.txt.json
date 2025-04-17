@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "A.       PRICES. Prices for Produce are those set out in NETGEAR's Price List, less the applicable discount specified in Exhibit 1. All Product prices are F.O.B. NETGEAR's point of shipment, except as specified in Section 5 D.",
+                "changed_text": "A.       PRICES. Prices for Products are subject to negotiation and mutual agreement between NETGEAR and Distributor. All Product prices are F.O.B. NETGEAR's point of shipment, except as specified in Section 5 D.",
+                "explanation": "By removing the reference to 'NETGEAR's Price List, less the applicable discount specified in Exhibit 1,' and replacing it with 'subject to negotiation,' this change contradicts the initial listing of prices and pre-defined discount schedules in EXHIBIT 1, creating uncertainty in determining product prices.  While prices are initially said to be pre-defined, now they need to be negotiated, making enforcement ambiguous.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Prior to returning any Product, whether for exchange or warranty or non-warranty action, Distributor must obtain a Return Materials Authorization (RMA) number from NETGEAR. Distributor should return the product to NETGEAR, [*]. NETGEAR will not accept collect shipments. Any Product returned to NETGEAR, which is not returned in accordance with the terms of this Agreement, may be rejected.",
+                "changed_text": "Prior to returning any Product, whether for exchange or warranty or non-warranty action, Distributor must notify NETGEAR. NETGEAR will not accept collect shipments. Any Product returned to NETGEAR, which is not returned in accordance with the terms of this Agreement, may be rejected.",
+                "explanation": "Removing the 'Return Materials Authorization (RMA) number' requirement, contradicts Section 7 (Warranties) and Section 5(C) (Returns) which implicitly and explicitly describe scenarios where obtaining an RMA is necessary for returns. The term of RMA is now unreferenced, yet a main section relies on it. The phrase \"Distributor should return the product to NETGEAR, [*]\" is also modified.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "A.       USE OF PROPRIETARY INFORMATION. \"Proprietary information includes, without limitation, diagnostics, the Software, all documentation for Software, other user manuals, as well as electronically and visually transmitted printed materials and information disclosed by Distributor or NETGEAR, such as new product information, financial or technical data, information reported under section II above or other information or data that is marked with a proprietary or confidential legend. Each party agrees to hold the Proprietary Information of the other in confidence and to use the Proprietary Information only for the purposes expressly permitted under this Agreement, and to disclose Proprietary Information only to its employees and contractors as authorized in this Agreement and then only on a need-to-know basis. Each party agrees to maintain adequate internal procedures, including appropriate agreements with employees and authorized third parties, to protect the confidentiality of the Proprietary Information as required by this Agreement. Each party is entitled to appropriate injunctive relief in the event of any unauthorized disclosure or use of its Proprietary Information by the other party.",
+                "changed_text": "A.       USE OF PROPRIETARY INFORMATION. \"Proprietary information includes, without limitation, diagnostics, the Software, all documentation for Software, other user manuals, as well as electronically and visually transmitted printed materials and information disclosed by Distributor or NETGEAR, such as new product information, financial or technical data, or other information or data that is marked with a proprietary or confidential legend. Each party agrees to hold the Proprietary Information of the other in confidence and to use the Proprietary Information only for the purposes expressly permitted under this Agreement, and to disclose Proprietary Information only to its employees and contractors as authorized in this Agreement and then only on a need-to-know basis. Each party agrees to maintain adequate internal procedures, including appropriate agreements with employees and authorized third parties, to protect the confidentiality of the Proprietary Information as required by this Agreement. Each party is entitled to appropriate injunctive relief in the event of any unauthorized disclosure or use of its Proprietary Information by the other party.",
+                "explanation": "By removing the phrase 'information reported under section II above', it creates a contradiction because Section 11(REPORTS) mandates that Distributor provides weekly/monthly reports on inventory of purchased products. So, If 'Proprietary Information' now does not explicitly include data from Section 11, then the confidentiality clause becomes uncertain because the Distributor is now unbound to keep the reports secure, because Section II has been removed from this section.",
+                "location": "Section 12"
+            }
+        ]
+    }
+]

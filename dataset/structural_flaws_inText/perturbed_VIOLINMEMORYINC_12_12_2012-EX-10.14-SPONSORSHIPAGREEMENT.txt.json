@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VIOLINMEMORYINC_12_12_2012-EX-10.14-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(b) Deposit. Sponsor shall make a non-refundable deposit upon execution of this Agreement of five-hundred-thousand U.S. dollars (USD $500,000.00) (the \"Deposit\"), which shall be applied against the Sponsorship Fee for the first Contract Year.",
+                "changed_text": "(b) Deposit. Sponsor shall make a deposit upon execution of this Agreement of five-hundred-thousand U.S. dollars (USD $500,000.00) (the \"Deposit\"), which shall be applied against the Sponsorship Fee for the first Contract Year. The refundability of this deposit is subject to the terms outlined in Section 6 regarding termination of the contract.",
+                "explanation": "The original text states the deposit is non-refundable. The modified version introduces uncertainty by stating refundability is subject to Section 6, implying it might be refundable under certain termination scenarios even though Section 5(b) explicitly states non-refundable. This contradicts the initial definition of the deposit.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(a) Default. If either Party defaults in the performance of, or compliance with, any term or condition of this Agreement, the other Party may terminate this Agreement by written notice. Termination of this Agreement shall be effective thirty (30) days from the date of receipt of such notice, unless, within thirty (30) days after receipt of such notice, the defaulting Party has corrected the default or if such default is capable of correction, has taken timely and reasonable steps to correct and will complete such correction within another thirty (30) days.",
+                "changed_text": "(a) Default. If either Party defaults in the performance of, or compliance with, any term or condition of this Agreement, the other Party may terminate this Agreement by written notice. Termination of this Agreement shall be effective thirty (30) days from the date of receipt of such notice, unless, within thirty (30) days after receipt of such notice, the defaulting Party has corrected the default or if such default is capable of correction, has taken timely and reasonable steps to correct and will complete such correction within another thirty (30) days. However, Forty Niners SC reserves the right to waive any default at its sole discretion.",
+                "explanation": "The original text states that if a default is corrected within a time period, termination can be avoided. The modified version adds that Forty Niners SC can waive defaults at its discretion. This introduces uncertainty, as even if a default isn't corrected, Forty Niners SC could still choose to waive it. The addition of \"Forty Niners SC reserves the right to waive any default at its sole discretion\" creates an exception that contradicts the initial process outlined for termination due to default.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(a) Disputes Subject to Arbitration. Any dispute arising under or relating to this Agreement shall be resolved exclusively by arbitration under the Commercial Arbitration Rules of the American Arbitration Association, with the venue of any such arbitration proceeding to be in Santa Clara, California or such other location as maybe agreed by the Parties.",
+                "changed_text": "(a) Disputes Subject to Arbitration. Any dispute arising under or relating to this Agreement shall be resolved exclusively by arbitration under the Commercial Arbitration Rules of the American Arbitration Association, with the venue of any such arbitration proceeding to be in Santa Clara, California or such other location as maybe agreed by the Parties. Notwithstanding the foregoing, Forty Niners SC reserves the right to pursue injunctive relief in court for disputes relating to intellectual property rights or breaches of confidentiality.",
+                "explanation": "The original text mandates that all disputes be resolved exclusively through arbitration. The modified version introduces an exception, allowing Forty Niners SC to pursue injunctive relief in court for specific types of disputes (intellectual property, confidentiality). This creates a contradiction by establishing both exclusive arbitration and a court option for certain disputes, creating uncertainty.",
+                "location": "Section 11"
+            }
+        ]
+    }
+]

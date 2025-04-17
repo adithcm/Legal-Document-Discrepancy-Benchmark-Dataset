@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPARKLINGSPRINGWATERHOLDINGSLTD_07_03_2002-EX-10.13-SOFTWARELICENSEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "For the acceptance period and for a period of one year from the Maintenance Commencement Date, and thereafter for as long as the Software is covered by Maintenance Services and is used by Sparkling in accordance with this Agreement, Garman warrants that the Software shall perform in conformance with the Specifications in all material respects.",
+                "changed_text": "For the acceptance period, Garman warrants that the Software shall perform in conformance with the Specifications.",
+                "explanation": "The removal of the warranty period extending beyond the initial acceptance period and during the Maintenance Services period significantly reduces consumer protection. Software warranties are often legally implied or required to extend beyond initial acceptance to cover the reasonable lifespan of the software and the duration of the maintenance agreement. This omission creates a legal risk as it potentially contradicts implied warranty laws and consumer protection legislation in Nova Scotia or Canada, which may require a reasonable warranty period.",
+                "contradicted_law": "Implied Warranty Laws, Consumer Protection Act (Nova Scotia or similar Canadian provincial law)",
+                "location": "Section 12"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Should the Software not operate substantially in conformance with the Sparkling's Specifications in all material respects, Garman will use its best efforts to repair the Software under the support agreement at no additional charge to Sparkling. Notwithstanding the foregoing, Garman may charge a fee at its rates set out in the Fee Schedule to provide Software Repair Services which are required due to:\n\n            (1)   failure due to Sparkling operator errors;\n\n            (2)   failure to maintain Software at such updated version or                   release of the Software provided by Garman to Sparkling, from                   time to time, at no additional charge as part of the                   Maintenance Services or otherwise;\n\n            (3)   material modification of the Software by Sparkling; or\n\n            (4)   the Software being transferred to a different networking                   environment or hardware configuration without the prior                   written consent of Garman; or\n\n            (5)   any failure of the hardware or the operating system not caused                   by Garman or the Software.",
+                "changed_text": "Should the Software not operate substantially in conformance with the Sparkling's Specifications in all material respects, Garman will use its best efforts to repair the Software under the support agreement at an additional charge to Sparkling. Garman may charge a fee at its rates set out in the Fee Schedule to provide Software Repair Services which are required.",
+                "explanation": "By omitting 'at no additional charge to Sparkling' and removing the conditions under which Garman can charge a fee, the contract makes all software repair services subject to additional charges. Many jurisdictions have consumer protection laws that imply a reasonable level of support at no additional cost during a maintenance agreement. Making all repairs chargeable potentially violates these laws. It also shifts the risk from Garman to Sparkling, potentially violating fair business practice laws.",
+                "contradicted_law": "Consumer Protection Act (Nova Scotia or similar Canadian provincial law), Fair Business Practices Act",
+                "location": "Section 10(c)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "If the Work or any portion thereof is held to constitute an infringement of another Person's rights, and use thereof is enjoined, Garman shall, at its election and expense, make every reasonable effort to correct the situation with minimal effect upon the operations of Sparkling and shall either:\n\n     (a)    procure the right to use the infringing element of the Work;\n\n     (b)    procure the right to an element which performs the same function without any material loss of functionality; or\n\n     (c)    replace or modify the element of the Work so that the infringing portion is no longer infringing and still performs the same function without any material loss of functionality.",
+                "changed_text": "If the Work or any portion thereof is held to constitute an infringement of another Person's rights, and use thereof is enjoined, Garman shall make reasonable effort to correct the situation. Garman shall either:\n\n     (a)    procure the right to use the infringing element of the Work;\n\n     (b)    procure the right to an element which performs the same function; or\n\n     (c)    replace or modify the element of the Work so that the infringing portion is no longer infringing.",
+                "explanation": "Removing 'at its election and expense' and 'with minimal effect upon the operations of Sparkling' from the initial clause and removing 'without any material loss of functionality' from options (b) and (c) weaken Garman's responsibility to resolve infringement issues. In many jurisdictions, vendors are legally required to resolve infringement issues at their own expense and with minimal disruption to the customer's business. This omission shifts the financial burden to Sparkling and allows Garman to provide solutions that significantly reduce the functionality of the software, potentially violating implied warranty laws and fair business practice laws.",
+                "contradicted_law": "Implied Warranty Laws, Fair Business Practices Act (Nova Scotia or similar Canadian provincial law)",
+                "location": "Section 13"
+            }
+        ]
+    }
+]

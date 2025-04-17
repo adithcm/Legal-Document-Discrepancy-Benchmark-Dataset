@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-Supply Agreement - FUSION.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "2.4 \"Current Good Manufacturing Practices\" or \"cGMP(s)\" shall mean the standards required by the Regulatory Authority for the manufacturing, testing and quality control of pharmaceutical materials, which practices are current on the Effective Date of this Agreement and may be supplemented, amended or modified by such regulatory authority from time to time.",
+                "changed_text": "2.4 \"Acceptable Manufacturing Suggestions\" or \"AMS(s)\" shall mean the optional guidelines proposed by the Regulatory Authority for the manufacturing, testing and quality control of pharmaceutical materials, which practices are suggested on the Effective Date of this Agreement and may be disregarded, removed or altered based on manufacturer discretion.",
+                "explanation": "The term 'Current Good Manufacturing Practices' (cGMP) has a specific legal definition under FDA regulations. Changing this term to 'Acceptable Manufacturing Suggestions' and altering the definition to imply that these practices are optional and can be disregarded introduces a legal contradiction. This could lead to uncertainty regarding the required manufacturing standards and compliance, making the contract potentially unenforceable in regards to pharmaceutical manufacturing standards.",
+                "contradicted_law": "21 CFR Parts 210 and 211 (US FDA cGMP regulations)",
+                "location": "Section 2.4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "3.6 Batch Testing. FUSION shall have the right but not the obligation to conduct any Batch testing [***] or investigation it determines to be of value to determine compliance of Product with the Specifications and/or pursuant to any other standard imposed by law. A Batch shall be deemed to be acceptable if, upon testing, it meets the Specifications, relevant cGMP standards, all other applicable laws, rules and regulations (and any additional tests as agreed by the Parties).",
+                "changed_text": "3.6 Batch Evaluation. FUSION may or may not conduct Batch evaluations at its discretion [***] to assess general product features. A Batch shall be considered satisfactory based on FUSION's internal satisfaction levels, irrespective of cGMP standards, laws, rules and regulations.",
+                "explanation": "The original text allows FUSION to test batches against legally defined specifications (cGMP) and laws. The modified text replaces 'Batch Testing' with 'Batch Evaluation,' makes the evaluation discretionary, and explicitly decouples acceptance from cGMP standards and applicable laws. This contradicts the requirement for pharmaceutical products to meet specific legal and regulatory standards, creating a legal contradiction.",
+                "contradicted_law": "21 CFR Parts 210 and 211 (US FDA cGMP regulations)",
+                "location": "Section 3.6"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "4.7 Recalls. FUSION shall notify CPDC promptly if any Product is the subject of a recall or correction (a \"Recall\"), and FUSION and/or its designee shall have sole responsibility for the handling and disposition of such Recall. [***].",
+                "changed_text": "4.7 Product Returns. FUSION shall inform CPDC if any Product is subject to a return or adjustment (a \"Return\"), and FUSION shall have full autonomy over the management of such Returns, potentially without requiring a formal recall procedure or notification to regulatory bodies.",
+                "explanation": "This change misaligns the terminology by replacing 'Recall' with 'Product Returns' and implying that FUSION can handle returns without adhering to formal recall procedures required by regulatory bodies like the FDA or Health Canada. A 'Recall' has a specific legal meaning and process, whereas 'Product Return' is a more general term. This contradicts the legal obligation to report and manage recalls according to regulatory requirements.",
+                "contradicted_law": "21 CFR Part 7 (US FDA recall regulations) and Canadian Food and Drugs Act",
+                "location": "Section 4.7"
+            }
+        ]
+    }
+]

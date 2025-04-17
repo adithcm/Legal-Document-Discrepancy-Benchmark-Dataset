@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "GOCALLINC_03_30_2000-EX-10.7-PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "PageMaster Corporation shall pay to Go Call, Co-Op Marketing funds for the promotion. PageMaster Corporation will pay Go Call $3.00 per pager (beginning with pager # 1) and 5% of all airtime renewal revenue for each pager redeemed for this promotion consistent with the terms of paragraph 6b of this Agreement.",
+                "changed_text": "PageMaster Corporation shall pay to Go Call, Co-Op Marketing funds for the promotion. PageMaster Corporation will pay Go Call funds for each pager redeemed for this promotion consistent with the terms of paragraph 6b of this Agreement.",
+                "explanation": "By removing the specific amounts ($3.00 per pager and 5% of airtime renewal), the changed text creates uncertainty. The contract still mentions 'funds,' but there is no longer a defined method for calculating payment. This introduces ambiguity and could lead to disputes.",
+                "location": "7"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Upon the execution of this Agreement, Go Call shall forward to PageMaster Corporation a deposit in the sum of $100,000.00 to secure the availability of 100,000 pagers to all Purchase Customers who prepay their annual airtime for this promotion. The deposit is non-refundable except as follows: a. PageMaster Corporation shall refund to Go Call, $1.00 per pager on all pagers delivered to Purchase Customers pursuant to this promotion (net return) up to the maximum refund of $100,000.00. b. On the last day of each month, the refund of Go Call's portion of the deposit shall be calculated by PageMaster Corporation for the &bbsp; prior month and will be forwarded to Go Call by check, along with an extended accounting of all pagers and customers until September 1, 2000, unless otherwise instructed by Go Call. Go Call, upon ten (10) days written notice, shall have the right to examine the books and records of PageMaster Corporation to verify the sales resulting from this promotion. Such examination shall be made at the regular place of business of PageMaster Corporation where such books and records are maintained during normal business hours and shall be conducted at Go Call's expense by a certified public accountant or other Go Call executive so designated by Go Call.",
+                "changed_text": "Upon the execution of this Agreement, Go Call shall forward to PageMaster Corporation a deposit to secure the availability of pagers to all Purchase Customers who prepay their annual airtime for this promotion. The deposit may be refundable. Go Call, upon written notice, shall have the right to examine the books and records of PageMaster Corporation to verify the sales resulting from this promotion. Such examination shall be made at the regular place of business of PageMaster Corporation where such books and records are maintained during normal business hours and shall be conducted at Go Call's expense by a certified public accountant or other Go Call executive so designated by Go Call.",
+                "explanation": "By removing the specific deposit amount ($100,000.00), the number of secured pagers (100,000), the precise refund conditions ($1.00 per pager) and the details of the monthly refund calculation and reporting, and changing 'non-refundable except as follows' to 'may be refundable', the changed text creates uncertainty around the financial obligations and rights. While the right to examine books and records remains, the ambiguity surrounding the deposit value and refund conditions makes verifying sales and claiming refunds difficult or impossible.",
+                "location": "6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "This term shall be extended for a 1 year period provided 3000 pagers per month are distributed to Purchase customers.",
+                "changed_text": "This term may be extended.",
+                "explanation": "By removing the condition of '3000 pagers per month are distributed,' the clause loses its objective criteria for extension, and the term can be arbitrarily extended or not. Later clauses reference 'the Term', implying a defined period, but this change removes the only condition for extending it, creating a contradiction.",
+                "location": "3"
+            }
+        ]
+    }
+]

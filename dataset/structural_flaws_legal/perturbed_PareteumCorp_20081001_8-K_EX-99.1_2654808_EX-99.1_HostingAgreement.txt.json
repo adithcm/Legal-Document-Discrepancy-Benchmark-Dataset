@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Parties acknowledge that the Dutch telecommunications market is regulated under both Dutch and EU law, such as inter alia EU-directives, the Dutch Telecommunications Act, Dutch Competition Act and the Dutch Data Protection Act. Parties shall at all times fully comply with all relevant regulations, such as but not limited to, the obligation for ELEPHANT TALK - as providers of public electronic communications services in the Netherlands- to notify OPTA according to article 2.1 of the Dutch Telecommunication Act. Furthermore, Parties acknowledge that their arrangements are subject to said regulations, and that Parties' arrangements (including pricing arrangements) may, from time to time, require adjustment(s) due to change of such regulations.",
+                "changed_text": "Parties acknowledge that the Dutch telecommunications market is regulated under both Dutch and EU law. Furthermore, Parties acknowledge that their arrangements are subject to said regulations, and that Parties' arrangements (including pricing arrangements) may, from time to time, require adjustment(s) due to change of such regulations. Parties shall at all times fully comply with all relevant regulations, such as but not limited to, the obligation for ELEPHANT TALK - as providers of public electronic communications services in the Netherlands- to notify OPTA according to article 2.1 of the Dutch Telecommunication Act, unless both parties agree otherwise in writing.",
+                "explanation": "By adding 'unless both parties agree otherwise in writing' to the end of the sentence regarding OPTA notification, the mandatory nature of the legal notification is undermined. This introduces a contradiction, suggesting that parties can circumvent a legal requirement by mutual agreement, weakening enforceability.",
+                "contradicted_law": "Dutch Telecommunication Act, article 2.1",
+                "location": "2.9"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "ELEPHANT TALK will be accountable for and shall pay all generated traffic by ELEPHANT TALK Customers -including traffic generated via stolen or lost SIM cards - to T-Mobile .",
+                "changed_text": "ELEPHANT TALK will be accountable for and shall pay all generated traffic by ELEPHANT TALK Customers to T-Mobile; however, T-Mobile is responsible for traffic generated via stolen or lost SIM cards.",
+                "explanation": "Changing the accountability for stolen/lost SIM traffic introduces a direct contradiction. The original text states that ELEPHANT TALK is responsible, and the changed text relieves ELEPHANT TALK by stating that T-Mobile is responsible for a subset of that traffic. This creates an ambiguous situation where it is unclear who is accountable for these charges.",
+                "contradicted_law": "Potentially conflicts with standard liability principles and fraud protection regulations in the Netherlands.",
+                "location": "9.2.10"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed in all respects exclusively in accordance with the laws of the Netherlands.",
+                "changed_text": "This Agreement shall be governed by the laws of the Netherlands unless both parties agree to resolve it through the American Arbitration Association (AAA).",
+                "explanation": "This change introduces a contradiction by stating that while the agreement is governed by the laws of the Netherlands, disputes can be resolved through the AAA, which operates under a different legal framework. This may create confusion and legal challenges regarding the applicable law in case of disputes.",
+                "contradicted_law": "Conflicts with established contract law principles regarding governing law and forum selection.",
+                "location": "21"
+            }
+        ]
+    }
+]

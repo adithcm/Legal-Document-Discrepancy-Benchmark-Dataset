@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SPARKLINGSPRINGWATERHOLDINGSLTD_07_03_2002-EX-10.13-SOFTWARELICENSEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "For a renewable one-year term commencing upon the Maintenance Commencement Date, subject to payment of maintenance fees in accordance with the Fee Schedule but without additional fees or charges, Garman shall provide the following Maintenance Services:",
+                "changed_text": "For a term commencing upon the Maintenance Commencement Date, subject to payment of maintenance fees in accordance with the Fee Schedule, Garman may provide the following Maintenance Services for an additional fee.",
+                "explanation": "The original text states that maintenance is for a *renewable one-year term* *without additional fees or charges*. The modified version removes the renewable term and introduces ambiguity, making maintenance services *optional* and potentially subject to *additional fees*, creating an internal contradiction regarding the terms and costs of maintenance.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Garman warrants that the Software shall perform in conformance with the Specifications in all material respects.",
+                "changed_text": "Garman makes no warranties that the Software will perform consistently with the Specifications and any previous implied or stated warranties are hereby waived.",
+                "explanation": "The original text explicitly warrants that the Software will perform in conformance with the Specifications. The modified version negates this warranty by stating *no warranties* are made, creating a direct contradiction about the software's performance guarantee.",
+                "location": "Section 12"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement and the license granted under this Agreement shall remain in effect perpetually as long as fees are paid by Sparkling in accordance with the Fee Schedule and the Agreement is not otherwise terminated in accordance with this Section.",
+                "changed_text": "This Agreement and the license granted under this Agreement shall remain in effect for an initial term of one year, and may be terminated by either party with 30 days written notice. The conditions of Section 17 do not apply to this section.",
+                "explanation": "The original text states that the agreement is *perpetual* as long as fees are paid, while the modified version limits the agreement to an *initial term of one year* with a *termination clause*. This creates a fundamental conflict regarding the agreement's duration and termination rights.",
+                "location": "Section 17(a)"
+            }
+        ]
+    }
+]

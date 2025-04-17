@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VIOLINMEMORYINC_12_12_2012-EX-10.14-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Any dispute arising under or relating to this Agreement shall be resolved exclusively by arbitration under the Commercial Arbitration Rules of the American Arbitration Association, with the venue of any such arbitration proceeding to be in Santa Clara, California or such other location as maybe agreed by the Parties.",
+                "changed_text": "Any dispute arising under or relating to this Agreement shall be resolved exclusively by arbitration under the Commercial Arbitration Rules, but the method of arbitration shall be determined by mutual agreement between the parties.",
+                "explanation": "The restructuring of the sentence introduces contradiction—the first part states arbitration is mandatory under the Commercial Arbitration Rules, but the latter part allows for 'mutual agreement' on the specific method of arbitration. This contradicts the original clause's strict arbitration requirement.",
+                "contradicted_law": "California Arbitration Act, which expects clear and consistent arbitration agreements.",
+                "location": "Section 11(a)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "(n) Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of California without regard to its conflict of laws provisions.",
+                "changed_text": "(n) Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of California, except for disputes relating to intellectual property, which will be governed by the laws of Delaware.",
+                "explanation": "This introduces a legal contradiction because the primary governing law is stated as California law, but then a specific exception is carved out for intellectual property disputes, assigning them to Delaware law. This creates ambiguity and potential conflicts if an IP dispute is intertwined with other contractual issues.",
+                "contradicted_law": "Basic principles of contract law, particularly those related to choice of law clauses. Introducing exceptions without clear delineation of scope creates ambiguity and potential unenforceability.",
+                "location": "Section 12(n)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The fees and expenses of the arbitrators shall be paid by the non-winning Party. In addition, the winning Party's reasonable attorneys' fees and costs shall be paid by the non­winning Party.",
+                "changed_text": "The fees and expenses of the arbitrators may be paid by either party, as determined by the arbitrator. In addition, the winning Party's reasonable attorneys' fees and costs shall be split equally between both parties.",
+                "explanation": "This introduces a direct legal contradiction. The original clause clearly states that the non-winning party pays all arbitration fees and the winning party's attorney's fees. The modified clause introduces ambiguity and contradiction by stating the arbitrator determines fee payment and splits the attorney fees, directly conflicting with the initial clear allocation.  This diminishes the enforceability of the clause as it creates uncertainty about cost allocation, a critical element in arbitration agreements.",
+                "contradicted_law": "California Arbitration Act, which requires clear terms in arbitration agreements, especially concerning the allocation of costs and fees.",
+                "location": "Section 11(d)"
+            }
+        ]
+    }
+]

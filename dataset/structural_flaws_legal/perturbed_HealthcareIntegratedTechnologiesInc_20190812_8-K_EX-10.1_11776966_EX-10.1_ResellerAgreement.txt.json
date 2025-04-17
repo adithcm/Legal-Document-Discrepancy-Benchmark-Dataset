@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of New York and all disputes and controversies arising out of or in connection with the Agreement shall be brought exclusively before the competent courts in New York County, New York; provided however that judgment shall be enforceable in any country and that nothing in this Section shall prevent or restrict either Party from seeking interim relief in any competent jurisdiction as it may deem fit.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of New York; however, disputes arising out of or in connection with the Agreement shall be resolved through a method to be determined at the time of dispute, which can be facilitated in any jurisdiction deemed appropriate by both parties.",
+                "explanation": "The original clause specifies exclusive jurisdiction in New York County, New York. The modified clause introduces ambiguity by suggesting disputes can be resolved through methods and jurisdictions agreed upon later, contradicting the initial exclusive jurisdiction clause. This introduces a legal contradiction regarding dispute resolution.",
+                "contradicted_law": "Contract Law - Jurisdiction clauses are generally enforceable but can be challenged if ambiguous or contradictory.",
+                "location": "Section 14.7"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Reseller shall defend, indemnify and hold harmless Supplier and its employees, officers, directors, suppliers, and successors from and against any third-party claim, suit, proceeding, damages, losses and/or liability arising from or related to (i) Reseller's breach of any provision of this Agreement; and/or (ii) Reseller's interaction and/or relationship with any Customer and/or End User or other third party.",
+                "changed_text": "Reseller shall endeavor to assist Supplier in defending against third-party claims. While Reseller's cooperation is expected, the extent of their financial responsibility will depend on factors determined at the discretion of Reseller.",
+                "explanation": "The original clause clearly establishes the reseller's obligation to indemnify the supplier. The modified clause weakens this obligation by changing 'defend, indemnify and hold harmless' to 'endeavor to assist', making it discretionary. It introduces ambiguity regarding financial responsibility, directly contradicting the original indemnification clause.",
+                "contradicted_law": "Contract Law - Indemnification clauses require clear and unambiguous language to be enforceable.",
+                "location": "Section 10"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Reseller shall: (a) not do or omit to do, nor authorize any third party to do or omit to do, any act or omission that would or might invalidate or be inconsistent with any of Supplier's intellectual property rights; (b) promptly notify Supplier of any actual, threatened, or suspected infringement of any of Supplier's intellectual property rights that comes to Reseller's notice; and (c) at Supplier's request and expense, do all such things as may be reasonably required to assist Supplier in taking or resisting any proceedings in relation to any such infringement or claim.",
+                "changed_text": "Regarding Supplier's intellectual property rights, Reseller will attempt to respect and uphold these rights where feasible. Any assistance related to potential infringement or claim shall be reviewed and enacted to the best of Reseller's ability, but can not be guaranteed.",
+                "explanation": "The original clause clearly defines the reseller's obligations regarding the supplier's intellectual property. The modified clause introduces uncertainty by changing 'shall' to 'will attempt', and adding 'where feasible', 'to the best of Reseller's ability', and 'can not be guaranteed.' This weakens the reseller's obligation to protect the supplier's IP, creating a contradiction regarding the extent of reseller's responsibility.",
+                "contradicted_law": "Intellectual Property Law - Contractual obligations to protect IP must be clear and binding to be effectively enforced.",
+                "location": "Section 7.2"
+            }
+        ]
+    }
+]

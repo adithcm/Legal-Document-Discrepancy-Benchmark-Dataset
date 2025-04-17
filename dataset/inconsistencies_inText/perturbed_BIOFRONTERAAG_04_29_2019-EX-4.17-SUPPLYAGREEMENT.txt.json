@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "BIOFRONTERAAG_04_29_2019-EX-4.17-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The purchase price for the Products shall be paid in US Dollars by the Company and such payment terms shall be [***] following the date that the Products are received and accepted (as per Article 4.4 of the LSA) by the Company, by wire transfer into an account designated by Ferrer. Invoices shall be generated upon shipment of Product from Supplier.",
+                "changed_text": "The purchase price for the Products shall be paid in US Dollars by the Company and such payment terms shall be [***] following the date that the Products are received by the Company, by wire transfer into an account designated by Ferrer. Invoices shall be generated upon shipment of Product from Supplier.",
+                "explanation": "The original text specifies payment terms as [***] days following receipt and acceptance, creating a potential conflict. By removing 'and accepted', the payment timeline starts immediately after product receipt without the need for acceptance. This is an in-text contradiction that could lead to disputes over when payment is due, and a lack of clarity about whether the buyer still needs to assess the product after arrival, or they have given up this right and has to immediately pay.",
+                "location": "Schedule A"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "The increase shall apply to any order received by Ferrer after the communication date of the increase. In the event that the new Supply Unit Price for the Products may make the business not feasible, the Parties, in good faith and through the Joint Steering Committee, agree to meet and negotiate in good faith an alternative solution.",
+                "changed_text": "The increase shall apply to any order received by Ferrer after the communication date of the increase. In the event that the new Supply Unit Price for the Products may make the business not feasible, Ferrer will have the right to unilaterally terminate the agreement.",
+                "explanation": "The original text requires the parties to negotiate in good faith if a price increase makes the business unfeasible. The changed text gives Ferrer the unilateral right to terminate the agreement if the price increase makes the business unfeasible for them. This introduces an in-text contradiction, as one section requires negotiation while the other allows immediate termination, creating uncertainty and potential disputes over continuation of the agreement and enforceability of any imposed penalties.",
+                "location": "Schedule A"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "Supplier shall use its commercially reasonable efforts to permit CUTANEA to have access to Supplier's (and its agents' and subcontractors') facilities upon reasonable notice, during normal business hours for any reasonable purpose, including compliance with current Good Manufacturing Practices and the Act. Such access shall in no way give CUTANEA the right to any of Supplier's confidential or proprietary information not related to this Agreement or used in the Manufacture of any Product.",
+                "changed_text": "Supplier shall permit CUTANEA to have unrestricted access to Supplier's (and its agents' and subcontractors') facilities with no prior notice, during any hours for any purpose, including compliance with current Good Manufacturing Practices and the Act. Such access shall allow CUTANEA the right to any and all of Supplier's confidential or proprietary information including information not related to this Agreement or used in the Manufacture of any Product.",
+                "explanation": "The original text allows access to the facility with reasonable notice for a reasonable purpose with no access to confidential information not related to the agreement. The altered text removes the need for reasonable notice, allows access to the facility for any purpose at any hour of the day, and states that CUTANEA has the right to any and all confidential information of Supplier. This creates an in-text contradiction, as this new clause invalidates and contradicts the clause in Section 9.1.1 that describes how CUTANEA shall not use any Confidential Information furnished by the Disclosing Party. This creates uncertainty over the use of Confidential Information and legal concerns around the handling of information.",
+                "location": "Section 5.5.1"
+            }
+        ]
+    }
+]

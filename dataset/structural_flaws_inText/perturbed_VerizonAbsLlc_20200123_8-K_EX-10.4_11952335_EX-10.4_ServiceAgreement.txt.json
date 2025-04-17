@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "If, for any Payment Date, the amounts deposited under Section 4.3(b) for the Collection Period exceed the sum of (i) Collections for the Collection Period, plus (ii) Acquisition Amounts for the Payment Date, the Indenture Trustee or the Note Paying Agent will pay to Cellco from Available Funds in the Collection Account an amount equal to the excess within two (2) Business Days after Cellco's direction, but no later than the Payment Date.",
+                "changed_text": "If, for any Payment Date, the amounts deposited under Section 4.3(b) for the Collection Period exceed the sum of (i) Collections for the Collection Period, plus (ii) Acquisition Amounts for the Payment Date, the Indenture Trustee or the Note Paying Agent are not obligated to pay Cellco from Available Funds in the Collection Account an amount equal to the excess. Payment of any excess funds to Cellco is at the sole discretion of the Indenture Trustee or the Note Paying Agent.",
+                "explanation": "This change introduces a contradiction by stating the Indenture Trustee or Note Paying Agent has no obligation to pay Cellco excess funds. It then implies there is a possibility of payment but that it is at the 'sole discretion' of the Trustee, creating uncertainty. This contradicts the original text where the Trustee 'will pay' the amount, indicating an obligation.",
+                "location": "Section 4.3(c)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Servicer will not resign as Servicer under this Agreement unless it determines it is legally unable to perform its obligations under this Agreement.",
+                "changed_text": "The Servicer may resign as Servicer under this Agreement at any time, with or without cause, by providing written notice to the Issuer, the Parent Support Provider, the Owner Trustee and the Indenture Trustee. The Servicer's resignation will be effective 30 days after such notice is given.",
+                "explanation": "The original text states the Servicer cannot resign unless legally unable to perform. The new text explicitly states that the Servicer may resign at any time, with or without cause, contradicting the previous restriction and creates uncertainty as to when resignation is possible.",
+                "location": "Section 7.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The Servicer will notify the Issuer, the Parent Support Provider, the Owner Trustee and the Indenture Trustee of its resignation as soon as practicable after it determines it is required to resign, together with an Opinion of Counsel supporting its determination.",
+                "changed_text": "The Servicer is not required to provide any notice of its resignation. Further, the Servicer is not required to furnish an Opinion of Counsel supporting its determination to resign.",
+                "explanation": "The original text imposes a notification requirement on the Servicer when it resigns and requires an Opinion of Counsel. The changed text removes this obligation and explicitly states they are not required, creating an in-text contradiction",
+                "location": "Section 7.1"
+            }
+        ]
+    }
+]

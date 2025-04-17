@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "AntaresPharma,Inc.-ManufacturingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Subject to Antares' obligation to cover the costs set forth in Section 5.3(b), AMAG shall be responsible for all costs incurred due to the Recall of a Product, sample Product or Trainer.",
+                "changed_text": "AMAG shall be responsible for all costs incurred due to the Recall of a Product, sample Product or Trainer.",
+                "explanation": "This change omits Antares' financial obligation to cover certain recall costs, potentially contradicting consumer protection laws that hold manufacturers accountable for defective products. By removing Antares' responsibility, AMAG could be solely burdened with recall costs even if the defect originated from Antares' manufacturing process, conflicting with general product liability principles.",
+                "contradicted_law": "General Product Liability Laws",
+                "location": "Section 5.2(b)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "AMAG shall be responsible for managing all Recalls and Antares shall cooperate with AMAG as AMAG may reasonably request.",
+                "changed_text": "AMAG shall be responsible for managing all Recalls.",
+                "explanation": "Removing the requirement for Antares to cooperate in recalls could violate regulations requiring manufacturers to actively participate in product recalls. Many jurisdictions mandate that manufacturers assist in notifying consumers and retrieving defective products. This omission creates a legal risk by potentially hindering the effectiveness of a recall and shifting undue burden onto AMAG.",
+                "contradicted_law": "21 CFR Part 7 (FDA Recall Regulations)",
+                "location": "Section 5.2(b)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "NEITHER PARTY MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, BY FACT OR LAW, OTHER THAN THOSE EXPRESSLY SET FORTH IN THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE OR WARRANTY OF MERCHANTABILITY OR WARRANTY OF NON-INFRINGEMENT OF THIRD PERSON RIGHTS.",
+                "changed_text": "NEITHER PARTY MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, BY FACT OR LAW, OTHER THAN THOSE EXPRESSLY SET FORTH IN THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE OR WARRANTY OF NON-INFRINGEMENT OF THIRD PERSON RIGHTS.",
+                "explanation": "Removing the 'Warranty of Merchantability' shifts risk onto the buyer regarding the product's baseline quality, functionality, or legal compliance. By waiving merchantability, the seller circumvents legally implied obligations in commercial transactions.",
+                "contradicted_law": "Uniform Commercial Code (UCC) - Implied Warranty of Merchantability",
+                "location": "Section 8.6"
+            }
+        ]
+    }
+]

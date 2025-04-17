@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ReedsInc_20191113_10-Q_EX-10.4_11888303_EX-10.4_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(i) Company will create and provide to Reed's the Deliverables. Reed's will exclusively own all Deliverables. Company will and hereby does, without further consideration, irrevocably assign to Reed's any and all worldwide right, title or interest that Company may now or hereafter possess in or to the Deliverables in perpetuity (or the maximum period permitted by Applicable Laws and Regulations) and Reed's accepts such assignment. Company will execute and deliver documents reasonably requested by Reed's to register its Intellectual Property in the Deliverables.",
+                "changed_text": "(i) Company will create and provide to Reed's the Deliverables. Reed's will exclusively own all Deliverables, unless otherwise agreed upon in writing by both parties. Company will and hereby does, without further consideration, irrevocably assign to Reed's any and all worldwide right, title or interest that Company may now or hereafter possess in or to the Deliverables, but this assignment is conditional based on the successful launch of the product. Company will execute and deliver documents reasonably requested by Reed's to register its Intellectual Property in the Deliverables.",
+                "explanation": "The original text unequivocally states that Reed's exclusively owns all Deliverables. The modified text introduces exceptions by stating that ownership is subject to written agreement and contingent upon successful product launch. This creates uncertainty regarding ownership and conflicts with the initial assertion of exclusive ownership.",
+                "location": "Section 6(a)"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each party will indemnify, defend and hold harmless the other party and its respective directors, officers, members, employees, licensees, agents and independent contractors, from and against any claim or action, liability, damages, and expense, including but not limited to attorney's fees, arising from or resulting from (i) the negligent act or omission of the party, its employees, agents or contractors, (ii) the party's breach of this Agreement, or (iii) the violation of any law by the party, its employees, agents, or contractors.",
+                "changed_text": "Each party will indemnify, defend and hold harmless the other party and its respective directors, officers, members, employees, licensees, agents and independent contractors, from and against any claim or action, liability, damages, and expense, including but not limited to attorney's fees, arising from or resulting from (i) the negligent act or omission of the party, its employees, agents or contractors, unless such negligence was due to unforeseen circumstances, (ii) the party's breach of this Agreement, provided such breach was unintentional, or (iii) the violation of any law by the party, its employees, agents, or contractors, except in cases where such violation was based on conflicting legal advice.",
+                "explanation": "The original clause states that each party will indemnify the other for negligent acts, breaches of the agreement, and violations of law. The modified text introduces exceptions: negligence due to unforeseen circumstances, unintentional breaches, and violations based on conflicting legal advice. These exceptions contradict the original unconditional indemnification obligation, making it unclear when indemnification is actually required and weakening the protection offered.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company shall not use the Work Product, Products or Deliverables during the term of this Agreement or after, in perpetuity, for any purpose whatsoever other than performing Company's obligations under this Agreement. The Deliverables shall be considered to be Confidential Information (as defined below) of Reed's.",
+                "changed_text": "Company shall not use the Work Product, Products or Deliverables during the term of this Agreement for any purpose whatsoever other than performing Company's obligations under this Agreement. After the term of this agreement, the company may use the Work Product, Products or Deliverables for internal research purposes only. The Deliverables shall be considered to be Confidential Information (as defined below) of Reed's.",
+                "explanation": "The original text restricts the company's use of the Work Product, Products, or Deliverables to only performing the obligations under the agreement during the term and in perpetuity. The modified text allows the company to use those items for internal research purposes after the agreement terminates. This direct contradiction makes the use restrictions unclear.",
+                "location": "Section 6(c)"
+            }
+        ]
+    }
+]

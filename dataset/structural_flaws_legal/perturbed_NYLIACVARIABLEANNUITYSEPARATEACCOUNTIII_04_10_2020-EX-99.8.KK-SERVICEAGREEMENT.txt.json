@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "NYLIACVARIABLEANNUITYSEPARATEACCOUNTIII_04_10_2020-EX-99.8.KK-SERVICEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be construed and the provisions hereof interpreted under and in accordance with the laws of the Commonwealth of Massachusetts.",
+                "changed_text": "This Agreement shall be construed and the provisions hereof interpreted under and in accordance with the laws of a jurisdiction to be determined by mutual agreement of both parties.",
+                "explanation": "Changing the applicable law to be determined by mutual agreement introduces uncertainty and potential conflict. Contracts should clearly state the governing law to avoid disputes, failing to do so contradicts established contract law principles. ",
+                "contradicted_law": "General Contract Law Principles",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement may be terminated by Company at any time upon written notice to FIIOC. FIIOC may terminate this Agreement at any time upon ninety (90) days' written notice to Company. FIIOC may terminate this Agreement immediately upon written notice to Company (1) if required by any applicable law or regulation, (2) if so required by action of the Fund(s) Board of Trustees, or (3) if Company engages in any material breach of this Agreement. This Agreement shall terminate immediately and automatically upon the termination of Company's Participation Agreement(s) with the Funds, and in such event no notice need be given hereunder.",
+                "changed_text": "This Agreement may be terminated by Company at any time upon written notice to FIIOC. FIIOC may terminate this Agreement at any time upon ninety (90) days' written notice to Company. However, termination by FIIOC requires mutual consent of both parties, regardless of the original terms, to promote long-term collaboration.",
+                "explanation": "Adding a requirement of mutual consent for FIIOC's termination contradicts the previously stated conditions for FIIOC's termination. The original text allows FIIOC to terminate under specific circumstances (legal requirement, board action, breach), but the added clause removes this ability and makes it depend on the Company's consent, which could prevent termination even when legally required. This introduces a legal contradiction affecting enforceability.",
+                "contradicted_law": "General Contract Law Principles",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement may not be assigned without the written consent of the other party, which consent shall not be unreasonably withheld, except that it shall be assigned automatically to any successor to FIIOC as the Funds' transfer agent, and any such successor shall be bound by the terms of this Agreement.",
+                "changed_text": "This Agreement may not be assigned without the written consent of the other party, which consent shall be withheld at the discretion of the assigning party. There are no exceptions of automatic assignment to a successor.",
+                "explanation": "Removing the clause about automatic assignment to a successor while retaining the need for written consent creates a contradiction. Originally, there was a clear exception for successors, ensuring continuity. Now, there is no exception, and the consent to assignment is now at the assigning party's discretion, thus contradicting the initial clause.",
+                "contradicted_law": "General Contract Law Principles",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

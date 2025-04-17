@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-MaintenanceandsupportcontractforSICAP(R)modules.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "All payments due under this Maintenance and Support contract shall be due       and payable 30 days after the invoice date, with the first invoice to be       issued on the date this Maintenance and Support contract comes into full       force and effect.",
+                "changed_text": "All payments due under this Maintenance and Support contract shall be due       and payable 60 days after the invoice date, with the first invoice to be       issued on the date this Maintenance and Support contract comes into full       force and effect.",
+                "explanation": "This change creates a contradiction by altering the payment deadline from 30 days to 60 days. This creates uncertainty about when payments are actually due, creating potential disputes over late fees and service suspensions.",
+                "location": "7.3.3"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "After this period, Sicap Ltd reserves the right to adjust the prices       annually. The offer must be submitted three (3) months in advance and       EuroTel may decide within one (1) month to prolong or terminate this       maintenance and support contract. If EuroTel doesn't react in writing, the       new offer shall be considered as accepted.",
+                "changed_text": "After this period, Sicap Ltd reserves the right to adjust the prices       annually. The offer must be submitted one (1) month in advance and       EuroTel may decide within three (3) months to prolong or terminate this       maintenance and support contract. If EuroTel doesn't react in writing, the old prices shall be considered as accepted.",
+                "explanation": "This creates an in-text contradiction by altering the timeframes for price adjustments and acceptance. The original text requires Sicap Ltd to submit the offer three months in advance and EuroTel to respond within one month, while the modified text reverses these timeframes. It also changes what happens if EuroTel doesn't respond in writing, from the new offer being accepted to the old prices being accepted.",
+                "location": "7.5"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "After the initial period of two years, the maintenance and support       contract shall be automatically renewed for a period of one year on each       renewal date, unless one of the parties terminates the maintenance and       support contract through written notification to the other party in the       form of a registered letter with proof of receipt, at least six (6) weeks       prior to the renewal date. There shall be no reimbursement of any paid       fee.",
+                "changed_text": "After the initial period of two years, the maintenance and support       contract shall be automatically renewed for a period of one year on each       renewal date, unless one of the parties terminates the maintenance and       support contract through written notification to the other party in the       form of a registered letter with proof of receipt, at least two (2) weeks       prior to the renewal date. There shall be a reimbursement of any paid fee.",
+                "explanation": "The change modifies the notification period for contract termination from six weeks to two weeks, and introduces a contradiction by stating there *will* be a reimbursement of any paid fee, directly contradicting the original statement that there *will not* be any reimbursement. This introduces ambiguity about the conditions for contract renewal and potential refunds.",
+                "location": "7.5"
+            }
+        ]
+    }
+]

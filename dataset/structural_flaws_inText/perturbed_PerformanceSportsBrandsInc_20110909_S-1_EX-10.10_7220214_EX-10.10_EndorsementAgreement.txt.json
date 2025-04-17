@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PerformanceSportsBrandsInc_20110909_S-1_EX-10.10_7220214_EX-10.10_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "a. \"Contract Period\" shall mean that period of time from February 21, 2011 through December 31, 2012.",
+                "changed_text": "a. \"Contract Period\" shall mean that period of time from February 21, 2011 through December 31, 2012, unless otherwise terminated as outlined in section 13.",
+                "explanation": "By adding \"unless otherwise terminated as outlined in section 13,\" we introduce a contradiction with the initial definition of 'Contract Period.' The original definition sets a fixed term, while the added clause implies the term can be shorter. This creates uncertainty about the actual duration of the contract and impacts associated rights and obligations.",
+                "location": "1. Definitions"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "During the Term of this Agreement and within the Contract Territory, North agrees not to enter into an agreement with another company or entity for the purpose of endorsing or promoting products similar to the Endorsed Products.",
+                "changed_text": "During the Term of this Agreement and within the Contract Territory, North agrees to use his best efforts to avoid entering into an agreement with another company or entity for the purpose of endorsing or promoting products similar to the Endorsed Products. Company acknowledges that it will be at North's sole discretion.",
+                "explanation": "The original text states that North *agrees not to enter into an agreement* with another company. The modified version changes it to *use his best efforts to avoid* and that it will be at *North's sole discretion*, which contradicts the original exclusivity promise, weakening the enforcement of the exclusivity clause.",
+                "location": "3. Grant of License and Exclusivity"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Amounts not received within ten (10) days following their respective due dates shall be assessed a late charge equal to one and one-half percent (1 _%) per month of the overdue amount until paid, commencing on the eleventh day.",
+                "changed_text": "Amounts not received within thirty (30) days following their respective due dates may, at the discretion of the Company, be assessed a late charge equal to one and one-half percent (1 _%) per month of the overdue amount until paid, commencing on the thirty-first day.",
+                "explanation": "The original text mandates a late charge after ten days, while the modified version makes it discretionary and extends the grace period to thirty days. This creates a contradiction regarding when late fees apply, potentially leading to disputes over payment obligations.",
+                "location": "7. Compensation"
+            }
+        ]
+    }
+]

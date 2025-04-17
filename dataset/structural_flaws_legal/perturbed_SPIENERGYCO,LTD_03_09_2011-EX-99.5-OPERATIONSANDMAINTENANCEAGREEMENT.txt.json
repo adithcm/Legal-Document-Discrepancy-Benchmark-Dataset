@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONSANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EACH OF THE PARTIES HEREBY WAIVES ANY RIGHT TO TRIAL BY JURY WITH RESPECT TO ANY DISPUTE ARISING OUT OF OR RELATING TO THIS CONTRACT.",
+                "changed_text": "EACH OF THE PARTIES HEREBY WAIVES ANY RIGHT TO TRIAL BY JURY WITH RESPECT TO ANY DISPUTE ARISING OUT OF OR RELATING TO THIS CONTRACT. The parties agree, however, that if both parties mutually agree in writing, they can revert to trial by jury.",
+                "explanation": "The original text had a clear and concise waiver of jury trial rights. Adding the second sentence introduces a conditional element, suggesting that the jury trial waiver can be overturned by mutual agreement. This undermines the enforceability of the initial waiver by creating an exception that could be exploited in litigation. This contradicts standard contract law where waivers need to be knowingly and voluntarily made, and not subject to later alteration without clear consideration.",
+                "contradicted_law": "California Code of Civil Procedure Section 631 regarding jury trial waivers.",
+                "location": "ARTICLE 6. DISPUTE RESOLUTION AND ARBITRATION"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Service Provider shall institute policies to forbid and prevent the possession or use of firearms, alcohol and illegal drugs at the Premises.",
+                "changed_text": "Service Provider shall institute policies to forbid and prevent the possession or use of firearms, alcohol and illegal drugs at the Premises. However, in the event of a company-sponsored event, the service provider may allow the use of alcohol at the premises.",
+                "explanation": "This change introduces an exception to the explicit policy forbidding alcohol, creating a potential contradiction and ambiguity in the rules. This reduces the clarity of the original clause. It opens the door for interpretation issues and potential liability concerns, especially if someone is injured during an event with alcohol use.",
+                "contradicted_law": "Potentially violates workplace safety regulations depending on the jurisdiction if alcohol consumption leads to unsafe conditions.",
+                "location": "1.7 Personnel Standards"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Service Provider shall prepare and maintain all reports and other information relating to the SEF maintenance (the \"SEF O&M Reports\") and make such SEF O&M Reports available to Owner (i) within ten (10) business days following performance of any Services under this Agreement and (ii) upon reasonable request at any time",
+                "changed_text": "Service Provider shall prepare and maintain all reports and other information relating to the SEF maintenance (the \"SEF O&M Reports\") and make such SEF O&M Reports available to Owner (i) within ten (10) business days following performance of any Services under this Agreement and (ii) upon reasonable request at any time. The service provider reserves the right to delay reporting if they are undergoing internal reviews.",
+                "explanation": "The addition of the second sentence introduces an ambiguity by providing the service provider a loophole to postpone producing the reports and other information relating to the SEF maintenance. The phrase 'reserves the right to delay reporting if they are undergoing internal reviews' is subjective and could be used to reduce the service provider's accountability when delivering the reports and other information.",
+                "contradicted_law": "This could be considered a breach of duty of disclosure under general contract law principles. (California law in this case)",
+                "location": "1.8 O&M Data and Records"
+            }
+        ]
+    }
+]

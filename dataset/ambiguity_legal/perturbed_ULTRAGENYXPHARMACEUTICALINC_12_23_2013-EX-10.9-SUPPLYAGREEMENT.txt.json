@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Subject to the terms and conditions set forth in this Agreement Cremer shall supply Ultragenyx with the Product free from defect and meeting the product specification attached to this Agreement as Annex A (the \"Product Specifications\").",
+                "changed_text": "Subject to the terms and conditions set forth in this Agreement Cremer will endeavor to supply Ultragenyx with the Product, aiming for it to be substantially free from defect and generally meeting the product specification attached to this Agreement as Annex A (the \"Product Specifications\").",
+                "explanation": "Changing \"shall supply\" to \"will endeavor to supply\" weakens the obligation to supply defect-free product, creating ambiguity. Adding 'substantially' and 'generally' adds further ambiguity as to what constitutes an acceptable level of defect or compliance with specifications. This contradicts the strict liability standards for product defects under German law (Product Liability Act - Produkthaftungsgesetz) referenced in Article 4, which does not accept ambiguous compliance.",
+                "contradicted_law": "Produkthaftungsgesetz (German Product Liability Act)",
+                "location": "Article 1, Section 1"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "All Product shall be delivered with the applicable certificate of analysis and batch records for the Product delivered and an invoice for the quantity of Product delivered.",
+                "changed_text": "All Product will be delivered with what Cremer believes is the applicable certificate of analysis and batch records that are reasonably available for the Product delivered, along with an invoice for the approximate quantity of Product delivered.",
+                "explanation": "Replacing \"shall be delivered with the applicable certificate\" with \"what Cremer believes is the applicable certificate\" and \"reasonably available\" introduces subjectivity and makes it ambiguous whether proper documentation is actually provided. Also, providing the 'approximate quantity' weakens the precise obligation on the amount of the product delivered. This conflicts with pharmaceutical regulations in Germany (AMG), which demand precise and verifiable documentation for pharmaceutical ingredients, and strict accounting of quantity delivered.",
+                "contradicted_law": "Arzneimittelgesetz (AMG) - German Pharmaceuticals Act",
+                "location": "Article 2, Section 4"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "In the event that the Product fails to conform to the Product Specifications, and/or GMP, Ultragenyx may reject the Product by giving written notice to Cremer within [***] days after receipt of the Product and all documentation (except such [***] day period will not apply for any latent defect). Within [***] days following receipt of the rejected and returned Product from Ultragenyx, Cremer will, at Ultragenyx's choice, replace such quantity of Product with Product conforming to the Product Specifications, and GMP or refund Ultragenyx the Price paid for such Product.",
+                "changed_text": "In the event that the Product seemingly fails to conform to the Product Specifications, and/or GMP, Ultragenyx may consider rejecting the Product by providing an informal notice to Cremer within a reasonable time after becoming somewhat aware of the issue. Cremer will try to, after examining the Product, possibly replace some of the potentially non-conforming Product if feasible or consider a partial refund of an adjusted price.",
+                "explanation": "Changing \"fails to conform\" to \"seemingly fails to conform\" adds ambiguity about the standard of conformity. Replacing \"may reject the Product by giving written notice\" with \"may consider rejecting the Product by providing an informal notice\" weakens the process to reject the product if it is not good. Furthermore, using \"a reasonable time after becoming somewhat aware of the issue\" also adds ambiguity to the time frame. Adding phrases such as \"try to\", \"possibly replace some\", \"potentially non-conforming\", and \"partial refund of an adjusted price\" weakens the responsibility of Cremer of GMP and Product Specification maintenance, which conflicts with Article 4, Section 3 (GMP Compliance).",
+                "contradicted_law": "Article 4, Section 3 - GMP Compliance",
+                "location": "Article 4, Section 5"
+            }
+        ]
+    }
+]

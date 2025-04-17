@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Servicer will manage, service, administer and collect on the Receivables with reasonable care using that degree of skill and attention that the Servicer exercises for all comparable device payment plan agreement receivables that it services for itself or others according to the Servicing Procedures.",
+                "changed_text": "The Servicer will manage, service, administer and collect on the Receivables with less effort than it uses for other similar agreement receivables, and the process of collecting on the receivables is at their discretion.",
+                "explanation": "The original text requires 'reasonable care' which is a legally defined standard. This has been changed to state the Servicer can use 'less effort' than they would for their own receivables, which contradicts established legal duties and could be seen as a breach of contract.",
+                "contradicted_law": "Breach of Contract, Negligence",
+                "location": "Section 3.2(a)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Servicer shall take, or cause to be taken, all actions necessary or advisable to collect each Receivable in accordance with this Agreement and the Servicing Procedures using commercially reasonable care and diligence and in any event, with no less care or diligence than the Servicer exercises in collecting other similar receivables or obligations owed to it and its Affiliates.",
+                "changed_text": "The Servicer shall take, or cause to be taken, actions as it deems efficient to collect each Receivable following internal practices, using appropriate care and diligence as the Servicer views is in its interest.",
+                "explanation": "The term **'commercially reasonable care and diligence'** was replaced with **'appropriate care and diligence as the Servicer views is in its interest'**, creating legal uncertainty. The term 'commercially reasonable care and diligence' has a clear **legal definition**, whereas 'appropriate care and diligence as the Servicer views is in its interest' is vague and open to interpretation. This contradicts the intent of the contract and could lead to disputes over collection responsibilities.",
+                "contradicted_law": "Breach of Contract, Negligence",
+                "location": "Section 3.2(b)"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Custodian will hold and maintain the Receivable Files, including any receivables systems on which the Receivable Files are electronically stored, in a manner that will permit the Servicer and the Issuer to comply with this Agreement and the Indenture Trustee to comply with the Indenture.",
+                "changed_text": "The Custodian will store the Receivable Files in an archive, but is not required to maintain the receivables systems in a manner that complies with the agreement.",
+                "explanation": "The original text mandates that the 'receivables systems on which the Receivable Files are electronically stored' must be maintained in a way that allows all parties to comply with the agreement. The edited text removes the maintenance, creating an imbalance of power.",
+                "contradicted_law": "Breach of Contract, Duty of Care",
+                "location": "Section 3.10(b)"
+            }
+        ]
+    }
+]

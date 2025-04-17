@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services at its sole discretion, provided that Sub-Reseller may resell such Services to any entity.",
+                "explanation": "This modification alters the 'Sub-Reseller's' obligations, and the scope of sales which contradicts the typical responsibilities and limitations implied in a 'Sub-Reseller Agreement,' which typically has a customer limit.",
+                "contradicted_law": "General Contract Law, Agency Law",
+                "location": "1. Resale Rights."
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller.",
+                "changed_text": "Reseller's responsibility to ensure Sub-Reseller's compliance is purely advisory, and any breach by Sub-Reseller will be addressed separately and not attributed to Reseller.",
+                "explanation": "This change removes the direct liability of the Reseller for the actions of the Sub-Reseller, contradicting standard agency principles where a principal (Reseller) is often responsible for the actions of their agent (Sub-Reseller).",
+                "contradicted_law": "Agency Law, Contract Law",
+                "location": "1. Resale Rights."
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "This Sub-Reseller Agreement is intended as a flexible framework, and the Parties reserve the right to modify terms via subsequent oral agreements, which shall take precedence over this written document.",
+                "explanation": "This statement attempts to negate the 'entire agreement' clause, a standard provision meant to prevent disputes based on prior or side agreements not included in the written contract. This undermines the enforceability of the written contract under contract law.",
+                "contradicted_law": "Parol Evidence Rule, Contract Law",
+                "location": "3. Entire Agreement."
+            }
+        ]
+    }
+]

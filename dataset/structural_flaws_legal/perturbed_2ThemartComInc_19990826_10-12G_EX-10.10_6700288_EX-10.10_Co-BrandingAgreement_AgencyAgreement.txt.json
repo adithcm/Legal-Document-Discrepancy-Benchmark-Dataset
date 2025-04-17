@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-BrandingAgreement_AgencyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "12.1 GOVERNING LAW.  This Agreement will be governed and construed in accordance with the laws of the State of California without giving effect to conflict of laws principles.  Both parties submit to personal jurisdiction in California and further agree that any cause of action arising under this Agreement shall be brought in a court in Orange County, California.",
+                "changed_text": "12.1 GOVERNING LAW. This Agreement will be governed and construed in accordance with the laws of the State of Delaware without giving effect to conflict of laws principles. Both parties agree that any cause of action arising under this Agreement shall be brought in a court in a mutually agreed location.",
+                "explanation": "Changing the governing law from California to Delaware introduces uncertainty. While the original text specifies California law and jurisdiction, the modified text makes jurisdiction dependent on mutual agreement, which is less definitive.",
+                "contradicted_law": "Contract Law, Jurisdiction Requirements",
+                "location": "Section 12.1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "5.3 AUDIT RIGHTS. i-Escrow shall keep for one (1) year proper records and books of account relating to the computation of advertising payments owed to 2TheMart (including, as appropriate, the computation of the size of average Transaction).  Once every twelve (12) months, 2TheMart through a CPA may inspect and audit such records to verify reports. Any such inspection will be conducted in a manner that does not unreasonably interfere with i-Escrow's business activities and with no less than fifteen (15) days notice. i-Escrow shall within two (2) weeks make any overdue payments disclosed by the audit. Such inspection shall be at 2TheMart's expense; however, if the audit reveals overdue payments in excess of ten percent (10%) of the payments owed to date, i-Escrow shall immediately pay all cost of such audit.",
+                "changed_text": "5.3 AUDIT RIGHTS. i-Escrow shall keep for one (1) year proper records and books of account relating to the computation of advertising payments owed to 2TheMart (including, as appropriate, the computation of the size of average Transaction). 2TheMart may inspect and audit such records to verify reports, but only if i-Escrow consents to the audit and such consent can be arbitrarily withheld. Any such inspection will be conducted in a manner that does not unreasonably interfere with i-Escrow's business activities.  i-Escrow shall within two (2) weeks make any overdue payments disclosed by the audit, if i-Escrow agrees that the audit results are accurate. Such inspection shall be at 2TheMart's expense.",
+                "explanation": "By adding conditions where i-Escrow needs to consent to the audit and agree that the audit results are accurate, 2TheMart's right to audit is severely weakened. The original clause allowed for an audit under specific conditions (15 days notice, non-interference), but the modification introduces subjective conditions that effectively nullify 2TheMart's ability to exercise its audit rights.",
+                "contradicted_law": "Contract Law, Audit Rights",
+                "location": "Section 5.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "8.2 TERMINATION FOR BREACH.  In addition to other remedies that may be available to it, by providing written notice, a party may immediately terminate this Agreement: (a) if the other party materially breaches this Agreement and fails to cure that breach within sixty (60) days after receiving written notice of the breach, or (b) as provided in Sections 2.2  [INITIAL INFORMATION TRANSFER MECHANISM DEVELOPMENT], 2.4  [RESTRICTIONS ON COMMUNICATIONS], or 12.4.",
+                "changed_text": "8.2 TERMINATION FOR BREACH.  In addition to other remedies that may be available to it, by providing written notice, a party may terminate this Agreement: (a) if the other party believes that the other party materially breaches this Agreement and fails to cure that breach within sixty (60) days after receiving written notice of the breach, or (b) as provided in Sections 2.2  [INITIAL INFORMATION TRANSFER MECHANISM DEVELOPMENT], 2.4  [RESTRICTIONS ON COMMUNICATIONS], or 12.4. However, the termination for breach is unenforceable",
+                "explanation": "The added phrase shifts the determination of a material breach to the subjective belief of one party, rather than an objective standard. This gives one party the ability to terminate the agreement based on a perceived breach, even if it isn't a verifiable material breach. Also, including the sentence that termination for breach is unenforceable contradicts the original meaning.",
+                "contradicted_law": "Contract Law, Termination Clause",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]

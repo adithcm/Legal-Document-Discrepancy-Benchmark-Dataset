@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "OFGBANCORP_03_28_2007-EX-10.23-OUTSOURCINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Customer may elect to terminate this Agreement for any reason upon six months written notice to Metavante, provided Customer shall pay Metavante the \"Termination Fee\" defined and computed in accordance with the table below. The \"Termination Fee\" shall be paid prior to the Effective Date of Termination of the Agreement, as applicable. In addition to the foregoing, Customer shall pay to Metavante any amortized but unpaid one-time set-up fees, enhancement fees or implementation fees and all reasonable costs in connection with the disposition of equipment, facilities and contracts exclusively related to Metavante's performance of the Services under this Agreement. The Termination Fee shall be an amount equal to a percentage of the Estimated Remaining Value as set forth below. The \"Estimated Remaining Value\" means the mathematical product of (a) the average monthly fee paid by Customer with respect to the Initial Services during the twelve (12) months immediately preceding the Effective Date of Termination, multiplied by (b) the number of unexpired whole months remaining between the Effective Date of Termination and the expiration of the Initial Term. The Termination Fee shall be equal to the Estimated Remaining Value",
+                "changed_text": "Customer may elect to terminate this Agreement for any reason upon six months written notice to Metavante, provided Customer shall pay Metavante the \"Termination Fee\". The \"Termination Fee\" shall be paid prior to the Effective Date of Termination of the Agreement, as applicable. In addition to the foregoing, Customer shall pay to Metavante any amortized but unpaid one-time set-up fees, enhancement fees or implementation fees and all reasonable costs in connection with the disposition of equipment, facilities and contracts exclusively related to Metavante's performance of the Services under this Agreement.",
+                "explanation": "By removing the definition of how the Termination Fee is calculated, the agreement is internally contradictory. The first sentence states the Termination Fee must be paid, but no method is provided for calculating it. The rest of the document then refers to an 'Estimated Remaining Value' and a table, creating ambiguity and uncertainty about how the fee should be determined for enforcement.",
+                "location": "8.4"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "5.7. *The information in this paragraph is intentionally ommitted because confidential treatment has been requested pursuant to Rule 24b-2 under the Securities Exchange Act of 1934, as amended. The omitted information has been filed separately with the U.S. Securities and Exchange Commission.",
+                "changed_text": "5.7.",
+                "explanation": "By omitting this entire paragraph it creates an in-text contradiction when in 4.1.G it states: Metavante acknowledges that this Agreement is subject to approval by Customer's board of directors on or before February 15, 2007, and that Customer may terminate this Agreement without payment of the Termination Fee by providing written notice to Metavante on or before that date, provided that an officer of Customer also certifies in writing that Customer's board of directors did not approve entering into this Agreement.This implies that certain fees are due, which is never defined in the full context of the agreement.",
+                "location": "5.7"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "9.3. *The information in this paragraph is intentionally omitted because confidential treatment has been requested pursuant to Rule 24b- 2 under the Securities Exchange Act of 1934, as amended.",
+                "changed_text": "9.3.",
+                "explanation": "By omitting the paragraph, it creates an in-text contradiction. While Article 9 is named: LIMITATION OF LIABILITY/MAXIMUM DAMAGES ALLOWED, it fails to outline all limitation of liability, due to missing paragraph 9.3. Thus creating a contradiction to the full title and scope of the article.",
+                "location": "9.3"
+            }
+        ]
+    }
+]

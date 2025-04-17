@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "ONEMAINHOLDINGS,INC_02_20_2020-EX-99.D-JOINTFILINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D and any and all further amendments thereto, with respect to the securities of the above referenced issuer, and that this Agreement be included as an Exhibit to such filing.",
+                "changed_text": "In accordance with Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended, the undersigned hereby confirm the agreement by and among them to the joint filing on behalf of them of the Statement on Schedule 13D. All further amendments must be filed individually and are not subject to this joint filing agreement. This initial agreement will stand alone, and this Agreement be included as an Exhibit to such filing.",
+                "explanation": "This introduces a contradiction. The original text states that the agreement covers 'any and all further amendments thereto.' The modified text explicitly states that further amendments must be filed individually and are not subject to the joint filing agreement. This creates uncertainty about whether future amendments are covered by the joint filing agreement.",
+                "location": "Paragraph 1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "This Agreement may be executed in any number of counterparts each of which shall be deemed to be an original and all of which together shall be deemed to constitute one and the same Agreement.",
+                "changed_text": "This Agreement must be executed in a single original. Counterparts will only be accepted if notarized individually, and even then, all counterparts are considered independent agreements rather than a single, unified agreement.",
+                "explanation": "The original text allows for execution in any number of counterparts, all considered part of the same agreement. The modified text mandates a single original and treats counterparts as independent agreements, contradicting the original intent and potentially causing issues if signatures are spread across multiple documents.",
+                "location": "Paragraph 2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement as of February 20, 2020.",
+                "changed_text": "IN WITNESS WHEREOF, the undersigned hereby execute this Agreement, effective only upon final regulatory approval, regardless of the date stated herein, which may occur before or after February 20, 2020.",
+                "explanation": "The original agreement is executed 'as of February 20, 2020'. The modified text introduces a condition precedent - regulatory approval - which could make the effective date uncertain. This directly contradicts the certainty implied by the original date.",
+                "location": "Paragraph 3"
+            }
+        ]
+    }
+]

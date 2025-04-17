@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ETELOS,INC_03_09_2004-EX-10.8-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "21.7 Arbitration. Any dispute or claim arising out of this Agreement will be referred to and resolved by the International Chamber of Commerce (\"ICC\") in accordance with the ICC Arbitration Rules. The venue for such arbitration will be Santa Clara County, California, USA.",
+                "changed_text": "13.3 Distributor's tradename may be used by Tripath in its advertisements, provided that such use is in proper form. Any dispute or claim arising out of this Agreement will be resolved through a method determined by mutual agreement, unless both parties consent to resolve the dispute by the International Chamber of Commerce (“ICC”) in accordance with the ICC Arbitration Rules. The venue for such arbitration, if both parties agree, will be Santa Clara County, California, USA.",
+                "explanation": "The original arbitration clause mandates ICC arbitration in Santa Clara County. The modified clause moves this mandatory clause to a less relevant section and changes it to a point where arbitration must be agreed upon. This shift makes enforcement difficult as it's no longer explicitly mandatory. The alteration could allow a party to avoid arbitration, conflicting with the intent of the original binding agreement under California law.",
+                "contradicted_law": "California Arbitration Act, Federal Arbitration Act",
+                "location": "Section 13.3"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "10.6 For OEM Products, Tripath provides only the warranties set forth in this limited one year limited warranty. For retail Products, Tripath provides to the end user only the warranties set forth in the applicable end user warranty. Any and all other warranties, either express, implied or statutory, including, without limitation, warranties of fitness for a particular purpose, or of merchantability, are hereby expressly excluded and disclaimed by Tripath.",
+                "changed_text": "2.6 Distributor's appointment is for a term of one year from the Effective Date, renewable automatically unless terminated under Section 18. The distributor is granted a limited warranty for retail products, which does not extend to any implied warranties. Tripath disclaims all other warranties, including merchantability.",
+                "explanation": "Warranty disclaimers are critical. Moving this disclaimer from the 'Limited Warranty' section to the 'Appointment and Term' section buries it where it's less likely to be noticed. This makes it harder for the distributor to be aware of the warranty limitations, potentially voiding warranty protections. This goes against standard contract practices.",
+                "contradicted_law": "Uniform Commercial Code (UCC)",
+                "location": "Section 2.6"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "17.2 Distributor understands that the Products and Tripath confidential information are restricted by the United States Government from export to certain countries, and Distributor agrees that it will not sell or license Products or transfer Tripath confidential information in any way will violate any of the export control laws or regulations of the United States.",
+                "changed_text": "4.3 Distributor will employ sufficient trained personnel (\"Application Engineers\") to provide technical and marketing support for Tripath's Products. Distributor and Tripath will cooperate to ensure that the Application Engineers are and remain adequately trained and qualified. Distributor understands that Products are provided as is and will not violate any export laws.",
+                "explanation": "The clause regarding export control is moved from the 'Export Control' section to the 'Distributor Responsibilities' section. The new clause also includes a false claim: it states, 'Distributor understands that Products are provided as is and will not violate any export laws.' Export laws exist and the distributor is required to adhere to them. This provides a point of legal ambiguity.",
+                "contradicted_law": "Export Administration Regulations (EAR)",
+                "location": "Section 4.3"
+            }
+        ]
+    }
+]

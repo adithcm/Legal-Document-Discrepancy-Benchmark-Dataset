@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "\"Terpene Product\" means terpene from citrus with a minimum d-limonene content of 94%, with the specifications set forth in Exhibit A to this Agreement.",
+                "changed_text": "\"Terpene Product\" means terpene from citrus. Specifications will be provided separately.",
+                "explanation": "By removing the specific reference to Exhibit A containing the product specifications, we create an ambiguity. The contract still mentions specifications, but the location of these specifications is undefined. This omission causes uncertainty about which specifications are binding, which may lead to dispute or non-compliance. Now, the term 'specifications' is open to interpretation.",
+                "location": "Section 1"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "(a) Flotek shall order Terpene Product by sending to FCC written purchase orders in the form attached hereto as Exhibit A. FCC shall promptly, but in no event later than three (3) days after the date of such purchase order, confirm its acceptance or rejection of such purchase order by written notice to Flotek. FCC shall be obligated to accept all such purchase orders unless the amount ordered for a Year exceeds the Maximum Quantity, or orders for a particular quarter exceed [***] pounds or exceed the Flotek forecast for that quarter by more than 25%, provided, however, that, in such event, FCC shall communicate Flotek of the time period that will be required to satisfy such order assuming FCC endeavors to satisfy such order as soon as practicable, and Flotek shall inform FCC within ten (10) days of such communication whether it will order such Terpene Product pursuant to the revised delivery terms.",
+                "changed_text": "(a) Flotek shall order Terpene Product by sending to FCC written purchase orders. FCC shall promptly confirm its acceptance or rejection of such purchase order by written notice to Flotek. FCC shall be obligated to accept all such purchase orders unless the amount ordered for a Year exceeds the Maximum Quantity, provided, however, that, in such event, FCC shall communicate Flotek of the time period that will be required to satisfy such order assuming FCC endeavors to satisfy such order as soon as practicable, and Flotek shall inform FCC within ten (10) days of such communication whether it will order such Terpene Product pursuant to the revised delivery terms.",
+                "explanation": "The removal of 'in the form attached hereto as Exhibit A' creates an omission. While the contract specifies that purchase orders should be sent, it removes any definition to the format or other requirements of the purchase order. The original clause stated, 'orders for a particular quarter exceed [***] pounds or exceed the Flotek forecast for that quarter by more than 25%'. By removing this clause, purchase orders can now exceed the original agreed amount which is contradictory to the clause that FCC is obligated to accept all such purchase orders unless the amount ordered for a Year exceeds the Maximum Quantity.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Any deliveries suspended under this paragraph shall be canceled without liability, and the Target Margin shall be correspondingly reduced.",
+                "changed_text": "Any deliveries suspended under this paragraph shall be canceled without liability.",
+                "explanation": "By removing the clause 'Target Margin shall be correspondingly reduced,' there is now an omission. The definition of 'Margin' is still present in the contract, but the contract no longer specifies what happens to the 'Target Margin' in the event of force majeure. The contract section 7 makes reference to target margin which will now conflict with this omission.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

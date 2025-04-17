@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_MaintenanceAgreement4.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement. Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled \"Termination\" of the Agreement. If Bank of America terminates the Maintenance Services, Bank of America shall have the right to reinstate the Maintenance Services without paying any reinstatement fee. During the initial Maintenance Term and any renewal term, Maintenance Fees shall be paid in the increments described below under \"Payment Terms.\"",
+                "changed_text": "The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period. Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled \"Termination\" of the Agreement.",
+                "explanation": "By removing the automatic renewal clause and the explicit mention of reinstatement rights and payment increments, the contract creates uncertainty around the continuation and cost of maintenance services. The original text clearly defined the duration and renewal process, while the changed text omits these crucial details, potentially leading to disputes over whether maintenance continues after the initial term and under what financial terms.",
+                "location": "Schedule A, Section C"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, including Bank of America holidays.",
+                "changed_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period will be determined based on resource availability.",
+                "explanation": "By changing the defined Maintenance Period from 24/7 to a resource availability-based period, creates a contradiction if other sections assume a 24/7 maintenance window, such as response time clauses or uptime guarantees. This change introduces ambiguity and shifts the maintenance obligation from a fixed commitment to a variable one, subject to resource constraints. This contradicts any implicit assumptions of consistent availability elsewhere in the agreement.",
+                "location": "PAYMENT TERMS section"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "In addition to the installation support provided pursuant to the Section entitled \"Ordering, Delivery and Installation,\" Supplier shall provide Bank of America the following installation services: Installation Support will be handled in a separate agreement",
+                "changed_text": "Supplier shall provide Bank of America with installation services.",
+                "explanation": "By removing the sentence specifying that Installation Support is handled in a separate agreement, the modified contract suggests that installation support is covered within *this* agreement. However, without detailing those services, it's ambiguous what the Supplier is obligated to provide. Other sections of the agreement may imply responsibilities around installation but, without the clarifying sentence, these become uncertain. This omission directly contradicts the prior understanding that a separate agreement governed installation support.",
+                "location": "INSTALLATION SUPPORT"
+            }
+        ]
+    }
+]

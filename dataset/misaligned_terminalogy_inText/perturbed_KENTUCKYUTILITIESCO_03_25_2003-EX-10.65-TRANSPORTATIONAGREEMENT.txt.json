@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "KENTUCKYUTILITIESCO_03_25_2003-EX-10.65-TRANSPORTATION AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "THIS AGREEMENT is made and entered into as of the 1st day of November, 2002, by and between TENNESSEE GAS PIPELINE COMPANY, a Delaware Corporation, hereinafter referred to as \"Transporter\" and LOUISVILLE GAS AND ELECTRIC COMPANY, a Kentucky Corporation, hereinafter referred to as \"Shipper.\" Transporter and Shipper shall collectively be referred to herein as the \"Parties.\"",
+                "changed_text": "THIS AGREEMENT is made and entered into as of the 1st day of November, 2002, by and between TENNESSEE GAS PIPELINE COMPANY, a Delaware Corporation, hereinafter referred to as \"Carrier\" and LOUISVILLE GAS AND ELECTRIC COMPANY, a Kentucky Corporation, hereinafter referred to as \"Customer.\" Carrier and Customer shall collectively be referred to herein as the \"Parties.\"",
+                "explanation": "The terms 'Transporter' and 'Shipper' are replaced with 'Carrier' and 'Customer' respectively, without changing the subsequent references to 'Transporter' and 'Shipper' in the agreement. This creates ambiguity regarding the roles and responsibilities of each party, potentially leading to disputes about which entity is bound by which obligations.",
+                "location": "ARTICLE I - DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "1.1 TRANSPORTATION QUANTITY - shall mean the maximum daily quantity of gas which Transporter agrees to receive and transport on a firm basis, subject to Article II herein, for the account of Shipper hereunder on each day during each year during the term hereof, which shall be 51,000 dekatherms. Any limitations on the quantities to be received from each Point of Receipt and/or delivered to each Point of Delivery shall be as specified on Exhibit \"A\" attached hereto.",
+                "changed_text": "1.1 DELIVERY VOLUME - shall mean the estimated daily quantity of gas which Transporter intends to receive and transport, subject to market conditions, for the benefit of Shipper, which shall be approximately 51,000 dekatherms. Specific limitations are outlined in Addendum 'A'.",
+                "explanation": "The term 'Transportation Quantity' is replaced with 'Delivery Volume,' changing the commitment from a firm agreement to a market-dependent intention, while also changing the attached exhibit from Exhibit A to Addendum A. This directly contradicts the original firm obligation of the Transporter to receive and transport gas, making the enforcement of a guaranteed quantity uncertain. It also alters the place for reviewing limitations.",
+                "location": "ARTICLE I - DEFINITIONS"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "ARTICLE VII - BILLINGS AND PAYMENTS   Transporter shall bill and shipper shall pay all rates and charges in accordance with Articles V and VI, respectively, of the General Terms and Conditions of the FERC Gas Tariff.",
+                "changed_text": "ARTICLE VII - BILLINGS AND PAYMENTS   Service Provider shall bill and customer shall remit payment for all rates and fees according to the tariffs.",
+                "explanation": "Replaces Transporter and Shipper with Service Provider and Customer, changing the specificity of where to find the payment details from specific articles to vague 'tariffs'. The failure to specify which tariff and articles payment terms can be found, which creates ambiguity as to the source of the payment terms, undermining the enforceability of the payment obligations. ",
+                "location": "ARTICLE VII - BILLINGS AND PAYMENTS"
+            }
+        ]
+    }
+]

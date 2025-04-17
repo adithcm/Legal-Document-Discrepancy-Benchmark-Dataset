@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Client agrees that any unsolicited positive feedback Client provides to Company may be used in any Company marketing and/or advertising materials (i.e., customer testimonials). Client further agrees that Company may use and display the graphics and other web design elements of Client's website as examples of Company website design and development work. To maintain Company's portfolio credentials, and the integrity of any applicable copyrights, Company shall be entitled to place an unobtrusive credit in the footer on each page of Client's website.",
+                "changed_text": "Client agrees that any unsolicited positive feedback Client provides to Company may be used in any Company marketing and/or advertising materials. Client further agrees that Company may use and display the graphics and other web design elements of Client's website as examples of Company website design and development work. Company is not entitled to place any credit on the footer of the Client's website.",
+                "explanation": "By removing the sentence about an unobtrusive credit in the website footer and replacing it with a statement that Company is not entitled to place any credit on the footer, there is direct contradiction. The original text allows for credit, while the modified text prohibits it, creating an uncertainty as to whether the Company can display credit on the website's footer, impacting copyright ownership and attribution.",
+                "location": "1(d)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". The costs of any such changes shall be added to the Contract Price. Additional Work shall be defined as the addition or revision of pages, graphics, or other features, any text, graphic or page design or programming requiring more than two rounds of textual or graphical revisions, substantial revisions to text and/or content provided by Client, changes to elements which have been finalized, or significant changes in the Scope of Work.",
+                "changed_text": "Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing. The costs of any such changes shall be added to the Contract Price. Additional Work shall be defined as any changes made by the client without prior approval by the Company.",
+                "explanation": "By modifying the definition of 'Additional Work', the clause creates a contradiction. Initially, it specified revisions and additions requiring over two rounds. Now, it broadly covers 'any changes' without approval, which contradicts the detailed descriptions of billable work. This uncertainty affects enforcement, as the scope of 'Additional Work' is now ambiguous.",
+                "location": "1(a)"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Company representatives are available during Company's normal business hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday. Any email or telephone correspondence received after normal business hours will be processed the following business day. Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work shall be the standard hourly rate of $40 plus twenty-five percent (25%).",
+                "changed_text": "Company representatives are available during Company's normal business hours. Any email or telephone correspondence received after normal business hours will be processed when convenient. Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours. The surcharge for rush work shall be determined at the discretion of the Company.",
+                "explanation": "By removing the specific business hours and the fixed surcharge rate, the clause creates an internal contradiction. The original states that work after the business hours of 9 a.m. to 5 p.m. UTC +2 requires a surcharge, while the modified section states that the additional cost will be determined at the discretion of the Company, which makes the enforcement of overtime payments more ambiguous. The vagueness impacts billing and liability.",
+                "location": "3"
+            }
+        ]
+    }
+]

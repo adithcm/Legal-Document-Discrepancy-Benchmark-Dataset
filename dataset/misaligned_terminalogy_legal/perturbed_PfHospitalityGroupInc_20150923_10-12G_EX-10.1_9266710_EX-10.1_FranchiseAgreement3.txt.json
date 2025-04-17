@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise Agreement3.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement\") granting Franchisee the right to operate a Franchised Business under the terms and conditions of the Franchise Agreement;",
+                "changed_text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (“Franchise Agreement”) granting Franchisee the privilege to operate a Franchised Business under the terms and conditions of the Franchise Agreement;",
+                "explanation": "The term 'right' implies an entitlement that cannot be arbitrarily removed, aligning with typical franchise law protections. Changing it to 'privilege' suggests the operation of the Franchised Business is a favor granted by the Franchisor, subject to their discretion, which contradicts standard franchise agreements and legal interpretations of franchisee rights.",
+                "contradicted_law": "General principles of contract law and franchise law regarding the rights and obligations of franchisees.",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee.",
+                "changed_text": "Member shall endeavor not to, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee.",
+                "explanation": "Changing 'shall not' to 'shall endeavor not to' weakens the obligation. 'Shall not' is a strict prohibition, creating a clear legal duty. 'Shall endeavor not to' is a weaker, less enforceable term that means the member will attempt to avoid disclosure, but does not guarantee it. This introduces ambiguity and reduces the enforceability of the confidentiality clause.",
+                "contradicted_law": "Trade secret law and contract law regarding the enforceability of non-disclosure agreements.",
+                "location": "1. Confidential Information."
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "Member acknowledges that any material failure to substantially comply with the requirements of this Agreement may cause Franchisor injury, and Member agrees to consider paying all court costs and attorney's fees incurred by Franchisor in potentially obtaining specific performance of, or a restraining order against egregious violation of, the requirements of this Agreement.",
+                "explanation": "By changing 'any failure' to 'any material failure to substantially comply', 'irreparable injury' to 'injury,' 'agrees to pay' to 'agrees to consider paying', and 'injunction' to 'restraining order' and 'violation' to 'egregious violation', the clause is significantly weakened. This contradicts the intent of ensuring strict compliance and allows for ambiguity, making it harder for the Franchisor to enforce the agreement and recover costs associated with breaches.",
+                "contradicted_law": "Contract law regarding remedies for breach of contract, specifically specific performance and injunctive relief.",
+                "location": "3. Injunctive Relief."
+            }
+        ]
+    }
+]

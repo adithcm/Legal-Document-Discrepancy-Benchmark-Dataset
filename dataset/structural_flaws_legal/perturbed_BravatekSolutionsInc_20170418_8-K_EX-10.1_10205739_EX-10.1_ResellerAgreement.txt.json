@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Either Party may terminate this agreement for non-cause with a sixty (60) written notice.",
+                "changed_text": "Either Party may terminate this agreement for non-cause with a sixty (60) written notice. The method of termination will be decided by mutual agreement.",
+                "explanation": "The added sentence introduces contradiction—the first part states that termination can occur for any reason if there is a sixty-day notice. The added statement introduces uncertainty, as the termination might not proceed if both parties do not agree. This contradicts the first part of the sentence, reducing clarity and enforceability of the contract's termination.",
+                "contradicted_law": "Contract Law - Mutual Agreement & Termination Clauses",
+                "location": "Preamble"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia without regard to the conflicts of law provisions thereof.",
+                "changed_text": "This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia; however, in the event of a legal dispute, the laws of Texas will govern.",
+                "explanation": "The text establishes that the agreement is governed by Virginia Law, but states in the event of a legal dispute, the agreement is governed by Texas law. This contradiction regarding the governing law causes uncertainty and is not valid.",
+                "contradicted_law": "Contract Law - Choice of Law Clause",
+                "location": "Section 14"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "RESELLER SHALL MAKE NO REPRESENTATION, GUARANTEE, OR WARRANTY CONCERNING THE COMPANY PRODUCT EXCEPT AS EXPRESSLY AUTHORIZED IN ADVANCE BY COMPANY IN WRITING. TO THE EXTENT THE RESELLER HAS COMPLIED WITH THE OBLIGATIONS SET FORTH IN THIS SECTION, THE COMPANY SHALL INDEMNIFY AND HOLD HARMLESS THE RESELLER FOR ANY AND ALL LOSSES SUFFERED BY THE RESELLER OR ITS AFFILIATES (WHETHER DIRECTLY OR IN CONNECTION WITH A CLAIM BY A THIRD PARTY) AS A RESULT OF OR IN CONNECTION WITH THE COMPANY PRODUCTS. ADDITIONALLY, THE RESELLER SHALL INDEMNIFY AND HOLD HARMLESS THE COMPANY FOR ANY AND ALL LOSSES SUFFERED BY THE COMPANY OR ITS AFFILIATES (WHETHER DIRECTLY OR IN CONNECTION WITH A CLAIM BY A THIRD PARTY) AS A RESULT OF OR IN CONNECTION WITH THE RESELLER'S ACTIVITIES.",
+                "changed_text": "RESELLER SHALL MAKE NO REPRESENTATION, GUARANTEE, OR WARRANTY CONCERNING THE COMPANY PRODUCT EXCEPT AS EXPRESSLY AUTHORIZED IN ADVANCE BY COMPANY IN WRITING. ADDITIONALLY, THE RESELLER SHALL INDEMNIFY AND HOLD HARMLESS THE COMPANY FOR ANY AND ALL LOSSES SUFFERED BY THE COMPANY OR ITS AFFILIATES (WHETHER DIRECTLY OR IN CONNECTION WITH A CLAIM BY A THIRD PARTY) AS A RESULT OF OR IN CONNECTION WITH THE RESELLER'S ACTIVITIES. Notwithstanding anything to the contrary, the Reseller reserves the right to provide warranties.",
+                "explanation": "The clause initially denies the reseller authority to make warranties, which is then contradicted by the added text stating that the 'Reseller reserves the right to provide warranties.' This creates legal ambiguity regarding warranty obligations, potentially undermining the enforceability of warranty disclaimers.",
+                "contradicted_law": "Contract Law - Warranty Disclaimers",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

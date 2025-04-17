@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "XLITECHNOLOGIES,INC_12_02_2015-EX-10.02-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+                "changed_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\". These Reserved Rights, however, are superseded by the Exclusive Distribution License Rights in all cases.",
+                "explanation": "This change introduces a contradiction regarding the relationship between 'Exclusive Distribution License Rights' and 'Reserved Rights'. Initially, both rights are granted, implying the Client can operate under both. The added sentence attempts to clarify the hierarchy by giving precedence to the Exclusive Rights but causes confusion if the 'Reserved Rights' are rendered useless. This creates uncertainty as to under what circumstances, if any, the 'Reserved Rights' can be exercised, leading to potential disputes over the scope and limitations of each right.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "6. EXCLUSIVE RIGHTS: Bosch hereby grants to Client the exclusive rights to sell and distribute the Product, subject to the Territory as set forth below, to certain select companies in the Automotive Industry, each of which shall be approved by Bosch in writing as requested by the Client on a case by case basis.",
+                "changed_text": "6. EXCLUSIVE RIGHTS: Bosch hereby grants to Client the exclusive rights to sell and distribute the Product, subject to the Territory as set forth below, to certain select companies in the Automotive Industry. Bosch's approval is not required for Client to make sales.",
+                "explanation": "The change introduces a contradiction by removing the requirement for Bosch's written approval on a case-by-case basis. This conflicts with the first half of the sentence, suggesting exclusive rights are granted only to companies approved by Bosch. By removing the approval requirement, the contract now presents two conflicting statements: Exclusive rights are limited to approved companies, AND no approval is needed for Client to sell.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations. This is in concert and approval with BOSCH and is limited to any and all of BOSCH's current clients. CLIENT will not exercise nor authorize any other Party to to take any action which would reasonably be deemed to derogate from, impair or compete with the Exclusive Rights, Reserved rights, and Rights Granted herein granted.",
+                "changed_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations. This clause is active without approval of Bosch. CLIENT will not exercise nor authorize any other Party to to take any action which would reasonably be deemed to derogate from, impair or compete with the Exclusive Rights, Reserved rights, and Rights Granted herein granted.",
+                "explanation": "Section 8 initially defines 'Reserved Rights' with some limitations related to BOSCH's approval and clients. This change contradicts the prior language by explicitly stating that clause is active without approval of Bosch, thereby undermining the former constraints. This creates uncertainty about the actual scope of the 'Reserved Rights' and whether BOSCH has any control over their exercise.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

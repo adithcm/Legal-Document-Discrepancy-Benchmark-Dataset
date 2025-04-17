@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "7.2.1. The invoicing of this amount will be carried out quarterly.\n\nThe invoices will be issued by EIT at the start of each term. Such invoice must be paid by the customer within 45 days of the date on which the invoice is issued.",
+                "changed_text": "7.2.1. The invoicing of this amount will be carried out quarterly.\n\nThe invoices will be issued by EIT at the start of each term. Such invoice must be paid by the customer within 30 days of the date on which the invoice is issued.",
+                "explanation": "This change introduces a contradiction regarding the payment deadline. Initially, invoices were to be paid within 45 days. Now, the payment deadline is set to 30 days, creating uncertainty about the actual timeframe for payment and potentially leading to disputes.",
+                "location": "7.2.1"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "13.2. The Agreement rests, for all that, cancellable at any time by any of the parties before the expiry date of the Agreement or any of itsrenewals, upon three months prior written notice.",
+                "changed_text": "13.2. The Agreement rests, for all that, cancellable at any time by any of the parties before the expiry date of the Agreement or any of itsrenewals, upon six months prior written notice.",
+                "explanation": "This modification creates a direct conflict regarding the notice period required for cancellation. The original clause stipulated a three-month notice, while the altered version extends it to six months. This ambiguity could result in legal disagreements if one party attempts to terminate the agreement with only three months' notice.",
+                "location": "13.2"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "14.2. For simple convenience.\n\n14.2.1. In case the Customer cancels the Agreement in accordance with Articles 13.1, 13.2, EIT will pay the Customer the amountof 3.000 €, for the non observance of the Agreement of which it is responsible.\n\n14.2.2. In case of termination of this Agreement by the Customer according to Article 13.5, the Customer will pay EIT the amountof 3.000 €.",
+                "changed_text": "14.2. For simple convenience.\n\n14.2.1. In case the Customer cancels the Agreement in accordance with Articles 13.1, 13.2, EIT will pay the Customer the amountof 3.000 €, for the non observance of the Agreement of which it is responsible.\n\n14.2.2. In case of termination of this Agreement by the Customer according to Article 13.2, the Customer will pay EIT the amountof 3.000 €.",
+                "explanation": "The original text of 14.2.2 refers to Article 13.5, which doesn't exist in the provided agreement. By changing the reference to 13.2, and 14.2.1 also references Article 13.2, two sections are now dependent upon this article. As such, it causes an in-text contradiction when the same clause can be referenced for EIT paying and the Customer paying.",
+                "location": "14.2.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_ManufacturingAgreement_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "2.2 NeuroBo shall manufacture, or have manufactured, and supply to Dong-A the active pharmaceutical ingredients (API), which are necessary to manufacture the Licensed Products, in the quantity and in conformity with the specifications separately agreed upon between the Parties and attached hereto as Exhibit C (the \"API Specifications\") as may be amended by the Parties's agreement in writing from time to time.",
+                "changed_text": "2.2 NeuroBo shall manufacture, or have manufactured, and supply to Dong-A the active pharmaceutical ingredients (API), which are necessary to manufacture the Licensed Products, in the quantity deemed sufficient by NeuroBo.",
+                "explanation": "By removing the reference to Exhibit C (the API Specifications), the modified text creates uncertainty and contradiction because Section 2.4 still refers to the 'API Specifications' and how the API must be tested and meet such specifications. There are no longer defined specifications, making enforcement ambiguous. The new text introduces uncertainty because it's open to interpretation, not objective or specific as to what API requirements need to be met.",
+                "location": "Section 2.2"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "3.3 Within [***] days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\") in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time. Dong-A shall provide NeuroBo with all available information and technical assistance necessary for NeuroBo to perform the Product Test expeditiously. If the Product Test indicates that the Licensed Products and/or their matching placebo is deficient in quantity or does not meet the Product Specifications, NeuroBo shall notify Dong-A thereof in writing within the [***]-day period together with results of the Product Test.",
+                "changed_text": "3.3 Within [***] days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\"). Dong-A shall provide NeuroBo with all available information and technical assistance necessary for NeuroBo to perform the Product Test expeditiously. If the Product Test indicates that the Licensed Products and/or their matching placebo is deficient in quantity or does not meet the Product Specifications, NeuroBo shall notify Dong-A thereof in writing within the [***]-day period together with results of the Product Test.",
+                "explanation": "By omitting the phrase 'in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time.', the text now creates a contradiction. It still references the 'Product Test' and notification procedures if products do not meet the Product Specifications, but removes the defined test methods. This makes the 'Product Test' subjective and unenforceable since there are no agreed methods outlined anymore. It still mentions there is a product specification to meet though, but the method to verify that is not in the contract anymore.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "4.2 The supply prices for the Licensed Products and their matching placebo shall be specified in Schedule 4.2.",
+                "changed_text": "4.2 The supply prices for the Licensed Products and their matching placebo will be determined by Dong-A.",
+                "explanation": "By replacing the original text with this, we remove the connection with schedule 4.2, and make the supply price to be determined by Dong-A. The problem is that section 4.3 still references the supply price, but no longer it is linked with Schedule 4.2. Schedule 4.2 does exist, but it is unclear if it should be referenced anymore. This also makes it difficult to enforce since the reference for where to find the pricing has been deleted.",
+                "location": "Section 4.2"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "TELKOMSALTD_01_30_2003-EX-10-LICENCEANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "SAP AFRICA warrants that the SOFTWARE will conform to the functional\nspecifications contained in the DOCUMENTATION on the date of installation of the\nSOFTWARE and will perform, when in use without material alteration on the\nDESIGNATED UNIT in accordance with the functional specifications set forth in\nthe DOCUMENTATION.",
+                "changed_text": "SAP AFRICA represents that the SOFTWARE will generally conform to the functional\nspecifications contained in the DOCUMENTATION on the date of installation of the\nSOFTWARE.",
+                "explanation": "By removing the explicit warranty of performance 'when in use without material alteration on the DESIGNATED UNIT in accordance with the functional specifications set forth in the DOCUMENTATION,' the modified text weakens consumer rights. South African consumer protection laws (CPA) require that goods perform as specified, making this omission a legal contradiction.",
+                "contradicted_law": "Consumer Protection Act of South Africa (Specific sections relating to implied warranty of quality and performance)",
+                "location": "10.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Subject to clause 11. 2, SAP AFRICA shall indemnify TELKOM against all claims,\nliabilities, and costs, including reasonable attorneys fees, reasonably incurred in\nthe defence of any claim brought against TELKOM in the TERRITORY by a third\nparty alleging that TELKOM'S USE of the SOFTWARE and DOCUMENTATION\ninfringes a third party's copyright, patent, PROPRIETARY INFORMATION and/or\ntrade secrets; provided that TELKOM promptly notifies SAP AFRICA in writing of\nany such claim and SAP AFRICA is permitted to control fully the defence and any\nsettlement of such claim at SAP AFRICA'S own expense. TELKOM shall co-\noperate fully in the defence of such claim and any reasonable costs incurred by\nTELKOM in giving such co-operation shall be reimbursed by SAP AFRICA. SAP\nAFRICA may, in its sole discretion, settle any such claim on a basis whereby SAP\nAFRICA, substitutes the SOFTWARE and DOCUMENTATION (in consultation\nwith TELKOM) with alternative, substantially equivalent, non-infringing programs\nand support DOCUMENTATION, which TELKOM shall be obliged to accept.",
+                "changed_text": "SAP AFRICA shall indemnify TELKOM against direct costs, excluding attorney fees, incurred in the defense of a copyright claim brought against TELKOM in the TERRITORY relating to the SOFTWARE; provided TELKOM promptly notifies SAP AFRICA. SAP AFRICA may settle any such claim.",
+                "explanation": "This change significantly limits the indemnity provided to TELKOM. By removing 'liabilities' and restricting 'costs' to exclude 'reasonable attorney fees', the clause is less protective. Also removed obligations of 'co-operate fully in the defense of such claim and any reasonable costs incurred by TELKOM in giving such co-operation shall be reimbursed by SAP AFRICA. SAP AFRICA may, in its sole discretion, settle any such claim on a basis whereby SAP AFRICA, substitutes the SOFTWARE and DOCUMENTATION (in consultation with TELKOM) with alternative, substantially equivalent, non-infringing programs and support DOCUMENTATION, which TELKOM shall be obliged to accept.', shifting more risk to TELKOM. This could violate South African legal standards requiring reasonable protection against third-party claims.",
+                "contradicted_law": "Legal principles relating to contractual indemnification and the requirement of reasonable protection against third-party claims under South African law.",
+                "location": "12.3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The arbitrator shall be a person agreed upon by the parties or, failing such\nagreement, by the chairperson of AFSA. The arbitrator shall be empowered to\nappoint such assistants as he deems fit in the event of the subject matter of the\ndispute requiring expertise in any particular field for its proper resolution.\n22. 4   Unless the parties otherwise agree, the arbitrator's award shall be in writing, and shall\nbe final and binding upon the parties and at the notice of either party, be capable of\nbeing made an order of a competent court.",
+                "changed_text": "The arbitrator shall be a person chosen solely by SAP Africa. The arbitrator's award, if any, shall be final.",
+                "explanation": "By giving SAP Africa sole control over the arbitrator selection and removing the clause specifying that the award be capable of being made an order of a competent court, this modification introduces a severe bias and removes TELKOM's ability to enforce arbitration decisions through the court system. This contradicts the principles of fairness and impartiality typically required in arbitration under South African law and the Arbitration Act.",
+                "contradicted_law": "South African Arbitration Act (Specific sections regarding fairness, impartiality, and enforcement of arbitration awards).",
+                "location": "22.3, 22.4"
+            }
+        ]
+    }
+]

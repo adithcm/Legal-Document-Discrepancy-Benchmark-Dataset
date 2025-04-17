@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_ContentLicenseAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "1.1 Unless otherwise referenced herein, each of the terms used herein shall have the meaning ascribed to it below:\n     (i) \"Affiliate\", with respect to any Party hereto, shall mean any legal person, non-legal person economic organization, or natural person,  which owns a controlling interest in, or which is controlling, controlled by or under common control with, such Party, directly or  indirectly.\n     As used in this Agreement, \"control\" means the power of any person to direct or cause the direction of management and policies  of another party on account of such person's ownership of equity interest, voting right, the right to appoint directors, by contract  or otherwise.",
+                "changed_text": "1.1 Unless otherwise referenced herein, each of the terms used herein shall have the meaning ascribed to it below:\n     (i) \"Affiliate\", with respect to any Party hereto, shall mean any legal person, non-legal person economic organization, or natural person,  which owns a controlling interest in, or which is controlling, controlled by or under common control with, such Party, directly or  indirectly.\n     As used in this Agreement, \"control\" means the power of any person to direct or cause the direction of management and policies  of another party on account of such person's ownership of at least 51% of the equity interest, voting right, the right to appoint directors, by contract  or otherwise.",
+                "explanation": "The definition of 'control' now includes a specific threshold of 51% equity ownership. This creates a contradiction because the original definition allows for 'control' through other means like contracts, even without majority ownership. Later interpretations of 'Affiliate' relying on the 'control' definition could become contentious.",
+                "location": "ARTICLE ONE DEFINITION, 1.1 (i)"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "8.1 Both Parties agree that any breach of any of the warranties, covenants, or provisions hereof by either Party shall constitute a breach of this  Agreement, except under circumstances described in Section 8.2 below. In the event of any breach of this Agreement by any Party  hereto, the breaching Party shall indemnify the other Party for all of such other Parties losses arising therefrom, which losses shall  include only direct losses, reasonable expenses and reasonable attorney fees.",
+                "changed_text": "8.1 Both Parties agree that any material breach of any of the warranties, covenants, or provisions hereof by either Party shall constitute a breach of this  Agreement, except under circumstances described in Section 8.2 below. In the event of any breach of this Agreement by any Party  hereto, the breaching Party shall indemnify the other Party for all of such other Parties losses arising therefrom, which losses shall  include only direct losses and reasonable expenses. Attorney fees are not recoverable.",
+                "explanation": "This change introduces a contradiction by limiting the definition of breach to 'material' breaches, while the original text implied all breaches would trigger indemnity. It also removes the recovery of attorney fees. This contradicts with another section in the legal text, that allows attorney fees.",
+                "location": "ARTICLE EIGHT LIABILITIES FOR BREACH; TERMINATION, 8.1"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "11.1 The execution, validity, interpretation, enforcement and dispute resolution of this Agreement shall be governed by the PRC Law.",
+                "changed_text": "11.1 The execution, validity, interpretation, enforcement and dispute resolution of this Agreement shall be governed by the PRC Law, except for disputes related to intellectual property, which shall be governed by the laws of Hong Kong.",
+                "explanation": "This creates a contradiction by stating the entire agreement is governed by PRC law, but then creating an exception for intellectual property disputes, which are to be governed by Hong Kong law. This contradiction causes uncertainty as to which jurisdiction's laws apply.",
+                "location": "ARTICLE ELEVEN APPLICABLE LAW; DISPUTE RESOLUTION, 11.1"
+            }
+        ]
+    }
+]

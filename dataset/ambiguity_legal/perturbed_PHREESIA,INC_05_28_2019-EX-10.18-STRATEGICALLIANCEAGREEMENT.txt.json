@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Each Customer Agreement shall, at a minimum, restrict Customers from redistributing, reverse engineering, reverse compiling, or disassembling the Installed Software and the Subscription Software Services. Allscripts will use commercially reasonable efforts to enforce the terms of its Customer Agreement that protect Company's Intellectual Property at Allscripts sole cost and expense.",
+                "changed_text": "Each Customer Agreement should endeavor to restrict Customers from redistributing, reverse engineering, reverse compiling, or disassembling the Installed Software and the Subscription Software Services. Allscripts may attempt to enforce the terms of its Customer Agreement that protect Company's Intellectual Property at Allscripts sole cost and expense.",
+                "explanation": "The original text mandates restrictions and enforcement, while the modified text softens the obligation using 'should endeavor' and 'may attempt,' making enforcement discretionary. This creates ambiguity about the required level of protection for the Company's Intellectual Property.",
+                "contradicted_law": "Copyright Act and Trade Secret Law, which require active measures to protect intellectual property.",
+                "location": "Section 2.2(b)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Company covenants to use its best efforts to ensure that the Subscription Software Services are made available to Allscripts and each Sublicensed Customer and that support for Merchant Processing Services are made available to each Sublicensed Customer in accordance with the warranties, terms, and conditions of this Agreement and in accordance with any performance standards specified in this Agreement or in the Documentation.",
+                "changed_text": "The Company will aim to ensure that the Subscription Software Services are generally available to Allscripts and each Sublicensed Customer and that basic support for Merchant Processing Services are offered to each Sublicensed Customer as deemed practical. Adherence to warranties, terms, and conditions of this Agreement will be considered when determining availability and support.",
+                "explanation": "The original text requires 'best efforts' for availability and support, while the modified text introduces ambiguity by using 'aim to ensure,' 'generally available,' 'basic support,' and 'as deemed practical.' This creates uncertainty about the level of service commitment, contradicting the obligation to meet specified performance standards.",
+                "contradicted_law": "Uniform Commercial Code (UCC) Article 2, which implies a warranty of merchantability, including a commitment to consistent quality and availability of services.",
+                "location": "Section 12.1(a)"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Company will ensure that all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) is (1) encrypted at rest and (2) encrypted while moving in or out of the Company's data center.",
+                "changed_text": "The Company will make reasonable attempts to encrypt all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) both at rest and while in transit to or from the Company's data center, subject to available resources.",
+                "explanation": "By changing 'will ensure' to 'make reasonable attempts' and adding 'subject to available resources,' the obligation to encrypt sensitive data becomes discretionary. This creates a significant ambiguity regarding the security of sensitive data, potentially leading to breaches and non-compliance with data protection regulations.",
+                "contradicted_law": "HIPAA (Health Insurance Portability and Accountability Act), PCI DSS (Payment Card Industry Data Security Standard), and various state data breach notification laws which mandate specific and non-discretionary security measures to protect sensitive information.",
+                "location": "Section 16.3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "In the event that an End User does not affirmatively agree to install the Google Toolbar or Chrome Browser, by clicking on the button to agree to the terms of the applicable EULA, then the Google Toolbar or Chrome Browser (as applicable) shall not be installed on such End User's computer.",
+                "changed_text": "In the event that an End User does not agree to install the Google Toolbar or Chrome Browser, the Google Toolbar or Chrome Browser (as applicable) install process will be discontinued.",
+                "explanation": "This change removes the requirement for affirmative consent via clicking a button, weakening consumer protection regarding unwanted software installations. It contradicts consumer protection laws in many jurisdictions (including the US) that require explicit consent for software installation to prevent malware and unwanted programs.",
+                "contradicted_law": "Various consumer protection laws regarding software installation consent (e.g., state laws regarding spyware and malware)",
+                "location": "3.6 EULA"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Distributor agrees that in connection with its exercise of the right granted in Clause 2.1 (Products Licence Grant) it shall accurately reproduce the Distribution Products and shall not: (a) modify any Product (including modify the Chrome Browser or Google Toolbar configuration files or registry settings); or (b) insert into the Products any viruses, worms, date bombs, time bombs, or other code that is specifically designed to cause the Products to cease operating, or to damage, interrupt, or interfere with any Products or End User data.",
+                "changed_text": "Distributor agrees that in connection with its exercise of the right granted in Clause 2.1 (Products Licence Grant) it shall accurately reproduce the Distribution Products and shall not: (a) modify any Product (including modify the Chrome Browser or Google Toolbar configuration files or registry settings).",
+                "explanation": "This change removes the explicit prohibition against inserting malicious code (viruses, worms, etc.) into the Products. This omission creates a significant legal risk, as it could be interpreted as allowing Distributor to distribute modified versions of the Products that contain malware, which would violate numerous laws related to cybersecurity and consumer protection, including the Computer Fraud and Abuse Act.",
+                "contradicted_law": "Computer Fraud and Abuse Act, state laws regarding cybersecurity and malware",
+                "location": "3.7 Accurate Reproduction"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Google warrants that the Distribution Products will for a period of [ * ] from the date of their supply to Distributor be free from any defect which has a materially adverse effect on their use or operation.",
+                "changed_text": "Google warrants that the Distribution Products will be free from any defect which has a materially adverse effect on their use or operation.",
+                "explanation": "The removal of 'for a period of [ * ] from the date of their supply to Distributor' omits the warranty period. This significantly weakens the warranty, potentially contradicting consumer protection laws (such as implied warranties of merchantability) that provide consumers with a minimum period during which products must be free from defects. By removing this timeframe, Google is essentially offering an indefinite warranty, which is unlikely to be enforceable and could be considered deceptive.",
+                "contradicted_law": "Implied warranties of merchantability under the Uniform Commercial Code (UCC)",
+                "location": "8.2"
+            }
+        ]
+    }
+]

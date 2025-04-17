@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_MaintenanceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.36 Services. \"Services\" means all of the services contemplated in the Build Addendum and the Maintenance Addendum (and all schedules thereto).",
+                "changed_text": "2.36 Services. \"Services\" means only some of the services contemplated in the Build Addendum and the Maintenance Addendum (and all schedules thereto).",
+                "explanation": "The original definition of 'Services' encompasses all services outlined in the Build and Maintenance Addenda. The modified version limits this definition to 'only some of the services,' creating ambiguity about which specific services are included and potentially undermining the enforceability of obligations related to those undefined services.",
+                "location": "Section 2.36"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.38 Specifications. \"Specifications\" means (i) all of the Build Out Specifications set forth in the Build Addendum (and all schedules thereto, except as expressly waived by AT&T in writing), (ii) all of the specifications set forth in the Maintenance Addendum (and all schedules thereto) with respect to the Services contemplated therein, and (iii) all applicable OEM specifications.",
+                "changed_text": "2.38 Specifications. \"Specifications\" means (i) some of the Build Out Specifications set forth in the Build Addendum (and all schedules thereto, except as expressly waived by AT&T in writing), (ii) none of the specifications set forth in the Maintenance Addendum (and all schedules thereto) with respect to the Services contemplated therein, and (iii) some applicable OEM specifications.",
+                "explanation": "By changing \"all\" to \"some\" for Build Out and OEM specifications, and \"all\" to \"none\" for Maintenance Addendum specifications, the contract introduces ambiguity about which specific specifications are binding. This creates uncertainty about the required standards for the work, potentially leading to disputes over compliance and enforcement.",
+                "location": "Section 2.38"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Vendor agrees that the Material and Services provided pursuant to this Agreement, the Build Addendum and the Maintenance Addendum shall strictly conform to the Specifications contained herein and therein.",
+                "changed_text": "Vendor agrees that the Material and Services provided pursuant to this Agreement, the Build Addendum and the Maintenance Addendum may or may not conform to some Specifications contained herein and therein.",
+                "explanation": "The original sentence establishes a strict requirement for Material and Services to conform to the Specifications. The modified version negates this requirement, indicating that conformance is optional and only applies to some specifications. This creates a contradiction that undermines the enforceability of the Specifications, making it unclear what standards Vendor must adhere to and what recourse AT&T has if those standards are not met.",
+                "location": "Section 1.1"
+            }
+        ]
+    }
+]

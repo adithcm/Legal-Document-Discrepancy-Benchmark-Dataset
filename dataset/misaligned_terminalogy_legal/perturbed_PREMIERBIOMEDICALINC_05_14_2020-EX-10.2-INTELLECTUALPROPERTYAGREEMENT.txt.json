@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUALPROPERTYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Intellectual Property\" shall mean any Confidential Information proprietary to the Disclosing Party and any trademark, service mark, trade name, invention, improvement, discovery, patent, patent application, trade secret, copyright, copyrightable work, trade dress, mask work, computer program or any other type of proprietary intellectual property to which the Disclosing party claims any rights, including any registrations or applications for registration or renewals of any of the foregoing, and all copies and tangible embodiments of the foregoing in whatever form or medium.",
+                "changed_text": "\"Intellectual Property\" shall mean any Confidential Information proprietary to the Disclosing Party and any trademark, service mark, trade name, invention, improvement, discovery, patent, patent application, but excluding trade secrets, copyright, copyrightable work, trade dress, mask work, computer program or any other type of proprietary intellectual property to which the Disclosing party claims any rights, including any registrations or applications for registration or renewals of any of the foregoing, and all copies and tangible embodiments of the foregoing in whatever form or medium.",
+                "explanation": "This change introduces a contradiction by explicitly excluding 'trade secrets' and 'copyright' from the definition of 'Intellectual Property,' while generally accepted legal definitions and common business practice include them. This creates ambiguity and legal uncertainty as to what is protected under the agreement, potentially leading to disputes regarding ownership and usage rights, especially considering the reference to the Uniform Trade Secret Act later in the document.",
+                "contradicted_law": "Varies by state, but generally contradicts the Uniform Trade Secrets Act and federal copyright law (17 U.S.C. § 102).",
+                "location": "Section 7"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Confidential information shall also mean any information not generally made available or known to the public and shall include, without limitation, all ideas, inventions, software, documentation, flowcharts, diagrams, improvements, discoveries, research and development, know how, formulas, compositions, manufacturing and production processes and techniques, technical data, designs, drawings, plans, specifications, and all other information or material within the definition of a \"trade secret\" as set forth in the Uniform Trade Secret Act, or which either party otherwise reasonably considers proprietary.",
+                "changed_text": "Confidential information shall also mean any information not generally made available or known to the public and shall include, without limitation, all ideas, inventions, software, documentation, flowcharts, diagrams, improvements, discoveries, research and development, know how, formulas, compositions, manufacturing and production processes and techniques, technical data, designs, drawings, plans, specifications, and all other information or material within the definition of a \"trade secret\" as set forth in the Uniform Trade Secret Act, or which either party considers proprietary so long as it does not conflict with federal law.",
+                "explanation": "By adding 'so long as it does not conflict with federal law', the definition of what each party considers proprietary is limited. In some instances, what a party considers proprietary can be more broad than federal law, and this limits the definition. This conflicts with the intention of the contract to protect each party, and creates ambiguity.",
+                "contradicted_law": "Contract Law",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

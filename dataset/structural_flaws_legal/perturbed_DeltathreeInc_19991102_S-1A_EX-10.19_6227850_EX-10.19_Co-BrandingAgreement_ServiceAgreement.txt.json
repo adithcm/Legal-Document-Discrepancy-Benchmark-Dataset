@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-BrandingAgreement_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "PRIMECALL MAKES NO REPRESENTATION OR WARRANTY, EXPRESS OR IMPLIED, CONCERNING THE SERVICES PROVIDED HEREUNDER, INCLUDING ANY IMPLIED WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR OTHERWISE. IN NO EVENT SHALL PRIMECALL BE LIABLE TO DELTATHREE FOR ANY SPECIAL, INCIDENTIAL OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, REVENUES OR DATA WHETHER BASED ON BREACH OF CONTRACT, TORT OR OTHERWISE, WHETHER OR NOT DELTATHREE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THE LIABILITY OF PRIMECALL FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER, WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS LIMITED TO, AND WILL NOT EXCEED, DELTATHREE'S DIRECT DAMAGES.",
+                "changed_text": "PRIMECALL MAKES NO REPRESENTATION OR WARRANTY, EXPRESS OR IMPLIED, CONCERNING THE SERVICES PROVIDED HEREUNDER, BUT PrimeCall will always act in good faith. IN NO EVENT SHALL PRIMECALL BE LIABLE TO DELTATHREE FOR ANY SPECIAL, INCIDENTIAL OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, REVENUES OR DATA WHETHER BASED ON BREACH OF CONTRACT, TORT OR OTHERWISE, WHETHER OR NOT DELTATHREE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THE LIABILITY OF PRIMECALL FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER, WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS LIMITED TO, AND WILL NOT EXCEED, DELTATHREE'S DIRECT DAMAGES.",
+                "explanation": "The phrase 'but PrimeCall will always act in good faith' directly contradicts the explicit disclaimer of all warranties, including implied warranties. This creates a legal contradiction by implying a commitment to good faith, which could be interpreted as an implied warranty, while simultaneously disclaiming all warranties. This makes the enforceability of the warranty disclaimer uncertain.",
+                "contradicted_law": "Uniform Commercial Code (UCC) regarding warranty disclaimers and good faith obligations.",
+                "location": "Article VII [Limited Warranty], Section 7.01 [Disclaimer of General Warranty by PrimeCall]"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "DELTATHREE MAKES NO REPRESENTATION OR WARRANTY, EXPRESS OR IMPLIED, CONCERNING THE SERVICES PROVIDED HEREUNDER, INCLUDING ANY IMPLIED WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR OTHERWISE. IN NO EVENT SHALL DELTATHREE BE LIABLE TO PRIMECALL FOR ANY SPECIAL, INCIDENTIAL OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, REVENUES OR DATA WHETHER BASED ON BREACH OF CONTRACT, TORT OR OTHERWISE, WHETHER OR NOT PRIMECALL HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THE LIABILITY OF DELTATHREE FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER, WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS LIMITED TO, AND WILL NOT EXCEED, PRIMECALL'S DIRECT DAMAGES.",
+                "changed_text": "DELTATHREE MAKES NO REPRESENTATION OR WARRANTY, EXPRESS OR IMPLIED, CONCERNING THE SERVICES PROVIDED HEREUNDER, EXCEPT for ensuring the website operates 99% of the time. IN NO EVENT SHALL DELTATHREE BE LIABLE TO PRIMECALL FOR ANY SPECIAL, INCIDENTIAL OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, REVENUES OR DATA WHETHER BASED ON BREACH OF CONTRACT, TORT OR OTHERWISE, WHETHER OR NOT PRIMECALL HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. The liability of deltathree FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER, WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS LIMITED TO, AND WILL NOT EXCEED, PRIMECALL'S DIRECT DAMAGES.",
+                "explanation": "By adding 'EXCEPT for ensuring the website operates 99% of the time' within the warranty disclaimer, DeltaThree provides a specific warranty contradicting the general disclaimer of all warranties. This creates a legal contradiction and introduces uncertainty about the scope and enforceability of the disclaimer.",
+                "contradicted_law": "Uniform Commercial Code (UCC) concerning express vs. implied warranties and disclaimers.",
+                "location": "Article VII [Limited Warranty], Section 7.02 [Disclaimer of General Warranty by DeltaThree]"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In the event that DeltaThree disputes any amounts set forth on the report, DeltaThree shall provide PrimeCall with written notice of such dispute, which notice shall detail the reasons for the dispute, within seven (7) days of its receipt thereof. The parties shall negotiate in good faith to resolve any such disputes.",
+                "changed_text": "In the event that DeltaThree disputes any amounts set forth on the report, DeltaThree shall provide PrimeCall with written notice of such dispute, which notice shall detail the reasons for the dispute, within seven (7) days of its receipt thereof. The parties may, or may not, negotiate in good faith to resolve any such disputes.",
+                "explanation": "By changing 'shall negotiate in good faith' to 'may, or may not, negotiate in good faith,' the contract introduces a contradiction. While seemingly minor, the original clause creates an obligation to negotiate in good faith, a legally recognized standard. The modified clause removes this obligation, suggesting that the parties can choose not to negotiate at all, which undermines the dispute resolution process intended by the agreement. This change affects the enforceability of the dispute resolution mechanism because the duty to negotiate in good faith is no longer guaranteed.",
+                "contradicted_law": "General principles of contract law regarding good faith and fair dealing in contract performance and dispute resolution.",
+                "location": "Article III [Services Provided by PrimeCall], Section 3.06 [Reporting]"
+            }
+        ]
+    }
+]

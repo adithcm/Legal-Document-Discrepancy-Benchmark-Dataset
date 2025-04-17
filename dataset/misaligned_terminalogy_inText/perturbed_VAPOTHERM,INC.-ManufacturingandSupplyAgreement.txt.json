@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "VAPOTHERM, INC. - Manufacturing and Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "3.3 Delivery. Each shipment of Cartridges will be delivered by [* * *] to the applicable Vapotherm manufacturing facility or retained in Medica's warehouse facility, in accordance with Vapotherm instructions for each shipment. Medica shall deliver by the delivery date specified in a purchase order all of the Cartridges specified in that purchase order. Vapotherm is only required to pay for Cartridges actually delivered. Medica shall make shipping arrangements with carriers designated in writing by Vapotherm from the [* * *] point to points specified by Vapotherm, under the arrangements that Vapotherm has with those carriers.",
+                "changed_text": "3.3 Delivery. Each shipment of Cartridges will be delivered by [* * *] to the applicable Vapotherm manufacturing facility or retained in Medica's warehouse facility, in accordance with Vapotherm instructions for each shipment. The Supplier must deliver by the delivery date specified in a purchase order some of the Cartridges or a percentage, as agreed upon verbally between both parties, specified in that purchase order. Vapotherm is only required to pay for Cartridges actually delivered. Medica shall make shipping arrangements with carriers designated in writing by Vapotherm from the [* * *] point to points specified by Vapotherm, under the arrangements that Vapotherm has with those carriers.",
+                "explanation": "The term 'Medica' is replaced with 'Supplier', and 'all' is replaced with 'some' or a verbally agreed percentage of the cartridges, and this introduces a contradiction regarding who is responsible for delivery and the amount, and what needs to be fulfilled. This will create uncertainty in enforcement as it is unclear what quantity is required to be delivered.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "4.1 Conformity with Specifications. Any Cartridges that Medica manufactures under this Agreement must conform to the specifications in Exhibit D (the \"Specifications\") and (2) be manufactured, labeled, packaged, stored, and tested (while in the possession of, stored by, or under the control of Medica) in accordance with cGMP. Medica shall provide adequate packaging for protection during normal shipping and handling environments.",
+                "changed_text": "4.1 Conformity with Specifications. Any Cartridges that Medica manufactures under this Agreement must conform to the specifications in Exhibit D (the \"Specifications\") and (2) be manufactured, labeled, packaged, stored, and tested (while in the possession of, stored by, or under the control of Medica) in accordance with industry standards. Medica should attempt to provide adequate packaging for protection during normal shipping and handling environments.",
+                "explanation": "The phrase 'cGMP' is changed to 'industry standards'. The word 'shall' is replaced with 'should attempt to' This creates a contradiction because industry standards are not specifically defined, and the obligation for adequate packaging is weakened. This makes the responsibility for Quality enforcement uncertain.",
+                "location": "Section 4.1"
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "12.1 Indemnification. Medica shall indemnify Vapotherm, each Affiliate of Vapotherm, each Representative of Vapotherm, and the heirs, executors, successors, and assigns of any of the foregoing, against the following Indemnifiable Losses: a. Indemnifiable Losses arising out of or relating to a claim made for bodily injury, including death, or property damage to the extent that such claim arises out of or results from the failure of the Cartridges to comply with the Specifications or Medica's failure to comply with Medica's Quality System;",
+                "changed_text": "12.1 Indemnification. The Vendor may, at its discretion, indemnify Vapotherm, each Affiliate of Vapotherm, each Representative of Vapotherm, and the heirs, executors, successors, and assigns of any of the foregoing, against the following Indemnifiable Losses: a. Indemnifiable Losses arising out of or relating to a claim made for bodily injury, including death, or property damage to the extent that such claim arises out of or results from the failure of the Cartridges to substantially comply with the Specifications or the Vendor's attempt to adhere to the Vendor's Quality System;",
+                "explanation": "Changing \"Medica shall\" to \"The Vendor may, at its discretion\" and adding \"substantially comply\" creates a contradiction. Indemnification is no longer an obligation. Changing quality system from \"comply with Medica's Quality system\" to \"attempt to adhere\" weakens that obligation. These changes reduce enforceability and introduce uncertainty regarding responsibility for Indemnifiable losses.",
+                "location": "Section 12.1"
+            }
+        ]
+    }
+]

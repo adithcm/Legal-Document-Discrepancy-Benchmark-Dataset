@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "2.1 Customer Support. eGain will provide live telephone support to Customer 24-hours-a-day, seven-days-a-week by a trained eGain customer support representative.",
+                "changed_text": "2.1 Customer Support. eGain will provide live telephone support to Customer during normal business hours. The specific hours and days of support will be determined by eGain and may be subject to change with 30 days written notice. While eGain aims to provide consistent support, the availability of a trained eGain customer support representative cannot be guaranteed at all times.",
+                "explanation": "The original text guarantees 24/7 support. The modified text introduces uncertainty by stating that support is only during normal business hours (which are not clearly defined in this section) and that the availability of trained representatives cannot be guaranteed. This directly contradicts the original promise of 24/7 support, making the level of customer support unclear.",
+                "location": "Section 2.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "6.1 eGain warrants and represents to Customer that (i) the Software will perform substantially in accordance with the documentation, if any, provided by eGain to Customer, and (ii) the Hosting Services will be performed in a professional and workmanlike manner and in accordance with Section 2.",
+                "changed_text": "6.1 eGain warrants and represents to Customer that (i) the Software will perform substantially in accordance with the documentation, if any, provided by eGain to Customer. However, eGain does not guarantee that the Software will meet all of Customer's specific requirements. (ii) eGain will attempt to provide the Hosting Services in a reasonable manner. However, eGain's obligations for the Hosting Services are conditional upon Customer's full compliance with all operational guidelines and service usage limits defined by eGain.",
+                "explanation": "The original text warrants that the Software will perform substantially in accordance with the documentation and hosting services will be performed in a professional and workmanlike manner. The modified text weakens this warranty by stating that eGain does not guarantee the software will meet all customer requirements and introducing the caveat that the hosting services are only guaranteed if the customer complies with operational guidelines. This creates a contradiction by weakening the initial warranty, making the guarantee uncertain.",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "10.1 Term and Termination. This Agreement shall continue in effect from the Effective Date for a one (1) year period, unless earlier terminated as set forth below, and thereafter shall renew automatically for successive one (1) year periods unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement.",
+                "changed_text": "10.1 Term and Termination. This Agreement shall continue in effect from the Effective Date for a one (1) year period, unless earlier terminated as set forth below, and thereafter shall renew automatically for successive one (1) year periods unless mutually agreed upon by both parties. Either party can provide 30 days' notice of intent to terminate. Termination will be determined at eGain's sole discretion.",
+                "explanation": "The original text states the agreement auto-renews unless a party provides 30 days notice of non-renewal. The modification states the renewal requires mutual agreement, contradicting auto-renewal. Further, the agreement allows either party to provide 30 days' notice, but ends with stating that termination will be determined at eGain's sole discretion. This means that even if Customer sends a 30 day notice, eGain has the sole right to determine if it is indeed terminated, which directly creates a contradiction.",
+                "location": "Section 10.1"
+            }
+        ]
+    }
+]

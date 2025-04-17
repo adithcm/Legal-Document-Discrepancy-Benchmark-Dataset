@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "KENTUCKYUTILITIESCO_03_25_2003-EX-10.65-TRANSPORTATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11.1 In addition to the warranties set forth in Article IX of the General Terms and Conditions of Transporter's FERC Gas Tariff, Shipper warrants the following:\n\n(a) Shipper warrants that all upstream and downstream transportation arrangements are in place, or will be in place as of the requested effective date of service, and that it has advised the upstream and downstream transporters of the receipt and delivery points under this Agreement and any quantity limitations for each point as specified on Exhibit \"A\" attached hereto. Shipper agrees to indemnify and hold Transporter harmless for refusal to transport gas hereunder in the event any upstream or downstream transporter fails to receive or deliver gas as contemplated by this Agreement.\n\n(b) Shipper agrees to indemnify and hold Transporter harmless from all suits, actions, debts, accounts, damages, costs, losses and expenses (including reasonable attorneys fees) arising from or out of breach of any warranty by Shipper herein.\n\n11.2 Transporter shall not be obligated to provide or continue service hereunder in the event of any breach of warranty.",
+                "changed_text": "15.4 Exhibit \"A\" attached hereto is incorporated herein by reference and made a part hereof for all purposes.\n\n11.1 In addition to the warranties set forth in Article IX of the General Terms and Conditions of Transporter's FERC Gas Tariff, Shipper warrants the following:\n\n(a) Shipper warrants that all upstream and downstream transportation arrangements are in place. Shipper agrees to indemnify and hold Transporter harmless for refusal to transport gas hereunder in the event any upstream or downstream transporter fails to receive or deliver gas as contemplated by this Agreement.\n\n(b) Shipper agrees to indemnify and hold Transporter harmless from all suits, actions, debts, accounts, damages, costs, losses and expenses arising from or out of breach of any warranty by Shipper herein.\n\n11.2 Transporter shall not be obligated to provide or continue service hereunder in the event of any breach of warranty.",
+                "explanation": "Removing `or will be in place as of the requested effective date of service, and that it has advised the upstream and downstream transporters of the receipt and delivery points under this Agreement and any quantity limitations for each point as specified on Exhibit \"A\" attached hereto.` creates a contradiction regarding the shipper's responsibility. It is a standard business practice to provide that service will be in place or `will be` in place. Taking it out introduces a flaw.",
+                "contradicted_law": "Standard Business Practices for Transportation Agreements",
+                "location": "ARTICLE XI - WARRANTIES"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "12.1 This contract shall be effective as of November 1, 2002, and shall remain in force and effect, unless modified as per Exhibit B, until October 31, 2012. If the FERC or other governmental body having jurisdiction over the service rendered pursuant to this Agreement authorizes abandonment of such service, this Agreement shall terminate on the abandonment date permitted by the FERC or such other governmental body.",
+                "changed_text": "12.1 This contract shall be effective as of November 1, 2002, and shall remain in force and effect until October 31, 2012. If the FERC or other governmental body having jurisdiction over the service rendered pursuant to this Agreement authorizes abandonment of such service, this Agreement shall terminate on the abandonment date permitted by the FERC or such other governmental body.",
+                "explanation": "Removing `unless modified as per Exhibit B` suggests the contract cannot be modified, which contradicts the existence and purpose of Exhibit B (Buyout/Early Termination Provisions), creating confusion and potential disputes regarding termination rights.",
+                "contradicted_law": "Contract Law Principles Regarding Modification and Termination",
+                "location": "ARTICLE XII - TERM"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "15.1 THE INTERPRETATION AND PERFORMANCE OF THIS CONTRACT SHALL BE IN ACCORDANCE WITH AND CONTROLLED BY THE LAWS OF THE STATE OF TEXAS, WITHOUT REGARD TO THE DOCTRINES GOVERNING CHOICE OF LAW.",
+                "changed_text": "15.1 THE INTERPRETATION AND PERFORMANCE OF THIS CONTRACT SHALL BE IN ACCORDANCE WITH AND CONTROLLED BY THE LAWS OF THE STATE OF KENTUCKY, WITHOUT REGARD TO THE DOCTRINES GOVERNING CHOICE OF LAW.",
+                "explanation": "This modification introduces a legal contradiction because the agreement involves parties based in Kentucky (LOUISVILLE GAS AND ELECTRIC COMPANY). Changing the governing law to Kentucky, when the contract states it applies to Texas law creates ambiguity and contradicts the principle of contractual certainty and violates the intent of the parties. Also, since Tennessee Gas Pipeline is a Delaware Corporation, the interpretation might need to be in accordance to Delaware law.",
+                "contradicted_law": "Choice of Law Principles and Contractual Certainty",
+                "location": "ARTICLE XV - MISCELLANEOUS"
+            }
+        ]
+    }
+]

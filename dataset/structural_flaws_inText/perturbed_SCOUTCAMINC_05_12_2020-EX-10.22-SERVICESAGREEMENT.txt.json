@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "SCOUTCAMINC_05_12_2020-EX-10.22-SERVICESAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5. Termination. If Maimon should become unable to serve as CEO, or should fail to perform any of the obligations hereunder for any cause including death or disability, always in the sole judgment and decision of the Company, then the Company shall have the right to terminate this agreement on five days prior written notice. Maimon shall have the right to resign at any time upon 30 days prior written notice. The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon.",
+                "changed_text": "5. Termination. If Maimon should become unable to serve as CEO, or should fail to perform any of the obligations hereunder for any cause including death or disability, always in the sole judgment and decision of the Company, then the Company shall have the right to terminate this agreement on five days prior written notice. Maimon shall have the right to resign at any time without prior written notice. The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon.",
+                "explanation": "The original text states Maimon must provide 30 days written notice to resign. This perturbation eliminates this condition, stating that Maimon may resign at any time without prior written notice, directly contradicting the original stipulation.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4. Compensation. In consideration of the services to be rendered by Maimon hereunder and for Maimon's service as a director on the Board of Directors of the Company, the Company will pay Maimon a monthly fee of $1,000 during the Minimum Period, beginning on the Effective Date.",
+                "changed_text": "4. Compensation. In consideration of the services to be rendered by Maimon hereunder and for Maimon's service as a director on the Board of Directors of the Company, the Company may pay Maimon a monthly fee of $1,000 during the Minimum Period, beginning on the Effective Date. Any payment is subject to performance review.",
+                "explanation": "The original text states that the company WILL pay Maimon a monthly fee of $1,000. This perturbation changes 'will' to 'may' and adds 'Any payment is subject to performance review', introducing uncertainty and contradicting the original mandatory payment clause.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "8. Conflicts of Interest, Non-Competition, Non-Solicitation. Maimon agrees during the term of this Agreement not to accept work or enter into a contract or accept an obligation inconsistent or incompatible with Maimon's obligations under this Agreement or with the scope of services to be rendered for the Company. Maimon warrants that to the best of Maimon's knowledge, there is no other contract or duty on Maimon's part now in existence inconsistent with this Agreement. During the term of this Agreement and for a period of two (2) years after expiration or termination for any reason of this Agreement, Maimon agrees not to: (a) compete with the business of the Company, whether individually or through any entity, or to use (or permit the use of) any Confidential Information, directly or indirectly, for the purpose of competing with the business of the Company; or (b) suggest to, induce or persuade any customer, client, vendor, supplier, employee, consultant or agent of the Company to terminate or diminish its relationship with the Company.",
+                "changed_text": "8. Conflicts of Interest, Non-Competition, Non-Solicitation. While it is preferred that Maimon does not accept work or enter into a contract or accept an obligation inconsistent or incompatible with Maimon's obligations under this Agreement or with the scope of services to be rendered for the Company, it will be determined case by case. Maimon warrants that to the best of Maimon's knowledge, there is no other contract or duty on Maimon's part now in existence inconsistent with this Agreement. During the term of this Agreement, Maimon agrees not to: (a) directly compete with the business of the Company, whether individually or through any entity; or (b) suggest to, induce or persuade any employee of the Company to terminate its relationship with the Company.",
+                "explanation": "This perturbation introduces several contradictions: 1. By stating 'it will be determined case by case', the strict non-compete clause is made ambiguous. It creates uncertainty about whether the clause will be enforced, contradicting the original intent. 2. The restriction of two (2) years after termination is eliminated and the non-solicitation clause is limited to ONLY 'employees' (customers, clients, vendors and consultants can be solicited), severely impacting and contradicting the scope of the original clause.",
+                "location": "Section 8"
+            }
+        ]
+    }
+]

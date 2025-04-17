@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Defend Trade Secrets Act Notice: Nothing herein shall prevent Consultant from reporting possible violations of federal or state law or regulation to any governmental agency or entity, or making other disclosures that are protected under the whistleblower provisions of federal or state law or regulation. Consultant does not need the prior authorization of Aduro to make any such reports or disclosures and is not required to notify Aduro that it has made such reports or disclosures. In addition, as set forth in 18 U.S.C. §1833(b), Consultant shall not be held criminally or civilly liable under any federal or state trade secret law for the disclosure of a trade secret that is made in confidence to a federal, state or local government official, either directly or indirectly, or to an attorney, and that is made solely for the purpose of reporting or investigating a suspected violation of law, or that is made in a complaint or other document filed in a lawsuit or other proceeding if such filing is made under seal.",
+                "changed_text": "Defend Trade Secrets Act Notice: Consultant agrees to adhere to Aduro's internal reporting procedures for potential legal and regulatory violations before disclosing such information externally, unless legally prohibited. Consultant is required to notify Aduro if it has made such reports or disclosures.",
+                "explanation": "The original clause provides explicit whistleblower protections. The modified clause introduces a requirement for internal reporting before external disclosure, potentially chilling the consultant's willingness to report violations and contradicting the spirit, if not the letter, of whistleblower protection laws. It also shifts the notification requirement.",
+                "contradicted_law": "Defend Trade Secrets Act, Sarbanes-Oxley Act, Dodd-Frank Act (Whistleblower Protection Provisions)",
+                "location": "Section 4(e)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement shall be construed and enforced in accordance with the laws of the State of California, without regard to the conflict of law principles of California or any other jurisdiction.",
+                "changed_text": "This Agreement shall be construed and enforced in accordance with the laws of the State of Delaware, without regard to the conflict of law principles of California or any other jurisdiction.",
+                "explanation": "The company is located in California but the agreement is enforced by the law of Delaware which can create legal contradictions and increase difficulty to be enforced.",
+                "contradicted_law": "Applicable Law",
+                "location": "Section 10"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Aduro shall be the sole and exclusive owner of, and Consultant hereby assigns to Aduro, any and all writings, documents, work product, inventions, developments, improvements, discoveries, know-how, processes, chemical entities, compounds, plans, memoranda, tests, research, designs, specifications, models and data that Consultant makes, conceives, discovers or develops, either solely or jointly with any other person in performance of the Services (collectively, \"Work Product\").",
+                "changed_text": "Aduro shall be the sole and exclusive owner of, and Consultant hereby assigns to Aduro, any and all writings, documents, work product, inventions, developments, improvements, discoveries, know-how, processes, chemical entities, compounds, plans, memoranda, tests, research, designs, specifications, models and data that Consultant makes, conceives, discovers or develops, either solely or jointly with any other person in performance of the Services (collectively, \"Work Product\") except those derived from Consultant's preexisting intellectual property.",
+                "explanation": "This introduces a carve-out for the consultant's pre-existing intellectual property, which is reasonable. However, it makes the ownership of the Work Product less clear. This can lead to conflicts over what constitutes pre-existing IP versus work product developed during the consultancy. The wording is ambiguous enough to be contentious.",
+                "contradicted_law": "Intellectual Property Law",
+                "location": "Section 6"
+            }
+        ]
+    }
+]

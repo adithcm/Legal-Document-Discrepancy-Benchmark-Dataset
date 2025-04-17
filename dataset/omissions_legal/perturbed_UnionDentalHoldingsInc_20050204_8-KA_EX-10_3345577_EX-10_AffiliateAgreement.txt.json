@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_AffiliateAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Parties expressly agree that any and all uses or disclosures of the Confidential Information by a Party will be done in accordance with the terms of this Agreement and the provisions of all applicable federal and state laws and regulations.",
+                "changed_text": "The Parties expressly agree that any and all uses or disclosures of the Confidential Information by a Party will be done in accordance with the terms of this Agreement.",
+                "explanation": "This change removes the obligation to comply with all applicable federal and state laws and regulations regarding the use and disclosure of confidential information, potentially violating HIPAA (Health Insurance Portability and Accountability Act) if the confidential information includes protected health information. HIPAA mandates specific safeguards and restrictions on the use and disclosure of protected health information.",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Parties agrees to mitigate, to the extent practicable, any harmful effect that is known to a Party of a use or disclosure of Confidential Information by a Party in violation of the requirements of this Agreement;",
+                "changed_text": "Parties may mitigate any harmful effect that is known to a Party of a use or disclosure of Confidential Information by a Party in violation of the requirements of this Agreement;",
+                "explanation": "Changing 'agrees to mitigate' to 'may mitigate' weakens the responsibility to mitigate harm resulting from a breach of confidentiality. HIPAA requires covered entities to have procedures in place to mitigate the harmful effects of security breaches, making this a violation of federal law if the information relates to health.",
+                "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA)",
+                "location": "Section 3(h)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Based on the foregoing, (i) Business Affiliate will not be treated as an employee of UDC for Federal tax purposes; (ii) UNION DENTAL CORP., will not withhold on behalf of Business Affiliate any sums for income tax, unemployment insurance, social security or any other withholding pursuant to any law or requirement of any government body, or make available any of the benefits afforded to employees of UDC (iii) all of such payments, withholdings or benefits due any governmental agency, if any, are Business Affiliate=s sole responsibility; and (iv) Business Affiliate will indemnify and hold harmless UDC from any and all loss or liability arising from his failure to make such payments, withholds and benefits, if any.",
+                "changed_text": "Based on the foregoing, (i) Business Affiliate will not be treated as an employee of UDC for Federal tax purposes; (ii) UNION DENTAL CORP., will not withhold on behalf of Business Affiliate any sums for income tax.",
+                "explanation": "By omitting the text '(ii) UNION DENTAL CORP., will not withhold on behalf of Business Affiliate any sums for income tax, unemployment insurance, social security or any other withholding pursuant to any law or requirement of any government body, or make available any of the benefits afforded to employees of UDC (iii) all of such payments, withholdings or benefits due any governmental agency, if any, are Business Affiliate=s sole responsibility; and (iv) Business Affiliate will indemnify and hold harmless UDC from any and all loss or liability arising from his failure to make such payments, withholds and benefits, if any', this makes it unclear who is responsible for social security, unemployment, and worker's compensation. If the Business Affiliate is later determined to be an employee by a court, UDC may face legal consequences for failing to withhold and remit these taxes and failing to provide legally mandated employee benefits.",
+                "contradicted_law": "Federal Insurance Contributions Act (FICA), Federal Unemployment Tax Act (FUTA), state worker's compensation laws",
+                "location": "Section 7(e)"
+            }
+        ]
+    }
+]

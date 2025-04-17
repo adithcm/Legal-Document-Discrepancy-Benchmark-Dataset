@@ -1,0 +1,28 @@
+[
+    {
+        "file_name": "XACCTTechnologies,Inc.SUPPORTANDMAINTENANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "5.1      The initial term of this Agreement is one (1) year from the date of          delivery of the Product to Licensee unless earlier terminated in          accordance with this Agreement. The Agreement will be automatically          renewed for additional one (1) year terms (subject to applicable fee          adjustments) unless thirty (30) days prior to the anniversary of the          Effective Date Licensee gives written notice to XACCT of its intention          not to renew.",
+                "changed_text": "5.1      The initial term of this Agreement is one (1) year from the date of          delivery of the Product to Licensee unless earlier terminated in          accordance with this Agreement. Renewal of the Agreement is subject to mutual agreement between both parties and is not guaranteed. Either party may choose not to renew the agreement at their sole discretion.",
+                "explanation": "The original text states the agreement will be 'automatically renewed' unless notice is given. The modified text introduces a contradiction by stating renewal is subject to 'mutual agreement' and 'not guaranteed,' creating uncertainty about the renewal process.",
+                "location": "Section 5.1"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "4.2      From time to time XACCT in its sole discretion may develop and provide          Major Releases which will be made available to Licensee with or without          additional fees according to the level of Support Services purchased by          Licensee as set forth in Attachment 1 referenced in Section 2.",
+                "changed_text": "4.2      From time to time XACCT may develop and provide Major Releases. Major Releases will always be subject to additional fees, regardless of the Support Services level purchased by Licensee.",
+                "explanation": "The original text says Major Releases may be provided with or without additional fees depending on the support level. The modified text directly contradicts this by stating Major Releases will *always* be subject to additional fees, creating financial uncertainty.",
+                "location": "Section 4.2"
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "3.1      XACCT will provide reasonable commercial efforts to provide the          appropriate solutions for reported Incidents. Initial response times          for reported Incidents are as set forth in Attachment 1.",
+                "changed_text": "3.1 XACCT will provide reasonable commercial efforts to provide the appropriate solutions for reported Incidents. XACCT is not obligated to resolve all reported incidents.",
+                "explanation": "The original clause states XACCT will provide appropriate solutions. The changed clause adds XACCT is not obligated to resolve all reported incidents, creating uncertainty about the extent of XACCT's support obligations.",
+                "location": "Section 3.1"
+            }
+        ]
+    }
+]

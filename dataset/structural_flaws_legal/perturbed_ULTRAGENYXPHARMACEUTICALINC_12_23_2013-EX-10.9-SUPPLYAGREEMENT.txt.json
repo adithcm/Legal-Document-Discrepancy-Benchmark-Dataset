@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ULTRAGENYXPHARMACEUTICALINC_12_23_2013-EX-10.9-SUPPLYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Cremer's liability arising from this Agreement is limited to intentional misconduct or gross negligence. This limitation of liability does not apply to the injury of the life, body or health of a person, to claims according to the Product Liability Act (Produkthaftungsgesetz) or any other coercive legal liability claims.",
+                "changed_text": "Cremer's liability arising from this Agreement is limited to intentional misconduct or gross negligence. However, Cremer may, at its discretion, consider claims related to injury of life, body, or health, or claims under the Product Liability Act, based on a case-by-case evaluation.",
+                "explanation": "The original clause clearly states exceptions to the liability limitation. The modified clause introduces ambiguity by suggesting that Cremer has discretion over whether to consider certain claims, which contradicts the mandatory nature implied by 'does not apply to'. This weakens the protection afforded by product liability and personal injury law.",
+                "contradicted_law": "Product Liability Act (Produkthaftungsgesetz)",
+                "location": "Article 4, Section 9"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The laws of the Federal Republic of Germany shall apply to the Agreement and any legal relations thereof, especially any purchase order, between Cremer and Ultragenyx shall be governed by that law. The law of the United Nations Conventions of the formation of Agreements for the international sale of goods (CISG) is excluded. Exclusive place of Jurisdiction is Hamburg, Germany.",
+                "changed_text": "The laws of the Federal Republic of Germany shall apply to the Agreement, except where the Parties mutually agree to apply the laws of California, USA. In cases where Ultragenyx deems it necessary, the law of the United Nations Conventions of the formation of Agreements for the international sale of goods (CISG) may be invoked. Place of Jurisdiction shall be determined based on the location of the dispute.",
+                "explanation": "The original clause dictates that German law applies and excludes CISG, establishing legal certainty. The modified clause introduces contradictions and uncertainty: first, by creating a loophole where parties can arbitrarily choose California law (potentially advantageous to Ultragenyx). Secondly, by allowing Ultragenyx to invoke CISG. Finally, by allowing Place of Jurisdiction to be determined based on the location of the dispute. This undermines the original jurisdiction agreement.",
+                "contradicted_law": "Choice of Law principles; Jurisdictional Agreements",
+                "location": "Article 9, Section 1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All waivers must be in writing and signed by the Party to be charged. Any waiver or failure to enforce any provision of this Agreement on one occasion will not be deemed a waiver of any other provision or of such provision on any other occasion.",
+                "changed_text": "All waivers must be acknowledged. Any waiver or failure to enforce any provision of this Agreement on one occasion will be deemed a waiver of such provision on all other occasions, if implied by conduct.",
+                "explanation": "The original clause demands a written waiver to enforce. The modified clause creates a contradiction: the original clause states it should not be deemed as waived, but the latter allows for a future waiver if 'implied by conduct,' which adds ambiguity",
+                "contradicted_law": "Contract Law regarding waivers; Statute of Frauds (depending on jurisdiction)",
+                "location": "Article 9, Section 5"
+            }
+        ]
+    }
+]

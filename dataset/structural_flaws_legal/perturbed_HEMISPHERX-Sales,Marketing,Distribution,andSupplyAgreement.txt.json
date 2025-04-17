@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "HEMISPHERX-Sales,Marketing,Distribution,andSupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "B. This Agreement and the transactions contemplated herein shall be governed by, and construed in accordance with, the laws of the State of Delaware, USA and disputes, if not resolved by the Parties, will be settled by binding arbitration in and under the rules of arbitration in London, England.",
+                "changed_text": "B. This Agreement and the transactions contemplated herein shall be governed by, and construed in accordance with, the laws of the State of Delaware, USA. Disputes, if not resolved by the Parties amicably, can be addressed in marketing brochures or other promotional material. Agreement to this clause can be made through continued business operations.",
+                "explanation": "Moving the arbitration clause to the marketing section significantly reduces its visibility and enforceability. Consumers are unlikely to look for dispute resolution clauses in marketing materials, thus undermining their ability to understand their rights.",
+                "contradicted_law": "United States Arbitration Act and general contract law principles regarding conspicuous placement of arbitration clauses.",
+                "location": "XIV. MISCELLANEOUS"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "H. Prior to their release, the parties must agree on press releases or market communication that utilises the other Party's name.",
+                "changed_text": "H. Prior to their release, the parties will aim to agree on press releases or market communication that utilises the other Party's name, provided there are resources and personnel available for such actions.",
+                "explanation": "Modifying the language from a requirement to an aim introduces a legal contradiction. By changing the original text, it introduces ambiguity and reduces the enforceability of the requirement for mutual agreement on press releases.",
+                "contradicted_law": "Basic contract law principles regarding clear obligations and agreements.",
+                "location": "XIV. MISCELLANEOUS"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All payments hereunder will be made by SCIEN in United States Dollars by wire transfer of immediately available funds to an account designated by HEMISPHERX. The following is wire transfer information:",
+                "changed_text": "All payments hereunder will be made by SCIEN in United States Dollars; however, payment methods are subject to change at any time and without notice.",
+                "explanation": "The original clause clearly specifies the payment method, ensuring predictability. The modified version introduces uncertainty by allowing payment methods to change without notice. This creates a contradiction because the initial clear instruction is undermined by the subsequent clause.",
+                "contradicted_law": "Contract law requires clear and definite terms, especially regarding financial obligations.",
+                "location": "V. REPORTS AND PAYMENTS"
+            }
+        ]
+    }
+]

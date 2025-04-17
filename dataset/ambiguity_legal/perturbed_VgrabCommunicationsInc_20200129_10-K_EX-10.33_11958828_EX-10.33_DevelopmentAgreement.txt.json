@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_DevelopmentAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Developer shall ensure the app is technically compliant to WeChat's App guidelines, and VAL's business compliance. Being Developer of the project, Developer will be responsible and liable for the product's business compliance with WeChat Mini Program and Payment guidelines.",
+                "changed_text": "Developer should endeavor to ensure the app is generally compliant with WeChat's App guidelines, and VAL's business compliance. While the Developer will aim to support the product's business compliance with WeChat Mini Program and Payment guidelines, ultimate responsibility lies elsewhere.",
+                "explanation": "The original text clearly states the Developer *shall ensure* compliance and is *responsible and liable*. The revised text weakens this obligation using 'should endeavor,' 'generally compliant,' and shifting 'ultimate responsibility,' creating ambiguity and potentially contradicting the initial firm obligation to ensure compliance. This weakens the responsibility of the developer.",
+                "contradicted_law": "Contract Law - Creates unenforceability due to vagueness in obligation",
+                "location": "6.5"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+                "changed_text": "All Intellectual Property during the project is intended to be owned by VAL, and the Developer will make reasonable efforts to turn it over to VAL at the conclusion of the project and after substantial fulfillment of commercial obligations by VAL. Rights and title to Duesey Coffee Intellectual Property are preferably to belong to VAL and will generally be subject to the terms and conditions of this Agreement.",
+                "explanation": "This change introduces significant ambiguity. 'Intended to be owned,' 'reasonable efforts,' 'substantial fulfillment,' and 'preferably to belong' all weaken the original clear statement of ownership and obligation. This makes it uncertain who owns the IP and under what conditions it will be transferred. Using 'generally' also brings up questions regarding which conditions the statement applies to.",
+                "contradicted_law": "Intellectual Property Law - Creates uncertainty about ownership and transfer of rights.",
+                "location": "11.1, 11.2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Any information, data and/or contents of documents made available by a party hereto to the other for the purposes of this Agreement hereby contemplated shall not, without the prior written consent of such party, be disclosed to any person, firm or corporation (and to only such extent for) the implementation of the Agreement. Such information, data and/or contents of documents may be disclosed to officers, employees, auditors, solicitors and other professional advisors of this Agreement but only to the extent required in each instance for the implementation of the Agreement hereby contemplated.",
+                "changed_text": "Any information, data and/or contents of documents made available by a party to the other should ideally not be disclosed to outside entities without consent, aiming for the purpose of this Agreement. Disclosure to internal staff such as employees and advisors may occur as perceived appropriate.",
+                "explanation": "By changing 'shall not' to 'should ideally not', replacing 'prior written consent' with 'aiming for the purpose of this Agreement', and changing 'to the extent required' to 'as perceived appropriate', the clause becomes significantly weaker. The original text offers clear guidelines on what cannot be done, whereas the modified version is vague and subjective, making it difficult to enforce confidentiality obligations.",
+                "contradicted_law": "Confidentiality/Trade Secret Law - Weakens protection of confidential information by creating ambiguity in the obligation not to disclose",
+                "location": "12"
+            }
+        ]
+    }
+]

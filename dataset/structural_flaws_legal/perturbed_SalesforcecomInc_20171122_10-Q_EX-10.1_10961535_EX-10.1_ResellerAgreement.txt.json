@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_ResellerAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+                "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller should attempt to ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller, but any breach by Sub-Reseller of the Agreement will not be automatically deemed a breach by Reseller.",
+                "explanation": "Changing 'must ensure' to 'should attempt to ensure' and removing the automatic deeming of a breach introduces ambiguity and weakens the enforceability of the reseller's obligations regarding the sub-reseller's compliance. It contradicts the original intent of holding the reseller fully accountable for the sub-reseller's actions.",
+                "contradicted_law": "General contract law principles regarding agency and delegation of responsibility.",
+                "location": "Sub-Reseller Agreement Terms & Conditions, Section 1"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "changed_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to some of the subject matter of this Sub-Reseller Agreement and supersede some previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+                "explanation": "Adding 'some of' introduces ambiguity about which parts of the agreement are actually superseded, creating doubt and potential legal challenges. It contradicts the standard 'entire agreement' clause by not clearly defining the scope of what is covered, leaving room for previous agreements to potentially apply.",
+                "contradicted_law": "Contract law principles regarding integration clauses and the parol evidence rule.",
+                "location": "Sub-Reseller Agreement Terms & Conditions, Section 3"
+            }
+        ]
+    }
+]

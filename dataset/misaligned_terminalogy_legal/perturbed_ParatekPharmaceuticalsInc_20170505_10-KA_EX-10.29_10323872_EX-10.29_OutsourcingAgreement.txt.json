@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_OutsourcingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "b) Customer shall be responsible for obtaining all necessary import and/or export licenses or permits and for the payment of all import and/or export fees, taxes or duties in connection with the purchase and/or delivery of the Product under this Agreement. Supplier shall reasonably cooperate with Customer in connection with obtaining necessary import and/or export licenses or permits.",
+                "changed_text": "b) Customer shall assist Supplier in obtaining necessary import and/or export licenses or permits and shall cover the expenses for obtaining necessary import and/or export licenses, and Supplier shall ultimately be responsible for the payment of all import and/or export fees, taxes or duties in connection with the purchase and/or delivery of the Product under this Agreement. Supplier shall reasonably cooperate with Customer in connection with obtaining necessary import and/or export licenses or permits.",
+                "explanation": "This contradicts standard international trade law, where the buyer (Customer) is generally responsible for import duties and taxes. By shifting this responsibility to the supplier (even while requiring customer assistance), the clause creates uncertainty and potential unenforceability under international commercial terms (Incoterms).",
+                "contradicted_law": "Incoterms, International Trade Law",
+                "location": "Section 16.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "aa) \"Product\" means the compound product as described in Exhibit A satisfying the Product Specifications; bb) \"Product Specifications\" means the specifications for the Product set forth in the Quality Agreement, as such may be amended from time to time in accordance with its terms;",
+                "changed_text": "aa) \"Product\" means the compound product as generally understood in the industry; bb) \"Product Specifications\" means the general guidelines for the Product that may or may not align with the Quality Agreement, and may or may not be amended from time to time in accordance with the Quality Agreement terms;",
+                "explanation": "By modifying the definition of 'Product' to be something only 'generally understood' and stating that 'Product Specifications' only 'may or may not' align with the Quality Agreement, the change is meant to introduce significant ambiguity. This misaligns with standard contract law, where specifications must be clear and definite, especially for regulated products, and contradicts the purpose of a Quality Agreement. The contract becomes very hard to enforce, because the key details can vary without the change following a set procedure.",
+                "contradicted_law": "General Contract Law (Clarity and Definiteness of Terms), Quality Standards and Agreements",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "11.3 Grant of License by Customer During the Term, Customer hereby grants to Supplier a paid-up, royalty-free, non-exclusive license, without the right to sublicense, to Customer's Confidential Information and the Customer Technology reasonably necessary to Manufacture and supply to Customer the Product hereunder, but only for such purposes.",
+                "changed_text": "11.3 Grant of License by Customer During the Term, Customer hereby grants to Supplier a non-paid, royalty-bearing, exclusive license, with the right to sublicense, to Customer's Confidential Information and the Customer Technology reasonably necessary to Manufacture and supply to Customer the Product hereunder, but only for such purposes.",
+                "explanation": "This change transforms a 'paid-up, royalty-free, non-exclusive' license into a 'non-paid, royalty-bearing, exclusive' one, directly contradicting the original licensing terms. By changing the exclusive license with the right to sublicense, now Supplier can make profit with other manufacturers. This alteration could create enforceability issues, as it fundamentally changes the scope and nature of the license granted. Moreover, if the Supplier sublicenses the Customer Technology or Confidential Information to others and the Customer does not receive royalties, they could be in breach of IP laws.",
+                "contradicted_law": "Intellectual Property Law, Licensing Agreements",
+                "location": "Section 11.3"
+            }
+        ]
+    }
+]

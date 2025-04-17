@@ -1,0 +1,31 @@
+[
+    {
+        "file_name": "INKTOMICORP_06_08_1998-EX-10.14-SOFTWARE HOSTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.3  \"Hosting Servers\" shall mean those servers (including both the search engine cluster and the crawling cluster) and other hardware and third party software identified in the Deployment, Hosting and Maintenance Specifications that shall be used to host or service the Microsoft Search Engine and Usage Data.",
+                "changed_text": "1.3  \"Hosting Servers\" shall mean those servers (including both the search engine cluster and the crawling cluster) and other hardware and third party software generally used for data processing and storage.",
+                "explanation": "The original definition specifically ties the term \"Hosting Servers\" to the Microsoft Search Engine and Usage Data. The modified definition broadens the term, removing the specific tie to Microsoft and potentially including servers used for other purposes. This creates ambiguity, potentially allowing Inktomi to use the same servers for other clients, impacting the agreed-upon service level for Microsoft, contradicting the specifically defined purpose.",
+                "contradicted_law": "Contract Law - Ambiguity and Interpretation",
+                "location": "Section 1.3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.12 \"Usage Data\" means such data as Inktomi may collect relating to the usage of (i) the Product by Microsoft and end users, and/or (ii) the Hosting Servers.",
+                "changed_text": "1.12 \"Usage Data\" means any data collected by Inktomi.",
+                "explanation": "The initial definition confines 'Usage Data' to data related to the Product's use by Microsoft and its end-users, as well as the Hosting Servers. The modified definition, 'any data collected by Inktomi,' broadens the scope considerably, potentially including data unrelated to the agreement. This introduces ambiguity and contradicts the original narrow definition, which may have implications for data ownership, privacy, and reporting obligations, contravening the specified limitations.",
+                "contradicted_law": "Contract Law - Scope of Definition",
+                "location": "Section 1.12"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "2.5  Inktomi shall strictly adhere to all Security Measures in performing the Services, including without limitation securing the Usage Data, which it may possess or have under its control from time to time, from unauthorized access and modification.",
+                "changed_text": "2.5  Inktomi shall adhere to general industry standards for data security.",
+                "explanation": "The original clause mandates strict adherence to \"all Security Measures,\" specifically securing \"Usage Data\" from unauthorized access. By contrast, the modification replaces this specific obligation with a more ambiguous 'general industry standards for data security'. This vagueness weakens Inktomi's obligation, potentially leading to disputes over what constitutes adequate security and undermining the intended protection of Microsoft's data, conflicting with the explicitly defined responsibilities.",
+                "contradicted_law": "Contract Law - Duty of Care and Specific Performance",
+                "location": "Section 2.5"
+            }
+        ]
+    }
+]
