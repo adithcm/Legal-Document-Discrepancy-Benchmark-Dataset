@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINTVENTUREAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The business name of the Venture will be BM&V2GO.",
+                "changed_text": "The business name of the Venture will be BM&V2GO, however the partnership name will be Vaccines2Go.",
+                "explanation": "By adding 'however the partnership name will be Vaccines2Go' it creates confusion about which name represents the actual venture in legal and operational contexts. This directly contradicts subsequent references to the venture using 'BM&V2GO' in the agreement, creating uncertainty and a potential legal dispute about the entity's identity.",
+                "location": "2",
+                "contradicted_location": "6",
+                "contradicted_text": "The principal office of the business of the Venture will be located at 512 Bayshore Drive Suite 201 Fort Lauderdale, FL 33304 or such other place as the Members may from time to time designate."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Each of the Members has contributed to the capital of the Venture, in cash or property in agreed upon value, as follows (the \"Capital Contribution\"):\nMember Contribution Description Agreed Value\nBorrowMoney.com, inc 1, 500 square feet of Leased/rent office Space Includingspecified Description of duty* $3,500,000.00 USD\nJVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue, In Add i t i on to The To ta l Contributions. $3,500,000.00 USD",
+                "changed_text": "Each of the Members has contributed to the capital of the Venture, in cash or property in agreed upon value, as follows (the \"Capital Contribution\"):\nMember Contribution Description Agreed Value\nBorrowMoney.com, inc 1, 500 square feet of Leased/rent office Space Includingspecified Description of duty* $3,500.00 USD\nJVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue, In Add i t i on to The To ta l Contributions. $3,500,000.00 USD",
+                "explanation": "Reducing BorrowMoney.com, inc's capital contribution from $3,500,000.00 to $3,500.00 creates a significant imbalance in capital contributions between the members. This directly contradicts section 38 which stipulates distribution of liquidation assets will be made in proportion to capital accounts. This perturbation creates financial ambiguity and potential disputes during the Venture's dissolution.",
+                "location": "15",
+                "contradicted_location": "38",
+                "contradicted_text": "On the liquidation of the Venture assets, distribution of any amounts to Members will be made in proportion to their respective capital accounts or as otherwise may be agreed in writing."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Any management vote required will be determined such that each Manager receives one vote carrying equal weight.",
+                "changed_text": "Any management vote required will be determined such that each Manager receives one vote carrying equal weight, unless otherwise decided by BorrowMoney.com inc.",
+                "explanation": "The addition of 'unless otherwise decided by BorrowMoney.com inc.' gives BorrowMoney.com, inc unilateral power over management voting. This creates contradiction with Section 8 as now Managers cannot be appointed, replaced, or removed upon unanimous consent of the Members.",
+                "location": "42",
+                "contradicted_location": "8",
+                "contradicted_text": "Except as otherwise provided in this Agreement, the individual Managers may be appointed, replaced, or removed upon unanimous consent of the Members."
+            }
+        ]
+    }
+]

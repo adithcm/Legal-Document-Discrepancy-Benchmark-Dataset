@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "WHEREAS, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound by.",
+                "changed_text": "WHEREAS, the Member, by virtue of his or her position with Franchisee, may gain access to certain of Franchisor's Confidential Information, as defined herein, but the extent to which they are bound by the same confidentiality and non-competition agreement as the Franchisee will be determined on a case-by-case basis by the Franchisor.",
+                "explanation": "This change introduces an in-text contradiction by altering the binding nature of the non-disclosure agreement for the member. The original text states the member 'must therefore be bound' while the modified text introduces uncertainty by stating it will be decided 'on a case-by-case basis'. This directly contradicts section 6, which designates the Franchisor as a third-party beneficiary with the right to enforce the agreement, implying a consistent, binding agreement, not one subject to individual discretion.",
+                "location": "APPENDIX C",
+                "contradicted_location": "APPENDIX C",
+                "contradicted_text": "6. Third-Party Beneficiary. Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee."
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(c) Member covenants and agrees that during the Post-Term Period (defined below), except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a three (3) mile radius of the premises of your Franchised Business or within a three (3) mile radius of any Franchised Business then-operating or under construction to operate under the System.",
+                "changed_text": "(c) Member covenants and agrees that during the Post-Term Period (defined below), Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a three (3) mile radius of the premises of your Franchised Business or within a three (3) mile radius of any Franchised Business then-operating or under construction to operate under the System. Franchisor approval is not required.",
+                "explanation": "This change removes the clause 'except as otherwise approved in writing by Franchisor' from the non-compete agreement. This contradicts the original intent of franchisor's control over the member's competitive activities after the agreement concludes, as written in the agreement's overview where it's specified that the member must be bound to the non-compete agreement as the Franchisee is. This introduces an in-text contradiction by implying the member can engage in competitive business within the specified radius without needing approval from the Franchisor, creating an inconsistency in the enforcement of the non-compete clause, due to the changing of the agreement after it was stated that the member must be bound to the same rules.",
+                "location": "APPENDIX C",
+                "contradicted_location": "APPENDIX C",
+                "contradicted_text": "WHEREAS, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound by."
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "changed_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee.",
+                "explanation": "This change removes the section (d) from the definition of the post-term period, which involves a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement. By removing this point, it introduces an in-text contradiction with section 3 regarding Injunctive Relief, where the Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury. This point contradicts the removal, since the arbitrator, panel of arbitrators, or a court of competent jurisdiction is no longer included in the 'Post-Term Period' definition, which impacts the overall agreement and its enforcement.",
+                "location": "APPENDIX C",
+                "contradicted_location": "APPENDIX C",
+                "contradicted_text": "3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement."
+            }
+        ]
+    }
+]

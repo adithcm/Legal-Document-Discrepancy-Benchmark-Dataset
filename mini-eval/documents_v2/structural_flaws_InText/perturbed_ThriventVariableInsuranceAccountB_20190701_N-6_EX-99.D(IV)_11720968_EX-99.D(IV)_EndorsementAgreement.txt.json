@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society becomes impaired, you may be required to make an extra payment. The Board of Directors will determine the amount of any extra payment. It will be based on each member's fair share of the deficiency. You may make the extra payment by an equivalent reduction in benefits or by a payment in cash. If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged as an indebtedness against the contract with interest compounded at the rate of 5% per year.",
+                "changed_text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society becomes impaired, you MAY be required to make an extra payment. The Board of Directors will determine the amount of any extra payment. It will be based on each member's fair share of the deficiency. You MAY make the extra payment by an equivalent reduction in benefits or by a payment in cash. If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged as an indebtedness against the contract with interest compounded at the rate of 5% per year. However, the Society reserves the right to waive this indebtedness at its sole discretion.",
+                "explanation": "The original text states the extra payment for solvency maintenance 'will be charged as an indebtedness'. The modified text adds 'However, the Society reserves the right to waive this indebtedness at its sole discretion.' This creates an in-text contradiction because the original states it will be charged, which implies a requirement, while the addendum provides an escape clause that creates uncertainty if the indebtedness is actually charged or not.",
+                "location": "MAINTENANCE OF SOLVENCY Section",
+                "contradicted_location": "MAINTENANCE OF SOLVENCY Section",
+                "contradicted_text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society becomes impaired, you MAY be required to make an extra payment. The Board of Directors will determine the amount of any extra payment. It will be based on each member's fair share of the deficiency. You MAY make the extra payment by an equivalent reduction in benefits or by a payment in cash. If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged as an indebtedness against the contract with interest compounded at the rate of 5% per year. However, the Society reserves the right to waive this indebtedness at its sole discretion."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited.",
+                "changed_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. While it is not expected that this contract contribute to divisible surplus, dividends MAY BE credited at the Society's discretion.",
+                "explanation": "The original states: 'Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited'. The modified version contradicts this statement by adding: 'dividends MAY BE credited at the Society's discretion.' The term 'MAY BE' directly contradicts the initial statement that it's 'not expected' that any dividends will be credited. It provides an uncertain middle ground that introduces ambiguity.",
+                "location": "DIVIDENDS Section",
+                "contradicted_location": "DIVIDENDS Section",
+                "contradicted_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. While it is not expected that this contract contribute to divisible surplus, dividends MAY BE credited at the Society's discretion."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "ASSIGNMENT The ASSIGNMENT section is amended to include the following: You may transfer ownership of this contract in accordance with our bylaws. Society membership rights and privileges cannot be transferred or assigned.",
+                "changed_text": "ASSIGNMENT The ASSIGNMENT section is amended to include the following: You may transfer ownership of this contract in accordance with our bylaws, unless otherwise restricted by applicable law or the Society's policies. Society membership rights and privileges cannot be transferred or assigned.",
+                "explanation": "The original text allows for the transfer of ownership. The modified version adds: 'unless otherwise restricted by applicable law or the Society's policies'. This creates an in-text contradiction because the first sentence gives a right and the second sentence immediately takes that right away given on a condition that its applicable by other restriction. Now the original rule isn't fully upheld and instead created uncertain if ownership can be transferred or not.",
+                "location": "ASSIGNMENT Section",
+                "contradicted_location": "ASSIGNMENT Section",
+                "contradicted_text": "ASSIGNMENT The ASSIGNMENT section is amended to include the following: You may transfer ownership of this contract in accordance with our bylaws, unless otherwise restricted by applicable law or the Society's policies. Society membership rights and privileges cannot be transferred or assigned."
+            }
+        ]
+    }
+]

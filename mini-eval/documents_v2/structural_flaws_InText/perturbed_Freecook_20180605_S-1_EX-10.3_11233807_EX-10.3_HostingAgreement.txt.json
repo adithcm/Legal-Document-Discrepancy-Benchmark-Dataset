@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client.",
+                "changed_text": "Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that all due dates set forth in the Scope of Work are guaranteed by the Company, regardless of whether the company receives required materials, documentation, or approvals in a timely fashion from the client. Delays will not affect the due dates.",
+                "explanation": "This perturbation introduces a contradiction by stating that due dates are 'guaranteed' regardless of client delays, directly contradicting the original text that allowed for delays if the client did not provide materials promptly. This creates confusion and uncertainty. Section 1(b) originally states that project timelines are subject to client dependencies. The modified text now states timelines are guaranteed irrespective of client action, contradicting the original clause in the same section.",
+                "location": "1(b)",
+                "contradicted_location": "1(b)",
+                "contradicted_text": "Due Dates and Delays. Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that all due dates set forth in the Scope of Work are guaranteed by the Company, regardless of whether the company receives required materials, documentation, or approvals in a timely fashion from the client. Delays will not affect the due dates. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
+                "changed_text": "Company is obligated to continue providing Customer Service throughout the duration of this agreement, and may not alter or cease providing Customer Service. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
+                "explanation": "This perturbation creates a direct contradiction in Section 4. First, it states that the company is obligated to provide Customer Service and cannot stop, but then repeats the original clause that the Company may, at its sole discretion, cease providing Customer Service, which causes uncertainty in enforcement for Customer Service. The altered text now has a contradiction because the statement the company is obligated to provide Customer Service is followed by the original clause where the company is not obligated to provide Customer Service.",
+                "location": "4",
+                "contradicted_location": "4",
+                "contradicted_text": "Customer Service. Company, either directly or through its authorized service provider, shall provide customer service (the \"Customer Service\") relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is not obligated to provide any Customer Service except as specified in this Section. Company is obligated to continue providing Customer Service throughout the duration of this agreement, and may not alter or cease providing Customer Service. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+                "changed_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work. However, the Client can pay the remaining amount at any time, or in multiple installments, before the Scope of Work completion.",
+                "explanation": "This change introduces a contradiction in Section 2 regarding payment terms. The original states the remaining balance is due upon completion. The added sentence allows the client to pay anytime before completion, including in installments. This creates uncertainty around the payment schedule. This contradicts the statement that the remaining amount of $3,100 needs to be paid on completion.",
+                "location": "2",
+                "contradicted_location": "2",
+                "contradicted_text": "Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work. However, the Client can pay the remaining amount at any time, or in multiple installments, before the Scope of Work completion. 3. Business Hours; Rush Work. Company representatives are available during Company's normal business hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday."
+            }
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINTVENTUREAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The duration of this Venture (the \"Term\") will begin on March 1, 2020 and continue in full force and effect until February 28, 2025 or as otherwise provided in this Agreement.",
+                "changed_text": "The duration of this Venture (the \"Term\") will begin on March 1, 2020 and continue in full force and effect until February 28, 2025, unless terminated earlier by mutual agreement of the Managers.",
+                "explanation": "This change introduces ambiguity by stating the term can be ended by \"mutual agreement of the Managers.\" This contradicts section 36a which states the Venture will be dissolved and its assets liquidated in the event of the Term expires and is not extended, creating an in-text contradiction. Now the Term can either expire or it can be terminated earlier by Managers",
+                "location": "4",
+                "contradicted_location": "36",
+                "contradicted_text": "The Venture will be dissolved and its assets liquidated in the event of any of the following: a. the Term expires and is not extended; b. a unanimous vote by the Members to dissolve the Venture; c. on satisfaction of the Purpose; d. loss or incapacity through any means of substantially all of the Venture's assets; or e. where only one Member remains."
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Managers will jointly decide major issues concerning the Venture. Where Managers are unable to reach agreement in deciding major issues, approval by a majority vote of the Members at a regular or special meeting will be required.",
+                "changed_text": "The Managers will jointly decide major issues concerning the Venture. Where Managers are unable to reach agreement in deciding major issues, approval by a majority vote of the Managers will be required.",
+                "explanation": "This change introduces ambiguity and in-text contradiction by stating that if the Managers are unable to reach an agreement on major issues, a majority vote of the Managers will be required. This contradicts section 28 which states “Any vote required by the Members will be determined such that each Member receives one vote carrying equal weight.” Now it is not clear whether a majority vote by Managers or Members will be required.",
+                "location": "11",
+                "contradicted_location": "28",
+                "contradicted_text": "Any vote required by the Members will be determined such that each Member receives one vote carrying equal weight."
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Capital Contributions may be amended from time to time, according to the requirements of the Venture, by decision of the Members as recommended by the Managers. Where Members' interests are affected, additional capital contributions (the \"Additional Capital Contributions\") must have the unanimous consent of the Members.",
+                "changed_text": "Capital Contributions may be amended from time to time, according to the requirements of the Venture, by decision of the Managers. Where Members' interests are affected, additional capital contributions (the \"Additional Capital Contributions\") must have the unanimous consent of the Managers.",
+                "explanation": "This change introduces ambiguity and in-text contradiction by stating that Capital Contributions will be amended from time to time by decision of the Managers. This contradicts section 29 which states “This Agreement may be amended only with the unanimous consent of all Members.” Now it is not clear whether decision of Members or Managers are required to amend Capital Contributions.",
+                "location": "19",
+                "contradicted_location": "29",
+                "contradicted_text": "This Agreement may be amended only with the unanimous consent of all Members."
+            }
+        ]
+    }
+]

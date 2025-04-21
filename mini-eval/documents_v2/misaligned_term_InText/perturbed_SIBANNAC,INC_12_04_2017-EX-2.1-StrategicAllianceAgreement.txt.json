@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "SIBANNAC,INC_12_04_2017-EX-2.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Bravatek agrees to serve as a non-exclusive project sales lead finder for COMPANY. In this capacity, Bravatek will use its best efforts to provide the following services to COMPANY. a. Promote, market and introduce the Products to prospective clients in the government space nationwide.",
+                "changed_text": "Bravatek agrees to serve as a non-exclusive project sales lead generator for COMPANY. In this capacity, Bravatek will use its reasonable efforts to provide the following services to COMPANY. a. Promote, market and introduce the Services to prospective clients in the government space nationwide.",
+                "explanation": "The term \"lead finder\" is replaced with \"lead generator,\" and the phrase \"best efforts\" is replaced with \"reasonable efforts.\" Additionally, the word \"Products\" has been changed to \"Services.\" This introduces ambiguity and contradiction because later sections refer to \"Products\" and impose obligations based on \"best efforts.\" Now it's unclear if Bravatek's obligations are tied to finding leads, generating them, providing Products or Services and whether they must use 'best' or 'reasonable' efforts. This change introduces uncertainty and thus a contradiction.",
+                "location": "1",
+                "contradicted_location": "2",
+                "contradicted_text": "COMPANY agrees to use its best efforts to promote and support project lead finding and after-sales support of Bravatek by: a. Listing Bravatek in all appropriate sales and marketing materials as a non-exclusive alliance partner (with focus of government customers) b. Provide timely responses to both technical and administrative questions posed by Bravatek. c. Promote Bravatek's product and service offerings whenever possible. d. Aid Bravatek in the writing of any technical/marketing/sales documents when requested and participate in mutually-agreed upon sales calls. e. Provide Bravatek with co-branded marketing material that can be emailed or handed to prospective clients."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "When custom Products are designed, developed and to be delivered to Bravatek-identified perspective clients, the parties shall agree to a proposed sales price for use during the project in writing prior to the commencement of each project.",
+                "changed_text": "When custom Solutions are designed, developed and to be delivered to Bravatek-identified perspective clients, the parties shall agree to a proposed sales price for use during the project orally prior to the commencement of each project.",
+                "explanation": "The term \"Products\" is replaced with \"Solutions\" which contradicts the initial section that states that \"Bravatek agrees to serve as a non-exclusive project sales lead finder for COMPANY. In this capacity, Bravatek will use its best efforts to provide the following services to COMPANY. a. Promote, market and introduce the Products to prospective clients in the government space nationwide.\" Further, the mode of agreement is being changed from \"in writing\" to \"orally\", which introduces ambiguity and contradiction because later sections refer to \"written\" agreements, especially clause 11 which states \"No changes or modifications of this Agreement or any of its terms shall be deemed effective unless in writing and executed by the parties hereto.\"",
+                "location": "4",
+                "contradicted_location": "11",
+                "contradicted_text": "No changes or modifications of this Agreement or any of its terms shall be deemed effective unless in writing and executed by the parties hereto."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 30 days after each client payment on delivered products received at COMPANY's bank account.",
+                "changed_text": "For any Service or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via telephone to COMPANY's CFO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the fixed rate of 15% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 60 days after each client payment on delivered products received at COMPANY's bank account.",
+                "explanation": "The term \"Product\" is replaced with \"Service,\" the method of registration is changed from \"email to CEO\" to \"telephone to CFO,\" the fee determination changes from a \"range of 10-20% mutually discussed\" to a \"fixed rate of 15%\", and the payment term changes from \"NET 30 days\" to \"NET 60 days.\" This creates an in-text contradiction and uncertainty. It is now ambiguous which specific products/services/solutions attract fees, who needs to be contacted to register, and the amount and timing of the fee payments. This is contradictory because earlier sections imply a different agreement process and compensation structure. It also contradicts the following sentence \"the parties shall agree to a proposed sales price for use during the project in writing prior to the commencement of each project.\"",
+                "location": "4",
+                "contradicted_location": "4",
+                "contradicted_text": "When custom Products are designed, developed and to be delivered to Bravatek-identified perspective clients, the parties shall agree to a proposed sales price for use during the project in writing prior to the commencement of each project."
+            }
+        ]
+    }
+]
