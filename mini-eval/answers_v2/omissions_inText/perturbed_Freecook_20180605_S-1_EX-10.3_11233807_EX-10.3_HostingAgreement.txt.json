@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_HostingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A. (a) Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". The costs of any such changes shall be added to the Contract Price. Additional Work shall be defined as the addition or revision of pages, graphics, or other features, any text, graphic or page design or programming requiring more than two rounds of textual or graphical revisions, substantial revisions to text and/or content provided by Client, changes to elements which have been finalized, or significant changes in the Scope of Work.",
+                "changed_text": "Client agrees to pay to Company to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A. (a) Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". Additional Work shall be defined as the addition or revision of pages, graphics, or other features, any text, graphic or page design or programming requiring more than two rounds of textual or graphical revisions, substantial revisions to text and/or content provided by Client, changes to elements which have been finalized, or significant changes in the Scope of Work.",
+                "explanation": "By removing the defined 'Contract Price' of $5,000, and leaving in section 2 that the Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work, will cause an in-text contradiction. The total sum will no longer be legally supported in section 1, where it stated it was $5,000. Section 2 now has no legal support on the 'Contract Price' as it isn't defined. This affects the enforceability of the amount owed upon completion of work",
+                "location": "1",
+                "contradicted_location": "2",
+                "contradicted_text": "Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Company will not make any attempt to proof read or correct any contextual, grammatical or typographical errors in the written content submitted by Client. It is Client's sole responsibility to check the accuracy of the written content and correct any errors prior to submission for final publication. Company will assume that all the written content submitted by Client has been proofread and is ready for publication. Client may elect to pay Company the Hourly Rate set forth below to type and proofread any written content not submitted in the electronic formats specified above.",
+                "changed_text": "Company will not make any attempt to proof read or correct any contextual, grammatical or typographical errors in the written content submitted by Client. It is Client's sole responsibility to check the accuracy of the written content and correct any errors prior to submission for final publication. Company will assume that all the written content submitted by Client has been proofread and is ready for publication. Client may elect to pay Company to type and proofread any written content not submitted in the electronic formats specified above.",
+                "explanation": "The removal of 'the Hourly Rate set forth below' introduces an in-text contradiction. This is due to the term 'Hourly Rate' not being defined anywhere else in the contract. This creates an ambiguity in terms of costs. The contradiction affects the ability to enforce payment for typing and proofreading, especially in the case of disputes where there is no clear agreement.",
+                "location": "1",
+                "contradicted_location": "3",
+                "contradicted_text": "Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work shall be the standard hourly rate of $40 plus twenty-five percent (25%)."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work shall be the standard hourly rate of $40 plus twenty-five percent (25%).",
+                "changed_text": "Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work shall be the hourly rate plus twenty-five percent (25%).",
+                "explanation": "By removing the standard hourly rate definition ($40), the changed text creates an in-text contradiction, due to the Hourly Rate not being defined. This will affect payment disputes, as it creates uncertainty.",
+                "location": "3",
+                "contradicted_location": "1",
+                "contradicted_text": "Client may elect to pay Company to type and proofread any written content not submitted in the electronic formats specified above."
+            }
+        ]
+    }
+]
