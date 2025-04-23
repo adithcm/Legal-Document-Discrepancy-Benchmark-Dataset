@@ -1,29 +1,26 @@
 [
     {
-        "section": "1. DEFINITIONS. Capitalized terms used, but not defined herein, shall have the meaning provided in the Strategic Alliance Agreement. The following terms, as used herein, have the following meaning: 1.1. \"Accuray Regions\" means Accuray's sales regions specifically for CyberKnife products and services (as of the Effective Date) of the Americas (North America and South America), APAC (Asia Pacific, excluding Australia, India, and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan.",
-        "explanation": "The definition of \"Accuray Regions\" creates ambiguity because it defines APAC as \"Asia Pacific, excluding Australia, India, and Japan\". It is unclear if the defined term is correct or if this was a mistake.",
-        "location": "1.1",
-        "category": 1,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": true
+        "section": "1.1. \"Accuray Regions\" means Accuray's sales regions specifically for CyberKnife products and services (as of the Effective Date) of the Americas (North America and South America), APAC (Asia Pacific, excluding Australia, India, and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan.",
+        "explanation": "The definition of \"Accuray Regions\" excludes Australia, India, and Japan from APAC, but then includes Japan as a separate region. This is an in-text contradiction as Japan cannot be both excluded from and included as a region.",
+        "location": "Section 1.1",
+        "category": 3,
+        "location_match": true,
+        "text_match": false
     },
     {
-        "section": "Independent Distributor. Distributor shall be and must at all times make it clear that it is an independent entity contracting with Accuray, and is not the employee, representative or agent of Accuray, except when explicitly authorized by Accuray in writing. Distributor does not have the ability or authority to enter into any legal agreements or obligations that would bind Accuray in any manner, unless such authority is expressly delegated to the Distributor by Accuray.",
-        "explanation": "This section is ambiguous because it's unclear what \"explicitly authorized by Accuray in writing\" means, which leads to the possibility of confusion. It's also unclear to what extent the distributor can act on behalf of Accuray.",
-        "location": "3.1",
-        "category": 1,
+        "section": "Accuray shall either accept or reject such Purchase Order within two weeks after receipt thereof, with any failure to approve or disapprove of such Purchase Order in such period constituting disapproval. Each purchase of Accuray Components and Interfaces shall be accomplished and a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray.",
+        "explanation": "The first sentence indicates that a failure to respond to a Purchase Order within two weeks constitutes a disapproval. However, the second sentence states that a Purchase Order may be accepted by the execution of the Purchase Order by an authorized representative of Accuray, implying an active acceptance is required. This creates ambiguity because if no one responds within two weeks, it is deemed unapproved, but the second sentence says it is only accepted once an authorized representative of Accuray signs the Purchase Order.",
+        "location": "Section 2.3.3",
+        "category": 3,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": true
+        "text_match": false
     },
     {
-        "section": "Fulfillment and Shipment. 4.1.1. Fulfillment of Executed Purchase Orders. Accuray is responsible for ensuring that the Products supplied meet minimum quality standards. Accuray will endeavor to provide to Distributor or Customer, as applicable, in a timely manner those Products and Services required to fill confirmed Purchase Orders received from Distributor in accordance with the terms of this Agreement.",
-        "explanation": "The first sentence of section 4.1.1 is a statement that creates obligations and accountabilities, while the second sentence uses language that does not create obligations and accountabilities. The word choice \"will endeavor to provide\" is weak and does not suggest an actual obligation.",
-        "location": "4.1",
-        "category": 1,
+        "section": "The warranties set forth in this Section 4.6 shall be void 9 and of no further effect in the event of abuse, accident, alteration, misuse or neglect of Products, including but not limited to user modification of the operating environment specified by Accuray and user modification of any software.",
+        "explanation": "The sentence is structurally flawed and doesn't make sense due to the number 9 in the beginning of the sentence.",
+        "location": "Section 4.6.5",
+        "category": 9,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": false
     }
 ]

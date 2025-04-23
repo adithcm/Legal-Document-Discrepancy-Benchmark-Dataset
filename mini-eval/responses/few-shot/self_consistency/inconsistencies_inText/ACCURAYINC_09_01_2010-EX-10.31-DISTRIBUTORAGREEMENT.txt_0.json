@@ -1,29 +1,26 @@
 [
     {
-        "section": "Past due balances on any reasonably undisputed amount shall bear interest at the rate of 1.0% per month or, if lower, the maximum amount permitted by applicable law.If Distributor is a \"business person\" (as defined in  14 of the German Civil Code, \"BGB\"), the payment shall be deemed past due only if Distributor fails to pay in response to a payment demand note received after payment becomes due.",
-        "explanation": "There is an ambiguity in the text. The first sentence establishes a general rule for interest on past due balances, while the second sentence introduces a condition specific to 'business person' distributors under German law. It's unclear if the interest rate in the first sentence still applies to the German 'business person' distributor, or if the second sentence overrides it entirely, dictating that no interest applies until a payment demand note is issued and ignored.",
-        "location": "5.4.1",
-        "category": 1,
+        "section": "2.3.2. Quote. Following receipt of Distributor's Quote request, Accuray will determine whether to approve the issuance of a Quote related to such request. Such determination shall be made in accordance with and subject to the conditions set forth in Schedule 2.3.2 attached hereto. If Accuray approves the issuance of a Quote, Accuray shall issue a Quote to Distributor based on the Product configuration and Services requested by the Customer, including pricing for such Products and Services as provided in Section 2.2 above. The Quote issued by Accuray in relation to a Customer opportunity shall serve as the basis of any offer made by Distributor to that Customer and shall remain valid for at least six months (unless earlier declined by Distributor), and Distributor shall submit an amended Quote request to Accuray in the event adjustments to a Quote are requested by the Customer. Any such amended Quote request from Distributor shall again be subject to the Accuray approval process set forth in this Section 2.3.2.",
+        "explanation": "This section states that a Quote issued by Accuray will remain valid for at least six months. However, Section 2.2.1 states that price lists are subject to change from time to time in Accuray's sole discretion. This creates a contradiction because Accuray could change the price list, effectively making the existing Quote invalid before the six-month period has expired. It is inconsistent in text.",
+        "location": "Section 2.3.2",
+        "category": 3,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": false
     },
     {
-        "section": "The remaining balance is due net 60 days after delivery by Accuray at the specified F.C.A. location pursuant to Section 4.1.2 and receipt by Distributor of a reasonably undisputed invoice.",
-        "explanation": "The condition 'receipt by Distributor of a reasonably undisputed invoice' introduces uncertainty. If the invoice is disputed (even reasonably), it is unclear when the payment is due, creating ambiguity in payment terms.",
-        "location": "5.4.1.2.2",
-        "category": 1,
+        "section": "3.6. Purchase Schedule. For each sale completed by Distributor, the resulting contract for the sale of Products shall be between Distributor and the Customer and the Service Agreement, if any, shall be between Accuray and the Customer or Accuray and the Distributor, as determined pursuant to Section 4.8. For each such sale, Distributor must send a Purchase Order to Accuray at least six (6) months prior to the expected shipment date.",
+        "explanation": "This section requires the Distributor to send a Purchase Order to Accuray at least six months prior to the expected shipment date. However, section 4.1.2 states that 'Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor.' This creates an in-text inconsistency of text.",
+        "location": "Section 3.6",
+        "category": 3,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": true
+        "text_match": false
     },
     {
-        "section": "Products, Spare Parts and Upgrade Payments. Full payment of the purchase price for Products (other than Systems), Spare Parts and upgrades shall be made by Distributor to Accuray in US Dollars by wire transfer to a bank selected by Accuray and is due net 45 days after delivery by Accuray at the specified F.C.A. location pursuant to Section 4.1.2 and receipt by Distributor of a reasonably undisputed invoice. Accuray shall bear the cost of any commission charge for a wire transfer.",
-        "explanation": "The condition 'receipt by Distributor of a reasonably undisputed invoice' introduces uncertainty. If the invoice is disputed (even reasonably), it is unclear when the payment is due, creating ambiguity in payment terms.",
-        "location": "5.4.2",
-        "category": 1,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "section": "5.4.1.2.2. The remaining balance is due net 60 days after delivery by Accuray at the specified F.C.A. location pursuant to Section 4.1.2 and receipt by Distributor of a reasonably undisputed invoice.",
+        "explanation": "This section states that the remaining balance is due net 60 days after delivery and receipt of a reasonably undisputed invoice. However, 5.4.2 states that full payment is due net 45 days after delivery and receipt of a reasonably undisputed invoice. This is inconsistent in text.",
+        "location": "Section 5.4.1.2.2",
+        "category": 3,
+        "location_match": true,
+        "text_match": false
     }
 ]

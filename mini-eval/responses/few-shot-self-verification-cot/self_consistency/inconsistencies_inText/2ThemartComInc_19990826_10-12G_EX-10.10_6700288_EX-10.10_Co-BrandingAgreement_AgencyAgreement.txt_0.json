@@ -1,29 +1,26 @@
 [
     {
-        "section": "After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter. The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), unilaterally by 2TheMart without requiring i-Escrow's consent. The Adjusted Rate will be communicated to i-Escrow and will be effective immediately.",
-        "explanation": "This section is problematic because it allows 2TheMart to unilaterally change the advertising fees paid by i-Escrow. The initial agreement sets a formula (0.025% multiplied by the average transaction amount), but this can be changed by 2TheMart at any time, without requiring i-Escrow's consent, with the new rate being effective immediately. This creates a significant imbalance in the agreement and gives 2TheMart the power to arbitrarily increase costs for i-Escrow, potentially making the arrangement economically unviable for them. The phrase 'unilaterally by 2TheMart without requiring i-Escrow's consent' directly contradicts the implied principle of mutual agreement in contractual terms, creating a high degree of financial risk for i-Escrow. This contradicts what a reasonable person could expect.",
-        "location": "5.1",
-        "category": 2,
-        "location_match": false,
-        "text_match": true,
-        "explanation_match": true
-    },
-    {
-        "section": "Upon expiration or termination of this Agreement for any reason: (a) all rights granted herein shall terminate, (b) i-Escrow shall pay all amounts owed to 2TheMart within thirty (30) days of termination, and (c) each party shall remove the other party's content and Marks from their servers. Notwithstanding the foregoing, even if this Agreement was terminated for a material breach, all provisions of this Agreement shall survive to the extent necessary for i-Escrow to complete any Customer transactions which are pending at the time of expiration or termination. Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall not survive expiration or termination of this Agreement.",
-        "explanation": "This section is contradictory because it states that 'Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall not survive expiration or termination of this Agreement,' but Section 8.5 *is* the section being described. This creates an internal contradiction because the initial statement indicates that all rights terminate, yet an exception is made for pending transactions, requiring certain provisions to survive. But then it also states that Section 8.5 will not survive. This conflict can create uncertainty in determining the obligations of the parties after termination, especially concerning outstanding transactions.",
-        "location": "8.5",
+        "section": "4.1 Payments of Alliance Funding applicable to a Study will be made according to the terms specified in Sections 1.3 and 1.4 above.  Notwithstanding any other provision, all invoices must be paid within 15 days of receipt.",
+        "explanation": "This creates an in-text contradiction. The first sentence states that payments will be made according to Sections 1.3 and 1.4. Then the second sentence states that payment is due within 15 days of reciept of invoice. The sections 1.3 and 1.4 should have that information, and not create a contradictory statement in section 4.1.",
+        "location": "Section 4.1",
         "category": 3,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": true
+        "text_match": false
     },
     {
-        "section": "Each party (the \"Indemnifying Party\") shall indemnify the other party (the \"Indemnified Party\") against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which the Indemnified Party may incur as a result of claims in any form by third parties arising from the Indemnifying Party's acts, omissions or misrepresentations to the extent that the Indemnified Party is deemed a principal of the Indemnifying Party. In addition, 2TheMart shall indemnify i-Escrow against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which i-Escrow may incur as a result of claims in any form by third parties arising from 2TheMart Content. In addition, i-Escrow shall indemnify 2TheMart against any and all claims, losses, costs and expenses, including reasonable attorneys' fees, which 2TheMart may incur as a result of claims in any form by third parties arising from i-Escrow Source: 2THEMART COM INC, 10-12G, 8/26/1999 Content and or the Services provided to Customers. The foregoing obligations are conditioned on the Indemnified Party: (i) giving the Indemnifying Party notice of the relevant claim, (ii) cooperating with the Indemnifying Party, at the Indemnifying Party's expense, in the defense of such claim, and (iii) giving the Indemnifying Party the right to control the defense and settlement of any such claim, except that the Indemnifying Party shall not enter into any settlement that affects the Indemnified Party's rights or interest without the Indemnified Party's prior written approval. The Indemnified Party shall have the right to participate in the defense at its expense.",
-        "explanation": "The initial sentence in this section limits the scope of the indemnity to situations where the Indemnified Party is 'deemed a principal of the Indemnifying Party.' This significantly restricts the circumstances under which indemnification applies. This introductory statement is then followed by additional sentences that appear to provide broader indemnification obligations for specific instances (2TheMart Content, i-Escrow Content, and Services), without explicitly referencing the principal-agent limitation. This creates ambiguity because it is unclear whether the 'deemed a principal' requirement applies to *all* indemnification obligations within this section, or just the first, general one. This misalignment makes it difficult to determine the actual scope of each party's indemnification responsibilities.",
-        "location": "9",
-        "category": 5,
+        "section": "All payments will be paid by Adaptimmune within 45 days of receipt of an invoice from MD Anderson. However, if MD Anderson delivers the invoice in person, payments will be paid by Adaptimmune within 10 days of receipt of an invoice from MD Anderson.",
+        "explanation": "This presents an in-text contradiction. The first sentence specifies a 45-day payment term from the invoice receipt. The second sentence shortens the payment to 10 days if the invoice is delivered in person, which contradicts the initial payment terms. There needs to be an 'unless' statement.",
+        "location": "Payment terms",
+        "category": 3,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": false
+    },
+    {
+        "section": "5.1 In conjunction with each Study, the Parties may wish to disclose confidential information to each other. For purposes of this Agreement, \"Confidential Information\" means confidential, non-public information, know-how and data (technical or non-technical) that is disclosed in writing, orally, graphically, in machine readable form, or in any other manner by or on behalf of a disclosing Party to a receiving Party or its Affiliates for purposes of this Agreement or any Study Order (\"Purpose\"). However, any information disclosed orally is considered Non-Confidential Information.",
+        "explanation": "This creates an in-text contradiction because the first part of the section says that information disclosed orally can be considered confidential information. However, the last sentence states that any information disclosed orally is considered Non-Confidential Information.",
+        "location": "Section 5.1",
+        "category": 3,
+        "location_match": true,
+        "text_match": false
     }
 ]

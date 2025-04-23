@@ -1,20 +1,26 @@
 [
     {
-        "section": "Accuray is responsible for ensuring that the Products supplied meet minimum quality standards. Accuray will endeavor to provide to Distributor or Customer, as applicable, in a timely manner those Products and Services required to fill confirmed Purchase Orders received from Distributor in accordance with the terms of this Agreement.",
-        "explanation": "The language 'Accuray is responsible for ensuring that the Products supplied meet minimum quality standards' creates ambiguity because it does not specify what these 'minimum quality standards' are or how they are measured. This lack of clarity can lead to disputes about whether Accuray has fulfilled this responsibility. Further, the phrase 'Accuray will endeavor to provide' suggests that Accuray's commitment is not absolute, and they are making an effort. This weakens the enforceability of this clause, creating a contradiction to the responsibility of making sure that the products meet minimum quality standards.",
-        "location": "4.1.1",
+        "section": "1.1.  \"Accuray Regions\" means Accuray's sales regions specifically for CyberKnife products and services (as of the Effective Date) of the Americas (North America and South America), APAC (Asia Pacific, excluding Australia, India, and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan.",
+        "explanation": "The definition of \"Accuray Regions\" excludes certain countries (Australia, India, and Japan) from the APAC region. However, Japan is also listed as a separate region. This creates an ambiguity because Japan cannot simultaneously be excluded from APAC and be its own separate region.",
+        "location": "Section 1.1",
         "category": 1,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": true
+        "location_match": true,
+        "text_match": false
     },
     {
-        "section": "Distributor shall be and must at all times make it clear that it is an independent entity contracting with Accuray, and is not the employee, representative or agent of Accuray, except when explicitly authorized by Accuray in writing. Distributor does not have the ability or authority to enter into any legal agreements or obligations that would bind Accuray in any manner, unless such authority is expressly delegated to the Distributor by Accuray.",
-        "explanation": "This creates ambiguity. The first sentence states 'Distributor does not have the ability or authority to enter into any legal agreements or obligations that would bind Accuray in any manner' but the second part says 'unless such authority is expressly delegated to the Distributor by Accuray.' This implies that they can enter into binding agreements for Accuray if there is authorization, creating a contradictory statement.",
-        "location": "3.1",
+        "section": "2.3.2. Quote. Following receipt of Distributor's Quote request, Accuray will determine whether to approve the issuance of a Quote related to such request. Such determination shall be made in accordance with and subject to the conditions set forth in Schedule 2.3.2 attached hereto. If Accuray approves the issuance of a Quote, Accuray shall issue a Quote to Distributor based on the Product configuration and Services requested by the Customer, including pricing for such Products and Services as provided in Section 2.2 above. The Quote issued by Accuray in relation to a Customer opportunity shall serve as the basis of any offer made by Distributor to that Customer and shall remain valid for at least six months (unless earlier declined by Distributor), and Distributor shall submit an amended Quote request to Accuray in the event adjustments to a Quote are requested by the Customer. Any such amended Quote request from Distributor shall again be subject to the Accuray approval process set forth in this Section 2.3.2.",
+        "explanation": "This section states that any amended Quote request from Distributor shall be subject to the Accuray approval process set forth in 'this Section 2.3.2'. This is an omission since it does not state the specific conditions that Accuray may consider. Leaving the reader to assume Schedule 2.3.2 also applies to amended quotes, but it is not explicitly stated.",
+        "location": "Section 2.3.2",
+        "category": 7,
+        "location_match": false,
+        "text_match": false
+    },
+    {
+        "section": "4.1.2. Shipment. All shipments shall be made F.C.A. Port of Oakland, California, USA. Transfer of risk from Accuray to Distributor shall occur at such F.C.A. location as provided in F.C.A. terms and transfer of title shall occur at the same time. Distributor may request Accuray to use a particular freight carrier, and Accuray agrees to do so, if feasible. If not feasible in Accuray's reasonable judgment, then Accuray shall promptly advise Distributor of the reasons. If no such request is made, Accuray shall ship in accordance with any instructions contained in the Purchase Order or via FedEx ground, with no extra insurance. Accuray shall bill any actual freight costs to Distributor. Any supplementary shipping costs arising from the need to meet the delivery deadline set forth in the Purchase Order by way of expedited delivery shall be borne by Accuray, if such delivery deadline was at least six months after the submission of such Purchase Order by Distributor. For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor.",
+        "explanation": "This section states that expedited delivery expenses are borne by Accuray if the delivery deadline is at least six months after the submission of the Purchase Order, and provides an example. The example states that if a PO is submitted on June 1 with a delivery date of December 1, Accuray bears the expedited costs. December 1 is exactly six months after June 1, not 'at least' six months. This creates ambiguity in the delivery agreement.",
+        "location": "Section 4.1.2",
         "category": 1,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": true
+        "text_match": false
     }
 ]

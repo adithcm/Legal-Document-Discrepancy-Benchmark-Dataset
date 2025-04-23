@@ -1,29 +1,26 @@
 [
     {
-        "section": "\"CUSTOMERS\" means all users who access Co-Branded Site and complete at least one transaction per month.",
-        "explanation": "The definition of \"Customers\" creates an in-text contradiction. The initial definition states that customers are users who complete at least one transaction per month. This is further defined with the omission of this condition in section 5.1 with 'average Transaction from all Customers', by eliminating the condition, it's misaligned.",
-        "location": "1(c)",
-        "category": 5,
-        "location_match": true,
-        "text_match": true,
-        "explanation_match": true
+        "section": "Adaptimmune shall have responsibility for IND filing, however, MD Anderson will handle all monitoring responsibilities.",
+        "explanation": "This statement implies that Adaptimmune is generally responsible for both IND filing and monitoring, but makes an exception by assigning the monitoring responsibilities to MD Anderson. This creates an ambiguity, as there is a discrepancy of who is responsible for IND filing and monitoring, due to the original statement.",
+        "location": "Section 1.1",
+        "category": 1,
+        "location_match": false,
+        "text_match": false
     },
     {
-        "section": "8.1 TERM. The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that neither party expresses a desire to renew the agreement in writing, the term of this Agreement shall expire automatically.",
-        "explanation": "The 'A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect' is repeated, resulting in a structural flaw.",
-        "location": "8.1",
-        "category": 9,
-        "location_match": true,
-        "text_match": false,
-        "explanation_match": false
-    },
-    {
-        "section": "12.6 NOTICE. Any notices hereunder shall be given to the appropriate party at the address specified below or at such other address as the party shall specify in writing. Notice shall be deemed given: only upon personal delivery; if sent by fax, only if acknowledged by phone; or if sent by a reputable overnight courier with tracking capabilities, only three (3) days after the date of mailing: To i-Escrow: i-Escrow, Inc. 1730 South Amphlett Blvd., #215 San Mateo, CA 94402 Fax no. (650) 638-7890 Attention: President",
-        "explanation": "This section defines how notice is given. However, it contradicts itself. If notice is sent by a reputable overnight courier with tracking capabilities, it is only deemed given three days after the date of mailing. However, if sent by fax, it is deemed given only if acknowledged by phone, which contradicts the date of mailing.",
-        "location": "12.6",
+        "section": "MD Anderson and Adaptimmune will promptly notify each other upon identifying any aspect of a Protocol, including information discovered during site monitoring visits, or Study results that may adversely affect the safety, well-being, or medical care of the Study subjects, or that may affect the willingness of Study subjects to continue participation in a Study, influence the conduct of the Study, or that may alter the IRB's approval to continue the Study. Adaptimmune is solely responsible for notifying MD Anderson of data results discovered from Adaptimmune's monitoring visits only.",
+        "explanation": "The first sentence requires both parties to notify each other of any information that may affect the study. The second sentence limits Adaptimmune's notification responsibility to only data results from its monitoring visits. There is a discrepancy, since both parties are required to report issues but the second sentence seems to limit that reporting.",
+        "location": "Section 2.9",
         "category": 3,
-        "location_match": true,
-        "text_match": false,
-        "explanation_match": true
+        "location_match": false,
+        "text_match": false
+    },
+    {
+        "section": "The Parties agree that any termination of a Study Order shall allow for: (i) the wind down of the Study to ensure the safety of Study subjects; and (ii) MD Anderson's final reconciliation of Data related to the Study. The final reconciliation of Data is Adaptimmune's responsibility.",
+        "explanation": "The first sentence states that MD Anderson has the responsibility of the final reconciliation of the Data. The second sentence immediately contradicts that by stating that the final reconciliation of data is Adaptimmune's responsibility. This is a clear discrepancy.",
+        "location": "Section 8.3",
+        "category": 3,
+        "location_match": false,
+        "text_match": false
     }
 ]

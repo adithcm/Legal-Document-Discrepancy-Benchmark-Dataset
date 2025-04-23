@@ -1,29 +1,42 @@
 [
     {
-        "section": "5.1 ADVERTISING FEES. After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter. The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), unilaterally by 2TheMart without requiring i-Escrow's consent. The Adjusted Rate will be communicated to i-Escrow and will be effective immediately.",
-        "explanation": "This section contains a significant contradiction. It initially defines how the advertising fees are calculated (0.025% of the average transaction amount). However, it then grants 2TheMart the unilateral right to revise this formula at any time, without i-Escrow's consent, and make the change effective immediately. This contradicts the initial defined calculation method and creates uncertainty for i-Escrow as they have no control over the fees they will be charged. This effectively makes the initial formula meaningless as it can be changed arbitrarily.",
-        "location": "Section 5.1",
+        "section": "4.1 Payments of Alliance Funding applicable to a Study will be made according to the terms specified in Sections 1.3 and 1.4 above. Notwithstanding any other provision, all invoices must be paid within 15 days of receipt.",
+        "explanation": "This creates an in-text contradiction. The first sentence states that payments will be made according to Sections 1.3 and 1.4, which presumably outline a specific schedule or set of milestones. The second sentence, however, imposes a blanket requirement of payment within 15 days of receipt of an invoice, regardless of what Sections 1.3 and 1.4 specify. This contradicts the initial reference to those sections and introduces ambiguity about the actual payment terms.",
+        "location": "Section 4. Payments",
         "category": 3,
-        "location_match": true,
-        "text_match": true,
-        "explanation_match": true
+        "location_match": false,
+        "text_match": false
     },
     {
-        "section": "5.3 AUDIT RIGHTS. i-Escrow shall keep for one (1) year proper records and books of account relating to the computation of advertising payments owed to 2TheMart (including, as appropriate, the computation of the size of average Transaction). Once every six (6) months, 2TheMart through a CPA may inspect and audit such records to verify reports. Any such inspection will be conducted in a manner that does not unreasonably interfere with i-Escrow's business activities and with no less than fifteen (15) days notice. i-Escrow shall within two (2) months make any overdue payments disclosed by the audit. Such inspection shall be at 2TheMart's expense; however, if the audit reveals overdue payments in excess of five percent (5%) of the payments owed to date, i-Escrow shall immediately pay all cost of such audit.",
-        "explanation": "This section presents a structural flaw in its cost allocation for audit rights. It states that 2TheMart bears the expense of the audit. However, it then shifts the audit cost to i-Escrow *only* if the audit reveals overdue payments exceeding 5%. The text contains a Structural Flaw because a careful reader would assume that 2TheMart bears the audit cost unless the cost of the audit is found to be over 5%.",
-        "location": "Section 5.3",
+        "section": "4.1 Payments of Alliance Funding applicable to a Study will be made according to the terms specified in Sections 1.3 and 1.4 above. Notwithstanding any other provision, all invoices must be paid within 15 days of receipt.",
+        "explanation": "There's an in-text structural flaw since the first sentence provides instructions on how the payments of Alliance Funding are calculated, the sentence structure is not correct. Furthermore, there isn't sufficient information to know what 1.3 and 1.4 say.",
+        "location": "Section 4. Payments",
         "category": 9,
-        "location_match": true,
-        "text_match": false,
-        "explanation_match": false
+        "location_match": false,
+        "text_match": false
     },
     {
-        "section": "8.5 EFFECTS OF TERMINATION. Upon expiration or termination of this Agreement for any reason: (a) all rights granted herein shall terminate, (b) i-Escrow shall pay all amounts owed to 2TheMart within thirty (30) days of termination, and (c) each party shall remove the other party's content and Marks from their servers. Notwithstanding the foregoing, even if this Agreement was terminated for a material breach, all provisions of this Agreement shall survive to the extent necessary for i-Escrow to complete any Customer transactions which are pending at the time of expiration or termination. Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall not survive expiration or termination of this Agreement.",
-        "explanation": "This section creates a contradiction concerning which provisions survive termination. The first part states that 'all provisions of this Agreement shall survive to the extent necessary for i-Escrow to complete any Customer transactions which are pending at the time of expiration or termination.' However, the subsequent sentence explicitly lists sections 1, 7, 8.5, 9, 10, 11, and 12 as *not* surviving termination. This is a clear contradiction, making it unclear whether these sections survive termination for the purpose of completing pending transactions or not at all. This ambiguity could lead to disputes regarding obligations related to confidentiality, liability, and indemnity after termination.",
-        "location": "Section 8.5",
+        "section": "All payments will be paid by Adaptimmune within 45 days of receipt of an invoice from MD Anderson. Such invoice shall be addressed to Adaptimmune and sent by electronic mail to accounts@adaptimmune.com with copies to lini.pandite@adaptimmune.com and susan cousounis@adaptimmune.com for Clinical Study payments and with copies to Samik.basu@adaptimmune.com in relation to Pre-clinical Study payments. However, if MD Anderson delivers the invoice in person, payments will be paid by Adaptimmune within 10 days of receipt of an invoice from MD Anderson.",
+        "explanation": "The two sentences in this clause contradict each other. The first sentence states that all invoices will be paid in 45 days, and the second sentence states that payments will be paid in 10 days. These two statements contradict each other and create an in-text contradiction.",
+        "location": "Exhibit II",
         "category": 3,
-        "location_match": true,
-        "text_match": true,
-        "explanation_match": true
+        "location_match": false,
+        "text_match": false
+    },
+    {
+        "section": "All payments will be paid by Adaptimmune within 45 days of receipt of an invoice from MD Anderson. Such invoice shall be addressed to Adaptimmune and sent by electronic mail to accounts@adaptimmune.com with copies to lini.pandite@adaptimmune.com and susan cousounis@adaptimmune.com for Clinical Study payments and with copies to Samik.basu@adaptimmune.com in relation to Pre-clinical Study payments. However, if MD Anderson delivers the invoice in person, payments will be paid by Adaptimmune within 10 days of receipt of an invoice from MD Anderson.",
+        "explanation": "Structurally, the sentences don't quite align. The first part details how invoices should be sent, then it switches to a clause about payment times, then it switches *back* to payment types. It's all there, but hard to parse the way it is written.",
+        "location": "Exhibit II",
+        "category": 9,
+        "location_match": false,
+        "text_match": false
+    },
+    {
+        "section": "For purposes of this Agreement, \"Confidential Information\" means confidential, non-public information, know-how and data (technical or non-technical) that is disclosed in writing, orally, graphically, in machine readable form, or in any other manner by or on behalf of a disclosing Party to a receiving Party or its Affiliates for purposes of this Agreement or any Study Order (\"Purpose\"). However, any information disclosed orally is considered Non-Confidential Information.",
+        "explanation": "The definition of Confidential Information, which initially includes information disclosed 'orally,' is immediately contradicted by the following sentence stating that orally disclosed information is considered 'Non-Confidential Information.' This in-text contradiction creates significant ambiguity about what qualifies as Confidential Information under the agreement.",
+        "location": "Section 5. Confidential Information",
+        "category": 3,
+        "location_match": false,
+        "text_match": false
     }
 ]

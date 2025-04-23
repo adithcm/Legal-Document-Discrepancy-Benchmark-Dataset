@@ -1,29 +1,26 @@
 [
     {
-        "section": "\"CUSTOMERS\" means all users who access Co-Branded Site and complete at least one transaction per month.",
-        "explanation": "The original text defines 'CUSTOMERS' as users who complete at least one transaction per month. This is already difficult to enforce, but an additional text was added to this clause that made it contradictory. The text added: \"for which 2TheMart recieves payment\". This creates a contradiction because users can complete a transaction but 2TheMart not receive payment. Thus, this is an ambiguity.",
-        "location": "1(c)",
+        "section": "2.4 RESTRICTIONS ON COMMUNICATIONS. i-Escrow may place banner advertising on the Co-Branded Site upon prior written approval of 2TheMart, which shall be at the discretion of 2TheMart. All advertising revenue arising from the banner ads shall be solely i-Escrow's. i-Escrow shall not run banner advertisements on the Co-Branded Site for any of 2TheMart's competitors. 2TheMart shall provide in writing, a list of companies they would like to exclude, including every time they wish to change this list.",
+        "explanation": "The wording \"at the discretion of 2TheMart\" regarding approval for banner advertising is ambiguous. While it grants 2TheMart the power to approve or disapprove i-Escrow's banner ads, it doesn't specify the criteria for approval or disapproval. This means 2TheMart could arbitrarily disapprove ads, potentially hindering i-Escrow's ability to generate revenue or promote its services. This section gives 2TheMart control over i-Escrow's revenue-generating activities without clear boundaries.",
+        "location": "Section 2.4",
         "category": 1,
-        "location_match": true,
-        "text_match": true,
-        "explanation_match": false
+        "location_match": false,
+        "text_match": false
+    },
+    {
+        "section": "5.1 ADVERTISING FEES. After the Launch Date, i-Escrow shall pay 2TheMart advertising fees based on the number of Transaction Inquiries. This advertising fees shall consist of a per Transaction Inquiry amount calculated by multiplying 0.025% by the amount of the average Transaction from all Customers in the preceding quarter. The formula for arriving at the per Transaction Inquiry amount may be revised from time to time during the term of this Agreement to reflect present market conditions (\"the Adjusted Rate\"), but only by mutual consent of the parties after good faith discussions. The Adjusted Rate shall be added as an addendum to this Agreement.",
+        "explanation": "The section states that the advertising fees are based on 'the amount of the average Transaction from all Customers in the preceding quarter'. However, 'Customers' is defined in Section 1(c) as 'all users who access Co-Branded Site and complete at least one transaction per month.' This creates a misalignment. Should the average transaction amount include ALL users or JUST the ones that satisfy the requirement listed in section 1(c)? This creates ambiguity in determining how advertising fees are calculated.",
+        "location": "Section 5.1",
+        "category": 5,
+        "location_match": false,
+        "text_match": false
     },
     {
         "section": "8.1 TERM. The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein. This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that neither party expresses a desire to renew the agreement in writing, the term of this Agreement shall expire automatically.",
-        "explanation": "The text uses the same phrase, 'A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect', twice. This seems repetitive and unnecessary. The second time the statement is presented it is missing the correct number (10) in the sentence. The changed text then causes there to be an in-text contradiction.",
-        "location": "8.1",
-        "category": 3,
-        "location_match": true,
-        "text_match": false,
-        "explanation_match": true
-    },
-    {
-        "section": "12.6 NOTICE. Any notices hereunder shall be given to the appropriate party at the address specified below or at such other address as the party shall specify in writing. Notice shall be deemed given: only upon personal delivery; if sent by fax, only if acknowledged by phone; or if sent by a reputable overnight courier with tracking capabilities, only three (3) days after the date of mailing: To i-Escrow: i-Escrow, Inc. 1730 South Amphlett Blvd., #215 San Mateo, CA 94402 Fax no. (650) 638-7890 Attention: President",
-        "explanation": "The original text in Section 12.6 outlines how notices should be provided, demanding that notice is only given when physically delivered, or via fax, or using a 'reputable overnight courier'. This excludes regular mail. The change adds a new exception: 'or sent by registered or certified mail, postage prepaid, return receipt requested, in which event notice shall be deemed given five (5) business days after mailing'. This modification creates a contradiction because regular mail would now be allowed.",
-        "location": "12.6",
-        "category": 3,
-        "location_match": true,
-        "text_match": false,
-        "explanation_match": false
+        "explanation": "The phrase \"A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect.\" is written twice consecutively, indicating a structural flaw and redundancy in the text.",
+        "location": "Section 8.1",
+        "category": 9,
+        "location_match": false,
+        "text_match": false
     }
 ]

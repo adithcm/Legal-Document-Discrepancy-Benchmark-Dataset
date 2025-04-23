@@ -1,38 +1,26 @@
 [
     {
-        "section": "As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee. In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
-        "explanation": "The payment terms are not explicit and provide an ambiguity, as the agreement states that the payment is 'Provider's actual cost of providing the Services plus a 10% service fee'. However, it doesn't clearly specify if the 'Out-of-Pocket Costs' are included within the 'actual cost of providing the Services' or if they are separate. If Out-of-Pocket costs are already part of the calculation of 'actual cost,' including them again as a separate reimbursement would result in double-counting. This can lead to disputes over the correct amount.",
-        "location": "2.2(a)",
+        "section": "2.2 Terms of Payment and Related Matters. (a) As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee.",
+        "explanation": "The section states that the Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee. This is ambiguous as the 'actual cost' is not defined. This could lead to disputes over what costs are considered 'actual' and whether they include overhead, administrative fees, etc. Without a clear definition, the provider could inflate costs leading to legal issues.",
+        "location": "Section 2.2(a)",
         "category": 1,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": false
+        "text_match": true
     },
     {
-        "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "This is a structural flaw in text. The sentence is poorly constructed. It refers to the 'Effective Date, Agreement' which is structurally and grammatically incorrect. The sentence also suggests a fixed term until December 31, 2020, but then introduces the condition 'unless terminated earlier in accordance with Section 3.2', making this an ambiguious statement.",
-        "location": "3.1",
+        "section": "2.2 Terms of Payment and Related Matters. (c) Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021.",
+        "explanation": "This clause is separate from the cost of services and is a fixed duration. However, Section 3.1 sets the agreement to terminate on December 31, 2020, unless terminated earlier. If the agreement terminates earlier than Dec 31, 2021, there's no specification on whether the recipient is still allowed to use the service at no cost. It contradicts the provision of free service until a specific date as it can be terminated earlier.",
+        "location": "Section 2.2(c)",
+        "category": 3,
+        "location_match": false,
+        "text_match": false
+    },
+    {
+        "section": "3.1 Termination of Agreement. This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
+        "explanation": "There is a structural flaw in this sentence: \"This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.\" The sentence is not structured properly, the word 'Agreement' appears twice.",
+        "location": "Section 3.1",
         "category": 9,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": false
-    },
-    {
-        "section": "Provider shall indemnify, defend, and hold harmless Recipient and its officers, directors, employees, agents, affiliates, successors, and permitted assigns (collectively, \"Indemnified Party\") against any and all losses, damages, liabilities, deficiencies, claims, actions, judgments, settlements, interest, awards, penalties, fines, costs, or expenses of whatever kind, including attorneys' fees, fees and the costs of enforcing any right to indemnification under this Agreement, and the cost of pursuing any insurance providers, incurred by Indemnified Party or awarded against Indemnified Party (collectively, \"Losses\"), relating to/arising out of or resulting from any claim of a third party arising out of or occurring in connection with Provider's gross negligence, willful misconduct, or breach of this Agreement.",
-        "explanation": "The language 'Provider's gross negligence, willful misconduct, or breach of this Agreement' limits the scope of indemnification to only these specific instances. It does not cover claims arising from Provider's ordinary negligence, errors, or omissions that may also result in losses to the Recipient. This creates an in-text contradition. The section suggests to provide comprehensive protection to the Recipient (Indemnified Party) but only protects the Recipient from gross negligence rather than any kind of negligence.",
-        "location": "5.1",
-        "category": 1,
-        "location_match": false,
-        "text_match": true,
-        "explanation_match": true
-    },
-    {
-        "section": "Upon demand by the Disclosing Party at any time, or upon expiration or termination of this Agreement with respect to any Service, the Receiving Party agrees promptly to return or destroy, at the Disclosing Party's option, all Confidential Information received in connection with this Agreement. If such Confidential Information is destroyed, an authorized officer of the Receiving Party shall certify to such destruction in writing.",
-        "explanation": "There is ambiguity in the terminology. The definition does not define who the Disclosing party and Receiving party are. Without the proper definitions it can lead to ambiguity and confusion.",
-        "location": "4.2",
-        "category": 5,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": true
     }
 ]

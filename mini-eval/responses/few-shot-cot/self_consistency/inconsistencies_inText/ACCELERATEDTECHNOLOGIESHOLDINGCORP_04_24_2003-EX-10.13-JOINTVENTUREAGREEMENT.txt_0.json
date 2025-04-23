@@ -1,29 +1,42 @@
 [
     {
-        "section": "8. Term of Joint Venture. The Joint Venture shall commence on the 1st of March, 2003, and shall be effective until February 28, 2004 unless extended by written agreement of the Joint Venturers not less than thirty (30) days prior to scheduled termination. However, either Joint Venturer may unilaterally terminate the agreement with written notice of sixty (60) days.",
-        "explanation": "This section contains a contradiction. The first sentence establishes a fixed term ending on February 28, 2004, unless extended by written agreement. The second sentence, however, allows either party to unilaterally terminate the agreement with 60 days' notice. This contradicts the fixed term, as either party can effectively end the agreement before February 28, 2004, even without the other party's consent, rendering the initial term somewhat meaningless.",
-        "location": "8",
+        "section": "5. Powers and Authority of the Joint Venturers.",
+        "explanation": "This section grants each Joint Venturer full authority to execute instruments relating to the Joint Venture's affairs, but then immediately restricts this authority by requiring written consent for incurring liabilities, disposing of assets, or making purchase commitments. This creates an in-text contradiction as the initial grant of 'full and complete charge' is significantly limited by the subsequent provisos.",
+        "location": "Section 5",
         "category": 3,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": true
+        "text_match": false
     },
     {
-        "section": "9. Distributions. During the term of the Joint Venture, no interest shall be allowed to any Joint Venturer upon the amount of his contribution. No Joint Venturer shall withdraw, transfer or have paid to him in any manner any part of his capital contribution or account, or any other funds or property of the Joint Venture without the consent of both Joint Venturers; provided, however, there may be distributed to the Joint Venturers, from time to time, so much of the gross income of the Joint Venture as shall not be needed to defray the necessary and expected costs and expenses of the Joint Venture business. Distributions may only be made if after any distribution is made, the Joint Venture assets are in excess of all liabilities of the Joint Venture. Each distribution shall be made ratably to the Joint Venturers according to their prorata interest in the Joint Venture as shown in Section 6. Notwithstanding the foregoing, PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability.",
-        "explanation": "This section creates an internal contradiction regarding distributions. Initially, it states that no Joint Venturer can withdraw funds without the consent of both. However, the latter part of the section stipulates that PVSS is entitled to a guaranteed payment of $10,000 per month 'regardless of the Joint Venture's profitability.' This contradicts the earlier clause because PVSS can effectively withdraw funds (the $10,000 monthly payment) without needing the other Joint Venturer's consent, even if the business is not profitable or if it impacts the other party.",
-        "location": "9",
+        "section": "7. Accounting Provisions.",
+        "explanation": "This section states that the Joint Venture will use the cash basis of accounting. However, it also requires the Joint Venturers to maintain adequate books and records and submit balance sheets and income statements, which are typically associated with accrual accounting. This creates a contradiction, as balance sheets and income statements are difficult to accurately prepare under a cash basis accounting system.",
+        "location": "Section 7",
         "category": 3,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": true
+        "text_match": false
     },
     {
-        "section": "11. Procedure on Termination and Liquidation. On any termination of the Joint Venture, its debt shall be paid or provided for in a manner satisfactory to the Joint Venturers. Then, any unexpended portion of Joint Venture funds shall be distributed to the Joint Venturers in accordance with their prorata ownership in the Joint Venture and all other assets of the Joint Venture shall be distributed as undivided interests to the Joint Venturers ratably according to their prorata interests in the Joint Venture as set forth in Section 6. If any asset is not capable of being distributed on an undivided basis, the Parties shall agree on a price for such asset and it shall be distributed to one Party and a corresponding balance, in cash or property, shall be made of the Joint Venture assets so that each Party receives his proportionate share of all the Joint Venture assets. However, in the event of a dispute regarding the valuation of assets during liquidation, Collectible Concepts Group, Inc. will have the final say on the asset's value.",
-        "explanation": "The initial part of this section outlines a procedure for asset distribution upon termination, implying that decisions will be made jointly to ensure fair distribution. However, the final sentence grants Collectible Concepts Group, Inc. (CCGI) the 'final say' on asset valuation in case of a dispute. This contradicts the earlier implication of a joint decision-making process, as CCGI can unilaterally determine the value of assets, potentially disadvantaging PVSS during liquidation. This also contradicts Section 6, which dictates that assets should be shared 50/50.",
-        "location": "11",
+        "section": "9. Distributions.",
+        "explanation": "This section outlines the conditions under which distributions can be made to the Joint Venturers, stating that distributions can only occur if the Joint Venture's assets exceed its liabilities after the distribution. However, the section then includes a clause that PVSS shall be entitled to receive a guaranteed payment of $10,000 per month, regardless of the Joint Venture's profitability. This creates an in-text contradiction, as the guaranteed payment to PVSS could violate the condition that distributions can only be made if assets exceed liabilities, especially if the Joint Venture is not profitable.",
+        "location": "Section 9",
         "category": 3,
+        "location_match": true,
+        "text_match": true
+    },
+    {
+        "section": "11. Procedure on Termination and Liquidation.",
+        "explanation": "This section describes how assets will be distributed upon termination of the Joint Venture. It states that if any asset is not capable of being distributed on an undivided basis, the parties shall agree on a price for such asset, and it shall be distributed to one party. However, in the event of a dispute regarding the valuation of assets during liquidation, Collectible Concepts Group, Inc. will have the final say on the asset's value. This creates an imbalance of power and potentially forces one party to accept a potentially unfair valuation of assets.",
+        "location": "Section 11",
+        "category": 3,
+        "location_match": true,
+        "text_match": true
+    },
+    {
+        "section": "2. Scope of the Joint Venture Business. (e) Develop a global marketing program for licensed Products Exhibit A attached hereto, describes by way of example but not limitation the responsibilities of the Joint Venturers",
+        "explanation": "This section is a structural flaw as it is not properly structured and does not make sense. The statement 'Develop a global marketing program for licensed Products Exhibit A attached hereto, describes by way of example but not limitation the responsibilities of the Joint Venturers' is not grammatically correct.",
+        "location": "Section 2",
+        "category": 9,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": false
+        "text_match": false
     }
 ]

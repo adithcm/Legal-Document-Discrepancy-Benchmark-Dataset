@@ -1,29 +1,26 @@
 [
     {
-        "section": "Provider agrees to provide the Services set forth on the Exhibit A attached hereto (as such Exhibit may be amended or supplemented pursuant to the terms of this Agreement, the \"Exhibit\") to Recipient for the respective periods and on the other terms and conditions set forth in this Agreement and in the Exhibit. However, Provider is not obligated to respond to any request by Recipient for access to any additional services and resources that are necessary for the operation of the Recipient and which are not currently contemplated in the Exhibit, unless Provider deems it fit and feasible.",
-        "explanation": "This section introduces a contradiction regarding the Provider's obligations. Initially, it states that the Provider agrees to provide services as set forth in Exhibit A. However, it then qualifies this by stating that the Provider is not obligated to respond to requests for additional services not currently in Exhibit A, unless deemed fit and feasible. This creates ambiguity as to the Provider's actual commitment to providing necessary services, potentially leading to disputes over what is considered 'necessary' and 'feasible'.",
-        "location": "1.1(a)",
+        "section": "1.1 Provision of Services.",
+        "explanation": "The initial statement obligates the Provider to deliver services as outlined in Exhibit A. However, this obligation is immediately weakened by the subsequent statement that Provider is not obligated to respond to any request by Recipient for access to any additional services and resources that are necessary for the operation of the Recipient and which are not currently contemplated in the Exhibit, unless Provider deems it fit and feasible. This creates an in-text contradiction.",
+        "location": "Section 1.1(a)",
+        "category": 3,
+        "location_match": true,
+        "text_match": false
+    },
+    {
+        "section": "1.2 Standard of Service.",
+        "explanation": "Section 1.2(c) states that Provider Representatives shall be dedicated to solely providing the Services to Recipient and shall not provide any such services or resources to Provider or any other customer of Provider. This is then contradicted by section 1.2(e), stating that Provider can use subcontractors but remains fully responsible, financially and otherwise, for the Services provided by each subcontractor. This creates an in-text contradiction since subcontractors by definition are not dedicated solely to the Recipient.",
+        "location": "Section 1.2(c) and 1.2(e)",
         "category": 3,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": true
+        "text_match": false
     },
     {
-        "section": "Provider shall maintain records relating to the provision of the Services under this Agreement. The format of these records will be determined solely by Provider.",
-        "explanation": "The Recipient cannot keep track of the service that is being provided, there is no way of ensuring the services are being provided and maintained.",
-        "location": "1.2(b)",
-        "category": 8,
+        "section": "3.1 Termination of Agreement.",
+        "explanation": "The contract has a conflicting term with its start date. The agreement is made effective as of November 1, 2019. This section states that the agreement terminates on December 31, 2020, unless terminated earlier in accordance with Section 3.2. The date of the termination is approximately a year after the start date. The termination date does not give enough time for either party to assess the agreement or to successfully implement the contract. By legal standards this section is vague.",
+        "location": "Section 3.1",
+        "category": 2,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": false
-    },
-    {
-        "section": "Recipient shall own, all rights, title, and interest in any invention, technique, process, device, discovery, improvement, or know-how, whether patentable or not and all other proprietary rights, industrial rights and any other similar rights, in each case on a worldwide basis, and all copies and tangible embodiments thereof, or any part thereof, in whatever form or medium hereafter made or conceived solely by Provider, if both parties agree it is related to the services.",
-        "explanation": "There is an ambiguity on the rights, as both parties need to agree on whether or not it is related to the services.",
-        "location": "1.4(a)",
-        "category": 1,
-        "location_match": false,
-        "text_match": true,
-        "explanation_match": true
+        "text_match": false
     }
 ]
