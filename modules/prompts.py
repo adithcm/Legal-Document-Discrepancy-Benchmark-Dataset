@@ -21,9 +21,8 @@ Instructions:
 3. Provide the section where the discrepancy or contradiction exists.
 4. Provide the section location. Example: Section 5.4.                                    
 5. Categorize the discrepancy or contradiction into one of the 10 categories above (return the number of the category).
-There are 2-3 contradictions in each text.
-
-Return the results in json format. Example:
+There could be any number of discrepancies or contradictions in the text. You need to find all of them and return them in the format below.
+Example:
 [{
     "section": "Sponsor shall pay Club the Annual Fee for each Contract Year of this Agreement in six (6) equal installments, each\ndue on or prior to the 1st of each month between June and November of the applicable Contract Year."
     "explanation": "This change introduces a contradiction regarding the payment deadline. Section 3(a) states that all installments are due by November 1st, but the added sentence allows the final payment to be made as late as December 15th without penalty. This creates ambiguity as to the actual deadline for the final installment and whether late fees would apply between November 2nd and December 15th."

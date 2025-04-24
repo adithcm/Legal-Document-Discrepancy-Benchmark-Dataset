@@ -1,38 +1,38 @@
 [
     {
-        "section": "i-on will schedule and perform such maintenance at its convenience, without prior notice.",
-        "explanation": "This clause allows i-on to perform maintenance without prior notice. This is a structural flaw in the text because it does not make sense. The text should give a warning that will occur before the scheduled time of maintenance, this would allow the customer to properly prepare and get their needed materials beforehand.",
+        "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance at its convenience, without prior notice.",
+        "explanation": "This clause initially promises continuous operation (24/7). However, the exception for maintenance, scheduled at i-on's convenience and *without prior notice*, directly contradicts the initial promise. The lack of notice makes it impossible for the customer to prepare for downtime, negating the 'continuous' service commitment. This creates an ambiguity as the level of continuous service that i-on needs to provide.",
         "location": "SERVICES PROVIDED TO THE CUSTOMER",
-        "category": 9,
+        "category": 3,
         "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.7195033431053162,
+        "explanation_match_score": 0.7748512625694275,
         "explanation_match": false
     },
     {
         "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
-        "explanation": "This clause states that the customer has 30 days to pay the invoice. The lack of a late fee specified for payments made after the due date creates an omission in legal terms. This omission creates a legal loophole because the lack of late fee allows for ambiguity on what the repercussions are.",
+        "explanation": "While the Customer has 30 days to pay, the fee structure that the Customer is being charged is not defined. The Customer has the possibility of being billed for different costs without prior notice.",
         "location": "RESPONSIBILITIES OF THE CUSTOMER",
-        "category": 8,
+        "category": 3,
         "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.7391987442970276,
+        "explanation_match_score": 0.5325949192047119,
         "explanation_match": false
     },
     {
-        "section": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
-        "explanation": "The agreement language allows for automatic renewal for one-month periods with 15 days' notice of non-renewal, but also allows termination without cause with 30 days' notice. The contradiction arises because if a party waits until 15 days before the term ends to provide 30 days' notice of termination, the agreement will automatically renew for another month, potentially obligating the party for an additional month of service that they intended to terminate. It also creates an ambiguity in the text because of the automatic renewal clause. The two statements contradict each other.",
-        "location": "TERM AND TERMINATION",
-        "category": 3,
-        "location_match": false,
+        "section": "Any such programs, scripts, or components that might affect the stability of the Hosting Computer or interfere with other Web sites on the Hosting Computer must be approved by i-on before being installed on the Hosted Site, i-on reserves the right to deny the Customer permission to install any such programs, scripts, or components, to require additional fees for the installation and/or ongoing operation of any such programs, scripts, or components, or to remove any such programs, scripts, or components, if in i-on's sole discretion they will interfere with the operation of the Hosting Computer or exceed the Customer's monthly allocation of Web administration services.",
+        "explanation": "The language 'i-on's sole discretion' is ambigious and grants i-on unilateral control. This could be abused by i-on. It contradicts the idea of the customer having control over their Hosted Site.",
+        "location": "RESPONSIBILITIES OF THE CUSTOMER",
+        "category": 2,
+        "location_match": true,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.594910740852356,
+        "explanation_match_score": 0.5327220559120178,
         "explanation_match": false
     }
 ]

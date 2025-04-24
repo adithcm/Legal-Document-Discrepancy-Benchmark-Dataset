@@ -1,38 +1,38 @@
 [
     {
-        "section": "Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
-        "explanation": "This statement is overly broad and potentially unenforceable. It's unreasonable to claim that *any* delay is unacceptable, regardless of the cause (e.g., unforeseen technical issues, illness, natural disasters). Such a strict interpretation could lead to legal disputes and may not hold up in court due to the doctrine of impossibility or frustration of purpose.",
-        "location": "Section 1(b)",
-        "category": 2,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": false,
-        "text_match": true,
-        "explanation_match_score": 0.5507545471191406,
-        "explanation_match": false
-    },
-    {
-        "section": "Company guarantees to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
-        "explanation": "The contract provides a guaranteed delivery timeframe. It then claims the dates provided in the scope of work cannot be delayed. The lack of any provision for reasonable delays creates a potential contradiction because real-world projects are subject to unpredictable external factors.",
+        "section": "Due Dates and Delays. Company guarantees to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. <*$p$*>Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
+        "explanation": "This section creates an in-text contradiction. While it mentions a guaranteed delivery timeframe (February 8, 2018 to May 3, 2018), it also states that due dates are not subject to any delay. This is contradictory because delays are common with projects of this nature.",
         "location": "Section 1(b)",
         "category": 3,
         "location_match": false,
-        "text_match_v1": true,
+        "text_match_v1": false,
         "text_match_v2": false,
-        "text_match": true,
-        "explanation_match_score": 0.7315728664398193,
+        "text_match": false,
+        "explanation_match_score": 0.6361218690872192,
         "explanation_match": false
     },
     {
-        "section": "Any content submitted by Client in any other manner or format, including, but not limited to Adobe PDF format, will be returned to Client for resubmission.",
-        "explanation": "While it's reasonable to specify preferred formats, outright rejection of a common format like PDF is impractical and potentially impedes project progress. It doesn't clearly state *why* PDFs are unacceptable, making the requirement seem arbitrary. This section should specify that content within the PDF must be extracted and delivered in the specified formats. Not defining 'other manner' leaves this open to interpretation and potentially unnecessary disputes.",
+        "section": "<*$p$*>Client may elect to pay Company the Hourly Rate set forth below to type and proofread any written content not submitted in the electronic formats specified above.",
+        "explanation": "This creates an in-text contradiction, as the document does not specify what the hourly rate is. It is an omission of information that the client needs in order to make a decision about their content.",
         "location": "Section 1(c)",
-        "category": 1,
+        "category": 7,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.6190298199653625,
+        "explanation_match": false
+    },
+    {
+        "section": "Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+        "explanation": "The payment terms in Section 2 create ambiguity. While it states the total amount ($5,000), the prepayment ($1,900), and remaining amount ($3,100), it doesn't include any deadlines for when the payments are due. This omission could cause disputes.",
+        "location": "Section 2",
+        "category": 7,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.22445130348205566,
+        "explanation_match_score": 0.6027365326881409,
         "explanation_match": false
     }
 ]

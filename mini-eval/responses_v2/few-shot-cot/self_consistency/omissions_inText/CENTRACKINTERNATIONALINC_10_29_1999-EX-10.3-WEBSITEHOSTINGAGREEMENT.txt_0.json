@@ -1,38 +1,38 @@
 [
     {
         "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends.",
-        "explanation": "This section promises near-continuous uptime (24/7/365) but also allows for 'reasonable hardware and software maintenance.' The ambiguity lies in the definition of 'reasonable.' There's no limit to how long or how frequent this maintenance can be, creating uncertainty and a potential contradiction.  i-on could theoretically perform lengthy maintenance every week and still claim it's 'reasonable', effectively negating the 24/7 promise. The statement that maintenance will be scheduled during off-peak hours only applies to 'best efforts'. This implies they are not obligated to do so.",
-        "location": "Services Provided to the Customer",
+        "explanation": "This section states i-on will maintain operation continuously, but then allows for maintenance exceptions. While reasonable, the term 'reasonable' is not defined, leading to potential disputes about what constitutes reasonable maintenance and how long it can last. This lack of clarity creates ambiguity regarding the guaranteed uptime of the Hosted Site.",
+        "location": "SERVICES PROVIDED TO THE CUSTOMER",
         "category": 1,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.26043835282325745,
+        "explanation_match_score": 0.23650965094566345,
         "explanation_match": false
     },
     {
-        "section": "The Customer is responsible for paying i-on the recurring monthly fee. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
-        "explanation": "This section clearly establishes the payment deadline as the 5th of each month and states that late payment will lead to interruption or discontinuation of services. However, the contract later states 'Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.' While i-on can interrupt service for non-payment, the immediate termination is inconsistent with the 30-day notice period required for termination without cause. This creates a contradiction because it is unclear if i-on can immediately terminate without a breach of contract for not following the thirty day period.",
-        "location": "Responsibilities of the Customer",
-        "category": 3,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.3252268135547638,
-        "explanation_match": false
-    },
-    {
-        "section": "The Customer acknowledges that the Internet is an unreliable, unsecured, and error-prone network and agrees to hold i-on harmless for any interruptions in service to the Hosted Site or inability for users to reach or effectively use the Hosted Site that arises outside the scope of i-on's responsibilities as explicitly described in this Agreement. The Customer acknowledges that data loss is a possibility, even with mirrored computer storage and archival backup of such storage as provided by i-on per this Agreement, and agrees to hold i-on harmless for any such data loss for the Hosted Site, provided that i-on maintains reasonable steps as described in this Agreement to protect against such data loss.",
-        "explanation": "While a 'hold harmless' clause isn't inherently illegal, it can become problematic if it's too broad or attempts to waive liability for i-on's own negligence. This section could be interpreted as an attempt by i-on to waive liability even if they fail to provide the services outlined in the agreement (e.g., maintain backups). The term 'reasonable steps' is also vague, leading to potential disputes. It's possible that a court would find this overly broad exculpatory clause unenforceable, particularly if i-on failed to take industry-standard security measures, creating a potential legal contradiction. This could violate consumer protection laws in some jurisdictions that prevent waivers of liability for negligence. This can fall under category 8, as this section would be removing certain consumer protections.",
-        "location": "Conditions of Service",
-        "category": 8,
+        "section": "The Customer is solely responsible for any and all software programs, server-side scripts, and/or executable components that are installed on the Hosting Computer for the purpose of providing interactive applications or dynamic content on the Hosted Site. Any such programs, scripts, or components that might affect the stability of the Hosting Computer or interfere with other Web sites on the Hosting Computer must be approved by i-on before being installed on the Hosted Site, i-on reserves the right to deny the Customer permission to install any such programs, scripts, or components, to require additional fees for the installation and/or ongoing operation of any such programs, scripts, or components, or to remove any such programs, scripts, or components, if in i-on's sole discretion they will interfere with the operation of the Hosting Computer or exceed the Customer's monthly allocation of Web administration services.",
+        "explanation": "This section gives i-on broad discretionary power, stating that they can deny permission, require additional fees, or remove software at their 'sole discretion' if they believe it interferes with the Hosting Computer. This lacks objective criteria or limitations. What constitutes 'interference' is not defined, potentially leading to arbitrary decisions by i-on and disputes with the Customer.",
+        "location": "RESPONSIBILITIES OF THE CUSTOMER",
+        "category": 2,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.25582244992256165,
+        "explanation_match_score": 0.2739807367324829,
+        "explanation_match": false
+    },
+    {
+        "section": "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof. This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
+        "explanation": "The contract states that 'This Agreement shall automatically be renewed for one (1) or more one (1) month periods'. The exact time periods of renewal are not defined, leading to a structural flaw and ambiguouty.",
+        "location": "TERM AND TERMINATION",
+        "category": 9,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.34508639574050903,
         "explanation_match": false
     }
 ]

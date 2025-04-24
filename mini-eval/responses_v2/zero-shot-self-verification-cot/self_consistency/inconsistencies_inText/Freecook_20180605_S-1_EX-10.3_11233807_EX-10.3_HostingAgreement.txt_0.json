@@ -1,38 +1,26 @@
 [
     {
-        "section": "However, Company guarantees completion within 8 weeks, with penalties for delays beyond this timeframe as specified elsewhere in this Agreement.",
-        "explanation": "This statement introduces a guarantee of completion within 8 weeks, but the agreement does not specify any penalties for delays beyond this timeframe. This creates a contradiction because it implies penalties exist but fails to define them, making the guarantee unenforceable.",
-        "location": "Section 1(b)",
-        "category": 7,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.7161892056465149,
-        "explanation_match": false
-    },
-    {
-        "section": "Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. However, Company guarantees completion within 8 weeks, with penalties for delays beyond this timeframe as specified elsewhere in this Agreement.",
-        "explanation": "The contract states that the 'terms of the project' are 12 weeks from February 8, 2018, to May 3, 2018. This directly contradicts the subsequent statement guaranteeing completion within 8 weeks. The document provides 2 different timelines, thus creating confusion.",
+        "section": "However, Company guarantees completion within 8 weeks, with penalties for delays beyond this timeframe as specified elsewhere in this Agreement. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client.",
+        "explanation": "This section presents two conflicting statements regarding the project's completion timeline. First, it guarantees completion within 8 weeks with penalties for delays, establishing a firm deadline. Then, it introduces several conditions under which the due dates in the Scope of Work are subject to delay, effectively undermining the initial guarantee. This creates ambiguity and contradiction as it's unclear whether the 8-week guarantee is absolute or contingent on the client's actions.",
         "location": "Section 1(b)",
         "category": 3,
         "location_match": false,
-        "text_match_v1": true,
+        "text_match_v1": false,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.7116221785545349,
+        "explanation_match_score": 0.7544084191322327,
         "explanation_match": false
     },
     {
         "section": "Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work shall be either the standard hourly rate of $40 plus twenty-five percent (25%) or a flat fee of $100 per hour, whichever is lower.",
-        "explanation": "The clause states that the surcharge will be the 'standard hourly rate of $40 plus twenty-five percent (25%) or a flat fee of $100 per hour, whichever is lower'. 25% of $40 is $10. Therefore, the surcharge is $50 or $100, whichever is lower. This creates ambiguity because it is not properly structured, and does not make sense.",
+        "explanation": "This section outlines the conditions for a surcharge for rush work. It says, \"The surcharge for rush work shall be either the standard hourly rate of $40 plus twenty-five percent (25%) or a flat fee of $100 per hour, whichever is lower.\" $40 plus 25% is $50, so $50 or $100, whichever is lower. $50 is lower, but that is not what the author intended. This is a structural flaw in the text. The author does not explain what the flat fee of $100 per hour is referring to. If it is $100 total or $100 plus the standard hourly rate. ",
         "location": "Section 3",
         "category": 9,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.7653155326843262,
+        "explanation_match_score": 0.7588461637496948,
         "explanation_match": false
     }
 ]

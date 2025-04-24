@@ -1,38 +1,50 @@
 [
     {
-        "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. <*$p$*>The Customer is responsible for paying the recurring monthly fees at their discretion and convenience.",
-        "explanation": "The first sentence establishes a clear financial obligation for the customer to pay a recurring monthly fee of $450. However, the second sentence introduces ambiguity by stating that the customer is responsible for paying these fees at their \"discretion and convenience.\" This contradicts the initial clear obligation by implying that the customer has the freedom to decide when and how much to pay, undermining the enforceability of the payment terms and potentially leading to disputes over payment schedules and amounts due.",
-        "location": "Responsibilities of the Customer",
-        "category": 1,
+        "section": "The Customer is responsible for paying the recurring monthly fee in the amount of $450. <*$p$*>The Customer is responsible for paying the recurring monthly fees at their discretion and convenience.",
+        "explanation": "The first sentence establishes a clear obligation for the customer to pay a monthly fee of $450. However, the second sentence contradicts this by stating the customer can pay at their 'discretion and convenience.' This implies the customer has the option to not pay or to pay whenever they choose, directly conflicting with the obligation to pay a fixed amount monthly. This ambiguity undermines the enforceability of the payment terms.",
+        "location": "Responsibilities of the customer",
+        "category": 3,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.70048588514328,
+        "explanation_match_score": 0.7045450210571289,
         "explanation_match": false
     },
     {
-        "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. <*$p$*>The Customer is responsible for paying the recurring monthly fees at their discretion and convenience.",
-        "explanation": "The statement \"The Customer is responsible for paying the recurring monthly fees at their discretion and convenience\" could be interpreted as conflicting with standard legal expectations for contractually obligated payments. Generally, contracts require payments to be made according to an agreed-upon schedule, not at the payer's sole discretion. This ambiguity could lead to disputes about whether the payment terms are legally binding, especially if 'discretion and convenience' is interpreted as allowing the customer to delay or avoid payments. This can lead to a contradiction if state laws require payments to be made in a timely manner.",
-        "location": "Responsibilities of the Customer",
+        "section": "The Customer is responsible for paying the recurring monthly fee in the amount of $450. <*$p$*>The Customer is responsible for paying the recurring monthly fees at their discretion and convenience.",
+        "explanation": "The requirement to pay 'at their discretion and convenience' is so vague as to be legally unenforceable. A court would likely find this insufficient to create a binding obligation, as it lacks a definite time for payment. This effectively negates the initial statement about the $450 monthly fee, creating a legal contradiction.",
+        "location": "Responsibilities of the customer",
         "category": 2,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.710265576839447,
+        "explanation_match_score": 0.6119015216827393,
         "explanation_match": false
     },
     {
-        "section": "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof. <*$p$*>This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
-        "explanation": "The initial term is defined as six months. However, it is not specified what the initial term is referring to. The document mentions a start date of April 1, 1999, but it is not explicitly stated what the end date should be. The term should last 6 months, but there is no specification of what that looks like in the document.",
+        "section": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. <*$p$*>Either party may terminate this Agreement without cause at any time effective upon fifteen (15) days' written notice.",
+        "explanation": "The first sentence states that the contract will renew for 'one (1) or more one (1) month periods' unless a 15-day notice is given. The second sentence then states that either party can terminate the agreement at any time with a 15-day notice. This is contradictory because the first sentence implies a renewal period will automatically occur unless notice is given, whereas the second allows for termination at any point, even within a renewal period, effectively negating the purpose of a renewal period.",
         "location": "Term and Termination",
-        "category": 9,
+        "category": 3,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.296220988035202,
+        "explanation_match_score": 0.6516208648681641,
+        "explanation_match": false
+    },
+    {
+        "section": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. <*$p$*>Either party may terminate this Agreement without cause at any time effective upon fifteen (15) days' written notice.",
+        "explanation": "The phrase 'one (1) or more one (1) month periods' creates an ambiguity. It is not clear if the contract automatically renews for only one month, or if it will renew for more than one month. This can lead to disputes about the length of the renewal term and when the agreement can be terminated.",
+        "location": "Term and Termination",
+        "category": 1,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.3373270332813263,
         "explanation_match": false
     }
 ]

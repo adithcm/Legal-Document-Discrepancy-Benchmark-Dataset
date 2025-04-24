@@ -1,50 +1,38 @@
 [
     {
         "section": "Client acknowledges and agrees that all due dates set forth in the Scope of Work are guaranteed by the Company, regardless of whether the company receives required materials, documentation, or approvals in a timely fashion from the client. Delays will not affect the due dates.",
-        "explanation": "This section creates an unrealistic and potentially unenforceable obligation on the Company. It states that the Company guarantees the due dates regardless of whether they receive necessary information from the client. This is contradictory because project timelines are inherently dependent on client input. If the client is late providing information, it is illogical to hold the company to the original deadlines.",
+        "explanation": "This clause states that the company guarantees the due dates regardless of whether they receive necessary materials from the client. This is contradictory because the company's ability to meet deadlines is inherently dependent on the client providing the required materials and approvals in a timely manner. It is illogical to guarantee deadlines if the company doesn't have control over all the factors influencing the project timeline. In practice, a delay by the client in providing essential materials will inevitably impact the project timeline, making this guarantee unrealistic and unenforceable.",
         "location": "Section 1(b)",
         "category": 3,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.8343286514282227,
+        "explanation_match_score": 0.837523877620697,
         "explanation_match": true
     },
     {
-        "section": "Client acknowledges and agrees that all due dates set forth in the Scope of Work are guaranteed by the Company, regardless of whether the company receives required materials, documentation, or approvals in a timely fashion from the client. Delays will not affect the due dates.",
-        "explanation": "The text states that delays will not affect the due dates. It is not structurally sound and doesn't make sense because delays are inevitable and should affect the deadlines of the project.",
-        "location": "Section 1(b)",
-        "category": 9,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.7510749101638794,
-        "explanation_match": false
-    },
-    {
-        "section": "However, the Client can pay the remaining amount at any time, or in multiple installments, before the Scope of Work completion.",
-        "explanation": "While seemingly flexible, this clause is ambiguous and creates potential disputes. It lacks specifics on the process for installment payments (e.g., minimum amount, notification requirements). This could lead to disagreements on what constitutes acceptable installment payments and whether the client is meeting their payment obligations.",
-        "location": "Section 2",
-        "category": 1,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.6608000993728638,
-        "explanation_match": false
-    },
-    {
         "section": "Company is obligated to continue providing Customer Service throughout the duration of this agreement, and may not alter or cease providing Customer Service. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
-        "explanation": "This section contains a direct contradiction. It first states that the Company is obligated to continue providing Customer Service and cannot alter or cease providing it. Then, it immediately states that the Company can alter or cease providing Customer Service at its sole discretion without any liability. These two statements are mutually exclusive.",
+        "explanation": "The statement that the company is obligated to continue providing customer service and may not alter or cease providing it directly contradicts the following sentence, which states the company may at its sole discretion alter or cease providing customer service without liability. This is an internal contradiction, as it both requires and permits the company to stop providing customer service.",
         "location": "Section 4",
         "category": 3,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.8419016599655151,
+        "explanation_match_score": 0.844990611076355,
         "explanation_match": true
+    },
+    {
+        "section": "However, the Client can pay the remaining amount at any time, or in multiple installments, before the Scope of Work completion.",
+        "explanation": "This sentence introduces ambiguity. While it allows for early or installment payments, it doesn't explicitly state whether such early payments would affect the project timeline or the final completion date. This ambiguity could lead to disputes if the client makes partial payments and expects accelerated progress or project completion, which may not be feasible for the company. This contradicts the agreed upon schedule of payment.",
+        "location": "Section 2",
+        "category": 1,
+        "location_match": false,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.7026816606521606,
+        "explanation_match": false
     }
 ]

@@ -1,38 +1,38 @@
 [
     {
-        "section": "Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018.",
-        "explanation": "The section states the company will use its best efforts, which can be seen as ambiguous, but it also provides a date. It states the project will be from February 8, 2018 to May 3, 2018, however, this is more than 12 weeks. 12 weeks from February 8, 2018 is May 3, 2018. This makes the project time frame ambiguous.",
-        "location": "Section 1(b)",
-        "category": 1,
-        "location_match": false,
-        "text_match_v1": false,
-        "text_match_v2": false,
-        "text_match": false,
-        "explanation_match_score": 0.16056044399738312,
-        "explanation_match": false
-    },
-    {
-        "section": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
-        "explanation": "The phrase \"on completion of the Scope of Work\" is ambiguous. It is not clear what defines completion of the scope of work or how that will be measured. This creates a loophole.",
-        "location": "Section 2",
-        "category": 2,
-        "location_match": false,
-        "text_match_v1": false,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.27018293738365173,
-        "explanation_match": false
-    },
-    {
-        "section": "Company representatives are available during Company's normal business hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday. Any email or telephone correspondence received after normal business hours will be processed the following business day. <*$p$*>Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work shall be the hourly rate plus twenty-five percent (25%).",
-        "explanation": "It mentions an hourly rate, but there is no hourly rate defined in the document. This creates an ambiguity in text, because there is no way of calculating this.",
-        "location": "Section 3",
-        "category": 1,
+        "section": "Client agrees to pay to Company to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+        "explanation": "The document states that Exhibit A is attached to the agreement, however, it is unclear what happens if Exhibit A is not attached to the document. This could cause a structural issue.",
+        "location": "Section 1",
+        "category": 9,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": false,
         "text_match": true,
-        "explanation_match_score": 0.7094130516052246,
+        "explanation_match_score": 0.26152217388153076,
+        "explanation_match": false
+    },
+    {
+        "section": "Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018.",
+        "explanation": "A project duration of 12 weeks starting from February 8, 2018, would end around May 3, 2018. February 8 to May 3 is not 12 weeks. This is an inconsistency.",
+        "location": "Section 1(b)",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.2149745374917984,
+        "explanation_match": false
+    },
+    {
+        "section": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+        "explanation": "The payment terms are ambiguous because \"completion of the Scope of Work\" is not clearly defined. It's unclear what constitutes 'completion' and when the final payment is due. This lack of clarity could lead to disputes.",
+        "location": "Section 2",
+        "category": 1,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.4536426067352295,
         "explanation_match": false
     }
 ]

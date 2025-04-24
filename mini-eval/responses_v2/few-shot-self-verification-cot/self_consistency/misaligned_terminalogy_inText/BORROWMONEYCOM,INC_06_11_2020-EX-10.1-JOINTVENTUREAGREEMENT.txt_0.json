@@ -1,38 +1,38 @@
 [
     {
         "section": "The business name of the Venture will be BM&V2GO, however the partnership name will be Vaccines2Go.",
-        "explanation": "This creates an internal contradiction. The 'business name' and 'partnership name' should ideally align to avoid confusion in branding, legal filings, and general business operations. Having two different names creates ambiguity as to which name is legally binding and which name should be used for different purposes.",
+        "explanation": "This statement presents a direct contradiction. It states that the business name will be 'BM&V2GO,' but then immediately contradicts itself by saying the 'partnership name will be Vaccines2Go.' A single entity cannot have two distinct names used interchangeably; this creates confusion and ambiguity regarding the venture's legal identity and how it should be referred to in contracts and other legal documents.",
         "location": "2",
-        "category": 1,
+        "category": 3,
         "location_match": true,
         "text_match_v1": true,
         "text_match_v2": false,
         "text_match": true,
-        "explanation_match_score": 0.5996899008750916,
-        "explanation_match": false
+        "explanation_match_score": 0.9321150183677673,
+        "explanation_match": true
     },
     {
-        "section": "Each of the Members has contributed to the capital of the Venture, in cash or property in agreed upon value, as follows (the \"Capital Contribution\"): \n\nMember Contribution Description Agreed Value\nBorrowMoney.com, inc 1, 500 square feet of Leased/rent office Space Includingspecified Description of duty* $3,500.00 USD\nJVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue, In Add i t i on to The To ta l Contributions. $3,500,000.00 USD",
-        "explanation": "This clause has structural flaws because in the description of the capital contributions, it does not make sense. Under the 'BorrowMoney.com, inc' heading, the phrase 'Includingspecified Description of duty*' does not make sense. The capital contributions for 'JVLS, LLC dba Vaccines 2Go' also does not make sense because the description is too long and could have been simplified to make more sense.",
-        "location": "15",
-        "category": 9,
-        "location_match": true,
-        "text_match_v1": false,
-        "text_match_v2": false,
-        "text_match": false,
-        "explanation_match_score": 0.4803120791912079,
-        "explanation_match": false
-    },
-    {
-        "section": "Capital Contributions may be amended from time to time, according to the requirements of the Venture, by decision of the Members as recommended by the Managers. Where Members' interests are affected, additional capital contributions (the \"Additional Capital Contributions\") must have the unanimous consent of the Members.",
-        "explanation": "The original text states that the decision is made 'as recommended by the Managers' but after the modification, there is no mention of the Manager recommending it. This creates ambiguity in the decision-making process for amending capital contributions. Additionally, the second sentence states that unanimous consent of the Members is required 'where Members' interests are affected', but it is not clear how to determine when a member's interests are 'affected'. This introduces vagueness and potential disputes.",
-        "location": "19",
+        "section": "JVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue From Awarded Contract, In Addition to The Total Contributions.",
+        "explanation": "This entry is ambiguous and potentially contradictory.  It's unclear whether the '$60,000.00 USD From Monthly Government, City And State, And Or Private Awarded Contracts' is a fixed contribution, a funding source for the venture, or something else entirely.  The phrase 'Plus (10%) Of Any Generated Gross Revenue From Awarded Contract, In Addition to The Total Contributions' adds to the confusion. Is the 10% taken from the $60,000, or in addition to it, or related to a different contribution entirely?  The statement lacks clarity and potentially creates a conflict in how JVLS, LLC's contribution is defined.",
+        "location": "13",
         "category": 1,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.5284377932548523,
+        "explanation_match_score": 0.38956907391548157,
+        "explanation_match": false
+    },
+    {
+        "section": "Member Contribution Description BorrowMoney.com, inc 1, 500 square feet of Leased/rent office Space Includingspecified Description of duty* $3,500.00 USD JVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue, In Add i t i on to The To ta l Contributions. $3,500,000.00 USD",
+        "explanation": "The listed 'Agreed Value' for JVLS, LLC's contribution is $3,500,000.00 USD. However, in the prior description (Section 13), JVLS, LLC's duties indicate a capital contribution, where the amount of $60,000 comes from Government, City And State, And Or Private Awarded Contracts, plus 10%. The agreed value greatly exceeds what is outlined. This discrepancy creates a contradiction about the true capital contribution and relative ownership.",
+        "location": "15",
+        "category": 3,
+        "location_match": true,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.463613361120224,
         "explanation_match": false
     }
 ]

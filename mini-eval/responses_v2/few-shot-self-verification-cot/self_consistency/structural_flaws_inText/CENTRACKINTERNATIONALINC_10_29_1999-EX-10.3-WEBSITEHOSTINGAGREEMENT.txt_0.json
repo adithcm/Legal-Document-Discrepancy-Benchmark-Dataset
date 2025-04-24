@@ -1,38 +1,38 @@
 [
     {
-        "section": "The Customer is responsible for paying the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees at their discretion and convenience. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
-        "explanation": "The text states the customer is responsible for paying fees, but then says they can pay at their 'discretion and convenience.' This is contradictory because the customer is responsible for paying, but it seems like the customer can pay whenever they want. The payment also mentions that failure to pay 'in a timely manner' will result in the interruption, so this phrase is ambiguous and contradicts the phrase 'discretion and convenience.'",
-        "location": "Responsibilities of the Customer",
-        "category": 3,
+        "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends.",
+        "explanation": "This section guarantees continuous operation of the website except for 'reasonable' maintenance, but this reasonableness is not clearly defined, which can be subjective. While the agreement attempts to constrain this reasonableness by stating that 'i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends,' the agreement still permits maintenance outside these hours. This introduces ambiguity since maintenance can occur outside these preferred hours without explicitly defining the circumstances under which such out-of-hours maintenance is considered 'reasonable'.",
+        "location": "Services Provided to the Customer",
+        "category": 1,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.6678932309150696,
+        "explanation_match_score": 0.3356313705444336,
+        "explanation_match": false
+    },
+    {
+        "section": "The Customer is responsible for paying the recurring monthly fees at their discretion and convenience. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+        "explanation": "This section allows the customer to pay the fees at their discretion and convenience, while also stating that failure to pay in a timely manner will result in a service interruption. This is an in-text contradiction since the first sentence implies a flexibility in payment timing that is then negated by the second sentence's threat of service interruption if payment is not 'timely.' The agreement never actually defines what 'timely manner' means. What is considered untimely payment is never defined in the text.",
+        "location": "Responsibilities of the Customer",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.6346592903137207,
         "explanation_match": false
     },
     {
         "section": "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof. This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
-        "explanation": "The text begins by stating the term is six months unless terminated. Then, it states the agreement will automatically renew for one or more one-month periods unless notice is given. This creates a contradiction because the initial statement suggests a fixed 6-month term, while the second introduces automatic monthly renewals. Which term length is the actual term length?",
+        "explanation": "The text initially states the agreement is for a fixed term of 6 months, but then states the agreement shall automatically be renewed for one or more one month periods. This creates an in-text contradiction since the agreement is for a fixed 6 month term and then continues to renew for one month. It is ambiguous whether the contract is for 6 months or month-to-month.",
         "location": "Term and Termination",
         "category": 3,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.5722699761390686,
-        "explanation_match": false
-    },
-    {
-        "section": "LIMITATION OF LIABILITY i-on will be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages. i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
-        "explanation": "The limitation of liability clause contains an ambiguity in legal terms. Initially, it states that 'i-on will be liable under any circumstances,' which seems to suggest unlimited liability. However, the subsequent sentence contradicts this by limiting liability to 'one (1) month's fees and the remaining portion of any prepaid fees.' The phrase 'under any circumstances' is vague and makes it difficult to enforce the limitation of liability in accordance with applicable laws.",
-        "location": "Limitation of Liability",
-        "category": 2,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.6675453782081604,
+        "explanation_match_score": 0.5162274241447449,
         "explanation_match": false
     }
 ]

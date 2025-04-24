@@ -1,38 +1,38 @@
 [
     {
         "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The subscriber is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999.",
-        "explanation": "The text refers to both \"Customer\" and \"subscriber\" in the same context. While it can be inferred they are the same, this introduces potential ambiguity. If they are indeed intended to be the same entity, using a single term consistently would be clearer. If they refer to different entities, the contract fails to define the relationship and responsibilities of each party.",
+        "explanation": "The second sentence seems to reiterate the first, but the phrase \"April 1, 1999\" suggests that the payments should have been made starting on that date, which is incorrect because the agreement was dated April 6, 1999. The first payment should have started May 1, 1999, not April 1, 1999, because it is paid on the 5th of each month. This means that there is an inconsistency as to when the agreement began and is an in-text contradiction.",
         "location": "Responsibilities of the Customer",
-        "category": 5,
+        "category": 3,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": false,
         "text_match": true,
-        "explanation_match_score": 0.8305928111076355,
-        "explanation_match": true
+        "explanation_match_score": 0.29832732677459717,
+        "explanation_match": false
     },
     {
-        "section": "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof. This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
-        "explanation": "The contract has contradictions. It states that the agreement will automatically renew for a one month period and that either party can terminate the agreement with 30 days notice. This is contradictory because the agreement can automatically renew for only one month, but the termination period for the agreement is 30 days.",
+        "section": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+        "explanation": "This section contains contradictory terms regarding termination. The first sentence details an automatic renewal for one-month periods unless a 15-day notice is given. However, the following sentence allows either party to terminate the agreement 'at any time' with a 30-day notice, contradicting the renewal clause. This creates ambiguity regarding the actual termination terms and whether the automatic renewal is superseded by the right to terminate at any time.",
         "location": "Term and Termination",
         "category": 3,
         "location_match": false,
         "text_match_v1": false,
         "text_match_v2": false,
         "text_match": false,
-        "explanation_match_score": 0.2924702763557434,
+        "explanation_match_score": 0.3195160925388336,
         "explanation_match": false
     },
     {
-        "section": "LIMITATION OF LIABILITY i-on will not be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages. i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
-        "explanation": "The limitation of liability clause attempts to absolve i-on from liability even for negligence, which may not be enforceable under Florida law depending on the specific circumstances and the nature of the negligence. Some jurisdictions do not allow parties to contract away liability for gross negligence or intentional misconduct.",
-        "location": "Limitation of Liability",
-        "category": 2,
+        "section": "In the case of a problem with the Hosted Site that is the responsibility of i-on according to this Agreement, the Customer shall directly notify i-on, which shall report the resolution of such problem directly to the Customer.",
+        "explanation": "The initial phrase states that i-on must report a problem resolution directly to the Customer. The problem with this is the word 'directly'. A structural flaw has presented itself in this section as the wording may seem confusing or misleading, because it should be understood as something that I-ON is responsible for.",
+        "location": "Responsibilities of the Customer",
+        "category": 9,
         "location_match": false,
         "text_match_v1": false,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.36862796545028687,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.3203769624233246,
         "explanation_match": false
     }
 ]
