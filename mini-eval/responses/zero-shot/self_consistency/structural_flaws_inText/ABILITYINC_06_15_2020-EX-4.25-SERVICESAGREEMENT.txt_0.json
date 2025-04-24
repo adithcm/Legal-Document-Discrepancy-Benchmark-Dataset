@@ -1,29 +1,42 @@
 [
     {
-        "section": "This Agreement be deemed effective as of the Effective Date, Agreement and shall terminate on December 31, 2020, unless terminated earlier in accordance with Section 3.2.",
-        "explanation": "This sentence is structurally flawed and does not make sense. It seems like there are missing words. ",
-        "location": "Section 3.1",
-        "category": 9,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "section": "2. Compensation. 2.1 Responsibility for Wages and Fees. For such time as any employees of Provider are providing the Services to Recipient under this Agreement, (a) such employees will remain employees of Provider unless otherwise agreed upon in writing, and may under certain circumstances, be deemed employees of Recipient for specific purposes as determined by Recipient, and (b) while Provider generally remains responsible for the payment of wages, Recipient may, at its discretion, contribute to or assume responsibility for certain wages, bonuses, commissions, or employee benefits, with terms to be negotiated separately for each individual case. The responsibility for withholding and payment of applicable taxes will be determined on a case-by-case basis.",
+        "explanation": "The text states that employees of the Provider will remain employees of the Provider unless otherwise agreed upon in writing, but then it also mentions that under certain circumstances, they may be deemed employees of the Recipient for specific purposes as determined by Recipient. This creates ambiguity as to who is responsible for the employees. This is an in-text contradiction.",
+        "location": "Section 2.1",
+        "category": 3,
+        "location_match": true,
+        "text_match": true
     },
     {
-        "section": "Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause. However, termination by either party is subject to a termination fee of [ * * * ], and liability may arise based on a review of outstanding commitments. To do so, providing at least 90 (ninety) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
-        "explanation": "This paragraph has inconsistencies in text, regarding the termination of the contract. The document states that each party can terminate the agreement at any time without cause, however, the document later states that they have to provide 90 days prior written notice.",
+        "section": "2. Compensation. 2.1 Responsibility for Wages and Fees. For such time as any employees of Provider are providing the Services to Recipient under this Agreement, (a) such employees will remain employees of Provider unless otherwise agreed upon in writing, and may under certain circumstances, be deemed employees of Recipient for specific purposes as determined by Recipient, and (b) while Provider generally remains responsible for the payment of wages, Recipient may, at its discretion, contribute to or assume responsibility for certain wages, bonuses, commissions, or employee benefits, with terms to be negotiated separately for each individual case. The responsibility for withholding and payment of applicable taxes will be determined on a case-by-case basis.",
+        "explanation": "The contract states that responsibility for withholding and payment of applicable taxes will be determined on a case-by-case basis. This is an Ambiguity in legal terms since it is the law that determines who is responsible for withholding and payment of taxes, and the law does not operate on a case-by-case basis.",
+        "location": "Section 2.1",
+        "category": 2,
+        "location_match": true,
+        "text_match": true
+    },
+    {
+        "section": "3. Termination. 3.2 Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause. However, termination by either party is subject to a termination fee of [ * * * ], and liability may arise based on a review of outstanding commitments. To do so, providing at least 90 (ninety) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
+        "explanation": "The contract states that termination can be done at any time without cause, but then continues on to state that termination by either party is subject to a termination fee of [ * * * ], and liability may arise based on a review of outstanding commitments, as well as providing at least 90 days written notice. This creates ambiguity as to the actual rules when it comes to termination since it is not 'any time' if these rules need to be followed.",
         "location": "Section 3.2",
-        "category": 3,
+        "category": 1,
         "location_match": true,
-        "text_match": true,
-        "explanation_match": false
+        "text_match": true
     },
     {
-        "section": "Communications are deemed given (a) when delivered by hand (with written confirmation of receipt); (b) when received by the addressee if sent by a nationally recognized overnight courier (receipt requested); (c) communications via facsimile or email are only considered valid if the recipient confirms receipt within 72 hours, otherwise they are deemed not received. (d) Notices sent via mail are deemed received upon dispatch, regardless of actual delivery or return receipt.",
-        "explanation": "The different communication methods have inconsistencies in text. (a) and (b) are when they are received. (d) is when they are sent. (c) is only valid if recipient confirms receipt within 72 hours. This means there are conflicting deadlines on when communications are deemed valid.",
+        "section": "7. Notices. All notices, requests, consents, claims, demands, waivers and other communications hereunder shall be in writing but may sometimes be given orally if agreed upon. Communications are deemed given (a) when delivered by hand (with written confirmation of receipt); (b) when received by the addressee if sent by a nationally recognized overnight courier (receipt requested); (c) communications via facsimile or email are only considered valid if the recipient confirms receipt within 72 hours, otherwise they are deemed not received. (d) Notices sent via mail are deemed received upon dispatch, regardless of actual delivery or return receipt.",
+        "explanation": "The contract states that all notices, requests, consents, claims, demands, waivers and other communications hereunder shall be in writing but may sometimes be given orally if agreed upon. This is an ambiguity in text since it contradicts the first line. It is not clear if all communication should be in writing or not.",
         "location": "Section 7",
-        "category": 3,
+        "category": 1,
         "location_match": true,
-        "text_match": true,
-        "explanation_match": false
+        "text_match": true
+    },
+    {
+        "section": "7. Notices. All notices, requests, consents, claims, demands, waivers and other communications hereunder shall be in writing but may sometimes be given orally if agreed upon. Communications are deemed given (a) when delivered by hand (with written confirmation of receipt); (b) when received by the addressee if sent by a nationally recognized overnight courier (receipt requested); (c) communications via facsimile or email are only considered valid if the recipient confirms receipt within 72 hours, otherwise they are deemed not received. (d) Notices sent via mail are deemed received upon dispatch, regardless of actual delivery or return receipt.",
+        "explanation": "The contract states that notices sent via mail are deemed received upon dispatch, regardless of actual delivery or return receipt. This contradicts standard legal practice, which requires proof of receipt for important legal notices. It is unusual and potentially unenforceable to deem something received without any confirmation, creating a legal contradiction.",
+        "location": "Section 7",
+        "category": 4,
+        "location_match": true,
+        "text_match": true
     }
 ]

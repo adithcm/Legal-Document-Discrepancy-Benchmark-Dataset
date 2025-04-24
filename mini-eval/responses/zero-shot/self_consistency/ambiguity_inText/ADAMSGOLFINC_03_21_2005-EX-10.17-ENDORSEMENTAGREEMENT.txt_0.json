@@ -1,29 +1,42 @@
 [
     {
-        "section": "During the term of this Agreement, CONSULTANT will conduct himself at all times with due regard to public morals and conventions. If the value of CONSULTANT'S ENDORSEMENT is materially reduced or impaired because CONSULTANT: A.committed or shall commit any public act that involves moral turpitude, B.commits or violates any material foreign, U.S., federal, or other applicable state or local law, C.commits any act which brings him into public disrepute, contempt, scandal or ridicule, or which insults or offends the community, D.makes any statements in derogation, in any material respect, of ADAMS GOLF or any of its affiliates or any of their respective PRODUCT or services and such statement is made to the general public or becomes a matter of public knowledge, then at any time after the occurrence of such act, thing or statement, ADAMS GOLF shall have the right, in addition to its other legal and equitable remedies, to immediately terminate this Agreement, by giving written notice to CONSULTANT. ADAMS GOLF must exercise its right of termination within ninety (90) days of its senior management becoming aware of the conduct giving rise to the right of termination.",
-        "explanation": "The phrase 'public morals and conventions' is ambiguous and can be interpreted differently by different people. This ambiguity makes it difficult to determine what specific actions would constitute a breach of the agreement. The clause 'insults or offends the community' is also vague and subjective. It's unclear what standards would be used to determine whether an act insults or offends the community, leading to potential disputes over whether the termination was justified.",
-        "location": "Section 12",
+        "section": "A. CONSULTANT'S \"ENDORSEMENT\" means the right to use the CONSULTANT'S name, fame, nickname, autograph, voice, facsimile, signature, photograph, likeness, and image solely in print advertising campaigns for ADAMS GOLF'S PRODUCT. This excludes any personal appearances or television commercials.",
+        "explanation": "The definition of \"ENDORSEMENT\" is limited to print advertising, explicitly excluding personal appearances or television commercials. However, section 11 discusses promotional appearances, including TV and radio appearances, where the Consultant is expected to promote ADAMS GOLF's products. This creates an in-text contradiction.",
+        "location": "Section 2.A",
         "category": 1,
         "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": true
+    },
+    {
+        "section": "A. CONSULTANT'S \"ENDORSEMENT\" means the right to use the CONSULTANT'S name, fame, nickname, autograph, voice, facsimile, signature, photograph, likeness, and image solely in print advertising campaigns for ADAMS GOLF'S PRODUCT. This excludes any personal appearances or television commercials.",
+        "explanation": "The agreement uses the term \u201cendorsement\u201d to define the consultant\u2019s obligations, but it never defines or discusses the consultant\u2019s rights. This is a structural flaw that affects the legal terms.",
+        "location": "Section 2.A",
+        "category": 10,
+        "location_match": false,
+        "text_match": true
+    },
+    {
+        "section": "During the term of this Agreement, CONSULTANT shall exclusively play/use the MANDATORY PRODUCT whenever practical. The decision on whether to use the MANDATORY PRODUCT in a specific tournament will be at the sole discretion of the CONSULTANT based on performance considerations. (It is expressly understood by the parties that CONSULTANT may play [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not limited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse those clubs and/or putter.)",
+        "explanation": "The first sentence states that the consultant 'shall exclusively play/use the MANDATORY PRODUCT whenever practical,' which implies a general obligation. However, the second sentence grants the consultant sole discretion on whether to use the product based on performance considerations, effectively negating the 'exclusive' use requirement. This creates an internal contradiction.",
+        "location": "Section 5",
+        "category": 3,
+        "location_match": false,
+        "text_match": true
+    },
+    {
+        "section": "During the term of this Agreement, CONSULTANT shall exclusively play/use the MANDATORY PRODUCT whenever practical. The decision on whether to use the MANDATORY PRODUCT in a specific tournament will be at the sole discretion of the CONSULTANT based on performance considerations. (It is expressly understood by the parties that CONSULTANT may play [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not limited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse those clubs and/or putter.)",
+        "explanation": "Section 5 allows the consultant to play other clubs, but states that he may not endorse those clubs. But the definition of what constitutes an endorsement is not clearly defined in the document, opening it up to interpretation.",
+        "location": "Section 5",
+        "category": 5,
+        "location_match": false,
+        "text_match": true
     },
     {
         "section": "CONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses (excluding attorneys' fees and expenses) for which it becomes liable or is compelled to pay by reason of a breach of any covenant or representation by CONSULTANT in this Agreement. However, ADAMS GOLF will cover CONSULTANT's attorney fees up to $10,000.",
-        "explanation": "This section initially states that the consultant is responsible for all liabilities, claims, damages, and expenses. However, the added sentence creates a discrepancy, stating that Adams Golf will cover attorney fees up to $10,000. This is an inconsistency, as the initial statement excludes attorney fees, but the added sentence contradicts that by providing a limit that Adams Golf will cover.",
+        "explanation": "This section presents a contradiction regarding attorney's fees. The first sentence states that CONSULTANT will indemnify ADAMS GOLF for all liabilities, excluding attorney's fees. However, the second sentence states that ADAMS GOLF will cover CONSULTANT's attorney fees up to $10,000. This creates ambiguity on who is ultimately responsible for the consultant's attorney's fees, and to what extent.",
         "location": "Section 14",
         "category": 3,
         "location_match": false,
-        "text_match": true,
-        "explanation_match": true
-    },
-    {
-        "section": "Notwithstanding any other paragraph of this Agreement, if either party commits any material breach of this Agreement, the other party may terminate for cause upon giving fifteen (15) days written notice of such cause and provided the breach is not rectified within such fifteen (15) day period. Upon such termination, CONSULTANT shall be required to repay ADAMS GOLF for that period of the Agreement not performed by CONSULTANT. The repayment amount shall be calculated in the same way as repayment is calculated under paragraph 8A.",
-        "explanation": "While the clause allows for termination for 'any material breach,' it only specifies the consultant's repayment obligation upon termination. It omits to address any repayment obligations from ADAMS GOLF, if ADAMS GOLF commits a material breach of the agreement and the consultant terminates for cause.",
-        "location": "Section 23",
-        "category": 8,
-        "location_match": false,
-        "text_match": false,
-        "explanation_match": false
+        "text_match": true
     }
 ]
