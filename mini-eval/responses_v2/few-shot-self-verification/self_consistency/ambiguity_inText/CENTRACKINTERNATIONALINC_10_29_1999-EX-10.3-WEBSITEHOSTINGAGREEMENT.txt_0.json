@@ -1,38 +1,38 @@
 [
     {
         "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance at its convenience, without prior notice.",
-        "explanation": "The initial statement guarantees continuous operation, while the subsequent clause permits maintenance without notice. This creates ambiguity as the definition of 'continuous' is undermined by the allowance for unscheduled interruptions, which contradicts the initial promise of constant availability.",
-        "location": "Services Provided to the Customer",
-        "category": 1,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.611146092414856,
-        "explanation_match": false
-    },
-    {
-        "section": "connectivity to the Internet via a T1 (that may be shared by other Web sites) to a leading Internet backbone access provider such as UUNET, and will not be responsible for maintaining such connectivity with the phone company and the Internet backbone access provider;",
-        "explanation": "There is an inconsistency where i-on provides connectivity via a T1 line but disclaims responsibility for maintaining that connectivity with the phone company and the internet backbone access provider. It is unclear which party is responsible for maintaining connectivity and what should be done if the server goes down.",
+        "explanation": "There is an inconsistency. It says that i-on will operate the website continuously, however, they do maintenance at their convenience without any notice. This could lead to some issues if the website goes down for a long period of time and the customer was not notified.",
         "location": "Services Provided to the Customer",
         "category": 3,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.7281478643417358,
+        "explanation_match_score": 0.7166730165481567,
         "explanation_match": false
     },
     {
         "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
-        "explanation": "The term mentions that the customer has 30 days to pay the invoice, however it mentions 'failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site'. This is misaligned as it does not define the term 'timely manner', as if they have 30 days to pay, that is in a timely manner. The failure to define 'timely manner' is misaligned with the amount of time provided to pay the invoices.",
-        "location": "Responsibilities of the Customer",
-        "category": 5,
+        "explanation": "The statement is ambiguous. While it says the customer has 30 days to pay from reciept of the invoice. It does not state when the invoice will be sent. This is an example of ambiguity.",
+        "location": "Responsibilities of the customer",
+        "category": 1,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.7165425419807434,
+        "explanation_match_score": 0.7161449193954468,
+        "explanation_match": false
+    },
+    {
+        "section": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the 4 Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
+        "explanation": "This introduces ambiguity regarding the renewal terms. The text says the agreement will automatically renew for one or more one-month periods, implying multiple potential renewals. However, it's not clear how many one-month renewals can occur or if there's a limit. This creates uncertainty about the duration of the agreement after the initial six-month term.",
+        "location": "Term and Termination",
+        "category": 1,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.3723308742046356,
         "explanation_match": false
     }
 ]

@@ -1,38 +1,38 @@
 [
     {
         "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance at its convenience, without prior notice.",
-        "explanation": "The contract states that i-on will maintain the site continuously, but then contradicts itself by stating that maintenance will be performed at i-on's convenience without prior notice. This creates ambiguity because the customer is not aware of when the website will be down for maintenance and how long it will be down for. There is no indication that the customer will receive notice for the maintenance, nor is there a maintenance schedule.",
+        "explanation": "The contract states that i-on will maintain the operation of the Hosted Site continuously, 24/7, including holidays. However, it then introduces an exception for necessary hardware and software maintenance, which i-on can perform at its convenience and without prior notice. This creates an ambiguity because the term 'necessary maintenance' is not defined. The lack of definition leads to a contradiction in the agreement, as it is not clear under which circumstances i-on can interrupt services and how long these interruptions may last. This contradicts the initial promise of continuous operation.",
         "location": "SERVICES PROVIDED TO THE CUSTOMER",
-        "category": 3,
-        "location_match": true,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.8025989532470703,
-        "explanation_match": true
-    },
-    {
-        "section": "Under this Agreement, i-on will provide the following limited services for the Hosted Site: 1. connectivity to the Internet via a T1 (that may be shared by other Web sites) to a leading Internet backbone access provider such as UUNET, and will not be responsible for maintaining such connectivity with the phone company and the Internet backbone access provider;",
-        "explanation": "This is a contradiction because it says they will provide connectivity to the internet, but then says they will not be responsible for maintaining such connectivity with the phone company and the Internet backbone access provider. If they are not responsible for maintaining connectivity, then they are not responsible for providing connectivity. This means that they are not providing any services.",
-        "location": "SERVICES PROVIDED TO THE CUSTOMER",
-        "category": 3,
-        "location_match": true,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.6777023077011108,
-        "explanation_match": false
-    },
-    {
-        "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
-        "explanation": "While stating the customer is responsible for paying within 30 days, it does not specify when the invoice will be received by the customer. If the customer receives the invoice at the end of the month, it would be an extremely short period of time. If the invoice is sent at the end of the following month, it would be a long period of time. This is considered ambiguous because it does not give a clear indication of when the invoice will be sent to the customer.",
-        "location": "RESPONSIBILITIES OF THE CUSTOMER",
         "category": 1,
         "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.740215539932251,
+        "explanation_match_score": 0.867393434047699,
+        "explanation_match": true
+    },
+    {
+        "section": "Under this Agreement, i-on will provide the following limited services for the Hosted Site: ... 13. up to 1 hour per month of Web site administration services at no additional charge, limited to: requests for changes to ftp/e-mail users and passwords; requests for e-mail configuration changes; modification of mail aliases; changes to server MIME types; files restored from backup; answering questions about server-side scripts; ftp configuration changes; log file configuration changes; importing or exporting of database records; and consultation on site operation and administration. Additional Web site administration services will be billed at $200 per hour.",
+        "explanation": "While the clause specifies that additional web site administration services will be billed at $200 per hour, it does not specify how those hours will be billed, for example in 15 minutes increments, 30 minutes increments, or per hour. This creates an in-text contradiction because it leaves room for interpretation and potential disputes about how the additional costs are calculated and applied.",
+        "location": "SERVICES PROVIDED TO THE CUSTOMER",
+        "category": 1,
+        "location_match": true,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.5025485157966614,
+        "explanation_match": false
+    },
+    {
+        "section": "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof. This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+        "explanation": "The section includes contradictory statements regarding the agreement's termination. The contract states that the agreement will automatically be renewed for one month unless either party gives notice of its intention not to renew it 15 days before the end of the term. However, the agreement also states that either party may terminate the agreement 'without cause at any time effective upon thirty (30) days' written notice.' These statements contradict each other because the renewal clause suggests that the agreement automatically continues unless notice is given, while the termination clause allows either party to end the agreement at any time with 30 days' notice, regardless of the renewal term.",
+        "location": "TERM AND TERMINATION",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.5439476370811462,
         "explanation_match": false
     }
 ]

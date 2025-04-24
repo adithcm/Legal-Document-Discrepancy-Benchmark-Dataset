@@ -1,38 +1,38 @@
 [
     {
-        "section": "Client agrees to pay to Company a reasonable sum (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in general accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
-        "explanation": "The contract language refers to a 'reasonable sum' as the Contract Price, which is vague. However, Section 2 subsequently specifies the amount as $5,000. This creates an ambiguity, as the initial description implies the price could be subject to interpretation.",
-        "location": "Section 1",
-        "category": 1,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.7872093915939331,
-        "explanation_match": false
-    },
-    {
-        "section": "Company guarantees to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
-        "explanation": "The initial text guarantees delivery within the timeframe specified in the Scope of Work and states that due dates are not subject to delay. However, the subsequent removal of 'unless otherwise agreed by Client and Company' creates a contradiction. Without this condition, the company is accountable for meeting all deadlines regardless of if the client needs to extend, meaning the client is not able to change any deadlines.",
-        "location": "Section 1(b)",
-        "category": 3,
+        "section": "Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
+        "explanation": "This statement contradicts the general understanding and legal principle that unforeseen circumstances can cause delays. It is nearly impossible for a project to be 100% free from delay.",
+        "location": "1. (b)",
+        "category": 2,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": false,
         "text_match": true,
-        "explanation_match_score": 0.7196959257125854,
+        "explanation_match_score": 0.5599508285522461,
         "explanation_match": false
     },
     {
-        "section": "Client may be asked to pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work may be different from the standard hourly rate.",
-        "explanation": "By removing 'standard hourly rate' from the end of the text, there is no indication on how much the surcharge would be for work done outside of the standard business hours.",
-        "location": "Section 3",
-        "category": 7,
+        "section": "Any content submitted by Client in any other manner or format, including, but not limited to Adobe PDF format, will be returned to Client for resubmission.",
+        "explanation": "This can contradict the client, if they are unable to provide any other format, and can cause a delay in the project.",
+        "location": "1. (c)",
+        "category": 3,
         "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.48703980445861816,
+        "explanation_match": false
+    },
+    {
+        "section": "Client may be asked to pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials.",
+        "explanation": "There is no mention of standard hourly rate, meaning that the surchage for rush work does not make sense.",
+        "location": "3",
+        "category": 5,
+        "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.6212531924247742,
+        "explanation_match_score": 0.4134790003299713,
         "explanation_match": false
     }
 ]

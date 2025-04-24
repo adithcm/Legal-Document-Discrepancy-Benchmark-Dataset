@@ -1,0 +1,62 @@
+[
+    {
+        "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance at its convenience, without prior notice.",
+        "explanation": "The contract states that i-on will maintain the Hosted Site continuously, 24/7, but then introduces an exception for necessary hardware and software maintenance. The phrase \"at its convenience, without prior notice\" creates ambiguity. While maintenance is a reasonable exception, performing it \"at its convenience\" and \"without prior notice\" could lead to extended or frequent downtimes, effectively contradicting the promise of continuous operation. The lack of specifics on the duration or frequency of maintenance windows leaves room for interpretation and potential disputes.",
+        "location": "SERVICES PROVIDED TO THE CUSTOMER",
+        "category": 1,
+        "location_match": true,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true
+    },
+    {
+        "section": "connectivity to the Internet via a T1 (that may be shared by other Web sites) to a leading Internet backbone access provider such as UUNET, and will not be responsible for maintaining such connectivity with the phone company and the Internet backbone access provider",
+        "explanation": "The contract states that i-on is not responsible for maintaining connectivity with the phone company and the internet backbone access provider. This is a contradiction because i-on is providing connectivity to the internet, and not being responsible for that connectivity will lead to issues. A T1 line requires maintenance by a phone company.",
+        "location": "SERVICES PROVIDED TO THE CUSTOMER",
+        "category": 7,
+        "location_match": true,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true
+    },
+    {
+        "section": "up to 1 hour per month of Web site administration services at no additional charge, limited to: requests for changes to ftp/e-mail users and passwords; requests for e-mail configuration changes; modification of mail aliases; changes to server MIME types; files restored from backup; answering questions about server-side scripts; ftp configuration changes; log file configuration changes; importing or exporting of database records; and consultation on site operation and administration. Additional Web site administration services will be billed at $200 per hour.",
+        "explanation": "The contract language is vague regarding the scope of included and billable services. While it lists several specific tasks included in the 1-hour free administration, the phrase \"consultation on site operation and administration\" is extremely broad. This creates ambiguity because almost any request could be classified as \"consultation\", allowing i-on to bill for services that the Customer might reasonably expect to be included in the free hour. It is unclear what is considered a consultation vs a question about server-side scripts.",
+        "location": "SERVICES PROVIDED TO THE CUSTOMER",
+        "category": 1,
+        "location_match": true,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false
+    },
+    {
+        "section": "The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
+        "explanation": "The contract states that services may be interrupted or discontinued for failure to pay fees in a timely manner, but does not define how long that would be. \"Timely manner\" is a broad term that can lead to multiple legal interpretations. This ambiguity can leave room for disputes over when services can be interrupted. A time frame should be defined for when the services will be interrupted.",
+        "location": "RESPONSIBILITIES OF THE CUSTOMER",
+        "category": 2,
+        "location_match": true,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true
+    },
+    {
+        "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
+        "explanation": "This section has structural flaws. It does not make sense to write the same sentence over and over. It needs to be structured better.",
+        "location": "RESPONSIBILITIES OF THE CUSTOMER",
+        "category": 9,
+        "location_match": true,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true
+    },
+    {
+        "section": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term. Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+        "explanation": "This section describes both renewal and termination conditions, but creates a conflict regarding the notice period. It states the agreement auto-renews for one-month periods unless 15-days notice is given. However, it also states that either party can terminate the agreement \"at any time\" with 30-days notice. This creates a contradiction: can the agreement be terminated with 30-days notice even during a renewed one-month term, effectively overriding the renewal clause, or does the 15-day notice requirement for preventing renewal take precedence.",
+        "location": "TERM AND TERMINATION",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false
+    }
+]

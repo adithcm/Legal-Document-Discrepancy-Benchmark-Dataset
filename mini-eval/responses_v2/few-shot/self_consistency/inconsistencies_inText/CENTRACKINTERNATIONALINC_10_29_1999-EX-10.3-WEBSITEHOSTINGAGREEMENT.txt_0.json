@@ -1,38 +1,38 @@
 [
     {
         "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance during any time of the day, including weekdays.",
-        "explanation": "The contract states that i-on will maintain the Hosted Site continuously, 24/7/365. However, it also says i-on can perform maintenance anytime. This is contradicting since the maintenance would interrupt the continuous service that was defined in the first part.",
+        "explanation": "This section states that i-on will maintain the site continuously except for maintenance. However, it also states that i-on can schedule maintenance at any time of the day, including weekdays. This creates ambiguity as it's unclear when the site will actually be consistently available, thus making it difficult to enforce the uptime commitment.",
         "location": "SERVICES PROVIDED TO THE CUSTOMER",
-        "category": 3,
+        "category": 1,
         "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.5616858005523682,
+        "explanation_match_score": 0.6326634287834167,
         "explanation_match": false
     },
     {
         "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 20th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
-        "explanation": "This section outlines the payment terms, stating the fee amount, due date (20th of each month), and consequences of late payment (interruption/discontinuation of services). By removing the sentence about disconnection of service, there is no real reason why the customer would feel incentivized to pay on time, as they can pay at their lesiure.",
+        "explanation": "The contract states the customer should pay the fee by the 20th of each month beginning April 1, 1999, but in the first paragraph the contract states that it begins on April 6, 1999. This means that the payment date comes before the start date of the contract.",
         "location": "RESPONSIBILITIES OF THE CUSTOMER",
-        "category": 8,
-        "location_match": true,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.6344836354255676,
-        "explanation_match": false
-    },
-    {
-        "section": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than five (5) days before the end of the respective initial or renewal term. Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
-        "explanation": "The two sentences about termination are conflicting in this contract. The first sentence says that contract will last for a one (1) month period, but the second sentence states that you can terminate the agreement upon thirty (30) days written notice.",
-        "location": "TERM AND TERMINATION",
         "category": 3,
         "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.5844602584838867,
+        "explanation_match_score": 0.5358699560165405,
+        "explanation_match": false
+    },
+    {
+        "section": "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof. This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than five (5) days before the end of the respective initial or renewal term.",
+        "explanation": "The contract initially states a fixed term of six months. However, it then introduces an automatic renewal clause for one-month periods. This contradicts the fixed term, creating confusion about the actual duration of the agreement and the conditions for renewal.",
+        "location": "TERM AND TERMINATION",
+        "category": 3,
+        "location_match": true,
+        "text_match_v1": false,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.6702341437339783,
         "explanation_match": false
     }
 ]

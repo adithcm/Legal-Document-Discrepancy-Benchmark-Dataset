@@ -1,38 +1,38 @@
 [
     {
-        "section": "Client agrees to pay to Company a reasonable sum (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in general accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
-        "explanation": "The contract specifies that the Client will pay a 'reasonable sum', this is too vague and undefined. There is no clear method provided to determine what constitutes a 'reasonable sum', leading to multiple possible interpretations and disputes. The Contract Price section in the following section states that the total is $5,000. This is not a 'reasonable sum', rather an 'exact amount', which contradicts the original statement.",
-        "location": "1",
-        "category": 1,
-        "location_match": true,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.7240967154502869,
-        "explanation_match": false
-    },
-    {
-        "section": "Company guarantees to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
-        "explanation": "The text says that the project is from 'February 8, 2018 to May 3, 2018' and that it will take 12 weeks. However, February 8, 2018 to May 3, 2018 is actually 11 weeks and 5 days, which means there is an incoherence between what the text says and the real time.",
-        "location": "1(b)",
+        "section": "Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
+        "explanation": "This statement creates a contradiction with the concept of 'Change Orders' outlined in section 1(a). Change Orders, by their nature, can potentially impact project timelines and lead to delays. If a Change Order is approved that requires significant additional work, it's logically inconsistent to maintain that the original due dates are still unchangeable. This absolute clause removes flexibility for addressing necessary adjustments due to agreed-upon scope modifications.",
+        "location": "Section 1(b)",
         "category": 3,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": false,
         "text_match": true,
-        "explanation_match_score": 0.36343538761138916,
+        "explanation_match_score": 0.485908180475235,
         "explanation_match": false
     },
     {
-        "section": "Client may be asked to pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work may be different from the standard hourly rate.",
-        "explanation": "The contract states that a client may be asked to pay a surcharge for a rush deadline request, but there is no mention of what the standard hourly rate is. This creates a contradiction of terms, as a client does not know what a 'different' rate is without knowing the original.",
-        "location": "3",
-        "category": 1,
-        "location_match": true,
-        "text_match_v1": true,
+        "section": "Company representatives are available during Company's normal business hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday. Any email or telephone correspondence received after normal business hours will be processed the following business day. Client may be asked to pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials.",
+        "explanation": "There is a structural flaw in the section. The description of the company's customer support services does not specify how customer issues will be handled and what is being surcharged. This means that any additional surcharge for work is very vague and unclear and can lead to more ambiguities in the contract.",
+        "location": "Section 3",
+        "category": 9,
+        "location_match": false,
+        "text_match_v1": false,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.7326894402503967,
+        "explanation_match_score": 0.7046129703521729,
+        "explanation_match": false
+    },
+    {
+        "section": "Company, either directly or through its authorized service provider, shall provide customer service (the \"Customer Service\") relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is not obligated to provide any Customer Service except as specified in this Section. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
+        "explanation": "This section contains contradictory statements regarding the obligation to provide customer service. It starts by stating that the company *shall* provide customer service. However, it later states that the company is *not obligated* to provide any customer service except as specified. Further, it states that customer services can be altered or ceased at any time. This creates a contradiction because it first implies a mandatory service and then negates that obligation, leaving the client uncertain about the level and consistency of support they will receive.",
+        "location": "Section 4",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.5517555475234985,
         "explanation_match": false
     }
 ]

@@ -1,0 +1,38 @@
+[
+    {
+        "section": "Client agrees to pay to Company a reasonable sum (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in general accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+        "explanation": "The contract states that the client agrees to pay a \"reasonable sum\" to design and develop a website. However, Section 2 specifies a total payment amount of $5,000. The discrepancy lies in the ambiguity of the term \"reasonable sum\" versus the fixed amount. This creates an in-text contradiction because \"reasonable sum\" is open to interpretation, while the contract later defines the specific amount that the client must pay.",
+        "location": "Section 1",
+        "category": 1,
+        "location_match": false,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.8080499768257141,
+        "explanation_match": true
+    },
+    {
+        "section": "Company guarantees to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
+        "explanation": "The contract first states that the company guarantees the delivery of the website within the timeframe specified in the Scope of Work. Then the contract states that the client acknowledges and agrees that any due dates set forth in the scope of work are not subject to any delay. This is a contradiction because a guaranteed delivery date cannot exist if the delivery dates are not subject to delay. Guaranteeing the delivery date means that the company is liable if they do not meet the deadline, but saying it is not subject to any delay means they cannot be liable. ",
+        "location": "Section 1(b)",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": true,
+        "text_match_v2": false,
+        "text_match": true,
+        "explanation_match_score": 0.750769317150116,
+        "explanation_match": false
+    },
+    {
+        "section": "Client may be asked to pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work may be different from the standard hourly rate.",
+        "explanation": "The term \u201csurcharge for rush work\u201d is introduced without explicitly defining the initial \u201cstandard hourly rate\u201d it\u2019s being compared to. The contract mentions the hourly rate earlier in Section 1(c) in the context of Client-submitted content needing to be typed and proofread by the Company. However, it does not define a general standard hourly rate applicable to all work or specifically to work outside normal business hours. This creates an ambiguity and misalignment because it's unclear what the \u201cstandard hourly rate\u201d is that the surcharge may differ from.",
+        "location": "Section 3",
+        "category": 5,
+        "location_match": false,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.6842597723007202,
+        "explanation_match": false
+    }
+]

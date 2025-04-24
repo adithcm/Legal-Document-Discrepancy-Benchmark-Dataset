@@ -1,38 +1,38 @@
 [
     {
         "section": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance at its convenience, without prior notice.",
-        "explanation": "This statement contains an internal inconsistency. It promises 24/7/365 operation, but then allows for unscheduled maintenance without prior notice. This contradicts the continuous uptime guarantee because maintenance inherently involves downtime, and the lack of notice makes it difficult for the customer to plan around it. While some maintenance is expected, the lack of a defined process or reasonable notice period undermines the 24/7 promise.",
-        "location": "Services Provided to the Customer",
-        "category": 3,
-        "location_match": false,
+        "explanation": "The text states continuous operation 'twenty-four (24) hours per day, seven (7) days per week, including holidays' but then immediately introduces an exception for 'necessary hardware and software maintenance' which can be performed 'at its convenience, without prior notice.' This creates an ambiguity and potential contradiction.  If maintenance can be done at i-on's convenience without notice, it contradicts the initial claim of continuous, uninterrupted service.  There's no limitation on the frequency or duration of this maintenance, so theoretically, i-on could perform maintenance frequently, severely impacting the availability of the Hosted Site, directly contradicting the promise of continuous operation.",
+        "location": "SERVICES PROVIDED TO THE CUSTOMER",
+        "category": 1,
+        "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.6919741034507751,
-        "explanation_match": false
-    },
-    {
-        "section": "Under this Agreement, i-on will provide the following limited services for the Hosted Site: 1. connectivity to the Internet via a T1 (that may be shared by other Web sites) to a leading Internet backbone access provider such as UUNET, and will not be responsible for maintaining such connectivity with the phone company and the Internet backbone access provider;",
-        "explanation": "i-on is providing the hosted site with connectivity to the internet. It is i-on's responsibility to maintain such connectivity with the phone company and the Internet backbone access provider. There is an exclusion of responsibility that directly contridicts the agreement.",
-        "location": "Services Provided to the Customer",
-        "category": 3,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.8115664124488831,
+        "explanation_match_score": 0.8632022142410278,
         "explanation_match": true
     },
     {
-        "section": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
-        "explanation": "The contract defines the fees that are supposed to be paid by the customer. The issue here is that the recurring monthly fee is set to $450, but it does not specify the way in which that fee is supposed to be paid. Is it cash, check, money order, electronically?",
-        "location": "Responsibilities of the Customer",
-        "category": 1,
-        "location_match": false,
+        "section": "The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
+        "explanation": "The language 'The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice' is inconsistent with typical business practices and potentially state laws regarding payment terms.  In most jurisdictions, payment terms are significantly shorter (e.g., net 15, net 20, or net 30 from the invoice date).  If the customer fails to pay within a shorter legal term, then the legal term is contradicted.",
+        "location": "RESPONSIBILITIES OF THE CUSTOMER",
+        "category": 4,
+        "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.4337024986743927,
+        "explanation_match_score": 0.7068425416946411,
+        "explanation_match": false
+    },
+    {
+        "section": "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof. This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.",
+        "explanation": "The initial statement defines a fixed term of six months. However, the subsequent sentence introduces automatic monthly renewals unless either party provides at least 15 days' notice of non-renewal. This contradicts the concept of a fixed six-month term. It essentially transforms the agreement into a series of one-month contracts after the initial six months, unless affirmative action is taken to terminate it. The six-month initial term becomes largely irrelevant if the agreement defaults to a month-to-month basis so readily.",
+        "location": "TERM AND TERMINATION",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.451608270406723,
         "explanation_match": false
     }
 ]

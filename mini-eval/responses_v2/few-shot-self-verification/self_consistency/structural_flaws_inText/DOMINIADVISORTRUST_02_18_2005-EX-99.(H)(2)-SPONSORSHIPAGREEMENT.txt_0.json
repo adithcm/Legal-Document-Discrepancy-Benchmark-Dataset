@@ -1,38 +1,38 @@
 [
     {
-        "section": "For the services to be rendered and facilities to be provided by the Sponsor hereunder, the Trust shall pay Domini a fee accrued daily and payable monthly at an annual rate equal to 0.50% of the Trust's average daily net assets for the Trust's then current fiscal year. If Domini serves as the Sponsor for less than the whole of any period specified in this Section 3, the compensation to Domini, as Sponsor, will be subject to renegotiation.",
-        "explanation": "The phrase 'the Trust's then current fiscal year' is ambiguous because it's unclear whether the 0.50% is calculated at the beginning, during, or end of the fiscal year. This is a discrepancy because it does not clearly define how the fee is calculated.",
-        "location": "Section 3",
-        "category": 1,
-        "location_match": false,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.34150779247283936,
-        "explanation_match": false
-    },
-    {
         "section": "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party. However, termination by the Sponsor within the first year will result in a penalty equivalent to three months of the average management fee.",
-        "explanation": "The text states that termination can occur 'at any time, without the payment of any penalty' but then contradicts itself in the following sentence stating 'termination by the Sponsor within the first year will result in a penalty equivalent to three months of the average management fee.'",
-        "location": "Section 6",
+        "explanation": "The text includes contradictory stipulations concerning penalties upon termination. Initially, it states that the agreement can be terminated 'at any time, without the payment of any penalty.' This is immediately followed by 'termination by the Sponsor within the first year will result in a penalty equivalent to three months of the average management fee.'",
+        "location": "6",
         "category": 3,
-        "location_match": false,
+        "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.8742891550064087,
+        "explanation_match_score": 0.8504667282104492,
         "explanation_match": true
     },
     {
-        "section": "Domini may subcontract for the performance of some or all of Domini's obligations hereunder with any one or more persons. Domini's responsibility for the acts and omissions of any subcontractor will be limited to the extent of the subcontractor's own liability insurance coverage. Domini is not responsible for acts or omissions of a subcontractor that are outside the scope of the contracted services.",
-        "explanation": "The contradiction lies in limiting Domini's responsibility to the subcontractor's liability insurance coverage and then stating Domini isn't responsible for acts outside the scope of contracted services. The ambiguity is that the contract does not state whether Domini would be responsible for anything not covered by the subcontactor's liability insurance.",
-        "location": "Section 7",
+        "section": "Domini's responsibility for the acts and omissions of any subcontractor will be limited to the extent of the subcontractor's own liability insurance coverage. Domini is not responsible for acts or omissions of a subcontractor that are outside the scope of the contracted services.",
+        "explanation": "This introduces ambiguity and creates a potential contradiction. It states Domini's responsibility is limited to the subcontractor's insurance coverage, yet also says Domini is not responsible for acts outside the scope of contracted services. If a subcontractor commits a negligent act within the contracted services but their insurance doesn't fully cover it, it is unclear if Domini has any remaining liability. This can confuse the scope of liability.",
+        "location": "7",
         "category": 1,
-        "location_match": false,
+        "location_match": true,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.8775944709777832,
+        "explanation_match_score": 0.8630296587944031,
         "explanation_match": true
+    },
+    {
+        "section": "For the services to be rendered and facilities to be provided by the Sponsor hereunder, the Trust shall pay Domini a fee accrued daily and payable monthly at an annual rate equal to 0.50% of the Trust's average daily net assets for the Trust's then current fiscal year. If Domini serves as the Sponsor for less than the whole of any period specified in this Section 3, the compensation to Domini, as Sponsor, will be subject to renegotiation. For purposes of computing the fees payable to the Sponsor hereunder, the value of the Trust's net assets shall be computed in the manner specified in the Trust's then-current prospectus and statement of additional information.",
+        "explanation": "The statement, 'If Domini serves as the Sponsor for less than the whole of any period specified in this Section 3, the compensation to Domini, as Sponsor, will be subject to renegotiation' introduces ambiguity regarding what happens to the initial fee agreed upon upon termination.",
+        "location": "3",
+        "category": 1,
+        "location_match": true,
+        "text_match_v1": true,
+        "text_match_v2": true,
+        "text_match": true,
+        "explanation_match_score": 0.6533105969429016,
+        "explanation_match": false
     }
 ]

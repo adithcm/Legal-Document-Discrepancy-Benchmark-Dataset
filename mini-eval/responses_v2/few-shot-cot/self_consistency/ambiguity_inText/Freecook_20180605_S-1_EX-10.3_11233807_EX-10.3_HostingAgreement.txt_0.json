@@ -1,38 +1,38 @@
 [
     {
-        "section": "Client agrees to pay to Company a reasonable sum (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in general accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
-        "explanation": "The clause uses the term \"reasonable sum\" but doesn't define it. However, Section 2 specifies the Contract Price as $5,000. There's an inconsistency because the initial statement suggests the price might be subject to interpretation of 'reasonable', when a fixed amount is actually in use. Therefore, there is ambiguity in the usage of terms.",
-        "location": "1",
-        "category": 1,
-        "location_match": true,
-        "text_match_v1": true,
-        "text_match_v2": true,
-        "text_match": true,
-        "explanation_match_score": 0.749589741230011,
-        "explanation_match": false
-    },
-    {
-        "section": "Company guarantees to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
-        "explanation": "This edit is contradictory because of the statement 'any due dates set forth in the Scope of Work are not subject to any delay.' is not possible in web design. Delays can arise from different factors. Because of that, this is an in-text contradiction.",
-        "location": "1(b)",
-        "category": 3,
+        "section": "Client acknowledges and agrees that any due dates set forth in the Scope of Work are not subject to any delay.",
+        "explanation": "This statement is an overreach and potentially unenforceable. While parties can agree to deadlines, unforeseen circumstances (illness, natural disasters, etc.) can legitimately cause delays. A blanket statement prohibiting *any* delay is unrealistic and could lead to legal disputes if a reasonable delay occurs. It contradicts the possibility of 'Change Orders' causing delays as well.",
+        "location": "Section 1(b)",
+        "category": 4,
         "location_match": false,
         "text_match_v1": true,
         "text_match_v2": false,
         "text_match": true,
-        "explanation_match_score": 0.6188046932220459,
+        "explanation_match_score": 0.560289740562439,
         "explanation_match": false
     },
     {
-        "section": "Client may be asked to pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials. The surcharge for rush work may be different from the standard hourly rate.",
-        "explanation": "The edit contains both ambiguity and potential contradiction. The change from 'Client will pay' to 'Client may be asked to pay' introduces ambiguity about whether the surcharge is mandatory or discretionary. Secondly, stating that 'the surcharge for rush work may be different from the standard hourly rate' implies there IS a standard hourly rate set somewhere in the contract. It is not and this presents inconsistency.",
-        "location": "3",
+        "section": "Client may be asked to pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials.",
+        "explanation": "The phrase 'Client may be asked' introduces ambiguity. It's unclear if the surcharge is mandatory if work is done outside business hours due to the client's actions. This lack of clarity could lead to disputes about whether the surcharge is owed. The term is not precisely defined.",
+        "location": "Section 3",
         "category": 1,
-        "location_match": true,
+        "location_match": false,
         "text_match_v1": true,
         "text_match_v2": true,
         "text_match": true,
-        "explanation_match_score": 0.8335039019584656,
-        "explanation_match": true
+        "explanation_match_score": 0.7529320120811462,
+        "explanation_match": false
+    },
+    {
+        "section": "Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company.",
+        "explanation": "This clause essentially renders the obligation to provide Customer Service meaningless. Allowing the Company to unilaterally cease providing the agreed-upon Customer Service 'at any time' and without liability contradicts the idea of a binding agreement. It undermines the Client's expected benefit from the contract.",
+        "location": "Section 4",
+        "category": 3,
+        "location_match": false,
+        "text_match_v1": false,
+        "text_match_v2": false,
+        "text_match": false,
+        "explanation_match_score": 0.45513954758644104,
+        "explanation_match": false
     }
 ]
