@@ -12,7 +12,8 @@ def evaluate_scoring(responses_dir):
         "text_matches": 0,
         "text_match_v1": 0,
         "text_match_v2": 0,
-        "explanation_matches": 0
+        "explanation_matches": 0,
+        "explanation_match_scores": []
     })
 
     for root, _, files in os.walk(responses_dir):
@@ -50,6 +51,10 @@ def evaluate_scoring(responses_dir):
                         scores[subdir]["explanation_matches"] += 1
                     if pred["text_match"] and pred["explanation_match"]:
                         scores[subdir]["correct"] += 1
+                    if pred.get("explanation_match_score") is not None:
+                        scores[subdir]["explanation_match_scores"].append(pred["explanation_match_score"])
+                    
+                    
 
     for subdir, stats in scores.items():
         total = stats["total"]
@@ -69,7 +74,8 @@ def evaluate_scoring(responses_dir):
             "text_match_v2": stats["text_match_v2"],
             "explanation_matches": stats["explanation_matches"],
             "correct": stats["correct"],
-            "total": stats["total"]
+            "total": stats["total"],
+            "explanation_match_scores": stats["explanation_match_scores"],
         }
         for subdir, stats in scores.items()
     }
