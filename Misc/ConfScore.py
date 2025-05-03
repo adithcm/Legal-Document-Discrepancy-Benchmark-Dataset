@@ -16,7 +16,7 @@ import numpy as np
 import google.generativeai as genai
 
 # ─── env / paths ─────────────────────────────────────────────────────────────
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDgafwAgDi2Zjvu6jdt_SIZ60VgK1Na32E"   # ← your key
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 INPUT_FOLDER  = pathlib.Path("scraped_laws_v7/ambiguity_legal")             # *.snippet.json
