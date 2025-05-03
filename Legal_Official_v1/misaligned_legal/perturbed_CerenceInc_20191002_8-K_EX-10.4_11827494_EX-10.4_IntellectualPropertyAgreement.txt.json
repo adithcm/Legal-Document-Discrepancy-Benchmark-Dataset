@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_IntellectualPropertyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Trade Secrets\" means all information, in any form or medium, to the extent that the owner thereof has taken reasonable measures to keep such information secret and the information derives independent economic value, actual or potential, from not being generally known to, and not being readily ascertainable through proper means by, the public.",
+                "changed_text": "\"Trade Secrets\" means all information, in any form or medium, regardless of whether the owner has taken reasonable measures to keep such information secret and the information derives economic value.",
+                "explanation": "The original definition of \"Trade Secrets\" aligns with standard legal definitions requiring reasonable measures to maintain secrecy. The modified definition removes the requirement for the owner to take reasonable measures to maintain secrecy, thus contradicting established legal principles. This could lead to the misappropriation of data that does not meet the legal threshold for trade secret protection.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "18 U.S.C. § 1839(3)(A)",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title18-section1839&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/trade_secrets"
+                ],
+                "law_explanation": "The modified text directly contradicts the UTSA's requirement that a trade secret must be subject to efforts that are reasonable under the circumstances to maintain its secrecy. By stating that trade secret status exists 'regardless of whether the owner has taken reasonable measures,' the modified text broadens the definition beyond what is legally protected, potentially leading to disputes over what constitutes a trade secret and whether it is protectable under the law.",
+                "location": "Section 1.01"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Each Party agrees that it shall comply with all applicable national and international laws and regulations relating to import and/or export control in its country(ies), if any, involving any commodities, software, services or technology within the scope of this Agreement.",
+                "changed_text": "Each Party agrees that it shall use reasonable efforts to comply with all applicable national and international laws and regulations relating to import and/or export control in its country(ies), if any, involving any commodities, software, services or technology within the scope of this Agreement.",
+                "explanation": "The original text states that each party 'shall comply' with import/export laws, making compliance mandatory. By changing it to 'use reasonable efforts to comply,' compliance becomes discretionary. This is a legal contradiction, because export regulations mandate compliance.",
+                "contradicted_law": "Export Administration Regulations (EAR)",
+                "law_citation": "15 CFR § 732.1",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-732#732.1"
+                ],
+                "law_url2": [
+                    "https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear"
+                ],
+                "law_explanation": "The EAR mandates strict compliance with export control laws and regulations. By changing 'shall comply' to 'use reasonable efforts to comply,' the modified text suggests that parties have the option not to fully comply with export regulations, which is a direct violation of the EAR and could lead to legal penalties.",
+                "location": "Section 11.09"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Subject to Section 11.02 and Section 11.05, in the event of any actual or threatened default in, or breach of, any of the terms, conditions and provisions of this Agreement, the affected Party shall have the right to specific performance and injunctive or other equitable relief of its rights under this Agreement, in addition to any and all other rights and remedies at Law or in equity, and all such rights and remedies shall be cumulative. The other Party shall not oppose the granting of such relief on the basis that money damages are an adequate remedy. The Parties agree that the remedies at Law for any breach or threatened breach hereof, including monetary damages, are inadequate compensation for any loss and that any defense in any action for specific performance that a remedy at Law would be adequate is waived. Any requirements for the securing or posting of any bond or similar security with such remedy are waived.",
+                "changed_text": "In the event of any actual or threatened default in, or breach of, any of the terms, conditions and provisions of this Agreement, the affected Party may request specific performance and injunctive or other equitable relief of its rights under this Agreement. The decision to grant such relief is at the sole discretion of the court and will depend on its assessment of the adequacy of monetary damages.",
+                "explanation": "The original clause provides that specific performance is a guaranteed right of the affected party, implying that courts must grant it. The modified clause changes this to a request, and places the decision to grant it at the sole discretion of the court. Specific performance as a remedy is covered by state law.",
+                "contradicted_law": "Delaware law regarding specific performance",
+                "law_citation": "Giles v. Allen, 35 Del. Ch. 126, 112 A.2d 512 (1955)",
+                "law_url1": [
+                    "https://scholar.google.com/scholar_case?case=16562980202084236117&q=Giles+v.+Allen,+35+Del.+Ch.+126,+112+A.2d+512+(1955)&hl=en&as_sdt=40006"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/cases/delaware/court-of-chancery/1955/112-a-2d-512-0.html"
+                ],
+                "law_explanation": "Delaware law, as reflected in cases like *Giles v. Allen*, outlines the conditions under which specific performance is granted. While the availability of specific performance is indeed subject to the court's discretion based on principles of equity, the original text attempts to contractually remove the court's ability to consider the adequacy of monetary damages, a key factor in that determination. The modified text removes the clause wherein both parties acknowledge the failure of monetary damages, but as it is written is still contradictory. This would likely not be enforced in Delaware. The modified text misrepresents and thus contradicts the application of Delaware law regarding equitable remedies.",
+                "location": "Section 11.06"
+            }
+        ]
+    }
+]

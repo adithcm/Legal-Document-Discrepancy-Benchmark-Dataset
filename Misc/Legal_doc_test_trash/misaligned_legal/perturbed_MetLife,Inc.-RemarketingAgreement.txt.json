@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "Exhibit 99.1 EXECUTION VERSION METLIFE, INC. Series E Senior Component Debentures",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day on which banking institutions in New York, New York are authorized or required by law or executive order to remain closed.",
+                "changed_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day irrespective of whether banking institutions in New York, New York are authorized or required by law or executive order to remain closed.",
+                "explanation": "By defining “Business Day” in a way that ignores legal holidays recognized in New York, the contract introduces a contradiction. This could affect deadlines and obligations if a bank holiday is not treated as such.",
+                "contradicted_law": "New York General Construction Law § 24",
+                "law_citation": "NY Gen. Constr. Law § 24",
+                "law_url1": [
+                    "https://www.nysenate.gov/legislation/laws/GCO/24"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/ny/general-construction-law/gco-sect-24.html"
+                ],
+                "law_explanation": "New York General Construction Law § 24 specifies which days are considered public holidays and thus typically observed as non-business days. The modified contract language contradicts this by stating a 'Business Day' is irrespective of whether banking institutions are closed due to law or executive order. This contradiction could lead to disputes regarding deadlines and obligations that fall on legally recognized holidays.",
+                "location": "Introductory Paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company hereby appoints Deutsche Bank as the initial Remarketing Agent, and Deutsche Bank hereby accepts appointment as Remarketing Agent, for the purpose of (i) Remarketing the Remarketed Securities on behalf of the holders thereof, (ii) establishing the Reset Rates (as defined below) for the Securities in connection with the Remarketing and (iii) performing such other duties as are assigned to the Remarketing Agents in the Remarketing Procedures, all in accordance with and pursuant to the Remarketing Procedures.",
+                "changed_text": "The Company hereby appoints Deutsche Bank as the initial Remarketing Agent, and Deutsche Bank hereby accepts appointment as Remarketing Agent, for the purpose of (i) Remarketing the Remarketed Securities on behalf of the holders thereof, (ii) establishing the Reset Rates (as defined below) for the Securities in connection with the Remarketing and (iii) performing such other duties as are assigned to the Remarketing Agents regardless of the Remarketing Procedures.",
+                "explanation": "By stating that the Remarketing Agent performs its duties regardless of the Remarketing Procedures, this creates conflict. The original text specifies all duties are in accordance with said procedures.",
+                "contradicted_law": "Securities Exchange Act of 1934, Rule 10b-5",
+                "law_citation": "17 CFR § 240.10b-5",
+                "law_url1": [
+                    "https://www.law.cornell.edu/cfr/text/17/240.10b-5"
+                ],
+                "law_url2": [
+                    "https://www.sec.gov/investor/alerts/fraud.pdf"
+                ],
+                "law_explanation": "Rule 10b-5 prohibits deceptive practices in the sale of securities. Remarketing procedures are designed to ensure transparency and fairness. Stating that agents can disregard procedures directly contradicts this, as it allows room for manipulation and potentially fraudulent activities, making enforcement uncertain.",
+                "location": "Section 1(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company will furnish the Remarketing Agents with such conformed copies of such opinions, certificates, letters and documents as the Remarketing Agents reasonably request;",
+                "changed_text": "The Company will furnish the Remarketing Agents with opinions, certificates, letters and documents whether the Remarketing Agents reasonably request or not;",
+                "explanation": "By removing the 'reasonably request' clause, the company is forced to furnish documents that the agents do not request which creates conflict.",
+                "contradicted_law": "Securities Act of 1933, Section 11",
+                "law_citation": "15 U.S. Code § 77k",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section77k&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/securities_act_of_1933"
+                ],
+                "law_explanation": "Section 11 imposes liability for false registration statements. By requiring the company to provide documents regardless of reasonableness, it potentially introduces irrelevant or misleading information into the due diligence process, which could increase the risk of false statements and thus increase liability without reason. If not all the documents are needed for the investigation, then they should not all be required to be turned over.",
+                "location": "Section 5(f)"
+            }
+        ]
+    }
+]

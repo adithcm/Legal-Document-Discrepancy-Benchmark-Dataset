@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "Exhibit 10.11 AMENDMENT AND TERMINATION OF JOINT VENTURE AGREEMENT",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment shall be governed by and construed in accordance with the laws of Japan.",
+                "changed_text": "This Amendment shall be governed by and construed in accordance with the laws of Sweden.",
+                "explanation": "The contract originally states that the laws of Japan govern it. Changing this to Sweden introduces a conflict because Veoneer AB is a Swedish corporation, while Nissin Kogyo Co., Ltd. is a Japanese corporation. Choosing Sweden over Japan could be contested, creating uncertainty about which jurisdiction's laws apply. There is a chance the choice of law has been negotiated but the fact that Nissin is a Japanese company that is also a key party here makes it a less clear cut decision.",
+                "contradicted_law": "Choice of Law Principles in International Contracts",
+                "law_citation": "Principles of Party Autonomy",
+                "law_url1": [
+                    "https://www.law.cornell.edu/wex/choice_of_law"
+                ],
+                "law_url2": [
+                    "https://www.trans-lex.org/933200/_/party-autonomy-in-choice-of-law/"
+                ],
+                "law_explanation": "While party autonomy allows contract parties to choose the governing law, this choice is usually made considering the connection to the parties and the transaction. Changing the governing law to Sweden, when a key party (Nissin) is Japanese and the original agreement specified Japanese law, could be challenged as an unreasonable or bad-faith choice, particularly if the dispute resolution process is also altered.",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Veoneer AB, a Swedish corporation",
+                "changed_text": "Veoneer AB, a Delaware corporation",
+                "explanation": "Veoneer AB is explicitly defined as a Swedish corporation. Falsely defining it as a Delaware corporation would create a factual and legal contradiction. This can lead to issues related to corporate law compliance, jurisdiction, and legal standing. Delaware corporations are governed by Delaware General Corporation Law, while Swedish corporations are governed by Swedish corporate law.",
+                "contradicted_law": "Corporate Law and Legal Standing",
+                "law_citation": "Delaware General Corporation Law, Title 8",
+                "law_url1": [
+                    "https://delcode.delaware.gov/title8/c001/"
+                ],
+                "law_url2": [
+                    "https://corplaw.widener.edu/delaware-general-corporation-law/"
+                ],
+                "law_explanation": "Misrepresenting the place of incorporation directly contradicts corporate law. A Delaware corporation is subject to specific regulations and legal requirements under Delaware law, while a Swedish corporation is not. This misrepresentation could impact the contract's enforceability and create legal complications regarding corporate governance and jurisdiction.",
+                "location": "First paragraph"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Nissin Kogyo Co., Ltd., a Japanese corporation",
+                "changed_text": "Nissin Kogyo Co., Ltd., a US corporation",
+                "explanation": "The contract explicitly defines Nissin Kogyo Co., Ltd. as a Japanese corporation. Defining it as a US corporation would create a factual and legal contradiction, similar to the Veoneer AB example. This would specifically conflict with the laws governing foreign corporations operating in the US.",
+                "contradicted_law": "Foreign Corporation Registration and Operation",
+                "law_citation": "Model Business Corporation Act § 15.03",
+                "law_url1": [
+                    "https://business.law.psu.edu/_media/legaled/gordon_15.pdf"
+                ],
+                "law_url2": [
+                    "https://nationalparalegal.edu/public_documents/courseware_asp_files/corporations/foreign_corporations/mbca_sect1501.asp"
+                ],
+                "law_explanation": "If Nissin is a US corporation as the contract states it means it is governed by US corporate law. This would cause conflicts because it means that Nissin is not a foreign corporation subject to US corporate laws for foreign corporations and its registration and operation may not comply with those rules.",
+                "location": "First paragraph"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Buyer shall open an irrevocable letter of credit with the bank within 30 days after signing the contract, in favor of the Seller, for 100% value of the total contract value.",
+                "changed_text": "The Buyer shall open an irrevocable letter of credit with the bank within 60 days after signing the contract, in favor of the Seller, for 100% value of the total contract value.",
+                "explanation": "Extended the deadline for opening a letter of credit to 60 days, which may be inconsistent with standard banking practices and could potentially violate regulations related to timely payments in international trade.",
+                "contradicted_law": "Article 3 of the Uniform Customs and Practice for Documentary Credits (UCP 600)",
+                "law_citation": "UCP 600 Article 3",
+                "law_url1": [
+                    "https://iccwbo.org/publication/ucp-600-uniform-customs-practice-documentary-credits-2007-revision/"
+                ],
+                "law_url2": [
+                    "https://www.tradefinance.training/documentary-credits/ucp-600/"
+                ],
+                "law_explanation": "UCP 600 emphasizes prompt action in documentary credit transactions. While not a strict law, deviations from standard practices, such as excessively long periods for opening letters of credit (here, modified to 60 days), could be challenged if they cause undue delay or prejudice to the seller, potentially violating the spirit of good faith and reasonable timing implied in UCP 600.",
+                "location": "11. PAYMENT: Under Letter of Credit or T/T:"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Within 7 days after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract except those claims for which the insurance company or the owners of the vessel are liable, the Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers.",
+                "changed_text": "Within 1 day after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract except those claims for which the insurance company or the owners of the vessel are liable, the Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers.",
+                "explanation": "Reduced the claim period to 1 day. This is an unreasonably short period for inspection and claim, especially considering potential delays in customs clearance and the time required for inspection.",
+                "contradicted_law": "Article 39 of the United Nations Convention on Contracts for the International Sale of Goods (CISG)",
+                "law_citation": "CISG Article 39",
+                "law_url1": [
+                    "https://uncitral.un.org/en/texts/sales/cisg/v105"
+                ],
+                "law_url2": [
+                    "https://www.cisg.law.pace.edu/cisg/text/secomm/cisg39.html"
+                ],
+                "law_explanation": "Article 39 of CISG requires the buyer to examine the goods 'within as short a period as is practicable in the circumstances' and to notify the seller of any non-conformity 'within a reasonable time' after discovery. A 1-day inspection period is almost certainly not a 'reasonable time' under most circumstances, making the modified clause likely unenforceable.",
+                "location": "16. CLAIMS:"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "If the Sellers fail to answer the Buyers within one weeks after receipt of the aforesaid claim, the claim shall be reckoned as having been accepted by the Sellers.",
+                "changed_text": "If the Sellers fail to answer the Buyers within 24 hours after receipt of the aforesaid claim, the claim shall be reckoned as having been accepted by the Sellers.",
+                "explanation": "The response time is now reduced from one week to one day. This imposes an unreasonably short deadline for the seller to investigate and respond to a claim, especially in international transactions that may involve complex issues and time zone differences.",
+                "contradicted_law": "Article 21 of the UNIDROIT Principles of International Commercial Contracts",
+                "law_citation": "UNIDROIT Principles Article 2.1.15",
+                "law_url1": [
+                    "https://www.unidroit.org/instruments/commercial-contracts/unidroit-principles-2016/"
+                ],
+                "law_url2": [
+                    "https://www.trans-lex.org/610000"
+                ],
+                "law_explanation": "Article 2.1.15 and related provisions of the UNIDROIT Principles emphasize good faith and fair dealing in contract performance. Requiring a response to a claim within 24 hours is often unreasonable, particularly in international sales, and could be interpreted as a breach of the principle of good faith.",
+                "location": "16. CLAIMS:"
+            }
+        ]
+    }
+]

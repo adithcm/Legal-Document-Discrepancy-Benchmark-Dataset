@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "VEONEER,INC_02_21_2020-EX-10.11-JOINTVENTUREAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment shall be governed by and construed in accordance with the laws of Japan.",
+                "changed_text": "This Amendment shall be governed by and construed in accordance with the laws of Delaware, United States.",
+                "explanation": "Changing the governing law from Japan to Delaware could create conflicts if the contract's provisions violate Japanese law. For example, certain termination clauses, liability limitations, or dispute resolution mechanisms permissible under Delaware law may be restricted or prohibited under Japanese law.",
+                "contradicted_law": "Choice of law provisions and international contracts",
+                "law_citation": "Article 27 of the Act on General Rules for Conflict of Laws (Japan)",
+                "law_url1": [
+                    "https://www.japaneselawtranslation.go.jp/en/laws/view/4316"
+                ],
+                "law_url2": [
+                    "https://www.jetro.go.jp/ext_images/_Reports/02/2019023711417779_20190308_investjapan_en.pdf"
+                ],
+                "law_explanation": "Article 27 of the Act on General Rules for Conflict of Laws (Japan) addresses the choice of law in contracts. While parties can generally choose the governing law, this choice is not absolute and must respect mandatory provisions of Japanese law, especially when the contract has a substantial connection to Japan. By explicitly selecting Delaware law, the amendment disregards potential mandatory provisions of Japanese law that might otherwise apply given the involvement of Japanese companies (Nissin Kogyo Co., Ltd.) and the location of some of the joint venture companies.",
+                "location": "Article 3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements set forth in the JV Agreement that arise prior to the VNBJ Closing or the VNBZ Closing, as applicable.",
+                "changed_text": "Notwithstanding Article 1.1, Article 1.2 and Article 1.3 above, the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements set forth in the JV Agreement, except for breaches of warranty related to intellectual property which will expire one (1) month after the VNBJ Closing or the VNBZ Closing, as applicable.",
+                "explanation": "This change introduces a limited period for intellectual property warranty claims, which could conflict with the standard statutes of limitations for breach of contract and intellectual property infringement. Many jurisdictions offer longer periods to bring such claims.",
+                "contradicted_law": "Statute of limitations for breach of contract and intellectual property claims.",
+                "law_citation": "17 U.S. Code § 507 - Limitations on actions",
+                "law_url1": [
+                    "https://www.law.cornell.edu/topn/limitations_on_actions"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/wex/statute_of_limitations"
+                ],
+                "law_explanation": "17 U.S. Code § 507 outlines the statute of limitations for copyright infringement, which is three years from the time the claim accrues. Limiting the period for bringing claims for breaches of IP warranties to one month directly contradicts this federal statute, preventing parties from pursuing legitimate claims within the federally mandated time frame. This limitation is unenforceable and conflicts with federal law.",
+                "location": "Article 1.d"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Amendment shall only become effective upon the VNBJ Closing with respect to Article 1.1 and the VNBZ Closing with respect to Article 1.2, and shall terminate without any force or effect in the event that the VNBJ SPA and the VNBZ SPA are terminated in accordance with the terms thereof.",
+                "changed_text": "This Amendment shall become effective immediately upon signing, regardless of the VNBJ Closing or the VNBZ Closing, and shall remain in effect for a period of ninety (90) days, after which it will automatically terminate.",
+                "explanation": "This change makes the amendment effective immediately and sets a 90-day expiration, potentially creating issues. If the VNBJ and VNBZ closings, which trigger specific obligations in the original agreement, do not occur within 90 days, or at all, the amendment could terminate before its intended purpose is fulfilled, leading to uncertainty about the parties' rights and obligations. This directly impacts the underlying conditionality built into the original clause.",
+                "contradicted_law": "Contractual conditions precedent and enforceability",
+                "law_citation": "Restatement (Second) of Contracts § 225",
+                "law_url1": [
+                    "https://law.justia.com/codes/new-york/2022/cvy/article-3/3215/"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/wex/condition_precedent"
+                ],
+                "law_explanation": "Restatement (Second) of Contracts § 225 deals with the effects of the failure of a condition. The original text establishes the VNBJ and VNBZ Closings as conditions precedent to the effectiveness of specific articles within the amendment. By removing this conditionality and making the amendment effective immediately, the changed text disregards established contract law principles regarding conditions precedent. If the closings do not occur, the amendment's effect would be unclear, potentially leading to disputes about which obligations are enforceable. The Justia Law URL leads to a similar law in New York, which is a commonly cited state in business contracts. It establishes the conditions for summary judgements and is similar to Restatement (Second) of Contracts § 225",
+                "location": "Article 4"
+            }
+        ]
+    }
+]

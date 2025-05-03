@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Company hereby appoints Distributor as Company's exclusive distributor within the Market and grants to Distributor the exclusive right to sell and distribute Products within the Market, and Distributor hereby accepts such appointment and such grant, in accordance with the terms and conditions of this Agreement.",
+                "changed_text": "Company hereby appoints Distributor as Company's exclusive distributor within the Market, however, this appointment does not grant the Distributor the exclusive right to sell and distribute Products within the Market. Distributor hereby accepts such appointment, in accordance with the terms and conditions of this Agreement.",
+                "explanation": "Modifying the language to negate the 'exclusive right' introduces ambiguity and contradicts the initial grant of exclusivity, potentially leading to disputes over market rights. The original intention was clear, and now the altered text causes the distributor to wonder what market to target and can bring about disputes.",
+                "contradicted_law": "Illinois Antitrust Act",
+                "law_citation": "815 ILCS 5/3",
+                "law_url": "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=67&ChapterID=2",
+                "law_explanation": "The original text grants exclusive rights which could be seen as a violation of antitrust law. However, removing this grant could leave a court to interpret whether the arrangement is in effect exclusive or not, but will make it less likely to run afoul of this law. It is difficult to directly contradict this law without changing the underlying document, but this change provides a level of uncertainty to a court that the original text did not have.",
+                "location": "1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Distributor agrees that the Company shall not be liable for its failure to perform due to any occurrence beyond the Company's reasonable control, including, but not limited to, acts of God, fires,\nPage -4- floods, wars, sabotage, accidents in shipping beyond the Company's control, labor strikes other than strikes against the Company itself, weather conditions or foreign or domestic government regulation or authority which directly affects Company's ability to deliver Product.",
+                "changed_text": "Distributor agrees that the Company shall not be liable for its failure to perform due to any occurrence beyond the Company's reasonable control, including, but not limited to, inclement weather, and actions by the government. These are the only reasons the company is not liable.",
+                "explanation": "This modification removes 'acts of God, fires, floods, wars, sabotage, accidents in shipping beyond the Company's control, labor strikes other than strikes against the Company itself, or foreign or domestic government regulation' from force majeure clauses, against common business practice. While a force majeure clause is interpreted under state law, narrowing the clause against standard conventions increases litigation risks.",
+                "contradicted_law": "Illinois Contract Law - Force Majeure Interpretation",
+                "law_citation": "Illinois law regarding contract interpretation",
+                "law_url": "https://www.ilga.gov/",
+                "law_explanation": "Force majeure clauses are generally interpreted to excuse performance when unforeseen events beyond a party's control make performance impossible or impracticable. By narrowly defining force majeure to include only 'inclement weather' and 'actions by the government,' the modification excludes many events typically covered, creating uncertainty regarding the parties' obligations in a wider range of disruptive circumstances.",
+                "location": "2.2"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a workmanlike manner and that such Products shall be fully functional and fit for their intended purposes. Company further warrants that the Products sold hereunder shall be free from defects in design, materials and workmanship for a period of twenty-four (24) months after delivery to Distributor's end-user.",
+                "changed_text": "Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a manner suitable for sale and that such Products shall be mostly functional and fit for some of their intended purposes. Company further warrants that the Products sold hereunder may contain some defects in design, materials and workmanship for a period of twelve (12) months after delivery to Distributor's warehouse.",
+                "explanation": "Changing 'workmanlike manner' to 'suitable for sale', 'fully functional' to 'mostly functional', removing the guarantee they will be free of defects, and shortening the guarantee period makes the quality of the product less certain. It also exposes the company to greater liability around consumer law.",
+                "contradicted_law": "Illinois Uniform Commercial Code - Implied Warranty of Merchantability",
+                "law_citation": "810 ILCS 5/2-314",
+                "law_url": "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2369&ChapterID=67",
+                "law_explanation": "The Illinois UCC implies a warranty of merchantability in contracts for the sale of goods, meaning that the goods must be 'fit for the ordinary purposes for which such goods are used.' By warranting only that the products are 'mostly functional' and 'may contain some defects,' the modified language directly contradicts the implied warranty of merchantability under the UCC, potentially exposing the company to liability for selling non-conforming goods.",
+                "location": "3.3"
+            }
+        ]
+    }
+]

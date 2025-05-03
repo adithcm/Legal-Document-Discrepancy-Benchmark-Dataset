@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site.",
+                "changed_text": "i-on will endeavor to maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with exceptions for maintenance that i-on considers necessary.",
+                "explanation": "The terms 'endeavor to maintain' and 'considers necessary' introduce ambiguity and discretion, weakening the obligation to provide continuous service. The original clause mandated continuous operation except for 'reasonable' maintenance, a standard generally understood. This change makes uptime discretionary and subjective.",
+                "contradicted_law": "Florida Deceptive and Unfair Trade Practices Act (FDUTPA)",
+                "law_citation": "Florida Statutes, Chapter 501, Part I",
+                "law_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/0501PART01ContentsIndex.html",
+                "law_explanation": "By significantly weakening the guarantee of continuous service through vague language like 'endeavor' and granting itself broad discretion over maintenance ('considers necessary'), i-on is arguably engaging in a deceptive practice if the service uptime is drastically reduced without clear and conspicuous disclosure. FDUTPA prohibits unfair or deceptive acts or practices in the conduct of any trade or commerce. The changes introduce an ambiguity that could mislead customers regarding the reliability of the service.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "physical space for the Hosting Computer at a facility that maintains proper environmental conditions in the area(s) where the Hosting Computer is located and maintains reasonable efforts to prevent unauthorized access to the physical location of the Hosting Computer",
+                "changed_text": "physical space for the Hosting Computer will be provided. Efforts will be made to provide a suitable environment and address unauthorized access.",
+                "explanation": "This modification removes the objective standard of 'proper environmental conditions' and 'reasonable efforts to prevent unauthorized access,' replacing it with vague assurances. The phrasing 'efforts will be made' is not a guarantee and leaves the level of security and environmental control undefined, creating ambiguity.",
+                "contradicted_law": "Florida Information Protection Act of 2014",
+                "law_citation": "Florida Statutes, Section 501.171",
+                "law_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.171.html",
+                "law_explanation": "While this agreement predates the Act, it's prudent to consider. The original clause had an element of control for physical access, where the new wording removes this control. The FIPA requires businesses to take reasonable measures to protect sensitive personal information. By reducing the obligation to simply 'efforts will be made,' without defining what constitutes those efforts, i-on potentially fails to meet the 'reasonable measures' standard if a data breach occurs due to inadequate physical security. The lack of specifics makes it difficult to assess compliance.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Customer shall comply with applicable laws, standards, policies, and procedures.",
+                "changed_text": "The Customer should generally be mindful of applicable laws, standards, policies, and procedures.",
+                "explanation": "Replacing 'shall comply' with 'should generally be mindful' drastically weakens the customer's obligation to adhere to legal and regulatory requirements. 'Be mindful' implies awareness rather than strict adherence, and 'generally' creates an exception to the rule. This introduces significant ambiguity regarding the customer's responsibility.",
+                "contradicted_law": "Computer Fraud and Abuse Act (CFAA)",
+                "law_citation": "18 U.S. Code § 1030",
+                "law_url": "https://www.law.cornell.edu/topn/computer_fraud_and_abuse_act",
+                "law_explanation": "The CFAA prohibits unauthorized access to protected computers and data. By weakening the customer's obligation to comply with 'applicable laws,' i-on creates ambiguity about whether it will enforce policies designed to prevent illegal activities under the CFAA. For example, if a customer uses the hosted site to engage in hacking activities, the modified clause weakens i-on's ability to hold the customer accountable, making them potentially liable and non-compliant with expected levels of security under this act.",
+                "location": "CONDITIONS OF SERVICE"
+            }
+        ]
+    }
+]

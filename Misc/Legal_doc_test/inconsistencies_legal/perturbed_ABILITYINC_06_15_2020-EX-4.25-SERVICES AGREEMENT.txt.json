@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within fifteen (15) days after the date of receipt of an Invoice by Recipient from Provider.",
+                "changed_text": "(b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within sixty (60) days after the date of receipt of an Invoice by Recipient from Provider.",
+                "explanation": "Increasing the payment timeframe to 60 days might conflict with prompt payment laws in some jurisdictions that aim to ensure timely payments to service providers. This delay could cause financial strain, especially for smaller businesses.",
+                "contradicted_law": "Prompt Payment Laws",
+                "law_citation": "Varies by state/country; in the US, many states have prompt payment laws (e.g., California Business and Professions Code Section 7159.5)",
+                "law_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7159.5",
+                "law_explanation": "Many jurisdictions have prompt payment laws that mandate payment within a shorter timeframe (e.g., 30 days) to protect businesses and ensure cash flow. A 60-day payment term may violate those laws, especially if the service provider is a small business.",
+                "location": "Section 2.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "3.2 Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 90 (ninety) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
+                "changed_text": "3.2 Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 30 (thirty) days' prior written notice to the other party (such date, the \"Services Termination Date\").",
+                "explanation": "Reducing the notice period to 30 days might conflict with reasonable notice requirements under contract law. A shorter notice period could be deemed insufficient, especially considering the dependency and investment made based on the agreement.",
+                "contradicted_law": "Reasonable Notice for Contract Termination",
+                "law_citation": "General Contract Law Principles (Varies by jurisdiction; e.g., implied duty of good faith and fair dealing)",
+                "law_url": "N/A (General principle; specific URL varies by jurisdiction and case law)",
+                "law_explanation": "General contract law principles often require a 'reasonable' notice period for termination, especially if the agreement involves significant dependencies or investments. 30 days may be deemed unreasonably short, giving the other party insufficient time to adjust or find alternatives, potentially violating the implied duty of good faith and fair dealing.",
+                "location": "Section 3.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4.1 Confidentiality. During the term of this Agreement and thereafter, the Parties hereto shall, and shall instruct their respective representatives to, maintain in confidence and not disclose the other Party's financial, technical, sales, marketing, development, personnel, and other information, records, or data, including, without limitation, customer lists, supplier lists, trade secrets, designs, product formulations, product specifications or any other proprietary or confidential information, however recorded or preserved, whether written or oral (any such information, \"Confidential Information\").",
+                "changed_text": "4.1 Confidentiality. During the term of this Agreement and for one (1) year thereafter, the Parties hereto shall, and shall instruct their respective representatives to, maintain in confidence and not disclose the other Party's financial, technical, sales, marketing, development, personnel, and other information, records, or data, including, without limitation, customer lists, supplier lists, trade secrets, designs, product formulations, product specifications or any other proprietary or confidential information, however recorded or preserved, whether written or oral (any such information, \"Confidential Information\").",
+                "explanation": "Limiting the confidentiality period to one year may not adequately protect trade secrets or other confidential information that has a longer lifespan of value. Trade secrets are often protected indefinitely as long as they remain secret and provide a competitive advantage.",
+                "contradicted_law": "Trade Secret Law",
+                "law_citation": "Uniform Trade Secrets Act (UTSA) - Varies by State (e.g., California Uniform Trade Secrets Act)",
+                "law_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=4.&part=2.&chapter=5.&article=",
+                "law_explanation": "Trade secret laws, like the UTSA, protect trade secrets indefinitely as long as they remain secret and provide economic value. Limiting the confidentiality period to one year undermines this protection, potentially allowing the disclosure of valuable trade secrets after that period, which is in violation of trade secret law.",
+                "location": "Section 4.1"
+            }
+        ]
+    }
+]

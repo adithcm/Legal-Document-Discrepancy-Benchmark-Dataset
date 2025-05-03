@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Distributor shall comply, and shall ensure that each Third Party Distributor complies, with the Guidelines for Applications set out in Exhibit C.",
+                "changed_text": "Distributor shall endeavor to comply, and shall encourage each Third Party Distributor to comply, with the Guidelines for Applications set out in Exhibit C.",
+                "explanation": "Changing 'shall comply' to 'shall endeavor to comply' weakens the obligation. 'Encourage' is also less forceful than 'ensure.' This introduces ambiguity regarding the level of compliance required and whether non-compliance is a breach of contract.",
+                "contradicted_law": "California Consumer Privacy Act (CCPA)",
+                "law_citation": "Cal. Civ. Code § 1798.100",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.100"
+                ],
+                "law_url2": [
+                    "https://oag.ca.gov/privacy/ccpa"
+                ],
+                "law_explanation": "The CCPA mandates specific data privacy guidelines. By weakening the obligation to comply with the Guidelines for Applications (Exhibit C, which addresses data collection and user consent), the modified text creates a potential conflict with the CCPA's requirements for clear and affirmative consent regarding data collection and use. 'Endeavor' and 'encourage' don't guarantee compliance with these strict requirements, potentially resulting in unlawful data handling practices.",
+                "location": "3.3"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Distributor shall begin such distribution within [ * ] following Google's request.",
+                "changed_text": "Distributor shall make reasonable efforts to begin such distribution within [ * ] following Google's request.",
+                "explanation": "Adding 'make reasonable efforts' introduces ambiguity. What constitutes 'reasonable efforts' is subjective and open to interpretation. It weakens the obligation to begin distribution within a defined timeframe.",
+                "contradicted_law": "U.S. Export Administration Regulations (EAR)",
+                "law_citation": "15 CFR § 732.1",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-732"
+                ],
+                "law_url2": [
+                    "https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear"
+                ],
+                "law_explanation": "The EAR require strict compliance with export control laws. If the distribution involves exporting software or technology, 'reasonable efforts' to begin distribution does not guarantee compliance with export licensing requirements, destination restrictions, or end-user controls mandated by the EAR. The vague term could be interpreted as not requiring full adherence to the EAR, leading to potential violations of export regulations.",
+                "location": "2.6"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "In connection with Distributor's distribution of the Products under this Agreement, and before the Google Toolbar or Chrome Browser can be installed by an End User, Distributor shall provide each End User with: (a) a clear statement inviting the End User to agree to the terms of the applicable EULA; (b) the opportunity for each End User to review such EULA via a hyperlink to such EULA: and (c) a button on which each End User may click indicating agreement to the terms of such EULA. In the event that an End User does not affirmatively agree to install the Google Toolbar or Chrome Browser, by clicking on the button to agree to the terms of the applicable EULA, then the Google Toolbar or Chrome Browser (as applicable) shall not be installed on such End User's computer.",
+                "changed_text": "In connection with Distributor's distribution of the Products under this Agreement, and before the Google Toolbar or Chrome Browser can be installed by an End User, Distributor should endeavor to provide each End User with: (a) a statement inviting the End User to consider the terms of the applicable EULA; (b) a chance for each End User to possibly review such EULA via a hyperlink to such EULA: and (c) a button on which each End User may click indicating tentative agreement to the terms of such EULA. In the event that an End User does not seem to agree to install the Google Toolbar or Chrome Browser, then the Google Toolbar or Chrome Browser (as applicable) should not be installed on such End User's computer.",
+                "explanation": "The changes weaken the requirement for clear and affirmative consent. 'Should endeavor' is weaker than 'shall,' 'consider' is weaker than 'agree,' 'chance to possibly review' is weaker than 'the opportunity to review,' and 'tentative agreement' is weaker than 'agreement.' Replacing 'does not affirmatively agree' with 'does not seem to agree' introduces subjectivity. This affects the user's ability to give proper consent.",
+                "contradicted_law": "General Data Protection Regulation (GDPR)",
+                "law_citation": "Article 4(11) GDPR",
+                "law_url1": [
+                    "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+                ],
+                "law_url2": [
+                    "https://gdpr-info.eu/art-4-gdpr/"
+                ],
+                "law_explanation": "GDPR Article 4(11) defines consent as 'any freely given, specific, informed and unambiguous indication of the data subject’s wishes'. The modified text undermines the requirement for 'unambiguous' and 'informed' consent. 'Should endeavor,' 'consider,' 'chance to possibly review,' and 'tentative agreement' introduce vagueness and reduce the likelihood of freely given, specific, informed, and unambiguous consent before installing the software, potentially violating GDPR's consent requirements if the software processes personal data of EU residents. The change from 'does not affirmatively agree' to 'does not seem to agree' introduces a subjective element, further weakening the assurance of explicit consent.",
+                "location": "3.6"
+            }
+        ]
+    }
+]

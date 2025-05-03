@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "FTENETWORKS,INC_02_18_2016-EX-99.4-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Subcontractor agrees to indemnify and defend EDGE from and against any lien claims and to discharge any lien or furnish an indemnity bond equal to the lien amount (or any greater amount required by law) within ten (10) days notice from EDGE of the presence of any lien.",
+                "changed_text": "Subcontractor agrees to indemnify and defend EDGE from and against any lien claims and to discharge any lien or furnish an indemnity bond equal to the lien amount (or any greater amount required by law) within three (3) days notice from EDGE of the presence of any lien.",
+                "explanation": "Changing the timeframe to discharge a lien to 3 days contradicts Texas law which provides more time for such actions.",
+                "contradicted_law": "Texas Property Code § 53.157(c)",
+                "law_citation": "§ 53.157(c)",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.53.htm"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/tx/property-code/prop-sect-53-157.html"
+                ],
+                "law_explanation": "Texas Property Code § 53.157(c) states that the claimant must file suit to foreclose the lien within two years after the last date the claimant may file the lien affidavit, or within one year of completion of the work under the prime contract. Demanding the subcontractor to discharge a lien or furnish an indemnity bond within three days of notice contradicts the statutory timeframe for enforcement of a mechanic's lien.",
+                "location": "4. D. (2)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "A copy of the (i) certificate(s) of insurance and (ii) endorsements, acceptable to EDGE, shall be submitted to EDGE prior to commencement of any Work and renewals or replacements of such certificates shall be so delivered at least 30 days prior to the expiration or termination of each such policy.",
+                "changed_text": "A copy of the (i) certificate(s) of insurance and (ii) endorsements, acceptable to EDGE, shall be submitted to EDGE prior to commencement of any Work and renewals or replacements of such certificates shall be so delivered at least 5 days prior to the expiration or termination of each such policy.",
+                "explanation": "Reducing the notification period for insurance renewals to 5 days may violate standard insurance regulations or contractual obligations in Texas that require more notice.",
+                "contradicted_law": "Texas Insurance Code § 551.052",
+                "law_citation": "§ 551.052",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.551.htm"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/tx/insurance-code/ins-sect-551-052.html"
+                ],
+                "law_explanation": "Texas Insurance Code § 551.052 addresses notice requirements for policy cancellation and nonrenewal. While not directly mandating a specific 30-day notice for *submission* of renewal certificates, reducing the notice period to 5 days increases the risk that the subcontractor will fail to provide adequate notice of nonrenewal, potentially violating the insurance requirements set forth in the agreement and potentially violating the spirit of the Texas Insurance Code regulations regarding notice. Moreover, many insurance contracts themselves may require a 30 day notice, so compelling compliance 5 days before expiration is unrealistic and a violation of the party's duty to be able to comply with the requirements of the contract.",
+                "location": "9. A."
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "After fifteen (15) days prior written notice to Subcontractor to cure, or additional time as may be reasonably required by EDGE to cure the event of default, EDGE may terminate this Agreement, or any one or more awarded Purchase Orders and take control of the Work for such terminated Purchase Orders, including any or all materials for the Work, and may proceed with the completion of the Work as contemplated by this Agreement by whatever method deemed expedient by EDGE upon the occurrence of any of the following events, which shall be deemed events of a default by Subcontractor hereunder:",
+                "changed_text": "After five (5) days prior written notice to Subcontractor to cure, or additional time as may be reasonably required by EDGE to cure the event of default, EDGE may terminate this Agreement, or any one or more awarded Purchase Orders and take control of the Work for such terminated Purchase Orders, including any or all materials for the Work, and may proceed with the completion of the Work as contemplated by this Agreement by whatever method deemed expedient by EDGE upon the occurrence of any of the following events, which shall be deemed events of a default by Subcontractor hereunder:",
+                "explanation": "Reducing the cure period to 5 days could be deemed unreasonable and contradict general contract law principles requiring reasonable opportunity to cure defaults.",
+                "contradicted_law": "Texas Business and Commerce Code § 24.005",
+                "law_citation": "§ 24.005",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.24.htm"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/texas/business-and-commerce-code/title-3/chapter-24/section-24-005/"
+                ],
+                "law_explanation": "While not directly applicable, Texas Business and Commerce Code Chapter 24 (Uniform Fraudulent Transfer Act) illustrates the importance of fair consideration and reasonable opportunity in business transactions. While not a direct contradiction, reducing the cure period to 5 days may be deemed commercially unreasonable in many construction scenarios, potentially leading to a court finding the termination clause unconscionable, or that the short cure period constitutes a breach of the implied duty of good faith and fair dealing, because it deprives the subcontractor of an actual opportunity to cure. A five day period to 'cure' may also violate mechanic's lien laws if the reason for default has to do with subcontractors filing liens, in that a longer statutory period is provided for such lien actions than the time given to cure.",
+                "location": "11. A."
+            }
+        ]
+    }
+]

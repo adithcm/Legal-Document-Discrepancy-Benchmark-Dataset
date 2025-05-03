@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "FTENETWORKS,INC_02_18_2016-EX-99.4-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Nothing in this Agreement shall cause Subcontractor in any way to be construed as a partner or joint venture with, or an employee of, EDGE in connection with or arising from Subcontractor's rendering of Work to EDGE pursuant to this Agreement. EDGE retains Subcontractor only for the purposes and to the extent as set forth in this Agreement, and Subcontractor's relation to EDGE during the term of this Agreement shall be that of an independent contractor and nothing herein shall create or imply any other or different relationship. Subcontractor acknowledges that: (a) nothing herein constitutes the exercise by EDGE of control or direction over the manner or method by which Subcontractor will perform the Work, (b) Subcontractor is solely responsible for the withholding and payment of all federal, state and local income, social security and unemployment taxes, salaries, and other payments required to be made by it from funds received from EDGE hereunder, and (c) that EDGE is not required to and will not provide any worker's compensation or other insurance coverage of any nature, or any other unemployment, medical, dental, welfare or pension benefits to Subcontractor or any of its employees, associates or subcontractors.",
+                "changed_text": "Nothing in this Agreement shall cause Subcontractor in any way to be construed as a partner or joint venture with, or an employee of, EDGE in connection with or arising from Subcontractor's rendering of Work to EDGE pursuant to this Agreement. EDGE retains Subcontractor only for the purposes and to the extent as set forth in this Agreement, and Subcontractor's relation to EDGE during the term of this Agreement shall be that of a contractor and nothing herein shall create or imply any other or different relationship. Subcontractor acknowledges that: (a) nothing herein constitutes the exercise by EDGE of control or direction over the manner or method by which Subcontractor will perform the Work, (b) Subcontractor is solely responsible for the withholding and payment of all federal, state and local income, social security and unemployment taxes, salaries, and other payments required to be made by it from funds received from EDGE hereunder, and (c) that EDGE is not required to and will not provide any worker's compensation or other insurance coverage of any nature, or any other unemployment, medical, dental, welfare or pension benefits to Subcontractor or any of its employees, associates or subcontractors.",
+                "explanation": "The term \"independent contractor\" is replaced with the term \"contractor\". This change introduces ambiguity as the term \"contractor\" is broader and doesn't automatically exclude the possibility of an employer-employee relationship, unlike 'independent contractor'.",
+                "contradicted_law": "Fair Labor Standards Act (FLSA)",
+                "law_citation": "29 U.S. Code § 203(e)",
+                "law_url": "https://www.law.cornell.edu/topn/employee",
+                "law_explanation": "The modification contradicts the FLSA because it obscures the intent to establish an 'independent contractor' relationship. The FLSA has specific criteria for determining independent contractor status vs. employee status, which affects minimum wage, overtime, and other protections. Using the generic term 'contractor' introduces doubt about whether the subcontractor is truly exempt from these protections under the FLSA.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Subcontractor will pay for all services, equipment, material and labor used under this Agreement and will keep EDGE' and Customer's property and work sites free of all claims or liens.",
+                "changed_text": "Subcontractor will pay for all services, equipment, material and labor used under this Agreement and will attempt to keep EDGE' and Customer's property and work sites free of all claims or liens.",
+                "explanation": "Changing 'will keep' to 'will attempt to keep' weakens the subcontractor's obligation regarding liens. This creates uncertainty about their responsibility to actually prevent liens, which impacts EDGE's financial security.",
+                "contradicted_law": "Texas Property Code Chapter 53",
+                "law_citation": "Texas Property Code § 53.001",
+                "law_url": "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.53.htm",
+                "law_explanation": "Texas Property Code Chapter 53 outlines the rights and responsibilities related to mechanic's liens. The original language clearly places the burden on the subcontractor to prevent liens. By weakening the language to 'attempt to keep free', the contract now contradicts the intent of the Texas Property Code, which seeks to ensure subcontractors and suppliers are paid, and property owners are protected from double payment via the lien process.",
+                "location": "Section 4D"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall bind and inure to the benefit of the parties hereto and their respective heirs, legal representatives, successors and permitted assigns.",
+                "changed_text": "This Agreement shall bind and inure to the benefit of the parties hereto and their legal representatives.",
+                "explanation": "By removing 'heirs, successors and permitted assigns,' the contract limits who can benefit from the agreement in case of death, dissolution, or transfer of ownership. This conflicts with standard contract law principles about the transferability of contractual rights and obligations.",
+                "contradicted_law": "Texas Estates Code",
+                "law_citation": "Texas Estates Code § 101.001",
+                "law_url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.101.htm",
+                "law_explanation": "The modification contradicts the Texas Estates Code because it restricts the rights of heirs and successors to inherit the benefits of a contract. Section 101.001 addresses the transfer of property, which includes contractual rights, upon death. Removing 'heirs' and 'successors' could prevent the benefits of the contract from passing to the rightful beneficiaries under Texas law, creating a conflict.",
+                "location": "Section 24"
+            }
+        ]
+    }
+]

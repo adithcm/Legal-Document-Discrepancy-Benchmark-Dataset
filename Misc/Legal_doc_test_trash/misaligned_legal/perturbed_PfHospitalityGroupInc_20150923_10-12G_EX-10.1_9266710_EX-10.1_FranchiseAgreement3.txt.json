@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "APPENDIX C SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement\") granting Franchisee the right to operate a Franchised Business under the terms and conditions of the Franchise Agreement; WHEREAS, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound by.",
+                "changed_text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement\") granting Franchisee the right to operate a Franchised Business under the terms and conditions of the Franchise Agreement; WHEREAS, the Member, by virtue of his or her position with Franchisee, will not gain access to certain of Franchisor's Confidential Information, and need not be bound by the same confidentiality and non-competition agreement that Franchisee is bound by.",
+                "explanation": "The original text states that the member will gain access to confidential information, justifying the non-disclosure agreement. The modified text states that the member will NOT gain access to confidential information, removing the justification for the non-disclosure agreement and potentially making it unenforceable. This weakens the agreement's enforceability concerning trade secrets.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "UTSA § 1",
+                "law_url1": [
+                    "https://www.uniformlaws.org/acts/utsa"
+                ],
+                "law_url2": [
+                    "https://smallbusiness.findlaw.com/intellectual-property/understanding-trade-secrets.html"
+                ],
+                "law_explanation": "The modification contradicts the UTSA's core principle of protecting trade secrets by implying that no confidential information will be accessed, thus undermining the basis for enforcing confidentiality provisions typically related to trade secret protection.",
+                "location": "RECITALS"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee.",
+                "changed_text": "Member may, during the term of the Franchise Agreement, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, confidential information if they feel it is in their best interest.",
+                "explanation": "This modification allows the member to disclose confidential information, directly contradicting the purpose of a non-disclosure agreement. This creates uncertainty about what information is actually protected and under what conditions.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "UTSA § 1",
+                "law_url1": [
+                    "https://www.uniformlaws.org/acts/utsa"
+                ],
+                "law_url2": [
+                    "https://smallbusiness.findlaw.com/intellectual-property/understanding-trade-secrets.html"
+                ],
+                "law_explanation": "This change directly undermines the protection of trade secrets as defined by the UTSA, as it permits disclosure of confidential information, effectively negating the confidentiality obligations the agreement is intended to establish.",
+                "location": "1. Confidential Information"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "changed_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement only if terminated for cause; (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "explanation": "By adding 'only if terminated for cause', the post-term non-compete is now only triggered if the agreement is terminated for cause. This contradicts standard non-compete enforcement principles, as non-competes often apply regardless of the reason for termination, subject to reasonableness considerations. This modification introduces ambiguity and could render the non-compete unenforceable if the Franchise Agreement expires or is terminated without cause.",
+                "contradicted_law": "Varies by state; generally state laws governing the enforceability of non-compete agreements",
+                "law_citation": "Example: CA Business and Professions Code § 16600",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16600"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/wex/non-compete_agreement"
+                ],
+                "law_explanation": "While this varies by state, this modification could be seen as an unreasonable restriction on an employee's ability to earn a living if the termination wasn't for cause. Many states scrutinize non-competes and require them to be narrowly tailored and justified. Limiting the trigger to 'termination for cause' introduces a condition that may not be considered reasonable, depending on the jurisdiction and the specific facts.  For example, in California, non-compete agreements are generally void, and this clause wouldn't meet an exception.",
+                "location": "2. Covenants Not to Compete"
+            }
+        ]
+    }
+]

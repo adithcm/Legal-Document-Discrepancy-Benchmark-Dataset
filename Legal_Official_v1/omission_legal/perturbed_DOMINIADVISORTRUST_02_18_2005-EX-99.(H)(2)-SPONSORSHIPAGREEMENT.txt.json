@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "DOMINIADVISORTRUST_02_18_2005-EX-99.(H)(2)-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "(d) overseeing (with advice of the Trust's counsel) the preparation of and, if applicable, filing all documents required for compliance by the Trust with applicable laws and regulations (including state \"blue sky\" laws and regulations), including registration statements on Form N-1A, prospectuses and statements of additional information, or similar forms, as applicable, semi-annual and annual reports to shareholders and proxy statements, and reviewing tax returns;",
+                "changed_text": "(d) overseeing the preparation of some documents for compliance by the Trust with some applicable laws and regulations, including some reports to shareholders; ",
+                "explanation": "This change removes the explicit responsibility to file *all* documents required for compliance, and replaces 'all documents' with 'some documents.' It also removes the reference to specific required filings (e.g. N-1A, prospectuses) and regulations like 'blue sky' laws. This omission introduces legal risk as it weakens the Sponsor's duty to ensure full regulatory compliance.",
+                "contradicted_law": "Investment Company Act of 1940, Rule 30a-2",
+                "law_citation": "17 CFR § 270.30a-2",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.30a-2"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-chapter2A-section80a-29&edition=prelim"
+                ],
+                "law_explanation": "Rule 30a-2 requires registered management investment companies to file certified shareholder reports with the SEC. By weakening the obligation to file 'all documents required for compliance,' the revised text contradicts the requirement to file shareholder reports as mandated by the SEC.",
+                "location": "Section 1(d)"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Trust shall pay all of its operating expenses, including but not limited to fees due the Sponsor under this Agreement, compensation of Trustees not affiliated with the Sponsor, governmental fees, including but not limited to Securities and Exchange Commission fees and state \"blue sky\" fees; interest charges; taxes and related charges; membership dues of the Trust in the Investment Company Institute and other professional or industry associations; fees and expenses of the Trust's independent auditors and accountants, of legal counsel and any transfer agent, distributor, shareholder servicing agent, recordkeeper, registrar or dividend disbursing agent of the Trust; expenses of distributing, issuing and redeeming shares and servicing shareholder accounts; expenses of preparing, printing and mailing prospectuses and statements of additional information, reports, notices, proxy statements and reports to shareholders and governmental officers and commissions; expenses connected with the execution, recording and settlement of portfolio security transactions; insurance premiums; fees and expenses of the Trust's custodian for all services to the Trust, including safekeeping of funds and securities and maintaining required books and accounts; expenses of calculating the net asset value of shares of the Trust; expenses of shareholder meetings; and expenses relating to the issuance, registration and qualification of shares of any series of the Trust.",
+                "changed_text": "The Trust shall pay some of its operating expenses, possibly including fees due the Sponsor under this Agreement, compensation of Trustees, and some governmental fees. ",
+                "explanation": "This change significantly limits the Trust's obligation to pay its operating expenses by adding the words 'some' and 'possibly'. Removing the phrase 'but not limited to' reduces the scope of expenses covered, and the removal of all the items that come after that phrase such as SEC fees, blue sky fees, and custodian fees omits critical obligations required by law. This omission introduces legal risk as it allows the Trust to potentially avoid paying legally mandated fees and expenses.",
+                "contradicted_law": "Investment Company Act of 1940 Section 13(a)(3)",
+                "law_citation": "15 U.S. Code § 80a-13(a)(3)",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-chapter2A-section80a-13&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/investment_company_act_of_1940"
+                ],
+                "law_explanation": "Section 13(a)(3) of the Investment Company Act of 1940 prohibits registered investment companies from deviating from a fundamental policy recited in its registration statement with respect to restrictions on borrowing, underwriting, purchasing or selling real estate or commodities or other specified activities, or deviating from any investment policy which is changeable only if authorized by shareholder vote, or from operating as an open-end company. By changing 'all' to 'some', the modification allows the trust to potentially default or improperly manage these costs, thus violating the ICA.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "For the services to be rendered and facilities to be provided by the Sponsor hereunder, the Trust shall pay Domini a fee accrued daily and payable monthly at an annual rate equal to 0.50% of the Trust's average daily net assets for the Trust's then current fiscal year.",
+                "changed_text": "For the services to be rendered and facilities to be provided by the Sponsor hereunder, the Trust may pay Domini a fee.",
+                "explanation": "This change replaces a fixed payment schedule with a discretionary one, removing critical details like the accrual rate, payment frequency, and percentage of net assets. This introduces legal risk because it weakens the sponsor's ability to depend on a payment for the services that they are legally required to be providing.",
+                "contradicted_law": "Investment Advisers Act of 1940 Section 205(a)(1)",
+                "law_citation": "15 U.S. Code § 80b-5(a)(1)",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-chapter2C-section80b-5&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/investment_advisers_act_of_1940"
+                ],
+                "law_explanation": "Section 205(a)(1) prohibits investment advisers from receiving compensation based on a share of capital gains or capital appreciation. Though this doesn't deal directly with that issue, the omission of payment terms creates ambiguity about how the investment advisor (Domini) will be compensated which creates a legal risk if that compensation structure includes performance fees or profit sharing. The previous text was fine as is because it had a fixed rate.",
+                "location": "Section 3"
+            }
+        ]
+    }
+]

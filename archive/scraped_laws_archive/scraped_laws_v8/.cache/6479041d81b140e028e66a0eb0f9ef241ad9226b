@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TPRT7QB30Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TPRT7QB30Y');
+</script>
+	<meta name="designer" content="Juergen Koller - http://www.lernvid.com" />
+<meta name="licence" content="Creative Commons 3.0" />
+<link href="/templates/allrounder-3/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+<!--- ADD CSS Files -->
+
+
+
+	<link href="/templates/allrounder-3/css/template.css" rel="stylesheet" type="text/css" media="all" />
+<!--
+	<link href="/templates/allrounder-3/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+-->
+	<link href="/templates/allrounder-3/css/joomla.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/templates/allrounder-3/css/colors.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/templates/allrounder-3/css/lvdropdown.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/templates/allrounder-3/css/typo.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/templates/allrounder-3/css/modules.css" rel="stylesheet" type="text/css" media="all" />
+	
+<!--- Older Browser CSS -->
+<!--[if IE 7]>
+	<link href="/templates/allrounder-3/css/ie7.css" rel="stylesheet" type="text/css" media="all" />
+<![endif]-->
+
+<!--- ADD JavaScript Files -->
+
+	<script type="text/javascript" src="/templates/allrounder-3/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+		var jq = jQuery.noConflict();
+	</script>
+	<script type="text/javascript" src="/templates/allrounder-3/js/lv-dropdown.js"></script>
+	<script type="text/javascript" src="/templates/allrounder-3/js/jq.easy-tooltip.min.js"></script>
+	<script type="text/javascript" src="/templates/allrounder-3/js/jq.easy-caption.min.js"></script>
+	<script type="text/javascript" src="/templates/allrounder-3/js/reflection.js"></script>
+	<script type="text/javascript" src="/templates/allrounder-3/js/effects.js"></script>
+
+
+<!-- Layout parameters -->
+	<style type="text/css">
+
+	/* Template layout parameters */
+	
+
+	#wrapper {
+		margin-top:10px;
+	}
+	#foot_container {
+		margin-bottom:0px;
+	}
+	#topmenu ul.menu, #topmenu ul.menu li a, #topmenu ul.menu li span.separator {
+		background-image: url('/templates/allrounder-3/images/dropdown-smooth.png');
+	}
+	#topmenu ul.menu li.parent a, #topmenu ul.menu li.parent span.separator {
+		background-image: url('/templates/allrounder-3/images/menu-parent-smooth.png');
+	}
+	#topmenu ul.menu li.parent a:hover, #topmenu ul.menu li.parent span.separator:hover, 
+	#topmenu ul.menu li#current.parent a, #topmenu ul.menu li#current.parent span.separator {
+		background-image: url('/templates/allrounder-3/images/menu-parent-hover-smooth.png');
+	}
+			
+</style>
+<!-- Define fonts -->
+	<style type="text/css">
+
+	/* Template fonts */
+	
+	body {
+		font-size:14px;
+
+					font-family:Arial, Helvetica, Sans-Serif;
+						line-height:1.3em;
+	}
+
+</style>
+<!-- ADD own template colors -->
+	<style type="text/css">
+
+	/* Template colors */
+
+	body {
+		background-color: #FFFFFF;
+		color: #555555;
+	}
+	span#copy a {
+		color: #555555;
+	}
+	a, a:link, a:visited, a:active, a:focus {
+		color: #0000FF;
+	}
+
+	#wrapper, #foot_container {
+		background-color: #EFEFEF;
+		border: 1px solid #FFFFFF;
+	}
+
+	
+	#header {
+		background-color: #11366A;
+		border-top:1px solid #000000;
+		border-left:1px solid #000000;	
+		border-right:1px solid #000000;	
+	}
+	.heckl, .heckr {  
+		border-top: 10px solid #222222;
+	}
+
+	#footer {
+		background-color: #11366A;
+		border:1px solid #14407D;
+		border-bottom:2px solid #14407D;
+	}
+	.feckl, .feckr {  
+		border-bottom: 10px solid #222222;
+	}
+	#footer a#gotop {
+		color: #FFFFFF;
+	}
+	#footermodule1234, #footermodule1234 a, #footermodule1234 ul.menu, #footermodule5, #footermodule5 a {
+		color: #FFFFFF;
+	}
+	#subfoot {
+		background-color: #11366A;
+		border-top:1px solid #FFFFFF;
+		border-bottom:1px solid #14407D;
+	}
+	.copytext {
+		color: #FFFFFF;
+	}
+
+	#maincontent {
+		background-color: #F9F9F9;
+		border: 3px double #E9E9E9;
+	}
+	
+	.item-page, .item, .leading-0, .leading-1, .leading-2, .leading-3, .leading-4, .leading-5, .contact,
+	#maincontent div.search, #maincontent .categories-list, #maincontent .category-list, 
+	#maincontent .archive , #maincontent .contact-category, #maincontent .weblink-category, 
+	#maincontent .newsfeed-category, #maincontent .login, #maincontent .profile, #maincontent .profile-edit, 
+	#maincontent .registration, #maincontent .remind, #maincontent .reset, #maincontent .finder {
+		background-color:#FFFFFF;
+		border: 1px solid #E9E9E9;
+	}
+
+	.page-header h2, .page-header h2 a {
+		color: #000000 !important;
+	}
+
+	#wrapper #leftcol h3.moduleh3, #wrapper #rightcol h3.moduleh3	 {
+		background-color: #11366A;
+		border-top:	1px solid #555555;
+		color: #DDDDDD;
+	}
+	#wrapper #leftcol h3.moduleh3	 {
+		border-left: 1px solid #999999;
+		border-right: 1px solid #555555;
+	}
+	#wrapper #rightcol h3.moduleh3	 {
+		border-right: 1px solid #999999;
+		border-left: 1px solid #555555;
+	}
+	.h3eckl, .h3eckr {  
+		border-top: 10px solid #222222;
+	}
+
+	#leftcol .module div.lvround-inner, #leftcol .module_menu div.lvround-inner, #leftcol .module_text div.lvround-inner, 
+	#rightcol .module div.lvround-inner, #rightcol .module_menu div.lvround-inner, #rightcol .module_text div.lvround-inner {
+		background-color: #F9F9F9;
+		border: 1px solid #DDDDDD;
+		color: #505050;
+	}
+	#subhead {
+		background-color: #F9F9F9;
+		border: 1px solid #FFFFFF;
+	}
+	.breadcrumbs, .breadcrumbs span {
+		color: #555555;
+	}
+	#leftcol .module div div, #leftcol .module_menu div div, #leftcol .module_text div div, 
+	#rightcol .module div div, #rightcol .module_menu div div, #rightcol .module_text div div {
+		border: 1px solid #FFFFFF;
+	}
+
+	/**** Global Modules ****/
+
+	div.module {
+		color:#505050;
+		background-color:#FFFFFF;
+		border:1px solid #DDDDDD;
+	}
+	div.module h3.moduleh3 {
+		background-color:#EFEFEF;
+		border:1px solid #DDDDDD;
+	}
+
+
+	.input, .inputbox {
+		color: #555555;
+		background-color: #EFEFEF;
+		border-top: 1px solid #CCCCCC;
+		border-left: 1px solid #CCCCCC;
+		border-right: 1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.input:hover, .inputbox:hover {
+		color: #555555;
+		background-color: #F9F9F9;
+	}
+
+	input.button, button.button, button.validate, .pagenav, ul.pagenav li a {
+		color: #555;
+		background-color: #efefef;
+		color: #555555;
+		background-color: #EFEFEF;
+		border-top: 1px solid #CCCCCC;
+		border-left: 1px solid #CCCCCC;
+		border-right: 1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	input.button:hover, button.button:hover, button.validate:hover, .pagenav, ul.pagenav li a:hover {
+		color: #000000;
+		background-color: #FFFFFF;
+	}
+
+	/**** Mainmenu with suffix: _menu ****/
+	
+	.module_menu ul.menu li a, .module_menu ul.menu li span.separator {
+		color: #333333;
+		border-bottom:1px dotted #CCCCCC;
+	}
+	.module_menu ul.menu li a:hover, .module_menu ul.menu li a:active, .module_menu ul.menu li a:focus {
+		color: #000000!important;
+	}
+	.module_menu ul.menu li.current a {
+		color: #000000;
+	}
+	.module_menu ul.menu li.current ul li a {
+		color: #000000;
+	}
+
+	/**** Default Tooltips ****/
+
+	.easy-tooltip-default {
+		border: 1px solid #A6A7AB; 
+		background-color: #F2F3F5; 
+		color: #800000;
+	}
+
+
+</style>
+<!-- ADD own dropdown-menu colors -->
+	<style type="text/css">
+
+	/* Dropdown menu colors */
+
+	#topmenu ul.menu {
+		background-color:#11366A !important;
+		border-top:3px double #FFFFFF !important;
+		border-bottom:3px double #FFFFFF !important;
+	}
+	#topmenu ul.menu li {
+		border-right:1px solid #555555 !important;
+	}
+	#topmenu ul.menu li a, #topmenu ul.menu li span.separator {
+		border-top:1px solid #000000 !important;
+		border-right:1px solid #222222 !important;
+		border-left:1px solid #000000 !important;
+		border-bottom:1px solid #333333 !important;
+		color:#FFFFFF;
+		background-color:#11366A;
+	}
+	#topmenu ul.menu a:hover {
+		color:#FFFFFF;
+	}
+	
+	/** LEVEL 2 **/
+	#topmenu ul.menu ul {
+		border:2px solid #000000 !important;
+		background-color:#11366A;
+	}
+	#topmenu ul.menu li ul li a, #topmenu ul.menu li ul li span.separator {
+		border-top:1px solid #000000 !important;
+		border-right:1px solid #333333 !important;
+		border-left:1px solid #333333 !important;
+		border-bottom:1px solid #333333 !important;
+		color:#FFFFFF;
+	}
+	#topmenu ul.menu li ul li a:hover {
+		color:#FFFFFF;
+	}
+	#topmenu ul.menu li li {
+		background-color:#4782B1;
+	}
+	#topmenu ul.menu li li:hover {
+		background-color:#3D3D3D;
+	}
+
+</style>
+	<style type="text/css">
+
+	/* Ribbons off */
+	
+	#header, #footer, #wrapper #leftcol h3.moduleh3, #wrapper #rightcol h3.moduleh3 {
+		margin:0;
+	}
+	#header {
+		padding:0;
+}
+	.heckl, .heckr, .feckl, .feckr, .h3eckl, .h3eckr {  
+		display:none;
+	}
+
+</style>
+
+
+
+<!-- math the width of the 3 columns -->
+<style type="text/css">
+	#leftcol {width: 20%;}
+	#rightcol {width: 20%;}
+	#content_outmiddle {width: 58%;}
+	#content_outright {width: 79%;}
+	#content_outleft {width: 79%;}
+</style>
+
+	<base href="https://www.bis.doc.gov/index.php/about-bis/404-file-not-found" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Nancy Flores" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>404 FILE NOT FOUND</title>
+	<link href="/templates/allrounder-3/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://www.bis.doc.gov/index.php/component/search/?Itemid=343&amp;catid=49&amp;id=404&amp;format=opensearch" rel="search" title="Search BIS Website" type="application/opensearchdescription+xml" />
+	<link href="/media/modals/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_accordeonck/themes/simple/mod_accordeonck_css.php?cssid=accordeonck278" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+#accordeonck278 li a.toggler { outline: none;background: url(/modules/mod_accordeonck/assets/plus.png) right center no-repeat !important; }
+	#accordeonck278 li.open > a.toggler { background: url(/modules/mod_accordeonck/assets/minus.png) right center no-repeat !important; }#accordeonck278 li ul li ul li ul { border:none !important; padding-top:0px !important; padding-bottom:0px !important; }#accordeonck278 { padding: 5px;background: #f0f0f0;background-image: url("https://www.bis.doc.gov/modules/mod_maximenuck/assets/svggradient/accordeonck278menu-gradient.svg");background: -moz-linear-gradient(top,  #f0f0f0 0%, #e3e3e3 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(100%,#e3e3e3)); background: -webkit-linear-gradient(top,  #f0f0f0 0%,#e3e3e3 100%);background: -o-linear-gradient(top,  #f0f0f0 0%,#e3e3e3 100%);background: -ms-linear-gradient(top,  #f0f0f0 0%,#e3e3e3 100%);background: linear-gradient(top,  #f0f0f0 0%,#e3e3e3 100%); -moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;-moz-box-shadow: 0px 0px 3px 0px #444444;-webkit-box-shadow: 0px 0px 3px 0px #444444;box-shadow: 0px 0px 3px 0px #444444;border: #efefef 1px solid; } #accordeonck278 li.level1 { -moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px; } #accordeonck278 li.level1 > a { font-size: 12px; } #accordeonck278 li.level1 > a:hover {  } #accordeonck278 li.level1 > a span.accordeonckdesc { font-size: 10px; } #accordeonck278 li.level2 { -moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px; } #accordeonck278 li.level2 > a { font-size: 12px; } #accordeonck278 li.level2 > a:hover {  } #accordeonck278 li.level2 > a span.accordeonckdesc { font-size: 10px; } #accordeonck278 li.level3 { -moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px; } #accordeonck278 li.level3 a { font-size: 12px; } #accordeonck278 li.level3 a:hover {  } #accordeonck278 li.level3 a span.accordeonckdesc { font-size: 10px; } div.mod_search69 input[type="search"]{ width:auto; }
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"623c63dd235c4e17ae256aafd3f2b631","system.paths":{"root":"","base":""},"rl_modals":{"class":"modal_link","defaults":{"opacity":"0.8","maxWidth":"95%","maxHeight":"95%","current":"{current} \/ {total}","previous":"previous","next":"next","close":"close","xhrError":"This content failed to load.","imgError":"This image failed to load."}}}</script>
+	<script src="/media/jui/js/jquery.min.js?5b932339d5d6deacc772ef3a7634b696" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?5b932339d5d6deacc772ef3a7634b696" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?5b932339d5d6deacc772ef3a7634b696" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?5b932339d5d6deacc772ef3a7634b696" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?5b932339d5d6deacc772ef3a7634b696" type="text/javascript"></script>
+	<script src="/media/modals/js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+	<script src="/media/modals/js/script.min.js?v=9.5.4" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.ui.core.min.js?5b932339d5d6deacc772ef3a7634b696" type="text/javascript"></script>
+	<script src="/modules/mod_accordeonck/assets/mod_accordeonck.js" type="text/javascript"></script>
+	<script src="/modules/mod_accordeonck/assets/jquery.easing.1.3.js" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/html5fallback.js?5b932339d5d6deacc772ef3a7634b696" type="text/javascript"></script><![endif]-->
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+       jQuery(document).ready(function(){
+        jQuery('#accordeonck278').accordeonmenuck({fadetransition : false,eventtype : 'click',transition : 'linear',menuID : 'accordeonck278',imageplus : '/modules/mod_accordeonck/assets/plus.png',imageminus : '/modules/mod_accordeonck/assets/minus.png',defaultopenedid : '',activeeffect : '',duree : 500});
+}); 
+	</script>
+
+
+</head>
+<body>
+			<div id="wrapper" style="max-width:1180px;">
+							
+		
+			<div id="header_container">
+				
+				<div id="header">
+											<div id="headermodule1">
+							
+
+<div class="custom"  >
+	<div class="update-banner" style="background-color: #d9e8f6; text-align: center;"><a href="https://bis.gov"><img src="/images/banners/We-moved-v3_1.png" alt="We moved v3 1" width="1176" height="116" /></a></div></div>
+
+							<div class="clr"></div>
+						</div>
+								
+											<div id="banner_outer">
+							<div id="banner">
+					             <div class="search mod_search69">
+	<form action="/index.php/about-bis" method="post" class="form-inline" role="search">
+		<label for="mod-search-searchword69" class="element-invisible">Search ...</label> <input name="searchword" id="mod-search-searchword69" maxlength="200"  class="inputbox search-query input-medium" type="search" size="60" placeholder="Search ..." />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="343" />
+	</form>
+</div>
+
+							</div>
+						</div>
+								
+					<div id="logo">
+																													</div>	
+											<div id="headermodule2">
+							
+
+<div class="custom"  >
+	<div>
+	<a href="http://www.bis.gov"><img alt="header sources" src="/images/header_sources.png" width="1178" height="131" /></a>
+</div></div>
+
+							<div class="clr"></div>
+						</div>
+								
+					<span class="heckl">&nbsp;</span>
+					<span class="heckr">&nbsp;</span>
+				</div>
+						
+				
+		
+								<div id="topmenu_container">
+					<div id="topmenu">
+			             <ul class="nav menu mod-list">
+<li class="item-101 default"><a href="/index.php" >Home</a></li><li class="item-126 current active deeper parent"><a href="/index.php/about-bis" >About BIS</a><ul class="nav-child unstyled small"><li class="item-154 deeper parent"><a href="/index.php/about-bis/organization" >Organization</a><ul class="nav-child unstyled small"><li class="item-161"><a href="/index.php/component/docman/about-bis?task=doc_download&amp;gid=692" >Organization Chart</a></li><li class="item-162"><a href="https://www.bis.gov/bis_leadership-and-offices" >Senior Management Team</a></li><li class="item-793"><a href="/index.php/about-bis/organization/program-offices" >Program Offices</a></li></ul></li><li class="item-153"><a href="/index.php/about-bis/mission-statement" >Mission Statement</a></li><li class="item-155 deeper parent"><a href="/index.php/about-bis/newsroom" >Newsroom</a><ul class="nav-child unstyled small"><li class="item-163"><a href="/index.php/about-bis/newsroom/press-releases" >Press Releases</a></li><li class="item-164"><a href="/index.php/about-bis/newsroom/speeches" >Speeches</a></li><li class="item-165"><a href="/index.php/about-bis/newsroom/testimony" >Testimony</a></li><li class="item-166"><a href="/index.php/about-bis/newsroom/publications" >Publications</a></li><li class="item-167"><a href="http://efoia.bis.doc.gov" >Electronic FOIA</a></li><li class="item-168 deeper parent"><a href="/index.php/about-bis/newsroom/archives" >Archives</a><ul class="nav-child unstyled small"><li class="item-762"><a href="/index.php/about-bis/newsroom/archives/newsroom-archives" >Newsroom </a></li><li class="item-767"><a href="/index.php/about-bis/newsroom/archives/press-release-archives" >Press Release </a></li><li class="item-765"><a href="/index.php/about-bis/newsroom/archives/speeches-archives" >Speeches </a></li><li class="item-823"><a href="/index.php/about-bis/newsroom/archives/testimony" >Testimony</a></li><li class="item-1124"><a href="/index.php/about-bis/newsroom/archives/annual-reports" >Annual Reports</a></li><li class="item-1126"><a href="/index.php/about-bis/newsroom/archives/foreign-policy-reports" >Foreign Policy Reports</a></li></ul></li></ul></li><li class="item-158"><a href="/index.php/about-bis/contact-bis" >Contact BIS</a></li><li class="item-159"><a href="/index.php/about-bis/career-opportunities" target="_blank">Career Opportunities</a></li><li class="item-160"><a href="/index.php/about-bis/resource-links" >Resource Links</a></li><li class="item-1113"><a href="https://www.bis.doc.gov/index.php/bis-privacy-policy-program" >Privacy Program</a></li><li class="item-1193"><a href="/index.php/about-bis/bis-information-technology-strategic-plan" >BIS Information Technology Strategic Plan</a></li></ul></li><li class="item-127 deeper parent"><a href="/index.php/regulations" >Regulations</a><ul class="nav-child unstyled small"><li class="item-169"><a href="http://bis.gov/regulations/ear" >Export Administration Regulations (EAR)</a></li><li class="item-170"><a href="http://bis.gov/regulations/ear/part-774/supplement-1-774/commerce-control-list" >Commerce Control List (CCL)</a></li><li class="item-172"><a href="http://bis.gov/licensing/classify-your-item/interactive-commerce-control-list?isExpanded=&amp;category=&amp;keyword=" >Commerce Control List Index</a></li><li class="item-171"><a href="http://bis.gov/regulations/ear/part-738/supplement-1-738/commerce-country-chart" >Commerce Country Chart</a></li><li class="item-173"><a href="http://bis.gov/regulations/ear" >Search the EAR</a></li><li class="item-174"><a href="http://bis.gov/news-updates/federal-register-notices" >Federal Register Notices</a></li><li class="item-733"><a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=d0919157f1287760c6a85330e7affcbe&amp;mc=true&amp;tpl=/ecfrbrowse/Title15/15CVIIsubchapC.tpl" target="_blank" rel="noopener noreferrer">GPO’s EAR:  e-CFR</a></li><li class="item-736"><a href="/index.php/regulations/order-a-hard-copy-of-the-ear" >Order a Hard Copy of the EAR</a></li><li class="item-901"><a href="https://efoia.bis.doc.gov/index.php/electronic-foia/index-of-documents" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;">Proposed Rule Public Comments</a></li></ul></li><li class="item-130 deeper parent"><a href="/index.php/compliance-a-training" >Compliance &amp; Training</a><ul class="nav-child unstyled small"><li class="item-209"><a href="https://www.bis.gov/learn-support/training/upcoming-events" >Current Seminar Schedule</a></li><li class="item-204 divider deeper parent"><span class="separator ">Export Management and Compliance</span>
+<ul class="nav-child unstyled small"><li class="item-206"><a href="/index.php/compliance-a-training/export-management-a-compliance/compliance" >Compliance</a></li><li class="item-208"><a href="/index.php/compliance-a-training/export-management-a-compliance/transshipment-best-practices" >Transshipment Best Practices</a></li><li class="item-809"><a href="/index.php/compliance-a-training/export-management-a-compliance/enforcement-resources" >Enforcement Resources</a></li></ul></li><li class="item-205 deeper parent"><a href="/index.php/compliance-a-training/export-administration-regulations-training" >Export Administration Regulations Training</a><ul class="nav-child unstyled small"><li class="item-217"><a href="https://www.bis.doc.gov/index.php/online-training-room" >Online Training Room</a></li><li class="item-219"><a href="https://www.bis.doc.gov/index.php?option=com_rsform&amp;formId=49" >Email Notification Form</a></li><li class="item-221"><a href="https://bis.doc.gov/index.php/component/content/article/25-compliance-a-training/export-administration-regulations-training/38-seminar-faqs" >Seminar FAQs</a></li><li class="item-854"><a href="https://www.bis.doc.gov/index.php/policy-guidance/faqs" >ECR FAQs</a></li><li class="item-218"><a href="/index.php/compliance-a-training/export-administration-regulations-training/make-a-seminar-inquiry-western-region" >Make a Seminar Inquiry -- Western Region</a></li><li class="item-224"><a href="/index.php/compliance-a-training/export-administration-regulations-training/contact-a-counselor-western-region" >Contact a Counselor -- Western Region</a></li><li class="item-222"><a href="/index.php/compliance-a-training/export-administration-regulations-training/make-a-seminar-inquiry-eastern-region" >Make a Seminar Inquiry -- Eastern Region</a></li><li class="item-223"><a href="/index.php/compliance-a-training/export-administration-regulations-training/contact-a-counselor-eastern-region" >Contact a Counselor -- Eastern Region</a></li><li class="item-798"><a href="/index.php/compliance-a-training/export-administration-regulations-training/aes-compliance-training" >BIS/Census AES Compliance Training</a></li><li class="item-1218"><a href="/index.php/compliance-a-training/export-administration-regulations-training/2023-update-conference" >Update Conference</a></li></ul></li></ul></li><li class="item-133 deeper parent"><a href="/index.php/policy-guidance" >Policy Guidance</a><ul class="nav-child unstyled small"><li class="item-237 deeper parent"><a href="/index.php/policy-guidance/deemed-exports" >Deemed Exports</a><ul class="nav-child unstyled small"><li class="item-239"><a href="/index.php/policy-guidance/deemed-exports/deemed-exports-faqs" >Deemed Exports FAQs</a></li><li class="item-835"><a href="/index.php/policy-guidance/deemed-exports/deemed-reexport-guidance1" >Deemed Reexport Guidance </a></li><li class="item-241"><a href="/index.php/component/docman/about-bis?task=doc_download&amp;gid=709" >Guidelines for Foreign National License Applications</a></li></ul></li><li class="item-1204"><a href="/index.php/policy-guidance/advanced-computing-and-semiconductor-manufacturing-items-controls-to-prc" >Advanced Computing and Semiconductor Manufacturing Items Controls to PRC</a></li><li class="item-857"><a href="/index.php/policy-guidance/faqs" >FAQs</a></li><li class="item-873 deeper parent"><a href="/index.php/policy-guidance/foreign-import-export-license-requirements" >Foreign Import/Export License Requirements </a><ul class="nav-child unstyled small"><li class="item-228"><a href="/index.php/policy-guidance/foreign-import-export-license-requirements/hong-kong" >Hong Kong</a></li><li class="item-871"><a href="/index.php/policy-guidance/foreign-import-export-license-requirements/singapore" >Singapore</a></li><li class="item-872"><a href="/index.php/policy-guidance/foreign-import-export-license-requirements/united-arab-emirates" >United Arab Emirates</a></li></ul></li><li class="item-238 deeper parent"><a href="/index.php/policy-guidance/encryption" >Encryption and Export Administration Regulations (EAR)</a><ul class="nav-child unstyled small"><li class="item-714"><a href="/index.php/policy-guidance/encryption/1-encryption-items-not-subject-to-the-ear" >1. Encryption items NOT Subject to the EAR </a></li><li class="item-252 divider deeper parent"><span class="separator ">2. Items in Cat. 5, Part 2</span>
+<ul class="nav-child unstyled small"><li class="item-1071 divider deeper parent"><span class="separator ">a. 5A002.a (and 5D002 c.1)  </span>
+<ul class="nav-child unstyled small"><li class="item-1078"><a href="/index.php/policy-guidance/encryption/2-items-in-cat-5-part-2/a-5a002-a-and-5d002-c-1/i-cryptography-for-data-confidentiality" >i. Cryptography for Data Confidentiality </a></li><li class="item-1076"><a href="/index.php/policy-guidance/encryption/2-items-in-cat-5-part-2/a-5a002-a-and-5d002-c-1/ii-key-length" >ii. Key Length</a></li><li class="item-1118"><a href="/index.php/policy-guidance/encryption/2-items-in-cat-5-part-2/a-5a002-a-and-5d002-c-1/iii-cryptographic-activation" >iii. Cryptographic Activation</a></li><li class="item-1077"><a href="/index.php/policy-guidance/encryption/2-items-in-cat-5-part-2/a-5a002-a-and-5d002-c-1/iv-5a002-a-1-a-4" >iv. 5A002 a.1- a.4 </a></li><li class="item-1079"><a href="/index.php/policy-guidance/encryption/2-items-in-cat-5-part-2/a-5a002-a-and-5d002-c-1/v-decontrol-notes" >v. Decontrol Notes</a></li></ul></li></ul></li><li class="item-1072 divider deeper parent"><span class="separator ">3. License Exception ENC and Mass Market</span>
+<ul class="nav-child unstyled small"><li class="item-1080"><a href="/index.php/policy-guidance/encryption/3-license-exception-enc-and-mass-market/a-mass-market" >a. Mass Market</a></li><li class="item-1081"><a href="/index.php/policy-guidance/encryption/3-license-exception-enc-and-mass-market/b-740-17-a" >b. 740.17(a) </a></li><li class="item-1082"><a href="/index.php/policy-guidance/encryption/3-license-exception-enc-and-mass-market/c-740-17-b-2" >c. 740.17(b)(2)</a></li><li class="item-1083"><a href="/index.php/policy-guidance/encryption/3-license-exception-enc-and-mass-market/d-740-17-b-3" >d. 740.17(b)(3)</a></li><li class="item-1084"><a href="/index.php/policy-guidance/encryption/3-license-exception-enc-and-mass-market/e-740-17-b-1" >e. 740.17(b)(1)</a></li></ul></li><li class="item-1073 divider deeper parent"><span class="separator ">4. Reports and Reviews</span>
+<ul class="nav-child unstyled small"><li class="item-1085"><a href="/index.php/policy-guidance/encryption/4-reports-and-reviews/a-annual-self-classification" >a. Annual Self-Classification</a></li><li class="item-1086"><a href="/index.php/policy-guidance/encryption/4-reports-and-reviews/b-semi-annual-sales-report" >b. Semi-Annual Sales Report</a></li><li class="item-1087"><a href="/index.php/policy-guidance/encryption/4-reports-and-reviews/c-encryption-review-ccats" >c. Encryption Review (CCATS)</a></li></ul></li><li class="item-1074 divider deeper parent"><span class="separator ">5. Licenses</span>
+<ul class="nav-child unstyled small"><li class="item-1088"><a href="/index.php/policy-guidance/encryption/5-licenses/a-when-a-license-is-required" >a. When a license is required</a></li><li class="item-1089"><a href="/index.php/policy-guidance/encryption/5-licenses/b-types-of-licenses" >b. Types of Licenses</a></li><li class="item-1090"><a href="/index.php/policy-guidance/encryption/5-licenses/c-how-to-file" >c. How to File</a></li></ul></li><li class="item-827"><a href="/index.php/policy-guidance/encryption/6-faqs" >6. FAQs</a></li><li class="item-1075"><a href="/index.php/policy-guidance/encryption/7-contact-us" >7. Contact Us</a></li></ul></li><li class="item-244 deeper parent"><a href="/index.php/policy-guidance/product-guidance" >Product Guidance</a><ul class="nav-child unstyled small"><li class="item-248"><a href="http://www.bis.doc.gov/index.php/component/content/article/16-policy-guidance/product-guidance/269-general-policy-and-processing-guidance-for-hpc-licenses" >High Performance Computers</a></li><li class="item-249"><a href="/index.php/policy-guidance/product-guidance/firearms" >Firearms</a></li><li class="item-250"><a href="https://www.bis.doc.gov/index.php/policy-guidance/faqs" >Missile Technology</a></li><li class="item-253"><a href="/index.php/policy-guidance/product-guidance/fingerprint-analysis-equipment" >Fingerprint Analysis Equipment</a></li><li class="item-251"><a href="/index.php/policy-guidance/product-guidance/chemical-and-biological-controls" >Chemical and Biological Controls</a></li></ul></li><li class="item-245"><a href="/index.php/policy-guidance/multilateral-export-control-regimes" >Multilateral Export Control Regimes</a></li><li class="item-246"><a href="/index.php/policy-guidance/india-high-technology-trade" >India High Technology Trade</a></li><li class="item-211"><a href="/index.php/policy-guidance/advisory-opinions" >Advisory Opinions</a></li><li class="item-212 deeper parent"><a href="/index.php/policy-guidance/lists-of-parties-of-concern" >Lists of Parties of Concern</a><ul class="nav-child unstyled small"><li class="item-213"><a href="/index.php/policy-guidance/lists-of-parties-of-concern/denied-persons-list" >Denied Persons List</a></li><li class="item-214"><a href="/index.php/policy-guidance/lists-of-parties-of-concern/entity-list" >Entity List</a></li><li class="item-215"><a href="/index.php/policy-guidance/lists-of-parties-of-concern/unverified-list" >Unverified List</a></li><li class="item-1169"><a href="https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/1770" >Military End User (MEU) List</a></li><li class="item-216"><a href="/urlmessages/consolidated_list_hp.html" target="_blank" rel="noopener noreferrer">Consolidated Screening List</a></li></ul></li><li class="item-225 deeper parent"><a href="/index.php/policy-guidance/country-guidance" >Country Guidance</a><ul class="nav-child unstyled small"><li class="item-229"><a href="/index.php/policy-guidance/country-guidance/iraq" >Iraq</a></li><li class="item-231 deeper parent"><a href="/index.php/policy-guidance/country-guidance/sanctioned-destinations" >Sanctioned Destinations</a><ul class="nav-child unstyled small"><li class="item-235"><a href="/index.php/policy-guidance/country-guidance/sanctioned-destinations/north-korea" >North Korea</a></li><li class="item-236"><a href="/index.php/policy-guidance/country-guidance/sanctioned-destinations/syria" >Syria</a></li><li class="item-232"><a href="/index.php/policy-guidance/country-guidance/sanctioned-destinations/cuba" >Cuba</a></li><li class="item-234"><a href="/index.php/policy-guidance/country-guidance/sanctioned-destinations/iran" >Iran</a></li></ul></li><li class="item-1181"><a href="/index.php/policy-guidance/country-guidance/russia-belarus" >Russia-Belarus</a></li></ul></li><li class="item-1150"><a href="/index.php/policy-guidance/pakistan-due-diligence-guidance" >Pakistan Due Diligence Guidance</a></li><li class="item-1142"><a href="/index.php/component/docman/about-bis?task=doc_download&amp;gid=2369" >License Exception STA 740.20(g) determinations</a></li><li class="item-1172"><a href="/index.php/policy-guidance/promoting-human-rights-and-democracy" >Promoting Human Rights and Democracy</a></li><li class="item-1178"><a href="/index.php/policy-guidance/u-s-eu-ttc" >U.S.-EU TTC</a></li><li class="item-1215"><a href="https://www.bis.doc.gov/bciconference2023" >Brain Computer Interface Conference 2023</a></li></ul></li><li class="item-128 deeper parent"><a href="http://bis.gov/licensing" >Licensing</a><ul class="nav-child unstyled small"><li class="item-181"><a href="https://snapr.bis.gov/public/stela" >Track Your Application (STELA)</a></li><li class="item-838"><a href="http://bis.gov/learn-support/decision-tools" >Decision Tree Tools</a></li><li class="item-183 deeper parent"><a href="http://bis.gov/licensing/classify-your-item" >Commerce Control List Classification</a><ul class="nav-child unstyled small"><li class="item-184"><a href="https://www.bis.gov/licensing" >Export Control Classification Number (ECCN)</a></li><li class="item-186"><a href="http://bis.gov/licensing/classify-your-item/interactive-commerce-control-list?isExpanded=&amp;category=&amp;keyword=" >Commerce Control List Index</a></li><li class="item-187"><a href="/index.php?Itemid=170" >Commerce Control List (CCL)</a></li><li class="item-195"><a href="http://bis.gov/licensing/classify-your-item#HowdoIclassifymyitem?" >Classification Request Guidelines</a></li><li class="item-188"><a href="http://bis.gov/licensing/classify-your-item/publicly-available-classification-information" >Publicly Available Classification Information</a></li><li class="item-615"><a href="http://bis.gov/licensing/determine-what-is-subject-to-the-EAR" >Commodity Jurisdiction</a></li></ul></li><li class="item-189 deeper parent"><a href="/index.php/licensing/reexports-and-offshore-transactions" >Reexports and Offshore Transactions</a><ul class="nav-child unstyled small"><li class="item-956"><a href="/index.php/licensing/reexports-and-offshore-transactions/de-minimis-and-direct-product-rules-webinar" >De minimis and Direct Product Rules Webinar</a></li></ul></li><li class="item-194"><a href="/index.php/licensing/validated-end-user-program" >Validated End User Program</a></li><li class="item-953"><a href="http://bis.gov/licensing/guidance-on-end-user-and-end-use-controls-and-us-person-controls#%E2%80%9CKnowYourCustomerGuidance%E2%80%9DandRedFlags" >Red Flag Indicators</a></li><li class="item-1159"><a href="/index.php/licensing/bis-forms" >BIS Forms</a></li></ul></li><li class="item-129 deeper parent"><a href="/index.php/enforcement" >Enforcement</a><ul class="nav-child unstyled small"><li class="item-628 deeper parent"><a href="/index.php/oee" >Office of Export Enforcement</a><ul class="nav-child unstyled small"><li class="item-928 divider deeper parent"><span class="separator ">About OEE</span>
+<ul class="nav-child unstyled small"><li class="item-923"><a href="/index.php/2015-10-29-20-18-41/2015-10-27-14-48-15" >Leadership</a></li><li class="item-922"><a href="/index.php/2015-10-29-20-18-41/2015-10-27-14-50-10" >Function</a></li><li class="item-924"><a href="/index.php/2015-10-29-20-18-41/2015-10-27-14-54-02" >OEE Capabilities</a></li><li class="item-926"><a href="/index.php/2015-10-29-20-18-41/2015-10-27-14-54-3" >Export Compliance Programs</a></li><li class="item-927"><a href="/index.php/2015-10-29-20-18-41/2015-10-27-14-55-08" >Personnel and Resources  </a></li></ul></li><li class="item-630"><a href="/index.php/enforcement/oee/investigations" >OEE Field Office Locations</a></li><li class="item-631"><a href="/index.php/enforcement/oee/penalties" >Penalties</a></li><li class="item-202"><a href="/index.php/enforcement/oee/voluntary-self-disclosure" >Voluntary Self-Disclosure</a></li></ul></li><li class="item-626"><a href="/index.php/enforcement/oac" >Office of Antiboycott Compliance</a></li><li class="item-627 deeper parent"><a href="/index.php/enforcement/oea" >Office of Enforcement Analysis</a><ul class="nav-child unstyled small"><li class="item-750"><a href="/index.php/enforcement/oea/sid" >Strategic Intelligence Division</a></li><li class="item-748"><a href="/index.php/enforcement/oea/iod" >International Operations Division</a></li><li class="item-753"><a href="/index.php/enforcement/oea/eco" >Export Control Officer Program (ECO) </a></li><li class="item-749"><a href="/index.php/enforcement/oea/iad" >Investigative Analysis Division</a></li></ul></li><li class="item-203"><a href="/index.php/enforcement/enforcement-field-offices" >Office of Export Enforcement Field Offices</a></li></ul></li><li class="item-131 deeper parent"><a href="/index.php/other-areas" >Add’l Programs</a><ul class="nav-child unstyled small"><li class="item-255"><a href="/index.php/other-areas/chemical-weapons-convention-cwc" >Chemical Weapons Convention (CWC)</a></li><li class="item-254 deeper parent"><a href="/index.php/other-areas/office-of-technology-evaluation-ote" >Office of Technology Evaluation (OTE)</a><ul class="nav-child unstyled small"><li class="item-789"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/transshipment-best-practices" >Transshipment Best Practices</a></li><li class="item-786"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/data-mining-and-system-effectiveness" >Data Mining and System Effectiveness</a></li><li class="item-787"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/aes-compliance-training" >BIS/Census AES Compliance Training</a></li><li class="item-963"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/foreign-availability-assesments" >Foreign Availability Assesments</a></li><li class="item-604"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/technology-assessments" >Technology Assessments</a></li><li class="item-602"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/industrial-base-assessments" >Industrial Base Assessments</a></li><li class="item-603"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/section-232-investigations" >Section 232 Investigations</a></li><li class="item-605"><a href="http://tac.bis.doc.gov/" >Technical Advisory Committees (TAC)</a></li><li class="item-606"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/contact-information" >Contact Information</a></li><li class="item-1184"><a href="/index.php/other-areas/office-of-technology-evaluation-ote/north-america" >North America</a></li></ul></li><li class="item-257 deeper parent"><a href="/index.php/other-areas/additional-protocol-ap" >Additional Protocol (AP)</a><ul class="nav-child unstyled small"><li class="item-682"><a href="/index.php/other-areas/additional-protocol-ap/report-handbook-for-locations" >Report Handbook for Locations</a></li><li class="item-683"><a href="/index.php/other-areas/additional-protocol-ap/report-handbook-for-sites" >Report Handbook for Sites</a></li><li class="item-684"><a href="/index.php/other-areas/additional-protocol-ap/outreach-events" >Outreach Events</a></li><li class="item-685"><a href="/index.php/other-areas/additional-protocol-ap/informational-publications" >Informational Publications</a></li></ul></li><li class="item-256 deeper parent"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies" >Strategic Industries and Economic Security (SIES)</a><ul class="nav-child unstyled small"><li class="item-530"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/national-defense-stockpile-market-impact-committee" >National Defense Stockpile Market Impact Committee</a></li><li class="item-531"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/nato-related-business-opportunities" >NATO-Related Business Opportunities</a></li><li class="item-533"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/contact-the-office-of-strategic-industries-a-economic-security" >Contact the Office of Strategic Industries &amp; Economic Security</a></li><li class="item-528"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/defense-trade-advocacy" >Defense Trade Advocacy</a></li><li class="item-529"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/excess-defense-articles-program" >Excess Defense Articles Program</a></li><li class="item-527"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/defense-priorities-a-allocations-system-program-dpas" >Defense Priorities &amp; Allocations System Program (DPAS)</a></li><li class="item-532"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/offsets-in-defense-trade" >Offsets in Defense Trade</a></li><li class="item-1228"><a href="/index.php/other-areas/strategic-industries-and-economic-security-sies/active-pharmaceutical-ingredient" >Active Pharmaceutical Ingredient</a></li></ul></li></ul></li><li class="item-929"><a href="https://www.bis.doc.gov/index.php/statistical-reports" >Data</a></li><li class="item-1145"><a href="https://tac.bis.doc.gov/" >TAC</a></li></ul>
+
+					</div>
+					<div class="clr"></div>
+				</div>
+								</div>
+				<div id="container">
+							
+		
+							<div id="leftcol">
+		             	<div class="module-outer">
+					<h3 class="moduleh3"><strong>About BIS</strong>
+				<span class="h3eckl">&nbsp;</span>
+			</h3>
+				<div class="module">
+			<div>
+				<div>
+					<div class="lvround-inner">
+						<div class="accordeonck ">
+<ul class="menu" id="accordeonck278">
+<li id="item-285" class="accordeonck item-285 active level1 " data-level="1"><a class="isactive " href="/index.php/about-bis" >About BIS</a></li><li id="item-284" class="accordeonck item-284 level1 " data-level="1"><a class="" href="/index.php/2011-09-12-15-43-33" >Mission Statement</a></li><li id="item-286" class="accordeonck item-286 parent level1 " data-level="1"><a class="toggler toggler_1  " href="javascript:void(0);" >Organization</a><ul class="content_1" style="display:none;"><li id="item-347" class="accordeonck item-347 level2 " data-level="2"><a class="" href="/index.php/component/docman/about-bis?task=doc_download&amp;gid=692" >Organization Chart</a></li><li id="item-348" class="accordeonck item-348 level2 " data-level="2"><a class="" href="https://www.bis.gov/bis_leadership-and-offices" >Senior Management Team</a></li><li id="item-794" class="accordeonck item-794 level2 " data-level="2"><a class="" href="/index.php/about-bis/organization/program-offices" >Program Offices</a></li></ul></li><li id="item-287" class="accordeonck item-287 parent level1 " data-level="1"><a class="toggler toggler_1  " href="javascript:void(0);" >Newsroom</a><ul class="content_1" style="display:none;"><li id="item-352" class="accordeonck item-352 level2 " data-level="2"><a class="" href="/index.php/about-bis/newsroom/press-releases" >Press Releases</a></li><li id="item-353" class="accordeonck item-353 level2 " data-level="2"><a class="" href="/index.php/about-bis/newsroom/speeches" >Speeches</a></li><li id="item-354" class="accordeonck item-354 level2 " data-level="2"><a class="" href="/index.php/about-bis/newsroom/testimony" >Testimony</a></li><li id="item-355" class="accordeonck item-355 level2 " data-level="2"><a class="" href="/index.php/about-bis/newsroom/publications" >Publications</a></li><li id="item-356" class="accordeonck item-356 level2 " data-level="2"><a class="" href="http://efoia.bis.doc.gov" >Electronic FOIA</a></li><li id="item-773" class="accordeonck item-773 level2 " data-level="2"><a class="" href="/index.php?Itemid=772" >Export Control Reform News</a></li><li id="item-357" class="accordeonck item-357 parent level2 " data-level="2"><a class="toggler toggler_2  " href="javascript:void(0);" >Archives</a><ul class="content_2" style="display:none;"><li id="item-768" class="accordeonck item-768 level3 " data-level="3"><a class="" href="/index.php/2011-09-12-15-56-29/2012-06-26-19-35-02/newsroom-archives" >Newsroom Archives</a></li><li id="item-761" class="accordeonck item-761 level3 " data-level="3"><a class="" href="/index.php/2011-09-12-15-56-29/2012-06-26-19-35-02/press-release-archives" >Press Release Archives</a></li><li id="item-766" class="accordeonck item-766 level3 " data-level="3"><a class="" href="/index.php/2011-09-12-15-56-29/2012-06-26-19-35-02/speeches-archives" >Speeches Archives</a></li><li id="item-824" class="accordeonck item-824 level3 " data-level="3"><a class="" href="/index.php/about-bis/newsroom/archives/testimony" >Testimony Archives</a></li></ul></li></ul></li><li id="item-289" class="accordeonck item-289 parent level1 " data-level="1"><a class="toggler toggler_1  " href="javascript:void(0);" >Contact BIS</a><ul class="content_1" style="display:none;"><li id="item-1122" class="accordeonck item-1122 level2 " data-level="2"><a class="" href="/index.php/2011-09-12-15-57-11/contact-us" >Contact Us</a></li><li id="item-861" class="accordeonck item-861 level2 " data-level="2"><a class="" href="http://www.bis.doc.gov/index.php?option=com_docman&task=doc_download&gid=1003&Itemid=3284" >Export Administration Contacts</a></li></ul></li><li id="item-290" class="accordeonck item-290 level1 " data-level="1"><a class="" href="https://www.bis.doc.gov/index.php/about-bis/career-opportunities" target="_blank" >Career Opportunities</a></li><li id="item-850" class="accordeonck item-850 level1 " data-level="1"><a class="" href="https://tac.bis.doc.gov/index.php/28-technology-evaluation/419-tac-meeting-schedule-2019" target="_blank" >TAC Schedules</a></li><li id="item-291" class="accordeonck item-291 level1 " data-level="1"><a class="" href="/index.php/about-bis/resource-links" >Resource Links</a></li><li id="item-1112" class="accordeonck item-1112 level1 " data-level="1"><a class="" href="https://www.bis.doc.gov/index.php/bis-privacy-policy-program" >Privacy Program</a></li><li id="item-1192" class="accordeonck item-1192 level1 " data-level="1"><a class="" href="/index.php/bis-information-technology-strategic-plan" >BIS Information Technology Strategic Plan</a></li></ul></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<span class="shadow-left">&nbsp;</span>
+		<span class="shadow-right">&nbsp;</span>
+	</div>
+	
+				</div>
+					
+		    <div id="content_outleft">
+					
+		
+				<div id="maincontent">
+                                     <!-- START -->
+					<div id="system-message-container">
+	</div>
+						
+					<script type="text/javascript">
+    function currentvideo(id, title, descr) {
+
+        var xmlhttp;
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+        }
+        else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function()
+        {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            }
+        }
+        xmlhttp.open("GET", "index.php?option=com_hdflvplayer&task=addview&thumbid=" + id, true);
+        xmlhttp.send();
+        var wndo = new dw_scrollObj('wn', 'lyr1');
+        wndo.setUpScrollbar("dragBar", "track", "v", 1, 1);
+        wndo.setUpScrollControls('scrollbar');
+    }
+</script>
+<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+	
+		
+						
+		
+	
+	
+		
+								<div itemprop="articleBody">
+		<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: 18pt;">We are sorry the page you requested cannot be found.&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: 18pt;">&nbsp; Please try our <a href="/index.php/component/search/?searchword=Search...&amp;searchphrase=all&amp;Itemid=343">search</a> tool</span>.</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><a href="/index.php/component/search/?searchword=Search...&amp;searchphrase=all&amp;Itemid=343"><img style="margin-right: auto; margin-left: auto; display: block;" alt="search-icon" src="/images/pictures/search-icon.png" width="128" height="128" /></a></p>
+<p style="text-align: center;"><strong></strong>&nbsp;</p>	</div>
+
+	
+							</div>
+				      <!-- END -->
+                                </div>
+				<div class="clr"></div>
+				<span class="shadow-left">&nbsp;</span>
+				<span class="shadow-right">&nbsp;</span>
+					
+		
+			</div>
+				
+			<div class="clr"></div>
+		</div>
+			
+		
+		
+		<div class="clr"></div>
+	</div>
+			<div id="foot_container" style="max-width:1180px;">
+					
+		
+		
+							
+	
+			
+			<div id="subfoot">
+								
+					<div class="copytext">&copy; BIS 2024</div>
+							</div>
+					
+	
+		<div class="clr"></div>
+			<div id="footer">
+				<div class="footer-inner">
+					<span class="feckl">&nbsp;</span>
+					<span class="feckr">&nbsp;</span>
+					<div id="scroll_up"> <a class="lv-tooltip" id="gotop" title="Scroll to top">&uarr;&uarr;&uarr;</a></div>
+						<div id="footermodule1234">
+					
+					
+					
+					
+	</div>
+			<div id="footermodule5">
+					<div class="moduletable">
+						
+
+<div class="custom"  >
+	<script src="https://touchpoints.app.cloud.gov/touchpoints/f64537c4.js" async="" type="text/javascript"></script>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong><a href="http://efoia.bis.doc.gov">FOIA </a>&nbsp;| &nbsp;<a href="/index.php/disclaimer">Disclaimer</a> &nbsp;| <a href="/index.php/disclaimer/27-about-bis/174-bis-privacy-policy-statement"> Privacy Policy</a>&nbsp;<strong>| &nbsp;</strong></strong><strong><a class="doclink" href="/index.php/component/docman/?task=doc_download&amp;gid=1562&amp;Itemid=182">SORN</a></strong><strong>&nbsp; | &nbsp;<a class="doclink" href="/index.php/component/docman/?task=doc_download&amp;gid=236&amp;Itemid=182">Information Quality</a>&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.commerce.gov/open">Open Government Plan</a>&nbsp;| <a href="https://www.commerce.gov/about/strategic-plan">Strategic Plan </a>| <a href="http://www.osec.doc.gov/bmi/budget/FY2006APP.htm">Annual </a><a href="https://www.commerce.gov/about/budget-and-performance">Performance Plan</a></strong><strong></strong></p>
+<center><strong><a id="DOC" href="/urlmessages/leavingBIS.php?destination=http:%2F%2Fwww.doc.gov/">Department of Commerce</a> &nbsp;| &nbsp;<a href="/urlmessages/leavingBIS.php?destination=http:%2F%2Fwww.usajobs.gov/">BIS Jobs</a> &nbsp;| &nbsp;<a href="/urlmessages/leavingBIS.php?destination=https:%2F%2Fwww.commerce.gov/cr/reports-and-resources/no-fear-act">No FEAR ACT</a> &nbsp;| &nbsp;<a href="/urlmessages/leavingBIS.php?destination=http:%2F%2Fwww.usa.gov/">USA.gov</a> &nbsp;|&nbsp; <a href="/index.php/about-bis/contact-bis">Contact Us</a> &nbsp;|&nbsp;</strong></center></div>
+		</div>
+	
+		</div>
+				
+					
+					</div>
+				<div class="footer-bottom">
+								  		
+				</div>
+			</div>		
+		<div class="clr"></div>
+	</div>	
+		
+</body>
+</html>

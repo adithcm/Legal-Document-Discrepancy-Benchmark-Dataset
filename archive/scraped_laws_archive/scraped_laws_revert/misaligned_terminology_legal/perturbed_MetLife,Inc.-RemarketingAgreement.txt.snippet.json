@@ -1,0 +1,43 @@
+[
+  {
+    "file_name": "MetLife,Inc.-RemarketingAgreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day on which banking institutions in New York, New York are authorized or required by law or executive order to remain closed.",
+        "changed_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day on which the Company chooses to remain closed.",
+        "explanation": "The definition of 'Business Day' is altered to give the Company discretion over which days are considered business days. This contradicts standard legal and financial definitions of 'Business Day,' which are typically tied to objective criteria like banking holidays.",
+        "contradicted_law": "New York General Construction Law § 24",
+        "law_citation": "New York General Construction Law § 24",
+        "law_url": "https://www.nysenate.gov/legislation/laws/GCN/24",
+        "law_explanation": "New York General Construction Law § 24 defines holidays that are considered non-business days in New York. Allowing the Company to arbitrarily choose business days contradicts this statute, potentially affecting contract performance and deadlines.",
+        "location": "Paragraph 1",
+        "scraped_snippet": "NYS Open Legislation | NYSenate.gov Sorry, you need to enable JavaScript to visit this website. Skip to main content Legislation Search OpenLegislation Statutes Search Term Search icon Search The Laws of New York Consolidated Laws of New York CHAPTER 22 General Construction ARTICLE 2 Meaning of Terms previous SECTION 23 Heretofore and hereafter up ARTICLE 2 Meaning of Terms next SECTION 24-A Closing of banking organizations on Saturday; Sunday, public holiday or Saturday afternoon banking transactions; emergency bank holidays This entry was published on 2020-10-16 The selection dates indicate all change milestones for the entire volume, not just the location being viewed. Specifying a milestone date will retrieve the most recent version of the location before that date. See most recent version before or on: 2014-09-22 2019-07-26 2019-11-15 2020-10-16 2020-11-13 2021-08-06 2022-04-22 2023-04-07 2023-06-30 2024-02-16 Share Facebook Email SECTION 24 Public holidays; half-holidays General Construction (GCN) CHAPTER 22, ARTICLE 2 § 24. Public holidays; half-holidays. The term public holiday includes the following days in each year: the first day of January, known as New Year's day; the third Monday of January, known as Dr. Martin Luther King, Jr. day; the twelfth day of February, known as Lincoln's birthday; the third Monday in February, known as Washington's birthday; the last Monday in May, known as Memorial day; the second Sunday in June, known as Flag day; the nineteenth day of June, known as Juneteenth; the fourth day of July, known as Independence day; the first Monday in September, known as Labor day; the second Monday in October, known as Columbus day; the eleventh day of November, known as Veterans' day; the fourth Thursday in November, known as Thanksgiving day; and the twenty-fifth day of December, known as Christmas day, and if any of such days except Flag day is Sunday, the next day thereafter; each general election day, and each day appointed by the president of the United States or by the governor of this state as a day of general thanksgiving, general fasting and prayer, or other general religious observances. The term half-holiday includes the period from noon to midnight of each Saturday which is not a public holiday."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "(g) During the period beginning from the Applicable Time and continuing to and including the Remarketing Settlement Date for the Remarketed Securities, not to offer, sell, contract to offer or sell or otherwise dispose of any debt securities of the Company having pricing characteristics similar to the Securities exceeding an aggregate principal amount of $3 billion, except, for the avoidance of doubt, debt securities issued under the Global Medium Term Note Program of Metropolitan Life Global Funding I, Global Medium Term Note Program of MetLife Institutional Funding II, or any commercial paper program of, or sponsored by, the Company or any subsidiaries, without the prior written consent of the Remarketing Agents, which consent shall not be unreasonably withheld;",
+        "changed_text": "(g) During the period beginning from the Applicable Time and continuing to and including the Remarketing Settlement Date for the Remarketed Securities, the Company may offer, sell, contract to offer or sell or otherwise dispose of debt securities at its own discretion.",
+        "explanation": "This removes the restriction on the Company's ability to issue similar debt securities during the remarketing period. This contradicts the implied agreement to protect the value of the remarketed securities by limiting the supply of similar securities, which could be seen as a breach of good faith and fair dealing.",
+        "contradicted_law": "Uniform Commercial Code § 1-304",
+        "law_citation": "UCC § 1-304",
+        "law_url": "https://www.law.cornell.edu/ucc/1/1-304",
+        "law_explanation": "UCC § 1-304 states that every contract or duty within the Uniform Commercial Code imposes an obligation of good faith in its performance and enforcement. By removing the limitation on issuing similar debt, MetLife could potentially undermine the value of the remarketed securities and breach the implicit covenant of good faith.",
+        "location": "Section 3",
+        "scraped_snippet": "§ 1-304. Obligation of Good Faith. | Uniform Commercial Code | US Law | LII / Legal Information Institute Please help us improve our site! × No thank you § 1-304. Obligation of Good Faith. Every contract or duty within the Uniform Commercial Code imposes an obligation of good faith in its performance and enforcement. Uniform Commercial Code Toolbox About Uniform Laws State Uniform Commercial Codes"
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+        "changed_text": "15. GOVERNING LAW. THIS REMARKETING AGREEMENT AND THE PRICING AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF DELAWARE, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAW TO THE EXTENT THAT SUCH PRINCIPLES WOULD REQUIRE OR PERMIT THE APPLICATION OF LAWS OF ANOTHER JURISDICTION.",
+        "explanation": "The governing law of the contract is changed from New York to Delaware, where the Company is incorporated. However, the primary place of business and execution of the contract is in New York. This may cause disputes about which state's laws apply, especially if there are conflicts between New York and Delaware law regarding securities or contract interpretation.",
+        "contradicted_law": "Restatement (Second) of Conflict of Laws § 187",
+        "law_citation": "Restatement (Second) of Conflict of Laws § 187",
+        "law_url": "https://law.justia.com/codes/restatement/second/conflict-of-laws/law-applicable-to-contracts/topic-2/187/.",
+        "law_explanation": "Restatement (Second) of Conflict of Laws § 187 addresses the law of the state chosen by the parties. The choice of law is respected unless the chosen state has no substantial relationship to the parties or the transaction and there is no other reasonable basis for the parties choice, or application of the law of the chosen state would be contrary to a fundamental policy of a state which has a materially greater interest than the chosen state. Given the significant contacts with New York, switching to Delaware law may be contested and found unenforceable if New York has a materially greater interest.",
+        "location": "Section 15",
+        "scraped_snippet": null
+      }
+    ]
+  }
+]

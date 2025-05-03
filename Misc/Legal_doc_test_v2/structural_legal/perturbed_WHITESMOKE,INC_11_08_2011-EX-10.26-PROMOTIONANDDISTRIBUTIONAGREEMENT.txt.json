@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "4.4 Taxes. All payments under this Agreement are exclusive of taxes imposed by any governmental entity. Google shall pay any applicable taxes imposed by governmental agencies with respect to the transactions under this Agreement other than taxes based upon Distributor's income. Google shall promptly provide to Distributor a copy of an official tax receipt or other appropriate evidence of any taxes imposed on payments made under this Agreement. When Distributor has the legal obligation to collect any applicable taxes, the appropriate amount shall be invoiced to and paid by Google unless Google provides Distributor with a valid tax exemption certificate authorised by the appropriate taxing authority.",
+                "changed_text": "11.11 Counterparts. The parties may execute this agreement in counterparts, which taken together will constitute one instrument. 4.4 Taxes. All payments under this Agreement are exclusive of taxes imposed by any governmental entity. Google shall pay any applicable taxes imposed by governmental agencies with respect to the transactions under this Agreement other than taxes based upon Distributor's income. Google shall promptly provide to Distributor a copy of an official tax receipt or other appropriate evidence of any taxes imposed on payments made under this Agreement. When Distributor has the legal obligation to collect any applicable taxes, the appropriate amount shall be invoiced to and paid by Google unless Google provides Distributor with a valid tax exemption certificate authorised by the appropriate taxing authority.",
+                "explanation": "Moving the tax clause to 'Counterparts' makes it less discoverable for accounting and legal staff. Tax obligations should be within 'Payment Terms'.",
+                "contradicted_law": "26 U.S. Code § 6001 - Notice or regulations requiring records, statements, and special returns",
+                "law_citation": "26 U.S. Code § 6001",
+                "law_url1": [
+                    "https://www.law.cornell.edu/topn/notice_or_regulations_requiring_records,_statements,_and_special_returns"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title26-section6001&edition=prelim"
+                ],
+                "law_explanation": "This law dictates that entities must keep records to determine tax liability. Moving the tax clause to an unrelated section obscures the responsibilities, potentially leading to non-compliance, as the accounting department might miss or misinterpret the obligations.",
+                "location": "Section 4.4"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11.12 Entire Agreement. Subject to Clause 9.1, this Agreement sets out all terms agreed between the parties in relation to its subject matter and supersedes all previous agreements between the parties relating to the same. In entering into this Agreement neither party has relied on any statement, representation or warranty not expressly set out in this Agreement. DISTRIBUTOR GOOGLE INC /[ * ] /s/ [ * ] By By [ * ] [ * ] Name Name [ * ] [ * ] Title Title [ * ] [ * ] Date Date - 14 - EXHIBIT A Payments *[ * ] ** [ * ].",
+                "changed_text": "1.1 In this Agreement unless expressly stated otherwise: - 1 - \"Distribution Products\" means: \"End User\" means an end user customer of Distributor who is located in the Territory. \"EULA\" means the end user license agreement applicable to a Product, which end user license agreement may be updated or modified by Google in its sole discretion from time to time. 11.12 Entire Agreement. Subject to Clause 9.1, this Agreement sets out all terms agreed between the parties in relation to its subject matter and supersedes all previous agreements between the parties relating to the same. In entering into this Agreement neither party has relied on any statement, representation or warranty not expressly set out in this Agreement. DISTRIBUTOR GOOGLE INC /[ * ] /s/ [ * ] By By [ * ] [ * ] Name Name [ * ] [ * ] Title Title [ * ] [ * ] Date Date - 14 - EXHIBIT A Payments *[ * ] ** [ * ].",
+                "explanation": "Moving the entire agreement clause into the Definitions makes it unclear when looking for it. It makes it less obvious to outside parties examining the contract. Clauses about entire agreement usually are with the general terms.",
+                "contradicted_law": "2-202 Uniform Commercial Code - Final Written Expression: Parol or Extrinsic Evidence",
+                "law_citation": "2-202 UCC",
+                "law_url1": [
+                    "https://www.law.cornell.edu/ucc/2/2-202"
+                ],
+                "law_url2": [
+                    "https://uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c672514c-a727-e69c-6105-3c5f42b9549c&forceDialog=0"
+                ],
+                "law_explanation": "UCC 2-202 states that terms with respect to which the confirmatory memoranda of the parties agree or which are otherwise set forth in a writing intended by the parties as a final expression of their agreement with respect to such terms as are included therein may not be contradicted by evidence of any prior agreement or of a contemporaneous oral agreement but may be explained or supplemented. Placing this clause in the Definitions section masks the intent that the written agreement contain all the terms and supersedes prior agreements, which weakens the written agreement in court, as there may be some confusion as to what is and is not part of the entire agreement.",
+                "location": "Section 11.12"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "11.10 Governing Law. This Agreement is governed by English law and the parties submit to the exclusive jurisdiction of the English courts in relation to any dispute (contractual or non-contractual) concerning this Agreement save that either party may apply to any court for an injunction or other relief to protect its Intellectual Property Rights. If this Agreement is translated into any other language, if there is conflict the English text will take precedence.",
+                "changed_text": "3.7 Accurate Reproduction. Distributor agrees that in connection with its exercise of the right granted in Clause 2.1 (Products Licence Grant) it shall accurately reproduce the Distribution Products and shall not: (a) modify any Product (including modify the Chrome Browser or Google Toolbar configuration files or registry settings); or (b) insert into the Products any viruses, worms, date bombs, time bombs, or other code that is specifically designed to cause the Products to cease operating, or to damage, interrupt, or interfere with any Products or End User data. 11.10 Governing Law. This Agreement is governed by English law and the parties submit to the exclusive jurisdiction of the English courts in relation to any dispute (contractual or non-contractual) concerning this Agreement save that either party may apply to any court for an injunction or other relief to protect its Intellectual Property Rights. If this Agreement is translated into any other language, if there is conflict the English text will take precedence.",
+                "explanation": "Moving the governing law clause into the 'Accurate Reproduction' section will reduce its visibility and enforceability, as parties might overlook it when determining jurisdiction.",
+                "contradicted_law": "Choice of Law clauses and Jurisdictional enforcement",
+                "law_citation": "Rome I Regulation",
+                "law_url1": [
+                    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32008R0593"
+                ],
+                "law_url2": [
+                    "https://www.trans-lex.org/611000/_/regulation-(ec)-no-593-2008-of-the-european-parliament-and-of-the-council-of-17-june-2008-on-the-law-applicable-to-contractual-obligations-(rome-i)/"
+                ],
+                "law_explanation": "The Rome I Regulation concerns the choice of law in contractual obligations within the European Union. While this agreement specifies English law, its placement within a section concerning 'Accurate Reproduction' can be misleading. The Rome I Regulation emphasizes clarity and predictability in choice of law clauses. By obscuring this clause, the contract creates uncertainty and potential challenges in enforcement, as parties might argue they were not adequately informed of the governing law.",
+                "location": "Section 11.10"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid. In addition, if Seller has to file litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Seller in collecting the delinquent amount and accrued late payment fees on the delinquent amount. Under no circumstance will the late payment fee payable to Seller exceed the amount that a creditor may lawfully impose on a debtor on a delinquent amount under Applicable Law.",
+                "changed_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid. In addition, if Seller has to file litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Seller in collecting the delinquent amount and accrued late payment fees on the delinquent amount. This late payment fee is offered as a promotion and does not represent any debt.",
+                "explanation": "By stating 'This late payment fee is offered as a promotion and does not represent any debt,' the clause creates a contradiction with the earlier part of the sentence, making it difficult to enforce the repayment of owed amount under the agreement.",
+                "contradicted_law": "Truth in Lending Act (TILA)",
+                "law_citation": "15 U.S. Code § 1638",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-chapter41-subchapter1-partD-section1638"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/truth_in_lending_act"
+                ],
+                "law_explanation": "TILA requires clear and conspicuous disclosure of finance charges, including late fees. By mischaracterizing the late fee as a 'promotion' and stating that it doesn't represent debt, this modification creates an ambiguity that reduces the clarity required by TILA.",
+                "location": "Subsection 11(e)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of the State of Illinois and the United States of America, without giving effect to its principles or rules of conflict of laws. The United Nations Convention on Contracts for the International Sale of Goods will not govern or otherwise be applicable to this Agreement.",
+                "changed_text": "This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of the State of Illinois and the United States of America, without giving effect to its principles or rules of conflict of laws. Despite the former, the United Nations Convention on Contracts for the International Sale of Goods will govern or otherwise be applicable to this Agreement.",
+                "explanation": "The modified sentence introduces a direct contradiction. It first states Illinois law governs, then immediately states CISG will govern. This creates uncertainty about which law applies, hindering enforceability.",
+                "contradicted_law": "Choice of Law Principles",
+                "law_citation": "Restatement (Second) of Conflict of Laws § 187",
+                "law_url1": [
+                    "https://law.cornell.edu/wex/choice_of_law"
+                ],
+                "law_url2": [
+                    "https://www.law.upenn.edu/live/files/7305-borcherschoiceoflawspdf"
+                ],
+                "law_explanation": "The Restatement provides rules for determining which law governs a contract. Contradicting the chosen law makes it difficult to determine the 'most significant relationship' to the transaction and thus hinders legal certainty.",
+                "location": "Subsection 12(d)"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "A Party will not suspend performance under or terminate this Agreement or any accepted purchase order for a product being purchased and sold under this Agreement unless: (1) the other Party is in material breach of this Agreement and has either refused to cure the material breach or has failed to cure the material breach within thirty (30) day of its receipt of written notice of the failure; and (2) the Parties have been unable to resolve the Dispute related to the material breach through negotiation or mediation, or the breaching Party has refused or failed to attempt to resolve the Dispute through negotiation or mediation, as provided in this Section. Notwithstanding the foregoing, a Party may suspend performance or terminate this Agreement or any accepted purchase order for a product being purchase and sold under this Agreement immediately on written notice to the other Party, and without providing the other Party an opportunity to cure the material breach or attempting to resolve a Dispute over the material breach by negotiation or mediation as provided in this Section, for a material breach by the other Party involving substantial harm to the reputation, goodwill and business of the non-breaching Party that cannot reasonably be avoided or fully redressed by providing the other Party an opportunity to cure the material breach.",
+                "changed_text": "A Party will not suspend performance under or terminate this Agreement or any accepted purchase order for a product being purchased and sold under this Agreement unless: (1) the other Party is in material breach of this Agreement and has either refused to cure the material breach or has failed to cure the material breach within thirty (30) day of its receipt of written notice of the failure; and (2) the Parties have been unable to resolve the Dispute related to the material breach through negotiation or mediation, or the breaching Party has refused or failed to attempt to resolve the Dispute through negotiation or mediation, as provided in this Section. However, a Party will suspend performance or terminate this Agreement immediately regardless of the former conditions.",
+                "explanation": "The inclusion of 'However, a Party will suspend performance or terminate this Agreement immediately regardless of the former conditions' creates a contradiction because it nullifies the conditions listed in parts (1) and (2), which mandate a cure period and dispute resolution attempts before termination.",
+                "contradicted_law": "Illinois Uniform Commercial Code § 2-609",
+                "law_citation": "810 ILCS 5/2-609",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=081000050H2-609&ActID=2365&ChapterID=67&SeqStart=13850000&SeqEnd=14040000"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/ucc/2/2-609"
+                ],
+                "law_explanation": "The Illinois UCC § 2-609 grants the right to adequate assurance of performance when reasonable grounds for insecurity arise. By allowing immediate suspension or termination 'regardless of the former conditions,' the changed text potentially eliminates the right to seek adequate assurance, violating the UCC.",
+                "location": "Subsection 11(d)"
+            }
+        ]
+    }
+]

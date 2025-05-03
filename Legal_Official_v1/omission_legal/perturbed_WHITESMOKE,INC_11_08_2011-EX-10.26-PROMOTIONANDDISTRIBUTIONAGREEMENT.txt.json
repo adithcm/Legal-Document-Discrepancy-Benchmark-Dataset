@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each party warrants to the other that it will use reasonable care and skill in complying with its obligations under this Agreement. Distributor also represents and warrants that it will undertake commercially reasonable endeavours in good faith to comply with Google's business partner due diligence process including providing requested information.",
+                "changed_text": "Each party warrants to the other that it will use reasonable care and skill in complying with its obligations under this Agreement.",
+                "explanation": "This clause has been altered to remove the distributor's warranty to undertake commercially reasonable endeavors in good faith to comply with Google's business partner due diligence process. This creates a legal contradiction by omitting a critical aspect of compliance with anti-corruption laws. The original text ensures the Distributor follows due diligence, which is crucial for adhering to the U.S. Foreign Corrupt Practices Act. By removing this, the contract fails to explicitly mandate compliance efforts, increasing legal risk.",
+                "contradicted_law": "U.S. Foreign Corrupt Practices Act (FCPA)",
+                "law_citation": "15 U.S. Code § 78dd-1",
+                "law_url1": [
+                    "https://www.justice.gov/criminal-fraud/foreign-corrupt-practices-act"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/foreign_corrupt_practices_act_of_1977"
+                ],
+                "law_explanation": "The modification omits the requirement for the distributor to undertake commercially reasonable due diligence. This directly contradicts the spirit and intention of the FCPA, which mandates that companies take proactive steps to prevent corruption, including due diligence on business partners. Removing this duty of care undermines the FCPA’s anti-corruption measures, increasing the risk of FCPA violations.",
+                "location": "8.1"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Distributor will comply with all applicable commercial and public anti-bribery laws, including, without limitation, the UK's Bribery Act 2010 and the U.S. Foreign Corrupt Practices Act of 1977 (\"Anti-Bribery Laws\"), which prohibit (amongst other things) corrupt offers of anything of value, either directly or indirectly, to a government official to obtain or keep business. ''Government officials\" include any government employee, candidate for public office, and employee of government-owned or government-controlled companies, public international organisations, and political parties. Furthermore, Distributor will not make any facilitation payments, which are payments to induce officials to perform routine functions they are otherwise obligated to perform.",
+                "changed_text": "Distributor will comply with all applicable commercial and public anti-bribery laws, including, without limitation, the UK's Bribery Act 2010 and the U.S. Foreign Corrupt Practices Act of 1977 (\"Anti-Bribery Laws\"), which prohibit (amongst other things) corrupt offers of anything of value, either directly or indirectly, to a government official to obtain or keep business. ''Government officials\" include any government employee, candidate for public office, and employee of government-owned or government-controlled companies, public international organisations, and political parties.",
+                "explanation": "By removing 'Furthermore, Distributor will not make any facilitation payments, which are payments to induce officials to perform routine functions they are otherwise obligated to perform,' the contract now fails to explicitly prohibit facilitation payments. While the FCPA does not explicitly ban facilitation payments, it has very strict guidelines on them, and the removal of the explicit prohibition creates a gray area and increases legal risk. This conflicts with best practices for FCPA compliance.",
+                "contradicted_law": "U.S. Foreign Corrupt Practices Act (FCPA)",
+                "law_citation": "15 U.S. Code § 78dd-1",
+                "law_url1": [
+                    "https://www.justice.gov/criminal-fraud/foreign-corrupt-practices-act"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/foreign_corrupt_practices_act_of_1977"
+                ],
+                "law_explanation": "Removing the explicit prohibition on facilitation payments weakens the anti-corruption stance of the contract. Although the FCPA has nuanced views on facilitation payments, best practices dictate a clear prohibition to avoid even the appearance of bribery. By omitting this, the contract creates potential legal ambiguity and increases the risk of non-compliance with the FCPA.",
+                "location": "8.5"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The recipient may also disclose Confidential Information when required by law, or the regulation or rule of a major US stock exchange or the United States Securities and Exchange Commission, after giving reasonable notice to the discloser, such notice to be sufficient to give the discloser: (i) the opportunity to seek confidential treatment, a protective order or similar remedies or relief prior to disclosure (if applicable) and (ii) (where any disclosure is necessary) time to consult on and approve the form and content of the relevant disclosure. The parties shall then promptly discuss and agree in good faith on the form and content of the disclosure (each acting reasonably).",
+                "changed_text": "The recipient may also disclose Confidential Information when required by law, or the regulation or rule of a major US stock exchange or the United States Securities and Exchange Commission.",
+                "explanation": "This clause is changed by removing the condition that reasonable notice be given to the discloser before disclosing confidential information when required by law. This creates a legal contradiction by potentially violating securities laws which require due process and the opportunity to protect sensitive information. Omitting the requirement to provide reasonable notice before disclosure introduces legal risk related to compliance with SEC regulations and the protection of confidential information.",
+                "contradicted_law": "Securities Exchange Act of 1934",
+                "law_citation": "15 U.S. Code § 78u-5",
+                "law_url1": [
+                    "https://www.sec.gov/about/laws/sea34.pdf"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section78u-5&edition=prelim"
+                ],
+                "law_explanation": "By omitting the requirement for reasonable notice before disclosing confidential information, the contract creates a scenario where one party could disclose sensitive information without allowing the other party the chance to seek protective measures. This undermines the protections intended by the Securities Exchange Act of 1934, specifically provisions addressing the protection of confidential information during investigations or legal proceedings. Failure to provide notice can lead to violations of due process and damage the disclosing party.",
+                "location": "6.2"
+            }
+        ]
+    }
+]

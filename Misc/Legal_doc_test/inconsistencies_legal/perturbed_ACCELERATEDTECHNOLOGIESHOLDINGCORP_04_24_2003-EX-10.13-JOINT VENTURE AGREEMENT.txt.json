@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "8. Term of Joint Venture. The Joint Venture shall commence on the 1st of March, 2003, and shall be effective until February 28, 2004 unless extended by written agreement of the Joint Venturers not less than thirty (30) days prior to scheduled termination.",
+                "changed_text": "8. Term of Joint Venture. The Joint Venture shall commence on the 1st of March, 2003, and shall be effective until February 28, 2004 unless extended by written agreement of the Joint Venturers not less than ten (10) days prior to scheduled termination.",
+                "explanation": "Reducing the notification period for extending the joint venture from 30 days to 10 days before termination could be problematic. While there isn't a specific statutory requirement mandating 30 days for all contract extensions in Pennsylvania, such a short period may be deemed commercially unreasonable in some contexts, especially considering the complexities often involved in joint ventures. This could open the contract up to challenges based on fairness and good faith.",
+                "contradicted_law": "Breach of Implied Duty of Good Faith and Fair Dealing",
+                "law_citation": "13 Pa.C.S. § 1304",
+                "law_url": "https://www.law.cornell.edu/ucc/13/1-304",
+                "law_explanation": "Pennsylvania law implies a duty of good faith and fair dealing in every contract. While not directly violating a specific statute, the shortened 10-day notice period might be construed as a failure to act in good faith, especially if one party is disadvantaged by the limited time to assess and agree to the extension. Courts in Pennsylvania consider the reasonable expectations of parties when determining if good faith has been breached.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "4. Offices of the Joint Venture. The principal place of business of the Joint Venture shall be at 1600 Lower State Road, in the City of Doylestown, Bucks County, Pennsylvania, but may maintain such other offices as the Joint Venturers may deem advisable at any other place or places within or without the Commonwealth of Pennsylvania.",
+                "changed_text": "4. Offices of the Joint Venture. The principal place of business of the Joint Venture shall be at 1600 Lower State Road, in the City of Doylestown, Bucks County, Pennsylvania, and all other business will be conducted outside of the United States.",
+                "explanation": "The joint venture formed in Pennsylvania is now conducting business outside the US which can cause taxation law conflicts.",
+                "contradicted_law": "U.S. Internal Revenue Code",
+                "law_citation": "IRC Section 861",
+                "law_url": "https://www.law.cornell.edu/topn/source/USC/26/I/1/A/861",
+                "law_explanation": "Changing all business to be conducted outside the US creates problems with taxation, as the IRS will have to determine the source of income to tax it. IRC Section 861 details rules regarding the source of income.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The fiscal year of the Joint Venture shall be the calendar year, and shall use the cash basis of accounting.",
+                "changed_text": "The fiscal year of the Joint Venture shall be any consecutive 12-month period, and shall use the cash basis of accounting.",
+                "explanation": "Changing the fiscal year can create issues with adhering to IRS requirements.",
+                "contradicted_law": "U.S. Internal Revenue Code",
+                "law_citation": "26 U.S. Code § 441",
+                "law_url": "https://www.law.cornell.edu/topn/source/USC/26/I/A/441",
+                "law_explanation": "While the IRS allows for a fiscal year that does not end on December 31st, the joint venture will need to fill form 1128, Application to Adopt, Change, or Retain a Tax Year. The contract does not mention that they will need to file this form if they change their fiscal year.",
+                "location": "Section 7"
+            }
+        ]
+    }
+]

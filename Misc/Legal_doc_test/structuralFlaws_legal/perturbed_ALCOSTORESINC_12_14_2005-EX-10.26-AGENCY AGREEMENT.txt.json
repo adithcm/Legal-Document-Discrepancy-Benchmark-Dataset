@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "ALCOSTORESINC_12_14_2005-EX-10.26-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EXCEPT AS PROVIDED IN ANY OTHER AGREEMENT, NOTHING IN THIS AGREEMENT SHALL BE OR SHALL BE DEEMED TO BE, A COMMITMENT ON THE PART OF EITHER THE COMPANY OR LESSOR TO EXECUTE OR OTHERWISE ENTER INTO ANY EQUIPMENT SCHEDULES AFTER THE DATE OF THIS AGREEMENT.",
+                "changed_text": "DUCKWALL-ALCO STORES, INC. IS ORDERING THE FOLLOWING EQUIPMENT AS AGENT FOR: GENERAL ELECTRIC CAPITAL CORPORATION 311 North Bayshore Drive Safety Harbor, FL 34695 Attn: Teresa Schafer",
+                "explanation": "This change moves the disclosure that Duckwall-Alco is acting as an agent for General Electric Capital Corporation to a section where it is discussing commitments to execute equipment schedules, therefore making it difficult to easily establish the agency relationship. By relocating agency disclosure to irrelevant locations, makes it more difficult to understand the agent's role and authority.",
+                "contradicted_law": "General agency law principles requiring clear disclosure of agency relationship",
+                "law_citation": "Restatement (Third) of Agency § 1.01",
+                "law_url": "https://www.law.cornell.edu/wex/agency",
+                "law_explanation": "The modification obscures the agency relationship by moving a disclosure related to it to an unrelated part of the contract, which contradicts the principle of clear disclosure of agency, therefore making it difficult to establish the agent's role and authority.",
+                "location": "Article I Section 1.03"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "The Company and the Lessor hereby agree that Schedules entered into pursuant to this Agency Agreement shall conform with the following \"Economic Terms\": 1. Maximum Aggregate Capitalized Lessor's Cost: $14,500,000.00 2. Basic Term Lease Rate Factor: To be mutually agreed upon by Company and Lessor 3. Basic Term (No. of Months): To be mutually agreed upon by Company and Lessor 4. Equipment Type: To be mutually agreed upon by Company and Lessor 5. Agency Agreement Expiration Date and Last Delivery Date: October 31, 2006",
+                "changed_text": "The Company shall maintain full and accurate books and records of all Equipment orders, receipts and All such books and records shall be maintained in a form acceptable to Lessor in its sole discretion. Such books and records shall be open for inspection and examination by Lessor and its respective representatives and/or accountants during the Company's normal business hours.",
+                "explanation": "By replacing the economic terms section (containing key financial and temporal parameters of the agreement) with a bookkeeping requirement, the disclosure of the payment obligation on a schedule and agreement is obscured.",
+                "contradicted_law": "Uniform Commercial Code (UCC) Article 2A - Leases",
+                "law_citation": "UCC 2A-103(1)(e)",
+                "law_url": "https://www.law.cornell.edu/ucc/2A",
+                "law_explanation": "UCC Article 2A requires that lease agreements contain details of the economic terms such as lease rate factor, duration, and total cost, which are obscured in the modified version.",
+                "location": "Section 2.05"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "In the event the Company is in default hereunder or under the Lease, Lessor may elect to terminate this Agreement immediately, which shall be effective upon the receipt of written notice thereof by the Company.",
+                "changed_text": "The invoices should be mailed directly to General Electric Capital Corporation. Also, all invoices should reference the appropriate Purchase Order/Sales Agreement Number. General Electric Capital Corporation will also require a complete set of Lease documentation prior to funding. These documents may include a Schedule and a Certificate of Acceptance. The full terms and conditions of the lease contract are set forth in the Master Lease Agreement and Equipment Schedule.",
+                "explanation": "Termination clause is moved to payment instructions after the main contract. This could be argued that it is no longer enforceable, because it is not clear if this instruction is part of the agreement.",
+                "contradicted_law": "Contract Law - Requirement of Offer and Acceptance",
+                "law_citation": "Restatement (Second) of Contracts § 17",
+                "law_url": "https://www.law.cornell.edu/wex/contract",
+                "law_explanation": "The placement of a crucial termination clause within payment instructions raises concerns about whether it was properly offered and accepted as part of the agreement, potentially undermining its enforceability.",
+                "location": "Section 3.01(b)"
+            }
+        ]
+    }
+]

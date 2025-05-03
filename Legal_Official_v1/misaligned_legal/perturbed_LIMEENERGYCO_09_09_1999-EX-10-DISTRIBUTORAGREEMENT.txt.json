@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Company shall at all times make reasonable efforts to maintain quality control and to deliver Products to Distributor which, when received by Distributor, or, as the case may be, the end-user, are properly and adequately packaged and contained, fully assembled (except for miscellaneous components which may be shipped separately to prevent damage in transit), fully functional and otherwise in conformance with the warranties set forth herein. Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a workmanlike manner and that such Products shall be fully functional and fit for their intended purposes. Company further warrants that the Products sold hereunder shall be free from defects in design, materials and workmanship for a period of twenty-four (24) months after delivery to Distributor's end-user.",
+                "changed_text": "Company shall at all times make reasonable efforts to maintain quality control and to deliver Products to Distributor which, when received by Distributor, or, as the case may be, the end-user, are properly and adequately packaged and contained, fully assembled (except for miscellaneous components which may be shipped separately to prevent damage in transit), fully functional and otherwise in conformance with the warranties set forth herein. Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a generally acceptable manner and that such Products shall be substantially functional and somewhat fit for their intended purposes. Company further warrants that the Products sold hereunder shall be mostly free from defects in design, materials and workmanship for a period of twenty-four (24) months after delivery to Distributor's end-user.",
+                "explanation": "The terms 'workmanlike manner', 'fully functional and fit for their intended purposes,' and 'free from defects' are replaced with weaker, less precise terms ('generally acceptable manner', 'substantially functional and somewhat fit,' and 'mostly free from defects'). This introduces ambiguity regarding the standard of quality and fitness required, making the warranty less enforceable.",
+                "contradicted_law": "Uniform Commercial Code - Implied Warranty of Merchantability",
+                "law_citation": "UCC § 2-314",
+                "law_url1": [
+                    "https://www.law.cornell.edu/ucc/2/2-314"
+                ],
+                "law_url2": [
+                    "https://www.uniformlaws.org/acts/ucc"
+                ],
+                "law_explanation": "The original text aligned more closely with the implied warranty of merchantability under UCC § 2-314, which requires goods to be 'fit for the ordinary purposes for which such goods are used.' The modified text weakens these guarantees, potentially conflicting with the UCC's baseline requirements for merchantability, as 'substantially functional' and 'somewhat fit' might not meet the standard of 'ordinary purposes.' The UCC warranty of merchantability might be interpreted to mean the good 'works', not 'somewhat works'.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Distributor shall pay Company within thirty (30) days of Distributor's or, as the case may be, the end-user's receipt of Products.",
+                "changed_text": "The Distributor shall pay Company within thirty (30) days of the approximate expected receipt of Products.",
+                "explanation": "Changing 'receipt of Products' to 'approximate expected receipt of Products' introduces ambiguity. The original clause ties the payment trigger to a concrete event (actual receipt). The modified clause uses a subjective and potentially inaccurate estimate, creating uncertainty and potential disputes over payment timing. This can conflict with standard commercial practices and contract law principles regarding definite payment terms.",
+                "contradicted_law": "Illinois Uniform Commercial Code - Obligation of Good Faith",
+                "law_citation": "810 ILCS 1/1-304",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=ILCS+1/Uniform+Commercial+Code&ActID=2365&ChapterID=68&SeqStart=100000&SeqEnd=3100000"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/illinois/2022/chapter-810/act-5/article-1/section-1-304/"
+                ],
+                "law_explanation": "By introducing a subjective element ('approximate expected receipt'), the modification creates potential for disputes and bad faith dealing, contravening the UCC's implied covenant of good faith (810 ILCS 1/1-304) that requires honesty in fact and the observance of reasonable commercial standards of fair dealing. The ambiguity allows one party to manipulate the payment timeline to their advantage, undermining the fairness and certainty expected in commercial contracts.",
+                "location": "Section 2.7"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement is to be construed according to the laws of the State of Illinois.",
+                "changed_text": "This Agreement is to be interpreted according to the principles of fairness and equity, taking into account the spirit of cooperation between the parties.",
+                "explanation": "The original clause specifies Illinois law as the governing law. The modified clause replaces this with vague principles of fairness and equity. This removes the certainty of a specific legal framework and replaces it with subjective and potentially inconsistent standards. This makes the contract harder to enforce because judges cannot refer to the specific body of law that should be applied.",
+                "contradicted_law": "Illinois Choice of Law Principles",
+                "law_citation": "Illinois Conflict of Laws Rules",
+                "law_url1": [
+                    "https://www.isba.org/sites/default/files/sections/commercialbanking/newsletter/May%202018%20newsletter.pdf"
+                ],
+                "law_url2": [
+                    "https://casetext.com/case/center-for-sight-of-chi-pc-v-derosa"
+                ],
+                "law_explanation": "Illinois conflict of laws rules and contract law generally respect the parties' choice of law provision. Replacing the specific choice of Illinois law with vague principles undermines the predictability and enforceability that a chosen jurisdiction provides. This undermines commercial certainty and allows a court to use the rules of any jurisdiction to assess the agreement.",
+                "location": "Section 6.9"
+            }
+        ]
+    }
+]

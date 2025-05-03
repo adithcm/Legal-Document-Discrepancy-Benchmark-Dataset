@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Either Consultant or Company may terminate this Agreement upon prior written notice thereof to the other party.",
+                "changed_text": "Either Consultant or Company may terminate this Agreement without any prior written notice to the other party.",
+                "explanation": "The modification removes the requirement of prior written notice for termination, potentially conflicting with state laws requiring notice for contract termination.",
+                "contradicted_law": "Texas Labor Code § 201.051",
+                "law_citation": "Texas Labor Code § 201.051",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/LA/htm/LA.201.htm"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/texas/labor-code/title-2/subtitle-a/chapter-201/section-201-051/"
+                ],
+                "law_explanation": "Texas Labor Code § 201.051 implies that some form of notice is required to provide the employee their earned wages. This change could be interpreted as a contradiction by eliminating the notice and ability for the employee to prepare to leave the company.",
+                "location": "5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Upon termination of this Agreement, all rights and duties of the parties hereunder shall cease except: Company shall be obliged to pay, within thirty (30) days after receipt of Consultant's final statement, all amounts owing to Consultant for unpaid Services completed by Consultant and related expenses, if any, in accordance with the provisions of Section 1 hereof, and Sections 2, 3, S(c), 6, 7, 8 and 10 shall survive termination of this Agreement.",
+                "changed_text": "Upon termination of this Agreement, all rights and duties of the parties hereunder shall cease except: Company shall be obliged to pay, within ninety (90) days after receipt of Consultant's final statement, all amounts owing to Consultant for unpaid Services completed by Consultant and related expenses, if any, in accordance with the provisions of Section 1 hereof, and Sections 2, 3, S(c), 6, 7, 8 and 10 shall survive termination of this Agreement.",
+                "explanation": "Changing the payment deadline to 90 days after the final statement introduces a potential conflict with wage payment laws, which often mandate quicker payment timeframes.",
+                "contradicted_law": "Texas Payday Law, Texas Labor Code § 61.051",
+                "law_citation": "Texas Labor Code § 61.051",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/LA/htm/LA.61.htm"
+                ],
+                "law_url2": [
+                    "https://www.twc.texas.gov/news/efte/chapter_61_payday_law.html"
+                ],
+                "law_explanation": "Texas Labor Code § 61.051 mandates prompt payment of wages upon termination, with specific deadlines depending on the circumstances. While it doesn't state a fixed number of days, a 90-day delay is likely to be considered unreasonable and in conflict with the spirit and intent of the law, especially for consultants who are essentially providing labor for compensation.",
+                "location": "5"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of Texas, without reference to its conflicts of law principles.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of Delaware, without reference to its conflicts of law principles.",
+                "explanation": "The company is incorporated in Delaware. By changing the governing law from Texas to Delaware, where Kiromic, Inc. is incorporated, and if the consultant is working in Texas, it may violate Texas labor laws.",
+                "contradicted_law": "Texas Labor Code - LA § 4.001",
+                "law_citation": "Texas Labor Code - LA § 4.001",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/LA/htm/LA.4.htm"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/texas/labor-code/title-1/chapter-4/section-4-001/"
+                ],
+                "law_explanation": "Texas Labor Code - LA § 4.001 states that if someone works in Texas, Texas law will preside. By switching the governing law to Delaware, it is likely that it may not preside, potentially violating Texas labor laws.",
+                "location": "9"
+            }
+        ]
+    }
+]

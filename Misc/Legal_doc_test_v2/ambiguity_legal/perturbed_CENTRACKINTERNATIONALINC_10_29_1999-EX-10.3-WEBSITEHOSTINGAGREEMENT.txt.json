@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends.",
+                "changed_text": "i-on will endeavor to maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance performed on the Hosting Computer and/or the Hosted Site. i-on will attempt to schedule and perform such maintenance during off-peak hours.",
+                "explanation": "The original text commits to continuous operation, specifying maintenance windows. The modification weakens this commitment by changing 'will maintain' to 'will endeavor to maintain', making it a goal rather than a guarantee. Also, 'best efforts' to schedule maintenance at certain times is replaced with 'attempt to schedule maintenance during off-peak hours', which is less precise and enforceable.",
+                "contradicted_law": "Florida Statutes, Chapter 501, Deceptive and Unfair Trade Practices",
+                "law_citation": "Fla. Stat. § 501.204",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.204.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2023/title-xxxiii/chapter-501/section-501.204/"
+                ],
+                "law_explanation": "The amended text now provides a vague assertion of service uptime. By weakening the guarantee of continuous operation and specific maintenance windows, and replacing best efforts with attempts, i-on could potentially be engaging in deceptive trade practices if the actual uptime is significantly lower than what a reasonable customer would expect, violating Florida Statute 501.204 regarding unfair or deceptive acts or practices in the conduct of any trade or commerce.",
+                "location": "Paragraph 2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Customer shall comply with applicable laws, standards, policies, and procedures.",
+                "changed_text": "The Customer should generally be aware of applicable laws, standards, policies, and procedures.",
+                "explanation": "Changing 'shall comply' to 'should generally be aware of' weakens the obligation. Compliance is mandatory, whereas being 'aware of' does not necessitate adherence. This ambiguity implies that non-compliance is permissible as long as the Customer has a general awareness, which may lead to violations of various laws that apply to website content and operation.",
+                "contradicted_law": "Florida Statutes, Chapter 815, Computer-Related Crimes",
+                "law_citation": "Fla. Stat. § 815.06",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0815/Sections/0815.06.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2023/title-xlvi/chapter-815/section-815.06/"
+                ],
+                "law_explanation": "Florida Statute 815.06 prohibits unauthorized access to computer systems. By weakening the compliance obligation, the revised text might implicitly allow the Customer to claim ignorance of or non-compliance with laws regarding unauthorized access or data security, thereby potentially violating the statute. The original 'shall comply' places a clear responsibility on the customer.",
+                "location": "CONDITIONS OF SERVICE, Paragraph 2"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "The Customer is responsible for any and all software programs, server-side scripts, and/or executable components that are installed on the Hosting Computer for the purpose of providing interactive applications or dynamic content on the Hosted Site. Any such programs, scripts, or components that might affect the stability of the Hosting Computer or interfere with other Web sites on the Hosting Computer must be approved by i-on before being installed on the Hosted Site, i-on reserves the right to deny the Customer permission to install any such programs, scripts, or components, to require additional fees for the installation and/or ongoing operation of any such programs, scripts, or components, or to remove any such programs, scripts, or components, if in i-on's sole discretion they will interfere with the operation of the Hosting Computer or exceed the Customer's monthly allocation of Web administration services.",
+                "changed_text": "The Customer is generally responsible for software programs, server-side scripts, and executable components installed. Programs that affect the Hosting Computer's stability should ideally be discussed with i-on before installation, and i-on retains the option to address any related concerns.",
+                "explanation": "This weakens i-on's control and the customer's responsibility by changing 'is responsible for any and all' to 'is generally responsible'. 'Must be approved by i-on' becomes 'should ideally be discussed with i-on', making the approval process optional. The phrase 'i-on retains the option to address any related concerns' is much weaker than i-on reserving the right to deny permission/remove components.",
+                "contradicted_law": "Florida Statutes, Chapter 501, Deceptive and Unfair Trade Practices",
+                "law_citation": "Fla. Stat. § 501.204",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.204.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2023/title-xxxiii/chapter-501/section-501.204/"
+                ],
+                "law_explanation": "If i-on fails to adequately protect its servers from potentially harmful software due to the vagueness of the new wording, and this leads to service disruptions for other customers, i-on could be considered to be engaging in unfair or deceptive practices. This is because the weakened language regarding software approval and the handling of potentially disruptive programs makes the level of service uncertain and less reliable, in violation of Florida Statute 501.204.",
+                "location": "RESPONSIBILITIES OF THE CUSTOMER, Paragraph 8"
+            }
+        ]
+    }
+]

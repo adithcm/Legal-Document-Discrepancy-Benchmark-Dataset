@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Nothing in this Agreement shall in any way be construed to constitute Consultant as an agent, employee or representative of Company, but Consultant shall perform the Services as an independent contractor.",
+                "changed_text": "Nothing in this Agreement shall in any way be construed to constitute Consultant as an agent, employee or representative of Company, but Consultant shall perform the Services as a worker.",
+                "explanation": "Changing 'independent contractor' to 'worker' creates ambiguity. While the intent might be the same, some state labor laws define 'worker' broadly, potentially including individuals who might otherwise be misclassified as independent contractors. This could lead to challenges in determining the consultant's actual status and the company's obligations.",
+                "contradicted_law": "Misclassification of Employees as Independent Contractors",
+                "law_citation": "IRS Publication 15-A, Employer's Supplemental Tax Guide",
+                "law_url": "https://www.irs.gov/publications/p15a",
+                "law_explanation": "The IRS provides guidelines for determining whether a worker is an independent contractor or an employee. Using the vague term 'worker' obscures the clear distinction that the company claims to establish, making it easier for a court or agency to reclassify the consultant as an employee based on the actual working relationship.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of Texas, without reference to its conflicts of law principles.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of Texas, with selective application of its conflict of law principles.",
+                "explanation": "Modifying the clause to allow 'selective application' of conflict of law principles introduces significant uncertainty. Normally, choice-of-law clauses are interpreted with a consistent approach to conflict of laws. Saying the application is selective gives one party an advantage and makes the contract hard to interpret, and therefore, weakens its enforceability.",
+                "contradicted_law": "Texas Choice of Law Principles",
+                "law_citation": "Texas Business and Commerce Code § 1.301",
+                "law_url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.1.htm",
+                "law_explanation": "Texas law requires a consistent and predictable application of choice-of-law rules. Allowing 'selective application' undermines this predictability and introduces an element of arbitrariness, contradicting the principle of uniform application of law in contractual disputes.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Any controversy or claim arising out of or relating to this agreement or breach thereof, shall be settled by binding arbitration controlled by the rules of the American Arbitration Association.",
+                "changed_text": "Any controversy or claim arising out of or relating to this agreement or breach thereof, shall be settled by non-binding arbitration controlled by internal company guidelines.",
+                "explanation": "Changing 'binding arbitration' to 'non-binding arbitration' significantly alters the dispute resolution process. While arbitration is typically a final and enforceable decision, non-binding arbitration is merely advisory. Referring to internal company guidelines as the basis for arbitration contradicts the notion of an impartial arbitrator and unbiased proceedings.",
+                "contradicted_law": "Federal Arbitration Act (FAA)",
+                "law_citation": "9 U.S. Code § 2",
+                "law_url": "https://www.law.cornell.edu/topn/arbitration",
+                "law_explanation": "The FAA favors binding arbitration agreements. By making the arbitration non-binding and governed by internal company guidelines, the clause becomes less enforceable under the FAA, which requires a genuine agreement to arbitrate and a neutral forum.",
+                "location": "Section 13"
+            }
+        ]
+    }
+]

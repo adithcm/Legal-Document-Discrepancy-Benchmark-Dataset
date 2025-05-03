@@ -1,0 +1,29 @@
+[
+    {
+        "file_name": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited.",
+                "changed_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, may be credited as a dividend at our discretion. Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited.",
+                "explanation": "Modifying 'will be credited as a dividend' to 'may be credited as a dividend at our discretion' introduces ambiguity and allows the company to potentially avoid paying dividends even if a divisible surplus exists and the contract is entitled to a share. This contradicts the policyholder's reasonable expectation of receiving dividends if the conditions are met.",
+                "contradicted_law": "State Insurance Code relating to mutual insurance company dividends",
+                "law_citation": "Wisconsin Statutes 611.39(1)(a)",
+                "law_url": "https://docs.legis.wisconsin.gov/statutes/statutes/611/39",
+                "law_explanation": "Wisconsin Statute 611.39(1)(a) states that the board of directors of a mutual company (like Thrivent, operating as a Fraternal Benefit Society in this context) shall annually determine the amount of divisible surplus and shall apportion and set apart or credit the amounts to be paid as dividends to policyholders. While the statute allows for discretion in determining the *amount* of the divisible surplus, it implies an obligation to apportion and either pay or credit dividends if a divisible surplus exists. The modified text introduces discretion *over whether to credit a dividend at all*, even if a surplus exists and the contract is entitled to a share. This contradicts the statutory expectation that eligible policyholders receive dividends from divisible surplus.",
+                "location": "Section: DIVIDENDS"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "MEMBERSHIP. The person(s) named as the Insured(s) or the Annuitant(s) is a benefit member of the Society. Rights and privileges of membership are set forth in the Articles of Incorporation and Bylaws of the Society. These rights and privileges are separate from the ownership of this contract.",
+                "changed_text": "MEMBERSHIP. The person(s) named as the Insured(s) or the Annuitant(s) is a benefit member of the Society at the Society's discretion. Rights and privileges of membership are set forth in the Articles of Incorporation and Bylaws of the Society. These rights and privileges are separate from the ownership of this contract.",
+                "explanation": "Adding 'at the Society's discretion' implies that membership, and therefore associated rights and privileges, can be arbitrarily revoked or denied. This undermines the policyholder's reasonable expectation of membership benefits upon entering the contract and could be seen as an unfair practice, especially if it impacts the benefits received from the insurance policy.",
+                "contradicted_law": "Wisconsin Statutes 614.04(3)",
+                "law_citation": "Wisconsin Statutes 614.04(3)",
+                "law_url": "https://docs.legis.wisconsin.gov/statutes/statutes/614/04",
+                "law_explanation": "Wisconsin Statute 614.04(3) states that fraternal benefit societies are to operate for the benefit of their members and beneficiaries. While societies can define membership criteria in their bylaws, the added phrase 'at the Society's discretion' suggests an arbitrary power to grant or deny membership, potentially undermining the uniform and consistent application of membership rules required for a fraternal benefit society to operate according to its stated purpose of benefiting its members.",
+                "location": "Section: MEMBERSHIP"
+            }
+        ]
+    }
+]

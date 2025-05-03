@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "Exhibit 10.23 Consulting Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "6. Independent Contractor. Nothing in this Agreement shall in any way be construed to constitute Consultant as an agent, employee or representative of Company, but Consultant shall perform the Services as an independent contractor. Consultant acknowledges and agrees that Consultant is obligated to report as income all compensation received by Consultant pursuant to this Agreement.",
+                "changed_text": "6. Independent Contractor. Nothing in this Agreement shall in any way be construed to constitute Consultant as an agent, employee or representative of Company, but Consultant shall perform the Services as an independent contractor. However, for the purposes of taxation, the Consultant will be treated as an employee of the company, and therefore is obligated to report as income all compensation received by Consultant pursuant to this Agreement.",
+                "explanation": "This change creates a contradiction. The consultant is defined as an independent contractor, but for tax purposes, they are to be treated as an employee. This conflates the definitions of \"independent contractor\" and \"employee,\" which have distinct legal and tax implications.",
+                "contradicted_law": "26 U.S. Code § 3121 - Definitions",
+                "law_citation": "26 U.S. Code § 3121",
+                "law_url1": [
+                    "https://www.law.cornell.edu/topn/definitions"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title26-section3121&edition=prelim"
+                ],
+                "law_explanation": "The Internal Revenue Code (26 U.S. Code § 3121) provides specific definitions for 'employee' and 'independent contractor'. Designating the consultant as an 'independent contractor' for general purposes but an 'employee' solely for tax purposes directly contradicts the legal criteria used to distinguish between these two classifications, particularly concerning employment tax obligations.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Agreement shall be governed by the laws of the State of Texas, without reference to its conflicts of law principles.",
+                "changed_text": "This Agreement shall be governed by the laws of the State of Delaware, without reference to its conflicts of law principles.",
+                "explanation": "The contract originally states that Texas law governs the agreement. However, the company is a Delaware corporation. Changing the governing law to Delaware introduces a conflict of law issue and raises questions about which state's laws truly apply, especially considering the contract is performed in Texas.",
+                "contradicted_law": "Restatement (Second) of Conflict of Laws § 187",
+                "law_citation": "Restatement (Second) of Conflict of Laws § 187",
+                "law_url1": [
+                    "https://law.justia.com/restatements/conflict-of-laws/section-187.html"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/wex/conflict_of_laws"
+                ],
+                "law_explanation": "The Restatement (Second) of Conflict of Laws § 187 dictates how courts should handle choice-of-law provisions. This modification introduces a conflict because the company is incorporated in Delaware but primarily conducts business in Texas. The parties' intention (expressed in the original contract) and the location of performance (Texas) are significant factors. Switching the governing law to Delaware creates uncertainty about whether the chosen law is sufficiently related to the contract or the parties, potentially invalidating the choice-of-law provision.",
+                "location": "Section 9"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Any controversy or claim arising out of or relating to this agreement or breach thereof, shall be settled by binding arbitration controlled by the rules of the American Arbitration Association. The number of arbitrator(s) shall be one. The seat of arbitration shall be Houston, Texas. Texas law shall also apply to the extent necessary to fill any gaps created by the rules of the American Arbitration Association. The arbitration award shall be final and binding on the parties. Judgement of the award rendered by the arbitrator(s) may be entered into any court of competent jurisdiction.",
+                "changed_text": "Any controversy or claim arising out of or relating to this agreement or breach thereof, shall be settled by non-binding arbitration controlled by the rules of the American Arbitration Association. The number of arbitrator(s) shall be one. The seat of arbitration shall be Houston, Texas. Texas law shall also apply to the extent necessary to fill any gaps created by the rules of the American Arbitration Association. The arbitration award shall be advisory only and not final or binding on the parties. Either party may file suit after the arbitration is complete.",
+                "explanation": "Changing 'binding arbitration' to 'non-binding arbitration' fundamentally alters the dispute resolution process. This contradiction creates uncertainty about the enforceability of the arbitration clause and introduces a legal contradiction. The original text specifies that the arbitration award is final and binding, while the modified text states that the arbitration award is advisory only and either party may file suit. These contradict each other.",
+                "contradicted_law": "Texas Arbitration Act, Tex. Civ. Prac. & Rem. Code § 171.001 et seq.",
+                "law_citation": "Texas Arbitration Act, Tex. Civ. Prac. & Rem. Code § 171.001 et seq.",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/CP/htm/CP.171.htm"
+                ],
+                "law_url2": [
+                    "https://casetext.com/statute/texas-statutes/civil-practice-and-remedies-code/title-9-arbitration/chapter-171-texas-arbitration-act"
+                ],
+                "law_explanation": "The Texas Arbitration Act favors and enforces binding arbitration agreements. By changing the arbitration to 'non-binding,' the modification undermines the intent and enforceability of the arbitration agreement under Texas law. The Act presumes agreements to arbitrate are binding unless explicitly stated otherwise, and this modification directly contradicts that presumption.",
+                "location": "Section 13"
+            }
+        ]
+    }
+]

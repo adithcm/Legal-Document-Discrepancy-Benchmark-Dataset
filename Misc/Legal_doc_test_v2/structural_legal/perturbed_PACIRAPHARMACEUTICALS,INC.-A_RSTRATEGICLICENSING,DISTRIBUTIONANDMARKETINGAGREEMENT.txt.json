@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "PACIRAPHARMACEUTICALS,INC.-A_RSTRATEGICLICENSING,DISTRIBUTIONANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EKR represents that it is aware of its obligations to report discounts resulting from this Agreement to the appropriate reimbursing agencies and authorities (including Medicaid and Medicare). EKR is responsible for complying with and agrees to comply with all applicable requirements, if any, in respect of providing information on such discounts to reimbursing agencies (including Medicaid and Medicare) and other entities in accordance with Applicable Laws and regulations.",
+                "changed_text": "EKR represents that it is aware of its obligations to report discounts resulting from this Agreement to the appropriate reimbursing agencies and authorities. EKR is responsible for complying with and agrees to comply with all applicable requirements, if any, in respect of providing information on such discounts to other entities in accordance with Applicable Laws and regulations.",
+                "explanation": "Removing '(including Medicaid and Medicare)' weakens the clarity of EKR's responsibility to report discounts to specific federal healthcare programs, which could lead to non-compliance. This alters the original intent of ensuring adherence to federal reporting requirements.",
+                "contradicted_law": "42 U.S. Code § 1320a-7b - Illegal remunerations",
+                "law_citation": "42 U.S.C. § 1320a-7b(b)(3)(A)",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title42-section1320a-7b"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/illegal_remunerations"
+                ],
+                "law_explanation": "By removing the explicit mention of Medicaid and Medicare, the modified text obscures the legal requirement to report discounts to these specific federal programs. 42 U.S.C. § 1320a-7b(b)(3)(A) addresses illegal remunerations, including discounts, and requires proper reporting to avoid violations of anti-kickback statutes related to federal healthcare programs. The original text ensures the company acknowledges and complies with this obligation to these specific programs, whereas the modified version is vague and could be interpreted as excluding them.",
+                "location": "Section 4.20"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EKR shall obtain and maintain all necessary licenses, permits, records and authorizations required by Applicable Laws as holder of the Transferred NDA after the Agreement Date and in order to exercise the Distribution Rights and observe and comply with all Applicable Laws, ordinances, rules and regulations including, but not limited to those of the applicable Regulatory Authorities in the exercise of the Distribution Rights save insofar as PPI is required to obtain the same as holder of the Marketing Authorizations prior to the Agreement Date, or under the terms of this Agreement",
+                "changed_text": "EKR shall obtain and maintain all necessary licenses, permits, records and authorizations required by Applicable Laws as holder of the Transferred NDA after the Agreement Date and in order to exercise the Distribution Rights and observe and comply with all ordinances, rules and regulations in the exercise of the Distribution Rights save insofar as PPI is required to obtain the same as holder of the Marketing Authorizations prior to the Agreement Date, or under the terms of this Agreement",
+                "explanation": "By removing 'Applicable Laws' it may suggest that EKR does not need to follow these laws. This is important for NDA's to comply with all regulations.",
+                "contradicted_law": "21 U.S. Code § 351 - Adulterated drugs and devices",
+                "law_citation": "21 U.S.C. § 351",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title21-section351"
+                ],
+                "law_url2": [
+                    "https://www.fda.gov/regulatory-information/federal-food-drug-and-cosmetic-act-fdc-act/fdc-act-chapter-v-drugs-and-devices"
+                ],
+                "law_explanation": "The original text requires EKR to comply with 'Applicable Laws' as holder of the Transferred NDA, ensuring adherence to standards of drug safety and efficacy. Removing 'Applicable Laws' from the sentence creates ambiguity and undermines the explicit commitment to legal compliance. This contradicts the requirements of 21 U.S.C. § 351, which defines adulterated drugs and devices and mandates adherence to Current Good Manufacturing Practice (CGMP) regulations to prevent adulteration. By omitting the need to comply with applicable laws, the altered text creates a scenario where EKR might not adhere to the necessary CGMP standards, potentially leading to the distribution of adulterated drugs, which is in direct violation of the cited law.",
+                "location": "Section 4.12"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "During the Term, PPI shall at its own cost and expense cooperate fully and assist EKR with the preparation of any necessary submissions to any of the Regulatory Authorities in the Territory for the development and approval or supplemental approval(s) of the Products, including, but not limited to, by providing access to all PPI Know-How, the drug master file and any other information necessary for approval or supplemental approval of the Product in any country of the Territory. In addition, PPI shall cooperate fully in participating in interactions with the appropriate Regulatory Authorities including FDA related to such product development so as to enable EKR to fully exploit the Distribution Rights granted hereunder.",
+                "changed_text": "During the Term, PPI shall at its own cost and expense cooperate fully and assist EKR with the preparation of any necessary submissions to any of the Regulatory Authorities in the Territory for the development and approval or supplemental approval(s) of the Products, including, but not limited to, by providing access to all PPI Know-How, the drug master file and any other information necessary for approval or supplemental approval of the Product in any country of the Territory.",
+                "explanation": "Removing 'In addition, PPI shall cooperate fully in participating in interactions with the appropriate Regulatory Authorities including FDA related to such product development so as to enable EKR to fully exploit the Distribution Rights granted hereunder.' weakens PPI's commitment to cooperate with EKR in interactions with Regulatory Authorities, including the FDA. This could hinder EKR's ability to obtain necessary approvals and effectively exploit its distribution rights. By doing so, can delay important distribution.",
+                "contradicted_law": "21 CFR Part 314 - Applications for FDA Approval to Market a New Drug",
+                "law_citation": "21 CFR § 314.50(d)(5)",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/section-314.50"
+                ],
+                "law_url2": [
+                    "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/formal-meetings-between-fda-and-sponsors-or-applicants-under-fdas-user-fee-programs"
+                ],
+                "law_explanation": "21 CFR § 314.50(d)(5) requires comprehensive data and information to support a New Drug Application (NDA), including active cooperation and communication with the FDA. The original text ensures PPI's full cooperation with EKR in interactions with regulatory bodies, including the FDA, to facilitate product development and distribution. By removing the explicit commitment to cooperate in FDA-related interactions, the modified text undermines the assurance of collaborative effort. This could impede EKR's ability to provide the FDA with all necessary data, information, and responses during the NDA approval process. This lack of cooperation could lead to delays or rejection of the application, directly conflicting with the regulatory requirements for NDA approval under 21 CFR § 314.50(d)(5).",
+                "location": "Section 3.14"
+            }
+        ]
+    }
+]

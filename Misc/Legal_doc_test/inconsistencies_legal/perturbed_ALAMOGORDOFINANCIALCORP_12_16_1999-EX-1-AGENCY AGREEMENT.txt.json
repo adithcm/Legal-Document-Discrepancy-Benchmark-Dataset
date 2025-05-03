@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The obligations of the Agent pursuant to this Agreement (other than those set forth in Sections 2(d), 8 and 9 hereof) shall terminate upon the completion or termination or abandonment of the Plan by the Company or upon termination of the Offering, but in no event later than the date (the \"End Date\") which is 45 days after the Closing Date (as hereinafter defined).",
+                "changed_text": "The obligations of the Agent pursuant to this Agreement (other than those set forth in Sections 2(d), 8 and 9 hereof) shall terminate upon the completion or termination or abandonment of the Plan by the Company or upon termination of the Offering, but in no event later than the date (the \"End Date\") which is 14 days after the Closing Date (as hereinafter defined).",
+                "explanation": "Reducing the termination period to 14 days may contradict requirements for maintaining records and fulfilling regulatory obligations related to securities offerings, as 45 days might be a more reasonable timeframe to fulfill these responsibilities.",
+                "contradicted_law": "Securities Exchange Act of 1934",
+                "law_citation": "17 CFR § 240.17a-4",
+                "law_url": "https://www.ecfr.gov/current/title-17/chapter-II/part-240/section-240.17a-4",
+                "law_explanation": "SEC Rule 17a-4 requires broker-dealers to preserve records for specified periods, potentially longer than 14 days depending on the record type. Reducing the agency agreement's duration could hinder compliance with these record-keeping mandates, as 14 days might be insufficient to complete post-offering tasks and retain necessary documentation.",
+                "location": "Section 2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 90 days after the Closing Date, without the Agent's prior written consent, any Common Stock other than the Shares or other than in connection with any plan or arrangement described in the Prospectus, including existing stock benefit plans.",
+                "changed_text": "The Company will not sell or issue, contract to sell or otherwise dispose of, for a period of 30 days after the Closing Date, without the Agent's prior written consent, any Common Stock other than the Shares or other than in connection with any plan or arrangement described in the Prospectus, including existing stock benefit plans.",
+                "explanation": "Reducing the lock-up period to 30 days could contradict standard underwriting practices and potentially violate NASD/FINRA rules regarding the distribution of securities, especially if it disrupts market stability after the offering.",
+                "contradicted_law": "FINRA Rule 5131",
+                "law_citation": "FINRA Rule 5131",
+                "law_url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/5131",
+                "law_explanation": "FINRA Rule 5131 addresses restrictions on certain offerings and requires underwriters to ensure fair and stable markets. A shorter lock-up period could lead to market manipulation or instability, violating the spirit and intent of this rule designed to protect market integrity during and immediately after an offering.",
+                "location": "Section 5.l(i)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the period during which the Company's Common Stock is registered under the 1934 Act or for three (3) years from the date hereof, whichever period is greater, the Company will furnish to its shareholders as soon as practicable after the end of each fiscal year an annual report of the Company (including a consolidated balance sheet and statements of consolidated income, shareholders' equity and cash flows of the Company and its subsidiaries as at the end of and for such year, certified by independent public accountants in accordance with Regulation S-X under the 1933 Act and the 1934 Act).",
+                "changed_text": "During the period during which the Company's Common Stock is registered under the 1934 Act or for one (1) year from the date hereof, whichever period is greater, the Company will furnish to its shareholders as soon as practicable after the end of each fiscal year an annual report of the Company (including a consolidated balance sheet and statements of consolidated income, shareholders' equity and cash flows of the Company and its subsidiaries as at the end of and for such year, certified by independent public accountants in accordance with Regulation S-X under the 1933 Act and the 1934 Act).",
+                "explanation": "Reducing the duration for furnishing annual reports to one year may not meet the ongoing disclosure requirements mandated by the Securities Exchange Act of 1934 for publicly traded companies.",
+                "contradicted_law": "Securities Exchange Act of 1934, Section 13",
+                "law_citation": "15 U.S. Code § 78m",
+                "law_url": "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section78m&edition=prelim",
+                "law_explanation": "Section 13 of the Securities Exchange Act of 1934 requires ongoing reporting for companies with registered securities. Shortening the annual report delivery period to one year would potentially violate the continuous disclosure obligations essential for investor protection and market transparency.",
+                "location": "Section 5.l(k)"
+            }
+        ]
+    }
+]

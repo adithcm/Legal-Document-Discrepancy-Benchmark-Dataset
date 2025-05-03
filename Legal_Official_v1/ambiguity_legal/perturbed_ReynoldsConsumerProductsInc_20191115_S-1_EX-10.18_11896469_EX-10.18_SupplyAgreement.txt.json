@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "A Party represents, warrant and covenants on the Effective Date and at all times during the Term that: a. The Party is formed, registered, licensed and operating its business in compliance with the laws of the United States of America, its states and territories, and any districts, municipalities and other political subdivisions of the foregoing (\"Applicable Laws\").",
+                "changed_text": "A Party represents, warrants, and covenants on the Effective Date and at all times during the Term that: a. The Party is generally operating its business with consideration for the laws of the United States of America, its states and territories, and any districts, municipalities, and other political subdivisions of the foregoing (\"Applicable Laws\").",
+                "explanation": "Changing \"is formed, registered, licensed and operating its business in compliance with\" to \"is generally operating its business with consideration for\" introduces ambiguity regarding the level of compliance required. The original text mandates strict compliance, while the modified text suggests a more lenient standard, open to interpretation.",
+                "contradicted_law": "Illinois Environmental Protection Act",
+                "law_citation": "415 ILCS 5/9",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=328&ChapterID=3"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/illinois/2022/chapter-415/act-5/section-9/"
+                ],
+                "law_explanation": "The Illinois Environmental Protection Act (415 ILCS 5/9) requires strict compliance with environmental regulations. Replacing \"is in compliance\" with \"is generally operating with consideration for\" could be interpreted as allowing for less than full compliance with environmental regulations, contradicting the Act's mandate for strict adherence.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "Seller will defend and indemnify Buyer against: (4) the threat or imposition of any fine, penalty or other sanction by a governmental authority on Buyer to the extent caused by any actual or alleged violation by Seller of Applicable Law;",
+                "changed_text": "Seller may, at its discretion, defend and indemnify Buyer against: (4) the potential threat or imposition of a fine, penalty, or other sanction by a governmental authority on Buyer due to an alleged violation by Seller of Applicable Law, subject to further negotiation;",
+                "explanation": "Changing \"will defend and indemnify\" to \"may, at its discretion, defend and indemnify\" introduces significant ambiguity. The original text establishes a clear obligation for the Seller to defend and indemnify, while the modified text makes it discretionary, dependent on the Seller's willingness. Adding \"potential threat\" adds another layer of vagueness to what exactly seller is willing to indemnify against. This introduces vagueness on the liability of seller.",
+                "contradicted_law": "Illinois Consumer Fraud and Deceptive Business Practices Act",
+                "law_citation": "815 ILCS 505/2",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=439&ChapterID=9"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/il/chapter-815-business-transactions/il-st-sect-815-505-2.html"
+                ],
+                "law_explanation": "The Illinois Consumer Fraud and Deceptive Business Practices Act (815 ILCS 505/2) prohibits deceptive practices. By making indemnification discretionary, the modified text potentially allows Seller to avoid liability for violations of consumer protection laws, thereby weakening the protection for the Buyer and contradicting the spirit and intent of the Act.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Ambiguities - Ambiguous Legal Obligation",
+                "original_text": "A Receiving Party will take all commercially reasonable actions required to safeguard the Confidential Information of a Disclosing Party in the possession of such Receiving Party against the unauthorized disclosure or use of the Confidential Information by other persons.",
+                "changed_text": "A Receiving Party will endeavor to take actions it deems appropriate to safeguard the Confidential Information of a Disclosing Party in its possession against the unauthorized disclosure or use of the Confidential Information by other persons.",
+                "explanation": "Changing \"all commercially reasonable actions required\" to \"actions it deems appropriate\" introduces ambiguity. The original text sets an objective standard of \"commercially reasonable actions,\" while the modified text uses a subjective standard of what the Receiving Party \"deems appropriate.\" This makes the obligation difficult to enforce, as the Receiving Party can argue that any level of security was deemed appropriate.",
+                "contradicted_law": "Illinois Trade Secrets Act",
+                "law_citation": "765 ILCS 1065/3",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2319&ChapterID=67"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/illinois/2022/chapter-765/act-1065/section-3/"
+                ],
+                "law_explanation": "The Illinois Trade Secrets Act (765 ILCS 1065/3) provides legal remedies against the misappropriation of trade secrets. By changing the standard of care to a subjective \"deems appropriate,\" the modified text weakens the protection of trade secrets. This is because the Receiving Party could argue that even inadequate security measures were deemed appropriate, making it harder to prove misappropriation and thus contradicting the Act's aim to protect trade secrets through reasonable measures.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

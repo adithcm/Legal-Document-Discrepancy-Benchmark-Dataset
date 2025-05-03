@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_IntellectualPropertyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"Trade Secrets\" means all information, in any form or medium, to the extent that the owner thereof has taken reasonable measures to keep such information secret and the information derives independent economic value, actual or potential, from not being generally known to, and not being readily ascertainable through proper means by, the public.",
+                "changed_text": "\"Trade Secrets\" means all information, in any form or medium, regardless of the measures taken to keep such information secret and the information derives economic value, actual or potential, from being known to a select few within the company.",
+                "explanation": "The original definition of \"Trade Secrets\" requires that the owner takes reasonable measures to maintain secrecy. The modified definition removes this requirement and also alters the derivation of economic value, potentially conflicting with the legal definition of a trade secret which requires reasonable efforts to maintain secrecy.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "UTSA § 1(4)",
+                "law_url1": [
+                    "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=4053c86b-c2aa-e211-9f64-001ec947b621&forceDialog=0"
+                ],
+                "law_url2": [
+                    "https://www.wipo.int/wipo_lex/en/legislation/us/details?id=2437"
+                ],
+                "law_explanation": "The UTSA defines a trade secret partly by the fact that the owner has taken 'reasonable measures' to keep the information secret. This modification removes that requirement, directly contradicting the UTSA definition.",
+                "location": "Section 1.01. Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, as of the Distribution Date, Nuance hereby grants to SpinCo and the members of the SpinCo Group a worldwide, non-exclusive, fully paid-up, perpetual and irrevocable, transferable (subject to ARTICLE VIII), sublicensable (subject to Section 3.01(g)) license under the Nuance Patents, solely to the extent that claims of the Nuance Patents cover products or services of the SpinCo Business in the SpinCo Field of Use, together with natural extensions and evolutions thereof, in each case to make, have made, use, sell, offer for sale, import and otherwise exploit such products and services, together with natural extensions and evolutions thereof.",
+                "changed_text": "Subject to the terms and conditions of this Agreement, as of the Distribution Date, Nuance hereby grants to SpinCo and the members of the SpinCo Group a worldwide, exclusive, fully paid-up, time-limited, revocable, non-transferable license under the Nuance Patents, solely to the extent that claims of the Nuance Patents cover products or services of the SpinCo Business in the SpinCo Field of Use, together with natural extensions and evolutions thereof, in each case to make, have made, use, sell, offer for sale, import and otherwise exploit such products and services, together with natural extensions and evolutions thereof.",
+                "explanation": "The original agreement provides a 'perpetual and irrevocable' license, which is a standard term ensuring long-term rights. This is replaced with 'time-limited' and 'revocable', fundamentally altering the nature of the license and potentially disrupting the SpinCo's ability to rely on these patent rights. Furthermore, the original license is 'non-exclusive' whereas the modified license is 'exclusive'. A change from non-exclusive to exclusive requires additional consideration under contract law; changing these terms in this way creates contradictions.",
+                "contradicted_law": "Contract Law - Consideration for Modification",
+                "law_citation": "General Contract Law Principles",
+                "law_url1": [
+                    "https://www.law.cornell.edu/wex/contract"
+                ],
+                "law_url2": [
+                    "https://www.justia.com/contracts/"
+                ],
+                "law_explanation": "Under basic contract law, modifying a contract requires new consideration. Switching from a non-exclusive, perpetual license to an exclusive, time-limited, and revocable license is a significant change that would require new consideration to be valid, which is not addressed in the modified text. This could make the modification unenforceable.",
+                "location": "Section 3.01. License Grants. (a) Patents."
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Each Party irrevocably consents to the exclusive jurisdiction, forum and venue of the Delaware Court of Chancery (and if the Delaware Court of Chancery shall be unavailable, any Delaware State court or the federal court sitting in the State of Delaware) over any and all claims, disputes, controversies or disagreements between the Parties or any of their respective Affiliates, successors and assigns under or related to this Agreement or any of the transactions contemplated hereby, including their execution, performance or enforcement, whether in contract, tort or otherwise.",
+                "changed_text": "Each Party consents to the non-exclusive jurisdiction, forum and venue of any court within the United States, as chosen by the filing party, over any and all claims, disputes, controversies or disagreements between the Parties or any of their respective Affiliates, successors and assigns under or related to this Agreement or any of the transactions contemplated hereby, including their execution, performance or enforcement, whether in contract, tort or otherwise.",
+                "explanation": "The original clause specifies exclusive jurisdiction in Delaware courts. The modification makes jurisdiction non-exclusive and allows the filing party to choose any US court, potentially conflicting with established principles of forum selection clauses and increasing the risk of inconsistent interpretations and increased costs.",
+                "contradicted_law": "28 U.S. Code § 1404 - Change of venue",
+                "law_citation": "28 U.S.C. § 1404",
+                "law_url1": [
+                    "https://www.law.cornell.edu/uscode/text/28/1404"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=(title:28%20section:1404%20edition:prelim)"
+                ],
+                "law_explanation": "While parties can agree to a forum selection clause, 28 U.S.C. § 1404 allows a court to transfer a case to another district where it might have been brought for the convenience of parties and witnesses, and in the interest of justice. By opening up jurisdiction to any court, and making it non-exclusive, the contract encourages forum shopping and increases the likelihood of venue challenges under § 1404, undermining the predictability intended by the original forum selection clause.",
+                "location": "Section 11.03. Governing Law; Jurisdiction"
+            }
+        ]
+    }
+]

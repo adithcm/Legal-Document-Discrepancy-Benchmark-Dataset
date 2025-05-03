@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "ALCOSTORESINC_12_14_2005-EX-10.26-AGENCY AGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(a) So long as no default exists and is continuing hereunder or under the Lease, either party may terminate this Agreement at any time upon ____________ (______30________) days written notice to the other party; provided however that such termination shall not act as a termination of any Equipment leased hereunder.",
+                "changed_text": "(a) So long as no default exists and is continuing hereunder or under the Lease, either party may terminate this Agreement at any time upon ____________ (______7________) days written notice to the other party; provided however that such termination shall not act as a termination of any Equipment leased hereunder.",
+                "explanation": "The original text requires 30 days' written notice for termination. Reducing this to 7 days may conflict with state laws requiring longer notice periods for contract terminations, depending on the specific jurisdiction and nature of the agreement. Many states require 30 days or more for terminating contracts involving ongoing business relationships.",
+                "contradicted_law": "Breach of Contract - Insufficient Notice",
+                "law_citation": "Varies by State - e.g., California Civil Code §1946",
+                "law_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946",
+                "law_explanation": "Many jurisdictions require reasonable notice for contract termination, especially for agreements with ongoing obligations. Seven days may be deemed unreasonable, leading to potential breach of contract claims if applicable state law mandates longer notification periods.",
+                "location": "Section 3.01(a)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Section 2.03 Payment of Purchase Price. On or before the Lease Commencement Date for any Schedule, the Company shall present to Lessor documentation (\"Purchase Documentation\"), in form and substance satisfactory to Lessor in its sole discretion, which (i) describes all units of Equipment ordered, received and accepted by the Company as agent for Lessor in connection with such Schedule, and (ii) if Company has paid any Supplier for any of the Equipment, includes evidence of the Purchase Price paid to Supplier for each such unit of Equipment and of passage of title thereto to Lessor. Upon the latter of (A) Lessor's receipt of the Purchase Documentation or (B) the satisfaction of all conditions precedent on or after the applicable Lease Commencement Date, Lessor shall pay the Supplier or reimburse the Company, as the case may be, for the aggregate Purchase Price for all Equipment purchased hereunder in connection with such schedule.",
+                "changed_text": "Section 2.03 Payment of Purchase Price. The Company shall present documentation at its convenience. The Lessor will pay the Supplier or reimburse the Company for the aggregate Purchase Price within 120 days of the Lease Commencement Date.",
+                "explanation": "The original text states that payment will occur upon receipt of documentation or satisfaction of conditions precedent, tied to the Lease Commencement Date. Delaying payment to within 120 days of the Lease Commencement Date contradicts typical prompt payment laws. Also, original text stipulates documentation to be satisfactory to Lessor. Removing the requirement of Lessor's approval and giving the Company discretion to present documentation 'at its convenience' introduces ambiguity and potential delays, further conflicting with business norms and potentially state laws regarding timely payment.",
+                "contradicted_law": "Prompt Payment Laws",
+                "law_citation": "Varies by state - e.g., California Prompt Payment Act",
+                "law_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7159.5",
+                "law_explanation": "Many states have prompt payment laws that require businesses to pay invoices within a reasonable timeframe, often 30-45 days, especially in construction or specific industries. A 120-day payment window could violate these laws, leading to penalties or legal action.",
+                "location": "Section 2.03"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Agency Agreement Expiration Date and Last Delivery Date: October 31, 2006",
+                "changed_text": "Agency Agreement Expiration Date and Last Delivery Date: January 1, 2006",
+                "explanation": "Changing the expiration date to January 1, 2006, could potentially create issues if the agreement requires actions or deliveries up to October 31, 2006, as initially agreed. If deliveries are not completed, and the agency agreement expires before all equipment is delivered and accepted, this would be a contradiction of duties outlined in the agreement.",
+                "contradicted_law": "Breach of Contract - Failure to Deliver by Agreed Deadline",
+                "law_citation": "Uniform Commercial Code (UCC) - Article 2 (Sales)",
+                "law_url": "https://www.law.cornell.edu/ucc/2",
+                "law_explanation": "The UCC governs the sale of goods, including equipment. Setting an expiration date that prevents the fulfillment of delivery obligations originally agreed upon constitutes a breach of contract if suppliers are unable to deliver.",
+                "location": "Section 2.05"
+            }
+        ]
+    }
+]

@@ -1,0 +1,522 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html" charset="gb2312" /><title>
+	www.lawinfochina.com
+</title><link id="csslink" href="CSs/Csst.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #e_font
+        {
+            table-layout: fixed;
+        }
+         #divtitle ul li
+        {
+            word-break:break-word;
+            }
+    </style>
+    <script type="text/javascript">
+
+        function showonmouseover(obj) {
+            obj.style.backgroundColor = '#EEEEEE';
+        }
+        function showonmouseout(obj) {
+            obj.style.backgroundColor = '#FFFFFF';
+        }
+
+        //改变字体
+        function doZoomSize(size) {
+            var eTd = document.getElementById('e_font');
+            var elists = eTd.getElementsByTagName("td");
+            for (var i = 0; i < elists.length; i++) {
+                var eTdnum = elists[i];
+                eTdnum.style.fontSize = size + 'px';
+            }
+        }
+    </script>
+    <script src="Js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Js/Display_showDialog.js" charset="gb2312"></script>
+    <script type="text/javascript" src="Law_Ajax/function.js"></script>
+    <script type="text/javascript" src="Js/javascript.js"></script>
+    <script type="text/javascript" src="Js/Js_Login.js"></script>
+    <script type="text/javascript" src="Js/pageSerch.js"></script>
+    <script type="text/javascript" src="Js/Gb_Big.js" charset="gb2312"></script>
+    <script type="text/javascript" src="Js/fixled.js"></script>
+    <script type="text/javascript">
+        function logout() {
+            var now = new Date();
+            SetCookie("CheckIPDate", now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate() + " " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds());
+            location.reload(true);
+            CheckLogout();
+        }
+        CheckOnline();
+    </script>
+</head>
+<body class="body1"  onload="showDate()" >
+    <form name="form1" method="post" action="/display.aspx?id=2317&amp;lib=law" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjU4MDA2ODg3ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBAUMSW1hZ2VCdXR0b24zBQxJbWFnZUJ1dHRvbjQFDEltYWdlQnV0dG9uMQUMSW1hZ2VCdXR0b24y" />
+
+
+<script src="/WebResource.axd?d=ID0hfrnxA0D1-vzDA3VUqQeU6ReKBYvLReef0dtNa1iLZu-8uC-xWwJPwZWsFK5L3QB8RiCuoBWDjotryCJDwyibq9soNWgJrRB7xeAYCdAuMBIsiNLDB74ivtRmAjsALvduXg2&amp;t=635282417730000000" type="text/javascript"></script>
+    <div style="width: 98%; text-align: center; padding-left: 1%;" id="Dw_topdiv">
+        <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="top-3">
+                    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td height="40" valign="middle" style="background-color: #2C2C2C">
+                                <table width="970" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td colspan="3">
+                                            <script type="text/javascript" src="Js/Js_Login.js"></script>
+
+<script type="text/javascript">
+    function showDate(){
+        var m=new Array("Jan.","Feb.","Mar.","Apr.","May","Jun","Jul.","Aug.","Spt.","Oct.","Nov.","Dec."); 
+        var w=new Array("Monday","Tuseday","Wednesday","Thursday","Friday","Saturday","Sunday"); 
+        var date = new Date();
+        var temp = m[date.getMonth()] + "  ";
+        temp += date.getDate()+",  ";
+        temp += date.getFullYear()+"<br/>---------------------<br/>";
+        temp += w[date.getDay()-1];
+        document.getElementById("timeShow").innerHTML = temp;
+    }
+        RefershTime = setInterval("AutoRefresh()",30000); //huangjun 20011028 添加页面自动刷新函数
+
+</script>
+
+<table width="1000" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+        <td style="background-color: #C30044;text-align: center;vertical-align: middle;display: block;width: 1000px;border-top-width: 10px;border-top-style: solid;border-top-color: #7F002F;border-bottom-width: 5px;border-bottom-style: solid;border-bottom-color: #000000;">           <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td style="width:250px">
+                        <a href="/index.aspx">
+                            <img src="images/homepage_b.jpg" style="float:right" border="0" /></a></td>
+                    <td style="width: 594px;background-image: url(Images/new_banner.jpg);background-repeat: no-repeat;background-position: left;">
+                        <a href="ProductsServices/index.shtm" style="width: 594px; display:block;height:95px" ></a></td>
+                    <td>
+                        <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="center" valign="top">
+                                </td>
+                                <td align="center" valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="riqi" style="color:#ffffff" id="timeShow">
+                                    May 31, 2010<br />
+                                    ---------------------<br />
+                                    Monday</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tou-3">
+                                            <div id="divwelcome" style="width: 230px" align="left">&gt;&gt;&gt;Welcome visitor, you're not logged in.</div>
+                                        </td>
+                                        <td>
+                                            <table border="0" align="left" cellpadding="0" cellspacing="0" style="width: 100%">
+                                                <tr>
+                                                    <td  align="right">
+                                                        <table width="190" height="22" border="0" align="left" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td align="center" style="text-align: left" valign="middle">
+                                                                    <a href="login.aspx?sFlg=1&Lib=law&Cgid=&Id=2317&SearchKeyword=&SearchCKeyword=&paycode=" id="linklogin" target="_parent" class="ljbz">Login</a>
+                                                                </td>
+                                                                <td align="center" style="text-align: left" valign="middle">
+                                                                    <a href="http://login.lawinfochina.com/RegEUser.aspx" id="subNow" target="_blank" class="ljbz">&nbsp;&nbsp;Subscribe Now!</a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    
+                                                    <td align="center" class="lanmu-bj" style="height: 19px; width: 100%">
+                                                        <table border="0" width="450" align="right" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td align="left" style="width: 100px">
+                                                                    <a href="/index.aspx" class="lamnu">Home</a>
+                                                                </td>
+                                                                <td align="left">
+                                                                    <a href="/User/UserInfo.aspx" target="_parent" class="lamnu">User Management</a>
+                                                                </td>
+                                                                <td align="left">
+                                                                    <a href="/ProductsServices/index.shtm" target="_blank" class="lamnu">About Us</a>
+                                                                </td>
+                                                                <td align="left">
+                                                                    <a href="http://www.pkulaw.com" target="_blank" class="lamnu">Chinese</a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td align="right">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                         <tr>
+                <td align="left" style="background-color: #F1F1F1;">
+                    <table border="0" height="30" cellspacing="0" cellpadding="0">
+                        <tr>
+                           
+                            <td id="nav_td">
+                                   &nbsp;<a href="../index.aspx"><b>lawinfochina.com</b></a>                         
+                                <span id="navi_div"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+                        <tr>
+                            <td height="44" style="background-color: #EDEDED" valign="middle">
+                                <table width="97%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left" valign="middle">
+                                            <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td width="12" class="left-00">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td width="75">
+                                                        <img src="Images/Favorite.jpg" /><a href="#" id="linkFavorite" style="vertical-align: top;" class="left-lj" onclick="alert(&quot;Sorry, you're not logged in!Please login or register to favorite this document.!\n\nIf you have any question, please contact us at:  \nTel: +86 (10) 82689699, +86 (10) 82668266 ext.153. Mobile: +86 13311570713 ,\nE-mail:database@chinalawinfo.com&quot;)">Bookmark </a>
+                                                    </td>
+                                                    <td width="12" class="left-00">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td width="90">
+                                                        <img src="Images/download.jpg" /><a href="#" id="linkDownLoad" style="vertical-align: top;" class="left-lj" onclick="showDialog('Download','Download/Download.aspx?Lib=law&amp;Cgid=&amp;Id=2317&amp;SearchKeyword=&amp;SearchCKeyword=&amp;paycode=&amp;LookType=',400,200,true)">Download </a>
+                                                    </td>
+                                                    <td class="left-00">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        <img src="Images/print.jpg" /><a href="Print/Print.aspx?Lib=law&Cgid=&Id=2317&SearchKeyword=&SearchCKeyword=&paycode=&LookType=" id="linkPrint" style="vertical-align: top;" class="left-lj" target="_blank">Print </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="150" align="right" valign="top" style="text-align: right">
+                                            <font color="#247F97">Search:</font><input name="KeyWord" id="KeyWord" type="text"
+                                                class="border1" size="8">&nbsp;
+                                        </td>
+                                        <td width="50" align="left" valign="middle" style="text-align: left">
+                                            <a href="javascript:findIt()">
+                                                <img src="Images/serch.jpg" alt="serch" border="0" /></a>
+                                        </td>
+                                        <td width="140" align="right" valign="top" style="text-align: right">
+                                            <label>
+                                                <span class="banquan-wz">
+                                                    <input type="checkbox" name="FWinCookie" value="1" id="FWinCookie" onclick="javascript:SetFWinCookie(this)" />
+                                                </span>
+                                            </label>
+                                            <span class="banquan-wz">"Fabao" Window</span>
+                                        </td>
+                                        <td width="100" align="right" valign="top" style="text-align: right">
+                                            <font color="#247F97">Font Size:</font>
+                                        </td>
+                                        <td width="70" align="left" valign="middle" style="text-align: left">
+                                            <a href="javascript:doZoomSize(12)">
+                                                <img src="Images/Asm.jpg" alt="Home Page" border="0" /></a><a href="javascript:doZoomSize(16)"><img
+                                                    src="Images/Amid.jpg" alt="Home Page" border="0" /></a><a href="javascript:doZoomSize(18)"><img
+                                                        src="Images/ABig.jpg" alt="Home Page" border="0" /></a>
+                                        </td>
+                                        <td width="40" align="right" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton3" id="ImageButton3" title="Only English" src="Images/onlyEnglish.JPG" border="0" />
+                                        </td>
+                                        <td width="30" align="left" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton4" id="ImageButton4" title="Only Chinese" src="Images/onlyChinese.JPG" border="0" />
+                                        </td>
+                                        <td width="40" align="right" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton1" id="ImageButton1" title="Chinese-English Bilingual Format Arranged in Two Separate Vertical Boxes" src="Images/3-a.jpg" border="0" />
+                                        </td>
+                                        <td width="40" align="right" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton2" id="ImageButton2" title="Chinese-English Bilingual Format Arranged Article-by-Article in Left-Right Boxes" src="Images/3-b.jpg" border="0" />
+                                        </td>
+                                        
+                                        <td width="25" align="right" valign="top" style="text-align: right; vertical-align: top;
+                                            padding-left: 10px">
+                                            <script type="text/javascript">
+                                                var url = document.location.href;
+                                                var pt = /&EncodingName/;
+                                                if (pt.test(url)) {
+                                                    url = url.replace('&EncodingName=gb2312', '');
+                                                    url = url.replace('&EncodingName=big5', '');
+                                                }
+                                                document.write("<a href=\"" + url + "&EncodingName=gb2312\" style=' margin-bottom:0px;display:block;width:26px;height:12px' >简体</a><div style='display: block;'></div><a href=\"" + url + "&EncodingName=big5\" style=' margin-bottom:8px;display:block;width:26px;height:12px'>繁体</a>");
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript">
+        //fixedPosition(document.getElementById("Dw_topdiv"), 0, 0);
+    </script>
+    <div style="width: 98%; text-align: center;  padding-left: 1%;"
+        id="body2" name="body2">
+        <table width="1000px" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table width="1000" border="0" cellpadding="0" align="center" cellspacing="0" class="top-3-bj">
+                        <tr>
+                            <td class="zuo-3">
+                                &nbsp;
+                            </td>
+                            <td valign="middle">
+                                <table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td width="950" valign="top">
+                                            <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="left">
+                                                        <span style="font-weight: 900; font-size: 13px; margin-bottom: 8px;">
+                                                            <span id="lbETitle"><div style='float:left; height:120px; width:98%; margin-left:10px; text-align:left'><br><b>Search Results:</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sorry, no results found. Please change your search condition or method and try again.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You may also send a request to Chinalawinfo.com, and we will try our best to find the information you need and send it to you. For inquiries, please dial 010-82668266 to contact our customer service center. <br><br></div></span></span>
+                                                        <span id="lbESX" class="tou_3_hj"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <span style="font-weight: 900; font-size: 13px; margin-bottom: 8px;">
+                                                            <span id="lbCTitle"></span></span>
+                                                        <span id="lbCSX" class="tou_3_hj"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <span style="font-weight: 900; font-size: 13px; margin-bottom: 8px;">
+                                                            <span id="Label1"></span></span>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <div id="divtitle">
+                                                            <div id="divtitle0" style="clear: both;">
+                                                                <ul style="padding: 0 10px; margin: 5px 0px 5px 0px; width: 100%;">
+                                                                </li>
+                                                                </ul>
+                                                            </div>
+    </div>
+    </td> </tr>
+    <tr>
+        <td align="left">
+            
+        </td>
+    </tr>
+   <tr>
+        
+        <td valign="top" colspan="2" class="main-xian">
+           &nbsp; 
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+           <div id="es_title" style="width: 610px; float: left;">
+                                                            &nbsp;&nbsp;
+                                                        </div>
+                                                        <div id="cs_title" style="width: 270px; float: left; padding-left: 20px">
+                                                        </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+            
+            
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+            
+            
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+            
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <div id="divContent"><table width="900" border="0" cellspacing="0" cellpadding="8" id="e_font">
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" ></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"></td></tr>
+ <tr>  <td width="570" align="left" valign="top" class="main-xian">&nbsp;</td>  <td height="20">&nbsp;</td>  <td width="310" valign="top" class="main-xian">&nbsp;</td></tr><tr>  <td width="570" align="left" valign="top">&nbsp;</td>  <td height="20">&nbsp;</td>  <td width="310" valign="top">&nbsp;</td></tr></table></div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" height="30px">
+            
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+           
+                <!-- Baidu Button BEGIN -->
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+<script>    window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {}, "image": { "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"], "viewText": "分享到：", "viewSize": "16" }, "selectShare": { "bdContainerClass": "top-3-bj", "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+<!-- Baidu Button END -->
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="570" align="left" valign="top">
+                        <table width="560" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="30" valign="top" align="left">
+                                    <div id="divLiuyan" style="width: 95%">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" valign="top">
+                                    <strong>Message: Please kindly comment on the present translation. </strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>
+                                        <textarea name="tbLiuYan" rows="16" cols="66" id="tbLiuYan"></textarea>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="40">
+                                    <table width="500" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td>
+                                                Confirmation Code:
+                                            </td>
+                                            <td valign="top">
+                                                
+ <!--####################################################################################-->
+ <!--#                               Auto Auth-Code 说明                                #-->
+ <!--#                作者：陈粤雄  联系：Aresh@163.com 时间:2009-05-11                 #-->
+ <!--#           欢迎使用本控件，你可以免费自由使用本控件，但请保留本说明信息           #-->
+ <!--####################################################################################-->
+ <span id="AuthCode1">
+ <table border="0" cellpadding="0" cellspacing="2" style="height:25px;" >
+     <tr>
+         <td style="padding:0;margin:0;height:25px;" >
+             <table cellpadding="0" cellspacing="0"><tr><td>
+                 <input type="text" title="请输入右边图片显示的字符" 
+                      style="width:50px" class="" 
+                      id="__Vincent.AutoAuthCode.TextBoxID_AuthCode1" name="__Vincent.AutoAuthCode.TextBoxID_AuthCode1" value="" />
+             </td>
+<td id="___Vincent_AutoAuthCode_Script_AuthValidateImages"><img title="正在验证..." style="display:none;" src="/WebResource.axd?d=LvFk6gpwGIDcmXpB3lK1ccQ18C4NLWUcuMh16SKNrBO6qpZB2nZieyivt76gakj2t7wSIMe5wQoC6YyW2PnPOlwsjytG8zLj__0FWIK0ozRbVcfGjL0GU2Hl30OonwegAWv8Lg2&t=635282417730000000" /><img title="验证码正确!" style="display:none;" src="/WebResource.axd?d=2lWS8W4tU1tmEJyUr8-Ki5jdZtMwJPZiNk28-Q7jH0C2_tHeaUw9C1u8iTBur1IrEhVraa6L3bUNO_PDgp1C6WFF5Ke7xWtgnCOu4le1i0cdhLpcYPWDKiREPOcgbhz3Cmhyrw2&t=635282417730000000" /><img title="验证码错误!" style="display:none;" src="/WebResource.axd?d=w4gJzdf5PLjDOfBU93HhWhZg6kCDqb8_vnM1PJ1OaG-KHYGeqdD1h9uaosluBdPYEJZwfyvVotap8ub97Eral8-ogyRNfSKLZjM7ahj9n8kttPLeYNnIW7Eab4Tkbci2uhtT0Q2&t=635282417730000000" /></td>
+             </tr></table>
+         </td>
+         <td style="padding:0;margin:0;padding-top:0 !important;padding-top:2px;height:25px;">
+             <img style="cursor:pointer;" title="换一张图片" id="__Vincent_AutoAuthCode_$AuthCode1$img" border="0" alt="" 
+                 onclick="this.src='AuthCode_Image.ashx?type=image&ControlID=AuthCode1&ImageStyle=ImgBgColor%3dWhite%2cImgBorderColor%3dDeepSkyBlue%2cImgNoiseColor%3dGreenYellow%2cTextColor1%3dDeepSkyBlue%2cTextColor2%3dBlueViolet%2cTextFontSize%3d17%2cWidth%3d0%2cHeight%3d0&CodeStringLength=4&ImageType=SimpleNoisePoint&CodeStringType=Number&change=true&r'+Math.random()" src="AuthCode_Image.ashx?type=image&ControlID=AuthCode1&ImageStyle=ImgBgColor%3dWhite%2cImgBorderColor%3dDeepSkyBlue%2cImgNoiseColor%3dGreenYellow%2cTextColor1%3dDeepSkyBlue%2cTextColor2%3dBlueViolet%2cTextFontSize%3d17%2cWidth%3d0%2cHeight%3d0&CodeStringLength=4&ImageType=SimpleNoisePoint&CodeStringType=Number&r=940427" />
+         </td>
+     </tr>
+ </table>
+ 
+ </span>
+
+                                                <span id="lbshow"><font color="Red"></font></span>
+                                            </td>
+                                            <td>
+                                                Click image to reset code!
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" align="right">
+                                                <input type="submit" name="Button2" value=" Submit " id="Button2" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="40">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="20" rowspan="12">
+                        &nbsp;
+                    </td>
+                    <td width="310" align="left" valign="top">
+                        Translations are by lawinfochina.com, and we retain exclusive copyright over content
+                        found on our website except for content we publish as authorized by respective copyright
+                        owners or content that is publicly available from government sources.<br />
+                        <br />
+                        Due to differences in language, legal systems, and culture, English translations
+                        of Chinese law are for reference purposes only. Please use the official Chinese-language
+                        versions as the final authority. lawinfochina.com and its staff will not be directly
+                        or indirectly liable for use of materials found on this website.
+                        <br />
+                        <br />
+                        We welcome your comments and suggestions, which assist us in continuing to improve
+                        the quality of our materials.
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </table> </td> </tr> </table> </td>
+    <td class="you-3">
+        &nbsp;
+    </td>
+    </tr> </table> </td> </tr>
+    <tr>
+        <td class="banquan">
+            <table height="70" border="0" cellpadding="0" cellspacing="0" align="center">
+                <tr>
+                    <td height="35" colspan="2" align="right" class="banquan_wz_hj">
+                        <a href="../index.aspx" target="_blank" class="ljbz">Home</a> <span class="banquan_wz_hj">
+                            |</span> <a href="/ProductsServices/index.shtm" target="_blank" class="ljbz">Products
+                                and Services</a> <span class="banquan_wz_hj">|</span> <a href="/About/FAQ.aspx" target="_blank"
+                                    class="ljbz">FAQ</a> <span class="banquan_wz_hj">|</span> <a href="/about/Copyrights.aspx"
+                                        target="_blank" class="ljbz">Disclaimer</a> <span class="banquan_wz_hj">|</span>
+                        <a href="http://www.pkulaw.cn" target="_blank" class="ljbz">Chinese</a> <span class="banquan_wz_hj">
+                            |</span> <a href="/SiteMap.shtm" target="_blank" class="ljbz">Site Map</a><br />
+                        &copy;2012 Chinalawinfo Co., Ltd. &nbsp;&nbsp;&nbsp;<a class="ljbz" href="mailto:database@chinalawinfo.com">database@chinalawinfo.com</a>&nbsp;&nbsp;Tel:
+                        +86 (10) 8268-9699&nbsp;&nbsp;京ICP证010230-8
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </table> </div>
+    <div id="FavoriteDiv">
+    </div>
+    <input type="hidden" name="HiddenFavoriteScript" id="HiddenFavoriteScript" />
+    <div id="div_tip" style="padding-right: 1px; text-align: left; display: none; padding-left: 1px;
+        font-size: 12px; z-index: 101; left: 155px; padding-bottom: 1px; overflow: hidden;
+        width: 400px; line-height: 120%; padding-top: 1px; position: absolute; top: 276px;
+        background-color: #ffffff; border-top-width: 1px; border-left-width: 1px; border-left-color: #2d4b7d;
+        border-bottom-width: 1px; border-bottom-color: #2d4b7d; border-top-color: #2d4b7d;
+        border-right-width: 1px; border-right-color: #2d4b7d;">
+    </div>
+    <div id="divScript"><script language="javascript" src="http://log.chinalawinfo.com/webservice/Adduserlog.asmx/AddLookLog?FDomain=www.lawinfochina.com&FName=&FUser=V4&FIP=153.33.163.233, 113.240.91.169&FDb=law&FId=2317&FTitle=&FType=" />	</div>
+    </form>
+    <input name="PageFilter" type="hidden" id="PageFilter" value="0" />
+    <script type="text/javascript">        RefershTime = setInterval("AutoRefresh()", 30000);</script>
+
+</body>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fde487818e3b858933dca1c5daf9977b2' type='text/javascript'%3E%3C/script%3E"));   
+</script>
+</html>

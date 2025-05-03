@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party shall, within five (5) business days after the Agreement Date, file with the FDA a notice letter, substantially in the form attached as Schedule XI(A) or Schedule XI(B) (as applicable), regarding the transfer to EKR of the Transferred NDA.",
+                "changed_text": "Each Party shall, within thirty (30) business days after the Agreement Date, file with the FDA a notice letter, substantially in the form attached as Schedule XI(A) or Schedule XI(B) (as applicable), regarding the transfer to EKR of the Transferred NDA.",
+                "explanation": "Increasing the timeframe for FDA notification to 30 days from the original 5 days introduces a delay that could potentially conflict with regulatory expectations for prompt notification.",
+                "contradicted_law": "21 CFR § 314.72",
+                "law_citation": "21 CFR § 314.72",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/section-314.72"
+                ],
+                "law_url2": [
+                    "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/formal-meetings-between-fda-and-sponsors-or-applicants-prescription-drug-user-fee-act"
+                ],
+                "law_explanation": "While 21 CFR § 314.72 doesn't specify an exact timeframe for notifying the FDA of NDA transfer, waiting 30 days might be considered a delay that could cause regulatory concern about the promptness of the notification. The FDA wants information in a timely manner, and a delay could cause them to believe there is a serious problem with the NDA.",
+                "location": "3.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "EKR shall pay to PPI, any Minimum Royalties and Additional Royalties due within forty-five (45) days of the end of each Quarter as the case may be subject to reconciliation at the end of each Calendar Year as set forth in Section 6.9.",
+                "changed_text": "EKR shall pay to PPI, any Minimum Royalties and Additional Royalties due within ninety (90) days of the end of each Quarter as the case may be subject to reconciliation at the end of each Calendar Year as set forth in Section 6.9.",
+                "explanation": "Changing the royalty payment deadline from 45 to 90 days increases the time before payment, which can create issues with compliance depending on the specifics of generally accepted accounting practices (GAAP) and potential tax implications related to revenue recognition.",
+                "contradicted_law": "26 U.S. Code § 451",
+                "law_citation": "26 U.S. Code § 451",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title26-section451&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/accounting_methods"
+                ],
+                "law_explanation": "26 U.S. Code § 451 deals with the general rule for taxable year of inclusion and if the contract shifts the payment schedule so significantly that it defers income recognition beyond what is permissible under IRS regulations and GAAP, there would be a conflict with federal tax law.",
+                "location": "6.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Each Party will provide to the other Party evidence of its insurance and thirty (30) days prior written notice of any cancellation of its coverage or reduction in coverage from the requirements stated herein.",
+                "changed_text": "Each Party will provide to the other Party evidence of its insurance and five (5) days prior written notice of any cancellation of its coverage or reduction in coverage from the requirements stated herein.",
+                "explanation": "Reducing the insurance cancellation notice from 30 days to 5 days significantly shortens the warning period. This could violate standard insurance contract practices and create legal vulnerability if a lapse in coverage occurs.",
+                "contradicted_law": "California Insurance Code § 678",
+                "law_citation": "California Insurance Code § 678",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=678"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/ca/insurance-code/ins-sect-678.html"
+                ],
+                "law_explanation": "California Insurance Code § 678 requires insurers to provide a minimum number of days' notice for cancellation or nonrenewal of a policy, which is typically more than 5 days. By mandating only 5 days' notice in the contract, Pacira is asking to be alerted in a way that could conflict with mandated California insurance law.",
+                "location": "10.6"
+            }
+        ]
+    }
+]

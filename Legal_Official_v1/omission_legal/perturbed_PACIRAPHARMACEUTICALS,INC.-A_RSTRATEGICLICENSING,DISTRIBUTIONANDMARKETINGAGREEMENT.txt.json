@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "PACIRAPHARMACEUTICALS,INC.-A_RSTRATEGICLICENSING,DISTRIBUTIONANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "EKR shall be responsible, to the extent required by Applicable Law, to report all charges, complaints or claims reportable to any Regulatory Authority outside of the United States relating to the Product, as well as any such charges, complaints or claims reportable to any Regulatory Authority inside the United States to the extent such charges, complaints or claims are made after the Agreement Date.",
+                "changed_text": "EKR shall be responsible to report all charges, complaints, or claims reportable to any Regulatory Authority outside of the United States relating to the Product.",
+                "explanation": "This change removes EKR's responsibility to report charges, complaints, or claims to Regulatory Authorities inside the United States after the agreement date, creating a potential violation of US law regarding adverse event reporting.",
+                "contradicted_law": "21 CFR § 314.80 - Postmarketing reporting of adverse drug experiences",
+                "law_citation": "21 CFR § 314.80",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/section-314.80"
+                ],
+                "law_url2": [
+                    "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm?fr=314.80"
+                ],
+                "law_explanation": "21 CFR § 314.80 requires manufacturers (which, post-agreement, would include EKR) to report adverse drug experiences to the FDA. By removing EKR's responsibility to report such incidents within the US, the contract contradicts this federal regulation, potentially leading to non-compliance and legal repercussions.",
+                "location": "Section 4.11"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Each Party shall maintain, at its own cost, comprehensive product liability insurance, general commercial liability insurance and business interruption insurance at a level which is reasonable and customary taking into account the nature of the Product but which shall have combined limits of not less than $[**] per occurrence. Such insurance shall be with a reputable insurance company and where reasonably possible (taking into account the availability of such insurance) shall be maintained for not less than [**] ([**]) years following the expiry or termination of this Agreement. During the Term, neither Party shall do or omit to do any act, matter or thing which could prejudice or render voidable any such insurance. Each Party will provide to the other Party evidence of its insurance and thirty (30) days prior written notice of any cancellation of its coverage or reduction in coverage from the requirements stated herein.",
+                "changed_text": "Each Party shall maintain, at its own cost, product liability insurance. Such insurance shall be with a reputable insurance company. During the Term, neither Party shall do or omit to do any act, matter or thing which could prejudice or render voidable any such insurance.",
+                "explanation": "The removal of 'comprehensive', the specific insurance types (general commercial liability and business interruption), the minimum coverage amount, the duration of insurance post-termination, and the requirements for providing evidence and notice significantly weakens the insurance requirements. This could create a **legal contradiction** if the type or amount of insurance required falls short of the state's regulations.",
+                "contradicted_law": "New York Insurance Law § 3420",
+                "law_citation": "NY Ins Law § 3420",
+                "law_url1": [
+                    "https://www.nysenate.gov/legislation/laws/ISC/3420"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/new-york/2022/isc/article-34/3420/"
+                ],
+                "law_explanation": "This section dictates the minimum provisions that must be included in liability insurance policies issued in New York. By removing the specific types of insurance and minimum coverage, the contract opens the door to insurance policies that do not meet the statutory requirements of New York, the governing law according to section 21.13, thus potentially violating the law and leaving parties inadequately protected.",
+                "location": "Section 10.6"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The address for services of notices and other documents on the Parties shall be:\n\nTo EKR\nAddress: 1545 Route 206 South Third Floor Bedminster, NJ 07921\nFax:\nAttention: Chairman & CEO\nWith a copy to:\nLowenstein Sandler 65 Livingston Avenue Roseland, New Jersey 07068\nFax: 973-597-6395\nAttention: Michael J. Lerner",
+                "changed_text": "The address for services of notices and other documents on the Parties shall be:\n\nTo EKR\nAddress: 1545 Route 206 South Third Floor Bedminster, NJ 07921\n\nAttention: Chairman & CEO",
+                "explanation": "Removing the contact information for EKR's legal counsel could impede legal proceedings, potentially violating the implied covenant of good faith and fair dealing. In NY, that covenant requires parties to not act in a manner that deprives the other party of the benefits of the agreement.",
+                "contradicted_law": "New York Uniform Commercial Code § 1-304",
+                "law_citation": "NY UCC § 1-304",
+                "law_url1": [
+                    "https://www.nysenate.gov/legislation/laws/UCC/1-304"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/ucc/1/1-304"
+                ],
+                "law_explanation": "This section codifies the principle that every contract or duty within the Uniform Commercial Code imposes an obligation of good faith in its performance and enforcement. While not directly mandating legal representation, omitting the provided avenue of contact with legal representation could impede one party's (PPI) ability to fully perform their rights or defend against claims under the agreement, violating the implied covenant of good faith and fair dealing implied in all contracts under New York law.",
+                "location": "Section 19.3"
+            }
+        ]
+    }
+]

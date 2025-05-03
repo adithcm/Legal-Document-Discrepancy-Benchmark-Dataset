@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "Exhibit 10.26 Whitesmoke Inc. & Google Inc. Promotion and Distribution Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "\"End User\" means an end user customer of Distributor who is located in the Territory.",
+                "changed_text": "\"End User\" means any user of Distributor's services, regardless of their location.",
+                "explanation": "By removing the 'located in the Territory' clause, the definition now contradicts export control laws, as it implies distribution can occur anywhere, regardless of legal restrictions.",
+                "contradicted_law": "Export Administration Regulations",
+                "law_citation": "15 CFR § 734.2",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.2"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title50-chapter38&edition=prelim"
+                ],
+                "law_explanation": "The modified text broadens the definition of 'End User' to include individuals outside the permitted territory. This violates export regulations that restrict the export and re-export of software to certain countries without proper authorization.",
+                "location": "1.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Subject to the terms and conditions of this Agreement, Google grants to Distributor a [* ] license during the Term to: (a) bundle the Distribution Products, in machine-readable binary code format only, solely with Distributor App(s);",
+                "changed_text": "Subject to the terms and conditions of this Agreement, Google grants to Distributor a [* ] license during the Term to: (a) bundle the Distribution Products, in any format, with any application the Distributor chooses;",
+                "explanation": "This modification allows distribution in formats beyond machine-readable binary code, potentially including source code. It also removes the restriction to only bundle with 'Distributor App(s)', allowing bundling with anything. This can violate copyright and license restrictions.",
+                "contradicted_law": "Copyright Act, 17 U.S.C. § 106",
+                "law_citation": "17 U.S.C. § 106",
+                "law_url1": [
+                    "https://www.law.cornell.edu/uscode/text/17/106"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title17-section106&edition=prelim"
+                ],
+                "law_explanation": "By allowing the distribution of Google's software in any format and bundled with any application, the modified text potentially infringes on Google's exclusive rights to reproduce and distribute their copyrighted work. Copyright law grants the copyright holder (Google) exclusive control over these activities.",
+                "location": "2.1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor shall comply with all applicable export and re-export control laws and regulations (\"Export Laws\"), which the parties agree include: (a) the Export Administration Regulations maintained by the U.S. Department of Commerce, (b) trade and economic sanctions maintained by the U.S. Treasury Department's Office of Foreign Assets Control, and (c) the International Traffic in Arms Regulations maintained by the U.S. Department of State. Unless Distributor obtains prior authorisation required by applicable Export Laws, Distributor shall not export any Product to Cuba, Iran, North Korea, Sudan or Syria.",
+                "changed_text": "Distributor will attempt to comply with all applicable export and re-export control laws and regulations (\"Export Laws\"), but such compliance is not guaranteed. Unless Distributor obtains prior authorisation required by applicable Export Laws, Distributor shall endeavour not to export any Product to Cuba, Iran, North Korea, Sudan or Syria.",
+                "explanation": "Changing 'shall comply' to 'will attempt to comply' and 'shall not export' to 'shall endeavour not to export' weakens the obligation to comply with export control laws. This creates a potential contradiction, as the law requires strict compliance.",
+                "contradicted_law": "Export Administration Regulations",
+                "law_citation": "15 CFR § 732.1",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-732/section-732.1"
+                ],
+                "law_url2": [
+                    "https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear"
+                ],
+                "law_explanation": "The Export Administration Regulations (EAR) mandate strict adherence to export control laws. By changing the language to 'attempt to comply' and 'endeavour not to export', the modification introduces ambiguity and suggests that compliance is not mandatory, directly contradicting the legally required level of diligence.",
+                "location": "11.5"
+            }
+        ]
+    }
+]

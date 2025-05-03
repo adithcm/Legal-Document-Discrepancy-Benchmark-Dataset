@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"EULA\" means the end user license agreement applicable to a Product, which end user license agreement may be updated or modified by Google in its sole discretion from time to time.",
+                "changed_text": "\"EULA\" means the end user suggestion for usage of the Product, which suggestion may be ignored, updated or modified by Google in its sole discretion from time to time.",
+                "explanation": "The term 'end user license agreement' (EULA) has a specific legal meaning, implying a binding agreement. Changing it to 'end user suggestion' removes the binding element and introduces a contradiction because EULAs are legally enforceable contracts, not mere suggestions.",
+                "contradicted_law": "Electronic Signatures in Global and National Commerce Act (ESIGN)",
+                "law_citation": "15 U.S. Code § 7001",
+                "law_url": "https://www.govinfo.gov/content/pkg/USCODE-2011-title15/html/USCODE-2011-title15-chap96.htm",
+                "law_explanation": "The ESIGN Act gives legal validity to electronic contracts and signatures. By weakening the 'EULA' to a mere 'suggestion,' the modified text undermines the enforceability of the agreement, conflicting with ESIGN's purpose of ensuring the legal standing of electronic contracts.",
+                "location": "1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Google may request that Distributor distribute the latest version of the Distribution Products. Distributor shall begin such distribution within [ * ] following Google's request.",
+                "changed_text": "Google may suggest that Distributor distribute any version of the Distribution Products. Distributor may begin such distribution within [ * ] following Google's request.",
+                "explanation": "Changing \"request\" to \"suggest\" and \"latest\" to \"any\" transforms a mandatory action into a voluntary one. This contradicts the typical understanding of distribution agreements where updates are crucial for security and functionality. This creates uncertainty regarding the obligation to distribute current versions.",
+                "contradicted_law": "Digital Millennium Copyright Act (DMCA)",
+                "law_citation": "17 U.S. Code § 1201",
+                "law_url": "https://www.law.cornell.edu/topn/digital_millennium_copyright_act",
+                "law_explanation": "The DMCA addresses copyright protection in the digital age. If the 'Distribution Products' contain copyrighted material or technologies designed to prevent copyright infringement, failing to distribute necessary updates could leave users vulnerable to security risks or copyright violations. This undermines the intent of the DMCA to protect digital content and technologies.",
+                "location": "2.6"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Distributor will keep and maintain complete and accurate books, records, and accounts relating to this Agreement. During the Term, and for a period of [ * ] thereafter, Google may audit Distributor's relevant records to confirm Distributor's compliance with this Agreement. Google's auditor will only have access to those books and records of Distributor which are reasonably necessary to confirm such compliance.",
+                "changed_text": "Distributor will keep and maintain books, records, and accounts relating to this Agreement as Distributor seems fit. During the Term, and for a period of [ * ] thereafter, Google may oversee Distributor's records to get an overview of Distributor's compliance with this Agreement. Google's personnel will only have access to a summary of those books and records of Distributor which are reasonably necessary to confirm such compliance.",
+                "explanation": "Changing \"audit\" to \"oversee\", \"complete and accurate books, records, and accounts\" to \"books, records, and accounts relating to this Agreement as Distributor seems fit\", and granting access to a \"summary\" instead of the actual records significantly weakens Google's ability to verify compliance. This directly contradicts standard audit practices and legal requirements for transparency in financial dealings.",
+                "contradicted_law": "Sarbanes-Oxley Act (SOX)",
+                "law_citation": "15 U.S. Code § 7201",
+                "law_url": "https://www.govinfo.gov/content/pkg/COMPS-341/pdf/COMPS-341.pdf",
+                "law_explanation": "While SOX primarily applies to publicly traded companies, the principle of maintaining accurate and auditable financial records is relevant. By allowing the distributor to keep records as they \"seem fit\" and limiting the scope of oversight, the modified text hinders the ability to verify financial transactions and compliance with the agreement, which could be seen as a violation of the spirit of transparency and accountability that SOX promotes. This hinders transparent access to records.",
+                "location": "3.9(d)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_PromotionAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.27 \"Field\" shall mean the treatment of thrombocytopenia in adult patients with chronic liver disease who are scheduled to undergo a procedure and any and all additional indications for which the Product is approved in the Territory.",
+                "changed_text": "1.27 \"Field\" shall mean the treatment of thrombocytopenia in adult patients with chronic liver disease who are scheduled to undergo a procedure. Additional indications, if any, will not be considered.",
+                "explanation": "The definition of \"Field\" is modified to exclude potential future approved indications for the Product. This creates a legal contradiction, as FDA-approved indications form the basis for permissible marketing and promotion activities. By limiting the 'Field' definition, the contract potentially restricts Valeant from promoting the Product for all FDA-approved uses, conflicting with regulatory mandates.",
+                "contradicted_law": "21 U.S. Code § 351 - Adulterated drugs and devices",
+                "law_citation": "21 U.S.C. § 351",
+                "law_url1": [
+                    "https://www.law.cornell.edu/topn/adulterated_drugs_and_devices"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=(title:21%20section:351%20edition:prelim)"
+                ],
+                "law_explanation": "This modification could result in the product being misbranded if the promotion does not align with FDA approved indications. Promotion outside of the described 'Field' may violate labeling regulations, which requires approved uses to be clearly defined.",
+                "location": "Article 1, Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.61 \"Target Professionals\" shall mean physicians, nurse practitioners, physician assistants and any other medical professionals in the Territory with prescribing authority (as authorized under Applicable Law) in the Territory for the Product.",
+                "changed_text": "1.61 \"Target Professionals\" shall mean physicians only in the Territory, regardless of other medical professionals' permissions.",
+                "explanation": "The definition of “Target Professionals” is altered to restrict it to only physicians, excluding nurse practitioners and physician assistants, etc. This introduces a conflict because nurse practitioners and physician assistants often have prescribing authority granted by state law. Excluding these professionals could limit the promotional reach and impact the agreement's effectiveness.",
+                "contradicted_law": "42 CFR 455.410 - Basic requirements",
+                "law_citation": "42 CFR 455.410",
+                "law_url1": [
+                    "https://www.law.cornell.edu/cfr/text/42/455.410"
+                ],
+                "law_url2": [
+                    "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-455/subpart-D/section-455.410"
+                ],
+                "law_explanation": "Excluding those legally allowed to prescribe may be seen as an attempt to subvert the payments through other means by excluding eligible medical professionals. The exclusion does not support any real world application, so it appears to be fraudulent activity.",
+                "location": "Article 1, Definitions"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "4.3.2 Neither Valeant nor Field Force Personnel shall offer, pay, solicit or receive any remuneration to or from Target Professionals, in order to induce referrals of or purchase of the Product.",
+                "changed_text": "4.3.2 Neither Valeant nor Field Force Personnel shall offer, pay, solicit or receive any remuneration to or from Target Professionals, unless it is pre-approved by legal counsel.",
+                "explanation": "Modifying this clause to allow remuneration if \"pre-approved by legal counsel\" directly contradicts anti-kickback statutes. Legal counsel approval does not negate the illegality of offering or paying remuneration to induce referrals or purchases, creating potential liability.",
+                "contradicted_law": "42 U.S.C. § 1320a-7b(b) - Illegal remunerations",
+                "law_citation": "42 U.S.C. § 1320a-7b(b)",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title42-section1320a-7b"
+                ],
+                "law_url2": [
+                    "https://oig.hhs.gov/fraud/kickbacks-safe-harbors/"
+                ],
+                "law_explanation": "The Anti-Kickback Statute explicitly prohibits offering or paying remuneration to induce referrals, regardless of legal counsel approval. This change directly conflicts with federal law, potentially leading to severe penalties.",
+                "location": "Article 4.3, Compliance with Applicable Law"
+            }
+        ]
+    }
+]

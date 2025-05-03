@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Customer acknowledges that the Internet is an unreliable, unsecured, and error-prone network and agrees to hold i-on harmless for any interruptions in service to the Hosted Site or inability for users to reach or effectively use the Hosted Site that arises outside the scope of i-on's responsibilities as explicitly described in this Agreement. The Customer acknowledges that data loss is a possibility, even with mirrored computer storage and archival backup of such storage as provided by i-on per this Agreement, and agrees to hold i-on harmless for any such data loss for the Hosted Site, provided that i-on maintains reasonable steps as described in this Agreement to protect against such data loss.",
+                "changed_text": "The Customer acknowledges that the Internet is an unreliable, unsecured, and error-prone network and agrees to hold i-on harmless for any interruptions in service to the Hosted Site or inability for users to reach or effectively use the Hosted Site. The Customer acknowledges that data loss is a possibility and agrees to hold i-on harmless for any such data loss for the Hosted Site.",
+                "explanation": "By removing the clause that i-on maintains reasonable steps to protect against data loss, the contract seeks to waive liability even if i-on is negligent in protecting customer data. This conflicts with Florida's general principles of negligence law, which do not allow parties to contractually waive liability for their own negligence.",
+                "contradicted_law": "Florida law regarding exculpatory clauses and negligence.",
+                "law_citation": "Florida Statute 725.01",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0725/Sections/0725.01.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2023/title-xl/chapter-725/725-01/"
+                ],
+                "law_explanation": "Florida Statute 725.01 addresses contracts exculpating persons from liability for negligence. While not directly prohibiting all such clauses, Florida courts scrutinize them closely and generally disfavor clauses that attempt to relieve a party of liability for its own negligence, especially when not clearly and unambiguously expressed. The omission of the 'reasonable steps' provision implies a waiver of liability even if i-on is negligent.",
+                "location": "CONDITIONS OF SERVICE"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends.",
+                "changed_text": "i-on will maintain the operation of the Hosted Site. i-on will perform maintenance as it deems necessary.",
+                "explanation": "Removing the specific uptime commitment (24/7) and the scheduled maintenance times creates ambiguity. Florida's Deceptive and Unfair Trade Practices Act (FDUTPA) prohibits unfair or deceptive acts or practices in the conduct of any trade or commerce. The altered language allows for potentially excessive downtime without clear recourse, which can be seen as a deceptive practice if not clearly disclosed during the initial sale.",
+                "contradicted_law": "Florida Deceptive and Unfair Trade Practices Act (FDUTPA)",
+                "law_citation": "Florida Statute § 501.204",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.204.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2023/title-xxxiii/chapter-501/part-i/501-204/"
+                ],
+                "law_explanation": "FDUTPA prohibits unfair or deceptive trade practices. The original text provided a guarantee of continuous service with scheduled downtime. By omitting the specific uptime guarantee and scheduling parameters, the contract now allows i-on to perform excessive maintenance or downtime without informing or compensating the customer, violating FDUTPA by potentially being considered as a deceptive practice.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida.",
+                "changed_text": "This Agreement shall be governed by the laws of the jurisdiction i-on deems appropriate.",
+                "explanation": "The original clause specifies Florida law, providing the customer with the protections offered by Florida law. The modified text gives i-on the unilateral right to choose the governing law. If i-on chooses a jurisdiction with weaker consumer protections, this could be considered an unfair trade practice under FDUTPA.",
+                "contradicted_law": "Florida Deceptive and Unfair Trade Practices Act (FDUTPA)",
+                "law_citation": "Florida Statute § 501.204",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.204.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2023/title-xxxiii/chapter-501/part-i/501-204/"
+                ],
+                "law_explanation": "By giving i-on the right to choose the governing law, they could choose a jurisdiction with lax consumer protection laws. This could be construed as a deceptive practice under FDUTPA as it allows the company to sidestep Florida's consumer protection laws and could ultimately be considered an unfair method of competition.",
+                "location": "MISCELLANEOUS"
+            }
+        ]
+    }
+]

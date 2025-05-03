@@ -1,0 +1,54 @@
+[
+    {
+        "file_name": "Exhibit 10.2 INTELLECTUAL PROPERTY AGREEMENT",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Confidential information shall also mean any information not generally made available or known to the public and shall include, without limitation, all ideas, inventions, software, documentation, flowcharts, diagrams, improvements, discoveries, research and development, know how, formulas, compositions, manufacturing and production processes and techniques, technical data, designs, drawings, plans, specifications, and all other information or material within the definition of a \"trade secret\" as set forth in the Uniform Trade Secret Act, or which either party otherwise reasonably considers proprietary.",
+                "changed_text": "Confidential information shall also mean any information not generally made available or known to the public and shall include, without limitation, all ideas, inventions, software, documentation, flowcharts, diagrams, improvements, discoveries, research and development, know how, formulas, compositions, manufacturing and production processes and techniques, technical data, designs, drawings, plans, specifications, and all other information or material which either party considers proprietary. Information meeting the definition of a \"trade secret\" as set forth in the Uniform Trade Secret Act is explicitly excluded.",
+                "explanation": "The modified text explicitly excludes information meeting the definition of a \"trade secret\" from the scope of 'confidential information'. This directly contradicts the original text and could lead to disputes, as trade secrets are a legally protected form of confidential information.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "UTSA § 1(4)",
+                "law_url1": [
+                    "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=11e35e28-ca78-4705-a9e4-2cf5b4f53e60&forceDialog=0"
+                ],
+                "law_url2": [
+                    "https://www.wipo.int/wipo_lex/en/legislation/us/details?id=12559"
+                ],
+                "law_explanation": "The UTSA defines a trade secret as information that derives independent economic value from not being generally known or readily ascertainable, and is subject to reasonable efforts to maintain its secrecy. By excluding information meeting this definition from 'confidential information', the modified text contradicts the established legal definition and protection afforded to trade secrets.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Venue for any action brought under this Agreement shall be in the appropriate court in Mercer County, Pennsylvania.",
+                "changed_text": "Venue for any action brought under this Agreement shall be in any court the Plaintiff deems appropriate.",
+                "explanation": "This change removes the specificity of Mercer County, Pennsylvania, for venue, and allows the plaintiff to choose any court. This could conflict with Pennsylvania law regarding proper venue, particularly if the chosen court has no connection to the parties or the subject matter of the dispute.",
+                "contradicted_law": "Pennsylvania Rules of Civil Procedure Rule 1006",
+                "law_citation": "Pa.R.C.P. 1006",
+                "law_url1": [
+                    "https://www.pacourts.us/assets/files/setting-742/file-4878.pdf?cb=e2b56"
+                ],
+                "law_url2": [
+                    "https://casetext.com/rule/pennsylvania-court-rules/pennsylvania-rules-of-civil-procedure/business-of-courts/rule-1006-venue"
+                ],
+                "law_explanation": "Pa.R.C.P. 1006 outlines specific rules for determining proper venue in civil actions, often based on where the cause of action arose, where a transaction or occurrence took place, or where a party resides or conducts business. Granting the plaintiff the unilateral right to choose any venue contradicts these rules and could allow for forum shopping, potentially violating the defendant's right to a fair trial in a proper jurisdiction.",
+                "location": "Section 8"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Overdue payments hereunder shall be subject to a late payment charge calculated at an annual rate of three percent (3%) over the prime rate or successive prime rates (as posted in New York City) during delinquency. If the amount of such charge exceeds the maximum permitted by law, such charge shall be reduced to such maximum.",
+                "changed_text": "Overdue payments hereunder shall be subject to a late payment charge calculated at an annual rate of twenty-five percent (25%) over the prime rate or successive prime rates (as posted in New York City) during delinquency. This charge shall apply regardless of any usury laws.",
+                "explanation": "This change sets a late payment charge significantly higher than potentially permissible under Pennsylvania usury laws and explicitly states it applies regardless of such laws. This creates a direct contradiction.",
+                "contradicted_law": "Pennsylvania Usury Law, 41 P.S. § 201",
+                "law_citation": "41 P.S. § 201",
+                "law_url1": [
+                    "https://www.legis.state.pa.us/WU0/LI/LI/CT/HTM/41/0.HTM"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/pennsylvania/2022/title-41/section-201/"
+                ],
+                "law_explanation": "41 P.S. § 201 sets limits on the interest rates that can be charged for loans and other financial transactions in Pennsylvania. By setting a rate that could exceed these limits and stating that usury laws don't apply, the modified text directly contradicts Pennsylvania law, rendering that portion of the contract potentially unenforceable. The specific rate that is legal will depend on the specific type of transaction and is beyond the scope of this answer, however a 25% surcharge is likely usurious."
+            }
+        ]
+    }
+]

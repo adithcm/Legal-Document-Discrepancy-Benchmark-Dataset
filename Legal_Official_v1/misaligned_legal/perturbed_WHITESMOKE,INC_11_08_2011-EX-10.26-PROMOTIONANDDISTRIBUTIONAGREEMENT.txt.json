@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"End User\" means an end user customer of Distributor who is located in the Territory.",
+                "changed_text": "\"End User\" means any individual who, regardless of location, interacts with the Distributor App(s).",
+                "explanation": "The original definition limits 'End User' to those in the 'Territory.' The modified definition expands this to anyone interacting with the app, regardless of location. This broadens the scope beyond the defined territory, creating a contradiction.",
+                "contradicted_law": "General Contract Law - Territorial Restrictions",
+                "law_citation": "Restatement (Second) of Contracts § 187",
+                "law_url1": [
+                    "https://law.cornell.edu/wex/restatement_second_of_contracts"
+                ],
+                "law_url2": [
+                    "https://www.law.upenn.edu/live/files/776-restatement-second-contracts-completepdf"
+                ],
+                "law_explanation": "Contract law respects territorial restrictions. By changing the definition of 'End User' to include individuals outside the agreed territory, the contract's territorial limitations become ambiguous and potentially unenforceable.",
+                "location": "Section 1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "In this Agreement, \"Confidential Information\" means information disclosed by (or on behalf of) one party to the other party under this Agreement that is marked as confidential or, from its nature, content or the circumstances in which it is disclosed, might reasonably be supposed to be confidential, including the terms and conditions (including the Exhibits) of this Agreement. It does not include information that the recipient already knew, that becomes public through no fault of the recipient, that was independently developed by the recipient or that was lawfully given to the recipient by a third party.",
+                "changed_text": "In this Agreement, \"Confidential Information\" means all information exchanged between parties. It includes information the recipient already knew, information that becomes public, information independently developed by the recipient, and information lawfully given to the recipient by a third party.",
+                "explanation": "The original definition excludes certain types of information from being considered confidential. The modified definition includes these excluded types, broadening the scope of 'Confidential Information' to include nearly everything exchanged, directly conflicting with standard definitions and potentially hindering normal business operations.",
+                "contradicted_law": "Uniform Trade Secrets Act § 1(4)",
+                "law_citation": "Uniform Trade Secrets Act § 1(4)",
+                "law_url1": [
+                    "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=4f927ff8-0f81-4700-b35a-50771c8bd10a&forceDialog=0"
+                ],
+                "law_url2": [
+                    "https://www.law.upenn.edu/bll/archives/ulc/fnact99/1980s/utsa85.pdf"
+                ],
+                "law_explanation": "The Uniform Trade Secrets Act defines a trade secret, requiring it to be secret and have economic value. The modified definition includes information already known or public, directly contradicting the 'secrecy' requirement and therefore making enforcement as a trade secret questionable.",
+                "location": "Section 6.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Google warrants that the Distribution Products will for a period of [ * ] from the date of their supply to Distributor be free from any defect which has a materially adverse effect on their use or operation.",
+                "changed_text": "Google warrants that the Distribution Products may function adequately at Google's discretion.",
+                "explanation": "The original text contains a warranty for a specific period, implying a guarantee of quality. The modified text replaces this with a discretionary statement about adequate functionality, removing the guarantee and introducing ambiguity. The original text speaks of the products being free from any defect which has a materially adverse effect on their use or operation, while the changed text removes that language, instead saying the Google warrants that the distribution products may function adequately at Google's discretion.",
+                "contradicted_law": "Uniform Commercial Code § 2-313",
+                "law_citation": "UCC § 2-313",
+                "law_url1": [
+                    "https://www.law.cornell.edu/ucc/2/2-313"
+                ],
+                "law_url2": [
+                    "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ca55f39c-2b87-4e3a-b74f-84f83750c9b2&forceDialog=0"
+                ],
+                "law_explanation": "UCC § 2-313 addresses express warranties. By changing the warranty to a discretionary statement, Google could argue that no express warranty was created, undermining the buyer's protection under the UCC.",
+                "location": "Section 8.2"
+            }
+        ]
+    }
+]

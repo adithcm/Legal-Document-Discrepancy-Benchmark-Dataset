@@ -1,0 +1,56 @@
+[
+    {
+        "Rental_Agreement.txt": {
+            "perturbation": [
+                {
+                    "type": "Inconsistencies - Legal Contradiction",
+                    "original_text": "Upon termination of this Agreement, Tenant shall surrender the Premises in the same condition as received, ordinary wear and tear excepted. Landlord shall provide Tenant with an itemized list of damages within thirty (30) days of termination.",
+                    "changed_text": "Upon termination of this Agreement, Tenant shall surrender the Premises in the same condition as received. Landlord may provide Tenant with a list of damages at their discretion.",
+                    "explanation": "By removing the 'ordinary wear and tear excepted' clause and the mandate to provide an itemized list within 30 days, the contract becomes more favorable to the landlord and removes consumer protections.",
+                    "contradicted_law": "California Civil Code § 1950.5",
+                    "law_citation": "Cal. Civ. Code § 1950.5",
+                    "law_url1": [
+                        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5"
+                    ],
+                    "law_url2": [
+                        "https://law.justia.com/codes/california/2022/code-civ/section-1950.5/"
+                    ],
+                    "law_explanation": "California Civil Code § 1950.5(e) requires landlords to provide an itemized statement of deductions from the security deposit within 21 days (not 30, but the omission removes that protection entirely), including the basis for the deduction. It also only allows deductions for damage beyond normal wear and tear. This modification contradicts this law by removing the requirement to provide an itemized list and by not explicitly accounting for normal wear and tear.",
+                    "location": "Section 6"
+                },
+                {
+                    "type": "Inconsistencies - Legal Contradiction",
+                    "original_text": "Landlord shall maintain the Premises in compliance with all applicable health and safety codes. Tenant shall promptly notify Landlord of any condition that requires repair or maintenance.",
+                    "changed_text": "Landlord will attempt to maintain the Premises. Tenant shall notify Landlord of any condition that requires repair or maintenance.",
+                    "explanation": "Removing the phrase 'in compliance with all applicable health and safety codes' and replacing 'shall' with 'will attempt to' weakens the landlord's obligation to maintain a habitable living environment.",
+                    "contradicted_law": "California Civil Code § 1941",
+                    "law_citation": "Cal. Civ. Code § 1941",
+                    "law_url1": [
+                        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941"
+                    ],
+                    "law_url2": [
+                        "https://casetext.com/statute/california-codes/california-civil-code/division-3-obligations/part-4-obligations-arising-from-particular-transactions/title-5-hiring/chapter-2-hiring-of-real-property/section-1941-lessor-to-make-dwelling-fit-for-its-purpose"
+                    ],
+                    "law_explanation": "California Civil Code § 1941 implies a warranty of habitability, requiring landlords to maintain the premises in a condition fit for occupation and to repair dilapidations that render it untenantable. By stating the landlord will 'attempt' to maintain, and by removing the explicit requirement to comply with health and safety codes, the contract weakens the tenant's right to a habitable living environment and contradicts this implied warranty.",
+                    "location": "Section 7"
+                },
+                {
+                    "type": "Inconsistencies - Legal Contradiction",
+                    "original_text": "In the event of a breach of this Agreement by Tenant, Landlord shall provide written notice to Tenant specifying the nature of the breach and allowing Tenant a reasonable opportunity to cure the breach, as required by law. If Tenant fails to cure the breach within the specified time, Landlord may terminate this Agreement and pursue all available legal remedies.",
+                    "changed_text": "In the event of a breach of this Agreement by Tenant, Landlord may terminate this Agreement and pursue all available legal remedies.",
+                    "explanation": "Removing the requirement for written notice and an opportunity to cure a breach violates tenant protection laws by allowing immediate eviction, which may not be legal in California.",
+                    "contradicted_law": "California Code of Civil Procedure § 1161",
+                    "law_citation": "Cal. Code Civ. Proc. § 1161",
+                    "law_url1": [
+                        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1161"
+                    ],
+                    "law_url2": [
+                        "https://codes.findlaw.com/ca/code-of-civil-procedure/ccp-sect-1161.html"
+                    ],
+                    "law_explanation": "California Code of Civil Procedure § 1161 requires landlords to provide a written notice to the tenant, specifying the reason for the eviction and giving them a certain amount of time to correct the issue (cure the breach) before an eviction lawsuit can be filed. By eliminating the requirement to provide a written notice to cure, the modified clause contradicts this legal requirement and allows for potentially illegal evictions.",
+                    "location": "Section 9"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "Exhibit 10.26 Whitesmoke Inc. Google Inc. Promotion and Distribution Agreement.docx",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Google may request that Distributor distribute the latest version of the Distribution Products. Distributor shall begin such distribution within [ * ] following Google's request.",
+                "changed_text": "Google may suggest that Distributor consider distributing newer versions of the Distribution Products. Distributor will consider commencing such distribution within a timeframe it deems reasonable following Google's suggestion.",
+                "explanation": "This change introduces ambiguity regarding the Distributor's obligation to distribute the latest versions of the Distribution Products. The original text states 'Distributor shall begin such distribution,' imposing a clear obligation. The modified text weakens this obligation by replacing 'request' with 'suggest,' 'shall begin' with 'will consider commencing,' and setting 'within [ * ]' with 'a timeframe it deems reasonable.' This introduces uncertainty.",
+                "contradicted_law": "California Business and Professions Code Section 17200",
+                "law_citation": "CA Bus. & Prof. Code § 17200",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17200"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/california/2022/code-bpc/division-7/part-2/chapter-5/section-17200/"
+                ],
+                "law_explanation": "The modified text could be interpreted as allowing the distributor to unreasonably delay or refuse to distribute necessary updates, potentially leading to security vulnerabilities or performance issues for end-users. This could constitute an unfair business practice if it harms consumers or provides an unfair competitive advantage, conflicting with California Business and Professions Code Section 17200, which prohibits unfair competition.",
+                "location": "3.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor shall comply, and shall ensure that each Third Party Distributor complies, with the Guidelines for Applications set out in Exhibit C.",
+                "changed_text": "Distributor will strive to adhere, and will encourage each Third Party Distributor to adhere, to the Guidelines for Applications outlined in Exhibit C.",
+                "explanation": "This change weakens the Distributor's and its Third Party Distributors' obligation to comply with the Guidelines for Applications. Replacing 'shall comply' with 'will strive to adhere' and 'ensure' with 'encourage' makes compliance voluntary rather than mandatory.",
+                "contradicted_law": "The Children's Online Privacy Protection Act (COPPA)",
+                "law_citation": "15 U.S.C. §§ 6501–6506",
+                "law_url1": [
+                    "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa"
+                ],
+                "law_url2": [
+                    "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-312"
+                ],
+                "law_explanation": "Exhibit C likely contains guidelines related to user privacy and data security. The weakened obligation could result in the collection of children's data without parental consent. COPPA requires verifiable parental consent before collecting, using, or disclosing personal information from children under 13. A 'striving to adhere' standard doesn't guarantee compliance with COPPA's strict requirements.",
+                "location": "3.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor shall not remove, modify, adapt, or prepare derivative works of any Google Trademarks or Google copyright notices, or other Google proprietary rights notices.",
+                "changed_text": "Distributor will use its best judgement not to remove, significantly modify, or adapt Google Trademarks or Google copyright notices, or other Google proprietary rights notices.",
+                "explanation": "The original text creates a clear prohibition. The revised version introduces significant ambiguity by adding 'use its best judgement' and 'significantly modify'. 'Best judgement' is subjective and 'significantly modify' lacks a clear definition. This could be interpreted as giving the distributor leeway to alter trademarks or notices.",
+                "contradicted_law": "Lanham Act, 15 U.S. Code § 1114",
+                "law_citation": "15 U.S.C. § 1114",
+                "law_url1": [
+                    "https://www.law.cornell.edu/topn/trademark_infringement"
+                ],
+                "law_url2": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section1114&edition=prelim"
+                ],
+                "law_explanation": "The Lanham Act protects trademark owners from unauthorized use of their trademarks that are likely to cause confusion, mistake, or deception. Allowing the distributor to use its 'best judgement' in modifying trademarks, even if not 'significantly,' could still lead to trademark infringement if it creates a likelihood of confusion, thus contradicting the Lanham Act.",
+                "location": "2.5"
+            }
+        ]
+    }
+]

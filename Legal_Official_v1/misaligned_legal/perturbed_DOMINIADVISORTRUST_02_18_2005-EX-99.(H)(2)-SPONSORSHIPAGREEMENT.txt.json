@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "DOMINIADVISORTRUST_02_18_2005-EX-99.(H)(2)-SPONSORSHIPAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder, except for willful misfeasance, bad faith or gross negligence in the performance of its duties, or by reason of the reckless disregard of its obligations and duties hereunder.",
+                "changed_text": "The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder, except for simple negligence in the performance of its duties.",
+                "explanation": "The original text specifies a higher threshold of liability (willful misfeasance, bad faith, or gross negligence). Changing this to 'simple negligence' lowers the liability standard for the Sponsor, which could conflict with standards required by the Investment Company Act of 1940 regarding fiduciary duties.",
+                "contradicted_law": "Investment Company Act of 1940 - Section 36(a) - Fiduciary Duty",
+                "law_citation": "15 U.S. Code § 80a-35(a)",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section80a-35&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/uscode/text/15/80a-35"
+                ],
+                "law_explanation": "Section 36(a) of the Investment Company Act of 1940 imposes a fiduciary duty on investment company advisors and sponsors. While it doesn't explicitly define a 'simple negligence' standard, lowering the bar for liability may be viewed as an attempt to circumvent the intended protections for investors and the expected standard of care for those managing investment companies. By lowering the standard, the contract attempts to protect the Sponsor from failures to meet their fiduciary duty.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Domini may subcontract for the performance of some or all of Domini's obligations hereunder with any one or more persons; provided, however, that Domini shall not enter into any such subcontract unless the Trustees of the Trust shall have found the subcontracting party to be qualified to perform the obligations sought to be subcontracted; and provided, further, that, unless the Trust otherwise expressly agrees in writing, Domini shall be as fully responsible to the Trust for the acts and omissions of any subcontractor as it would be for its own acts or omissions.",
+                "changed_text": "Domini may subcontract for the performance of some or all of Domini's obligations hereunder with any one or more persons; Domini is not responsible for the acts or omissions of any subcontractor.",
+                "explanation": "This removes the explicit clause making Domini responsible for the actions of its subcontractors. The original clause aligns with the typical agency law principles, but the modified version directly contradicts it. Investment advisors can't delegate away their fiduciary duties without oversight or responsibility.",
+                "contradicted_law": "Investment Advisers Act of 1940 - Fiduciary Duty",
+                "law_citation": "15 U.S. Code § 80b-6",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section80b-6&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/uscode/text/15/80b-6"
+                ],
+                "law_explanation": "Section 206 of the Investment Advisers Act implies a fiduciary duty, requiring advisors to act in the best interest of their clients. By disclaiming responsibility for subcontractors, Domini attempts to avoid accountability for actions that could harm the Trust, which directly contradicts the implied fiduciary duty under the Act. The advisor cannot simply abdicate responsibility for actions carried out on their behalf.",
+                "location": "Section 7"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the Commonwealth of Massachusetts without reference to principles of conflicts of law.",
+                "changed_text": "This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the People's Republic of China without reference to principles of conflicts of law.",
+                "explanation": "This changes the governing law from Massachusetts to the People's Republic of China. The original choice of Massachusetts law is reasonable given the location of the parties (Massachusetts business trust and Massachusetts LLC). Applying PRC law to a US-based investment trust agreement likely conflicts with US securities regulations and investor protection laws.",
+                "contradicted_law": "Supremacy Clause of the United States Constitution",
+                "law_citation": "U.S. Const. Art. VI, cl. 2",
+                "law_url1": [
+                    "https://constitution.congress.gov/browse/essay/artvi_cl2_1/"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/constitution/articlevi"
+                ],
+                "law_explanation": "The Supremacy Clause dictates that the Constitution and federal laws are the supreme law of the land. While parties can generally choose their governing law, such a choice cannot override mandatory provisions of US federal law, especially those designed to protect US investors and regulate US-based investment companies. Selecting Chinese law to govern an agreement subject to US federal securities regulations is likely unenforceable to the extent it conflicts with US law and policy. The Investment Company Act of 1940 is federal law; therefore, the agreement cannot choose PRC law.",
+                "location": "Section 10"
+            }
+        ]
+    }
+]

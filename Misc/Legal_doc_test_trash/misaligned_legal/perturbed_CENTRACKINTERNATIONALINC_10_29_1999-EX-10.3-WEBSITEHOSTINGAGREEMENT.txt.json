@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "Exhibit 10.3 I-on.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The term \"Web site\" shall mean a computer system intended to be accessed through the World Wide Web segment of the Internet, including software and content intended to be viewed and/or operated upon by persons accessing the computer system via the Internet. A Web site may exist on a single computer system with other Web sites.",
+                "changed_text": "The term \"Web site\" shall mean a collection of static HTML pages viewable on a single browser. A Web site shall not include dynamic content, server-side scripts, or any interactive elements.",
+                "explanation": "This modification severely restricts the definition of a \"Web site,\" contradicting the common and legal understanding of what a website entails, especially concerning interactive content and dynamic elements.",
+                "contradicted_law": "Florida Statutes Chapter 487.031(5)(b)",
+                "law_citation": "FS 487.031(5)(b)",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0487/Sections/0487.031.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2023/title-xxxii/chapter-487/487-031/"
+                ],
+                "law_explanation": "The modified definition excludes interactive elements which are inherent in the statutory definition of a website. Florida Statute 487.031(5)(b) discusses web pages and websites in relation to pesticide information. This implies that Florida law views a website as being able to provide dynamic information and services, not just static pages, related to things such as pesticide use. The modified definition removes dynamic functionality, thus conflicting with the implicit definition within the statute.",
+                "location": "DEFINITIONS"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site.",
+                "changed_text": "i-on will attempt to maintain the operation of the Hosted Site during business hours, Monday through Friday, excluding federal holidays, subject to unforeseen outages and maintenance.",
+                "explanation": "This change introduces ambiguity regarding uptime commitments, significantly reducing the guaranteed availability of the hosted site. This could expose i-on to liability if continuous operation is essential for the customer's business and contradicts any implied warranties of service availability.",
+                "contradicted_law": "Florida Statutes § 672.314",
+                "law_citation": "FS § 672.314",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0672/Sections/0672.314.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2022/title-xxxix/chapter-672/672-314/"
+                ],
+                "law_explanation": "Florida Statute § 672.314 addresses the implied warranty of merchantability in the sale of goods and services. While this contract is for services, the change from 'continuous operation' to operation only during 'business hours' may be seen as a breach of implied warranty if the customer reasonably expects 24/7 availability, particularly given the nature of web hosting. By significantly reducing the guaranteed uptime, the modified text introduces a potential conflict with the implied warranty of reasonable service, leading to legal uncertainty.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Customer is solely responsible for all content on the Hosted Site, including but not limited to, HTML pages, graphics, sounds, animations, video clips, Java applets, client-site scripts such as JavaScript and VBScript features, ActiveX controls, and other files and/or executable components for use or download by the users of the Hosted Site, as well as the accuracy and validity of any information or data contained within, as well as the overall look-and-feel of the Hosted Site from a user's perspective.",
+                "changed_text": "The Customer is generally responsible for the overall aesthetic design of the website, but i-on assumes all responsibility for ensuring the legality, accessibility and compliance of the content with state and federal guidelines, including any and all software programs, server-side scripts, and/or executable components that are installed on the Hosting Computer.",
+                "explanation": "This modification shifts the responsibility for legal compliance from the customer to i-on. This is a contradiction because website owners are typically held responsible for the content they publish, especially in cases of copyright infringement, defamation, or violation of accessibility laws.",
+                "contradicted_law": "17 U.S. Code § 512",
+                "law_citation": "17 U.S.C. § 512",
+                "law_url1": [
+                    "https://www.law.cornell.edu/topn/digital_millennium_copyright_act"
+                ],
+                "law_url2": [
+                    "https://copyright.gov/legislation/dmca.pdf"
+                ],
+                "law_explanation": "17 U.S.C. § 512 outlines the safe harbor provisions for online service providers (OSPs) regarding copyright infringement. While it protects OSPs under certain conditions, it fundamentally places the responsibility for infringing content on the user (the customer in this case). By stating that i-on assumes responsibility for the legality of the content, it contradicts the principle that the content provider (customer) is primarily liable for copyright violations. The safe harbor provisions apply to i-on's protection from the client doing illegal things, not the other way around.",
+                "location": "RESPONSIBILITIES OF THE CUSTOMER"
+            }
+        ]
+    }
+]

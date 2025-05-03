@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "SIBANNAC,INC_12_04_2017-EX-2.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 30 days after each client payment on delivered products received at COMPANY's bank account.",
+                "changed_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable upon COMPANY's discretion.",
+                "explanation": "The original contract states that the lead-finder fee is payable NET 30 days after client payment. The modified text replaces this with 'payable upon COMPANY's discretion'. This contradicts standard business practices and potentially Texas state laws regarding payment terms for services rendered.",
+                "contradicted_law": "Texas Prompt Payment Act",
+                "law_citation": "Texas Business and Commerce Code § 28.004",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.28.htm"
+                ],
+                "law_url2": [
+                    "https://www.texasbar.com/AM/Template.cfm?Section=Find_A_Lawyer&Template=/CustomSource/MemberDirectory/SearchResultDetail.cfm&ContactID=188613"
+                ],
+                "law_explanation": "The Texas Prompt Payment Act sets deadlines for payments to independent contractors, and allows for interest and penalties for late payments. By stating that payment is at COMPANY's discretion, the modified text contradicts the requirement for timely payment and the potential for penalties under Texas law. While the Act primarily concerns construction contracts, the principle of prompt payment is generally recognized and implied in many service contracts, especially concerning clear payment terms.",
+                "location": "Section 4"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Confidential information shall mean any and all technical and non-technical information, documents and materials related to client projects of party and products, services and business of each of the parties.",
+                "changed_text": "Confidential information shall mean only that information explicitly marked as 'Confidential' in writing.",
+                "explanation": "The original definition of 'Confidential Information' is broad, covering all technical and non-technical information. The modified text narrows the definition significantly, requiring explicit marking. This conflicts with common law and potentially Texas trade secret laws, which protect a broader range of information as confidential based on its nature and the circumstances.",
+                "contradicted_law": "Texas Uniform Trade Secrets Act (TUTSA)",
+                "law_citation": "Texas Civil Practice & Remedies Code § 134A.002",
+                "law_url1": [
+                    "https://statutes.capitol.texas.gov/Docs/CP/htm/CP.134A.htm"
+                ],
+                "law_url2": [
+                    "https://guides.sll.texas.gov/trade-secrets"
+                ],
+                "law_explanation": "The Texas Uniform Trade Secrets Act (TUTSA) protects trade secrets, which are defined more broadly than just explicitly marked information. TUTSA protects information that derives independent economic value from not being generally known and is subject to reasonable efforts to maintain its secrecy. The modified contract language undermines the protection afforded by TUTSA by requiring explicit marking, which is not a requirement under the law. Information may be a trade secret without being explicitly marked as such.",
+                "location": "Section 5"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Texas.",
+                "changed_text": "This Agreement is entered into in the State of Texas and shall be interpreted according to the laws of Nevada.",
+                "explanation": "The agreement specifies Texas law as the governing law. However, Sibannac, Inc. is organized under the laws of Nevada. Changing the governing law to Nevada introduces a conflict because while parties can generally choose governing law, courts may refuse to enforce the choice if it has no reasonable relationship to the contract or violates a fundamental public policy of the state where the contract is to be performed. The location of one of the parties might be sufficient.",
+                "contradicted_law": "Texas Choice of Law Principles",
+                "law_citation": "Restatement (Second) of Conflict of Laws § 187",
+                "law_url1": [
+                    "https://law.cornell.edu/wex/conflict_of_laws"
+                ],
+                "law_url2": [
+                    "https://www.uniformlaws.org/committees/community-home?communitykey=67755b4f-e12b-413a-908e-9b77b23b5e09"
+                ],
+                "law_explanation": "Texas courts generally honor choice-of-law provisions, but under the Restatement (Second) of Conflict of Laws § 187, which Texas courts often follow, the chosen law must have a substantial relationship to the parties or the transaction, or there must be some other reasonable basis for the parties' choice. If Nevada law is chosen, but the contract is executed in Texas, concerns activity primarily in Texas, and one of the primary parties is in Texas, a Texas court may determine that the choice of Nevada law is invalid, especially if it contravenes fundamental Texas public policy or statutory requirements, leading to uncertainty in the enforceability of the agreement. Because Nevada is the location where one of the parties is organized, this perturbation will not be able to be determined as in violation by a court of law.",
+                "location": "Section 9"
+            }
+        ]
+    }
+]

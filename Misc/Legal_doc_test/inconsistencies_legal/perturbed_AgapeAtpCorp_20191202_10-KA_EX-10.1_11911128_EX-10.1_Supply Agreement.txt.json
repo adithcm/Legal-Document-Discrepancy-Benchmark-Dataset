@@ -1,0 +1,40 @@
+[
+    {
+        "file_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Products not rejected within the foregoing time periods shall be deemed accepted by the Customer.",
+                "changed_text": "Products not rejected within the foregoing time periods shall be deemed accepted by the Customer, irrespective of any latent defects that may exist.",
+                "explanation": "This modification attempts to remove the implied warranty of merchantability, which contradicts the Sale of Goods Act in England, which is the governing law of the contract.",
+                "contradicted_law": "Sale of Goods Act 1979 (UK)",
+                "law_citation": "Sale of Goods Act 1979, s 14",
+                "law_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/14",
+                "law_explanation": "Section 14 of the Sale of Goods Act 1979 implies a condition that goods sold in the course of a business are of satisfactory quality. The modification attempts to waive this implied condition, but it is difficult to exclude liability for latent defects without clear and unambiguous language and the buyer being fully aware of the terms, which may not be the case. Therefore, the altered clause could be challenged under English law.",
+                "location": "5.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "7.2 Rectification of Breach Where the breach is rectifiable, the breaching party has 21 days from the date of notification of its breach to rectify. Following the expiry of this period, the non-breaching party may execute any rights it may have both in law and under this agreement.",
+                "changed_text": "7.2 Rectification of Breach Where the breach is rectifiable, the breaching party has 7 days from the date of notification of its breach to rectify. Following the expiry of this period, the non-breaching party may execute any rights it may have both in law and under this agreement.",
+                "explanation": "Reducing the breach rectification period to 7 days may be considered unreasonably short, especially for complex breaches, and may contradict the principle of 'reasonable time' as interpreted by English courts in contract law.",
+                "contradicted_law": "English Contract Law - Reasonableness Standard",
+                "law_citation": "English Contract Law Principles - Implied Terms of Reasonableness",
+                "law_url": "https://www.lawcom.gov.uk/project/consumer-insurance-law/",
+                "law_explanation": "While there's no specific statute dictating a fixed time for breach rectification in all cases, English contract law implies a term of 'reasonableness.' A court might find 7 days insufficient for rectifying certain types of breaches, thereby rendering the clause unenforceable or subject to judicial modification. The link provided is a report from the law commission covering insurance law and it relates to the concept of fair presentation and the duty to give notice of potentially fraudulent claims.",
+                "location": "7.2"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "1.3 Renewal This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten (10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement.",
+                "changed_text": "1.3 Renewal This agreement will be automatically renewed at the end of every twenty (20) year term, with each subsequent term of renewal being for a twenty (20) year term. A one (1) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement.",
+                "explanation": "Increasing the renewal term to 20 years and reducing the notice period to 1 month may be deemed unreasonable and could be challenged under English law, particularly concerning restraint of trade and fairness.",
+                "contradicted_law": "English Contract Law - Restraint of Trade Doctrine",
+                "law_citation": "English Contract Law Principles - Reasonableness and Restraint of Trade",
+                "law_url": "https://www.lawcom.gov.uk/project/consumer-insurance-law/",
+                "law_explanation": "English law disfavors agreements that unduly restrict a party's freedom to trade. While this agreement isn't a typical restraint of trade clause, the extended renewal period and shortened notice period create a significant restriction on the Manufacturer's ability to deal with other parties. A court might find this unreasonable and unenforceable, especially if it creates a significant imbalance of power between the parties. The link provided is a report from the law commission covering insurance law and it relates to the concept of fair presentation and the duty to give notice of potentially fraudulent claims.",
+                "location": "1.3"
+            }
+        ]
+    }
+]

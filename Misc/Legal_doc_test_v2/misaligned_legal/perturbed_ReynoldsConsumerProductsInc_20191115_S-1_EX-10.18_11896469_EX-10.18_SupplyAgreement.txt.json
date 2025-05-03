@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Party is formed, registered, licensed and operating its business in compliance with the laws of the United States of America, its states and territories, and any districts, municipalities and other political subdivisions of the foregoing (\"Applicable Laws\").",
+                "changed_text": "The Party is formed, registered, licensed and operating its business in substantial compliance with the laws of the United States of America, its states and territories, and any districts, municipalities and other political subdivisions of the foregoing (\"Applicable Laws\").",
+                "explanation": "Changing \"compliance\" to \"substantial compliance\" introduces ambiguity and legal risk. \"Substantial compliance\" is less stringent, potentially allowing a party to operate while not fully adhering to all laws. This can create disputes over what constitutes \"substantial compliance\" and whether it suffices under the contract.",
+                "contradicted_law": "The Contract Clause of the United States Constitution",
+                "law_citation": "U.S. Const. Art. I, § 10, cl. 1",
+                "law_url1": [
+                    "https://constitution.congress.gov/browse/essay/artI-S10-C1-1/"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/constitution-conlaw/article-1/section-10/clause-1"
+                ],
+                "law_explanation": "The Contract Clause prohibits states from passing laws that impair the obligations of contracts. Changing 'compliance' to 'substantial compliance' weakens the original contractual obligation to fully comply with laws, and impairs the original contractual obligation to follow 'Applicable Laws'. A state law cannot retroactively change the definition of 'compliance' in a pre-existing contract to 'substantial compliance'.",
+                "location": "5. General Representations, Warranties and Covenants. a."
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Workers' Compensation Liability Insurance. Occurrence based coverage providing benefits in the minimal amount required by Applicable Law for workplace and work related injuries and illnesses to the employees of a Party, including, without limitation, Workers Compensation Acts of applicable U.S. States, the U.S. Longshoremen's and Harbor Workers Compensation Act and the U.S. Jones Act.",
+                "changed_text": "Workers' Compensation Liability Insurance. Occurrence based coverage providing benefits in an amount deemed reasonable by the Party for workplace and work related injuries and illnesses to the employees of a Party, including, without limitation, Workers Compensation Acts of applicable U.S. States, the U.S. Longshoremen's and Harbor Workers Compensation Act and the U.S. Jones Act.",
+                "explanation": "Replacing \"minimal amount required by Applicable Law\" with \"an amount deemed reasonable by the Party\" directly contradicts mandatory workers' compensation laws. This change allows a party to determine its own compensation levels, regardless of legal minimums.",
+                "contradicted_law": "State Workers' Compensation Laws",
+                "law_citation": "29 CFR § 1904",
+                "law_url1": [
+                    "https://www.osha.gov/laws-regs/regulations/standardnumber/1904"
+                ],
+                "law_url2": [
+                    "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904"
+                ],
+                "law_explanation": "Workers' compensation laws mandate specific benefits for workplace injuries and illnesses. Allowing a party to unilaterally determine \"reasonable\" amounts circumvents these legal requirements, potentially leading to insufficient coverage and violating state and federal regulations.",
+                "location": "8. Insurance. c."
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid. In addition, if Seller has to file litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Seller in collecting the delinquent amount and accrued late payment fees on the delinquent amount.",
+                "changed_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to ten percent (10%) of the delinquent amount for each day past the invoice due date that the delinquent amount remains unpaid. In addition, if Seller has to file litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for arbitrary expenses incurred by Seller in collecting the delinquent amount and accrued late payment fees on the delinquent amount.",
+                "explanation": "Increasing the late payment fee to 10% per day and removing the 'reasonable' qualification for collection expenses introduces usury concerns and contradicts legal standards for debt collection. Many jurisdictions have laws limiting the amount of interest that can be charged on debts. Further, removing the term 'reasonable' makes the expenses charged for debt collection questionable.",
+                "contradicted_law": "Illinois Interest Act",
+                "law_citation": "815 ILCS 205/2",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2269&ChapterID=65"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/illinois/2022/chapter-815/act-205/section-2/"
+                ],
+                "law_explanation": "The Illinois Interest Act sets limits on the interest rates that can be charged on various types of debts. A daily interest rate of 10% on a delinquent amount is far beyond what is legally permissible. This exceeds statutory limits and may constitute usury.",
+                "location": "11. Dispute Resolution. e."
+            }
+        ]
+    }
+]

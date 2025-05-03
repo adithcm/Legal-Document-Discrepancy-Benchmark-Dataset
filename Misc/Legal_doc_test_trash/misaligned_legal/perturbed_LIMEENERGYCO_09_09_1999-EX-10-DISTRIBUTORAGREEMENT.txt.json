@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "EXHIBIT 10.6 DISTRIBUTOR AGREEMENT",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The relationship between the Company and the Distributor Page -3- is that of vendor and vendee. This Agreement does not create the relationship of principal and agent between the Company and the Distributor for any purpose whatsoever.",
+                "changed_text": "The relationship between the Company and the Distributor Page -3- is that of vendor and vendee. This Agreement creates the relationship of principal and agent between the Company and the Distributor for the purpose of marketing the Products.",
+                "explanation": "By stating that the agreement creates a principal-agent relationship for marketing, it directly contradicts the initial statement that no such relationship exists, and it introduces ambiguity about the scope of agency. The original text explicitly disclaims a principal-agent relationship, intending to limit the Company's liability for the Distributor's actions. The modification seeks to establish an agency relationship, at least for marketing purposes, potentially exposing the Company to liability for the Distributor's marketing activities. This creates a conflict.",
+                "contradicted_law": "Agency Law - creates confusion regarding liability and authority.",
+                "law_citation": "Illinois Agency Law",
+                "law_url1": [
+                    "https://www.ilga.gov/"
+                ],
+                "law_url2": [
+                    "https://www.isba.org/public/guide/lawterms/agency"
+                ],
+                "law_explanation": "Agency law in Illinois defines the rights, duties, and liabilities of principals and agents. By creating an agency relationship for marketing purposes, the Company now bears the legal responsibility for the representations made by the Distributor during marketing activities. This responsibility is contradictory to the original intent of the agreement, which seeks to limit Company's liability and oversight of Distributor's actions. It opens the possibility of vicarious liability for the Company based on the Distributor's conduct.",
+                "location": "Section 1.7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "The Distributor shall pay Company within thirty (30) days of Distributor's or, as the case may be, the end-user's receipt of Products.",
+                "changed_text": "The Distributor shall pay Company within sixty (60) days of Distributor's or, as the case may be, the end-user's receipt of Products, unless otherwise agreed upon in writing. Company may, at its discretion, offer early payment discounts.",
+                "explanation": "Changing the payment terms from 30 to 60 days alters the initial agreement on accounts receivable and introduces uncertainty through the 'unless otherwise agreed' clause. It modifies the agreed payment timeline, making it ambiguous and dependent on future agreements.",
+                "contradicted_law": "Uniform Commercial Code - modification requires consideration.",
+                "law_citation": "UCC § 2-209",
+                "law_url1": [
+                    "https://www.law.cornell.edu/ucc/2/2-209"
+                ],
+                "law_url2": [
+                    "https://www.uniformlaws.org/"
+                ],
+                "law_explanation": "Under UCC § 2-209, modifications to contracts for the sale of goods require consideration to be binding. The added clause 'unless otherwise agreed upon in writing' opens the door for potentially unenforceable modifications if not supported by consideration, creating a legal contradiction regarding the payment terms.",
+                "location": "Section 2.7"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a workmanlike manner and that such Products shall be fully functional and fit for their intended purposes. Company further warrants that the Products sold hereunder shall be free from defects in design, materials and workmanship for a period of twenty-four (24) months after delivery to Distributor's end-user.",
+                "changed_text": "Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a workmanlike manner. Company warrants that the Products will be functional. Company further warrants that the Products sold hereunder shall be free from defects in design, materials and workmanship for a period of six (6) months after delivery to Distributor's end-user.",
+                "explanation": "The warranty period is changed from 24 months to 6 months, significantly reducing the protection for the distributor and end-users, making the contract less appealing and shifting more risk to the distributor.",
+                "contradicted_law": "Magnuson-Moss Warranty Act - consumer protection",
+                "law_citation": "15 U.S. Code § 2301",
+                "law_url1": [
+                    "https://www.law.cornell.edu/topn/magnuson-moss_warranty_act"
+                ],
+                "law_url2": [
+                    "https://www.ftc.gov/legal-library/browse/statutes/magnuson-moss-warranty-federal-trade-commission-improvement-act"
+                ],
+                "law_explanation": "While the Magnuson-Moss Warranty Act primarily addresses consumer warranties, reducing the warranty period drastically to 6 months can raise concerns about whether the warranty is deceptive or unfair, particularly if the product's expected lifespan is significantly longer. This can lead to legal challenges based on implied warranties and consumer protection laws.",
+                "location": "Section 3.3"
+            }
+        ]
+    }
+]

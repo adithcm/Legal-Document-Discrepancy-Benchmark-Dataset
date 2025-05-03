@@ -1,0 +1,550 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html" charset="gb2312" /><title>
+	Resolution of the Standing Committee of the National People's Congress on Continued Dissemination of and Education in the Legal System
+</title><link id="csslink" href="CSs/Csst.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #e_font
+        {
+            table-layout: fixed;
+        }
+         #divtitle ul li
+        {
+            word-break:break-word;
+            }
+    </style>
+    <script type="text/javascript">
+
+        function showonmouseover(obj) {
+            obj.style.backgroundColor = '#EEEEEE';
+        }
+        function showonmouseout(obj) {
+            obj.style.backgroundColor = '#FFFFFF';
+        }
+
+        //改变字体
+        function doZoomSize(size) {
+            var eTd = document.getElementById('e_font');
+            var elists = eTd.getElementsByTagName("td");
+            for (var i = 0; i < elists.length; i++) {
+                var eTdnum = elists[i];
+                eTdnum.style.fontSize = size + 'px';
+            }
+        }
+    </script>
+    <script src="Js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Js/Display_showDialog.js" charset="gb2312"></script>
+    <script type="text/javascript" src="Law_Ajax/function.js"></script>
+    <script type="text/javascript" src="Js/javascript.js"></script>
+    <script type="text/javascript" src="Js/Js_Login.js"></script>
+    <script type="text/javascript" src="Js/pageSerch.js"></script>
+    <script type="text/javascript" src="Js/Gb_Big.js" charset="gb2312"></script>
+    <script type="text/javascript" src="Js/fixled.js"></script>
+    <script type="text/javascript">
+        function logout() {
+            var now = new Date();
+            SetCookie("CheckIPDate", now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate() + " " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds());
+            location.reload(true);
+            CheckLogout();
+        }
+        CheckOnline();
+    </script>
+</head>
+<body class="body1"  onload="showDate()" >
+    <form name="form1" method="post" action="/display.aspx?id=1046&amp;lib=law" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjU4MDA2ODg3ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBAUMSW1hZ2VCdXR0b24zBQxJbWFnZUJ1dHRvbjQFDEltYWdlQnV0dG9uMQUMSW1hZ2VCdXR0b24y" />
+
+
+<script src="/WebResource.axd?d=ID0hfrnxA0D1-vzDA3VUqQeU6ReKBYvLReef0dtNa1iLZu-8uC-xWwJPwZWsFK5L3QB8RiCuoBWDjotryCJDwyibq9soNWgJrRB7xeAYCdAuMBIsiNLDB74ivtRmAjsALvduXg2&amp;t=635282417730000000" type="text/javascript"></script>
+    <div style="width: 98%; text-align: center; padding-left: 1%;" id="Dw_topdiv">
+        <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="top-3">
+                    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td height="40" valign="middle" style="background-color: #2C2C2C">
+                                <table width="970" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td colspan="3">
+                                            <script type="text/javascript" src="Js/Js_Login.js"></script>
+
+<script type="text/javascript">
+    function showDate(){
+        var m=new Array("Jan.","Feb.","Mar.","Apr.","May","Jun","Jul.","Aug.","Spt.","Oct.","Nov.","Dec."); 
+        var w=new Array("Monday","Tuseday","Wednesday","Thursday","Friday","Saturday","Sunday"); 
+        var date = new Date();
+        var temp = m[date.getMonth()] + "  ";
+        temp += date.getDate()+",  ";
+        temp += date.getFullYear()+"<br/>---------------------<br/>";
+        temp += w[date.getDay()-1];
+        document.getElementById("timeShow").innerHTML = temp;
+    }
+        RefershTime = setInterval("AutoRefresh()",30000); //huangjun 20011028 添加页面自动刷新函数
+
+</script>
+
+<table width="1000" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+        <td style="background-color: #C30044;text-align: center;vertical-align: middle;display: block;width: 1000px;border-top-width: 10px;border-top-style: solid;border-top-color: #7F002F;border-bottom-width: 5px;border-bottom-style: solid;border-bottom-color: #000000;">           <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td style="width:250px">
+                        <a href="/index.aspx">
+                            <img src="images/homepage_b.jpg" style="float:right" border="0" /></a></td>
+                    <td style="width: 594px;background-image: url(Images/new_banner.jpg);background-repeat: no-repeat;background-position: left;">
+                        <a href="ProductsServices/index.shtm" style="width: 594px; display:block;height:95px" ></a></td>
+                    <td>
+                        <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="center" valign="top">
+                                </td>
+                                <td align="center" valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="riqi" style="color:#ffffff" id="timeShow">
+                                    May 31, 2010<br />
+                                    ---------------------<br />
+                                    Monday</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tou-3">
+                                            <div id="divwelcome" style="width: 230px" align="left">&gt;&gt;&gt;Welcome visitor, you're not logged in.</div>
+                                        </td>
+                                        <td>
+                                            <table border="0" align="left" cellpadding="0" cellspacing="0" style="width: 100%">
+                                                <tr>
+                                                    <td  align="right">
+                                                        <table width="190" height="22" border="0" align="left" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td align="center" style="text-align: left" valign="middle">
+                                                                    <a href="login.aspx?sFlg=1&Lib=law&Cgid=14409&Id=1046&SearchKeyword=&SearchCKeyword=&paycode=" id="linklogin" target="_parent" class="ljbz">Login</a>
+                                                                </td>
+                                                                <td align="center" style="text-align: left" valign="middle">
+                                                                    <a href="http://login.lawinfochina.com/RegEUser.aspx" id="subNow" target="_blank" class="ljbz">&nbsp;&nbsp;Subscribe Now!</a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    
+                                                    <td align="center" class="lanmu-bj" style="height: 19px; width: 100%">
+                                                        <table border="0" width="450" align="right" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td align="left" style="width: 100px">
+                                                                    <a href="/index.aspx" class="lamnu">Home</a>
+                                                                </td>
+                                                                <td align="left">
+                                                                    <a href="/User/UserInfo.aspx" target="_parent" class="lamnu">User Management</a>
+                                                                </td>
+                                                                <td align="left">
+                                                                    <a href="/ProductsServices/index.shtm" target="_blank" class="lamnu">About Us</a>
+                                                                </td>
+                                                                <td align="left">
+                                                                    <a href="http://www.pkulaw.com" target="_blank" class="lamnu">Chinese</a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td align="right">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                         <tr>
+                <td align="left" style="background-color: #F1F1F1;">
+                    <table border="0" height="30" cellspacing="0" cellpadding="0">
+                        <tr>
+                           
+                            <td id="nav_td">
+                                   &nbsp;<a href="../index.aspx"><b>lawinfochina.com</b></a>                         
+                                <span id="navi_div"> > <a href='Search/SearchLaw.aspx'><b>Laws & Regulations</b></a> ><b> Text</b></span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+                        <tr>
+                            <td height="44" style="background-color: #EDEDED" valign="middle">
+                                <table width="97%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left" valign="middle">
+                                            <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td width="12" class="left-00">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td width="75">
+                                                        <img src="Images/Favorite.jpg" /><a href="#" id="linkFavorite" style="vertical-align: top;" class="left-lj" onclick="alert(&quot;Sorry, you're not logged in!Please login or register to favorite this document.!\n\nIf you have any question, please contact us at:  \nTel: +86 (10) 82689699, +86 (10) 82668266 ext.153. Mobile: +86 13311570713 ,\nE-mail:database@chinalawinfo.com&quot;)">Bookmark </a>
+                                                    </td>
+                                                    <td width="12" class="left-00">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td width="90">
+                                                        <img src="Images/download.jpg" /><a href="#" id="linkDownLoad" style="vertical-align: top;" class="left-lj" onclick="showDialog('Download','Download/Download.aspx?Lib=law&amp;Cgid=14409&amp;Id=1046&amp;SearchKeyword=&amp;SearchCKeyword=&amp;paycode=&amp;LookType=',400,200,true)">Download </a>
+                                                    </td>
+                                                    <td class="left-00">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        <img src="Images/print.jpg" /><a href="Print/Print.aspx?Lib=law&Cgid=14409&Id=1046&SearchKeyword=&SearchCKeyword=&paycode=&LookType=" id="linkPrint" style="vertical-align: top;" class="left-lj" target="_blank">Print </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="150" align="right" valign="top" style="text-align: right">
+                                            <font color="#247F97">Search:</font><input name="KeyWord" id="KeyWord" type="text"
+                                                class="border1" size="8">&nbsp;
+                                        </td>
+                                        <td width="50" align="left" valign="middle" style="text-align: left">
+                                            <a href="javascript:findIt()">
+                                                <img src="Images/serch.jpg" alt="serch" border="0" /></a>
+                                        </td>
+                                        <td width="140" align="right" valign="top" style="text-align: right">
+                                            <label>
+                                                <span class="banquan-wz">
+                                                    <input type="checkbox" name="FWinCookie" value="1" id="FWinCookie" onclick="javascript:SetFWinCookie(this)" />
+                                                </span>
+                                            </label>
+                                            <span class="banquan-wz">"Fabao" Window</span>
+                                        </td>
+                                        <td width="100" align="right" valign="top" style="text-align: right">
+                                            <font color="#247F97">Font Size:</font>
+                                        </td>
+                                        <td width="70" align="left" valign="middle" style="text-align: left">
+                                            <a href="javascript:doZoomSize(12)">
+                                                <img src="Images/Asm.jpg" alt="Home Page" border="0" /></a><a href="javascript:doZoomSize(16)"><img
+                                                    src="Images/Amid.jpg" alt="Home Page" border="0" /></a><a href="javascript:doZoomSize(18)"><img
+                                                        src="Images/ABig.jpg" alt="Home Page" border="0" /></a>
+                                        </td>
+                                        <td width="40" align="right" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton3" id="ImageButton3" title="Only English" src="Images/onlyEnglish.JPG" border="0" />
+                                        </td>
+                                        <td width="30" align="left" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton4" id="ImageButton4" title="Only Chinese" src="Images/onlyChinese.JPG" border="0" />
+                                        </td>
+                                        <td width="40" align="right" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton1" id="ImageButton1" title="Chinese-English Bilingual Format Arranged in Two Separate Vertical Boxes" src="Images/3-a.jpg" border="0" />
+                                        </td>
+                                        <td width="40" align="right" valign="middle" style="text-align: right">
+                                            <input type="image" name="ImageButton2" id="ImageButton2" title="Chinese-English Bilingual Format Arranged Article-by-Article in Left-Right Boxes" src="Images/3-b.jpg" border="0" />
+                                        </td>
+                                        
+                                        <td width="25" align="right" valign="top" style="text-align: right; vertical-align: top;
+                                            padding-left: 10px">
+                                            <script type="text/javascript">
+                                                var url = document.location.href;
+                                                var pt = /&EncodingName/;
+                                                if (pt.test(url)) {
+                                                    url = url.replace('&EncodingName=gb2312', '');
+                                                    url = url.replace('&EncodingName=big5', '');
+                                                }
+                                                document.write("<a href=\"" + url + "&EncodingName=gb2312\" style=' margin-bottom:0px;display:block;width:26px;height:12px' >简体</a><div style='display: block;'></div><a href=\"" + url + "&EncodingName=big5\" style=' margin-bottom:8px;display:block;width:26px;height:12px'>繁体</a>");
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript">
+        //fixedPosition(document.getElementById("Dw_topdiv"), 0, 0);
+    </script>
+    <div style="width: 98%; text-align: center;  padding-left: 1%;"
+        id="body2" name="body2">
+        <table width="1000px" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table width="1000" border="0" cellpadding="0" align="center" cellspacing="0" class="top-3-bj">
+                        <tr>
+                            <td class="zuo-3">
+                                &nbsp;
+                            </td>
+                            <td valign="middle">
+                                <table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td width="950" valign="top">
+                                            <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td align="left">
+                                                        <span style="font-weight: 900; font-size: 13px; margin-bottom: 8px;">
+                                                            <span id="lbETitle">Resolution of the Standing Committee of the National People's Congress on Continued Dissemination of and Education in the Legal System</span></span>
+                                                        <span id="lbESX" class="tou_3_hj"><a href='Search/SearchLaw.aspx?Effective=01'>[Effective]</a></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <span style="font-weight: 900; font-size: 13px; margin-bottom: 8px;">
+                                                            <span id="lbCTitle"><a href='http://www.pkulaw.cn/fulltext_form.aspx?Db=chl&Gid=14409' target='_blank'>全国人民代表大会常务委员会关于继续开展法制宣传教育的决议</a></span></span>
+                                                        <span id="lbCSX" class="tou_3_hj"><a href='Search/SearchLaw.aspx?Effective=01'>[现行有效]</a></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <span style="font-weight: 900; font-size: 13px; margin-bottom: 8px;">
+                                                            <span id="Label1"></span></span>
+                                                        <span id="fbNO" class="tou_3_hj"><strong>【法宝引证码】</strong><script language=javascript src='http://www.pkulaw.cn/fbm/GidToFbm.ashx?Gid=14409&Lib=elaw&XiaoLi=XA0102'></script></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <div id="divtitle">
+                                                            <div id="divtitle0" style="clear: both;">
+                                                                <ul style="padding: 0 10px; margin: 5px 0px 5px 0px; width: 100%;">
+                                                                
+                                                                <li style="list-style: none; width: 50%; float: left;"><strong>
+                                                                   
+                                                                    Issuing authority：</strong>
+                                                                    <a href='Search/SearchLaw.aspx?department=2'>Standing Committee of the National People's Congress</a></li>
+                                                                
+                                                                    <li style="list-style: none; width: 50%; float: left;"><strong> Date issued：</strong>
+                                                                    05-15-1996
+                                                                
+                                                                    </li>
+                                                                    <li style="list-style: none; width: 50%; float: left;"><strong>Effective date:</strong>
+                                                                    05-15-1996
+                                                                
+                                                                    </li>
+                                                                    <li style="list-style: none; width: 50%; float: left;"><strong>Level of Authority:</strong>
+                                                                    <a href='Search/SearchLaw.aspx?xiaoli=XA0102'>Decisions on Legal Issues</a>
+                                                                
+                                                                    </li>
+                                                                    <li style="list-style: none; width: 50%; float: left;"><strong>Area of Law:</strong><a href='Search/SearchLaw.aspx?subject=00405'>Legislative Affairs</a>
+                                                                </li>
+                                                                </ul>
+                                                            </div>
+    </div>
+    </td> </tr>
+    <tr>
+        <td align="left">
+            
+        </td>
+    </tr>
+   <tr>
+        
+        <td valign="top" colspan="2" class="main-xian">
+           &nbsp; 
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+           <div id="es_title" style="width: 610px; float: left;">
+                                                            &nbsp;&nbsp;
+                                                        </div>
+                                                        <div id="cs_title" style="width: 270px; float: left; padding-left: 20px">
+                                                        </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+            
+            
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+            
+            
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+            
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <div id="divContent"><table width="900" border="0" cellspacing="0" cellpadding="8" id="e_font">
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" ></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top">　</td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >RESOLUTION OF THE STANDING COMMITTEE OF THE NATIONAL PEOPLE'S CONGRESS ON CONTINUED DISSEMINATION OF AND EDUCATION IN THE LEGAL SYSTEM<br/>(Adopted at the 19th Meeting of the Standing Committee of the Eighth National People's Congress on May 15, 1996)<br/>Dissemination of and education in the legal system, which began in 1986, has been going on for ten years and has played a positive role in enhancing the whole nation's understanding of the legal system, promoting the development of socialist democracy and the socialist legal system and ensuring success in reform and the open policy and progress of the socialist modernization drive. In order to meet the need of building and improving the system of a socialist market economy and promoting fulfillment of the Ninth Five-Year Plan for national economic and social development and attainment of the Outline of the Long-Range Objectives through the Year 2010, the Standing Committee of the National People's Congress believes that it is necessary to implement a third five-year plan (1996-2000) for dissemination of and education in the legal system among citizens. The purpose is, through continued and deepened dissemination of and education in the legal system, focusing on the <A class=alink onmouseover=EAJI(48115,0) href="javascript:ESLC(48115,0)">Constitution</A>, the basic laws and the knowledge of laws governing the socialist market economy, to further enhance all citizens' conception of the legal system and their awareness of the importance of laws, help cadres at all levels steadily raise their level and increase their ability of handling matters and administering affairs in accordance with law, see to it that acts mut be compatible with the existing laws, laws must be enforced strictly and any violation of law must be investigated, and push forward the process of administering State affairs according to law and building the country under a socialist legal system. Hence, the Standing Committee has adopted the resolution as follows:<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><P align=center><span class=MTitle>全国人民代表大会常务委员会关于继续开展法制宣传教育的决议<br/>（1996年5月15日第八届全国人民代表大会<br/>从1986年开始的法制宣传教育工作已经进行了10年，对于提高全民族的法律素质，加强社会主义民主与法制建设，保证改革开放和社会主义现代化建设事业的发展，起了积极的作用。为了适应建立和完善社会主义市场经济体制的需要，促进国民经济和社会发展“九五”计划和2010年远景目标纲要的实现，全国人民代表大会常务委员会认为有必要从1996年起到2000年实施在公民中开展法制宣传教育的第三个五年规划。通过继续深入进行以<A class=alink onmouseover=AJI(48115,0) href="javascript:SLC(48115,0)">宪法</A>、基本法律和社会主义市场经济法律知识为主要内容的法制宣传教育，进一步增强全体公民的法制观念和法律意识，不断提高各级干部依法办事、依法管理的水平和能力，坚持有法必依、执法必严、违法必究，推进依法治国、建设社会主义法制国家的进程。为此，特作决议如下：<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >1. All citizens who are able to do so should receive publicity of and education in the legal system and carefully study the <A class=alink onmouseover=EAJI(48115,0) href="javascript:ESLC(48115,0)">Constitution</A> and acquire knowledge of the relevant laws, so that they will be able to understand the laws, observe them and protect the lawful rights and interests of the State, the collective and the individual in accordance with law.<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=1></A><span class=TiaoNoA>　　一、</span>一切有接受教育能力的公民都应当接受法制宣传教育，努力学习<A class=alink onmouseover=AJI(48115,0) href="javascript:SLC(48115,0)">宪法</A>和有关的法律知识，做到知法、守法，依法维护国家的、集体的和个人的合法权益。<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >2. Leading cadres at all levels, senior leading cadres in particular, should take the lead in studying the <A class=alink onmouseover=EAJI(48115,0) href="javascript:ESLC(48115,0)">Constitution</A> and acquiring knowledge of the laws, abiding by the <A class=alink onmouseover=EAJI(48115,0) href="javascript:ESLC(48115,0)">Constitution</A> and laws and handling matters strictly in accordance with law, so that they will make policy decisions and administer affairs according to law.<br/>Cadre schools of all types and at all levels should make education in the legal system a required course. When examining or appraising their cadres, all departments and local authorities should see whether they have acquired the necessary knowledge of laws and whether they can handle matters strictly in accordance with law, which should be made one of the major qualifications.<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=2></A><span class=TiaoNoA>　　二、</span>各级领导干部特别是高级领导干部应当带头学习<A class=alink onmouseover=AJI(48115,0) href="javascript:SLC(48115,0)">宪法</A>和法律知识，模范遵守<A class=alink onmouseover=AJI(48115,0) href="javascript:SLC(48115,0)">宪法</A>和法律，严格依法办事，做到依法决策、依法管理。<br/>各级各类干部学校应当将法制教育作为干部教育的必修课程。各部门、各地方要把是否具备必要的法律知识和能否严格依法办事作为干部考试、考核的一项重要内容。<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >3. Law-enforcing officers of judicial organs and administrative law-enforcing organs should, according to need of their work, receive training in the knowledge of laws, proficiently master and apply the laws and rules and regulations as required by their own jobs, enhance their own understanding of laws and perform their duties in accordance with law, so that they can administer affairs according to law and execute justice impartially.<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=3></A><span class=TiaoNoA>　　三、</span>司法机关、行政执法机关的执法人员应当根据工作需要，参加法律知识培训，熟练掌握和运用与本职工作相关的法律、法规，提高自身法律素质，依法履行职责，做到依法行政、公正司法。<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >4. Managers and administers of enterprises and institutions should make mastery of the knowledge of the laws governing the socialist market economy a necessary qualification and study the relevant laws, rules and regulations in connection with the actual conditions of their own enterprise or institution, so that they can manage or administer affairs strictly in accordance with law, conscientiously observe market order and safeguard public interests.<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=4></A><span class=TiaoNoA>　　四、</span>企业事业单位的经营管理人员应当把掌握社会主义市场经济的法律知识作为必备的素质，并结合本单位实际学习有关的法律、法规，做到严格依法经营、依法管理，自觉遵守市场秩序，维护社会公共利益。<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >5. Teenagers should acquire the necessary knowledge of laws. Universities, colleges, secondary schools (including the secondary technical schools) and primary schools should all offer education in the legal system. Organizations at the grassroots level should pay attention to education in the general knowledge of laws among teenagers in society at large.<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=5></A><span class=TiaoNoA>　　五、</span>青少年应当具备必要的法律知识。大专院校、中学（包括中等技术学校）、小学都应当开设法制教育课。基层组织应当抓好社会青少年的法律常识教育。<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >6. Vivid dissemination of and education in the legal system should be conducted in different forms to suit the different characteristics of people and stress should be placed on actual results. Departments of culture, the press, publishing, radio, television and film should give full play to the important role of the mass media and actively disseminate and conduct education in the legal system.<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=6></A><span class=TiaoNoA>　　六、</span>要针对不同对象的特点，运用多种形式，开展生动活泼的法制宣传教育，注重提高实际效果。文化、新闻、出版、广播、电视、电影等部门应当充分发挥大众传播媒介的重要作用，积极主动地开展法制宣传教育。<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >7. Dissemination of and education in the legal system should be conducted in connection with the application of the system and the actual economic and social development and with the aim of promoting the lawful management of all undertakings. Lawful administration of the affairs of a village, town, county, city or province and lawful management of different trades and departments should be promoted with the high aim of administering State affairs according to law in mind.<br/></td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=7></A><span class=TiaoNoA>　　七、</span>法制宣传教育应当坚持与法制实践相结合、与经济建设和社会发展的实际相结合，全面推进各项事业的依法治理。要从坚持依法治国的高度出发，积极推进依法治村、治乡、治县、治市、治省和行业、部门的依法治理工作。<br/></td></tr>
+<tr onmouseover="showonmouseover(this)" onmouseout="showonmouseout(this)"><td width="570" align="left" valign="top" >8. Implementation of the third five-year plan for disseminating and conducting education in the legal system among citizens and its continued and deepened dissemination and education are the common obligation of the society as a whole and must be accomplished under the leadership of the Chinese Communist Party and by mobilizing and relying on all sectors of the society. All State organs and armed forces, all political parties and public organizations, and all enterprises and institutions should conscientiously disseminate and conduct education in the legal system among citizens working in there. The standing committees of the people's congresses and the people's governments at all levels should exercise firm leadership and supervision over the implementation of the plan and this Resolution and take effective measures to carry out the work steadily as a regular practice and make it a rule, so that studying and applying laws and handling matters in accordance with law will become a social conduct throughout the society and a good legal environment will be created for reform and the open policy and for the socialist modernization drive.</td><td width="20" height="20">&nbsp;</td><td width="310" align="left" valign="top"><A name=8></A><span class=TiaoNoA>　　八、</span>实施在公民中开展法制宣传教育第三个五年规划，继续深入开展法制宣传教育，是全社会的共同责任，必须在中国共产党的领导下，动员和依靠全社会的力量去完成。一切国家机关和武装力量、各政党和各社会团体、各企业事业组织，都应当认真向本系统、本单位的公民进行法制宣传教育。各级人民代表大会常务委员会和人民政府应当加强对实施规划和本决议的领导和监督，采取有力措施，使这项工作逐步走向法律化、制度化，在全社会形成学法、用法、依法办事的社会风尚，为改革开放和社会主义现代化建设事业创造良好的法制环境。<br/></td></tr>
+ <tr>  <td width="570" align="left" valign="top" class="main-xian">&nbsp;</td>  <td height="20">&nbsp;</td>  <td width="310" valign="top" class="main-xian">&nbsp;</td></tr><tr>  <td width="570" align="left" valign="top">&nbsp;</td>  <td height="20">&nbsp;</td>  <td width="310" valign="top">&nbsp;</td></tr></table></div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" height="30px">
+            <div id="divYZM">【法宝引证码】<script language=javascript src='http://www.pkulaw.cn/fbm/GidToFbm.ashx?Gid=14409&Lib=elaw&XiaoLi=XA0102'></script>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北大法宝<a href="http://www.lawinfochina.com" target=_blank>www.lawinfochina.com</a></div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+           
+                <!-- Baidu Button BEGIN -->
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+<script>    window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {}, "image": { "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"], "viewText": "分享到：", "viewSize": "16" }, "selectShare": { "bdContainerClass": "top-3-bj", "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+<!-- Baidu Button END -->
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="570" align="left" valign="top">
+                        <table width="560" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="30" valign="top" align="left">
+                                    <div id="divLiuyan" style="width: 95%">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" valign="top">
+                                    <strong>Message: Please kindly comment on the present translation. </strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>
+                                        <textarea name="tbLiuYan" rows="16" cols="66" id="tbLiuYan"></textarea>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="40">
+                                    <table width="500" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td>
+                                                Confirmation Code:
+                                            </td>
+                                            <td valign="top">
+                                                
+ <!--####################################################################################-->
+ <!--#                               Auto Auth-Code 说明                                #-->
+ <!--#                作者：陈粤雄  联系：Aresh@163.com 时间:2009-05-11                 #-->
+ <!--#           欢迎使用本控件，你可以免费自由使用本控件，但请保留本说明信息           #-->
+ <!--####################################################################################-->
+ <span id="AuthCode1">
+ <table border="0" cellpadding="0" cellspacing="2" style="height:25px;" >
+     <tr>
+         <td style="padding:0;margin:0;height:25px;" >
+             <table cellpadding="0" cellspacing="0"><tr><td>
+                 <input type="text" title="请输入右边图片显示的字符" 
+                      style="width:50px" class="" 
+                      id="__Vincent.AutoAuthCode.TextBoxID_AuthCode1" name="__Vincent.AutoAuthCode.TextBoxID_AuthCode1" value="" />
+             </td>
+<td id="___Vincent_AutoAuthCode_Script_AuthValidateImages"><img title="正在验证..." style="display:none;" src="/WebResource.axd?d=LvFk6gpwGIDcmXpB3lK1ccQ18C4NLWUcuMh16SKNrBO6qpZB2nZieyivt76gakj2t7wSIMe5wQoC6YyW2PnPOlwsjytG8zLj__0FWIK0ozRbVcfGjL0GU2Hl30OonwegAWv8Lg2&t=635282417730000000" /><img title="验证码正确!" style="display:none;" src="/WebResource.axd?d=2lWS8W4tU1tmEJyUr8-Ki5jdZtMwJPZiNk28-Q7jH0C2_tHeaUw9C1u8iTBur1IrEhVraa6L3bUNO_PDgp1C6WFF5Ke7xWtgnCOu4le1i0cdhLpcYPWDKiREPOcgbhz3Cmhyrw2&t=635282417730000000" /><img title="验证码错误!" style="display:none;" src="/WebResource.axd?d=w4gJzdf5PLjDOfBU93HhWhZg6kCDqb8_vnM1PJ1OaG-KHYGeqdD1h9uaosluBdPYEJZwfyvVotap8ub97Eral8-ogyRNfSKLZjM7ahj9n8kttPLeYNnIW7Eab4Tkbci2uhtT0Q2&t=635282417730000000" /></td>
+             </tr></table>
+         </td>
+         <td style="padding:0;margin:0;padding-top:0 !important;padding-top:2px;height:25px;">
+             <img style="cursor:pointer;" title="换一张图片" id="__Vincent_AutoAuthCode_$AuthCode1$img" border="0" alt="" 
+                 onclick="this.src='AuthCode_Image.ashx?type=image&ControlID=AuthCode1&ImageStyle=ImgBgColor%3dWhite%2cImgBorderColor%3dDeepSkyBlue%2cImgNoiseColor%3dGreenYellow%2cTextColor1%3dDeepSkyBlue%2cTextColor2%3dBlueViolet%2cTextFontSize%3d17%2cWidth%3d0%2cHeight%3d0&CodeStringLength=4&ImageType=SimpleNoisePoint&CodeStringType=Number&change=true&r'+Math.random()" src="AuthCode_Image.ashx?type=image&ControlID=AuthCode1&ImageStyle=ImgBgColor%3dWhite%2cImgBorderColor%3dDeepSkyBlue%2cImgNoiseColor%3dGreenYellow%2cTextColor1%3dDeepSkyBlue%2cTextColor2%3dBlueViolet%2cTextFontSize%3d17%2cWidth%3d0%2cHeight%3d0&CodeStringLength=4&ImageType=SimpleNoisePoint&CodeStringType=Number&r=718904" />
+         </td>
+     </tr>
+ </table>
+ 
+ </span>
+
+                                                <span id="lbshow"><font color="Red"></font></span>
+                                            </td>
+                                            <td>
+                                                Click image to reset code!
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" align="right">
+                                                <input type="submit" name="Button2" value=" Submit " id="Button2" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="40">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="20" rowspan="12">
+                        &nbsp;
+                    </td>
+                    <td width="310" align="left" valign="top">
+                        Translations are by lawinfochina.com, and we retain exclusive copyright over content
+                        found on our website except for content we publish as authorized by respective copyright
+                        owners or content that is publicly available from government sources.<br />
+                        <br />
+                        Due to differences in language, legal systems, and culture, English translations
+                        of Chinese law are for reference purposes only. Please use the official Chinese-language
+                        versions as the final authority. lawinfochina.com and its staff will not be directly
+                        or indirectly liable for use of materials found on this website.
+                        <br />
+                        <br />
+                        We welcome your comments and suggestions, which assist us in continuing to improve
+                        the quality of our materials.
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </table> </td> </tr> </table> </td>
+    <td class="you-3">
+        &nbsp;
+    </td>
+    </tr> </table> </td> </tr>
+    <tr>
+        <td class="banquan">
+            <table height="70" border="0" cellpadding="0" cellspacing="0" align="center">
+                <tr>
+                    <td height="35" colspan="2" align="right" class="banquan_wz_hj">
+                        <a href="../index.aspx" target="_blank" class="ljbz">Home</a> <span class="banquan_wz_hj">
+                            |</span> <a href="/ProductsServices/index.shtm" target="_blank" class="ljbz">Products
+                                and Services</a> <span class="banquan_wz_hj">|</span> <a href="/About/FAQ.aspx" target="_blank"
+                                    class="ljbz">FAQ</a> <span class="banquan_wz_hj">|</span> <a href="/about/Copyrights.aspx"
+                                        target="_blank" class="ljbz">Disclaimer</a> <span class="banquan_wz_hj">|</span>
+                        <a href="http://www.pkulaw.cn" target="_blank" class="ljbz">Chinese</a> <span class="banquan_wz_hj">
+                            |</span> <a href="/SiteMap.shtm" target="_blank" class="ljbz">Site Map</a><br />
+                        &copy;2012 Chinalawinfo Co., Ltd. &nbsp;&nbsp;&nbsp;<a class="ljbz" href="mailto:database@chinalawinfo.com">database@chinalawinfo.com</a>&nbsp;&nbsp;Tel:
+                        +86 (10) 8268-9699&nbsp;&nbsp;京ICP证010230-8
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </table> </div>
+    <div id="FavoriteDiv">
+    </div>
+    <input type="hidden" name="HiddenFavoriteScript" id="HiddenFavoriteScript" />
+    <div id="div_tip" style="padding-right: 1px; text-align: left; display: none; padding-left: 1px;
+        font-size: 12px; z-index: 101; left: 155px; padding-bottom: 1px; overflow: hidden;
+        width: 400px; line-height: 120%; padding-top: 1px; position: absolute; top: 276px;
+        background-color: #ffffff; border-top-width: 1px; border-left-width: 1px; border-left-color: #2d4b7d;
+        border-bottom-width: 1px; border-bottom-color: #2d4b7d; border-top-color: #2d4b7d;
+        border-right-width: 1px; border-right-color: #2d4b7d;">
+    </div>
+    <div id="divScript"><script language="javascript" src="http://log.chinalawinfo.com/webservice/Adduserlog.asmx/AddLookLog?FDomain=www.lawinfochina.com&FName=&FUser=V4&FIP=153.33.163.233, 1.71.146.165&FDb=law&FId=1046&FTitle=Resolution of the Standing Committee of the National People’s Congress on Continued Dissemination of and Education in the Legal System&FType=" />	</div>
+    </form>
+    <input name="PageFilter" type="hidden" id="PageFilter" value="0" />
+    <script type="text/javascript">        RefershTime = setInterval("AutoRefresh()", 30000);</script>
+
+</body>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fde487818e3b858933dca1c5daf9977b2' type='text/javascript'%3E%3C/script%3E"));   
+</script>
+</html>

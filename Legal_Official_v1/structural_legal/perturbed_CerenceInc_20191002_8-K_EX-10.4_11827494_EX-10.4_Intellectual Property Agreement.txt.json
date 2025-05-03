@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "EACH PARTY HEREBY WAIVES ITS RIGHTS TO A JURY TRIAL OF ANY CLAIM OR CAUSE OF ACTION RELATING TO, ARISING OUT OF OR RESULTING FROM THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY, INCLUDING THEIR EXECUTION, PERFORMANCE OR ENFORCEMENT, WHETHER IN CONTRACT, TORT OR OTHERWISE. THE SCOPE OF THIS WAIVER IS INTENDED TO BE ALL-ENCOMPASSING OF ANY AND ALL DISPUTES THAT MAY BE FILED IN ANY COURT AND THAT RELATE TO THE SUBJECT MATTER OF THIS TRANSACTION, INCLUDING CONTRACT CLAIMS, TORT CLAIMS (INCLUDING NEGLIGENCE), BREACH OF DUTY CLAIMS AND ALL OTHER COMMON LAW AND STATUTORY CLAIMS. THIS SECTION HAS BEEN FULLY DISCUSSED BY EACH OF THE PARTIES AND THESE PROVISIONS WILL NOT BE SUBJECT TO ANY EXCEPTIONS.",
+                "changed_text": "EACH PARTY HEREBY WAIVES ITS RIGHTS TO A JURY TRIAL OF ANY CLAIM OR CAUSE OF ACTION RELATING TO, ARISING OUT OF OR RESULTING FROM THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY, INCLUDING THEIR EXECUTION, PERFORMANCE OR ENFORCEMENT, WHETHER IN CONTRACT, TORT OR OTHERWISE. THE SCOPE OF THIS WAIVER IS INTENDED TO BE ALL-ENCOMPASSING OF ANY AND ALL DISPUTES THAT MAY BE FILED IN ANY COURT AND THAT RELATE TO THE SUBJECT MATTER OF THIS TRANSACTION, INCLUDING CONTRACT CLAIMS, TORT CLAIMS (INCLUDING NEGLIGENCE), BREACH OF DUTY CLAIMS AND ALL OTHER COMMON LAW AND STATUTORY CLAIMS. THIS SECTION HAS BEEN DISCUSSED BY EACH OF THE PARTIES, BUT THESE PROVISIONS ARE SUBJECT TO EXCEPTIONS AS DEFINED IN EXHIBIT Z.",
+                "explanation": "By adding 'THESE PROVISIONS ARE SUBJECT TO EXCEPTIONS AS DEFINED IN EXHIBIT Z,' the waiver of jury trial is weakened. This creates ambiguity about whether the right to a jury trial is truly waived and contradicts its all-encompassing intention.",
+                "contradicted_law": "7th Amendment to the US Constitution",
+                "law_citation": "U.S. Const. amend. VII",
+                "law_url1": [
+                    "https://www.govinfo.gov/content/pkg/ constitution/html/constitution009.htm"
+                ],
+                "law_url2": [
+                    "https://constitution.congress.gov/browse/amendment-7/"
+                ],
+                "law_explanation": "The modification introduces an ambiguity that undermines the clarity and enforceability of the jury trial waiver. By stating that the provisions are 'subject to exceptions as defined in EXHIBIT Z,' it creates uncertainty about the scope of the waiver and could potentially allow a party to argue that their claim falls within one of the exceptions, thereby preserving their right to a jury trial, contrary to the original intention of the waiver. According to the 7th Amendment, jury trials have to be 'preserved', this modification undermines this amendment.",
+                "location": "Section 11.04"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "All notices or other communications under this Agreement shall be in writing and shall be deemed to be duly given (a) when delivered in person, (b) on the date received, if sent by a nationally recognized delivery or courier service, (c) upon written confirmation of receipt after transmittal by electronic mail or (d) upon the earlier of confirmed receipt or the fifth (5t h) business day following the date of mailing if sent by registered or certified mail, return receipt requested, postage prepaid and addressed as follows:",
+                "changed_text": "All notices or other communications under this Agreement shall be deemed to be duly given only when sent via carrier pigeon and after 30 days of sending, with carrier pigeon instructions listed in Schedule Q.",
+                "explanation": "This change dramatically alters the notification method, making it impractical and unreliable. By changing the conditions and listing carrier pigeon information in schedule Q, it is harder for the other party to comply.",
+                "contradicted_law": "General Contract Law - Reasonableness",
+                "law_citation": "Restatement (Second) of Contracts § 205",
+                "law_url1": [
+                    "https://law.justia.com/restatements/contracts/section-205/"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/wex/good_faith"
+                ],
+                "law_explanation": "This modification likely violates the implied covenant of good faith and fair dealing present in contract law. Requiring notification solely via carrier pigeon, a method known for its unreliability and impracticality in modern business, is unreasonable and frustrates the purpose of the notification clause. The covenant of good faith requires parties to act honestly and reasonably in the performance and enforcement of their contracts, and this change undermines that principle.",
+                "location": "Section 11.08"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "Each Party irrevocably consents to the exclusive jurisdiction, forum and venue of the Delaware Court of Chancery (and if the Delaware Court of Chancery shall be unavailable, any Delaware State court or the federal court sitting in the State of Delaware) over any and all claims, disputes, controversies or disagreements between the Parties or any of their respective Affiliates, successors and assigns under or related to this Agreement or any of the transactions contemplated hereby, including their execution, performance or enforcement, whether in contract, tort or otherwise.",
+                "changed_text": "Each Party irrevocably consents to the non-exclusive jurisdiction, forum and venue of the Delaware Court of Chancery (and if the Delaware Court of Chancery shall be unavailable, any Delaware State court or the federal court sitting in the State of Delaware) over any and all claims, disputes, controversies or disagreements between the Parties or any of their respective Affiliates, successors and assigns under or related to this Agreement or any of the transactions contemplated hereby, including their execution, performance or enforcement, whether in contract, tort or otherwise. This non-exclusive jurisdiction is subject to change based on the sole discretion of Party A, per Appendix 12.",
+                "explanation": "By changing 'exclusive' to 'non-exclusive' and adding that it is subject to change, the venue changes, thereby allowing one party to change jurisdiction.",
+                "contradicted_law": "28 U.S. Code § 1404 - Change of venue",
+                "law_citation": "28 U.S.C. § 1404",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1404&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/uscode/text/28/1404"
+                ],
+                "law_explanation": "While venue clauses are generally enforceable, a clause that gives one party the unilateral right to change venue at any time could be challenged as unconscionable or against public policy, especially if it prejudices the other party. This change permits the possibility of the venue changing in an arbitrary and unexpected way.",
+                "location": "Section 11.03"
+            }
+        ]
+    }
+]

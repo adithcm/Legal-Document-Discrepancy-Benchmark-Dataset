@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "Member acknowledges that any failure to comply with the requirements of this Agreement may cause Franchisor injury.",
+                "explanation": "Removing the clause where the member agrees to pay court costs and reasonable attorney's fees limits the franchisor's ability to recover full costs associated with enforcing the agreement. This creates a legal risk because many states have laws protecting employees from bearing certain legal fees in disputes, which would be harder to enforce without the original clause.",
+                "contradicted_law": "29 U.S. Code § 216 - Liability for unpaid minimum wages or unpaid overtime compensation; suit by employee; attorney's fees and costs; termination of right of action; waiver of right to minimum wage or overtime compensation",
+                "law_citation": "29 U.S.C. § 216",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title29-section216&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.govinfo.gov/content/pkg/USCODE-2011-title29/html/USCODE-2011-title29-chap8-sec216.htm"
+                ],
+                "law_explanation": "This modification contradicts 29 U.S.C. § 216 because by removing the clause requiring the member to pay attorney fees, this could be interpreted as an attempt to dissuade the member from pursuing legal action related to wage disputes or other employment-related issues, as it removes a potential source of funds to pay their fees. Though the specific violation of the FLSA will depend on the specific claim, eliminating this clause creates potential for legal challenges related to the distribution of costs to employees.",
+                "location": "Section 3"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+                "changed_text": "Member hereby acknowledges and agrees that Franchisor may be considered a beneficiary of this agreement.",
+                "explanation": "Removing the explicit statement that the Franchisor is a 'third-party beneficiary' with the 'right to enforce' the agreement weakens the Franchisor's legal standing. This creates a legal risk because without this clause, the Franchisor's ability to directly sue the Member for breach of contract may be challenged, potentially violating franchise laws that grant franchisors specific enforcement rights.",
+                "contradicted_law": "15 U.S. Code § 45 - Unfair methods of competition unlawful; prevention by Commission",
+                "law_citation": "15 U.S.C. § 45",
+                "law_url1": [
+                    "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section45&edition=prelim"
+                ],
+                "law_url2": [
+                    "https://www.govinfo.gov/content/pkg/USCODE-2011-title15/html/USCODE-2011-title15-sec45.htm"
+                ],
+                "law_explanation": "15 U.S.C. § 45 prohibits unfair methods of competition. By weakening the franchisor's ability to enforce the non-compete agreement against the member, this modification could potentially facilitate unfair competition, as it makes it more difficult for the franchisor to protect its business interests and brand standards. The removal of specific enforcement rights may create an environment where unfair competitive practices are more likely to occur, potentially violating the spirit of Section 5 of the FTC Act.",
+                "location": "Section 6"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "All agreements and covenants contained herein are severable. If any of them, or any part or parts of them, shall be held invalid by any court of competent jurisdiction for any reason, then the Member agrees that the court shall have the authority to reform and modify that provision in order that the restriction shall be the maximum necessary to protect Franchisor's and/or Franchisee's legitimate business needs as permitted by applicable law and public policy. In so doing, the Member agrees that the court shall impose the provision with retroactive effect as close as possible to the provision held to be invalid.",
+                "changed_text": "All agreements and covenants contained herein are severable. If any of them, or any part or parts of them, shall be held invalid by any court of competent jurisdiction for any reason, then that provision will be considered void.",
+                "explanation": "By removing the part of the clause that allows a court to reform and modify invalid provisions to protect legitimate business needs, the contract limits the court's ability to enforce the agreement to the fullest extent permitted by law. This can be problematic because states like California have laws related to non-compete agreements that require them to be narrowly tailored and this version restricts the court's power to save the contract.",
+                "contradicted_law": "Cal. Bus. & Prof. Code § 16600",
+                "law_citation": "Cal. Bus. & Prof. Code § 16600",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16600"
+                ],
+                "law_url2": [
+                    "https://casetext.com/statute/california-codes/business-and-professions-code/division-7-general-business-regulations/part-2-contracts-generally/chapter-1-contracts-in-restraint-of-trade/section-16600-general-rule"
+                ],
+                "law_explanation": "This modification may violate California Business and Professions Code § 16600, which generally prohibits non-compete agreements. While there are exceptions, by removing the court's ability to reform an overly broad non-compete, the contract becomes more likely to be struck down entirely, which goes against California's strong public policy against restricting employment. A court is less able to modify the non-compete provision to make it enforceable.",
+                "location": "Section 4"
+            }
+        ]
+    }
+]

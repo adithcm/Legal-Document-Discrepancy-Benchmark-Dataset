@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Distributor shall begin such distribution within [ * ] following Google's request.",
+                "changed_text": "Distributor shall begin such distribution within 10 days following Google's request.",
+                "explanation": "Changing the distribution timeline to a fixed 10 days might conflict with California labor laws regarding employee notification for changes in work conditions.",
+                "contradicted_law": "California Labor Code § 2922",
+                "law_citation": "CA Labor Code § 2922",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=LAB&sectionNum=2922."
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/california/2022/code-lab/division-3/chapter-2/section-2922/"
+                ],
+                "law_explanation": "California Labor Code Section 2922 implies reasonable notice, which '10 days' may not satisfy depending on the nature of the distribution and impact on employees. In some cases, more significant changes may require more advance warning to be considered 'reasonable'.",
+                "location": "2.6"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Google may also withhold and offset against its payment obligations under this Agreement, or require Distributor to pay to Google within [ * ] of any invoice, any amounts Google [ * ] overpaid to Distributor in prior periods.",
+                "changed_text": "Google may also withhold and offset against its payment obligations under this Agreement, or require Distributor to pay to Google within 5 days of any invoice, any amounts Google overpaid to Distributor in prior periods.",
+                "explanation": "Reducing the payment period to 5 days for overpayments could conflict with prompt payment laws if Distributor disputes the overpayment.",
+                "contradicted_law": "California Labor Code § 201",
+                "law_citation": "CA Labor Code § 201",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=LAB&sectionNum=201"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/ca/labor-code/lab-sect-201/"
+                ],
+                "law_explanation": "California Labor Code Section 201 concerns payment of wages and implies that payment disputes must be handled fairly. A rigid 5-day repayment demand could be seen as coercive and not allowing sufficient time for dispute resolution, especially if the overpayment is substantial or contested.",
+                "location": "4.3"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "During the Term, and for a period of [ * ] thereafter, Google may audit Distributor's relevant records to confirm Distributor's compliance with this Agreement.",
+                "changed_text": "During the Term, and for a period of 7 years thereafter, Google may audit Distributor's relevant records to confirm Distributor's compliance with this Agreement.",
+                "explanation": "Extending the audit period to 7 years may exceed the statute of limitations for contract disputes in some jurisdictions, making it an unreasonable audit period.",
+                "contradicted_law": "California Code of Civil Procedure § 337",
+                "law_citation": "CCP § 337",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=337"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/california/2005/ccp/335-349.4.html"
+                ],
+                "law_explanation": "California Code of Civil Procedure Section 337 sets a four-year statute of limitations for actions based on written contracts. Extending the audit period to 7 years allows Google to audit records beyond the period for which legal action could be taken to enforce the contract, potentially making the audit an undue burden.",
+                "location": "3.9(d)"
+            }
+        ]
+    }
+]
