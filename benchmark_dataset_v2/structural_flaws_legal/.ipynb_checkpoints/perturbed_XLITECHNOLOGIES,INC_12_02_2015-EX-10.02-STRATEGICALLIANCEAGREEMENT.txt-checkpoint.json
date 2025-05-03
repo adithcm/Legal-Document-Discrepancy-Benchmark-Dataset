@@ -1,0 +1,23 @@
+[
+    {
+        "file_name": "XLITECHNOLOGIES,INC_12_02_2015-EX-10.02-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "CLIENT agrees to defend, indemnify and hold harmless BOSCH and its parents, subsidiary and affiliated entities, successors, assigns and licensees, and their respective officers, agents, directors, owners, shareholders and employees, harmless from any and all claims, actions or proceedings of any kind and from any and all damages, liabilities, costs and expenses (including reasonable legal fees) relating to or arising out of any claim by a third Party.",
+                "changed_text": "CLIENT agrees to defend, indemnify and hold harmless BOSCH and its parents, subsidiary and affiliated entities, successors, assigns and licensees, and their respective officers, agents, directors, owners, shareholders and employees, harmless from any and all claims, actions or proceedings of any kind and from any and all damages, liabilities, costs and expenses (excluding reasonable legal fees) relating to or arising out of any claim by a third Party.",
+                "explanation": "By changing 'including reasonable legal fees' to 'excluding reasonable legal fees,' we create a contradiction. The original clause intends to protect BOSCH by ensuring CLIENT covers all legal costs. The modification suggests CLIENT does not cover BOSCH's legal fees, potentially undermining the protection BOSCH initially sought. This shift could make the indemnity clause less enforceable as it contradicts the expected purpose of such clauses.",
+                "contradicted_law": "General contract law principles related to indemnity and hold harmless agreements.",
+                "location": "9. INDEMNITY"
+            },
+            {
+                "type": "Structural Flaws - Legal Contradiction",
+                "original_text": "BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+                "changed_text": "BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". Simultaneously, BOSCH grants a third party the rights to sell and distribute the product within the same territory.",
+                "explanation": "The alteration states that Bosch grants the Client exclusive rights to sell and distribute the product in the Territory. However, the revised text creates a contradiction by adding that Bosch also grants a third party the same rights in the same territory. This contradicts the initial exclusivity granted to the Client, making the exclusivity provision unenforceable and potentially leading to disputes about who has the right to sell where. Therefore, the modified text creates a contradiction in the contract regarding exclusive rights to distribution.",
+                "contradicted_law": "Contract law principles related to exclusivity and breach of contract.",
+                "location": "5. RIGHTS GRANTED"
+            }
+        ]
+    }
+]

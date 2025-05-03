@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Company hereby appoints Distributor as Company's exclusive distributor within the Market and grants to Distributor the exclusive right to sell and distribute Products within the Market, and Distributor hereby accepts such appointment and such grant, in accordance with the terms and conditions of this Agreement.",
+                "changed_text": "Company hereby appoints Distributor as Company's exclusive vendor within the Market and grants to Distributor the exclusive right to sell and distribute Products within the Market, and Distributor hereby accepts such appointment and such grant, in accordance with the terms and conditions of this Agreement.",
+                "explanation": "Changing 'distributor' to 'vendor' in Section 1.1 introduces confusion, as 'distributor' is consistently used throughout the agreement to define the role and rights of Electric City of Illinois LLC. This change creates an in-text contradiction by creating ambiguity as to whether the entity is truly acting as a distributor or simply a vendor.",
+                "location": "1.1",
+                "contradicted_location": "1.1",
+                "contradicted_text": "Grant and Acceptance. Company hereby appoints Distributor as Company's exclusive vendor within the Market and grants to Distributor the exclusive right to sell and distribute Products within the Market, and Distributor hereby accepts such appointment and such grant, in accordance with the terms and conditions of this Agreement. Distributor acknowledges that customers of other distributors of the Products may have sites, locations or operations in the Market, which will use the Products. Distributor will sell any and all Products required by such customers in the Market to those customers. Distributor also acknowledges that if its customers have sites, locations or operations outside the Market, in the market of another exclusive distributor of the Products, those customers will be required to purchase products from the applicable exclusive distributor in that market; otherwise, Distributor shall be free to sell to its customers in any market which does not have another exclusive distributor."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Distributor may resell Products at such price, as the Distributor, in its sole discretion, shall determine. While the Company has the right to suggest a range of manufacturer's suggested retail prices for the Products, the distributor is not obligated to set retail prices within the Company's suggested range of retail prices.",
+                "changed_text": "The Distributor may resell Products at such price, as the Distributor, in its sole discretion, shall determine. While the Company has the right to suggest a range of manufacturer's suggested retail prices for the Products, the retailer is not obligated to set retail prices within the Company's suggested range of retail prices.",
+                "explanation": "Replacing 'distributor' with 'retailer' creates ambiguity because the Distributor is intended to be a wholesaler, not necessarily directly involved in retail sales. The in-text contradiction arises as it's now unclear if the 'retailer' refers to the subdistributors or if the Distributor itself is expected to operate as a retailer.",
+                "location": "2.5",
+                "contradicted_location": "2.5",
+                "contradicted_text": "Resale Prices. The Distributor may resell Products at such price, as the Distributor, in its sole discretion, shall determine. While the Company has the right to suggest a range of manufacturer's suggested retail prices for the Products, the retailer is not obligated to set retail prices within the Company's suggested range of retail prices."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "Company will carry a reasonable amount of product liability insurance through a reasonably acceptable products liability insurance company and will name the Distributor as an additional insured under that policy.",
+                "changed_text": "Company will carry a reasonable amount of product liability insurance through a reasonably acceptable products liability insurance provider and will name the Distributor as an additional insured under that policy.",
+                "explanation": "Replacing 'insurance company' with 'insurance provider' could create confusion. While 'insurance provider' can be a broader term, the specific requirement is for a 'product liability insurance company.' Changing it opens the interpretation to less specialized providers, potentially invalidating the Distributor's protection. It contradicts the intended certainty that a dedicated product liability company is providing the coverage.",
+                "location": "5.4",
+                "contradicted_location": "5.4",
+                "contradicted_text": "Product Liability Insurance. Company will carry a reasonable amount of product liability insurance through a reasonably acceptable products liability insurance provider and will name the Distributor as an additional insured under that policy. Company will make reasonable efforts to procure a policy, which is non-cancelable, except upon thirty (30) days, advance notice to the Distributor."
+            }
+        ]
+    }
+]

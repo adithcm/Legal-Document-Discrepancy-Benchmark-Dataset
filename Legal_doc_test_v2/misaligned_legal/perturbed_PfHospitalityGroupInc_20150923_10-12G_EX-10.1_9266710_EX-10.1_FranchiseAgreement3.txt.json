@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement\") granting Franchisee the right to operate a Franchised Business under the terms and conditions of the Franchise Agreement;",
+                "changed_text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement\") granting Franchisee the right to operate a Franchised Business under the terms and conditions they deem fit.",
+                "explanation": "The original text clearly states the franchisee's operation is under the terms of the Franchise Agreement. The modified text implies the franchisee can operate under conditions they see fit, conflicting with standard franchise law that mandates adherence to the franchise agreement.",
+                "contradicted_law": "Federal Trade Commission Franchise Rule",
+                "law_citation": "16 CFR § 436.5",
+                "law_url1": [
+                    "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/section-436.5"
+                ],
+                "law_url2": [
+                    "https://www.ftc.gov/legal-library/browse/rules/franchise-rule"
+                ],
+                "law_explanation": "The FTC Franchise Rule requires franchisors to provide specific information in the franchise agreement. Allowing franchisees to operate under conditions they deem fit undermines the standardized nature of franchise agreements and disclosure requirements mandated by federal law.",
+                "location": "Recitals"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee.",
+                "changed_text": "Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any information they can remember, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee.",
+                "explanation": "By replacing 'confidential information' with 'any information they can remember' the scope of protected information becomes ambiguously limited to what the member recalls, significantly weakening confidentiality obligations. This conflicts with the broad protection typically afforded to trade secrets under state law.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "Varies by State, e.g., California Civil Code § 3426",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3426"
+                ],
+                "law_url2": [
+                    "https://www.uniformlaws.org/committees/community-home?CommunityKey=e30f40a7-470e-48aa-9606-498c776a0e2f"
+                ],
+                "law_explanation": "The UTSA protects trade secrets from misappropriation. Limiting confidentiality to 'information they can remember' weakens the definition of trade secret and makes it more difficult to prove misappropriation, conflicting with the intent and protections of the UTSA. What is considered a trade secret is not dependent on one's ability to remember, but the proprietary nature of the information.",
+                "location": "1. Confidential Information."
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Member covenants and agrees that during the Post-Term Period (defined below), except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a three (3) mile radius of the premises of your Franchised Business or within a three (3) mile radius of any Franchised Business then-operating or under construction to operate under the System.",
+                "changed_text": "Member covenants and agrees that during the Post-Term Period (defined below), except as otherwise approved by a handshake from Franchisor, Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a five (5) mile radius of the premises of your Franchised Business or within a five (5) mile radius of any Franchised Business then-operating or under construction to operate under the System.",
+                "explanation": "Changing 'in writing' to 'by a handshake' makes the agreement unenforceable due to the statute of frauds, which typically requires non-compete agreements to be in writing. Furthermore, increasing the radius from 3 to 5 miles makes the non-compete agreement unreasonably broad, depending on the state and jurisdiction. Oral agreements are not valid, and increasing radius makes agreement unenforceable.",
+                "contradicted_law": "Statute of Frauds and Restraints on Trade",
+                "law_citation": "Varies by State, e.g., California Business and Professions Code § 16600",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16600"
+                ],
+                "law_url2": [
+                    "https://nationalparalegal.edu/public_documents/courseware_asp_files/contracts/chapter18/StatuteOfFrauds.asp"
+                ],
+                "law_explanation": "California law, and similar laws in other states, generally prohibit non-compete agreements except in very limited circumstances. Requiring a handshake to approve competition makes the agreement unenforceable under the Statute of Frauds, as agreements restraining trade typically need to be in writing. Also, increasing the radius to 5 miles could be deemed unreasonable in certain states, making it an invalid restraint on trade.",
+                "location": "2. Covenants Not to Compete. (c)"
+            }
+        ]
+    }
+]

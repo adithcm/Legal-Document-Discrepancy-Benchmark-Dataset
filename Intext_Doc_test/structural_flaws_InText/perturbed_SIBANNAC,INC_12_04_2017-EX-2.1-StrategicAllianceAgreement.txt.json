@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "SIBANNAC,INC_12_04_2017-EX-2.1-StrategicAllianceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The term of this Agreement is twelve (12) months from the date hereof, and will be automatically renewed for one (1) additional twelve month period unless either party shall notify the other in writing of its intention not to renew. Such notice must be given ninety (90) days prior to expiration of the original term.",
+                "changed_text": "The term of this Agreement is twelve (12) months from the date hereof, and will be automatically renewed indefinitely, regardless of any notice from either party. The agreement can only be terminated through mutual written consent of both parties.",
+                "explanation": "The original text specified an automatic renewal for *one* additional twelve-month period unless notice was given. The modified text eliminates the possibility of opting out of the renewal, making it an *indefinite* term. This contradicts the original condition allowing termination with 90-day notice in section 7.",
+                "location": "7",
+                "contradicted_location": "7",
+                "contradicted_text": "The term of this Agreement is twelve (12) months from the date hereof, and will be automatically renewed indefinitely, regardless of any notice from either party. The agreement can only be terminated through mutual written consent of both parties. This Agreement may also be terminated by either party upon ninety (90) days written notice."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee, to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue, with an exact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 30 days after each client payment on delivered products received at COMPANY's bank account.",
+                "changed_text": "For any Product or Solution sold to any perspective clients introduced by Bravatek, Bravatek will receive a lead-finder fee of 5% of project revenue, payable NET 90 days after each client payment on delivered products received at COMPANY's bank account, unless otherwise specified in writing by Bravatek's CFO.",
+                "explanation": "The original text allows for a lead-finder fee 'to be mutually discussed and finally decided by COMPANY at the range of minimum of 10% to maximum of 20% of project revenue'. The modified text sets the fee at a fixed 5% *unless* otherwise specified by Bravatek's CFO, thus it's creating contradictory terms on 'to be mutually discussed and finally decided by COMPANY'.",
+                "location": "4",
+                "contradicted_location": "4",
+                "contradicted_text": "Compensation When custom Products are designed, developed and to be delivered to Bravatek-identified perspective clients, the parties shall agree to a proposed sales price for use during the project in writing prior to the commencement of each project. 2 For any Product or Solution sold to any perspective clients introduced by Bravatek registered with COMPANY via email to COMPANY's CEO and delivered through Bravatek or a COMPANY-designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder fee of 5% of project revenue, payable NET 90 days after each client payment on delivered products received at COMPANY's bank account, unless otherwise specified in writing by Bravatek's CFO."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "This Agreement shall not be assignable by either party without the prior written consent of the other party.",
+                "changed_text": "This Agreement shall be freely assignable by COMPANY to any of its affiliates without the prior written consent of Bravatek. Bravatek may not assign this agreement.",
+                "explanation": "The original text requires prior written consent from both parties for assignment. The modified text allows COMPANY to freely assign the agreement to its affiliates but forbids Bravatek from assigning it, creating a contradiction in the assignment rights of the parties. This introduces uncertainty and potential disputes regarding assignment rights.",
+                "location": "12",
+                "contradicted_location": "12",
+                "contradicted_text": "Assignment This Agreement shall be freely assignable by COMPANY to any of its affiliates without the prior written consent of Bravatek. Bravatek may not assign this agreement. 4"
+            }
+        ]
+    }
+]

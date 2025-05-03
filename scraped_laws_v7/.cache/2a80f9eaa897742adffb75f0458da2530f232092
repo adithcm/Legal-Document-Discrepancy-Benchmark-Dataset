@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://d1mphjegypfd5j.cloudfront.net/info.js" type="text/javascript"></script><script src="/Scripts/modernizr.min.js" type="text/javascript"></script><script type="text/javascript">
+(function () {
+"use strict";
+var samesiteCookie = "";
+// Get enableSameSiteCookie flag based on configuration and add samesite/secure cookie attribute
+var enableSameSiteCookie = 'True';
+if(enableSameSiteCookie.toLowerCase() === "true") {
+samesiteCookie = "; SameSite=None; Secure;";
+}
+var cookiesEnabled = navigator && navigator.cookieEnabled;
+if (cookiesEnabled) {
+document.cookie = "cookietest=1" + samesiteCookie;
+cookiesEnabled = document.cookie.indexOf("cookietest=") != -1;
+document.cookie = "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT" + samesiteCookie;
+}
+if (!cookiesEnabled) {
+document.location.replace("/open/error/cookiesrequired?target=" + encodeURIComponent('/container?config=00JAA04zY1QwNmI4Zi1kNjBlLTQxMzktYjhhNS0yZjBhMDA2MzZmYjYKAFBvZENhdGFsb2dWI1IBZGUgc3RhdGVfbGF3cw&crid=cf218339-d809-414e-b5f8-a0b63cf7452e&pdmfid=1000516&pddocfullpath=%2Fshared%2Fdocument%2Fstatutes-legislation%2Furn%3AcontentItem%3A5WRN-9S20-004W-8254-00000-00&pdcontentcomponentid=231914&pdteaserkey=h1&pdproductfamily=statutes-legislation&pdtocnodeid=AAAT17AAZAAJAAD&risb=21_T20096531681'));
+}
+else {
+// cookies.js (https://developer.mozilla.org/en-US/docs/DOM/document.cookie)
+var docCookies = { getItem: function (a) { return !a || !this.hasItem(a) ? null : unescape(document.cookie.replace(RegExp("(?:^|.*;\\s*)" + escape(a).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*((?:[^;](?!;))*[^;]?).*"), "$1")) }, setItem: function (a, b, c, e, f, g) { if (a && !/^(?:expires|max\-age|path|domain|secure)$/i.test(a)) { var d = ""; if (c) switch (c.constructor) { case Number: d = Infinity === c ? "; expires=Tue, 19 Jan 2038 03:14:07 GMT" : "; max-age=" + c; break; case String: d = "; expires=" + c; break; case Date: d = "; expires=" + c.toGMTString() } document.cookie = escape(a) + "=" + escape(b) + d + (f ? "; domain=" + f : "") + (e ? "; path=" + e + samesiteCookie : "") + (g ? "; secure" : "") } }, removeItem: function (a, b) { a && this.hasItem(a) && (document.cookie = escape(a) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (b ? "; path=" + b : "")) }, hasItem: function (a) { return RegExp("(?:^|;\\s*)" + escape(a).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=").test(document.cookie) }, keys: function () { for (var a = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/), b = 0; b < a.length; b++) a[b] = unescape(a[b]); return a } };
+var modernizr = window.Modernizr && JSON.parse(JSON.stringify(window.Modernizr));
+// Build a LNDOMENV cookie
+docCookies.setItem("LNDOMENV", JSON.stringify({
+id: "fingerprint",
+props: {
+"modernizr": modernizr,
+"lang": navigator.language || navigator.browserLanguage,
+"time": JSON.parse(JSON.stringify(new Date())),
+"useragent": JSON.parse(JSON.stringify(window.navigator.userAgent)),
+"resolution": {
+"availWidth": window.screen.availWidth,
+"availHeight": window.screen.availHeight,
+"availTop": window.screen.availTop,
+"availLeft": window.screen.availLeft,
+"colorDepth": window.screen.colorDepth,
+"width": window.screen.width,
+"height": window.screen.height
+},
+"cdnsupport": window.lncdnallowed ? true : false
+}
+}), null, '/');
+// Browser redirect to the intended destination page
+window.location.replace('/container?config=00JAA04zY1QwNmI4Zi1kNjBlLTQxMzktYjhhNS0yZjBhMDA2MzZmYjYKAFBvZENhdGFsb2dWI1IBZGUgc3RhdGVfbGF3cw&crid=cf218339-d809-414e-b5f8-a0b63cf7452e&pdmfid=1000516&pddocfullpath=%2Fshared%2Fdocument%2Fstatutes-legislation%2Furn%3AcontentItem%3A5WRN-9S20-004W-8254-00000-00&pdcontentcomponentid=231914&pdteaserkey=h1&pdproductfamily=statutes-legislation&pdtocnodeid=AAAT17AAZAAJAAD&risb=21_T20096531681'); } }).call(this);</script><img src='https://webanalytics.lexisnexis.com/lexisadvancev2.watag?sessionid=912ee33b-441e-447a-8988-9eb8bcfd9081&un=urn:user:PA6468625&rf=https://google.com/&lc=http://advance.lexis.com/open/entry/CaptureReturnUrl?target=%2Fcontainer%3Fconfig%3D00JAA04zY1QwNmI4Zi1kNjBlLTQxMzktYjhhNS0yZjBhMDA2MzZmYjYKAFBvZENhdGFsb2dWI1IBZGUgc3RhdGVfbGF3cw%26crid%3Dcf218339-d809-414e-b5f8-a0b63cf7452e%26pdmfid%3D1000516%26pddocfullpath%3D%252Fshared%252Fdocument%252Fstatutes-legislation%252Furn%253AcontentItem%253A5WRN-9S20-004W-8254-00000-00%26pdcontentcomponentid%3D231914%26pdteaserkey%3Dh1%26pdproductfamily%3Dstatutes-legislation%26pdtocnodeid%3DAAAT17AAZAAJAAD%26risb%3D21_T20096531681'/></body></html>

@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "MetLife,Inc.-RemarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Remarketing Agreement may not be amended or modified except by an instrument in writing signed by, or on behalf of, each of the parties hereto; provided, however, that in the event that the Securities to be remarketed, or any portion thereof, are modified in such a way so that they no longer require registration under the Act, the Company, the Remarketing Agents and the Stock Purchase Contract Agent hereby agree to promptly enter into an amendment to this Remarketing Agreement containing such representations, warranties and covenants as would normally be required to more accurately reflect an offering of unregistered securities.",
+                "changed_text": "This Remarketing Agreement may be amended or modified by a simple majority vote of the Company's Board of Directors. The Board's decision is final and requires no further written consent from other parties, regardless of modifications to the Securities requiring registration under the Act.",
+                "explanation": "The original agreement requires written consent from all parties for amendments. The modified text allows amendments by a simple majority vote of the Company's Board of Directors, disregarding the original consent requirement and potentially circumventing securities registration requirements, creating a conflict.",
+                "contradicted_law": "Section 367 of the New York Business Corporation Law",
+                "law_citation": "NY BCL § 367",
+                "law_url1": [
+                    "https://law.justia.com/codes/new-york/business-corporation-law/article-9/367/"
+                ],
+                "law_url2": [
+                    "https://www.nysenate.gov/legislation/laws/BSC/367"
+                ],
+                "law_explanation": "The modified text contradicts NY BCL § 367 because it allows amendments to the agreement without the consent of all parties involved. This section of the NY BCL stipulates that amendments to agreements affecting shareholder rights or obligations generally require proper authorization and cannot be unilaterally imposed, especially when those amendments impact the securities' registration status.",
+                "location": "Section 17"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "All statements, requests, notices and agreements hereunder shall be in writing and shall be deemed to have been duly given if mailed or transmitted by any standard form of telecommunication; notices to the Remarketing Agents shall be directed to Deutsche Bank Securities Inc., 60 Wall Street, New York, NY 10005, with a copy to Debevoise & Plimpton LLP, 919 Third Avenue, New York, New York 10022, attention of Peter J. Loughran, Esq.; notices to the Company shall be delivered or sent by mail, telex or facsimile transmission to the address of the Company set forth in the Registration Statement, Attention: General Counsel, with a copy to Willkie Farr & Gallagher LLP, 787 Seventh Avenue, New York, NY 10019, attention John M. Schwolsky, Esq. and Vladimir Nicenko, Esq.; notices to the Trustee shall be delivered or sent by mail or facsimile transmission to The Bank of New York Mellon Trust Company, N.A., 2 North LaSalle Street, Suite 1020, Chicago, Illinois 60602, telecopy: (312) 827-8542; notices to the Stock Purchase Contract Agent shall be delivered or sent by mail or facsimile transmission to Deutsche Bank Trust Company Americas, Trust and Securities Services, 60 Wall Street, 16th Floor, MS: NYC60-2710, New York, NY 10005, telecopy: (732) 578-4635; and notices to the Collateral Agent or the Custodial Agent shall be delivered or sent by mail or facsimile transmission to Deutsche Bank Trust Company Americas, Trust and Securities Services, 60 Wall Street, 16th Floor, MS: NYC60-2710, New York, NY 10005, telecopy: (732) 578-4635. Any such statements, requests, notices or agreements shall take effect at the time of receipt thereof.",
+                "changed_text": "All statements, requests, notices and agreements hereunder shall be deemed to have been duly given if sent via carrier pigeon. The parties bear the risk of successful delivery of such notices. Statements, requests, notices and agreements shall take effect 30 days after the release of the carrier pigeon.",
+                "explanation": "The modified text mandates that all communications be delivered via carrier pigeon, a method that lacks reliability and evidentiary support. This contradicts the established legal standard for providing notice, which requires a reasonable method of communication likely to provide actual notice.",
+                "contradicted_law": "Federal Rule of Civil Procedure 5(b)(2)(E)",
+                "law_citation": "FRCP 5(b)(2)(E)",
+                "law_url1": [
+                    "https://www.law.cornell.edu/rules/frcp/rule_5"
+                ],
+                "law_url2": [
+                    "https://www.uscourts.gov/rules-policies/current-rules/federal-rules-civil-procedure"
+                ],
+                "law_explanation": "The modified text contradicts FRCP 5(b)(2)(E) because it specifies an unreasonable method of service (carrier pigeon). FRCP 5(b)(2)(E) requires that service be made in a manner 'that is reasonably likely to result in its receipt', which carrier pigeons do not satisfy due to their unreliability and the lack of a method to confirm receipt.",
+                "location": "Section 13"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "This Remarketing Agreement and the Pricing Agreement may be executed by any one or more of the parties hereto and thereto in any number of counterparts, each of which shall be deemed to be an original, but all such counterparts shall together constitute one and the same instrument.",
+                "changed_text": "This Remarketing Agreement must be physically executed by all parties on a single original document. Digital signatures, counterparts, or any form of reproduction are strictly prohibited and render the agreement null and void.",
+                "explanation": "The original text allows for execution in counterparts, which is a common and legally accepted practice. The modified text mandates physical execution on a single original document and prohibits digital signatures or counterparts, conflicting with modern legal standards and practices that recognize the validity of electronic signatures and counterpart execution.",
+                "contradicted_law": "The Electronic Signatures in Global and National Commerce Act (E-SIGN Act)",
+                "law_citation": "15 U.S.C. § 7001",
+                "law_url1": [
+                    "https://www.govinfo.gov/app/details/STATUTE-114/STATUTE-114-Pg464"
+                ],
+                "law_url2": [
+                    "https://www.ftc.gov/legal-library/browse/statutes/electronic-signatures-global-and-national-commerce-act"
+                ],
+                "law_explanation": "The modified text contradicts the E-SIGN Act (15 U.S.C. § 7001) by prohibiting digital signatures. The E-SIGN Act establishes that electronic signatures have the same legal validity as handwritten signatures, as long as certain conditions are met. By disallowing digital signatures, the modified text undermines the legal recognition provided by this Act.",
+                "location": "Section 18"
+            }
+        ]
+    }
+]

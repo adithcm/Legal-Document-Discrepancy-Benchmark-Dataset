@@ -1,0 +1,49 @@
+[
+  {
+    "file_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "Provider represents, warrants and agrees that the Services shall be provided in good faith, in accordance with applicable law and in a manner generally consistent with the historical provision of the Services and with the same standard of care as historically provided.",
+        "changed_text": "Provider represents, warrants and agrees that the Services shall be provided in good faith and in a manner generally consistent with the historical provision of the Services and with the same standard of care as historically provided.",
+        "explanation": "By removing 'in accordance with applicable law', the contract becomes ambiguous as to whether the services are legally compliant. This creates a legal risk as it implies the service provider may not be obliged to adhere to specific local laws regarding service provision in Israel.",
+        "contradicted_law": "Contracts Law (General Part), 1973 (Israel)",
+        "law_citation": "Contracts Law (General Part), 1973",
+        "law_url": "https://www.nevo.co.il/en/law_html/law_01/004.htm",
+        "law_explanation": "The Israeli Contracts Law (General Part), 1973, implies that all contracts must be performed in good faith and in accordance with applicable laws. Removing the explicit reference to 'applicable law' weakens the consumer's legal recourse if the service is not provided lawfully.",
+        "location": "1.2(a)",
+        "scraped_snippet": null,
+        "contradiction_score": 0.6,
+        "justification": "The original contract explicitly states that services will be provided 'in accordance with applicable law'. The changed text removes this clause. While the LLM-generated Law Explanation argues that Israeli Contracts Law implies that all contracts must be performed in good faith and in accordance with applicable laws, the absence of the explicit statement increases ambiguity and potentially weakens the enforceability of the 'applicable law' requirement. The scraped law snippet is absent, which makes direct comparison impossible and limits the potential contradiction score. However, the removal of the clause introduces ambiguity regarding legal compliance, creating a moderate legal risk, thus justifying a contradiction score of 0.6."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "Recipient shall own, and Provider hereby irrevocably assigns to the Recipient, all rights, title, and interest in any invention, technique, process, device, discovery, improvement, or know-how, whether patentable or not and all other proprietary rights, industrial rights and any other similar rights, in each case on a worldwide basis, and all copies and tangible embodiments thereof, or any part thereof, in whatever form or medium hereafter made or conceived solely or jointly by Provider while working for or on behalf of the Recipient, which relate to, is suggested by, or results from the Services.",
+        "changed_text": "Recipient shall own, and Provider hereby assigns to the Recipient, all rights, title, and interest in any invention, technique, process, device, discovery, improvement, or know-how, whether patentable or not and all other proprietary rights, industrial rights and any other similar rights, in each case on a worldwide basis, and all copies and tangible embodiments thereof, or any part thereof, in whatever form or medium hereafter made or conceived solely or jointly by Provider while working for or on behalf of the Recipient, which relate to, is suggested by, or results from the Services.",
+        "explanation": "By removing 'irrevocably', the contract now allows the provider to potentially revoke the assignment of intellectual property, undermining the recipient's rights. Israeli law protects intellectual property rights, and this modification creates uncertainty about the ownership of inventions created during the service provision.",
+        "contradicted_law": "Copyright Act, 2007 (Israel)",
+        "law_citation": "Copyright Act, 2007",
+        "law_url": "https://www.wipo.int/wipolex/en/text/594301",
+        "law_explanation": "The Israeli Copyright Act, 2007, provides for the assignment of copyright. However, it is generally understood that assignments should be clear and unambiguous. By removing the term 'irrevocably', the contract introduces ambiguity and potential disputes regarding the permanence of the assignment, thereby creating a legal risk and potentially contradicting the intent of the law to provide clear IP ownership.",
+        "location": "1.4(a)",
+        "scraped_snippet": null,
+        "contradiction_score": 0.6,
+        "justification": "The removal of \"irrevocably\" from the original contract weakens the assignment of intellectual property rights to the Recipient. While the scraped law snippet is unavailable, the Law Explanation suggests that the Israeli Copyright Act, 2007, requires assignments to be clear and unambiguous. The original contract, with \"irrevocably\", clearly indicates a permanent transfer of rights. The changed text, by omitting this term, introduces ambiguity as the Provider could argue the assignment is not permanent and potentially revocable, which contradicts the legal intent of clear IP ownership transfer as described by the Law Explanation. Therefore, although there is no specific snippet confirming this, the removal introduces ambiguity that could contradict the spirit of the law, and it alters the fundamental understanding of the IP transfer compared to the original text."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "In the event of an Invoice dispute, Recipient shall deliver a written statement to Provider prior to the date payment is due on the disputed Invoice listing all disputed items and providing a reasonably detailed description of each disputed item. Amounts not so disputed shall be deemed accepted and shall be paid, notwithstanding disputes on other items. The Parties shall seek to resolve all such disputes expeditiously and in good faith. Provider shall continue performing the Services in accordance with this Agreement pending resolution of any dispute.",
+        "changed_text": "In the event of an Invoice dispute, Recipient shall deliver a written statement to Provider prior to the date payment is due on the disputed Invoice listing all disputed items. Amounts not so disputed shall be deemed accepted and shall be paid, notwithstanding disputes on other items. The Parties shall seek to resolve all such disputes expeditiously and in good faith. Provider may suspend performing the Services pending resolution of any dispute.",
+        "explanation": "By changing 'Provider shall continue performing' to 'Provider may suspend performing', the contract creates an opportunity for the service provider to halt services during a dispute. This could be seen as violating the implied covenant of good faith and fair dealing, which is a principle of contract law in Israel.",
+        "contradicted_law": "Contracts Law (General Part), 1973 (Israel)",
+        "law_citation": "Contracts Law (General Part), 1973",
+        "law_url": "https://www.nevo.co.il/en/law_html/law_01/004.htm",
+        "law_explanation": "The Israeli Contracts Law (General Part), 1973, requires that all parties act in good faith when performing contractual obligations. Allowing the service provider to suspend services during a dispute, without any clear limitations, potentially violates this principle by allowing the provider to exert undue pressure on the recipient, especially if the disputed amount is relatively small or if the services are critical to the recipient's operations.",
+        "location": "2.3",
+        "scraped_snippet": null,
+        "contradiction_score": 0.6,
+        "justification": "The original contract mandates the Provider to continue performing services during a dispute. The changed contract allows the Provider to suspend services. The Law Explanation posits that this change potentially violates the Israeli Contracts Law (General Part), 1973, requiring parties to act in good faith. The absence of any limitations on the provider's ability to suspend services creates a potential imbalance and allows the provider to exert undue pressure. Without a scraped law snippet to explicitly state the requirements of \"good faith,\" it's difficult to ascertain definitively whether this constitutes a clear contradiction. However, the potential for abuse and the deviation from the original commitment to continuous service provision strengthens the likelihood of a contradiction, warranting a moderately high contradiction score."
+      }
+    ]
+  }
+]

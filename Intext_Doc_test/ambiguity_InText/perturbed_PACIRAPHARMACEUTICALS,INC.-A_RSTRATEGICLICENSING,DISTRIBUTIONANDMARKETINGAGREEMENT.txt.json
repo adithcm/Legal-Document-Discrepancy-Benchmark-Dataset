@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "PACIRAPHARMACEUTICALS,INC.-A_RSTRATEGICLICENSING,DISTRIBUTIONANDMARKETINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "As used in this Agreement, the following words and expressions have the following meanings: \"Affiliate\" With respect to any Party to this Agreement shall mean any company, corporation, firm, individual or other entity which Controls, is Controlled by or is under common Control with such Party to this Agreement for only so long as such Control exists;",
+                "changed_text": "As used in this Agreement, the following words and expressions have the following meanings: \"Affiliate\" With respect to any Party to this Agreement shall mean any company, corporation, firm, individual or other entity which Controls, is Controlled by or is under common Control with such Party to this Agreement, irrespective of Control duration; ",
+                "explanation": "The modification removes the phrase 'for only so long as such Control exists' from the definition of 'Affiliate.' This creates an in-text contradiction because in other sections, the agreement may rely on the understanding that affiliation ceases when control ceases. This change could lead to disputes over obligations if a company was once an affiliate but is no longer controlled by the party.",
+                "location": "1.1",
+                "contradicted_location": "1.1",
+                "contradicted_text": "As used in this Agreement, the following words and expressions have the following meanings: \"Affiliate\" With respect to any Party to this Agreement shall mean any company, corporation, firm, individual or other entity which Controls, is Controlled by or is under common Control with such Party to this Agreement, irrespective of Control duration;"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "During the Term, EKR shall not use in relation to the Product any packaging, labeling and Product inserts, nor any advertising literature that has not been -29- approved by PPI in writing with respect to Trademark usage (such approval not to be unreasonably withheld, conditioned or delayed) or deemed approved pursuant to Section 4.10, to the extent such materials include any Trademark. EKR shall be responsible for insuring that any packaging, labeling and Product inserts, and advertising literature complies with Applicable Laws.",
+                "changed_text": "During the Term, EKR shall use in relation to the Product packaging, labeling and Product inserts, and advertising literature that has been approved by PPI in writing or deemed approved pursuant to Section 4.10, to the extent such materials include any Trademark. EKR shall not be responsible for ensuring that any packaging, labeling and Product inserts, and advertising literature complies with Applicable Laws.",
+                "explanation": "The change removes EKR responsibility to ensure packaging, labeling, etc. complies with Applicable Laws. This is an in-text contradiction because Section 4.12 says 'EKR shall obtain and maintain all necessary licenses, permits, records and authorizations required by Applicable Laws'. Now, section 4.18 states EKR isn't responsible for complying packaging, labeling, etc with Applicable Laws, but section 4.12 states otherwise.",
+                "location": "4.18",
+                "contradicted_location": "4.12",
+                "contradicted_text": "EKR shall obtain and maintain all necessary licenses, permits, records and authorizations required by Applicable Laws as holder of the Transferred NDA after the Agreement Date and in order to exercise the Distribution Rights and observe and comply with all Applicable Laws, ordinances, rules and regulations including, but not limited to those of the applicable Regulatory Authorities in the exercise of the Distribution Rights save insofar as PPI is required to obtain the same as holder of the Marketing Authorizations prior to the Agreement Date, or under the terms of this Agreement;"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "EKR Improvements shall be owned by EKR and upon termination of this Agreement by PPI pursuant to Section, shall be deemed be licensed to PPI on a worldwide, non-exclusive, irrevocable basis, at a royalty or for such other consideration as may be mutually agreed upon by the parties in writing. Joint Improvements shall be owned jointly by the Parties, and PPI's interest therein shall be licensed to EKR hereunder.",
+                "changed_text": "EKR Improvements shall be owned by PPI and upon termination of this Agreement by PPI pursuant to Section, shall be deemed be licensed to PPI on a worldwide, non-exclusive, irrevocable basis, at a royalty or for such other consideration as may be mutually agreed upon by the parties in writing. Joint Improvements shall be owned jointly by the Parties, and EKR owns both Parties interest therein.",
+                "explanation": "The contradiction centers on the ownership of EKR Improvements and Joint Improvements. The original text states EKR Improvements are owned by EKR but licensed to PPI upon termination, and Joint Improvements are jointly owned. The modified text states that all EKR improvements shall be owned by PPI and the Joint Improvements are owned by EKR in addition to the all the Parties interest. This creates conflict since the owner of these said improvements would be up for debate and the terms may not be enforceable if any dispute arises",
+                "location": "8.6",
+                "contradicted_location": "8.6",
+                "contradicted_text": "EKR Improvements shall be owned by PPI and upon termination of this Agreement by PPI pursuant to Section, shall be deemed be licensed to PPI on a worldwide, non-exclusive, irrevocable basis, at a royalty or for such other consideration as may be mutually agreed upon by the parties in writing. Joint Improvements shall be owned jointly by the Parties, and EKR owns both Parties interest therein."
+            }
+        ]
+    }
+]

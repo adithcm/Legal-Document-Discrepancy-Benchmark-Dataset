@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "TUNIUCORP_03_06_2014-EX-10-COOPERATIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "4.2 The Service Fee of the last quarter shall be paid prior to the seventh business day following the commencement of the next quarter. Such Service Fee shall be paid to the bank account designated by Party B in writing. If Party B intends to change its bank account, it shall send a written notice to Party A seven business days in advance.",
+                "changed_text": "4.2 The Service Fee of the last quarter shall be paid prior to the seventh business day following the commencement of the next quarter. However, if Party A notifies Party B that they are experiencing financial difficulty, Party A can delay payments up to 60 days. Such Service Fee shall be paid to the bank account designated by Party B in writing. If Party B intends to change its bank account, it shall send a written notice to Party A seven business days in advance.",
+                "explanation": "This change introduces an in-text contradiction by adding a clause allowing Party A to delay service fee payments by up to 60 days if they claim financial difficulty. This contradicts the original clause which stipulates that payment must be made within seven business days following the commencement of the next quarter. This creates uncertainty about the payment deadline and enforcement, specifically in Article 4.3.",
+                "location": "4.2",
+                "contradicted_location": "4.3",
+                "contradicted_text": "4.3 Except as otherwise agreed hereunder, if Party A or its subsidiaries fail to pay the Service Fee in full on schedule according to provisions of Article 4.1 and Article 4.2, then Party A or its subsidiaries shall, in addition to the continuance of the payment of Service Fee in full, it shall pay Party B the liquidated damages at a daily interest rate of 0.03% in respect of the outstanding Service Fee."
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "6. Termination 6.1 Prior to the expiration of the Term of Cooperation , this Agreement shall only be terminated upon occurrence of the followingcircumstances: 6.1.1 Party B shall have the right to terminate this Agreement in advance without the prior written consent from Party A, bysending a written notice to Party A but Party A may not terminate or rescind this Agreement; 6.1.2 One Party requests to terminate this Agreement when the other Party is declared bankrupt in accordance with the laws; 6.1.3 Party B fails to provide Party B's Services to Party A for more than three consecutive years due to the force majeure event.",
+                "changed_text": "6. Termination 6.1 Prior to the expiration of the Term of Cooperation , this Agreement shall only be terminated upon occurrence of the followingcircumstances: 6.1.1 Party B shall have the right to terminate this Agreement in advance without the prior written consent from Party A, bysending a written notice to Party A but Party A may not terminate or rescind this Agreement; 6.1.2 One Party requests to terminate this Agreement when the other Party is declared bankrupt in accordance with the laws; 6.1.3 Party B fails to provide Party B's Services to Party A for more than three consecutive years due to the force majeure event. 6.1.4 Party A may terminate the agreement at any time, provided that Party A provides Party B 30 days written notice. ",
+                "explanation": "This change introduces an in-text contradiction by adding a new condition, 6.1.4, stating that Party A can terminate the agreement with 30 days' notice. This directly contradicts the original clause 6.1.1, which explicitly states that Party A may not terminate or rescind the agreement. This creates uncertainty about Party A's termination rights.",
+                "location": "6.1",
+                "contradicted_location": "6.1.1",
+                "contradicted_text": "6.1.1 Party B shall have the right to terminate this Agreement in advance without the prior written consent from Party A, bysending a written notice to Party A but Party A may not terminate or rescind this Agreement;"
+            },
+            {
+                "type": "Inconsistencies - In Text Contradiction",
+                "original_text": "12.2 The rights and obligations of each Party under this Agreement shall not be transferred, except for the transfer by Party B to its affiliates.",
+                "changed_text": "12.2 The rights and obligations of each Party under this Agreement shall not be transferred, except for the transfer by Party B to its affiliates. Party A may transfer its obligations with written consent from Party B. ",
+                "explanation": "This change introduces an in-text contradiction by adding that Party A may transfer its obligations if Party B agrees. This directly contradicts the first sentence of the original Article 12.2, which states that neither Party's rights and obligations shall be transferred, except for Party B transferring to affiliates. This creates uncertainty about the transferability of obligations under this agreement. This is further contradictory in Article 12.5",
+                "location": "12.2",
+                "contradicted_location": "12.5",
+                "contradicted_text": "12.5 This Agreement shall constitute an entire agreement between the Parties in respect of the subject matter of this Agreement and supersede any and all prior expression of intention or understanding reached by the Parties in relation to this Agreement. This Agreement shall not be amended or modified unless the authorized representatives of the Parties sign a written agreement thereof."
+            }
+        ]
+    }
+]

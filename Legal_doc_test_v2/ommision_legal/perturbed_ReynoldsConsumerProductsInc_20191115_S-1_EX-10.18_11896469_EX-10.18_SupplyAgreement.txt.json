@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_SupplyAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Workers' Compensation Liability Insurance. Occurrence based coverage providing benefits in the minimal amount required by Applicable Law for workplace and work related injuries and illnesses to the employees of a Party, including, without limitation, Workers Compensation Acts of applicable U.S. States, the U.S. Longshoremen's and Harbor Workers Compensation Act and the U.S. Jones Act. Requires alternate employer endorsement and waiver of subrogation endorsement.",
+                "changed_text": "Workers' Compensation Liability Insurance. Occurrence based coverage providing benefits for workplace and work related injuries and illnesses to the employees of a Party. Requires alternate employer endorsement.",
+                "explanation": "Removing the phrase 'in the minimal amount required by Applicable Law' could lead to the insurance coverage being less than what is legally mandated, potentially violating state workers' compensation laws. Removing 'waiver of subrogation endorsement' removes a clause that protects the indemnitee. The agreement is governed by the laws of Illinois.",
+                "contradicted_law": "Illinois Workers' Compensation Act",
+                "law_citation": "820 ILCS 305",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2430&ChapterID=68"
+                ],
+                "law_url2": [
+                    "https://www.workerscomplaw.com/illinois-workers-compensation-act/"
+                ],
+                "law_explanation": "Illinois law mandates specific minimum benefits for workers' compensation. By removing the reference to 'the minimal amount required by Applicable Law', the contract creates ambiguity and a potential loophole where the coverage provided could fall below the legally required minimum, violating 820 ILCS 305. Removing the waiver of subrogation endorsement is a violation, because if a company fails to secure it, they are in violation of the Workers' Compensation Act.",
+                "location": "8.c"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "Seller represents and warrants to Buyer that each product sold under this Agreement will at the time of delivery to Buyer:\na. Be in new, undamaged and unadulterated condition free of any defects in design, materials and manufacture. Seller is not making any representation or warranty under this clause with regards to the design of a product to the extent the design constitutes, incorporates or otherwise embodies intellectual property that Buyer has represented and warranted to Seller is owned by Buyer and which Buyer has licensed to Seller to manufacture the product for Buyer.",
+                "changed_text": "Seller represents and warrants to Buyer that each product sold under this Agreement will at the time of delivery to Buyer:\na. Be in new condition.",
+                "explanation": "By removing 'undamaged and unadulterated condition free of any defects in design, materials and manufacture', the seller is not representing that the product must be free of defects, which introduces legal risk in the context of product liability and consumer protection laws. The agreement is governed by the laws of Illinois.",
+                "contradicted_law": "Illinois Consumer Fraud and Deceptive Business Practices Act",
+                "law_citation": "815 ILCS 505/2",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=081505050K2"
+                ],
+                "law_url2": [
+                    "https://casetext.com/statute/illinois-compiled-statutes/business-transactions/consumer-protection/chapter-815-business-transactions/act-505-consumer-fraud-and-deceptive-business-practices-act/section-5052-unfair-methods-of-competition-and-unfair-or-deceptive-acts-or-practices-declared-unlawful"
+                ],
+                "law_explanation": "The Illinois Consumer Fraud and Deceptive Business Practices Act prohibits unfair or deceptive acts or practices in the conduct of any trade or commerce. By omitting the warranty that the product will be 'undamaged and unadulterated condition free of any defects in design, materials and manufacture', the contract opens the door for the seller to provide products that are damaged or defective without being in breach of contract. This contradicts 815 ILCS 505/2, as providing defective goods knowingly could be considered a deceptive business practice.",
+                "location": "6.a"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Party is operating its business in compliance with a commercially reasonable code of ethics adopted by such Party.",
+                "changed_text": "The Party is operating its business according to its own discretion.",
+                "explanation": "By changing the text to 'according to its own discretion' the original text no longer stipulates that the business is operating within a code of ethics, which could violate consumer protection regulations. The agreement is governed by the laws of Illinois.",
+                "contradicted_law": "Illinois Consumer Fraud and Deceptive Business Practices Act",
+                "law_citation": "815 ILCS 505/2",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=081505050K2"
+                ],
+                "law_url2": [
+                    "https://casetext.com/statute/illinois-compiled-statutes/business-transactions/consumer-protection/chapter-815-business-transactions/act-505-consumer-fraud-and-deceptive-business-practices-act/section-5052-unfair-methods-of-competition-and-unfair-or-deceptive-acts-or-practices-declared-unlawful"
+                ],
+                "law_explanation": "The Illinois Consumer Fraud and Deceptive Business Practices Act prohibits unfair competition or unfair or deceptive acts or practices in the conduct of any trade or commerce. By changing the text to 'according to its own discretion,' the party is no longer bound by a 'commercially reasonable code of ethics', potentially creating a legal contradiction with the Illinois Consumer Fraud and Deceptive Business Practices Act, 815 ILCS 505/2, since there is no guarantee they won't be engaging in unfair practices.",
+                "location": "5.b"
+            }
+        ]
+    }
+]

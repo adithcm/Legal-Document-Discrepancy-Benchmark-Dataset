@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "FTENETWORKS,INC_02_18_2016-EX-99.4-STRATEGICALLIANCEAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "A. Subcontractor shall be permitted to subcontract any part of the Work without the prior written notification and consent of EDGE. However, Subcontractor will follow subcontracting requirements and processes of EDGE and provide joint access to subcontractor database and information concerning quality control. All Work performed by a Lower-tier Subcontractor shall be deemed Work performed by Subcontractor. Subcontractor agrees not to hire any Lower-tier Subcontractor to whose employment EDGE reasonably objects.",
+                "changed_text": "A. Subcontractor shall be permitted to subcontract any part of the Work without the prior written notification and consent of EDGE. However, Subcontractor will follow subcontracting requirements and processes of EDGE and provide joint access to subcontractor database and information concerning quality control. All Work performed by a Lower-tier Subcontractor shall be deemed Work performed independently of Subcontractor. Subcontractor agrees not to hire any Lower-tier Subcontractor to whose employment EDGE reasonably objects.",
+                "explanation": "This change creates an in-text contradiction regarding the accountability and responsibility for the Lower-tier Subcontractors work. Originally, it stated that all Work performed by a Lower-tier Subcontractor shall be deemed Work performed by Subcontractor making Subcontractor accountable. The modification states it shall be deemed Work performed independently of Subcontractor removing that direct accountability, which contradicts the original intent and potentially the indemnification clause in Section 13 and warranty in Section 17.",
+                "location": "6",
+                "contradicted_location": "13",
+                "contradicted_text": "A. Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives (hereinafter the \"Indemnitees\") from and against any and all claims, demands, damages, actions, causes of action, suits, losses, judgments, obligations, and any liabilities, costs and expenses, including but not limited to, investigative and repair costs, attorney fees and costs, and consultant's fees and costs (collective, \"Claims\") arising out of or in connection with the Work performed, materials furnished, or services provided or omitted under this Agreement by Subcontractor or its agents"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "A. EDGE and Subcontractor, without invalidating this Agreement, may agree to changes in the Work consisting of additions, deletions, or modifications (\"Change Order\"), pursuant to a completed written change order documented by the parties. Such Change Order shall set forth any changes to the applicable Purchase Order and the price and time adjusted accordingly if any. In connection with the Change Order, EDGE will issue to Subcontractor a subsequent Purchase Order identifying any agreed upon change in the Work price and/or time.",
+                "changed_text": "A. EDGE and Subcontractor, without invalidating this Agreement, may agree to changes in the Work consisting of additions, deletions, or modifications (\"Change Order\"), pursuant to an informal agreement documented by the parties. Such Change Order shall set forth any changes to the applicable Purchase Order and the price and time adjusted at EDGE's discretion. In connection with the Change Order, EDGE may issue to Subcontractor a subsequent Purchase Order identifying any agreed upon change in the Work price and/or time.",
+                "explanation": "This change alters the process for Change Orders. Previously, changes required a 'completed written change order' and price/time adjustments were made 'accordingly'. The altered version allows for an 'informal agreement' and time adjustments are made at 'EDGE's discretion'. This creates ambiguity. The word 'may' in the phrase 'EDGE may issue' makes the issuance of Purchase Order non-obligatory, contradicting the original intent where such an order would be essential for formalizing changes and payment. This creates a potential in-text contradiction with Section 4, which states 'All Work shall be performed on the basis of certain agreed upon prices specified in the related Exhibit or individual Purchase Order once accepted by Subcontractor'. Now, EDGE can dictate unagreed prices and time.",
+                "location": "7",
+                "contradicted_location": "4",
+                "contradicted_text": "A. All Work shall be performed on the basis of certain agreed upon prices specified in the related Exhibit or individual Purchase Order once accepted by Subcontractor."
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Subcontractor shall be solely responsible for all construction means, methods, techniques, procedures and safety and security programs in connection with the performance of the Work.",
+                "changed_text": "Subcontractor shall be solely responsible for all construction means, methods, techniques, procedures and safety and security programs in connection with the performance of the Work, unless otherwise directed by EDGE.",
+                "explanation": "By adding 'unless otherwise directed by EDGE,' we directly contradict the idea that Subcontractor is *solely* responsible. This change gives EDGE the authority to dictate these crucial aspects, thereby diluting the subcontractor's responsibility. This contradicts the previous statement and creates an in-text contradiction, also creating problems with Section 18. A, where Subcontractor represents and warrants (i) that Subcontractor has experience in the type of Work to be performed and in the occupational safety and health practices that are required for that type of work.",
+                "location": "8",
+                "contradicted_location": "18",
+                "contradicted_text": "A. Subcontractor represents and warrants (i) that Subcontractor has experience in the type of Work to be performed and in the occupational safety and health practices that are required for that type of work; (ii) that Subcontractor's employees are properly trained and equipped to perform the Work; (iii) that Subcontractor is aware of the risks inherent in performing such Work and Subcontractor expressly assumes the risk of loss or injury that may result from the Work."
+            }
+        ]
+    }
+]

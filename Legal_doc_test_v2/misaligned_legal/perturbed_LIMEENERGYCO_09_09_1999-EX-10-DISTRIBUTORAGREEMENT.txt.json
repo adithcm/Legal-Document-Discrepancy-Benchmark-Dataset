@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTORAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "1.7 Relationship of Parties. The relationship between the Company and the Distributor Page -3- is that of vendor and vendee. This Agreement does not create the relationship of principal and agent between the Company and the Distributor for any purpose whatsoever.",
+                "changed_text": "1.7 Relationship of Parties. The relationship between the Company and the Distributor Page -3- is that of vendor and vendee. This Agreement shall create the relationship of principal and agent between the Company and the Distributor for specific purposes outlined in Section 2.5.",
+                "explanation": "By stating that the agreement *does* create a principal-agent relationship for specific purposes, we introduce a contradiction and ambiguity. This is misaligned because traditionally, a distributor agreement intends vendor/vendee relationship, where a distributor is an independent entity buying and selling products, rather than acting as an agent on behalf of the company. Creating a principal-agent relationship, even for limited purposes, introduces legal complexities and potential liabilities.",
+                "contradicted_law": "Illinois Agency Law - specifically concerning the duties and liabilities of principals and agents.",
+                "law_citation": "805 ILCS 310/1",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2234&ChapterID=64"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/illinois/2016/chapter-805/act-310/section-310-1/"
+                ],
+                "law_explanation": "The changed text contradicts the common understanding and legal framework surrounding distributor agreements, which generally avoid creating a principal-agent relationship. Illinois law defines agency and the duties that accompany it; creating such a relationship, even for limited purposes, can invoke these duties and liabilities which are not desired in a typical distributor relationship. The alteration creates uncertainty as to the scope of the agency relationship and potential fiduciary duties.",
+                "location": "Section 1.7"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "3.3 Warranty. Company shall at all times make reasonable efforts to maintain quality control and to deliver Products to Distributor which, when received by Distributor, or, as the case may be, the end-user, are properly and adequately packaged and contained, fully assembled (except for miscellaneous components which may be shipped separately to prevent damage in transit), fully functional and otherwise in conformance with the warranties set forth herein. Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a workmanlike manner and that such Products shall be fully functional and fit for their intended purposes. Company further warrants that the Products sold hereunder shall be free from defects in design, materials and workmanship for a period of twenty-four (24) months after delivery to Distributor's end-user. The Company shall not be liable for defective Products, except as provided in this Agreement. The Distributor at all times shall comply with all requirements of the Magnuson-Moss Warranty-Federal Trade Commission Improvement Act and similar federal and state laws and regulations.",
+                "changed_text": "3.3 Warranty. Company shall at all times make reasonable efforts to maintain quality control and to deliver Products to Distributor which, when received by Distributor, or, as the case may be, the end-user, are properly and adequately packaged and contained, fully assembled (except for miscellaneous components which may be shipped separately to prevent damage in transit), fully functional and otherwise in conformance with the warranties set forth herein. Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in a workmanlike manner and that such Products shall be fully functional and fit for their intended purposes. Company warrants that the Products will be designed, manufactured, constructed, assembled and packaged in an ordinary manner and that such Products shall be functional and seemingly fit for their usual general purposes. Company further warrants that the Products sold hereunder shall be free from defects in design, materials and workmanship for a period of one (1) month after delivery to Distributor's end-user. The Company shall not be liable for defective Products, except as provided in this Agreement. The Distributor at all times shall comply with all requirements of the Magnuson-Moss Warranty-Federal Trade Commission Improvement Act and similar federal and state laws and regulations.",
+                "explanation": "The original text uses \"workmanlike manner\". I replaced this with \"ordinary manner\" to introduce legal ambiguity, and similarly for \"fit for their intended purposes\" becoming \"seemingly fit for their usual general purposes\". Further, the warranty was reduced to 1 month. By using \"ordinary manner\" and \"usual general purposes\", the warranty obligation of the company is reduced. The warranty period has also been reduced to one month. Illinois has specific provisions regarding implied warranties and their disclaimers. By reducing the warranty period and altering the language of the warranty, the agreement now attempts to reduce the protections afforded to the distributor, potentially contradicting Illinois warranty law.",
+                "contradicted_law": "Illinois Uniform Commercial Code - Implied Warranty of Merchantability",
+                "law_citation": "810 ILCS 5/2-314",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=Ch0810Act5Art2Pt3&ActID=2368&ChapterID=67&SeqStart=1350000&SeqEnd=1820000"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/il/chapter-810-uniform-commercial-code/il-st-sect-810-5-2-314.html"
+                ],
+                "law_explanation": "Illinois law provides an implied warranty of merchantability, which requires that goods be fit for the ordinary purposes for which such goods are used. By warranting only that products are designed, manufactured, and packaged in an 'ordinary manner' and are 'seemingly fit for their usual general purposes,' the modified text attempts to weaken this implied warranty. Additionally, the shorter warranty duration conflicts with what is considered a reasonable time for discovering defects, potentially rendering the disclaimer unconscionable under Illinois law.",
+                "location": "Section 3.3"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "2.7 Payment Terms. Distributor shall pay Company within thirty (30) days of Distributor's or, as the case may be, the end-user's receipt of Products.",
+                "changed_text": "2.7 Payment Terms. Distributor shall pay Company within ninety (90) days of Distributor's acceptance of the products, regardless of the end-user's receipt of Products. Distributor acceptance is assumed upon completion of 30 days, following delivery, if there is no written notice of defects.",
+                "explanation": "Payment terms were changed from 30 to 90 days and acceptance is tied to a 30-day notification of defects. This change attempts to alter the standard commercial transaction terms and payment deadlines for goods. While parties can contractually agree to payment terms, imposing a 90-day payment window, especially when acceptance is presumed after 30 days unless defects are reported, can contradict standard business practices and potentially violate requirements of good faith and fair dealing. Further, a 90 day payment term may conflict with other laws related to debt collection or prompt payment.",
+                "contradicted_law": "Illinois Sales Representative Act - specifically concerning timely payment to sales representatives.",
+                "law_citation": "820 ILCS 120/2",
+                "law_url1": [
+                    "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2427&ChapterID=68"
+                ],
+                "law_url2": [
+                    "https://codes.findlaw.com/il/chapter-820-employment/il-st-sect-820-120-2.html"
+                ],
+                "law_explanation": "While this Act primarily covers sales representatives, the principle of timely payment can be extended to distributor agreements if the distributor is considered a sales representative under the law. Illinois law mandates timely payment to sales representatives after termination of the agreement. Extending payment terms to 90 days, especially with presumed acceptance after 30 days, could be seen as an attempt to circumvent these timely payment requirements and create an unreasonable delay in compensation. If the distributor is deemed a sales representative under Illinois law, this change could be considered a violation.",
+                "location": "Section 2.7"
+            }
+        ]
+    }
+]

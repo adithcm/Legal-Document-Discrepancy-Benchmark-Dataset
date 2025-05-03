@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_EndorsementAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society becomes impaired, you may be required to make an extra payment. The Board of Directors will determine the amount of any extra payment. It will be based on each member's fair share of the deficiency. You may make the extra payment by an equivalent reduction in benefits or by a payment in cash. If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged as an indebtedness against the contract with interest compounded at the rate of 5% per year.",
+                "changed_text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society becomes impaired, you may be required to make an extra payment. The Board of Directors will determine if an extra payment is needed. You may make the extra payment by an equivalent reduction in benefits or by a payment in cash.",
+                "explanation": "By removing the clause 'It will be based on each member's fair share of the deficiency. If you do not make the extra payment within 60 days from the date we notify you of your share of the deficiency, the amount will be charged as an indebtedness against the contract with interest compounded at the rate of 5% per year.' we create an ambiguity. The contract still mentions an 'extra payment,' but the method of calculation and the recourse for not paying within 60 days is omitted. This creates an in-text contradiction because the solvency clause is referenced, but the exact obligations and calculations are unclear.",
+                "location": "Paragraph under 'MAINTENANCE OF SOLVENCY'",
+                "contradicted_location": "Paragraph under 'MAINTENANCE OF SOLVENCY'",
+                "contradicted_text": "MAINTENANCE OF SOLVENCY. This provision applies only to benefits provided through the General Account. If the solvency of the Society becomes impaired, you may be required to make an extra payment. The Board of Directors will determine if an extra payment is needed. You may make the extra payment by an equivalent reduction in benefits or by a payment in cash."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "ENTIRE CONTRACT In the ENTIRE CONTRACT section, the first phrase and numbered list are amended to read: The Entire Contract consists of: 1) This contract including any attached riders, amendments, or endorsements; 2) The Application attached to this contract; and 3) The Articles of Incorporation and Bylaws of the Society and all amendments to them. Benefits will not be reduced or eliminated by any future amendments to our Articles of Incorporation or Bylaws.",
+                "changed_text": "ENTIRE CONTRACT In the ENTIRE CONTRACT section, the first phrase and numbered list are amended to read: The Entire Contract consists of: 1) This contract including any attached riders, amendments, or endorsements; 2) The Application attached to this contract. Benefits will not be reduced or eliminated by any future amendments to our Articles of Incorporation or Bylaws.",
+                "explanation": "By removing '3) The Articles of Incorporation and Bylaws of the Society and all amendments to them', the 'Entire Contract' definition becomes incomplete. This creates an internal contradiction because the contract mentions membership rights being defined in the Articles of Incorporation and Bylaws but then removes them from the entire contract. This creates uncertainty about what constitutes the entire agreement and if membership rights are enforceable.",
+                "location": "Section 'ENTIRE CONTRACT'",
+                "contradicted_location": "Section 'ASSIGNMENT'",
+                "contradicted_text": "ASSIGNMENT The ASSIGNMENT section is amended to include the following: You may transfer ownership of this contract in accordance with our bylaws. Society membership rights and privileges cannot be transferred or assigned."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited. DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be paid in cash. Otherwise, dividends will be applied under the Payment of Premium option unless the Cash option has been chosen in writing. Cash. Dividends are paid in cash. Payment of Premium. Dividends are applied as payment of a Net Premium.",
+                "changed_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited. DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be paid in cash.",
+                "explanation": "By removing 'Otherwise, dividends will be applied under the Payment of Premium option unless the Cash option has been chosen in writing. Cash. Dividends are paid in cash. Payment of Premium. Dividends are applied as payment of a Net Premium.' we create an in-text contradiction, in case a dividend is credited after premiums can no longer be paid under the contract it would have been paid in cash, but it does not specify what happens prior to that. The contract now lacks clarity, what happens when dividend is credited if the premiums can still be paid. ",
+                "location": "Paragraph under 'DIVIDENDS'",
+                "contradicted_location": "Paragraph under 'DIVIDENDS'",
+                "contradicted_text": "DIVIDENDS. Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend. Since we do not expect this contract to contribute to divisible surplus, it is not expected that any dividends will be credited. DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be paid in cash."
+            }
+        ]
+    }
+]

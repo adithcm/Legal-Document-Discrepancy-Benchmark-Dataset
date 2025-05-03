@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will use best efforts to schedule and perform such maintenance between the hours of 8pm and 8am Eastern Standard Time on weekdays, or during weekends.",
+                "changed_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance at its convenience, without prior notice.",
+                "explanation": "The original text states that i-on will use best efforts to schedule maintenance between 8pm and 8am EST on weekdays or weekends, implying a commitment to minimize disruption. The changed text removes this commitment and allows i-on to perform maintenance at any time without notice. This contradicts the earlier statement that i-on will maintain the Hosted Site continuously, creating ambiguity regarding the guaranteed uptime and the extent of permissible interruptions. The contradiction is within the 'SERVICES PROVIDED TO THE CUSTOMER' section, where continuous operation is initially promised, but later undermined by unrestricted maintenance scheduling.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER",
+                "contradicted_location": "SERVICES PROVIDED TO THE CUSTOMER",
+                "contradicted_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of necessary hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site. i-on will schedule and perform such maintenance at its convenience, without prior notice."
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "Under this Agreement, i-on will provide the following limited services for the Hosted Site: 1. connectivity to the Internet via a T1 (that may be shared by other Web sites) to a leading Internet backbone access provider such as UUNET, and reasonable efforts to maintain such connectivity with the phone company and the Internet backbone access provider;",
+                "changed_text": "Under this Agreement, i-on will provide the following limited services for the Hosted Site: 1. connectivity to the Internet via a T1 (that may be shared by other Web sites) to a leading Internet backbone access provider such as UUNET, and will not be responsible for maintaining such connectivity with the phone company and the Internet backbone access provider;",
+                "explanation": "The original text states that i-on will make 'reasonable efforts' to maintain connectivity with the phone company and the Internet backbone access provider. The changed text removes any responsibility for maintaining this connectivity. This introduces ambiguity and contradicts the implicit guarantee of a stable internet connection for the Hosted Site. While i-on is responsible for providing connectivity to the Internet, the removal of the need to maintain it makes the definition of connectivity vague. The contradiction lies within the interpretation of 'connectivity' - is it just providing the initial connection, or also ensuring its ongoing reliability? This impacts the Customer's ability to rely on a consistently functional website.",
+                "location": "SERVICES PROVIDED TO THE CUSTOMER",
+                "contradicted_location": "SERVICES PROVIDED TO THE CUSTOMER",
+                "contradicted_text": "Under this Agreement, i-on will provide the following limited services for the Hosted Site: 1. connectivity to the Internet via a T1 (that may be shared by other Web sites) to a leading Internet backbone access provider such as UUNET, and will not be responsible for maintaining such connectivity with the phone company and the Internet backbone access provider;"
+            },
+            {
+                "type": "Ambiguities - In Text Contradiction",
+                "original_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "changed_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site.",
+                "explanation": "The original text specifies that the customer must pay by the 5th of each month. The modified version changes this to 'within 30 days of receiving the invoice,' creating a contradiction about the exact payment deadline. Additionally, changing 'will' to 'may' regarding service interruption introduces uncertainty about the consequences of late payment. This contradiction affects the enforceability of the payment terms, as the contract now contains conflicting deadlines. The contradiction is rooted in the 'RESPONSIBILITIES OF THE CUSTOMER' section, where the payment terms are explicitly defined.",
+                "location": "RESPONSIBILITIES OF THE CUSTOMER",
+                "contradicted_location": "RESPONSIBILITIES OF THE CUSTOMER",
+                "contradicted_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees within 30 days of receiving the invoice. The Customer acknowledges that failure to pay such fees in a timely manner may result in the interruption or discontinuation of services for the Hosted Site."
+            }
+        ]
+    }
+]

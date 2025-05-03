@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "As used in this Agreement, the term \"Web site\" shall mean a computer system intended to be accessed through the World Wide Web segment of the Internet, including software and content intended to be viewed and/or operated upon by persons accessing the computer system via the Internet. A Web site may exist on a single computer system with other Web sites. The term \"Hosted Site\" shall mean the Web site of the Customer that is hosted by i-on under the terms and conditions of this Agreement.",
+                "changed_text": "As used in this Agreement, the term \"Web site\" shall mean a collection of interconnected webpages residing on the internet. A Web site may exist on a single computer system with other Web sites. The term \"Hosted Site\" shall mean the online portal of the Customer that is hosted by i-on under the terms and conditions of this Agreement.",
+                "explanation": "The definition of \"Web site\" is changed from a \"computer system\" to \"a collection of interconnected webpages.\" Also the definition of \"Hosted Site\" is changed from the Web Site of the customer to the online portal of the customer. This creates a contradiction because later in the agreement, the document refers to the \"Hosted Site\" in the context of computer storage and hardware maintenance. Changing 'Web site' to interconnected webpages means that this definition will be innacurate for other segments of the contract.",
+                "location": "DEFINITIONS",
+                "contradicted_location": "SERVICES PROVIDED TO THE CUSTOMER",
+                "contradicted_text": "i-on will maintain the operation of the Hosted Site continuously, twenty-four (24) hours per day, seven (7) days per week, including holidays, with the exception of reasonable hardware and software maintenance that must be performed on the Hosting Computer and/or the Hosted Site."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The Customer is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "changed_text": "The Customer is responsible for paying i-on the recurring monthly fee in the amount of $450. The subscriber is responsible for paying the recurring monthly fees by the 5th day of each month beginning in April 1, 1999. The Customer acknowledges that failure to pay such fees in a timely manner will result in the interruption or discontinuation of services for the Hosted Site.",
+                "explanation": "The term \"Customer\" is replaced with \"subscriber\" for one instance. This introduces ambiguity as to who is responsible for payments, creating an in-text contradiction with other locations where only 'Customer' is mentioned. The contradiction arises because it's unclear if 'Customer' and 'Subscriber' refer to the same entity.",
+                "location": "RESPONSIBILITIES OF THE CUSTOMER",
+                "contradicted_location": "LIMITATION OF LIABILITY",
+                "contradicted_text": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees."
+            },
+            {
+                "type": "Misaligned Terminology - In Text Contradiction",
+                "original_text": "The Customer acknowledges that the Internet is an unreliable, unsecured, and error-prone network and agrees to hold i-on harmless for any interruptions in service to the Hosted Site or inability for users to reach or effectively use the Hosted Site that arises outside the scope of i-on's responsibilities as explicitly described in this Agreement. The Customer acknowledges that data loss is a possibility, even with mirrored computer storage and archival backup of such storage as provided by i-on per this Agreement, and agrees to hold i-on harmless for any such data loss for the Hosted Site, provided that i-on maintains reasonable steps as described in this Agreement to protect against such data loss.",
+                "changed_text": "The Client acknowledges that the Internet is an unreliable, unsecured, and error-prone network and agrees to hold i-on harmless for any interruptions in service to the Hosted Site or inability for users to reach or effectively use the Hosted Site that arises outside the scope of i-on's responsibilities as explicitly described in this Agreement. The Customer acknowledges that data loss is a possibility, even with mirrored computer storage and archival backup of such storage as provided by i-on per this Agreement, and agrees to hold i-on harmless for any such data loss for the Hosted Site, provided that i-on maintains reasonable steps as described in this Agreement to protect against such data loss.",
+                "explanation": "Changing \"Customer\" to \"Client\" creates a misaligned terminology. The contradiction lies in the fact that it's not defined if \"Client\" is the same as \"Customer\". This impacts the allocation of risk, because if they are not the same, then the liabilities change and could potentially affect the indemnification clause.",
+                "location": "CONDITIONS OF SERVICE",
+                "contradicted_location": "INDEMNIFICATION",
+                "contradicted_text": "The Customer agrees to indemnify and hold harmless i-on, against any lawsuits, claims, damages, or liabilities (or actions or proceedings in respect thereof) to which i-on may become subject related to or arising out of Customer's use of i-on's services, and will reimburse i-on for all legal and other expenses, including attorney's fees, incurred in connection with investigating, defending, or settling any such loss, claim, damage, liability, action, or proceeding whether or not in connection with pending or threatened litigation in which i-on is a party."
+            }
+        ]
+    }
+]

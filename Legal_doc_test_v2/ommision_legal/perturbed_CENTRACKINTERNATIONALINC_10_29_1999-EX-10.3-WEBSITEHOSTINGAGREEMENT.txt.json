@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEBSITEHOSTINGAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "i-on will not be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages. i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
+                "changed_text": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
+                "explanation": "The original text contains a clause limiting liability for consequential damages. By removing the first sentence, 'i-on will not be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages,' the contract becomes ambiguous regarding consequential damages, which may be subject to certain limitations or waivers under Florida law, but not a complete bar. This creates a legal risk and increases the uncertainty for the customer in case of a dispute.",
+                "contradicted_law": "Florida Statutes § 672.719(3)",
+                "law_citation": "§ 672.719(3)",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0672/Sections/0672.719.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2021/title-xxxix/chapter-672/672-719/"
+                ],
+                "law_explanation": "Florida Statutes § 672.719(3) states that limitation of consequential damages for injury to the person in the case of consumer goods is prima facie unconscionable but limitation of damages where the loss is commercial is not. By removing the blanket waiver of liability for consequential damages, the contract opens up the possibility for such damages, and places it in compliance with this statute's allowance for such recovery in specific cases, but it is still an omission because it does not specify the exact conditions or allowable recovery.",
+                "location": "Limitation of Liability"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "CONDITIONS OF SERVICE The Customer acknowledges that the Internet is an unreliable, unsecured, and error-prone network and agrees to hold i-on harmless for any interruptions in service to the Hosted Site or inability for users to reach or effectively use the Hosted Site that arises outside the scope of i-on's responsibilities as explicitly described in this Agreement. The Customer acknowledges that data loss is a possibility, even with mirrored computer storage and archival backup of such storage as provided by i-on per this Agreement, and agrees to hold i-on harmless for any such data loss for the Hosted Site, provided that i-on maintains reasonable steps as described in this Agreement to protect against such data loss.",
+                "changed_text": "CONDITIONS OF SERVICE The Customer acknowledges that the Internet is an unreliable, unsecured, and error-prone network and agrees to hold i-on harmless for any interruptions in service to the Hosted Site or inability for users to reach or effectively use the Hosted Site that arises outside the scope of i-on's responsibilities as explicitly described in this Agreement. The Customer acknowledges that data loss is a possibility, even with mirrored computer storage and archival backup of such storage as provided by i-on per this Agreement, and agrees to hold i-on harmless for any such data loss for the Hosted Site.",
+                "explanation": "By removing the phrase 'provided that i-on maintains reasonable steps as described in this Agreement to protect against such data loss', the contract no longer explicitly requires i-on to take reasonable steps to protect against data loss, making the customer's agreement to hold i-on harmless unconditional. This potentially contradicts Florida's implied duty of good faith and fair dealing in contracts.",
+                "contradicted_law": "Florida Statute - Implied Duty of Good Faith and Fair Dealing",
+                "law_citation": "Florida law recognizes an implied covenant of good faith and fair dealing in every contract. ",
+                "law_url1": [
+                    "https://law.justia.com/cases/federal/appellate-courts/ca11/17-13119/17-13119-2018-09-14.html"
+                ],
+                "law_url2": [
+                    "https://casetext.com/case/jenkins-v-wells-fargo-bank-na-1"
+                ],
+                "law_explanation": "Florida law recognizes an implied covenant of good faith and fair dealing in every contract. While not explicitly codified as a single statute, the principle is well-established in Florida case law. Omitting the requirement for 'reasonable steps' suggests a potential breach of this implied duty, as it could be argued that i-on is not acting in good faith to protect the customer's data.",
+                "location": "Conditions of Service"
+            },
+            {
+                "type": "Omissions - Omission Legal Contradiction",
+                "original_text": "The Customer is responsible for any and all software programs, server-side scripts, and/or executable components that are installed on the Hosting Computer for the purpose of providing interactive applications or dynamic content on the Hosted Site. Any such programs, scripts, or components that might affect the stability of the Hosting Computer or interfere with other Web sites on the Hosting Computer must be approved by i-on before being installed on the Hosted Site, i-on reserves the right to deny the Customer permission to install any such programs, scripts, or components, to require additional fees for the installation and/or ongoing operation of any such programs, scripts, or components, or to remove any such programs, scripts, or components, if in i-on's sole discretion they will interfere with the operation of the Hosting Computer or exceed the Customer's monthly allocation of Web administration services.",
+                "changed_text": "The Customer is responsible for any and all software programs, server-side scripts, and/or executable components that are installed on the Hosting Computer for the purpose of providing interactive applications or dynamic content on the Hosted Site. i-on reserves the right to deny the Customer permission to install any such programs, scripts, or components, to require additional fees for the installation and/or ongoing operation of any such programs, scripts, or components, or to remove any such programs, scripts, or components, if in i-on's sole discretion they will interfere with the operation of the Hosting Computer or exceed the Customer's monthly allocation of Web administration services.",
+                "explanation": "By removing the sentence 'Any such programs, scripts, or components that might affect the stability of the Hosting Computer or interfere with other Web sites on the Hosting Computer must be approved by i-on before being installed on the Hosted Site,' the contract removes i-on's obligation to approve the programs before they are installed by the customer. This can potentially lead to security breaches and violations, which could make the company liable.",
+                "contradicted_law": "Florida Statutes § 501.171",
+                "law_citation": "§ 501.171",
+                "law_url1": [
+                    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.171.html"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/florida/2022/title-xxxiii/chapter-501/part-i/section-501.171/"
+                ],
+                "law_explanation": "Although § 501.171 primarily deals with data breaches, failure to require approval for software installation could potentially increase the risk of a breach, thereby raising concerns about compliance with Florida's data security laws. The original clause requiring approval acted as a safeguard that the modified clause removes.",
+                "location": "Responsibilities of the Customer"
+            }
+        ]
+    }
+]

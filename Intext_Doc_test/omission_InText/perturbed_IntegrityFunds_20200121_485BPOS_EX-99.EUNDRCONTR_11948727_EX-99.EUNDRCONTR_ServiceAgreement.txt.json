@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "IntegrityFunds_20200121_485BPOS_EX-99.EUNDRCONTR_11948727_EX-99.EUNDRCONTR_ServiceAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Integrity may allow commissions or concessions to dealers in such amounts as Integrity shall determine from time to time, as set forth in the Fund's Registration Statement. Except as may otherwise be determined by Integrity and the Fund from time to time, such commissions or concessions shall be uniform to all dealers. Shares sold to dealers shall be for resale by such dealers only at the public offering price(s) set forth in the Fund's then current Registration Statement.",
+                "changed_text": "Integrity may allow commissions or concessions to dealers in such amounts as Integrity shall determine from time to time. Shares sold to dealers shall be for resale by such dealers only at the public offering price(s) set forth in the Fund's then current Registration Statement.",
+                "explanation": "The phrase 'as set forth in the Fund's Registration Statement' and 'Except as may otherwise be determined by Integrity and the Fund from time to time, such commissions or concessions shall be uniform to all dealers' has been removed. While the contract still mentions commissions and concessions, it no longer specifies that such amounts must be detailed in the Fund's Registration Statement or they should be uniform to all dealers. This omission creates an in-text contradiction, or at the very least uncertainty, as other sections might reference the Registration Statement for commission details, which may now be missing or non-uniform due to this modification. This undermines the transparency and standardization that the registration statement is supposed to ensure.",
+                "location": "Section 1.6",
+                "contradicted_location": "Section 1.7",
+                "contradicted_text": "In consideration of the services rendered pursuant to this Agreement, Integrity shall receive the excess, if any, of the sales price, as set forth in the Fund's Registration Statement, over the net asset value of Shares sold by Integrity, as underwriter. The Fund shall also pay Integrity any distribution and/or service fees applicable to the Shares as authorized by the Shareholder Services Plan (the \"Plan\") adopted by the Fund under Rule 12b-1 of the Investment Company Act of 1940 and set forth in the Fund's Registration Statement. Such fees shall be payable in the manner and terms set forth in the Plan."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "The Fund shall also pay Integrity any distribution and/or service fees applicable to the Shares as authorized by the Shareholder Services Plan (the \"Plan\") adopted by the Fund under Rule 12b-1 of the Investment Company Act of 1940 and set forth in the Fund's Registration Statement. Such fees shall be payable in the manner and terms set forth in the Plan.",
+                "changed_text": "The Fund shall also pay Integrity any distribution and/or service fees applicable to the Shares as authorized by the Shareholder Services Plan (the \"Plan\") adopted by the Fund under Rule 12b-1 of the Investment Company Act of 1940. Such fees shall be payable in the manner and terms set forth in the Plan.",
+                "explanation": "By removing the text 'and set forth in the Fund's Registration Statement' from Section 1.7, the section no longer specifies that the distribution and/or services fees are outlined in the Fund's Registration Statement. This creates a contradiction in the enforcement of this section, as Integrity now does not have an obligation to set the distribution fees in Fund's Registration Statement. There is now an inconsistency within the agreement.",
+                "location": "Section 1.7",
+                "contradicted_location": "Section 2.3",
+                "contradicted_text": "The Fund shall pay to Integrity, as set forth in the Registration Statement, any distribution and service fee authorized by the Plan."
+            },
+            {
+                "type": "Omissions - In Text Contradiction",
+                "original_text": "Integrity agrees to notify the Fund promptly of the commencement of any litigation or proceedings against Integrity or any of its officers or governors in connection with the issuance and sale of any Shares.",
+                "changed_text": "Integrity agrees to notify the Fund of the commencement of any litigation or proceedings against Integrity in connection with the issuance and sale of any Shares.",
+                "explanation": "The text 'or any of its officers or governors' was removed from this section. The agreement states that 'Integrity agrees to notify the Fund of the commencement of any litigation or proceedings against Integrity'. Due to this removal there is a contradiction that the Fund must be notified if litigation occurs against Integrity officers or governors, but the agreement clearly states that litigation must only be notified if it is against Integrity and not its officers or governors. Thus, the agreement is contradicting and undermines its integrity.",
+                "location": "Section 4.2",
+                "contradicted_location": "Section 8.1",
+                "contradicted_text": "The Fund recognizes that governors, officers, and employees of Integrity may from time to time serve as directors, officers, and employees of corporations and business trusts (including other investment companies) and that Integrity or its affiliates may enter into distribution or other agreements with such other corporations and trusts."
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_FranchiseAgreement3.txt",
+        "perturbation": [
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "changed_text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of five (5) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement; (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination); (c) termination of Member's employment with Franchisee; and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement; either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+                "explanation": "Increasing the non-compete period to five years may be considered unreasonable and unenforceable under California law, especially without specific justification related to trade secrets or confidential information. California law highly disfavors non-compete agreements.",
+                "contradicted_law": "California Business and Professions Code Section 16600",
+                "law_citation": "Cal. Bus. & Prof. Code § 16600",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16600"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/california/2022/code-bpc/division-7/part-4/chapter-1/section-16600/"
+                ],
+                "law_explanation": "California Business and Professions Code Section 16600 generally invalidates non-compete agreements. While narrow exceptions exist (e.g., sale of a business), a blanket 5-year non-compete is likely overbroad and unenforceable in California, especially considering the lack of explicit justification. The original two year non-compete may also be unenforceable but a five year term is significantly more suspect.",
+                "location": "2(d)"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information\") is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the time of the disclosure to Member, had become a part of the public domain.",
+                "changed_text": "Member shall not, during the term of the Franchise Agreement, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information\") is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member; or which, at the time of the disclosure to Member, had become a part of the public domain.",
+                "explanation": "Removing the phrase \"or thereafter\" limits the confidentiality obligation to only during the term of the Franchise Agreement. This could conflict with the inevitable disclosure doctrine or trade secret laws, which often protect confidential information even after employment ends, especially in states like California.",
+                "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+                "law_citation": "Cal. Civ. Code § 3426",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3426"
+                ],
+                "law_url2": [
+                    "https://casetext.com/statute/california-codes/california-civil-code/part-4-miscellaneous-provisions/title-5-uniform-trade-secrets-act/section-3426-action-for-misappropriation-injunction"
+                ],
+                "law_explanation": "The California Uniform Trade Secrets Act (CUTSA) provides protection for trade secrets. Removing the 'thereafter' clause could be interpreted as a waiver of rights to protect trade secrets after the franchise agreement term, potentially conflicting with CUTSA's intent to prevent misappropriation of trade secrets even after a relationship ends. By only restricting confidentiality 'during the term,' the contract is in conflict with the post-term protections afforded by CUTSA.",
+                "location": "1"
+            },
+            {
+                "type": "Inconsistencies - Legal Contradiction",
+                "original_text": "Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "changed_text": "Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and attorney's fees, regardless of reasonableness, incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+                "explanation": "Removing the term 'reasonable' from 'attorney's fees' and stating 'regardless of reasonableness' attempts to circumvent the court's oversight regarding the fairness and justification of attorney's fees awarded. Courts typically review attorney's fees to ensure they are reasonable and proportionate, and this clause attempts to prevent such a review.",
+                "contradicted_law": "California Code of Civil Procedure Section 1033.5(c)(1)",
+                "law_citation": "Cal. Code Civ. Proc. § 1033.5(c)(1)",
+                "law_url1": [
+                    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1033.5"
+                ],
+                "law_url2": [
+                    "https://law.justia.com/codes/california/2005/ccp/1032-1039.5.html"
+                ],
+                "law_explanation": "California Code of Civil Procedure Section 1033.5(c)(1) implies that attorney's fees must be reasonable to be recoverable as costs. By stating that attorney's fees are recoverable 'regardless of reasonableness,' the modified clause conflicts with the court's inherent power and duty to assess the reasonableness of such fees before awarding them. This attempts to contractually bypass the court's oversight, which is against public policy.",
+                "location": "3"
+            }
+        ]
+    }
+]

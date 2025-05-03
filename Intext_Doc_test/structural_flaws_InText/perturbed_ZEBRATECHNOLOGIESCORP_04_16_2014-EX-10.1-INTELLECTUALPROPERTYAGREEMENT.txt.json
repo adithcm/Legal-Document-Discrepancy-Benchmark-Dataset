@@ -1,0 +1,34 @@
+[
+    {
+        "file_name": "ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUALPROPERTYAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "(i) Assigned Copyrights, Assigned Copyright Materials, Assigned Patents, Assigned Know-How, Assigned Software, Assigned Trademarks, and Assigned Other IP; and (ii) any other Intellectual Property that is owned by any Seller Party as of the Initial Closing Date and that (a) is Formerly Owned by the Business, or (b) is or was used exclusively in connection with the Business on or prior to the Initial Closing Date.",
+                "changed_text": "(i) Assigned Copyrights, Assigned Copyright Materials, Assigned Patents, Assigned Know-How, Assigned Software, Assigned Trademarks, and Assigned Other IP; and (ii) any other Intellectual Property that is owned by any Seller Party as of the Initial Closing Date and that (a) is Formerly Owned by the Business, or (b) is or was used in connection with the Business on or prior to the Initial Closing Date.",
+                "explanation": "By changing 'exclusively' to 'in connection' with the Business, it creates ambiguity. The original text specifies that assigned IP includes intellectual property used *exclusively* for the Business. The changed text broadens this to include IP used *in connection with* the Business, which could include IP also used for other purposes. This contradicts the intention of a clear separation of IP, creating potential disputes over ownership or licensing rights, as a term is now in multiple locations with conflicting implications.",
+                "location": "Section 1.1(i)",
+                "contradicted_location": "Section 1.1(i)",
+                "contradicted_text": "(i) \"Assigned IP\" means: (i) Assigned Copyrights, Assigned Copyright Materials, Assigned Patents, Assigned Know-How, Assigned Software, Assigned Trademarks, and Assigned Other IP; and (ii) any other Intellectual Property that is owned by any Seller Party as of the Initial Closing Date and that (a) is Formerly Owned by the Business, or (b) is or was used in connection with the Business on or prior to the Initial Closing Date."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "The arbitration shall be administered by JAMS pursuant to JAMS' Streamlined Arbitration Rules and Procedures, as those Rules may be amended by written agreement of the parties.",
+                "changed_text": "The arbitration shall be administered by JAMS and the decision made will be final and non-appealable. The arbitration will be governed by the laws of Delaware.",
+                "explanation": "The change here removes the clause allowing the parties to agree to amend the JAMS Streamlined Arbitration Rules. Removing the option to amend the arbitration rules could contradict other provisions in the contract that allow for flexibility and mutual agreement, creating uncertainty about the arbitration process and enforcement, since a clause is now in multiple locations with conflicting implications.",
+                "location": "Section 2.1(b)(iii)(F)",
+                "contradicted_location": "Section 6.10",
+                "contradicted_text": "Section 6.10 Amendment. The parties may amend this IP Agreement only by a written agreement signed by the parties and that identifies itself as an amendment to this IP Agreement."
+            },
+            {
+                "type": "Structural Flaws - In Text Contradiction",
+                "original_text": "Each of the parties acknowledges and agrees that the licenses granted hereunder (i) are irrevocable and (ii) may not be terminated for any reason (even in the event of a material breach), except that (a) with respect to Licensed IP that constitutes Third-Party Intellectual Property, solely as provided in Section 2.4(a), (b) with respect to a particular Patent licensed under this IP Agreement, the license granted to such Patent shall automatically terminate upon the expiration of the statutory term (including all extensions",
+                "changed_text": "Each of the parties acknowledges and agrees that the licenses granted hereunder (i) are revocable and (ii) may be terminated for any reason (even in the event of a minor breach), except that (a) with respect to Licensed IP that constitutes Third-Party Intellectual Property, solely as provided in Section 2.4(a), (b) with respect to a particular Patent licensed under this IP Agreement, the license granted to such Patent shall automatically terminate upon the expiration of the statutory term (including all extensions",
+                "explanation": "By changing 'irrevocable' to 'revocable' and 'may not be terminated for any reason (even in the event of a material breach)' to 'may be terminated for any reason (even in the event of a minor breach)' creates a direct contradiction that creates uncertainty about the conditions under which the licenses can be terminated.",
+                "location": "Section 4.2",
+                "contradicted_location": "Section 4.2",
+                "contradicted_text": "Each of the parties acknowledges and agrees that the licenses granted hereunder (i) are revocable and (ii) may be terminated for any reason (even in the event of a minor breach), except that (a) with respect to Licensed IP that constitutes Third-Party Intellectual Property, solely as provided in Section 2.4(a), (b) with respect to a particular Patent licensed under this IP Agreement, the license granted to such Patent shall automatically terminate upon the expiration of the statutory term (including all extensions"
+            }
+        ]
+    }
+]

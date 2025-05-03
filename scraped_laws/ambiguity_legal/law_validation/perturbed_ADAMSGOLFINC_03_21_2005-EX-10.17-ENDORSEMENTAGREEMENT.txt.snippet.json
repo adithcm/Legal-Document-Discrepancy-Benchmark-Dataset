@@ -13,8 +13,8 @@
         "law_explanation": "Kansas law, like most states, requires contractual obligations to be clearly defined. The original text establishes a clear obligation for the consultant to grant endorsement rights. The modified text introduces ambiguity, potentially rendering the endorsement clause unenforceable due to a lack of definite agreement on the scope and nature of the endorsement rights granted. This ambiguity undermines the enforceability of the contract, potentially rendering it void or voidable.",
         "location": "Section 3",
         "scraped_snippet": null,
-        "confidence_score": 0.3,
-        "justification": "The explanation relies on a general principle of contract law (definiteness of obligations) rather than a specific statute. While the change does introduce ambiguity, there is no specific Kansas law cited to back up the claim that this renders the contract unenforceable. The lack of a law snippet further weakens the connection."
+        "contradiction_score": 0.7,
+        "justification": "The original text grants an 'exclusive right and license' to ADAMS GOLF, creating a defined and legally binding obligation for the consultant to allow the use of their endorsement. The changed text replaces this with 'opportunity to use,' which introduces a significant ambiguity. While the scraped law snippet is missing, the LLM-generated law explanation states that Kansas law, like most states, requires contractual obligations to be clearly defined. Replacing the grant of an exclusive right with a mere 'opportunity' casts doubt on whether Adams Golf actually possesses the right to use the endorsement, or if further negotiation is required. This ambiguity undermines the definiteness of the agreement, making it potentially unenforceable, and thus contradicts the principle of clear contractual obligations. Therefore, there is a strong contradiction, as the modified clause creates uncertainty where there was previously a clear legal right."
       },
       {
         "type": "Ambiguities - Ambiguous Legal Obligation",
@@ -27,8 +27,8 @@
         "law_explanation": "Kansas law implies a covenant of good faith and fair dealing in every contract. By making the behavior clause so subjective ('in Adams Golf's opinion'), Adams Golf could potentially terminate the contract for arbitrary reasons, violating this covenant. The original text had objective standards that limited Adams Golf's discretion and arbitrary use of the clause.",
         "location": "Section 12",
         "scraped_snippet": null,
-        "confidence_score": 0.75,
-        "justification": "The perturbation explanation accurately reflects a shift from objective to subjective termination criteria. The LLM correctly identifies the potential violation of the implied covenant of good faith and fair dealing, which exists in most jurisdictions, including Kansas. Although no specific statute is provided in the 'Scraped Law Snippet,' the general principle is valid, increasing the likelihood that the modification introduces an ambiguity allowing for bad faith termination. The missing statutory snippet slightly lowers the confidence."
+        "contradiction_score": 0.6,
+        "justification": "The modification significantly weakens the behavior clause, replacing objective criteria with subjective assessments like 'in Adams Golf's opinion' and discretionary actions such as 'may consider taking action.' The original clause provided specific grounds for termination based on actions that could materially reduce the value of the consultant's endorsement, while the changed text grants Adams Golf broad discretion. While there is no scraped law snippet, the Law Explanation correctly identifies that Kansas law implies a covenant of good faith and fair dealing in every contract. The change allows Adams Golf to terminate the contract for arbitrary reasons, potentially violating this implied covenant. Therefore, the revised contract text introduces a potential contradiction with the implied covenant of good faith and fair dealing under Kansas law."
       },
       {
         "type": "Ambiguities - Ambiguous Legal Obligation",
@@ -41,8 +41,8 @@
         "law_explanation": "While Kansas law generally allows for indemnification clauses, the weakened language removes any clear requirement for Adams Golf to indemnify the consultant against damages arising from advertising. The statement 'ADAMS GOLF will try to ensure CONSULANT is not negatively impacted' does not constitute a legally binding indemnification agreement, leaving the CONSULTANT vulnerable to liability without clear contractual protection.",
         "location": "Section 20",
         "scraped_snippet": null,
-        "confidence_score": 0.6,
-        "justification": "The LLM correctly identifies the weakening of the indemnification clause. While no specific statute is cited, the principle of indemnification is a well-established legal concept. The modification replaces a 'shall' obligation with a weaker 'should attempt' and dilutes the indemnification by using the phrase 'try to ensure.' This weakens the legal protection for the consultant. However, the lack of a specific statute lowers the confidence score."
+        "contradiction_score": 0.7,
+        "justification": "The original contract language stipulates a clear process for advertising approval, requiring ADAMS GOLF to submit materials to the CONSULTANT for approval, which could not be unreasonably withheld. It also contained a standard indemnity clause. The changed text significantly weakens these obligations. The 'shall submit...for approval' is replaced with 'should attempt to get feedback,' which is a non-binding suggestion rather than a requirement. The original indemnity clause, which provided clear protection for the CONSULTANT, is replaced with a vague promise that ADAMS GOLF will 'try' to ensure the consultant is not negatively impacted. This does not create a legally binding indemnification agreement, as the original text did. While the scraped law snippet does not directly address indemnity clauses, the change weakens the legal protections afforded to the CONSULTANT under the original agreement, increasing their potential exposure to liability. The Law Explanation accurately notes that the modified language does not constitute a legally binding indemnification agreement."
       }
     ]
   }

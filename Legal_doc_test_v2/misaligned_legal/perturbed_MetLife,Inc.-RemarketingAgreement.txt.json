@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "MetLife,Inc.-RemarketingAgreement.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday or other day on which banking institutions in New York, New York are authorized or required by law or executive order to remain closed.",
+                "changed_text": "As used herein, \"Business Day\" means any day other than a Saturday, Sunday, or other day on which banking institutions in London, England are authorized or required by law or executive order to remain closed.",
+                "explanation": "The contract specifies New York, New York, but the modification changes the location to London, England. Since the governing law is specified as New York, this introduces conflicting definitions of 'Business Day'.",
+                "contradicted_law": "New York General Construction Law § 24",
+                "law_citation": "NY Gen Con Law § 24",
+                "law_url1": [
+                    "https://law.justia.com/codes/new-york/general-construction-law/article-2/24/"
+                ],
+                "law_url2": [
+                    "https://www.nysenate.gov/legislation/laws/GCN/24"
+                ],
+                "law_explanation": "New York General Construction Law § 24 defines legal holidays and half-holidays which affect business days in New York. Changing the reference to London introduces a conflicting standard for determining business days, potentially invalidating clauses dependent on this definition under New York law.",
+                "location": "Definition Section"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "This Remarketing Agreement and the Pricing Agreement may be executed by any one or more of the parties hereto and thereto in any number of counterparts, each of which shall be deemed to be an original, but all such counterparts shall together constitute one and the same instrument.",
+                "changed_text": "This Remarketing Agreement and the Pricing Agreement may be executed by any one or more of the parties hereto and thereto in any number of copies, each of which shall be deemed to be a duplicate, but all such copies shall together constitute one and the same instrument.",
+                "explanation": "Changing 'counterparts' to 'copies' and 'original' to 'duplicate' creates a legal ambiguity. Under New York law, 'counterpart' carries specific legal weight regarding contract execution and enforceability, while 'copy' and 'duplicate' may imply less formal agreements, potentially undermining the contract's validity.",
+                "contradicted_law": "New York Estates, Powers and Trusts Law § 3-2.1",
+                "law_citation": "NY EPTL § 3-2.1",
+                "law_url1": [
+                    "https://law.justia.com/codes/new-york/estates-powers-and-trusts-law/article-3/3-2.1/"
+                ],
+                "law_url2": [
+                    "https://www.nysenate.gov/legislation/laws/EPT/3-2.1"
+                ],
+                "law_explanation": "Although EPTL 3-2.1 concerns wills, the principle of 'original' vs. 'copy' is pertinent to contract law. Substituting 'original' with 'duplicate' and 'counterpart' with 'copy' may create ambiguity about the authentic and legally binding nature of the agreement, similar to how wills require specific execution formalities. New York law recognizes counterparts as original agreements while copies might require additional authentication.",
+                "location": "Section 18"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "The Company has filed with the Securities and Exchange Commission (the \"Commission\") a registration statement on Form S-3 (No. 333-192366) under the Securities Act of 1933, as amended (the \"Act\"), which has become effective covering, inter alia, the Remarketing of the Remarketed Securities.",
+                "changed_text": "The Company has filed with the Securities and Exchange Commission (the \"Commission\") a registration statement on Form S-1 (No. 333-192366) under the Securities Act of 1933, as amended (the \"Act\"), which has become effective covering, inter alia, the Remarketing of the Remarketed Securities.",
+                "explanation": "Changing 'Form S-3' to 'Form S-1' introduces a contradiction because Form S-3 is for well-established companies, while Form S-1 is generally for initial public offerings or companies that don't meet the requirements for S-3. This misrepresentation about the company's eligibility could create legal issues.",
+                "contradicted_law": "Securities Act of 1933, Rule 405",
+                "law_citation": "17 CFR § 230.405",
+                "law_url1": [
+                    "https://www.law.cornell.edu/cfr/text/17/230.405"
+                ],
+                "law_url2": [
+                    "https://ecfr.federalregister.gov/current/title-17/chapter-II/part-230/section-230.405"
+                ],
+                "law_explanation": "Rule 405 defines 'ineligible issuer' and outlines criteria for different registration forms. Filing on Form S-1 when the company represented it used Form S-3 would likely violate securities regulations, as the company's eligibility for streamlined registration (S-3) is a material fact. Misrepresenting this fact could expose the company to liability under the Securities Act.",
+                "location": "Section 2(a)"
+            }
+        ]
+    }
+]

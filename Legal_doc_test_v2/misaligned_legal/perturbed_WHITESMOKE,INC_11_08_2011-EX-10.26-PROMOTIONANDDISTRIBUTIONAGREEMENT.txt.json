@@ -1,0 +1,55 @@
+[
+    {
+        "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTIONANDDISTRIBUTIONAGREEMENT.txt",
+        "perturbation": [
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "In this Agreement, \"Confidential Information\" means information disclosed by (or on behalf of) one party to the other party under this Agreement that is marked as confidential or, from its nature, content or the circumstances in which it is disclosed, might reasonably be supposed to be confidential, including the terms and conditions (including the Exhibits) of this Agreement. It does not include information that the recipient already knew, that becomes public through no fault of the recipient, that was independently developed by the recipient or that was lawfully given to the recipient by a third party.",
+                "changed_text": "In this Agreement, \"Confidential Information\" means information disclosed by (or on behalf of) one party to the other party under this Agreement, regardless of whether it is marked as confidential or, from its nature, content or the circumstances in which it is disclosed, might reasonably be supposed to be confidential, including the terms and conditions (including the Exhibits) of this Agreement. It does not include information that the recipient already knew and that becomes public regardless of fault of the recipient, that was independently developed by the recipient or that was lawfully given to the recipient by a third party.",
+                "explanation": "The modified text broadens the definition of 'Confidential Information' by removing the requirement for it to be 'marked as confidential' or 'reasonably supposed to be confidential', making it encompass virtually any information disclosed, regardless of its inherent nature or context of disclosure. It also changes 'through no fault of the recipient' to 'regardless of fault of the recipient'. This contradicts standard legal interpretations of confidentiality, which generally require a reasonable expectation of privacy or explicit designation of confidentiality.",
+                "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+                "law_citation": "UTSA § 1(4)",
+                "law_url1": [
+                    "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ca9e4f97-9c72-4648-8621-e8cffe534c17&forceDialog=0"
+                ],
+                "law_url2": [
+                    "https://smallbusiness.findlaw.com/intellectual-property/trade-secret-definition.html"
+                ],
+                "law_explanation": "The UTSA defines a trade secret as information that derives independent economic value from not being generally known or readily ascertainable by proper means and is the subject of efforts that are reasonable under the circumstances to maintain its secrecy. The modified definition in the contract eliminates the requirements for reasonable efforts to maintain secrecy and that the information must derive independent economic value from not being generally known. Therefore, it is in contradiction with the UTSA definition of trade secrets.",
+                "location": "Clause 6.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "\"EULA\" means the end user license agreement applicable to a Product, which end user license agreement may be updated or modified by Google in its sole discretion from time to time.",
+                "changed_text": "\"EULA\" means the end user license agreement applicable to a Product, which end user license agreement may be updated or modified by Google at the distributor's discretion from time to time.",
+                "explanation": "The modified text states Google's EULA can be modified by the distributor. This contradicts common legal understanding and practice, which dictates that the creator or owner of a software or product (in this case, Google) has the right to set and modify the EULA, not the distributor. It introduces uncertainty, because it is unlikely that Google will let the distributor update the EULA.",
+                "contradicted_law": "Copyright Act of 1976",
+                "law_citation": "17 U.S. Code § 106",
+                "law_url1": [
+                    "https://www.copyright.gov/title17/92chap1.html"
+                ],
+                "law_url2": [
+                    "https://www.law.cornell.edu/topn/copyright_act_of_1976"
+                ],
+                "law_explanation": "The Copyright Act grants exclusive rights to the copyright holder, including the right to control distribution and create derivative works. By allowing the distributor to modify the EULA, the contract infringes upon Google's exclusive rights as the copyright holder of the software, since the EULA governs the terms of use and distribution of the copyrighted material. This is a contradiction, as a distributor cannot unilaterally alter the terms set by the copyright owner.",
+                "location": "1.1"
+            },
+            {
+                "type": "Misaligned Terminology - Legal Contradiction",
+                "original_text": "Subject to Clause 9.1, this Agreement sets out all terms agreed between the parties in relation to its subject matter and supersedes all previous agreements between the parties relating to the same. In entering into this Agreement neither party has relied on any statement, representation or warranty not expressly set out in this Agreement.",
+                "changed_text": "Subject to Clause 9.1, this Agreement sets out some of the terms agreed between the parties in relation to its subject matter and supersedes all previous agreements between the parties relating to the same. In entering into this Agreement neither party has relied on any statement, representation or warranty not expressly set out in this Agreement.",
+                "explanation": "By changing 'all terms' to 'some of the terms', the modified text introduces ambiguity as to whether the written agreement encompasses the entirety of the understanding between Whitesmoke and Google. This conflicts with the parol evidence rule.",
+                "contradicted_law": "Parol Evidence Rule",
+                "law_citation": "Restatement (Second) of Contracts § 213",
+                "law_url1": [
+                    "https://www.law.cornell.edu/wex/parol_evidence_rule"
+                ],
+                "law_url2": [
+                    "https://www.law.uh.edu/faculty/jclark/contracts/parol%20evidence.pdf"
+                ],
+                "law_explanation": "The parol evidence rule generally prevents parties from introducing evidence of prior or contemporaneous agreements to contradict, vary, or add to the terms of a fully integrated written contract. By suggesting that not all terms are included, the changed text undermines the agreement's intended integration, potentially allowing external evidence to alter its interpretation, directly conflicting with the parol evidence rule's purpose of maintaining contractual certainty.",
+                "location": "Clause 11.12"
+            }
+        ]
+    }
+]
